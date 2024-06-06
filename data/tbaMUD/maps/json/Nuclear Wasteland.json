@@ -902,6 +902,92 @@
           "South": 1895
         }
       }
+    ],
+    "Objects": [
+      {
+        "Id": 1803,
+        "Name": "key",
+        "ShortDescription": "a password key",
+        "Description": "A key with a password written on it is lying here.",
+        "ItemType": "Key",
+        "WearFlags": "Take, Hold",
+        "ExtraFlags": "Glow, NoRent",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 1,
+        "Cost": 10,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": []
+      },
+      {
+        "Id": 1804,
+        "Name": "key card",
+        "ShortDescription": "a key card",
+        "Description": "An electronic key card is hidden here",
+        "ItemType": "Key",
+        "WearFlags": "Take, Hold",
+        "ExtraFlags": "Glow, NoRent, NoDonate",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 1,
+        "Cost": 10,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": []
+      },
+      {
+        "Id": 1805,
+        "Name": "battle rifle",
+        "ShortDescription": "a battle rifle",
+        "Description": "A wicked looking rifle is lying here.",
+        "ItemType": "Weapon",
+        "WearFlags": "Take, Wield, Hold",
+        "ExtraFlags": "MagicUser, Cleric",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 5,
+        "Value3": 6,
+        "Value4": 12,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 10,
+        "Cost": 1000,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": [
+          {
+            "EffectBitType": "Object",
+            "EffectType": "HitRoll",
+            "Modifier": 2
+          }
+        ]
+      }
     ]
   },
   "BuildOptions": {

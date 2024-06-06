@@ -360,6 +360,273 @@
           "West": 4206
         }
       }
+    ],
+    "Objects": [
+      {
+        "Id": 4200,
+        "Name": "key",
+        "ShortDescription": "a Prison Key",
+        "Description": "A prison key is hanging on a peg here.",
+        "ItemType": "Key",
+        "WearFlags": "Take, Hold",
+        "ExtraFlags": "NoRent",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 3,
+        "Cost": 150,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": []
+      },
+      {
+        "Id": 4201,
+        "Name": "egg dragons dragon ",
+        "ShortDescription": "a Dragon Egg",
+        "Description": "A Dragon Egg is sitting here",
+        "ItemType": "Light",
+        "WearFlags": "Take, Hold",
+        "ExtraFlags": "Glow, Magic",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 5,
+        "Cost": 250,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": [
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Strength",
+            "Modifier": 1
+          },
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Constitution",
+            "Modifier": 1
+          }
+        ]
+      },
+      {
+        "Id": 4202,
+        "Name": "key golden",
+        "ShortDescription": "a Golden Key",
+        "Description": "A glimmering golden key is lying here.",
+        "ItemType": "Key",
+        "WearFlags": "Take",
+        "ExtraFlags": "Glow, NoRent",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 1,
+        "Cost": 400,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": []
+      },
+      {
+        "Id": 4203,
+        "Name": "sword dragon dragynblade",
+        "ShortDescription": "the Dragynblade",
+        "Description": "A sword with a dragon curled along the pommel is sticking out of the ground.",
+        "ItemType": "Weapon",
+        "WearFlags": "Take, Wield",
+        "ExtraFlags": "Magic, AntiGood",
+        "AffectedByFlags": [
+          "ProtectEvil"
+        ],
+        "Value1": 6,
+        "Value2": 8,
+        "Value3": 4,
+        "Value4": 3,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 5,
+        "Cost": 1000,
+        "Condition": 0,
+        "ExtraKeyword": "dragynsword dragon sword",
+        "ExtraDescription": "   The dragon on the pommel seems strangely alive, almost as if it could attackyou at any second...",
+        "Effects": [
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Hit",
+            "Modifier": -20
+          },
+          {
+            "EffectBitType": "Object",
+            "EffectType": "HitRoll",
+            "Modifier": 3
+          },
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Ac",
+            "Modifier": 10
+          }
+        ]
+      },
+      {
+        "Id": 4204,
+        "Name": "mop",
+        "ShortDescription": "a mop",
+        "Description": "A mop is lying on the floor here.",
+        "ItemType": "Weapon",
+        "WearFlags": "Take, Wield",
+        "ExtraFlags": "Magic",
+        "AffectedByFlags": [],
+        "Value1": 4,
+        "Value2": 3,
+        "Value3": 6,
+        "Value4": 7,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 3,
+        "Cost": 15,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": [
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Charisma",
+            "Modifier": -1
+          }
+        ]
+      },
+      {
+        "Id": 4205,
+        "Name": "dragon scale dragonscale",
+        "ShortDescription": "a dragonscale",
+        "Description": "A dragonscale lies on the ground here, shimmering slightly.",
+        "ItemType": "Other",
+        "WearFlags": "Take, Hold",
+        "ExtraFlags": "Glow, Magic",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 5,
+        "Cost": 50,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": [
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Intelligence",
+            "Modifier": 1
+          },
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Wisdom",
+            "Modifier": 1
+          }
+        ]
+      },
+      {
+        "Id": 4206,
+        "Name": "dragonscale king scale",
+        "ShortDescription": "the scale of the Dragon King",
+        "Description": "A bright red dragonscale lies here, glowing with some internal fire.",
+        "ItemType": "Armor",
+        "WearFlags": "Take, Shield",
+        "ExtraFlags": "Magic",
+        "AffectedByFlags": [],
+        "Value1": 5,
+        "Value2": 0,
+        "Value3": 0,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 10,
+        "Cost": 100,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": [
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Intelligence",
+            "Modifier": 2
+          },
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Wisdom",
+            "Modifier": 2
+          }
+        ]
+      },
+      {
+        "Id": 4207,
+        "Name": "pile coins",
+        "ShortDescription": "a huge pile of coins",
+        "Description": "A huge pile of coins is lying in a heap here.",
+        "ItemType": "Money",
+        "WearFlags": "Take",
+        "ExtraFlags": "None",
+        "AffectedByFlags": [],
+        "Value1": 1000,
+        "Value2": 0,
+        "Value3": 0,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 5,
+        "Cost": 1,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": []
+      }
     ]
   },
   "BuildOptions": {

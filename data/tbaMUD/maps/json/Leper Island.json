@@ -867,6 +867,244 @@
           "West": 31281
         }
       }
+    ],
+    "Objects": [
+      {
+        "Id": 31200,
+        "Name": "crude sign",
+        "ShortDescription": "a crude sign",
+        "Description": "A sign made from jungle bark has been erected by the side of the path.",
+        "ItemType": "Other",
+        "WearFlags": 0,
+        "ExtraFlags": "None",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 0,
+        "Cost": 0,
+        "Condition": 0,
+        "ExtraKeyword": "sign",
+        "ExtraDescription": "              BEWARE   Death and pestilence lies to the   north. The eternal fire burns away   the sins of those who have passed   away. Damnation, the caretaker of   the flame, resides in its heat.   Beware the foul corruption therein.",
+        "Effects": []
+      },
+      {
+        "Id": 31201,
+        "Name": "water pond water",
+        "ShortDescription": "the clear water of the pond",
+        "Description": "The clear water of the pond ripples past.",
+        "ItemType": "Fountain",
+        "WearFlags": 0,
+        "ExtraFlags": "None",
+        "AffectedByFlags": [],
+        "Value1": 500,
+        "Value2": 500,
+        "Value3": 15,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 0,
+        "Cost": 0,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": []
+      },
+      {
+        "Id": 31202,
+        "Name": "pool tepid water",
+        "ShortDescription": "a pool of tepid water",
+        "Description": "A pool of tepid water lies underfoot.",
+        "ItemType": "Fountain",
+        "WearFlags": 0,
+        "ExtraFlags": "None",
+        "AffectedByFlags": [],
+        "Value1": 500,
+        "Value2": 500,
+        "Value3": 0,
+        "Value4": 1,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 0,
+        "Cost": 0,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": []
+      },
+      {
+        "Id": 31203,
+        "Name": "beaten gold cross",
+        "ShortDescription": "a beaten gold cross",
+        "Description": "A beaten gold cross with a leather strap lies on the ground.",
+        "ItemType": "Armor",
+        "WearFlags": "Take, Neck",
+        "ExtraFlags": "Glow",
+        "AffectedByFlags": [],
+        "Value1": 3,
+        "Value2": 0,
+        "Value3": 0,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 25,
+        "Weight": 4,
+        "Cost": 500,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": [
+          {
+            "EffectBitType": "Object",
+            "EffectType": "DamRoll",
+            "Modifier": 3
+          },
+          {
+            "EffectBitType": "Object",
+            "EffectType": "HitRoll",
+            "Modifier": 2
+          },
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Strength",
+            "Modifier": -2
+          }
+        ]
+      },
+      {
+        "Id": 31204,
+        "Name": "plain wool cloak",
+        "ShortDescription": "a plain cloak of wool",
+        "Description": "A plain cloak of wool lies on the ground.",
+        "ItemType": "Armor",
+        "WearFlags": "Take, About",
+        "ExtraFlags": "None",
+        "AffectedByFlags": [],
+        "Value1": 8,
+        "Value2": 0,
+        "Value3": 0,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 25,
+        "Weight": 9,
+        "Cost": 100,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": [
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Wisdom",
+            "Modifier": 3
+          },
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Constitution",
+            "Modifier": 2
+          },
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Intelligence",
+            "Modifier": -2
+          }
+        ]
+      },
+      {
+        "Id": 31205,
+        "Name": "prayer book",
+        "ShortDescription": "a prayer book",
+        "Description": "A prayer book has been left here.",
+        "ItemType": "Scroll",
+        "WearFlags": "Take, Hold",
+        "ExtraFlags": "Glow",
+        "AffectedByFlags": [],
+        "Value1": 30,
+        "Value2": 3,
+        "Value3": -1,
+        "Value4": -1,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 25,
+        "Weight": 6,
+        "Cost": 50,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": [
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Hit",
+            "Modifier": 25
+          },
+          {
+            "EffectBitType": "Object",
+            "EffectType": "HitRoll",
+            "Modifier": 2
+          }
+        ]
+      },
+      {
+        "Id": 31206,
+        "Name": "willow switch",
+        "ShortDescription": "a willow switch",
+        "Description": "A willow switch has been left here.",
+        "ItemType": "Weapon",
+        "WearFlags": "Take, Wield",
+        "ExtraFlags": "Glow",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 6,
+        "Value3": 5,
+        "Value4": 1,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 25,
+        "Weight": 4,
+        "Cost": 10,
+        "Condition": 0,
+        "ExtraKeyword": null,
+        "ExtraDescription": null,
+        "Effects": [
+          {
+            "EffectBitType": "Object",
+            "EffectType": "HitRoll",
+            "Modifier": 2
+          },
+          {
+            "EffectBitType": "Object",
+            "EffectType": "DamRoll",
+            "Modifier": 2
+          }
+        ]
+      }
     ]
   },
   "BuildOptions": {

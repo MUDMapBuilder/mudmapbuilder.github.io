@@ -712,6 +712,193 @@
           "South": 6138
         }
       }
+    ],
+    "Objects": [
+      {
+        "Id": 6200,
+        "Name": "key",
+        "ShortDescription": "a key",
+        "Description": "A key sits here.",
+        "ItemType": "Key",
+        "WearFlags": "Take, Hold",
+        "ExtraFlags": "NoRent, NoDonate, NoSell",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 1,
+        "Cost": 20,
+        "Condition": 0,
+        "ExtraKeyword": "key",
+        "ExtraDescription": "   It is a plain looking key.",
+        "Effects": []
+      },
+      {
+        "Id": 6201,
+        "Name": "manacles",
+        "ShortDescription": "a set of manacles",
+        "Description": "A set of iron manacles lie here.",
+        "ItemType": "Armor",
+        "WearFlags": "Take, Hands",
+        "ExtraFlags": "NoDrop",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 20,
+        "Cost": 100,
+        "Condition": 0,
+        "ExtraKeyword": "manacles",
+        "ExtraDescription": "   They\u0027re big steel cuffs, meant to be locked around the hands.",
+        "Effects": [
+          {
+            "EffectBitType": "Object",
+            "EffectType": "HitRoll",
+            "Modifier": -5
+          }
+        ]
+      },
+      {
+        "Id": 6202,
+        "Name": "shackles",
+        "ShortDescription": "a set of shackles",
+        "Description": "A set of shackles sit here, discarded.",
+        "ItemType": "Armor",
+        "WearFlags": "Take, Feet",
+        "ExtraFlags": "NoDrop",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 20,
+        "Cost": 100,
+        "Condition": 0,
+        "ExtraKeyword": "shackles",
+        "ExtraDescription": "   Big iron cuffs, meant to be locked around the ankles.",
+        "Effects": [
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Move",
+            "Modifier": -50
+          }
+        ]
+      },
+      {
+        "Id": 6203,
+        "Name": "Runestone rune stone",
+        "ShortDescription": "the Runestone",
+        "Description": "A small stone with an inscription sits here.",
+        "ItemType": "Light",
+        "WearFlags": "Take, Hold",
+        "ExtraFlags": "Glow",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": -1,
+        "Value4": 0,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 1,
+        "Cost": 1000,
+        "Condition": 0,
+        "ExtraKeyword": "runestone rune stone",
+        "ExtraDescription": "   It is a small, carved stone with a strange symbol carved upon it.Strange...",
+        "Effects": [
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Mana",
+            "Modifier": 8
+          }
+        ]
+      },
+      {
+        "Id": 6204,
+        "Name": "club",
+        "ShortDescription": "a club",
+        "Description": "A crude wooden club sits here.",
+        "ItemType": "Weapon",
+        "WearFlags": "Take, Wield",
+        "ExtraFlags": "None",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 2,
+        "Value3": 2,
+        "Value4": 7,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 12,
+        "Cost": 10,
+        "Condition": 0,
+        "ExtraKeyword": "club",
+        "ExtraDescription": "   It is a big, wooden club.",
+        "Effects": []
+      },
+      {
+        "Id": 6205,
+        "Name": "Starkblade knife dagger blade",
+        "ShortDescription": "Starkblade",
+        "Description": "A knife hums with eternal energy here.",
+        "ItemType": "Weapon",
+        "WearFlags": "Take, Wield",
+        "ExtraFlags": "Humming, Warrior",
+        "AffectedByFlags": [],
+        "Value1": 0,
+        "Value2": 3,
+        "Value3": 7,
+        "Value4": 3,
+        "Value5": 0,
+        "S1": null,
+        "S2": null,
+        "S3": null,
+        "S4": null,
+        "Level": 0,
+        "Weight": 1,
+        "Cost": 1000,
+        "Condition": 0,
+        "ExtraKeyword": "starkblade knife dagger blade",
+        "ExtraDescription": "   It is an odd knife, with an inset of sapphire in the pommel.  It humsconstantly, and your hand stings a bit when you touch it.",
+        "Effects": [
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Mana",
+            "Modifier": 10
+          },
+          {
+            "EffectBitType": "Object",
+            "EffectType": "Hit",
+            "Modifier": -20
+          }
+        ]
+      }
     ]
   },
   "BuildOptions": {
