@@ -15,3 +15,4 @@ It was used to generate maps and eq list for [tbaMUD](https://github.com/tbamud/
 ## tbaMUD
 
 [Maps](/tbaMUD_Maps)
+[Equipment](/tbaMUD_Eq)
