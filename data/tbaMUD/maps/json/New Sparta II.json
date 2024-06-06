@@ -1,0 +1,251 @@
+{
+  "Area": {
+    "Name": "New Sparta II",
+    "Credits": "Naved",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 27600,
+        "Name": "The Church",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 27599
+        }
+      },
+      {
+        "Id": 27601,
+        "Name": "Fire Station",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 27599,
+          "South": 27602,
+          "Up": 27603
+        }
+      },
+      {
+        "Id": 27602,
+        "Name": "Fire Marshall Bob\u0027s Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 27601
+        }
+      },
+      {
+        "Id": 27603,
+        "Name": "Firemen\u0027s Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 27601
+        }
+      },
+      {
+        "Id": 27604,
+        "Name": "Second Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 27570,
+          "West": 27605
+        }
+      },
+      {
+        "Id": 27605,
+        "Name": "Second Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 27606,
+          "East": 27604,
+          "South": 27607,
+          "West": 27608
+        }
+      },
+      {
+        "Id": 27606,
+        "Name": "The Pound",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 27605
+        }
+      },
+      {
+        "Id": 27607,
+        "Name": "The Police Station",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 27605,
+          "South": 27609,
+          "West": 27610
+        }
+      },
+      {
+        "Id": 27608,
+        "Name": "The Jersey Dump",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 27605
+        }
+      },
+      {
+        "Id": 27609,
+        "Name": "The Chief\u0027s Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 27607
+        }
+      },
+      {
+        "Id": 27610,
+        "Name": "The Jail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 27607,
+          "South": 27611
+        }
+      },
+      {
+        "Id": 27611,
+        "Name": "The Jail Cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 27610
+        }
+      },
+      {
+        "Id": 27612,
+        "Name": "The Entrance To Goethe\u0027s Garden",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 27613,
+          "South": 27580
+        }
+      },
+      {
+        "Id": 27613,
+        "Name": "The Statue Of Goethe",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 27612
+        }
+      },
+      {
+        "Id": 27614,
+        "Name": "First Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 27516,
+          "West": 27615
+        }
+      },
+      {
+        "Id": 27615,
+        "Name": "The Entrance To Hell\u0027s Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 27614
+        }
+      },
+      {
+        "Id": 27616,
+        "Name": "Petland Discount Store",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 27569
+        }
+      },
+      {
+        "Id": 27617,
+        "Name": "PETSHOP STOREROOM",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 27599,
+        "Name": "To New Sparta",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 27600,
+          "South": 27601,
+          "West": 27598
+        }
+      },
+      {
+        "Id": 27570,
+        "Name": "To New Sparta",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 27571,
+          "East": 27598,
+          "South": 27569,
+          "West": 27604
+        }
+      },
+      {
+        "Id": 27580,
+        "Name": "To New Sparta",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 27612,
+          "East": 27592,
+          "South": 27574,
+          "West": 27597
+        }
+      },
+      {
+        "Id": 27516,
+        "Name": "To New Sparta",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 27566,
+          "East": 27529,
+          "South": 27511,
+          "West": 27614
+        }
+      },
+      {
+        "Id": 27569,
+        "Name": "To New Sparta",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 27570,
+          "East": 27616,
+          "South": 27566,
+          "West": 27579
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

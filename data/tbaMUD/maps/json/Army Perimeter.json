@@ -1,0 +1,883 @@
+{
+  "Area": {
+    "Name": "Army Perimeter",
+    "Credits": "Kaan",
+    "MinimumLevel": "8",
+    "MaximumLevel": "30",
+    "Rooms": [
+      {
+        "Id": 32600,
+        "Name": "Trampled Dirt Highway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32601,
+          "West": 25828
+        }
+      },
+      {
+        "Id": 32601,
+        "Name": "Trampled Dirt Highway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32602,
+          "West": 32600
+        }
+      },
+      {
+        "Id": 32602,
+        "Name": "Trampled Dirt Highway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32611,
+          "East": 32603,
+          "West": 32601
+        }
+      },
+      {
+        "Id": 32603,
+        "Name": "Trampled Dirt Highway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32612,
+          "East": 32604,
+          "West": 32602
+        }
+      },
+      {
+        "Id": 32604,
+        "Name": "Trampled Dirt Highway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32605,
+          "South": 32621,
+          "West": 32603
+        }
+      },
+      {
+        "Id": 32605,
+        "Name": "Trampled Dirt Highway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32606,
+          "East": 32619,
+          "South": 32604
+        }
+      },
+      {
+        "Id": 32606,
+        "Name": "Trampled Dirt Highway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32607,
+          "South": 32605
+        }
+      },
+      {
+        "Id": 32607,
+        "Name": "Trampled Dirt Highway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32608,
+          "South": 32606,
+          "West": 32615
+        }
+      },
+      {
+        "Id": 32608,
+        "Name": "Trampled Dirt Highway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32618,
+          "East": 32609,
+          "West": 32607
+        }
+      },
+      {
+        "Id": 32609,
+        "Name": "Trampled Dirt Highway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32610,
+          "South": 32620,
+          "West": 32608
+        }
+      },
+      {
+        "Id": 32610,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32648,
+          "East": 32400,
+          "South": 32647,
+          "West": 32609
+        }
+      },
+      {
+        "Id": 32611,
+        "Name": "Leaf-Strewn Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32613,
+          "East": 32612,
+          "South": 32602
+        }
+      },
+      {
+        "Id": 32612,
+        "Name": "Leaf-Strewn Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32615,
+          "South": 32603,
+          "West": 32611
+        }
+      },
+      {
+        "Id": 32613,
+        "Name": "Leaf-Strewn Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32614,
+          "South": 32611,
+          "Up": 32627
+        }
+      },
+      {
+        "Id": 32614,
+        "Name": "Leaf-Strewn Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32615,
+          "South": 32613
+        }
+      },
+      {
+        "Id": 32615,
+        "Name": "Leaf-Strewn Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32607,
+          "South": 32612,
+          "West": 32614,
+          "Up": 32626
+        }
+      },
+      {
+        "Id": 32616,
+        "Name": "Narrow Forest Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32617,
+          "Up": 32628
+        }
+      },
+      {
+        "Id": 32617,
+        "Name": "Narrow Forest Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 32618,
+          "West": 32616
+        }
+      },
+      {
+        "Id": 32618,
+        "Name": "Narrow Forest Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32617,
+          "South": 32608
+        }
+      },
+      {
+        "Id": 32619,
+        "Name": "Well Worn Path Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32620,
+          "South": 32623,
+          "West": 32605
+        }
+      },
+      {
+        "Id": 32620,
+        "Name": "Well Worn Path Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32609,
+          "West": 32619,
+          "Up": 32625
+        }
+      },
+      {
+        "Id": 32621,
+        "Name": "Well Worn Path Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32604,
+          "South": 32622
+        }
+      },
+      {
+        "Id": 32622,
+        "Name": "Well Worn Path Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32621,
+          "East": 32623,
+          "Up": 32624
+        }
+      },
+      {
+        "Id": 32623,
+        "Name": "Well Worn Path Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32619,
+          "West": 32622
+        }
+      },
+      {
+        "Id": 32624,
+        "Name": "Lookout Post",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 32622
+        }
+      },
+      {
+        "Id": 32625,
+        "Name": "Lookout Post",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 32620
+        }
+      },
+      {
+        "Id": 32626,
+        "Name": "Lookout Post",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 32615
+        }
+      },
+      {
+        "Id": 32627,
+        "Name": "Lookout Post",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 32613
+        }
+      },
+      {
+        "Id": 32628,
+        "Name": "Lookout Post",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 32616
+        }
+      },
+      {
+        "Id": 32629,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32630,
+          "South": 32648,
+          "West": 32649
+        }
+      },
+      {
+        "Id": 32630,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32652,
+          "East": 32631,
+          "South": 32629
+        }
+      },
+      {
+        "Id": 32631,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32632,
+          "West": 32630
+        }
+      },
+      {
+        "Id": 32632,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32633,
+          "South": 32631,
+          "West": 32653
+        }
+      },
+      {
+        "Id": 32633,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32634,
+          "West": 32632
+        }
+      },
+      {
+        "Id": 32634,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32635,
+          "West": 32633
+        }
+      },
+      {
+        "Id": 32635,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32670,
+          "South": 32636,
+          "West": 32634
+        }
+      },
+      {
+        "Id": 32636,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32635,
+          "East": 32637
+        }
+      },
+      {
+        "Id": 32637,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32671,
+          "South": 32638,
+          "West": 32636
+        }
+      },
+      {
+        "Id": 32638,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32637,
+          "East": 32660,
+          "South": 32639
+        }
+      },
+      {
+        "Id": 32639,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32638,
+          "South": 32640
+        }
+      },
+      {
+        "Id": 32640,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32639,
+          "East": 32677,
+          "South": 32641,
+          "West": 32414
+        }
+      },
+      {
+        "Id": 32641,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32640,
+          "East": 32663,
+          "South": 32642
+        }
+      },
+      {
+        "Id": 32642,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32641,
+          "South": 32659,
+          "West": 32643
+        }
+      },
+      {
+        "Id": 32643,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32642,
+          "South": 32644
+        }
+      },
+      {
+        "Id": 32644,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32643,
+          "West": 32645
+        }
+      },
+      {
+        "Id": 32645,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32644,
+          "West": 32646
+        }
+      },
+      {
+        "Id": 32646,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32647,
+          "East": 32645,
+          "South": 32654
+        }
+      },
+      {
+        "Id": 32647,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32610,
+          "South": 32646
+        }
+      },
+      {
+        "Id": 32648,
+        "Name": "Camp Perimeter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32629,
+          "South": 32610
+        }
+      },
+      {
+        "Id": 32649,
+        "Name": "Forest Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32650,
+          "East": 32629
+        }
+      },
+      {
+        "Id": 32650,
+        "Name": "Forest Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32651,
+          "South": 32649,
+          "Up": 32669
+        }
+      },
+      {
+        "Id": 32651,
+        "Name": "Forest Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32652,
+          "South": 32650
+        }
+      },
+      {
+        "Id": 32652,
+        "Name": "Forest Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32653,
+          "South": 32630,
+          "West": 32651,
+          "Up": 32668
+        }
+      },
+      {
+        "Id": 32653,
+        "Name": "Forest Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32632,
+          "West": 32652
+        }
+      },
+      {
+        "Id": 32654,
+        "Name": "Path Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32646,
+          "East": 32656,
+          "South": 32655
+        }
+      },
+      {
+        "Id": 32655,
+        "Name": "Path Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32654,
+          "Up": 32665
+        }
+      },
+      {
+        "Id": 32656,
+        "Name": "Path Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32657,
+          "West": 32654
+        }
+      },
+      {
+        "Id": 32657,
+        "Name": "Path Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32658,
+          "West": 32656
+        }
+      },
+      {
+        "Id": 32658,
+        "Name": "Path Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32659,
+          "West": 32657,
+          "Up": 32666
+        }
+      },
+      {
+        "Id": 32659,
+        "Name": "Path Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32642,
+          "South": 32658
+        }
+      },
+      {
+        "Id": 32660,
+        "Name": "Faint Path Through the Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32661,
+          "West": 32638
+        }
+      },
+      {
+        "Id": 32661,
+        "Name": "Faint Path Through the Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 32662,
+          "West": 32660
+        }
+      },
+      {
+        "Id": 32662,
+        "Name": "Faint Path Through the Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32661,
+          "East": 32664,
+          "South": 32663
+        }
+      },
+      {
+        "Id": 32663,
+        "Name": "Faint Path Through the Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32662,
+          "West": 32641
+        }
+      },
+      {
+        "Id": 32664,
+        "Name": "Faint Path Through the Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 32662,
+          "Up": 32667
+        }
+      },
+      {
+        "Id": 32665,
+        "Name": "Lookout Post",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 32655
+        }
+      },
+      {
+        "Id": 32666,
+        "Name": "Lookout Post",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 32658
+        }
+      },
+      {
+        "Id": 32667,
+        "Name": "Lookout Post",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 32664
+        }
+      },
+      {
+        "Id": 32668,
+        "Name": "Lookout Post",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 32652
+        }
+      },
+      {
+        "Id": 32669,
+        "Name": "Lookout Post",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 32650
+        }
+      },
+      {
+        "Id": 32670,
+        "Name": "Logging Area",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32675,
+          "East": 32671,
+          "South": 32635
+        }
+      },
+      {
+        "Id": 32671,
+        "Name": "Logging Area",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32674,
+          "East": 32672,
+          "South": 32637,
+          "West": 32670
+        }
+      },
+      {
+        "Id": 32672,
+        "Name": "Logging Area",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32673,
+          "West": 32671
+        }
+      },
+      {
+        "Id": 32673,
+        "Name": "Logging Area",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 32676,
+          "South": 32672,
+          "West": 32674
+        }
+      },
+      {
+        "Id": 32674,
+        "Name": "Logging Area",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32673,
+          "South": 32671,
+          "West": 32675
+        }
+      },
+      {
+        "Id": 32675,
+        "Name": "Logging Area",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32674,
+          "South": 32670
+        }
+      },
+      {
+        "Id": 32676,
+        "Name": "A Large Stump",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 32673
+        }
+      },
+      {
+        "Id": 32677,
+        "Name": "Wide Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32678,
+          "West": 32640
+        }
+      },
+      {
+        "Id": 32678,
+        "Name": "Wide Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 32679,
+          "West": 32677
+        }
+      },
+      {
+        "Id": 32679,
+        "Name": "Wide Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 32678
+        }
+      },
+      {
+        "Id": 25828,
+        "Name": "To Light Forest",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "East": 32600,
+          "South": 31502,
+          "West": 25827
+        }
+      },
+      {
+        "Id": 32400,
+        "Name": "To Army Encampment",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 32401,
+          "East": 32440,
+          "South": 32427,
+          "West": 32610
+        }
+      },
+      {
+        "Id": 32414,
+        "Name": "To Army Encampment",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 32413,
+          "East": 32640,
+          "South": 32415,
+          "West": 32477
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

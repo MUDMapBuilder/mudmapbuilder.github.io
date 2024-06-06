@@ -1,0 +1,830 @@
+{
+  "Area": {
+    "Name": "Newbie Tree",
+    "Credits": "Kaan",
+    "MinimumLevel": "1",
+    "MaximumLevel": "9",
+    "Rooms": [
+      {
+        "Id": 30600,
+        "Name": "Lower Trunk of the Great Tree",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30604,
+          "Up": 30601
+        }
+      },
+      {
+        "Id": 30601,
+        "Name": "On the Trunk at the Lower Branch System",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30606,
+          "East": 30608,
+          "South": 30610,
+          "West": 30612,
+          "Up": 30602,
+          "Down": 30600
+        }
+      },
+      {
+        "Id": 30602,
+        "Name": "On the Trunk at Mid Branch System",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30630,
+          "East": 30632,
+          "South": 30634,
+          "West": 30636,
+          "Up": 30603,
+          "Down": 30601
+        }
+      },
+      {
+        "Id": 30603,
+        "Name": "On the Trunk at the Upper Branch System",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30654,
+          "East": 30656,
+          "South": 30658,
+          "West": 30660,
+          "Down": 30602
+        }
+      },
+      {
+        "Id": 30604,
+        "Name": "Inside the Trunk",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30605,
+          "South": 30600
+        }
+      },
+      {
+        "Id": 30605,
+        "Name": "Inside the Trunk",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30604
+        }
+      },
+      {
+        "Id": 30606,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30615,
+          "East": 30607,
+          "South": 30601,
+          "West": 30613
+        }
+      },
+      {
+        "Id": 30607,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30608,
+          "West": 30606
+        }
+      },
+      {
+        "Id": 30608,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30607,
+          "East": 30618,
+          "South": 30609,
+          "West": 30601
+        }
+      },
+      {
+        "Id": 30609,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30608,
+          "West": 30610
+        }
+      },
+      {
+        "Id": 30610,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30601,
+          "East": 30609,
+          "South": 30621,
+          "West": 30611
+        }
+      },
+      {
+        "Id": 30611,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30612,
+          "East": 30610
+        }
+      },
+      {
+        "Id": 30612,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30613,
+          "East": 30601,
+          "South": 30611,
+          "West": 30624
+        }
+      },
+      {
+        "Id": 30613,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30606,
+          "South": 30612
+        }
+      },
+      {
+        "Id": 30614,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30615
+        }
+      },
+      {
+        "Id": 30615,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30626,
+          "East": 30616,
+          "South": 30606,
+          "West": 30614
+        }
+      },
+      {
+        "Id": 30616,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30615
+        }
+      },
+      {
+        "Id": 30617,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30618
+        }
+      },
+      {
+        "Id": 30618,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30617,
+          "East": 30627,
+          "South": 30619,
+          "West": 30608
+        }
+      },
+      {
+        "Id": 30619,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30618
+        }
+      },
+      {
+        "Id": 30620,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30621
+        }
+      },
+      {
+        "Id": 30621,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30610,
+          "East": 30620,
+          "South": 30628,
+          "West": 30622
+        }
+      },
+      {
+        "Id": 30622,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30621
+        }
+      },
+      {
+        "Id": 30623,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30624
+        }
+      },
+      {
+        "Id": 30624,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30625,
+          "East": 30612,
+          "South": 30623,
+          "West": 30629
+        }
+      },
+      {
+        "Id": 30625,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30624
+        }
+      },
+      {
+        "Id": 30626,
+        "Name": "Out on a Limb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30615
+        }
+      },
+      {
+        "Id": 30627,
+        "Name": "Out on a Limb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30618
+        }
+      },
+      {
+        "Id": 30628,
+        "Name": "Out on a Limb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30621
+        }
+      },
+      {
+        "Id": 30629,
+        "Name": "Out on a Limb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30624
+        }
+      },
+      {
+        "Id": 30630,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30639,
+          "East": 30631,
+          "South": 30602,
+          "West": 30637
+        }
+      },
+      {
+        "Id": 30631,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30632,
+          "West": 30630
+        }
+      },
+      {
+        "Id": 30632,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30631,
+          "East": 30642,
+          "South": 30633,
+          "West": 30602
+        }
+      },
+      {
+        "Id": 30633,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30632,
+          "West": 30634
+        }
+      },
+      {
+        "Id": 30634,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30602,
+          "East": 30633,
+          "South": 30645,
+          "West": 30635
+        }
+      },
+      {
+        "Id": 30635,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30636,
+          "East": 30634
+        }
+      },
+      {
+        "Id": 30636,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30637,
+          "East": 30602,
+          "South": 30635,
+          "West": 30648
+        }
+      },
+      {
+        "Id": 30637,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30630,
+          "South": 30636
+        }
+      },
+      {
+        "Id": 30638,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30639
+        }
+      },
+      {
+        "Id": 30639,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30650,
+          "East": 30640,
+          "South": 30630,
+          "West": 30638
+        }
+      },
+      {
+        "Id": 30640,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30639
+        }
+      },
+      {
+        "Id": 30641,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30642
+        }
+      },
+      {
+        "Id": 30642,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30641,
+          "East": 30651,
+          "South": 30643,
+          "West": 30632
+        }
+      },
+      {
+        "Id": 30643,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30642
+        }
+      },
+      {
+        "Id": 30644,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30645
+        }
+      },
+      {
+        "Id": 30645,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30634,
+          "East": 30644,
+          "South": 30652,
+          "West": 30678
+        }
+      },
+      {
+        "Id": 30646,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 30647,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30648
+        }
+      },
+      {
+        "Id": 30648,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30649,
+          "East": 30636,
+          "South": 30647,
+          "West": 30653
+        }
+      },
+      {
+        "Id": 30649,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30648
+        }
+      },
+      {
+        "Id": 30650,
+        "Name": "Out on a Limb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30639
+        }
+      },
+      {
+        "Id": 30651,
+        "Name": "Out on a Limb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30642
+        }
+      },
+      {
+        "Id": 30652,
+        "Name": "Out on a Limb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30645
+        }
+      },
+      {
+        "Id": 30653,
+        "Name": "Out on a Limb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30648
+        }
+      },
+      {
+        "Id": 30654,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30663,
+          "East": 30655,
+          "South": 30603,
+          "West": 30661
+        }
+      },
+      {
+        "Id": 30655,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30656,
+          "West": 30654
+        }
+      },
+      {
+        "Id": 30656,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30655,
+          "East": 30666,
+          "South": 30657,
+          "West": 30603
+        }
+      },
+      {
+        "Id": 30657,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30656,
+          "West": 30658
+        }
+      },
+      {
+        "Id": 30658,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30603,
+          "East": 30657,
+          "South": 30669,
+          "West": 30659
+        }
+      },
+      {
+        "Id": 30659,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30660,
+          "East": 30658
+        }
+      },
+      {
+        "Id": 30660,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30661,
+          "East": 30603,
+          "South": 30659,
+          "West": 30672
+        }
+      },
+      {
+        "Id": 30661,
+        "Name": "Traveling the Inner Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30654,
+          "South": 30660
+        }
+      },
+      {
+        "Id": 30662,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30663
+        }
+      },
+      {
+        "Id": 30663,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30674,
+          "East": 30664,
+          "South": 30654,
+          "West": 30662
+        }
+      },
+      {
+        "Id": 30664,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30663
+        }
+      },
+      {
+        "Id": 30665,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30666
+        }
+      },
+      {
+        "Id": 30666,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30665,
+          "East": 30675,
+          "South": 30667,
+          "West": 30656
+        }
+      },
+      {
+        "Id": 30667,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30666
+        }
+      },
+      {
+        "Id": 30668,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30669
+        }
+      },
+      {
+        "Id": 30669,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30658,
+          "East": 30668,
+          "South": 30676,
+          "West": 30670
+        }
+      },
+      {
+        "Id": 30670,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30669
+        }
+      },
+      {
+        "Id": 30671,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30672
+        }
+      },
+      {
+        "Id": 30672,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30673,
+          "East": 30660,
+          "South": 30671,
+          "West": 30677
+        }
+      },
+      {
+        "Id": 30673,
+        "Name": "The Outer Branches",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30672
+        }
+      },
+      {
+        "Id": 30674,
+        "Name": "Out on a Limb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30663
+        }
+      },
+      {
+        "Id": 30675,
+        "Name": "Out on a Limb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30666
+        }
+      },
+      {
+        "Id": 30676,
+        "Name": "Out on a Limb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30669
+        }
+      },
+      {
+        "Id": 30677,
+        "Name": "Out on a Limb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30672
+        }
+      },
+      {
+        "Id": 30678,
+        "Name": "Out on a Limb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30645
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

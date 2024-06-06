@@ -1,0 +1,424 @@
+{
+  "Area": {
+    "Name": "Ant Hill",
+    "Credits": "Garrison",
+    "MinimumLevel": "3",
+    "MaximumLevel": "7",
+    "Rooms": [
+      {
+        "Id": 4600,
+        "Name": "Inside A Giant Anthill",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4601,
+          "East": 4602,
+          "South": 4603,
+          "West": 4604,
+          "Down": 4605
+        }
+      },
+      {
+        "Id": 4601,
+        "Name": "Inside The Anthill",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4639,
+          "South": 4600
+        }
+      },
+      {
+        "Id": 4602,
+        "Name": "A Small Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4634,
+          "West": 4600
+        }
+      },
+      {
+        "Id": 4603,
+        "Name": "A Hole In The Wall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4600
+        }
+      },
+      {
+        "Id": 4604,
+        "Name": "Another Room In The Anthole",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4600
+        }
+      },
+      {
+        "Id": 4605,
+        "Name": "Farther Into The Hole",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4606,
+          "East": 4609,
+          "South": 4608,
+          "West": 4607,
+          "Up": 4600,
+          "Down": 4610
+        }
+      },
+      {
+        "Id": 4606,
+        "Name": "A Passage In The Hole",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4605
+        }
+      },
+      {
+        "Id": 4607,
+        "Name": "A Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4605,
+          "West": 4635
+        }
+      },
+      {
+        "Id": 4608,
+        "Name": "A Sandy Dead End",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4605
+        }
+      },
+      {
+        "Id": 4609,
+        "Name": "A Collapsed Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4605
+        }
+      },
+      {
+        "Id": 4610,
+        "Name": "Deeper In The Anthole",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4613,
+          "East": 4612,
+          "South": 4614,
+          "West": 4611,
+          "Up": 4605,
+          "Down": 4615
+        }
+      },
+      {
+        "Id": 4611,
+        "Name": "A Small Passage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4610,
+          "West": 4616
+        }
+      },
+      {
+        "Id": 4612,
+        "Name": "A Caved in Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4610
+        }
+      },
+      {
+        "Id": 4613,
+        "Name": "A Storage Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4610
+        }
+      },
+      {
+        "Id": 4614,
+        "Name": "A Caved-in Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4610
+        }
+      },
+      {
+        "Id": 4615,
+        "Name": "At The Bottom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4618,
+          "South": 4620,
+          "West": 4619
+        }
+      },
+      {
+        "Id": 4616,
+        "Name": "A Rocky Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4611,
+          "South": 4617
+        }
+      },
+      {
+        "Id": 4617,
+        "Name": "The Larvae Storage Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4616
+        }
+      },
+      {
+        "Id": 4618,
+        "Name": "A Large Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4615
+        }
+      },
+      {
+        "Id": 4619,
+        "Name": "A Large Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4615,
+          "West": 4629
+        }
+      },
+      {
+        "Id": 4620,
+        "Name": "A Dark Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4615,
+          "East": 4621,
+          "West": 4629
+        }
+      },
+      {
+        "Id": 4621,
+        "Name": "A Dark Intersection",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4622,
+          "East": 4625,
+          "South": 4626,
+          "West": 4620
+        }
+      },
+      {
+        "Id": 4622,
+        "Name": "Another Branch",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4623,
+          "South": 4621
+        }
+      },
+      {
+        "Id": 4623,
+        "Name": "Along The Passage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4624,
+          "South": 4622
+        }
+      },
+      {
+        "Id": 4624,
+        "Name": "An Underground Pond",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4623
+        }
+      },
+      {
+        "Id": 4625,
+        "Name": "A Dark Passage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4627,
+          "West": 4621
+        }
+      },
+      {
+        "Id": 4626,
+        "Name": "A Collapsing Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4621,
+          "West": 4628
+        }
+      },
+      {
+        "Id": 4627,
+        "Name": "The End Of The Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4625
+        }
+      },
+      {
+        "Id": 4628,
+        "Name": "Buried Alive",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 4629,
+        "Name": "Into the Large Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4619,
+          "South": 4630
+        }
+      },
+      {
+        "Id": 4630,
+        "Name": "A Long Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4629,
+          "South": 4631
+        }
+      },
+      {
+        "Id": 4631,
+        "Name": "A Long Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4630,
+          "South": 4632
+        }
+      },
+      {
+        "Id": 4632,
+        "Name": "A Small Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4631,
+          "East": 4633
+        }
+      },
+      {
+        "Id": 4633,
+        "Name": "The Queen\u0027s Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4632
+        }
+      },
+      {
+        "Id": 4634,
+        "Name": "A Small Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4602
+        }
+      },
+      {
+        "Id": 4635,
+        "Name": "An Earthen Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4607,
+          "West": 4636
+        }
+      },
+      {
+        "Id": 4636,
+        "Name": "A Small Passage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4635,
+          "West": 4637
+        }
+      },
+      {
+        "Id": 4637,
+        "Name": "A Bend In The Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4636,
+          "South": 4638
+        }
+      },
+      {
+        "Id": 4638,
+        "Name": "A Dead End Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4637
+        }
+      },
+      {
+        "Id": 4639,
+        "Name": "A Small Crevice",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4601
+        }
+      },
+      {
+        "Id": 4698,
+        "Name": "Before A Giant Anthill",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

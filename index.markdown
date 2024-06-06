@@ -1,6 +1,17 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: page
+title: About
+order: 0
 ---
+
+## Overview
+
+MUDMapBuilder is .NET library for generating map images for MUDs.
+
+The project is open source: <https://github.com/MUDMapBuilder/MUDMapBuilder>
+
+It was used to generate maps and eq list for [tbaMUD](https://github.com/tbamud/tbamud)
+
+## tbaMUD
+
+[Maps](/tbaMUD_Maps/)

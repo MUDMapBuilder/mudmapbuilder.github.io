@@ -1,0 +1,572 @@
+{
+  "Area": {
+    "Name": "Cooland Prison",
+    "Credits": "Crazyman",
+    "MinimumLevel": "28",
+    "MaximumLevel": "30",
+    "Rooms": [
+      {
+        "Id": 24400,
+        "Name": "Cell A1",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 24404
+        }
+      },
+      {
+        "Id": 24401,
+        "Name": "Cell B1",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 24405
+        }
+      },
+      {
+        "Id": 24402,
+        "Name": "Cell C1",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 24406
+        }
+      },
+      {
+        "Id": 24403,
+        "Name": "Sprial Staircase",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24404,
+          "Up": 24415
+        }
+      },
+      {
+        "Id": 24404,
+        "Name": "Cell Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24400,
+          "East": 24405,
+          "South": 24408,
+          "West": 24403
+        }
+      },
+      {
+        "Id": 24405,
+        "Name": "Cell Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24401,
+          "East": 24406,
+          "South": 24409,
+          "West": 24404
+        }
+      },
+      {
+        "Id": 24406,
+        "Name": "Cell Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24402,
+          "East": 24407,
+          "South": 24410,
+          "West": 24405
+        }
+      },
+      {
+        "Id": 24407,
+        "Name": "Cafeteria",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 24406
+        }
+      },
+      {
+        "Id": 24408,
+        "Name": "Cell A2",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24404
+        }
+      },
+      {
+        "Id": 24409,
+        "Name": "Cell B2",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24405
+        }
+      },
+      {
+        "Id": 24410,
+        "Name": "Cell C2",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24406
+        }
+      },
+      {
+        "Id": 24411,
+        "Name": "A Warm Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 24412,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24411,
+          "East": 24414,
+          "South": 24413
+        }
+      },
+      {
+        "Id": 24413,
+        "Name": "A Cold Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 24414,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24415,
+          "West": 24412
+        }
+      },
+      {
+        "Id": 24415,
+        "Name": "A Prison Corridor at a Staircase",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24416,
+          "West": 24414,
+          "Down": 24403
+        }
+      },
+      {
+        "Id": 24416,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24417,
+          "West": 24415
+        }
+      },
+      {
+        "Id": 24417,
+        "Name": "A Prison Corridor Intersection",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24453,
+          "East": 24418,
+          "South": 24435,
+          "West": 24416
+        }
+      },
+      {
+        "Id": 24418,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24419,
+          "West": 24417
+        }
+      },
+      {
+        "Id": 24419,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24420,
+          "West": 24418
+        }
+      },
+      {
+        "Id": 24420,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24421,
+          "West": 24419
+        }
+      },
+      {
+        "Id": 24421,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24422,
+          "West": 24420
+        }
+      },
+      {
+        "Id": 24422,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24423,
+          "West": 24421
+        }
+      },
+      {
+        "Id": 24423,
+        "Name": "A Prison Corridor Intersection",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24425,
+          "East": 24424,
+          "West": 24422
+        }
+      },
+      {
+        "Id": 24424,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24420,
+          "West": 24423
+        }
+      },
+      {
+        "Id": 24425,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24426,
+          "South": 24423
+        }
+      },
+      {
+        "Id": 24426,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24427,
+          "South": 24425
+        }
+      },
+      {
+        "Id": 24427,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 24426,
+          "West": 24428
+        }
+      },
+      {
+        "Id": 24428,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24427,
+          "West": 24430
+        }
+      },
+      {
+        "Id": 24430,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24428,
+          "South": 24431
+        }
+      },
+      {
+        "Id": 24431,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24430,
+          "West": 24432
+        }
+      },
+      {
+        "Id": 24432,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24431,
+          "West": 24433
+        }
+      },
+      {
+        "Id": 24433,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24432,
+          "South": 24434
+        }
+      },
+      {
+        "Id": 24434,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 24435,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24417,
+          "South": 24436
+        }
+      },
+      {
+        "Id": 24436,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24435,
+          "South": 24437
+        }
+      },
+      {
+        "Id": 24437,
+        "Name": "A Prison Corridor Intersection",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24436,
+          "East": 24445,
+          "South": 24438,
+          "West": 24449
+        }
+      },
+      {
+        "Id": 24438,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24437,
+          "South": 24439
+        }
+      },
+      {
+        "Id": 24439,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24438,
+          "South": 24440
+        }
+      },
+      {
+        "Id": 24440,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24439,
+          "East": 24442,
+          "South": 24441,
+          "West": 24452
+        }
+      },
+      {
+        "Id": 24441,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 24442,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24443,
+          "West": 24440
+        }
+      },
+      {
+        "Id": 24443,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24444,
+          "West": 24442
+        }
+      },
+      {
+        "Id": 24444,
+        "Name": "A Prison Corridor at a Staircase",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 24443,
+          "Up": 24455
+        }
+      },
+      {
+        "Id": 24445,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24446,
+          "West": 24437
+        }
+      },
+      {
+        "Id": 24446,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24447,
+          "South": 24454,
+          "West": 24445
+        }
+      },
+      {
+        "Id": 24447,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24448,
+          "South": 24446
+        }
+      },
+      {
+        "Id": 24448,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 24449,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24437,
+          "West": 24450
+        }
+      },
+      {
+        "Id": 24450,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24449,
+          "South": 24451
+        }
+      },
+      {
+        "Id": 24451,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 24452,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 24453,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 24454,
+        "Name": "A Prison Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 24455,
+        "Name": "Prison Upper Level",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 24456,
+          "Down": 24444
+        }
+      },
+      {
+        "Id": 24456,
+        "Name": "Prison Upper Level",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24455,
+          "West": 24457
+        }
+      },
+      {
+        "Id": 24457,
+        "Name": "Cooland Prison",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24456
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

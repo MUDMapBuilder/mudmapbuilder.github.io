@@ -1,0 +1,179 @@
+{
+  "Area": {
+    "Name": "Jungle",
+    "Credits": "Makira",
+    "MinimumLevel": "5",
+    "MaximumLevel": "20",
+    "Rooms": [
+      {
+        "Id": 29500,
+        "Name": "The start of the jungle",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 29501
+        }
+      },
+      {
+        "Id": 29501,
+        "Name": "Deeper into the jungle",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29500,
+          "South": 29502
+        }
+      },
+      {
+        "Id": 29502,
+        "Name": "Deeper in to the jungle",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29501,
+          "East": 29503,
+          "West": 29509
+        }
+      },
+      {
+        "Id": 29503,
+        "Name": "On a small trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29504,
+          "West": 29502
+        }
+      },
+      {
+        "Id": 29504,
+        "Name": "The gate to the camp",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29505,
+          "West": 29503
+        }
+      },
+      {
+        "Id": 29505,
+        "Name": "In the camp",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29507,
+          "East": 29506,
+          "South": 29508,
+          "West": 29504
+        }
+      },
+      {
+        "Id": 29506,
+        "Name": "The food store",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 29505
+        }
+      },
+      {
+        "Id": 29507,
+        "Name": "The womans room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 29505
+        }
+      },
+      {
+        "Id": 29508,
+        "Name": "The chiefs room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29505
+        }
+      },
+      {
+        "Id": 29509,
+        "Name": "To the monkeys!",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29502,
+          "West": 29513,
+          "Up": 29510
+        }
+      },
+      {
+        "Id": 29510,
+        "Name": "In the trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29511,
+          "Down": 29509
+        }
+      },
+      {
+        "Id": 29511,
+        "Name": "In the trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29512,
+          "South": 29510
+        }
+      },
+      {
+        "Id": 29512,
+        "Name": "In the trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 29511
+        }
+      },
+      {
+        "Id": 29513,
+        "Name": "Close to the monkeys",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29509,
+          "West": 29514
+        }
+      },
+      {
+        "Id": 29514,
+        "Name": "The meeting room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29515,
+          "East": 29513
+        }
+      },
+      {
+        "Id": 29515,
+        "Name": "North of the meeting place",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 29514
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

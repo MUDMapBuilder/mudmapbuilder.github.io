@@ -1,0 +1,376 @@
+{
+  "Area": {
+    "Name": "Dragon Chasm",
+    "Credits": "Guldane",
+    "MinimumLevel": "22",
+    "MaximumLevel": "30",
+    "Rooms": [
+      {
+        "Id": 4200,
+        "Name": "Entrance to a Chasm",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4201
+        }
+      },
+      {
+        "Id": 4201,
+        "Name": "Deeper into the Chasm",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4202,
+          "West": 4200
+        }
+      },
+      {
+        "Id": 4202,
+        "Name": "Deeper into the Chasm",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4203,
+          "West": 4201
+        }
+      },
+      {
+        "Id": 4203,
+        "Name": "The Bottom of the Chasm",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4207,
+          "East": 4204,
+          "West": 4202
+        }
+      },
+      {
+        "Id": 4204,
+        "Name": "East side of the Chasm",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4205,
+          "West": 4203
+        }
+      },
+      {
+        "Id": 4205,
+        "Name": "Entrance to a Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4206,
+          "West": 4204
+        }
+      },
+      {
+        "Id": 4206,
+        "Name": "A Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4297,
+          "West": 4205
+        }
+      },
+      {
+        "Id": 4207,
+        "Name": "Entrance to a Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4208,
+          "South": 4203
+        }
+      },
+      {
+        "Id": 4208,
+        "Name": "Further Into the Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4209,
+          "South": 4207
+        }
+      },
+      {
+        "Id": 4209,
+        "Name": "A Choice of Ways",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4221,
+          "East": 4210,
+          "South": 4208,
+          "West": 4216
+        }
+      },
+      {
+        "Id": 4210,
+        "Name": "Top of A Stairwell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4209,
+          "Down": 4211
+        }
+      },
+      {
+        "Id": 4211,
+        "Name": "A Stairwell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 4210,
+          "Down": 4212
+        }
+      },
+      {
+        "Id": 4212,
+        "Name": "Bottom of a Stairwell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4213,
+          "Up": 4211
+        }
+      },
+      {
+        "Id": 4213,
+        "Name": "A Dank Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4214,
+          "West": 4212
+        }
+      },
+      {
+        "Id": 4214,
+        "Name": "A Dank Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4222,
+          "South": 4215,
+          "West": 4213
+        }
+      },
+      {
+        "Id": 4215,
+        "Name": "A Prison Cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4214
+        }
+      },
+      {
+        "Id": 4216,
+        "Name": "A Stairwell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4209,
+          "Up": 4295
+        }
+      },
+      {
+        "Id": 4217,
+        "Name": "A Small Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4220
+        }
+      },
+      {
+        "Id": 4218,
+        "Name": "A Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4223,
+          "South": 4220
+        }
+      },
+      {
+        "Id": 4219,
+        "Name": "A Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4296,
+          "West": 4220
+        }
+      },
+      {
+        "Id": 4220,
+        "Name": "A Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4218,
+          "East": 4219,
+          "West": 4217
+        }
+      },
+      {
+        "Id": 4221,
+        "Name": "A Hatchery",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4209
+        }
+      },
+      {
+        "Id": 4222,
+        "Name": "The End of the Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4214
+        }
+      },
+      {
+        "Id": 4223,
+        "Name": "A Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4224,
+          "South": 4218
+        }
+      },
+      {
+        "Id": 4224,
+        "Name": "A Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4225,
+          "South": 4223
+        }
+      },
+      {
+        "Id": 4225,
+        "Name": "A Guard Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4226,
+          "South": 4224
+        }
+      },
+      {
+        "Id": 4226,
+        "Name": "A Ramp",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4228,
+          "West": 4225
+        }
+      },
+      {
+        "Id": 4227,
+        "Name": "The Royal Treasury",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 4228
+        }
+      },
+      {
+        "Id": 4228,
+        "Name": "The Royal Antechamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4229,
+          "East": 4231,
+          "South": 4230,
+          "West": 4226,
+          "Down": 4227
+        }
+      },
+      {
+        "Id": 4229,
+        "Name": "The Royal Nest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4228
+        }
+      },
+      {
+        "Id": 4230,
+        "Name": "The Royal Balcony",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4228
+        }
+      },
+      {
+        "Id": 4231,
+        "Name": "The Royal Throne Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4228
+        }
+      },
+      {
+        "Id": 4294,
+        "Name": "NOTE",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 4295,
+        "Name": "A Stairwell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 4296,
+          "Down": 4216
+        }
+      },
+      {
+        "Id": 4296,
+        "Name": "Top of A Stairwell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4219,
+          "Down": 4295
+        }
+      },
+      {
+        "Id": 4297,
+        "Name": "The Back of the Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4206
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

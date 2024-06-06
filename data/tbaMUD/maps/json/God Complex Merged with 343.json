@@ -1,0 +1,178 @@
+{
+  "Area": {
+    "Name": "God Complex Merged with 343",
+    "Credits": "CircleMUD",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 1200,
+        "Name": "The Meeting Room Of The Gods",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 34310
+        }
+      },
+      {
+        "Id": 1201,
+        "Name": "The Inn Of The Gods",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 34307
+        }
+      },
+      {
+        "Id": 1202,
+        "Name": "The Ice Box Of The Gods",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 1203,
+        "Name": "The Gods\u0027 Mortal Board Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 34308
+        }
+      },
+      {
+        "Id": 1204,
+        "Name": "The Immortal Board Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 34308
+        }
+      },
+      {
+        "Id": 1205,
+        "Name": "The Post Office Of The Gods",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 34307
+        }
+      },
+      {
+        "Id": 1206,
+        "Name": "Advertising/Business Center",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 34309
+        }
+      },
+      {
+        "Id": 1290,
+        "Name": "The Immortal Board Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1291,
+          "South": 1293,
+          "West": 1204
+        }
+      },
+      {
+        "Id": 1291,
+        "Name": "The Builders\u0027 Board Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 34309
+        }
+      },
+      {
+        "Id": 1292,
+        "Name": "The Immortals\u0027 Mortal Board Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 1290
+        }
+      },
+      {
+        "Id": 1293,
+        "Name": "The Halls Of Justice",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 34310,
+          "Up": 34399
+        }
+      },
+      {
+        "Id": 34310,
+        "Name": "To God Complex ",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 1293,
+          "East": 34306,
+          "South": 1200,
+          "West": 34313
+        }
+      },
+      {
+        "Id": 34307,
+        "Name": "To God Complex ",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 34311,
+          "East": 1205,
+          "South": 34306,
+          "West": 1201
+        }
+      },
+      {
+        "Id": 34308,
+        "Name": "To God Complex ",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 1204,
+          "East": 34314,
+          "South": 1203,
+          "West": 34306
+        }
+      },
+      {
+        "Id": 34309,
+        "Name": "To God Complex ",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 34306,
+          "East": 1206,
+          "South": 34312,
+          "West": 1291
+        }
+      },
+      {
+        "Id": 34399,
+        "Name": "To God Complex ",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "Down": 1293
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

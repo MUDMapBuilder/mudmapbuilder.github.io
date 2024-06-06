@@ -1,0 +1,1015 @@
+{
+  "Area": {
+    "Name": "Vice Island",
+    "Credits": "Questor",
+    "MinimumLevel": "20",
+    "MaximumLevel": "25",
+    "Rooms": [
+      {
+        "Id": 26700,
+        "Name": "Vice Island Zone Description Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 26701,
+        "Name": "Port Harem",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26702
+        }
+      },
+      {
+        "Id": 26702,
+        "Name": "Beachside Harem",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26703,
+          "West": 26701,
+          "Down": 26704
+        }
+      },
+      {
+        "Id": 26703,
+        "Name": "Beach Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26705,
+          "West": 26702
+        }
+      },
+      {
+        "Id": 26704,
+        "Name": "Harem",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 26702
+        }
+      },
+      {
+        "Id": 26705,
+        "Name": "Beach Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26739,
+          "West": 26703
+        }
+      },
+      {
+        "Id": 26706,
+        "Name": "Creepy Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26707,
+          "West": 26739
+        }
+      },
+      {
+        "Id": 26707,
+        "Name": "Creepy Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26708,
+          "West": 26706
+        }
+      },
+      {
+        "Id": 26708,
+        "Name": "Creepy Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26745,
+          "West": 26739
+        }
+      },
+      {
+        "Id": 26709,
+        "Name": "Vice Hill",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 26739,
+          "Down": 26723
+        }
+      },
+      {
+        "Id": 26710,
+        "Name": "Vice Hill",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 26739,
+          "Down": 26728
+        }
+      },
+      {
+        "Id": 26711,
+        "Name": "Tarry Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26713,
+          "East": 26723
+        }
+      },
+      {
+        "Id": 26712,
+        "Name": "Tarry Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26714,
+          "West": 26723
+        }
+      },
+      {
+        "Id": 26713,
+        "Name": "Tarry Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26715,
+          "South": 26711
+        }
+      },
+      {
+        "Id": 26714,
+        "Name": "Tarry Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26716,
+          "South": 26712
+        }
+      },
+      {
+        "Id": 26715,
+        "Name": "Tarry Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26717,
+          "South": 26713
+        }
+      },
+      {
+        "Id": 26716,
+        "Name": "Tarry Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26718,
+          "South": 26714
+        }
+      },
+      {
+        "Id": 26717,
+        "Name": "Tarry Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26719,
+          "South": 26715
+        }
+      },
+      {
+        "Id": 26718,
+        "Name": "Tarry Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26720,
+          "South": 26716
+        }
+      },
+      {
+        "Id": 26719,
+        "Name": "Tarry Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26721,
+          "South": 26717
+        }
+      },
+      {
+        "Id": 26720,
+        "Name": "Tarry Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26722,
+          "South": 26718
+        }
+      },
+      {
+        "Id": 26721,
+        "Name": "Tarry Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26778,
+          "South": 26719
+        }
+      },
+      {
+        "Id": 26722,
+        "Name": "Tarry Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 26720,
+          "West": 26779
+        }
+      },
+      {
+        "Id": 26723,
+        "Name": "Vice Hill",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26724,
+          "East": 26712,
+          "South": 26710,
+          "West": 26711,
+          "Up": 26784
+        }
+      },
+      {
+        "Id": 26724,
+        "Name": "Tarry Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26725,
+          "South": 26723
+        }
+      },
+      {
+        "Id": 26725,
+        "Name": "Tarry Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26726,
+          "South": 26724
+        }
+      },
+      {
+        "Id": 26726,
+        "Name": "Tarry Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26727
+        }
+      },
+      {
+        "Id": 26727,
+        "Name": "Boiling Tar Pit",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 26728,
+        "Name": "Vice Hill",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26709,
+          "East": 26730,
+          "South": 26740,
+          "West": 26729,
+          "Up": 26730
+        }
+      },
+      {
+        "Id": 26729,
+        "Name": "High Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26728,
+          "South": 26731
+        }
+      },
+      {
+        "Id": 26730,
+        "Name": "Trail of Terror",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 26732,
+          "West": 26728
+        }
+      },
+      {
+        "Id": 26731,
+        "Name": "High Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26729,
+          "South": 26733
+        }
+      },
+      {
+        "Id": 26732,
+        "Name": "Trail of Terror",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26730,
+          "South": 26734
+        }
+      },
+      {
+        "Id": 26733,
+        "Name": "High Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26731,
+          "South": 26735
+        }
+      },
+      {
+        "Id": 26734,
+        "Name": "Trail of Terror",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26732,
+          "South": 26736
+        }
+      },
+      {
+        "Id": 26735,
+        "Name": "High Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26733,
+          "South": 26737
+        }
+      },
+      {
+        "Id": 26736,
+        "Name": "Trail of Terror",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26734,
+          "South": 26738
+        }
+      },
+      {
+        "Id": 26737,
+        "Name": "High Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26735,
+          "South": 26791
+        }
+      },
+      {
+        "Id": 26738,
+        "Name": "Trail of Terror",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26736,
+          "South": 26797
+        }
+      },
+      {
+        "Id": 26739,
+        "Name": "Vice Hill",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26709,
+          "East": 26706,
+          "South": 26710,
+          "West": 26705
+        }
+      },
+      {
+        "Id": 26740,
+        "Name": "Cliff Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26728,
+          "South": 26741
+        }
+      },
+      {
+        "Id": 26741,
+        "Name": "Cliff Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26740,
+          "South": 26742
+        }
+      },
+      {
+        "Id": 26742,
+        "Name": "Cliff Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26741,
+          "South": 26743
+        }
+      },
+      {
+        "Id": 26743,
+        "Name": "Cliff Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26742,
+          "South": 26744
+        }
+      },
+      {
+        "Id": 26744,
+        "Name": "Cliff\u0027s Edge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 26745,
+        "Name": "Entrance to the Building of Fear",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26746,
+          "West": 26708
+        }
+      },
+      {
+        "Id": 26746,
+        "Name": "The Tapestry Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26748,
+          "West": 26745
+        }
+      },
+      {
+        "Id": 26747,
+        "Name": "Gargoyle Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 26748,
+        "Name": "Trophy Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26747,
+          "East": 26750,
+          "South": 26749,
+          "West": 26746
+        }
+      },
+      {
+        "Id": 26749,
+        "Name": "Dressing Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26748
+        }
+      },
+      {
+        "Id": 26750,
+        "Name": "Wailing Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 26748,
+          "Up": 26751
+        }
+      },
+      {
+        "Id": 26751,
+        "Name": "On the staircase",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 26753,
+          "Down": 26750
+        }
+      },
+      {
+        "Id": 26752,
+        "Name": "Cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26753
+        }
+      },
+      {
+        "Id": 26753,
+        "Name": "Strangely shaped hallway.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26754,
+          "East": 26755,
+          "South": 26752,
+          "Up": 26757,
+          "Down": 26751
+        }
+      },
+      {
+        "Id": 26754,
+        "Name": "Open Hearth",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 26753
+        }
+      },
+      {
+        "Id": 26755,
+        "Name": "Supply Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 26753
+        }
+      },
+      {
+        "Id": 26756,
+        "Name": "Deserted Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26757
+        }
+      },
+      {
+        "Id": 26757,
+        "Name": "Creepy Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26759,
+          "East": 26758,
+          "South": 26756,
+          "West": 26761,
+          "Down": 26753
+        }
+      },
+      {
+        "Id": 26758,
+        "Name": "Office of the High Priest of Fear",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 26757
+        }
+      },
+      {
+        "Id": 26759,
+        "Name": "Creepy Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26760,
+          "South": 26757
+        }
+      },
+      {
+        "Id": 26760,
+        "Name": "Closet",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 26759
+        }
+      },
+      {
+        "Id": 26761,
+        "Name": "Creepy Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26762,
+          "East": 26757
+        }
+      },
+      {
+        "Id": 26762,
+        "Name": "Creepy Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26763,
+          "South": 26761
+        }
+      },
+      {
+        "Id": 26763,
+        "Name": "Creepy Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 26762,
+          "West": 26764
+        }
+      },
+      {
+        "Id": 26764,
+        "Name": "Balcony",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26763
+        }
+      },
+      {
+        "Id": 26765,
+        "Name": "Torture Chambre",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26778,
+          "South": 26766
+        }
+      },
+      {
+        "Id": 26766,
+        "Name": "Screening Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 26767,
+          "West": 26765
+        }
+      },
+      {
+        "Id": 26767,
+        "Name": "Outlay",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26766
+        }
+      },
+      {
+        "Id": 26768,
+        "Name": "Outlay",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 26769
+        }
+      },
+      {
+        "Id": 26769,
+        "Name": "Waiting Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 26770
+        }
+      },
+      {
+        "Id": 26770,
+        "Name": "Interrogation Center",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26769,
+          "South": 26778
+        }
+      },
+      {
+        "Id": 26771,
+        "Name": "Office of the Priest of Despair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26778,
+          "West": 26772
+        }
+      },
+      {
+        "Id": 26772,
+        "Name": "Waiting Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 26770
+        }
+      },
+      {
+        "Id": 26773,
+        "Name": "Outlay",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26772
+        }
+      },
+      {
+        "Id": 26775,
+        "Name": "Alcove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 26727,
+          "West": 26776
+        }
+      },
+      {
+        "Id": 26776,
+        "Name": "Sitting Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26775
+        }
+      },
+      {
+        "Id": 26777,
+        "Name": "Outlay",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 26776
+        }
+      },
+      {
+        "Id": 26778,
+        "Name": "Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26767,
+          "East": 26779,
+          "South": 26768,
+          "Up": 26773,
+          "Down": 26777
+        }
+      },
+      {
+        "Id": 26779,
+        "Name": "Entrance to the Hall of Hopelessness",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26778,
+          "East": 26781,
+          "South": 26722
+        }
+      },
+      {
+        "Id": 26780,
+        "Name": "Deserted Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26781,
+          "East": 26783,
+          "West": 26779
+        }
+      },
+      {
+        "Id": 26781,
+        "Name": "Deserted Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26782,
+          "East": 26783,
+          "South": 26780,
+          "West": 26779
+        }
+      },
+      {
+        "Id": 26782,
+        "Name": "Deserted Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26783,
+          "South": 26781,
+          "West": 26779
+        }
+      },
+      {
+        "Id": 26783,
+        "Name": "Dark Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 26781
+        }
+      },
+      {
+        "Id": 26784,
+        "Name": "Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26785,
+          "Down": 26723
+        }
+      },
+      {
+        "Id": 26785,
+        "Name": "Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26786,
+          "South": 26784
+        }
+      },
+      {
+        "Id": 26786,
+        "Name": "Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26787,
+          "South": 26785
+        }
+      },
+      {
+        "Id": 26787,
+        "Name": "Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26788,
+          "South": 26786
+        }
+      },
+      {
+        "Id": 26788,
+        "Name": "Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26789,
+          "South": 26787
+        }
+      },
+      {
+        "Id": 26789,
+        "Name": "Through the Trees",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26790,
+          "South": 26788
+        }
+      },
+      {
+        "Id": 26790,
+        "Name": "Port by the Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 26789
+        }
+      },
+      {
+        "Id": 26791,
+        "Name": "Hall of Wax",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26793
+        }
+      },
+      {
+        "Id": 26792,
+        "Name": "Entrance to the Office of the High Priest of Terror",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26738,
+          "South": 26791
+        }
+      },
+      {
+        "Id": 26793,
+        "Name": "Hall of Torture",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26792,
+          "South": 26794
+        }
+      },
+      {
+        "Id": 26794,
+        "Name": "Hall of Death",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26793,
+          "East": 26797,
+          "South": 26795
+        }
+      },
+      {
+        "Id": 26795,
+        "Name": "Office of the High Priest of Terror",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26792
+        }
+      },
+      {
+        "Id": 26797,
+        "Name": "Entrance to the Temple of Terror",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26738,
+          "East": 26798,
+          "West": 26804
+        }
+      },
+      {
+        "Id": 26798,
+        "Name": "Blindingly lit hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26799,
+          "East": 26800,
+          "West": 26797
+        }
+      },
+      {
+        "Id": 26799,
+        "Name": "Shrine to Vice",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 26798
+        }
+      },
+      {
+        "Id": 26804,
+        "Name": "To Vice Island II",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "East": 26797,
+          "South": 26792
+        }
+      },
+      {
+        "Id": 26800,
+        "Name": "To Vice Island II",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 26804,
+          "East": 26802,
+          "West": 26798
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": false,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

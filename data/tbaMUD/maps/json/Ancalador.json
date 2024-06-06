@@ -1,0 +1,610 @@
+{
+  "Area": {
+    "Name": "Ancalador",
+    "Credits": "Mercutio of C.A.W.",
+    "MinimumLevel": "6",
+    "MaximumLevel": "20",
+    "Rooms": [
+      {
+        "Id": 30000,
+        "Name": "A Wild Valley",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30001,
+          "West": 30057
+        }
+      },
+      {
+        "Id": 30001,
+        "Name": "Before The Dragon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30002,
+          "West": 30000
+        }
+      },
+      {
+        "Id": 30002,
+        "Name": "In The Dragon\u0027s Mouth",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30003,
+          "West": 30001
+        }
+      },
+      {
+        "Id": 30003,
+        "Name": "By Some Stone Tonsils",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30002,
+          "Down": 30004
+        }
+      },
+      {
+        "Id": 30004,
+        "Name": "A Throat Of Stone",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 30003,
+          "Down": 30005
+        }
+      },
+      {
+        "Id": 30005,
+        "Name": "Further Down The Dragon\u0027s Throat",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30006,
+          "Up": 30004
+        }
+      },
+      {
+        "Id": 30006,
+        "Name": "A Junction",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30007,
+          "East": 30055,
+          "South": 30010,
+          "West": 30005
+        }
+      },
+      {
+        "Id": 30007,
+        "Name": "A Stone Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30006,
+          "Up": 30008
+        }
+      },
+      {
+        "Id": 30008,
+        "Name": "A Dragon Lung",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 30007
+        }
+      },
+      {
+        "Id": 30009,
+        "Name": "The Heart Of The Dragon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30055
+        }
+      },
+      {
+        "Id": 30010,
+        "Name": "A Stone Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30006,
+          "Up": 30011
+        }
+      },
+      {
+        "Id": 30011,
+        "Name": "A Dragon Lung",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 30010
+        }
+      },
+      {
+        "Id": 30012,
+        "Name": "Ancalador\u0027s Stomach",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30013,
+          "West": 30055,
+          "Down": 30020
+        }
+      },
+      {
+        "Id": 30013,
+        "Name": "A Wooden Bridge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30014,
+          "West": 30012,
+          "Down": 30016
+        }
+      },
+      {
+        "Id": 30014,
+        "Name": "A Wooden Bridge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30015,
+          "West": 30013,
+          "Down": 30016
+        }
+      },
+      {
+        "Id": 30015,
+        "Name": "A Wooden Bridge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30026,
+          "West": 30014,
+          "Down": 30016
+        }
+      },
+      {
+        "Id": 30016,
+        "Name": "A Stalagmite Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 30017,
+        "Name": "The Acid Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30018,
+          "South": 30020
+        }
+      },
+      {
+        "Id": 30018,
+        "Name": "The Acid Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30019,
+          "South": 30021,
+          "West": 30017
+        }
+      },
+      {
+        "Id": 30019,
+        "Name": "The Acid Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30022,
+          "West": 30018
+        }
+      },
+      {
+        "Id": 30020,
+        "Name": "The Acid Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30017,
+          "East": 30021,
+          "South": 30023,
+          "Up": 30012
+        }
+      },
+      {
+        "Id": 30021,
+        "Name": "The Acid Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30018,
+          "East": 30022,
+          "South": 30024,
+          "West": 30020
+        }
+      },
+      {
+        "Id": 30022,
+        "Name": "The Acid Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30019,
+          "South": 30025,
+          "West": 30021
+        }
+      },
+      {
+        "Id": 30023,
+        "Name": "The Acid Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30020,
+          "East": 30024
+        }
+      },
+      {
+        "Id": 30024,
+        "Name": "The Acid Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30021,
+          "East": 30025,
+          "West": 30023
+        }
+      },
+      {
+        "Id": 30025,
+        "Name": "The Acid Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30022,
+          "West": 30024
+        }
+      },
+      {
+        "Id": 30026,
+        "Name": "The End Of The Stomach",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30056,
+          "West": 30015,
+          "Down": 30022
+        }
+      },
+      {
+        "Id": 30027,
+        "Name": "The Dragon\u0027s Pancreas",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30056,
+          "East": 30045,
+          "Down": 30049
+        }
+      },
+      {
+        "Id": 30028,
+        "Name": "The Small Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30029,
+          "West": 30056
+        }
+      },
+      {
+        "Id": 30029,
+        "Name": "The Small Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30030,
+          "South": 30028
+        }
+      },
+      {
+        "Id": 30030,
+        "Name": "The Small Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30031,
+          "West": 30029
+        }
+      },
+      {
+        "Id": 30031,
+        "Name": "The Small Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30030,
+          "South": 30032
+        }
+      },
+      {
+        "Id": 30032,
+        "Name": "The Small Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30031,
+          "Down": 30033
+        }
+      },
+      {
+        "Id": 30033,
+        "Name": "The Small Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30034,
+          "Up": 30032
+        }
+      },
+      {
+        "Id": 30034,
+        "Name": "The Small Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30035,
+          "South": 30033
+        }
+      },
+      {
+        "Id": 30035,
+        "Name": "The Small Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30036,
+          "South": 30034
+        }
+      },
+      {
+        "Id": 30036,
+        "Name": "The Small Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30037,
+          "West": 30035
+        }
+      },
+      {
+        "Id": 30037,
+        "Name": "The Small Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30036,
+          "South": 30038
+        }
+      },
+      {
+        "Id": 30038,
+        "Name": "The Large Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30037,
+          "East": 30039
+        }
+      },
+      {
+        "Id": 30039,
+        "Name": "The Large Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30040,
+          "West": 30038
+        }
+      },
+      {
+        "Id": 30040,
+        "Name": "The Large Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30041,
+          "South": 30039
+        }
+      },
+      {
+        "Id": 30041,
+        "Name": "The Large Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30042,
+          "South": 30040
+        }
+      },
+      {
+        "Id": 30042,
+        "Name": "The Large Intestine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30043,
+          "West": 30041
+        }
+      },
+      {
+        "Id": 30043,
+        "Name": "A Stony Sphincter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30042,
+          "East": 30044
+        }
+      },
+      {
+        "Id": 30044,
+        "Name": "At The Dragon\u0027s Tail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30001,
+          "West": 30043
+        }
+      },
+      {
+        "Id": 30045,
+        "Name": "An Undead Garden",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30027,
+          "Down": 30050
+        }
+      },
+      {
+        "Id": 30046,
+        "Name": "The Private Chambers",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30047
+        }
+      },
+      {
+        "Id": 30047,
+        "Name": "The Macabre Amphitheather",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30046,
+          "West": 30048,
+          "Down": 30051
+        }
+      },
+      {
+        "Id": 30048,
+        "Name": "The Temple Of Death",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30047,
+          "Down": 30052
+        }
+      },
+      {
+        "Id": 30049,
+        "Name": "Cold Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30052,
+          "Up": 30027
+        }
+      },
+      {
+        "Id": 30050,
+        "Name": "The Kennel Of The Demised",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30051,
+          "Up": 30045
+        }
+      },
+      {
+        "Id": 30051,
+        "Name": "The Operating Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30050,
+          "Up": 30047
+        }
+      },
+      {
+        "Id": 30052,
+        "Name": "The Guildhall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30049,
+          "West": 30053,
+          "Up": 30048
+        }
+      },
+      {
+        "Id": 30053,
+        "Name": "The Altar Of Annihilation",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30052,
+          "Down": 30054
+        }
+      },
+      {
+        "Id": 30054,
+        "Name": "The Darken Pit",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 30053
+        }
+      },
+      {
+        "Id": 30055,
+        "Name": "A Stone Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30012,
+          "West": 30006
+        }
+      },
+      {
+        "Id": 30056,
+        "Name": "A Stone Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30028,
+          "South": 30027,
+          "West": 30026
+        }
+      },
+      {
+        "Id": 30057,
+        "Name": "Muddy Riverbank",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30000
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

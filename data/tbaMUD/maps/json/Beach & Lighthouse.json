@@ -1,0 +1,433 @@
+{
+  "Area": {
+    "Name": "Beach \u0026 Lighthouse",
+    "Credits": "Kaan",
+    "MinimumLevel": "20",
+    "MaximumLevel": "30",
+    "Rooms": [
+      {
+        "Id": 26500,
+        "Name": "Steps Leading Down to the Sea",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 25874,
+          "Down": 26501
+        }
+      },
+      {
+        "Id": 26501,
+        "Name": "Down the Cliff-Face",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 26500,
+          "Down": 26502
+        }
+      },
+      {
+        "Id": 26502,
+        "Name": "On the Cliff Face",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 25531,
+          "Up": 26501,
+          "Down": 26503
+        }
+      },
+      {
+        "Id": 26503,
+        "Name": "On the Steps",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 26502,
+          "Down": 26504
+        }
+      },
+      {
+        "Id": 26504,
+        "Name": "The Base of the Steps",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26507,
+          "West": 26505,
+          "Up": 26503
+        }
+      },
+      {
+        "Id": 26505,
+        "Name": "Along the Beach",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26504,
+          "West": 26506
+        }
+      },
+      {
+        "Id": 26506,
+        "Name": "Along the Beach",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26505,
+          "West": 26511,
+          "Down": 25507
+        }
+      },
+      {
+        "Id": 26507,
+        "Name": "Sandy Beach",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26508,
+          "West": 26504
+        }
+      },
+      {
+        "Id": 26508,
+        "Name": "Sandy Beach",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26509,
+          "West": 26507
+        }
+      },
+      {
+        "Id": 26509,
+        "Name": "Sandy Beach",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26510,
+          "West": 26508
+        }
+      },
+      {
+        "Id": 26510,
+        "Name": "The Base of the City",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26536,
+          "West": 26509
+        }
+      },
+      {
+        "Id": 26511,
+        "Name": "Along a Rocky Beach",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26506,
+          "West": 26512
+        }
+      },
+      {
+        "Id": 26512,
+        "Name": "Rocky Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26511,
+          "South": 26513
+        }
+      },
+      {
+        "Id": 26513,
+        "Name": "Rocky Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26512,
+          "West": 26514
+        }
+      },
+      {
+        "Id": 26514,
+        "Name": "Rocky Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26513,
+          "West": 26515
+        }
+      },
+      {
+        "Id": 26515,
+        "Name": "Rocky Path at Takker\u0027s Jetty",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26514,
+          "South": 26517,
+          "West": 26516
+        }
+      },
+      {
+        "Id": 26516,
+        "Name": "Rocky Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26515,
+          "West": 26531
+        }
+      },
+      {
+        "Id": 26517,
+        "Name": "Takker\u0027s Jetty",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26515,
+          "South": 26518
+        }
+      },
+      {
+        "Id": 26518,
+        "Name": "Takker\u0027s Jetty",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26517,
+          "South": 26519
+        }
+      },
+      {
+        "Id": 26519,
+        "Name": "Takker\u0027s Jetty at the Lighthouse",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26518,
+          "South": 26520
+        }
+      },
+      {
+        "Id": 26520,
+        "Name": "Entryway - Lighthouse",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26519,
+          "South": 26521
+        }
+      },
+      {
+        "Id": 26521,
+        "Name": "Main Living Area - Lighthouse",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26520,
+          "East": 26522,
+          "West": 26524,
+          "Up": 26523
+        }
+      },
+      {
+        "Id": 26522,
+        "Name": "Lighthouse Keeper\u0027s Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 26521,
+          "Down": 26525
+        }
+      },
+      {
+        "Id": 26523,
+        "Name": "Light Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 26521
+        }
+      },
+      {
+        "Id": 26524,
+        "Name": "Lighthouse Keeper\u0027s Daughter\u0027s Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26521
+        }
+      },
+      {
+        "Id": 26525,
+        "Name": "On the Spiral Staircase",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 26522,
+          "Down": 26526
+        }
+      },
+      {
+        "Id": 26526,
+        "Name": "Lighthouse Keeper\u0027s Operating Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26527,
+          "East": 26528,
+          "South": 26529,
+          "West": 26530,
+          "Up": 26525
+        }
+      },
+      {
+        "Id": 26527,
+        "Name": "Keeper\u0027s Playroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 26526
+        }
+      },
+      {
+        "Id": 26528,
+        "Name": "Cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 26526
+        }
+      },
+      {
+        "Id": 26529,
+        "Name": "Cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26526
+        }
+      },
+      {
+        "Id": 26530,
+        "Name": "Cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26526
+        }
+      },
+      {
+        "Id": 26531,
+        "Name": "Rocky Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26516,
+          "West": 26532
+        }
+      },
+      {
+        "Id": 26532,
+        "Name": "Rocky Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26533,
+          "East": 26531,
+          "West": 26535
+        }
+      },
+      {
+        "Id": 26533,
+        "Name": "Cave Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 26534,
+          "South": 26532
+        }
+      },
+      {
+        "Id": 26534,
+        "Name": "In the Kracken\u0027s Den",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 26533
+        }
+      },
+      {
+        "Id": 26535,
+        "Name": "End of the Rocky Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 26532
+        }
+      },
+      {
+        "Id": 26536,
+        "Name": "End of the Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 28200,
+          "South": 26510
+        }
+      },
+      {
+        "Id": 25874,
+        "Name": "To Light Forest",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 25871,
+          "Down": 26500
+        }
+      },
+      {
+        "Id": 25531,
+        "Name": "To Shipwreck",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "East": 25500,
+          "West": 26502
+        }
+      },
+      {
+        "Id": 25507,
+        "Name": "To Shipwreck",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "Up": 26506,
+          "Down": 25508
+        }
+      },
+      {
+        "Id": 28200,
+        "Name": "To Infernal Pit of Kerjim",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "South": 26536,
+          "Down": 28201
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}
