@@ -1,0 +1,42 @@
+{
+  "Area": {
+    "Name": "Limbo",
+    "Credits": "{None } Diku    Limbo",
+    "MinimumLevel": "None",
+    "MaximumLevel": "None",
+    "Rooms": [
+      {
+        "Id": 1,
+        "Name": "The Void",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 2,
+        "Name": "Limbo",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 69,
+        "Name": "Frag\u0027s Hovel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

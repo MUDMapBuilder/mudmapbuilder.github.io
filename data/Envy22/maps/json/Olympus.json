@@ -1,0 +1,532 @@
+{
+  "Area": {
+    "Name": "Olympus",
+    "Credits": "{15 50} Generic Olympus",
+    "MinimumLevel": "15",
+    "MaximumLevel": "50",
+    "Rooms": [
+      {
+        "Id": 901,
+        "Name": "Mountain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 902,
+          "South": 324
+        }
+      },
+      {
+        "Id": 902,
+        "Name": "Mountain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 903,
+          "Down": 901
+        }
+      },
+      {
+        "Id": 903,
+        "Name": "Mountain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 904,
+          "Down": 902
+        }
+      },
+      {
+        "Id": 904,
+        "Name": "Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 905,
+          "South": 903
+        }
+      },
+      {
+        "Id": 905,
+        "Name": "Zeus Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 906,
+          "South": 904,
+          "West": 924
+        }
+      },
+      {
+        "Id": 906,
+        "Name": "Zeus Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 907,
+          "South": 905,
+          "East": 925,
+          "West": 926
+        }
+      },
+      {
+        "Id": 907,
+        "Name": "Zeus Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 908,
+          "South": 906,
+          "West": 927
+        }
+      },
+      {
+        "Id": 908,
+        "Name": "Zeus Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 909,
+          "South": 907,
+          "East": 928
+        }
+      },
+      {
+        "Id": 909,
+        "Name": "Castle Entryway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 910,
+          "South": 908,
+          "West": 911,
+          "East": 915
+        }
+      },
+      {
+        "Id": 910,
+        "Name": "Throne Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 923,
+          "South": 909,
+          "Down": 918
+        }
+      },
+      {
+        "Id": 911,
+        "Name": "Western Wing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 909,
+          "West": 912
+        }
+      },
+      {
+        "Id": 912,
+        "Name": "Western Wing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 911,
+          "West": 929,
+          "South": 930,
+          "North": 913
+        }
+      },
+      {
+        "Id": 913,
+        "Name": "Western Wing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 912,
+          "North": 914
+        }
+      },
+      {
+        "Id": 914,
+        "Name": "Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 913
+        }
+      },
+      {
+        "Id": 915,
+        "Name": "Eastern Wing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 909,
+          "East": 916
+        }
+      },
+      {
+        "Id": 916,
+        "Name": "Eastern Wing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 915,
+          "East": 931,
+          "North": 917,
+          "South": 932
+        }
+      },
+      {
+        "Id": 917,
+        "Name": "Eastern Wing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 933,
+          "South": 916
+        }
+      },
+      {
+        "Id": 918,
+        "Name": "Dungeon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 919,
+          "Up": 910
+        }
+      },
+      {
+        "Id": 919,
+        "Name": "Dungeon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 920,
+          "East": 922,
+          "West": 921,
+          "South": 918
+        }
+      },
+      {
+        "Id": 920,
+        "Name": "Cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 919
+        }
+      },
+      {
+        "Id": 921,
+        "Name": "Cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 919
+        }
+      },
+      {
+        "Id": 922,
+        "Name": "Cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 919
+        }
+      },
+      {
+        "Id": 923,
+        "Name": "Stairway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 939,
+          "South": 910
+        }
+      },
+      {
+        "Id": 924,
+        "Name": "Bakery",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 905
+        }
+      },
+      {
+        "Id": 925,
+        "Name": "Residence",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 906
+        }
+      },
+      {
+        "Id": 926,
+        "Name": "Residence",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 906
+        }
+      },
+      {
+        "Id": 927,
+        "Name": "Mystic Shop",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 907
+        }
+      },
+      {
+        "Id": 928,
+        "Name": "Ares Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 908,
+          "East": 934
+        }
+      },
+      {
+        "Id": 929,
+        "Name": "Guest Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 912
+        }
+      },
+      {
+        "Id": 930,
+        "Name": "Storage Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 912
+        }
+      },
+      {
+        "Id": 931,
+        "Name": "Guest Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 916
+        }
+      },
+      {
+        "Id": 932,
+        "Name": "Storage Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 916
+        }
+      },
+      {
+        "Id": 933,
+        "Name": "Stable",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 917
+        }
+      },
+      {
+        "Id": 934,
+        "Name": "Ares Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 928,
+          "North": 937,
+          "East": 936,
+          "South": 935
+        }
+      },
+      {
+        "Id": 935,
+        "Name": "Armoury",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 934
+        }
+      },
+      {
+        "Id": 936,
+        "Name": "Weapon Shop",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 934
+        }
+      },
+      {
+        "Id": 937,
+        "Name": "Smithy",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 934,
+          "West": 938
+        }
+      },
+      {
+        "Id": 938,
+        "Name": "The Planning Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 937,
+          "North": 954
+        }
+      },
+      {
+        "Id": 939,
+        "Name": "Second Floor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 923,
+          "Up": 948,
+          "North": 940,
+          "East": 943,
+          "West": 942,
+          "South": 941
+        }
+      },
+      {
+        "Id": 940,
+        "Name": "Northern Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 939,
+          "North": 947
+        }
+      },
+      {
+        "Id": 941,
+        "Name": "Southern Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 944,
+          "North": 939
+        }
+      },
+      {
+        "Id": 942,
+        "Name": "Western Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 939,
+          "West": 945
+        }
+      },
+      {
+        "Id": 943,
+        "Name": "Eastern Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 946,
+          "West": 939
+        }
+      },
+      {
+        "Id": 944,
+        "Name": "Bed Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 941
+        }
+      },
+      {
+        "Id": 945,
+        "Name": "Bed Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 942
+        }
+      },
+      {
+        "Id": 946,
+        "Name": "Bed Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 943
+        }
+      },
+      {
+        "Id": 947,
+        "Name": "Bed Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 940
+        }
+      },
+      {
+        "Id": 948,
+        "Name": "Hall of Gods",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 939,
+          "North": 951
+        }
+      },
+      {
+        "Id": 951,
+        "Name": "The Portal",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 948
+        }
+      },
+      {
+        "Id": 954,
+        "Name": "The Believer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 938
+        }
+      },
+      {
+        "Id": 324,
+        "Name": "To Plains of the North",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 901,
+          "East": 325,
+          "South": 322,
+          "West": 323
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

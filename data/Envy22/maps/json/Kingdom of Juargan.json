@@ -1,0 +1,917 @@
+{
+  "Area": {
+    "Name": "Kingdom of Juargan",
+    "Credits": "{10 25} Anon    Kingdom of Juargan",
+    "MinimumLevel": "10",
+    "MaximumLevel": "25",
+    "Rooms": [
+      {
+        "Id": 4700,
+        "Name": "The Spiral Stair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4701,
+          "Up": 4772
+        }
+      },
+      {
+        "Id": 4701,
+        "Name": "Mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4700,
+          "West": 4702
+        }
+      },
+      {
+        "Id": 4702,
+        "Name": "Mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4703,
+          "East": 4701
+        }
+      },
+      {
+        "Id": 4703,
+        "Name": "Mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4702,
+          "West": 4704
+        }
+      },
+      {
+        "Id": 4704,
+        "Name": "Mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4703,
+          "South": 4705,
+          "West": 4706
+        }
+      },
+      {
+        "Id": 4705,
+        "Name": "Unfinished Mine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4704
+        }
+      },
+      {
+        "Id": 4706,
+        "Name": "Mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4704,
+          "West": 4707
+        }
+      },
+      {
+        "Id": 4707,
+        "Name": "Turn in the Mine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4706,
+          "South": 4708
+        }
+      },
+      {
+        "Id": 4708,
+        "Name": "Mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4707,
+          "South": 4709,
+          "West": 4736
+        }
+      },
+      {
+        "Id": 4709,
+        "Name": "Dwarven mine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4708,
+          "East": 4724,
+          "South": 4710
+        }
+      },
+      {
+        "Id": 4710,
+        "Name": "Dwarven mine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4709,
+          "East": 4712,
+          "South": 4711
+        }
+      },
+      {
+        "Id": 4711,
+        "Name": "Dwarven mine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4710
+        }
+      },
+      {
+        "Id": 4712,
+        "Name": "Dwarven mine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4713,
+          "West": 4710
+        }
+      },
+      {
+        "Id": 4713,
+        "Name": "Dwarven mine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4712,
+          "South": 4714
+        }
+      },
+      {
+        "Id": 4714,
+        "Name": "Dwarven mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4713,
+          "East": 4719,
+          "West": 4715
+        }
+      },
+      {
+        "Id": 4715,
+        "Name": "Dwarven mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4714,
+          "South": 4716
+        }
+      },
+      {
+        "Id": 4716,
+        "Name": "Dwarven mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4715,
+          "East": 4717
+        }
+      },
+      {
+        "Id": 4717,
+        "Name": "Dwarven mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4718,
+          "West": 4716
+        }
+      },
+      {
+        "Id": 4718,
+        "Name": "End of the mine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4717
+        }
+      },
+      {
+        "Id": 4719,
+        "Name": "Dwarven mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4721,
+          "South": 4720,
+          "West": 4714
+        }
+      },
+      {
+        "Id": 4720,
+        "Name": "Unfinished shaft",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4719
+        }
+      },
+      {
+        "Id": 4721,
+        "Name": "Dwarven mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4722,
+          "West": 4719
+        }
+      },
+      {
+        "Id": 4722,
+        "Name": "Dwarven mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4721,
+          "South": 4723
+        }
+      },
+      {
+        "Id": 4723,
+        "Name": "Unfinished mine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4722
+        }
+      },
+      {
+        "Id": 4724,
+        "Name": "Dwarven mine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4725,
+          "West": 4709
+        }
+      },
+      {
+        "Id": 4725,
+        "Name": "Dwarven mine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4726,
+          "West": 4724
+        }
+      },
+      {
+        "Id": 4726,
+        "Name": "Dwarven mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4725,
+          "South": 4727
+        }
+      },
+      {
+        "Id": 4727,
+        "Name": "Dwarven mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4726,
+          "East": 4728
+        }
+      },
+      {
+        "Id": 4728,
+        "Name": "Dwarven mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4729,
+          "West": 4727
+        }
+      },
+      {
+        "Id": 4729,
+        "Name": "Dwarven mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4732,
+          "South": 4730,
+          "West": 4728
+        }
+      },
+      {
+        "Id": 4730,
+        "Name": "Dwarven mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4729,
+          "South": 4731
+        }
+      },
+      {
+        "Id": 4731,
+        "Name": "Dwarven mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4730
+        }
+      },
+      {
+        "Id": 4732,
+        "Name": "Duergar Outcamp",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4733,
+          "South": 4729,
+          "West": 4735
+        }
+      },
+      {
+        "Id": 4733,
+        "Name": "Duergar Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4732
+        }
+      },
+      {
+        "Id": 4734,
+        "Name": "Small cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4735
+        }
+      },
+      {
+        "Id": 4735,
+        "Name": "By a small fire",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4732,
+          "North": 4734
+        }
+      },
+      {
+        "Id": 4736,
+        "Name": "Carved Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4737,
+          "East": 4708
+        }
+      },
+      {
+        "Id": 4737,
+        "Name": "Carved Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4736,
+          "West": 4738
+        }
+      },
+      {
+        "Id": 4738,
+        "Name": "Carved Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4737,
+          "South": 4739
+        }
+      },
+      {
+        "Id": 4739,
+        "Name": "Stone Gates",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4738,
+          "South": 4740
+        }
+      },
+      {
+        "Id": 4740,
+        "Name": "Walkway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4739,
+          "South": 4741,
+          "West": 4750
+        }
+      },
+      {
+        "Id": 4741,
+        "Name": "Rock Garden",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4740,
+          "East": 4742,
+          "West": 4748
+        }
+      },
+      {
+        "Id": 4742,
+        "Name": "Rock Garden",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4743,
+          "West": 4741
+        }
+      },
+      {
+        "Id": 4743,
+        "Name": "Rock Garden",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4742,
+          "South": 4744
+        }
+      },
+      {
+        "Id": 4744,
+        "Name": "Rock Garden",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4743,
+          "West": 4745
+        }
+      },
+      {
+        "Id": 4745,
+        "Name": "Rock Garden",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4749,
+          "East": 4744,
+          "West": 4746
+        }
+      },
+      {
+        "Id": 4746,
+        "Name": "Rock Garden",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4747,
+          "East": 4745
+        }
+      },
+      {
+        "Id": 4747,
+        "Name": "Rock Garden",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4748,
+          "South": 4746
+        }
+      },
+      {
+        "Id": 4748,
+        "Name": "Rock Garden",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4741,
+          "South": 4747
+        }
+      },
+      {
+        "Id": 4749,
+        "Name": "Temple of Juargan",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4745
+        }
+      },
+      {
+        "Id": 4750,
+        "Name": "Walkway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4740,
+          "West": 4751
+        }
+      },
+      {
+        "Id": 4751,
+        "Name": "Walkway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4750,
+          "South": 4753,
+          "West": 4752
+        }
+      },
+      {
+        "Id": 4752,
+        "Name": "Blacksmith\u0027s Home",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4751
+        }
+      },
+      {
+        "Id": 4753,
+        "Name": "Walkway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4751,
+          "South": 4759,
+          "West": 4754
+        }
+      },
+      {
+        "Id": 4754,
+        "Name": "Path in the Rock",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4753,
+          "West": 4755
+        }
+      },
+      {
+        "Id": 4755,
+        "Name": "Path in the Rock",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4754,
+          "South": 4756
+        }
+      },
+      {
+        "Id": 4756,
+        "Name": "Path in the Rock",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4755,
+          "East": 4771,
+          "South": 4757
+        }
+      },
+      {
+        "Id": 4757,
+        "Name": "Path in the Rock",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4756,
+          "East": 4758
+        }
+      },
+      {
+        "Id": 4758,
+        "Name": "Path in the Rock",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4760,
+          "South": 4761,
+          "West": 4757
+        }
+      },
+      {
+        "Id": 4759,
+        "Name": "Walkway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4753,
+          "South": 4760
+        }
+      },
+      {
+        "Id": 4760,
+        "Name": "Walkway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4759,
+          "South": 4762,
+          "West": 4758
+        }
+      },
+      {
+        "Id": 4761,
+        "Name": "Pasty\u0027s Dwelling",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4758
+        }
+      },
+      {
+        "Id": 4762,
+        "Name": "Walkway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4760,
+          "East": 4763,
+          "South": 4764
+        }
+      },
+      {
+        "Id": 4763,
+        "Name": "Walkway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4766,
+          "South": 4765,
+          "West": 4762
+        }
+      },
+      {
+        "Id": 4764,
+        "Name": "Leatherbies Home",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4762
+        }
+      },
+      {
+        "Id": 4765,
+        "Name": "The Stone Jewel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4763
+        }
+      },
+      {
+        "Id": 4766,
+        "Name": "Guard Barrack",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4763,
+          "South": 4767
+        }
+      },
+      {
+        "Id": 4767,
+        "Name": "Alcove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4766,
+          "West": 4768
+        }
+      },
+      {
+        "Id": 4768,
+        "Name": "Entrance to Tomb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4769,
+          "East": 4767
+        }
+      },
+      {
+        "Id": 4769,
+        "Name": "Ancients Tomb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4768,
+          "West": 4770
+        }
+      },
+      {
+        "Id": 4770,
+        "Name": "Ancients Vault",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4769
+        }
+      },
+      {
+        "Id": 4771,
+        "Name": "Siven\u0027s Stone",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4756
+        }
+      },
+      {
+        "Id": 4772,
+        "Name": "The small cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4773,
+          "Down": 4700
+        }
+      },
+      {
+        "Id": 4773,
+        "Name": "Beneath the waterfall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4772,
+          "West": 4774
+        }
+      },
+      {
+        "Id": 4774,
+        "Name": "By the beautiful waterfall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5279,
+          "East": 4773,
+          "South": 4775
+        }
+      },
+      {
+        "Id": 4775,
+        "Name": "A valley",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4774,
+          "West": 4776
+        }
+      },
+      {
+        "Id": 4776,
+        "Name": "A valley",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4775,
+          "Up": 4777
+        }
+      },
+      {
+        "Id": 4777,
+        "Name": "At the end of the hills",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 4776,
+          "West": 4778
+        }
+      },
+      {
+        "Id": 4778,
+        "Name": "A trail along the hills",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4777,
+          "West": 4779
+        }
+      },
+      {
+        "Id": 4779,
+        "Name": "A trail along the hills",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4778,
+          "Down": 4780
+        }
+      },
+      {
+        "Id": 4780,
+        "Name": "Up the hill",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 4779,
+          "Down": 4781
+        }
+      },
+      {
+        "Id": 4781,
+        "Name": "Up the hill",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 4780,
+          "Down": 4782
+        }
+      },
+      {
+        "Id": 4782,
+        "Name": "Up the hill",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 4781,
+          "Down": 4783
+        }
+      },
+      {
+        "Id": 4783,
+        "Name": "Up the hill",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 4782,
+          "Down": 4784
+        }
+      },
+      {
+        "Id": 4784,
+        "Name": "The hills",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4785,
+          "Up": 4783
+        }
+      },
+      {
+        "Id": 4785,
+        "Name": "The hills",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4784,
+          "West": 4000,
+          "South": 2900
+        }
+      },
+      {
+        "Id": 5279,
+        "Name": "To Thalos",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "East": 5278,
+          "South": 4774
+        }
+      },
+      {
+        "Id": 4000,
+        "Name": "To Moria",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 4001,
+          "East": 4785,
+          "South": 3500
+        }
+      },
+      {
+        "Id": 2900,
+        "Name": "To Land of the Fire Newts",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 4785,
+          "South": 2901
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

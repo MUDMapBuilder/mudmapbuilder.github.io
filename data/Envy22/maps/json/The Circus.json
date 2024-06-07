@@ -1,0 +1,528 @@
+{
+  "Area": {
+    "Name": "The Circus",
+    "Credits": "{ 1 12} Binky   The Circus",
+    "MinimumLevel": "1",
+    "MaximumLevel": "12",
+    "Rooms": [
+      {
+        "Id": 4401,
+        "Name": "The Path to the Circus",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2172,
+          "South": 4402
+        }
+      },
+      {
+        "Id": 4402,
+        "Name": "The Entrance to the Circus",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4403,
+          "North": 4401
+        }
+      },
+      {
+        "Id": 4403,
+        "Name": "The Path to the Big Top",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4402,
+          "South": 4406,
+          "West": 4404,
+          "East": 4405
+        }
+      },
+      {
+        "Id": 4404,
+        "Name": "The Game Booths",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4403
+        }
+      },
+      {
+        "Id": 4405,
+        "Name": "The Game Booths",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4403
+        }
+      },
+      {
+        "Id": 4406,
+        "Name": "The Path to the Big Top",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4403,
+          "South": 4414,
+          "West": 4407,
+          "East": 4408
+        }
+      },
+      {
+        "Id": 4407,
+        "Name": "The Cotton Candy Vendor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4406
+        }
+      },
+      {
+        "Id": 4408,
+        "Name": "The Entrance to the Freak Shows",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4406,
+          "East": 4409,
+          "South": 4413
+        }
+      },
+      {
+        "Id": 4409,
+        "Name": "The Tent of the Bearded Lady",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4408,
+          "East": 4410,
+          "South": 4412
+        }
+      },
+      {
+        "Id": 4410,
+        "Name": "The Tent of the Illusionist",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4409,
+          "South": 4411
+        }
+      },
+      {
+        "Id": 4411,
+        "Name": "The Midget\u0027s Tent",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4410,
+          "West": 4412
+        }
+      },
+      {
+        "Id": 4412,
+        "Name": "The Sword Swallower\u0027s Tent",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4409,
+          "East": 4411,
+          "West": 4413
+        }
+      },
+      {
+        "Id": 4413,
+        "Name": "The Strongman\u0027s Tent",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4408,
+          "East": 4412
+        }
+      },
+      {
+        "Id": 4414,
+        "Name": "The Path to the Big Top",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4406,
+          "South": 4415
+        }
+      },
+      {
+        "Id": 4415,
+        "Name": "The Entrance to the Big Top.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4414,
+          "South": 4416
+        }
+      },
+      {
+        "Id": 4416,
+        "Name": "Entryway between the Grand Stands",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4415,
+          "South": 4419,
+          "East": 4417,
+          "West": 4421
+        }
+      },
+      {
+        "Id": 4417,
+        "Name": "Under the Grand Stands",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4416,
+          "Up": 4418
+        }
+      },
+      {
+        "Id": 4418,
+        "Name": "In the Grand Stands",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 4417,
+          "West": 4419
+        }
+      },
+      {
+        "Id": 4419,
+        "Name": "First Look at the Big Top",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4418,
+          "North": 4416,
+          "South": 4422,
+          "West": 4420
+        }
+      },
+      {
+        "Id": 4420,
+        "Name": "In the Grand Stands",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 4421,
+          "East": 4419
+        }
+      },
+      {
+        "Id": 4421,
+        "Name": "Under the Grand Stands",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 4420,
+          "East": 4416
+        }
+      },
+      {
+        "Id": 4422,
+        "Name": "The 2nd Ring - You\u0027d better read the description of this room. ",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 4444,
+          "North": 4419,
+          "East": 4423,
+          "West": 4424,
+          "Up": 4427
+        }
+      },
+      {
+        "Id": 4423,
+        "Name": "The 3rd Ring",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4422
+        }
+      },
+      {
+        "Id": 4424,
+        "Name": "The 1st Ring",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4422,
+          "Down": 4469
+        }
+      },
+      {
+        "Id": 4425,
+        "Name": "On the High Wire",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 4424,
+          "East": 4426,
+          "West": 4428
+        }
+      },
+      {
+        "Id": 4426,
+        "Name": "On the High Wire",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4427,
+          "West": 4425
+        }
+      },
+      {
+        "Id": 4427,
+        "Name": "On the Platform Way, Way Up in the Air",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 4422,
+          "West": 4426
+        }
+      },
+      {
+        "Id": 4428,
+        "Name": "The End of the Highwire",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4425,
+          "Down": 4429
+        }
+      },
+      {
+        "Id": 4429,
+        "Name": "Behind the Big Top",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 4428,
+          "West": 4445,
+          "South": 4430,
+          "East": 4434
+        }
+      },
+      {
+        "Id": 4430,
+        "Name": "The Animal Pens",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4429,
+          "East": 4433,
+          "South": 4432,
+          "West": 4431
+        }
+      },
+      {
+        "Id": 4431,
+        "Name": "The Elephant Pen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4430
+        }
+      },
+      {
+        "Id": 4432,
+        "Name": "The Bear Pen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4430
+        }
+      },
+      {
+        "Id": 4433,
+        "Name": "The Horse Corral",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4430
+        }
+      },
+      {
+        "Id": 4434,
+        "Name": "The Row of Trailers",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4435,
+          "East": 4438,
+          "South": 4436,
+          "West": 4429
+        }
+      },
+      {
+        "Id": 4435,
+        "Name": "The Strongman\u0027s Trailer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4434
+        }
+      },
+      {
+        "Id": 4436,
+        "Name": "The Bearded Lady\u0027s Trailer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4434
+        }
+      },
+      {
+        "Id": 4437,
+        "Name": "The Sword Swallower\u0027s Trailer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4438
+        }
+      },
+      {
+        "Id": 4438,
+        "Name": "The Row of Trailers",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4437,
+          "East": 4440,
+          "South": 4439,
+          "West": 4434
+        }
+      },
+      {
+        "Id": 4439,
+        "Name": "The Midget\u0027s Tiny Trailer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4438
+        }
+      },
+      {
+        "Id": 4440,
+        "Name": "The Row of Trailers",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4448,
+          "North": 4441,
+          "South": 4442,
+          "West": 4438
+        }
+      },
+      {
+        "Id": 4441,
+        "Name": "The Illusionist\u0027s Trailer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4440
+        }
+      },
+      {
+        "Id": 4442,
+        "Name": "The Circus Owner\u0027s Trailer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4440,
+          "South": 4443
+        }
+      },
+      {
+        "Id": 4443,
+        "Name": "The Secret Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4442
+        }
+      },
+      {
+        "Id": 4444,
+        "Name": "The Clown\u0027s Room below the 2nd Ring",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 4422
+        }
+      },
+      {
+        "Id": 4445,
+        "Name": "Behind the Big Top",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4429,
+          "West": 4446
+        }
+      },
+      {
+        "Id": 4446,
+        "Name": "Behind the Big Top",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4445,
+          "West": 4447
+        }
+      },
+      {
+        "Id": 4447,
+        "Name": "Behind the Big Top",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4446
+        }
+      },
+      {
+        "Id": 4448,
+        "Name": "The Tightrope Walkers Trailer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4440
+        }
+      },
+      {
+        "Id": 4469,
+        "Name": "Binky\u0027s Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 2172,
+        "Name": "To Dangerous Neighborhood",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 2171,
+          "East": 2101,
+          "South": 4401
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": false,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

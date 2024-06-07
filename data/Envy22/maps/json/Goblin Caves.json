@@ -1,0 +1,354 @@
+{
+  "Area": {
+    "Name": "Goblin Caves",
+    "Credits": "{10 26} Manx    Goblin Caves",
+    "MinimumLevel": "10",
+    "MaximumLevel": "26",
+    "Rooms": [
+      {
+        "Id": 20000,
+        "Name": "Base of the Mountain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 5278,
+          "Up": 20001
+        }
+      },
+      {
+        "Id": 20001,
+        "Name": "On the Mountain Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 20002,
+          "Down": 20000
+        }
+      },
+      {
+        "Id": 20002,
+        "Name": "On the Mountain Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 20003,
+          "Down": 20001
+        }
+      },
+      {
+        "Id": 20003,
+        "Name": "On the Mountain Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 20004,
+          "Down": 20002
+        }
+      },
+      {
+        "Id": 20004,
+        "Name": "Path to the Caves",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20005,
+          "Down": 20003
+        }
+      },
+      {
+        "Id": 20005,
+        "Name": "Atop the mountain and before the caves",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20006,
+          "South": 20004
+        }
+      },
+      {
+        "Id": 20006,
+        "Name": "At the entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20005,
+          "Down": 20007
+        }
+      },
+      {
+        "Id": 20007,
+        "Name": "Within the Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20008,
+          "Up": 20006
+        }
+      },
+      {
+        "Id": 20008,
+        "Name": "Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20012,
+          "East": 20009,
+          "South": 20007
+        }
+      },
+      {
+        "Id": 20009,
+        "Name": "Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20010,
+          "West": 20008
+        }
+      },
+      {
+        "Id": 20010,
+        "Name": "End of the Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20009,
+          "East": 20011
+        }
+      },
+      {
+        "Id": 20011,
+        "Name": "Armory",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20010
+        }
+      },
+      {
+        "Id": 20012,
+        "Name": "Intersection",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20017,
+          "South": 20008,
+          "West": 20013
+        }
+      },
+      {
+        "Id": 20013,
+        "Name": "Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20012,
+          "West": 20014
+        }
+      },
+      {
+        "Id": 20014,
+        "Name": "End of the Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20015,
+          "East": 20013,
+          "West": 20016
+        }
+      },
+      {
+        "Id": 20015,
+        "Name": "Guard Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20014
+        }
+      },
+      {
+        "Id": 20016,
+        "Name": "Dark Cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20014
+        }
+      },
+      {
+        "Id": 20017,
+        "Name": "Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20018,
+          "South": 20012
+        }
+      },
+      {
+        "Id": 20018,
+        "Name": "Alcove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20019,
+          "West": 20017
+        }
+      },
+      {
+        "Id": 20019,
+        "Name": "Stairway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20018,
+          "Down": 20020
+        }
+      },
+      {
+        "Id": 20020,
+        "Name": "Lower caves",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20021,
+          "Up": 20019
+        }
+      },
+      {
+        "Id": 20021,
+        "Name": "Eroded Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20020,
+          "East": 20026,
+          "South": 20022
+        }
+      },
+      {
+        "Id": 20022,
+        "Name": "Cavern Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20021,
+          "South": 20023
+        }
+      },
+      {
+        "Id": 20023,
+        "Name": "Dark Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20022,
+          "East": 20024
+        }
+      },
+      {
+        "Id": 20024,
+        "Name": "Cavern Opening",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20025,
+          "West": 20023
+        }
+      },
+      {
+        "Id": 20025,
+        "Name": "Great Waterfall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20028,
+          "West": 20024,
+          "Down": 20029
+        }
+      },
+      {
+        "Id": 20026,
+        "Name": "Underground River",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20027,
+          "West": 20021
+        }
+      },
+      {
+        "Id": 20027,
+        "Name": "Underground Pool",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20026,
+          "East": 20028
+        }
+      },
+      {
+        "Id": 20028,
+        "Name": "Underground River",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20025,
+          "West": 20027
+        }
+      },
+      {
+        "Id": 20029,
+        "Name": "Below Waterfall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20030,
+          "Up": 20025
+        }
+      },
+      {
+        "Id": 20030,
+        "Name": "Large Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20029,
+          "East": 20031
+        }
+      },
+      {
+        "Id": 20031,
+        "Name": "Storage Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20000,
+          "West": 20030
+        }
+      },
+      {
+        "Id": 5278,
+        "Name": "To Thalos",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 20000,
+          "East": 5277,
+          "West": 5279
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

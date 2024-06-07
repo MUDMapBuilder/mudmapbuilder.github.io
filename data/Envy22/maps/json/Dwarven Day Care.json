@@ -1,0 +1,227 @@
+{
+  "Area": {
+    "Name": "Dwarven Day Care",
+    "Credits": "{ 1  5} Sandman Dwarven Day Care",
+    "MinimumLevel": "1",
+    "MaximumLevel": "5",
+    "Rooms": [
+      {
+        "Id": 6601,
+        "Name": "The Dwarven Drop Off",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 6602,
+          "North": 6500
+        }
+      },
+      {
+        "Id": 6602,
+        "Name": "Day Care Center",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6601,
+          "West": 6603,
+          "South": 6604,
+          "East": 6626
+        }
+      },
+      {
+        "Id": 6603,
+        "Name": "Day Care Center",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6602,
+          "South": 6605,
+          "West": 6606
+        }
+      },
+      {
+        "Id": 6604,
+        "Name": "Day Care Center",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6602,
+          "East": 6610,
+          "West": 6605
+        }
+      },
+      {
+        "Id": 6605,
+        "Name": "Day Care Center",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6603,
+          "East": 6604,
+          "West": 6607
+        }
+      },
+      {
+        "Id": 6606,
+        "Name": "The Messy Bathroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6603
+        }
+      },
+      {
+        "Id": 6607,
+        "Name": "The Staircase",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6605,
+          "Down": 6612
+        }
+      },
+      {
+        "Id": 6608,
+        "Name": "The Playground",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6609,
+          "South": 6610
+        }
+      },
+      {
+        "Id": 6609,
+        "Name": "The Playground",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 6611,
+          "West": 6608
+        }
+      },
+      {
+        "Id": 6610,
+        "Name": "The Playground",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6608,
+          "East": 6611,
+          "West": 6604
+        }
+      },
+      {
+        "Id": 6611,
+        "Name": "The Playground",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6609,
+          "West": 6610
+        }
+      },
+      {
+        "Id": 6612,
+        "Name": "Entrance to the Mini-Maze",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6613,
+          "Up": 6607
+        }
+      },
+      {
+        "Id": 6613,
+        "Name": "Mini-Maze",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 6612,
+          "South": 6615,
+          "East": 6614
+        }
+      },
+      {
+        "Id": 6614,
+        "Name": "Mini-Maze",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 6616,
+          "West": 6613
+        }
+      },
+      {
+        "Id": 6615,
+        "Name": "Mini-Maze",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6613,
+          "East": 6616
+        }
+      },
+      {
+        "Id": 6616,
+        "Name": "Mini-Maze",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 6615,
+          "North": 6614,
+          "South": 6624
+        }
+      },
+      {
+        "Id": 6624,
+        "Name": "End of the Mini-Maze",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6616,
+          "South": 6631
+        }
+      },
+      {
+        "Id": 6626,
+        "Name": "Messy Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 6602
+        }
+      },
+      {
+        "Id": 6631,
+        "Name": "The End?",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6624
+        }
+      },
+      {
+        "Id": 6500,
+        "Name": "To Dwarven Kingdom",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "Up": 3502,
+          "North": 6501,
+          "South": 6601
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

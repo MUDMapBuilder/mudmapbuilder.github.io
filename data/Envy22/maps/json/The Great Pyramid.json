@@ -1,0 +1,652 @@
+{
+  "Area": {
+    "Name": "The Great Pyramid",
+    "Credits": "{ 5 35} Andi    The Great Pyramid",
+    "MinimumLevel": "5",
+    "MaximumLevel": "35",
+    "Rooms": [
+      {
+        "Id": 2600,
+        "Name": "The Great Eastern Desert",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2600,
+          "East": 2601,
+          "South": 2600,
+          "West": 5056
+        }
+      },
+      {
+        "Id": 2601,
+        "Name": "At the Base of the Pyramid",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 2602,
+          "West": 2600
+        }
+      },
+      {
+        "Id": 2602,
+        "Name": "Climbing the Great Pyramid",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2603,
+          "South": 2604,
+          "Up": 2607,
+          "Down": 2601
+        }
+      },
+      {
+        "Id": 2603,
+        "Name": "Climbing the Great Pyramid",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2605,
+          "West": 2602,
+          "Up": 2607,
+          "Down": 2607
+        }
+      },
+      {
+        "Id": 2604,
+        "Name": "Climbing the Great Pyramid",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2605,
+          "West": 2602,
+          "Up": 2607,
+          "Down": 2607
+        }
+      },
+      {
+        "Id": 2605,
+        "Name": "Climbing the Great Pyramid",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2603,
+          "South": 2604,
+          "Up": 2606,
+          "Down": 2607
+        }
+      },
+      {
+        "Id": 2606,
+        "Name": "The Apex of the Great Pyramid",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2607,
+          "East": 2605,
+          "South": 2607,
+          "West": 2607,
+          "Down": 2608
+        }
+      },
+      {
+        "Id": 2607,
+        "Name": "Climbing the Great Pyramid",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 2608,
+        "Name": "A Ladder",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 2606,
+          "Down": 2609
+        }
+      },
+      {
+        "Id": 2609,
+        "Name": "A Musty Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2612,
+          "East": 2639,
+          "South": 2624,
+          "West": 2610,
+          "Up": 2608
+        }
+      },
+      {
+        "Id": 2610,
+        "Name": "The Fire Pool",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2609,
+          "West": 2611
+        }
+      },
+      {
+        "Id": 2611,
+        "Name": "The Chamber of the Efreet",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2610
+        }
+      },
+      {
+        "Id": 2612,
+        "Name": "A Tiny Crawlway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2613,
+          "South": 2609,
+          "Up": 2637
+        }
+      },
+      {
+        "Id": 2613,
+        "Name": "A Tiny Crawlway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 2612,
+          "West": 2614
+        }
+      },
+      {
+        "Id": 2614,
+        "Name": "A Tiny Crawlway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2613,
+          "West": 2615
+        }
+      },
+      {
+        "Id": 2615,
+        "Name": "A Tightening in the Crawlway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2614,
+          "South": 2616,
+          "Down": 2617
+        }
+      },
+      {
+        "Id": 2616,
+        "Name": "The Crawlway\u0027s End",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2615
+        }
+      },
+      {
+        "Id": 2617,
+        "Name": "A Slippery Hole",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 2619
+        }
+      },
+      {
+        "Id": 2618,
+        "Name": "Under the Hole",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 2619
+        }
+      },
+      {
+        "Id": 2619,
+        "Name": "A Rough Crevasse",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2618,
+          "South": 2620,
+          "Down": 2621
+        }
+      },
+      {
+        "Id": 2620,
+        "Name": "A Small Fire",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2619
+        }
+      },
+      {
+        "Id": 2621,
+        "Name": "Down the Crevasse",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 2619,
+          "Down": 2622
+        }
+      },
+      {
+        "Id": 2622,
+        "Name": "At the Crevasse\u0027s End",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 2623,
+          "Up": 2621
+        }
+      },
+      {
+        "Id": 2623,
+        "Name": "The Vault of the Lamp",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2622
+        }
+      },
+      {
+        "Id": 2624,
+        "Name": "A Crack in the Wall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2609,
+          "South": 2625
+        }
+      },
+      {
+        "Id": 2625,
+        "Name": "A Looted Tomb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2624,
+          "East": 2633,
+          "West": 2626
+        }
+      },
+      {
+        "Id": 2626,
+        "Name": "A Demolished Tomb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2625,
+          "West": 2627
+        }
+      },
+      {
+        "Id": 2627,
+        "Name": "A Stairway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2626,
+          "Down": 2628
+        }
+      },
+      {
+        "Id": 2628,
+        "Name": "A Stairway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 2627,
+          "Down": 2629
+        }
+      },
+      {
+        "Id": 2629,
+        "Name": "A Stairway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 2630,
+          "Up": 2628
+        }
+      },
+      {
+        "Id": 2630,
+        "Name": "The Ancient Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2629,
+          "South": 2631
+        }
+      },
+      {
+        "Id": 2631,
+        "Name": "A Raised Dais",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2630,
+          "Down": 2632
+        }
+      },
+      {
+        "Id": 2632,
+        "Name": "The Tomb of Ramses",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 2631
+        }
+      },
+      {
+        "Id": 2633,
+        "Name": "A Ransacked Tomb",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2634,
+          "West": 2625
+        }
+      },
+      {
+        "Id": 2634,
+        "Name": "A Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2635,
+          "West": 2633
+        }
+      },
+      {
+        "Id": 2635,
+        "Name": "A Fork in the Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2636,
+          "West": 2634,
+          "Down": 2646
+        }
+      },
+      {
+        "Id": 2636,
+        "Name": "A Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2642,
+          "West": 2635
+        }
+      },
+      {
+        "Id": 2637,
+        "Name": "A Dank Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2638,
+          "West": 2612
+        }
+      },
+      {
+        "Id": 2638,
+        "Name": "A Spiral Stairway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 2637,
+          "Down": 2641
+        }
+      },
+      {
+        "Id": 2639,
+        "Name": "A Dust-Covered Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2640,
+          "West": 2609
+        }
+      },
+      {
+        "Id": 2640,
+        "Name": "A Smelly Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2641,
+          "West": 2639
+        }
+      },
+      {
+        "Id": 2641,
+        "Name": "A Dust-Covered Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2642,
+          "West": 2640,
+          "Up": 2638
+        }
+      },
+      {
+        "Id": 2642,
+        "Name": "A Turn in the Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2643,
+          "South": 2636,
+          "West": 2641
+        }
+      },
+      {
+        "Id": 2643,
+        "Name": "A Dead End",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 2642,
+          "Down": 2644
+        }
+      },
+      {
+        "Id": 2644,
+        "Name": "The Tomb Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2645,
+          "Up": 2643
+        }
+      },
+      {
+        "Id": 2645,
+        "Name": "The Tomb of the Pharoahs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 2644
+        }
+      },
+      {
+        "Id": 2646,
+        "Name": "A Rubble-Strewn Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 2647,
+          "Up": 2635
+        }
+      },
+      {
+        "Id": 2647,
+        "Name": "A Sandstone Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2646,
+          "East": 2648,
+          "South": 2653
+        }
+      },
+      {
+        "Id": 2648,
+        "Name": "An Arched Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2649,
+          "West": 2647
+        }
+      },
+      {
+        "Id": 2649,
+        "Name": "An Arched Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2648,
+          "East": 2650,
+          "South": 2651
+        }
+      },
+      {
+        "Id": 2650,
+        "Name": "A Golden Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 2649
+        }
+      },
+      {
+        "Id": 2651,
+        "Name": "An Arched Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2649,
+          "South": 2652
+        }
+      },
+      {
+        "Id": 2652,
+        "Name": "A Shining Vault",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2651
+        }
+      },
+      {
+        "Id": 2653,
+        "Name": "A Massive Sand Dune",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2647,
+          "South": 2654
+        }
+      },
+      {
+        "Id": 2654,
+        "Name": "A Swirling Sandstorm",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2653,
+          "East": 2654,
+          "South": 2655,
+          "West": 2654
+        }
+      },
+      {
+        "Id": 2655,
+        "Name": "A Swirling Sandstorm",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2654,
+          "East": 2655,
+          "South": 2656,
+          "West": 2655
+        }
+      },
+      {
+        "Id": 2656,
+        "Name": "A Swirling Sandstorm",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2655,
+          "East": 2656,
+          "South": 2657,
+          "West": 2656
+        }
+      },
+      {
+        "Id": 2657,
+        "Name": "A Swirling Sandstorm",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2656,
+          "East": 2657,
+          "South": 2658,
+          "West": 2657
+        }
+      },
+      {
+        "Id": 2658,
+        "Name": "A Massive Sand Dune",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2657,
+          "South": 2659
+        }
+      },
+      {
+        "Id": 2659,
+        "Name": "Through the Hole in the Sand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 2653
+        }
+      },
+      {
+        "Id": 5056,
+        "Name": "To Great Eastern Desert",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 5058,
+          "East": 2600,
+          "South": 5025,
+          "West": 5057
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

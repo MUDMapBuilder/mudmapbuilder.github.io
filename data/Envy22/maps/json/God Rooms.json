@@ -1,0 +1,239 @@
+{
+  "Area": {
+    "Name": "God Rooms",
+    "Credits": "{51 54} Envy    God Rooms",
+    "MinimumLevel": "51",
+    "MaximumLevel": "54",
+    "Rooms": [
+      {
+        "Id": 1200,
+        "Name": "The Chat Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 1201,
+        "Name": "The HotTub",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 1202,
+        "Name": "A Small Clearing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 1203,
+        "Name": "Ben\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 1204,
+        "Name": "Mephisto\u0027s Pad",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 1205
+        }
+      },
+      {
+        "Id": 1205,
+        "Name": "The Bathroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 1204
+        }
+      },
+      {
+        "Id": 1210,
+        "Name": "The Porch",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1211,
+          "Up": 1213
+        }
+      },
+      {
+        "Id": 1211,
+        "Name": "The Living Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1210,
+          "West": 1212
+        }
+      },
+      {
+        "Id": 1212,
+        "Name": "The Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1211
+        }
+      },
+      {
+        "Id": 1213,
+        "Name": "Picard\u0027s Hideaway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 1210
+        }
+      },
+      {
+        "Id": 1215,
+        "Name": "Katrina\u0027s Playpen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 1216
+        }
+      },
+      {
+        "Id": 1216,
+        "Name": "An Alcove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1215,
+          "Up": 3001
+        }
+      },
+      {
+        "Id": 1217,
+        "Name": "The Abyss",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 4475,
+        "Name": "The Burning Shrine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 1220,
+        "Name": "Smoof\u0027s bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1222,
+          "North": 1221
+        }
+      },
+      {
+        "Id": 1221,
+        "Name": "Smoof\u0027s bathroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1220
+        }
+      },
+      {
+        "Id": 1222,
+        "Name": "James\u0027 bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 1220
+        }
+      },
+      {
+        "Id": 1223,
+        "Name": "Horizon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 1224
+        }
+      },
+      {
+        "Id": 1224,
+        "Name": "The Hideout",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 1223
+        }
+      },
+      {
+        "Id": 1230,
+        "Name": "Alexander\u0027s private enclave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1231,
+          "West": 1232
+        }
+      },
+      {
+        "Id": 1231,
+        "Name": "Alexander\u0027s sleeping chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1230
+        }
+      },
+      {
+        "Id": 1232,
+        "Name": "Alexander\u0027s laboratory",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1230
+        }
+      },
+      {
+        "Id": 1233,
+        "Name": "Wyrmclaw\u0027s Council of War Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1200
+        }
+      },
+      {
+        "Id": 1244,
+        "Name": "Zelda\u0027s Zany Zoo",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 3001,
+        "Name": "To Midgaard",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 3054,
+          "South": 3005,
+          "Up": 3700
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

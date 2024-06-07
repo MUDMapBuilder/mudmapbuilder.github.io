@@ -1,0 +1,80 @@
+{
+  "Area": {
+    "Name": "Troll Den",
+    "Credits": "{10 15} Merc    Troll Den",
+    "MinimumLevel": "10",
+    "MaximumLevel": "15",
+    "Rooms": [
+      {
+        "Id": 2801,
+        "Name": "Wastedump",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 2803,
+          "North": 6124
+        }
+      },
+      {
+        "Id": 2802,
+        "Name": "Troll\u0027s Larder",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2803
+        }
+      },
+      {
+        "Id": 2803,
+        "Name": "Troll\u0027s Living Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2801,
+          "East": 2804,
+          "South": 2805,
+          "West": 2802
+        }
+      },
+      {
+        "Id": 2804,
+        "Name": "The Playpen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 2803
+        }
+      },
+      {
+        "Id": 2805,
+        "Name": "Troll\u0027s Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2803
+        }
+      },
+      {
+        "Id": 6124,
+        "Name": "To Haon Dor",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "West": 6123,
+          "South": 2801
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

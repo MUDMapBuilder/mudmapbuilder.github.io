@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Envy22's Maps%</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" />
+</head>
+<body>
+    <table id="table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Credits</th>
+                <th scope="col">Min Level</th>
+                <th scope="col">Max Level</th>
+                <th scope="col">Json</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+    <script>
+var data = [
+[["In the Air", "data/Envy22/maps/png/In the Air.png"], "{ 5 10} Copper  In the Air", "5", "10", "data/Envy22/maps/json/In the Air.json"],
+[["Arachnos", "data/Envy22/maps/png/Arachnos.png"], "{ 5 20} Mahatma Arachnos", "5", "20", "data/Envy22/maps/json/Arachnos.json"],
+[["The Astral Plane", "data/Envy22/maps/png/The Astral Plane.png"], "{15 35} Andi    The Astral Plane", "15", "35", "data/Envy22/maps/json/The Astral Plane.json"],
+[["Elemental Canyon", "data/Envy22/maps/png/Elemental Canyon.png"], "{ 5 30} Raff    Elemental Canyon", "5", "30", "data/Envy22/maps/json/Elemental Canyon.json"],
+[["Castle Reinhold", "data/Envy22/maps/png/Castle Reinhold.png"], "{15 31} Mort    Castle Reinhold", "15", "31", "data/Envy22/maps/json/Castle Reinhold.json"],
+[["Dwarven Catacombs", "data/Envy22/maps/png/Dwarven Catacombs.png"], "{10 20} Raff    Dwarven Catacombs", "10", "20", "data/Envy22/maps/json/Dwarven Catacombs.json"],
+[["Chapel Catacombs", "data/Envy22/maps/png/Chapel Catacombs.png"], "{15 25} Copper  Chapel Catacombs", "15", "25", "data/Envy22/maps/json/Chapel Catacombs.json"],
+[["The Circus", "data/Envy22/maps/png/The Circus.png"], "{ 1 12} Binky   The Circus", "1", "12", "data/Envy22/maps/json/The Circus.json"],
+[["Crystalmir Lake", "data/Envy22/maps/png/Crystalmir Lake.png"], "{ 5 45} Strahd  Crystalmir Lake", "5", "45", "data/Envy22/maps/json/Crystalmir Lake.json"],
+[["Dragon Cult", "data/Envy22/maps/png/Dragon Cult.png"], "{ 5 25} Sandman Dragon Cult", "5", "25", "data/Envy22/maps/json/Dragon Cult.json"],
+[["Dwarven Day Care", "data/Envy22/maps/png/Dwarven Day Care.png"], "{ 1  5} Sandman Dwarven Day Care", "1", "5", "data/Envy22/maps/json/Dwarven Day Care.json"],
+[["Descent to Hell", "data/Envy22/maps/png/Descent to Hell.png"], "{ 5 20} Strahd  Descent to Hell", "5", "20", "data/Envy22/maps/json/Descent to Hell.json"],
+[["Dragon Tower", "data/Envy22/maps/png/Dragon Tower.png"], "{ 5 50} Wench   Dragon Tower", "5", "50", "data/Envy22/maps/json/Dragon Tower.json"],
+[["Machine Dreams", "data/Envy22/maps/png/Machine Dreams.png"], "{ 1  5} Furey   Machine Dreams", "1", "5", "data/Envy22/maps/json/Machine Dreams.json"],
+[["Drow City", "data/Envy22/maps/png/Drow City.png"], "{15 25} Anon    Drow City", "15", "25", "data/Envy22/maps/json/Drow City.json"],
+[["Dwarven Kingdom", "data/Envy22/maps/png/Dwarven Kingdom.png"], "{10 25} Anon    Dwarven Kingdom", "10", "25", "data/Envy22/maps/json/Dwarven Kingdom.json"],
+[["Dylan's Area", "data/Envy22/maps/png/Dylan's Area.png"], "{15 25} Dylan   Dylan's Area", "15", "25", "data/Envy22/maps/json/Dylan's Area.json"],
+[["Great Eastern Desert", "data/Envy22/maps/png/Great Eastern Desert.png"], "{10 20} Anon    Great Eastern Desert", "10", "20", "data/Envy22/maps/json/Great Eastern Desert.json"],
+[["Land of the Fire Newts", "data/Envy22/maps/png/Land of the Fire Newts.png"], "{ 5 15} Nirrad  Land of the Fire Newts", "5", "15", "data/Envy22/maps/json/Land of the Fire Newts.json"],
+[["Galaxy", "data/Envy22/maps/png/Galaxy.png"], "{20 45} Doctor  Galaxy", "20", "45", "data/Envy22/maps/json/Galaxy.json"],
+[["Gnome Village", "data/Envy22/maps/png/Gnome Village.png"], "{ 5 15} Vougon  Gnome Village", "5", "15", "data/Envy22/maps/json/Gnome Village.json"],
+[["Goblin Caves", "data/Envy22/maps/png/Goblin Caves.png"], "{10 26} Manx    Goblin Caves", "10", "26", "data/Envy22/maps/json/Goblin Caves.json"],
+[["God Rooms", "data/Envy22/maps/png/God Rooms.png"], "{51 54} Envy    God Rooms", "51", "54", "data/Envy22/maps/json/God Rooms.json"],
+[["Graveyard", "data/Envy22/maps/png/Graveyard.png"], "{ 5 10} Alfa    Graveyard", "5", "10", "data/Envy22/maps/json/Graveyard.json"],
+[["Holy Grove", "data/Envy22/maps/png/Holy Grove.png"], "{ 5 20} Alfa    Holy Grove", "5", "20", "data/Envy22/maps/json/Holy Grove.json"],
+[["Haon Dor", "data/Envy22/maps/png/Haon Dor.png"], "{ 5 10} Diku    Haon Dor", "5", "10", "data/Envy22/maps/json/Haon Dor.json"],
+[["Little Haven", "data/Envy22/maps/png/Little Haven.png"], "{10 30} Mahatma Little Haven", "10", "30", "data/Envy22/maps/json/Little Haven.json"],
+[["The HighLands", "data/Envy22/maps/png/The HighLands.png"], "{15 25} Karl    The HighLands", "15", "25", "data/Envy22/maps/json/The HighLands.json"],
+[["High Tower of Sorcery", "data/Envy22/maps/png/High Tower of Sorcery.png"], "{10 30} Anon    High Tower of Sorcery", "10", "30", "data/Envy22/maps/json/High Tower of Sorcery.json"],
+[["Dangerous Neighborhood", "data/Envy22/maps/png/Dangerous Neighborhood.png"], "{ 5 15} Raff    Dangerous Neighborhood", "5", "15", "data/Envy22/maps/json/Dangerous Neighborhood.json"],
+[["Kingdom of Juargan", "data/Envy22/maps/png/Kingdom of Juargan.png"], "{10 25} Anon    Kingdom of Juargan", "10", "25", "data/Envy22/maps/json/Kingdom of Juargan.json"],
+[["Limbo", "data/Envy22/maps/png/Limbo.png"], "{None } Diku    Limbo", "None", "None", "data/Envy22/maps/json/Limbo.json"],
+[["The Keep of Mahn-Tor", "data/Envy22/maps/png/The Keep of Mahn-Tor.png"], "{15 35} Chris   The Keep of Mahn-Tor", "15", "35", "data/Envy22/maps/json/The Keep of Mahn-Tor.json"],
+[["Old Marsh", "data/Envy22/maps/png/Old Marsh.png"], "{15 25} Generic Old Marsh", "15", "25", "data/Envy22/maps/json/Old Marsh.json"],
+[["Mega-City One", "data/Envy22/maps/png/Mega-City One.png"], "{ 5 35} Glop    Mega-City One", "5", "35", "data/Envy22/maps/json/Mega-City One.json"],
+[["Miden'nir", "data/Envy22/maps/png/Miden'nir.png"], "{ 5 15} Copper  Miden'nir", "5", "15", "data/Envy22/maps/json/Miden'nir.json"],
+[["Midgaard", "data/Envy22/maps/png/Midgaard.png"], "{ All } Diku    Midgaard", "All", "All", "data/Envy22/maps/json/Midgaard.json"],
+[["Old Thalos", "data/Envy22/maps/png/Old Thalos.png"], "{ 1 30} Kahn    Old Thalos", "1", "30", "data/Envy22/maps/json/Old Thalos.json"],
+[["Mob Factory", "data/Envy22/maps/png/Mob Factory.png"], "{ 5 35} PinkF   Mob Factory", "5", "35", "data/Envy22/maps/json/Mob Factory.json"],
+[["Moria", "data/Envy22/maps/png/Moria.png"], "{ 5 15} Alfa    Moria", "5", "15", "data/Envy22/maps/json/Moria.json"],
+[["Murky Land", "data/Envy22/maps/png/Murky Land.png"], "{ 3 50} Hatchet Murky Land", "3", "50", "data/Envy22/maps/json/Murky Land.json"],
+[["The Castle Naytil", "data/Envy22/maps/png/The Castle Naytil.png"], "{ 5 50 } Draiden   The Castle Naytil", "5", "50", "data/Envy22/maps/json/The Castle Naytil.json"],
+[["The Plane of Nirvana", "data/Envy22/maps/png/The Plane of Nirvana.png"], "{20 45} Forstal The Plane of Nirvana", "20", "45", "data/Envy22/maps/json/The Plane of Nirvana.json"],
+[["The River", "data/Envy22/maps/png/The River.png"], "{ All } Picard  The River", "All", "All", "data/Envy22/maps/json/The River.json"],
+[["Ofcol", "data/Envy22/maps/png/Ofcol.png"], "{ All } Alfa    Ofcol", "All", "All", "data/Envy22/maps/json/Ofcol.json"],
+[["New Ofcol", "data/Envy22/maps/png/New Ofcol.png"], "{ 5 35} Hatchet New Ofcol", "5", "35", "data/Envy22/maps/json/New Ofcol.json"],
+[["Olympus", "data/Envy22/maps/png/Olympus.png"], "{15 50} Generic Olympus", "15", "50", "data/Envy22/maps/json/Olympus.json"],
+[["Plains of the North", "data/Envy22/maps/png/Plains of the North.png"], "{ 1 20} Copper  Plains of the North", "1", "20", "data/Envy22/maps/json/Plains of the North.json"],
+[["Purgatory", "data/Envy22/maps/png/Purgatory.png"], "{ ALL } Envy    Purgatory", "ALL", "ALL", "data/Envy22/maps/json/Purgatory.json"],
+[["The Great Pyramid", "data/Envy22/maps/png/The Great Pyramid.png"], "{ 5 35} Andi    The Great Pyramid", "5", "35", "data/Envy22/maps/json/The Great Pyramid.json"],
+[["The Rats Lair", "data/Envy22/maps/png/The Rats Lair.png"], "{ 2 10} Hatchet The Rats Lair", "2", "10", "data/Envy22/maps/json/The Rats Lair.json"],
+[["Redferne's Residence", "data/Envy22/maps/png/Redferne's Residence.png"], "{20 30} Diku    Redferne's Residence", "20", "30", "data/Envy22/maps/json/Redferne's Residence.json"],
+[["Mud School", "data/Envy22/maps/png/Mud School.png"], "{ 1  5} Hatchet Mud School", "1", "5", "data/Envy22/maps/json/Mud School.json"],
+[["Sewer", "data/Envy22/maps/png/Sewer.png"], "{ 5 30} Diku    Sewer", "5", "30", "data/Envy22/maps/json/Sewer.json"],
+[["Shaolin Temple", "data/Envy22/maps/png/Shaolin Temple.png"], "{15 25} Boom    Shaolin Temple", "15", "25", "data/Envy22/maps/json/Shaolin Temple.json"],
+[["The Shire", "data/Envy22/maps/png/The Shire.png"], "{ 5 35} Anon    The Shire", "5", "35", "data/Envy22/maps/json/The Shire.json"],
+[["Smurf Village", "data/Envy22/maps/png/Smurf Village.png"], "{ 1 10} Generic Smurf Village", "1", "10", "data/Envy22/maps/json/Smurf Village.json"],
+[["Town Of Solace", "data/Envy22/maps/png/Town Of Solace.png"], "{ 5 35} Strahd  Town Of Solace", "5", "35", "data/Envy22/maps/json/Town Of Solace.json"],
+[["Thalos", "data/Envy22/maps/png/Thalos.png"], "{10 25} Anon    Thalos", "10", "25", "data/Envy22/maps/json/Thalos.json"],
+[["Yggdrasil", "data/Envy22/maps/png/Yggdrasil.png"], "{15 50} Glop    Yggdrasil", "15", "50", "data/Envy22/maps/json/Yggdrasil.json"],
+[["Troll Den", "data/Envy22/maps/png/Troll Den.png"], "{10 15} Merc    Troll Den", "10", "15", "data/Envy22/maps/json/Troll Den.json"],
+[["Ultima", "data/Envy22/maps/png/Ultima.png"], "{ 5 50} Casret  Ultima", "5", "50", "data/Envy22/maps/json/Ultima.json"],
+[["Valley of the Elves", "data/Envy22/maps/png/Valley of the Elves.png"], "{ 5 20} Hatchet Valley of the Elves", "5", "20", "data/Envy22/maps/json/Valley of the Elves.json"],
+[["Wyvern's Tower", "data/Envy22/maps/png/Wyvern's Tower.png"], "{ 5 30} Tyrst   Wyvern's Tower", "5", "30", "data/Envy22/maps/json/Wyvern's Tower.json"],
+];
+
+
+    $('#table').DataTable({
+		columnDefs: [
+			{
+				targets: 0,
+				render: function (data, type) {
+					return '<a href="' + data[1] + '">' + data[0] + '</a>';
+				}
+            },
+			{
+				targets: 4,
+				render: function (data, type) {
+					return '<a href="' + data + '">json</a>';
+				}
+            }
+		],
+        paging: false,
+        data: data
+    });
+    </script>
+</body>
+</html>

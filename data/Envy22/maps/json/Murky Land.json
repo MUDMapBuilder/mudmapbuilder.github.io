@@ -1,0 +1,778 @@
+{
+  "Area": {
+    "Name": "Murky Land",
+    "Credits": "{ 3 50} Hatchet Murky Land",
+    "MinimumLevel": "3",
+    "MaximumLevel": "50",
+    "Rooms": [
+      {
+        "Id": 10700,
+        "Name": "Entrance to Murky Land",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10701,
+          "West": 5552
+        }
+      },
+      {
+        "Id": 10701,
+        "Name": "At the Cashier\u0027s Booth",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10702,
+          "South": 10700
+        }
+      },
+      {
+        "Id": 10702,
+        "Name": "Inside the Entrance to Murky Land",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10703,
+          "East": 10722,
+          "South": 10701
+        }
+      },
+      {
+        "Id": 10703,
+        "Name": "A Room in Murky Land",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10709,
+          "East": 10704,
+          "South": 10702,
+          "West": 10707
+        }
+      },
+      {
+        "Id": 10704,
+        "Name": "Restroom Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10705,
+          "South": 10706,
+          "West": 10703
+        }
+      },
+      {
+        "Id": 10705,
+        "Name": "Little Boys Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10704
+        }
+      },
+      {
+        "Id": 10706,
+        "Name": "Little Girls Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10704
+        }
+      },
+      {
+        "Id": 10707,
+        "Name": "Cafeteria",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10708,
+          "East": 10703
+        }
+      },
+      {
+        "Id": 10708,
+        "Name": "Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10707
+        }
+      },
+      {
+        "Id": 10709,
+        "Name": "Along a Brick Path in Murky Land",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10718,
+          "East": 10714,
+          "South": 10703,
+          "West": 10710
+        }
+      },
+      {
+        "Id": 10710,
+        "Name": "Along a Path in Murky Land",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10711,
+          "East": 10709,
+          "South": 10712,
+          "West": 10713
+        }
+      },
+      {
+        "Id": 10711,
+        "Name": "Hatchling\u0027s and Iccy\u0027s Playpen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10710
+        }
+      },
+      {
+        "Id": 10712,
+        "Name": "Fraggie\u0027s Dark Hovel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10710
+        }
+      },
+      {
+        "Id": 10713,
+        "Name": "KahnO\u0027s Hall of Mirrors",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10710
+        }
+      },
+      {
+        "Id": 10714,
+        "Name": "Along a Path in Murky Land",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10715,
+          "East": 10717,
+          "South": 10716,
+          "West": 10709
+        }
+      },
+      {
+        "Id": 10715,
+        "Name": "A Small Hell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10714
+        }
+      },
+      {
+        "Id": 10716,
+        "Name": "Blinky\u0027s Kitchenette",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10714
+        }
+      },
+      {
+        "Id": 10717,
+        "Name": "Atom\u0027s Little Galaxy",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 10714
+        }
+      },
+      {
+        "Id": 10718,
+        "Name": "Along a Path in Murky Land",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10719,
+          "East": 10721,
+          "South": 10709,
+          "West": 10720
+        }
+      },
+      {
+        "Id": 10719,
+        "Name": "A Monk\u0027s Temple/Crackhouse",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10718
+        }
+      },
+      {
+        "Id": 10720,
+        "Name": "A Junkyard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10718
+        }
+      },
+      {
+        "Id": 10721,
+        "Name": "An Ash Heap",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 10718
+        }
+      },
+      {
+        "Id": 10722,
+        "Name": "Behind the Hidden Door",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 10702,
+          "Down": 10723
+        }
+      },
+      {
+        "Id": 10723,
+        "Name": "Beneath Murky Land",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10724,
+          "Up": 10722
+        }
+      },
+      {
+        "Id": 10724,
+        "Name": "Inside a Tavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10736,
+          "East": 10737,
+          "South": 10723,
+          "West": 10725
+        }
+      },
+      {
+        "Id": 10725,
+        "Name": "The Shady Rooms Counter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10724,
+          "West": 10726
+        }
+      },
+      {
+        "Id": 10726,
+        "Name": "A Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10727,
+          "East": 10725,
+          "South": 10728,
+          "West": 10729
+        }
+      },
+      {
+        "Id": 10727,
+        "Name": "Room A",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10726
+        }
+      },
+      {
+        "Id": 10728,
+        "Name": "Room B",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10726
+        }
+      },
+      {
+        "Id": 10729,
+        "Name": "A Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10730,
+          "East": 10726,
+          "South": 10731,
+          "West": 10732
+        }
+      },
+      {
+        "Id": 10730,
+        "Name": "Room C",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10729
+        }
+      },
+      {
+        "Id": 10731,
+        "Name": "Room D",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10729
+        }
+      },
+      {
+        "Id": 10732,
+        "Name": "At the End of the Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10733,
+          "East": 10729,
+          "South": 10734,
+          "West": 10735
+        }
+      },
+      {
+        "Id": 10733,
+        "Name": "Room E",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10732
+        }
+      },
+      {
+        "Id": 10734,
+        "Name": "Room F",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10732
+        }
+      },
+      {
+        "Id": 10735,
+        "Name": "Room G",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10732
+        }
+      },
+      {
+        "Id": 10736,
+        "Name": "The Bar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10724
+        }
+      },
+      {
+        "Id": 10737,
+        "Name": "Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10738,
+          "East": 10740,
+          "South": 10739,
+          "West": 10724
+        }
+      },
+      {
+        "Id": 10738,
+        "Name": "An Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10737
+        }
+      },
+      {
+        "Id": 10739,
+        "Name": "A Holding Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10737
+        }
+      },
+      {
+        "Id": 10740,
+        "Name": "A Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10741,
+          "East": 10743,
+          "South": 10742,
+          "West": 10737
+        }
+      },
+      {
+        "Id": 10741,
+        "Name": "An Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10740
+        }
+      },
+      {
+        "Id": 10742,
+        "Name": "An Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10740
+        }
+      },
+      {
+        "Id": 10743,
+        "Name": "The End of the Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10745,
+          "South": 10744,
+          "West": 10740
+        }
+      },
+      {
+        "Id": 10744,
+        "Name": "A Holding Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10743
+        }
+      },
+      {
+        "Id": 10745,
+        "Name": "An Empty Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10746,
+          "South": 10743
+        }
+      },
+      {
+        "Id": 10746,
+        "Name": "Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10747,
+          "South": 10748
+        }
+      },
+      {
+        "Id": 10747,
+        "Name": "At the End of a Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10746
+        }
+      },
+      {
+        "Id": 10748,
+        "Name": "An Empty Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10749,
+          "South": 10743
+        }
+      },
+      {
+        "Id": 10749,
+        "Name": "Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10750,
+          "South": 10745
+        }
+      },
+      {
+        "Id": 10750,
+        "Name": "At the End of a Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10751,
+          "South": 10749
+        }
+      },
+      {
+        "Id": 10751,
+        "Name": "A Dark Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10750,
+          "Down": 10752
+        }
+      },
+      {
+        "Id": 10752,
+        "Name": "Lower Chambers",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10768,
+          "East": 10756,
+          "South": 10753,
+          "West": 10761,
+          "Up": 10751
+        }
+      },
+      {
+        "Id": 10753,
+        "Name": "A Dark Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10752,
+          "South": 10754
+        }
+      },
+      {
+        "Id": 10754,
+        "Name": "A Dark Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10753,
+          "South": 10755
+        }
+      },
+      {
+        "Id": 10755,
+        "Name": "Shadow Dragon\u0027s Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10754
+        }
+      },
+      {
+        "Id": 10756,
+        "Name": "A Dark Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10759,
+          "East": 10757,
+          "South": 10760,
+          "West": 10752
+        }
+      },
+      {
+        "Id": 10757,
+        "Name": "A Dark Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10758,
+          "West": 10756
+        }
+      },
+      {
+        "Id": 10758,
+        "Name": "The Altar of the Shadow Demon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10766,
+          "East": 10766,
+          "South": 10766,
+          "West": 10757,
+          "Up": 10766,
+          "Down": 10766
+        }
+      },
+      {
+        "Id": 10759,
+        "Name": "A Library",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10756
+        }
+      },
+      {
+        "Id": 10760,
+        "Name": "A Laboratory",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10756
+        }
+      },
+      {
+        "Id": 10761,
+        "Name": "A Dark Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10764,
+          "East": 10752,
+          "South": 10765,
+          "West": 10762
+        }
+      },
+      {
+        "Id": 10762,
+        "Name": "A Dark Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10761,
+          "West": 10763
+        }
+      },
+      {
+        "Id": 10763,
+        "Name": "The Altar of the Shadow Demon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10767,
+          "East": 10762,
+          "South": 10767,
+          "West": 10767,
+          "Up": 10767,
+          "Down": 10767
+        }
+      },
+      {
+        "Id": 10764,
+        "Name": "A Scribing Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10761
+        }
+      },
+      {
+        "Id": 10765,
+        "Name": "A Weapon Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10761
+        }
+      },
+      {
+        "Id": 10766,
+        "Name": "A Nether Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10767,
+          "East": 10771,
+          "South": 10767,
+          "West": 10758,
+          "Up": 10758,
+          "Down": 10771
+        }
+      },
+      {
+        "Id": 10767,
+        "Name": "A Nether Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10766,
+          "East": 10763,
+          "South": 10766,
+          "West": 10771,
+          "Up": 10771,
+          "Down": 10763
+        }
+      },
+      {
+        "Id": 10768,
+        "Name": "A Dark Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10769,
+          "South": 10752
+        }
+      },
+      {
+        "Id": 10769,
+        "Name": "A Dark Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10770,
+          "South": 10768
+        }
+      },
+      {
+        "Id": 10770,
+        "Name": "The Altar of the Shadow Lord",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10771,
+          "East": 10771,
+          "South": 10769,
+          "West": 10771,
+          "Up": 10771,
+          "Down": 10771
+        }
+      },
+      {
+        "Id": 10771,
+        "Name": "A Nether Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10770,
+          "East": 10767,
+          "South": 10770,
+          "West": 10766,
+          "Up": 10766,
+          "Down": 10767
+        }
+      },
+      {
+        "Id": 5552,
+        "Name": "To Ofcol",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 5556,
+          "East": 10700,
+          "South": 5551,
+          "West": 5555
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": false,
+    "FixNonStraight": true,
+    "FixIntersected": false,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

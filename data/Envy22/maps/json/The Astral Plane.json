@@ -1,0 +1,969 @@
+{
+  "Area": {
+    "Name": "The Astral Plane",
+    "Credits": "{15 35} Andi    The Astral Plane",
+    "MinimumLevel": "15",
+    "MaximumLevel": "35",
+    "Rooms": [
+      {
+        "Id": 1900,
+        "Name": "The Bottom of the Rainbow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 1901,
+          "Down": 1036
+        }
+      },
+      {
+        "Id": 1901,
+        "Name": "On the Rainbow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 1902,
+          "Down": 1900
+        }
+      },
+      {
+        "Id": 1902,
+        "Name": "On the Rainbow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 1903,
+          "Down": 1901
+        }
+      },
+      {
+        "Id": 1903,
+        "Name": "On the Rainbow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 1904,
+          "Down": 1902
+        }
+      },
+      {
+        "Id": 1904,
+        "Name": "On the Rainbow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 1905,
+          "Down": 1903
+        }
+      },
+      {
+        "Id": 1905,
+        "Name": "The Glowing Bridge at the Rainbow\u0027s End",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1906,
+          "Down": 1904
+        }
+      },
+      {
+        "Id": 1906,
+        "Name": "The Astral Gate",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1907,
+          "South": 1905
+        }
+      },
+      {
+        "Id": 1907,
+        "Name": "Into the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1908,
+          "East": 1909,
+          "South": 1906,
+          "West": 1910,
+          "Up": 1911,
+          "Down": 1912
+        }
+      },
+      {
+        "Id": 1908,
+        "Name": "Exploring the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1913,
+          "East": 1910,
+          "South": 1907,
+          "West": 1912,
+          "Down": 1914
+        }
+      },
+      {
+        "Id": 1909,
+        "Name": "Exploring the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1914,
+          "East": 1916,
+          "West": 1907,
+          "Up": 1910,
+          "Down": 1911
+        }
+      },
+      {
+        "Id": 1910,
+        "Name": "Exploring the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1915,
+          "East": 1907,
+          "West": 1908,
+          "Up": 1913,
+          "Down": 1909
+        }
+      },
+      {
+        "Id": 1911,
+        "Name": "Exploring the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1916,
+          "East": 1912,
+          "West": 1917,
+          "Up": 1909,
+          "Down": 1907
+        }
+      },
+      {
+        "Id": 1912,
+        "Name": "Exploring the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1917,
+          "East": 1908,
+          "West": 1911,
+          "Up": 1907,
+          "Down": 1915
+        }
+      },
+      {
+        "Id": 1913,
+        "Name": "Roaming the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1918,
+          "East": 1915,
+          "South": 1908,
+          "West": 1920,
+          "Up": 1914,
+          "Down": 1910
+        }
+      },
+      {
+        "Id": 1914,
+        "Name": "Roaming the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1919,
+          "East": 1917,
+          "South": 1909,
+          "West": 1918,
+          "Up": 1908,
+          "Down": 1913
+        }
+      },
+      {
+        "Id": 1915,
+        "Name": "Roaming the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1920,
+          "East": 1922,
+          "South": 1910,
+          "West": 1913,
+          "Up": 1912,
+          "Down": 1916
+        }
+      },
+      {
+        "Id": 1916,
+        "Name": "Roaming the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1921,
+          "East": 1919,
+          "South": 1911,
+          "West": 1909,
+          "Up": 1915,
+          "Down": 1917
+        }
+      },
+      {
+        "Id": 1917,
+        "Name": "Roaming the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1922,
+          "East": 1911,
+          "South": 1912,
+          "West": 1914,
+          "Up": 1916,
+          "Down": 1921
+        }
+      },
+      {
+        "Id": 1918,
+        "Name": "Wandering the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1909,
+          "East": 1914,
+          "South": 1913,
+          "West": 1919,
+          "Up": 1933,
+          "Down": 1936
+        }
+      },
+      {
+        "Id": 1919,
+        "Name": "Wandering the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1910,
+          "East": 1918,
+          "South": 1914,
+          "West": 1916,
+          "Up": 1934,
+          "Down": 1938
+        }
+      },
+      {
+        "Id": 1920,
+        "Name": "Wandering the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1911,
+          "East": 1913,
+          "South": 1915,
+          "West": 1921,
+          "Up": 1935,
+          "Down": 1940
+        }
+      },
+      {
+        "Id": 1921,
+        "Name": "Wandering the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1912,
+          "East": 1920,
+          "South": 1916,
+          "West": 1942,
+          "Up": 1917,
+          "Down": 1933
+        }
+      },
+      {
+        "Id": 1922,
+        "Name": "Wandering the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1912,
+          "South": 1917,
+          "West": 1915,
+          "Up": 1944,
+          "Down": 1934
+        }
+      },
+      {
+        "Id": 1923,
+        "Name": "Travelling the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1924,
+          "East": 1928,
+          "South": 1937,
+          "West": 1926,
+          "Up": 1932,
+          "Down": 1935
+        }
+      },
+      {
+        "Id": 1924,
+        "Name": "Travelling the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1925,
+          "East": 1929,
+          "South": 1923,
+          "West": 1933,
+          "Up": 1930,
+          "Down": 1939
+        }
+      },
+      {
+        "Id": 1925,
+        "Name": "Travelling the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1941,
+          "East": 1927,
+          "South": 1924,
+          "West": 1934,
+          "Up": 1928,
+          "Down": 1930
+        }
+      },
+      {
+        "Id": 1926,
+        "Name": "Travelling the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1931,
+          "East": 1923,
+          "South": 1927,
+          "West": 1935,
+          "Up": 1943,
+          "Down": 1929
+        }
+      },
+      {
+        "Id": 1927,
+        "Name": "Travelling the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1926,
+          "East": 1932,
+          "South": 1933,
+          "West": 1925,
+          "Up": 1931,
+          "Down": 1944
+        }
+      },
+      {
+        "Id": 1928,
+        "Name": "Traversing the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1909,
+          "East": 1947,
+          "South": 1934,
+          "West": 1923,
+          "Up": 1945,
+          "Down": 1925
+        }
+      },
+      {
+        "Id": 1929,
+        "Name": "Traversing the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1930,
+          "East": 1949,
+          "South": 1935,
+          "West": 1924,
+          "Up": 1926,
+          "Down": 1946
+        }
+      },
+      {
+        "Id": 1930,
+        "Name": "Traversing the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1947,
+          "East": 1933,
+          "South": 1929,
+          "West": 1945,
+          "Up": 1925,
+          "Down": 1924
+        }
+      },
+      {
+        "Id": 1931,
+        "Name": "Traversing the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1932,
+          "East": 1934,
+          "South": 1926,
+          "West": 1948,
+          "Up": 1946,
+          "Down": 1927
+        }
+      },
+      {
+        "Id": 1932,
+        "Name": "Traversing the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1949,
+          "East": 1935,
+          "South": 1931,
+          "West": 1927,
+          "Up": 1948,
+          "Down": 1923
+        }
+      },
+      {
+        "Id": 1933,
+        "Name": "Lost in the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1927,
+          "East": 1924,
+          "West": 1930,
+          "Up": 1921,
+          "Down": 1918
+        }
+      },
+      {
+        "Id": 1934,
+        "Name": "Lost in the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1928,
+          "East": 1925,
+          "West": 1931,
+          "Up": 1922,
+          "Down": 1919
+        }
+      },
+      {
+        "Id": 1935,
+        "Name": "Lost in the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1929,
+          "East": 1926,
+          "West": 1932,
+          "Up": 1923,
+          "Down": 1920
+        }
+      },
+      {
+        "Id": 1936,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1937,
+          "Up": 1918
+        }
+      },
+      {
+        "Id": 1937,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1923,
+          "South": 1936
+        }
+      },
+      {
+        "Id": 1938,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1939,
+          "Up": 1919
+        }
+      },
+      {
+        "Id": 1939,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 1938,
+          "Up": 1924
+        }
+      },
+      {
+        "Id": 1940,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1941,
+          "Up": 1920
+        }
+      },
+      {
+        "Id": 1941,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1925,
+          "West": 1940
+        }
+      },
+      {
+        "Id": 1942,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1943,
+          "East": 1921
+        }
+      },
+      {
+        "Id": 1943,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1942,
+          "Down": 1926
+        }
+      },
+      {
+        "Id": 1944,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 1927,
+          "Down": 1922
+        }
+      },
+      {
+        "Id": 1945,
+        "Name": "Deep Within the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1946,
+          "East": 1930,
+          "West": 1949,
+          "Up": 1950,
+          "Down": 1928
+        }
+      },
+      {
+        "Id": 1946,
+        "Name": "Deep Within the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1933,
+          "South": 1945,
+          "West": 1947,
+          "Up": 1929,
+          "Down": 1931
+        }
+      },
+      {
+        "Id": 1947,
+        "Name": "Deep Within the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1934,
+          "East": 1946,
+          "South": 1930,
+          "West": 1928,
+          "Down": 1948
+        }
+      },
+      {
+        "Id": 1948,
+        "Name": "Deep Within the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1935,
+          "East": 1931,
+          "South": 1949,
+          "Up": 1947,
+          "Down": 1932
+        }
+      },
+      {
+        "Id": 1949,
+        "Name": "Deep Within the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1948,
+          "East": 1945,
+          "South": 1932,
+          "West": 1929,
+          "Up": 8100
+        }
+      },
+      {
+        "Id": 1950,
+        "Name": "Inside the Githyanki Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1951,
+          "Down": 1945
+        }
+      },
+      {
+        "Id": 1951,
+        "Name": "A guard station",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1961,
+          "South": 1950,
+          "West": 1952
+        }
+      },
+      {
+        "Id": 1952,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1953,
+          "East": 1951
+        }
+      },
+      {
+        "Id": 1953,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1954,
+          "East": 1962,
+          "South": 1952,
+          "West": 1969
+        }
+      },
+      {
+        "Id": 1954,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1955,
+          "South": 1953
+        }
+      },
+      {
+        "Id": 1955,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1974,
+          "East": 1956,
+          "West": 1954
+        }
+      },
+      {
+        "Id": 1956,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1957,
+          "South": 1964,
+          "West": 1955
+        }
+      },
+      {
+        "Id": 1957,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1973,
+          "South": 1958,
+          "West": 1956
+        }
+      },
+      {
+        "Id": 1958,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1957,
+          "East": 1967,
+          "South": 1959
+        }
+      },
+      {
+        "Id": 1959,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1958,
+          "South": 1960
+        }
+      },
+      {
+        "Id": 1960,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1959,
+          "East": 1965,
+          "West": 1961
+        }
+      },
+      {
+        "Id": 1961,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1963,
+          "East": 1960,
+          "West": 1951
+        }
+      },
+      {
+        "Id": 1962,
+        "Name": "A small building",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 1953
+        }
+      },
+      {
+        "Id": 1963,
+        "Name": "A small building",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1961
+        }
+      },
+      {
+        "Id": 1964,
+        "Name": "A large dwelling",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1956
+        }
+      },
+      {
+        "Id": 1965,
+        "Name": "The Githyanki Weaponry",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1966,
+          "West": 1960
+        }
+      },
+      {
+        "Id": 1966,
+        "Name": "The Forge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1967,
+          "East": 1968,
+          "South": 1965
+        }
+      },
+      {
+        "Id": 1967,
+        "Name": "The Githyanki Armoury",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1966,
+          "West": 1958
+        }
+      },
+      {
+        "Id": 1968,
+        "Name": "Inside the furnace",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1968,
+          "South": 1968,
+          "West": 1966
+        }
+      },
+      {
+        "Id": 1969,
+        "Name": "A guard station",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1953,
+          "West": 1970
+        }
+      },
+      {
+        "Id": 1970,
+        "Name": "The cellblock",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1971,
+          "East": 1969,
+          "South": 1972
+        }
+      },
+      {
+        "Id": 1971,
+        "Name": "A cramped cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1970
+        }
+      },
+      {
+        "Id": 1972,
+        "Name": "A tiny cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1970
+        }
+      },
+      {
+        "Id": 1973,
+        "Name": "A large dwelling",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1957
+        }
+      },
+      {
+        "Id": 1974,
+        "Name": "South End of the Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1975,
+          "South": 1955
+        }
+      },
+      {
+        "Id": 1975,
+        "Name": "North End of the Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1976,
+          "South": 1974
+        }
+      },
+      {
+        "Id": 1976,
+        "Name": "The Altar Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1977,
+          "South": 1975
+        }
+      },
+      {
+        "Id": 1977,
+        "Name": "Before the Altar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1976,
+          "Down": 1978
+        }
+      },
+      {
+        "Id": 1978,
+        "Name": "A Gateway to the Underworld",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 1977,
+          "Down": 1979
+        }
+      },
+      {
+        "Id": 1979,
+        "Name": "Utter darkness and despair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 1036,
+        "Name": "To In the Air",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "South": 1037,
+          "West": 1031,
+          "Up": 1900,
+          "Down": 1016
+        }
+      },
+      {
+        "Id": 8100,
+        "Name": "To The Plane of Nirvana",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "East": 8101,
+          "Down": 1949,
+          "West": 8102
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "Area": {
+    "Name": "Dragon Cult",
+    "Credits": "{ 5 25} Sandman Dragon Cult",
+    "MinimumLevel": "5",
+    "MaximumLevel": "25",
+    "Rooms": [
+      {
+        "Id": 9850,
+        "Name": "The Reception Area",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9851,
+          "South": 3024
+        }
+      },
+      {
+        "Id": 9851,
+        "Name": "A dimly lit corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9852,
+          "South": 9850
+        }
+      },
+      {
+        "Id": 9852,
+        "Name": "Dragon Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9853,
+          "South": 9851
+        }
+      },
+      {
+        "Id": 9853,
+        "Name": "Tourist Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 9880,
+          "South": 9852,
+          "West": 9871,
+          "Down": 9854
+        }
+      },
+      {
+        "Id": 9854,
+        "Name": "A five way intersection",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9856,
+          "East": 9857,
+          "South": 9855,
+          "West": 9859,
+          "Up": 9853
+        }
+      },
+      {
+        "Id": 9855,
+        "Name": "A Shrine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9854
+        }
+      },
+      {
+        "Id": 9856,
+        "Name": "The Tapestry Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 9886,
+          "South": 9854
+        }
+      },
+      {
+        "Id": 9857,
+        "Name": "A VERY ordinary hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9892,
+          "East": 9858,
+          "West": 9854
+        }
+      },
+      {
+        "Id": 9858,
+        "Name": "The Bathroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 9857
+        }
+      },
+      {
+        "Id": 9859,
+        "Name": "A hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 9854,
+          "West": 9860
+        }
+      },
+      {
+        "Id": 9860,
+        "Name": "Bend in the hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9861,
+          "East": 9859
+        }
+      },
+      {
+        "Id": 9861,
+        "Name": "A place of worship",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9894,
+          "South": 9860,
+          "Down": 9862
+        }
+      },
+      {
+        "Id": 9862,
+        "Name": "Dark Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 9863,
+          "Up": 9861
+        }
+      },
+      {
+        "Id": 9863,
+        "Name": "The Inner Circle",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9862,
+          "East": 9864,
+          "West": 9865
+        }
+      },
+      {
+        "Id": 9864,
+        "Name": "Priests Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 9863,
+          "Down": 9887
+        }
+      },
+      {
+        "Id": 9865,
+        "Name": "A foreboding corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9866,
+          "East": 9863,
+          "West": 9867
+        }
+      },
+      {
+        "Id": 9866,
+        "Name": "The Cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 9865
+        }
+      },
+      {
+        "Id": 9867,
+        "Name": "An even MORE foreboding corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 9865,
+          "West": 9868
+        }
+      },
+      {
+        "Id": 9868,
+        "Name": "The Chamber of the High Priestess",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9869,
+          "East": 9867
+        }
+      },
+      {
+        "Id": 9869,
+        "Name": "A foul smelling hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9870,
+          "South": 9868
+        }
+      },
+      {
+        "Id": 9870,
+        "Name": "Chamber of the Wyrmling",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 9869
+        }
+      },
+      {
+        "Id": 9871,
+        "Name": "The Waiting Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9872,
+          "East": 9853,
+          "West": 9873
+        }
+      },
+      {
+        "Id": 9872,
+        "Name": "Entranceway to the Main Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9874,
+          "East": 9878,
+          "South": 9871,
+          "West": 9879
+        }
+      },
+      {
+        "Id": 9873,
+        "Name": "A strange room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 9866
+        }
+      },
+      {
+        "Id": 9874,
+        "Name": "A hallway in the office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9893,
+          "South": 9872,
+          "West": 9875
+        }
+      },
+      {
+        "Id": 9875,
+        "Name": "Gale\u0027s Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 9874
+        }
+      },
+      {
+        "Id": 9876,
+        "Name": "Fred\u0027s Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 9878
+        }
+      },
+      {
+        "Id": 9877,
+        "Name": "The break room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 9882
+        }
+      },
+      {
+        "Id": 9878,
+        "Name": "The middle of the office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9876,
+          "East": 9882,
+          "West": 9872
+        }
+      },
+      {
+        "Id": 9879,
+        "Name": "A sales booth",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 9872
+        }
+      },
+      {
+        "Id": 9880,
+        "Name": "A back hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9881,
+          "West": 9853
+        }
+      },
+      {
+        "Id": 9881,
+        "Name": "End of the hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9885,
+          "South": 9880,
+          "West": 9882
+        }
+      },
+      {
+        "Id": 9882,
+        "Name": "The copy room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9877,
+          "East": 9881,
+          "West": 9878
+        }
+      },
+      {
+        "Id": 9883,
+        "Name": "The dungeon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 9884
+        }
+      },
+      {
+        "Id": 9884,
+        "Name": "The torture chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 9886,
+          "East": 9883
+        }
+      },
+      {
+        "Id": 9885,
+        "Name": "sliding",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 9883
+        }
+      },
+      {
+        "Id": 9886,
+        "Name": "A secret passageway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 9884,
+          "West": 9856
+        }
+      },
+      {
+        "Id": 9887,
+        "Name": "A Downward Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 9864,
+          "Down": 9888
+        }
+      },
+      {
+        "Id": 9888,
+        "Name": "Deeper into the pit",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 9887,
+          "Down": 9889
+        }
+      },
+      {
+        "Id": 9889,
+        "Name": "Before the Jaws of Dark Death",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 9890,
+          "Up": 9888,
+          "Down": 9891
+        }
+      },
+      {
+        "Id": 9890,
+        "Name": "A hidden alcove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 9889
+        }
+      },
+      {
+        "Id": 9891,
+        "Name": "The bottom of the pit",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 9889
+        }
+      },
+      {
+        "Id": 9892,
+        "Name": "Candy Store",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 9857
+        }
+      },
+      {
+        "Id": 9893,
+        "Name": "Top of the staircase",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 9874,
+          "Down": 9894
+        }
+      },
+      {
+        "Id": 9894,
+        "Name": "Bottom of the staircase",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 9861,
+          "Up": 9893
+        }
+      },
+      {
+        "Id": 9898,
+        "Name": "Morpheus\u0027s Study",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 9899,
+        "Name": "Sandman\u0027s Study",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 3024,
+        "Name": "To Midgaard",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 9850,
+          "East": 3025,
+          "South": 3048,
+          "West": 3044
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}
