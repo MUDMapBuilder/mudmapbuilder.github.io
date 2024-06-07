@@ -1,0 +1,493 @@
+{
+  "Area": {
+    "Name": "Capital Sewer System",
+    "Credits": "Welcor",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 3700,
+        "Name": "Zone Description Room for Capital Sewer System",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 3701,
+        "Name": "Entering the sewers",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3716,
+          "East": 3703,
+          "South": 3702,
+          "West": 3718
+        }
+      },
+      {
+        "Id": 3702,
+        "Name": "Under the Drainpipe",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3701
+        }
+      },
+      {
+        "Id": 3703,
+        "Name": "Pipe turning north and west",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3704,
+          "West": 3701
+        }
+      },
+      {
+        "Id": 3704,
+        "Name": "A pipe deep underground.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3705,
+          "South": 3703
+        }
+      },
+      {
+        "Id": 3705,
+        "Name": "A pipe deep underground",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3707,
+          "South": 3704
+        }
+      },
+      {
+        "Id": 3707,
+        "Name": "A three-way intersection",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 3708,
+          "South": 3705,
+          "West": 3714
+        }
+      },
+      {
+        "Id": 3708,
+        "Name": "A bend in the tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3709,
+          "West": 3707
+        }
+      },
+      {
+        "Id": 3709,
+        "Name": "North of a grate",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3710,
+          "South": 3708
+        }
+      },
+      {
+        "Id": 3710,
+        "Name": "Near the northern drainhole",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 3709,
+          "West": 3711
+        }
+      },
+      {
+        "Id": 3711,
+        "Name": "The northern drainhole",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 3710,
+          "South": 3715,
+          "West": 3712
+        }
+      },
+      {
+        "Id": 3712,
+        "Name": "A dirt tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 3711,
+          "South": 3713
+        }
+      },
+      {
+        "Id": 3713,
+        "Name": "In a dirt tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3712,
+          "South": 3714
+        }
+      },
+      {
+        "Id": 3714,
+        "Name": "A dirt tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3713,
+          "East": 3707
+        }
+      },
+      {
+        "Id": 3715,
+        "Name": "The Lair of the King Rat.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3711
+        }
+      },
+      {
+        "Id": 3716,
+        "Name": "The Northern Pipe",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3717,
+          "South": 3701
+        }
+      },
+      {
+        "Id": 3717,
+        "Name": "At the edge of a pit",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 3716,
+          "Down": 3801
+        }
+      },
+      {
+        "Id": 3718,
+        "Name": "The western junction.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3719,
+          "East": 3701,
+          "West": 3729
+        }
+      },
+      {
+        "Id": 3719,
+        "Name": "North/south Pipe",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3720,
+          "South": 3718
+        }
+      },
+      {
+        "Id": 3720,
+        "Name": "North/south Pipe",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3721,
+          "South": 3719
+        }
+      },
+      {
+        "Id": 3721,
+        "Name": "North of the grate.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3722,
+          "South": 3720,
+          "West": 3724
+        }
+      },
+      {
+        "Id": 3722,
+        "Name": "A domed cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3723,
+          "South": 3721
+        }
+      },
+      {
+        "Id": 3723,
+        "Name": "Near the outside",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 3722,
+          "Up": 3743
+        }
+      },
+      {
+        "Id": 3724,
+        "Name": "A side tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3725,
+          "East": 3721
+        }
+      },
+      {
+        "Id": 3725,
+        "Name": "A side tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3726,
+          "South": 3724
+        }
+      },
+      {
+        "Id": 3726,
+        "Name": "Turn in a side tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 3725,
+          "West": 3727
+        }
+      },
+      {
+        "Id": 3727,
+        "Name": "The west tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 3726,
+          "West": 3728
+        }
+      },
+      {
+        "Id": 3728,
+        "Name": "The west tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 3727
+        }
+      },
+      {
+        "Id": 3729,
+        "Name": "A turn in the western pipe",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3730,
+          "East": 3718
+        }
+      },
+      {
+        "Id": 3730,
+        "Name": "A boring pipe",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3731,
+          "South": 3729
+        }
+      },
+      {
+        "Id": 3731,
+        "Name": "A turn in a boring pipe",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 3730,
+          "West": 3732
+        }
+      },
+      {
+        "Id": 3732,
+        "Name": "A boring pipe",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 3731,
+          "West": 3733
+        }
+      },
+      {
+        "Id": 3733,
+        "Name": "A turn in a boring pipe",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 3732,
+          "South": 3734
+        }
+      },
+      {
+        "Id": 3734,
+        "Name": "A boring pipe",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3733,
+          "South": 3735
+        }
+      },
+      {
+        "Id": 3735,
+        "Name": "A strange halt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3734,
+          "East": 3736,
+          "South": 3737
+        }
+      },
+      {
+        "Id": 3736,
+        "Name": "By the hole",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 3729
+        }
+      },
+      {
+        "Id": 3737,
+        "Name": "By an underground fishing pond",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3735,
+          "South": 3738,
+          "West": 3742
+        }
+      },
+      {
+        "Id": 3738,
+        "Name": "The pool.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3737,
+          "South": 3739,
+          "West": 3741
+        }
+      },
+      {
+        "Id": 3739,
+        "Name": "The pool",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3738,
+          "West": 3740
+        }
+      },
+      {
+        "Id": 3740,
+        "Name": "The pool",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3741,
+          "East": 3739
+        }
+      },
+      {
+        "Id": 3741,
+        "Name": "The pool",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3742,
+          "East": 3738,
+          "South": 3740
+        }
+      },
+      {
+        "Id": 3742,
+        "Name": "The pool",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 3737,
+          "South": 3741
+        }
+      },
+      {
+        "Id": 3743,
+        "Name": "Through the hole",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3744,
+          "Down": 3723
+        }
+      },
+      {
+        "Id": 3744,
+        "Name": "Outside the cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 3743,
+          "West": 3745
+        }
+      },
+      {
+        "Id": 3745,
+        "Name": "Outside the capital",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 3744,
+          "South": 3746
+        }
+      },
+      {
+        "Id": 3746,
+        "Name": "On a gravelled path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3745
+        }
+      },
+      {
+        "Id": 3801,
+        "Name": "To Capital Sewer System II",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "Up": 3717,
+          "Down": 3802
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

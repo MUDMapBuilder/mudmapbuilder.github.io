@@ -1,0 +1,872 @@
+{
+  "Area": {
+    "Name": "Aldin",
+    "Credits": "Welcor",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 23600,
+        "Name": "Start of Aldin, City of the Dwarves",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 23601,
+        "Name": "Entrance to the Tradehalls",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23602,
+          "South": 23700
+        }
+      },
+      {
+        "Id": 23602,
+        "Name": "Inside the Tradehalls",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23607,
+          "East": 23603,
+          "South": 23601,
+          "West": 23604
+        }
+      },
+      {
+        "Id": 23603,
+        "Name": "Travellers rest.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 23602
+        }
+      },
+      {
+        "Id": 23604,
+        "Name": "The stonewrights stall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23602
+        }
+      },
+      {
+        "Id": 23605,
+        "Name": "The weaponsmiths stall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23607
+        }
+      },
+      {
+        "Id": 23606,
+        "Name": "The armourers stall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 23607
+        }
+      },
+      {
+        "Id": 23607,
+        "Name": "Center of the Trade Halls",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23606,
+          "East": 23609,
+          "South": 23602,
+          "West": 23605
+        }
+      },
+      {
+        "Id": 23609,
+        "Name": "On a narrow platform",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23610,
+          "West": 23607
+        }
+      },
+      {
+        "Id": 23610,
+        "Name": "Entrance to Aldin, City of the Dwarves",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23611,
+          "West": 23609
+        }
+      },
+      {
+        "Id": 23611,
+        "Name": "Passing by the workshops",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23613,
+          "East": 23615,
+          "South": 23612,
+          "West": 23610
+        }
+      },
+      {
+        "Id": 23612,
+        "Name": "At Torgs\u0027 smithy",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23611
+        }
+      },
+      {
+        "Id": 23613,
+        "Name": "Before the city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23617,
+          "East": 23616,
+          "South": 23611
+        }
+      },
+      {
+        "Id": 23614,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23621,
+          "East": 23618
+        }
+      },
+      {
+        "Id": 23615,
+        "Name": "At Ralfs\u0027 smithy",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 23611
+        }
+      },
+      {
+        "Id": 23616,
+        "Name": "At the stonewrights.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 23613
+        }
+      },
+      {
+        "Id": 23617,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23619,
+          "South": 23613,
+          "West": 23618
+        }
+      },
+      {
+        "Id": 23618,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23623,
+          "East": 23617,
+          "West": 23614
+        }
+      },
+      {
+        "Id": 23619,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23620,
+          "West": 23617
+        }
+      },
+      {
+        "Id": 23620,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23627,
+          "West": 23619
+        }
+      },
+      {
+        "Id": 23621,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23628,
+          "South": 23614
+        }
+      },
+      {
+        "Id": 23622,
+        "Name": "Dwarven mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23629,
+          "Down": 23670
+        }
+      },
+      {
+        "Id": 23623,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23630,
+          "South": 23618
+        }
+      },
+      {
+        "Id": 23624,
+        "Name": "A dwarven home",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23631,
+          "East": 23625
+        }
+      },
+      {
+        "Id": 23625,
+        "Name": "In a closet",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 23624
+        }
+      },
+      {
+        "Id": 23626,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23632
+        }
+      },
+      {
+        "Id": 23627,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23633,
+          "South": 23620
+        }
+      },
+      {
+        "Id": 23628,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23634,
+          "East": 23629,
+          "South": 23621
+        }
+      },
+      {
+        "Id": 23629,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23630,
+          "South": 23622,
+          "West": 23628
+        }
+      },
+      {
+        "Id": 23630,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23631,
+          "South": 23623,
+          "West": 23629
+        }
+      },
+      {
+        "Id": 23631,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23637,
+          "East": 23632,
+          "South": 23624,
+          "West": 23630
+        }
+      },
+      {
+        "Id": 23632,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23633,
+          "South": 23626,
+          "West": 23631
+        }
+      },
+      {
+        "Id": 23633,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23640,
+          "South": 23627,
+          "West": 23632
+        }
+      },
+      {
+        "Id": 23634,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23641,
+          "South": 23628
+        }
+      },
+      {
+        "Id": 23635,
+        "Name": "A dwarven home",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23636
+        }
+      },
+      {
+        "Id": 23636,
+        "Name": "A dwarven home",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23643,
+          "West": 23635
+        }
+      },
+      {
+        "Id": 23637,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23644,
+          "South": 23631
+        }
+      },
+      {
+        "Id": 23638,
+        "Name": "A dwarven home",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23645
+        }
+      },
+      {
+        "Id": 23639,
+        "Name": "A dwarven home",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23646
+        }
+      },
+      {
+        "Id": 23640,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23647,
+          "South": 23633
+        }
+      },
+      {
+        "Id": 23641,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23642,
+          "South": 23634
+        }
+      },
+      {
+        "Id": 23642,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23643,
+          "West": 23641
+        }
+      },
+      {
+        "Id": 23643,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23650,
+          "East": 23644,
+          "South": 23636,
+          "West": 23642
+        }
+      },
+      {
+        "Id": 23644,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23645,
+          "South": 23637,
+          "West": 23643
+        }
+      },
+      {
+        "Id": 23645,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23652,
+          "East": 23646,
+          "South": 23638,
+          "West": 23644
+        }
+      },
+      {
+        "Id": 23646,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23647,
+          "South": 23639,
+          "West": 23645
+        }
+      },
+      {
+        "Id": 23647,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23654,
+          "South": 23640,
+          "West": 23646
+        }
+      },
+      {
+        "Id": 23648,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23649,
+          "West": 23655
+        }
+      },
+      {
+        "Id": 23649,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23650,
+          "West": 23648
+        }
+      },
+      {
+        "Id": 23650,
+        "Name": "The dwarven city",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 23643,
+          "West": 23649
+        }
+      },
+      {
+        "Id": 23651,
+        "Name": "A dwarven nobles\u0027 home",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23652
+        }
+      },
+      {
+        "Id": 23652,
+        "Name": "a dwarven nobles\u0027 home.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 23645,
+          "West": 23651
+        }
+      },
+      {
+        "Id": 23653,
+        "Name": "The tool shed.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23654
+        }
+      },
+      {
+        "Id": 23654,
+        "Name": "In a drafty tunnel.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23669,
+          "South": 23647,
+          "West": 23653
+        }
+      },
+      {
+        "Id": 23655,
+        "Name": "The Checkpoint",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23656,
+          "East": 23648,
+          "South": 23658,
+          "West": 23660
+        }
+      },
+      {
+        "Id": 23656,
+        "Name": "The barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23657,
+          "South": 23655
+        }
+      },
+      {
+        "Id": 23657,
+        "Name": "The barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 23656
+        }
+      },
+      {
+        "Id": 23658,
+        "Name": "The barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23655,
+          "South": 23659
+        }
+      },
+      {
+        "Id": 23659,
+        "Name": "The barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23658
+        }
+      },
+      {
+        "Id": 23660,
+        "Name": "At the court",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23655,
+          "West": 23661
+        }
+      },
+      {
+        "Id": 23661,
+        "Name": "At the court",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23660,
+          "South": 23663,
+          "West": 23662
+        }
+      },
+      {
+        "Id": 23662,
+        "Name": "Royal sleeping room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23661
+        }
+      },
+      {
+        "Id": 23663,
+        "Name": "At the court",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23661,
+          "East": 23666,
+          "South": 23667,
+          "West": 23664
+        }
+      },
+      {
+        "Id": 23664,
+        "Name": "Ministry of trade",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 23663
+        }
+      },
+      {
+        "Id": 23666,
+        "Name": "Shrine of Welcor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 23663
+        }
+      },
+      {
+        "Id": 23667,
+        "Name": "At the Dwarven Court",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23663
+        }
+      },
+      {
+        "Id": 23668,
+        "Name": "The dwarven treasury",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 23667
+        }
+      },
+      {
+        "Id": 23669,
+        "Name": "In a drafty tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23685,
+          "South": 23654
+        }
+      },
+      {
+        "Id": 23670,
+        "Name": "In the Mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 23622,
+          "Down": 23671
+        }
+      },
+      {
+        "Id": 23671,
+        "Name": "In the mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 23670,
+          "Down": 23672
+        }
+      },
+      {
+        "Id": 23672,
+        "Name": "In the mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 23671,
+          "Down": 23673
+        }
+      },
+      {
+        "Id": 23673,
+        "Name": "In the mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 23672,
+          "Down": 23674
+        }
+      },
+      {
+        "Id": 23674,
+        "Name": "In the mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23675,
+          "Up": 23673
+        }
+      },
+      {
+        "Id": 23675,
+        "Name": "In the mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23676,
+          "South": 23674
+        }
+      },
+      {
+        "Id": 23676,
+        "Name": "In the mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23678,
+          "South": 23675,
+          "Down": 23684
+        }
+      },
+      {
+        "Id": 23677,
+        "Name": "In the mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23679,
+          "East": 23680,
+          "South": 23678
+        }
+      },
+      {
+        "Id": 23678,
+        "Name": "In the mines",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23677,
+          "South": 23676
+        }
+      },
+      {
+        "Id": 23679,
+        "Name": "At a dead end in the mines.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 23677
+        }
+      },
+      {
+        "Id": 23680,
+        "Name": "In the side tunnels",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 23681,
+          "West": 23677
+        }
+      },
+      {
+        "Id": 23681,
+        "Name": "In the side tunnels",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23680,
+          "East": 23683,
+          "South": 23682
+        }
+      },
+      {
+        "Id": 23682,
+        "Name": "In the side tunnels",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 23681
+        }
+      },
+      {
+        "Id": 23683,
+        "Name": "In the side tunnels",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 23681
+        }
+      },
+      {
+        "Id": 23684,
+        "Name": "Falling......",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 23685,
+        "Name": "At the end of the tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 23669
+        }
+      },
+      {
+        "Id": 23700,
+        "Name": "To Dwarven Trade Route",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 23601,
+          "South": 23701
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

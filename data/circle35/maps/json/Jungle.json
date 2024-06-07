@@ -1,164 +1,167 @@
 {
   "Area": {
-    "Name": "Mudschool",
-    "Credits": "Welcor",
-    "MinimumLevel": "1",
-    "MaximumLevel": "3",
+    "Name": "Jungle",
+    "Credits": "Makira",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
     "Rooms": [
       {
-        "Id": 2800,
-        "Name": "Entrance to Mudschool:",
+        "Id": 29500,
+        "Name": "The start of the jungle",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "North": 2801
+          "South": 29501
         }
       },
       {
-        "Id": 2801,
-        "Name": "Mudschool 1st Lesson: Finding your way around.",
+        "Id": 29501,
+        "Name": "Deeper into the jungle",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "East": 2802,
-          "South": 2800
+          "North": 29500,
+          "South": 29502
         }
       },
       {
-        "Id": 2802,
-        "Name": "Mudschool 2nd Lesson: Finders Keepers",
+        "Id": 29502,
+        "Name": "Deeper in to the jungle",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "North": 2803,
-          "West": 2801
+          "North": 29501,
+          "East": 29503,
+          "West": 29509
         }
       },
       {
-        "Id": 2803,
-        "Name": "Mudschool 3rd Lesson: Money talks.",
+        "Id": 29503,
+        "Name": "On a small trail",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "East": 2804,
-          "South": 2802
+          "East": 29504,
+          "West": 29502
         }
       },
       {
-        "Id": 2804,
-        "Name": "Mudschool 4th Lesson: How to not go through life naked!",
+        "Id": 29504,
+        "Name": "The gate to the camp",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "North": 2805,
-          "West": 2803
+          "East": 29505,
+          "West": 29503
         }
       },
       {
-        "Id": 2805,
-        "Name": "Mudschool 5th Lesson: Preparing for battle.",
+        "Id": 29505,
+        "Name": "In the camp",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "East": 2806,
-          "South": 2804
+          "North": 29507,
+          "East": 29506,
+          "South": 29508,
+          "West": 29504
         }
       },
       {
-        "Id": 2806,
-        "Name": "Mudschool 6th Lesson: The end of poor piglet.",
+        "Id": 29506,
+        "Name": "The food store",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "North": 2807,
-          "West": 2805
+          "West": 29505
         }
       },
       {
-        "Id": 2807,
-        "Name": "Mudschool 7th Lesson: Lunch break.",
+        "Id": 29507,
+        "Name": "The womans room",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "East": 2808,
-          "South": 2806
+          "South": 29505
         }
       },
       {
-        "Id": 2808,
-        "Name": "Mudschool 8th Lesson: Classes !? - Why?",
+        "Id": 29508,
+        "Name": "The chiefs room",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "North": 2809,
-          "West": 2807
+          "North": 29505
         }
       },
       {
-        "Id": 2809,
-        "Name": "Mudschool 9th Lesson: Who Am I - really ?",
+        "Id": 29509,
+        "Name": "To the monkeys!",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "North": 2810,
-          "South": 2808
+          "East": 29502,
+          "West": 29513,
+          "Up": 29510
         }
       },
       {
-        "Id": 2810,
-        "Name": "Mudschool 10th Lesson: Shortcuts",
+        "Id": 29510,
+        "Name": "In the trees",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "East": 2811,
-          "South": 2809
+          "North": 29511,
+          "Down": 29509
         }
       },
       {
-        "Id": 2811,
-        "Name": "Mudschool 11th Lesson : Doors - a menace to free movement.",
+        "Id": 29511,
+        "Name": "In the trees",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "East": 2812,
-          "West": 2810
+          "North": 29512,
+          "South": 29510
         }
       },
       {
-        "Id": 2812,
-        "Name": "Mudschool 12th Lesson : Socialising",
+        "Id": 29512,
+        "Name": "In the trees",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "South": 2814,
-          "West": 2811
+          "South": 29511
         }
       },
       {
-        "Id": 2813,
-        "Name": "Mudschool 14th Lesson : What NOT to do :)",
+        "Id": 29513,
+        "Name": "Close to the monkeys",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "West": 2814
+          "East": 29509,
+          "West": 29514
         }
       },
       {
-        "Id": 2814,
-        "Name": "Mudschool 13th Lesson : Getting the game on your side.",
+        "Id": 29514,
+        "Name": "The meeting room",
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "North": 2812,
-          "East": 2813
+          "North": 29515,
+          "East": 29513
         }
       },
       {
-        "Id": 2815,
-        "Name": "Welcors furnace",
+        "Id": 29515,
+        "Name": "North of the meeting place",
         "IsExitToOtherArea": false,
         "Position": null,
-        "Connections": {}
+        "Connections": {
+          "South": 29514
+        }
       }
     ]
   },

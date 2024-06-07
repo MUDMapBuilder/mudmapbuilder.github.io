@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>circle35's Maps%</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" />
+</head>
+<body>
+    <table id="table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Credits</th>
+                <th scope="col">Min Level</th>
+                <th scope="col">Max Level</th>
+                <th scope="col">Json</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+    <script>
+var data = [
+[["The Builder Academy Zone", "data/circle35/maps/png/The Builder Academy Zone.png"], "Rumble", "", "", "data/circle35/maps/json/The Builder Academy Zone.json"],
+[["Sanctus", "data/circle35/maps/png/Sanctus.png"], "Rumble", "", "", "data/circle35/maps/json/Sanctus.json"],
+[["Sanctus II", "data/circle35/maps/png/Sanctus II.png"], "Rumble", "", "", "data/circle35/maps/json/Sanctus II.json"],
+[["Sanctus III", "data/circle35/maps/png/Sanctus III.png"], "Rumble", "", "", "data/circle35/maps/json/Sanctus III.json"],
+[["Jade Forest", "data/circle35/maps/png/Jade Forest.png"], "Unknown", "", "", "data/circle35/maps/json/Jade Forest.json"],
+[["Newbie Farm", "data/circle35/maps/png/Newbie Farm.png"], "Unknown", "", "", "data/circle35/maps/json/Newbie Farm.json"],
+[["Sea of Souls", "data/circle35/maps/png/Sea of Souls.png"], "Unknown", "", "", "data/circle35/maps/json/Sea of Souls.json"],
+[["Camelot", "data/circle35/maps/png/Camelot.png"], "Rumble", "", "", "data/circle35/maps/json/Camelot.json"],
+[["River Island of Minos", "data/circle35/maps/png/River Island of Minos.png"], "Mahatma", "", "", "data/circle35/maps/json/River Island of Minos.json"],
+[["God Simplex", "data/circle35/maps/png/God Simplex.png"], "CircleMUD", "", "", "data/circle35/maps/json/God Simplex.json"],
+[["TBA Examples", "data/circle35/maps/png/TBA Examples.png"], "Rumble", "", "", "data/circle35/maps/json/TBA Examples.json"],
+[["TBA Examples II", "data/circle35/maps/png/TBA Examples II.png"], "Rumble", "", "", "data/circle35/maps/json/TBA Examples II.json"],
+[["Straight Path", "data/circle35/maps/png/Straight Path.png"], "Steppin", "", "", "data/circle35/maps/json/Straight Path.json"],
+[["Camelot II", "data/circle35/maps/png/Camelot II.png"], "Rumble", "", "", "data/circle35/maps/json/Camelot II.json"],
+[["Camelot III", "data/circle35/maps/png/Camelot III.png"], "Rumble", "", "", "data/circle35/maps/json/Camelot III.json"],
+[["Nuclear Wasteland", "data/circle35/maps/png/Nuclear Wasteland.png"], "Rumble", "", "", "data/circle35/maps/json/Nuclear Wasteland.json"],
+[["Spider Swamp", "data/circle35/maps/png/Spider Swamp.png"], "Detta", "", "", "data/circle35/maps/json/Spider Swamp.json"],
+[["Arena", "data/circle35/maps/png/Arena.png"], "Rumble", "", "", "data/circle35/maps/json/Arena.json"],
+[["Tower of the Undead", "data/circle35/maps/png/Tower of the Undead.png"], "Rumble", "", "", "data/circle35/maps/json/Tower of the Undead.json"],
+[["High Tower of Magic", "data/circle35/maps/png/High Tower of Magic.png"], "Skylar", "", "", "data/circle35/maps/json/High Tower of Magic.json"],
+[["High Tower of Magic II", "data/circle35/maps/png/High Tower of Magic II.png"], "Skylar", "", "", "data/circle35/maps/json/High Tower of Magic II.json"],
+[["Memlin Caverns", "data/circle35/maps/png/Memlin Caverns.png"], "Detta", "", "", "data/circle35/maps/json/Memlin Caverns.json"],
+[["Mudschool", "data/circle35/maps/png/Mudschool.png"], "Welcor", "", "", "data/circle35/maps/json/Mudschool.json"],
+[["Northern Midgaard", "data/circle35/maps/png/Northern Midgaard.png"], "DikuMUD", "", "", "data/circle35/maps/json/Northern Midgaard.json"],
+[["Southern Midgaard", "data/circle35/maps/png/Southern Midgaard.png"], "DikuMUD", "", "", "data/circle35/maps/json/Southern Midgaard.json"],
+[["Midgaard", "data/circle35/maps/png/Midgaard.png"], "DikuMUD", "", "", "data/circle35/maps/json/Midgaard.json"],
+[["Three of Swords", "data/circle35/maps/png/Three of Swords.png"], "C.A.W.", "", "", "data/circle35/maps/json/Three of Swords.json"],
+[["Miden'Nir", "data/circle35/maps/png/Miden'Nir.png"], "Copper II", "", "", "data/circle35/maps/json/Miden'Nir.json"],
+[["Chessboard of Midgaard", "data/circle35/maps/png/Chessboard of Midgaard.png"], "Exxon", "", "", "data/circle35/maps/json/Chessboard of Midgaard.json"],
+[["Capital Sewer System", "data/circle35/maps/png/Capital Sewer System.png"], "Welcor", "", "", "data/circle35/maps/json/Capital Sewer System.json"],
+[["Capital Sewer System II", "data/circle35/maps/png/Capital Sewer System II.png"], "Welcor", "", "", "data/circle35/maps/json/Capital Sewer System II.json"],
+[["Haven", "data/circle35/maps/png/Haven.png"], "Nivan", "", "", "data/circle35/maps/json/Haven.json"],
+[["Mines of Moria", "data/circle35/maps/png/Mines of Moria.png"], "Redferne", "", "", "data/circle35/maps/json/Mines of Moria.json"],
+[["Mines of Moria", "data/circle35/maps/png/Mines of Moria.png"], "Redferne", "", "", "data/circle35/maps/json/Mines of Moria.json"],
+[["Dragon Chasm", "data/circle35/maps/png/Dragon Chasm.png"], "Guldane", "", "", "data/circle35/maps/json/Dragon Chasm.json"],
+[["Arctic Zone", "data/circle35/maps/png/Arctic Zone.png"], "Walrus Polar", "", "", "data/circle35/maps/json/Arctic Zone.json"],
+[["Orc Camp", "data/circle35/maps/png/Orc Camp.png"], "Welcor", "", "", "data/circle35/maps/json/Orc Camp.json"],
+[["Woodland Monastery", "data/circle35/maps/png/Woodland Monastery.png"], "Gnoff", "", "", "data/circle35/maps/json/Woodland Monastery.json"],
+[["Ant Hill", "data/circle35/maps/png/Ant Hill.png"], "Garrison", "", "", "data/circle35/maps/json/Ant Hill.json"],
+[["Great Eastern Desert", "data/circle35/maps/png/Great Eastern Desert.png"], "Rorschach", "", "", "data/circle35/maps/json/Great Eastern Desert.json"],
+[["Drow City", "data/circle35/maps/png/Drow City.png"], "Rorschach", "", "", "data/circle35/maps/json/Drow City.json"],
+[["City of Thalos", "data/circle35/maps/png/City of Thalos.png"], "Rorschach", "", "", "data/circle35/maps/json/City of Thalos.json"],
+[["Great Pyramid", "data/circle35/maps/png/Great Pyramid.png"], "Andersen", "", "", "data/circle35/maps/json/Great Pyramid.json"],
+[["New Thalos", "data/circle35/maps/png/New Thalos.png"], "Duke", "", "", "data/circle35/maps/json/New Thalos.json"],
+[["New Thalos II", "data/circle35/maps/png/New Thalos II.png"], "Duke", "", "", "data/circle35/maps/json/New Thalos II.json"],
+[["New Thalos Wilderness", "data/circle35/maps/png/New Thalos Wilderness.png"], "Duke", "", "", "data/circle35/maps/json/New Thalos Wilderness.json"],
+[["Zodiac", "data/circle35/maps/png/Zodiac.png"], "Gatia", "", "", "data/circle35/maps/json/Zodiac.json"],
+[["Haon-Dor, Light Forest", "data/circle35/maps/png/Haon-Dor, Light Forest.png"], "Quifael", "", "", "data/circle35/maps/json/Haon-Dor, Light Forest.json"],
+[["Haon-Dor, Light Forest II", "data/circle35/maps/png/Haon-Dor, Light Forest II.png"], "Quifael", "", "", "data/circle35/maps/json/Haon-Dor, Light Forest II.json"],
+[["Orc Enclave", "data/circle35/maps/png/Orc Enclave.png"], "C.A.W.", "", "", "data/circle35/maps/json/Orc Enclave.json"],
+[["Arachnos", "data/circle35/maps/png/Arachnos.png"], "Mahatma", "", "", "data/circle35/maps/json/Arachnos.json"],
+[["Rand's Tower", "data/circle35/maps/png/Rand's Tower.png"], "C.A.W.", "", "", "data/circle35/maps/json/Rand's Tower.json"],
+[["Dwarven Kingdom", "data/circle35/maps/png/Dwarven Kingdom.png"], "Depeche", "", "", "data/circle35/maps/json/Dwarven Kingdom.json"],
+[["Sewer, First Level", "data/circle35/maps/png/Sewer, First Level.png"], "Redferne", "", "", "data/circle35/maps/json/Sewer, First Level.json"],
+[["Second Sewer", "data/circle35/maps/png/Second Sewer.png"], "Redferne", "", "", "data/circle35/maps/json/Second Sewer.json"],
+[["Sewer Maze", "data/circle35/maps/png/Sewer Maze.png"], "Redferne", "", "", "data/circle35/maps/json/Sewer Maze.json"],
+[["Tunnels in the Sewer", "data/circle35/maps/png/Tunnels in the Sewer.png"], "Redferne", "", "", "data/circle35/maps/json/Tunnels in the Sewer.json"],
+[["Newbie Graveyard", "data/circle35/maps/png/Newbie Graveyard.png"], "Jojen", "", "", "data/circle35/maps/json/Newbie Graveyard.json"],
+[["Zamba", "data/circle35/maps/png/Zamba.png"], "Shimmer", "", "", "data/circle35/maps/json/Zamba.json"],
+[["Gideon", "data/circle35/maps/png/Gideon.png"], "Arina", "", "", "data/circle35/maps/json/Gideon.json"],
+[["Redferne's Residence", "data/circle35/maps/png/Redferne's Residence.png"], "DikuMUD", "", "", "data/circle35/maps/json/Redferne's Residence.json"],
+[["Glumgold's Sea", "data/circle35/maps/png/Glumgold's Sea.png"], "Meyekul", "", "", "data/circle35/maps/json/Glumgold's Sea.json"],
+[["Duke Kalithorn's Keep", "data/circle35/maps/png/Duke Kalithorn's Keep.png"], "Destiny", "", "", "data/circle35/maps/json/Duke Kalithorn's Keep.json"],
+[["Oasis", "data/circle35/maps/png/Oasis.png"], "Rumble", "", "", "data/circle35/maps/json/Oasis.json"],
+[["Domiae", "data/circle35/maps/png/Domiae.png"], "Kas", "", "", "data/circle35/maps/json/Domiae.json"],
+[["Northern Highway", "data/circle35/maps/png/Northern Highway.png"], "Rumble", "", "", "data/circle35/maps/json/Northern Highway.json"],
+[["South Road", "data/circle35/maps/png/South Road.png"], "Unknown", "", "", "data/circle35/maps/json/South Road.json"],
+[["DBZ World", "data/circle35/maps/png/DBZ World.png"], "Taylor", "", "", "data/circle35/maps/json/DBZ World.json"],
+[["Land of Orchan", "data/circle35/maps/png/Land of Orchan.png"], "Taylor", "", "", "data/circle35/maps/json/Land of Orchan.json"],
+[["Elcardo", "data/circle35/maps/png/Elcardo.png"], "Daiko", "", "", "data/circle35/maps/json/Elcardo.json"],
+[["Realms of Iuel", "data/circle35/maps/png/Realms of Iuel.png"], "Rumble Santa", "", "", "data/circle35/maps/json/Realms of Iuel.json"],
+[["Monestary Omega", "data/circle35/maps/png/Monestary Omega.png"], "Polar", "", "", "data/circle35/maps/json/Monestary Omega.json"],
+[["Los Torres", "data/circle35/maps/png/Los Torres.png"], "Dysprosic", "", "", "data/circle35/maps/json/Los Torres.json"],
+[["The Dollhouse", "data/circle35/maps/png/The Dollhouse.png"], "Detta", "", "", "data/circle35/maps/json/The Dollhouse.json"],
+[["Rome", "data/circle35/maps/png/Rome.png"], "Onivel", "", "", "data/circle35/maps/json/Rome.json"],
+[["Hannah", "data/circle35/maps/png/Hannah.png"], "Rhunter", "", "", "data/circle35/maps/json/Hannah.json"],
+[["Mist Maze", "data/circle35/maps/png/Mist Maze.png"], "random", "", "", "data/circle35/maps/json/Mist Maze.json"],
+[["Wyvern City", "data/circle35/maps/png/Wyvern City.png"], "Balme", "", "", "data/circle35/maps/json/Wyvern City.json"],
+[["King Welmar's Castle", "data/circle35/maps/png/King Welmar's Castle.png"], "CircleMUD", "", "", "data/circle35/maps/json/King Welmar's Castle.json"],
+[["Gibberling Caves", "data/circle35/maps/png/Gibberling Caves.png"], "Tanto", "", "", "data/circle35/maps/json/Gibberling Caves.json"],
+[["Cardinal Wizards", "data/circle35/maps/png/Cardinal Wizards.png"], "Unknown", "", "", "data/circle35/maps/json/Cardinal Wizards.json"],
+[["Newbie Zone", "data/circle35/maps/png/Newbie Zone.png"], "Maynard", "", "", "data/circle35/maps/json/Newbie Zone.json"],
+[["Circus", "data/circle35/maps/png/Circus.png"], "Wolfgaar Arina", "", "", "data/circle35/maps/json/Circus.json"],
+[["Western Highway", "data/circle35/maps/png/Western Highway.png"], "Rumble", "", "", "data/circle35/maps/json/Western Highway.json"],
+[["Sapphire Islands", "data/circle35/maps/png/Sapphire Islands.png"], "Elixias", "", "", "data/circle35/maps/json/Sapphire Islands.json"],
+[["The Enchanted Kitchen", "data/circle35/maps/png/The Enchanted Kitchen.png"], "Exa", "", "", "data/circle35/maps/json/The Enchanted Kitchen.json"],
+[["Terringham", "data/circle35/maps/png/Terringham.png"], "Radiax", "", "", "data/circle35/maps/json/Terringham.json"],
+[["Dragon Plains", "data/circle35/maps/png/Dragon Plains.png"], "Unknown", "", "", "data/circle35/maps/json/Dragon Plains.json"],
+[["Newbie School", "data/circle35/maps/png/Newbie School.png"], "Radiax", "", "", "data/circle35/maps/json/Newbie School.json"],
+[["Dwarven Mines", "data/circle35/maps/png/Dwarven Mines.png"], "Unknown", "", "", "data/circle35/maps/json/Dwarven Mines.json"],
+[["Aldin", "data/circle35/maps/png/Aldin.png"], "Welcor", "", "", "data/circle35/maps/json/Aldin.json"],
+[["Dwarven Trade Route", "data/circle35/maps/png/Dwarven Trade Route.png"], "Welcor", "", "", "data/circle35/maps/json/Dwarven Trade Route.json"],
+[["Crystal Castle", "data/circle35/maps/png/Crystal Castle.png"], "Polar Higgins", "", "", "data/circle35/maps/json/Crystal Castle.json"],
+[["South Pass", "data/circle35/maps/png/South Pass.png"], "Crysanthia", "", "", "data/circle35/maps/json/South Pass.json"],
+[["Dun Maura", "data/circle35/maps/png/Dun Maura.png"], "Rumble", "", "", "data/circle35/maps/json/Dun Maura.json"],
+[["Starship Enterprise", "data/circle35/maps/png/Starship Enterprise.png"], "Crazyman Heiach", "", "", "data/circle35/maps/json/Starship Enterprise.json"],
+[["New Southern Midgaard", "data/circle35/maps/png/New Southern Midgaard.png"], "Crazyman", "", "", "data/circle35/maps/json/New Southern Midgaard.json"],
+[["Snowy Valley", "data/circle35/maps/png/Snowy Valley.png"], "Crazyman", "", "", "data/circle35/maps/json/Snowy Valley.json"],
+[["Cooland Prison", "data/circle35/maps/png/Cooland Prison.png"], "Crazyman", "", "", "data/circle35/maps/json/Cooland Prison.json"],
+[["The Nether", "data/circle35/maps/png/The Nether.png"], "Kaan", "", "", "data/circle35/maps/json/The Nether.json"],
+[["The Nether II", "data/circle35/maps/png/The Nether II.png"], "Kaan", "", "", "data/circle35/maps/json/The Nether II.json"],
+[["Graveyard", "data/circle35/maps/png/Graveyard.png"], "Rasta", "", "", "data/circle35/maps/json/Graveyard.json"],
+[["Elven Woods", "data/circle35/maps/png/Elven Woods.png"], "Gbetz", "", "", "data/circle35/maps/json/Elven Woods.json"],
+[["Jedi Clan House", "data/circle35/maps/png/Jedi Clan House.png"], "G.Threepwood", "", "", "data/circle35/maps/json/Jedi Clan House.json"],
+[["DragonSpyre", "data/circle35/maps/png/DragonSpyre.png"], "Unknown", "", "", "data/circle35/maps/json/DragonSpyre.json"],
+[["Ape Village", "data/circle35/maps/png/Ape Village.png"], "Crazyman", "", "", "data/circle35/maps/json/Ape Village.json"],
+[["Castle of the Vampyre", "data/circle35/maps/png/Castle of the Vampyre.png"], "Kaan", "", "", "data/circle35/maps/json/Castle of the Vampyre.json"],
+[["Windmill", "data/circle35/maps/png/Windmill.png"], "Kaan", "", "", "data/circle35/maps/json/Windmill.json"],
+[["Mordecai's Village", "data/circle35/maps/png/Mordecai's Village.png"], "Kaan", "", "", "data/circle35/maps/json/Mordecai's Village.json"],
+[["Shipwreck", "data/circle35/maps/png/Shipwreck.png"], "Kaan", "", "", "data/circle35/maps/json/Shipwreck.json"],
+[["Lord's Keep", "data/circle35/maps/png/Lord's Keep.png"], "Kaan", "", "", "data/circle35/maps/json/Lord's Keep.json"],
+[["Jareth Main City", "data/circle35/maps/png/Jareth Main City.png"], "Kaan", "", "", "data/circle35/maps/json/Jareth Main City.json"],
+[["Light Forest", "data/circle35/maps/png/Light Forest.png"], "Kaan", "", "", "data/circle35/maps/json/Light Forest.json"],
+[["Haunted Mansion", "data/circle35/maps/png/Haunted Mansion.png"], "Kaan", "", "", "data/circle35/maps/json/Haunted Mansion.json"],
+[["Grasslands", "data/circle35/maps/png/Grasslands.png"], "Kaan", "", "", "data/circle35/maps/json/Grasslands.json"],
+[["Inna & Igor's Castle", "data/circle35/maps/png/Inna & Igor's Castle.png"], "Kaan", "", "", "data/circle35/maps/json/Inna & Igor's Castle.json"],
+[["Forest Trails", "data/circle35/maps/png/Forest Trails.png"], "Kaan", "", "", "data/circle35/maps/json/Forest Trails.json"],
+[["Farmlands", "data/circle35/maps/png/Farmlands.png"], "Kaan", "", "", "data/circle35/maps/json/Farmlands.json"],
+[["Banshide", "data/circle35/maps/png/Banshide.png"], "Kaan", "", "", "data/circle35/maps/json/Banshide.json"],
+[["Beach & Lighthouse", "data/circle35/maps/png/Beach & Lighthouse.png"], "Kaan", "", "", "data/circle35/maps/json/Beach & Lighthouse.json"],
+[["Realm of Lord Ankou", "data/circle35/maps/png/Realm of Lord Ankou.png"], "Kaan", "", "", "data/circle35/maps/json/Realm of Lord Ankou.json"],
+[["Vice Island", "data/circle35/maps/png/Vice Island.png"], "Questor", "", "", "data/circle35/maps/json/Vice Island.json"],
+[["Vice Island II", "data/circle35/maps/png/Vice Island II.png"], "Questor", "", "", "data/circle35/maps/json/Vice Island II.json"],
+[["Southern Desert", "data/circle35/maps/png/Southern Desert.png"], "Freak", "", "", "data/circle35/maps/json/Southern Desert.json"],
+[["Wasteland", "data/circle35/maps/png/Wasteland.png"], "AsA", "", "", "data/circle35/maps/json/Wasteland.json"],
+[["Sundhaven", "data/circle35/maps/png/Sundhaven.png"], "Mercy", "", "", "data/circle35/maps/json/Sundhaven.json"],
+[["Sundhaven II", "data/circle35/maps/png/Sundhaven II.png"], "Mercy", "", "", "data/circle35/maps/json/Sundhaven II.json"],
+[["Space Station Alpha", "data/circle35/maps/png/Space Station Alpha.png"], "Magnus", "", "", "data/circle35/maps/json/Space Station Alpha.json"],
+[["Smurfville", "data/circle35/maps/png/Smurfville.png"], "Unknown", "", "", "data/circle35/maps/json/Smurfville.json"],
+[["New Sparta", "data/circle35/maps/png/New Sparta.png"], "Naved", "", "", "data/circle35/maps/json/New Sparta.json"],
+[["New Sparta II", "data/circle35/maps/png/New Sparta II.png"], "Naved", "", "", "data/circle35/maps/json/New Sparta II.json"],
+[["Shire", "data/circle35/maps/png/Shire.png"], "Unknown/Detta", "", "", "data/circle35/maps/json/Shire.json"],
+[["Oceania", "data/circle35/maps/png/Oceania.png"], "Questor", "", "", "data/circle35/maps/json/Oceania.json"],
+[["Notre Dame", "data/circle35/maps/png/Notre Dame.png"], "Apollo/Detta", "", "", "data/circle35/maps/json/Notre Dame.json"],
+[["Living Motherboard", "data/circle35/maps/png/Living Motherboard.png"], "Kinesthesia", "", "", "data/circle35/maps/json/Living Motherboard.json"],
+[["Forest of Khanjar", "data/circle35/maps/png/Forest of Khanjar.png"], "Methem", "", "", "data/circle35/maps/json/Forest of Khanjar.json"],
+[["Infernal Pit of Kerjim", "data/circle35/maps/png/Infernal Pit of Kerjim.png"], "Raf Blizzard", "", "", "data/circle35/maps/json/Infernal Pit of Kerjim.json"],
+[["Haunted House", "data/circle35/maps/png/Haunted House.png"], "Matt", "", "", "data/circle35/maps/json/Haunted House.json"],
+[["Ghenna", "data/circle35/maps/png/Ghenna.png"], "Nosferatu", "", "", "data/circle35/maps/json/Ghenna.json"],
+[["Descent to Hell II", "data/circle35/maps/png/Descent to Hell II.png"], "Strahd", "", "", "data/circle35/maps/json/Descent to Hell II.json"],
+[["Descent to Hell", "data/circle35/maps/png/Descent to Hell.png"], "Strahd", "", "", "data/circle35/maps/json/Descent to Hell.json"],
+[["Ofingia and the Goblin Town", "data/circle35/maps/png/Ofingia and the Goblin Town.png"], "Pippin", "", "", "data/circle35/maps/json/Ofingia and the Goblin Town.json"],
+[["Galaxy", "data/circle35/maps/png/Galaxy.png"], "Doctor", "", "", "data/circle35/maps/json/Galaxy.json"],
+[["Werith's Wayhouse", "data/circle35/maps/png/Werith's Wayhouse.png"], "Builder_5 of C.A.W.", "", "", "data/circle35/maps/json/Werith's Wayhouse.json"],
+[["Lizard Lair Safari", "data/circle35/maps/png/Lizard Lair Safari.png"], "Matrix of C.A.W.", "", "", "data/circle35/maps/json/Lizard Lair Safari.json"],
+[["Black Forest", "data/circle35/maps/png/Black Forest.png"], "Silverangel", "", "", "data/circle35/maps/json/Black Forest.json"],
+[["Kerofk", "data/circle35/maps/png/Kerofk.png"], "Amanda Eterniale & Builder_5 of C.A.W. ", "", "", "data/circle35/maps/json/Kerofk.json"],
+[["Kerofk II", "data/circle35/maps/png/Kerofk II.png"], "Amanda Eterniale & Builder_5 of C.A.W. ", "", "", "data/circle35/maps/json/Kerofk II.json"],
+[["Trade Road", "data/circle35/maps/png/Trade Road.png"], "Builder_5", "", "", "data/circle35/maps/json/Trade Road.json"],
+[["Jungle", "data/circle35/maps/png/Jungle.png"], "Makira", "", "", "data/circle35/maps/json/Jungle.json"],
+[["Froboz Fun Factory", "data/circle35/maps/png/Froboz Fun Factory.png"], "Amanda", "", "", "data/circle35/maps/json/Froboz Fun Factory.json"],
+[["Castle of Desire", "data/circle35/maps/png/Castle of Desire.png"], "Honeybear", "", "", "data/circle35/maps/json/Castle of Desire.json"],
+[["Abandoned Cathedral", "data/circle35/maps/png/Abandoned Cathedral.png"], "Matrix of C.A.W.", "", "", "data/circle35/maps/json/Abandoned Cathedral.json"],
+[["Ancalador", "data/circle35/maps/png/Ancalador.png"], "Mercutio of C.A.W.", "", "", "data/circle35/maps/json/Ancalador.json"],
+[["Campus", "data/circle35/maps/png/Campus.png"], "Matrix of C.A.W.", "", "", "data/circle35/maps/json/Campus.json"],
+[["Campus II", "data/circle35/maps/png/Campus II.png"], "Matrix of C.A.W.", "", "", "data/circle35/maps/json/Campus II.json"],
+[["Campus III", "data/circle35/maps/png/Campus III.png"], "Matrix of C.A.W.", "", "", "data/circle35/maps/json/Campus III.json"],
+[["Temple of the Bull", "data/circle35/maps/png/Temple of the Bull.png"], "Aten", "", "", "data/circle35/maps/json/Temple of the Bull.json"],
+[["Chessboard", "data/circle35/maps/png/Chessboard.png"], "Aten", "", "", "data/circle35/maps/json/Chessboard.json"],
+[["Newbie Tree", "data/circle35/maps/png/Newbie Tree.png"], "Kaan", "", "", "data/circle35/maps/json/Newbie Tree.json"],
+[["Castle", "data/circle35/maps/png/Castle.png"], "Kaan", "", "", "data/circle35/maps/json/Castle.json"],
+[["Baron Cailveh", "data/circle35/maps/png/Baron Cailveh.png"], "Kaan", "", "", "data/circle35/maps/json/Baron Cailveh.json"],
+[["Keep of Baron Westlawn", "data/circle35/maps/png/Keep of Baron Westlawn.png"], "Kaan", "", "", "data/circle35/maps/json/Keep of Baron Westlawn.json"],
+[["Graye Area", "data/circle35/maps/png/Graye Area.png"], "Aten", "", "", "data/circle35/maps/json/Graye Area.json"],
+[["The Dragon's Teeth", "data/circle35/maps/png/The Dragon's Teeth.png"], "Kaan", "", "", "data/circle35/maps/json/The Dragon's Teeth.json"],
+[["Leper Island", "data/circle35/maps/png/Leper Island.png"], "Kaan", "", "", "data/circle35/maps/json/Leper Island.json"],
+[["Farmlands of Ofingia", "data/circle35/maps/png/Farmlands of Ofingia.png"], "Kaan", "", "", "data/circle35/maps/json/Farmlands of Ofingia.json"],
+[["X'Raantra's Altar of Sacrifice", "data/circle35/maps/png/X'Raantra's Altar of Sacrifice.png"], "Kaan", "", "", "data/circle35/maps/json/X'Raantra's Altar of Sacrifice.json"],
+[["McGintey Business District", "data/circle35/maps/png/McGintey Business District.png"], "Kaan", "", "", "data/circle35/maps/json/McGintey Business District.json"],
+[["McGintey Guild Area", "data/circle35/maps/png/McGintey Guild Area.png"], "Kaan", "", "", "data/circle35/maps/json/McGintey Guild Area.json"],
+[["Wharf", "data/circle35/maps/png/Wharf.png"], "Kaan", "", "", "data/circle35/maps/json/Wharf.json"],
+[["Dock Area", "data/circle35/maps/png/Dock Area.png"], "Kaan", "", "", "data/circle35/maps/json/Dock Area.json"],
+[["Yllythad Sea", "data/circle35/maps/png/Yllythad Sea.png"], "Kaan", "", "", "data/circle35/maps/json/Yllythad Sea.json"],
+[["Yllythad Sea II", "data/circle35/maps/png/Yllythad Sea II.png"], "Kaan", "", "", "data/circle35/maps/json/Yllythad Sea II.json"],
+[["Yllythad Sea III", "data/circle35/maps/png/Yllythad Sea III.png"], "Kaan", "", "", "data/circle35/maps/json/Yllythad Sea III.json"],
+[["McGintey Bay", "data/circle35/maps/png/McGintey Bay.png"], "Kaan", "", "", "data/circle35/maps/json/McGintey Bay.json"],
+[["Caverns of the Pale Man", "data/circle35/maps/png/Caverns of the Pale Man.png"], "Kaan", "", "", "data/circle35/maps/json/Caverns of the Pale Man.json"],
+[["Army Encampment", "data/circle35/maps/png/Army Encampment.png"], "Kaan", "", "", "data/circle35/maps/json/Army Encampment.json"],
+[["Revelry", "data/circle35/maps/png/Revelry.png"], "Kaan", "", "", "data/circle35/maps/json/Revelry.json"],
+[["Army Perimeter", "data/circle35/maps/png/Army Perimeter.png"], "Kaan", "", "", "data/circle35/maps/json/Army Perimeter.json"],
+[["Asylum for the Insane", "data/circle35/maps/png/Asylum for the Insane.png"], "Duluth", "", "", "data/circle35/maps/json/Asylum for the Insane.json"],
+];
+
+
+    $('#table').DataTable({
+		columnDefs: [
+			{
+				targets: 0,
+				render: function (data, type) {
+					return '<a href="' + data[1] + '">' + data[0] + '</a>';
+				}
+            },
+			{
+				targets: 4,
+				render: function (data, type) {
+					return '<a href="' + data + '">json</a>';
+				}
+            }
+		],
+        paging: false,
+        data: data
+    });
+    </script>
+</body>
+</html>

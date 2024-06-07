@@ -1,0 +1,1056 @@
+{
+  "Area": {
+    "Name": "Arctic Zone",
+    "Credits": "Walrus Polar",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 4300,
+        "Name": "Polar/Walrus Zone Description Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 4301,
+        "Name": "An Ice Bridge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4302,
+          "South": 4399
+        }
+      },
+      {
+        "Id": 4302,
+        "Name": "An Ice Bridge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4303,
+          "South": 4301
+        }
+      },
+      {
+        "Id": 4303,
+        "Name": "An Ice Bridge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4304,
+          "South": 4302
+        }
+      },
+      {
+        "Id": 4304,
+        "Name": "An Icy Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4305,
+          "South": 4303
+        }
+      },
+      {
+        "Id": 4305,
+        "Name": "An Icy Crossroads",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4306,
+          "South": 4304,
+          "West": 4333
+        }
+      },
+      {
+        "Id": 4306,
+        "Name": "An Icy Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4308,
+          "South": 4305
+        }
+      },
+      {
+        "Id": 4307,
+        "Name": "A Turn in an Icy Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4308,
+          "South": 4306
+        }
+      },
+      {
+        "Id": 4308,
+        "Name": "The Beginning of a Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4317,
+          "East": 4309,
+          "West": 4307
+        }
+      },
+      {
+        "Id": 4309,
+        "Name": "Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4316,
+          "East": 4310,
+          "West": 4308
+        }
+      },
+      {
+        "Id": 4310,
+        "Name": "A Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4315,
+          "East": 4311,
+          "West": 4309
+        }
+      },
+      {
+        "Id": 4311,
+        "Name": "A Field of Packed Snow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4314,
+          "East": 4312,
+          "West": 4310
+        }
+      },
+      {
+        "Id": 4312,
+        "Name": "Into a Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4313,
+          "West": 4311
+        }
+      },
+      {
+        "Id": 4313,
+        "Name": "Into a Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4322,
+          "South": 4312,
+          "West": 4314
+        }
+      },
+      {
+        "Id": 4314,
+        "Name": "A Field of Packed Snow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4321,
+          "East": 4313,
+          "South": 4311,
+          "West": 4315
+        }
+      },
+      {
+        "Id": 4315,
+        "Name": "A Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4320,
+          "East": 4314,
+          "South": 4310,
+          "West": 4316
+        }
+      },
+      {
+        "Id": 4316,
+        "Name": "Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4319,
+          "East": 4315,
+          "South": 4309,
+          "West": 4317
+        }
+      },
+      {
+        "Id": 4317,
+        "Name": "Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4318,
+          "East": 4316,
+          "South": 4308
+        }
+      },
+      {
+        "Id": 4318,
+        "Name": "A Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4327,
+          "East": 4319,
+          "South": 4317
+        }
+      },
+      {
+        "Id": 4319,
+        "Name": "A Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4326,
+          "East": 4320,
+          "South": 4316,
+          "West": 4318
+        }
+      },
+      {
+        "Id": 4320,
+        "Name": "A Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4325,
+          "East": 4321,
+          "South": 4315,
+          "West": 4319
+        }
+      },
+      {
+        "Id": 4321,
+        "Name": "A Field of Packed Snow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4324,
+          "East": 4322,
+          "South": 4314,
+          "West": 4320
+        }
+      },
+      {
+        "Id": 4322,
+        "Name": "Into a Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4323,
+          "South": 4313,
+          "West": 4321
+        }
+      },
+      {
+        "Id": 4323,
+        "Name": "On an Ice Slick",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4329,
+          "South": 4322,
+          "West": 4324,
+          "Down": 4328
+        }
+      },
+      {
+        "Id": 4324,
+        "Name": "Into a Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4323,
+          "South": 4321,
+          "West": 4325
+        }
+      },
+      {
+        "Id": 4325,
+        "Name": "Into a Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4324,
+          "South": 4320,
+          "West": 4326
+        }
+      },
+      {
+        "Id": 4326,
+        "Name": "Into a Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4325,
+          "South": 4319,
+          "West": 4327
+        }
+      },
+      {
+        "Id": 4327,
+        "Name": "Into a Snow Field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4326,
+          "South": 4318
+        }
+      },
+      {
+        "Id": 4328,
+        "Name": "Down the Ice Hole",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4330,
+          "Up": 4323
+        }
+      },
+      {
+        "Id": 4329,
+        "Name": "Inside an Igloo",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4323
+        }
+      },
+      {
+        "Id": 4330,
+        "Name": "Through an Ice Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4331,
+          "South": 4328
+        }
+      },
+      {
+        "Id": 4331,
+        "Name": "Through an Ice Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4332,
+          "South": 4330
+        }
+      },
+      {
+        "Id": 4332,
+        "Name": "Royal Penguins Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4331
+        }
+      },
+      {
+        "Id": 4333,
+        "Name": "Snowy Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4305,
+          "West": 4334
+        }
+      },
+      {
+        "Id": 4334,
+        "Name": "Snowy Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4335,
+          "East": 4333
+        }
+      },
+      {
+        "Id": 4335,
+        "Name": "Above the Eskimo Village",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4334,
+          "Down": 4336
+        }
+      },
+      {
+        "Id": 4336,
+        "Name": "ICE!!!",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 4337
+        }
+      },
+      {
+        "Id": 4337,
+        "Name": "Outside a Wall of Ice",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4338
+        }
+      },
+      {
+        "Id": 4338,
+        "Name": "Intersection of Whale Street and Arivat Avenue.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4339,
+          "East": 4373,
+          "South": 4337,
+          "West": 4374
+        }
+      },
+      {
+        "Id": 4339,
+        "Name": "Arivat Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4340,
+          "South": 4338
+        }
+      },
+      {
+        "Id": 4340,
+        "Name": "Avivat Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4341,
+          "East": 4388,
+          "South": 4339,
+          "West": 4387
+        }
+      },
+      {
+        "Id": 4341,
+        "Name": "Rankit Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4342,
+          "East": 4345,
+          "South": 4340,
+          "West": 4349,
+          "Down": 4389
+        }
+      },
+      {
+        "Id": 4342,
+        "Name": "Arivat Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4343,
+          "East": 4386,
+          "South": 4341,
+          "West": 4385
+        }
+      },
+      {
+        "Id": 4343,
+        "Name": "Arivat Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4344,
+          "South": 4342
+        }
+      },
+      {
+        "Id": 4344,
+        "Name": "Intersection of Arivat Avenue and Artic Street.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4353,
+          "South": 4343,
+          "West": 4357
+        }
+      },
+      {
+        "Id": 4345,
+        "Name": "Nunavut Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4346,
+          "West": 4341
+        }
+      },
+      {
+        "Id": 4346,
+        "Name": "Intersection of Nunavut Street and Ice Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4382,
+          "East": 4347,
+          "South": 4383,
+          "West": 4345
+        }
+      },
+      {
+        "Id": 4347,
+        "Name": "Nunavut Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4348,
+          "West": 4346
+        }
+      },
+      {
+        "Id": 4348,
+        "Name": "Western Gate of Rankit",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4367,
+          "East": 4394,
+          "South": 4368,
+          "West": 4347
+        }
+      },
+      {
+        "Id": 4349,
+        "Name": "Nunavut Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4341,
+          "West": 4350
+        }
+      },
+      {
+        "Id": 4350,
+        "Name": "Intersection of Nunavut Street and Snow Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4378,
+          "East": 4349,
+          "South": 4379,
+          "West": 4351
+        }
+      },
+      {
+        "Id": 4351,
+        "Name": "Nunavut Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4350,
+          "West": 4352
+        }
+      },
+      {
+        "Id": 4352,
+        "Name": "Eastern Gate of Rankit",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4362,
+          "East": 4351,
+          "South": 4363
+        }
+      },
+      {
+        "Id": 4353,
+        "Name": "Artic Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4354,
+          "West": 4344
+        }
+      },
+      {
+        "Id": 4354,
+        "Name": "Artic Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4355,
+          "South": 4381,
+          "West": 4353
+        }
+      },
+      {
+        "Id": 4355,
+        "Name": "Artic Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4356,
+          "West": 4354
+        }
+      },
+      {
+        "Id": 4356,
+        "Name": "Intersection of Artic Street and Eskimo Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4366,
+          "West": 4355
+        }
+      },
+      {
+        "Id": 4357,
+        "Name": "Artic Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4344,
+          "West": 4358
+        }
+      },
+      {
+        "Id": 4358,
+        "Name": "Artic Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4357,
+          "South": 4377,
+          "West": 4359
+        }
+      },
+      {
+        "Id": 4359,
+        "Name": "Artic Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4358,
+          "West": 4360
+        }
+      },
+      {
+        "Id": 4360,
+        "Name": "Intersection of Artic Street and Inuit Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4359,
+          "South": 4361
+        }
+      },
+      {
+        "Id": 4361,
+        "Name": "Inuit Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4360,
+          "South": 4362
+        }
+      },
+      {
+        "Id": 4362,
+        "Name": "Inuit Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4361,
+          "South": 4352
+        }
+      },
+      {
+        "Id": 4363,
+        "Name": "Inuit Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4352,
+          "South": 4364
+        }
+      },
+      {
+        "Id": 4364,
+        "Name": "Inuit Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4363,
+          "South": 4365
+        }
+      },
+      {
+        "Id": 4365,
+        "Name": "Intersection of Whale Street and Inuit Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4364,
+          "East": 4376
+        }
+      },
+      {
+        "Id": 4366,
+        "Name": "Eskimo Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4356,
+          "South": 4367
+        }
+      },
+      {
+        "Id": 4367,
+        "Name": "Eskimo Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4366,
+          "South": 4348
+        }
+      },
+      {
+        "Id": 4368,
+        "Name": "Eskimo Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4348,
+          "South": 4369
+        }
+      },
+      {
+        "Id": 4369,
+        "Name": "Eskimo Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4368,
+          "South": 4370
+        }
+      },
+      {
+        "Id": 4370,
+        "Name": "Intersection of Whale Street and Eskimo Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4369,
+          "West": 4371
+        }
+      },
+      {
+        "Id": 4371,
+        "Name": "Whale Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4370,
+          "West": 4372
+        }
+      },
+      {
+        "Id": 4372,
+        "Name": "Whale Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4384,
+          "East": 4371,
+          "West": 4373
+        }
+      },
+      {
+        "Id": 4373,
+        "Name": "Whale Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4372,
+          "West": 4338
+        }
+      },
+      {
+        "Id": 4374,
+        "Name": "Whale Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4338,
+          "West": 4375
+        }
+      },
+      {
+        "Id": 4375,
+        "Name": "Whale Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4380,
+          "East": 4374,
+          "West": 4376
+        }
+      },
+      {
+        "Id": 4376,
+        "Name": "Whale Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4375,
+          "West": 4365
+        }
+      },
+      {
+        "Id": 4377,
+        "Name": "Snow Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4358,
+          "South": 4378
+        }
+      },
+      {
+        "Id": 4378,
+        "Name": "Snow Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4377,
+          "South": 4350
+        }
+      },
+      {
+        "Id": 4379,
+        "Name": "Snow Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4350,
+          "South": 4380
+        }
+      },
+      {
+        "Id": 4380,
+        "Name": "Snow Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4379,
+          "South": 4375
+        }
+      },
+      {
+        "Id": 4381,
+        "Name": "Ice Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4354,
+          "South": 4382
+        }
+      },
+      {
+        "Id": 4382,
+        "Name": "Ice Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4381,
+          "South": 4346
+        }
+      },
+      {
+        "Id": 4383,
+        "Name": "Ice Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4346,
+          "South": 4384
+        }
+      },
+      {
+        "Id": 4384,
+        "Name": "Ice Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4383,
+          "South": 4372
+        }
+      },
+      {
+        "Id": 4385,
+        "Name": "Rankit Food Supply",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4342
+        }
+      },
+      {
+        "Id": 4386,
+        "Name": "Rankit Weaponry",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4342
+        }
+      },
+      {
+        "Id": 4387,
+        "Name": "Rankit Tunic Fitter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4340
+        }
+      },
+      {
+        "Id": 4388,
+        "Name": "The Butchery",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4340
+        }
+      },
+      {
+        "Id": 4389,
+        "Name": "Entrance to Glogtar\u0027s Throne Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4390,
+          "Up": 4341
+        }
+      },
+      {
+        "Id": 4390,
+        "Name": "A Tunnel Through the Snow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4391,
+          "South": 4389
+        }
+      },
+      {
+        "Id": 4391,
+        "Name": "A Tunnel Through the Snow ",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4392,
+          "South": 4390
+        }
+      },
+      {
+        "Id": 4392,
+        "Name": "Throne of Glogtar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4393,
+          "South": 4391,
+          "West": 4341
+        }
+      },
+      {
+        "Id": 4393,
+        "Name": "Treasure Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4392
+        }
+      },
+      {
+        "Id": 4394,
+        "Name": "A Hunting Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 4395,
+          "West": 4348
+        }
+      },
+      {
+        "Id": 4395,
+        "Name": "A hunting Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 4335,
+          "West": 4394
+        }
+      },
+      {
+        "Id": 4396,
+        "Name": "A Mud Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 4397
+        }
+      },
+      {
+        "Id": 4397,
+        "Name": "A Mud Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4398,
+          "East": 4396
+        }
+      },
+      {
+        "Id": 4398,
+        "Name": "A Cold, Wet Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4399,
+          "South": 4397
+        }
+      },
+      {
+        "Id": 4399,
+        "Name": "A Trail of Snow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 4301,
+          "South": 4398
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

@@ -1,0 +1,467 @@
+{
+  "Area": {
+    "Name": "Duke Kalithorn\u0027s Keep",
+    "Credits": "Destiny",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 8600,
+        "Name": "Destiny\u0027s Zone Description Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 8601,
+        "Name": "A Dirt Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8602,
+          "South": 8659
+        }
+      },
+      {
+        "Id": 8602,
+        "Name": "A Dirt Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8603,
+          "East": 8612,
+          "South": 8601
+        }
+      },
+      {
+        "Id": 8603,
+        "Name": "Before the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8604,
+          "South": 8602
+        }
+      },
+      {
+        "Id": 8604,
+        "Name": "The Foyer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8605,
+          "East": 8614,
+          "South": 8603
+        }
+      },
+      {
+        "Id": 8605,
+        "Name": "Short Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8606,
+          "South": 8604
+        }
+      },
+      {
+        "Id": 8606,
+        "Name": "Stairway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8616,
+          "South": 8605,
+          "Up": 8607
+        }
+      },
+      {
+        "Id": 8607,
+        "Name": "Upstairs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8608,
+          "East": 8617,
+          "West": 8699,
+          "Down": 8606
+        }
+      },
+      {
+        "Id": 8608,
+        "Name": "Alcove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8609,
+          "South": 8607
+        }
+      },
+      {
+        "Id": 8609,
+        "Name": "Dim Flight of Stairs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 8608,
+          "Down": 8610
+        }
+      },
+      {
+        "Id": 8610,
+        "Name": "Dim Flight of Stairs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 8609,
+          "Down": 8620
+        }
+      },
+      {
+        "Id": 8611,
+        "Name": "Dirt Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8622,
+          "West": 8601
+        }
+      },
+      {
+        "Id": 8612,
+        "Name": "Old Courtyard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 8602
+        }
+      },
+      {
+        "Id": 8614,
+        "Name": "The Grand Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8615,
+          "East": 8624,
+          "West": 8604
+        }
+      },
+      {
+        "Id": 8615,
+        "Name": "An Open Archway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8616,
+          "South": 8614
+        }
+      },
+      {
+        "Id": 8616,
+        "Name": "Dining Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 8615,
+          "West": 8606
+        }
+      },
+      {
+        "Id": 8617,
+        "Name": "Eastern Wing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8627,
+          "West": 8607
+        }
+      },
+      {
+        "Id": 8620,
+        "Name": "Bottom of the Stairs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8621,
+          "Up": 8610
+        }
+      },
+      {
+        "Id": 8621,
+        "Name": "Caverns Beneath the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8631,
+          "West": 8620
+        }
+      },
+      {
+        "Id": 8622,
+        "Name": "Dirt Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8623,
+          "West": 8611
+        }
+      },
+      {
+        "Id": 8623,
+        "Name": "End of the Dirt Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 8622,
+          "Down": 8625
+        }
+      },
+      {
+        "Id": 8624,
+        "Name": "Butler\u0027s Pantry",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8634,
+          "West": 8614
+        }
+      },
+      {
+        "Id": 8625,
+        "Name": "Underground",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 8623,
+          "Down": 8626
+        }
+      },
+      {
+        "Id": 8626,
+        "Name": "Bandit\u0027s Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 8625
+        }
+      },
+      {
+        "Id": 8627,
+        "Name": "Eastern Wing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8637,
+          "West": 8617
+        }
+      },
+      {
+        "Id": 8631,
+        "Name": "Caverns",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8641,
+          "West": 8621
+        }
+      },
+      {
+        "Id": 8634,
+        "Name": "The Kitchens",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 8624
+        }
+      },
+      {
+        "Id": 8636,
+        "Name": "Sitting Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8637
+        }
+      },
+      {
+        "Id": 8637,
+        "Name": "Eastern Wing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8647,
+          "South": 8636,
+          "West": 8627
+        }
+      },
+      {
+        "Id": 8639,
+        "Name": "Dead End",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8640
+        }
+      },
+      {
+        "Id": 8640,
+        "Name": "Deeper Within the Caverns",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8641,
+          "East": 8650,
+          "South": 8639
+        }
+      },
+      {
+        "Id": 8641,
+        "Name": "Caverns",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 8640,
+          "West": 8631
+        }
+      },
+      {
+        "Id": 8646,
+        "Name": "Servants Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8647
+        }
+      },
+      {
+        "Id": 8647,
+        "Name": "Eastern Wing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8648,
+          "East": 8657,
+          "South": 8646,
+          "West": 8637
+        }
+      },
+      {
+        "Id": 8648,
+        "Name": "Wash Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 8647
+        }
+      },
+      {
+        "Id": 8650,
+        "Name": "Caverns",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8651,
+          "West": 8640
+        }
+      },
+      {
+        "Id": 8651,
+        "Name": "Caverns",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8652,
+          "West": 8650
+        }
+      },
+      {
+        "Id": 8652,
+        "Name": "Caverns",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8653,
+          "West": 8651
+        }
+      },
+      {
+        "Id": 8653,
+        "Name": "Open Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 8652
+        }
+      },
+      {
+        "Id": 8656,
+        "Name": "Balcony",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8657
+        }
+      },
+      {
+        "Id": 8657,
+        "Name": "Master Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8658,
+          "South": 8656,
+          "West": 8647
+        }
+      },
+      {
+        "Id": 8658,
+        "Name": "Bedroom Closet",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 8657
+        }
+      },
+      {
+        "Id": 8659,
+        "Name": "A Dirt Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8601,
+          "South": 8660
+        }
+      },
+      {
+        "Id": 8660,
+        "Name": "A Dirt Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8659
+        }
+      },
+      {
+        "Id": 8699,
+        "Name": "Western Wing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8607
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

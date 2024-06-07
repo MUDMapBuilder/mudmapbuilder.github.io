@@ -1,0 +1,715 @@
+{
+  "Area": {
+    "Name": "Rome",
+    "Credits": "Onivel",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 12001,
+        "Name": "The Judging Booth",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 12002
+        }
+      },
+      {
+        "Id": 12002,
+        "Name": "Caesar\u0027s Private Box",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 12001,
+          "Down": 12003
+        }
+      },
+      {
+        "Id": 12003,
+        "Name": "The West Side Of The Commoner\u0027s Seating Area",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 12004,
+          "Up": 12002,
+          "Down": 12010
+        }
+      },
+      {
+        "Id": 12004,
+        "Name": "The Southern Commoner\u0027s Seats",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12003,
+          "East": 12011
+        }
+      },
+      {
+        "Id": 12005,
+        "Name": "The Abandoned Gate",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12012,
+          "South": 12006
+        }
+      },
+      {
+        "Id": 12006,
+        "Name": "Swords \u0027R  Us",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12005,
+          "South": 12007
+        }
+      },
+      {
+        "Id": 12007,
+        "Name": "The Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12006
+        }
+      },
+      {
+        "Id": 12008,
+        "Name": "Peanut Heaven",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 12015
+        }
+      },
+      {
+        "Id": 12009,
+        "Name": "The Practice And Warm-up Area",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12016,
+          "South": 12010
+        }
+      },
+      {
+        "Id": 12010,
+        "Name": "The Jousting Arena",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12009,
+          "Up": 12003
+        }
+      },
+      {
+        "Id": 12011,
+        "Name": "The First-Aid Station",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12018,
+          "West": 12004
+        }
+      },
+      {
+        "Id": 12012,
+        "Name": "A Dirt Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12019,
+          "South": 12013,
+          "West": 12005
+        }
+      },
+      {
+        "Id": 12013,
+        "Name": "The Commoner\u0027s House",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12012,
+          "East": 12020,
+          "South": 12014
+        }
+      },
+      {
+        "Id": 12014,
+        "Name": "The Bedchamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12013
+        }
+      },
+      {
+        "Id": 12015,
+        "Name": "The Noblemans\u0027 Box",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12022,
+          "Up": 12008
+        }
+      },
+      {
+        "Id": 12016,
+        "Name": "The Race Track",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 12009,
+          "Up": 12023,
+          "Down": 12017
+        }
+      },
+      {
+        "Id": 12017,
+        "Name": "The Lion Pit",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 12018,
+        "Name": "The South Entrance To The Coliseum",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12025,
+          "South": 12019,
+          "West": 12011
+        }
+      },
+      {
+        "Id": 12019,
+        "Name": "The Main Highway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12018,
+          "East": 12026,
+          "West": 12012
+        }
+      },
+      {
+        "Id": 12020,
+        "Name": "The Outhouse",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 12013
+        }
+      },
+      {
+        "Id": 12021,
+        "Name": "The Slave Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12027
+        }
+      },
+      {
+        "Id": 12022,
+        "Name": "The Common Seating",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 12023,
+          "West": 12015
+        }
+      },
+      {
+        "Id": 12023,
+        "Name": "The Common Seating",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12022,
+          "South": 12024
+        }
+      },
+      {
+        "Id": 12024,
+        "Name": "The East Entrance To The Coliseum",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12023,
+          "East": 12031,
+          "South": 12025
+        }
+      },
+      {
+        "Id": 12025,
+        "Name": "The Ticket Booth",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12024,
+          "West": 12018
+        }
+      },
+      {
+        "Id": 12026,
+        "Name": "A Paved Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12033,
+          "South": 12027,
+          "West": 12019
+        }
+      },
+      {
+        "Id": 12027,
+        "Name": "A Noble Estate",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12026,
+          "East": 12034,
+          "South": 12028,
+          "West": 12021
+        }
+      },
+      {
+        "Id": 12028,
+        "Name": "An Opulent House",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12027
+        }
+      },
+      {
+        "Id": 12029,
+        "Name": "The Great North Gate",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 12030
+        }
+      },
+      {
+        "Id": 12030,
+        "Name": "Nero Drive",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12029,
+          "South": 12031,
+          "West": 12062
+        }
+      },
+      {
+        "Id": 12031,
+        "Name": "Nero Drive",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12030,
+          "South": 12032,
+          "West": 12024
+        }
+      },
+      {
+        "Id": 12032,
+        "Name": "The Town Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12031,
+          "East": 12039,
+          "South": 12033
+        }
+      },
+      {
+        "Id": 12033,
+        "Name": "Nero Drive",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12032,
+          "East": 12040,
+          "South": 12034,
+          "West": 12026
+        }
+      },
+      {
+        "Id": 12034,
+        "Name": "Nero Drive",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12033,
+          "South": 12035,
+          "West": 12027
+        }
+      },
+      {
+        "Id": 12035,
+        "Name": "The South Gate",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12034,
+          "East": 12042
+        }
+      },
+      {
+        "Id": 12036,
+        "Name": "The Emperor\u0027s Private Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12043,
+          "South": 12037
+        }
+      },
+      {
+        "Id": 12037,
+        "Name": "The Senate Chambers",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12036,
+          "East": 12044,
+          "South": 12038
+        }
+      },
+      {
+        "Id": 12038,
+        "Name": "The House Of Commons",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12037
+        }
+      },
+      {
+        "Id": 12039,
+        "Name": "Clay Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12046,
+          "South": 12041,
+          "West": 12032
+        }
+      },
+      {
+        "Id": 12040,
+        "Name": "The Observation Lookout",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 12033
+        }
+      },
+      {
+        "Id": 12041,
+        "Name": "The Aqueduct",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12039,
+          "East": 12048,
+          "South": 12041,
+          "West": 12054
+        }
+      },
+      {
+        "Id": 12042,
+        "Name": "The Mage\u0027s Shop",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12049,
+          "West": 12035
+        }
+      },
+      {
+        "Id": 12043,
+        "Name": "The Waiting Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12050,
+          "South": 12044,
+          "West": 12036
+        }
+      },
+      {
+        "Id": 12044,
+        "Name": "The Entrance Foyer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12043,
+          "West": 12037,
+          "Down": 12045
+        }
+      },
+      {
+        "Id": 12045,
+        "Name": "Outside The Capitol Building",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 12044,
+          "Down": 12046
+        }
+      },
+      {
+        "Id": 12046,
+        "Name": "Clay Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12063,
+          "East": 12051,
+          "West": 12039,
+          "Up": 12045
+        }
+      },
+      {
+        "Id": 12047,
+        "Name": "The Summit Of The Mountain Of The Gods",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 12052
+        }
+      },
+      {
+        "Id": 12048,
+        "Name": "The Aqueduct",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12057,
+          "East": 12041,
+          "South": 12041,
+          "West": 12048
+        }
+      },
+      {
+        "Id": 12049,
+        "Name": "Froboz\u0027s Workshop",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 12042
+        }
+      },
+      {
+        "Id": 12050,
+        "Name": "The Courtroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12055,
+          "South": 12060,
+          "West": 12043
+        }
+      },
+      {
+        "Id": 12051,
+        "Name": "The East Gate Of Rome",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12064,
+          "West": 12046
+        }
+      },
+      {
+        "Id": 12052,
+        "Name": "A Mountain Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 12047,
+          "Down": 12056
+        }
+      },
+      {
+        "Id": 12054,
+        "Name": "The Aqueduct",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12041,
+          "East": 12054,
+          "South": 12057,
+          "West": 12048
+        }
+      },
+      {
+        "Id": 12055,
+        "Name": "The Judge\u0027s Chambers",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 12050
+        }
+      },
+      {
+        "Id": 12056,
+        "Name": "A Mountain Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 12052,
+          "Down": 12059
+        }
+      },
+      {
+        "Id": 12057,
+        "Name": "The Aqueduct",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12054,
+          "East": 12054,
+          "South": 12058,
+          "West": 12041
+        }
+      },
+      {
+        "Id": 12058,
+        "Name": "The Valley Of The Gods",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12057,
+          "Up": 12059
+        }
+      },
+      {
+        "Id": 12059,
+        "Name": "A Mountain Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 12056,
+          "Down": 12058
+        }
+      },
+      {
+        "Id": 12060,
+        "Name": "The Holding Cells",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 12050,
+          "East": 12061
+        }
+      },
+      {
+        "Id": 12061,
+        "Name": "The Torture Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 12060
+        }
+      },
+      {
+        "Id": 12062,
+        "Name": "The Roman Bakery",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12030
+        }
+      },
+      {
+        "Id": 12063,
+        "Name": "The General Store",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 12046
+        }
+      },
+      {
+        "Id": 12064,
+        "Name": "Before Rome",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12065,
+          "West": 12051
+        }
+      },
+      {
+        "Id": 12065,
+        "Name": "Clay Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12066,
+          "West": 12064
+        }
+      },
+      {
+        "Id": 12066,
+        "Name": "Clay Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12067,
+          "West": 12065
+        }
+      },
+      {
+        "Id": 12067,
+        "Name": "The End Of The Clay Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 12068,
+          "West": 12066
+        }
+      },
+      {
+        "Id": 12068,
+        "Name": "A Small Dirt Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5028,
+          "West": 12067
+        }
+      },
+      {
+        "Id": 5028,
+        "Name": "To Great Eastern Desert",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 5027,
+          "East": 5033,
+          "South": 5029,
+          "West": 12068
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

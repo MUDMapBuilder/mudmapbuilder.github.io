@@ -1,0 +1,651 @@
+{
+  "Area": {
+    "Name": "Dock Area",
+    "Credits": "Kaan",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 31800,
+        "Name": "Dock Area Zone Description Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 31801,
+        "Name": "West Main",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31571,
+          "South": 31802
+        }
+      },
+      {
+        "Id": 31802,
+        "Name": "West Main",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31801,
+          "South": 31803
+        }
+      },
+      {
+        "Id": 31803,
+        "Name": "West Main",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31802,
+          "East": 31807,
+          "West": 31824
+        }
+      },
+      {
+        "Id": 31804,
+        "Name": "East Main",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31573,
+          "South": 31805
+        }
+      },
+      {
+        "Id": 31805,
+        "Name": "East Main",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31804,
+          "South": 31806
+        }
+      },
+      {
+        "Id": 31806,
+        "Name": "East Main",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31805,
+          "South": 31808,
+          "West": 31807
+        }
+      },
+      {
+        "Id": 31807,
+        "Name": "Alley at the Cock Fights",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31806,
+          "West": 31803
+        }
+      },
+      {
+        "Id": 31808,
+        "Name": "East Main",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31806,
+          "East": 31850,
+          "South": 31809
+        }
+      },
+      {
+        "Id": 31809,
+        "Name": "East Main",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31808,
+          "South": 31810,
+          "West": 31813
+        }
+      },
+      {
+        "Id": 31810,
+        "Name": "East Main",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31809,
+          "East": 31812,
+          "South": 31811
+        }
+      },
+      {
+        "Id": 31811,
+        "Name": "East Main",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31810,
+          "East": 31831,
+          "South": 31832,
+          "West": 31820
+        }
+      },
+      {
+        "Id": 31812,
+        "Name": "Netweaver",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 31810
+        }
+      },
+      {
+        "Id": 31813,
+        "Name": "McGintey Boat Station",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31817,
+          "East": 31809,
+          "South": 31815,
+          "West": 31814
+        }
+      },
+      {
+        "Id": 31814,
+        "Name": "McGintey Boat Station",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31818,
+          "East": 31813,
+          "South": 31816,
+          "West": 31819
+        }
+      },
+      {
+        "Id": 31815,
+        "Name": "Dibrova Travels",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31813
+        }
+      },
+      {
+        "Id": 31816,
+        "Name": "Travels Abroad",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31814
+        }
+      },
+      {
+        "Id": 31817,
+        "Name": "Island Escapes",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 31813
+        }
+      },
+      {
+        "Id": 31818,
+        "Name": "Ocean Adventures",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 31814
+        }
+      },
+      {
+        "Id": 31819,
+        "Name": "Hodges Travel, Inc.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31814
+        }
+      },
+      {
+        "Id": 31820,
+        "Name": "Narrow Alley",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31811,
+          "West": 31821
+        }
+      },
+      {
+        "Id": 31821,
+        "Name": "Narrow Alley",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31820,
+          "West": 31822
+        }
+      },
+      {
+        "Id": 31822,
+        "Name": "Dead End in Narrow Alley",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31823,
+          "East": 31821
+        }
+      },
+      {
+        "Id": 31823,
+        "Name": "The HQ of the Bloody Scythe Gang",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 31822
+        }
+      },
+      {
+        "Id": 31824,
+        "Name": "Dock Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31803,
+          "South": 31825
+        }
+      },
+      {
+        "Id": 31825,
+        "Name": "Dock Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31824,
+          "South": 31826
+        }
+      },
+      {
+        "Id": 31826,
+        "Name": "Dock Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31825,
+          "South": 31827
+        }
+      },
+      {
+        "Id": 31827,
+        "Name": "Dock Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31826,
+          "East": 31828,
+          "South": 31848
+        }
+      },
+      {
+        "Id": 31828,
+        "Name": "Dirt Trail",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31829,
+          "West": 31827
+        }
+      },
+      {
+        "Id": 31829,
+        "Name": "In Front of a Shack",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31830,
+          "South": 31828
+        }
+      },
+      {
+        "Id": 31830,
+        "Name": "HQ for the Dead Boys",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 31829
+        }
+      },
+      {
+        "Id": 31831,
+        "Name": "The Cracked Mug",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 31811
+        }
+      },
+      {
+        "Id": 31832,
+        "Name": "East Main",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31811,
+          "East": 31834,
+          "South": 31839,
+          "West": 31833
+        }
+      },
+      {
+        "Id": 31833,
+        "Name": "Myra\u0027s House of Ill Repute",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31832
+        }
+      },
+      {
+        "Id": 31834,
+        "Name": "Warehouse Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31835,
+          "South": 31840,
+          "West": 31832
+        }
+      },
+      {
+        "Id": 31835,
+        "Name": "Warehouse Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31838,
+          "East": 31836,
+          "West": 31834
+        }
+      },
+      {
+        "Id": 31836,
+        "Name": "Warehouse Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31837,
+          "West": 31835
+        }
+      },
+      {
+        "Id": 31837,
+        "Name": "Abandoned Building",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 31836
+        }
+      },
+      {
+        "Id": 31838,
+        "Name": "Warehouse",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 31835
+        }
+      },
+      {
+        "Id": 31839,
+        "Name": "East Main",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31832,
+          "South": 31842,
+          "West": 31841
+        }
+      },
+      {
+        "Id": 31840,
+        "Name": "Warehouse",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31834
+        }
+      },
+      {
+        "Id": 31841,
+        "Name": "Roach Motel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31839
+        }
+      },
+      {
+        "Id": 31842,
+        "Name": "Dock Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31839,
+          "East": 31843,
+          "South": 32273,
+          "West": 31846
+        }
+      },
+      {
+        "Id": 31843,
+        "Name": "Dock Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31844,
+          "South": 32275,
+          "West": 31842
+        }
+      },
+      {
+        "Id": 31844,
+        "Name": "Dock Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31845,
+          "South": 32277,
+          "West": 31843
+        }
+      },
+      {
+        "Id": 31845,
+        "Name": "Shipyard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 31844
+        }
+      },
+      {
+        "Id": 31846,
+        "Name": "Dock Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31842,
+          "South": 32271,
+          "West": 31847
+        }
+      },
+      {
+        "Id": 31847,
+        "Name": "Dock Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31846,
+          "South": 32269,
+          "West": 31848
+        }
+      },
+      {
+        "Id": 31848,
+        "Name": "Dock Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 31827,
+          "East": 31847,
+          "South": 32267,
+          "West": 31849
+        }
+      },
+      {
+        "Id": 31849,
+        "Name": "Dock Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31848,
+          "South": 32265
+        }
+      },
+      {
+        "Id": 31850,
+        "Name": "A Garbage Littered Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 31851,
+          "West": 31808
+        }
+      },
+      {
+        "Id": 31851,
+        "Name": "Bottom Floor of an Old Apartment Building",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 31850
+        }
+      },
+      {
+        "Id": 31571,
+        "Name": "To McGintey Business District",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 31566,
+          "South": 31801
+        }
+      },
+      {
+        "Id": 31573,
+        "Name": "To McGintey Business District",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 31569,
+          "South": 31804
+        }
+      },
+      {
+        "Id": 32273,
+        "Name": "To McGintey Bay",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 31842,
+          "East": 32274,
+          "South": 32257,
+          "West": 32272
+        }
+      },
+      {
+        "Id": 32275,
+        "Name": "To McGintey Bay",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 31843,
+          "East": 32276,
+          "South": 32259,
+          "West": 32274
+        }
+      },
+      {
+        "Id": 32277,
+        "Name": "To McGintey Bay",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 31844,
+          "East": 32278,
+          "South": 32261,
+          "West": 32276
+        }
+      },
+      {
+        "Id": 32271,
+        "Name": "To McGintey Bay",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 31846,
+          "East": 32272,
+          "South": 32255,
+          "West": 32270
+        }
+      },
+      {
+        "Id": 32269,
+        "Name": "To McGintey Bay",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 31847,
+          "East": 32270,
+          "South": 32253,
+          "West": 32268
+        }
+      },
+      {
+        "Id": 32267,
+        "Name": "To McGintey Bay",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 31848,
+          "East": 32268,
+          "South": 32251,
+          "West": 32266
+        }
+      },
+      {
+        "Id": 32265,
+        "Name": "To McGintey Bay",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 31849,
+          "East": 32266,
+          "South": 32249,
+          "West": 32264
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

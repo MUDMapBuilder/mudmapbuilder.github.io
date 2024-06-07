@@ -1,0 +1,112 @@
+{
+  "Area": {
+    "Name": "Midgaard",
+    "Credits": "DikuMUD",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 3200,
+        "Name": "Under The Bridge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 3201,
+          "West": 900
+        }
+      },
+      {
+        "Id": 3201,
+        "Name": "On The River",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 3202,
+          "West": 3200
+        }
+      },
+      {
+        "Id": 3202,
+        "Name": "On The River",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 3203,
+          "West": 3201
+        }
+      },
+      {
+        "Id": 3203,
+        "Name": "On The River",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 3049,
+          "East": 3204,
+          "West": 3202
+        }
+      },
+      {
+        "Id": 3204,
+        "Name": "On The River",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 3205,
+          "West": 3203
+        }
+      },
+      {
+        "Id": 3205,
+        "Name": "On The River",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5001,
+          "West": 3204
+        }
+      },
+      {
+        "Id": 900,
+        "Name": "To River Island of Minos",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "East": 3200,
+          "West": 901
+        }
+      },
+      {
+        "Id": 3049,
+        "Name": "To Northern Midgaard",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 3045,
+          "South": 3203
+        }
+      },
+      {
+        "Id": 5001,
+        "Name": "To Great Eastern Desert",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "East": 5002,
+          "West": 3205
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

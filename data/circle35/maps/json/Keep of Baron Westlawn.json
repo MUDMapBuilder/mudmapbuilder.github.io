@@ -1,0 +1,953 @@
+{
+  "Area": {
+    "Name": "Keep of Baron Westlawn",
+    "Credits": "Kaan",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 30900,
+        "Name": "Guard Post",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30901
+        }
+      },
+      {
+        "Id": 30901,
+        "Name": "Road Through Westlawn\u0027s Fields",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30900,
+          "South": 30902
+        }
+      },
+      {
+        "Id": 30902,
+        "Name": "Road Through Westlawn\u0027s Fields",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30901,
+          "South": 30903
+        }
+      },
+      {
+        "Id": 30903,
+        "Name": "Road Through Westlawn\u0027s Fields",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30902,
+          "South": 30904
+        }
+      },
+      {
+        "Id": 30904,
+        "Name": "A Muddy, Rutted Section of the Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30903,
+          "South": 30905,
+          "West": 30917
+        }
+      },
+      {
+        "Id": 30905,
+        "Name": "Rutted Roadway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30904,
+          "South": 30906,
+          "West": 30918
+        }
+      },
+      {
+        "Id": 30906,
+        "Name": "Muddy Roadway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30905,
+          "South": 30907,
+          "West": 30919
+        }
+      },
+      {
+        "Id": 30907,
+        "Name": "Worn Roadway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30906,
+          "South": 30908,
+          "West": 30920
+        }
+      },
+      {
+        "Id": 30908,
+        "Name": "Worn Roadway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30907,
+          "East": 30916,
+          "South": 30909,
+          "West": 30921
+        }
+      },
+      {
+        "Id": 30909,
+        "Name": "Muddy Bend",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30908,
+          "East": 30910,
+          "South": 30927
+        }
+      },
+      {
+        "Id": 30910,
+        "Name": "Twisting Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30916,
+          "South": 30911,
+          "West": 30909
+        }
+      },
+      {
+        "Id": 30911,
+        "Name": "Twisting Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30910,
+          "East": 30912
+        }
+      },
+      {
+        "Id": 30912,
+        "Name": "Rickety Bridge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30913,
+          "West": 30911
+        }
+      },
+      {
+        "Id": 30913,
+        "Name": "Muddy Road Before the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30912,
+          "East": 30914
+        }
+      },
+      {
+        "Id": 30914,
+        "Name": "Before the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30915,
+          "West": 30913
+        }
+      },
+      {
+        "Id": 30915,
+        "Name": "Inner Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30931,
+          "East": 30933,
+          "South": 30934,
+          "West": 30914
+        }
+      },
+      {
+        "Id": 30916,
+        "Name": "The Fireside Inn",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30910,
+          "West": 30908
+        }
+      },
+      {
+        "Id": 30917,
+        "Name": "Mud Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30904,
+          "South": 30918,
+          "West": 30922
+        }
+      },
+      {
+        "Id": 30918,
+        "Name": "Mud Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30917,
+          "East": 30905,
+          "South": 30919,
+          "West": 30923
+        }
+      },
+      {
+        "Id": 30919,
+        "Name": "Mud Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30918,
+          "East": 30906,
+          "South": 30920,
+          "West": 30924
+        }
+      },
+      {
+        "Id": 30920,
+        "Name": "Mud Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30919,
+          "East": 30907,
+          "South": 30921,
+          "West": 30925
+        }
+      },
+      {
+        "Id": 30921,
+        "Name": "Mud Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30920,
+          "East": 30908,
+          "West": 30926
+        }
+      },
+      {
+        "Id": 30922,
+        "Name": "Hovel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30917
+        }
+      },
+      {
+        "Id": 30923,
+        "Name": "Hut",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30918
+        }
+      },
+      {
+        "Id": 30924,
+        "Name": "Shack",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30919
+        }
+      },
+      {
+        "Id": 30925,
+        "Name": "Canvas and Straw Hut",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30920
+        }
+      },
+      {
+        "Id": 30926,
+        "Name": "Hovel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30921
+        }
+      },
+      {
+        "Id": 30927,
+        "Name": "Barn",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30909,
+          "West": 30928
+        }
+      },
+      {
+        "Id": 30928,
+        "Name": "Hay Barn",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30929,
+          "East": 30927
+        }
+      },
+      {
+        "Id": 30929,
+        "Name": "Cow Pasture",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30928,
+          "West": 30930
+        }
+      },
+      {
+        "Id": 30930,
+        "Name": "Cow Pasture",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30929
+        }
+      },
+      {
+        "Id": 30931,
+        "Name": "Inner Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30932,
+          "South": 30915
+        }
+      },
+      {
+        "Id": 30932,
+        "Name": "Inner Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30936,
+          "South": 30933,
+          "West": 30931
+        }
+      },
+      {
+        "Id": 30933,
+        "Name": "Inner Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30932,
+          "East": 30937,
+          "South": 30935,
+          "West": 30915
+        }
+      },
+      {
+        "Id": 30934,
+        "Name": "Inner Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30915,
+          "East": 30935
+        }
+      },
+      {
+        "Id": 30935,
+        "Name": "Inner Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30933,
+          "East": 30938,
+          "West": 30934
+        }
+      },
+      {
+        "Id": 30936,
+        "Name": "Inner Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30937,
+          "West": 30932
+        }
+      },
+      {
+        "Id": 30937,
+        "Name": "Inner Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30936,
+          "East": 30939,
+          "South": 30938,
+          "West": 30933
+        }
+      },
+      {
+        "Id": 30938,
+        "Name": "Inner Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30937,
+          "West": 30935
+        }
+      },
+      {
+        "Id": 30939,
+        "Name": "Wide Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30940,
+          "West": 30937
+        }
+      },
+      {
+        "Id": 30940,
+        "Name": "The Main Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30941,
+          "East": 30954,
+          "South": 30942,
+          "West": 30939
+        }
+      },
+      {
+        "Id": 30941,
+        "Name": "The Main Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30944,
+          "South": 30940
+        }
+      },
+      {
+        "Id": 30942,
+        "Name": "The Main Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30940,
+          "South": 30943
+        }
+      },
+      {
+        "Id": 30943,
+        "Name": "South End of the Main Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30942,
+          "East": 30953,
+          "West": 30950,
+          "Down": 30955
+        }
+      },
+      {
+        "Id": 30944,
+        "Name": "Entrance into the Dining Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30949,
+          "South": 30941,
+          "West": 30945,
+          "Up": 30963
+        }
+      },
+      {
+        "Id": 30945,
+        "Name": "Hall of Feasting",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30944,
+          "West": 30946
+        }
+      },
+      {
+        "Id": 30946,
+        "Name": "Hall of Feasting",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30945,
+          "West": 30947
+        }
+      },
+      {
+        "Id": 30947,
+        "Name": "Hall of Feasting",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30946,
+          "West": 30948
+        }
+      },
+      {
+        "Id": 30948,
+        "Name": "The Head of the Table",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30947
+        }
+      },
+      {
+        "Id": 30949,
+        "Name": "The Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30944
+        }
+      },
+      {
+        "Id": 30950,
+        "Name": "Soldier\u0027s Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30943,
+          "West": 30951
+        }
+      },
+      {
+        "Id": 30951,
+        "Name": "Soldier\u0027s Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30950,
+          "West": 30952
+        }
+      },
+      {
+        "Id": 30952,
+        "Name": "Soldier\u0027s Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30951
+        }
+      },
+      {
+        "Id": 30953,
+        "Name": "Arms Cache and Smithy",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30943
+        }
+      },
+      {
+        "Id": 30954,
+        "Name": "Outer Antechamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30969,
+          "West": 30940
+        }
+      },
+      {
+        "Id": 30955,
+        "Name": "Cellar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30956,
+          "West": 30960,
+          "Up": 30943
+        }
+      },
+      {
+        "Id": 30956,
+        "Name": "Cellar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30955,
+          "West": 30957
+        }
+      },
+      {
+        "Id": 30957,
+        "Name": "Cellar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30960,
+          "East": 30956,
+          "West": 30958
+        }
+      },
+      {
+        "Id": 30958,
+        "Name": "Cellar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30959,
+          "East": 30957
+        }
+      },
+      {
+        "Id": 30959,
+        "Name": "Cellar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30960,
+          "South": 30958
+        }
+      },
+      {
+        "Id": 30960,
+        "Name": "Cellar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30955,
+          "South": 30957,
+          "West": 30959
+        }
+      },
+      {
+        "Id": 30961,
+        "Name": "Watch Post on the Battlements",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30962
+        }
+      },
+      {
+        "Id": 30962,
+        "Name": "On the Battlements",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30963,
+          "West": 30961
+        }
+      },
+      {
+        "Id": 30963,
+        "Name": "On the Battlements",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30964,
+          "West": 30962,
+          "Down": 30944
+        }
+      },
+      {
+        "Id": 30964,
+        "Name": "On the Battlements",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30963,
+          "South": 30965
+        }
+      },
+      {
+        "Id": 30965,
+        "Name": "On the Battlements",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30964,
+          "South": 30966
+        }
+      },
+      {
+        "Id": 30966,
+        "Name": "On the Battlements",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30965,
+          "West": 30967
+        }
+      },
+      {
+        "Id": 30967,
+        "Name": "On the Battlements",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30966,
+          "West": 30968
+        }
+      },
+      {
+        "Id": 30968,
+        "Name": "At a Guard Post on the Battlements",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30967
+        }
+      },
+      {
+        "Id": 30969,
+        "Name": "Training Fields",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30970,
+          "East": 30974,
+          "South": 30975,
+          "West": 30954
+        }
+      },
+      {
+        "Id": 30970,
+        "Name": "Training Fields",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30984,
+          "East": 30971,
+          "South": 30969
+        }
+      },
+      {
+        "Id": 30971,
+        "Name": "Training Fields",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30972,
+          "South": 30974,
+          "West": 30970
+        }
+      },
+      {
+        "Id": 30972,
+        "Name": "Training Fields",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30973,
+          "West": 30971
+        }
+      },
+      {
+        "Id": 30973,
+        "Name": "Training Fields",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30972,
+          "East": 30980,
+          "South": 30977,
+          "West": 30974
+        }
+      },
+      {
+        "Id": 30974,
+        "Name": "Training Fields",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30971,
+          "East": 30973,
+          "South": 30976,
+          "West": 30969
+        }
+      },
+      {
+        "Id": 30975,
+        "Name": "Training Fields",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30969,
+          "East": 30976,
+          "South": 30987
+        }
+      },
+      {
+        "Id": 30976,
+        "Name": "Training Fields",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30974,
+          "East": 30977,
+          "West": 30975
+        }
+      },
+      {
+        "Id": 30977,
+        "Name": "Training Fields",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30973,
+          "West": 30976
+        }
+      },
+      {
+        "Id": 30978,
+        "Name": "Outpasture",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30979,
+          "South": 30980
+        }
+      },
+      {
+        "Id": 30979,
+        "Name": "Outpasture",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30981,
+          "West": 30978
+        }
+      },
+      {
+        "Id": 30980,
+        "Name": "Outpasture",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30978,
+          "East": 30981,
+          "South": 30982,
+          "West": 30973
+        }
+      },
+      {
+        "Id": 30981,
+        "Name": "Outpasture",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30979,
+          "South": 30983,
+          "West": 30980
+        }
+      },
+      {
+        "Id": 30982,
+        "Name": "Outpasture",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30980,
+          "East": 30983
+        }
+      },
+      {
+        "Id": 30983,
+        "Name": "Outpasture",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30981,
+          "West": 30982
+        }
+      },
+      {
+        "Id": 30984,
+        "Name": "North Stables",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30985,
+          "South": 30970
+        }
+      },
+      {
+        "Id": 30985,
+        "Name": "North Stables",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30986,
+          "West": 30984
+        }
+      },
+      {
+        "Id": 30986,
+        "Name": "North Stables",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30985
+        }
+      },
+      {
+        "Id": 30987,
+        "Name": "South Stables",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30975,
+          "East": 30988
+        }
+      },
+      {
+        "Id": 30988,
+        "Name": "South Stables",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30989,
+          "West": 30987
+        }
+      },
+      {
+        "Id": 30989,
+        "Name": "South Stables",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30988
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

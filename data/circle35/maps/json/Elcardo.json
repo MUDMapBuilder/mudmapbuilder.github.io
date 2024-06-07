@@ -1,0 +1,586 @@
+{
+  "Area": {
+    "Name": "Elcardo",
+    "Credits": "Daiko",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 10600,
+        "Name": "Elcardo Zone Description Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 10601,
+        "Name": "Cathedral Altar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10602
+        }
+      },
+      {
+        "Id": 10602,
+        "Name": "Inside the Elcardo Cathedral",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10601,
+          "South": 10603
+        }
+      },
+      {
+        "Id": 10603,
+        "Name": "Outside the Elcardorian Cathedral",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10602,
+          "South": 10604
+        }
+      },
+      {
+        "Id": 10604,
+        "Name": "Cathedral Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10603,
+          "South": 10605
+        }
+      },
+      {
+        "Id": 10605,
+        "Name": "Peddler\u0027s Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10604,
+          "East": 10610,
+          "South": 10606,
+          "West": 10614
+        }
+      },
+      {
+        "Id": 10606,
+        "Name": "Intersection to the Guild Halls",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10605,
+          "East": 10618,
+          "South": 10607,
+          "West": 10621
+        }
+      },
+      {
+        "Id": 10607,
+        "Name": "Citizens Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10606,
+          "East": 10627,
+          "South": 10608,
+          "West": 10623
+        }
+      },
+      {
+        "Id": 10608,
+        "Name": "Inside the South Gate of Elcardo",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10607,
+          "South": 10609
+        }
+      },
+      {
+        "Id": 10609,
+        "Name": "Outside the South Gate of Elcardo",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10608
+        }
+      },
+      {
+        "Id": 10610,
+        "Name": "Peddler\u0027s Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10632,
+          "East": 10611,
+          "South": 10633,
+          "West": 10605
+        }
+      },
+      {
+        "Id": 10611,
+        "Name": "Peddler\u0027s Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10634,
+          "East": 10612,
+          "South": 10635,
+          "West": 10610
+        }
+      },
+      {
+        "Id": 10612,
+        "Name": "Inside the East Gate of Elcardo",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10613,
+          "West": 10611
+        }
+      },
+      {
+        "Id": 10613,
+        "Name": "Outside the East Gate of Elcardo",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 10612
+        }
+      },
+      {
+        "Id": 10614,
+        "Name": "Peddler\u0027s Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10637,
+          "East": 10605,
+          "South": 10638,
+          "West": 10615
+        }
+      },
+      {
+        "Id": 10615,
+        "Name": "Peddler\u0027s Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10639,
+          "East": 10614,
+          "West": 10616
+        }
+      },
+      {
+        "Id": 10616,
+        "Name": "Inside the West Gate of Elcardo",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10615,
+          "West": 10617
+        }
+      },
+      {
+        "Id": 10617,
+        "Name": "Outside the West Gate of Elcardo",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10616,
+          "West": 10655
+        }
+      },
+      {
+        "Id": 10618,
+        "Name": "Guild Halls",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10619,
+          "West": 10606
+        }
+      },
+      {
+        "Id": 10619,
+        "Name": "Guild Halls",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10620,
+          "West": 10618
+        }
+      },
+      {
+        "Id": 10620,
+        "Name": "Guild Halls",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 10619
+        }
+      },
+      {
+        "Id": 10621,
+        "Name": "Guild Halls",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10606,
+          "West": 10622
+        }
+      },
+      {
+        "Id": 10622,
+        "Name": "Guild Halls",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10621
+        }
+      },
+      {
+        "Id": 10623,
+        "Name": "Citizens Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10607,
+          "West": 10624
+        }
+      },
+      {
+        "Id": 10624,
+        "Name": "Citizens Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10623,
+          "West": 10625
+        }
+      },
+      {
+        "Id": 10625,
+        "Name": "Citizens Street",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10624,
+          "West": 10626
+        }
+      },
+      {
+        "Id": 10626,
+        "Name": "Dead End",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10641,
+          "East": 10625
+        }
+      },
+      {
+        "Id": 10627,
+        "Name": "Pathway to the Saloon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10628,
+          "West": 10607
+        }
+      },
+      {
+        "Id": 10628,
+        "Name": "Entrance to the Saloon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10629,
+          "West": 10627
+        }
+      },
+      {
+        "Id": 10629,
+        "Name": "Inside the Elcardo Saloon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10630,
+          "West": 10628
+        }
+      },
+      {
+        "Id": 10630,
+        "Name": "Center of the Saloon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10631,
+          "West": 10629
+        }
+      },
+      {
+        "Id": 10631,
+        "Name": "The Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10630
+        }
+      },
+      {
+        "Id": 10632,
+        "Name": "The Armor Shop",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10634,
+          "South": 10610
+        }
+      },
+      {
+        "Id": 10633,
+        "Name": "The Bank of Elcardo",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10610
+        }
+      },
+      {
+        "Id": 10634,
+        "Name": "The weapon shop",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10611,
+          "West": 10632
+        }
+      },
+      {
+        "Id": 10635,
+        "Name": "Mayor\u0027s Hut",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10611,
+          "South": 10636
+        }
+      },
+      {
+        "Id": 10636,
+        "Name": "Inside the Mayor\u0027s room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10635
+        }
+      },
+      {
+        "Id": 10637,
+        "Name": "Grandma\u0027s Diner",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10614
+        }
+      },
+      {
+        "Id": 10638,
+        "Name": "Elcardo Grocer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10614
+        }
+      },
+      {
+        "Id": 10639,
+        "Name": "Lara\u0027s Magic Supplies",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10615
+        }
+      },
+      {
+        "Id": 10641,
+        "Name": "Inside the Shack",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10645,
+          "East": 10643,
+          "South": 10626,
+          "West": 10642
+        }
+      },
+      {
+        "Id": 10642,
+        "Name": "Poor Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10641
+        }
+      },
+      {
+        "Id": 10643,
+        "Name": "Poor Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 10641,
+          "Down": 10644
+        }
+      },
+      {
+        "Id": 10644,
+        "Name": "An Empty Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 10643,
+          "Down": 10646
+        }
+      },
+      {
+        "Id": 10645,
+        "Name": "Chambers of Sujin Suncas",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10641
+        }
+      },
+      {
+        "Id": 10646,
+        "Name": "Entrance to the Dungeon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10649,
+          "East": 10648,
+          "West": 10647,
+          "Up": 10644
+        }
+      },
+      {
+        "Id": 10647,
+        "Name": "Death Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10646
+        }
+      },
+      {
+        "Id": 10648,
+        "Name": "Torture Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 10646
+        }
+      },
+      {
+        "Id": 10649,
+        "Name": "Dungeon Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10651,
+          "South": 10646,
+          "West": 10650
+        }
+      },
+      {
+        "Id": 10650,
+        "Name": "Body Count",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 10651,
+        "Name": "Dungeon Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10654,
+          "East": 10653,
+          "South": 10649,
+          "West": 10652
+        }
+      },
+      {
+        "Id": 10652,
+        "Name": "A Black Cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10651
+        }
+      },
+      {
+        "Id": 10653,
+        "Name": "Suncas Jail Cell.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 10651
+        }
+      },
+      {
+        "Id": 10654,
+        "Name": "The Guard Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10651
+        }
+      },
+      {
+        "Id": 10655,
+        "Name": "A Path between Hannah and Elcardo",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 10617,
+          "West": 10656
+        }
+      },
+      {
+        "Id": 10656,
+        "Name": "A Path between Hannah and Elcardo",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 10657,
+          "East": 10655
+        }
+      },
+      {
+        "Id": 10657,
+        "Name": "Before the City of Hannah",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 10656
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

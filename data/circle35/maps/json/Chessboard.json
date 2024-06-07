@@ -1,0 +1,992 @@
+{
+  "Area": {
+    "Name": "Chessboard",
+    "Credits": "Aten",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 30500,
+        "Name": "The Stone Door",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30501
+        }
+      },
+      {
+        "Id": 30501,
+        "Name": "The Smooth Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30502,
+          "South": 30501
+        }
+      },
+      {
+        "Id": 30502,
+        "Name": "The Furnished Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30501,
+          "Down": 30503
+        }
+      },
+      {
+        "Id": 30503,
+        "Name": "The Stone Staircase",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 30502,
+          "Down": 30504
+        }
+      },
+      {
+        "Id": 30504,
+        "Name": "Down..Down..Down..",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 30505
+        }
+      },
+      {
+        "Id": 30505,
+        "Name": "The Slide",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 30506
+        }
+      },
+      {
+        "Id": 30506,
+        "Name": "The Ledge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 30507
+        }
+      },
+      {
+        "Id": 30507,
+        "Name": "The Ladder",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 30506,
+          "Down": 30512
+        }
+      },
+      {
+        "Id": 30508,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30509,
+          "South": 30523
+        }
+      },
+      {
+        "Id": 30509,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30510,
+          "South": 30522,
+          "West": 30508
+        }
+      },
+      {
+        "Id": 30510,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30511,
+          "South": 30521,
+          "West": 30509
+        }
+      },
+      {
+        "Id": 30511,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30512,
+          "South": 30520,
+          "West": 30510
+        }
+      },
+      {
+        "Id": 30512,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30513,
+          "South": 30519,
+          "West": 30511
+        }
+      },
+      {
+        "Id": 30513,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30514,
+          "South": 30518,
+          "West": 30512
+        }
+      },
+      {
+        "Id": 30514,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30515,
+          "South": 30517,
+          "West": 30513
+        }
+      },
+      {
+        "Id": 30515,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30516,
+          "West": 30514
+        }
+      },
+      {
+        "Id": 30516,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30515,
+          "South": 30531,
+          "West": 30517
+        }
+      },
+      {
+        "Id": 30517,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30514,
+          "East": 30516,
+          "South": 30530,
+          "West": 30518
+        }
+      },
+      {
+        "Id": 30518,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30513,
+          "East": 30517,
+          "South": 30529,
+          "West": 30519
+        }
+      },
+      {
+        "Id": 30519,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30512,
+          "East": 30518,
+          "South": 30528,
+          "West": 30520
+        }
+      },
+      {
+        "Id": 30520,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30511,
+          "East": 30519,
+          "South": 30527,
+          "West": 30521
+        }
+      },
+      {
+        "Id": 30521,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30510,
+          "East": 30520,
+          "South": 30526,
+          "West": 30522
+        }
+      },
+      {
+        "Id": 30522,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30509,
+          "East": 30521,
+          "South": 30525,
+          "West": 30523
+        }
+      },
+      {
+        "Id": 30523,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30508,
+          "East": 30522,
+          "South": 30524
+        }
+      },
+      {
+        "Id": 30524,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30523,
+          "East": 30525,
+          "South": 30539
+        }
+      },
+      {
+        "Id": 30525,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30522,
+          "East": 30526,
+          "South": 30538,
+          "West": 30524
+        }
+      },
+      {
+        "Id": 30526,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30521,
+          "East": 30527,
+          "South": 30537,
+          "West": 30525
+        }
+      },
+      {
+        "Id": 30527,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30520,
+          "East": 30528,
+          "South": 30536,
+          "West": 30526
+        }
+      },
+      {
+        "Id": 30528,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30519,
+          "East": 30529,
+          "South": 30535,
+          "West": 30527
+        }
+      },
+      {
+        "Id": 30529,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30518,
+          "East": 30530,
+          "South": 30534,
+          "West": 30528
+        }
+      },
+      {
+        "Id": 30530,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30517,
+          "East": 30531,
+          "South": 30533,
+          "West": 30529
+        }
+      },
+      {
+        "Id": 30531,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30516,
+          "South": 30531,
+          "West": 30530
+        }
+      },
+      {
+        "Id": 30532,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30531,
+          "South": 30547,
+          "West": 30533
+        }
+      },
+      {
+        "Id": 30533,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30530,
+          "East": 30532,
+          "South": 30546,
+          "West": 30534
+        }
+      },
+      {
+        "Id": 30534,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30529,
+          "East": 30533,
+          "South": 30545,
+          "West": 30535
+        }
+      },
+      {
+        "Id": 30535,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30528,
+          "East": 30534,
+          "South": 30544,
+          "West": 30536
+        }
+      },
+      {
+        "Id": 30536,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30527,
+          "East": 30535,
+          "South": 30543,
+          "West": 30537
+        }
+      },
+      {
+        "Id": 30537,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30526,
+          "East": 30536,
+          "South": 30542,
+          "West": 30538
+        }
+      },
+      {
+        "Id": 30538,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30525,
+          "East": 30537,
+          "South": 30541,
+          "West": 30539
+        }
+      },
+      {
+        "Id": 30539,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30524,
+          "East": 30538,
+          "South": 30540,
+          "West": 30577
+        }
+      },
+      {
+        "Id": 30540,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30539,
+          "East": 30541,
+          "South": 30555
+        }
+      },
+      {
+        "Id": 30541,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30538,
+          "East": 30542,
+          "South": 30554,
+          "West": 30540
+        }
+      },
+      {
+        "Id": 30542,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30537,
+          "East": 30543,
+          "South": 30553,
+          "West": 30541
+        }
+      },
+      {
+        "Id": 30543,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30536,
+          "East": 30544,
+          "South": 30552,
+          "West": 30542
+        }
+      },
+      {
+        "Id": 30544,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30535,
+          "East": 30545,
+          "South": 30551,
+          "West": 30543
+        }
+      },
+      {
+        "Id": 30545,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30534,
+          "East": 30546,
+          "South": 30550,
+          "West": 30544
+        }
+      },
+      {
+        "Id": 30546,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30533,
+          "East": 30547,
+          "South": 30549,
+          "West": 30545
+        }
+      },
+      {
+        "Id": 30547,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30532,
+          "East": 30576,
+          "South": 30548,
+          "West": 30546
+        }
+      },
+      {
+        "Id": 30548,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30547,
+          "South": 30563,
+          "West": 30549
+        }
+      },
+      {
+        "Id": 30549,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30546,
+          "East": 30548,
+          "South": 30562,
+          "West": 30550
+        }
+      },
+      {
+        "Id": 30550,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30545,
+          "East": 30549,
+          "South": 30561,
+          "West": 30551
+        }
+      },
+      {
+        "Id": 30551,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30544,
+          "East": 30550,
+          "South": 30560,
+          "West": 30552
+        }
+      },
+      {
+        "Id": 30552,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30543,
+          "East": 30551,
+          "South": 30559,
+          "West": 30553
+        }
+      },
+      {
+        "Id": 30553,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30542,
+          "East": 30552,
+          "South": 30558,
+          "West": 30554
+        }
+      },
+      {
+        "Id": 30554,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30541,
+          "East": 30553,
+          "South": 30557,
+          "West": 30555
+        }
+      },
+      {
+        "Id": 30555,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30540,
+          "East": 30554,
+          "South": 30556
+        }
+      },
+      {
+        "Id": 30556,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30555,
+          "East": 30557,
+          "South": 30571
+        }
+      },
+      {
+        "Id": 30557,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30554,
+          "East": 30558,
+          "South": 30570,
+          "West": 30556
+        }
+      },
+      {
+        "Id": 30558,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30553,
+          "East": 30559,
+          "South": 30565,
+          "West": 30557,
+          "Down": 30572
+        }
+      },
+      {
+        "Id": 30559,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30552,
+          "East": 30560,
+          "South": 30568,
+          "West": 30558
+        }
+      },
+      {
+        "Id": 30560,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30551,
+          "East": 30561,
+          "South": 30567,
+          "West": 30559
+        }
+      },
+      {
+        "Id": 30561,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30550,
+          "East": 30562,
+          "South": 30566,
+          "West": 30560
+        }
+      },
+      {
+        "Id": 30562,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30549,
+          "East": 30563,
+          "South": 30565,
+          "West": 30561
+        }
+      },
+      {
+        "Id": 30563,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30548,
+          "South": 30564,
+          "West": 30562
+        }
+      },
+      {
+        "Id": 30564,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30563,
+          "West": 30565
+        }
+      },
+      {
+        "Id": 30565,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30562,
+          "East": 30564,
+          "West": 30566
+        }
+      },
+      {
+        "Id": 30566,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30561,
+          "East": 30565,
+          "West": 30567
+        }
+      },
+      {
+        "Id": 30567,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30560,
+          "East": 30566,
+          "West": 30568
+        }
+      },
+      {
+        "Id": 30568,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30559,
+          "East": 30567,
+          "West": 30569
+        }
+      },
+      {
+        "Id": 30569,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30558,
+          "East": 30568,
+          "West": 30570
+        }
+      },
+      {
+        "Id": 30570,
+        "Name": "The Black Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30557,
+          "East": 30569,
+          "West": 30571
+        }
+      },
+      {
+        "Id": 30571,
+        "Name": "The White Square",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30556,
+          "East": 30570
+        }
+      },
+      {
+        "Id": 30572,
+        "Name": "The Lost Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 30573,
+        "Name": "The Joker\u0027s Teacup",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30574
+        }
+      },
+      {
+        "Id": 30574,
+        "Name": "The Joker\u0027s Teacup",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30575
+        }
+      },
+      {
+        "Id": 30575,
+        "Name": "The Joker\u0027s Teacup",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30573
+        }
+      },
+      {
+        "Id": 30576,
+        "Name": "The Black Queen\u0027s Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 30579
+        }
+      },
+      {
+        "Id": 30577,
+        "Name": "The White Queen\u0027s Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 30578
+        }
+      },
+      {
+        "Id": 30578,
+        "Name": "The Landing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30580
+        }
+      },
+      {
+        "Id": 30579,
+        "Name": "The Landing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30581
+        }
+      },
+      {
+        "Id": 30580,
+        "Name": "The Dock",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30582,
+          "West": 30578
+        }
+      },
+      {
+        "Id": 30581,
+        "Name": "The Dock",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30582,
+          "East": 30579
+        }
+      },
+      {
+        "Id": 30582,
+        "Name": "The Sulking Swan",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30583
+        }
+      },
+      {
+        "Id": 30583,
+        "Name": "The Underground River",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30584
+        }
+      },
+      {
+        "Id": 30584,
+        "Name": "Arrival",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30585
+        }
+      },
+      {
+        "Id": 30585,
+        "Name": "The Second Dock",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30586,
+          "West": 30584
+        }
+      },
+      {
+        "Id": 30586,
+        "Name": "The Entrance Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30587,
+          "West": 30585
+        }
+      },
+      {
+        "Id": 30587,
+        "Name": "The Entrance Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30588,
+          "South": 30586
+        }
+      },
+      {
+        "Id": 30588,
+        "Name": "The Joker\u0027s Throne",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30587
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

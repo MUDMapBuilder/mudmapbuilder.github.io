@@ -1,0 +1,304 @@
+{
+  "Area": {
+    "Name": "Elven Woods",
+    "Credits": "Gbetz",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 24800,
+        "Name": "Gbetz\u0027s Zone Description Room ",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 24801,
+        "Name": "Entrance to the Elven Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24802
+        }
+      },
+      {
+        "Id": 24802,
+        "Name": "Guarded Path Through the Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24807,
+          "East": 24803,
+          "South": 24801,
+          "Up": 24806
+        }
+      },
+      {
+        "Id": 24803,
+        "Name": "A Guard Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24804,
+          "West": 24802
+        }
+      },
+      {
+        "Id": 24804,
+        "Name": "A Guard Chief\u0027s Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 24803
+        }
+      },
+      {
+        "Id": 24805,
+        "Name": "A Cellar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 24803
+        }
+      },
+      {
+        "Id": 24806,
+        "Name": "On the Platform",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 24802
+        }
+      },
+      {
+        "Id": 24807,
+        "Name": "A Guarded Path Through the Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24808,
+          "South": 24802
+        }
+      },
+      {
+        "Id": 24808,
+        "Name": "A Path Crossing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24809,
+          "South": 24807
+        }
+      },
+      {
+        "Id": 24809,
+        "Name": "A Fine Path Through the Elven Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24812,
+          "East": 24810,
+          "South": 24808,
+          "West": 24811
+        }
+      },
+      {
+        "Id": 24810,
+        "Name": "The Elven Armoury",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 24809
+        }
+      },
+      {
+        "Id": 24811,
+        "Name": "The Elven Weaponry",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24809
+        }
+      },
+      {
+        "Id": 24812,
+        "Name": "A Fine Path Through the Elven Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24815,
+          "East": 24814,
+          "South": 24809,
+          "West": 24813
+        }
+      },
+      {
+        "Id": 24813,
+        "Name": "Quintor\u0027s Fine Shop",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24812
+        }
+      },
+      {
+        "Id": 24814,
+        "Name": "The Elven Magic Shop",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 24812
+        }
+      },
+      {
+        "Id": 24815,
+        "Name": "The End of the Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24817,
+          "East": 24816,
+          "South": 24812
+        }
+      },
+      {
+        "Id": 24816,
+        "Name": "The Tavern of Hope",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 24815,
+          "Up": 24890
+        }
+      },
+      {
+        "Id": 24817,
+        "Name": "Inside a Fine House",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24819,
+          "South": 24815,
+          "West": 24818,
+          "Up": 24820
+        }
+      },
+      {
+        "Id": 24818,
+        "Name": "A Guard Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 24817
+        }
+      },
+      {
+        "Id": 24819,
+        "Name": "The Trophy Room of the Elven King",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 24817
+        }
+      },
+      {
+        "Id": 24820,
+        "Name": "The Grand Stairway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 24821,
+          "Down": 24817
+        }
+      },
+      {
+        "Id": 24821,
+        "Name": "The Upper Floor of the House",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24823,
+          "East": 24822,
+          "South": 24824,
+          "Down": 24820
+        }
+      },
+      {
+        "Id": 24822,
+        "Name": "The Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24826,
+          "East": 24825,
+          "South": 24827,
+          "West": 24821
+        }
+      },
+      {
+        "Id": 24823,
+        "Name": "The Library",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 24821
+        }
+      },
+      {
+        "Id": 24824,
+        "Name": "The Living Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24821
+        }
+      },
+      {
+        "Id": 24825,
+        "Name": "Falling ",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 24826,
+        "Name": "The Guards Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24827,
+          "South": 24822
+        }
+      },
+      {
+        "Id": 24827,
+        "Name": "The Training Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 24822
+        }
+      },
+      {
+        "Id": 24890,
+        "Name": "The Reception of the Tavern of Hope",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 24816
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "Area": {
+    "Name": "Abandoned Cathedral",
+    "Credits": "Matrix of C.A.W.",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 29900,
+        "Name": "The Cathedral Courtyard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29901,
+          "South": 29955
+        }
+      },
+      {
+        "Id": 29901,
+        "Name": "The Cathedral Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29904,
+          "East": 29902,
+          "South": 29900,
+          "West": 29903
+        }
+      },
+      {
+        "Id": 29902,
+        "Name": "An Alcove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29913,
+          "West": 29901
+        }
+      },
+      {
+        "Id": 29903,
+        "Name": "An Alcove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29901,
+          "West": 29912
+        }
+      },
+      {
+        "Id": 29904,
+        "Name": "The Aisle Of Pews",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29905,
+          "South": 29901
+        }
+      },
+      {
+        "Id": 29905,
+        "Name": "The Worship Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29908,
+          "East": 29907,
+          "South": 29904,
+          "West": 29906
+        }
+      },
+      {
+        "Id": 29906,
+        "Name": "The Confessional",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29905
+        }
+      },
+      {
+        "Id": 29907,
+        "Name": "The Confessional",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 29905
+        }
+      },
+      {
+        "Id": 29908,
+        "Name": "The High Pews",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29909,
+          "South": 29905
+        }
+      },
+      {
+        "Id": 29909,
+        "Name": "At The Altar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29910,
+          "South": 29908
+        }
+      },
+      {
+        "Id": 29910,
+        "Name": "The Clergical Chambers",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29911,
+          "South": 29909
+        }
+      },
+      {
+        "Id": 29911,
+        "Name": "The Inner Sanctum",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 29910
+        }
+      },
+      {
+        "Id": 29912,
+        "Name": "A Spiral Stairway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29903,
+          "Up": 29916,
+          "Down": 29932
+        }
+      },
+      {
+        "Id": 29913,
+        "Name": "A Spiral Stairway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 29902,
+          "Up": 29914,
+          "Down": 29934
+        }
+      },
+      {
+        "Id": 29914,
+        "Name": "A Spiral Stairway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 29915,
+          "Down": 29913
+        }
+      },
+      {
+        "Id": 29915,
+        "Name": "The Bell Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 29918,
+          "Down": 29914
+        }
+      },
+      {
+        "Id": 29916,
+        "Name": "A Spiral Stairway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29919,
+          "Up": 29917,
+          "Down": 29912
+        }
+      },
+      {
+        "Id": 29917,
+        "Name": "The Bell Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29918,
+          "Down": 29916
+        }
+      },
+      {
+        "Id": 29918,
+        "Name": "The Bell Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29915,
+          "West": 29917
+        }
+      },
+      {
+        "Id": 29919,
+        "Name": "The Cloister Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29923,
+          "South": 29920,
+          "West": 29916
+        }
+      },
+      {
+        "Id": 29920,
+        "Name": "The End Of The Dark Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29919,
+          "East": 29921,
+          "West": 29922
+        }
+      },
+      {
+        "Id": 29921,
+        "Name": "A Monk\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 29920
+        }
+      },
+      {
+        "Id": 29922,
+        "Name": "The Abbott\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29920
+        }
+      },
+      {
+        "Id": 29923,
+        "Name": "A Cloistered Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29926,
+          "East": 29925,
+          "South": 29919,
+          "West": 29924
+        }
+      },
+      {
+        "Id": 29924,
+        "Name": "A Monk\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29923
+        }
+      },
+      {
+        "Id": 29925,
+        "Name": "A Monk\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 29923
+        }
+      },
+      {
+        "Id": 29926,
+        "Name": "A Cloistered Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29927,
+          "East": 29929,
+          "South": 29923,
+          "West": 29928
+        }
+      },
+      {
+        "Id": 29927,
+        "Name": "A Cloistered Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29931,
+          "South": 29926,
+          "West": 29930
+        }
+      },
+      {
+        "Id": 29928,
+        "Name": "A Nun\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29926
+        }
+      },
+      {
+        "Id": 29929,
+        "Name": "A Nun\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 29926
+        }
+      },
+      {
+        "Id": 29930,
+        "Name": "A Nun\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29927
+        }
+      },
+      {
+        "Id": 29931,
+        "Name": "Mother Superior\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 29927
+        }
+      },
+      {
+        "Id": 29932,
+        "Name": "A Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29933,
+          "South": 29935,
+          "Up": 29912
+        }
+      },
+      {
+        "Id": 29933,
+        "Name": "A Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29934,
+          "South": 29936,
+          "West": 29932
+        }
+      },
+      {
+        "Id": 29934,
+        "Name": "A Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 29937,
+          "West": 29933,
+          "Up": 29913
+        }
+      },
+      {
+        "Id": 29935,
+        "Name": "A Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29932,
+          "East": 29936,
+          "South": 29938
+        }
+      },
+      {
+        "Id": 29936,
+        "Name": "A Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29933,
+          "East": 29937,
+          "West": 29935
+        }
+      },
+      {
+        "Id": 29937,
+        "Name": "A Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29934,
+          "South": 29940,
+          "West": 29936
+        }
+      },
+      {
+        "Id": 29938,
+        "Name": "A Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29935,
+          "East": 29939
+        }
+      },
+      {
+        "Id": 29939,
+        "Name": "A Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 29941,
+          "West": 29938
+        }
+      },
+      {
+        "Id": 29940,
+        "Name": "A Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29937
+        }
+      },
+      {
+        "Id": 29941,
+        "Name": "The Antechamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29939,
+          "South": 29942
+        }
+      },
+      {
+        "Id": 29942,
+        "Name": "The Inner Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29941,
+          "East": 29943
+        }
+      },
+      {
+        "Id": 29943,
+        "Name": "The Inner Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29949,
+          "South": 29944,
+          "West": 29942
+        }
+      },
+      {
+        "Id": 29944,
+        "Name": "The Inner Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29943,
+          "East": 29945
+        }
+      },
+      {
+        "Id": 29945,
+        "Name": "The Inner Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 29946,
+          "West": 29944
+        }
+      },
+      {
+        "Id": 29946,
+        "Name": "The Inner Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29945,
+          "West": 29947
+        }
+      },
+      {
+        "Id": 29947,
+        "Name": "The Inner Crypt",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29946,
+          "South": 29950,
+          "West": 29948
+        }
+      },
+      {
+        "Id": 29948,
+        "Name": "The Tomb Of Princess Evalynn",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29947
+        }
+      },
+      {
+        "Id": 29949,
+        "Name": "The Large Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 29943
+        }
+      },
+      {
+        "Id": 29950,
+        "Name": "A Bottomless Pit",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29947,
+          "Down": 29951
+        }
+      },
+      {
+        "Id": 29951,
+        "Name": "Down The Bottomless Pit",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 29950,
+          "Down": 29952
+        }
+      },
+      {
+        "Id": 29952,
+        "Name": "Falling Down The Bottomless Pit",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 29951,
+          "Down": 29953
+        }
+      },
+      {
+        "Id": 29953,
+        "Name": "Above The Molten Lava",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 29952,
+          "Down": 29954
+        }
+      },
+      {
+        "Id": 29954,
+        "Name": "Being Burnt Alive",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 29955,
+        "Name": "An Old Stone Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29900,
+          "South": 25872
+        }
+      },
+      {
+        "Id": 25872,
+        "Name": "To Light Forest",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 29955,
+          "South": 25870
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

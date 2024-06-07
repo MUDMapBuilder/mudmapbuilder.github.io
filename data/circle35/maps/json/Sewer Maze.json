@@ -1,0 +1,463 @@
+{
+  "Area": {
+    "Name": "Sewer Maze",
+    "Credits": "Redferne",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 7200,
+        "Name": "The Treasury",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7201
+        }
+      },
+      {
+        "Id": 7201,
+        "Name": "The Inner Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7202,
+          "West": 7200
+        }
+      },
+      {
+        "Id": 7202,
+        "Name": "The Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7201,
+          "East": 7205,
+          "South": 7203
+        }
+      },
+      {
+        "Id": 7203,
+        "Name": "The Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7202,
+          "East": 7206,
+          "South": 7204
+        }
+      },
+      {
+        "Id": 7204,
+        "Name": "The Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7203,
+          "East": 7207,
+          "South": 7208
+        }
+      },
+      {
+        "Id": 7205,
+        "Name": "The Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7206,
+          "West": 7202
+        }
+      },
+      {
+        "Id": 7206,
+        "Name": "The Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7205,
+          "South": 7207,
+          "West": 7203
+        }
+      },
+      {
+        "Id": 7207,
+        "Name": "The Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7206,
+          "West": 7204
+        }
+      },
+      {
+        "Id": 7208,
+        "Name": "The Lair Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7204,
+          "East": 7209
+        }
+      },
+      {
+        "Id": 7209,
+        "Name": "The Crawlway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7210,
+          "West": 7208
+        }
+      },
+      {
+        "Id": 7210,
+        "Name": "The Four-Way Junction",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7211,
+          "East": 7212,
+          "South": 7215,
+          "West": 7209
+        }
+      },
+      {
+        "Id": 7211,
+        "Name": "The Small Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7210
+        }
+      },
+      {
+        "Id": 7212,
+        "Name": "The Sewer Drain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7213,
+          "West": 7210
+        }
+      },
+      {
+        "Id": 7213,
+        "Name": "The Sewer Drain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7214,
+          "South": 7212
+        }
+      },
+      {
+        "Id": 7214,
+        "Name": "The End Of The Drain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 7213
+        }
+      },
+      {
+        "Id": 7215,
+        "Name": "The Half-Wet Drain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7210,
+          "South": 7216
+        }
+      },
+      {
+        "Id": 7216,
+        "Name": "Under Water In The Sewer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7215,
+          "South": 7217
+        }
+      },
+      {
+        "Id": 7217,
+        "Name": "The Half-Dry Drain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7216,
+          "East": 7218,
+          "West": 7219
+        }
+      },
+      {
+        "Id": 7218,
+        "Name": "The Very Small Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 7217
+        }
+      },
+      {
+        "Id": 7219,
+        "Name": "A Dry Sewer Drain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7217,
+          "South": 7220
+        }
+      },
+      {
+        "Id": 7220,
+        "Name": "A Boring Drain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7219,
+          "East": 7221
+        }
+      },
+      {
+        "Id": 7221,
+        "Name": "The Sewer Drain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7222,
+          "West": 7220,
+          "Up": 7129
+        }
+      },
+      {
+        "Id": 7222,
+        "Name": "The Sewer Drain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7223,
+          "West": 7221
+        }
+      },
+      {
+        "Id": 7223,
+        "Name": "The Sewer Bend",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7224,
+          "West": 7222
+        }
+      },
+      {
+        "Id": 7224,
+        "Name": "The Sewer Junction",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7225,
+          "South": 7223,
+          "West": 7229
+        }
+      },
+      {
+        "Id": 7225,
+        "Name": "The Sewer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7224
+        }
+      },
+      {
+        "Id": 7229,
+        "Name": "The Strange Sewer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7224,
+          "West": 7230
+        }
+      },
+      {
+        "Id": 7230,
+        "Name": "The Damp Sewer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7229,
+          "West": 7231
+        }
+      },
+      {
+        "Id": 7231,
+        "Name": "The Strange Sewer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7230,
+          "West": 7232
+        }
+      },
+      {
+        "Id": 7232,
+        "Name": "The Sewer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7233,
+          "East": 7231
+        }
+      },
+      {
+        "Id": 7233,
+        "Name": "The Sewer Drain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7234,
+          "South": 7232
+        }
+      },
+      {
+        "Id": 7234,
+        "Name": "The Rat\u0027s Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 7233
+        }
+      },
+      {
+        "Id": 7279,
+        "Name": "The Wall Of The Abyss",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7111,
+          "Down": 7299
+        }
+      },
+      {
+        "Id": 7280,
+        "Name": "The Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7281,
+          "Up": 7116
+        }
+      },
+      {
+        "Id": 7281,
+        "Name": "The Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7282,
+          "South": 7280
+        }
+      },
+      {
+        "Id": 7282,
+        "Name": "The Realm Of Lost Souls",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7283,
+          "West": 7281
+        }
+      },
+      {
+        "Id": 7283,
+        "Name": "The T-Crossing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7286,
+          "South": 7282,
+          "West": 7284
+        }
+      },
+      {
+        "Id": 7284,
+        "Name": "The Firedeath",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 7285,
+        "Name": "The Torture Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7286
+        }
+      },
+      {
+        "Id": 7286,
+        "Name": "The Hell Yard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7285,
+          "West": 7283
+        }
+      },
+      {
+        "Id": 7299,
+        "Name": "On The Walls Of The Abyss",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7279
+        }
+      },
+      {
+        "Id": 7129,
+        "Name": "To Second Sewer",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 7115,
+          "Down": 7221
+        }
+      },
+      {
+        "Id": 7111,
+        "Name": "To Second Sewer",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 7110,
+          "East": 7115,
+          "South": 7112,
+          "Down": 7279
+        }
+      },
+      {
+        "Id": 7116,
+        "Name": "To Second Sewer",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "South": 7117,
+          "West": 7113,
+          "Down": 7280
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "Area": {
+    "Name": "Tunnels in the Sewer",
+    "Credits": "Redferne",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 7300,
+        "Name": "Cave Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7301,
+          "Up": 7102
+        }
+      },
+      {
+        "Id": 7301,
+        "Name": "Cave Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7302,
+          "South": 7300
+        }
+      },
+      {
+        "Id": 7302,
+        "Name": "Cave Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7303,
+          "South": 7301,
+          "West": 7321
+        }
+      },
+      {
+        "Id": 7303,
+        "Name": "The Cave T-Cross",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7304,
+          "South": 7308,
+          "West": 7302
+        }
+      },
+      {
+        "Id": 7304,
+        "Name": "The Cave Turning-Point",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7305,
+          "West": 7303
+        }
+      },
+      {
+        "Id": 7305,
+        "Name": "The Secret Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7304,
+          "South": 7306
+        }
+      },
+      {
+        "Id": 7306,
+        "Name": "The Mudhole",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7305,
+          "West": 7307
+        }
+      },
+      {
+        "Id": 7307,
+        "Name": "A Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7308,
+          "East": 7306,
+          "South": 7309
+        }
+      },
+      {
+        "Id": 7308,
+        "Name": "The Long Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7303,
+          "South": 7307
+        }
+      },
+      {
+        "Id": 7309,
+        "Name": "The Hot Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7307,
+          "West": 7310
+        }
+      },
+      {
+        "Id": 7310,
+        "Name": "The Small Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7309,
+          "West": 7311
+        }
+      },
+      {
+        "Id": 7311,
+        "Name": "The Stalagmite Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7314,
+          "East": 7310,
+          "South": 7312
+        }
+      },
+      {
+        "Id": 7312,
+        "Name": "The Stalagmite Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7311,
+          "West": 7313
+        }
+      },
+      {
+        "Id": 7313,
+        "Name": "The Spongy Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7312,
+          "West": 7345
+        }
+      },
+      {
+        "Id": 7314,
+        "Name": "The Stalagmite T-Cross",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7317,
+          "East": 7315,
+          "South": 7311
+        }
+      },
+      {
+        "Id": 7315,
+        "Name": "The Blind End Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7316,
+          "West": 7314
+        }
+      },
+      {
+        "Id": 7316,
+        "Name": "The Treasure Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7315
+        }
+      },
+      {
+        "Id": 7317,
+        "Name": "The Square Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7318,
+          "South": 7314,
+          "West": 7320
+        }
+      },
+      {
+        "Id": 7318,
+        "Name": "The Square Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7321,
+          "South": 7317,
+          "West": 7319
+        }
+      },
+      {
+        "Id": 7319,
+        "Name": "The Square Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7322,
+          "East": 7318,
+          "South": 7320
+        }
+      },
+      {
+        "Id": 7320,
+        "Name": "The Lair End",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7319,
+          "East": 7317
+        }
+      },
+      {
+        "Id": 7321,
+        "Name": "The East Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7302,
+          "West": 7318
+        }
+      },
+      {
+        "Id": 7322,
+        "Name": "The North Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7323,
+          "South": 7319,
+          "West": 7336
+        }
+      },
+      {
+        "Id": 7323,
+        "Name": "The L-Shaped Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7324,
+          "South": 7322
+        }
+      },
+      {
+        "Id": 7324,
+        "Name": "The Circular Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7324,
+          "East": 7325,
+          "South": 7324,
+          "West": 7323
+        }
+      },
+      {
+        "Id": 7325,
+        "Name": "A Dusty Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7326,
+          "West": 7324
+        }
+      },
+      {
+        "Id": 7326,
+        "Name": "The Crossing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7331,
+          "East": 7330,
+          "South": 7327,
+          "West": 7325
+        }
+      },
+      {
+        "Id": 7327,
+        "Name": "The L-Shaped Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7326,
+          "East": 7328
+        }
+      },
+      {
+        "Id": 7328,
+        "Name": "The Dragon\u0027s Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7329,
+          "West": 7327
+        }
+      },
+      {
+        "Id": 7329,
+        "Name": "The Burnt Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7328,
+          "West": 7330
+        }
+      },
+      {
+        "Id": 7330,
+        "Name": "The Windy Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7329,
+          "West": 7326
+        }
+      },
+      {
+        "Id": 7331,
+        "Name": "The Glittering Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7332,
+          "South": 7326,
+          "West": 7333
+        }
+      },
+      {
+        "Id": 7332,
+        "Name": "The Secret Passageway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 7331
+        }
+      },
+      {
+        "Id": 7333,
+        "Name": "The End Of Long Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7331,
+          "West": 7334
+        }
+      },
+      {
+        "Id": 7334,
+        "Name": "The Stair-Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7335
+        }
+      },
+      {
+        "Id": 7335,
+        "Name": "A Dark Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7334,
+          "South": 7336
+        }
+      },
+      {
+        "Id": 7336,
+        "Name": "The Entrance To The Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7335,
+          "East": 7322,
+          "South": 7337
+        }
+      },
+      {
+        "Id": 7337,
+        "Name": "The North-Eastern Part Of The Basilisk\u0027s Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7336,
+          "South": 7338,
+          "West": 7339
+        }
+      },
+      {
+        "Id": 7338,
+        "Name": "The South-Eastern Part Of The Basilisk\u0027s Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7337,
+          "West": 7340
+        }
+      },
+      {
+        "Id": 7339,
+        "Name": "The North-Western Part Of The Basilisk\u0027s Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7337,
+          "South": 7340
+        }
+      },
+      {
+        "Id": 7340,
+        "Name": "The South-Western Part Of The Basilisk\u0027s Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7339,
+          "East": 7338,
+          "South": 7341
+        }
+      },
+      {
+        "Id": 7341,
+        "Name": "The Small Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7340,
+          "South": 7342
+        }
+      },
+      {
+        "Id": 7342,
+        "Name": "The Northern End Of The Pool",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7341,
+          "East": 7343,
+          "South": 7344
+        }
+      },
+      {
+        "Id": 7343,
+        "Name": "The Pool",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7345,
+          "West": 7342
+        }
+      },
+      {
+        "Id": 7344,
+        "Name": "The South End Of The Pool",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7342,
+          "East": 7345
+        }
+      },
+      {
+        "Id": 7345,
+        "Name": "The Pool",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7343,
+          "East": 7313,
+          "West": 7344
+        }
+      },
+      {
+        "Id": 7102,
+        "Name": "To Second Sewer",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "East": 7104,
+          "Up": 7004,
+          "Down": 7300
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

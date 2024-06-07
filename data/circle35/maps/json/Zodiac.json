@@ -1,0 +1,378 @@
+{
+  "Area": {
+    "Name": "Zodiac",
+    "Credits": "Gatia",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 5700,
+        "Name": "Entrance to the Zodiac",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 5701,
+        "Name": "Gemini\u0027s Hideaway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5702,
+          "South": 5708
+        }
+      },
+      {
+        "Id": 5702,
+        "Name": "Pisces Lagoon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 5711,
+          "West": 5701
+        }
+      },
+      {
+        "Id": 5703,
+        "Name": "Chamber of Aquarius",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5711,
+          "Up": 5704
+        }
+      },
+      {
+        "Id": 5704,
+        "Name": "Leo\u0027s Den",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5705,
+          "Down": 5703
+        }
+      },
+      {
+        "Id": 5705,
+        "Name": "Taurus\u0027s Pen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 5706,
+          "West": 5704
+        }
+      },
+      {
+        "Id": 5706,
+        "Name": "Aries Shearing Shed",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5705,
+          "East": 5707,
+          "South": 5710,
+          "West": 5709
+        }
+      },
+      {
+        "Id": 5707,
+        "Name": "Abyss of Death",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 5708,
+        "Name": "The Bloodstained Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5701
+        }
+      },
+      {
+        "Id": 5709,
+        "Name": "Ursa\u0027s Den",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5706,
+          "West": 5712
+        }
+      },
+      {
+        "Id": 5710,
+        "Name": "Sagittarius\u0027 Temple of Weapons",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5706,
+          "East": 5713,
+          "West": 5714
+        }
+      },
+      {
+        "Id": 5711,
+        "Name": "Yet Another Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5702,
+          "South": 5703
+        }
+      },
+      {
+        "Id": 5712,
+        "Name": "Cancer\u0027s Hole",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5709
+        }
+      },
+      {
+        "Id": 5713,
+        "Name": "ZodiaShop",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 5710
+        }
+      },
+      {
+        "Id": 5714,
+        "Name": "Virgos\u0027 Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5710,
+          "South": 5715
+        }
+      },
+      {
+        "Id": 5715,
+        "Name": "The Muddy Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5714,
+          "South": 5716
+        }
+      },
+      {
+        "Id": 5716,
+        "Name": "Nearing the end of the muddy hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5715,
+          "South": 5717
+        }
+      },
+      {
+        "Id": 5717,
+        "Name": "Entering the Ethereal Void",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5716,
+          "South": 5718
+        }
+      },
+      {
+        "Id": 5718,
+        "Name": "Floating in the Ethereal Void",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5717,
+          "South": 5719
+        }
+      },
+      {
+        "Id": 5719,
+        "Name": "Exit from the Portal",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5718,
+          "South": 5720
+        }
+      },
+      {
+        "Id": 5720,
+        "Name": "In the Pass",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5719,
+          "South": 5721
+        }
+      },
+      {
+        "Id": 5721,
+        "Name": "Entrance to the valley",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5720,
+          "South": 5722
+        }
+      },
+      {
+        "Id": 5722,
+        "Name": "In the valley of Capricorn",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5721,
+          "East": 5727,
+          "West": 5723
+        }
+      },
+      {
+        "Id": 5723,
+        "Name": "Ascending the Hill of Capricorn",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5722,
+          "Up": 5724
+        }
+      },
+      {
+        "Id": 5724,
+        "Name": "Capricorns\u0027 Hill",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5725,
+          "Down": 5723
+        }
+      },
+      {
+        "Id": 5725,
+        "Name": "Descending towards the Waterfall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5726,
+          "South": 5724
+        }
+      },
+      {
+        "Id": 5726,
+        "Name": "Outside the Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5728,
+          "South": 5725
+        }
+      },
+      {
+        "Id": 5727,
+        "Name": "Under an Oak Tree",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 5722,
+          "Up": 5731
+        }
+      },
+      {
+        "Id": 5728,
+        "Name": "The Cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5729,
+          "South": 5726
+        }
+      },
+      {
+        "Id": 5729,
+        "Name": "The Dark Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5730,
+          "South": 5728
+        }
+      },
+      {
+        "Id": 5730,
+        "Name": "Scorpio\u0027s Throneroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 5729
+        }
+      },
+      {
+        "Id": 5731,
+        "Name": "On the oaken ladder",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 5732,
+          "Down": 5727
+        }
+      },
+      {
+        "Id": 5732,
+        "Name": "Halfway up the Tree",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 5733,
+          "Down": 5731
+        }
+      },
+      {
+        "Id": 5733,
+        "Name": "Near the top of the Tree",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 5734,
+          "Down": 5732
+        }
+      },
+      {
+        "Id": 5734,
+        "Name": "At the top of the tree",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 5733
+        }
+      },
+      {
+        "Id": 5735,
+        "Name": "A Bloodied Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 5799,
+        "Name": "The Portal Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}
