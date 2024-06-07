@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>circle31's Maps%</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" />
+</head>
+<body>
+    <table id="table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Credits</th>
+                <th scope="col">Min Level</th>
+                <th scope="col">Max Level</th>
+                <th scope="col">Json</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+    <script>
+var data = [
+[["Limbo - Internal", "data/circle31/maps/png/Limbo - Internal.png"], "", "", "", "data/circle31/maps/json/Limbo - Internal.json"],
+[["River Island Of Minos", "data/circle31/maps/png/River Island Of Minos.png"], "", "", "", "data/circle31/maps/json/River Island Of Minos.json"],
+[["God Simplex", "data/circle31/maps/png/God Simplex.png"], "", "", "", "data/circle31/maps/json/God Simplex.json"],
+[["The Straight Path", "data/circle31/maps/png/The Straight Path.png"], "", "", "", "data/circle31/maps/json/The Straight Path.json"],
+[["The High Tower Of Magic", "data/circle31/maps/png/The High Tower Of Magic.png"], "", "", "", "data/circle31/maps/json/The High Tower Of Magic.json"],
+[["Northern Midgaard Main City", "data/circle31/maps/png/Northern Midgaard Main City.png"], "", "", "", "data/circle31/maps/json/Northern Midgaard Main City.json"],
+[["Southern part of Midgaard", "data/circle31/maps/png/Southern part of Midgaard.png"], "", "", "", "data/circle31/maps/json/Southern part of Midgaard.json"],
+[["The Three Of Swords", "data/circle31/maps/png/The Three Of Swords.png"], "", "", "", "data/circle31/maps/json/The Three Of Swords.json"],
+[["Miden'Nir", "data/circle31/maps/png/Miden'Nir.png"], "", "", "", "data/circle31/maps/json/Miden'Nir.json"],
+[["The Chessboard of Midgaard", "data/circle31/maps/png/The Chessboard of Midgaard.png"], "", "", "", "data/circle31/maps/json/The Chessboard of Midgaard.json"],
+[["Mines of Moria", "data/circle31/maps/png/Mines of Moria.png"], "", "", "", "data/circle31/maps/json/Mines of Moria.json"],
+[["The Great Eastern Desert", "data/circle31/maps/png/The Great Eastern Desert.png"], "", "", "", "data/circle31/maps/json/The Great Eastern Desert.json"],
+[["Drow City", "data/circle31/maps/png/Drow City.png"], "", "", "", "data/circle31/maps/json/Drow City.json"],
+[["The City Of Thalos", "data/circle31/maps/png/The City Of Thalos.png"], "", "", "", "data/circle31/maps/json/The City Of Thalos.json"],
+[["The Great Pyramid", "data/circle31/maps/png/The Great Pyramid.png"], "", "", "", "data/circle31/maps/json/The Great Pyramid.json"],
+[["New Thalos", "data/circle31/maps/png/New Thalos.png"], "", "", "", "data/circle31/maps/json/New Thalos.json"],
+[["Haon-Dor, Light Forest", "data/circle31/maps/png/Haon-Dor, Light Forest.png"], "", "", "", "data/circle31/maps/json/Haon-Dor, Light Forest.json"],
+[["Haon-Dor, Dark Forest", "data/circle31/maps/png/Haon-Dor, Dark Forest.png"], "", "", "", "data/circle31/maps/json/Haon-Dor, Dark Forest.json"],
+[["The Orc Enclave", "data/circle31/maps/png/The Orc Enclave.png"], "", "", "", "data/circle31/maps/json/The Orc Enclave.json"],
+[["Arachnos", "data/circle31/maps/png/Arachnos.png"], "", "", "", "data/circle31/maps/json/Arachnos.json"],
+[["Rand's Tower", "data/circle31/maps/png/Rand's Tower.png"], "", "", "", "data/circle31/maps/json/Rand's Tower.json"],
+[["The Dwarven Kingdom", "data/circle31/maps/png/The Dwarven Kingdom.png"], "", "", "", "data/circle31/maps/json/The Dwarven Kingdom.json"],
+[["The Sewer, First Level", "data/circle31/maps/png/The Sewer, First Level.png"], "", "", "", "data/circle31/maps/json/The Sewer, First Level.json"],
+[["The Second Sewer", "data/circle31/maps/png/The Second Sewer.png"], "", "", "", "data/circle31/maps/json/The Second Sewer.json"],
+[["The Sewer Maze", "data/circle31/maps/png/The Sewer Maze.png"], "", "", "", "data/circle31/maps/json/The Sewer Maze.json"],
+[["Redferne's Residence", "data/circle31/maps/png/Redferne's Residence.png"], "", "", "", "data/circle31/maps/json/Redferne's Residence.json"],
+[["Rome", "data/circle31/maps/png/Rome.png"], "", "", "", "data/circle31/maps/json/Rome.json"],
+[["King Welmar's Castle", "data/circle31/maps/png/King Welmar's Castle.png"], "", "", "", "data/circle31/maps/json/King Welmar's Castle.json"],
+[["Newbie Zone", "data/circle31/maps/png/Newbie Zone.png"], "", "", "", "data/circle31/maps/json/Newbie Zone.json"],
+];
+
+
+    $('#table').DataTable({
+		columnDefs: [
+			{
+				targets: 0,
+				render: function (data, type) {
+					return '<a href="' + data[1] + '">' + data[0] + '</a>';
+				}
+            },
+			{
+				targets: 4,
+				render: function (data, type) {
+					return '<a href="' + data + '">json</a>';
+				}
+            }
+		],
+        paging: false,
+        data: data
+    });
+    </script>
+</body>
+</html>

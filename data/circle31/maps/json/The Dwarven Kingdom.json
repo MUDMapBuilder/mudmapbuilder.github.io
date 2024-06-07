@@ -1,0 +1,547 @@
+{
+  "Area": {
+    "Name": "The Dwarven Kingdom",
+    "Credits": null,
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 6500,
+        "Name": "The Path To The Dwarven Village",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6501,
+          "Up": 3502
+        }
+      },
+      {
+        "Id": 6501,
+        "Name": "The Path At The Base Of The Mountain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6502,
+          "South": 6500
+        }
+      },
+      {
+        "Id": 6502,
+        "Name": "The Path At The Middle Of The Mountain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6503,
+          "South": 6501
+        }
+      },
+      {
+        "Id": 6503,
+        "Name": "The Top Of The Mountain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6540,
+          "South": 6502,
+          "West": 6505
+        }
+      },
+      {
+        "Id": 6504,
+        "Name": "The Narrow Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6506,
+          "South": 6540
+        }
+      },
+      {
+        "Id": 6505,
+        "Name": "The Entrance To The Mountain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6503,
+          "West": 6513
+        }
+      },
+      {
+        "Id": 6506,
+        "Name": "A Bend In The Narrow Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6507,
+          "South": 6504
+        }
+      },
+      {
+        "Id": 6507,
+        "Name": "The Narrow Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6508,
+          "West": 6506
+        }
+      },
+      {
+        "Id": 6508,
+        "Name": "The Narrow North-South Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6509,
+          "South": 6507
+        }
+      },
+      {
+        "Id": 6509,
+        "Name": "The Door To The Kingdom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6510,
+          "South": 6508,
+          "West": 6522
+        }
+      },
+      {
+        "Id": 6510,
+        "Name": "On The Path To The Castle",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6511,
+          "South": 6509
+        }
+      },
+      {
+        "Id": 6511,
+        "Name": "Still On The Path To The Castle",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6512,
+          "South": 6510
+        }
+      },
+      {
+        "Id": 6512,
+        "Name": "The Door To The Castle",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6525,
+          "South": 6511
+        }
+      },
+      {
+        "Id": 6513,
+        "Name": "Inside The Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6514,
+          "East": 6505,
+          "West": 6526
+        }
+      },
+      {
+        "Id": 6514,
+        "Name": "The Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6515,
+          "South": 6513
+        }
+      },
+      {
+        "Id": 6515,
+        "Name": "A Turn In The Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 6514,
+          "West": 6516
+        }
+      },
+      {
+        "Id": 6516,
+        "Name": "The Hide \u0026 Tooth Shop",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6517,
+          "East": 6515
+        }
+      },
+      {
+        "Id": 6517,
+        "Name": "The Path To The North Of The Shop",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6518,
+          "South": 6516,
+          "West": 6535
+        }
+      },
+      {
+        "Id": 6518,
+        "Name": "North Of The Shops",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6519,
+          "South": 6517
+        }
+      },
+      {
+        "Id": 6519,
+        "Name": "A Path By The Hospital",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6534,
+          "East": 6520,
+          "West": 6518
+        }
+      },
+      {
+        "Id": 6520,
+        "Name": "A Path Next To The Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6521,
+          "West": 6519
+        }
+      },
+      {
+        "Id": 6521,
+        "Name": "The Entrance To The Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 6523,
+          "West": 6520
+        }
+      },
+      {
+        "Id": 6522,
+        "Name": "A Guard House",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6509
+        }
+      },
+      {
+        "Id": 6523,
+        "Name": "The First Barrack Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6521,
+          "South": 6524
+        }
+      },
+      {
+        "Id": 6524,
+        "Name": "The Back Of The Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6523
+        }
+      },
+      {
+        "Id": 6525,
+        "Name": "Inside Of Castle Strangelove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 6512,
+          "Up": 6528
+        }
+      },
+      {
+        "Id": 6526,
+        "Name": "A Store Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6513,
+          "Down": 6527
+        }
+      },
+      {
+        "Id": 6527,
+        "Name": "The Wine Cellar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 6526
+        }
+      },
+      {
+        "Id": 6528,
+        "Name": "On The Stairs In Castle Strangelove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 6529,
+          "Down": 6525
+        }
+      },
+      {
+        "Id": 6529,
+        "Name": "On The Stairs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 6530,
+          "Down": 6528
+        }
+      },
+      {
+        "Id": 6530,
+        "Name": "At The Top Of The Stairs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6531,
+          "Down": 6529
+        }
+      },
+      {
+        "Id": 6531,
+        "Name": "The Queen\u0027s Waiting Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6532,
+          "West": 6530
+        }
+      },
+      {
+        "Id": 6532,
+        "Name": "The Queen\u0027s Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 6531,
+          "West": 6554,
+          "Down": 6533
+        }
+      },
+      {
+        "Id": 6533,
+        "Name": "The North Side Of Castle Strangelove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 6532
+        }
+      },
+      {
+        "Id": 6534,
+        "Name": "The Hospital",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 6519
+        }
+      },
+      {
+        "Id": 6535,
+        "Name": "Granite Head\u0027s Bakery",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6517
+        }
+      },
+      {
+        "Id": 6540,
+        "Name": "The Dark Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6504,
+          "East": 6541,
+          "West": 6503
+        }
+      },
+      {
+        "Id": 6541,
+        "Name": "The Mine Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 6540,
+          "Down": 6542
+        }
+      },
+      {
+        "Id": 6542,
+        "Name": "At The Bottom Of The Mineshaft",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6543,
+          "Up": 6541
+        }
+      },
+      {
+        "Id": 6543,
+        "Name": "On The Path Inside The Mine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6544,
+          "West": 6542
+        }
+      },
+      {
+        "Id": 6544,
+        "Name": "The Mine Crossroad",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6546,
+          "East": 6545,
+          "South": 6551,
+          "West": 6543
+        }
+      },
+      {
+        "Id": 6545,
+        "Name": "The Coal Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 6544
+        }
+      },
+      {
+        "Id": 6546,
+        "Name": "The Mine Maze",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6547,
+          "South": 6544
+        }
+      },
+      {
+        "Id": 6547,
+        "Name": "At The Maze Inscription",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6548,
+          "East": 6544,
+          "West": 6546
+        }
+      },
+      {
+        "Id": 6548,
+        "Name": "The Maze",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6549,
+          "South": 6547,
+          "West": 6548
+        }
+      },
+      {
+        "Id": 6549,
+        "Name": "The Maze",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6548,
+          "South": 6548,
+          "West": 6550
+        }
+      },
+      {
+        "Id": 6550,
+        "Name": "The Maze",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6549,
+          "East": 6549,
+          "South": 6552,
+          "West": 6548
+        }
+      },
+      {
+        "Id": 6551,
+        "Name": "The Mining Equipment Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6544
+        }
+      },
+      {
+        "Id": 6552,
+        "Name": "The End Of The Maze",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6550,
+          "South": 6553
+        }
+      },
+      {
+        "Id": 6553,
+        "Name": "The Mazekeeper\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 6552
+        }
+      },
+      {
+        "Id": 6554,
+        "Name": "The Treasury",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 6532
+        }
+      },
+      {
+        "Id": 3502,
+        "Name": "To Miden\u0027Nir",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 3501,
+          "East": 15000,
+          "West": 3503,
+          "Down": 6500
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}
