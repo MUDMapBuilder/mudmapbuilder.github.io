@@ -1,0 +1,743 @@
+{
+  "Area": {
+    "Name": "Cliffs of Kylos",
+    "Credits": "Kylos",
+    "MinimumLevel": "ALL",
+    "MaximumLevel": "ALL",
+    "Rooms": [
+      {
+        "Id": 30400,
+        "Name": "The Edge of the Canyon",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30401,
+          "East": 30405
+        }
+      },
+      {
+        "Id": 30401,
+        "Name": "The Bottom of a Sharp Incline",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30400,
+          "Up": 30402
+        }
+      },
+      {
+        "Id": 30402,
+        "Name": "A Narrow Path up the Cliffs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 30403,
+          "Down": 30401
+        }
+      },
+      {
+        "Id": 30403,
+        "Name": "A Broken Ledge Over the Ravine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30404,
+          "Down": 30402
+        }
+      },
+      {
+        "Id": 30404,
+        "Name": "A Narrow Path Along the Cliffs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30406,
+          "West": 30403
+        }
+      },
+      {
+        "Id": 30405,
+        "Name": "Canyon Before the Cliffs of Kylos",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 40788,
+          "West": 30400
+        }
+      },
+      {
+        "Id": 30406,
+        "Name": "A Narrow Path Along the Cliffs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30407,
+          "West": 30404
+        }
+      },
+      {
+        "Id": 30407,
+        "Name": "A Dead End in the Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30406,
+          "Up": 30408
+        }
+      },
+      {
+        "Id": 30408,
+        "Name": "Hanging by a Rope Ladder",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30427,
+          "Up": 30409,
+          "Down": 30407
+        }
+      },
+      {
+        "Id": 30409,
+        "Name": "Hanging by a Rope Ladder",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 30410,
+          "Down": 30408
+        }
+      },
+      {
+        "Id": 30410,
+        "Name": "A Plateau Above the Cliffs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30411,
+          "Down": 30409
+        }
+      },
+      {
+        "Id": 30411,
+        "Name": "A Treacherous Path Along the Cliffs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30410,
+          "West": 30412
+        }
+      },
+      {
+        "Id": 30412,
+        "Name": "A Treacherous Path Along the Cliffs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30411,
+          "West": 30413
+        }
+      },
+      {
+        "Id": 30413,
+        "Name": "A Treacherous Path Along the Cliffs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30412,
+          "West": 30414
+        }
+      },
+      {
+        "Id": 30414,
+        "Name": "Entrance to a Dark Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30415,
+          "East": 30413
+        }
+      },
+      {
+        "Id": 30415,
+        "Name": "A Cold, Damp Section of the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30422,
+          "East": 30416,
+          "South": 30414
+        }
+      },
+      {
+        "Id": 30416,
+        "Name": "A Cold, Damp Section of the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30421,
+          "East": 30417,
+          "West": 30415
+        }
+      },
+      {
+        "Id": 30417,
+        "Name": "A Cold, Damp Section of the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30420,
+          "East": 30418,
+          "West": 30416
+        }
+      },
+      {
+        "Id": 30418,
+        "Name": "A Cold, Damp Section of the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30419,
+          "West": 30417
+        }
+      },
+      {
+        "Id": 30419,
+        "Name": "A Cold, Damp Section of the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30426,
+          "South": 30418,
+          "West": 30420
+        }
+      },
+      {
+        "Id": 30420,
+        "Name": "The Middle of a Cold, Damp Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30425,
+          "East": 30419,
+          "South": 30417,
+          "West": 30421
+        }
+      },
+      {
+        "Id": 30421,
+        "Name": "A Cold, Damp Section of the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30424,
+          "East": 30420,
+          "South": 30416,
+          "West": 30422
+        }
+      },
+      {
+        "Id": 30422,
+        "Name": "A Cold, Damp Section of the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30423,
+          "East": 30421,
+          "South": 30415
+        }
+      },
+      {
+        "Id": 30423,
+        "Name": "A Cold, Damp Section of the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30424,
+          "South": 30422
+        }
+      },
+      {
+        "Id": 30424,
+        "Name": "A Cold, Damp Section of the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30425,
+          "South": 30421,
+          "West": 30423
+        }
+      },
+      {
+        "Id": 30425,
+        "Name": "A Cold, Damp Section of the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30426,
+          "South": 30420,
+          "West": 30424
+        }
+      },
+      {
+        "Id": 30426,
+        "Name": "A Cold, Damp Section of the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30419,
+          "West": 30425,
+          "Down": 30449
+        }
+      },
+      {
+        "Id": 30427,
+        "Name": "Atop a Wobbling Stone Slab",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30428,
+          "East": 30408
+        }
+      },
+      {
+        "Id": 30428,
+        "Name": "A twisted Tunnel Into the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30429,
+          "East": 30440,
+          "South": 30427,
+          "West": 30433
+        }
+      },
+      {
+        "Id": 30429,
+        "Name": "A Scorched Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30430,
+          "South": 30428
+        }
+      },
+      {
+        "Id": 30430,
+        "Name": "A Scorched Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30431,
+          "South": 30429
+        }
+      },
+      {
+        "Id": 30431,
+        "Name": "A Scorched Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30432,
+          "South": 30430
+        }
+      },
+      {
+        "Id": 30432,
+        "Name": "A Large, Fire-Blasted Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30453,
+          "East": 30450,
+          "South": 30431,
+          "West": 30451
+        }
+      },
+      {
+        "Id": 30433,
+        "Name": "A twisted Tunnel Into the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30434,
+          "East": 30428
+        }
+      },
+      {
+        "Id": 30434,
+        "Name": "A twisted Tunnel Into the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30435,
+          "South": 30433
+        }
+      },
+      {
+        "Id": 30435,
+        "Name": "A twisted Tunnel Into the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30434,
+          "West": 30436,
+          "Up": 30437
+        }
+      },
+      {
+        "Id": 30436,
+        "Name": "A twisted Tunnel Into the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30435
+        }
+      },
+      {
+        "Id": 30437,
+        "Name": "",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30438,
+          "Down": 30435
+        }
+      },
+      {
+        "Id": 30438,
+        "Name": "",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30437,
+          "West": 30439
+        }
+      },
+      {
+        "Id": 30439,
+        "Name": "",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30438
+        }
+      },
+      {
+        "Id": 30440,
+        "Name": "A Twisted Tunnel Into the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30441,
+          "West": 30428
+        }
+      },
+      {
+        "Id": 30441,
+        "Name": "A Twisted Tunnel Into the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30442,
+          "South": 30440
+        }
+      },
+      {
+        "Id": 30442,
+        "Name": "A Twisted Tunnel Into the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30443,
+          "South": 30441,
+          "Up": 30444
+        }
+      },
+      {
+        "Id": 30443,
+        "Name": "A Twisted Tunnel Into the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30447,
+          "West": 30442,
+          "Up": 30447
+        }
+      },
+      {
+        "Id": 30444,
+        "Name": "A Twisted Tunnel Into the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30445,
+          "Down": 30442
+        }
+      },
+      {
+        "Id": 30445,
+        "Name": "A Twisted Tunnel Into the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30446,
+          "West": 30444
+        }
+      },
+      {
+        "Id": 30446,
+        "Name": "The End of a Twisted Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30445
+        }
+      },
+      {
+        "Id": 30447,
+        "Name": "A Twisted Tunnel Into the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30443,
+          "South": 30448,
+          "Down": 30443
+        }
+      },
+      {
+        "Id": 30448,
+        "Name": "A Twisted Tunnel Into the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30447,
+          "Up": 30449
+        }
+      },
+      {
+        "Id": 30449,
+        "Name": "A Twisted Tunnel Into the Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 30426,
+          "Down": 30448
+        }
+      },
+      {
+        "Id": 30450,
+        "Name": "A Large, Fire-Blasted Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30452,
+          "West": 30432
+        }
+      },
+      {
+        "Id": 30451,
+        "Name": "A Large, Fire-Blasted Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30454,
+          "East": 30432
+        }
+      },
+      {
+        "Id": 30452,
+        "Name": "A Large, Fire-Blasted Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30450,
+          "West": 30453,
+          "Down": 30455
+        }
+      },
+      {
+        "Id": 30453,
+        "Name": "A Large, Fire-Blasted Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30452,
+          "South": 30432,
+          "West": 30454,
+          "Down": 30456
+        }
+      },
+      {
+        "Id": 30454,
+        "Name": "A Large, Fire-Blasted Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30453,
+          "South": 30451,
+          "Down": 30457
+        }
+      },
+      {
+        "Id": 30455,
+        "Name": "A Large, Fire-Blasted Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30458,
+          "West": 30456,
+          "Up": 30452
+        }
+      },
+      {
+        "Id": 30456,
+        "Name": "A Large, Fire-Blasted Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30459,
+          "East": 30455,
+          "West": 30457,
+          "Up": 30453
+        }
+      },
+      {
+        "Id": 30457,
+        "Name": "A Large, Fire-Blasted Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30460,
+          "East": 30456,
+          "Up": 30454
+        }
+      },
+      {
+        "Id": 30458,
+        "Name": "A Large, Fire-Blasted Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30461,
+          "South": 30455,
+          "West": 30459
+        }
+      },
+      {
+        "Id": 30459,
+        "Name": "A Large, Fire-Blasted Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30462,
+          "East": 30458,
+          "South": 30456,
+          "West": 30460
+        }
+      },
+      {
+        "Id": 30460,
+        "Name": "A Large, Fire-Blasted Cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30463,
+          "East": 30459,
+          "South": 30457
+        }
+      },
+      {
+        "Id": 30461,
+        "Name": "A Sudden Drop-Off",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30458,
+          "West": 30462
+        }
+      },
+      {
+        "Id": 30462,
+        "Name": "On the Edge of a Cliff",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30461,
+          "South": 30459,
+          "West": 30463
+        }
+      },
+      {
+        "Id": 30463,
+        "Name": "On the Edge of a Cliff",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30462,
+          "South": 30460,
+          "West": 30464
+        }
+      },
+      {
+        "Id": 30464,
+        "Name": "Along a Steep Cliffside",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30463,
+          "Down": 30465
+        }
+      },
+      {
+        "Id": 30465,
+        "Name": "Along a Steep Incline",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 30464,
+          "Down": 30466
+        }
+      },
+      {
+        "Id": 30466,
+        "Name": "Along a Steep Incline",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30467,
+          "Up": 30465
+        }
+      },
+      {
+        "Id": 30467,
+        "Name": "Underneath a Precarious Ledge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30466
+        }
+      },
+      {
+        "Id": 40788,
+        "Name": "To The North Road",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 30405,
+          "South": 40781,
+          "Down": 40787
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": false,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

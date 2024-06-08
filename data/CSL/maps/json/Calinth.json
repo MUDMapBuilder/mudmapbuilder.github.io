@@ -1,0 +1,3379 @@
+{
+  "Area": {
+    "Name": "Calinth",
+    "Credits": "Jholland",
+    "MinimumLevel": "5",
+    "MaximumLevel": "35",
+    "Rooms": [
+      {
+        "Id": 20000,
+        "Name": "The Yawning Portal",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20001,
+          "East": 20009
+        }
+      },
+      {
+        "Id": 20001,
+        "Name": "Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20000,
+          "Up": 20002
+        }
+      },
+      {
+        "Id": 20002,
+        "Name": "Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20003,
+          "East": 20005,
+          "West": 20004,
+          "Down": 20001
+        }
+      },
+      {
+        "Id": 20003,
+        "Name": "End of Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20007,
+          "East": 20008,
+          "South": 20002,
+          "West": 20006
+        }
+      },
+      {
+        "Id": 20004,
+        "Name": "Room # 1",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20002
+        }
+      },
+      {
+        "Id": 20005,
+        "Name": "Room # 5",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20002
+        }
+      },
+      {
+        "Id": 20006,
+        "Name": "Room # 2",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20003
+        }
+      },
+      {
+        "Id": 20007,
+        "Name": "Room # 3",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20003
+        }
+      },
+      {
+        "Id": 20008,
+        "Name": "Room # 4",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20003
+        }
+      },
+      {
+        "Id": 20009,
+        "Name": "Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20010,
+          "West": 20000,
+          "Down": 20011
+        }
+      },
+      {
+        "Id": 20010,
+        "Name": "Innkeeper\u0027s Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20009
+        }
+      },
+      {
+        "Id": 20011,
+        "Name": "Basement",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 20009
+        }
+      },
+      {
+        "Id": 20012,
+        "Name": "The Red-Eyed Owl",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20013,
+          "South": 20245
+        }
+      },
+      {
+        "Id": 20013,
+        "Name": "Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20014,
+          "East": 20015,
+          "South": 20012
+        }
+      },
+      {
+        "Id": 20014,
+        "Name": "Private Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20013
+        }
+      },
+      {
+        "Id": 20015,
+        "Name": "The Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20016,
+          "West": 20013,
+          "Down": 20017
+        }
+      },
+      {
+        "Id": 20016,
+        "Name": "Living Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20015
+        }
+      },
+      {
+        "Id": 20017,
+        "Name": "Wine Cellar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20018,
+          "Up": 20015
+        }
+      },
+      {
+        "Id": 20018,
+        "Name": "Storage Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20017
+        }
+      },
+      {
+        "Id": 20019,
+        "Name": "The Sleepy Sylph",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20177,
+          "South": 20020
+        }
+      },
+      {
+        "Id": 20020,
+        "Name": "Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20019,
+          "East": 20021,
+          "South": 20022
+        }
+      },
+      {
+        "Id": 20021,
+        "Name": "Private Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20020
+        }
+      },
+      {
+        "Id": 20022,
+        "Name": "Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20020,
+          "West": 20025,
+          "Up": 20023,
+          "Down": 20027
+        }
+      },
+      {
+        "Id": 20023,
+        "Name": "Owner\u0027s Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20024,
+          "South": 20026,
+          "Up": 20029,
+          "Down": 20022
+        }
+      },
+      {
+        "Id": 20024,
+        "Name": "Owner\u0027s Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20023
+        }
+      },
+      {
+        "Id": 20025,
+        "Name": "Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20022
+        }
+      },
+      {
+        "Id": 20026,
+        "Name": "Bathroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20023
+        }
+      },
+      {
+        "Id": 20027,
+        "Name": "Wine Cellar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20028,
+          "Up": 20022
+        }
+      },
+      {
+        "Id": 20028,
+        "Name": "Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20027
+        }
+      },
+      {
+        "Id": 20029,
+        "Name": "Attic",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 20023
+        }
+      },
+      {
+        "Id": 20030,
+        "Name": "Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20246,
+          "South": 20031
+        }
+      },
+      {
+        "Id": 20031,
+        "Name": "Lavatory",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20030
+        }
+      },
+      {
+        "Id": 20032,
+        "Name": "Smithy",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20240
+        }
+      },
+      {
+        "Id": 20033,
+        "Name": "Bell Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20246
+        }
+      },
+      {
+        "Id": 20034,
+        "Name": "Sheyrrhr\u0027s House Front Garden",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20035,
+          "West": 20213
+        }
+      },
+      {
+        "Id": 20035,
+        "Name": "Foyer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20036,
+          "West": 20034
+        }
+      },
+      {
+        "Id": 20036,
+        "Name": "Small Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20037,
+          "West": 20035
+        }
+      },
+      {
+        "Id": 20037,
+        "Name": "Dining Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20045,
+          "South": 20038,
+          "West": 20036,
+          "Up": 20039
+        }
+      },
+      {
+        "Id": 20038,
+        "Name": "Large Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20037
+        }
+      },
+      {
+        "Id": 20039,
+        "Name": "Landing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20042,
+          "East": 20040,
+          "West": 20041,
+          "Down": 20037
+        }
+      },
+      {
+        "Id": 20040,
+        "Name": "Guest Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20039
+        }
+      },
+      {
+        "Id": 20041,
+        "Name": "Bathroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20039
+        }
+      },
+      {
+        "Id": 20042,
+        "Name": "Master Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20039,
+          "Up": 20044
+        }
+      },
+      {
+        "Id": 20043,
+        "Name": "Basement",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20046,
+          "Up": 20045
+        }
+      },
+      {
+        "Id": 20044,
+        "Name": "Attic",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 20042
+        }
+      },
+      {
+        "Id": 20045,
+        "Name": "Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20037,
+          "Down": 20043
+        }
+      },
+      {
+        "Id": 20046,
+        "Name": "Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20043
+        }
+      },
+      {
+        "Id": 20047,
+        "Name": "The Dragon\u0027s Head Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20048,
+          "West": 20211
+        }
+      },
+      {
+        "Id": 20048,
+        "Name": "Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20049,
+          "West": 20047
+        }
+      },
+      {
+        "Id": 20049,
+        "Name": "Dining Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20050,
+          "West": 20048
+        }
+      },
+      {
+        "Id": 20050,
+        "Name": "Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20051,
+          "West": 20049
+        }
+      },
+      {
+        "Id": 20051,
+        "Name": "Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20050
+        }
+      },
+      {
+        "Id": 20052,
+        "Name": "The Elfstone Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20252,
+          "South": 20053
+        }
+      },
+      {
+        "Id": 20053,
+        "Name": "Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20052,
+          "East": 20055,
+          "South": 20056,
+          "West": 20054
+        }
+      },
+      {
+        "Id": 20054,
+        "Name": "Private Room # 1",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20053
+        }
+      },
+      {
+        "Id": 20055,
+        "Name": "Private Room # 2",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20053
+        }
+      },
+      {
+        "Id": 20056,
+        "Name": "Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20053,
+          "East": 20057
+        }
+      },
+      {
+        "Id": 20057,
+        "Name": "Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20056
+        }
+      },
+      {
+        "Id": 20058,
+        "Name": "Hilmer Warehouse",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20060,
+          "South": 20059,
+          "West": 20198
+        }
+      },
+      {
+        "Id": 20059,
+        "Name": "Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20058,
+          "East": 20063,
+          "South": 20061
+        }
+      },
+      {
+        "Id": 20060,
+        "Name": "Warehouse Floor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20058
+        }
+      },
+      {
+        "Id": 20061,
+        "Name": "Halls of Hilmer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20059,
+          "East": 20062,
+          "West": 20199
+        }
+      },
+      {
+        "Id": 20062,
+        "Name": "Work Area",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20061
+        }
+      },
+      {
+        "Id": 20063,
+        "Name": "Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20059
+        }
+      },
+      {
+        "Id": 20064,
+        "Name": "The Jade Jug Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20065,
+          "West": 20267
+        }
+      },
+      {
+        "Id": 20065,
+        "Name": "Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20066,
+          "West": 20064,
+          "Up": 20067
+        }
+      },
+      {
+        "Id": 20066,
+        "Name": "Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20077,
+          "West": 20065,
+          "Down": 20078
+        }
+      },
+      {
+        "Id": 20067,
+        "Name": "Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20070,
+          "South": 20068,
+          "West": 20071,
+          "Down": 20065
+        }
+      },
+      {
+        "Id": 20068,
+        "Name": "Middle of Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20067,
+          "East": 20072,
+          "South": 20069,
+          "West": 20073
+        }
+      },
+      {
+        "Id": 20069,
+        "Name": "End of Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20068,
+          "East": 20074,
+          "South": 20075,
+          "West": 20076
+        }
+      },
+      {
+        "Id": 20070,
+        "Name": "Room # 1",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20067
+        }
+      },
+      {
+        "Id": 20071,
+        "Name": "Room # 7",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20067
+        }
+      },
+      {
+        "Id": 20072,
+        "Name": "Room # 2",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20068
+        }
+      },
+      {
+        "Id": 20073,
+        "Name": "Room # 6",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20068
+        }
+      },
+      {
+        "Id": 20074,
+        "Name": "Room # 3",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20069
+        }
+      },
+      {
+        "Id": 20075,
+        "Name": "Room # 4",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20069
+        }
+      },
+      {
+        "Id": 20076,
+        "Name": "Room # 5",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20069
+        }
+      },
+      {
+        "Id": 20077,
+        "Name": "Innkeeper\u0027s Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20066
+        }
+      },
+      {
+        "Id": 20078,
+        "Name": "Basement",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 20066
+        }
+      },
+      {
+        "Id": 20079,
+        "Name": "The Blue Jack Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20274,
+          "South": 20080
+        }
+      },
+      {
+        "Id": 20080,
+        "Name": "Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20079,
+          "East": 20081,
+          "South": 20082
+        }
+      },
+      {
+        "Id": 20081,
+        "Name": "Small Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20080
+        }
+      },
+      {
+        "Id": 20082,
+        "Name": "Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20080,
+          "East": 20083,
+          "Down": 20085
+        }
+      },
+      {
+        "Id": 20083,
+        "Name": "Owner\u0027s Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20084,
+          "West": 20082
+        }
+      },
+      {
+        "Id": 20084,
+        "Name": "Bath Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20083
+        }
+      },
+      {
+        "Id": 20085,
+        "Name": "Basement",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 20082
+        }
+      },
+      {
+        "Id": 20086,
+        "Name": "The Pampered Traveler Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20087,
+          "South": 20236
+        }
+      },
+      {
+        "Id": 20087,
+        "Name": "Front Desk",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20089,
+          "East": 20088,
+          "South": 20086
+        }
+      },
+      {
+        "Id": 20088,
+        "Name": "Manager\u0027s Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20087
+        }
+      },
+      {
+        "Id": 20089,
+        "Name": "Lounge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20097,
+          "East": 20094,
+          "South": 20087,
+          "West": 20093
+        }
+      },
+      {
+        "Id": 20090,
+        "Name": "Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20094,
+          "Down": 20091
+        }
+      },
+      {
+        "Id": 20091,
+        "Name": "Wine Cellar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20092,
+          "Up": 20090
+        }
+      },
+      {
+        "Id": 20092,
+        "Name": "Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20091
+        }
+      },
+      {
+        "Id": 20093,
+        "Name": "Dining Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20095,
+          "East": 20089
+        }
+      },
+      {
+        "Id": 20094,
+        "Name": "Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20090,
+          "East": 20096,
+          "West": 20089
+        }
+      },
+      {
+        "Id": 20095,
+        "Name": "Smoking Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20093
+        }
+      },
+      {
+        "Id": 20096,
+        "Name": "Laundry",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20094
+        }
+      },
+      {
+        "Id": 20097,
+        "Name": "Library",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20089,
+          "Up": 20098
+        }
+      },
+      {
+        "Id": 20098,
+        "Name": "Beginning of Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20104,
+          "South": 20099,
+          "West": 20105,
+          "Down": 20097
+        }
+      },
+      {
+        "Id": 20099,
+        "Name": "Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20098,
+          "East": 20106,
+          "South": 20100,
+          "West": 20107
+        }
+      },
+      {
+        "Id": 20100,
+        "Name": "Middle of Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20099,
+          "East": 20108,
+          "South": 20101,
+          "West": 20109
+        }
+      },
+      {
+        "Id": 20101,
+        "Name": "Middle of Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20100,
+          "East": 20110,
+          "South": 20102,
+          "West": 20111
+        }
+      },
+      {
+        "Id": 20102,
+        "Name": "Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20101,
+          "East": 20112,
+          "South": 20103,
+          "West": 20113
+        }
+      },
+      {
+        "Id": 20103,
+        "Name": "End of Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20102,
+          "East": 20114,
+          "West": 20115,
+          "Up": 20116
+        }
+      },
+      {
+        "Id": 20104,
+        "Name": "Room # 1",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20098
+        }
+      },
+      {
+        "Id": 20105,
+        "Name": "Bath Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20098
+        }
+      },
+      {
+        "Id": 20106,
+        "Name": "Room # 2",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20099
+        }
+      },
+      {
+        "Id": 20107,
+        "Name": "Room # 11",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20099
+        }
+      },
+      {
+        "Id": 20108,
+        "Name": "Room # 3",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20100
+        }
+      },
+      {
+        "Id": 20109,
+        "Name": "Room # 10",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20100
+        }
+      },
+      {
+        "Id": 20110,
+        "Name": "Room # 4",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20101
+        }
+      },
+      {
+        "Id": 20111,
+        "Name": "Room # 9",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20101
+        }
+      },
+      {
+        "Id": 20112,
+        "Name": "Room # 5",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20102
+        }
+      },
+      {
+        "Id": 20113,
+        "Name": "Room # 8",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20102
+        }
+      },
+      {
+        "Id": 20114,
+        "Name": "Room # 6",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20103
+        }
+      },
+      {
+        "Id": 20115,
+        "Name": "Room # 7",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20103
+        }
+      },
+      {
+        "Id": 20116,
+        "Name": "Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20119,
+          "South": 20117,
+          "West": 20120,
+          "Down": 20103
+        }
+      },
+      {
+        "Id": 20117,
+        "Name": "Middle of Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20116,
+          "East": 20121,
+          "South": 20118,
+          "West": 20122
+        }
+      },
+      {
+        "Id": 20118,
+        "Name": "End of Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20117,
+          "East": 20123,
+          "West": 20124
+        }
+      },
+      {
+        "Id": 20119,
+        "Name": "Room #12",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20116
+        }
+      },
+      {
+        "Id": 20120,
+        "Name": "Bath Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20116
+        }
+      },
+      {
+        "Id": 20121,
+        "Name": "Room # 13",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20117
+        }
+      },
+      {
+        "Id": 20122,
+        "Name": "Room # 16",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20117
+        }
+      },
+      {
+        "Id": 20123,
+        "Name": "Room # 14",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20118
+        }
+      },
+      {
+        "Id": 20124,
+        "Name": "Room # 15",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20118
+        }
+      },
+      {
+        "Id": 20125,
+        "Name": "Marblehearth Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20213,
+          "South": 20126,
+          "Up": 20132,
+          "Down": 20133
+        }
+      },
+      {
+        "Id": 20126,
+        "Name": "Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20125,
+          "East": 20131,
+          "South": 20127,
+          "West": 20130
+        }
+      },
+      {
+        "Id": 20127,
+        "Name": "Dining Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20126,
+          "East": 20128,
+          "Down": 20135
+        }
+      },
+      {
+        "Id": 20128,
+        "Name": "Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20127
+        }
+      },
+      {
+        "Id": 20129,
+        "Name": "Bath Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20135
+        }
+      },
+      {
+        "Id": 20130,
+        "Name": "Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20126
+        }
+      },
+      {
+        "Id": 20131,
+        "Name": "Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20126
+        }
+      },
+      {
+        "Id": 20132,
+        "Name": "Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 20136,
+          "Down": 20125
+        }
+      },
+      {
+        "Id": 20133,
+        "Name": "Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 20125
+        }
+      },
+      {
+        "Id": 20134,
+        "Name": "Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20135
+        }
+      },
+      {
+        "Id": 20135,
+        "Name": "Basement",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20134,
+          "West": 20129,
+          "Up": 20127
+        }
+      },
+      {
+        "Id": 20136,
+        "Name": "Attic",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 20132
+        }
+      },
+      {
+        "Id": 20137,
+        "Name": "Stormwatch Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20142,
+          "East": 20138,
+          "South": 20143,
+          "West": 20234
+        }
+      },
+      {
+        "Id": 20138,
+        "Name": "Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20141,
+          "East": 20144,
+          "South": 20139,
+          "West": 20137
+        }
+      },
+      {
+        "Id": 20139,
+        "Name": "Dining Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20138,
+          "East": 20140
+        }
+      },
+      {
+        "Id": 20140,
+        "Name": "Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20139,
+          "Down": 20146
+        }
+      },
+      {
+        "Id": 20141,
+        "Name": "Bath Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20138
+        }
+      },
+      {
+        "Id": 20142,
+        "Name": "Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20137
+        }
+      },
+      {
+        "Id": 20143,
+        "Name": "Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20137
+        }
+      },
+      {
+        "Id": 20144,
+        "Name": "Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20138,
+          "Up": 20147
+        }
+      },
+      {
+        "Id": 20145,
+        "Name": "Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20146
+        }
+      },
+      {
+        "Id": 20146,
+        "Name": "Basement",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20145,
+          "Up": 20140
+        }
+      },
+      {
+        "Id": 20147,
+        "Name": "Attic",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 20144
+        }
+      },
+      {
+        "Id": 20148,
+        "Name": "Heroes\u0027 Rest Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20149,
+          "East": 20154,
+          "South": 20257,
+          "West": 20153
+        }
+      },
+      {
+        "Id": 20149,
+        "Name": "Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20150,
+          "East": 20152,
+          "South": 20148,
+          "West": 20155
+        }
+      },
+      {
+        "Id": 20150,
+        "Name": "Dining Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20151,
+          "South": 20149,
+          "Up": 20158
+        }
+      },
+      {
+        "Id": 20151,
+        "Name": "Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20150,
+          "Down": 20157
+        }
+      },
+      {
+        "Id": 20152,
+        "Name": "Bath Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20149
+        }
+      },
+      {
+        "Id": 20153,
+        "Name": "Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20148
+        }
+      },
+      {
+        "Id": 20154,
+        "Name": "Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20148
+        }
+      },
+      {
+        "Id": 20155,
+        "Name": "Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20149
+        }
+      },
+      {
+        "Id": 20156,
+        "Name": "Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20157
+        }
+      },
+      {
+        "Id": 20157,
+        "Name": "Basement",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20156,
+          "Up": 20151
+        }
+      },
+      {
+        "Id": 20158,
+        "Name": "Attic",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 20150
+        }
+      },
+      {
+        "Id": 20159,
+        "Name": "The Wandering Wemic Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20168,
+          "East": 20263,
+          "West": 20160
+        }
+      },
+      {
+        "Id": 20160,
+        "Name": "Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20159,
+          "Up": 20161
+        }
+      },
+      {
+        "Id": 20161,
+        "Name": "Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20164,
+          "South": 20163,
+          "West": 20162,
+          "Down": 20160
+        }
+      },
+      {
+        "Id": 20162,
+        "Name": "End of Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20167,
+          "East": 20161,
+          "South": 20165,
+          "West": 20166
+        }
+      },
+      {
+        "Id": 20163,
+        "Name": "Room # 1",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20161
+        }
+      },
+      {
+        "Id": 20164,
+        "Name": "Room # 5",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20161
+        }
+      },
+      {
+        "Id": 20165,
+        "Name": "Room # 2",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20162
+        }
+      },
+      {
+        "Id": 20166,
+        "Name": "Room # 3",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20162
+        }
+      },
+      {
+        "Id": 20167,
+        "Name": "Room # 4",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20162
+        }
+      },
+      {
+        "Id": 20168,
+        "Name": "Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20159,
+          "West": 20169,
+          "Down": 20170
+        }
+      },
+      {
+        "Id": 20169,
+        "Name": "Owner\u0027s Living Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20168
+        }
+      },
+      {
+        "Id": 20170,
+        "Name": "Basement",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 20168
+        }
+      },
+      {
+        "Id": 20171,
+        "Name": "Corner of North Street and Mandrake Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20172,
+          "South": 20181
+        }
+      },
+      {
+        "Id": 20172,
+        "Name": "North Street 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20173,
+          "South": 20291,
+          "West": 20171
+        }
+      },
+      {
+        "Id": 20173,
+        "Name": "Intersection of North Street and Dirk Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20174,
+          "South": 20196,
+          "West": 20172
+        }
+      },
+      {
+        "Id": 20174,
+        "Name": "North Street 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20175,
+          "West": 20173
+        }
+      },
+      {
+        "Id": 20175,
+        "Name": "Northern Gate",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20176,
+          "West": 20174
+        }
+      },
+      {
+        "Id": 20176,
+        "Name": "North Street 500 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20177,
+          "West": 20175
+        }
+      },
+      {
+        "Id": 20177,
+        "Name": "North Street 600 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20178,
+          "South": 20019,
+          "West": 20176
+        }
+      },
+      {
+        "Id": 20178,
+        "Name": "North Street 700 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20179,
+          "West": 20177
+        }
+      },
+      {
+        "Id": 20179,
+        "Name": "Intersection of North Street and Blue Drake Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20180,
+          "South": 20210,
+          "West": 20178
+        }
+      },
+      {
+        "Id": 20180,
+        "Name": "Corner of North Street and Grehyton Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20214,
+          "West": 20179
+        }
+      },
+      {
+        "Id": 20181,
+        "Name": "Mandrake Avenue 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20171,
+          "East": 20291,
+          "South": 20182
+        }
+      },
+      {
+        "Id": 20182,
+        "Name": "Intersection of Mandrake Avenue and Storm Crest Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20181,
+          "East": 20201,
+          "South": 20183
+        }
+      },
+      {
+        "Id": 20183,
+        "Name": "Mandrake Avenue 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20182,
+          "South": 20184
+        }
+      },
+      {
+        "Id": 20184,
+        "Name": "Intersection of Mandrake Avenue and Dirk Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20183,
+          "East": 20200,
+          "South": 20185
+        }
+      },
+      {
+        "Id": 20185,
+        "Name": "Mandrake Avenue 500 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20184,
+          "South": 20186
+        }
+      },
+      {
+        "Id": 20186,
+        "Name": "Mandrake Avenue 600 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20185,
+          "South": 20187
+        }
+      },
+      {
+        "Id": 20187,
+        "Name": "Intersection of Mandrake Avenue and Dungeon Drive",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20186,
+          "East": 20245,
+          "South": 20188
+        }
+      },
+      {
+        "Id": 20188,
+        "Name": "Mandrake Avenue 800 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20187,
+          "East": 20297,
+          "South": 20189
+        }
+      },
+      {
+        "Id": 20189,
+        "Name": "Intersection of Mandrake Avenue and Riverfront Way",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20188,
+          "East": 20253,
+          "South": 20190
+        }
+      },
+      {
+        "Id": 20190,
+        "Name": "Mandrake Avenue on the Durgas River Bridge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20189,
+          "South": 20191
+        }
+      },
+      {
+        "Id": 20191,
+        "Name": "Intersection of Mandrake Avenue and South Bank Drive",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20190,
+          "East": 20258,
+          "South": 20192
+        }
+      },
+      {
+        "Id": 20192,
+        "Name": "Mandrake Avenue 1100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20191,
+          "South": 20193
+        }
+      },
+      {
+        "Id": 20193,
+        "Name": "Mandrake Avenue 1200 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20192,
+          "South": 20194
+        }
+      },
+      {
+        "Id": 20194,
+        "Name": "Mandrake Avenue 1300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20193,
+          "South": 20195
+        }
+      },
+      {
+        "Id": 20195,
+        "Name": "Corner of Mandrake Avenue and Calinth Way",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20194,
+          "East": 20266
+        }
+      },
+      {
+        "Id": 20196,
+        "Name": "Dirk Lane 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20173,
+          "South": 20197
+        }
+      },
+      {
+        "Id": 20197,
+        "Name": "Intersection of Storm Crest Avenue and Dirk Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20196,
+          "East": 20202,
+          "South": 20198,
+          "West": 20201
+        }
+      },
+      {
+        "Id": 20198,
+        "Name": "Dirk Lane 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20197,
+          "East": 20058,
+          "South": 20199
+        }
+      },
+      {
+        "Id": 20199,
+        "Name": "Dirk Lane 400 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20198,
+          "East": 20061,
+          "West": 20200
+        }
+      },
+      {
+        "Id": 20200,
+        "Name": "Dirk Lane 500 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20000,
+          "East": 20199,
+          "West": 20184
+        }
+      },
+      {
+        "Id": 20201,
+        "Name": "Storm Crest Avenue 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20197,
+          "West": 20182
+        }
+      },
+      {
+        "Id": 20202,
+        "Name": "Storm Crest Avenue 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20203,
+          "West": 20197
+        }
+      },
+      {
+        "Id": 20203,
+        "Name": "Storm Crest Avenue 400 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20204,
+          "South": 20228,
+          "West": 20202
+        }
+      },
+      {
+        "Id": 20204,
+        "Name": "Storm Crest Avenue 500 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20205,
+          "South": 20302,
+          "West": 20203
+        }
+      },
+      {
+        "Id": 20205,
+        "Name": "Intersection of Storm Crest Avenue and Grayford Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20206,
+          "South": 20231,
+          "West": 20204
+        }
+      },
+      {
+        "Id": 20206,
+        "Name": "Storm Crest Avenue 700 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20207,
+          "West": 20205
+        }
+      },
+      {
+        "Id": 20207,
+        "Name": "Intersection of Storm Crest Avenue and Blue Drake Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20210,
+          "East": 20208,
+          "South": 20211,
+          "West": 20206
+        }
+      },
+      {
+        "Id": 20208,
+        "Name": "Storm Crest Avenue 900 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20209,
+          "West": 20207
+        }
+      },
+      {
+        "Id": 20209,
+        "Name": "Intersection of Grehyton Road and Storm Crest Avenue",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20214,
+          "South": 20215,
+          "West": 20208
+        }
+      },
+      {
+        "Id": 20210,
+        "Name": "Blue Drake Road 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20179,
+          "East": 20284,
+          "South": 20207
+        }
+      },
+      {
+        "Id": 20211,
+        "Name": "Blue Drake Road 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20207,
+          "East": 20047,
+          "South": 20212
+        }
+      },
+      {
+        "Id": 20212,
+        "Name": "Intersection of Blue Drake Road and Gables Place",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20211,
+          "East": 20238,
+          "South": 20213,
+          "West": 20237
+        }
+      },
+      {
+        "Id": 20213,
+        "Name": "End of Blue Drake Road 500 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20212,
+          "East": 20034,
+          "South": 20125
+        }
+      },
+      {
+        "Id": 20214,
+        "Name": "Grehyton Road 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20180,
+          "South": 20209,
+          "West": 20284
+        }
+      },
+      {
+        "Id": 20215,
+        "Name": "Grehyton Road 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20209,
+          "South": 20216
+        }
+      },
+      {
+        "Id": 20216,
+        "Name": "Intersection of Grehyton Road and Gables Place",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20215,
+          "South": 20217,
+          "West": 20238
+        }
+      },
+      {
+        "Id": 20217,
+        "Name": "Grehyton Road 500 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20216,
+          "South": 20218
+        }
+      },
+      {
+        "Id": 20218,
+        "Name": "Grehyton Road 600 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20217,
+          "South": 20219
+        }
+      },
+      {
+        "Id": 20219,
+        "Name": "Intersection of Grehyton Road and Dungeon Drive",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20218,
+          "South": 20220,
+          "West": 20248
+        }
+      },
+      {
+        "Id": 20220,
+        "Name": "Grehyton Road 800 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20219,
+          "South": 20221,
+          "West": 20306
+        }
+      },
+      {
+        "Id": 20221,
+        "Name": "Intersection of Grehyton Road and Riverfront Way",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20220,
+          "South": 20222,
+          "West": 20250
+        }
+      },
+      {
+        "Id": 20222,
+        "Name": "Grehyton Road on Leherak Bridge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20221,
+          "South": 20223
+        }
+      },
+      {
+        "Id": 20223,
+        "Name": "Intersection of Grehyton Road and South Bank Drive",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20222,
+          "South": 20224,
+          "West": 20252
+        }
+      },
+      {
+        "Id": 20224,
+        "Name": "Grehyton Road 1000 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20223,
+          "South": 20225
+        }
+      },
+      {
+        "Id": 20225,
+        "Name": "The East Gate Of Calinth",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20224,
+          "South": 20226,
+          "West": 20274
+        }
+      },
+      {
+        "Id": 20226,
+        "Name": "Grehyton Road 1300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20225,
+          "South": 20227
+        }
+      },
+      {
+        "Id": 20227,
+        "Name": "Corner of Grehyton Road and Calinth Way",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20226,
+          "West": 20278
+        }
+      },
+      {
+        "Id": 20228,
+        "Name": "North Storm Crest Alley",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20203,
+          "South": 20229
+        }
+      },
+      {
+        "Id": 20229,
+        "Name": "South Storm Crest Alley",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20228,
+          "South": 20230
+        }
+      },
+      {
+        "Id": 20230,
+        "Name": "Colton Circle 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20229,
+          "East": 20242,
+          "West": 20241
+        }
+      },
+      {
+        "Id": 20231,
+        "Name": "Grayford Lane 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20205,
+          "South": 20232
+        }
+      },
+      {
+        "Id": 20232,
+        "Name": "Intersection of Grayford Lane and Gables Place",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20231,
+          "East": 20237,
+          "South": 20233,
+          "West": 20236
+        }
+      },
+      {
+        "Id": 20233,
+        "Name": "Grayford Lane 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20232,
+          "South": 20234
+        }
+      },
+      {
+        "Id": 20234,
+        "Name": "Grayford Lane 400 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20233,
+          "East": 20137,
+          "South": 20235
+        }
+      },
+      {
+        "Id": 20235,
+        "Name": "Intersection of Dungeon Drive and End of Grayford Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20234,
+          "East": 20248,
+          "West": 20247
+        }
+      },
+      {
+        "Id": 20236,
+        "Name": "End of Gables Place 500 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20086,
+          "East": 20232
+        }
+      },
+      {
+        "Id": 20237,
+        "Name": "Gables Place 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20212,
+          "West": 20232
+        }
+      },
+      {
+        "Id": 20238,
+        "Name": "Gables Place 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20216,
+          "West": 20212
+        }
+      },
+      {
+        "Id": 20239,
+        "Name": "Intersection of Dungeon Drive and Colton Circle",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20240,
+          "East": 20246,
+          "West": 20245
+        }
+      },
+      {
+        "Id": 20240,
+        "Name": "Colton Circle 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20241,
+          "East": 20032,
+          "South": 20239
+        }
+      },
+      {
+        "Id": 20241,
+        "Name": "Colton Circle 200 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20230,
+          "South": 20240,
+          "West": 20318
+        }
+      },
+      {
+        "Id": 20242,
+        "Name": "Colton Circle 400 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20314,
+          "South": 20243,
+          "West": 20230
+        }
+      },
+      {
+        "Id": 20243,
+        "Name": "Colton Circle 500 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20242,
+          "South": 20244
+        }
+      },
+      {
+        "Id": 20244,
+        "Name": "Intersection of Dungeon Drive and End of Colton Circle",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20243,
+          "East": 20247,
+          "West": 20246
+        }
+      },
+      {
+        "Id": 20245,
+        "Name": "Dungeon Drive 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20012,
+          "East": 20239,
+          "West": 20187
+        }
+      },
+      {
+        "Id": 20246,
+        "Name": "Dungeon Drive 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20033,
+          "East": 20244,
+          "South": 20030,
+          "West": 20239
+        }
+      },
+      {
+        "Id": 20247,
+        "Name": "Dungeon Drive 500 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20235,
+          "South": 20319,
+          "West": 20244
+        }
+      },
+      {
+        "Id": 20248,
+        "Name": "Intersection of Dungeon Drive and Doorstop Drive",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20219,
+          "South": 20249,
+          "West": 20235
+        }
+      },
+      {
+        "Id": 20249,
+        "Name": "Doorstop Drive 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20248,
+          "South": 20250,
+          "West": 20326
+        }
+      },
+      {
+        "Id": 20250,
+        "Name": "Intersection of Riverfront Way and Doorstop Drive",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20249,
+          "East": 20221,
+          "South": 20251,
+          "West": 20257
+        }
+      },
+      {
+        "Id": 20251,
+        "Name": "Doorstop Drive on Xavumeer Bridge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20250,
+          "South": 20252
+        }
+      },
+      {
+        "Id": 20252,
+        "Name": "Intersection of South Bank Drive and End of Doorstop Drive",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20251,
+          "East": 20223,
+          "South": 20052,
+          "West": 20262
+        }
+      },
+      {
+        "Id": 20253,
+        "Name": "Riverfront Way 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20254,
+          "West": 20189
+        }
+      },
+      {
+        "Id": 20254,
+        "Name": "Riverfront Way 200 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20255,
+          "West": 20253
+        }
+      },
+      {
+        "Id": 20255,
+        "Name": "Riverfront Way 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20256,
+          "West": 20254
+        }
+      },
+      {
+        "Id": 20256,
+        "Name": "Riverfront Way 400 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20257,
+          "West": 20255
+        }
+      },
+      {
+        "Id": 20257,
+        "Name": "Riverfront Way 500 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20148,
+          "East": 20250,
+          "West": 20256
+        }
+      },
+      {
+        "Id": 20258,
+        "Name": "Intersection of South Bank Drive and Hedram Place",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20259,
+          "South": 20263,
+          "West": 20191
+        }
+      },
+      {
+        "Id": 20259,
+        "Name": "South Bank Drive 200 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20260,
+          "West": 20258
+        }
+      },
+      {
+        "Id": 20260,
+        "Name": "South Bank Drive 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20261,
+          "South": 20310,
+          "West": 20259
+        }
+      },
+      {
+        "Id": 20261,
+        "Name": "Intersection of South Bank Drive and Forworth Boulevard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20262,
+          "South": 20267,
+          "West": 20260
+        }
+      },
+      {
+        "Id": 20262,
+        "Name": "South Bank Drive 500 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20252,
+          "West": 20261
+        }
+      },
+      {
+        "Id": 20263,
+        "Name": "Hedram Place 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20258,
+          "South": 20264,
+          "West": 20159
+        }
+      },
+      {
+        "Id": 20264,
+        "Name": "Intersection of Troll Street and Hedram Place",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20263,
+          "East": 20271,
+          "South": 20265
+        }
+      },
+      {
+        "Id": 20265,
+        "Name": "Hedram Place 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20264,
+          "South": 20266
+        }
+      },
+      {
+        "Id": 20266,
+        "Name": "Intersection of Calinth Way and Hedram Place",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20265,
+          "East": 20275,
+          "West": 20195
+        }
+      },
+      {
+        "Id": 20267,
+        "Name": "Forworth Boulevard 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20261,
+          "East": 20064,
+          "South": 20268
+        }
+      },
+      {
+        "Id": 20268,
+        "Name": "Intersection of Troll Street and Forworth Boulevard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20267,
+          "East": 20273,
+          "South": 20269,
+          "West": 20272
+        }
+      },
+      {
+        "Id": 20269,
+        "Name": "Forworth Boulevard 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20268,
+          "South": 20270
+        }
+      },
+      {
+        "Id": 20270,
+        "Name": "Intersection of Calinth Way and Forworth Boulevard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20269,
+          "East": 20277,
+          "West": 20276
+        }
+      },
+      {
+        "Id": 20271,
+        "Name": "Troll Street 100 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20272,
+          "South": 20279,
+          "West": 20264
+        }
+      },
+      {
+        "Id": 20272,
+        "Name": "Troll Street 200 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20268,
+          "West": 20271
+        }
+      },
+      {
+        "Id": 20273,
+        "Name": "Troll Street 400 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20274,
+          "West": 20268
+        }
+      },
+      {
+        "Id": 20274,
+        "Name": "Troll Street 500 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20225,
+          "South": 20079,
+          "West": 20273
+        }
+      },
+      {
+        "Id": 20275,
+        "Name": "Calinth Way 200 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20276,
+          "West": 20266
+        }
+      },
+      {
+        "Id": 20276,
+        "Name": "Calinth Way 300 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20270,
+          "West": 20275
+        }
+      },
+      {
+        "Id": 20277,
+        "Name": "Calinth Way 500 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20285,
+          "East": 20278,
+          "West": 20270
+        }
+      },
+      {
+        "Id": 20278,
+        "Name": "Calinth Way 600 Block",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20227,
+          "West": 20277
+        }
+      },
+      {
+        "Id": 20279,
+        "Name": "Riautar\u0027s Weaponry",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20271,
+          "East": 20280,
+          "South": 20281
+        }
+      },
+      {
+        "Id": 20280,
+        "Name": "Storage Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20279
+        }
+      },
+      {
+        "Id": 20281,
+        "Name": "Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20279,
+          "East": 20282,
+          "South": 20283
+        }
+      },
+      {
+        "Id": 20282,
+        "Name": "Riautar\u0027s Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20281
+        }
+      },
+      {
+        "Id": 20283,
+        "Name": "Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20281
+        }
+      },
+      {
+        "Id": 20284,
+        "Name": "Warriors of Calinth Monument Plaza",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20214,
+          "West": 20210
+        }
+      },
+      {
+        "Id": 20285,
+        "Name": "Melgard\u0027s Fine Leather",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20286,
+          "East": 20288,
+          "South": 20277
+        }
+      },
+      {
+        "Id": 20286,
+        "Name": "Leather Making Area",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20285,
+          "West": 20287
+        }
+      },
+      {
+        "Id": 20287,
+        "Name": "Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20286
+        }
+      },
+      {
+        "Id": 20288,
+        "Name": "Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20289,
+          "East": 20290,
+          "West": 20285
+        }
+      },
+      {
+        "Id": 20289,
+        "Name": "Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20288
+        }
+      },
+      {
+        "Id": 20290,
+        "Name": "Kitchen and Dining Area",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20288
+        }
+      },
+      {
+        "Id": 20291,
+        "Name": "Bath House Atrium",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20172,
+          "East": 20293,
+          "South": 20292,
+          "West": 20181
+        }
+      },
+      {
+        "Id": 20292,
+        "Name": "Fountain Garden",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20291
+        }
+      },
+      {
+        "Id": 20293,
+        "Name": "Changing Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20294,
+          "West": 20291
+        }
+      },
+      {
+        "Id": 20294,
+        "Name": "Main Pool Side",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20295,
+          "East": 20296,
+          "West": 20293,
+          "Down": 20331
+        }
+      },
+      {
+        "Id": 20295,
+        "Name": "Small, Heated, Bubbling Pool",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20294
+        }
+      },
+      {
+        "Id": 20296,
+        "Name": "Steam Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20294
+        }
+      },
+      {
+        "Id": 20297,
+        "Name": "First Bank of Calinth",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20299,
+          "South": 20298,
+          "West": 20188
+        }
+      },
+      {
+        "Id": 20298,
+        "Name": "Loan Agent",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20297,
+          "South": 20300
+        }
+      },
+      {
+        "Id": 20299,
+        "Name": "Clerk\u0027s Window",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20301,
+          "West": 20297
+        }
+      },
+      {
+        "Id": 20300,
+        "Name": "Manager\u0027s Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20298
+        }
+      },
+      {
+        "Id": 20301,
+        "Name": "Vault",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20299
+        }
+      },
+      {
+        "Id": 20302,
+        "Name": "Palauvir\u0027s Counter",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20204,
+          "South": 20303
+        }
+      },
+      {
+        "Id": 20303,
+        "Name": "Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20302,
+          "East": 20305,
+          "West": 20304
+        }
+      },
+      {
+        "Id": 20304,
+        "Name": "Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20303
+        }
+      },
+      {
+        "Id": 20305,
+        "Name": "Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20303
+        }
+      },
+      {
+        "Id": 20306,
+        "Name": "Khostall Hanuss, Fine Nuts",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20220,
+          "South": 20307
+        }
+      },
+      {
+        "Id": 20307,
+        "Name": "Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20306,
+          "East": 20308,
+          "West": 20309
+        }
+      },
+      {
+        "Id": 20308,
+        "Name": "Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20307
+        }
+      },
+      {
+        "Id": 20309,
+        "Name": "Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20307
+        }
+      },
+      {
+        "Id": 20310,
+        "Name": "The Slaughterhouse",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20260,
+          "South": 20311
+        }
+      },
+      {
+        "Id": 20311,
+        "Name": "Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20310,
+          "East": 20313,
+          "West": 20312
+        }
+      },
+      {
+        "Id": 20312,
+        "Name": "Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20311
+        }
+      },
+      {
+        "Id": 20313,
+        "Name": "Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20311
+        }
+      },
+      {
+        "Id": 20314,
+        "Name": "Rahib\u0027s Jewels",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20315,
+          "South": 20242
+        }
+      },
+      {
+        "Id": 20315,
+        "Name": "Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20317,
+          "East": 20316,
+          "South": 20314
+        }
+      },
+      {
+        "Id": 20316,
+        "Name": "Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20315
+        }
+      },
+      {
+        "Id": 20317,
+        "Name": "Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20315
+        }
+      },
+      {
+        "Id": 20318,
+        "Name": "The Captain\u0027s Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20241
+        }
+      },
+      {
+        "Id": 20319,
+        "Name": "Jail House",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20247,
+          "East": 20320,
+          "South": 20321,
+          "West": 20322
+        }
+      },
+      {
+        "Id": 20320,
+        "Name": "Office",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20319
+        }
+      },
+      {
+        "Id": 20321,
+        "Name": "Interrogation Area",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20319,
+          "East": 20325,
+          "South": 20324,
+          "West": 20323
+        }
+      },
+      {
+        "Id": 20322,
+        "Name": "Large Common Cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20319
+        }
+      },
+      {
+        "Id": 20323,
+        "Name": "Cell #1",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20321
+        }
+      },
+      {
+        "Id": 20324,
+        "Name": "Cell #2",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20321
+        }
+      },
+      {
+        "Id": 20325,
+        "Name": "Cell #3",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20321
+        }
+      },
+      {
+        "Id": 20326,
+        "Name": "Tuck\u0027s Store",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20249,
+          "West": 20327
+        }
+      },
+      {
+        "Id": 20327,
+        "Name": "Back Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20329,
+          "East": 20326,
+          "West": 20328
+        }
+      },
+      {
+        "Id": 20328,
+        "Name": "Storage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20327
+        }
+      },
+      {
+        "Id": 20329,
+        "Name": "Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20327
+        }
+      },
+      {
+        "Id": 20330,
+        "Name": "MOB Storage Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 20331,
+        "Name": "In the Main Pool",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 20294
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

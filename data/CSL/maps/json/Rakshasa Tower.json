@@ -1,0 +1,671 @@
+{
+  "Area": {
+    "Name": "Rakshasa Tower",
+    "Credits": "Ceran",
+    "MinimumLevel": "30",
+    "MaximumLevel": "up",
+    "Rooms": [
+      {
+        "Id": 13901,
+        "Name": "Before the Rakshasa Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13903,
+          "South": 13807
+        }
+      },
+      {
+        "Id": 13902,
+        "Name": "Guard Post Outside the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13906,
+          "East": 13903
+        }
+      },
+      {
+        "Id": 13903,
+        "Name": "Guard Post Outside the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13904,
+          "South": 13901,
+          "West": 13902
+        }
+      },
+      {
+        "Id": 13904,
+        "Name": "Guard Post Outside the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13908,
+          "West": 13903
+        }
+      },
+      {
+        "Id": 13905,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13913,
+          "East": 13906
+        }
+      },
+      {
+        "Id": 13906,
+        "Name": "Inside the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13907,
+          "South": 13902,
+          "West": 13905
+        }
+      },
+      {
+        "Id": 13907,
+        "Name": "Entrance to the Dark Temple",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13915,
+          "East": 13908,
+          "West": 13906
+        }
+      },
+      {
+        "Id": 13908,
+        "Name": "Inside the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13909,
+          "South": 13904,
+          "West": 13907
+        }
+      },
+      {
+        "Id": 13909,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13917,
+          "West": 13908
+        }
+      },
+      {
+        "Id": 13910,
+        "Name": "Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13922
+        }
+      },
+      {
+        "Id": 13911,
+        "Name": "Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13923
+        }
+      },
+      {
+        "Id": 13912,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13924,
+          "East": 13913
+        }
+      },
+      {
+        "Id": 13913,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 13905,
+          "West": 13912
+        }
+      },
+      {
+        "Id": 13914,
+        "Name": "Inside the Lich Temple",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13926,
+          "East": 13915
+        }
+      },
+      {
+        "Id": 13915,
+        "Name": "Entrance to the Lich Temple",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13916,
+          "South": 13907,
+          "West": 13914
+        }
+      },
+      {
+        "Id": 13916,
+        "Name": "Inside the Lich Temple",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13928,
+          "West": 13915
+        }
+      },
+      {
+        "Id": 13917,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13918,
+          "South": 13909
+        }
+      },
+      {
+        "Id": 13918,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13930,
+          "West": 13917
+        }
+      },
+      {
+        "Id": 13919,
+        "Name": "Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13931
+        }
+      },
+      {
+        "Id": 13920,
+        "Name": "Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13932
+        }
+      },
+      {
+        "Id": 13921,
+        "Name": "Officer\u0027s Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13922
+        }
+      },
+      {
+        "Id": 13922,
+        "Name": "Corridor in the Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13934,
+          "East": 13923,
+          "South": 13910,
+          "West": 13921
+        }
+      },
+      {
+        "Id": 13923,
+        "Name": "Corridor in the Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13935,
+          "East": 13924,
+          "South": 13911,
+          "West": 13922
+        }
+      },
+      {
+        "Id": 13924,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13936,
+          "South": 13912,
+          "West": 13923
+        }
+      },
+      {
+        "Id": 13925,
+        "Name": "Alcove in the Temple",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13937,
+          "East": 13926
+        }
+      },
+      {
+        "Id": 13926,
+        "Name": "Inside the Lich Temple",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13938,
+          "South": 13914,
+          "West": 13925
+        }
+      },
+      {
+        "Id": 13927,
+        "Name": "Atop the Tower of Carrion",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 13939
+        }
+      },
+      {
+        "Id": 13928,
+        "Name": "Inside the Lich Temple",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13940,
+          "East": 13929,
+          "South": 13916
+        }
+      },
+      {
+        "Id": 13929,
+        "Name": "Alcove in the Temple",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13941,
+          "West": 13928
+        }
+      },
+      {
+        "Id": 13930,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13942,
+          "East": 13931,
+          "South": 13918
+        }
+      },
+      {
+        "Id": 13931,
+        "Name": "Corridor in the Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13943,
+          "East": 13932,
+          "South": 13919,
+          "West": 13930
+        }
+      },
+      {
+        "Id": 13932,
+        "Name": "Corridor in the Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13944,
+          "East": 13933,
+          "South": 13920,
+          "West": 13931
+        }
+      },
+      {
+        "Id": 13933,
+        "Name": "Officer\u0027s Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 13932
+        }
+      },
+      {
+        "Id": 13934,
+        "Name": "Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 13922
+        }
+      },
+      {
+        "Id": 13935,
+        "Name": "Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 13923
+        }
+      },
+      {
+        "Id": 13936,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13937,
+          "South": 13924
+        }
+      },
+      {
+        "Id": 13937,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13945,
+          "South": 13925,
+          "West": 13936
+        }
+      },
+      {
+        "Id": 13938,
+        "Name": "Inside the Lich Temple",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13939,
+          "South": 13926
+        }
+      },
+      {
+        "Id": 13939,
+        "Name": "Inside the Lich Temple",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13940,
+          "West": 13938,
+          "Up": 13927
+        }
+      },
+      {
+        "Id": 13940,
+        "Name": "Inside the Lich Temple",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 13928,
+          "West": 13939
+        }
+      },
+      {
+        "Id": 13941,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13949,
+          "East": 13942,
+          "South": 13929
+        }
+      },
+      {
+        "Id": 13942,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 13930,
+          "West": 13941
+        }
+      },
+      {
+        "Id": 13943,
+        "Name": "Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 13931
+        }
+      },
+      {
+        "Id": 13944,
+        "Name": "Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 13932
+        }
+      },
+      {
+        "Id": 13945,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13946,
+          "South": 13937
+        }
+      },
+      {
+        "Id": 13946,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13950,
+          "West": 13945
+        }
+      },
+      {
+        "Id": 13947,
+        "Name": "Antechamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13951
+        }
+      },
+      {
+        "Id": 13948,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13952,
+          "East": 13949
+        }
+      },
+      {
+        "Id": 13949,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 13941,
+          "West": 13948
+        }
+      },
+      {
+        "Id": 13950,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13951,
+          "South": 13946
+        }
+      },
+      {
+        "Id": 13951,
+        "Name": "Before the Throne room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13953,
+          "East": 13952,
+          "South": 13947,
+          "West": 13950
+        }
+      },
+      {
+        "Id": 13952,
+        "Name": "A Corridor in the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 13948,
+          "West": 13951
+        }
+      },
+      {
+        "Id": 13953,
+        "Name": "Entrance of the Throne Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13958,
+          "South": 13951
+        }
+      },
+      {
+        "Id": 13954,
+        "Name": "King\u0027s Chambers",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13960
+        }
+      },
+      {
+        "Id": 13955,
+        "Name": "Prince\u0027s Chambers",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13956
+        }
+      },
+      {
+        "Id": 13956,
+        "Name": "Prince\u0027s Chambers",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13957,
+          "West": 13955
+        }
+      },
+      {
+        "Id": 13957,
+        "Name": "West Alcove of the Throne Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13958,
+          "West": 13956
+        }
+      },
+      {
+        "Id": 13958,
+        "Name": "The Throne Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13962,
+          "East": 13959,
+          "South": 13953,
+          "West": 13957
+        }
+      },
+      {
+        "Id": 13959,
+        "Name": "West Alcove of the Throne Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 13960,
+          "West": 13958
+        }
+      },
+      {
+        "Id": 13960,
+        "Name": "King\u0027s Chambers",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 13963,
+          "East": 13961,
+          "South": 13954,
+          "West": 13959
+        }
+      },
+      {
+        "Id": 13961,
+        "Name": "King\u0027s Treasure Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 13960
+        }
+      },
+      {
+        "Id": 13962,
+        "Name": "Before the King\u0027s Throne",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 13958
+        }
+      },
+      {
+        "Id": 13963,
+        "Name": "King\u0027s Chambers",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 13960
+        }
+      },
+      {
+        "Id": 13807,
+        "Name": "To Ruins of Drannor",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 13901,
+          "East": 13808,
+          "South": 13804
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

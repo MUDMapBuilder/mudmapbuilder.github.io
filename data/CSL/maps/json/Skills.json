@@ -1,0 +1,98 @@
+{
+  "Area": {
+    "Name": "Skills",
+    "Credits": "",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 2900,
+        "Name": "Inside a darkened plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2901,
+          "South": 873,
+          "West": 4632,
+          "Up": 1462,
+          "Down": 27000
+        }
+      },
+      {
+        "Id": 2901,
+        "Name": "Inside a darkened plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 17004,
+          "West": 2900
+        }
+      },
+      {
+        "Id": 2920,
+        "Name": "Death!",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 873,
+        "Name": "To Arkham",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "East": 868
+        }
+      },
+      {
+        "Id": 4632,
+        "Name": "To Mausoleum",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 4628
+        }
+      },
+      {
+        "Id": 1462,
+        "Name": "To High Tower",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "South": 1461
+        }
+      },
+      {
+        "Id": 27000,
+        "Name": "To Hell",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "West": 27001,
+          "Up": 16136
+        }
+      },
+      {
+        "Id": 17004,
+        "Name": "To UnderDark",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "East": 17005,
+          "West": 17003
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

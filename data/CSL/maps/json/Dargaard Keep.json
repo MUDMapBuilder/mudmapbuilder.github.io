@@ -1,0 +1,1058 @@
+{
+  "Area": {
+    "Name": "Dargaard Keep",
+    "Credits": "Mishakal",
+    "MinimumLevel": "30",
+    "MaximumLevel": "35",
+    "Rooms": [
+      {
+        "Id": 16100,
+        "Name": "A trail leading up the mountain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16101,
+          "South": 11000
+        }
+      },
+      {
+        "Id": 16101,
+        "Name": "A trail leading up the mountain",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16102,
+          "West": 16100
+        }
+      },
+      {
+        "Id": 16102,
+        "Name": "Before a stone keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16103,
+          "West": 16101
+        }
+      },
+      {
+        "Id": 16103,
+        "Name": "Foyer of Dargaard Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16104,
+          "West": 16102
+        }
+      },
+      {
+        "Id": 16104,
+        "Name": "Inside the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16105,
+          "East": 16107,
+          "South": 16106,
+          "West": 16103
+        }
+      },
+      {
+        "Id": 16105,
+        "Name": "Inside the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16108,
+          "South": 16104
+        }
+      },
+      {
+        "Id": 16106,
+        "Name": "Inside the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16104,
+          "South": 16109
+        }
+      },
+      {
+        "Id": 16107,
+        "Name": "The main hallway of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16110,
+          "West": 16104
+        }
+      },
+      {
+        "Id": 16108,
+        "Name": "Inside the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 16105,
+          "Up": 16118
+        }
+      },
+      {
+        "Id": 16109,
+        "Name": "Inside the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16106,
+          "Up": 16119
+        }
+      },
+      {
+        "Id": 16110,
+        "Name": "The main hallway of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16112,
+          "West": 16107,
+          "Up": 16111
+        }
+      },
+      {
+        "Id": 16111,
+        "Name": "Second floor landing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 16113,
+          "Down": 16110
+        }
+      },
+      {
+        "Id": 16112,
+        "Name": "The main hallway of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16176,
+          "East": 16136,
+          "South": 16179,
+          "West": 16110
+        }
+      },
+      {
+        "Id": 16113,
+        "Name": "Second floor hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16111,
+          "West": 16114
+        }
+      },
+      {
+        "Id": 16114,
+        "Name": "Second floor hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16116,
+          "East": 16113,
+          "South": 16115,
+          "West": 16117
+        }
+      },
+      {
+        "Id": 16115,
+        "Name": "Southern wing of the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16114,
+          "South": 16150
+        }
+      },
+      {
+        "Id": 16116,
+        "Name": "Northern wing of the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16147,
+          "South": 16114
+        }
+      },
+      {
+        "Id": 16117,
+        "Name": "Second floor hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16118,
+          "East": 16114,
+          "South": 16119,
+          "West": 16120,
+          "Up": 16121
+        }
+      },
+      {
+        "Id": 16118,
+        "Name": "At the top of a short staircase",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 16117,
+          "Down": 16108
+        }
+      },
+      {
+        "Id": 16119,
+        "Name": "At the top of a short staircase",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16117,
+          "Down": 16109
+        }
+      },
+      {
+        "Id": 16120,
+        "Name": "On a balcony overlooking the mountains",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16117,
+          "Down": 16102
+        }
+      },
+      {
+        "Id": 16121,
+        "Name": "Third floor landing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16122,
+          "East": 16130,
+          "South": 16125,
+          "West": 16128,
+          "Up": 16137,
+          "Down": 16117
+        }
+      },
+      {
+        "Id": 16122,
+        "Name": "Northern hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16123,
+          "South": 16121
+        }
+      },
+      {
+        "Id": 16123,
+        "Name": "Northern hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16124,
+          "South": 16122
+        }
+      },
+      {
+        "Id": 16124,
+        "Name": "End of the northern hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 16123
+        }
+      },
+      {
+        "Id": 16125,
+        "Name": "Southern hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16121,
+          "South": 16126
+        }
+      },
+      {
+        "Id": 16126,
+        "Name": "Southern hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16125,
+          "South": 16127
+        }
+      },
+      {
+        "Id": 16127,
+        "Name": "End of the southern hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16126
+        }
+      },
+      {
+        "Id": 16128,
+        "Name": "Western hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16121,
+          "West": 16129
+        }
+      },
+      {
+        "Id": 16129,
+        "Name": "Between two oaken doors",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16134,
+          "East": 16128,
+          "South": 16135
+        }
+      },
+      {
+        "Id": 16130,
+        "Name": "Eastern hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16131,
+          "West": 16121
+        }
+      },
+      {
+        "Id": 16131,
+        "Name": "Eastern hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16132,
+          "West": 16130
+        }
+      },
+      {
+        "Id": 16132,
+        "Name": "Before a large oak door",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16133,
+          "West": 16131
+        }
+      },
+      {
+        "Id": 16133,
+        "Name": "The master bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 16132
+        }
+      },
+      {
+        "Id": 16134,
+        "Name": "An old bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 16129
+        }
+      },
+      {
+        "Id": 16135,
+        "Name": "An old bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16129
+        }
+      },
+      {
+        "Id": 16136,
+        "Name": "An ancient dining hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16182,
+          "West": 16112,
+          "Down": 27000
+        }
+      },
+      {
+        "Id": 16137,
+        "Name": "Fourth floor landing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16138,
+          "West": 16197,
+          "Down": 16121
+        }
+      },
+      {
+        "Id": 16138,
+        "Name": "The fourth floor of the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16139,
+          "East": 16141,
+          "South": 16140,
+          "West": 16137
+        }
+      },
+      {
+        "Id": 16139,
+        "Name": "Inside a waiting hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16142,
+          "South": 16138
+        }
+      },
+      {
+        "Id": 16140,
+        "Name": "Inside a waiting hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16138,
+          "East": 16143
+        }
+      },
+      {
+        "Id": 16141,
+        "Name": "Inside a waiting hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16142,
+          "East": 16144,
+          "South": 16143,
+          "West": 16138
+        }
+      },
+      {
+        "Id": 16142,
+        "Name": "Inside a waiting hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 16141,
+          "West": 16139
+        }
+      },
+      {
+        "Id": 16143,
+        "Name": "Inside a waiting hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16141,
+          "West": 16140
+        }
+      },
+      {
+        "Id": 16144,
+        "Name": "Before a long staircase",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 16141,
+          "Up": 16145
+        }
+      },
+      {
+        "Id": 16145,
+        "Name": "On the staircase",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 16146,
+          "Down": 16144
+        }
+      },
+      {
+        "Id": 16146,
+        "Name": "Before the Great Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16161,
+          "Down": 16145
+        }
+      },
+      {
+        "Id": 16147,
+        "Name": "Northern wing of the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16148,
+          "South": 16116
+        }
+      },
+      {
+        "Id": 16148,
+        "Name": "Northern wing of the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16149,
+          "South": 16147
+        }
+      },
+      {
+        "Id": 16149,
+        "Name": "Northern wing of the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16153,
+          "South": 16148,
+          "West": 16155
+        }
+      },
+      {
+        "Id": 16150,
+        "Name": "Southern wing of the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16115,
+          "South": 16151
+        }
+      },
+      {
+        "Id": 16151,
+        "Name": "Southern wing of the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16150,
+          "South": 16152
+        }
+      },
+      {
+        "Id": 16152,
+        "Name": "Southern wing of the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16151,
+          "East": 16157,
+          "West": 16159
+        }
+      },
+      {
+        "Id": 16153,
+        "Name": "East branch of the northern hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16154,
+          "West": 16149
+        }
+      },
+      {
+        "Id": 16154,
+        "Name": "Servants\u0027 quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 16153
+        }
+      },
+      {
+        "Id": 16155,
+        "Name": "West branch of the north hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16149,
+          "West": 16156
+        }
+      },
+      {
+        "Id": 16156,
+        "Name": "Servants\u0027 quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16155
+        }
+      },
+      {
+        "Id": 16157,
+        "Name": "Eastern side of the south hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16158,
+          "West": 16152
+        }
+      },
+      {
+        "Id": 16158,
+        "Name": "Inside a small library",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 16157
+        }
+      },
+      {
+        "Id": 16159,
+        "Name": "West side of the southern hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16152,
+          "West": 16160
+        }
+      },
+      {
+        "Id": 16160,
+        "Name": "A private study",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16159
+        }
+      },
+      {
+        "Id": 16161,
+        "Name": "The Great Hall of Dargaard Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16162,
+          "East": 16164,
+          "South": 16163,
+          "West": 16146
+        }
+      },
+      {
+        "Id": 16162,
+        "Name": "The Great Hall of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16167,
+          "South": 16161
+        }
+      },
+      {
+        "Id": 16163,
+        "Name": "The Great Hall of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16161,
+          "East": 16166
+        }
+      },
+      {
+        "Id": 16164,
+        "Name": "The Great Hall of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16167,
+          "East": 16165,
+          "South": 16166,
+          "West": 16161
+        }
+      },
+      {
+        "Id": 16165,
+        "Name": "The Great Hall of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16168,
+          "East": 16194,
+          "South": 16170,
+          "West": 16164
+        }
+      },
+      {
+        "Id": 16166,
+        "Name": "The Great Hall of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16164,
+          "East": 16170,
+          "West": 16163
+        }
+      },
+      {
+        "Id": 16167,
+        "Name": "The Great Hall of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16168,
+          "South": 16164,
+          "West": 16162
+        }
+      },
+      {
+        "Id": 16168,
+        "Name": "The Great Hall of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16169,
+          "South": 16165,
+          "West": 16167
+        }
+      },
+      {
+        "Id": 16169,
+        "Name": "The Great Hall of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16172,
+          "East": 16175,
+          "South": 16168
+        }
+      },
+      {
+        "Id": 16170,
+        "Name": "The Great Hall of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16165,
+          "South": 16171,
+          "West": 16166
+        }
+      },
+      {
+        "Id": 16171,
+        "Name": "The Great Hall of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16170,
+          "East": 16174,
+          "South": 16173
+        }
+      },
+      {
+        "Id": 16172,
+        "Name": "A private counsel room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 16169
+        }
+      },
+      {
+        "Id": 16173,
+        "Name": "A private counsel room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16171
+        }
+      },
+      {
+        "Id": 16174,
+        "Name": "A pious altar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 16171
+        }
+      },
+      {
+        "Id": 16175,
+        "Name": "A quiet shrine",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 16169
+        }
+      },
+      {
+        "Id": 16176,
+        "Name": "A hallway of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16177,
+          "South": 16112
+        }
+      },
+      {
+        "Id": 16177,
+        "Name": "A hallway of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16178,
+          "West": 16176
+        }
+      },
+      {
+        "Id": 16178,
+        "Name": "A hallway of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 16182,
+          "West": 16177
+        }
+      },
+      {
+        "Id": 16179,
+        "Name": "A hallway of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16112,
+          "East": 16180
+        }
+      },
+      {
+        "Id": 16180,
+        "Name": "A hallway of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16181,
+          "West": 16179
+        }
+      },
+      {
+        "Id": 16181,
+        "Name": "A hallway of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16182,
+          "West": 16180
+        }
+      },
+      {
+        "Id": 16182,
+        "Name": "A hallway of Dargaard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16178,
+          "East": 16183,
+          "South": 16181,
+          "West": 16136
+        }
+      },
+      {
+        "Id": 16183,
+        "Name": "Entrance to the courtyard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16184,
+          "West": 16182
+        }
+      },
+      {
+        "Id": 16184,
+        "Name": "In the courtyard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16185,
+          "East": 16189,
+          "South": 16187,
+          "West": 16183
+        }
+      },
+      {
+        "Id": 16185,
+        "Name": "In the courtyard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16186,
+          "East": 16190,
+          "South": 16184
+        }
+      },
+      {
+        "Id": 16186,
+        "Name": "Before a fountain in the courtyard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 16185
+        }
+      },
+      {
+        "Id": 16187,
+        "Name": "In the courtyard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16184,
+          "East": 16192,
+          "South": 16188
+        }
+      },
+      {
+        "Id": 16188,
+        "Name": "A small orchard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16187,
+          "East": 16193
+        }
+      },
+      {
+        "Id": 16189,
+        "Name": "In the courtyard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16190,
+          "East": 16195,
+          "South": 16192,
+          "West": 16184
+        }
+      },
+      {
+        "Id": 16190,
+        "Name": "In the courtyard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16191,
+          "South": 16189,
+          "West": 16185
+        }
+      },
+      {
+        "Id": 16191,
+        "Name": "Before a pool of blood",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 16190
+        }
+      },
+      {
+        "Id": 16192,
+        "Name": "In the courtyard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16189,
+          "South": 16193,
+          "West": 16187
+        }
+      },
+      {
+        "Id": 16193,
+        "Name": "A small orchard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 16192,
+          "West": 16188
+        }
+      },
+      {
+        "Id": 16194,
+        "Name": "Before Lord Soth\u0027s Black Throne",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 16165
+        }
+      },
+      {
+        "Id": 16195,
+        "Name": "In a short, dark hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16196,
+          "West": 16189
+        }
+      },
+      {
+        "Id": 16196,
+        "Name": "Lord Soth\u0027s Private Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 16195
+        }
+      },
+      {
+        "Id": 16197,
+        "Name": "The fourth floor of the Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16137,
+          "West": 16198
+        }
+      },
+      {
+        "Id": 16198,
+        "Name": "On a high balcony overlooking the mountains",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 16197
+        }
+      },
+      {
+        "Id": 11000,
+        "Name": "To Dark Forest",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 16100,
+          "South": 11001
+        }
+      },
+      {
+        "Id": 27000,
+        "Name": "To Hell",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "West": 27001,
+          "Up": 16136
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": false,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "Area": {
+    "Name": "Troll Den",
+    "Credits": "Merc",
+    "MinimumLevel": "10",
+    "MaximumLevel": "15",
+    "Rooms": [
+      {
+        "Id": 2801,
+        "Name": "A Troll Wastedump",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2806,
+          "South": 2803
+        }
+      },
+      {
+        "Id": 2802,
+        "Name": "Troll\u0027s Larder",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 2803,
+          "Down": 18197
+        }
+      },
+      {
+        "Id": 2803,
+        "Name": "Troll\u0027s Living Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2801,
+          "East": 2804,
+          "South": 2805,
+          "West": 2802
+        }
+      },
+      {
+        "Id": 2804,
+        "Name": "The Playpen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 2803
+        }
+      },
+      {
+        "Id": 2805,
+        "Name": "Troll\u0027s Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2803
+        }
+      },
+      {
+        "Id": 2806,
+        "Name": "A Troll Wastedump",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2807,
+          "South": 2801
+        }
+      },
+      {
+        "Id": 2807,
+        "Name": "A Troll Wastedump",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2808,
+          "South": 2806
+        }
+      },
+      {
+        "Id": 2808,
+        "Name": "A Troll Wastedump",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 2809,
+          "South": 2807
+        }
+      },
+      {
+        "Id": 2809,
+        "Name": "Entrance to a Stinking Troll Den",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 40621,
+          "South": 2808
+        }
+      },
+      {
+        "Id": 18197,
+        "Name": "To Drow Enclaves",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "South": 18196,
+          "Up": 2802
+        }
+      },
+      {
+        "Id": 40621,
+        "Name": "To Miden\u0027nir",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "East": 40622,
+          "South": 2809,
+          "West": 40620
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

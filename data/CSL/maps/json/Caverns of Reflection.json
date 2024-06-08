@@ -1,0 +1,99 @@
+{
+  "Area": {
+    "Name": "Caverns of Reflection",
+    "Credits": "",
+    "MinimumLevel": null,
+    "MaximumLevel": null,
+    "Rooms": [
+      {
+        "Id": 30800,
+        "Name": "Cave Mouth",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30803,
+          "East": 30802,
+          "West": 30801
+        }
+      },
+      {
+        "Id": 30801,
+        "Name": "Path Through the Mountain Foothills",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30800
+        }
+      },
+      {
+        "Id": 30802,
+        "Name": "Path Through the Mountain Foothills",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30800
+        }
+      },
+      {
+        "Id": 30803,
+        "Name": "Tunnel Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30804,
+          "South": 30800
+        }
+      },
+      {
+        "Id": 30804,
+        "Name": "Dark Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 30805,
+          "South": 30803
+        }
+      },
+      {
+        "Id": 30805,
+        "Name": "Dark Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 30804,
+          "Up": 30806
+        }
+      },
+      {
+        "Id": 30806,
+        "Name": "Above a Small Ledge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 30807,
+          "Down": 30805
+        }
+      },
+      {
+        "Id": 30807,
+        "Name": "Small Passageway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 30806
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

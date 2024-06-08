@@ -1,0 +1,327 @@
+{
+  "Area": {
+    "Name": "Lich Tower",
+    "Credits": "Someone",
+    "MinimumLevel": "DEATH",
+    "MaximumLevel": "DEATH",
+    "Rooms": [
+      {
+        "Id": 29350,
+        "Name": "Before the Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29374,
+          "West": 29351
+        }
+      },
+      {
+        "Id": 29351,
+        "Name": "Beneath the Archway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29352,
+          "East": 29350,
+          "West": 29353
+        }
+      },
+      {
+        "Id": 29352,
+        "Name": "The Dracolich\u0027s Lair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 29351
+        }
+      },
+      {
+        "Id": 29353,
+        "Name": "The Entrance Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29351,
+          "South": 29354,
+          "West": 29356
+        }
+      },
+      {
+        "Id": 29354,
+        "Name": "The Dining Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29353,
+          "West": 29355
+        }
+      },
+      {
+        "Id": 29355,
+        "Name": "The Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29356,
+          "East": 29354,
+          "South": 29369
+        }
+      },
+      {
+        "Id": 29356,
+        "Name": "The Bottom of the Stairs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29353,
+          "South": 29355,
+          "Up": 29357
+        }
+      },
+      {
+        "Id": 29357,
+        "Name": "On the Stairs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29362,
+          "Up": 29358,
+          "Down": 29356
+        }
+      },
+      {
+        "Id": 29358,
+        "Name": "On the Stairs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29365,
+          "South": 29363,
+          "Up": 29359,
+          "Down": 29357
+        }
+      },
+      {
+        "Id": 29359,
+        "Name": "The Top of the Stairs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29368,
+          "South": 29366,
+          "Down": 29358
+        }
+      },
+      {
+        "Id": 29360,
+        "Name": "Lich\u0027s Study",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29361
+        }
+      },
+      {
+        "Id": 29361,
+        "Name": "The Library",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29362,
+          "West": 29360
+        }
+      },
+      {
+        "Id": 29362,
+        "Name": "The Library",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 29361,
+          "West": 29357
+        }
+      },
+      {
+        "Id": 29363,
+        "Name": "A Summoning Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29358,
+          "East": 29364
+        }
+      },
+      {
+        "Id": 29364,
+        "Name": "The Torture Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29365,
+          "West": 29363
+        }
+      },
+      {
+        "Id": 29365,
+        "Name": "A Summoning Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 29364,
+          "West": 29358
+        }
+      },
+      {
+        "Id": 29366,
+        "Name": "A Large Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29359,
+          "East": 29367
+        }
+      },
+      {
+        "Id": 29367,
+        "Name": "The Lich\u0027s Throne Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29368,
+          "West": 29366
+        }
+      },
+      {
+        "Id": 29368,
+        "Name": "A Large Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 29367,
+          "West": 29359
+        }
+      },
+      {
+        "Id": 29369,
+        "Name": "A Storage Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29355,
+          "South": 29370
+        }
+      },
+      {
+        "Id": 29370,
+        "Name": "Above a Pit",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29369,
+          "Down": 29371
+        }
+      },
+      {
+        "Id": 29371,
+        "Name": "Under a Pit",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 29372,
+          "Up": 29370
+        }
+      },
+      {
+        "Id": 29372,
+        "Name": "A Darkened Tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29371,
+          "South": 29373
+        }
+      },
+      {
+        "Id": 29373,
+        "Name": "Before the Caverns",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 29372
+        }
+      },
+      {
+        "Id": 29374,
+        "Name": "Approaching a Dark Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29375,
+          "West": 29350
+        }
+      },
+      {
+        "Id": 29375,
+        "Name": "Approaching a Dark Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29376,
+          "West": 29374
+        }
+      },
+      {
+        "Id": 29376,
+        "Name": "Approaching a Dark Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29377,
+          "West": 29375
+        }
+      },
+      {
+        "Id": 29377,
+        "Name": "Approaching a Dark Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 29378,
+          "West": 29376
+        }
+      },
+      {
+        "Id": 29378,
+        "Name": "Approaching a Dark Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 9845,
+          "West": 29377
+        }
+      },
+      {
+        "Id": 9845,
+        "Name": "To New Thalos",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 9846,
+          "South": 9844,
+          "West": 29378
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

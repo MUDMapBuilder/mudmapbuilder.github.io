@@ -1,0 +1,89 @@
+{
+  "Area": {
+    "Name": "Sylvan Cabal",
+    "Credits": "Deomanix",
+    "MinimumLevel": "ABAL",
+    "MaximumLevel": "ABAL",
+    "Rooms": [
+      {
+        "Id": 8800,
+        "Name": "On top of the Ancient Oak",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 8801
+        }
+      },
+      {
+        "Id": 8801,
+        "Name": "Nearing the top of the Ancient Oak",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 8800,
+          "Down": 8802
+        }
+      },
+      {
+        "Id": 8802,
+        "Name": "In the Branches of the Ancient Oak",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 8801,
+          "Down": 8803
+        }
+      },
+      {
+        "Id": 8803,
+        "Name": "Inside the Oak",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 8804,
+          "Up": 8802
+        }
+      },
+      {
+        "Id": 8804,
+        "Name": "Entrance to the Ancient Oak",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8803,
+          "South": 8805
+        }
+      },
+      {
+        "Id": 8805,
+        "Name": "Through the deep forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8804,
+          "South": 26128
+        }
+      },
+      {
+        "Id": 26128,
+        "Name": "To Sywilm Woods",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "West": 26127
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

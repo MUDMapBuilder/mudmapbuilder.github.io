@@ -1,0 +1,537 @@
+{
+  "Area": {
+    "Name": "Sands of Sorrow",
+    "Credits": "Anon",
+    "MinimumLevel": "10",
+    "MaximumLevel": "20",
+    "Rooms": [
+      {
+        "Id": 5001,
+        "Name": "A long tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5002,
+          "West": 60789
+        }
+      },
+      {
+        "Id": 5002,
+        "Name": "A long tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5008,
+          "East": 5003,
+          "West": 5001
+        }
+      },
+      {
+        "Id": 5003,
+        "Name": "A long tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5004,
+          "South": 5017,
+          "West": 5002
+        }
+      },
+      {
+        "Id": 5004,
+        "Name": "A long tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5005,
+          "South": 5018,
+          "West": 5003
+        }
+      },
+      {
+        "Id": 5005,
+        "Name": "An underground lake",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5016,
+          "East": 5006,
+          "South": 5023,
+          "West": 5004
+        }
+      },
+      {
+        "Id": 5006,
+        "Name": "A long narrow tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5007,
+          "West": 5005
+        }
+      },
+      {
+        "Id": 5007,
+        "Name": "A wide tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5027,
+          "West": 5006
+        }
+      },
+      {
+        "Id": 5008,
+        "Name": "Cave-in",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 5002,
+          "Down": 5009
+        }
+      },
+      {
+        "Id": 5009,
+        "Name": "At the foot of the rubble",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5010,
+          "East": 5012,
+          "Up": 5008
+        }
+      },
+      {
+        "Id": 5010,
+        "Name": "Cave entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 5009,
+          "Down": 5011
+        }
+      },
+      {
+        "Id": 5011,
+        "Name": "Giant cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 5010
+        }
+      },
+      {
+        "Id": 5012,
+        "Name": "Narrow bend",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 5013,
+          "West": 5009
+        }
+      },
+      {
+        "Id": 5013,
+        "Name": "Large cave",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5012,
+          "East": 5014
+        }
+      },
+      {
+        "Id": 5014,
+        "Name": "Damp hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5015,
+          "West": 5013
+        }
+      },
+      {
+        "Id": 5015,
+        "Name": "Underground pool",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 5016,
+          "West": 5014
+        }
+      },
+      {
+        "Id": 5016,
+        "Name": "Damp hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5015,
+          "South": 5005
+        }
+      },
+      {
+        "Id": 5017,
+        "Name": "Narrow crawlway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5003,
+          "East": 5018,
+          "South": 5019
+        }
+      },
+      {
+        "Id": 5018,
+        "Name": "Large cavern",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5004,
+          "West": 5017
+        }
+      },
+      {
+        "Id": 5019,
+        "Name": "Fungus patch",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5017,
+          "East": 5020
+        }
+      },
+      {
+        "Id": 5020,
+        "Name": "Fungus path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 5021,
+          "West": 5019
+        }
+      },
+      {
+        "Id": 5021,
+        "Name": "Fungus temple",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5020,
+          "East": 5022
+        }
+      },
+      {
+        "Id": 5022,
+        "Name": "Sloping passage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 5021,
+          "Down": 5023
+        }
+      },
+      {
+        "Id": 5023,
+        "Name": "Sloping passage",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5005,
+          "Up": 5022
+        }
+      },
+      {
+        "Id": 5024,
+        "Name": "The Sands of Sorrow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5030,
+          "East": 5025,
+          "South": 5027,
+          "West": 5026
+        }
+      },
+      {
+        "Id": 5025,
+        "Name": "The Sands of Sorrow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5056,
+          "East": 5026,
+          "South": 5028,
+          "West": 5024
+        }
+      },
+      {
+        "Id": 5026,
+        "Name": "The Sands of Sorrow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5032,
+          "East": 5024,
+          "South": 5029,
+          "West": 5025
+        }
+      },
+      {
+        "Id": 5027,
+        "Name": "The Sands of Sorrow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5024,
+          "East": 5028,
+          "South": 5030,
+          "West": 5007
+        }
+      },
+      {
+        "Id": 5028,
+        "Name": "The Sands of Sorrow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5025,
+          "East": 5029,
+          "South": 5031,
+          "West": 5027
+        }
+      },
+      {
+        "Id": 5029,
+        "Name": "The Sands of Sorrow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5026,
+          "East": 5062,
+          "South": 5032,
+          "West": 5028
+        }
+      },
+      {
+        "Id": 5030,
+        "Name": "The Sands of Sorrow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5027,
+          "East": 5031,
+          "South": 5024,
+          "West": 5032
+        }
+      },
+      {
+        "Id": 5031,
+        "Name": "The Sands of Sorrow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5028,
+          "East": 5032,
+          "South": 5063,
+          "West": 5030
+        }
+      },
+      {
+        "Id": 5032,
+        "Name": "The Sands of Sorrow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5029,
+          "East": 5030,
+          "South": 5026,
+          "West": 5031
+        }
+      },
+      {
+        "Id": 5056,
+        "Name": "A nomad camp",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5058,
+          "East": 5057,
+          "South": 5025
+        }
+      },
+      {
+        "Id": 5057,
+        "Name": "Inside a small tent",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8700,
+          "West": 5056
+        }
+      },
+      {
+        "Id": 5058,
+        "Name": "Beside the camels",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5060,
+          "East": 5059,
+          "South": 5056
+        }
+      },
+      {
+        "Id": 5059,
+        "Name": "The warrior\u0027s tent.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 5058
+        }
+      },
+      {
+        "Id": 5060,
+        "Name": "The main tent",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5061,
+          "South": 5058
+        }
+      },
+      {
+        "Id": 5061,
+        "Name": "The main tent",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 5060
+        }
+      },
+      {
+        "Id": 5062,
+        "Name": "Strange Glowing Sand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 5029
+        }
+      },
+      {
+        "Id": 5063,
+        "Name": "The wind-swept ledge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5031,
+          "West": 5064
+        }
+      },
+      {
+        "Id": 5064,
+        "Name": "The cave mouth",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5063,
+          "West": 5065
+        }
+      },
+      {
+        "Id": 5065,
+        "Name": "The mysterious lair.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5064,
+          "West": 5066
+        }
+      },
+      {
+        "Id": 5066,
+        "Name": "A wide tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5065,
+          "West": 5067
+        }
+      },
+      {
+        "Id": 5067,
+        "Name": "A narrower tunnel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 5066,
+          "South": 5068
+        }
+      },
+      {
+        "Id": 5068,
+        "Name": "A narrow crack",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5067,
+          "West": 5069
+        }
+      },
+      {
+        "Id": 5069,
+        "Name": "A small cavern.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5070,
+          "East": 5068
+        }
+      },
+      {
+        "Id": 5070,
+        "Name": "A small shaft",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 5069,
+          "Up": 5009
+        }
+      },
+      {
+        "Id": 60789,
+        "Name": "To Thalos",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 60788,
+          "East": 5001,
+          "South": 60790
+        }
+      },
+      {
+        "Id": 8700,
+        "Name": "To Pyramid",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 8700,
+          "East": 8701,
+          "South": 8700,
+          "West": 5057
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": false,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

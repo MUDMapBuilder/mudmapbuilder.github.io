@@ -1,0 +1,620 @@
+{
+  "Area": {
+    "Name": "Camelot",
+    "Credits": "Chipper",
+    "MinimumLevel": "5",
+    "MaximumLevel": "25",
+    "Rooms": [
+      {
+        "Id": 20900,
+        "Name": "A Marble Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20901
+        }
+      },
+      {
+        "Id": 20901,
+        "Name": "A Marble Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20900,
+          "South": 20902
+        }
+      },
+      {
+        "Id": 20902,
+        "Name": "Entrance Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20901,
+          "East": 20903,
+          "South": 20919,
+          "West": 20911
+        }
+      },
+      {
+        "Id": 20903,
+        "Name": "Rose Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20904,
+          "South": 20905,
+          "West": 20902
+        }
+      },
+      {
+        "Id": 20904,
+        "Name": "Rose Mess Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20903
+        }
+      },
+      {
+        "Id": 20905,
+        "Name": "Rose Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20903,
+          "East": 20906
+        }
+      },
+      {
+        "Id": 20906,
+        "Name": "Rose Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20907,
+          "West": 20905
+        }
+      },
+      {
+        "Id": 20907,
+        "Name": "Rose Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20910,
+          "East": 20908,
+          "West": 20906
+        }
+      },
+      {
+        "Id": 20908,
+        "Name": "Rose Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20909,
+          "West": 20907
+        }
+      },
+      {
+        "Id": 20909,
+        "Name": "Rose Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20908
+        }
+      },
+      {
+        "Id": 20910,
+        "Name": "Officer\u0027s Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20907
+        }
+      },
+      {
+        "Id": 20911,
+        "Name": "Dragon Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20902,
+          "South": 20913,
+          "West": 20912
+        }
+      },
+      {
+        "Id": 20912,
+        "Name": "Dragon\u0027s Mess Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20911
+        }
+      },
+      {
+        "Id": 20913,
+        "Name": "Dragon Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20911,
+          "West": 20914
+        }
+      },
+      {
+        "Id": 20914,
+        "Name": "Dragon Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20913,
+          "West": 20915
+        }
+      },
+      {
+        "Id": 20915,
+        "Name": "Dragon Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20916,
+          "East": 20914,
+          "West": 20917
+        }
+      },
+      {
+        "Id": 20916,
+        "Name": "Officer\u0027s Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20915
+        }
+      },
+      {
+        "Id": 20917,
+        "Name": "Dragon Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20918,
+          "East": 20915
+        }
+      },
+      {
+        "Id": 20918,
+        "Name": "Dragon Barracks",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20917
+        }
+      },
+      {
+        "Id": 20919,
+        "Name": "Main Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20902,
+          "South": 20920
+        }
+      },
+      {
+        "Id": 20920,
+        "Name": "Main Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20919,
+          "South": 20921
+        }
+      },
+      {
+        "Id": 20921,
+        "Name": "Main Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20920,
+          "East": 20930,
+          "South": 20938,
+          "West": 20922
+        }
+      },
+      {
+        "Id": 20922,
+        "Name": "Chapel Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20923,
+          "East": 20921,
+          "West": 20925
+        }
+      },
+      {
+        "Id": 20923,
+        "Name": "Sitting Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20922,
+          "West": 20924
+        }
+      },
+      {
+        "Id": 20924,
+        "Name": "Father Benedict\u0027s Bedroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20923
+        }
+      },
+      {
+        "Id": 20925,
+        "Name": "Chapel Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20922,
+          "West": 20926
+        }
+      },
+      {
+        "Id": 20926,
+        "Name": "Chapel Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20925,
+          "West": 20927
+        }
+      },
+      {
+        "Id": 20927,
+        "Name": "Chapel Entrance",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20928,
+          "East": 20926
+        }
+      },
+      {
+        "Id": 20928,
+        "Name": "Chapel",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20929,
+          "South": 20927
+        }
+      },
+      {
+        "Id": 20929,
+        "Name": "Confessional",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20928
+        }
+      },
+      {
+        "Id": 20930,
+        "Name": "Servant\u0027s Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20931,
+          "East": 20932,
+          "West": 20921
+        }
+      },
+      {
+        "Id": 20931,
+        "Name": "Servant\u0027s Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20930
+        }
+      },
+      {
+        "Id": 20932,
+        "Name": "Servant\u0027s Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20933,
+          "East": 20934,
+          "West": 20930
+        }
+      },
+      {
+        "Id": 20933,
+        "Name": "Cook\u0027s Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20932
+        }
+      },
+      {
+        "Id": 20934,
+        "Name": "Servant\u0027s Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20936,
+          "East": 20935,
+          "West": 20932
+        }
+      },
+      {
+        "Id": 20935,
+        "Name": "Storage Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20934
+        }
+      },
+      {
+        "Id": 20936,
+        "Name": "Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20937,
+          "South": 20934
+        }
+      },
+      {
+        "Id": 20937,
+        "Name": "Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20936
+        }
+      },
+      {
+        "Id": 20938,
+        "Name": "Main Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20921,
+          "South": 20939
+        }
+      },
+      {
+        "Id": 20939,
+        "Name": "Throne Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20938,
+          "East": 20940
+        }
+      },
+      {
+        "Id": 20940,
+        "Name": "Queen\u0027s Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20941,
+          "West": 20939
+        }
+      },
+      {
+        "Id": 20941,
+        "Name": "Queen\u0027s Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20942,
+          "East": 20945,
+          "West": 20940
+        }
+      },
+      {
+        "Id": 20942,
+        "Name": "Private Dining Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20941,
+          "West": 20943
+        }
+      },
+      {
+        "Id": 20943,
+        "Name": "Private Council Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20942
+        }
+      },
+      {
+        "Id": 20944,
+        "Name": "Queen\u0027s Council Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20945
+        }
+      },
+      {
+        "Id": 20945,
+        "Name": "Queen\u0027s Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20946,
+          "East": 20944,
+          "West": 20941
+        }
+      },
+      {
+        "Id": 20946,
+        "Name": "Dining Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 20947,
+          "South": 20945
+        }
+      },
+      {
+        "Id": 20947,
+        "Name": "Drinking Lounge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 20946
+        }
+      },
+      {
+        "Id": 20948,
+        "Name": "King\u0027s Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20949,
+          "East": 20939,
+          "West": 20950
+        }
+      },
+      {
+        "Id": 20949,
+        "Name": "Round Table",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20948
+        }
+      },
+      {
+        "Id": 20950,
+        "Name": "King\u0027s Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20951,
+          "East": 20948,
+          "West": 20952
+        }
+      },
+      {
+        "Id": 20951,
+        "Name": "King\u0027s Bedchamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20950
+        }
+      },
+      {
+        "Id": 20952,
+        "Name": "King\u0027s Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20953,
+          "East": 20950,
+          "West": 20954
+        }
+      },
+      {
+        "Id": 20953,
+        "Name": "Merlin\u0027s Laboratory",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20952
+        }
+      },
+      {
+        "Id": 20954,
+        "Name": "King\u0027s Hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 20955,
+          "East": 20952
+        }
+      },
+      {
+        "Id": 20955,
+        "Name": "Queen\u0027s Bedchamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 20954
+        }
+      },
+      {
+        "Id": 20987,
+        "Name": "Nimue\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 20994,
+        "Name": "Healer\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 20995,
+        "Name": "Raven\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 20997,
+        "Name": "Pkill Arena",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 20998,
+        "Name": "Pkill Arena",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 20999,
+        "Name": "Rose Clan Vestibule",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}
