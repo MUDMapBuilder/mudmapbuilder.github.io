@@ -1,0 +1,957 @@
+{
+  "Area": {
+    "Name": "Astral Plane",
+    "Credits": "{10 35} Andersen Astral/Githyanki",
+    "MinimumLevel": "10",
+    "MaximumLevel": "35",
+    "Rooms": [
+      {
+        "Id": 7700,
+        "Name": "The Bottom of the Rainbow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7701,
+          "Down": 1036
+        }
+      },
+      {
+        "Id": 7701,
+        "Name": "On the Rainbow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7702,
+          "Down": 7700
+        }
+      },
+      {
+        "Id": 7702,
+        "Name": "On the Rainbow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7703,
+          "Down": 7701
+        }
+      },
+      {
+        "Id": 7703,
+        "Name": "On the Rainbow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7704,
+          "Down": 7702
+        }
+      },
+      {
+        "Id": 7704,
+        "Name": "On the Rainbow",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7705,
+          "Down": 7703
+        }
+      },
+      {
+        "Id": 7705,
+        "Name": "The Glowing Bridge at the Rainbow\u0027s End",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7706,
+          "Down": 7704
+        }
+      },
+      {
+        "Id": 7706,
+        "Name": "The Astral Gate",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7707,
+          "South": 7705
+        }
+      },
+      {
+        "Id": 7707,
+        "Name": "Into the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7708,
+          "East": 7709,
+          "South": 7706,
+          "West": 7710,
+          "Up": 7711,
+          "Down": 7712
+        }
+      },
+      {
+        "Id": 7708,
+        "Name": "Exploring the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7710,
+          "West": 7712,
+          "North": 7713,
+          "Down": 7714,
+          "South": 7707
+        }
+      },
+      {
+        "Id": 7709,
+        "Name": "Exploring the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 7711,
+          "East": 7716,
+          "Up": 7710,
+          "North": 7714,
+          "West": 7707
+        }
+      },
+      {
+        "Id": 7710,
+        "Name": "Exploring the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 7708,
+          "Up": 7713,
+          "East": 7707,
+          "Down": 7709,
+          "North": 7715
+        }
+      },
+      {
+        "Id": 7711,
+        "Name": "Exploring the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 7707,
+          "North": 7716,
+          "Up": 7709,
+          "East": 7712,
+          "West": 7717
+        }
+      },
+      {
+        "Id": 7712,
+        "Name": "Exploring the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7707,
+          "East": 7708,
+          "West": 7711,
+          "North": 7717,
+          "Down": 7715
+        }
+      },
+      {
+        "Id": 7713,
+        "Name": "Roaming the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7714,
+          "East": 7715,
+          "North": 7718,
+          "West": 7720,
+          "South": 7708,
+          "Down": 7710
+        }
+      },
+      {
+        "Id": 7714,
+        "Name": "Roaming the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7719,
+          "West": 7718,
+          "Up": 7708,
+          "South": 7709,
+          "East": 7717,
+          "Down": 7713
+        }
+      },
+      {
+        "Id": 7715,
+        "Name": "Roaming the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 7716,
+          "East": 7722,
+          "South": 7710,
+          "North": 7720,
+          "West": 7713,
+          "Up": 7712
+        }
+      },
+      {
+        "Id": 7716,
+        "Name": "Roaming the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7715,
+          "East": 7719,
+          "West": 7709,
+          "Down": 7717,
+          "South": 7711,
+          "North": 7721
+        }
+      },
+      {
+        "Id": 7717,
+        "Name": "Roaming the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7716,
+          "East": 7711,
+          "Down": 7721,
+          "North": 7722,
+          "West": 7714,
+          "South": 7712
+        }
+      },
+      {
+        "Id": 7718,
+        "Name": "Wandering the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7709,
+          "South": 7713,
+          "West": 7719,
+          "Up": 7733,
+          "Down": 7736,
+          "East": 7714
+        }
+      },
+      {
+        "Id": 7719,
+        "Name": "Wandering the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 7738,
+          "Up": 7734,
+          "South": 7714,
+          "West": 7716,
+          "East": 7718,
+          "North": 7710
+        }
+      },
+      {
+        "Id": 7720,
+        "Name": "Wandering the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 7721,
+          "North": 7711,
+          "South": 7715,
+          "Down": 7740,
+          "Up": 7735,
+          "East": 7713
+        }
+      },
+      {
+        "Id": 7721,
+        "Name": "Wandering the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7716,
+          "West": 7742,
+          "Down": 7733,
+          "East": 7720,
+          "North": 7712,
+          "Up": 7717
+        }
+      },
+      {
+        "Id": 7722,
+        "Name": "Wandering the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7744,
+          "South": 7717,
+          "North": 7712,
+          "Down": 7734,
+          "West": 7715
+        }
+      },
+      {
+        "Id": 7723,
+        "Name": "Travelling the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 7735,
+          "North": 7724,
+          "East": 7728,
+          "West": 7726,
+          "Up": 7732,
+          "South": 7737
+        }
+      },
+      {
+        "Id": 7724,
+        "Name": "Travelling the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 7739,
+          "North": 7725,
+          "Up": 7730,
+          "East": 7729,
+          "South": 7723,
+          "West": 7733
+        }
+      },
+      {
+        "Id": 7725,
+        "Name": "Travelling the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7728,
+          "North": 7741,
+          "East": 7727,
+          "Down": 7730,
+          "West": 7734,
+          "South": 7724
+        }
+      },
+      {
+        "Id": 7726,
+        "Name": "Travelling the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7743,
+          "South": 7727,
+          "North": 7731,
+          "Down": 7729,
+          "West": 7735,
+          "East": 7723
+        }
+      },
+      {
+        "Id": 7727,
+        "Name": "Travelling the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 7744,
+          "South": 7733,
+          "Up": 7731,
+          "East": 7732,
+          "North": 7726,
+          "West": 7725
+        }
+      },
+      {
+        "Id": 7728,
+        "Name": "Traversing the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 7723,
+          "North": 7709,
+          "Down": 7725,
+          "South": 7734,
+          "Up": 7745,
+          "East": 7747
+        }
+      },
+      {
+        "Id": 7729,
+        "Name": "Traversing the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 7746,
+          "East": 7749,
+          "West": 7724,
+          "Up": 7726,
+          "North": 7730,
+          "South": 7735
+        }
+      },
+      {
+        "Id": 7730,
+        "Name": "Traversing the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7747,
+          "West": 7745,
+          "South": 7729,
+          "East": 7733,
+          "Down": 7724,
+          "Up": 7725
+        }
+      },
+      {
+        "Id": 7731,
+        "Name": "Traversing the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 7727,
+          "West": 7748,
+          "Up": 7746,
+          "South": 7726,
+          "East": 7734,
+          "North": 7732
+        }
+      },
+      {
+        "Id": 7732,
+        "Name": "Traversing the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 7723,
+          "Up": 7748,
+          "West": 7727,
+          "East": 7735,
+          "North": 7749,
+          "South": 7731
+        }
+      },
+      {
+        "Id": 7733,
+        "Name": "Lost in the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7721,
+          "East": 7724,
+          "West": 7730,
+          "Down": 7718,
+          "North": 7727
+        }
+      },
+      {
+        "Id": 7734,
+        "Name": "Lost in the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 7719,
+          "West": 7731,
+          "North": 7728,
+          "East": 7725,
+          "Up": 7722
+        }
+      },
+      {
+        "Id": 7735,
+        "Name": "Lost in the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7723,
+          "West": 7732,
+          "East": 7726,
+          "North": 7729,
+          "Down": 7720
+        }
+      },
+      {
+        "Id": 7736,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7737,
+          "Up": 7718
+        }
+      },
+      {
+        "Id": 7737,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7723,
+          "South": 7736
+        }
+      },
+      {
+        "Id": 7738,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7739,
+          "Up": 7719
+        }
+      },
+      {
+        "Id": 7739,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 7738,
+          "Up": 7724
+        }
+      },
+      {
+        "Id": 7740,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7720,
+          "East": 7741
+        }
+      },
+      {
+        "Id": 7741,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 7740,
+          "South": 7725
+        }
+      },
+      {
+        "Id": 7742,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7721,
+          "North": 7743
+        }
+      },
+      {
+        "Id": 7743,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7742,
+          "Down": 7726
+        }
+      },
+      {
+        "Id": 7744,
+        "Name": "Walking the Silvery Strand",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Down": 7722,
+          "Up": 7727
+        }
+      },
+      {
+        "Id": 7745,
+        "Name": "Deep Within the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7746,
+          "East": 7730,
+          "West": 7749,
+          "Up": 7750,
+          "Down": 7728
+        }
+      },
+      {
+        "Id": 7746,
+        "Name": "Deep Within the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7733,
+          "South": 7745,
+          "West": 7747,
+          "Up": 7729,
+          "Down": 7731
+        }
+      },
+      {
+        "Id": 7747,
+        "Name": "Deep Within the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7734,
+          "East": 7746,
+          "South": 7730,
+          "West": 7728,
+          "Down": 7748
+        }
+      },
+      {
+        "Id": 7748,
+        "Name": "Deep Within the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7735,
+          "East": 7731,
+          "South": 7749,
+          "Up": 7747,
+          "Down": 7732
+        }
+      },
+      {
+        "Id": 7749,
+        "Name": "Deep Within the Astral Plane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7748,
+          "East": 7745,
+          "South": 7732,
+          "West": 7729
+        }
+      },
+      {
+        "Id": 7750,
+        "Name": "Inside the Githyanki Keep",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7751,
+          "Down": 7745
+        }
+      },
+      {
+        "Id": 7751,
+        "Name": "A guard station",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7761,
+          "South": 7750,
+          "West": 7752
+        }
+      },
+      {
+        "Id": 7752,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7753,
+          "East": 7751
+        }
+      },
+      {
+        "Id": 7753,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7754,
+          "East": 7762,
+          "South": 7752,
+          "West": 7769
+        }
+      },
+      {
+        "Id": 7754,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7755,
+          "South": 7753
+        }
+      },
+      {
+        "Id": 7755,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7774,
+          "East": 7756,
+          "West": 7754
+        }
+      },
+      {
+        "Id": 7756,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7757,
+          "South": 7764,
+          "West": 7755
+        }
+      },
+      {
+        "Id": 7757,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7773,
+          "South": 7758,
+          "West": 7756
+        }
+      },
+      {
+        "Id": 7758,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7757,
+          "East": 7767,
+          "South": 7759
+        }
+      },
+      {
+        "Id": 7759,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7758,
+          "South": 7760
+        }
+      },
+      {
+        "Id": 7760,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7759,
+          "East": 7765,
+          "West": 7761
+        }
+      },
+      {
+        "Id": 7761,
+        "Name": "A grey road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7763,
+          "East": 7760,
+          "West": 7751
+        }
+      },
+      {
+        "Id": 7762,
+        "Name": "A small building",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 7753
+        }
+      },
+      {
+        "Id": 7763,
+        "Name": "A small building",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7761
+        }
+      },
+      {
+        "Id": 7764,
+        "Name": "A large dwelling",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7756
+        }
+      },
+      {
+        "Id": 7765,
+        "Name": "The Githyanki Weaponry",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7766,
+          "West": 7760
+        }
+      },
+      {
+        "Id": 7766,
+        "Name": "The Forge",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7767,
+          "East": 7768,
+          "South": 7765
+        }
+      },
+      {
+        "Id": 7767,
+        "Name": "The Githyanki Armoury",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7766,
+          "West": 7758
+        }
+      },
+      {
+        "Id": 7768,
+        "Name": "Inside the furnace",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7768,
+          "South": 7768,
+          "West": 7766
+        }
+      },
+      {
+        "Id": 7769,
+        "Name": "A guard station",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 7753,
+          "West": 7770
+        }
+      },
+      {
+        "Id": 7770,
+        "Name": "The cellblock",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7771,
+          "East": 7769,
+          "South": 7772
+        }
+      },
+      {
+        "Id": 7771,
+        "Name": "A cramped cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7770
+        }
+      },
+      {
+        "Id": 7772,
+        "Name": "A tiny cell",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7770
+        }
+      },
+      {
+        "Id": 7773,
+        "Name": "A large dwelling",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7757
+        }
+      },
+      {
+        "Id": 7774,
+        "Name": "South End of the Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7775,
+          "South": 7755
+        }
+      },
+      {
+        "Id": 7775,
+        "Name": "North End of the Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7776,
+          "South": 7774
+        }
+      },
+      {
+        "Id": 7776,
+        "Name": "The Altar Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 7777,
+          "South": 7775
+        }
+      },
+      {
+        "Id": 7777,
+        "Name": "Before the Altar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 7776,
+          "Down": 7778
+        }
+      },
+      {
+        "Id": 7778,
+        "Name": "A Gateway to the Underworld",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 7777,
+          "Down": 7779
+        }
+      },
+      {
+        "Id": 7779,
+        "Name": "Utter darkness and despair",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 1036,
+        "Name": "To In the Air",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "South": 1037,
+          "West": 1031,
+          "Up": 7700,
+          "Down": 1016
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": false,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "Area": {
+    "Name": "Limbo",
+    "Credits": "{None } Diku    Limbo",
+    "MinimumLevel": "None",
+    "MaximumLevel": "None",
+    "Rooms": [
+      {
+        "Id": 1,
+        "Name": "The Void",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 2,
+        "Name": "Limbo",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 3001
+        }
+      },
+      {
+        "Id": 3001,
+        "Name": "To Midgaard",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 3054,
+          "South": 3005,
+          "Up": 3700
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

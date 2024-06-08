@@ -1,0 +1,287 @@
+{
+  "Area": {
+    "Name": "Holy Grove",
+    "Credits": "{ 5 20} Alfa    Holy Grove",
+    "MinimumLevel": "5",
+    "MaximumLevel": "20",
+    "Rooms": [
+      {
+        "Id": 8901,
+        "Name": "The holy grove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8902,
+          "South": 8904
+        }
+      },
+      {
+        "Id": 8902,
+        "Name": "The holy grove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8903,
+          "South": 8905,
+          "West": 8901
+        }
+      },
+      {
+        "Id": 8903,
+        "Name": "A clearing in the woods",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5378,
+          "South": 8906,
+          "West": 8902
+        }
+      },
+      {
+        "Id": 8904,
+        "Name": "The holy grove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8901,
+          "East": 8905,
+          "South": 8907,
+          "West": 8951
+        }
+      },
+      {
+        "Id": 8905,
+        "Name": "The sacred glade",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8902,
+          "East": 8906,
+          "South": 8908,
+          "West": 8904,
+          "Up": 9000
+        }
+      },
+      {
+        "Id": 8906,
+        "Name": "The holy grove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8903,
+          "South": 8909,
+          "West": 8905
+        }
+      },
+      {
+        "Id": 8907,
+        "Name": "The holy grove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8904,
+          "East": 8908
+        }
+      },
+      {
+        "Id": 8908,
+        "Name": "The sunny field",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8905,
+          "East": 8919,
+          "West": 8907
+        }
+      },
+      {
+        "Id": 8909,
+        "Name": "The croquet lawn",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8906,
+          "South": 8910
+        }
+      },
+      {
+        "Id": 8910,
+        "Name": "The foyer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8909,
+          "South": 8911
+        }
+      },
+      {
+        "Id": 8911,
+        "Name": "The hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8910,
+          "East": 8912,
+          "South": 8913
+        }
+      },
+      {
+        "Id": 8912,
+        "Name": "The blue room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 8911
+        }
+      },
+      {
+        "Id": 8913,
+        "Name": "The hallway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8911,
+          "East": 8914,
+          "South": 8915,
+          "West": 8916
+        }
+      },
+      {
+        "Id": 8914,
+        "Name": "The red room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 8913
+        }
+      },
+      {
+        "Id": 8915,
+        "Name": "The kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8913,
+          "West": 8918
+        }
+      },
+      {
+        "Id": 8916,
+        "Name": "The ballroom",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8913,
+          "South": 8918,
+          "West": 8917
+        }
+      },
+      {
+        "Id": 8917,
+        "Name": "The greenhouse",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8916,
+          "South": 8919
+        }
+      },
+      {
+        "Id": 8918,
+        "Name": "The dining hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8916,
+          "East": 8915,
+          "West": 8919
+        }
+      },
+      {
+        "Id": 8919,
+        "Name": "The terrace",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8917,
+          "East": 8918,
+          "West": 8908
+        }
+      },
+      {
+        "Id": 8950,
+        "Name": "At the edge of the grove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8951,
+          "South": 3526
+        }
+      },
+      {
+        "Id": 8951,
+        "Name": "Inside the grove",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8904,
+          "South": 8950
+        }
+      },
+      {
+        "Id": 8999,
+        "Name": "The fog",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 5378,
+        "Name": "To Old Thalos",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "Up": 5377,
+          "East": 5375,
+          "West": 5375,
+          "South": 8903,
+          "Down": 5377
+        }
+      },
+      {
+        "Id": 9000,
+        "Name": "To Nirvana",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "East": 9001,
+          "West": 9002,
+          "Down": 8905
+        }
+      },
+      {
+        "Id": 3526,
+        "Name": "To Miden\u0027nir",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 8950,
+          "East": 3527,
+          "South": 1501,
+          "West": 3525
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

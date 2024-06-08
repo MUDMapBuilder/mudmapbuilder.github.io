@@ -1,0 +1,316 @@
+{
+  "Area": {
+    "Name": "Mega City One",
+    "Credits": "{ 5 35} Glop    Mega-City One ",
+    "MinimumLevel": "5",
+    "MaximumLevel": "35",
+    "Rooms": [
+      {
+        "Id": 8001,
+        "Name": "Entrance to Mega-City One",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 5062,
+          "South": 8002
+        }
+      },
+      {
+        "Id": 8002,
+        "Name": "Mahmount Allesh Megway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8001,
+          "South": 8003
+        }
+      },
+      {
+        "Id": 8003,
+        "Name": "Intersection of Junket Way and Megway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8002,
+          "East": 8010,
+          "South": 8004,
+          "West": 8021
+        }
+      },
+      {
+        "Id": 8004,
+        "Name": "Mahmount Allesh Megway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8003,
+          "South": 8005
+        }
+      },
+      {
+        "Id": 8005,
+        "Name": "Mahmount Allesh Megway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8004,
+          "East": 8011,
+          "South": 8006,
+          "West": 8022
+        }
+      },
+      {
+        "Id": 8006,
+        "Name": "Central Plaza",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8005,
+          "East": 8012,
+          "South": 8007,
+          "West": 8023
+        }
+      },
+      {
+        "Id": 8007,
+        "Name": "Corner of Ed Hilldreth Memorial Parkway and Megway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8006,
+          "East": 8013,
+          "South": 8008,
+          "West": 8024
+        }
+      },
+      {
+        "Id": 8008,
+        "Name": "Mahmount Allesh Megway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8007,
+          "South": 8009
+        }
+      },
+      {
+        "Id": 8009,
+        "Name": "Mahmount Allesh Megway",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8008,
+          "East": 8014,
+          "South": 8020,
+          "West": 8025
+        }
+      },
+      {
+        "Id": 8010,
+        "Name": "Junket Way",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8015,
+          "West": 8003
+        }
+      },
+      {
+        "Id": 8011,
+        "Name": "Davies Alley",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8017,
+          "West": 8005
+        }
+      },
+      {
+        "Id": 8012,
+        "Name": "Max Jaffa Boulevard",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8018,
+          "West": 8006
+        }
+      },
+      {
+        "Id": 8013,
+        "Name": "Ed Hilldreth Memorial Parkway ",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8019,
+          "West": 8007
+        }
+      },
+      {
+        "Id": 8014,
+        "Name": "Construction site of the Harold Finkelbaum Block.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 8009
+        }
+      },
+      {
+        "Id": 8015,
+        "Name": "Corner of Junket Way and Threep Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 8016,
+          "West": 8010
+        }
+      },
+      {
+        "Id": 8016,
+        "Name": "Threep Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8015,
+          "East": 8026,
+          "South": 8017
+        }
+      },
+      {
+        "Id": 8017,
+        "Name": "Threep Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8016,
+          "South": 8018,
+          "West": 8011
+        }
+      },
+      {
+        "Id": 8018,
+        "Name": "Corner of Max Jaffa Blvd and Threep Way",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8017,
+          "South": 8019,
+          "West": 8012
+        }
+      },
+      {
+        "Id": 8019,
+        "Name": "Corner of Ed Hilldreth Mem. Prkwy and Threep Lane",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8018,
+          "West": 8013
+        }
+      },
+      {
+        "Id": 8020,
+        "Name": "Construction Site for the Brit-Cit One tunnel.",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8009
+        }
+      },
+      {
+        "Id": 8021,
+        "Name": "Pustule Palace Cafe",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8003
+        }
+      },
+      {
+        "Id": 8022,
+        "Name": "Rietzik\u0027s Shuggy Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8005
+        }
+      },
+      {
+        "Id": 8023,
+        "Name": "Bazza\u0027s Home for the Terminally Sarky",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8006
+        }
+      },
+      {
+        "Id": 8024,
+        "Name": "Nu Phisog Parlour",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8007
+        }
+      },
+      {
+        "Id": 8025,
+        "Name": "Ziggi Piggi\u0027s Home for the Semi-Stiff",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 8009
+        }
+      },
+      {
+        "Id": 8026,
+        "Name": "Throt \u0026 Gleep\u0027s Megger Store",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8027,
+          "West": 8016
+        }
+      },
+      {
+        "Id": 8027,
+        "Name": "Stockroom of Throt \u0026 Gleep\u0027s Megger Store",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 8028,
+          "South": 8026
+        }
+      },
+      {
+        "Id": 8028,
+        "Name": "Throt \u0026 Gleep\u0027s Vault",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 8027
+        }
+      },
+      {
+        "Id": 5062,
+        "Name": "To Sands of Sorrow",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "South": 8001,
+          "West": 5029
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}

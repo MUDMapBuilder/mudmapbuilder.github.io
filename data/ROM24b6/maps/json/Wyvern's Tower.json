@@ -1,0 +1,641 @@
+{
+  "Area": {
+    "Name": "Wyvern\u0027s Tower",
+    "Credits": "{ 5 30} Tyrst   Wyvern\u0027s Tower",
+    "MinimumLevel": "5",
+    "MaximumLevel": "30",
+    "Rooms": [
+      {
+        "Id": 1601,
+        "Name": "Rough East-West Path",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1602,
+          "West": 1702
+        }
+      },
+      {
+        "Id": 1602,
+        "Name": "Rough Path Between the Hills",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1603,
+          "West": 1601
+        }
+      },
+      {
+        "Id": 1603,
+        "Name": "Path through an Open Area",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1604,
+          "West": 1602
+        }
+      },
+      {
+        "Id": 1604,
+        "Name": "West Side of Moat",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1605,
+          "East": 1620,
+          "West": 1603
+        }
+      },
+      {
+        "Id": 1605,
+        "Name": "Path North of Moat",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1606,
+          "South": 1604
+        }
+      },
+      {
+        "Id": 1606,
+        "Name": "Cluster of Buildings",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1609,
+          "East": 1607,
+          "South": 1605,
+          "West": 1608
+        }
+      },
+      {
+        "Id": 1607,
+        "Name": "House of Pancakes",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {}
+      },
+      {
+        "Id": 1608,
+        "Name": "Old Store Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1606
+        }
+      },
+      {
+        "Id": 1609,
+        "Name": "Empty Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1606,
+          "Down": 1610
+        }
+      },
+      {
+        "Id": 1610,
+        "Name": "Minotaur\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 1609
+        }
+      },
+      {
+        "Id": 1620,
+        "Name": "Western Moat",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1621,
+          "East": 1623,
+          "South": 1622,
+          "West": 1604
+        }
+      },
+      {
+        "Id": 1621,
+        "Name": "Northern Moat",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1620
+        }
+      },
+      {
+        "Id": 1622,
+        "Name": "Southern Moat",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1620
+        }
+      },
+      {
+        "Id": 1623,
+        "Name": "Tower Foyer",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1624,
+          "West": 1620
+        }
+      },
+      {
+        "Id": 1624,
+        "Name": "The Grand Lobby",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1625,
+          "West": 1623
+        }
+      },
+      {
+        "Id": 1625,
+        "Name": "Base of the Western Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1627,
+          "East": 1626,
+          "South": 1628,
+          "West": 1624
+        }
+      },
+      {
+        "Id": 1626,
+        "Name": "The Musty Corridor",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1629,
+          "East": 1631,
+          "South": 1630,
+          "West": 1625
+        }
+      },
+      {
+        "Id": 1627,
+        "Name": "Kitchen",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1625
+        }
+      },
+      {
+        "Id": 1628,
+        "Name": "Conservatory",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1625
+        }
+      },
+      {
+        "Id": 1629,
+        "Name": "The Dining Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1626
+        }
+      },
+      {
+        "Id": 1630,
+        "Name": "Art Gallery",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1626
+        }
+      },
+      {
+        "Id": 1631,
+        "Name": "Base of the Eastern Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1632,
+          "South": 1633,
+          "West": 1626,
+          "Up": 1635
+        }
+      },
+      {
+        "Id": 1632,
+        "Name": "The Common Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1631,
+          "Down": 1634
+        }
+      },
+      {
+        "Id": 1633,
+        "Name": "Servant\u0027s Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1631
+        }
+      },
+      {
+        "Id": 1634,
+        "Name": "A Large Murky Cellar",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 1632
+        }
+      },
+      {
+        "Id": 1635,
+        "Name": "On the First Staircase",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 1636,
+          "Down": 1631
+        }
+      },
+      {
+        "Id": 1636,
+        "Name": "Second Level of the Eastern Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 1637,
+          "Down": 1635
+        }
+      },
+      {
+        "Id": 1637,
+        "Name": "The Elegant Hall",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1638,
+          "East": 1636,
+          "South": 1639,
+          "West": 1640
+        }
+      },
+      {
+        "Id": 1638,
+        "Name": "The Shaman\u0027s Room",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1637
+        }
+      },
+      {
+        "Id": 1639,
+        "Name": "The Library",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1637
+        }
+      },
+      {
+        "Id": 1640,
+        "Name": "Second Level of the Western Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1637,
+          "West": 1641,
+          "Up": 1642
+        }
+      },
+      {
+        "Id": 1641,
+        "Name": "On the Balcony",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1640
+        }
+      },
+      {
+        "Id": 1642,
+        "Name": "The Spiral Stairs",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "Up": 1643,
+          "Down": 1640
+        }
+      },
+      {
+        "Id": 1643,
+        "Name": "Third Level of Western Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1644,
+          "Down": 1642
+        }
+      },
+      {
+        "Id": 1644,
+        "Name": "It\u0027s too dark to see anything!",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1645,
+          "East": 1647,
+          "South": 1646,
+          "West": 1643
+        }
+      },
+      {
+        "Id": 1645,
+        "Name": "The Armory",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1644
+        }
+      },
+      {
+        "Id": 1646,
+        "Name": "The Officer\u0027s Quarters",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1644
+        }
+      },
+      {
+        "Id": 1647,
+        "Name": "Third Level of Eastern Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 1644,
+          "Up": 1648
+        }
+      },
+      {
+        "Id": 1648,
+        "Name": "Turret of the Eastern Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 1649,
+          "Down": 1647
+        }
+      },
+      {
+        "Id": 1649,
+        "Name": "On the Catwalk",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1648,
+          "West": 1650
+        }
+      },
+      {
+        "Id": 1650,
+        "Name": "Turret of the Western Tower",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1649,
+          "West": 1651
+        }
+      },
+      {
+        "Id": 1651,
+        "Name": "On the Other Side",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1650,
+          "West": 1652
+        }
+      },
+      {
+        "Id": 1652,
+        "Name": "The Chamber",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1651
+        }
+      },
+      {
+        "Id": 1701,
+        "Name": "Main Eastern Road",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1702,
+          "West": 5267
+        }
+      },
+      {
+        "Id": 1702,
+        "Name": "Crossroads to the Wilderness",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1704,
+          "East": 1601,
+          "South": 1703,
+          "West": 1701
+        }
+      },
+      {
+        "Id": 1703,
+        "Name": "Trading Post",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1702
+        }
+      },
+      {
+        "Id": 1704,
+        "Name": "Trail north of crossroads",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1705,
+          "South": 1702
+        }
+      },
+      {
+        "Id": 1705,
+        "Name": "Trail south of forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1706,
+          "South": 1704
+        }
+      },
+      {
+        "Id": 1706,
+        "Name": "Entrance to the forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1707,
+          "South": 1705
+        }
+      },
+      {
+        "Id": 1707,
+        "Name": "Trail in Dark Oak Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1708,
+          "South": 1706
+        }
+      },
+      {
+        "Id": 1708,
+        "Name": "Junction in Dark Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1720,
+          "South": 1707,
+          "West": 1709
+        }
+      },
+      {
+        "Id": 1709,
+        "Name": "Path to Centaur Village",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1708,
+          "West": 1710
+        }
+      },
+      {
+        "Id": 1710,
+        "Name": "The East side of the Centaur Clearing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1712,
+          "East": 1709,
+          "South": 1713,
+          "West": 1711
+        }
+      },
+      {
+        "Id": 1711,
+        "Name": "West side of the Centaur Clearing",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1714,
+          "East": 1710,
+          "South": 1715,
+          "West": 1716
+        }
+      },
+      {
+        "Id": 1712,
+        "Name": "A Centaur\u0027s Hut",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1710
+        }
+      },
+      {
+        "Id": 1713,
+        "Name": "A Centaur\u0027s Hut",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1710
+        }
+      },
+      {
+        "Id": 1714,
+        "Name": "A Centaur\u0027s Hut",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "South": 1711
+        }
+      },
+      {
+        "Id": 1715,
+        "Name": "A Centaur\u0027s Hut",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "North": 1711
+        }
+      },
+      {
+        "Id": 1716,
+        "Name": "Entrance to a Large Hut",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1711,
+          "West": 1717
+        }
+      },
+      {
+        "Id": 1717,
+        "Name": "Back of a Large Hut",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "East": 1716
+        }
+      },
+      {
+        "Id": 1720,
+        "Name": "Eastern Path in Dark Forest",
+        "IsExitToOtherArea": false,
+        "Position": null,
+        "Connections": {
+          "West": 1708
+        }
+      },
+      {
+        "Id": 5267,
+        "Name": "To Thalos",
+        "IsExitToOtherArea": true,
+        "Position": null,
+        "Connections": {
+          "North": 5271,
+          "East": 1701,
+          "South": 9201,
+          "West": 5268,
+          "Up": 5266
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000,
+    "KeepSolitaryRooms": true,
+    "KeepRoomsWithSingleOutsideExit": true,
+    "FixObstacles": true,
+    "FixNonStraight": true,
+    "FixIntersected": true,
+    "CompactMap": true,
+    "AddDebugInfo": false,
+    "ColorizeConnectionIssues": true
+  }
+}
