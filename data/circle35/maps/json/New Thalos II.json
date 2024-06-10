@@ -632,17 +632,7 @@
         "IsExitToOtherArea": false,
         "Position": null,
         "Connections": {
-          "North": 5566,
           "West": 5574
-        }
-      },
-      {
-        "Id": 5566,
-        "Name": "The Shrine Of Allah",
-        "IsExitToOtherArea": false,
-        "Position": null,
-        "Connections": {
-          "South": 5565
         }
       },
       {
@@ -1452,9 +1442,9 @@
     "MaxSteps": 1000,
     "KeepSolitaryRooms": true,
     "KeepRoomsWithSingleOutsideExit": true,
-    "FixObstacles": true,
+    "FixObstacles": false,
     "FixNonStraight": true,
-    "FixIntersected": true,
+    "FixIntersected": false,
     "CompactMap": true,
     "AddDebugInfo": false,
     "ColorizeConnectionIssues": true
