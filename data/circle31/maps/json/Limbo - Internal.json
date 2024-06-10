@@ -1,15 +1,9 @@
 {
   "Area": {
     "Name": "Limbo - Internal",
-    "Credits": null,
-    "MinimumLevel": null,
-    "MaximumLevel": null,
     "Rooms": [
       {
-        "Id": 0,
         "Name": "The Void",
-        "IsExitToOtherArea": false,
-        "Position": null,
         "Connections": {
           "Up": 3001
         }
@@ -17,15 +11,11 @@
       {
         "Id": 1,
         "Name": "Limbo",
-        "IsExitToOtherArea": false,
-        "Position": null,
         "Connections": {}
       },
       {
         "Id": 3,
         "Name": "A Totally Empty Room",
-        "IsExitToOtherArea": false,
-        "Position": null,
         "Connections": {
           "Up": 3048
         }
@@ -34,7 +24,6 @@
         "Id": 3001,
         "Name": "To Northern Midgaard Main City",
         "IsExitToOtherArea": true,
-        "Position": null,
         "Connections": {
           "North": 3054,
           "East": 3063,
@@ -47,7 +36,6 @@
         "Id": 3048,
         "Name": "To Northern Midgaard Main City",
         "IsExitToOtherArea": true,
-        "Position": null,
         "Connections": {
           "North": 3024
         }
@@ -62,7 +50,6 @@
     "FixNonStraight": true,
     "FixIntersected": true,
     "CompactMap": true,
-    "AddDebugInfo": false,
     "ColorizeConnectionIssues": true
   }
 }

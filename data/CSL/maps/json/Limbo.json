@@ -8,15 +8,11 @@
       {
         "Id": 1,
         "Name": "The Void",
-        "IsExitToOtherArea": false,
-        "Position": null,
         "Connections": {}
       },
       {
         "Id": 2,
         "Name": "Limbo",
-        "IsExitToOtherArea": false,
-        "Position": null,
         "Connections": {
           "Up": 3001
         }
@@ -24,22 +20,17 @@
       {
         "Id": 3,
         "Name": "Graelik\u0027s Lair",
-        "IsExitToOtherArea": false,
-        "Position": null,
         "Connections": {}
       },
       {
         "Id": 110,
         "Name": "(null)",
-        "IsExitToOtherArea": false,
-        "Position": null,
         "Connections": {}
       },
       {
         "Id": 3001,
         "Name": "To Midgaard",
         "IsExitToOtherArea": true,
-        "Position": null,
         "Connections": {
           "North": 3054,
           "South": 3005
@@ -55,7 +46,6 @@
     "FixNonStraight": true,
     "FixIntersected": true,
     "CompactMap": true,
-    "AddDebugInfo": false,
     "ColorizeConnectionIssues": true
   }
 }
