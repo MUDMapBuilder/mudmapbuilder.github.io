@@ -1,0 +1,686 @@
+{
+  "Area": {
+    "Name": "Gahld",
+    "Credits": "Gahld",
+    "MinimumLevel": "5",
+    "MaximumLevel": "25",
+    "Rooms": [
+      {
+        "Id": 6400,
+        "Name": "A gloomy side road",
+        "Connections": {
+          "North": 17006,
+          "East": 6401
+        }
+      },
+      {
+        "Id": 6401,
+        "Name": "A gloomy road",
+        "Connections": {
+          "South": 6402,
+          "West": 6400
+        }
+      },
+      {
+        "Id": 6402,
+        "Name": "A turn in the gloomy road",
+        "Connections": {
+          "North": 6401,
+          "West": 6403
+        }
+      },
+      {
+        "Id": 6403,
+        "Name": "Another turn in the gloomy road",
+        "Connections": {
+          "East": 6402,
+          "South": 6404
+        }
+      },
+      {
+        "Id": 6404,
+        "Name": "The end of the gloomy road.",
+        "Connections": {
+          "North": 6403,
+          "South": 6405
+        }
+      },
+      {
+        "Id": 6405,
+        "Name": "The beginning of the open road.",
+        "Connections": {
+          "North": 6404,
+          "East": 6408,
+          "South": 6406
+        }
+      },
+      {
+        "Id": 6406,
+        "Name": "The open road.",
+        "Connections": {
+          "North": 6405,
+          "East": 6409,
+          "South": 6407
+        }
+      },
+      {
+        "Id": 6407,
+        "Name": "At the draw-bridge.",
+        "Connections": {
+          "North": 6406,
+          "East": 6410,
+          "South": 6414
+        }
+      },
+      {
+        "Id": 6408,
+        "Name": "The north end of the open field.",
+        "Connections": {
+          "East": 6411,
+          "South": 6409,
+          "West": 6405
+        }
+      },
+      {
+        "Id": 6409,
+        "Name": "The center of the open field.",
+        "Connections": {
+          "North": 6408,
+          "East": 6412,
+          "South": 6410,
+          "West": 6406
+        }
+      },
+      {
+        "Id": 6410,
+        "Name": "The south end of the open field.",
+        "Connections": {
+          "North": 6409,
+          "East": 6413,
+          "West": 6407
+        }
+      },
+      {
+        "Id": 6411,
+        "Name": "The commoners\u0027 stands.",
+        "Connections": {
+          "South": 6412,
+          "West": 6408
+        }
+      },
+      {
+        "Id": 6412,
+        "Name": "The King\u0027s grandstand.",
+        "Connections": {
+          "North": 6411,
+          "South": 6413,
+          "West": 6409
+        }
+      },
+      {
+        "Id": 6413,
+        "Name": "The nobles\u0027 stands.",
+        "Connections": {
+          "North": 6412,
+          "West": 6410
+        }
+      },
+      {
+        "Id": 6414,
+        "Name": "north end of Drawbridge",
+        "Connections": {
+          "North": 6407,
+          "South": 6415
+        }
+      },
+      {
+        "Id": 6415,
+        "Name": "south end of Drawbridge",
+        "Connections": {
+          "North": 6414,
+          "South": 6416
+        }
+      },
+      {
+        "Id": 6416,
+        "Name": "northeast corner of great hall",
+        "Connections": {
+          "North": 6415,
+          "East": 6418,
+          "South": 6419,
+          "West": 6417
+        }
+      },
+      {
+        "Id": 6417,
+        "Name": "northwest corner of great hall",
+        "Connections": {
+          "East": 6416,
+          "South": 6420,
+          "Down": 6425
+        }
+      },
+      {
+        "Id": 6418,
+        "Name": "Open storage area",
+        "Connections": {
+          "West": 6416,
+          "Down": 6426
+        }
+      },
+      {
+        "Id": 6419,
+        "Name": "east end of great hall",
+        "Connections": {
+          "North": 6416,
+          "East": 6429,
+          "South": 6422,
+          "West": 6420
+        }
+      },
+      {
+        "Id": 6420,
+        "Name": "west end of great hall",
+        "Connections": {
+          "North": 6417,
+          "East": 6419,
+          "South": 6423
+        }
+      },
+      {
+        "Id": 6421,
+        "Name": "Utility closet",
+        "Connections": {
+          "South": 6424
+        }
+      },
+      {
+        "Id": 6422,
+        "Name": "southeast corner of great hall",
+        "Connections": {
+          "North": 6419,
+          "East": 6424,
+          "West": 6423,
+          "Down": 6431
+        }
+      },
+      {
+        "Id": 6423,
+        "Name": "southwest corner of great hall",
+        "Connections": {
+          "North": 6420,
+          "East": 6422,
+          "Down": 6427
+        }
+      },
+      {
+        "Id": 6424,
+        "Name": "Kitchen",
+        "Connections": {
+          "North": 6421,
+          "West": 6422,
+          "Down": 6428
+        }
+      },
+      {
+        "Id": 6425,
+        "Name": "Base of northwest tower",
+        "Connections": {
+          "Up": 6450,
+          "Down": 6417
+        }
+      },
+      {
+        "Id": 6426,
+        "Name": "Base of northeast tower",
+        "Connections": {
+          "Up": 6451,
+          "Down": 6418
+        }
+      },
+      {
+        "Id": 6427,
+        "Name": "Base of southwest tower",
+        "Connections": {
+          "Up": 6452,
+          "Down": 6423
+        }
+      },
+      {
+        "Id": 6428,
+        "Name": "Base of southeast tower",
+        "Connections": {
+          "Up": 6453,
+          "Down": 6424
+        }
+      },
+      {
+        "Id": 6429,
+        "Name": "Landing",
+        "Connections": {
+          "South": 6430,
+          "West": 6419
+        }
+      },
+      {
+        "Id": 6430,
+        "Name": "Landing",
+        "Connections": {
+          "North": 6429,
+          "West": 6440
+        }
+      },
+      {
+        "Id": 6431,
+        "Name": "Cellar",
+        "Connections": {
+          "North": 6432,
+          "East": 6434,
+          "West": 6433,
+          "Up": 6422
+        }
+      },
+      {
+        "Id": 6432,
+        "Name": "Crypt",
+        "Connections": {
+          "South": 6431
+        }
+      },
+      {
+        "Id": 6433,
+        "Name": "Wine cellar",
+        "Connections": {
+          "East": 6431
+        }
+      },
+      {
+        "Id": 6434,
+        "Name": "Storeroom",
+        "Connections": {
+          "West": 6431
+        }
+      },
+      {
+        "Id": 6440,
+        "Name": "Another landing",
+        "Connections": {
+          "North": 6442,
+          "East": 6430,
+          "South": 6441,
+          "West": 6448
+        }
+      },
+      {
+        "Id": 6441,
+        "Name": "Small landing",
+        "Connections": {
+          "North": 6461,
+          "South": 6440
+        }
+      },
+      {
+        "Id": 6442,
+        "Name": "Audience chamber",
+        "Connections": {
+          "North": 6444,
+          "East": 6445,
+          "South": 6440,
+          "West": 6443
+        }
+      },
+      {
+        "Id": 6443,
+        "Name": "Audience chamber",
+        "Connections": {
+          "North": 6446,
+          "East": 6442,
+          "South": 6448
+        }
+      },
+      {
+        "Id": 6444,
+        "Name": "Throne",
+        "Connections": {
+          "North": 6458,
+          "East": 6447,
+          "South": 6442,
+          "West": 6446
+        }
+      },
+      {
+        "Id": 6445,
+        "Name": "Audience chamber",
+        "Connections": {
+          "North": 6447,
+          "South": 6449,
+          "West": 6442
+        }
+      },
+      {
+        "Id": 6446,
+        "Name": "Audience chamber",
+        "Connections": {
+          "East": 6444,
+          "South": 6443
+        }
+      },
+      {
+        "Id": 6447,
+        "Name": "Audience chamber",
+        "Connections": {
+          "South": 6445,
+          "West": 6444
+        }
+      },
+      {
+        "Id": 6448,
+        "Name": "Kings bed chamber",
+        "Connections": {
+          "North": 6443,
+          "East": 6440,
+          "Up": 6462,
+          "Down": 6454
+        }
+      },
+      {
+        "Id": 6449,
+        "Name": "The Queen\u0027s bed chamber",
+        "Connections": {
+          "North": 6445
+        }
+      },
+      {
+        "Id": 6450,
+        "Name": "northwest tower",
+        "Connections": {
+          "Up": 6475,
+          "Down": 6425
+        }
+      },
+      {
+        "Id": 6451,
+        "Name": "northeast tower",
+        "Connections": {
+          "Up": 6476,
+          "Down": 6426
+        }
+      },
+      {
+        "Id": 6452,
+        "Name": "southwest tower",
+        "Connections": {
+          "Up": 6477,
+          "Down": 6427
+        }
+      },
+      {
+        "Id": 6453,
+        "Name": "southeast tower",
+        "Connections": {
+          "Up": 6478,
+          "Down": 6428
+        }
+      },
+      {
+        "Id": 6454,
+        "Name": "Secret passageway",
+        "Connections": {
+          "West": 6455,
+          "Up": 6448
+        }
+      },
+      {
+        "Id": 6455,
+        "Name": "Secret passageway",
+        "Connections": {
+          "East": 6454,
+          "Down": 6456
+        }
+      },
+      {
+        "Id": 6456,
+        "Name": "Secret passageway",
+        "Connections": {
+          "North": 6457,
+          "Up": 6455
+        }
+      },
+      {
+        "Id": 6457,
+        "Name": "Secret passageway",
+        "Connections": {
+          "South": 6456,
+          "Up": 6412
+        }
+      },
+      {
+        "Id": 6458,
+        "Name": "Treasury",
+        "Connections": {
+          "South": 6444
+        }
+      },
+      {
+        "Id": 6460,
+        "Name": "Small landing",
+        "Connections": {
+          "North": 6440,
+          "South": 6461
+        }
+      },
+      {
+        "Id": 6461,
+        "Name": "south end of Narrow hall",
+        "Connections": {
+          "North": 6463,
+          "East": 6464,
+          "South": 6460,
+          "West": 6462
+        }
+      },
+      {
+        "Id": 6462,
+        "Name": "Dainty room",
+        "Connections": {
+          "East": 6461,
+          "Down": 6448
+        }
+      },
+      {
+        "Id": 6463,
+        "Name": "Center of narrow hall",
+        "Connections": {
+          "North": 6466,
+          "East": 6467,
+          "South": 6461,
+          "West": 6465
+        }
+      },
+      {
+        "Id": 6464,
+        "Name": "A mage\u0027s laboratory",
+        "Connections": {
+          "West": 6461
+        }
+      },
+      {
+        "Id": 6465,
+        "Name": "Indescript room",
+        "Connections": {
+          "East": 6463
+        }
+      },
+      {
+        "Id": 6466,
+        "Name": "north end of narrow hall",
+        "Connections": {
+          "East": 6469,
+          "South": 6463,
+          "West": 6468
+        }
+      },
+      {
+        "Id": 6467,
+        "Name": "Descript room",
+        "Connections": {
+          "West": 6463
+        }
+      },
+      {
+        "Id": 6468,
+        "Name": "Grandiose room",
+        "Connections": {
+          "East": 6466
+        }
+      },
+      {
+        "Id": 6469,
+        "Name": "Typical room",
+        "Connections": {
+          "West": 6466
+        }
+      },
+      {
+        "Id": 6475,
+        "Name": "northwest tower",
+        "Connections": {
+          "East": 6479,
+          "South": 6480,
+          "Up": 6483,
+          "Down": 6450
+        }
+      },
+      {
+        "Id": 6476,
+        "Name": "northeast tower",
+        "Connections": {
+          "South": 6481,
+          "West": 6479,
+          "Up": 6484,
+          "Down": 6451
+        }
+      },
+      {
+        "Id": 6477,
+        "Name": "southwest tower",
+        "Connections": {
+          "North": 6480,
+          "East": 6482,
+          "Up": 6485,
+          "Down": 6452
+        }
+      },
+      {
+        "Id": 6478,
+        "Name": "southeast tower",
+        "Connections": {
+          "North": 6481,
+          "West": 6482,
+          "Up": 6486,
+          "Down": 6453
+        }
+      },
+      {
+        "Id": 6479,
+        "Name": "On the north wall",
+        "Connections": {
+          "East": 6476,
+          "West": 6475
+        }
+      },
+      {
+        "Id": 6480,
+        "Name": "On the west wall",
+        "Connections": {
+          "North": 6475,
+          "South": 6477
+        }
+      },
+      {
+        "Id": 6481,
+        "Name": "On the east wall",
+        "Connections": {
+          "North": 6476,
+          "South": 6478
+        }
+      },
+      {
+        "Id": 6482,
+        "Name": "On the south wall",
+        "Connections": {
+          "East": 6478,
+          "West": 6477
+        }
+      },
+      {
+        "Id": 6483,
+        "Name": "Top of northwest tower",
+        "Connections": {
+          "South": 6487,
+          "Down": 6475
+        }
+      },
+      {
+        "Id": 6484,
+        "Name": "Top of northeast tower",
+        "Connections": {
+          "South": 6488,
+          "Down": 6476
+        }
+      },
+      {
+        "Id": 6485,
+        "Name": "Top of southwest tower",
+        "Connections": {
+          "Down": 6477
+        }
+      },
+      {
+        "Id": 6486,
+        "Name": "Top of southeast tower",
+        "Connections": {
+          "Down": 6478
+        }
+      },
+      {
+        "Id": 6487,
+        "Name": "The armory",
+        "Connections": {
+          "North": 6483
+        }
+      },
+      {
+        "Id": 6488,
+        "Name": "The secondary armory",
+        "Connections": {
+          "North": 6484
+        }
+      },
+      {
+        "Id": 6496,
+        "Name": "Order\u0027s private workshop",
+        "Connections": {
+          "North": 6400
+        }
+      },
+      {
+        "Id": 6499,
+        "Name": "Nowhere",
+        "Connections": {}
+      },
+      {
+        "Id": 17006,
+        "Name": "To Ancient Roads",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 17005,
+          "South": 6400
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

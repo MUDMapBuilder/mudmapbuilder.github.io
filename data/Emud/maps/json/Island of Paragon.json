@@ -1,0 +1,971 @@
+{
+  "Area": {
+    "Name": "Island of Paragon",
+    "Credits": "Island of Paragon",
+    "MinimumLevel": "75",
+    "MaximumLevel": "95",
+    "Rooms": [
+      {
+        "Id": 19500,
+        "Name": "Entrance to the Magicless Void",
+        "Connections": {
+          "North": 19501,
+          "South": 19552
+        }
+      },
+      {
+        "Id": 19501,
+        "Name": "Along the Hallways",
+        "Connections": {
+          "North": 19502,
+          "South": 19500
+        }
+      },
+      {
+        "Id": 19502,
+        "Name": "Along the Hallways",
+        "Connections": {
+          "North": 19503,
+          "East": 19520,
+          "South": 19501,
+          "West": 19504
+        }
+      },
+      {
+        "Id": 19503,
+        "Name": "Anti-Wizard\u0027s Chambers",
+        "Connections": {
+          "South": 19502
+        }
+      },
+      {
+        "Id": 19504,
+        "Name": "Along the Hallways",
+        "Connections": {
+          "East": 19502,
+          "West": 19505
+        }
+      },
+      {
+        "Id": 19505,
+        "Name": "Along the Hallways",
+        "Connections": {
+          "East": 19504,
+          "West": 19506
+        }
+      },
+      {
+        "Id": 19506,
+        "Name": "Along the Hallways",
+        "Connections": {
+          "North": 19507,
+          "East": 19505
+        }
+      },
+      {
+        "Id": 19507,
+        "Name": "Karik\u0027s Trophy Room",
+        "Connections": {
+          "South": 19506,
+          "West": 19508
+        }
+      },
+      {
+        "Id": 19508,
+        "Name": "Along the Hallways",
+        "Connections": {
+          "North": 19509,
+          "East": 19507
+        }
+      },
+      {
+        "Id": 19509,
+        "Name": "Along the Hallways",
+        "Connections": {
+          "North": 19510,
+          "South": 19508
+        }
+      },
+      {
+        "Id": 19510,
+        "Name": "Seflian\u0027s Throne Room",
+        "Connections": {
+          "South": 19509,
+          "Up": 19511
+        }
+      },
+      {
+        "Id": 19511,
+        "Name": "A long staircase",
+        "Connections": {
+          "Up": 19600,
+          "Down": 19510
+        }
+      },
+      {
+        "Id": 19520,
+        "Name": "Along the Hallways",
+        "Connections": {
+          "East": 19521,
+          "West": 19502
+        }
+      },
+      {
+        "Id": 19521,
+        "Name": "Central Registration Room",
+        "Connections": {
+          "West": 19520
+        }
+      },
+      {
+        "Id": 19522,
+        "Name": "Entrance to the Valley of Magical Destruction",
+        "Connections": {
+          "North": 19523,
+          "South": 19521
+        }
+      },
+      {
+        "Id": 19523,
+        "Name": "Valley of Magical Destruction",
+        "Connections": {
+          "East": 19526,
+          "South": 19522,
+          "West": 19524
+        }
+      },
+      {
+        "Id": 19524,
+        "Name": "Valley of Magical Destruction",
+        "Connections": {
+          "North": 19525,
+          "East": 19523
+        }
+      },
+      {
+        "Id": 19525,
+        "Name": "An Anti-Wizard\u0027s Torchure Chamber",
+        "Connections": {
+          "South": 19524
+        }
+      },
+      {
+        "Id": 19526,
+        "Name": "Valley of Magical Destruction",
+        "Connections": {
+          "East": 19527,
+          "West": 19523
+        }
+      },
+      {
+        "Id": 19527,
+        "Name": "Valley of Magical Destruction",
+        "Connections": {
+          "North": 19528,
+          "South": 19529,
+          "West": 19526
+        }
+      },
+      {
+        "Id": 19528,
+        "Name": "An Anti-Wizard\u0027s Torchure Chamber",
+        "Connections": {
+          "South": 19527
+        }
+      },
+      {
+        "Id": 19529,
+        "Name": "Valley of Magical Destruction",
+        "Connections": {
+          "North": 19527,
+          "South": 19530
+        }
+      },
+      {
+        "Id": 19530,
+        "Name": "Valley of Magical Destruction",
+        "Connections": {
+          "North": 19529,
+          "East": 19532,
+          "South": 19540,
+          "West": 19531
+        }
+      },
+      {
+        "Id": 19531,
+        "Name": "Exit to the Valley of Magical Destruction",
+        "Connections": {
+          "East": 19530,
+          "South": 19539,
+          "West": 19521
+        }
+      },
+      {
+        "Id": 19532,
+        "Name": "An Anti-Wizard\u0027s Torchure Chamber",
+        "Connections": {
+          "West": 19530
+        }
+      },
+      {
+        "Id": 19533,
+        "Name": "Northern Field of Blood",
+        "Connections": {
+          "South": 19534,
+          "West": 19540
+        }
+      },
+      {
+        "Id": 19534,
+        "Name": "Crucifix Lane",
+        "Connections": {
+          "North": 19533,
+          "East": 19550,
+          "West": 19535
+        }
+      },
+      {
+        "Id": 19535,
+        "Name": "Crucifix Lane",
+        "Connections": {
+          "East": 19534,
+          "West": 19536
+        }
+      },
+      {
+        "Id": 19536,
+        "Name": "Crucifix Lane",
+        "Connections": {
+          "East": 19535,
+          "West": 19537
+        }
+      },
+      {
+        "Id": 19537,
+        "Name": "Crucifix Lane",
+        "Connections": {
+          "North": 19538,
+          "East": 19536,
+          "South": 19551
+        }
+      },
+      {
+        "Id": 19538,
+        "Name": "Northern Field of Blood",
+        "Connections": {
+          "East": 19539,
+          "South": 19537
+        }
+      },
+      {
+        "Id": 19539,
+        "Name": "Northern Field of Blood",
+        "Connections": {
+          "North": 19531,
+          "East": 19540,
+          "West": 19538
+        }
+      },
+      {
+        "Id": 19540,
+        "Name": "Northern Field of Blood",
+        "Connections": {
+          "North": 19530,
+          "East": 19533,
+          "West": 19539
+        }
+      },
+      {
+        "Id": 19541,
+        "Name": "The Champion\u0027s Quarters",
+        "Connections": {
+          "East": 19542
+        }
+      },
+      {
+        "Id": 19542,
+        "Name": "Southern Field of Blood",
+        "Connections": {
+          "North": 19551,
+          "East": 19543,
+          "West": 19541
+        }
+      },
+      {
+        "Id": 19543,
+        "Name": "Southern Field of Blood",
+        "Connections": {
+          "East": 19544,
+          "West": 19542
+        }
+      },
+      {
+        "Id": 19544,
+        "Name": "Southern Field of Blood",
+        "Connections": {
+          "North": 19545,
+          "West": 19543
+        }
+      },
+      {
+        "Id": 19545,
+        "Name": "Impale Road",
+        "Connections": {
+          "East": 19546,
+          "South": 19544
+        }
+      },
+      {
+        "Id": 19546,
+        "Name": "Impale Road",
+        "Connections": {
+          "East": 19547,
+          "West": 19545
+        }
+      },
+      {
+        "Id": 19547,
+        "Name": "Impale Road",
+        "Connections": {
+          "East": 19548,
+          "West": 19546
+        }
+      },
+      {
+        "Id": 19548,
+        "Name": "Impale Road",
+        "Connections": {
+          "North": 19549,
+          "West": 19547
+        }
+      },
+      {
+        "Id": 19549,
+        "Name": "Crucifix Lane",
+        "Connections": {
+          "South": 19548,
+          "West": 19550
+        }
+      },
+      {
+        "Id": 19550,
+        "Name": "Crucifix Lane",
+        "Connections": {
+          "East": 19549,
+          "West": 19534
+        }
+      },
+      {
+        "Id": 19551,
+        "Name": "Impale Road",
+        "Connections": {
+          "North": 19537,
+          "South": 19542
+        }
+      },
+      {
+        "Id": 19552,
+        "Name": "The Edge of a Cliff",
+        "Connections": {
+          "North": 19500,
+          "South": 19553
+        }
+      },
+      {
+        "Id": 19553,
+        "Name": "In the Air",
+        "Connections": {
+          "North": 19552,
+          "Down": 13398
+        }
+      },
+      {
+        "Id": 19600,
+        "Name": "The Portal to Paragon",
+        "Connections": {
+          "North": 19601,
+          "Down": 19511
+        }
+      },
+      {
+        "Id": 19601,
+        "Name": "A Magical Haven",
+        "Connections": {
+          "North": 19602,
+          "South": 19600
+        }
+      },
+      {
+        "Id": 19602,
+        "Name": "The Dark Magical Path",
+        "Connections": {
+          "East": 19604,
+          "South": 19601,
+          "West": 19603
+        }
+      },
+      {
+        "Id": 19603,
+        "Name": "The Dark Magical Path",
+        "Connections": {
+          "North": 19605,
+          "East": 19602
+        }
+      },
+      {
+        "Id": 19604,
+        "Name": "The Dark Magical Path",
+        "Connections": {
+          "North": 19607,
+          "West": 19602
+        }
+      },
+      {
+        "Id": 19605,
+        "Name": "The Grey Magical Path",
+        "Connections": {
+          "East": 19606,
+          "South": 19603,
+          "West": 19649
+        }
+      },
+      {
+        "Id": 19606,
+        "Name": "The Grey Magical Path",
+        "Connections": {
+          "North": 19609,
+          "East": 19607,
+          "West": 19605,
+          "Up": 19620
+        }
+      },
+      {
+        "Id": 19607,
+        "Name": "The Grey Magical Path",
+        "Connections": {
+          "East": 19648,
+          "South": 19604,
+          "West": 19606
+        }
+      },
+      {
+        "Id": 19608,
+        "Name": "The Grey Magical Path",
+        "Connections": {
+          "North": 19611,
+          "East": 19609
+        }
+      },
+      {
+        "Id": 19609,
+        "Name": "The Grey Magical Path",
+        "Connections": {
+          "East": 19610,
+          "South": 19606,
+          "West": 19608,
+          "Up": 19621
+        }
+      },
+      {
+        "Id": 19610,
+        "Name": "The Grey Magical Path",
+        "Connections": {
+          "North": 19613,
+          "West": 19609
+        }
+      },
+      {
+        "Id": 19611,
+        "Name": "The Glowing Magical Path",
+        "Connections": {
+          "East": 19612,
+          "South": 19608,
+          "West": 19650
+        }
+      },
+      {
+        "Id": 19612,
+        "Name": "The Glowing Magical Path",
+        "Connections": {
+          "East": 19613,
+          "West": 19611
+        }
+      },
+      {
+        "Id": 19613,
+        "Name": "The Glowing Magical Path",
+        "Connections": {
+          "East": 19614,
+          "South": 19610,
+          "West": 19612
+        }
+      },
+      {
+        "Id": 19614,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "North": 19660,
+          "East": 19615,
+          "West": 19613
+        }
+      },
+      {
+        "Id": 19615,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "North": 19670,
+          "East": 19616,
+          "West": 19614
+        }
+      },
+      {
+        "Id": 19616,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "South": 19617,
+          "West": 19615
+        }
+      },
+      {
+        "Id": 19617,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "North": 19616,
+          "East": 19674,
+          "South": 19618
+        }
+      },
+      {
+        "Id": 19618,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "North": 19617,
+          "West": 19619
+        }
+      },
+      {
+        "Id": 19619,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "East": 19618,
+          "West": 19648
+        }
+      },
+      {
+        "Id": 19620,
+        "Name": "Godot\u0027s Laboratory",
+        "Connections": {
+          "North": 19622,
+          "Down": 19606
+        }
+      },
+      {
+        "Id": 19621,
+        "Name": "Dogot\u0027s Laboratory",
+        "Connections": {
+          "South": 19622,
+          "Down": 19609
+        }
+      },
+      {
+        "Id": 19622,
+        "Name": "A Hallway Above the Clouds",
+        "Connections": {
+          "North": 19621,
+          "South": 19620,
+          "Up": 19623
+        }
+      },
+      {
+        "Id": 19623,
+        "Name": "The Throne Room of Paragon",
+        "Connections": {
+          "Down": 19622
+        }
+      },
+      {
+        "Id": 19630,
+        "Name": "In the Forest of Paragon",
+        "Connections": {
+          "South": 19631
+        }
+      },
+      {
+        "Id": 19631,
+        "Name": "In the Forest of Paragon",
+        "Connections": {
+          "North": 19630,
+          "South": 19632
+        }
+      },
+      {
+        "Id": 19632,
+        "Name": "In the Forest of Paragon",
+        "Connections": {
+          "North": 19631,
+          "West": 19633
+        }
+      },
+      {
+        "Id": 19633,
+        "Name": "A Pond in the Forest of Paragon",
+        "Connections": {
+          "East": 19632,
+          "South": 19634,
+          "West": 19635
+        }
+      },
+      {
+        "Id": 19634,
+        "Name": "A River in the Forest of Paragon",
+        "Connections": {
+          "North": 19633
+        }
+      },
+      {
+        "Id": 19635,
+        "Name": "In the Meadow of Paragon",
+        "Connections": {
+          "North": 19637,
+          "East": 19633,
+          "West": 19636,
+          "Down": 19639
+        }
+      },
+      {
+        "Id": 19636,
+        "Name": "In the Forest of Paragon",
+        "Connections": {
+          "North": 19638,
+          "East": 19635
+        }
+      },
+      {
+        "Id": 19637,
+        "Name": "In the Forest of Paragon",
+        "Connections": {
+          "South": 19635,
+          "West": 19638
+        }
+      },
+      {
+        "Id": 19638,
+        "Name": "In the Forest of Paragon",
+        "Connections": {
+          "East": 19637,
+          "South": 19636
+        }
+      },
+      {
+        "Id": 19639,
+        "Name": "The Transportation Room",
+        "Connections": {
+          "Up": 19635
+        }
+      },
+      {
+        "Id": 19640,
+        "Name": "On a Wooden Beam",
+        "Connections": {
+          "North": 19641
+        }
+      },
+      {
+        "Id": 19641,
+        "Name": "The Bisecting Wooden Beam",
+        "Connections": {
+          "North": 19644,
+          "East": 19643,
+          "South": 19640,
+          "West": 19642
+        }
+      },
+      {
+        "Id": 19642,
+        "Name": "On a Wooden Beam",
+        "Connections": {
+          "East": 19641
+        }
+      },
+      {
+        "Id": 19643,
+        "Name": "On a Wooden Beam",
+        "Connections": {
+          "West": 19641
+        }
+      },
+      {
+        "Id": 19644,
+        "Name": "On a Wooden Beam",
+        "Connections": {
+          "North": 19645,
+          "South": 19641
+        }
+      },
+      {
+        "Id": 19645,
+        "Name": "The End of the Wooden Beam",
+        "Connections": {
+          "North": 19646,
+          "South": 19644
+        }
+      },
+      {
+        "Id": 19646,
+        "Name": "Saddie\u0027s Private Chambers",
+        "Connections": {
+          "South": 19645,
+          "Down": 19647
+        }
+      },
+      {
+        "Id": 19647,
+        "Name": "A Private Chamber",
+        "Connections": {
+          "Up": 19646
+        }
+      },
+      {
+        "Id": 19648,
+        "Name": "A Bustling Center of Commerce",
+        "Connections": {
+          "East": 19619,
+          "West": 19607
+        }
+      },
+      {
+        "Id": 19649,
+        "Name": "A Glowing Shop of Scrolls",
+        "Connections": {
+          "East": 19605,
+          "West": 19655
+        }
+      },
+      {
+        "Id": 19650,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "North": 19656,
+          "East": 19611,
+          "West": 19651
+        }
+      },
+      {
+        "Id": 19651,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "North": 19669,
+          "East": 19650,
+          "West": 19652
+        }
+      },
+      {
+        "Id": 19652,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "East": 19651,
+          "South": 19653
+        }
+      },
+      {
+        "Id": 19653,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "North": 19652,
+          "South": 19654,
+          "West": 19665
+        }
+      },
+      {
+        "Id": 19654,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "North": 19653,
+          "East": 19655
+        }
+      },
+      {
+        "Id": 19655,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "East": 19649,
+          "West": 19654
+        }
+      },
+      {
+        "Id": 19656,
+        "Name": "The Poor Quarter",
+        "Connections": {
+          "East": 19657,
+          "South": 19650
+        }
+      },
+      {
+        "Id": 19657,
+        "Name": "The Poor Quarter",
+        "Connections": {
+          "North": 19663,
+          "East": 19658,
+          "West": 19656
+        }
+      },
+      {
+        "Id": 19658,
+        "Name": "The Poor Quarter",
+        "Connections": {
+          "East": 19659,
+          "West": 19657
+        }
+      },
+      {
+        "Id": 19659,
+        "Name": "The Poor Quarter",
+        "Connections": {
+          "North": 19661,
+          "East": 19660,
+          "West": 19658
+        }
+      },
+      {
+        "Id": 19660,
+        "Name": "The Poor Quarter",
+        "Connections": {
+          "South": 19614,
+          "West": 19659
+        }
+      },
+      {
+        "Id": 19661,
+        "Name": "The Poor Quarter",
+        "Connections": {
+          "South": 19659,
+          "West": 19662
+        }
+      },
+      {
+        "Id": 19662,
+        "Name": "The Poor Quarter",
+        "Connections": {
+          "East": 19661,
+          "West": 19663
+        }
+      },
+      {
+        "Id": 19663,
+        "Name": "The Poor Quarter",
+        "Connections": {
+          "East": 19662,
+          "South": 19657
+        }
+      },
+      {
+        "Id": 19664,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "North": 19665
+        }
+      },
+      {
+        "Id": 19665,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "North": 19666,
+          "East": 19653,
+          "South": 19664
+        }
+      },
+      {
+        "Id": 19666,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "North": 19667,
+          "South": 19665
+        }
+      },
+      {
+        "Id": 19667,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "East": 19668,
+          "South": 19666
+        }
+      },
+      {
+        "Id": 19668,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "East": 19669,
+          "West": 19667
+        }
+      },
+      {
+        "Id": 19669,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "South": 19651,
+          "West": 19668
+        }
+      },
+      {
+        "Id": 19670,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "East": 19671,
+          "South": 19615
+        }
+      },
+      {
+        "Id": 19671,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "East": 19672,
+          "West": 19670
+        }
+      },
+      {
+        "Id": 19672,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "South": 19673,
+          "West": 19671
+        }
+      },
+      {
+        "Id": 19673,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "North": 19672,
+          "South": 19674
+        }
+      },
+      {
+        "Id": 19674,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "North": 19673,
+          "South": 19675,
+          "West": 19617
+        }
+      },
+      {
+        "Id": 19675,
+        "Name": "The Enchanted Wilderness",
+        "Connections": {
+          "North": 19674
+        }
+      },
+      {
+        "Id": 13398,
+        "Name": "To City of Entropy",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 13397,
+          "East": 13399
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

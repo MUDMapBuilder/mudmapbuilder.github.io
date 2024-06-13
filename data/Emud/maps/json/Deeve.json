@@ -1,0 +1,447 @@
+{
+  "Area": {
+    "Name": "Deeve",
+    "Credits": "Deeve",
+    "MinimumLevel": "5",
+    "MaximumLevel": "15",
+    "Rooms": [
+      {
+        "Id": 4000,
+        "Name": "The shaft",
+        "Connections": {
+          "South": 4001,
+          "Down": 4011
+        }
+      },
+      {
+        "Id": 4001,
+        "Name": "The cave",
+        "Connections": {
+          "North": 4000,
+          "South": 4002
+        }
+      },
+      {
+        "Id": 4002,
+        "Name": "The gate",
+        "Connections": {
+          "North": 4001,
+          "South": 4003
+        }
+      },
+      {
+        "Id": 4003,
+        "Name": "The Bridge",
+        "Connections": {
+          "North": 4002,
+          "South": 4005
+        }
+      },
+      {
+        "Id": 4004,
+        "Name": "The hills",
+        "Connections": {
+          "East": 4005,
+          "South": 4006
+        }
+      },
+      {
+        "Id": 4005,
+        "Name": "The hills",
+        "Connections": {
+          "North": 4003,
+          "South": 2900,
+          "West": 4004
+        }
+      },
+      {
+        "Id": 4006,
+        "Name": "The hills",
+        "Connections": {
+          "North": 4004,
+          "South": 4007
+        }
+      },
+      {
+        "Id": 4007,
+        "Name": "The hills",
+        "Connections": {
+          "North": 4006,
+          "South": 17221
+        }
+      },
+      {
+        "Id": 4008,
+        "Name": "The well used hallway",
+        "Connections": {
+          "East": 4009,
+          "South": 4010
+        }
+      },
+      {
+        "Id": 4009,
+        "Name": "The laboratory",
+        "Connections": {
+          "West": 4008
+        }
+      },
+      {
+        "Id": 4010,
+        "Name": "Small entry",
+        "Connections": {
+          "North": 4008,
+          "South": 4011
+        }
+      },
+      {
+        "Id": 4011,
+        "Name": "The first landing",
+        "Connections": {
+          "North": 4010,
+          "South": 4012,
+          "Up": 4000,
+          "Down": 4020
+        }
+      },
+      {
+        "Id": 4012,
+        "Name": "The small cavern system",
+        "Connections": {
+          "North": 4011,
+          "East": 4013
+        }
+      },
+      {
+        "Id": 4013,
+        "Name": "The large chamber",
+        "Connections": {
+          "East": 4014,
+          "South": 4015,
+          "West": 4012
+        }
+      },
+      {
+        "Id": 4014,
+        "Name": "The large chamber",
+        "Connections": {
+          "South": 4016,
+          "West": 4013
+        }
+      },
+      {
+        "Id": 4015,
+        "Name": "The large chamber",
+        "Connections": {
+          "North": 4013,
+          "East": 4016,
+          "South": 4017
+        }
+      },
+      {
+        "Id": 4016,
+        "Name": "The large chamber",
+        "Connections": {
+          "North": 4014,
+          "West": 4015
+        }
+      },
+      {
+        "Id": 4017,
+        "Name": "The narrow passage",
+        "Connections": {
+          "North": 4015,
+          "East": 4018
+        }
+      },
+      {
+        "Id": 4018,
+        "Name": "The small passage",
+        "Connections": {
+          "South": 4019,
+          "West": 4017
+        }
+      },
+      {
+        "Id": 4019,
+        "Name": "The small chamber",
+        "Connections": {
+          "North": 4018
+        }
+      },
+      {
+        "Id": 4020,
+        "Name": "The bottom of the shaft",
+        "Connections": {
+          "East": 4021,
+          "Up": 4011
+        }
+      },
+      {
+        "Id": 4021,
+        "Name": "Junction",
+        "Connections": {
+          "East": 4022,
+          "South": 4023,
+          "West": 4020
+        }
+      },
+      {
+        "Id": 4022,
+        "Name": "Dark tunnel",
+        "Connections": {
+          "South": 4024,
+          "West": 4021
+        }
+      },
+      {
+        "Id": 4023,
+        "Name": "Damp Tunnel",
+        "Connections": {
+          "North": 4021,
+          "South": 4028
+        }
+      },
+      {
+        "Id": 4024,
+        "Name": "Curved tunnel",
+        "Connections": {
+          "North": 4022,
+          "East": 4025,
+          "Down": 4038
+        }
+      },
+      {
+        "Id": 4025,
+        "Name": "Small shaft",
+        "Connections": {
+          "East": 4026,
+          "West": 4024
+        }
+      },
+      {
+        "Id": 4026,
+        "Name": "Small shaft",
+        "Connections": {
+          "South": 4030,
+          "West": 4025
+        }
+      },
+      {
+        "Id": 4027,
+        "Name": "Flooded tunnel",
+        "Connections": {
+          "East": 4028,
+          "South": 4031
+        }
+      },
+      {
+        "Id": 4028,
+        "Name": "Musty tunnel",
+        "Connections": {
+          "North": 4023,
+          "West": 4027
+        }
+      },
+      {
+        "Id": 4029,
+        "Name": "Glowing Cavern",
+        "Connections": {
+          "East": 4030
+        }
+      },
+      {
+        "Id": 4030,
+        "Name": "Small tunnel",
+        "Connections": {
+          "North": 4026,
+          "West": 4029
+        }
+      },
+      {
+        "Id": 4031,
+        "Name": "Musty tunnel",
+        "Connections": {
+          "North": 4027,
+          "East": 4032
+        }
+      },
+      {
+        "Id": 4032,
+        "Name": "Small cavern",
+        "Connections": {
+          "West": 4031
+        }
+      },
+      {
+        "Id": 4033,
+        "Name": "Reinforced tunnel",
+        "Connections": {
+          "East": 4034,
+          "South": 4037
+        }
+      },
+      {
+        "Id": 4034,
+        "Name": "Reinforced tunnel",
+        "Connections": {
+          "West": 4033
+        }
+      },
+      {
+        "Id": 4035,
+        "Name": "Treacherous Hole",
+        "Connections": {
+          "South": 4039,
+          "Down": 4000
+        }
+      },
+      {
+        "Id": 4036,
+        "Name": "Rocky cavern",
+        "Connections": {
+          "East": 4037,
+          "South": 4040
+        }
+      },
+      {
+        "Id": 4037,
+        "Name": "Bottom of a rock slide",
+        "Connections": {
+          "North": 4033,
+          "East": 4038,
+          "South": 4041,
+          "West": 4036,
+          "Up": 4023
+        }
+      },
+      {
+        "Id": 4038,
+        "Name": "The paved tunnel",
+        "Connections": {
+          "East": 4039,
+          "South": 4042,
+          "West": 4037
+        }
+      },
+      {
+        "Id": 4039,
+        "Name": "The downward path",
+        "Connections": {
+          "North": 4035,
+          "West": 4038
+        }
+      },
+      {
+        "Id": 4040,
+        "Name": "Rocky cavern",
+        "Connections": {
+          "North": 4036
+        }
+      },
+      {
+        "Id": 4041,
+        "Name": "The Incredibly Raunchy Smelling Area",
+        "Connections": {
+          "North": 4037,
+          "South": 4045
+        }
+      },
+      {
+        "Id": 4042,
+        "Name": "The paved tunnel",
+        "Connections": {
+          "North": 4038,
+          "East": 4043
+        }
+      },
+      {
+        "Id": 4043,
+        "Name": "The small bridge",
+        "Connections": {
+          "South": 4047,
+          "West": 4042
+        }
+      },
+      {
+        "Id": 4044,
+        "Name": "The really smelly room",
+        "Connections": {
+          "East": 4045,
+          "South": 4048
+        }
+      },
+      {
+        "Id": 4045,
+        "Name": "The smelly intersection",
+        "Connections": {
+          "North": 4041,
+          "East": 4046,
+          "West": 4044
+        }
+      },
+      {
+        "Id": 4046,
+        "Name": "The cave of bones",
+        "Connections": {
+          "West": 4045
+        }
+      },
+      {
+        "Id": 4047,
+        "Name": "The paved tunnel",
+        "Connections": {
+          "North": 4043,
+          "South": 4050
+        }
+      },
+      {
+        "Id": 4048,
+        "Name": "The smelly cave",
+        "Connections": {
+          "North": 4044,
+          "East": 4049
+        }
+      },
+      {
+        "Id": 4049,
+        "Name": "The totally discusting tunnel",
+        "Connections": {
+          "West": 4048
+        }
+      },
+      {
+        "Id": 4050,
+        "Name": "The paved tunnel",
+        "Connections": {
+          "North": 4047
+        }
+      },
+      {
+        "Id": 4051,
+        "Name": "The gate to everywhere",
+        "Connections": {}
+      },
+      {
+        "Id": 2900,
+        "Name": "To Land of the Fire Newts",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 4005,
+          "South": 2901
+        }
+      },
+      {
+        "Id": 17221,
+        "Name": "To Ancient Roads",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 4007,
+          "West": 17220
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

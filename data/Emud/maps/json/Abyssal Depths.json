@@ -1,0 +1,3475 @@
+{
+  "Area": {
+    "Name": "Abyssal Depths",
+    "Credits": "Abyssal Depths",
+    "MinimumLevel": "50",
+    "MaximumLevel": "95",
+    "Rooms": [
+      {
+        "Id": 31200,
+        "Name": "Along some pipes",
+        "Connections": {
+          "North": 31201,
+          "South": 15651
+        }
+      },
+      {
+        "Id": 31201,
+        "Name": "Along some pipes",
+        "Connections": {
+          "North": 31202,
+          "South": 31200
+        }
+      },
+      {
+        "Id": 31202,
+        "Name": "Along some pipes",
+        "Connections": {
+          "South": 31201,
+          "Down": 31203
+        }
+      },
+      {
+        "Id": 31203,
+        "Name": "On some cast iron rungs",
+        "Connections": {
+          "Up": 31202,
+          "Down": 31204
+        }
+      },
+      {
+        "Id": 31204,
+        "Name": "The Mechanical Room",
+        "Connections": {
+          "North": 31205,
+          "East": 31209,
+          "South": 31211,
+          "West": 31213,
+          "Up": 31203
+        }
+      },
+      {
+        "Id": 31205,
+        "Name": "The Large Grate",
+        "Connections": {
+          "North": 31206,
+          "East": 31208,
+          "South": 31204,
+          "West": 31214
+        }
+      },
+      {
+        "Id": 31206,
+        "Name": "The North End of the Mechanical Room",
+        "Connections": {
+          "East": 31207,
+          "South": 31205,
+          "West": 31215
+        }
+      },
+      {
+        "Id": 31207,
+        "Name": "The End of a Row of Pumps.",
+        "Connections": {
+          "East": 31245,
+          "South": 31208,
+          "West": 31206
+        }
+      },
+      {
+        "Id": 31208,
+        "Name": "The Huge Pumps",
+        "Connections": {
+          "North": 31207,
+          "South": 31209,
+          "West": 31205,
+          "Down": 31247
+        }
+      },
+      {
+        "Id": 31209,
+        "Name": "The Huge Pumps",
+        "Connections": {
+          "North": 31208,
+          "South": 31210,
+          "West": 31204,
+          "Down": 31248
+        }
+      },
+      {
+        "Id": 31210,
+        "Name": "The Corner of the Mechanical Room.",
+        "Connections": {
+          "North": 31209,
+          "West": 31211,
+          "Up": 31244
+        }
+      },
+      {
+        "Id": 31211,
+        "Name": "The South End of the Mechanical Room",
+        "Connections": {
+          "North": 31204,
+          "East": 31210,
+          "West": 31212
+        }
+      },
+      {
+        "Id": 31212,
+        "Name": "On a Catwalk",
+        "Connections": {
+          "North": 31213,
+          "East": 31211,
+          "South": 31231
+        }
+      },
+      {
+        "Id": 31213,
+        "Name": "On a Catwalk",
+        "Connections": {
+          "North": 31214,
+          "East": 31204,
+          "South": 31212,
+          "West": 31249
+        }
+      },
+      {
+        "Id": 31214,
+        "Name": "In a Mechanical Room",
+        "Connections": {
+          "North": 31215,
+          "East": 31205,
+          "South": 31213
+        }
+      },
+      {
+        "Id": 31215,
+        "Name": "The Corner of the Mechanical Room",
+        "Connections": {
+          "East": 31206,
+          "South": 31214,
+          "Up": 31216
+        }
+      },
+      {
+        "Id": 31216,
+        "Name": "On the Ladder",
+        "Connections": {
+          "Up": 31217,
+          "Down": 31215
+        }
+      },
+      {
+        "Id": 31217,
+        "Name": "On a Catwalk",
+        "Connections": {
+          "East": 31218,
+          "Down": 31216
+        }
+      },
+      {
+        "Id": 31218,
+        "Name": "On a Catwalk",
+        "Connections": {
+          "East": 31219,
+          "West": 31217
+        }
+      },
+      {
+        "Id": 31219,
+        "Name": "On a Catwalk",
+        "Connections": {
+          "North": 31220,
+          "West": 31218
+        }
+      },
+      {
+        "Id": 31220,
+        "Name": "The Illuminated Hallway",
+        "Connections": {
+          "North": 31221,
+          "South": 31219
+        }
+      },
+      {
+        "Id": 31221,
+        "Name": "The Stack",
+        "Connections": {
+          "South": 31220,
+          "Up": 31278,
+          "Down": 31227
+        }
+      },
+      {
+        "Id": 31222,
+        "Name": "The Top of the Stack",
+        "Connections": {
+          "North": 31223,
+          "Down": 31278
+        }
+      },
+      {
+        "Id": 31223,
+        "Name": "Observatory",
+        "Connections": {
+          "North": 31225,
+          "East": 31226,
+          "South": 31222,
+          "West": 31224,
+          "Up": 31279
+        }
+      },
+      {
+        "Id": 31224,
+        "Name": "An Alcove",
+        "Connections": {
+          "East": 31223
+        }
+      },
+      {
+        "Id": 31225,
+        "Name": "An Alcove",
+        "Connections": {
+          "South": 31223
+        }
+      },
+      {
+        "Id": 31226,
+        "Name": "An Alcove",
+        "Connections": {
+          "West": 31223
+        }
+      },
+      {
+        "Id": 31227,
+        "Name": "The Stack",
+        "Connections": {
+          "North": 31274,
+          "East": 31275,
+          "South": 31276,
+          "West": 31277,
+          "Up": 31221,
+          "Down": 31228
+        }
+      },
+      {
+        "Id": 31228,
+        "Name": "The Bottom of the Stack",
+        "Connections": {
+          "South": 31229,
+          "Up": 31227
+        }
+      },
+      {
+        "Id": 31229,
+        "Name": "On a Small Ledge",
+        "Connections": {
+          "North": 31228
+        }
+      },
+      {
+        "Id": 31230,
+        "Name": "Trapped at the Bottom of the Shaft",
+        "Connections": {}
+      },
+      {
+        "Id": 31231,
+        "Name": "The Tunnel Dock",
+        "Connections": {
+          "North": 31212,
+          "South": 31251
+        }
+      },
+      {
+        "Id": 31232,
+        "Name": "The Tunnel Dock",
+        "Connections": {
+          "East": 31233
+        }
+      },
+      {
+        "Id": 31233,
+        "Name": "A White Hallway",
+        "Connections": {
+          "East": 31234,
+          "West": 31232
+        }
+      },
+      {
+        "Id": 31234,
+        "Name": "A Flooded Hallway",
+        "Connections": {
+          "North": 31235,
+          "West": 31233
+        }
+      },
+      {
+        "Id": 31235,
+        "Name": "A Flooded Hallway",
+        "Connections": {
+          "North": 31236,
+          "East": 31242,
+          "South": 31234
+        }
+      },
+      {
+        "Id": 31236,
+        "Name": "A Flooded Hallway",
+        "Connections": {
+          "North": 31237,
+          "South": 31235
+        }
+      },
+      {
+        "Id": 31237,
+        "Name": "A Flooded Hallway",
+        "Connections": {
+          "East": 31238,
+          "South": 31236
+        }
+      },
+      {
+        "Id": 31238,
+        "Name": "A Flooded Hallway",
+        "Connections": {
+          "East": 31239,
+          "West": 31237
+        }
+      },
+      {
+        "Id": 31239,
+        "Name": "A Flooded Hallway",
+        "Connections": {
+          "South": 31240,
+          "West": 31238
+        }
+      },
+      {
+        "Id": 31240,
+        "Name": "A Flooded Hallway",
+        "Connections": {
+          "North": 31239,
+          "South": 31241,
+          "West": 31243
+        }
+      },
+      {
+        "Id": 31241,
+        "Name": "A Flooded Room",
+        "Connections": {
+          "North": 31240
+        }
+      },
+      {
+        "Id": 31242,
+        "Name": "A Flooded Room",
+        "Connections": {
+          "West": 31235
+        }
+      },
+      {
+        "Id": 31243,
+        "Name": "The Hydroponic Garden Control",
+        "Connections": {
+          "East": 31240
+        }
+      },
+      {
+        "Id": 31244,
+        "Name": "On Top of the Odd-Looking Machine",
+        "Connections": {
+          "Down": 31210
+        }
+      },
+      {
+        "Id": 31245,
+        "Name": "The Tunnel Dock",
+        "Connections": {
+          "East": 31246,
+          "West": 31207
+        }
+      },
+      {
+        "Id": 31246,
+        "Name": "A Locker Room",
+        "Connections": {
+          "West": 31245
+        }
+      },
+      {
+        "Id": 31247,
+        "Name": "Under the Mammoth Pump.",
+        "Connections": {
+          "Up": 31208
+        }
+      },
+      {
+        "Id": 31248,
+        "Name": "Under the Mammoth Pump.",
+        "Connections": {
+          "Up": 31209
+        }
+      },
+      {
+        "Id": 31249,
+        "Name": "The Tunnel Dock",
+        "Connections": {
+          "East": 31213,
+          "West": 31250
+        }
+      },
+      {
+        "Id": 31250,
+        "Name": "A Locker Room",
+        "Connections": {
+          "East": 31249
+        }
+      },
+      {
+        "Id": 31251,
+        "Name": "A Locker Room",
+        "Connections": {
+          "North": 31231
+        }
+      },
+      {
+        "Id": 31270,
+        "Name": "A Research Laboratory",
+        "Connections": {
+          "North": 31281,
+          "South": 31278
+        }
+      },
+      {
+        "Id": 31271,
+        "Name": "A Research Laboratory",
+        "Connections": {
+          "East": 31282,
+          "West": 31278
+        }
+      },
+      {
+        "Id": 31272,
+        "Name": "A Research Laboratory",
+        "Connections": {
+          "North": 31278,
+          "South": 31283
+        }
+      },
+      {
+        "Id": 31273,
+        "Name": "A Research Laboratory",
+        "Connections": {
+          "East": 31278,
+          "West": 31280
+        }
+      },
+      {
+        "Id": 31274,
+        "Name": "A Research Laboratory",
+        "Connections": {
+          "North": 31284,
+          "South": 31227
+        }
+      },
+      {
+        "Id": 31275,
+        "Name": "A Research Laboratory",
+        "Connections": {
+          "East": 31285,
+          "West": 31227
+        }
+      },
+      {
+        "Id": 31276,
+        "Name": "A Research Laboratory",
+        "Connections": {
+          "North": 31227,
+          "South": 31286
+        }
+      },
+      {
+        "Id": 31277,
+        "Name": "A Research Laboratory",
+        "Connections": {
+          "East": 31227,
+          "West": 31287
+        }
+      },
+      {
+        "Id": 31278,
+        "Name": "The Stack",
+        "Connections": {
+          "North": 31270,
+          "East": 31271,
+          "South": 31272,
+          "West": 31273,
+          "Up": 31222,
+          "Down": 31221
+        }
+      },
+      {
+        "Id": 31279,
+        "Name": "Viewing Deck",
+        "Connections": {
+          "Down": 31223
+        }
+      },
+      {
+        "Id": 31280,
+        "Name": "In a Tank",
+        "Connections": {
+          "East": 31273
+        }
+      },
+      {
+        "Id": 31281,
+        "Name": "In a Tank",
+        "Connections": {
+          "South": 31270
+        }
+      },
+      {
+        "Id": 31282,
+        "Name": "In a Tank",
+        "Connections": {
+          "West": 31271
+        }
+      },
+      {
+        "Id": 31283,
+        "Name": "In a Tank",
+        "Connections": {
+          "North": 31272
+        }
+      },
+      {
+        "Id": 31284,
+        "Name": "In a Tank",
+        "Connections": {
+          "South": 31274
+        }
+      },
+      {
+        "Id": 31285,
+        "Name": "In a Tank",
+        "Connections": {
+          "West": 31275
+        }
+      },
+      {
+        "Id": 31286,
+        "Name": "In a Tank",
+        "Connections": {
+          "North": 31276
+        }
+      },
+      {
+        "Id": 31287,
+        "Name": "In a Tank",
+        "Connections": {
+          "East": 31277
+        }
+      },
+      {
+        "Id": 31296,
+        "Name": "The Drained Pond",
+        "Connections": {}
+      },
+      {
+        "Id": 31301,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "Down": 31308
+        }
+      },
+      {
+        "Id": 31302,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "North": 31307
+        }
+      },
+      {
+        "Id": 31303,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "North": 31306,
+          "Down": 31304
+        }
+      },
+      {
+        "Id": 31304,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "Up": 31303
+        }
+      },
+      {
+        "Id": 31305,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "Down": 31312
+        }
+      },
+      {
+        "Id": 31306,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "South": 31303,
+          "West": 31307,
+          "Up": 31311
+        }
+      },
+      {
+        "Id": 31307,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "East": 31306,
+          "South": 31302,
+          "Up": 31308
+        }
+      },
+      {
+        "Id": 31308,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "North": 31309,
+          "Up": 31301,
+          "Down": 31307
+        }
+      },
+      {
+        "Id": 31309,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "East": 31310,
+          "South": 31308
+        }
+      },
+      {
+        "Id": 31310,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "East": 31311,
+          "West": 31309
+        }
+      },
+      {
+        "Id": 31311,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "North": 31314,
+          "East": 31312,
+          "West": 31310,
+          "Down": 31306
+        }
+      },
+      {
+        "Id": 31312,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "West": 31311,
+          "Up": 31305
+        }
+      },
+      {
+        "Id": 31313,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "Up": 31314,
+          "Down": 31320
+        }
+      },
+      {
+        "Id": 31314,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "South": 31311,
+          "Down": 31313
+        }
+      },
+      {
+        "Id": 31315,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "North": 31318,
+          "West": 31316
+        }
+      },
+      {
+        "Id": 31316,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "East": 31315,
+          "Up": 31317
+        }
+      },
+      {
+        "Id": 31317,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "Down": 31316
+        }
+      },
+      {
+        "Id": 31318,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "East": 31319,
+          "South": 31315
+        }
+      },
+      {
+        "Id": 31319,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "West": 31318,
+          "Up": 31320
+        }
+      },
+      {
+        "Id": 31320,
+        "Name": "The Air Ducts",
+        "Connections": {
+          "Up": 31313,
+          "Down": 31319
+        }
+      },
+      {
+        "Id": 31321,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "East": 31322
+        }
+      },
+      {
+        "Id": 31322,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31323,
+          "West": 31321
+        }
+      },
+      {
+        "Id": 31323,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "South": 31322,
+          "West": 31324
+        }
+      },
+      {
+        "Id": 31324,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31325,
+          "East": 31323
+        }
+      },
+      {
+        "Id": 31325,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31326,
+          "South": 31324
+        }
+      },
+      {
+        "Id": 31326,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "East": 31327,
+          "South": 31325
+        }
+      },
+      {
+        "Id": 31327,
+        "Name": "The Healer\u0027s Room",
+        "Connections": {
+          "West": 31326
+        }
+      },
+      {
+        "Id": 31328,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "East": 31329
+        }
+      },
+      {
+        "Id": 31329,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31330,
+          "West": 31328
+        }
+      },
+      {
+        "Id": 31330,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "South": 31329,
+          "West": 31331
+        }
+      },
+      {
+        "Id": 31331,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31332,
+          "East": 31330
+        }
+      },
+      {
+        "Id": 31332,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31333,
+          "South": 31331
+        }
+      },
+      {
+        "Id": 31333,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "East": 31334,
+          "South": 31332
+        }
+      },
+      {
+        "Id": 31334,
+        "Name": "The Healer\u0027s Room",
+        "Connections": {
+          "West": 31333
+        }
+      },
+      {
+        "Id": 31335,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "East": 31336
+        }
+      },
+      {
+        "Id": 31336,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31337,
+          "West": 31335
+        }
+      },
+      {
+        "Id": 31337,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "South": 31336,
+          "West": 31338
+        }
+      },
+      {
+        "Id": 31338,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31339,
+          "East": 31337
+        }
+      },
+      {
+        "Id": 31339,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31340,
+          "South": 31338
+        }
+      },
+      {
+        "Id": 31340,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "East": 31341,
+          "South": 31339
+        }
+      },
+      {
+        "Id": 31341,
+        "Name": "The Healer\u0027s Room",
+        "Connections": {
+          "West": 31340
+        }
+      },
+      {
+        "Id": 31342,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "East": 31343
+        }
+      },
+      {
+        "Id": 31343,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31344,
+          "West": 31342
+        }
+      },
+      {
+        "Id": 31344,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "South": 31343,
+          "West": 31345
+        }
+      },
+      {
+        "Id": 31345,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31346,
+          "East": 31344
+        }
+      },
+      {
+        "Id": 31346,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31347,
+          "South": 31345
+        }
+      },
+      {
+        "Id": 31347,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "East": 31348,
+          "South": 31346
+        }
+      },
+      {
+        "Id": 31348,
+        "Name": "The Healer\u0027s Room",
+        "Connections": {
+          "West": 31347
+        }
+      },
+      {
+        "Id": 31349,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "East": 31350
+        }
+      },
+      {
+        "Id": 31350,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31351,
+          "West": 31349
+        }
+      },
+      {
+        "Id": 31351,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "South": 31350,
+          "West": 31352
+        }
+      },
+      {
+        "Id": 31352,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31353,
+          "East": 31351
+        }
+      },
+      {
+        "Id": 31353,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31354,
+          "South": 31352
+        }
+      },
+      {
+        "Id": 31354,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "East": 31355,
+          "South": 31353
+        }
+      },
+      {
+        "Id": 31355,
+        "Name": "The Healer\u0027s Room",
+        "Connections": {
+          "West": 31354
+        }
+      },
+      {
+        "Id": 31356,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "East": 31357
+        }
+      },
+      {
+        "Id": 31357,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31358,
+          "West": 31356
+        }
+      },
+      {
+        "Id": 31358,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "South": 31357,
+          "West": 31359
+        }
+      },
+      {
+        "Id": 31359,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31360,
+          "East": 31358
+        }
+      },
+      {
+        "Id": 31360,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "North": 31361,
+          "South": 31359
+        }
+      },
+      {
+        "Id": 31361,
+        "Name": "An Abandoned Tunnel",
+        "Connections": {
+          "East": 31362,
+          "South": 31360
+        }
+      },
+      {
+        "Id": 31362,
+        "Name": "The Healer\u0027s Room",
+        "Connections": {
+          "West": 31361
+        }
+      },
+      {
+        "Id": 31401,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31402,
+          "South": 31412,
+          "Down": 31612
+        }
+      },
+      {
+        "Id": 31402,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31403,
+          "South": 31413,
+          "West": 31401
+        }
+      },
+      {
+        "Id": 31403,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31404,
+          "West": 31402
+        }
+      },
+      {
+        "Id": 31404,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31405,
+          "West": 31403
+        }
+      },
+      {
+        "Id": 31405,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31406,
+          "West": 31404
+        }
+      },
+      {
+        "Id": 31406,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31407,
+          "West": 31405
+        }
+      },
+      {
+        "Id": 31407,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31408,
+          "West": 31406
+        }
+      },
+      {
+        "Id": 31408,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31409,
+          "South": 31414,
+          "West": 31407
+        }
+      },
+      {
+        "Id": 31409,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31415,
+          "West": 31408
+        }
+      },
+      {
+        "Id": 31410,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31411,
+          "South": 31419,
+          "Down": 31630
+        }
+      },
+      {
+        "Id": 31411,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31412,
+          "South": 31420,
+          "West": 31410
+        }
+      },
+      {
+        "Id": 31412,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31401,
+          "East": 31413,
+          "West": 31411
+        }
+      },
+      {
+        "Id": 31413,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31402,
+          "West": 31412,
+          "Up": 31460
+        }
+      },
+      {
+        "Id": 31414,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31408,
+          "East": 31415,
+          "Up": 31466
+        }
+      },
+      {
+        "Id": 31415,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31409,
+          "East": 31416,
+          "West": 31414
+        }
+      },
+      {
+        "Id": 31416,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31417,
+          "South": 31421,
+          "West": 31415
+        }
+      },
+      {
+        "Id": 31417,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31422,
+          "West": 31416
+        }
+      },
+      {
+        "Id": 31418,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31419,
+          "South": 31424,
+          "Down": 31639
+        }
+      },
+      {
+        "Id": 31419,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31410,
+          "East": 31420,
+          "South": 31425,
+          "West": 31418
+        }
+      },
+      {
+        "Id": 31420,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31411,
+          "West": 31419,
+          "Up": 31467
+        }
+      },
+      {
+        "Id": 31421,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31416,
+          "East": 31422,
+          "Up": 31477
+        }
+      },
+      {
+        "Id": 31422,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31417,
+          "East": 31423,
+          "South": 31426,
+          "West": 31421
+        }
+      },
+      {
+        "Id": 31423,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31427,
+          "West": 31422
+        }
+      },
+      {
+        "Id": 31424,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31418,
+          "East": 31425,
+          "South": 31429
+        }
+      },
+      {
+        "Id": 31425,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31419,
+          "West": 31424,
+          "Up": 31478
+        }
+      },
+      {
+        "Id": 31426,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31422,
+          "East": 31427,
+          "Up": 31485
+        }
+      },
+      {
+        "Id": 31427,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31423,
+          "South": 31430,
+          "West": 31426
+        }
+      },
+      {
+        "Id": 31428,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31429,
+          "South": 31432,
+          "Down": 31641
+        }
+      },
+      {
+        "Id": 31429,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31424,
+          "South": 31433,
+          "West": 31428
+        }
+      },
+      {
+        "Id": 31430,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31427,
+          "East": 31431,
+          "South": 31434
+        }
+      },
+      {
+        "Id": 31431,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31435,
+          "West": 31430
+        }
+      },
+      {
+        "Id": 31432,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31428,
+          "East": 31433,
+          "South": 31436
+        }
+      },
+      {
+        "Id": 31433,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31429,
+          "West": 31432,
+          "Up": 31492
+        }
+      },
+      {
+        "Id": 31434,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31430,
+          "East": 31435,
+          "Up": 31497
+        }
+      },
+      {
+        "Id": 31435,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31431,
+          "South": 31437,
+          "West": 31434
+        }
+      },
+      {
+        "Id": 31436,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31432,
+          "South": 31438
+        }
+      },
+      {
+        "Id": 31437,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31435
+        }
+      },
+      {
+        "Id": 31438,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31436,
+          "South": 31439
+        }
+      },
+      {
+        "Id": 31439,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31438,
+          "East": 31440,
+          "South": 31441
+        }
+      },
+      {
+        "Id": 31440,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31442,
+          "West": 31439,
+          "Up": 31503
+        }
+      },
+      {
+        "Id": 31441,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31439,
+          "East": 31442
+        }
+      },
+      {
+        "Id": 31442,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31440,
+          "South": 31443,
+          "West": 31441
+        }
+      },
+      {
+        "Id": 31443,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31442,
+          "South": 31444
+        }
+      },
+      {
+        "Id": 31444,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31443,
+          "East": 31445,
+          "South": 31446
+        }
+      },
+      {
+        "Id": 31445,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31447,
+          "West": 31444,
+          "Up": 31511
+        }
+      },
+      {
+        "Id": 31446,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31444,
+          "East": 31447
+        }
+      },
+      {
+        "Id": 31447,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31445,
+          "East": 31448,
+          "South": 31449,
+          "West": 31446
+        }
+      },
+      {
+        "Id": 31448,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31450,
+          "West": 31447,
+          "Up": 31515
+        }
+      },
+      {
+        "Id": 31449,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31447,
+          "East": 31450
+        }
+      },
+      {
+        "Id": 31450,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31448,
+          "East": 31451,
+          "West": 31449
+        }
+      },
+      {
+        "Id": 31451,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31452,
+          "South": 31453,
+          "West": 31450
+        }
+      },
+      {
+        "Id": 31452,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31454,
+          "West": 31451,
+          "Up": 31522
+        }
+      },
+      {
+        "Id": 31453,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31451,
+          "East": 31454
+        }
+      },
+      {
+        "Id": 31454,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31452,
+          "East": 31455,
+          "West": 31453
+        }
+      },
+      {
+        "Id": 31455,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31456,
+          "West": 31454
+        }
+      },
+      {
+        "Id": 31456,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31457,
+          "West": 31455
+        }
+      },
+      {
+        "Id": 31457,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31458,
+          "West": 31456
+        }
+      },
+      {
+        "Id": 31458,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31459,
+          "West": 31457
+        }
+      },
+      {
+        "Id": 31459,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "West": 31458
+        }
+      },
+      {
+        "Id": 31460,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31461,
+          "South": 31469,
+          "Down": 31413
+        }
+      },
+      {
+        "Id": 31461,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31462,
+          "South": 31470,
+          "West": 31460
+        }
+      },
+      {
+        "Id": 31462,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31463,
+          "South": 31471,
+          "West": 31461
+        }
+      },
+      {
+        "Id": 31463,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31464,
+          "South": 31472,
+          "West": 31462
+        }
+      },
+      {
+        "Id": 31464,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31465,
+          "South": 31473,
+          "West": 31463
+        }
+      },
+      {
+        "Id": 31465,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31466,
+          "South": 31474,
+          "West": 31464
+        }
+      },
+      {
+        "Id": 31466,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31475,
+          "West": 31465,
+          "Down": 31414
+        }
+      },
+      {
+        "Id": 31467,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31468,
+          "South": 31479,
+          "Down": 31420
+        }
+      },
+      {
+        "Id": 31468,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31469,
+          "South": 31480,
+          "West": 31467
+        }
+      },
+      {
+        "Id": 31469,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31460,
+          "East": 31470,
+          "South": 31481,
+          "West": 31468
+        }
+      },
+      {
+        "Id": 31470,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31461,
+          "East": 31471,
+          "West": 31469
+        }
+      },
+      {
+        "Id": 31471,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31462,
+          "East": 31472,
+          "West": 31470
+        }
+      },
+      {
+        "Id": 31472,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31463,
+          "East": 31473,
+          "West": 31471
+        }
+      },
+      {
+        "Id": 31473,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31464,
+          "East": 31474,
+          "West": 31472
+        }
+      },
+      {
+        "Id": 31474,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31465,
+          "East": 31475,
+          "West": 31473
+        }
+      },
+      {
+        "Id": 31475,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31466,
+          "East": 31476,
+          "South": 31482,
+          "West": 31474
+        }
+      },
+      {
+        "Id": 31476,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31477,
+          "South": 31483,
+          "West": 31475
+        }
+      },
+      {
+        "Id": 31477,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31484,
+          "West": 31476,
+          "Down": 31421
+        }
+      },
+      {
+        "Id": 31478,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31479,
+          "South": 31486,
+          "Down": 31425
+        }
+      },
+      {
+        "Id": 31479,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31467,
+          "East": 31480,
+          "South": 31487,
+          "West": 31478
+        }
+      },
+      {
+        "Id": 31480,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31468,
+          "East": 31481,
+          "South": 31488,
+          "West": 31479
+        }
+      },
+      {
+        "Id": 31481,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31469,
+          "West": 31480,
+          "Up": 31527
+        }
+      },
+      {
+        "Id": 31482,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31475,
+          "East": 31483,
+          "Up": 31533
+        }
+      },
+      {
+        "Id": 31483,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31476,
+          "East": 31484,
+          "South": 31489,
+          "West": 31482
+        }
+      },
+      {
+        "Id": 31484,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31477,
+          "East": 31485,
+          "South": 31490,
+          "West": 31483
+        }
+      },
+      {
+        "Id": 31485,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31491,
+          "West": 31484,
+          "Down": 31426
+        }
+      },
+      {
+        "Id": 31486,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31478,
+          "East": 31487,
+          "South": 31493
+        }
+      },
+      {
+        "Id": 31487,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31479,
+          "East": 31488,
+          "South": 31494,
+          "West": 31486
+        }
+      },
+      {
+        "Id": 31488,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31480,
+          "West": 31487,
+          "Up": 31534
+        }
+      },
+      {
+        "Id": 31489,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31483,
+          "East": 31490,
+          "Up": 31542
+        }
+      },
+      {
+        "Id": 31490,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31484,
+          "East": 31491,
+          "South": 31495,
+          "West": 31489
+        }
+      },
+      {
+        "Id": 31491,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31485,
+          "South": 31496,
+          "West": 31490
+        }
+      },
+      {
+        "Id": 31492,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31493,
+          "South": 31498,
+          "Down": 31433
+        }
+      },
+      {
+        "Id": 31493,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31486,
+          "East": 31494,
+          "South": 31499,
+          "West": 31492
+        }
+      },
+      {
+        "Id": 31494,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31487,
+          "West": 31493,
+          "Up": 31548
+        }
+      },
+      {
+        "Id": 31495,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31490,
+          "East": 31496,
+          "Up": 31546
+        }
+      },
+      {
+        "Id": 31496,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31491,
+          "East": 31497,
+          "West": 31495
+        }
+      },
+      {
+        "Id": 31497,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "West": 31496,
+          "Down": 31434
+        }
+      },
+      {
+        "Id": 31498,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31492,
+          "East": 31499,
+          "South": 31501
+        }
+      },
+      {
+        "Id": 31499,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31493,
+          "South": 31502,
+          "West": 31498
+        }
+      },
+      {
+        "Id": 31501,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31498,
+          "East": 31502,
+          "South": 31503
+        }
+      },
+      {
+        "Id": 31502,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31499,
+          "South": 31504,
+          "West": 31501
+        }
+      },
+      {
+        "Id": 31503,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31501,
+          "East": 31504,
+          "Down": 31440
+        }
+      },
+      {
+        "Id": 31504,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31502,
+          "East": 31505,
+          "South": 31506,
+          "West": 31503
+        }
+      },
+      {
+        "Id": 31505,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31507,
+          "West": 31504,
+          "Up": 31557
+        }
+      },
+      {
+        "Id": 31506,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31504,
+          "East": 31507,
+          "South": 31508
+        }
+      },
+      {
+        "Id": 31507,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31505,
+          "South": 31509,
+          "West": 31506
+        }
+      },
+      {
+        "Id": 31508,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31506,
+          "East": 31509,
+          "South": 31511
+        }
+      },
+      {
+        "Id": 31509,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31507,
+          "East": 31510,
+          "South": 31512,
+          "West": 31508
+        }
+      },
+      {
+        "Id": 31510,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31513,
+          "West": 31509,
+          "Up": 31564
+        }
+      },
+      {
+        "Id": 31511,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31508,
+          "East": 31512,
+          "Down": 31445
+        }
+      },
+      {
+        "Id": 31512,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31509,
+          "East": 31513,
+          "South": 31515,
+          "West": 31511
+        }
+      },
+      {
+        "Id": 31513,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31510,
+          "East": 31514,
+          "South": 31516,
+          "West": 31512
+        }
+      },
+      {
+        "Id": 31514,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31517,
+          "West": 31513,
+          "Up": 31570
+        }
+      },
+      {
+        "Id": 31515,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31512,
+          "East": 31516,
+          "Down": 31448
+        }
+      },
+      {
+        "Id": 31516,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31513,
+          "East": 31517,
+          "West": 31515
+        }
+      },
+      {
+        "Id": 31517,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31514,
+          "East": 31518,
+          "South": 31522,
+          "West": 31516
+        }
+      },
+      {
+        "Id": 31518,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31519,
+          "South": 31523,
+          "West": 31517
+        }
+      },
+      {
+        "Id": 31519,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31520,
+          "South": 31524,
+          "West": 31518
+        }
+      },
+      {
+        "Id": 31520,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31521,
+          "South": 31525,
+          "West": 31519
+        }
+      },
+      {
+        "Id": 31521,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31526,
+          "West": 31520,
+          "Up": 31575
+        }
+      },
+      {
+        "Id": 31522,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31517,
+          "East": 31523,
+          "Down": 31452
+        }
+      },
+      {
+        "Id": 31523,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31518,
+          "East": 31524,
+          "West": 31522
+        }
+      },
+      {
+        "Id": 31524,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31519,
+          "East": 31525,
+          "West": 31523
+        }
+      },
+      {
+        "Id": 31525,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31520,
+          "East": 31526,
+          "West": 31524
+        }
+      },
+      {
+        "Id": 31526,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31521,
+          "West": 31525
+        }
+      },
+      {
+        "Id": 31527,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31528,
+          "South": 31535,
+          "Down": 31481
+        }
+      },
+      {
+        "Id": 31528,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31529,
+          "South": 31536,
+          "West": 31527
+        }
+      },
+      {
+        "Id": 31529,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31530,
+          "South": 31537,
+          "West": 31528
+        }
+      },
+      {
+        "Id": 31530,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31531,
+          "South": 31538,
+          "West": 31529
+        }
+      },
+      {
+        "Id": 31531,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31532,
+          "South": 31539,
+          "West": 31530
+        }
+      },
+      {
+        "Id": 31532,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31533,
+          "South": 31540,
+          "West": 31531
+        }
+      },
+      {
+        "Id": 31533,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31541,
+          "West": 31532,
+          "Down": 31482
+        }
+      },
+      {
+        "Id": 31534,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31535,
+          "South": 31549,
+          "Down": 31488
+        }
+      },
+      {
+        "Id": 31535,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31527,
+          "East": 31536,
+          "South": 31550,
+          "West": 31534
+        }
+      },
+      {
+        "Id": 31536,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31528,
+          "East": 31537,
+          "West": 31535
+        }
+      },
+      {
+        "Id": 31537,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31529,
+          "East": 31538,
+          "West": 31536
+        }
+      },
+      {
+        "Id": 31538,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31530,
+          "East": 31539,
+          "West": 31537
+        }
+      },
+      {
+        "Id": 31539,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31531,
+          "East": 31540,
+          "West": 31538
+        }
+      },
+      {
+        "Id": 31540,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31532,
+          "East": 31541,
+          "South": 31543,
+          "West": 31539
+        }
+      },
+      {
+        "Id": 31541,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31533,
+          "East": 31542,
+          "South": 31544,
+          "West": 31540
+        }
+      },
+      {
+        "Id": 31542,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31545,
+          "West": 31541,
+          "Down": 31489
+        }
+      },
+      {
+        "Id": 31543,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31540,
+          "East": 31544,
+          "Up": 31576
+        }
+      },
+      {
+        "Id": 31544,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31541,
+          "East": 31545,
+          "South": 31547,
+          "West": 31543
+        }
+      },
+      {
+        "Id": 31545,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31542,
+          "East": 31546,
+          "West": 31544
+        }
+      },
+      {
+        "Id": 31546,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "West": 31545,
+          "Down": 31495
+        }
+      },
+      {
+        "Id": 31547,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31544,
+          "Up": 31578
+        }
+      },
+      {
+        "Id": 31548,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31549,
+          "South": 31551,
+          "Down": 31494
+        }
+      },
+      {
+        "Id": 31549,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31534,
+          "East": 31550,
+          "South": 31552,
+          "West": 31548
+        }
+      },
+      {
+        "Id": 31550,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31535,
+          "South": 31553,
+          "West": 31549
+        }
+      },
+      {
+        "Id": 31551,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31548,
+          "East": 31552,
+          "South": 31554
+        }
+      },
+      {
+        "Id": 31552,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31549,
+          "East": 31553,
+          "South": 31555,
+          "West": 31551
+        }
+      },
+      {
+        "Id": 31553,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31550,
+          "South": 31556,
+          "West": 31552
+        }
+      },
+      {
+        "Id": 31554,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31551,
+          "East": 31555,
+          "South": 31557
+        }
+      },
+      {
+        "Id": 31555,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31552,
+          "East": 31556,
+          "South": 31558,
+          "West": 31554
+        }
+      },
+      {
+        "Id": 31556,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31553,
+          "South": 31559,
+          "West": 31555
+        }
+      },
+      {
+        "Id": 31557,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31554,
+          "East": 31558,
+          "Down": 31505
+        }
+      },
+      {
+        "Id": 31558,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31555,
+          "East": 31559,
+          "South": 31561,
+          "West": 31557
+        }
+      },
+      {
+        "Id": 31559,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31556,
+          "East": 31560,
+          "South": 31562,
+          "West": 31558
+        }
+      },
+      {
+        "Id": 31560,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31563,
+          "West": 31559,
+          "Up": 31581
+        }
+      },
+      {
+        "Id": 31561,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31558,
+          "East": 31562,
+          "South": 31564
+        }
+      },
+      {
+        "Id": 31562,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31559,
+          "East": 31563,
+          "South": 31565,
+          "West": 31561
+        }
+      },
+      {
+        "Id": 31563,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31560,
+          "South": 31566,
+          "West": 31562
+        }
+      },
+      {
+        "Id": 31564,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31561,
+          "East": 31565,
+          "Down": 31510
+        }
+      },
+      {
+        "Id": 31565,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31562,
+          "East": 31566,
+          "South": 31570,
+          "West": 31564
+        }
+      },
+      {
+        "Id": 31566,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31563,
+          "East": 31567,
+          "South": 31571,
+          "West": 31565
+        }
+      },
+      {
+        "Id": 31567,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31568,
+          "South": 31572,
+          "West": 31566
+        }
+      },
+      {
+        "Id": 31568,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "East": 31569,
+          "South": 31573,
+          "West": 31567
+        }
+      },
+      {
+        "Id": 31569,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "South": 31574,
+          "West": 31568,
+          "Up": 31591
+        }
+      },
+      {
+        "Id": 31570,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31565,
+          "East": 31571,
+          "Down": 31514
+        }
+      },
+      {
+        "Id": 31571,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31566,
+          "East": 31572,
+          "West": 31570
+        }
+      },
+      {
+        "Id": 31572,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31567,
+          "East": 31573,
+          "West": 31571
+        }
+      },
+      {
+        "Id": 31573,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31568,
+          "East": 31574,
+          "West": 31572
+        }
+      },
+      {
+        "Id": 31574,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31569,
+          "South": 31575,
+          "West": 31573
+        }
+      },
+      {
+        "Id": 31575,
+        "Name": "Atop the Dome",
+        "Connections": {
+          "North": 31574,
+          "Down": 31521
+        }
+      },
+      {
+        "Id": 31576,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "South": 31577,
+          "Down": 31543
+        }
+      },
+      {
+        "Id": 31577,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "North": 31576,
+          "East": 31578,
+          "South": 31579
+        }
+      },
+      {
+        "Id": 31578,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "South": 31580,
+          "West": 31577,
+          "Down": 31547
+        }
+      },
+      {
+        "Id": 31579,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "North": 31577,
+          "East": 31580,
+          "South": 31584
+        }
+      },
+      {
+        "Id": 31580,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "North": 31578,
+          "South": 31585,
+          "West": 31579
+        }
+      },
+      {
+        "Id": 31581,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "East": 31582,
+          "Down": 31560
+        }
+      },
+      {
+        "Id": 31582,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "East": 31583,
+          "South": 31586,
+          "West": 31581
+        }
+      },
+      {
+        "Id": 31583,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "East": 31584,
+          "South": 31587,
+          "West": 31582
+        }
+      },
+      {
+        "Id": 31584,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "North": 31579,
+          "East": 31585,
+          "South": 31588,
+          "West": 31583
+        }
+      },
+      {
+        "Id": 31585,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "North": 31580,
+          "South": 31589,
+          "West": 31584
+        }
+      },
+      {
+        "Id": 31586,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "North": 31582,
+          "East": 31587
+        }
+      },
+      {
+        "Id": 31587,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "North": 31583,
+          "East": 31588,
+          "South": 31590,
+          "West": 31586
+        }
+      },
+      {
+        "Id": 31588,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "North": 31584,
+          "East": 31589,
+          "South": 31591,
+          "West": 31587
+        }
+      },
+      {
+        "Id": 31589,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "North": 31585,
+          "West": 31588
+        }
+      },
+      {
+        "Id": 31590,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "North": 31587,
+          "East": 31591
+        }
+      },
+      {
+        "Id": 31591,
+        "Name": "High Atop the Dome",
+        "Connections": {
+          "North": 31588,
+          "West": 31590,
+          "Down": 31569
+        }
+      },
+      {
+        "Id": 31592,
+        "Name": "A Shuttle Bay",
+        "Connections": {
+          "North": 31593
+        }
+      },
+      {
+        "Id": 31593,
+        "Name": "A Lighted Hallway",
+        "Connections": {
+          "North": 31594,
+          "South": 31592
+        }
+      },
+      {
+        "Id": 31594,
+        "Name": "Before the Air Lock",
+        "Connections": {
+          "South": 31593
+        }
+      },
+      {
+        "Id": 31595,
+        "Name": "The Air Lock",
+        "Connections": {
+          "South": 31665,
+          "Down": 31596
+        }
+      },
+      {
+        "Id": 31596,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31642,
+          "South": 31597,
+          "West": 31613,
+          "Up": 31595
+        }
+      },
+      {
+        "Id": 31597,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31596,
+          "East": 31598
+        }
+      },
+      {
+        "Id": 31598,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "East": 31599,
+          "West": 31597
+        }
+      },
+      {
+        "Id": 31599,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "East": 31600,
+          "West": 31598
+        }
+      },
+      {
+        "Id": 31600,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31601,
+          "South": 31602,
+          "West": 31599
+        }
+      },
+      {
+        "Id": 31601,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "South": 31600
+        }
+      },
+      {
+        "Id": 31602,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31600,
+          "East": 31603
+        }
+      },
+      {
+        "Id": 31603,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31606,
+          "East": 31604,
+          "West": 31602
+        }
+      },
+      {
+        "Id": 31604,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "South": 31605,
+          "West": 31603
+        }
+      },
+      {
+        "Id": 31605,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31604
+        }
+      },
+      {
+        "Id": 31606,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "East": 31607,
+          "South": 31603
+        }
+      },
+      {
+        "Id": 31607,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "East": 31608,
+          "West": 31606
+        }
+      },
+      {
+        "Id": 31608,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31609,
+          "South": 31610,
+          "West": 31607
+        }
+      },
+      {
+        "Id": 31609,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "South": 31608
+        }
+      },
+      {
+        "Id": 31610,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31608,
+          "East": 31611
+        }
+      },
+      {
+        "Id": 31611,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "South": 31612,
+          "West": 31610
+        }
+      },
+      {
+        "Id": 31612,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31611,
+          "Up": 31401
+        }
+      },
+      {
+        "Id": 31613,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "East": 31596,
+          "South": 31614
+        }
+      },
+      {
+        "Id": 31614,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31613,
+          "South": 31615
+        }
+      },
+      {
+        "Id": 31615,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31614,
+          "East": 31617,
+          "South": 31616
+        }
+      },
+      {
+        "Id": 31616,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31615
+        }
+      },
+      {
+        "Id": 31617,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "East": 31619,
+          "South": 31618,
+          "West": 31615
+        }
+      },
+      {
+        "Id": 31618,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31617,
+          "South": 31621
+        }
+      },
+      {
+        "Id": 31619,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "East": 31620,
+          "West": 31617
+        }
+      },
+      {
+        "Id": 31620,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "West": 31619
+        }
+      },
+      {
+        "Id": 31621,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31618,
+          "East": 31622,
+          "West": 31624
+        }
+      },
+      {
+        "Id": 31622,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31623,
+          "West": 31621
+        }
+      },
+      {
+        "Id": 31623,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "South": 31622
+        }
+      },
+      {
+        "Id": 31624,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "East": 31621,
+          "South": 31625
+        }
+      },
+      {
+        "Id": 31625,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31624,
+          "East": 31626,
+          "South": 31632
+        }
+      },
+      {
+        "Id": 31626,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "East": 31627,
+          "West": 31625
+        }
+      },
+      {
+        "Id": 31627,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "East": 31628,
+          "West": 31626
+        }
+      },
+      {
+        "Id": 31628,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31629,
+          "West": 31627
+        }
+      },
+      {
+        "Id": 31629,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "East": 31630,
+          "South": 31628
+        }
+      },
+      {
+        "Id": 31630,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "West": 31629,
+          "Up": 31410,
+          "Down": 31631
+        }
+      },
+      {
+        "Id": 31631,
+        "Name": "In The Mud",
+        "Connections": {
+          "Up": 31630
+        }
+      },
+      {
+        "Id": 31632,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31625,
+          "East": 31636,
+          "South": 31633
+        }
+      },
+      {
+        "Id": 31633,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31632,
+          "South": 31634
+        }
+      },
+      {
+        "Id": 31634,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31633,
+          "East": 31635,
+          "Down": 31666
+        }
+      },
+      {
+        "Id": 31635,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "West": 31634
+        }
+      },
+      {
+        "Id": 31636,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "South": 31637,
+          "West": 31632
+        }
+      },
+      {
+        "Id": 31637,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31636,
+          "East": 31638
+        }
+      },
+      {
+        "Id": 31638,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "East": 31639,
+          "South": 31640,
+          "West": 31637
+        }
+      },
+      {
+        "Id": 31639,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "West": 31638,
+          "Up": 31418
+        }
+      },
+      {
+        "Id": 31640,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31638,
+          "South": 31641
+        }
+      },
+      {
+        "Id": 31641,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "North": 31640,
+          "Up": 31428
+        }
+      },
+      {
+        "Id": 31642,
+        "Name": "The Sea Floor",
+        "Connections": {
+          "South": 31596
+        }
+      },
+      {
+        "Id": 31643,
+        "Name": "The Docking Bay",
+        "Connections": {
+          "North": 31644
+        }
+      },
+      {
+        "Id": 31644,
+        "Name": "An Ash-caked Hallway",
+        "Connections": {
+          "North": 31647,
+          "East": 31645,
+          "South": 31643
+        }
+      },
+      {
+        "Id": 31645,
+        "Name": "An Ash-caked Hallway",
+        "Connections": {
+          "North": 31653,
+          "East": 31646,
+          "West": 31644
+        }
+      },
+      {
+        "Id": 31646,
+        "Name": "An Ash-caked Hallway",
+        "Connections": {
+          "North": 31659,
+          "West": 31645
+        }
+      },
+      {
+        "Id": 31647,
+        "Name": "In the Stack",
+        "Connections": {
+          "South": 31644,
+          "Up": 31648,
+          "Down": 31652
+        }
+      },
+      {
+        "Id": 31648,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31649,
+          "Down": 31647
+        }
+      },
+      {
+        "Id": 31649,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31650,
+          "Down": 31648
+        }
+      },
+      {
+        "Id": 31650,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31651,
+          "Down": 31649
+        }
+      },
+      {
+        "Id": 31651,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31652,
+          "Down": 31650
+        }
+      },
+      {
+        "Id": 31652,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31647,
+          "Down": 31651
+        }
+      },
+      {
+        "Id": 31653,
+        "Name": "In the Stack",
+        "Connections": {
+          "South": 31645,
+          "Up": 31654,
+          "Down": 31658
+        }
+      },
+      {
+        "Id": 31654,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31655,
+          "Down": 31653
+        }
+      },
+      {
+        "Id": 31655,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31656,
+          "Down": 31654
+        }
+      },
+      {
+        "Id": 31656,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31657,
+          "Down": 31655
+        }
+      },
+      {
+        "Id": 31657,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31658,
+          "Down": 31656
+        }
+      },
+      {
+        "Id": 31658,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31653,
+          "Down": 31657
+        }
+      },
+      {
+        "Id": 31659,
+        "Name": "In the Stack",
+        "Connections": {
+          "South": 31646,
+          "Up": 31660,
+          "Down": 31664
+        }
+      },
+      {
+        "Id": 31660,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31661,
+          "Down": 31659
+        }
+      },
+      {
+        "Id": 31661,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31662,
+          "Down": 31660
+        }
+      },
+      {
+        "Id": 31662,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31663,
+          "Down": 31661
+        }
+      },
+      {
+        "Id": 31663,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31664,
+          "Down": 31662
+        }
+      },
+      {
+        "Id": 31664,
+        "Name": "In the Stack",
+        "Connections": {
+          "Up": 31659,
+          "Down": 31663
+        }
+      },
+      {
+        "Id": 31665,
+        "Name": "A Locker Room",
+        "Connections": {
+          "North": 31595,
+          "East": 31594
+        }
+      },
+      {
+        "Id": 31666,
+        "Name": "In the Mud",
+        "Connections": {
+          "Up": 31634
+        }
+      },
+      {
+        "Id": 31667,
+        "Name": "Mandy chute 1",
+        "Connections": {
+          "North": 31322,
+          "East": 31323,
+          "South": 31325,
+          "West": 31326,
+          "Up": 31321,
+          "Down": 31324
+        }
+      },
+      {
+        "Id": 31668,
+        "Name": "Mandy chute 2",
+        "Connections": {
+          "North": 31329,
+          "East": 31330,
+          "South": 31332,
+          "West": 31333,
+          "Up": 31328,
+          "Down": 31331
+        }
+      },
+      {
+        "Id": 31669,
+        "Name": "Mandy chute 3",
+        "Connections": {
+          "North": 31336,
+          "East": 31337,
+          "South": 31339,
+          "West": 31340,
+          "Up": 31335,
+          "Down": 31338
+        }
+      },
+      {
+        "Id": 31670,
+        "Name": "Mandy chute 4",
+        "Connections": {
+          "North": 31343,
+          "East": 31344,
+          "South": 31346,
+          "West": 31347,
+          "Up": 31342,
+          "Down": 31345
+        }
+      },
+      {
+        "Id": 31671,
+        "Name": "Mandy chute 5",
+        "Connections": {
+          "North": 31350,
+          "East": 31351,
+          "South": 31353,
+          "West": 31354,
+          "Up": 31349,
+          "Down": 31352
+        }
+      },
+      {
+        "Id": 31672,
+        "Name": "Mandy chute 6",
+        "Connections": {
+          "North": 31357,
+          "East": 31358,
+          "South": 31360,
+          "West": 31361,
+          "Up": 31356,
+          "Down": 31359
+        }
+      },
+      {
+        "Id": 31673,
+        "Name": "Worker chute",
+        "Connections": {
+          "North": 31208,
+          "East": 31234,
+          "South": 31213,
+          "West": 31646,
+          "Up": 31210,
+          "Down": 31215
+        }
+      },
+      {
+        "Id": 15651,
+        "Name": "To Atlantis",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 31200,
+          "South": 15614,
+          "Up": 15616
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 3000
+  }
+}

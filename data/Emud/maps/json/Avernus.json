@@ -1,0 +1,307 @@
+{
+  "Area": {
+    "Name": "Avernus",
+    "Credits": "Avernus",
+    "MinimumLevel": "90",
+    "MaximumLevel": "95",
+    "Rooms": [
+      {
+        "Id": 10800,
+        "Name": "West bank of the river Styx",
+        "Connections": {
+          "North": 4281
+        }
+      },
+      {
+        "Id": 10801,
+        "Name": "East bank of the river Styx",
+        "Connections": {
+          "East": 10803
+        }
+      },
+      {
+        "Id": 10802,
+        "Name": "The Grand Temple of Avernus",
+        "Connections": {
+          "East": 10813,
+          "West": 10830
+        }
+      },
+      {
+        "Id": 10803,
+        "Name": "Parched plains",
+        "Connections": {
+          "East": 10804,
+          "West": 10801
+        }
+      },
+      {
+        "Id": 10804,
+        "Name": "Parched plains",
+        "Connections": {
+          "North": 10829,
+          "South": 10805,
+          "West": 10803
+        }
+      },
+      {
+        "Id": 10805,
+        "Name": "Parched plains",
+        "Connections": {
+          "North": 10804,
+          "East": 10806
+        }
+      },
+      {
+        "Id": 10806,
+        "Name": "Outside the gates",
+        "Connections": {
+          "East": 10807,
+          "West": 10805
+        }
+      },
+      {
+        "Id": 10807,
+        "Name": "Inside the gates",
+        "Connections": {
+          "East": 10808,
+          "West": 10806
+        }
+      },
+      {
+        "Id": 10808,
+        "Name": "Kulandu Street",
+        "Connections": {
+          "North": 10817,
+          "South": 10809,
+          "West": 10807
+        }
+      },
+      {
+        "Id": 10809,
+        "Name": "Kulandu Street",
+        "Connections": {
+          "North": 10808,
+          "East": 10810,
+          "South": 10819,
+          "West": 10823
+        }
+      },
+      {
+        "Id": 10810,
+        "Name": "Kolane Street",
+        "Connections": {
+          "East": 10811,
+          "South": 10824,
+          "West": 10809
+        }
+      },
+      {
+        "Id": 10811,
+        "Name": "Kolane Street",
+        "Connections": {
+          "East": 10812,
+          "South": 10834,
+          "West": 10810
+        }
+      },
+      {
+        "Id": 10812,
+        "Name": "Danatu Street",
+        "Connections": {
+          "North": 10813,
+          "East": 10833,
+          "South": 10820,
+          "West": 10811
+        }
+      },
+      {
+        "Id": 10813,
+        "Name": "Main Square",
+        "Connections": {
+          "North": 10814,
+          "East": 10827,
+          "South": 10812,
+          "West": 10802
+        }
+      },
+      {
+        "Id": 10814,
+        "Name": "Danatu Street",
+        "Connections": {
+          "North": 10821,
+          "East": 10832,
+          "South": 10813,
+          "West": 10815
+        }
+      },
+      {
+        "Id": 10815,
+        "Name": "Stolane Street",
+        "Connections": {
+          "North": 10831,
+          "East": 10814,
+          "West": 10816
+        }
+      },
+      {
+        "Id": 10816,
+        "Name": "Stolane Street",
+        "Connections": {
+          "North": 10826,
+          "East": 10815,
+          "West": 10817
+        }
+      },
+      {
+        "Id": 10817,
+        "Name": "Kulandu Street",
+        "Connections": {
+          "North": 10818,
+          "East": 10816,
+          "South": 10808,
+          "West": 10822
+        }
+      },
+      {
+        "Id": 10818,
+        "Name": "Gateway to the Lowest Planes",
+        "Connections": {
+          "North": 10800,
+          "South": 10817,
+          "West": 10800
+        }
+      },
+      {
+        "Id": 10819,
+        "Name": "Gateway to the Lower Planes",
+        "Connections": {
+          "North": 10809,
+          "South": 10800,
+          "West": 10800
+        }
+      },
+      {
+        "Id": 10820,
+        "Name": "Gateway to the Upper Planes",
+        "Connections": {
+          "North": 10812,
+          "East": 10800,
+          "South": 10800
+        }
+      },
+      {
+        "Id": 10821,
+        "Name": "Gateway to the Heighest Planes",
+        "Connections": {
+          "North": 10800,
+          "East": 10800,
+          "South": 10814
+        }
+      },
+      {
+        "Id": 10822,
+        "Name": "The Wizard\u0027s Shop",
+        "Connections": {
+          "East": 10817
+        }
+      },
+      {
+        "Id": 10823,
+        "Name": "The Armory",
+        "Connections": {
+          "East": 10809
+        }
+      },
+      {
+        "Id": 10824,
+        "Name": "The Demonic Servant Shop",
+        "Connections": {
+          "North": 10810
+        }
+      },
+      {
+        "Id": 10825,
+        "Name": "The Demonic Storage",
+        "Connections": {}
+      },
+      {
+        "Id": 10826,
+        "Name": "The Asmodeus Inn",
+        "Connections": {
+          "South": 10814
+        }
+      },
+      {
+        "Id": 10827,
+        "Name": "The Office of Malphas",
+        "Connections": {
+          "East": 10828,
+          "West": 10813
+        }
+      },
+      {
+        "Id": 10828,
+        "Name": "Chaos\u0027 Office",
+        "Connections": {
+          "West": 10827
+        }
+      },
+      {
+        "Id": 10829,
+        "Name": "Small Cave",
+        "Connections": {
+          "South": 10804
+        }
+      },
+      {
+        "Id": 10830,
+        "Name": "The Grand Sacrificial Altar",
+        "Connections": {
+          "East": 10802
+        }
+      },
+      {
+        "Id": 10831,
+        "Name": "The Ethereal Weaponshop",
+        "Connections": {
+          "South": 10815
+        }
+      },
+      {
+        "Id": 10832,
+        "Name": "The Meat Market",
+        "Connections": {
+          "West": 10814
+        }
+      },
+      {
+        "Id": 10833,
+        "Name": "The Clinic",
+        "Connections": {
+          "West": 10812
+        }
+      },
+      {
+        "Id": 10834,
+        "Name": "The Growling Worm Pub",
+        "Connections": {
+          "North": 10811
+        }
+      },
+      {
+        "Id": 4281,
+        "Name": "To Gateway to Avernus",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 4280,
+          "East": 4282,
+          "South": 10800
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

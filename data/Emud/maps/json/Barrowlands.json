@@ -1,0 +1,831 @@
+{
+  "Area": {
+    "Name": "Barrowlands",
+    "Credits": "Barrowlands",
+    "MinimumLevel": "40",
+    "MaximumLevel": "80",
+    "Rooms": [
+      {
+        "Id": 11700,
+        "Name": "Road to the Barrowlands",
+        "Connections": {
+          "North": 11701,
+          "East": 17627
+        }
+      },
+      {
+        "Id": 11701,
+        "Name": "Road to the Barrowlands",
+        "Connections": {
+          "North": 11703,
+          "South": 11700
+        }
+      },
+      {
+        "Id": 11703,
+        "Name": "Guardpost at the Barrowlands\u0027 entrance",
+        "Connections": {
+          "North": 11706,
+          "East": 11704,
+          "South": 11701,
+          "West": 11705
+        }
+      },
+      {
+        "Id": 11704,
+        "Name": "A guards\u0027 ready room",
+        "Connections": {
+          "West": 11703
+        }
+      },
+      {
+        "Id": 11705,
+        "Name": "A guards\u0027 ready room",
+        "Connections": {
+          "East": 11703
+        }
+      },
+      {
+        "Id": 11706,
+        "Name": "Entrance to the Barrowlands complex",
+        "Connections": {
+          "East": 11724,
+          "South": 11703,
+          "West": 11707
+        }
+      },
+      {
+        "Id": 11707,
+        "Name": "A plankway.",
+        "Connections": {
+          "East": 11706,
+          "West": 11708
+        }
+      },
+      {
+        "Id": 11708,
+        "Name": "A plankway.",
+        "Connections": {
+          "East": 11707,
+          "South": 11760,
+          "West": 11709
+        }
+      },
+      {
+        "Id": 11709,
+        "Name": "A plankway.",
+        "Connections": {
+          "East": 11708,
+          "South": 11756,
+          "West": 11710
+        }
+      },
+      {
+        "Id": 11710,
+        "Name": "A plankway.",
+        "Connections": {
+          "North": 11711,
+          "East": 11709
+        }
+      },
+      {
+        "Id": 11711,
+        "Name": "A plankway.",
+        "Connections": {
+          "North": 11712,
+          "South": 11710,
+          "West": 11752
+        }
+      },
+      {
+        "Id": 11712,
+        "Name": "A plankway.",
+        "Connections": {
+          "North": 11713,
+          "South": 11711,
+          "West": 11750
+        }
+      },
+      {
+        "Id": 11713,
+        "Name": "A plankway.",
+        "Connections": {
+          "North": 11714,
+          "East": 11763,
+          "South": 11712
+        }
+      },
+      {
+        "Id": 11714,
+        "Name": "A plankway.",
+        "Connections": {
+          "East": 11746,
+          "South": 11713,
+          "West": 11715
+        }
+      },
+      {
+        "Id": 11715,
+        "Name": "A plankway.",
+        "Connections": {
+          "East": 11714,
+          "West": 11716
+        }
+      },
+      {
+        "Id": 11716,
+        "Name": "End of the plankway.",
+        "Connections": {
+          "East": 11715,
+          "West": 11717
+        }
+      },
+      {
+        "Id": 11717,
+        "Name": "A gravel path.",
+        "Connections": {
+          "North": 11718,
+          "East": 11716
+        }
+      },
+      {
+        "Id": 11718,
+        "Name": "A gravel path.",
+        "Connections": {
+          "North": 11723,
+          "East": 11719,
+          "South": 11717
+        }
+      },
+      {
+        "Id": 11719,
+        "Name": "A gravel path.",
+        "Connections": {
+          "North": 11722,
+          "East": 11720,
+          "West": 11718
+        }
+      },
+      {
+        "Id": 11720,
+        "Name": "A gravel path.",
+        "Connections": {
+          "North": 11721,
+          "West": 11719
+        }
+      },
+      {
+        "Id": 11721,
+        "Name": "A small mound.",
+        "Connections": {
+          "South": 11720,
+          "West": 11722
+        }
+      },
+      {
+        "Id": 11722,
+        "Name": "A gravel path.",
+        "Connections": {
+          "East": 11721,
+          "South": 11719,
+          "West": 11723
+        }
+      },
+      {
+        "Id": 11723,
+        "Name": "A gravel path.",
+        "Connections": {
+          "East": 11722,
+          "South": 11718
+        }
+      },
+      {
+        "Id": 11724,
+        "Name": "A Pier",
+        "Connections": {
+          "East": 11727,
+          "West": 11706
+        }
+      },
+      {
+        "Id": 11725,
+        "Name": "The Great Tragic River",
+        "Connections": {
+          "North": 11726
+        }
+      },
+      {
+        "Id": 11726,
+        "Name": "The Great Tragic River",
+        "Connections": {
+          "North": 11727,
+          "South": 11725
+        }
+      },
+      {
+        "Id": 11727,
+        "Name": "The Great Tragic River",
+        "Connections": {
+          "North": 11728,
+          "South": 11726,
+          "West": 11724
+        }
+      },
+      {
+        "Id": 11728,
+        "Name": "The Great Tragic River",
+        "Connections": {
+          "South": 11727,
+          "West": 11729
+        }
+      },
+      {
+        "Id": 11729,
+        "Name": "The Great Tragic River",
+        "Connections": {
+          "North": 11730,
+          "East": 11728
+        }
+      },
+      {
+        "Id": 11730,
+        "Name": "The Great Tragic River",
+        "Connections": {
+          "South": 11729,
+          "West": 11731
+        }
+      },
+      {
+        "Id": 11731,
+        "Name": "The Great Tragic River",
+        "Connections": {
+          "North": 11732,
+          "East": 11730
+        }
+      },
+      {
+        "Id": 11732,
+        "Name": "The Great Tragic River",
+        "Connections": {
+          "North": 11733,
+          "South": 11731
+        }
+      },
+      {
+        "Id": 11733,
+        "Name": "The Great Tragic River",
+        "Connections": {
+          "South": 11732,
+          "West": 11734
+        }
+      },
+      {
+        "Id": 11734,
+        "Name": "The Great Tragic River",
+        "Connections": {
+          "North": 11735,
+          "East": 11733
+        }
+      },
+      {
+        "Id": 11735,
+        "Name": "The Great Tragic River",
+        "Connections": {
+          "North": 11736,
+          "South": 11734,
+          "West": 11738
+        }
+      },
+      {
+        "Id": 11736,
+        "Name": "The Great Tragic River",
+        "Connections": {
+          "North": 11737,
+          "South": 11735
+        }
+      },
+      {
+        "Id": 11737,
+        "Name": "A Waterfall",
+        "Connections": {
+          "South": 11736
+        }
+      },
+      {
+        "Id": 11738,
+        "Name": "A Forest Path",
+        "Connections": {
+          "East": 11735,
+          "West": 11739
+        }
+      },
+      {
+        "Id": 11739,
+        "Name": "A Tribal Longhouse",
+        "Connections": {
+          "North": 11740,
+          "East": 11738,
+          "West": 11744
+        }
+      },
+      {
+        "Id": 11740,
+        "Name": "A Tribal Longhouse",
+        "Connections": {
+          "North": 11741,
+          "South": 11739,
+          "West": 11743
+        }
+      },
+      {
+        "Id": 11741,
+        "Name": "A Tribal Longhouse",
+        "Connections": {
+          "South": 11740,
+          "West": 11742
+        }
+      },
+      {
+        "Id": 11742,
+        "Name": "A Tribal Longhouse",
+        "Connections": {
+          "East": 11741,
+          "South": 11743
+        }
+      },
+      {
+        "Id": 11743,
+        "Name": "A Tribal Longhouse",
+        "Connections": {
+          "North": 11742,
+          "East": 11740,
+          "South": 11744
+        }
+      },
+      {
+        "Id": 11744,
+        "Name": "A Tribal Longhouse",
+        "Connections": {
+          "North": 11743,
+          "East": 11739
+        }
+      },
+      {
+        "Id": 11745,
+        "Name": "Men Fu\u0027s bed room.",
+        "Connections": {
+          "South": 11746
+        }
+      },
+      {
+        "Id": 11746,
+        "Name": "Men Fu\u0027s living room.",
+        "Connections": {
+          "North": 11745,
+          "West": 11714
+        }
+      },
+      {
+        "Id": 11747,
+        "Name": "Bomanz\u0027 Bedroom",
+        "Connections": {
+          "Down": 11750
+        }
+      },
+      {
+        "Id": 11748,
+        "Name": "Bomanz\u0027 Workshop",
+        "Connections": {
+          "South": 11750
+        }
+      },
+      {
+        "Id": 11749,
+        "Name": "Bomanz\u0027 Wife\u0027s Kitchen",
+        "Connections": {
+          "East": 11750
+        }
+      },
+      {
+        "Id": 11750,
+        "Name": "Bomanz\u0027 Living Room",
+        "Connections": {
+          "North": 11748,
+          "East": 11712,
+          "West": 11749,
+          "Up": 11747,
+          "Down": 11796
+        }
+      },
+      {
+        "Id": 11751,
+        "Name": "An outhouse.",
+        "Connections": {
+          "South": 11753
+        }
+      },
+      {
+        "Id": 11752,
+        "Name": "Monitor Besand\u0027s Office.",
+        "Connections": {
+          "East": 11711,
+          "South": 11754
+        }
+      },
+      {
+        "Id": 11753,
+        "Name": "The monitor\u0027s backyard.",
+        "Connections": {
+          "North": 11751,
+          "East": 11754
+        }
+      },
+      {
+        "Id": 11754,
+        "Name": "Besand\u0027s bed room.",
+        "Connections": {
+          "North": 11752,
+          "West": 11753
+        }
+      },
+      {
+        "Id": 11755,
+        "Name": "The Blue Willie Inn",
+        "Connections": {
+          "South": 11758
+        }
+      },
+      {
+        "Id": 11756,
+        "Name": "The Blue Willie Inn",
+        "Connections": {
+          "North": 11709,
+          "South": 11759,
+          "Up": 11758
+        }
+      },
+      {
+        "Id": 11757,
+        "Name": "The Blue Willie Inn",
+        "Connections": {
+          "East": 11758
+        }
+      },
+      {
+        "Id": 11758,
+        "Name": "The Blue Willie Inn",
+        "Connections": {
+          "North": 11755,
+          "West": 11757,
+          "Down": 11756
+        }
+      },
+      {
+        "Id": 11759,
+        "Name": "The Dining Room",
+        "Connections": {
+          "North": 11756
+        }
+      },
+      {
+        "Id": 11760,
+        "Name": "The Guard\u0027s Headquarters",
+        "Connections": {
+          "North": 11708,
+          "South": 11761
+        }
+      },
+      {
+        "Id": 11761,
+        "Name": "The Guards\u0027 Barracks",
+        "Connections": {
+          "North": 11760
+        }
+      },
+      {
+        "Id": 11762,
+        "Name": "Barrowlands Guard Station",
+        "Connections": {
+          "South": 11763
+        }
+      },
+      {
+        "Id": 11763,
+        "Name": "Path Towards the Barrowlands",
+        "Connections": {
+          "North": 11762,
+          "East": 11764,
+          "West": 11713
+        }
+      },
+      {
+        "Id": 11764,
+        "Name": "Atop the Retaining Wall",
+        "Connections": {
+          "East": 11768,
+          "West": 11763
+        }
+      },
+      {
+        "Id": 11765,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11767,
+          "Up": 11790
+        }
+      },
+      {
+        "Id": 11766,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11771,
+          "East": 11767
+        }
+      },
+      {
+        "Id": 11767,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11768,
+          "East": 11765,
+          "South": 11766,
+          "West": 11772
+        }
+      },
+      {
+        "Id": 11768,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11769,
+          "East": 11773,
+          "South": 11767,
+          "West": 11764
+        }
+      },
+      {
+        "Id": 11769,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "East": 11768,
+          "South": 11774,
+          "West": 11770
+        }
+      },
+      {
+        "Id": 11770,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11769,
+          "Up": 11793
+        }
+      },
+      {
+        "Id": 11771,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11766,
+          "South": 11776,
+          "West": 11772
+        }
+      },
+      {
+        "Id": 11772,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11771,
+          "East": 11777,
+          "South": 11767,
+          "West": 11773
+        }
+      },
+      {
+        "Id": 11773,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11768,
+          "East": 11778,
+          "South": 11774,
+          "West": 11772
+        }
+      },
+      {
+        "Id": 11774,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11779,
+          "East": 11769,
+          "South": 11773
+        }
+      },
+      {
+        "Id": 11775,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "West": 11776,
+          "Up": 11791
+        }
+      },
+      {
+        "Id": 11776,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11771,
+          "East": 11775,
+          "South": 11780,
+          "West": 11777
+        }
+      },
+      {
+        "Id": 11777,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11772,
+          "East": 11781,
+          "South": 11778,
+          "West": 11776
+        }
+      },
+      {
+        "Id": 11778,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11773,
+          "East": 11777,
+          "South": 11779,
+          "West": 11782,
+          "Up": 11795
+        }
+      },
+      {
+        "Id": 11779,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11783,
+          "East": 11778,
+          "South": 11774
+        }
+      },
+      {
+        "Id": 11780,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11776,
+          "South": 11784,
+          "West": 11781
+        }
+      },
+      {
+        "Id": 11781,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11785,
+          "East": 11782,
+          "South": 11777,
+          "West": 11780
+        }
+      },
+      {
+        "Id": 11782,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11778,
+          "East": 11783,
+          "South": 11786,
+          "West": 11781
+        }
+      },
+      {
+        "Id": 11783,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11779,
+          "East": 11782,
+          "West": 11787
+        }
+      },
+      {
+        "Id": 11784,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11780,
+          "South": 11785
+        }
+      },
+      {
+        "Id": 11785,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11789,
+          "East": 11784,
+          "South": 11786,
+          "West": 11781
+        }
+      },
+      {
+        "Id": 11786,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11787,
+          "East": 11782,
+          "South": 11785
+        }
+      },
+      {
+        "Id": 11787,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "North": 11783,
+          "East": 11788,
+          "West": 11786
+        }
+      },
+      {
+        "Id": 11788,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "East": 11787,
+          "Up": 11794
+        }
+      },
+      {
+        "Id": 11789,
+        "Name": "In the Barrowlands",
+        "Connections": {
+          "East": 11785,
+          "Up": 11792
+        }
+      },
+      {
+        "Id": 11790,
+        "Name": "Atop Stormbringer\u0027s Barrow",
+        "Connections": {
+          "Down": 11765
+        }
+      },
+      {
+        "Id": 11791,
+        "Name": "Atop The Limper\u0027s Barrow",
+        "Connections": {
+          "Down": 11775
+        }
+      },
+      {
+        "Id": 11792,
+        "Name": "Atop The Howler\u0027s Barrow",
+        "Connections": {
+          "Down": 11789
+        }
+      },
+      {
+        "Id": 11793,
+        "Name": "Atop Soulcatcher\u0027s Barrow",
+        "Connections": {
+          "Down": 11770
+        }
+      },
+      {
+        "Id": 11794,
+        "Name": "Atop Shapeshifter\u0027s Barrow",
+        "Connections": {
+          "Down": 11788
+        }
+      },
+      {
+        "Id": 11795,
+        "Name": "Atop The Great Barrow",
+        "Connections": {
+          "Down": 11778
+        }
+      },
+      {
+        "Id": 11796,
+        "Name": "An Ethereal Pathway",
+        "Connections": {
+          "Up": 11750,
+          "Down": 12826
+        }
+      },
+      {
+        "Id": 17627,
+        "Name": "To Ancient Roads",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "South": 17626,
+          "West": 11700
+        }
+      },
+      {
+        "Id": 12826,
+        "Name": "To Bomanz\u0027 Pathway",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "East": 12827,
+          "Up": 11796
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

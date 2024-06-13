@@ -1,0 +1,494 @@
+{
+  "Area": {
+    "Name": "Forest of Gaia",
+    "Credits": "Forest of Gaia",
+    "MinimumLevel": "10",
+    "MaximumLevel": "95",
+    "Rooms": [
+      {
+        "Id": 13500,
+        "Name": "A verdant dell",
+        "Connections": {
+          "North": 17597,
+          "South": 13501
+        }
+      },
+      {
+        "Id": 13501,
+        "Name": "A pathway of greenery",
+        "Connections": {
+          "North": 13500,
+          "East": 13502,
+          "West": 13503
+        }
+      },
+      {
+        "Id": 13502,
+        "Name": "A pathway of greenery",
+        "Connections": {
+          "South": 13505,
+          "West": 13501
+        }
+      },
+      {
+        "Id": 13503,
+        "Name": "A pathway of greenery",
+        "Connections": {
+          "East": 13501,
+          "South": 13504
+        }
+      },
+      {
+        "Id": 13504,
+        "Name": "Into the Forest",
+        "Connections": {
+          "North": 13503,
+          "South": 13506
+        }
+      },
+      {
+        "Id": 13505,
+        "Name": "Into the Forest",
+        "Connections": {
+          "North": 13502,
+          "South": 13508
+        }
+      },
+      {
+        "Id": 13506,
+        "Name": "Mythic Forest",
+        "Connections": {
+          "North": 13504,
+          "East": 13507,
+          "South": 13511
+        }
+      },
+      {
+        "Id": 13507,
+        "Name": "Mythic Forest",
+        "Connections": {
+          "East": 13508,
+          "West": 13506
+        }
+      },
+      {
+        "Id": 13508,
+        "Name": "Mythic Forest",
+        "Connections": {
+          "North": 13505,
+          "South": 13509,
+          "West": 13507
+        }
+      },
+      {
+        "Id": 13509,
+        "Name": "Mythic Forest",
+        "Connections": {
+          "North": 13508,
+          "South": 13510
+        }
+      },
+      {
+        "Id": 13510,
+        "Name": "Mirror of Gaia",
+        "Connections": {
+          "North": 13509,
+          "South": 13515,
+          "West": 13513
+        }
+      },
+      {
+        "Id": 13511,
+        "Name": "Mythic Forest",
+        "Connections": {
+          "North": 13506,
+          "South": 13512
+        }
+      },
+      {
+        "Id": 13512,
+        "Name": "Mirror of Gaia",
+        "Connections": {
+          "North": 13511,
+          "East": 13513,
+          "South": 13514
+        }
+      },
+      {
+        "Id": 13513,
+        "Name": "Mirror of Gaia",
+        "Connections": {
+          "East": 13510,
+          "West": 13512
+        }
+      },
+      {
+        "Id": 13514,
+        "Name": "Mirror of Gaia",
+        "Connections": {
+          "North": 13512,
+          "South": 13516
+        }
+      },
+      {
+        "Id": 13515,
+        "Name": "Mirror of Gaia",
+        "Connections": {
+          "North": 13510,
+          "South": 13518
+        }
+      },
+      {
+        "Id": 13516,
+        "Name": "Mirror of Gaia",
+        "Connections": {
+          "North": 13514,
+          "East": 13517,
+          "South": 13519
+        }
+      },
+      {
+        "Id": 13517,
+        "Name": "Mirror of Gaia",
+        "Connections": {
+          "East": 13518,
+          "West": 13516
+        }
+      },
+      {
+        "Id": 13518,
+        "Name": "Mirror of Gaia",
+        "Connections": {
+          "North": 13515,
+          "South": 13520,
+          "West": 13517
+        }
+      },
+      {
+        "Id": 13519,
+        "Name": "Lush Meadows",
+        "Connections": {
+          "North": 13516,
+          "South": 13521
+        }
+      },
+      {
+        "Id": 13520,
+        "Name": "Lush Meadows",
+        "Connections": {
+          "North": 13518
+        }
+      },
+      {
+        "Id": 13521,
+        "Name": "Lush Meadows",
+        "Connections": {
+          "North": 13519,
+          "East": 13522,
+          "South": 13523
+        }
+      },
+      {
+        "Id": 13522,
+        "Name": "Lush Meadows",
+        "Connections": {
+          "West": 13521
+        }
+      },
+      {
+        "Id": 13523,
+        "Name": "Peach Orchard",
+        "Connections": {
+          "North": 13521,
+          "West": 13524
+        }
+      },
+      {
+        "Id": 13524,
+        "Name": "A Woody Copse",
+        "Connections": {
+          "East": 13523,
+          "South": 13525
+        }
+      },
+      {
+        "Id": 13525,
+        "Name": "Fig Orchard",
+        "Connections": {
+          "North": 13524,
+          "East": 13526
+        }
+      },
+      {
+        "Id": 13526,
+        "Name": "Mango Orchard",
+        "Connections": {
+          "East": 13527,
+          "West": 13525
+        }
+      },
+      {
+        "Id": 13527,
+        "Name": "Cherry Orchard",
+        "Connections": {
+          "North": 13528,
+          "West": 13526
+        }
+      },
+      {
+        "Id": 13528,
+        "Name": "Apricot Orchard",
+        "Connections": {
+          "East": 13529,
+          "South": 13527
+        }
+      },
+      {
+        "Id": 13529,
+        "Name": "Entrance to Topiary Maze",
+        "Connections": {
+          "East": 13531,
+          "West": 13528
+        }
+      },
+      {
+        "Id": 13530,
+        "Name": "Topiary Maze",
+        "Connections": {
+          "North": 13534,
+          "East": 13533,
+          "South": 13531,
+          "West": 13534
+        }
+      },
+      {
+        "Id": 13531,
+        "Name": "Topiary Maze",
+        "Connections": {
+          "North": 13530,
+          "East": 13534,
+          "South": 13532,
+          "West": 13529
+        }
+      },
+      {
+        "Id": 13532,
+        "Name": "Topiary Maze",
+        "Connections": {
+          "North": 13531,
+          "East": 13535,
+          "South": 13534,
+          "West": 13534
+        }
+      },
+      {
+        "Id": 13533,
+        "Name": "Topiary Maze",
+        "Connections": {
+          "East": 13536,
+          "South": 13534,
+          "West": 13530
+        }
+      },
+      {
+        "Id": 13534,
+        "Name": "Topiary Maze",
+        "Connections": {
+          "North": 13533,
+          "East": 13537,
+          "South": 13535,
+          "West": 13531
+        }
+      },
+      {
+        "Id": 13535,
+        "Name": "Topiary Maze",
+        "Connections": {
+          "North": 13534,
+          "East": 13538,
+          "West": 13532
+        }
+      },
+      {
+        "Id": 13536,
+        "Name": "Topiary Maze",
+        "Connections": {
+          "North": 13534,
+          "East": 13540,
+          "South": 13537,
+          "West": 13533
+        }
+      },
+      {
+        "Id": 13537,
+        "Name": "Topiary Maze",
+        "Connections": {
+          "North": 13536,
+          "South": 13538,
+          "West": 13534
+        }
+      },
+      {
+        "Id": 13538,
+        "Name": "Topiary Maze",
+        "Connections": {
+          "North": 13537,
+          "East": 13534,
+          "South": 13534,
+          "West": 13535
+        }
+      },
+      {
+        "Id": 13539,
+        "Name": "Friendly Savannah",
+        "Connections": {
+          "East": 13542,
+          "South": 13540
+        }
+      },
+      {
+        "Id": 13540,
+        "Name": "Friendly Savannah",
+        "Connections": {
+          "North": 13539,
+          "West": 13536
+        }
+      },
+      {
+        "Id": 13541,
+        "Name": "Friendly Savannah",
+        "Connections": {
+          "East": 13544,
+          "South": 13542
+        }
+      },
+      {
+        "Id": 13542,
+        "Name": "Friendly Savannah",
+        "Connections": {
+          "North": 13541,
+          "West": 13539
+        }
+      },
+      {
+        "Id": 13543,
+        "Name": "The Green Path",
+        "Connections": {
+          "North": 13545,
+          "South": 13544
+        }
+      },
+      {
+        "Id": 13544,
+        "Name": "Friendly Savannah",
+        "Connections": {
+          "North": 13543,
+          "West": 13541
+        }
+      },
+      {
+        "Id": 13545,
+        "Name": "The Green Path",
+        "Connections": {
+          "East": 13546,
+          "South": 13543
+        }
+      },
+      {
+        "Id": 13546,
+        "Name": "The Green Path",
+        "Connections": {
+          "South": 13547,
+          "West": 13545
+        }
+      },
+      {
+        "Id": 13547,
+        "Name": "Oak Grove",
+        "Connections": {
+          "North": 13546
+        }
+      },
+      {
+        "Id": 13548,
+        "Name": "The Tree of Life",
+        "Connections": {
+          "North": 13550,
+          "East": 13552,
+          "South": 13551,
+          "West": 13553,
+          "Down": 9755
+        }
+      },
+      {
+        "Id": 13549,
+        "Name": "Glade of Gaia",
+        "Connections": {
+          "West": 13548
+        }
+      },
+      {
+        "Id": 13550,
+        "Name": "Cairn of Peace",
+        "Connections": {
+          "South": 13548
+        }
+      },
+      {
+        "Id": 13551,
+        "Name": "Gardens of Crystal",
+        "Connections": {
+          "North": 13548
+        }
+      },
+      {
+        "Id": 13552,
+        "Name": "Nature\u0027s Armor",
+        "Connections": {
+          "West": 13548
+        }
+      },
+      {
+        "Id": 13553,
+        "Name": "Peaceable Kingdom",
+        "Connections": {
+          "East": 13548
+        }
+      },
+      {
+        "Id": 13554,
+        "Name": "Peaceable Animals",
+        "Connections": {}
+      },
+      {
+        "Id": 13569,
+        "Name": "Sanctuary",
+        "Connections": {}
+      },
+      {
+        "Id": 17597,
+        "Name": "To Ancient Roads",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "East": 17596,
+          "South": 13500,
+          "West": 17598
+        }
+      },
+      {
+        "Id": 9755,
+        "Name": "To Roterodamum",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 9702,
+          "East": 9707,
+          "South": 9723,
+          "West": 9705
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

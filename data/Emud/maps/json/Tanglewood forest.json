@@ -1,0 +1,266 @@
+{
+  "Area": {
+    "Name": "Tanglewood forest",
+    "Credits": "Tanglewood forest",
+    "MinimumLevel": "1",
+    "MaximumLevel": "10",
+    "Rooms": [
+      {
+        "Id": 11500,
+        "Name": "Entrance to Tanglewood",
+        "Connections": {
+          "North": 11502,
+          "South": 17231
+        }
+      },
+      {
+        "Id": 11501,
+        "Name": "The Woods",
+        "Connections": {
+          "North": 11505,
+          "East": 11502
+        }
+      },
+      {
+        "Id": 11502,
+        "Name": "A Clearing",
+        "Connections": {
+          "North": 11506,
+          "South": 11500,
+          "West": 11501
+        }
+      },
+      {
+        "Id": 11503,
+        "Name": "The darkest part of the woods",
+        "Connections": {
+          "North": 11507
+        }
+      },
+      {
+        "Id": 11504,
+        "Name": "A clearing in the woods",
+        "Connections": {
+          "North": 11508,
+          "East": 11505
+        }
+      },
+      {
+        "Id": 11505,
+        "Name": "The Woods",
+        "Connections": {
+          "North": 11509,
+          "South": 11501,
+          "West": 11504
+        }
+      },
+      {
+        "Id": 11506,
+        "Name": "The Woods",
+        "Connections": {
+          "North": 11510,
+          "East": 11507,
+          "South": 11502
+        }
+      },
+      {
+        "Id": 11507,
+        "Name": "The Woods",
+        "Connections": {
+          "South": 11503,
+          "West": 11506
+        }
+      },
+      {
+        "Id": 11508,
+        "Name": "Bunnies\u0027 paradise",
+        "Connections": {
+          "East": 11509,
+          "South": 11504
+        }
+      },
+      {
+        "Id": 11509,
+        "Name": "The Woods",
+        "Connections": {
+          "North": 11515,
+          "East": 11510,
+          "South": 11505,
+          "West": 11508
+        }
+      },
+      {
+        "Id": 11510,
+        "Name": "A cottage in the woods",
+        "Connections": {
+          "North": 11522,
+          "East": 11511,
+          "South": 11506,
+          "West": 11509
+        }
+      },
+      {
+        "Id": 11511,
+        "Name": "A dimly lit path",
+        "Connections": {
+          "North": 11517,
+          "East": 11512,
+          "West": 11510
+        }
+      },
+      {
+        "Id": 11512,
+        "Name": "By the lake",
+        "Connections": {
+          "East": 11513,
+          "West": 11511
+        }
+      },
+      {
+        "Id": 11513,
+        "Name": "The Lake",
+        "Connections": {
+          "West": 11512,
+          "Down": 11514
+        }
+      },
+      {
+        "Id": 11514,
+        "Name": "Bottom of the lake",
+        "Connections": {
+          "Up": 11513
+        }
+      },
+      {
+        "Id": 11515,
+        "Name": "Path in the foothills",
+        "Connections": {
+          "North": 11521,
+          "East": 11516,
+          "South": 11509
+        }
+      },
+      {
+        "Id": 11516,
+        "Name": "The Woods",
+        "Connections": {
+          "East": 11517,
+          "West": 11515
+        }
+      },
+      {
+        "Id": 11517,
+        "Name": "The Woods",
+        "Connections": {
+          "South": 11511,
+          "West": 11516
+        }
+      },
+      {
+        "Id": 11518,
+        "Name": "The Lair",
+        "Connections": {
+          "North": 11519
+        }
+      },
+      {
+        "Id": 11519,
+        "Name": "Mountains",
+        "Connections": {
+          "North": 11524,
+          "East": 11520,
+          "South": 11518
+        }
+      },
+      {
+        "Id": 11520,
+        "Name": "A mountain pass",
+        "Connections": {
+          "North": 11525,
+          "East": 11521,
+          "West": 11519
+        }
+      },
+      {
+        "Id": 11521,
+        "Name": "A mountain pass",
+        "Connections": {
+          "South": 11515,
+          "West": 11520
+        }
+      },
+      {
+        "Id": 11522,
+        "Name": "Inside the small wooden cottage",
+        "Connections": {
+          "North": 11528,
+          "South": 11510,
+          "Down": 11523
+        }
+      },
+      {
+        "Id": 11523,
+        "Name": "Under the bed",
+        "Connections": {
+          "Up": 11522
+        }
+      },
+      {
+        "Id": 11524,
+        "Name": "Mountains",
+        "Connections": {
+          "South": 11519
+        }
+      },
+      {
+        "Id": 11525,
+        "Name": "Mountains",
+        "Connections": {
+          "South": 11520,
+          "Up": 11526
+        }
+      },
+      {
+        "Id": 11526,
+        "Name": "Entrance to the Orc cave",
+        "Connections": {
+          "East": 11527,
+          "Down": 11525
+        }
+      },
+      {
+        "Id": 11527,
+        "Name": "Orc Cave",
+        "Connections": {
+          "West": 11526
+        }
+      },
+      {
+        "Id": 11528,
+        "Name": "The vegetable garden",
+        "Connections": {
+          "South": 11522
+        }
+      },
+      {
+        "Id": 11529,
+        "Name": "The Bunny Sanctuary",
+        "Connections": {
+          "East": 11501
+        }
+      },
+      {
+        "Id": 17231,
+        "Name": "To Ancient Roads",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 11500,
+          "South": 17230
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

@@ -1,0 +1,806 @@
+{
+  "Area": {
+    "Name": "Dragon Haven",
+    "Credits": "Dragon Haven",
+    "MinimumLevel": "50",
+    "MaximumLevel": "95",
+    "Rooms": [
+      {
+        "Id": 31100,
+        "Name": "",
+        "Connections": {}
+      },
+      {
+        "Id": 31101,
+        "Name": "The Plateau",
+        "Connections": {
+          "North": 31102,
+          "East": 31106
+        }
+      },
+      {
+        "Id": 31102,
+        "Name": "The Plateau",
+        "Connections": {
+          "North": 31103,
+          "East": 31105,
+          "South": 31101
+        }
+      },
+      {
+        "Id": 31103,
+        "Name": "The Plateau",
+        "Connections": {
+          "East": 31104,
+          "South": 31102
+        }
+      },
+      {
+        "Id": 31104,
+        "Name": "The Plateau",
+        "Connections": {
+          "East": 31109,
+          "South": 31105,
+          "West": 31103
+        }
+      },
+      {
+        "Id": 31105,
+        "Name": "The Plateau",
+        "Connections": {
+          "North": 31104,
+          "East": 31108,
+          "South": 31106,
+          "West": 31102
+        }
+      },
+      {
+        "Id": 31106,
+        "Name": "The Plateau",
+        "Connections": {
+          "North": 31105,
+          "East": 31107,
+          "South": 17385,
+          "West": 31101
+        }
+      },
+      {
+        "Id": 31107,
+        "Name": "The Plateau",
+        "Connections": {
+          "North": 31108,
+          "East": 31112,
+          "West": 31106
+        }
+      },
+      {
+        "Id": 31108,
+        "Name": "The Plateau",
+        "Connections": {
+          "North": 31109,
+          "East": 31111,
+          "South": 31107,
+          "West": 31105
+        }
+      },
+      {
+        "Id": 31109,
+        "Name": "The Plateau",
+        "Connections": {
+          "North": 31121,
+          "East": 31110,
+          "South": 31108,
+          "West": 31104
+        }
+      },
+      {
+        "Id": 31110,
+        "Name": "The Plateau",
+        "Connections": {
+          "East": 31118,
+          "South": 31111,
+          "West": 31109
+        }
+      },
+      {
+        "Id": 31111,
+        "Name": "The Plateau",
+        "Connections": {
+          "North": 31110,
+          "East": 31115,
+          "South": 31112,
+          "West": 31108
+        }
+      },
+      {
+        "Id": 31112,
+        "Name": "The Plateau",
+        "Connections": {
+          "North": 31111,
+          "West": 31107,
+          "Down": 31113
+        }
+      },
+      {
+        "Id": 31113,
+        "Name": "The Secret Stairway",
+        "Connections": {
+          "West": 31114,
+          "Up": 31112
+        }
+      },
+      {
+        "Id": 31114,
+        "Name": "The Secret Laboratory",
+        "Connections": {
+          "East": 31113
+        }
+      },
+      {
+        "Id": 31115,
+        "Name": "A Turn in a Small Path",
+        "Connections": {
+          "South": 31116,
+          "West": 31111
+        }
+      },
+      {
+        "Id": 31116,
+        "Name": "Before the Building",
+        "Connections": {
+          "North": 31115,
+          "East": 31117
+        }
+      },
+      {
+        "Id": 31117,
+        "Name": "Alchemists\u0027 Shelter",
+        "Connections": {
+          "West": 31116
+        }
+      },
+      {
+        "Id": 31118,
+        "Name": "Following the Footprints",
+        "Connections": {
+          "East": 31119,
+          "West": 31110
+        }
+      },
+      {
+        "Id": 31119,
+        "Name": "The Dark and Misty Forest",
+        "Connections": {
+          "North": 31120,
+          "West": 31118
+        }
+      },
+      {
+        "Id": 31120,
+        "Name": "The Old Castle",
+        "Connections": {
+          "South": 31119
+        }
+      },
+      {
+        "Id": 31121,
+        "Name": "A Huge Rock",
+        "Connections": {
+          "South": 31109,
+          "Up": 31122
+        }
+      },
+      {
+        "Id": 31122,
+        "Name": "In the Sky",
+        "Connections": {
+          "Up": 31123,
+          "Down": 31121
+        }
+      },
+      {
+        "Id": 31123,
+        "Name": "Flying High in the Sky",
+        "Connections": {
+          "Up": 31124,
+          "Down": 31122
+        }
+      },
+      {
+        "Id": 31124,
+        "Name": "Into the Cloud",
+        "Connections": {
+          "Up": 31125,
+          "Down": 31123
+        }
+      },
+      {
+        "Id": 31125,
+        "Name": "In the Middle of a Flying City",
+        "Connections": {
+          "North": 31138,
+          "East": 31126,
+          "South": 31130,
+          "West": 31134,
+          "Up": 31174,
+          "Down": 31124
+        }
+      },
+      {
+        "Id": 31126,
+        "Name": "Eastern Boulevard",
+        "Connections": {
+          "East": 31127,
+          "West": 31125
+        }
+      },
+      {
+        "Id": 31127,
+        "Name": "Eastern Avenue",
+        "Connections": {
+          "North": 31153,
+          "East": 31128,
+          "South": 31142,
+          "West": 31126
+        }
+      },
+      {
+        "Id": 31128,
+        "Name": "Eastern Boulevard",
+        "Connections": {
+          "East": 31129,
+          "West": 31127
+        }
+      },
+      {
+        "Id": 31129,
+        "Name": "The End of Eastern Boulevard",
+        "Connections": {
+          "North": 31156,
+          "South": 31154,
+          "West": 31128
+        }
+      },
+      {
+        "Id": 31130,
+        "Name": "Southern Boulevard",
+        "Connections": {
+          "North": 31125,
+          "South": 31132
+        }
+      },
+      {
+        "Id": 31131,
+        "Name": "Southern Boulevard",
+        "Connections": {
+          "North": 31130,
+          "East": 31144,
+          "South": 31132,
+          "West": 31145
+        }
+      },
+      {
+        "Id": 31132,
+        "Name": "Southern Boulevard",
+        "Connections": {
+          "North": 31131,
+          "South": 31133
+        }
+      },
+      {
+        "Id": 31133,
+        "Name": "The End of Southern Boulevard",
+        "Connections": {
+          "North": 31132,
+          "East": 31158,
+          "West": 31160
+        }
+      },
+      {
+        "Id": 31134,
+        "Name": "Western Boulevard",
+        "Connections": {
+          "East": 31125,
+          "West": 31135
+        }
+      },
+      {
+        "Id": 31135,
+        "Name": "Western Avenue",
+        "Connections": {
+          "North": 31148,
+          "East": 31134,
+          "South": 31147,
+          "West": 31136
+        }
+      },
+      {
+        "Id": 31136,
+        "Name": "Western Boulevard",
+        "Connections": {
+          "East": 31135,
+          "West": 31137
+        }
+      },
+      {
+        "Id": 31137,
+        "Name": "The End of Western Boulevard",
+        "Connections": {
+          "North": 31164,
+          "East": 31136,
+          "South": 31162
+        }
+      },
+      {
+        "Id": 31138,
+        "Name": "Northern Boulevard",
+        "Connections": {
+          "North": 31139,
+          "South": 31125
+        }
+      },
+      {
+        "Id": 31139,
+        "Name": "Northern Boulevard",
+        "Connections": {
+          "North": 31140,
+          "East": 31151,
+          "South": 31138,
+          "West": 31150
+        }
+      },
+      {
+        "Id": 31140,
+        "Name": "Northern Boulevard",
+        "Connections": {
+          "North": 31141,
+          "South": 31139
+        }
+      },
+      {
+        "Id": 31141,
+        "Name": "The End of Northern Boulevard",
+        "Connections": {
+          "North": 31191,
+          "South": 31140
+        }
+      },
+      {
+        "Id": 31142,
+        "Name": "Eastern Avenue",
+        "Connections": {
+          "North": 31127,
+          "South": 31143
+        }
+      },
+      {
+        "Id": 31143,
+        "Name": "Eastern Avenue",
+        "Connections": {
+          "North": 31142,
+          "East": 31166,
+          "South": 31167,
+          "West": 31144
+        }
+      },
+      {
+        "Id": 31144,
+        "Name": "Southern Avenue",
+        "Connections": {
+          "East": 31143,
+          "West": 31131
+        }
+      },
+      {
+        "Id": 31145,
+        "Name": "Southern Avenue",
+        "Connections": {
+          "East": 31131,
+          "West": 31146
+        }
+      },
+      {
+        "Id": 31146,
+        "Name": "Southern Avenue",
+        "Connections": {
+          "North": 31147,
+          "East": 31145,
+          "South": 31168,
+          "West": 31169
+        }
+      },
+      {
+        "Id": 31147,
+        "Name": "Western Avenue",
+        "Connections": {
+          "North": 31135,
+          "South": 31146
+        }
+      },
+      {
+        "Id": 31148,
+        "Name": "Western Avenue",
+        "Connections": {
+          "North": 31149,
+          "South": 31135
+        }
+      },
+      {
+        "Id": 31149,
+        "Name": "Northern Avenue",
+        "Connections": {
+          "North": 31171,
+          "East": 31150,
+          "South": 31148,
+          "West": 31170
+        }
+      },
+      {
+        "Id": 31150,
+        "Name": "Northern Avenue",
+        "Connections": {
+          "East": 31139,
+          "West": 31149
+        }
+      },
+      {
+        "Id": 31151,
+        "Name": "Northern Avenue",
+        "Connections": {
+          "East": 31152,
+          "West": 31139
+        }
+      },
+      {
+        "Id": 31152,
+        "Name": "Northern Avenue",
+        "Connections": {
+          "North": 31172,
+          "East": 31173,
+          "South": 31153,
+          "West": 31151
+        }
+      },
+      {
+        "Id": 31153,
+        "Name": "Eastern Avenue",
+        "Connections": {
+          "North": 31152,
+          "South": 31127
+        }
+      },
+      {
+        "Id": 31154,
+        "Name": "Hallway to Assassins Practice Room",
+        "Connections": {
+          "North": 31129,
+          "South": 31155
+        }
+      },
+      {
+        "Id": 31155,
+        "Name": "Ninja Practice Room",
+        "Connections": {
+          "North": 31154
+        }
+      },
+      {
+        "Id": 31156,
+        "Name": "Hallway to Marauders Practice Room",
+        "Connections": {
+          "North": 31157,
+          "South": 31129
+        }
+      },
+      {
+        "Id": 31157,
+        "Name": "Marauders Practice Room",
+        "Connections": {
+          "South": 31156
+        }
+      },
+      {
+        "Id": 31158,
+        "Name": "Hallway to Shamans Practice Room",
+        "Connections": {
+          "East": 31159,
+          "West": 31132
+        }
+      },
+      {
+        "Id": 31159,
+        "Name": "Shamans Practice Room",
+        "Connections": {
+          "West": 31158
+        }
+      },
+      {
+        "Id": 31160,
+        "Name": "Hallway to Druids Practice Room",
+        "Connections": {
+          "East": 31132,
+          "West": 31161
+        }
+      },
+      {
+        "Id": 31161,
+        "Name": "Druids Practice Room",
+        "Connections": {
+          "East": 31160
+        }
+      },
+      {
+        "Id": 31162,
+        "Name": "Hallway to Warlocks Practice Room",
+        "Connections": {
+          "North": 31137,
+          "South": 31163
+        }
+      },
+      {
+        "Id": 31163,
+        "Name": "Warlocks Practice Room",
+        "Connections": {
+          "North": 31162
+        }
+      },
+      {
+        "Id": 31164,
+        "Name": "Hallway to Fighter Practice Room",
+        "Connections": {
+          "North": 31165,
+          "South": 31137
+        }
+      },
+      {
+        "Id": 31165,
+        "Name": "Fighters Practice Room",
+        "Connections": {
+          "South": 31164
+        }
+      },
+      {
+        "Id": 31166,
+        "Name": "Gabriel\u0027s Magic shop",
+        "Connections": {
+          "West": 31143
+        }
+      },
+      {
+        "Id": 31167,
+        "Name": "Morgue",
+        "Connections": {
+          "North": 31143
+        }
+      },
+      {
+        "Id": 31168,
+        "Name": "Weapon Shop",
+        "Connections": {
+          "North": 31146
+        }
+      },
+      {
+        "Id": 31169,
+        "Name": "Armour shop",
+        "Connections": {
+          "East": 31146
+        }
+      },
+      {
+        "Id": 31170,
+        "Name": "The Italian Restaurant",
+        "Connections": {
+          "East": 31149
+        }
+      },
+      {
+        "Id": 31171,
+        "Name": "Carlo\u0027s Jewelry",
+        "Connections": {
+          "South": 31149
+        }
+      },
+      {
+        "Id": 31172,
+        "Name": "Old Filanda Furniture Shop",
+        "Connections": {
+          "South": 31152
+        }
+      },
+      {
+        "Id": 31173,
+        "Name": "The General Store",
+        "Connections": {
+          "West": 31152
+        }
+      },
+      {
+        "Id": 31174,
+        "Name": "Little Square before the Golden Castle",
+        "Connections": {
+          "East": 31176,
+          "Down": 31125
+        }
+      },
+      {
+        "Id": 31175,
+        "Name": "Under a Castle Tower",
+        "Connections": {
+          "East": 31180,
+          "South": 31176
+        }
+      },
+      {
+        "Id": 31176,
+        "Name": "Inside the Golden Castle",
+        "Connections": {
+          "North": 31175,
+          "East": 31179,
+          "South": 31177,
+          "West": 31174
+        }
+      },
+      {
+        "Id": 31177,
+        "Name": "Under a Castle Tower",
+        "Connections": {
+          "North": 31176,
+          "East": 31178,
+          "Up": 31188
+        }
+      },
+      {
+        "Id": 31178,
+        "Name": "A Hallway in the Golden Castle",
+        "Connections": {
+          "North": 31179,
+          "East": 31183,
+          "West": 31177
+        }
+      },
+      {
+        "Id": 31179,
+        "Name": "The Main Hallway of the Golden Castle",
+        "Connections": {
+          "North": 31180,
+          "East": 31182,
+          "South": 31178,
+          "West": 31176
+        }
+      },
+      {
+        "Id": 31180,
+        "Name": "A Hallway in the Golden Castle",
+        "Connections": {
+          "East": 31181,
+          "South": 31179,
+          "West": 31175
+        }
+      },
+      {
+        "Id": 31181,
+        "Name": "A Hallway in the Golden Castle",
+        "Connections": {
+          "East": 31186,
+          "South": 31182,
+          "West": 31180
+        }
+      },
+      {
+        "Id": 31182,
+        "Name": "The Main Hallway of the Golden Castle",
+        "Connections": {
+          "North": 31181,
+          "East": 31185,
+          "South": 31183,
+          "West": 31179
+        }
+      },
+      {
+        "Id": 31183,
+        "Name": "A Hallway in the Golden Castle",
+        "Connections": {
+          "North": 31182,
+          "East": 31184,
+          "West": 31178
+        }
+      },
+      {
+        "Id": 31184,
+        "Name": "Under a Castle Tower",
+        "Connections": {
+          "North": 31185,
+          "West": 31183,
+          "Up": 31187
+        }
+      },
+      {
+        "Id": 31185,
+        "Name": "The Throne Stage",
+        "Connections": {
+          "North": 31186,
+          "East": 31193,
+          "South": 31184,
+          "West": 31182
+        }
+      },
+      {
+        "Id": 31186,
+        "Name": "Under a Castle Tower",
+        "Connections": {
+          "South": 31185,
+          "West": 31181,
+          "Up": 31190
+        }
+      },
+      {
+        "Id": 31187,
+        "Name": "Atop the Southeast Tower of the Golden Castle",
+        "Connections": {
+          "Down": 31184
+        }
+      },
+      {
+        "Id": 31188,
+        "Name": "Atop the Southwest Tower of the Golden Castle",
+        "Connections": {
+          "Down": 31177
+        }
+      },
+      {
+        "Id": 31189,
+        "Name": "Atop the Northwest Tower of the Golden Castle",
+        "Connections": {
+          "Down": 31175
+        }
+      },
+      {
+        "Id": 31190,
+        "Name": "Atop the Northeast Tower of the Golden Castle",
+        "Connections": {
+          "Down": 31186
+        }
+      },
+      {
+        "Id": 31191,
+        "Name": "Hallway to Sorcerers Practice Room",
+        "Connections": {
+          "North": 31192,
+          "South": 31141
+        }
+      },
+      {
+        "Id": 31192,
+        "Name": "The Sorcerers Practice Room",
+        "Connections": {
+          "South": 31191
+        }
+      },
+      {
+        "Id": 31193,
+        "Name": "The Dome over the Well of Souls",
+        "Connections": {
+          "West": 31185
+        }
+      },
+      {
+        "Id": 31199,
+        "Name": "room",
+        "Connections": {}
+      },
+      {
+        "Id": 17385,
+        "Name": "To Ancient Roads",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 31106,
+          "South": 17384
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

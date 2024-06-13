@@ -1,0 +1,66 @@
+{
+  "Area": {
+    "Name": "Dungeon",
+    "Credits": "Dungeon",
+    "MinimumLevel": "1",
+    "MaximumLevel": "95",
+    "Rooms": [
+      {
+        "Id": 12000,
+        "Name": "Center of the Dungeon",
+        "Connections": {
+          "North": 9755,
+          "East": 12001,
+          "West": 12005,
+          "Up": 12002,
+          "Down": 12003
+        }
+      },
+      {
+        "Id": 12001,
+        "Name": "The Dungeon Cell",
+        "Connections": {}
+      },
+      {
+        "Id": 12002,
+        "Name": "The Dungeon Kitchen",
+        "Connections": {
+          "Down": 12000
+        }
+      },
+      {
+        "Id": 12003,
+        "Name": "The Dragon Training Room",
+        "Connections": {
+          "Up": 12000
+        }
+      },
+      {
+        "Id": 12004,
+        "Name": "Dragon Resting Room",
+        "Connections": {
+          "North": 12003
+        }
+      },
+      {
+        "Id": 12005,
+        "Name": "The Interrogation Room",
+        "Connections": {}
+      },
+      {
+        "Id": 9755,
+        "Name": "To Roterodamum",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 9702,
+          "East": 9707,
+          "South": 9723,
+          "West": 9705
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

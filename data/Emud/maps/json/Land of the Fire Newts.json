@@ -1,0 +1,278 @@
+{
+  "Area": {
+    "Name": "Land of the Fire Newts",
+    "Credits": "Land of the Fire Newts",
+    "MinimumLevel": "5",
+    "MaximumLevel": "15",
+    "Rooms": [
+      {
+        "Id": 2900,
+        "Name": "Obsidian hills",
+        "Connections": {
+          "North": 4005,
+          "South": 2901
+        }
+      },
+      {
+        "Id": 2901,
+        "Name": "Obsidian hills",
+        "Connections": {
+          "North": 2900,
+          "South": 2902
+        }
+      },
+      {
+        "Id": 2902,
+        "Name": "Obsidian hills",
+        "Connections": {
+          "North": 2901,
+          "East": 2903
+        }
+      },
+      {
+        "Id": 2903,
+        "Name": "Mountain side",
+        "Connections": {
+          "South": 2904,
+          "West": 2902
+        }
+      },
+      {
+        "Id": 2904,
+        "Name": "Mountain side",
+        "Connections": {
+          "North": 2903,
+          "South": 2905
+        }
+      },
+      {
+        "Id": 2905,
+        "Name": "Mountain top",
+        "Connections": {
+          "North": 2904,
+          "South": 2906
+        }
+      },
+      {
+        "Id": 2906,
+        "Name": "Entrance to the mountain",
+        "Connections": {
+          "North": 2905,
+          "East": 2907,
+          "South": 2909,
+          "West": 2908,
+          "Down": 2910
+        }
+      },
+      {
+        "Id": 2907,
+        "Name": "Mountain top",
+        "Connections": {
+          "West": 2906
+        }
+      },
+      {
+        "Id": 2908,
+        "Name": "Mountain top",
+        "Connections": {
+          "East": 2906
+        }
+      },
+      {
+        "Id": 2909,
+        "Name": "Mountain top",
+        "Connections": {
+          "North": 2906
+        }
+      },
+      {
+        "Id": 2910,
+        "Name": "Inside the mountain",
+        "Connections": {
+          "East": 2911,
+          "West": 2912,
+          "Up": 2906,
+          "Down": 2913
+        }
+      },
+      {
+        "Id": 2911,
+        "Name": "Guard room",
+        "Connections": {
+          "West": 2910
+        }
+      },
+      {
+        "Id": 2912,
+        "Name": "Guard room",
+        "Connections": {
+          "East": 2910
+        }
+      },
+      {
+        "Id": 2913,
+        "Name": "Inside the mountain",
+        "Connections": {
+          "North": 2914,
+          "South": 2915,
+          "Up": 2910,
+          "Down": 2916
+        }
+      },
+      {
+        "Id": 2914,
+        "Name": "Store room",
+        "Connections": {
+          "South": 2913
+        }
+      },
+      {
+        "Id": 2915,
+        "Name": "Workers\u0027 quarters",
+        "Connections": {
+          "North": 2913
+        }
+      },
+      {
+        "Id": 2916,
+        "Name": "Bottom of the mountain",
+        "Connections": {
+          "North": 2917,
+          "Up": 2913
+        }
+      },
+      {
+        "Id": 2917,
+        "Name": "The tunnel",
+        "Connections": {
+          "North": 2918,
+          "South": 2916
+        }
+      },
+      {
+        "Id": 2918,
+        "Name": "Bend in the tunnel",
+        "Connections": {
+          "East": 2919,
+          "South": 2917
+        }
+      },
+      {
+        "Id": 2919,
+        "Name": "The tunnel",
+        "Connections": {
+          "North": 2921,
+          "East": 2920,
+          "West": 2918
+        }
+      },
+      {
+        "Id": 2920,
+        "Name": "Fire Newt House",
+        "Connections": {
+          "West": 2919
+        }
+      },
+      {
+        "Id": 2921,
+        "Name": "The tunnel",
+        "Connections": {
+          "North": 2923,
+          "South": 2919,
+          "West": 2922
+        }
+      },
+      {
+        "Id": 2922,
+        "Name": "Fire Newt House",
+        "Connections": {
+          "East": 2921
+        }
+      },
+      {
+        "Id": 2923,
+        "Name": "The tunnel",
+        "Connections": {
+          "East": 2927,
+          "South": 2921,
+          "West": 2924
+        }
+      },
+      {
+        "Id": 2924,
+        "Name": "Entrance to the town hall",
+        "Connections": {
+          "East": 2923,
+          "West": 2925
+        }
+      },
+      {
+        "Id": 2925,
+        "Name": "The Waiting Room",
+        "Connections": {
+          "East": 2924,
+          "West": 2926
+        }
+      },
+      {
+        "Id": 2926,
+        "Name": "The Leader\u0027s Office",
+        "Connections": {
+          "East": 2925
+        }
+      },
+      {
+        "Id": 2927,
+        "Name": "Outside the temple",
+        "Connections": {
+          "East": 2928,
+          "West": 2923
+        }
+      },
+      {
+        "Id": 2928,
+        "Name": "Entrance to the temple",
+        "Connections": {
+          "East": 2929,
+          "West": 2927
+        }
+      },
+      {
+        "Id": 2929,
+        "Name": "Inside the Temple",
+        "Connections": {
+          "West": 2928,
+          "Down": 2930
+        }
+      },
+      {
+        "Id": 2930,
+        "Name": "The room before the doors",
+        "Connections": {
+          "East": 2931,
+          "Up": 2929
+        }
+      },
+      {
+        "Id": 2931,
+        "Name": "The Egg Room",
+        "Connections": {
+          "West": 2930
+        }
+      },
+      {
+        "Id": 4005,
+        "Name": "To Deeve",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 4003,
+          "South": 2900,
+          "West": 4004
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

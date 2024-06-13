@@ -1,0 +1,829 @@
+{
+  "Area": {
+    "Name": "City of Ruins",
+    "Credits": "City of Ruins",
+    "MinimumLevel": "20",
+    "MaximumLevel": "40",
+    "Rooms": [
+      {
+        "Id": 12500,
+        "Name": "Southgate",
+        "Connections": {
+          "North": 12501,
+          "South": 12594
+        }
+      },
+      {
+        "Id": 12501,
+        "Name": "Southgate Road",
+        "Connections": {
+          "North": 12529,
+          "East": 12503,
+          "South": 12500,
+          "West": 12502
+        }
+      },
+      {
+        "Id": 12502,
+        "Name": "Guard House",
+        "Connections": {
+          "East": 12501
+        }
+      },
+      {
+        "Id": 12503,
+        "Name": "Guard House",
+        "Connections": {
+          "West": 12501
+        }
+      },
+      {
+        "Id": 12504,
+        "Name": "Southgate Road",
+        "Connections": {
+          "North": 12505,
+          "South": 12529
+        }
+      },
+      {
+        "Id": 12505,
+        "Name": "Main Street",
+        "Connections": {
+          "North": 12506,
+          "East": 12511,
+          "South": 12504,
+          "West": 12513
+        }
+      },
+      {
+        "Id": 12506,
+        "Name": "Main Street",
+        "Connections": {
+          "North": 12515,
+          "East": 12507,
+          "South": 12505,
+          "West": 12508
+        }
+      },
+      {
+        "Id": 12507,
+        "Name": "A Small Alley",
+        "Connections": {
+          "North": 12517,
+          "West": 12506
+        }
+      },
+      {
+        "Id": 12508,
+        "Name": "A Small Alley",
+        "Connections": {
+          "North": 12516,
+          "East": 12506
+        }
+      },
+      {
+        "Id": 12509,
+        "Name": "Zzevelo\u0027s Magic Stall",
+        "Connections": {
+          "East": 12530,
+          "South": 12514
+        }
+      },
+      {
+        "Id": 12510,
+        "Name": "Crayola\u0027s Magic Delights",
+        "Connections": {
+          "South": 12512,
+          "West": 12571
+        }
+      },
+      {
+        "Id": 12511,
+        "Name": "Gim\u0027s Armor Market",
+        "Connections": {
+          "East": 12539,
+          "West": 12505
+        }
+      },
+      {
+        "Id": 12512,
+        "Name": "The Hunter\u0027s Companion",
+        "Connections": {
+          "North": 12510
+        }
+      },
+      {
+        "Id": 12513,
+        "Name": "Fasto\u0027s General Goods Stall",
+        "Connections": {
+          "East": 12505,
+          "West": 12552
+        }
+      },
+      {
+        "Id": 12514,
+        "Name": "The Diamond Exchange",
+        "Connections": {
+          "North": 12509
+        }
+      },
+      {
+        "Id": 12515,
+        "Name": "Neyland Square",
+        "Connections": {
+          "North": 12521,
+          "East": 12517,
+          "South": 12506,
+          "West": 12516
+        }
+      },
+      {
+        "Id": 12516,
+        "Name": "Kingston Pike",
+        "Connections": {
+          "North": 12522,
+          "East": 12515,
+          "South": 12508,
+          "West": 12518
+        }
+      },
+      {
+        "Id": 12517,
+        "Name": "Kingston Pike",
+        "Connections": {
+          "North": 12520,
+          "East": 12519,
+          "South": 12507,
+          "West": 12515
+        }
+      },
+      {
+        "Id": 12518,
+        "Name": "Kingston Pike",
+        "Connections": {
+          "East": 12516,
+          "West": 12544
+        }
+      },
+      {
+        "Id": 12519,
+        "Name": "Kingston Pike",
+        "Connections": {
+          "East": 12531,
+          "West": 12517
+        }
+      },
+      {
+        "Id": 12520,
+        "Name": "A Small Alley",
+        "Connections": {
+          "South": 12517,
+          "West": 12521
+        }
+      },
+      {
+        "Id": 12521,
+        "Name": "Main Street",
+        "Connections": {
+          "North": 12525,
+          "East": 12520,
+          "South": 12515,
+          "West": 12522
+        }
+      },
+      {
+        "Id": 12522,
+        "Name": "A Small Alley",
+        "Connections": {
+          "East": 12521,
+          "South": 12516
+        }
+      },
+      {
+        "Id": 12523,
+        "Name": "Burning Pool",
+        "Connections": {
+          "North": 12553,
+          "Down": 12555
+        }
+      },
+      {
+        "Id": 12524,
+        "Name": "Burning Pool",
+        "Connections": {
+          "North": 12542,
+          "Down": 12579
+        }
+      },
+      {
+        "Id": 12525,
+        "Name": "Main Street",
+        "Connections": {
+          "North": 12528,
+          "East": 12527,
+          "South": 12521,
+          "West": 12526
+        }
+      },
+      {
+        "Id": 12526,
+        "Name": "Zorr\u0027s Bookshop",
+        "Connections": {
+          "East": 12525
+        }
+      },
+      {
+        "Id": 12527,
+        "Name": "Meldricko\u0027s Morgue",
+        "Connections": {
+          "West": 12525
+        }
+      },
+      {
+        "Id": 12528,
+        "Name": "The End of Main Street",
+        "Connections": {
+          "North": 16012,
+          "East": 12571,
+          "South": 12525,
+          "West": 12530
+        }
+      },
+      {
+        "Id": 12529,
+        "Name": "Southgate Road",
+        "Connections": {
+          "North": 12504,
+          "South": 12501
+        }
+      },
+      {
+        "Id": 12530,
+        "Name": "Workyard",
+        "Connections": {
+          "East": 12528,
+          "West": 12509
+        }
+      },
+      {
+        "Id": 12531,
+        "Name": "Eastgate Road",
+        "Connections": {
+          "East": 12532,
+          "West": 12519
+        }
+      },
+      {
+        "Id": 12532,
+        "Name": "Eastgate Road",
+        "Connections": {
+          "North": 12557,
+          "East": 12534,
+          "West": 12531
+        }
+      },
+      {
+        "Id": 12533,
+        "Name": "Guard House",
+        "Connections": {
+          "South": 12534
+        }
+      },
+      {
+        "Id": 12534,
+        "Name": "Eastgate Road",
+        "Connections": {
+          "North": 12533,
+          "East": 12536,
+          "South": 12535,
+          "West": 12532
+        }
+      },
+      {
+        "Id": 12535,
+        "Name": "Guard House",
+        "Connections": {
+          "North": 12534
+        }
+      },
+      {
+        "Id": 12536,
+        "Name": "Eastgate",
+        "Connections": {
+          "East": 12591,
+          "West": 12534
+        }
+      },
+      {
+        "Id": 12537,
+        "Name": "Decaying Shanty",
+        "Connections": {
+          "South": 12539
+        }
+      },
+      {
+        "Id": 12538,
+        "Name": "Decaying Shanty",
+        "Connections": {
+          "South": 12540
+        }
+      },
+      {
+        "Id": 12539,
+        "Name": "Privy Lane",
+        "Connections": {
+          "North": 12537,
+          "East": 12540,
+          "South": 12541,
+          "West": 12511
+        }
+      },
+      {
+        "Id": 12540,
+        "Name": "Privy Lane",
+        "Connections": {
+          "North": 12538,
+          "South": 12542,
+          "West": 12539
+        }
+      },
+      {
+        "Id": 12541,
+        "Name": "Decaying Shanty",
+        "Connections": {
+          "North": 12539
+        }
+      },
+      {
+        "Id": 12542,
+        "Name": "Crumbling Ruin",
+        "Connections": {
+          "North": 12540,
+          "South": 12524
+        }
+      },
+      {
+        "Id": 12543,
+        "Name": "Westgate Road",
+        "Connections": {
+          "East": 12544,
+          "West": 12546
+        }
+      },
+      {
+        "Id": 12544,
+        "Name": "Westgate Road",
+        "Connections": {
+          "East": 12518,
+          "West": 12543
+        }
+      },
+      {
+        "Id": 12545,
+        "Name": "Guard House",
+        "Connections": {
+          "South": 12546
+        }
+      },
+      {
+        "Id": 12546,
+        "Name": "Westgate Road",
+        "Connections": {
+          "North": 12545,
+          "East": 12543,
+          "South": 12547,
+          "West": 12548
+        }
+      },
+      {
+        "Id": 12547,
+        "Name": "Guard House",
+        "Connections": {
+          "North": 12546
+        }
+      },
+      {
+        "Id": 12548,
+        "Name": "Westgate",
+        "Connections": {
+          "East": 12546,
+          "West": 12588
+        }
+      },
+      {
+        "Id": 12549,
+        "Name": "Decaying Shanty",
+        "Connections": {
+          "South": 12551
+        }
+      },
+      {
+        "Id": 12550,
+        "Name": "Decaying Shanty",
+        "Connections": {
+          "South": 12552
+        }
+      },
+      {
+        "Id": 12551,
+        "Name": "Privy Lane",
+        "Connections": {
+          "North": 12549,
+          "East": 12552,
+          "South": 12553
+        }
+      },
+      {
+        "Id": 12552,
+        "Name": "Privy Lane",
+        "Connections": {
+          "North": 12550,
+          "East": 12513,
+          "South": 12554,
+          "West": 12551
+        }
+      },
+      {
+        "Id": 12553,
+        "Name": "Crumbling Ruin",
+        "Connections": {
+          "North": 12551,
+          "South": 12523
+        }
+      },
+      {
+        "Id": 12554,
+        "Name": "Decaying Shanty",
+        "Connections": {
+          "North": 12552
+        }
+      },
+      {
+        "Id": 12555,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "East": 12556,
+          "Up": 12523
+        }
+      },
+      {
+        "Id": 12556,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "East": 12581,
+          "West": 12555
+        }
+      },
+      {
+        "Id": 12557,
+        "Name": "Greasy Spoon",
+        "Connections": {
+          "South": 12532
+        }
+      },
+      {
+        "Id": 12558,
+        "Name": "Lava Pool",
+        "Connections": {}
+      },
+      {
+        "Id": 12559,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "North": 12580,
+          "West": 12560
+        }
+      },
+      {
+        "Id": 12560,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "East": 12559,
+          "West": 12561
+        }
+      },
+      {
+        "Id": 12561,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "North": 12562,
+          "East": 12560
+        }
+      },
+      {
+        "Id": 12562,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "East": 12563,
+          "South": 12561
+        }
+      },
+      {
+        "Id": 12563,
+        "Name": "Open Cavern",
+        "Connections": {
+          "West": 12562,
+          "Down": 12564
+        }
+      },
+      {
+        "Id": 12564,
+        "Name": "Down Under",
+        "Connections": {
+          "East": 12565,
+          "Up": 12563
+        }
+      },
+      {
+        "Id": 12565,
+        "Name": "Down Under",
+        "Connections": {
+          "East": 12566,
+          "West": 12564
+        }
+      },
+      {
+        "Id": 12566,
+        "Name": "Down Under",
+        "Connections": {
+          "East": 12567,
+          "West": 12565
+        }
+      },
+      {
+        "Id": 12567,
+        "Name": "Down Under",
+        "Connections": {
+          "East": 12568,
+          "West": 12566
+        }
+      },
+      {
+        "Id": 12568,
+        "Name": "Down Under",
+        "Connections": {
+          "East": 12569,
+          "West": 12567
+        }
+      },
+      {
+        "Id": 12569,
+        "Name": "Down Under",
+        "Connections": {
+          "East": 12570,
+          "West": 12568
+        }
+      },
+      {
+        "Id": 12570,
+        "Name": "Down Under",
+        "Connections": {
+          "West": 12569,
+          "Up": 12582
+        }
+      },
+      {
+        "Id": 12571,
+        "Name": "Terro\u0027s Critter Barn",
+        "Connections": {
+          "East": 12510,
+          "West": 12528
+        }
+      },
+      {
+        "Id": 12572,
+        "Name": "pet storage",
+        "Connections": {}
+      },
+      {
+        "Id": 12573,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "North": 12583,
+          "West": 12574
+        }
+      },
+      {
+        "Id": 12574,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "East": 12573,
+          "West": 12575
+        }
+      },
+      {
+        "Id": 12575,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "North": 12576,
+          "East": 12574
+        }
+      },
+      {
+        "Id": 12576,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "North": 12577,
+          "South": 12575
+        }
+      },
+      {
+        "Id": 12577,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "East": 12578,
+          "South": 12576
+        }
+      },
+      {
+        "Id": 12578,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "East": 12579,
+          "West": 12577
+        }
+      },
+      {
+        "Id": 12579,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "West": 12578,
+          "Up": 12524
+        }
+      },
+      {
+        "Id": 12580,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "North": 12581,
+          "South": 12559
+        }
+      },
+      {
+        "Id": 12581,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "South": 12580,
+          "West": 12556
+        }
+      },
+      {
+        "Id": 12582,
+        "Name": "Open Cavern",
+        "Connections": {
+          "East": 12583,
+          "Down": 12570
+        }
+      },
+      {
+        "Id": 12583,
+        "Name": "Lava Tubes",
+        "Connections": {
+          "South": 12573,
+          "West": 12582
+        }
+      },
+      {
+        "Id": 12584,
+        "Name": "Mine Shaft",
+        "Connections": {
+          "Up": 12585,
+          "Down": 12567
+        }
+      },
+      {
+        "Id": 12585,
+        "Name": "Mine Shaft",
+        "Connections": {
+          "Up": 12501,
+          "Down": 12584
+        }
+      },
+      {
+        "Id": 12586,
+        "Name": "Mob Chute",
+        "Connections": {
+          "North": 12543,
+          "East": 12511,
+          "South": 12532,
+          "West": 12529,
+          "Up": 12513,
+          "Down": 12528
+        }
+      },
+      {
+        "Id": 12587,
+        "Name": "Rat Nest",
+        "Connections": {
+          "North": 12534,
+          "East": 12540,
+          "South": 12546,
+          "West": 12551,
+          "Down": 12505
+        }
+      },
+      {
+        "Id": 12588,
+        "Name": "Approaching Westgate",
+        "Connections": {
+          "East": 12548,
+          "West": 12589
+        }
+      },
+      {
+        "Id": 12589,
+        "Name": "Road to Westgate",
+        "Connections": {
+          "East": 12588,
+          "West": 12590
+        }
+      },
+      {
+        "Id": 12590,
+        "Name": "Road to Westgate",
+        "Connections": {
+          "East": 12589,
+          "West": 8131
+        }
+      },
+      {
+        "Id": 12591,
+        "Name": "Approaching Eastgate",
+        "Connections": {
+          "East": 12592,
+          "West": 12536
+        }
+      },
+      {
+        "Id": 12592,
+        "Name": "Road to Eastgate",
+        "Connections": {
+          "East": 12593,
+          "West": 12591
+        }
+      },
+      {
+        "Id": 12593,
+        "Name": "Road to Eastgate",
+        "Connections": {
+          "East": 12701,
+          "West": 12592
+        }
+      },
+      {
+        "Id": 12594,
+        "Name": "Approaching Southgate",
+        "Connections": {
+          "North": 12500,
+          "South": 12595
+        }
+      },
+      {
+        "Id": 12595,
+        "Name": "Road to Southgate",
+        "Connections": {
+          "North": 12594,
+          "South": 12596
+        }
+      },
+      {
+        "Id": 12596,
+        "Name": "Road to Southgate",
+        "Connections": {
+          "North": 12595
+        }
+      },
+      {
+        "Id": 16012,
+        "Name": "To Griffon Bank \u0026 Travel",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "South": 12528,
+          "Up": 16013
+        }
+      },
+      {
+        "Id": 8131,
+        "Name": "To Raptor Island",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "East": 12590,
+          "South": 8134,
+          "West": 8130
+        }
+      },
+      {
+        "Id": 12701,
+        "Name": "To Volcano",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 12702,
+          "West": 12593
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

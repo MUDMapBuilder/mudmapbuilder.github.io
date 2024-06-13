@@ -15,3 +15,6 @@ mmb-bc.exe "data\ROM24b6\maps\json" "data\ROM24b6\maps\png" >ROM24b6.txt
 
 del /Q "data\CSL\maps\png\*.png"
 mmb-bc.exe "data\CSL\maps\json" "data\CSL\maps\png" >CSL.txt
+
+del /Q "data\Emud\maps\png\*.png"
+mmb-bc.exe "data\Emud\maps\json" "data\Emud\maps\png" >Emud.txt

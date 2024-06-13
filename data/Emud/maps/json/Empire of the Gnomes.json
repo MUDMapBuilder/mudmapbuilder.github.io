@@ -1,0 +1,566 @@
+{
+  "Area": {
+    "Name": "Empire of the Gnomes",
+    "Credits": "Empire of the Gnomes",
+    "MinimumLevel": "1",
+    "MaximumLevel": "95",
+    "Rooms": [
+      {
+        "Id": 12300,
+        "Name": "The Druid Guild",
+        "Connections": {
+          "East": 12301
+        }
+      },
+      {
+        "Id": 12301,
+        "Name": "Outside the Druid Guild",
+        "Connections": {
+          "South": 12305,
+          "West": 12300
+        }
+      },
+      {
+        "Id": 12302,
+        "Name": "Outside the Royal Sleeping Chamber",
+        "Connections": {
+          "East": 12303,
+          "South": 12306
+        }
+      },
+      {
+        "Id": 12303,
+        "Name": "The Royal Sleeping Chamber",
+        "Connections": {
+          "West": 12302
+        }
+      },
+      {
+        "Id": 12304,
+        "Name": "Stairs",
+        "Connections": {
+          "East": 12305,
+          "Down": 12320
+        }
+      },
+      {
+        "Id": 12305,
+        "Name": "Hallway",
+        "Connections": {
+          "North": 12301,
+          "West": 12304
+        }
+      },
+      {
+        "Id": 12306,
+        "Name": "Hallway",
+        "Connections": {
+          "North": 12302,
+          "East": 12307
+        }
+      },
+      {
+        "Id": 12307,
+        "Name": "Stairs",
+        "Connections": {
+          "West": 12306,
+          "Down": 12324
+        }
+      },
+      {
+        "Id": 12308,
+        "Name": "Stairs",
+        "Connections": {
+          "East": 12309,
+          "Down": 12330
+        }
+      },
+      {
+        "Id": 12309,
+        "Name": "Hallway",
+        "Connections": {
+          "South": 12313,
+          "West": 12308
+        }
+      },
+      {
+        "Id": 12310,
+        "Name": "Hallway",
+        "Connections": {
+          "East": 12311,
+          "South": 12314
+        }
+      },
+      {
+        "Id": 12311,
+        "Name": "Stairs",
+        "Connections": {
+          "West": 12310,
+          "Down": 12334
+        }
+      },
+      {
+        "Id": 12312,
+        "Name": "The Warlock Guild",
+        "Connections": {
+          "East": 12313
+        }
+      },
+      {
+        "Id": 12313,
+        "Name": "Outside the Warlock Guild",
+        "Connections": {
+          "North": 12309,
+          "West": 12312
+        }
+      },
+      {
+        "Id": 12314,
+        "Name": "Outside the Warrior Guild",
+        "Connections": {
+          "North": 12310,
+          "East": 12315
+        }
+      },
+      {
+        "Id": 12315,
+        "Name": "The Warrior Guild",
+        "Connections": {
+          "West": 12314
+        }
+      },
+      {
+        "Id": 12316,
+        "Name": "The Sorcerer Guild",
+        "Connections": {
+          "East": 12317
+        }
+      },
+      {
+        "Id": 12317,
+        "Name": "Outside the Sorcerer Guild",
+        "Connections": {
+          "South": 12321,
+          "West": 12316
+        }
+      },
+      {
+        "Id": 12318,
+        "Name": "Outside the Castle Shop",
+        "Connections": {
+          "East": 12319,
+          "South": 12323
+        }
+      },
+      {
+        "Id": 12319,
+        "Name": "The Castle Shop",
+        "Connections": {
+          "West": 12318
+        }
+      },
+      {
+        "Id": 12320,
+        "Name": "Stairs",
+        "Connections": {
+          "East": 12321,
+          "Up": 12304
+        }
+      },
+      {
+        "Id": 12321,
+        "Name": "Hallway",
+        "Connections": {
+          "North": 12317,
+          "South": 12325,
+          "West": 12320
+        }
+      },
+      {
+        "Id": 12322,
+        "Name": "The Throne Room",
+        "Connections": {
+          "South": 12327
+        }
+      },
+      {
+        "Id": 12323,
+        "Name": "Hallway",
+        "Connections": {
+          "North": 12318,
+          "East": 12324,
+          "South": 12329
+        }
+      },
+      {
+        "Id": 12324,
+        "Name": "Stairs",
+        "Connections": {
+          "West": 12323,
+          "Up": 12307
+        }
+      },
+      {
+        "Id": 12325,
+        "Name": "Entrance to the Courtyard",
+        "Connections": {
+          "North": 12321,
+          "East": 12326,
+          "South": 12331
+        }
+      },
+      {
+        "Id": 12326,
+        "Name": "The Castle Courtyard",
+        "Connections": {
+          "East": 12327,
+          "West": 12325
+        }
+      },
+      {
+        "Id": 12327,
+        "Name": "The Center of the Courtyard",
+        "Connections": {
+          "North": 12322,
+          "East": 12328,
+          "South": 12332,
+          "West": 12326
+        }
+      },
+      {
+        "Id": 12328,
+        "Name": "The Castle Courtyard",
+        "Connections": {
+          "East": 12329,
+          "West": 12327
+        }
+      },
+      {
+        "Id": 12329,
+        "Name": "Entrance to the Courtyard",
+        "Connections": {
+          "North": 12323,
+          "South": 12333,
+          "West": 12328
+        }
+      },
+      {
+        "Id": 12330,
+        "Name": "Stairs",
+        "Connections": {
+          "East": 12331,
+          "Up": 12308
+        }
+      },
+      {
+        "Id": 12331,
+        "Name": "Hallway",
+        "Connections": {
+          "North": 12325,
+          "South": 12336,
+          "West": 12330
+        }
+      },
+      {
+        "Id": 12332,
+        "Name": "Outside the Courtyard",
+        "Connections": {
+          "North": 12327,
+          "South": 12337
+        }
+      },
+      {
+        "Id": 12333,
+        "Name": "Hallway",
+        "Connections": {
+          "North": 12329,
+          "East": 12334,
+          "South": 12338
+        }
+      },
+      {
+        "Id": 12334,
+        "Name": "Stairs",
+        "Connections": {
+          "West": 12333,
+          "Up": 12311
+        }
+      },
+      {
+        "Id": 12335,
+        "Name": "The Shaman Guild",
+        "Connections": {
+          "East": 12336
+        }
+      },
+      {
+        "Id": 12336,
+        "Name": "Outside the Shaman Guild",
+        "Connections": {
+          "North": 12331,
+          "West": 12335
+        }
+      },
+      {
+        "Id": 12337,
+        "Name": "A Trail to the Castle",
+        "Connections": {
+          "North": 12332,
+          "South": 12340
+        }
+      },
+      {
+        "Id": 12338,
+        "Name": "Outside the Training Yard",
+        "Connections": {
+          "North": 12333,
+          "East": 12339
+        }
+      },
+      {
+        "Id": 12339,
+        "Name": "The Training Yard",
+        "Connections": {
+          "West": 12338
+        }
+      },
+      {
+        "Id": 12340,
+        "Name": "Outside the City",
+        "Connections": {
+          "North": 12337,
+          "South": 12343
+        }
+      },
+      {
+        "Id": 12341,
+        "Name": "The Armor Shop",
+        "Connections": {
+          "East": 12342
+        }
+      },
+      {
+        "Id": 12342,
+        "Name": "The City Square",
+        "Connections": {
+          "East": 12343,
+          "South": 12347,
+          "West": 12341
+        }
+      },
+      {
+        "Id": 12343,
+        "Name": "The City Square",
+        "Connections": {
+          "North": 12340,
+          "East": 12344,
+          "South": 12348,
+          "West": 12342
+        }
+      },
+      {
+        "Id": 12344,
+        "Name": "The City Square",
+        "Connections": {
+          "East": 12345,
+          "South": 12349,
+          "West": 12343
+        }
+      },
+      {
+        "Id": 12345,
+        "Name": "The Restaurant",
+        "Connections": {
+          "West": 12344
+        }
+      },
+      {
+        "Id": 12346,
+        "Name": "The Weapons Shop",
+        "Connections": {
+          "East": 12347
+        }
+      },
+      {
+        "Id": 12347,
+        "Name": "The City Square",
+        "Connections": {
+          "North": 12342,
+          "East": 12348,
+          "South": 12352,
+          "West": 12346
+        }
+      },
+      {
+        "Id": 12348,
+        "Name": "The Center of the City Square",
+        "Connections": {
+          "North": 12343,
+          "East": 12349,
+          "South": 12353,
+          "West": 12347
+        }
+      },
+      {
+        "Id": 12349,
+        "Name": "The City Square",
+        "Connections": {
+          "North": 12344,
+          "East": 12350,
+          "South": 12354,
+          "West": 12348
+        }
+      },
+      {
+        "Id": 12350,
+        "Name": "The Bar",
+        "Connections": {
+          "West": 12349
+        }
+      },
+      {
+        "Id": 12351,
+        "Name": "The Magic Shop",
+        "Connections": {
+          "East": 12352
+        }
+      },
+      {
+        "Id": 12352,
+        "Name": "The City Square",
+        "Connections": {
+          "North": 12347,
+          "East": 12353,
+          "South": 12357,
+          "West": 12351
+        }
+      },
+      {
+        "Id": 12353,
+        "Name": "The Center of the City Square",
+        "Connections": {
+          "North": 12348,
+          "East": 12354,
+          "South": 12358,
+          "West": 12352
+        }
+      },
+      {
+        "Id": 12354,
+        "Name": "The City Square",
+        "Connections": {
+          "North": 12349,
+          "East": 12355,
+          "South": 12359,
+          "West": 12353
+        }
+      },
+      {
+        "Id": 12355,
+        "Name": "The Healer\u0027s Shop",
+        "Connections": {
+          "West": 12354
+        }
+      },
+      {
+        "Id": 12356,
+        "Name": "The Jewelry Shop",
+        "Connections": {
+          "East": 12357
+        }
+      },
+      {
+        "Id": 12357,
+        "Name": "The City Square",
+        "Connections": {
+          "North": 12352,
+          "East": 12358,
+          "West": 12356
+        }
+      },
+      {
+        "Id": 12358,
+        "Name": "The Entrance to the City Square",
+        "Connections": {
+          "North": 12353,
+          "East": 12359,
+          "South": 12361,
+          "West": 12357
+        }
+      },
+      {
+        "Id": 12359,
+        "Name": "The City Square",
+        "Connections": {
+          "North": 12354,
+          "East": 12360,
+          "West": 12358
+        }
+      },
+      {
+        "Id": 12360,
+        "Name": "The Morgue",
+        "Connections": {
+          "West": 12359
+        }
+      },
+      {
+        "Id": 12361,
+        "Name": "Outside the City",
+        "Connections": {
+          "North": 12358,
+          "South": 12363
+        }
+      },
+      {
+        "Id": 12362,
+        "Name": "The Guard Tower",
+        "Connections": {
+          "East": 12363
+        }
+      },
+      {
+        "Id": 12363,
+        "Name": "The Empire of the Gnomes",
+        "Connections": {
+          "North": 12361,
+          "East": 12364,
+          "South": 12365,
+          "West": 12362
+        }
+      },
+      {
+        "Id": 12364,
+        "Name": "The Guard Tower",
+        "Connections": {
+          "West": 12363
+        }
+      },
+      {
+        "Id": 12365,
+        "Name": "Entrance to the Empire",
+        "Connections": {
+          "West": 11876
+        }
+      },
+      {
+        "Id": 12366,
+        "Name": "Crown Room",
+        "Connections": {}
+      },
+      {
+        "Id": 11876,
+        "Name": "To Temple of Demise",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 11874,
+          "East": 12365,
+          "South": 11400
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

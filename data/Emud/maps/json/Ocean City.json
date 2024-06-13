@@ -1,0 +1,892 @@
+{
+  "Area": {
+    "Name": "Ocean City",
+    "Credits": "Ocean City",
+    "MinimumLevel": "25",
+    "MaximumLevel": "50",
+    "Rooms": [
+      {
+        "Id": 11400,
+        "Name": "The North Entrance of Ocean City",
+        "Connections": {
+          "North": 11876,
+          "South": 11407
+        }
+      },
+      {
+        "Id": 11401,
+        "Name": "A Residence",
+        "Connections": {
+          "South": 11405
+        }
+      },
+      {
+        "Id": 11402,
+        "Name": "A Residence",
+        "Connections": {
+          "South": 11406
+        }
+      },
+      {
+        "Id": 11403,
+        "Name": "A Residence",
+        "Connections": {
+          "South": 11408
+        }
+      },
+      {
+        "Id": 11404,
+        "Name": "A Residence",
+        "Connections": {
+          "South": 11409
+        }
+      },
+      {
+        "Id": 11405,
+        "Name": "Residential Road",
+        "Connections": {
+          "North": 11401,
+          "East": 11406,
+          "South": 11410
+        }
+      },
+      {
+        "Id": 11406,
+        "Name": "Residential Road",
+        "Connections": {
+          "North": 11402,
+          "East": 11407,
+          "South": 11411,
+          "West": 11405
+        }
+      },
+      {
+        "Id": 11407,
+        "Name": "Residential Intersection",
+        "Connections": {
+          "North": 11400,
+          "East": 11408,
+          "South": 11412,
+          "West": 11406
+        }
+      },
+      {
+        "Id": 11408,
+        "Name": "Residential Road",
+        "Connections": {
+          "North": 11403,
+          "East": 11409,
+          "South": 11413,
+          "West": 11407
+        }
+      },
+      {
+        "Id": 11409,
+        "Name": "Residential Road",
+        "Connections": {
+          "North": 11404,
+          "South": 11414,
+          "West": 11408
+        }
+      },
+      {
+        "Id": 11410,
+        "Name": "A Residence",
+        "Connections": {
+          "North": 11405
+        }
+      },
+      {
+        "Id": 11411,
+        "Name": "A Residence",
+        "Connections": {
+          "North": 11406
+        }
+      },
+      {
+        "Id": 11412,
+        "Name": "North Road of Ocean City",
+        "Connections": {
+          "North": 11407,
+          "South": 11415
+        }
+      },
+      {
+        "Id": 11413,
+        "Name": "A Residence",
+        "Connections": {
+          "North": 11408
+        }
+      },
+      {
+        "Id": 11414,
+        "Name": "A Residence",
+        "Connections": {
+          "North": 11409
+        }
+      },
+      {
+        "Id": 11415,
+        "Name": "North Road of Ocean City",
+        "Connections": {
+          "North": 11412,
+          "South": 11417
+        }
+      },
+      {
+        "Id": 11416,
+        "Name": "Northwest Corner of the City Square",
+        "Connections": {
+          "East": 11417,
+          "South": 11419
+        }
+      },
+      {
+        "Id": 11417,
+        "Name": "North Entrance to the City Square",
+        "Connections": {
+          "North": 11415,
+          "East": 11418,
+          "South": 11420,
+          "West": 11416
+        }
+      },
+      {
+        "Id": 11418,
+        "Name": "Northeast Corner of the City Square",
+        "Connections": {
+          "South": 11421,
+          "West": 11417
+        }
+      },
+      {
+        "Id": 11419,
+        "Name": "West Entrance to the City Square",
+        "Connections": {
+          "North": 11416,
+          "East": 11420,
+          "South": 11422,
+          "West": 11438
+        }
+      },
+      {
+        "Id": 11420,
+        "Name": "The Center Square of Ocean City",
+        "Connections": {
+          "North": 11417,
+          "East": 11421,
+          "South": 11423,
+          "West": 11419
+        }
+      },
+      {
+        "Id": 11421,
+        "Name": "East Entrance to the City Square",
+        "Connections": {
+          "North": 11418,
+          "East": 11425,
+          "South": 11424,
+          "West": 11420
+        }
+      },
+      {
+        "Id": 11422,
+        "Name": "Southwest Corner of the City Square",
+        "Connections": {
+          "North": 11419,
+          "East": 11423
+        }
+      },
+      {
+        "Id": 11423,
+        "Name": "South Entrance to the City Square",
+        "Connections": {
+          "North": 11420,
+          "East": 11424,
+          "South": 11496,
+          "West": 11422
+        }
+      },
+      {
+        "Id": 11424,
+        "Name": "Southeast Corner of the City Square",
+        "Connections": {
+          "North": 11421,
+          "West": 11423
+        }
+      },
+      {
+        "Id": 11425,
+        "Name": "East Road of Ocean City",
+        "Connections": {
+          "East": 11430,
+          "West": 11421
+        }
+      },
+      {
+        "Id": 11426,
+        "Name": "Druid Guild",
+        "Connections": {
+          "South": 11430
+        }
+      },
+      {
+        "Id": 11427,
+        "Name": "Sorcerer Guild",
+        "Connections": {
+          "South": 11431
+        }
+      },
+      {
+        "Id": 11428,
+        "Name": "Shaman Guild",
+        "Connections": {
+          "South": 11432
+        }
+      },
+      {
+        "Id": 11429,
+        "Name": "Warlock Guild",
+        "Connections": {
+          "South": 11433
+        }
+      },
+      {
+        "Id": 11430,
+        "Name": "East Road of Ocean City",
+        "Connections": {
+          "North": 11426,
+          "East": 11431,
+          "South": 11434,
+          "West": 11425
+        }
+      },
+      {
+        "Id": 11431,
+        "Name": "East Road of Ocean City",
+        "Connections": {
+          "North": 11427,
+          "East": 11432,
+          "South": 11435,
+          "West": 11430
+        }
+      },
+      {
+        "Id": 11432,
+        "Name": "East Road of Ocean City",
+        "Connections": {
+          "North": 11428,
+          "East": 11433,
+          "South": 11436,
+          "West": 11431
+        }
+      },
+      {
+        "Id": 11433,
+        "Name": "East Road of Ocean City",
+        "Connections": {
+          "North": 11429,
+          "South": 11437,
+          "West": 11432
+        }
+      },
+      {
+        "Id": 11434,
+        "Name": "Ocean City Training Yard",
+        "Connections": {
+          "North": 11430
+        }
+      },
+      {
+        "Id": 11435,
+        "Name": "Warrior Guild",
+        "Connections": {
+          "North": 11431
+        }
+      },
+      {
+        "Id": 11436,
+        "Name": "Marauder Guild",
+        "Connections": {
+          "North": 11432
+        }
+      },
+      {
+        "Id": 11437,
+        "Name": "Ninja Guild",
+        "Connections": {
+          "North": 11433
+        }
+      },
+      {
+        "Id": 11438,
+        "Name": "West Road of Ocean City",
+        "Connections": {
+          "East": 11419,
+          "West": 11446
+        }
+      },
+      {
+        "Id": 11439,
+        "Name": "Armor Shop",
+        "Connections": {
+          "South": 11443
+        }
+      },
+      {
+        "Id": 11440,
+        "Name": "Weaponsmith\u0027s Shop",
+        "Connections": {
+          "South": 11444
+        }
+      },
+      {
+        "Id": 11441,
+        "Name": "Magic Shop",
+        "Connections": {
+          "South": 11445
+        }
+      },
+      {
+        "Id": 11442,
+        "Name": "Restaurant",
+        "Connections": {
+          "South": 11446
+        }
+      },
+      {
+        "Id": 11443,
+        "Name": "West Road of Ocean City",
+        "Connections": {
+          "North": 11439,
+          "East": 11444,
+          "South": 11447,
+          "West": 16002
+        }
+      },
+      {
+        "Id": 11444,
+        "Name": "West Road of Ocean City",
+        "Connections": {
+          "North": 11440,
+          "East": 11445,
+          "South": 11448,
+          "West": 11443
+        }
+      },
+      {
+        "Id": 11445,
+        "Name": "West Road of Ocean City",
+        "Connections": {
+          "North": 11441,
+          "East": 11446,
+          "South": 11449,
+          "West": 11444
+        }
+      },
+      {
+        "Id": 11446,
+        "Name": "West Road of Ocean City",
+        "Connections": {
+          "North": 11442,
+          "East": 11438,
+          "South": 11453,
+          "West": 11445
+        }
+      },
+      {
+        "Id": 11447,
+        "Name": "The Morgue",
+        "Connections": {
+          "North": 11443
+        }
+      },
+      {
+        "Id": 11448,
+        "Name": "The Dock Master\u0027s Shop",
+        "Connections": {
+          "North": 11444,
+          "South": 11451
+        }
+      },
+      {
+        "Id": 11449,
+        "Name": "The Pet Shop",
+        "Connections": {
+          "North": 11445
+        }
+      },
+      {
+        "Id": 11450,
+        "Name": "The Pet Holding Area",
+        "Connections": {}
+      },
+      {
+        "Id": 11451,
+        "Name": "The Docks",
+        "Connections": {
+          "North": 11448,
+          "South": 11464
+        }
+      },
+      {
+        "Id": 11452,
+        "Name": "The Tiger Cage",
+        "Connections": {
+          "North": 11449
+        }
+      },
+      {
+        "Id": 11453,
+        "Name": "The Bar",
+        "Connections": {
+          "North": 11446
+        }
+      },
+      {
+        "Id": 11454,
+        "Name": "At the Gate of Ocean City",
+        "Connections": {
+          "North": 11496,
+          "South": 11458
+        }
+      },
+      {
+        "Id": 11455,
+        "Name": "The Beach",
+        "Connections": {
+          "East": 11456,
+          "South": 11463
+        }
+      },
+      {
+        "Id": 11456,
+        "Name": "The Beach",
+        "Connections": {
+          "East": 11457,
+          "South": 11462,
+          "West": 11455
+        }
+      },
+      {
+        "Id": 11457,
+        "Name": "The Beach",
+        "Connections": {
+          "East": 11458,
+          "South": 11462,
+          "West": 11456
+        }
+      },
+      {
+        "Id": 11458,
+        "Name": "The Beach",
+        "Connections": {
+          "North": 11454,
+          "East": 11459,
+          "South": 11462,
+          "West": 11457
+        }
+      },
+      {
+        "Id": 11459,
+        "Name": "The Beach",
+        "Connections": {
+          "East": 11460,
+          "South": 11462,
+          "West": 11458
+        }
+      },
+      {
+        "Id": 11460,
+        "Name": "The Beach",
+        "Connections": {
+          "East": 11461,
+          "South": 11462,
+          "West": 11459
+        }
+      },
+      {
+        "Id": 11461,
+        "Name": "The Beach",
+        "Connections": {
+          "South": 11465,
+          "West": 11460
+        }
+      },
+      {
+        "Id": 11462,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11458,
+          "East": 11459,
+          "South": 11464,
+          "West": 11456
+        }
+      },
+      {
+        "Id": 11463,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11455,
+          "East": 11464,
+          "South": 11466,
+          "West": 11468
+        }
+      },
+      {
+        "Id": 11464,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11462,
+          "East": 11465,
+          "South": 11467,
+          "West": 11463
+        }
+      },
+      {
+        "Id": 11465,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11461,
+          "East": 11466,
+          "South": 11468,
+          "West": 11464
+        }
+      },
+      {
+        "Id": 11466,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11470,
+          "East": 11467,
+          "South": 11469,
+          "West": 11471
+        }
+      },
+      {
+        "Id": 11467,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11464,
+          "East": 11468,
+          "South": 11470,
+          "West": 11466
+        }
+      },
+      {
+        "Id": 11468,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11470,
+          "East": 11463,
+          "South": 11471,
+          "West": 11467
+        }
+      },
+      {
+        "Id": 11469,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11466,
+          "East": 11470,
+          "South": 11467,
+          "West": 11474
+        }
+      },
+      {
+        "Id": 11470,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11467,
+          "East": 11471,
+          "South": 11473,
+          "West": 11469
+        }
+      },
+      {
+        "Id": 11471,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11468,
+          "East": 11466,
+          "South": 11474,
+          "West": 11470
+        }
+      },
+      {
+        "Id": 11472,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11466,
+          "East": 11473,
+          "South": 11475,
+          "West": 11477
+        }
+      },
+      {
+        "Id": 11473,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11470,
+          "East": 11474,
+          "South": 11476,
+          "West": 11472
+        }
+      },
+      {
+        "Id": 11474,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11476,
+          "East": 11469,
+          "South": 11477,
+          "West": 11473
+        }
+      },
+      {
+        "Id": 11475,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11479,
+          "East": 11476,
+          "South": 11478,
+          "West": 11480
+        }
+      },
+      {
+        "Id": 11476,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11473,
+          "East": 11477,
+          "South": 11477,
+          "West": 11475
+        }
+      },
+      {
+        "Id": 11477,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11474,
+          "East": 11472,
+          "South": 11480,
+          "West": 11476
+        }
+      },
+      {
+        "Id": 11478,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11475,
+          "East": 11479,
+          "South": 11481,
+          "West": 11483
+        }
+      },
+      {
+        "Id": 11479,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11476,
+          "East": 11480,
+          "South": 11482,
+          "West": 11478
+        }
+      },
+      {
+        "Id": 11480,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11477,
+          "East": 11478,
+          "South": 11483,
+          "West": 11479
+        }
+      },
+      {
+        "Id": 11481,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11478,
+          "East": 11482,
+          "South": 11484,
+          "West": 11486
+        }
+      },
+      {
+        "Id": 11482,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11484,
+          "East": 11483,
+          "South": 11485,
+          "West": 11484
+        }
+      },
+      {
+        "Id": 11483,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11480,
+          "East": 11480,
+          "South": 11486,
+          "West": 11482
+        }
+      },
+      {
+        "Id": 11484,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11481,
+          "East": 11485,
+          "South": 11487,
+          "West": 11489
+        }
+      },
+      {
+        "Id": 11485,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11489,
+          "East": 11486,
+          "South": 11488,
+          "West": 11484
+        }
+      },
+      {
+        "Id": 11486,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11483,
+          "East": 11486,
+          "South": 11489,
+          "West": 11485
+        }
+      },
+      {
+        "Id": 11487,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11484,
+          "East": 11488,
+          "South": 11490,
+          "West": 11492
+        }
+      },
+      {
+        "Id": 11488,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11485,
+          "East": 11489,
+          "South": 11491,
+          "West": 11487
+        }
+      },
+      {
+        "Id": 11489,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11486,
+          "East": 11484,
+          "South": 11492,
+          "West": 11488
+        }
+      },
+      {
+        "Id": 11490,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11487,
+          "East": 11491,
+          "South": 11486,
+          "West": 11489
+        }
+      },
+      {
+        "Id": 11491,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11488,
+          "East": 11492,
+          "South": 11493,
+          "West": 11490
+        }
+      },
+      {
+        "Id": 11492,
+        "Name": "The Ocean",
+        "Connections": {
+          "North": 11489,
+          "East": 11487,
+          "South": 11484,
+          "West": 11491
+        }
+      },
+      {
+        "Id": 11493,
+        "Name": "The Shallows",
+        "Connections": {
+          "North": 11491,
+          "South": 11494
+        }
+      },
+      {
+        "Id": 11494,
+        "Name": "The Beach",
+        "Connections": {
+          "North": 11493,
+          "South": 11495
+        }
+      },
+      {
+        "Id": 11495,
+        "Name": "A Trail",
+        "Connections": {
+          "North": 11494,
+          "South": 667
+        }
+      },
+      {
+        "Id": 11496,
+        "Name": "Inside the Gate of Ocean City",
+        "Connections": {
+          "North": 11423,
+          "South": 11454
+        }
+      },
+      {
+        "Id": 11876,
+        "Name": "To Temple of Demise",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 11874,
+          "East": 12365,
+          "South": 11400
+        }
+      },
+      {
+        "Id": 16002,
+        "Name": "To Griffon Bank \u0026 Travel",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "East": 11443,
+          "Up": 16003
+        }
+      },
+      {
+        "Id": 667,
+        "Name": "To Ofcol",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 11495,
+          "East": 699,
+          "West": 666
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

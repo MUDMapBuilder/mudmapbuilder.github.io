@@ -1,0 +1,27 @@
+{
+  "Area": {
+    "Name": "Poor Village",
+    "Credits": "Poor Village",
+    "MinimumLevel": "100",
+    "MaximumLevel": "100",
+    "Rooms": [
+      {
+        "Id": 42900,
+        "Name": "A barren path",
+        "Connections": {
+          "North": 42901
+        }
+      },
+      {
+        "Id": 42901,
+        "Name": "A barren path",
+        "Connections": {
+          "South": 42900
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

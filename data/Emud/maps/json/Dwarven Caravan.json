@@ -1,0 +1,109 @@
+{
+  "Area": {
+    "Name": "Dwarven Caravan",
+    "Credits": "Dwarven Caravan",
+    "MinimumLevel": "0",
+    "MaximumLevel": "99",
+    "Rooms": [
+      {
+        "Id": 17900,
+        "Name": "The Passenger Lobby",
+        "Connections": {
+          "South": 17901,
+          "Down": 17324
+        }
+      },
+      {
+        "Id": 17901,
+        "Name": "The First Shop Wagon",
+        "Connections": {
+          "North": 17900,
+          "East": 17902,
+          "South": 17904,
+          "West": 17903
+        }
+      },
+      {
+        "Id": 17902,
+        "Name": "The Fabric Stand",
+        "Connections": {
+          "West": 17901
+        }
+      },
+      {
+        "Id": 17903,
+        "Name": "The Weapons Stand",
+        "Connections": {
+          "East": 17901
+        }
+      },
+      {
+        "Id": 17904,
+        "Name": "The Second Shop Wagon",
+        "Connections": {
+          "North": 17901,
+          "East": 17905,
+          "South": 17907,
+          "West": 17906
+        }
+      },
+      {
+        "Id": 17905,
+        "Name": "The Grand Buffet",
+        "Connections": {
+          "West": 17904
+        }
+      },
+      {
+        "Id": 17906,
+        "Name": "The Magic Stand",
+        "Connections": {
+          "East": 17904
+        }
+      },
+      {
+        "Id": 17907,
+        "Name": "The Prayer Wagon",
+        "Connections": {
+          "North": 17904,
+          "East": 17908,
+          "South": 17910,
+          "West": 17909
+        }
+      },
+      {
+        "Id": 17908,
+        "Name": "Order\u0027s Altar",
+        "Connections": {
+          "West": 17907
+        }
+      },
+      {
+        "Id": 17909,
+        "Name": "Chaos\u0027 Altar",
+        "Connections": {
+          "East": 17907
+        }
+      },
+      {
+        "Id": 17910,
+        "Name": "The Dwarven Blackjack Table",
+        "Connections": {
+          "North": 17907
+        }
+      },
+      {
+        "Id": 17324,
+        "Name": "To Ancient Roads",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "South": 17325,
+          "West": 17323
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

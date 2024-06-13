@@ -1,0 +1,851 @@
+{
+  "Area": {
+    "Name": "Mount Kolvir",
+    "Credits": "Mount Kolvir",
+    "MinimumLevel": "50",
+    "MaximumLevel": "95",
+    "Rooms": [
+      {
+        "Id": 10300,
+        "Name": "",
+        "Connections": {}
+      },
+      {
+        "Id": 10301,
+        "Name": "Road to Amber",
+        "Connections": {
+          "East": 10302,
+          "South": 10305,
+          "West": 10125
+        }
+      },
+      {
+        "Id": 10302,
+        "Name": "Road to Amber",
+        "Connections": {
+          "East": 10303,
+          "South": 10306,
+          "West": 10301
+        }
+      },
+      {
+        "Id": 10303,
+        "Name": "Road to Amber",
+        "Connections": {
+          "East": 10304,
+          "South": 10307,
+          "West": 10302
+        }
+      },
+      {
+        "Id": 10304,
+        "Name": "Road to Amber",
+        "Connections": {
+          "East": 10344,
+          "South": 10308,
+          "West": 10303
+        }
+      },
+      {
+        "Id": 10305,
+        "Name": "Valley of Garnath",
+        "Connections": {
+          "North": 10301,
+          "East": 10306
+        }
+      },
+      {
+        "Id": 10306,
+        "Name": "Valley of Garnath",
+        "Connections": {
+          "North": 10302,
+          "East": 10307,
+          "West": 10305
+        }
+      },
+      {
+        "Id": 10307,
+        "Name": "Valley of Garnath",
+        "Connections": {
+          "North": 10303,
+          "East": 10308,
+          "South": 10309,
+          "West": 10306
+        }
+      },
+      {
+        "Id": 10308,
+        "Name": "Valley of Garnath",
+        "Connections": {
+          "North": 10304,
+          "South": 10310,
+          "West": 10307
+        }
+      },
+      {
+        "Id": 10309,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10307,
+          "East": 10310,
+          "South": 10311
+        }
+      },
+      {
+        "Id": 10310,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10308,
+          "South": 10312,
+          "West": 10309
+        }
+      },
+      {
+        "Id": 10311,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10309,
+          "East": 10312
+        }
+      },
+      {
+        "Id": 10312,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10310,
+          "East": 10313,
+          "South": 10314,
+          "West": 10311
+        }
+      },
+      {
+        "Id": 10313,
+        "Name": "The valley floor",
+        "Connections": {
+          "South": 10315,
+          "West": 10312
+        }
+      },
+      {
+        "Id": 10314,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10312,
+          "East": 10315
+        }
+      },
+      {
+        "Id": 10315,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10313,
+          "East": 10316,
+          "South": 10322,
+          "West": 10314
+        }
+      },
+      {
+        "Id": 10316,
+        "Name": "The valley floor",
+        "Connections": {
+          "East": 10317,
+          "South": 10323,
+          "West": 10315
+        }
+      },
+      {
+        "Id": 10317,
+        "Name": "The valley floor",
+        "Connections": {
+          "East": 10318,
+          "South": 10324,
+          "West": 10316
+        }
+      },
+      {
+        "Id": 10318,
+        "Name": "The black road",
+        "Connections": {
+          "North": 10338,
+          "East": 10319,
+          "South": 10325,
+          "West": 10317
+        }
+      },
+      {
+        "Id": 10319,
+        "Name": "The valley floor",
+        "Connections": {
+          "East": 10320,
+          "South": 10326,
+          "West": 10318
+        }
+      },
+      {
+        "Id": 10320,
+        "Name": "The valley floor",
+        "Connections": {
+          "East": 10321,
+          "South": 10327,
+          "West": 10319
+        }
+      },
+      {
+        "Id": 10321,
+        "Name": "The valley floor",
+        "Connections": {
+          "South": 10328,
+          "West": 10320
+        }
+      },
+      {
+        "Id": 10322,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10315,
+          "East": 10323
+        }
+      },
+      {
+        "Id": 10323,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10316,
+          "East": 10324,
+          "South": 10329,
+          "West": 10322
+        }
+      },
+      {
+        "Id": 10324,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10317,
+          "East": 10325,
+          "South": 10330,
+          "West": 10323
+        }
+      },
+      {
+        "Id": 10325,
+        "Name": "The black road",
+        "Connections": {
+          "North": 10318,
+          "East": 10326,
+          "South": 10331,
+          "West": 10324
+        }
+      },
+      {
+        "Id": 10326,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10319,
+          "East": 10327,
+          "South": 10332,
+          "West": 10325
+        }
+      },
+      {
+        "Id": 10327,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10320,
+          "East": 10328,
+          "South": 10333,
+          "West": 10326
+        }
+      },
+      {
+        "Id": 10328,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10321,
+          "West": 10327
+        }
+      },
+      {
+        "Id": 10329,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10323,
+          "East": 10330
+        }
+      },
+      {
+        "Id": 10330,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10324,
+          "East": 10331,
+          "South": 10334,
+          "West": 10329
+        }
+      },
+      {
+        "Id": 10331,
+        "Name": "The black road",
+        "Connections": {
+          "North": 10325,
+          "East": 10332,
+          "South": 10335,
+          "West": 10330
+        }
+      },
+      {
+        "Id": 10332,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10326,
+          "East": 10333,
+          "South": 10336,
+          "West": 10331
+        }
+      },
+      {
+        "Id": 10333,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10327,
+          "West": 10332
+        }
+      },
+      {
+        "Id": 10334,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10330,
+          "East": 10335
+        }
+      },
+      {
+        "Id": 10335,
+        "Name": "The black road",
+        "Connections": {
+          "North": 10331,
+          "East": 10336,
+          "South": 10337,
+          "West": 10334
+        }
+      },
+      {
+        "Id": 10336,
+        "Name": "The valley floor",
+        "Connections": {
+          "North": 10332,
+          "West": 10335
+        }
+      },
+      {
+        "Id": 10337,
+        "Name": "The black road",
+        "Connections": {
+          "North": 10335
+        }
+      },
+      {
+        "Id": 10338,
+        "Name": "Beginning of a rocky trail",
+        "Connections": {
+          "East": 10339,
+          "South": 10318
+        }
+      },
+      {
+        "Id": 10339,
+        "Name": "A rocky trail",
+        "Connections": {
+          "West": 10338,
+          "Up": 10340
+        }
+      },
+      {
+        "Id": 10340,
+        "Name": "The grove of the unicorn",
+        "Connections": {
+          "North": 10341,
+          "East": 10342,
+          "Down": 10339
+        }
+      },
+      {
+        "Id": 10341,
+        "Name": "The grove of the unicorn",
+        "Connections": {
+          "East": 10343,
+          "South": 10340
+        }
+      },
+      {
+        "Id": 10342,
+        "Name": "The grove of the unicorn",
+        "Connections": {
+          "North": 10343,
+          "West": 10340
+        }
+      },
+      {
+        "Id": 10343,
+        "Name": "The grove of the unicorn",
+        "Connections": {
+          "South": 10342,
+          "West": 10341,
+          "Up": 10383
+        }
+      },
+      {
+        "Id": 10344,
+        "Name": "A grand stairway",
+        "Connections": {
+          "West": 10304,
+          "Up": 10345
+        }
+      },
+      {
+        "Id": 10345,
+        "Name": "A grand stairway",
+        "Connections": {
+          "North": 10346,
+          "Down": 10344
+        }
+      },
+      {
+        "Id": 10346,
+        "Name": "A grand stairway",
+        "Connections": {
+          "South": 10345,
+          "Up": 10347
+        }
+      },
+      {
+        "Id": 10347,
+        "Name": "A grand stairway",
+        "Connections": {
+          "South": 10348,
+          "Down": 10346
+        }
+      },
+      {
+        "Id": 10348,
+        "Name": "A grand stairway",
+        "Connections": {
+          "North": 10347,
+          "Up": 10349
+        }
+      },
+      {
+        "Id": 10349,
+        "Name": "A grand stairway",
+        "Connections": {
+          "North": 10350,
+          "Down": 10348
+        }
+      },
+      {
+        "Id": 10350,
+        "Name": "A grand stairway",
+        "Connections": {
+          "South": 10349,
+          "Up": 10351
+        }
+      },
+      {
+        "Id": 10351,
+        "Name": "A grand stairway",
+        "Connections": {
+          "East": 10352,
+          "Down": 10350
+        }
+      },
+      {
+        "Id": 10352,
+        "Name": "The landing",
+        "Connections": {
+          "North": 10353,
+          "East": 10360,
+          "West": 10351
+        }
+      },
+      {
+        "Id": 10353,
+        "Name": "A rugged trail",
+        "Connections": {
+          "North": 10354,
+          "South": 10352
+        }
+      },
+      {
+        "Id": 10354,
+        "Name": "A rugged trail",
+        "Connections": {
+          "North": 10355,
+          "South": 10353
+        }
+      },
+      {
+        "Id": 10355,
+        "Name": "Outside Corwin\u0027s Tomb",
+        "Connections": {
+          "East": 10357,
+          "South": 10354,
+          "West": 10356
+        }
+      },
+      {
+        "Id": 10356,
+        "Name": "Inside Corwin\u0027s Tomb",
+        "Connections": {
+          "East": 10355
+        }
+      },
+      {
+        "Id": 10357,
+        "Name": "A rugged trail",
+        "Connections": {
+          "East": 10358,
+          "West": 10355
+        }
+      },
+      {
+        "Id": 10358,
+        "Name": "A rugged trail",
+        "Connections": {
+          "North": 10359,
+          "West": 10357
+        }
+      },
+      {
+        "Id": 10359,
+        "Name": "End of the rugged trail",
+        "Connections": {
+          "South": 10358
+        }
+      },
+      {
+        "Id": 10360,
+        "Name": "The Grand Gate of Amber",
+        "Connections": {
+          "East": 10361,
+          "West": 10352
+        }
+      },
+      {
+        "Id": 10361,
+        "Name": "Vine street",
+        "Connections": {
+          "East": 10362,
+          "West": 10360
+        }
+      },
+      {
+        "Id": 10362,
+        "Name": "Intersection",
+        "Connections": {
+          "East": 10364,
+          "South": 10363,
+          "West": 10361
+        }
+      },
+      {
+        "Id": 10363,
+        "Name": "Temple street",
+        "Connections": {
+          "North": 10362,
+          "East": 10377,
+          "South": 10384,
+          "West": 10366
+        }
+      },
+      {
+        "Id": 10364,
+        "Name": "Vine street",
+        "Connections": {
+          "North": 10386,
+          "East": 10365,
+          "West": 10362
+        }
+      },
+      {
+        "Id": 10365,
+        "Name": "Great square",
+        "Connections": {
+          "North": 10367,
+          "East": 10370,
+          "South": 16010,
+          "West": 10364
+        }
+      },
+      {
+        "Id": 10366,
+        "Name": "The Crown Theater",
+        "Connections": {
+          "East": 10363
+        }
+      },
+      {
+        "Id": 10367,
+        "Name": "Main Concourse",
+        "Connections": {
+          "North": 10368,
+          "East": 10387,
+          "South": 10365,
+          "West": 10388
+        }
+      },
+      {
+        "Id": 10368,
+        "Name": "Main Concourse",
+        "Connections": {
+          "North": 10369,
+          "East": 10389,
+          "South": 10367,
+          "West": 10390
+        }
+      },
+      {
+        "Id": 10369,
+        "Name": "Castle Gate",
+        "Connections": {
+          "North": 10397,
+          "South": 10368
+        }
+      },
+      {
+        "Id": 10370,
+        "Name": "Vine street",
+        "Connections": {
+          "North": 10391,
+          "East": 10371,
+          "West": 10365
+        }
+      },
+      {
+        "Id": 10371,
+        "Name": "Intersection",
+        "Connections": {
+          "East": 10372,
+          "South": 10375,
+          "West": 10370
+        }
+      },
+      {
+        "Id": 10372,
+        "Name": "Death Alley",
+        "Connections": {
+          "East": 10373,
+          "West": 10371,
+          "Up": 10395
+        }
+      },
+      {
+        "Id": 10373,
+        "Name": "Death Alley",
+        "Connections": {
+          "North": 10374,
+          "West": 10372
+        }
+      },
+      {
+        "Id": 10374,
+        "Name": "Bloody Bill\u0027s",
+        "Connections": {
+          "South": 10373
+        }
+      },
+      {
+        "Id": 10375,
+        "Name": "South Vine street",
+        "Connections": {
+          "North": 10371,
+          "South": 10376
+        }
+      },
+      {
+        "Id": 10376,
+        "Name": "The Garnath Gate of Amber",
+        "Connections": {
+          "North": 10375,
+          "South": 10378
+        }
+      },
+      {
+        "Id": 10377,
+        "Name": "Players of the Unicorn Theater",
+        "Connections": {
+          "West": 10363
+        }
+      },
+      {
+        "Id": 10378,
+        "Name": "Trail to Garnath",
+        "Connections": {
+          "North": 10376,
+          "West": 10379
+        }
+      },
+      {
+        "Id": 10379,
+        "Name": "Trail to Garnath",
+        "Connections": {
+          "East": 10378,
+          "Down": 10380
+        }
+      },
+      {
+        "Id": 10380,
+        "Name": "Trail to Garnath",
+        "Connections": {
+          "West": 10381,
+          "Up": 10379
+        }
+      },
+      {
+        "Id": 10381,
+        "Name": "Trail to Garnath",
+        "Connections": {
+          "East": 10380,
+          "Down": 10382
+        }
+      },
+      {
+        "Id": 10382,
+        "Name": "Trail to Garnath",
+        "Connections": {
+          "South": 10383,
+          "Up": 10381
+        }
+      },
+      {
+        "Id": 10383,
+        "Name": "Trail to Garnath",
+        "Connections": {
+          "North": 10382,
+          "Down": 10343
+        }
+      },
+      {
+        "Id": 10384,
+        "Name": "Temple entrance hall",
+        "Connections": {
+          "North": 10363,
+          "South": 10385
+        }
+      },
+      {
+        "Id": 10385,
+        "Name": "Temple sanctuary",
+        "Connections": {
+          "North": 10384
+        }
+      },
+      {
+        "Id": 10386,
+        "Name": "Cafe\u0027",
+        "Connections": {
+          "South": 10364
+        }
+      },
+      {
+        "Id": 10387,
+        "Name": "Barmen\u0027s Battle Gear",
+        "Connections": {
+          "West": 10367
+        }
+      },
+      {
+        "Id": 10388,
+        "Name": "Simply Essentials",
+        "Connections": {
+          "East": 10367
+        }
+      },
+      {
+        "Id": 10389,
+        "Name": "The Quintessential Mage",
+        "Connections": {
+          "West": 10368
+        }
+      },
+      {
+        "Id": 10390,
+        "Name": "The Golden Circle Forge",
+        "Connections": {
+          "East": 10368
+        }
+      },
+      {
+        "Id": 10391,
+        "Name": "The King\u0027s Rest Inn",
+        "Connections": {
+          "South": 10370,
+          "Up": 10392
+        }
+      },
+      {
+        "Id": 10392,
+        "Name": "Hallway",
+        "Connections": {
+          "North": 10393,
+          "East": 10394,
+          "Down": 10391
+        }
+      },
+      {
+        "Id": 10393,
+        "Name": "Hotel room",
+        "Connections": {
+          "South": 10392
+        }
+      },
+      {
+        "Id": 10394,
+        "Name": "Hotel room",
+        "Connections": {
+          "West": 10392
+        }
+      },
+      {
+        "Id": 10395,
+        "Name": "Rooftop",
+        "Connections": {
+          "Down": 10372
+        }
+      },
+      {
+        "Id": 10396,
+        "Name": "Desmond\u0027s Mob Staging Area",
+        "Connections": {
+          "South": 10301
+        }
+      },
+      {
+        "Id": 10397,
+        "Name": "Inside the Castle",
+        "Connections": {
+          "South": 10369
+        }
+      },
+      {
+        "Id": 10125,
+        "Name": "To Forest of Arden",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "East": 10301,
+          "West": 10120
+        }
+      },
+      {
+        "Id": 16010,
+        "Name": "To Griffon Bank \u0026 Travel",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 10365,
+          "Up": 16011
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

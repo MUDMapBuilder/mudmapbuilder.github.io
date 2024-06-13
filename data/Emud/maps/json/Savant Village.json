@@ -1,0 +1,813 @@
+{
+  "Area": {
+    "Name": "Savant Village",
+    "Credits": "Savant Village",
+    "MinimumLevel": "40",
+    "MaximumLevel": "70",
+    "Rooms": [
+      {
+        "Id": 800,
+        "Name": "",
+        "Connections": {}
+      },
+      {
+        "Id": 801,
+        "Name": "An Open Field",
+        "Connections": {
+          "North": 17495,
+          "South": 802
+        }
+      },
+      {
+        "Id": 802,
+        "Name": "A Gravel Path",
+        "Connections": {
+          "North": 801,
+          "East": 803,
+          "West": 884
+        }
+      },
+      {
+        "Id": 803,
+        "Name": "A Gravel Path",
+        "Connections": {
+          "South": 804,
+          "West": 802
+        }
+      },
+      {
+        "Id": 804,
+        "Name": "A Gravel Path",
+        "Connections": {
+          "North": 803,
+          "South": 805
+        }
+      },
+      {
+        "Id": 805,
+        "Name": "Before the Gate",
+        "Connections": {
+          "North": 804,
+          "East": 857,
+          "West": 883
+        }
+      },
+      {
+        "Id": 806,
+        "Name": "Inside the Gate",
+        "Connections": {
+          "North": 805,
+          "East": 807,
+          "South": 809,
+          "West": 808
+        }
+      },
+      {
+        "Id": 807,
+        "Name": "A Dark House",
+        "Connections": {
+          "West": 806
+        }
+      },
+      {
+        "Id": 808,
+        "Name": "A Stone House",
+        "Connections": {
+          "East": 806
+        }
+      },
+      {
+        "Id": 809,
+        "Name": "A Path in the Village",
+        "Connections": {
+          "North": 806,
+          "East": 810,
+          "South": 812,
+          "West": 811
+        }
+      },
+      {
+        "Id": 810,
+        "Name": "A Well Lit House",
+        "Connections": {
+          "West": 809
+        }
+      },
+      {
+        "Id": 811,
+        "Name": "A Large Grey Building",
+        "Connections": {
+          "East": 809
+        }
+      },
+      {
+        "Id": 812,
+        "Name": "A Path in the Village",
+        "Connections": {
+          "North": 809,
+          "East": 813,
+          "South": 815,
+          "West": 814
+        }
+      },
+      {
+        "Id": 813,
+        "Name": "A Small Building",
+        "Connections": {
+          "West": 812
+        }
+      },
+      {
+        "Id": 814,
+        "Name": "Emperor\u0027s House",
+        "Connections": {
+          "East": 812
+        }
+      },
+      {
+        "Id": 815,
+        "Name": "The Base of the Mountain",
+        "Connections": {
+          "North": 812,
+          "East": 832,
+          "South": 816,
+          "West": 826
+        }
+      },
+      {
+        "Id": 816,
+        "Name": "The Mountain Path",
+        "Connections": {
+          "North": 815,
+          "South": 817
+        }
+      },
+      {
+        "Id": 817,
+        "Name": "The Mountain Path",
+        "Connections": {
+          "North": 816,
+          "Up": 818
+        }
+      },
+      {
+        "Id": 818,
+        "Name": "The Mountain Path",
+        "Connections": {
+          "South": 819,
+          "Down": 817
+        }
+      },
+      {
+        "Id": 819,
+        "Name": "The Mountain Path",
+        "Connections": {
+          "North": 818,
+          "South": 820
+        }
+      },
+      {
+        "Id": 820,
+        "Name": "The Mountain Path",
+        "Connections": {
+          "North": 819,
+          "Up": 821
+        }
+      },
+      {
+        "Id": 821,
+        "Name": "The Mountain Path",
+        "Connections": {
+          "South": 822,
+          "Down": 820
+        }
+      },
+      {
+        "Id": 822,
+        "Name": "The Mountain Path",
+        "Connections": {
+          "North": 821,
+          "Up": 823
+        }
+      },
+      {
+        "Id": 823,
+        "Name": "The Mountain Platform",
+        "Connections": {
+          "South": 851,
+          "West": 896,
+          "Down": 822
+        }
+      },
+      {
+        "Id": 824,
+        "Name": "The End of the Path",
+        "Connections": {
+          "North": 856,
+          "Up": 825
+        }
+      },
+      {
+        "Id": 825,
+        "Name": "The Zenith",
+        "Connections": {
+          "Down": 824
+        }
+      },
+      {
+        "Id": 826,
+        "Name": "West of the Fountain",
+        "Connections": {
+          "East": 815,
+          "South": 828,
+          "West": 827
+        }
+      },
+      {
+        "Id": 827,
+        "Name": "West of the Fountain",
+        "Connections": {
+          "North": 829,
+          "East": 826,
+          "West": 830
+        }
+      },
+      {
+        "Id": 828,
+        "Name": "A Small Temple",
+        "Connections": {
+          "North": 826
+        }
+      },
+      {
+        "Id": 829,
+        "Name": "A Small Building",
+        "Connections": {
+          "South": 827
+        }
+      },
+      {
+        "Id": 830,
+        "Name": "West of the Fountain",
+        "Connections": {
+          "East": 827,
+          "South": 831
+        }
+      },
+      {
+        "Id": 831,
+        "Name": "The Library",
+        "Connections": {
+          "North": 830
+        }
+      },
+      {
+        "Id": 832,
+        "Name": "East of the Fountain",
+        "Connections": {
+          "East": 834,
+          "South": 850,
+          "West": 815
+        }
+      },
+      {
+        "Id": 833,
+        "Name": "The Room of Savants",
+        "Connections": {
+          "North": 839,
+          "East": 849,
+          "South": 838,
+          "West": 848,
+          "Up": 897,
+          "Down": 828
+        }
+      },
+      {
+        "Id": 834,
+        "Name": "East of the Fountain",
+        "Connections": {
+          "North": 835,
+          "East": 836,
+          "West": 832
+        }
+      },
+      {
+        "Id": 835,
+        "Name": "A Small Domed Building",
+        "Connections": {
+          "South": 834,
+          "Down": 840
+        }
+      },
+      {
+        "Id": 836,
+        "Name": "East of the Fountain",
+        "Connections": {
+          "South": 837,
+          "West": 834
+        }
+      },
+      {
+        "Id": 837,
+        "Name": "The Fields",
+        "Connections": {
+          "North": 836
+        }
+      },
+      {
+        "Id": 838,
+        "Name": "The Secret Store of Savant Humor",
+        "Connections": {
+          "North": 833
+        }
+      },
+      {
+        "Id": 839,
+        "Name": "A Detention Cell",
+        "Connections": {
+          "South": 833
+        }
+      },
+      {
+        "Id": 840,
+        "Name": "Beneath the Village",
+        "Connections": {
+          "East": 841,
+          "Up": 835
+        }
+      },
+      {
+        "Id": 841,
+        "Name": "Beneath the Village",
+        "Connections": {
+          "North": 846,
+          "East": 842,
+          "South": 847,
+          "West": 840
+        }
+      },
+      {
+        "Id": 842,
+        "Name": "Beneath the Village",
+        "Connections": {
+          "North": 845,
+          "South": 843,
+          "West": 841
+        }
+      },
+      {
+        "Id": 843,
+        "Name": "A Dark Cavern",
+        "Connections": {
+          "North": 842
+        }
+      },
+      {
+        "Id": 844,
+        "Name": "The Hole of Chaos",
+        "Connections": {
+          "North": 843
+        }
+      },
+      {
+        "Id": 845,
+        "Name": "A Dark Cavern",
+        "Connections": {
+          "South": 842
+        }
+      },
+      {
+        "Id": 846,
+        "Name": "A Dark Cavern",
+        "Connections": {
+          "South": 841
+        }
+      },
+      {
+        "Id": 847,
+        "Name": "A Dark Cavern",
+        "Connections": {
+          "North": 841
+        }
+      },
+      {
+        "Id": 848,
+        "Name": "A Detention Cell",
+        "Connections": {
+          "East": 833
+        }
+      },
+      {
+        "Id": 849,
+        "Name": "A Detention Cell",
+        "Connections": {
+          "West": 833
+        }
+      },
+      {
+        "Id": 850,
+        "Name": "An Observatory",
+        "Connections": {
+          "North": 832
+        }
+      },
+      {
+        "Id": 851,
+        "Name": "The Mountain Path",
+        "Connections": {
+          "North": 823,
+          "Up": 852
+        }
+      },
+      {
+        "Id": 852,
+        "Name": "The Mountain Path",
+        "Connections": {
+          "South": 853,
+          "Down": 851
+        }
+      },
+      {
+        "Id": 853,
+        "Name": "The Mountain Path",
+        "Connections": {
+          "North": 852,
+          "Up": 854
+        }
+      },
+      {
+        "Id": 854,
+        "Name": "The Mountain Path",
+        "Connections": {
+          "South": 855,
+          "Down": 853
+        }
+      },
+      {
+        "Id": 855,
+        "Name": "The Mountain Path",
+        "Connections": {
+          "North": 854,
+          "Up": 856
+        }
+      },
+      {
+        "Id": 856,
+        "Name": "The Mountain Path",
+        "Connections": {
+          "South": 824,
+          "Down": 855
+        }
+      },
+      {
+        "Id": 857,
+        "Name": "The Eastern Wall",
+        "Connections": {
+          "East": 858,
+          "West": 805
+        }
+      },
+      {
+        "Id": 858,
+        "Name": "The Corner Wall",
+        "Connections": {
+          "South": 859,
+          "West": 857
+        }
+      },
+      {
+        "Id": 859,
+        "Name": "The Eastern Wall",
+        "Connections": {
+          "North": 858,
+          "South": 860
+        }
+      },
+      {
+        "Id": 860,
+        "Name": "The Eastern Wall",
+        "Connections": {
+          "North": 859,
+          "East": 861
+        }
+      },
+      {
+        "Id": 861,
+        "Name": "The Corner Wall",
+        "Connections": {
+          "South": 862,
+          "West": 860
+        }
+      },
+      {
+        "Id": 862,
+        "Name": "The Eastern Wall",
+        "Connections": {
+          "North": 861,
+          "East": 863
+        }
+      },
+      {
+        "Id": 863,
+        "Name": "The Eastern Wall",
+        "Connections": {
+          "South": 864,
+          "West": 862
+        }
+      },
+      {
+        "Id": 864,
+        "Name": "Outside the Cemetary",
+        "Connections": {
+          "North": 863,
+          "East": 893,
+          "South": 865
+        }
+      },
+      {
+        "Id": 865,
+        "Name": "The Eastern Wall",
+        "Connections": {
+          "North": 864,
+          "South": 866
+        }
+      },
+      {
+        "Id": 866,
+        "Name": "The Corner Wall",
+        "Connections": {
+          "North": 865,
+          "West": 867
+        }
+      },
+      {
+        "Id": 867,
+        "Name": "The Southern Wall",
+        "Connections": {
+          "East": 866,
+          "West": 868
+        }
+      },
+      {
+        "Id": 868,
+        "Name": "The Southern Wall",
+        "Connections": {
+          "East": 867,
+          "West": 869
+        }
+      },
+      {
+        "Id": 869,
+        "Name": "The Southern Wall",
+        "Connections": {
+          "East": 868,
+          "West": 870
+        }
+      },
+      {
+        "Id": 870,
+        "Name": "The Well",
+        "Connections": {
+          "East": 869,
+          "West": 871
+        }
+      },
+      {
+        "Id": 871,
+        "Name": "The Southern Wall",
+        "Connections": {
+          "East": 870,
+          "West": 872
+        }
+      },
+      {
+        "Id": 872,
+        "Name": "The Southern Wall",
+        "Connections": {
+          "East": 871,
+          "West": 873
+        }
+      },
+      {
+        "Id": 873,
+        "Name": "Before a Small Cave",
+        "Connections": {
+          "East": 872,
+          "South": 888,
+          "West": 874
+        }
+      },
+      {
+        "Id": 874,
+        "Name": "The Corner Wall",
+        "Connections": {
+          "North": 875,
+          "East": 873
+        }
+      },
+      {
+        "Id": 875,
+        "Name": "The Western Wall",
+        "Connections": {
+          "North": 876,
+          "South": 874
+        }
+      },
+      {
+        "Id": 876,
+        "Name": "Before the Pond",
+        "Connections": {
+          "North": 877,
+          "South": 875,
+          "West": 894
+        }
+      },
+      {
+        "Id": 877,
+        "Name": "The Western Wall",
+        "Connections": {
+          "East": 878,
+          "South": 876
+        }
+      },
+      {
+        "Id": 878,
+        "Name": "The Western Wall",
+        "Connections": {
+          "North": 879,
+          "West": 877
+        }
+      },
+      {
+        "Id": 879,
+        "Name": "The Corner Wall",
+        "Connections": {
+          "East": 880,
+          "South": 878
+        }
+      },
+      {
+        "Id": 880,
+        "Name": "The Western Wall",
+        "Connections": {
+          "North": 881,
+          "West": 879
+        }
+      },
+      {
+        "Id": 881,
+        "Name": "The Western Wall",
+        "Connections": {
+          "North": 882,
+          "South": 880
+        }
+      },
+      {
+        "Id": 882,
+        "Name": "The Corner Wall",
+        "Connections": {
+          "East": 883,
+          "South": 881
+        }
+      },
+      {
+        "Id": 883,
+        "Name": "The Western Wall",
+        "Connections": {
+          "East": 805,
+          "West": 882
+        }
+      },
+      {
+        "Id": 884,
+        "Name": "The Stray Path",
+        "Connections": {
+          "East": 802,
+          "West": 885
+        }
+      },
+      {
+        "Id": 885,
+        "Name": "The Stray Path",
+        "Connections": {
+          "East": 884,
+          "West": 886
+        }
+      },
+      {
+        "Id": 886,
+        "Name": "The Bend",
+        "Connections": {
+          "East": 885,
+          "South": 887
+        }
+      },
+      {
+        "Id": 887,
+        "Name": "The Wooded Path",
+        "Connections": {
+          "North": 886,
+          "South": 889
+        }
+      },
+      {
+        "Id": 888,
+        "Name": "The Gypsy Camp",
+        "Connections": {
+          "North": 873
+        }
+      },
+      {
+        "Id": 889,
+        "Name": "By the Stream",
+        "Connections": {
+          "North": 887,
+          "South": 890
+        }
+      },
+      {
+        "Id": 890,
+        "Name": "The Wooded Path",
+        "Connections": {
+          "North": 889,
+          "West": 891
+        }
+      },
+      {
+        "Id": 891,
+        "Name": "Near An Enormous Tree",
+        "Connections": {
+          "East": 890,
+          "South": 892
+        }
+      },
+      {
+        "Id": 892,
+        "Name": "Beneath a Large Tree",
+        "Connections": {
+          "North": 891
+        }
+      },
+      {
+        "Id": 893,
+        "Name": "The Cemetary",
+        "Connections": {
+          "West": 864
+        }
+      },
+      {
+        "Id": 894,
+        "Name": "The Tiny Pond",
+        "Connections": {
+          "East": 876
+        }
+      },
+      {
+        "Id": 895,
+        "Name": "A Wrinkle in Space",
+        "Connections": {
+          "East": 9755,
+          "Down": 805
+        }
+      },
+      {
+        "Id": 896,
+        "Name": "A Small Shack",
+        "Connections": {
+          "East": 823
+        }
+      },
+      {
+        "Id": 897,
+        "Name": "A Detention Cell",
+        "Connections": {
+          "Down": 833
+        }
+      },
+      {
+        "Id": 17495,
+        "Name": "To Ancient Roads",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 17494,
+          "East": 17496,
+          "South": 801
+        }
+      },
+      {
+        "Id": 9755,
+        "Name": "To Roterodamum",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 9702,
+          "East": 9707,
+          "South": 9723,
+          "West": 9705
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

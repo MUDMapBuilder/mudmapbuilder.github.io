@@ -1,0 +1,46 @@
+{
+  "Area": {
+    "Name": "Limbo",
+    "Credits": "Limbo",
+    "MinimumLevel": "0",
+    "MaximumLevel": "99",
+    "Rooms": [
+      {
+        "Id": 1,
+        "Name": "The Void",
+        "Connections": {}
+      },
+      {
+        "Id": 2,
+        "Name": "Limbo",
+        "Connections": {
+          "North": 9755
+        }
+      },
+      {
+        "Id": 3,
+        "Name": "The Junk Room",
+        "Connections": {}
+      },
+      {
+        "Id": 4,
+        "Name": "Totem Room",
+        "Connections": {}
+      },
+      {
+        "Id": 9755,
+        "Name": "To Roterodamum",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 9702,
+          "East": 9707,
+          "South": 9723,
+          "West": 9705
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

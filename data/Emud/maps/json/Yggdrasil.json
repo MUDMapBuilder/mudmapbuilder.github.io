@@ -1,0 +1,214 @@
+{
+  "Area": {
+    "Name": "Yggdrasil",
+    "Credits": "Yggdrasil",
+    "MinimumLevel": "15",
+    "MaximumLevel": "50",
+    "Rooms": [
+      {
+        "Id": 10000,
+        "Name": "The Entrance to Yggdrasil",
+        "Connections": {
+          "East": 5380,
+          "Up": 10001,
+          "Down": 10007
+        }
+      },
+      {
+        "Id": 10001,
+        "Name": "The Trunk of Yggdrasil",
+        "Connections": {
+          "Up": 10002,
+          "Down": 10000
+        }
+      },
+      {
+        "Id": 10002,
+        "Name": "The Lower Trunk of Yggrasil",
+        "Connections": {
+          "North": 10003,
+          "East": 10006,
+          "South": 10011,
+          "West": 10005,
+          "Up": 10017,
+          "Down": 10001
+        }
+      },
+      {
+        "Id": 10003,
+        "Name": "A Lower Branch of Yggdrasil",
+        "Connections": {
+          "South": 10002
+        }
+      },
+      {
+        "Id": 10004,
+        "Name": "The Crest of Yggdrasil",
+        "Connections": {
+          "Down": 10018
+        }
+      },
+      {
+        "Id": 10005,
+        "Name": "A Lower Branch of Yggdrasil",
+        "Connections": {
+          "East": 10002
+        }
+      },
+      {
+        "Id": 10006,
+        "Name": "A Lower Branch of Yggdrasil",
+        "Connections": {
+          "West": 10002
+        }
+      },
+      {
+        "Id": 10007,
+        "Name": "The Roots of Yggdrasil",
+        "Connections": {
+          "North": 10023,
+          "East": 10009,
+          "South": 10008,
+          "West": 10010,
+          "Up": 10000,
+          "Down": 10012
+        }
+      },
+      {
+        "Id": 10008,
+        "Name": "The Roots of Yggdrasil",
+        "Connections": {
+          "North": 10007
+        }
+      },
+      {
+        "Id": 10009,
+        "Name": "The Roots of Yggdrasil",
+        "Connections": {
+          "West": 10007
+        }
+      },
+      {
+        "Id": 10010,
+        "Name": "The Roots of Yggdrasil",
+        "Connections": {
+          "East": 10007
+        }
+      },
+      {
+        "Id": 10011,
+        "Name": "A Lower Branch of Yggdrasil",
+        "Connections": {
+          "North": 10002
+        }
+      },
+      {
+        "Id": 10012,
+        "Name": "The Deepest Roots of Yggdrasil",
+        "Connections": {
+          "Up": 10007
+        }
+      },
+      {
+        "Id": 10013,
+        "Name": "A Middle Branch of Yggdrasil",
+        "Connections": {
+          "East": 10017
+        }
+      },
+      {
+        "Id": 10014,
+        "Name": "A Middle Branch of Yggdrasil",
+        "Connections": {
+          "South": 10017
+        }
+      },
+      {
+        "Id": 10015,
+        "Name": "A Middle Branch of Yggdrasil",
+        "Connections": {
+          "West": 10017
+        }
+      },
+      {
+        "Id": 10016,
+        "Name": "A Middle Branch of Yggdrasil",
+        "Connections": {
+          "North": 10017
+        }
+      },
+      {
+        "Id": 10017,
+        "Name": "The Middle Trunk of Yggrasil",
+        "Connections": {
+          "North": 10014,
+          "East": 10015,
+          "South": 10016,
+          "West": 10013,
+          "Up": 10018,
+          "Down": 10002
+        }
+      },
+      {
+        "Id": 10018,
+        "Name": "The Upper Trunk of Yggrasil",
+        "Connections": {
+          "North": 10021,
+          "East": 10022,
+          "South": 10019,
+          "West": 10020,
+          "Up": 10004,
+          "Down": 10017
+        }
+      },
+      {
+        "Id": 10019,
+        "Name": "An Upper Branch of Yggdrasil",
+        "Connections": {
+          "North": 10018
+        }
+      },
+      {
+        "Id": 10020,
+        "Name": "An Upper Branch of Yggdrasil",
+        "Connections": {
+          "East": 10018
+        }
+      },
+      {
+        "Id": 10021,
+        "Name": "An Upper Branch of Yggdrasil",
+        "Connections": {
+          "South": 10018
+        }
+      },
+      {
+        "Id": 10022,
+        "Name": "An Upper Branch of Yggdrasil",
+        "Connections": {
+          "West": 10018
+        }
+      },
+      {
+        "Id": 10023,
+        "Name": "The Roots of Yggdrasil",
+        "Connections": {
+          "South": 10007
+        }
+      },
+      {
+        "Id": 5380,
+        "Name": "To Old Thalos",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 5379,
+          "South": 5381,
+          "West": 10000
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}

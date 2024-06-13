@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emud's Maps</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" />
+</head>
+<body>
+    <table id="table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Credits</th>
+                <th scope="col">Min Level</th>
+                <th scope="col">Max Level</th>
+                <th scope="col">Json</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+    <script>
+var data = [
+[["Castles", "data/Emud/maps/png/Castles.png"], "Castles", "10", "95", "data/Emud/maps/json/Castles.json"],
+[["Abyssal Depths", "data/Emud/maps/png/Abyssal Depths.png"], "Abyssal Depths", "50", "95", "data/Emud/maps/json/Abyssal Depths.json"],
+[["The Air", "data/Emud/maps/png/The Air.png"], "The Air", "10", "50", "data/Emud/maps/json/The Air.json"],
+[["Atlantis", "data/Emud/maps/png/Atlantis.png"], "Atlantis", "50", "95", "data/Emud/maps/json/Atlantis.json"],
+[["Holy Grove", "data/Emud/maps/png/Holy Grove.png"], "Holy Grove", "5", "20", "data/Emud/maps/json/Holy Grove.json"],
+[["Manitou Marsh", "data/Emud/maps/png/Manitou Marsh.png"], "Manitou Marsh", "15", "25", "data/Emud/maps/json/Manitou Marsh.json"],
+[["Medusa's Castle", "data/Emud/maps/png/Medusa's Castle.png"], "Medusa's Castle", "50", "60", "data/Emud/maps/json/Medusa's Castle.json"],
+[["Midgaard", "data/Emud/maps/png/Midgaard.png"], "Midgaard", "1", "20", "data/Emud/maps/json/Midgaard.json"],
+[["Monster Pit", "data/Emud/maps/png/Monster Pit.png"], "Monster Pit", "5", "10", "data/Emud/maps/json/Monster Pit.json"],
+[["Moon City", "data/Emud/maps/png/Moon City.png"], "Moon City", "55", "85", "data/Emud/maps/json/Moon City.json"],
+[["Mushroom Forest", "data/Emud/maps/png/Mushroom Forest.png"], "Mushroom Forest", "35", "55", "data/Emud/maps/json/Mushroom Forest.json"],
+[["Olympus", "data/Emud/maps/png/Olympus.png"], "Olympus", "5", "30", "data/Emud/maps/json/Olympus.json"],
+[["Savant Village", "data/Emud/maps/png/Savant Village.png"], "Savant Village", "40", "70", "data/Emud/maps/json/Savant Village.json"],
+[["Old Thalos", "data/Emud/maps/png/Old Thalos.png"], "Old Thalos", "1", "30", "data/Emud/maps/json/Old Thalos.json"],
+[["University", "data/Emud/maps/png/University.png"], "University", "10", "25", "data/Emud/maps/json/University.json"],
+[["Whispering Woods", "data/Emud/maps/png/Whispering Woods.png"], "Whispering Woods", "5", "15", "data/Emud/maps/json/Whispering Woods.json"],
+[["Yggdrasil", "data/Emud/maps/png/Yggdrasil.png"], "Yggdrasil", "15", "50", "data/Emud/maps/json/Yggdrasil.json"],
+[["The Arena", "data/Emud/maps/png/The Arena.png"], "The Arena", "1", "95", "data/Emud/maps/json/The Arena.json"],
+[["Dwarven Caravan", "data/Emud/maps/png/Dwarven Caravan.png"], "Dwarven Caravan", "0", "99", "data/Emud/maps/json/Dwarven Caravan.json"],
+[["Dungeon", "data/Emud/maps/png/Dungeon.png"], "Dungeon", "1", "95", "data/Emud/maps/json/Dungeon.json"],
+[["Griffon Bank & Travel", "data/Emud/maps/png/Griffon Bank & Travel.png"], "Griffon Bank & Travel", "1", "95", "data/Emud/maps/json/Griffon Bank & Travel.json"],
+[["Guilds", "data/Emud/maps/png/Guilds.png"], "Guilds", "20", "95", "data/Emud/maps/json/Guilds.json"],
+[["Limbo", "data/Emud/maps/png/Limbo.png"], "Limbo", "0", "99", "data/Emud/maps/json/Limbo.json"],
+[["Ancient Roads", "data/Emud/maps/png/Ancient Roads.png"], "Ancient Roads", "1", "95", "data/Emud/maps/json/Ancient Roads.json"],
+[["Roterodamum", "data/Emud/maps/png/Roterodamum.png"], "Roterodamum", "1", "95", "data/Emud/maps/json/Roterodamum.json"],
+[["Tower of Training", "data/Emud/maps/png/Tower of Training.png"], "Tower of Training", "1", "10", "data/Emud/maps/json/Tower of Training.json"],
+[["Dark Empire", "data/Emud/maps/png/Dark Empire.png"], "Dark Empire", "1", "95", "data/Emud/maps/json/Dark Empire.json"],
+[["Temple of Demise", "data/Emud/maps/png/Temple of Demise.png"], "Temple of Demise", "10", "95", "data/Emud/maps/json/Temple of Demise.json"],
+[["Empire of the Gnomes", "data/Emud/maps/png/Empire of the Gnomes.png"], "Empire of the Gnomes", "1", "95", "data/Emud/maps/json/Empire of the Gnomes.json"],
+[["Isle of Mist", "data/Emud/maps/png/Isle of Mist.png"], "Isle of Mist", "40", "60", "data/Emud/maps/json/Isle of Mist.json"],
+[["Land of Not", "data/Emud/maps/png/Land of Not.png"], "Land of Not", "10", "20", "data/Emud/maps/json/Land of Not.json"],
+[["King Menos' Maze", "data/Emud/maps/png/King Menos' Maze.png"], "King Menos' Maze", "75", "95", "data/Emud/maps/json/King Menos' Maze.json"],
+[["Mist City", "data/Emud/maps/png/Mist City.png"], "Mist City", "30", "50", "data/Emud/maps/json/Mist City.json"],
+[["Ocean City", "data/Emud/maps/png/Ocean City.png"], "Ocean City", "25", "50", "data/Emud/maps/json/Ocean City.json"],
+[["Red Knights' Castle", "data/Emud/maps/png/Red Knights' Castle.png"], "Red Knights' Castle", "65", "95", "data/Emud/maps/json/Red Knights' Castle.json"],
+[["Troll Island", "data/Emud/maps/png/Troll Island.png"], "Troll Island", "50", "85", "data/Emud/maps/json/Troll Island.json"],
+[["Deeve", "data/Emud/maps/png/Deeve.png"], "Deeve", "5", "15", "data/Emud/maps/json/Deeve.json"],
+[["Elven Empire", "data/Emud/maps/png/Elven Empire.png"], "Elven Empire", "40", "70", "data/Emud/maps/json/Elven Empire.json"],
+[["Valley of the Elves", "data/Emud/maps/png/Valley of the Elves.png"], "Valley of the Elves", "5", "20", "data/Emud/maps/json/Valley of the Elves.json"],
+[["Land of the Fire Newts", "data/Emud/maps/png/Land of the Fire Newts.png"], "Land of the Fire Newts", "5", "15", "data/Emud/maps/json/Land of the Fire Newts.json"],
+[["Ofcol", "data/Emud/maps/png/Ofcol.png"], "Ofcol", "5", "35", "data/Emud/maps/json/Ofcol.json"],
+[["Plains of the North", "data/Emud/maps/png/Plains of the North.png"], "Plains of the North", "10", "20", "data/Emud/maps/json/Plains of the North.json"],
+[["Sun Dome", "data/Emud/maps/png/Sun Dome.png"], "Sun Dome", "40", "95", "data/Emud/maps/json/Sun Dome.json"],
+[["Underworld", "data/Emud/maps/png/Underworld.png"], "Underworld", "30", "95", "data/Emud/maps/json/Underworld.json"],
+[["Poor Village", "data/Emud/maps/png/Poor Village.png"], "Poor Village", "100", "100", "data/Emud/maps/json/Poor Village.json"],
+[["Ethe Iyurin", "data/Emud/maps/png/Ethe Iyurin.png"], "Ethe Iyurin", "100", "100", "data/Emud/maps/json/Ethe Iyurin.json"],
+[["Gahld", "data/Emud/maps/png/Gahld.png"], "Gahld", "5", "25", "data/Emud/maps/json/Gahld.json"],
+[["Kytar", "data/Emud/maps/png/Kytar.png"], "Kytar", "1", "95", "data/Emud/maps/json/Kytar.json"],
+[["Wonderland", "data/Emud/maps/png/Wonderland.png"], "Wonderland", "75", "95", "data/Emud/maps/json/Wonderland.json"],
+[["Monastery of Zaar Mountain", "data/Emud/maps/png/Monastery of Zaar Mountain.png"], "Monastery of Zaar Mountain", "90", "95", "data/Emud/maps/json/Monastery of Zaar Mountain.json"],
+[["Antarctica", "data/Emud/maps/png/Antarctica.png"], "Antarctica", "15", "25", "data/Emud/maps/json/Antarctica.json"],
+[["Bosher's House", "data/Emud/maps/png/Bosher's House.png"], "Bosher's House", "75", "95", "data/Emud/maps/json/Bosher's House.json"],
+[["Frost Mountain", "data/Emud/maps/png/Frost Mountain.png"], "Frost Mountain", "15", "35", "data/Emud/maps/json/Frost Mountain.json"],
+[["Keep of Mahn-Tor", "data/Emud/maps/png/Keep of Mahn-Tor.png"], "Keep of Mahn-Tor", "5", "35", "data/Emud/maps/json/Keep of Mahn-Tor.json"],
+[["Ruins of Sharthea", "data/Emud/maps/png/Ruins of Sharthea.png"], "Ruins of Sharthea", "60", "95", "data/Emud/maps/json/Ruins of Sharthea.json"],
+[["Alchemist's Workshop", "data/Emud/maps/png/Alchemist's Workshop.png"], "Alchemist's Workshop", "25", "50", "data/Emud/maps/json/Alchemist's Workshop.json"],
+[["Arachnos", "data/Emud/maps/png/Arachnos.png"], "Arachnos", "5", "25", "data/Emud/maps/json/Arachnos.json"],
+[["Elemental Canyon", "data/Emud/maps/png/Elemental Canyon.png"], "Elemental Canyon", "20", "40", "data/Emud/maps/json/Elemental Canyon.json"],
+[["Gnomedell", "data/Emud/maps/png/Gnomedell.png"], "Gnomedell", "5", "20", "data/Emud/maps/json/Gnomedell.json"],
+[["Haon Dor", "data/Emud/maps/png/Haon Dor.png"], "Haon Dor", "5", "10", "data/Emud/maps/json/Haon Dor.json"],
+[["Hive", "data/Emud/maps/png/Hive.png"], "Hive", "20", "30", "data/Emud/maps/json/Hive.json"],
+[["Honest Bob's", "data/Emud/maps/png/Honest Bob's.png"], "Honest Bob's", "10", "30", "data/Emud/maps/json/Honest Bob's.json"],
+[["Refuge Tribe", "data/Emud/maps/png/Refuge Tribe.png"], "Refuge Tribe", "30", "95", "data/Emud/maps/json/Refuge Tribe.json"],
+[["Tanglewood forest", "data/Emud/maps/png/Tanglewood forest.png"], "Tanglewood forest", "1", "10", "data/Emud/maps/json/Tanglewood forest.json"],
+[["Thalos", "data/Emud/maps/png/Thalos.png"], "Thalos", "10", "25", "data/Emud/maps/json/Thalos.json"],
+[["Tomb of Virtue", "data/Emud/maps/png/Tomb of Virtue.png"], "Tomb of Virtue", "40", "50", "data/Emud/maps/json/Tomb of Virtue.json"],
+[["Wedding Chapel", "data/Emud/maps/png/Wedding Chapel.png"], "Wedding Chapel", "0", "99", "data/Emud/maps/json/Wedding Chapel.json"],
+[["Forest of Arden", "data/Emud/maps/png/Forest of Arden.png"], "Forest of Arden", "30", "60", "data/Emud/maps/json/Forest of Arden.json"],
+[["Avernus", "data/Emud/maps/png/Avernus.png"], "Avernus", "90", "95", "data/Emud/maps/json/Avernus.json"],
+[["City of Entropy", "data/Emud/maps/png/City of Entropy.png"], "City of Entropy", "60", "95", "data/Emud/maps/json/City of Entropy.json"],
+[["City of Ruins", "data/Emud/maps/png/City of Ruins.png"], "City of Ruins", "20", "40", "data/Emud/maps/json/City of Ruins.json"],
+[["Dragon Haven", "data/Emud/maps/png/Dragon Haven.png"], "Dragon Haven", "50", "95", "data/Emud/maps/json/Dragon Haven.json"],
+[["Gateway to Avernus", "data/Emud/maps/png/Gateway to Avernus.png"], "Gateway to Avernus", "60", "80", "data/Emud/maps/json/Gateway to Avernus.json"],
+[["Mount Kolvir", "data/Emud/maps/png/Mount Kolvir.png"], "Mount Kolvir", "50", "95", "data/Emud/maps/json/Mount Kolvir.json"],
+[["Old Marsh", "data/Emud/maps/png/Old Marsh.png"], "Old Marsh", "15", "25", "data/Emud/maps/json/Old Marsh.json"],
+[["Island of Paragon", "data/Emud/maps/png/Island of Paragon.png"], "Island of Paragon", "75", "95", "data/Emud/maps/json/Island of Paragon.json"],
+[["Raptor Island", "data/Emud/maps/png/Raptor Island.png"], "Raptor Island", "50", "80", "data/Emud/maps/json/Raptor Island.json"],
+[["Swampland", "data/Emud/maps/png/Swampland.png"], "Swampland", "15", "25", "data/Emud/maps/json/Swampland.json"],
+[["Volcano", "data/Emud/maps/png/Volcano.png"], "Volcano", "30", "55", "data/Emud/maps/json/Volcano.json"],
+[["Wyvern's Tower", "data/Emud/maps/png/Wyvern's Tower.png"], "Wyvern's Tower", "5", "20", "data/Emud/maps/json/Wyvern's Tower.json"],
+[["Barrowlands", "data/Emud/maps/png/Barrowlands.png"], "Barrowlands", "40", "80", "data/Emud/maps/json/Barrowlands.json"],
+[["Bomanz' Pathway", "data/Emud/maps/png/Bomanz' Pathway.png"], "Bomanz' Pathway", "50", "95", "data/Emud/maps/json/Bomanz' Pathway.json"],
+[["Calimarra", "data/Emud/maps/png/Calimarra.png"], "Calimarra", "50", "95", "data/Emud/maps/json/Calimarra.json"],
+[["Elven City", "data/Emud/maps/png/Elven City.png"], "Elven City", "20", "40", "data/Emud/maps/json/Elven City.json"],
+[["Forest of Gaia", "data/Emud/maps/png/Forest of Gaia.png"], "Forest of Gaia", "10", "95", "data/Emud/maps/json/Forest of Gaia.json"],
+[["Orc Village", "data/Emud/maps/png/Orc Village.png"], "Orc Village", "20", "40", "data/Emud/maps/json/Orc Village.json"],
+[["Phoenix Peak", "data/Emud/maps/png/Phoenix Peak.png"], "Phoenix Peak", "20", "30", "data/Emud/maps/json/Phoenix Peak.json"],
+[["Plain of Fear", "data/Emud/maps/png/Plain of Fear.png"], "Plain of Fear", "10", "20", "data/Emud/maps/json/Plain of Fear.json"],
+];
+
+
+    $('#table').DataTable({
+		columnDefs: [
+			{
+				targets: 0,
+				render: function (data, type) {
+					return '<a href="' + data[1] + '">' + data[0] + '</a>';
+				}
+            },
+			{
+				targets: 4,
+				render: function (data, type) {
+					return '<a href="' + data + '">json</a>';
+				}
+            }
+		],
+        paging: false,
+        data: data
+    });
+    </script>
+</body>
+</html>

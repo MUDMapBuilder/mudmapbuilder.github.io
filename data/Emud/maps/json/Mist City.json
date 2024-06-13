@@ -1,0 +1,872 @@
+{
+  "Area": {
+    "Name": "Mist City",
+    "Credits": "Mist City",
+    "MinimumLevel": "30",
+    "MaximumLevel": "50",
+    "Rooms": [
+      {
+        "Id": 10900,
+        "Name": "The Northwest Corner of the Moat",
+        "Connections": {
+          "East": 10901,
+          "South": 10910
+        }
+      },
+      {
+        "Id": 10901,
+        "Name": "The Northern Side of the Moat",
+        "Connections": {
+          "East": 10902,
+          "West": 10900
+        }
+      },
+      {
+        "Id": 10902,
+        "Name": "The Northeast Corner of the Moat",
+        "Connections": {
+          "South": 10912,
+          "West": 10901
+        }
+      },
+      {
+        "Id": 10903,
+        "Name": "The North Road of Mist City",
+        "Connections": {
+          "East": 10904,
+          "South": 10913
+        }
+      },
+      {
+        "Id": 10904,
+        "Name": "The North Road of Mist City",
+        "Connections": {
+          "East": 10905,
+          "West": 10903
+        }
+      },
+      {
+        "Id": 10905,
+        "Name": "The North Road of Mist City",
+        "Connections": {
+          "North": 10971,
+          "East": 10906,
+          "South": 10915,
+          "West": 10904
+        }
+      },
+      {
+        "Id": 10906,
+        "Name": "The North Road of Mist City",
+        "Connections": {
+          "South": 10916,
+          "West": 10905
+        }
+      },
+      {
+        "Id": 10907,
+        "Name": "The Restaurant in Mist City",
+        "Connections": {
+          "South": 10917
+        }
+      },
+      {
+        "Id": 10908,
+        "Name": "The Magic Shop in Mist City",
+        "Connections": {
+          "South": 10918
+        }
+      },
+      {
+        "Id": 10909,
+        "Name": "The Healer\u0027s Store in Mist City",
+        "Connections": {
+          "South": 10919
+        }
+      },
+      {
+        "Id": 10910,
+        "Name": "The Moat Behind the Castle",
+        "Connections": {
+          "North": 10900,
+          "South": 10920
+        }
+      },
+      {
+        "Id": 10911,
+        "Name": "At the Gate of Mist Castle",
+        "Connections": {
+          "East": 10912,
+          "West": 10931
+        }
+      },
+      {
+        "Id": 10912,
+        "Name": "The Bridge Over the Moat",
+        "Connections": {
+          "North": 10902,
+          "East": 10913,
+          "South": 10922,
+          "West": 10911
+        }
+      },
+      {
+        "Id": 10913,
+        "Name": "An Intersection in Mist City",
+        "Connections": {
+          "North": 10903,
+          "East": 10914,
+          "South": 10923,
+          "West": 10912
+        }
+      },
+      {
+        "Id": 10914,
+        "Name": "Mist City Square",
+        "Connections": {
+          "West": 10913
+        }
+      },
+      {
+        "Id": 10915,
+        "Name": "Chango\u0027s House",
+        "Connections": {
+          "North": 10905
+        }
+      },
+      {
+        "Id": 10916,
+        "Name": "A Gray Stone House",
+        "Connections": {
+          "North": 10906
+        }
+      },
+      {
+        "Id": 10917,
+        "Name": "The Market Street of Mist City",
+        "Connections": {
+          "North": 10907,
+          "East": 10918,
+          "South": 10927,
+          "West": 16000
+        }
+      },
+      {
+        "Id": 10918,
+        "Name": "The Market Street of Mist City",
+        "Connections": {
+          "North": 10908,
+          "East": 10919,
+          "South": 10928,
+          "West": 10917
+        }
+      },
+      {
+        "Id": 10919,
+        "Name": "The Market Street in Mist City",
+        "Connections": {
+          "North": 10909,
+          "East": 10973,
+          "South": 10929,
+          "West": 10918
+        }
+      },
+      {
+        "Id": 10920,
+        "Name": "The Southwest Corner of the Moat",
+        "Connections": {
+          "North": 10910,
+          "East": 10921
+        }
+      },
+      {
+        "Id": 10921,
+        "Name": "The South Side of the Moat",
+        "Connections": {
+          "East": 10922,
+          "West": 10920
+        }
+      },
+      {
+        "Id": 10922,
+        "Name": "The Southeast Corner of the Moat",
+        "Connections": {
+          "North": 10912,
+          "West": 10921
+        }
+      },
+      {
+        "Id": 10923,
+        "Name": "Inside the Gate of Mist City",
+        "Connections": {
+          "North": 10913,
+          "East": 10924,
+          "South": 10930
+        }
+      },
+      {
+        "Id": 10924,
+        "Name": "The Southern Road of Mist City",
+        "Connections": {
+          "East": 10925,
+          "West": 10923
+        }
+      },
+      {
+        "Id": 10925,
+        "Name": "The Southern Road of Mist City",
+        "Connections": {
+          "East": 10926,
+          "South": 10975,
+          "West": 10924
+        }
+      },
+      {
+        "Id": 10926,
+        "Name": "The Southern Road of Mist City",
+        "Connections": {
+          "East": 10927,
+          "West": 10925
+        }
+      },
+      {
+        "Id": 10927,
+        "Name": "The Southern Road of Mist City",
+        "Connections": {
+          "North": 10917,
+          "West": 10926
+        }
+      },
+      {
+        "Id": 10928,
+        "Name": "The Weapons Shop in Mist City",
+        "Connections": {
+          "North": 10918
+        }
+      },
+      {
+        "Id": 10929,
+        "Name": "The Armor Shop in Mist City",
+        "Connections": {
+          "North": 10919
+        }
+      },
+      {
+        "Id": 10930,
+        "Name": "Before the Gate of Mist City",
+        "Connections": {
+          "North": 10923,
+          "South": 10744
+        }
+      },
+      {
+        "Id": 10931,
+        "Name": "Inside the Gate of Mist Castle",
+        "Connections": {
+          "North": 10932,
+          "East": 10911,
+          "West": 10942
+        }
+      },
+      {
+        "Id": 10932,
+        "Name": "Stairs Leading Down",
+        "Connections": {
+          "South": 10931,
+          "Down": 10933
+        }
+      },
+      {
+        "Id": 10933,
+        "Name": "The Dungeon",
+        "Connections": {
+          "Up": 10932
+        }
+      },
+      {
+        "Id": 10934,
+        "Name": "Atop the Northwest Tower",
+        "Connections": {
+          "Down": 10938
+        }
+      },
+      {
+        "Id": 10935,
+        "Name": "Atop the Northeast Tower",
+        "Connections": {
+          "Down": 10940
+        }
+      },
+      {
+        "Id": 10936,
+        "Name": "Atop the Southwest Tower",
+        "Connections": {
+          "Down": 10944
+        }
+      },
+      {
+        "Id": 10937,
+        "Name": "Atop the Southeast Tower",
+        "Connections": {
+          "Down": 10946
+        }
+      },
+      {
+        "Id": 10938,
+        "Name": "The Base of the Northwest Tower",
+        "Connections": {
+          "East": 10939,
+          "Up": 10934
+        }
+      },
+      {
+        "Id": 10939,
+        "Name": "A Room Between the North Towers",
+        "Connections": {
+          "East": 10940,
+          "South": 10941,
+          "West": 10938
+        }
+      },
+      {
+        "Id": 10940,
+        "Name": "The Base of the Northeast Tower",
+        "Connections": {
+          "West": 10939,
+          "Up": 10935
+        }
+      },
+      {
+        "Id": 10941,
+        "Name": "The North End of the Court",
+        "Connections": {
+          "North": 10939,
+          "South": 10942
+        }
+      },
+      {
+        "Id": 10942,
+        "Name": "The Center Court of Mist Castle",
+        "Connections": {
+          "North": 10941,
+          "East": 10931,
+          "South": 10943,
+          "West": 10947
+        }
+      },
+      {
+        "Id": 10943,
+        "Name": "The South End of the Court",
+        "Connections": {
+          "North": 10942,
+          "South": 10945
+        }
+      },
+      {
+        "Id": 10944,
+        "Name": "The Base of the Southwest Tower",
+        "Connections": {
+          "East": 10945,
+          "Up": 10936
+        }
+      },
+      {
+        "Id": 10945,
+        "Name": "A Room Between the South Towers",
+        "Connections": {
+          "North": 10943,
+          "East": 10946,
+          "West": 10944
+        }
+      },
+      {
+        "Id": 10946,
+        "Name": "The Base of the Southeast Tower",
+        "Connections": {
+          "West": 10945,
+          "Up": 10937
+        }
+      },
+      {
+        "Id": 10947,
+        "Name": "The Throne Room of Mist Castle",
+        "Connections": {
+          "East": 10942,
+          "Down": 10948
+        }
+      },
+      {
+        "Id": 10948,
+        "Name": "A Tunnel",
+        "Connections": {
+          "West": 10949,
+          "Up": 10947
+        }
+      },
+      {
+        "Id": 10949,
+        "Name": "A Tunnel",
+        "Connections": {
+          "East": 10948,
+          "West": 10950
+        }
+      },
+      {
+        "Id": 10950,
+        "Name": "A Tunnel",
+        "Connections": {
+          "East": 10949,
+          "West": 10951
+        }
+      },
+      {
+        "Id": 10951,
+        "Name": "Some Stairs",
+        "Connections": {
+          "East": 10950,
+          "West": 10952,
+          "Up": 10953
+        }
+      },
+      {
+        "Id": 10952,
+        "Name": "A Tunnel",
+        "Connections": {
+          "East": 10952,
+          "West": 10952,
+          "Down": 11250
+        }
+      },
+      {
+        "Id": 10953,
+        "Name": "The Stairs",
+        "Connections": {
+          "Up": 10954,
+          "Down": 10951
+        }
+      },
+      {
+        "Id": 10954,
+        "Name": "A Short Cave",
+        "Connections": {
+          "East": 10717,
+          "Down": 10953
+        }
+      },
+      {
+        "Id": 10955,
+        "Name": "A Sanctum of Chaos",
+        "Connections": {
+          "Down": 10956
+        }
+      },
+      {
+        "Id": 10956,
+        "Name": "Gandolf\u0027s House",
+        "Connections": {
+          "South": 10962,
+          "Up": 10955
+        }
+      },
+      {
+        "Id": 10957,
+        "Name": "Majesto\u0027s House",
+        "Connections": {
+          "South": 10963
+        }
+      },
+      {
+        "Id": 10958,
+        "Name": "Presto\u0027s House",
+        "Connections": {
+          "South": 10967
+        }
+      },
+      {
+        "Id": 10959,
+        "Name": "A Sanctum of Order",
+        "Connections": {
+          "Down": 10961
+        }
+      },
+      {
+        "Id": 10960,
+        "Name": "A Residence in Mist City",
+        "Connections": {
+          "South": 10964
+        }
+      },
+      {
+        "Id": 10961,
+        "Name": "A Residence",
+        "Connections": {
+          "South": 10965,
+          "Up": 10959
+        }
+      },
+      {
+        "Id": 10962,
+        "Name": "North Edition of Mist City",
+        "Connections": {
+          "North": 10956,
+          "East": 10963,
+          "South": 10966
+        }
+      },
+      {
+        "Id": 10963,
+        "Name": "North Edition of Mist City",
+        "Connections": {
+          "North": 10957,
+          "East": 10967,
+          "South": 10968,
+          "West": 10962
+        }
+      },
+      {
+        "Id": 10964,
+        "Name": "North Edition of Mist City",
+        "Connections": {
+          "North": 10960,
+          "East": 10965,
+          "South": 10970,
+          "West": 10967
+        }
+      },
+      {
+        "Id": 10965,
+        "Name": "North Edition of Mist City",
+        "Connections": {
+          "North": 10961,
+          "South": 10972,
+          "West": 10964
+        }
+      },
+      {
+        "Id": 10966,
+        "Name": "A Residence in Mist City",
+        "Connections": {
+          "North": 10962
+        }
+      },
+      {
+        "Id": 10967,
+        "Name": "The Center of the North Edition of Mist City",
+        "Connections": {
+          "North": 10958,
+          "East": 10964,
+          "South": 10969,
+          "West": 10963,
+          "Up": 10974
+        }
+      },
+      {
+        "Id": 10968,
+        "Name": "A Residence in Mist City",
+        "Connections": {
+          "North": 10963
+        }
+      },
+      {
+        "Id": 10969,
+        "Name": "The North Edition of Mist City",
+        "Connections": {
+          "North": 10967,
+          "South": 10971
+        }
+      },
+      {
+        "Id": 10970,
+        "Name": "A Residence in Mist City",
+        "Connections": {
+          "North": 10964
+        }
+      },
+      {
+        "Id": 10971,
+        "Name": "The Entrance to the Edition of Mist City",
+        "Connections": {
+          "North": 10969,
+          "South": 10905
+        }
+      },
+      {
+        "Id": 10972,
+        "Name": "A Residence in Mist City",
+        "Connections": {
+          "North": 10965
+        }
+      },
+      {
+        "Id": 10973,
+        "Name": "The Morgue",
+        "Connections": {
+          "West": 10919
+        }
+      },
+      {
+        "Id": 10974,
+        "Name": "The Town Hall of Mist City",
+        "Connections": {
+          "Down": 10967
+        }
+      },
+      {
+        "Id": 10975,
+        "Name": "A Park Trail",
+        "Connections": {
+          "North": 10925,
+          "South": 10976
+        }
+      },
+      {
+        "Id": 10976,
+        "Name": "A Bend in the Trail",
+        "Connections": {
+          "North": 10975,
+          "East": 10977
+        }
+      },
+      {
+        "Id": 10977,
+        "Name": "A Bend in the Trail",
+        "Connections": {
+          "South": 10978,
+          "West": 10976
+        }
+      },
+      {
+        "Id": 10978,
+        "Name": "A Park Trail",
+        "Connections": {
+          "North": 10977,
+          "South": 10979
+        }
+      },
+      {
+        "Id": 10979,
+        "Name": "The Park Entrance",
+        "Connections": {
+          "North": 10978,
+          "East": 10988,
+          "West": 10980
+        }
+      },
+      {
+        "Id": 10980,
+        "Name": "A Cobblestone Trail",
+        "Connections": {
+          "East": 10979,
+          "South": 10983,
+          "West": 10981
+        }
+      },
+      {
+        "Id": 10981,
+        "Name": "The Guards\u0027 Headquarters",
+        "Connections": {
+          "East": 10980,
+          "South": 10982
+        }
+      },
+      {
+        "Id": 10982,
+        "Name": "The Prison Cell",
+        "Connections": {
+          "North": 10981
+        }
+      },
+      {
+        "Id": 10983,
+        "Name": "A Cobblestone Trail",
+        "Connections": {
+          "North": 10980,
+          "South": 10984
+        }
+      },
+      {
+        "Id": 10984,
+        "Name": "Standing at the Fountain",
+        "Connections": {
+          "North": 10983,
+          "East": 10987,
+          "South": 10986,
+          "West": 10985
+        }
+      },
+      {
+        "Id": 10985,
+        "Name": "A Picnic Area",
+        "Connections": {
+          "East": 10984
+        }
+      },
+      {
+        "Id": 10986,
+        "Name": "A Picnic Area",
+        "Connections": {
+          "North": 10984
+        }
+      },
+      {
+        "Id": 10987,
+        "Name": "A Picnic Area",
+        "Connections": {
+          "West": 10984
+        }
+      },
+      {
+        "Id": 10988,
+        "Name": "A Paved Trail",
+        "Connections": {
+          "East": 10993,
+          "West": 10979
+        }
+      },
+      {
+        "Id": 10989,
+        "Name": "The Northwest Corner of the Playground",
+        "Connections": {
+          "East": 10990,
+          "South": 10992
+        }
+      },
+      {
+        "Id": 10990,
+        "Name": "The Northeast Corner of the Playground",
+        "Connections": {
+          "South": 10991,
+          "West": 10989
+        }
+      },
+      {
+        "Id": 10991,
+        "Name": "The Southeast Corner of the Playground",
+        "Connections": {
+          "North": 10990,
+          "West": 10992
+        }
+      },
+      {
+        "Id": 10992,
+        "Name": "The Entrance to the Playground",
+        "Connections": {
+          "North": 10989,
+          "East": 10991,
+          "West": 10993
+        }
+      },
+      {
+        "Id": 10993,
+        "Name": "A Paved Trail",
+        "Connections": {
+          "East": 10992,
+          "South": 10994,
+          "West": 10988
+        }
+      },
+      {
+        "Id": 10994,
+        "Name": "The Lagoon Trail",
+        "Connections": {
+          "North": 10993,
+          "South": 10995
+        }
+      },
+      {
+        "Id": 10995,
+        "Name": "The Lagoon Trail",
+        "Connections": {
+          "North": 10994,
+          "East": 10996
+        }
+      },
+      {
+        "Id": 10996,
+        "Name": "The Northwest Corner of the Lagoon",
+        "Connections": {
+          "East": 10997,
+          "South": 10999,
+          "West": 10995
+        }
+      },
+      {
+        "Id": 10997,
+        "Name": "The Northeast Corner of the Lagoon",
+        "Connections": {
+          "East": 10705,
+          "South": 10998,
+          "West": 10996
+        }
+      },
+      {
+        "Id": 10998,
+        "Name": "The Southeast Corner of the Lagoon",
+        "Connections": {
+          "North": 10997,
+          "East": 10705,
+          "South": 10705,
+          "West": 10999
+        }
+      },
+      {
+        "Id": 10999,
+        "Name": "The Southwest Corner of the Lagoon",
+        "Connections": {
+          "North": 10996,
+          "East": 10998,
+          "South": 10705
+        }
+      },
+      {
+        "Id": 16000,
+        "Name": "To Griffon Bank \u0026 Travel",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "East": 10917,
+          "Up": 16001
+        }
+      },
+      {
+        "Id": 10744,
+        "Name": "To Isle of Mist",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 10930,
+          "South": 10743
+        }
+      },
+      {
+        "Id": 11250,
+        "Name": "To King Menos\u0027 Maze",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 11246,
+          "Up": 10952
+        }
+      },
+      {
+        "Id": 10717,
+        "Name": "To Isle of Mist",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "East": 10718
+        }
+      },
+      {
+        "Id": 10705,
+        "Name": "To Isle of Mist",
+        "IsExitToOtherArea": true,
+        "Connections": {
+          "North": 10703,
+          "East": 10704,
+          "South": 10702,
+          "West": 10706
+        }
+      }
+    ]
+  },
+  "BuildOptions": {
+    "MaxSteps": 1000
+  }
+}
