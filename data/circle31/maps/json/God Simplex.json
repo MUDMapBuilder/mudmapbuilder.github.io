@@ -7,14 +7,21 @@
         "Name": "The Meeting Room Of The Gods",
         "Connections": {
           "North": 1204
-        }
+        },
+        "Contents": [
+          "the wandering spirit #1202"
+        ]
       },
       {
         "Id": 1201,
         "Name": "The Inn Of The Gods",
         "Connections": {
           "South": 1204
-        }
+        },
+        "Contents": [
+          "the Immortal Innkeeper #1200",
+          "the wandering spirit #1202"
+        ]
       },
       {
         "Id": 1202,
@@ -45,7 +52,10 @@
         "Name": "The Post Office Of The Gods",
         "Connections": {
           "East": 1204
-        }
+        },
+        "Contents": [
+          "the Immortal Postmaster #1201"
+        ]
       },
       {
         "Id": 1206,
@@ -69,6 +79,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

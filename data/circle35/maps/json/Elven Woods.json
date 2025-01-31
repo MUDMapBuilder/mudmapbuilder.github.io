@@ -13,7 +13,11 @@
         "Name": "Entrance to the Elven Forest",
         "Connections": {
           "North": 24802
-        }
+        },
+        "Contents": [
+          "the Elven guardian #24801",
+          "the Elven guardian #24801"
+        ]
       },
       {
         "Id": 24802,
@@ -23,7 +27,10 @@
           "East": 24803,
           "South": 24801,
           "Up": 24806
-        }
+        },
+        "Contents": [
+          "the Elven soldier #24802"
+        ]
       },
       {
         "Id": 24803,
@@ -38,7 +45,10 @@
         "Name": "A Guard Chief\u0027s Bedroom",
         "Connections": {
           "West": 24803
-        }
+        },
+        "Contents": [
+          "the chief of the elven guard #24810"
+        ]
       },
       {
         "Id": 24805,
@@ -52,7 +62,10 @@
         "Name": "On the Platform",
         "Connections": {
           "Down": 24802
-        }
+        },
+        "Contents": [
+          "the Elven soldier #24802"
+        ]
       },
       {
         "Id": 24807,
@@ -60,7 +73,10 @@
         "Connections": {
           "North": 24808,
           "South": 24802
-        }
+        },
+        "Contents": [
+          "the Elven soldier #24802"
+        ]
       },
       {
         "Id": 24808,
@@ -68,7 +84,14 @@
         "Connections": {
           "North": 24809,
           "South": 24807
-        }
+        },
+        "Contents": [
+          "the Elven soldier #24802",
+          "the Elven guard #24803",
+          "the Elven guard #24803",
+          "the Elven guard #24803",
+          "the Elven guard #24803"
+        ]
       },
       {
         "Id": 24809,
@@ -78,21 +101,30 @@
           "East": 24810,
           "South": 24808,
           "West": 24811
-        }
+        },
+        "Contents": [
+          "the Elven soldier #24802"
+        ]
       },
       {
         "Id": 24810,
         "Name": "The Elven Armoury",
         "Connections": {
           "West": 24809
-        }
+        },
+        "Contents": [
+          "the Elven armoursmith #24805"
+        ]
       },
       {
         "Id": 24811,
         "Name": "The Elven Weaponry",
         "Connections": {
           "East": 24809
-        }
+        },
+        "Contents": [
+          "the Elven weaponsmith #24804"
+        ]
       },
       {
         "Id": 24812,
@@ -102,21 +134,30 @@
           "East": 24814,
           "South": 24809,
           "West": 24813
-        }
+        },
+        "Contents": [
+          "the Elven soldier #24802"
+        ]
       },
       {
         "Id": 24813,
         "Name": "Quintor\u0027s Fine Shop",
         "Connections": {
           "East": 24812
-        }
+        },
+        "Contents": [
+          "the Elf named Quintor #24807"
+        ]
       },
       {
         "Id": 24814,
         "Name": "The Elven Magic Shop",
         "Connections": {
           "West": 24812
-        }
+        },
+        "Contents": [
+          "the Elven mage #24806"
+        ]
       },
       {
         "Id": 24815,
@@ -125,7 +166,10 @@
           "North": 24817,
           "East": 24816,
           "South": 24812
-        }
+        },
+        "Contents": [
+          "the Elven guard #24803"
+        ]
       },
       {
         "Id": 24816,
@@ -133,7 +177,10 @@
         "Connections": {
           "West": 24815,
           "Up": 24890
-        }
+        },
+        "Contents": [
+          "the Elven bartender #24808"
+        ]
       },
       {
         "Id": 24817,
@@ -219,18 +266,25 @@
         "Name": "The Training Room",
         "Connections": {
           "North": 24822
-        }
+        },
+        "Contents": [
+          "the Elven weaponsmith #24804"
+        ]
       },
       {
         "Id": 24890,
         "Name": "The Reception of the Tavern of Hope",
         "Connections": {
           "Down": 24816
-        }
+        },
+        "Contents": [
+          "the Elven receptionist #24809"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

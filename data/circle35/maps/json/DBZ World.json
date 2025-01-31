@@ -35,7 +35,11 @@
       {
         "Id": 10304,
         "Name": "Kami\u0027s Lookout",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "the guardian of earth #10304",
+          "the guardians helper #10306"
+        ]
       },
       {
         "Id": 10305,
@@ -43,7 +47,11 @@
         "Connections": {
           "North": 10346,
           "East": 10362
-        }
+        },
+        "Contents": [
+          "a Namekian Priest #10305",
+          "a Dragon Statue #10362"
+        ]
       },
       {
         "Id": 10306,
@@ -58,7 +66,10 @@
         "Connections": {
           "East": 10308,
           "West": 10306
-        }
+        },
+        "Contents": [
+          "a large wolf #10307"
+        ]
       },
       {
         "Id": 10308,
@@ -132,7 +143,10 @@
         "Connections": {
           "North": 10315,
           "South": 10317
-        }
+        },
+        "Contents": [
+          "Matilda #10316"
+        ]
       },
       {
         "Id": 10317,
@@ -149,14 +163,20 @@
         "Name": "Th Newbie Arena",
         "Connections": {
           "West": 10317
-        }
+        },
+        "Contents": [
+          "a Newbie Fighter #10318"
+        ]
       },
       {
         "Id": 10319,
         "Name": "Vegetas Atire",
         "Connections": {
           "North": 10317
-        }
+        },
+        "Contents": [
+          "Vegeta #10319"
+        ]
       },
       {
         "Id": 10320,
@@ -234,7 +254,10 @@
         "Connections": {
           "North": 10330,
           "South": 10328
-        }
+        },
+        "Contents": [
+          "Master Roshi #10329"
+        ]
       },
       {
         "Id": 10330,
@@ -313,7 +336,10 @@
         "Connections": {
           "East": 10338,
           "West": 10340
-        }
+        },
+        "Contents": [
+          "Truncks #10339"
+        ]
       },
       {
         "Id": 10340,
@@ -337,7 +363,10 @@
         "Connections": {
           "North": 10343,
           "East": 10341
-        }
+        },
+        "Contents": [
+          "Bulma #10345"
+        ]
       },
       {
         "Id": 10343,
@@ -368,7 +397,10 @@
         "Connections": {
           "North": 10347,
           "South": 10305
-        }
+        },
+        "Contents": [
+          "a Namek Townsmen #10346"
+        ]
       },
       {
         "Id": 10347,
@@ -487,7 +519,10 @@
         "Name": "Elders Room",
         "Connections": {
           "Down": 10360
-        }
+        },
+        "Contents": [
+          "the Elder Namek #10361"
+        ]
       },
       {
         "Id": 10362,
@@ -495,7 +530,10 @@
         "Connections": {
           "East": 10363,
           "West": 10305
-        }
+        },
+        "Contents": [
+          "a Dragon Statue #10362"
+        ]
       },
       {
         "Id": 10363,
@@ -543,7 +581,10 @@
         "Connections": {
           "East": 10369,
           "West": 10367
-        }
+        },
+        "Contents": [
+          "a large bird #10368"
+        ]
       },
       {
         "Id": 10369,
@@ -632,7 +673,11 @@
         "Connections": {
           "North": 10378,
           "South": 10380
-        }
+        },
+        "Contents": [
+          "a rabbit #10378",
+          "a rabbit #10379"
+        ]
       },
       {
         "Id": 10380,
@@ -783,7 +828,11 @@
         "Connections": {
           "South": 10397,
           "West": 10399
-        }
+        },
+        "Contents": [
+          "a Gambler #10398",
+          "a Biker #10399"
+        ]
       },
       {
         "Id": 10399,
@@ -795,6 +844,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

@@ -9,7 +9,10 @@
         "Connections": {
           "North": 25801,
           "West": 25802
-        }
+        },
+        "Contents": [
+          "the roaming vagabond #25800"
+        ]
       },
       {
         "Id": 25801,
@@ -17,7 +20,10 @@
         "Connections": {
           "North": 25804,
           "South": 25800
-        }
+        },
+        "Contents": [
+          "a hiker #25803"
+        ]
       },
       {
         "Id": 25802,
@@ -25,7 +31,10 @@
         "Connections": {
           "East": 25800,
           "West": 25803
-        }
+        },
+        "Contents": [
+          "the messenger #25801"
+        ]
       },
       {
         "Id": 25803,
@@ -33,7 +42,10 @@
         "Connections": {
           "East": 25802,
           "West": 25729
-        }
+        },
+        "Contents": [
+          "a rabbit #25802"
+        ]
       },
       {
         "Id": 25804,
@@ -76,7 +88,10 @@
         "Connections": {
           "North": 25815,
           "South": 25806
-        }
+        },
+        "Contents": [
+          "the messenger #25801"
+        ]
       },
       {
         "Id": 25809,
@@ -84,7 +99,11 @@
         "Connections": {
           "East": 25820,
           "West": 25810
-        }
+        },
+        "Contents": [
+          "the messenger #25801",
+          "the messenger #25801"
+        ]
       },
       {
         "Id": 25810,
@@ -109,7 +128,12 @@
         "Connections": {
           "South": 25811,
           "West": 25814
-        }
+        },
+        "Contents": [
+          "the messenger #25801",
+          "the messenger #25801",
+          "the messenger #25801"
+        ]
       },
       {
         "Id": 25813,
@@ -125,7 +149,10 @@
         "Connections": {
           "North": 25813,
           "East": 25812
-        }
+        },
+        "Contents": [
+          "the messenger #25801"
+        ]
       },
       {
         "Id": 25815,
@@ -141,7 +168,10 @@
         "Connections": {
           "East": 25817,
           "South": 25815
-        }
+        },
+        "Contents": [
+          "the messenger #25801"
+        ]
       },
       {
         "Id": 25817,
@@ -157,7 +187,10 @@
         "Connections": {
           "North": 25851,
           "South": 25831
-        }
+        },
+        "Contents": [
+          "the messenger #25801"
+        ]
       },
       {
         "Id": 25819,
@@ -183,7 +216,12 @@
         "Connections": {
           "North": 25870,
           "South": 25852
-        }
+        },
+        "Contents": [
+          "the roaming vagabond #25800",
+          "the roaming vagabond #25800",
+          "the roaming vagabond #25800"
+        ]
       },
       {
         "Id": 25822,
@@ -301,7 +339,10 @@
         "Connections": {
           "North": 25852,
           "South": 25818
-        }
+        },
+        "Contents": [
+          "a rabbit #25802"
+        ]
       },
       {
         "Id": 25852,
@@ -341,7 +382,12 @@
         "Connections": {
           "East": 25885,
           "West": 25855
-        }
+        },
+        "Contents": [
+          "the messenger #25801",
+          "a rabbit #25802",
+          "a hiker #25803"
+        ]
       },
       {
         "Id": 25870,
@@ -482,7 +528,10 @@
           "East": 26011,
           "South": 26031,
           "West": 25819
-        }
+        },
+        "Contents": [
+          "a Rahn warrior #26001"
+        ]
       },
       {
         "Id": 26020,
@@ -585,6 +634,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

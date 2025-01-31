@@ -20,7 +20,10 @@
         "Connections": {
           "North": 23263,
           "West": 23260
-        }
+        },
+        "Contents": [
+          "a spirit priest #23260"
+        ]
       },
       {
         "Id": 23262,
@@ -37,7 +40,10 @@
           "South": 23261,
           "West": 23262,
           "Up": 23264
-        }
+        },
+        "Contents": [
+          "a spirit priest #23260"
+        ]
       },
       {
         "Id": 23264,
@@ -45,7 +51,10 @@
         "Connections": {
           "North": 23265,
           "Down": 23263
-        }
+        },
+        "Contents": [
+          "a spirit priest #23260"
+        ]
       },
       {
         "Id": 23265,
@@ -61,7 +70,10 @@
         "Connections": {
           "North": 23267,
           "South": 23265
-        }
+        },
+        "Contents": [
+          "a spirit priest #23260"
+        ]
       },
       {
         "Id": 23267,
@@ -103,21 +115,30 @@
         "Name": "In a sparse room",
         "Connections": {
           "West": 23271
-        }
+        },
+        "Contents": [
+          "an undead elven novice #23261"
+        ]
       },
       {
         "Id": 23273,
         "Name": "In a meditation room",
         "Connections": {
           "South": 23271
-        }
+        },
+        "Contents": [
+          "a lich cleric #23262"
+        ]
       },
       {
         "Id": 23274,
         "Name": "In a room of healing",
         "Connections": {
           "East": 23271
-        }
+        },
+        "Contents": [
+          "the undead elven healer #23263"
+        ]
       },
       {
         "Id": 23275,
@@ -125,7 +146,10 @@
         "Connections": {
           "North": 23271,
           "Up": 23276
-        }
+        },
+        "Contents": [
+          "the undead elven bishop #23264"
+        ]
       },
       {
         "Id": 23276,
@@ -142,7 +166,10 @@
         "Connections": {
           "North": 23276,
           "Up": 23279
-        }
+        },
+        "Contents": [
+          "a dark angel #23265"
+        ]
       },
       {
         "Id": 23278,
@@ -150,7 +177,10 @@
         "Connections": {
           "South": 23276,
           "Up": 23279
-        }
+        },
+        "Contents": [
+          "a dark angel #23265"
+        ]
       },
       {
         "Id": 23279,
@@ -174,7 +204,10 @@
         "Connections": {
           "North": 23279,
           "South": 23280
-        }
+        },
+        "Contents": [
+          "the undead elven cardinal #23267"
+        ]
       },
       {
         "Id": 13767,
@@ -183,11 +216,15 @@
         "Connections": {
           "North": 23260,
           "South": 13765
-        }
+        },
+        "Contents": [
+          "a golem of green stone #13712"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

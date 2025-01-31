@@ -26,7 +26,10 @@
         "Connections": {
           "East": 4203,
           "West": 4201
-        }
+        },
+        "Contents": [
+          "a green dragon #4206"
+        ]
       },
       {
         "Id": 4203,
@@ -43,7 +46,10 @@
         "Connections": {
           "East": 4205,
           "West": 4203
-        }
+        },
+        "Contents": [
+          "a green dragon #4206"
+        ]
       },
       {
         "Id": 4205,
@@ -85,7 +91,10 @@
           "East": 4210,
           "South": 4208,
           "West": 4216
-        }
+        },
+        "Contents": [
+          "a green dragon #4206"
+        ]
       },
       {
         "Id": 4210,
@@ -133,7 +142,10 @@
         "Name": "A Prison Cell",
         "Connections": {
           "North": 4214
-        }
+        },
+        "Contents": [
+          "a troll #4203"
+        ]
       },
       {
         "Id": 4216,
@@ -148,7 +160,10 @@
         "Name": "A Small Room",
         "Connections": {
           "East": 4220
-        }
+        },
+        "Contents": [
+          "an elven slave #4205"
+        ]
       },
       {
         "Id": 4218,
@@ -156,7 +171,10 @@
         "Connections": {
           "North": 4223,
           "South": 4220
-        }
+        },
+        "Contents": [
+          "a green dragon #4206"
+        ]
       },
       {
         "Id": 4219,
@@ -180,14 +198,22 @@
         "Name": "A Hatchery",
         "Connections": {
           "South": 4209
-        }
+        },
+        "Contents": [
+          "a Dragon Hatchling #4202",
+          "a Dragon Hatchling #4202",
+          "a Dragon Hatchling #4202"
+        ]
       },
       {
         "Id": 4222,
         "Name": "The End of the Hallway",
         "Connections": {
           "West": 4214
-        }
+        },
+        "Contents": [
+          "a green dragon #4206"
+        ]
       },
       {
         "Id": 4223,
@@ -211,7 +237,12 @@
         "Connections": {
           "East": 4226,
           "South": 4224
-        }
+        },
+        "Contents": [
+          "a Guard Dragon #4204",
+          "a Guard Dragon #4204",
+          "a Guard Dragon #4204"
+        ]
       },
       {
         "Id": 4226,
@@ -258,7 +289,10 @@
         "Name": "The Royal Throne Room",
         "Connections": {
           "West": 4228
-        }
+        },
+        "Contents": [
+          "the king of dragons #4207"
+        ]
       },
       {
         "Id": 4294,
@@ -286,11 +320,15 @@
         "Name": "The Back of the Cave",
         "Connections": {
           "West": 4206
-        }
+        },
+        "Contents": [
+          "a red dragon #4200"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

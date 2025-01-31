@@ -11,7 +11,10 @@
         "Connections": {
           "East": 8902,
           "South": 8904
-        }
+        },
+        "Contents": [
+          "The Hierophant #8901"
+        ]
       },
       {
         "Id": 8902,
@@ -20,7 +23,10 @@
           "East": 8903,
           "West": 8901,
           "South": 8905
-        }
+        },
+        "Contents": [
+          "an elder druid #8902"
+        ]
       },
       {
         "Id": 8903,
@@ -29,7 +35,11 @@
           "North": 5378,
           "South": 8906,
           "West": 8902
-        }
+        },
+        "Contents": [
+          "a small bunny #8907",
+          "a small bunny #8907"
+        ]
       },
       {
         "Id": 8904,
@@ -39,7 +49,10 @@
           "North": 8901,
           "South": 8907,
           "West": 3502
-        }
+        },
+        "Contents": [
+          "an elder druidess #8903"
+        ]
       },
       {
         "Id": 8905,
@@ -49,7 +62,12 @@
           "East": 8906,
           "West": 8904,
           "South": 8908
-        }
+        },
+        "Contents": [
+          "The Hierophant #8900",
+          "a doe #8904",
+          "a stag #8906"
+        ]
       },
       {
         "Id": 8906,
@@ -58,7 +76,11 @@
           "North": 8903,
           "West": 8905,
           "South": 8909
-        }
+        },
+        "Contents": [
+          "a deer #8905",
+          "a harmless snake #8908"
+        ]
       },
       {
         "Id": 8907,
@@ -100,7 +122,10 @@
           "North": 8910,
           "East": 8912,
           "South": 8913
-        }
+        },
+        "Contents": [
+          "a druid #8909"
+        ]
       },
       {
         "Id": 8912,
@@ -124,7 +149,10 @@
         "Name": "The red room",
         "Connections": {
           "West": 8913
-        }
+        },
+        "Contents": [
+          "a druidess #8910"
+        ]
       },
       {
         "Id": 8915,
@@ -149,7 +177,10 @@
         "Connections": {
           "East": 8916,
           "South": 8919
-        }
+        },
+        "Contents": [
+          "a druidess #8910"
+        ]
       },
       {
         "Id": 8918,
@@ -158,7 +189,10 @@
           "North": 8916,
           "East": 8915,
           "West": 8919
-        }
+        },
+        "Contents": [
+          "a druid #8909"
+        ]
       },
       {
         "Id": 8919,
@@ -201,6 +235,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

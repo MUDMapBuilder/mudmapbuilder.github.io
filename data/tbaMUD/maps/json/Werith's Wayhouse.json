@@ -89,7 +89,10 @@
           "North": 28908,
           "East": 28912,
           "South": 28910
-        }
+        },
+        "Contents": [
+          "a horse #28910"
+        ]
       },
       {
         "Id": 28910,
@@ -97,7 +100,10 @@
         "Connections": {
           "North": 28909,
           "East": 28911
-        }
+        },
+        "Contents": [
+          "a horse #28910"
+        ]
       },
       {
         "Id": 28911,
@@ -105,7 +111,11 @@
         "Connections": {
           "North": 28912,
           "West": 28910
-        }
+        },
+        "Contents": [
+          "a horse #28910",
+          "a horse #28910"
+        ]
       },
       {
         "Id": 28912,
@@ -113,7 +123,11 @@
         "Connections": {
           "South": 28911,
           "West": 28909
-        }
+        },
+        "Contents": [
+          "a horse #28910",
+          "a horse #28910"
+        ]
       },
       {
         "Id": 28913,
@@ -121,7 +135,13 @@
         "Connections": {
           "East": 28914,
           "South": 28920
-        }
+        },
+        "Contents": [
+          "Desslok #28904",
+          "a dog #28905",
+          "a bartender #28921",
+          "an adventurer #28918"
+        ]
       },
       {
         "Id": 28914,
@@ -130,7 +150,10 @@
           "East": 28915,
           "South": 28919,
           "West": 28913
-        }
+        },
+        "Contents": [
+          "a waitress #28912"
+        ]
       },
       {
         "Id": 28915,
@@ -140,7 +163,10 @@
           "East": 28916,
           "South": 28918,
           "West": 28914
-        }
+        },
+        "Contents": [
+          "an adventurer #28917"
+        ]
       },
       {
         "Id": 28916,
@@ -148,7 +174,11 @@
         "Connections": {
           "South": 28917,
           "West": 28915
-        }
+        },
+        "Contents": [
+          "Drogo #28903",
+          "a farmer #28913"
+        ]
       },
       {
         "Id": 28917,
@@ -157,7 +187,12 @@
           "North": 28916,
           "East": 28929,
           "West": 28918
-        }
+        },
+        "Contents": [
+          "Farlenian #28900",
+          "Koofy #28901",
+          "a farmer #28913"
+        ]
       },
       {
         "Id": 28918,
@@ -167,7 +202,11 @@
           "East": 28917,
           "South": 28923,
           "West": 28919
-        }
+        },
+        "Contents": [
+          "Jordo #28909",
+          "a waiter #28911"
+        ]
       },
       {
         "Id": 28919,
@@ -177,7 +216,12 @@
           "East": 28918,
           "South": 28922,
           "West": 28920
-        }
+        },
+        "Contents": [
+          "Seemie #28907",
+          "a farmer #28913",
+          "a farmer #28913"
+        ]
       },
       {
         "Id": 28920,
@@ -186,7 +230,10 @@
           "North": 28913,
           "East": 28919,
           "South": 28921
-        }
+        },
+        "Contents": [
+          "Werith #28914"
+        ]
       },
       {
         "Id": 28921,
@@ -195,7 +242,14 @@
           "North": 28920,
           "East": 28922,
           "South": 28928
-        }
+        },
+        "Contents": [
+          "Airden the Wanderer #28906",
+          "a waiter #28911",
+          "a farmer #28913",
+          "a bartender #28920",
+          "an adventurer #28918"
+        ]
       },
       {
         "Id": 28922,
@@ -205,7 +259,11 @@
           "East": 28923,
           "South": 28927,
           "West": 28921
-        }
+        },
+        "Contents": [
+          "a waitress #28912",
+          "an adventurer #28917"
+        ]
       },
       {
         "Id": 28923,
@@ -215,7 +273,10 @@
           "East": 28924,
           "South": 28926,
           "West": 28922
-        }
+        },
+        "Contents": [
+          "a waiter #28911"
+        ]
       },
       {
         "Id": 28924,
@@ -223,7 +284,10 @@
         "Connections": {
           "South": 28925,
           "West": 28923
-        }
+        },
+        "Contents": [
+          "a chef #28916"
+        ]
       },
       {
         "Id": 28925,
@@ -231,7 +295,13 @@
         "Connections": {
           "North": 28924,
           "West": 28926
-        }
+        },
+        "Contents": [
+          "a waitress #28912",
+          "a chef #28916",
+          "a chef #28916",
+          "a chef #28916"
+        ]
       },
       {
         "Id": 28926,
@@ -240,7 +310,10 @@
           "North": 28923,
           "East": 28925,
           "South": 28904
-        }
+        },
+        "Contents": [
+          "a chef #28916"
+        ]
       },
       {
         "Id": 28927,
@@ -248,7 +321,11 @@
         "Connections": {
           "North": 28922,
           "West": 28928
-        }
+        },
+        "Contents": [
+          "Alerka #28902",
+          "the woman #28919"
+        ]
       },
       {
         "Id": 28928,
@@ -256,7 +333,11 @@
         "Connections": {
           "North": 28921,
           "East": 28927
-        }
+        },
+        "Contents": [
+          "Eshiay #28908",
+          "a bartender #28915"
+        ]
       },
       {
         "Id": 28929,
@@ -365,6 +446,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

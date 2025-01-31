@@ -43,7 +43,13 @@
           "North": 23815,
           "East": 23805,
           "West": 23803
-        }
+        },
+        "Contents": [
+          "the large fish #23802",
+          "the trout #23876",
+          "the blue bird #23877",
+          "the little crab #23878"
+        ]
       },
       {
         "Id": 23805,
@@ -70,7 +76,12 @@
           "North": 23812,
           "East": 23808,
           "West": 23806
-        }
+        },
+        "Contents": [
+          "the little crab #23878",
+          "the swimming duck #23879",
+          "the blue bird #23877"
+        ]
       },
       {
         "Id": 23808,
@@ -147,7 +158,10 @@
           "East": 23814,
           "South": 23804,
           "West": 23816
-        }
+        },
+        "Contents": [
+          "the swallow #23880"
+        ]
       },
       {
         "Id": 23816,
@@ -157,7 +171,11 @@
           "East": 23815,
           "South": 23803,
           "West": 23817
-        }
+        },
+        "Contents": [
+          "the swallow #23880",
+          "the blue bird #23877"
+        ]
       },
       {
         "Id": 23817,
@@ -166,7 +184,10 @@
           "North": 23818,
           "East": 23816,
           "South": 23802
-        }
+        },
+        "Contents": [
+          "the swimming duck #23879"
+        ]
       },
       {
         "Id": 23818,
@@ -175,7 +196,10 @@
           "North": 23833,
           "East": 23819,
           "South": 23817
-        }
+        },
+        "Contents": [
+          "the trout #23876"
+        ]
       },
       {
         "Id": 23819,
@@ -195,7 +219,10 @@
           "East": 23821,
           "South": 23815,
           "West": 23819
-        }
+        },
+        "Contents": [
+          "the large fish #23802"
+        ]
       },
       {
         "Id": 23821,
@@ -205,7 +232,11 @@
           "East": 23822,
           "South": 23814,
           "West": 23820
-        }
+        },
+        "Contents": [
+          "the swimming duck #23879",
+          "the blue bird #23877"
+        ]
       },
       {
         "Id": 23822,
@@ -288,7 +319,10 @@
           "East": 23829,
           "South": 23821,
           "West": 23831
-        }
+        },
+        "Contents": [
+          "the little crab #23878"
+        ]
       },
       {
         "Id": 23831,
@@ -306,7 +340,11 @@
           "East": 23831,
           "South": 23819,
           "West": 23833
-        }
+        },
+        "Contents": [
+          "the blue bird #23877",
+          "the little crab #23878"
+        ]
       },
       {
         "Id": 23833,
@@ -314,7 +352,10 @@
         "Connections": {
           "East": 23832,
           "South": 23818
-        }
+        },
+        "Contents": [
+          "a large swordfish #23833"
+        ]
       },
       {
         "Id": 23834,
@@ -379,14 +420,20 @@
           "West": 23843,
           "Up": 23845,
           "Down": 23840
-        }
+        },
+        "Contents": [
+          "the ugly monster #23841"
+        ]
       },
       {
         "Id": 23842,
         "Name": "Corpses",
         "Connections": {
           "South": 23841
-        }
+        },
+        "Contents": [
+          "the small rat #23842"
+        ]
       },
       {
         "Id": 23843,
@@ -440,7 +487,10 @@
         "Name": "Dead end",
         "Connections": {
           "East": 23848
-        }
+        },
+        "Contents": [
+          "the crystal wyvern #23849"
+        ]
       },
       {
         "Id": 23850,
@@ -456,7 +506,10 @@
         "Connections": {
           "North": 23854,
           "West": 23850
-        }
+        },
+        "Contents": [
+          "a large spider #23851"
+        ]
       },
       {
         "Id": 23854,
@@ -471,7 +524,10 @@
         "Name": "Dead end",
         "Connections": {
           "South": 23854
-        }
+        },
+        "Contents": [
+          "the old man #23855"
+        ]
       },
       {
         "Id": 23856,
@@ -510,7 +566,10 @@
         "Connections": {
           "North": 23861,
           "South": 23859
-        }
+        },
+        "Contents": [
+          "the large troll #23860"
+        ]
       },
       {
         "Id": 23861,
@@ -615,7 +674,10 @@
         "Name": "Queen plegia\u0027s room",
         "Connections": {
           "South": 23873
-        }
+        },
+        "Contents": [
+          "the queen plegia #23874"
+        ]
       },
       {
         "Id": 23875,
@@ -669,11 +731,15 @@
         "Name": "Dragons Lair",
         "Connections": {
           "Down": 23846
-        }
+        },
+        "Contents": [
+          "a crystal dragon #23875"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

@@ -79,7 +79,11 @@
           "North": 906,
           "East": 907,
           "West": 909
-        }
+        },
+        "Contents": [
+          "the sea hag #909",
+          "the sea hag #909"
+        ]
       },
       {
         "Id": 909,
@@ -87,14 +91,22 @@
         "Connections": {
           "North": 910,
           "East": 908
-        }
+        },
+        "Contents": [
+          "the merman #910",
+          "the merman #910"
+        ]
       },
       {
         "Id": 910,
         "Name": "The Beach Head",
         "Connections": {
           "South": 909
-        }
+        },
+        "Contents": [
+          "the crusty crab #911",
+          "the crusty crab #911"
+        ]
       },
       {
         "Id": 911,
@@ -135,35 +147,53 @@
         "Name": "The First Trial Of Minos",
         "Connections": {
           "East": 916
-        }
+        },
+        "Contents": [
+          "the homba #900",
+          "the homba #900",
+          "the homba #900"
+        ]
       },
       {
         "Id": 916,
         "Name": "The Second Trial Of Minos",
         "Connections": {
           "South": 917
-        }
+        },
+        "Contents": [
+          "the swordsman #901",
+          "the swordsman #901"
+        ]
       },
       {
         "Id": 917,
         "Name": "The Third Trial Of Minos",
         "Connections": {
           "East": 918
-        }
+        },
+        "Contents": [
+          "the Mummy of Rabscuttle #902"
+        ]
       },
       {
         "Id": 918,
         "Name": "The Fourth Trial Of Minos",
         "Connections": {
           "South": 919
-        }
+        },
+        "Contents": [
+          "the giant lizard #903"
+        ]
       },
       {
         "Id": 919,
         "Name": "The Fifth Trial Of Minos",
         "Connections": {
           "East": 920
-        }
+        },
+        "Contents": [
+          "General Woundwort #904"
+        ]
       },
       {
         "Id": 920,
@@ -171,14 +201,21 @@
         "Connections": {
           "South": 921,
           "Up": 923
-        }
+        },
+        "Contents": [
+          "Franz the Henchman #905",
+          "Hanz the Henchman #906"
+        ]
       },
       {
         "Id": 921,
         "Name": "The Final Trial Of Minos",
         "Connections": {
           "East": 922
-        }
+        },
+        "Contents": [
+          "King Minos the Minotaur #907"
+        ]
       },
       {
         "Id": 922,
@@ -211,11 +248,15 @@
           "North": 6119,
           "South": 901,
           "West": 6121
-        }
+        },
+        "Contents": [
+          "the ancient tree #6110"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

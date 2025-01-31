@@ -12,7 +12,10 @@
           "South": 4603,
           "West": 4604,
           "Down": 4605
-        }
+        },
+        "Contents": [
+          "a green worker ant #4600"
+        ]
       },
       {
         "Id": 4601,
@@ -35,7 +38,10 @@
         "Name": "A Hole In The Wall",
         "Connections": {
           "North": 4600
-        }
+        },
+        "Contents": [
+          "a green dominant male ant #4699"
+        ]
       },
       {
         "Id": 4604,
@@ -54,7 +60,10 @@
           "West": 4607,
           "Up": 4600,
           "Down": 4610
-        }
+        },
+        "Contents": [
+          "a green worker ant #4600"
+        ]
       },
       {
         "Id": 4606,
@@ -95,7 +104,11 @@
           "West": 4611,
           "Up": 4605,
           "Down": 4615
-        }
+        },
+        "Contents": [
+          "a green worker ant #4600",
+          "a red soldier ant #4601"
+        ]
       },
       {
         "Id": 4611,
@@ -103,7 +116,10 @@
         "Connections": {
           "East": 4610,
           "West": 4616
-        }
+        },
+        "Contents": [
+          "a red soldier ant #4601"
+        ]
       },
       {
         "Id": 4612,
@@ -133,7 +149,10 @@
           "East": 4618,
           "South": 4620,
           "West": 4619
-        }
+        },
+        "Contents": [
+          "a green worker ant #4600"
+        ]
       },
       {
         "Id": 4616,
@@ -141,21 +160,30 @@
         "Connections": {
           "East": 4611,
           "South": 4617
-        }
+        },
+        "Contents": [
+          "a green soldier ant #4616"
+        ]
       },
       {
         "Id": 4617,
         "Name": "The Larvae Storage Room",
         "Connections": {
           "North": 4616
-        }
+        },
+        "Contents": [
+          "a green soldier ant #4616"
+        ]
       },
       {
         "Id": 4618,
         "Name": "A Large Hallway",
         "Connections": {
           "West": 4615
-        }
+        },
+        "Contents": [
+          "a red soldier ant #4601"
+        ]
       },
       {
         "Id": 4619,
@@ -163,7 +191,10 @@
         "Connections": {
           "East": 4615,
           "West": 4629
-        }
+        },
+        "Contents": [
+          "a red soldier ant #4601"
+        ]
       },
       {
         "Id": 4620,
@@ -257,7 +288,11 @@
         "Connections": {
           "North": 4630,
           "South": 4632
-        }
+        },
+        "Contents": [
+          "a red soldier ant #4601",
+          "a red soldier ant #4601"
+        ]
       },
       {
         "Id": 4632,
@@ -265,14 +300,21 @@
         "Connections": {
           "North": 4631,
           "East": 4633
-        }
+        },
+        "Contents": [
+          "a huge green soldier ant #4632",
+          "a huge green soldier ant #4632"
+        ]
       },
       {
         "Id": 4633,
         "Name": "The Queen\u0027s Chamber",
         "Connections": {
           "West": 4632
-        }
+        },
+        "Contents": [
+          "the green queen ant #4633"
+        ]
       },
       {
         "Id": 4634,
@@ -327,6 +369,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

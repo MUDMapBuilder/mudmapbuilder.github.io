@@ -8,7 +8,10 @@
         "Connections": {
           "North": 18601,
           "West": 3061
-        }
+        },
+        "Contents": [
+          "the newbie monster #18602"
+        ]
       },
       {
         "Id": 18601,
@@ -25,7 +28,11 @@
           "East": 18603,
           "South": 18606,
           "West": 18601
-        }
+        },
+        "Contents": [
+          "the baby dragon #18603",
+          "the creepy crawler #18606"
+        ]
       },
       {
         "Id": 18603,
@@ -43,14 +50,20 @@
         "Connections": {
           "North": 18647,
           "South": 18612
-        }
+        },
+        "Contents": [
+          "the lost newbie #18614"
+        ]
       },
       {
         "Id": 18605,
         "Name": "The Dark Pit",
         "Connections": {
           "Up": 18606
-        }
+        },
+        "Contents": [
+          "the pit beast #18601"
+        ]
       },
       {
         "Id": 18606,
@@ -59,7 +72,11 @@
           "North": 18602,
           "East": 18607,
           "Down": 18605
-        }
+        },
+        "Contents": [
+          "the Newbie Guard #18604",
+          "the creepy crawler #18606"
+        ]
       },
       {
         "Id": 18607,
@@ -68,7 +85,10 @@
           "North": 18603,
           "South": 18611,
           "West": 18606
-        }
+        },
+        "Contents": [
+          "the newbie monster #18602"
+        ]
       },
       {
         "Id": 18608,
@@ -84,7 +104,10 @@
         "Connections": {
           "East": 18610,
           "West": 18608
-        }
+        },
+        "Contents": [
+          "the creepy crawler #18606"
+        ]
       },
       {
         "Id": 18610,
@@ -110,7 +133,10 @@
           "North": 18604,
           "West": 18611,
           "Down": 18632
-        }
+        },
+        "Contents": [
+          "the Newbie Alchemist #18605"
+        ]
       },
       {
         "Id": 18620,
@@ -118,7 +144,10 @@
         "Connections": {
           "East": 18621,
           "South": 18629
-        }
+        },
+        "Contents": [
+          "the zombiefied newbie #18607"
+        ]
       },
       {
         "Id": 18621,
@@ -127,7 +156,10 @@
           "East": 18622,
           "South": 18633,
           "West": 18620
-        }
+        },
+        "Contents": [
+          "the quasit #18608"
+        ]
       },
       {
         "Id": 18622,
@@ -151,7 +183,10 @@
         "Connections": {
           "South": 18630,
           "West": 18623
-        }
+        },
+        "Contents": [
+          "the zombiefied newbie #18607"
+        ]
       },
       {
         "Id": 18625,
@@ -177,7 +212,10 @@
           "East": 18628,
           "South": 18632,
           "West": 18626
-        }
+        },
+        "Contents": [
+          "the quasit #18608"
+        ]
       },
       {
         "Id": 18628,
@@ -194,7 +232,10 @@
           "North": 18620,
           "East": 18630,
           "Down": 3061
-        }
+        },
+        "Contents": [
+          "the massive Minotaur #18609"
+        ]
       },
       {
         "Id": 18630,
@@ -230,7 +271,10 @@
         "Connections": {
           "North": 18621,
           "East": 18634
-        }
+        },
+        "Contents": [
+          "the zombiefied newbie #18607"
+        ]
       },
       {
         "Id": 18634,
@@ -256,7 +300,10 @@
           "East": 18637,
           "South": 18639,
           "West": 18635
-        }
+        },
+        "Contents": [
+          "the quasit #18608"
+        ]
       },
       {
         "Id": 18637,
@@ -264,7 +311,10 @@
         "Connections": {
           "North": 18634,
           "West": 18636
-        }
+        },
+        "Contents": [
+          "the zombiefied newbie #18607"
+        ]
       },
       {
         "Id": 18638,
@@ -272,7 +322,10 @@
         "Connections": {
           "North": 18631,
           "East": 18639
-        }
+        },
+        "Contents": [
+          "the quasit #18608"
+        ]
       },
       {
         "Id": 18639,
@@ -280,7 +333,10 @@
         "Connections": {
           "North": 18636,
           "West": 18638
-        }
+        },
+        "Contents": [
+          "the dark spectre #18610"
+        ]
       },
       {
         "Id": 18640,
@@ -288,7 +344,10 @@
         "Connections": {
           "East": 18641,
           "South": 18644
-        }
+        },
+        "Contents": [
+          "the talkative newbie #18613"
+        ]
       },
       {
         "Id": 18641,
@@ -305,7 +364,10 @@
           "South": 18647,
           "West": 18641,
           "Up": 18643
-        }
+        },
+        "Contents": [
+          "the clueless newbie #18612"
+        ]
       },
       {
         "Id": 18643,
@@ -329,7 +391,10 @@
         "Connections": {
           "North": 18643,
           "Down": 18647
-        }
+        },
+        "Contents": [
+          "the smart newbie #18615"
+        ]
       },
       {
         "Id": 18646,
@@ -337,7 +402,10 @@
         "Connections": {
           "East": 18647,
           "West": 18603
-        }
+        },
+        "Contents": [
+          "the annoying newbie #18611"
+        ]
       },
       {
         "Id": 18647,
@@ -363,6 +431,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

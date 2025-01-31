@@ -18,7 +18,10 @@
         "Connections": {
           "East": 9002,
           "West": 9000
-        }
+        },
+        "Contents": [
+          "the desert fox #9000"
+        ]
       },
       {
         "Id": 9002,
@@ -38,7 +41,10 @@
           "East": 9004,
           "South": 9011,
           "West": 9002
-        }
+        },
+        "Contents": [
+          "the spider #9001"
+        ]
       },
       {
         "Id": 9004,
@@ -56,7 +62,10 @@
         "Connections": {
           "East": 9006,
           "West": 9004
-        }
+        },
+        "Contents": [
+          "the camel #9002"
+        ]
       },
       {
         "Id": 9006,
@@ -64,7 +73,10 @@
         "Connections": {
           "South": 9013,
           "West": 9005
-        }
+        },
+        "Contents": [
+          "the desert fox #9000"
+        ]
       },
       {
         "Id": 9007,
@@ -123,7 +135,10 @@
         "Connections": {
           "North": 9006,
           "East": 9014
-        }
+        },
+        "Contents": [
+          "the coyote #9003"
+        ]
       },
       {
         "Id": 9014,
@@ -147,7 +162,10 @@
         "Connections": {
           "East": 9017,
           "West": 9015
-        }
+        },
+        "Contents": [
+          "the hyeena #9005"
+        ]
       },
       {
         "Id": 9017,
@@ -163,7 +181,10 @@
         "Connections": {
           "North": 9014,
           "East": 9019
-        }
+        },
+        "Contents": [
+          "the scorpion #9004"
+        ]
       },
       {
         "Id": 9019,
@@ -179,7 +200,10 @@
         "Connections": {
           "South": 9022,
           "West": 9019
-        }
+        },
+        "Contents": [
+          "the hyeena #9005"
+        ]
       },
       {
         "Id": 9021,
@@ -202,7 +226,10 @@
         "Name": "A Dried Up River Bed",
         "Connections": {
           "West": 9022
-        }
+        },
+        "Contents": [
+          "the desert fox #9000"
+        ]
       },
       {
         "Id": 9024,
@@ -218,7 +245,10 @@
         "Connections": {
           "North": 9021,
           "West": 9024
-        }
+        },
+        "Contents": [
+          "the scorpion #9004"
+        ]
       },
       {
         "Id": 9026,
@@ -226,7 +256,10 @@
         "Connections": {
           "East": 9027,
           "South": 9029
-        }
+        },
+        "Contents": [
+          "the camel #9002"
+        ]
       },
       {
         "Id": 9027,
@@ -242,7 +275,10 @@
         "Connections": {
           "North": 9024,
           "West": 9027
-        }
+        },
+        "Contents": [
+          "the coyote #9003"
+        ]
       },
       {
         "Id": 9029,
@@ -259,7 +295,10 @@
           "North": 9029,
           "East": 9031,
           "South": 23904
-        }
+        },
+        "Contents": [
+          "the spider #9001"
+        ]
       },
       {
         "Id": 9031,
@@ -276,14 +315,20 @@
         "Connections": {
           "North": 9033,
           "South": 9031
-        }
+        },
+        "Contents": [
+          "the ranger guard #9007"
+        ]
       },
       {
         "Id": 9033,
         "Name": "A Secluded Grove",
         "Connections": {
           "South": 9032
-        }
+        },
+        "Contents": [
+          "the ranger guildsman #9006"
+        ]
       },
       {
         "Id": 23904,
@@ -303,11 +348,15 @@
           "North": 14007,
           "East": 14001,
           "West": 9031
-        }
+        },
+        "Contents": [
+          "a sand crab #14002"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

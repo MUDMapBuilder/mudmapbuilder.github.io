@@ -26,7 +26,10 @@
         "Connections": {
           "North": 17503,
           "South": 17501
-        }
+        },
+        "Contents": [
+          "Shadimar #17500"
+        ]
       },
       {
         "Id": 17503,
@@ -59,28 +62,40 @@
         "Name": "The River Quickens",
         "Connections": {
           "East": 17507
-        }
+        },
+        "Contents": [
+          "the large squid #17501"
+        ]
       },
       {
         "Id": 17507,
         "Name": "A Bend in the River",
         "Connections": {
           "North": 17508
-        }
+        },
+        "Contents": [
+          "the lesser Kraken #17502"
+        ]
       },
       {
         "Id": 17508,
         "Name": "The River Continues",
         "Connections": {
           "North": 17509
-        }
+        },
+        "Contents": [
+          "a Kraken #17503"
+        ]
       },
       {
         "Id": 17509,
         "Name": "A Bend to the East",
         "Connections": {
           "East": 17510
-        }
+        },
+        "Contents": [
+          "a greater Kraken #17504"
+        ]
       },
       {
         "Id": 17510,
@@ -89,7 +104,10 @@
           "North": 17511,
           "East": 17512,
           "West": 17514
-        }
+        },
+        "Contents": [
+          "the Water Elemental #17505"
+        ]
       },
       {
         "Id": 17511,
@@ -97,7 +115,12 @@
         "Connections": {
           "South": 17510,
           "West": 17513
-        }
+        },
+        "Contents": [
+          "the Water Elemental #17505",
+          "the Water Elemental #17505",
+          "Trilless #17506"
+        ]
       },
       {
         "Id": 17512,
@@ -114,7 +137,11 @@
           "East": 17511,
           "South": 17503,
           "West": 17522
-        }
+        },
+        "Contents": [
+          "the Dark Sentinel #17508",
+          "the Light Guardian #17507"
+        ]
       },
       {
         "Id": 17514,
@@ -152,7 +179,10 @@
         "Name": "Behind the Desk",
         "Connections": {
           "East": 17517
-        }
+        },
+        "Contents": [
+          "Shadimar\u0027s Spectre #17509"
+        ]
       },
       {
         "Id": 17519,
@@ -186,7 +216,10 @@
           "East": 17513,
           "South": 17523,
           "West": 17524
-        }
+        },
+        "Contents": [
+          "Carcophan\u0027s Spectre #17510"
+        ]
       },
       {
         "Id": 17523,
@@ -200,7 +233,12 @@
         "Name": "Carcophan\u0027s Study",
         "Connections": {
           "East": 17522
-        }
+        },
+        "Contents": [
+          "the inverse Salamander #17512",
+          "the inverse Salamander #17512",
+          "Carcophan #17511"
+        ]
       },
       {
         "Id": 17525,
@@ -220,6 +258,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

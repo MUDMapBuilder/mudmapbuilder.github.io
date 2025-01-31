@@ -50,7 +50,10 @@
         "Connections": {
           "North": 30705,
           "South": 30703
-        }
+        },
+        "Contents": [
+          "the Lord\u0027s manservant #30703"
+        ]
       },
       {
         "Id": 30705,
@@ -82,7 +85,10 @@
         "Connections": {
           "North": 30707,
           "South": 30709
-        }
+        },
+        "Contents": [
+          "a lady-in-waiting #30710"
+        ]
       },
       {
         "Id": 30709,
@@ -90,7 +96,10 @@
         "Connections": {
           "North": 30708,
           "West": 30722
-        }
+        },
+        "Contents": [
+          "a lady-in-waiting #30709"
+        ]
       },
       {
         "Id": 30710,
@@ -100,7 +109,10 @@
           "East": 30703,
           "South": 30719,
           "West": 30711
-        }
+        },
+        "Contents": [
+          "the Lord of the Castle #30700"
+        ]
       },
       {
         "Id": 30711,
@@ -109,7 +121,11 @@
           "North": 30712,
           "East": 30710,
           "West": 30726
-        }
+        },
+        "Contents": [
+          "a lady-in-waiting #30710",
+          "the Lady\u0027s handmaiden #30702"
+        ]
       },
       {
         "Id": 30712,
@@ -117,7 +133,13 @@
         "Connections": {
           "East": 30713,
           "South": 30711
-        }
+        },
+        "Contents": [
+          "an entertainer #30713",
+          "the Lord\u0027s brother #30705",
+          "the Lady\u0027s drunk brother #30704",
+          "a whore #30712"
+        ]
       },
       {
         "Id": 30713,
@@ -125,7 +147,10 @@
         "Connections": {
           "South": 30710,
           "West": 30712
-        }
+        },
+        "Contents": [
+          "the Lady of the Castle #30701"
+        ]
       },
       {
         "Id": 30714,
@@ -163,7 +188,10 @@
         "Name": "Storage",
         "Connections": {
           "East": 30719
-        }
+        },
+        "Contents": [
+          "a cook #30714"
+        ]
       },
       {
         "Id": 30719,
@@ -172,7 +200,11 @@
           "North": 30710,
           "South": 30783,
           "West": 30718
-        }
+        },
+        "Contents": [
+          "a cook #30714",
+          "a cook #30714"
+        ]
       },
       {
         "Id": 30720,
@@ -188,7 +220,10 @@
         "Connections": {
           "East": 30722,
           "West": 30720
-        }
+        },
+        "Contents": [
+          "a lady-in-waiting #30710"
+        ]
       },
       {
         "Id": 30722,
@@ -243,7 +278,10 @@
         "Name": "Guest Room",
         "Connections": {
           "West": 30729
-        }
+        },
+        "Contents": [
+          "Felice #30718"
+        ]
       },
       {
         "Id": 30729,
@@ -332,7 +370,10 @@
         "Name": "Guest Room",
         "Connections": {
           "North": 30735
-        }
+        },
+        "Contents": [
+          "a visiting scholar #30711"
+        ]
       },
       {
         "Id": 30739,
@@ -346,7 +387,10 @@
         "Name": "Guest Room",
         "Connections": {
           "West": 30733
-        }
+        },
+        "Contents": [
+          "an ale salesman #30716"
+        ]
       },
       {
         "Id": 30741,
@@ -367,7 +411,10 @@
         "Name": "Guest Room",
         "Connections": {
           "East": 30731
-        }
+        },
+        "Contents": [
+          "Alanis #30717"
+        ]
       },
       {
         "Id": 30744,
@@ -626,7 +673,12 @@
         "Name": "Barn",
         "Connections": {
           "South": 30771
-        }
+        },
+        "Contents": [
+          "an impatient soldier #30707",
+          "a soldier #30706",
+          "a bored soldier #30708"
+        ]
       },
       {
         "Id": 30773,
@@ -640,7 +692,10 @@
         "Name": "Stable",
         "Connections": {
           "East": 30771
-        }
+        },
+        "Contents": [
+          "the stable boy #30715"
+        ]
       },
       {
         "Id": 30775,
@@ -726,6 +781,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

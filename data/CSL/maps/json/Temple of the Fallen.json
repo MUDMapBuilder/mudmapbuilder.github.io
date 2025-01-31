@@ -10,7 +10,10 @@
         "Name": "The Gates of the Temple",
         "Connections": {
           "North": 29901
-        }
+        },
+        "Contents": [
+          "The shrouded knight #29900"
+        ]
       },
       {
         "Id": 29901,
@@ -28,7 +31,10 @@
           "East": 29901,
           "South": 29904,
           "West": 29905
-        }
+        },
+        "Contents": [
+          "a guard dragon #29902"
+        ]
       },
       {
         "Id": 29903,
@@ -42,7 +48,10 @@
         "Name": "A Room Seared by Flames",
         "Connections": {
           "North": 29902
-        }
+        },
+        "Contents": [
+          "Quimtir #29901"
+        ]
       },
       {
         "Id": 29905,
@@ -50,7 +59,10 @@
         "Connections": {
           "East": 29902,
           "West": 29906
-        }
+        },
+        "Contents": [
+          "a guard dragon #29902"
+        ]
       },
       {
         "Id": 29906,
@@ -62,6 +74,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

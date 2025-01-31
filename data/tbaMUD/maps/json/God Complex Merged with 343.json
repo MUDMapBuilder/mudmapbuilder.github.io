@@ -8,14 +8,20 @@
         "Name": "The Meeting Room Of The Gods",
         "Connections": {
           "North": 34310
-        }
+        },
+        "Contents": [
+          "the scoreboard mob #1212"
+        ]
       },
       {
         "Id": 1201,
         "Name": "The Inn Of The Gods",
         "Connections": {
           "East": 34307
-        }
+        },
+        "Contents": [
+          "the Immortal Innkeeper #1200"
+        ]
       },
       {
         "Id": 1202,
@@ -41,7 +47,10 @@
         "Name": "The Post Office Of The Gods",
         "Connections": {
           "West": 34307
-        }
+        },
+        "Contents": [
+          "the Immortal Postmaster #1201"
+        ]
       },
       {
         "Id": 1206,
@@ -131,11 +140,15 @@
         "IsExitToOtherArea": true,
         "Connections": {
           "Down": 1293
-        }
+        },
+        "Contents": [
+          "Bishop Chandra #34303"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

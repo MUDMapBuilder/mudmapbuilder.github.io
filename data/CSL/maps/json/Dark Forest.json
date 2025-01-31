@@ -75,7 +75,10 @@
         "Connections": {
           "North": 11007,
           "South": 11009
-        }
+        },
+        "Contents": [
+          "a large grey wolf #11002"
+        ]
       },
       {
         "Id": 11009,
@@ -116,7 +119,10 @@
           "North": 11009,
           "East": 11014,
           "South": 11021
-        }
+        },
+        "Contents": [
+          "a large grey wolf #11002"
+        ]
       },
       {
         "Id": 11014,
@@ -132,7 +138,10 @@
         "Connections": {
           "North": 11014,
           "Down": 11016
-        }
+        },
+        "Contents": [
+          "a large bat #11001"
+        ]
       },
       {
         "Id": 11016,
@@ -140,7 +149,11 @@
         "Connections": {
           "North": 11017,
           "Up": 11015
-        }
+        },
+        "Contents": [
+          "a large bat #11001",
+          "a large bat #11001"
+        ]
       },
       {
         "Id": 11017,
@@ -156,7 +169,11 @@
         "Connections": {
           "East": 11017,
           "Down": 11019
-        }
+        },
+        "Contents": [
+          "a large bat #11001",
+          "a large bat #11001"
+        ]
       },
       {
         "Id": 11019,
@@ -171,7 +188,10 @@
         "Name": "Inside the bear\u0027s den",
         "Connections": {
           "North": 11019
-        }
+        },
+        "Contents": [
+          "the bear #11000"
+        ]
       },
       {
         "Id": 11021,
@@ -179,7 +199,10 @@
         "Connections": {
           "North": 11013,
           "West": 11022
-        }
+        },
+        "Contents": [
+          "a large grey wolf #11002"
+        ]
       },
       {
         "Id": 11022,
@@ -195,7 +218,10 @@
         "Connections": {
           "North": 11022,
           "West": 11024
-        }
+        },
+        "Contents": [
+          "a large grey wolf #11002"
+        ]
       },
       {
         "Id": 11024,
@@ -219,7 +245,10 @@
         "Connections": {
           "South": 11027,
           "West": 11025
-        }
+        },
+        "Contents": [
+          "a large grey wolf #11002"
+        ]
       },
       {
         "Id": 11027,
@@ -349,11 +378,16 @@
         "Connections": {
           "North": 11040,
           "South": 12377
-        }
+        },
+        "Contents": [
+          "an ivory and apricot hatchling dragon #12310",
+          "an obsidian and vermilion hatchling dragon #12309"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

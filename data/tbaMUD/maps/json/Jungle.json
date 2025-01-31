@@ -18,7 +18,10 @@
         "Connections": {
           "North": 29500,
           "South": 29502
-        }
+        },
+        "Contents": [
+          "a really fierce looking lion #29500"
+        ]
       },
       {
         "Id": 29502,
@@ -43,7 +46,10 @@
         "Connections": {
           "East": 29505,
           "West": 29503
-        }
+        },
+        "Contents": [
+          "a gate guard #29501"
+        ]
       },
       {
         "Id": 29505,
@@ -53,28 +59,41 @@
           "East": 29506,
           "South": 29508,
           "West": 29504
-        }
+        },
+        "Contents": [
+          "a cannibal #29502",
+          "a happy cannibal #29503"
+        ]
       },
       {
         "Id": 29506,
         "Name": "The food store",
         "Connections": {
           "West": 29505
-        }
+        },
+        "Contents": [
+          "a woman #29504"
+        ]
       },
       {
         "Id": 29507,
         "Name": "The womans room",
         "Connections": {
           "South": 29505
-        }
+        },
+        "Contents": [
+          "a cannibal woman #29505"
+        ]
       },
       {
         "Id": 29508,
         "Name": "The chiefs room",
         "Connections": {
           "North": 29505
-        }
+        },
+        "Contents": [
+          "the cannibal chief #29506"
+        ]
       },
       {
         "Id": 29509,
@@ -106,7 +125,10 @@
         "Name": "In the trees",
         "Connections": {
           "South": 29511
-        }
+        },
+        "Contents": [
+          "a tree snake #29507"
+        ]
       },
       {
         "Id": 29513,
@@ -114,7 +136,10 @@
         "Connections": {
           "East": 29509,
           "West": 29514
-        }
+        },
+        "Contents": [
+          "a small monkey #29508"
+        ]
       },
       {
         "Id": 29514,
@@ -122,18 +147,28 @@
         "Connections": {
           "North": 29515,
           "East": 29513
-        }
+        },
+        "Contents": [
+          "a large ape #29509",
+          "a female ape #29510",
+          "the ape chief #29511"
+        ]
       },
       {
         "Id": 29515,
         "Name": "North of the meeting place",
         "Connections": {
           "South": 29514
-        }
+        },
+        "Contents": [
+          "a large ape #29509",
+          "a female ape #29510"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

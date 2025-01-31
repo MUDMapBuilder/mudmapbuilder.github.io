@@ -45,7 +45,11 @@
           "East": 26507,
           "West": 26505,
           "Up": 26503
-        }
+        },
+        "Contents": [
+          "a pelican #26500",
+          "a sea otter #26501"
+        ]
       },
       {
         "Id": 26505,
@@ -53,7 +57,11 @@
         "Connections": {
           "East": 26504,
           "West": 26506
-        }
+        },
+        "Contents": [
+          "a seagull #26502",
+          "a sea otter #26501"
+        ]
       },
       {
         "Id": 26506,
@@ -62,7 +70,11 @@
           "East": 26505,
           "West": 26511,
           "Down": 25507
-        }
+        },
+        "Contents": [
+          "a pelican #26500",
+          "a seagull #26502"
+        ]
       },
       {
         "Id": 26507,
@@ -70,7 +82,10 @@
         "Connections": {
           "East": 26508,
           "West": 26504
-        }
+        },
+        "Contents": [
+          "a pelican #26500"
+        ]
       },
       {
         "Id": 26508,
@@ -78,7 +93,11 @@
         "Connections": {
           "East": 26509,
           "West": 26507
-        }
+        },
+        "Contents": [
+          "a seagull #26502",
+          "a seagull #26502"
+        ]
       },
       {
         "Id": 26509,
@@ -151,7 +170,11 @@
         "Connections": {
           "North": 26515,
           "South": 26518
-        }
+        },
+        "Contents": [
+          "a sea otter #26501",
+          "Takker\u0027s Disciple #26512"
+        ]
       },
       {
         "Id": 26518,
@@ -159,7 +182,12 @@
         "Connections": {
           "North": 26517,
           "South": 26519
-        }
+        },
+        "Contents": [
+          "Takker #26511",
+          "Takker\u0027s Disciple #26512",
+          "Takker\u0027s Disciple #26512"
+        ]
       },
       {
         "Id": 26519,
@@ -167,7 +195,11 @@
         "Connections": {
           "North": 26518,
           "South": 26520
-        }
+        },
+        "Contents": [
+          "Takker\u0027s Disciple #26512",
+          "Takker\u0027s Disciple #26512"
+        ]
       },
       {
         "Id": 26520,
@@ -185,7 +217,11 @@
           "East": 26522,
           "West": 26524,
           "Up": 26523
-        }
+        },
+        "Contents": [
+          "the Lighthouse Keeper\u0027s Wife #26508",
+          "Max #26509"
+        ]
       },
       {
         "Id": 26522,
@@ -207,7 +243,10 @@
         "Name": "Lighthouse Keeper\u0027s Daughter\u0027s Bedroom",
         "Connections": {
           "East": 26521
-        }
+        },
+        "Contents": [
+          "the Lighthouse Keeper\u0027s Daughter #26510"
+        ]
       },
       {
         "Id": 26525,
@@ -226,35 +265,50 @@
           "South": 26529,
           "West": 26530,
           "Up": 26525
-        }
+        },
+        "Contents": [
+          "the Lighthouse Keeper #26503"
+        ]
       },
       {
         "Id": 26527,
         "Name": "Keeper\u0027s Playroom",
         "Connections": {
           "South": 26526
-        }
+        },
+        "Contents": [
+          "the Perfect Companion #26507"
+        ]
       },
       {
         "Id": 26528,
         "Name": "Cell",
         "Connections": {
           "West": 26526
-        }
+        },
+        "Contents": [
+          "the hermaphrodite #26504"
+        ]
       },
       {
         "Id": 26529,
         "Name": "Cell",
         "Connections": {
           "North": 26526
-        }
+        },
+        "Contents": [
+          "the Man with Tits #26506"
+        ]
       },
       {
         "Id": 26530,
         "Name": "Cell",
         "Connections": {
           "East": 26526
-        }
+        },
+        "Contents": [
+          "the battered woman #26505"
+        ]
       },
       {
         "Id": 26531,
@@ -286,7 +340,10 @@
         "Name": "In the Kracken\u0027s Den",
         "Connections": {
           "South": 26533
-        }
+        },
+        "Contents": [
+          "the Kracken #26513"
+        ]
       },
       {
         "Id": 26535,
@@ -342,6 +399,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

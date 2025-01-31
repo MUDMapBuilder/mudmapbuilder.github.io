@@ -51,7 +51,10 @@
         "Name": "The watchman\u0027s shack",
         "Connections": {
           "East": 17604
-        }
+        },
+        "Contents": [
+          "the watchman #17600"
+        ]
       },
       {
         "Id": 17606,
@@ -70,7 +73,10 @@
           "North": 17618,
           "East": 17606,
           "West": 17608
-        }
+        },
+        "Contents": [
+          "a hobo #17606"
+        ]
       },
       {
         "Id": 17608,
@@ -79,7 +85,10 @@
           "North": 17619,
           "East": 17607,
           "West": 17609
-        }
+        },
+        "Contents": [
+          "bob the strangler #17611"
+        ]
       },
       {
         "Id": 17609,
@@ -88,7 +97,10 @@
           "North": 17620,
           "East": 17608,
           "West": 17610
-        }
+        },
+        "Contents": [
+          "a hobo #17606"
+        ]
       },
       {
         "Id": 17610,
@@ -105,7 +117,10 @@
         "Connections": {
           "North": 17622,
           "East": 17610
-        }
+        },
+        "Contents": [
+          "a hobo #17606"
+        ]
       },
       {
         "Id": 17612,
@@ -114,7 +129,10 @@
           "North": 17623,
           "East": 17613,
           "West": 17606
-        }
+        },
+        "Contents": [
+          "a hobo #17606"
+        ]
       },
       {
         "Id": 17613,
@@ -132,7 +150,10 @@
           "North": 17625,
           "East": 17615,
           "West": 17613
-        }
+        },
+        "Contents": [
+          "a hobo #17606"
+        ]
       },
       {
         "Id": 17615,
@@ -149,14 +170,22 @@
         "Connections": {
           "North": 17627,
           "West": 17615
-        }
+        },
+        "Contents": [
+          "a hobo #17606"
+        ]
       },
       {
         "Id": 17617,
         "Name": "A boxcar",
         "Connections": {
           "South": 17606
-        }
+        },
+        "Contents": [
+          "a small child #17601",
+          "a sad woman #17602",
+          "a wife beater #17603"
+        ]
       },
       {
         "Id": 17618,
@@ -164,7 +193,10 @@
         "Connections": {
           "North": 17634,
           "South": 17607
-        }
+        },
+        "Contents": [
+          "a racoon #17604"
+        ]
       },
       {
         "Id": 17619,
@@ -179,7 +211,11 @@
         "Name": "An oil tanker",
         "Connections": {
           "South": 17609
-        }
+        },
+        "Contents": [
+          "a small boy #17605",
+          "a small boy #17605"
+        ]
       },
       {
         "Id": 17621,
@@ -203,7 +239,11 @@
         "Connections": {
           "North": 17632,
           "South": 17612
-        }
+        },
+        "Contents": [
+          "a begger #17608",
+          "paul, the hobo #17607"
+        ]
       },
       {
         "Id": 17624,
@@ -211,7 +251,10 @@
         "Connections": {
           "North": 17631,
           "South": 17613
-        }
+        },
+        "Contents": [
+          "an old man #17609"
+        ]
       },
       {
         "Id": 17625,
@@ -233,7 +276,10 @@
         "Connections": {
           "North": 17628,
           "South": 17616
-        }
+        },
+        "Contents": [
+          "the conductor #17610"
+        ]
       },
       {
         "Id": 17628,
@@ -249,7 +295,10 @@
         "Connections": {
           "East": 17628,
           "West": 17630
-        }
+        },
+        "Contents": [
+          "a hobo #17606"
+        ]
       },
       {
         "Id": 17630,
@@ -266,7 +315,10 @@
           "East": 17630,
           "South": 17624,
           "West": 17632
-        }
+        },
+        "Contents": [
+          "a hobo #17606"
+        ]
       },
       {
         "Id": 17632,
@@ -283,7 +335,10 @@
         "Connections": {
           "East": 17632,
           "West": 17634
-        }
+        },
+        "Contents": [
+          "a hobo #17606"
+        ]
       },
       {
         "Id": 17634,
@@ -301,7 +356,10 @@
           "East": 17634,
           "South": 17619,
           "West": 17636
-        }
+        },
+        "Contents": [
+          "a hobo #17606"
+        ]
       },
       {
         "Id": 17636,
@@ -318,7 +376,10 @@
           "East": 17636,
           "South": 17621,
           "West": 17638
-        }
+        },
+        "Contents": [
+          "a hobo #17606"
+        ]
       },
       {
         "Id": 17638,
@@ -340,6 +401,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

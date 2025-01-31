@@ -35,7 +35,11 @@
           "North": 22004,
           "East": 22008,
           "South": 22002
-        }
+        },
+        "Contents": [
+          "a dust bunny #22000",
+          "a dust bunny #22000"
+        ]
       },
       {
         "Id": 22004,
@@ -45,21 +49,30 @@
           "East": 22007,
           "South": 22003,
           "West": 22006
-        }
+        },
+        "Contents": [
+          "a dust bunny #22000"
+        ]
       },
       {
         "Id": 22005,
         "Name": "@WSnuffins\u0027 Dwelling@n",
         "Connections": {
           "South": 22004
-        }
+        },
+        "Contents": [
+          "@WSnuffins@y the mouse@n #22001"
+        ]
       },
       {
         "Id": 22006,
         "Name": "@WThe Cat Corner@n",
         "Connections": {
           "East": 22004
-        }
+        },
+        "Contents": [
+          "@DO@Wre@Do@n the cat #22002"
+        ]
       },
       {
         "Id": 22007,
@@ -67,7 +80,10 @@
         "Connections": {
           "South": 22008,
           "West": 22004
-        }
+        },
+        "Contents": [
+          "a dust bunny #22000"
+        ]
       },
       {
         "Id": 22008,
@@ -78,7 +94,10 @@
           "South": 22010,
           "West": 22003,
           "Up": 22021
-        }
+        },
+        "Contents": [
+          "a blob of @Doven @yscum@n #22004"
+        ]
       },
       {
         "Id": 22009,
@@ -141,7 +160,11 @@
         "Name": "@WInside of a Drawer@n",
         "Connections": {
           "Up": 22014
-        }
+        },
+        "Contents": [
+          "a @Wkitchen @Cpixie@n #22005",
+          "a dust bunny #22000"
+        ]
       },
       {
         "Id": 22017,
@@ -150,14 +173,20 @@
           "East": 22018,
           "Up": 22019,
           "Down": 22010
-        }
+        },
+        "Contents": [
+          "a dust bunny #22000"
+        ]
       },
       {
         "Id": 22018,
         "Name": "@WBehind the Milk@w",
         "Connections": {
           "West": 22017
-        }
+        },
+        "Contents": [
+          "a turkey sandwich #22007"
+        ]
       },
       {
         "Id": 22019,
@@ -172,7 +201,10 @@
         "Name": "@WLair of the @CIce@Dm@Bo@Dn@Bs@Dt@Be@Dr@n",
         "Connections": {
           "West": 22019
-        }
+        },
+        "Contents": [
+          "@cthe @Cice@Dmons@Cter@n #22003"
+        ]
       },
       {
         "Id": 22021,
@@ -181,7 +213,10 @@
           "North": 22024,
           "East": 22022,
           "Down": 22008
-        }
+        },
+        "Contents": [
+          "a @Rspaghetti @Ddemon@n #22006"
+        ]
       },
       {
         "Id": 22022,
@@ -212,11 +247,15 @@
         "Name": "@WOn Top of the Table@n",
         "Connections": {
           "South": 22011
-        }
+        },
+        "Contents": [
+          "a dust bunny #22000"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

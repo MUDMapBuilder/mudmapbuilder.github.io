@@ -60,7 +60,11 @@
         "Name": "Park Cafe",
         "Connections": {
           "West": 3105
-        }
+        },
+        "Contents": [
+          "the Maid #3100",
+          "the Sexton #3101"
+        ]
       },
       {
         "Id": 3107,
@@ -85,14 +89,24 @@
         "Connections": {
           "South": 3115,
           "West": 3108
-        }
+        },
+        "Contents": [
+          "the sparrow #3122"
+        ]
       },
       {
         "Id": 3110,
         "Name": "Cityguard HeadQuarters",
         "Connections": {
           "East": 3111
-        }
+        },
+        "Contents": [
+          "the Chief Guard #3102",
+          "the upset cityguard #3103",
+          "the upset cityguard #3103",
+          "the upset cityguard #3103",
+          "the upset cityguard #3103"
+        ]
       },
       {
         "Id": 3111,
@@ -119,7 +133,10 @@
           "North": 3107,
           "East": 3114,
           "West": 3112
-        }
+        },
+        "Contents": [
+          "the duck #3123"
+        ]
       },
       {
         "Id": 3114,
@@ -127,7 +144,11 @@
         "Connections": {
           "East": 3115,
           "West": 3113
-        }
+        },
+        "Contents": [
+          "the swan #3120",
+          "the duckling #3121"
+        ]
       },
       {
         "Id": 3115,
@@ -136,7 +157,10 @@
           "North": 3109,
           "East": 3116,
           "West": 3114
-        }
+        },
+        "Contents": [
+          "the duck #3123"
+        ]
       },
       {
         "Id": 3116,
@@ -181,7 +205,10 @@
           "South": 3134,
           "West": 3135,
           "Up": 7914
-        }
+        },
+        "Contents": [
+          "the Town Crier #3106"
+        ]
       },
       {
         "Id": 3121,
@@ -322,14 +349,20 @@
         "Connections": {
           "East": 3138,
           "West": 3117
-        }
+        },
+        "Contents": [
+          "the Secretary #3104"
+        ]
       },
       {
         "Id": 3138,
         "Name": "The Mayor\u0027s Office",
         "Connections": {
           "West": 3137
-        }
+        },
+        "Contents": [
+          "the Mayor #3105"
+        ]
       },
       {
         "Id": 3139,
@@ -493,7 +526,10 @@
         "Connections": {
           "North": 3045,
           "South": 3203
-        }
+        },
+        "Contents": [
+          "Captain Stolar #3006"
+        ]
       },
       {
         "Id": 5001,
@@ -507,6 +543,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

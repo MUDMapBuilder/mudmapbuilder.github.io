@@ -34,7 +34,10 @@
         "Connections": {
           "East": 2804,
           "South": 2802
-        }
+        },
+        "Contents": [
+          "the shopkeeper #2802"
+        ]
       },
       {
         "Id": 2804,
@@ -58,7 +61,10 @@
         "Connections": {
           "North": 2807,
           "West": 2805
-        }
+        },
+        "Contents": [
+          "the piglet #2801"
+        ]
       },
       {
         "Id": 2807,
@@ -74,7 +80,10 @@
         "Connections": {
           "North": 2809,
           "West": 2807
-        }
+        },
+        "Contents": [
+          "the teacher #2800"
+        ]
       },
       {
         "Id": 2809,
@@ -125,12 +134,13 @@
       },
       {
         "Id": 2815,
-        "Name": "Welcors furnace",
+        "Name": "Welcors",
         "Connections": {}
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

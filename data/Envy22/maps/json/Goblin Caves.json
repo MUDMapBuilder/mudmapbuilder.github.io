@@ -11,7 +11,10 @@
         "Connections": {
           "South": 5278,
           "Up": 20001
-        }
+        },
+        "Contents": [
+          "The Sentry to the Goblin Caves #20000"
+        ]
       },
       {
         "Id": 20001,
@@ -59,7 +62,10 @@
         "Connections": {
           "West": 20005,
           "Down": 20007
-        }
+        },
+        "Contents": [
+          "An Ancient Wizard #20001"
+        ]
       },
       {
         "Id": 20007,
@@ -67,7 +73,11 @@
         "Connections": {
           "North": 20008,
           "Up": 20006
-        }
+        },
+        "Contents": [
+          "Goblin Soldier #20002",
+          "Goblin Soldier #20003"
+        ]
       },
       {
         "Id": 20008,
@@ -84,7 +94,10 @@
         "Connections": {
           "South": 20010,
           "West": 20008
-        }
+        },
+        "Contents": [
+          "Goblin Soldier #20004"
+        ]
       },
       {
         "Id": 20010,
@@ -99,7 +112,10 @@
         "Name": "Armory",
         "Connections": {
           "West": 20010
-        }
+        },
+        "Contents": [
+          "Goblin Soldier #20005"
+        ]
       },
       {
         "Id": 20012,
@@ -108,7 +124,10 @@
           "North": 20017,
           "South": 20008,
           "West": 20013
-        }
+        },
+        "Contents": [
+          "Goblin Soldier #20006"
+        ]
       },
       {
         "Id": 20013,
@@ -125,21 +144,30 @@
           "North": 20015,
           "East": 20013,
           "West": 20016
-        }
+        },
+        "Contents": [
+          "Goblin Soldier #20008"
+        ]
       },
       {
         "Id": 20015,
         "Name": "Guard Room",
         "Connections": {
           "South": 20014
-        }
+        },
+        "Contents": [
+          "Captain of the Goblin Soldiers #20016"
+        ]
       },
       {
         "Id": 20016,
         "Name": "Dark Cell",
         "Connections": {
           "East": 20014
-        }
+        },
+        "Contents": [
+          "Captive of the Goblins #20017"
+        ]
       },
       {
         "Id": 20017,
@@ -155,7 +183,10 @@
         "Connections": {
           "East": 20019,
           "West": 20017
-        }
+        },
+        "Contents": [
+          "Goblin Soldier #20007"
+        ]
       },
       {
         "Id": 20019,
@@ -180,7 +211,10 @@
           "North": 20020,
           "East": 20026,
           "South": 20022
-        }
+        },
+        "Contents": [
+          "A Goblin Soldier #20009"
+        ]
       },
       {
         "Id": 20022,
@@ -196,7 +230,10 @@
         "Connections": {
           "North": 20022,
           "East": 20024
-        }
+        },
+        "Contents": [
+          "A Goblin Soldier #20010"
+        ]
       },
       {
         "Id": 20024,
@@ -213,7 +250,10 @@
           "North": 20028,
           "West": 20024,
           "Down": 20029
-        }
+        },
+        "Contents": [
+          "A Goblin Soldier #20011"
+        ]
       },
       {
         "Id": 20026,
@@ -229,7 +269,10 @@
         "Connections": {
           "North": 20026,
           "East": 20028
-        }
+        },
+        "Contents": [
+          "A Goblin Soldier #20012"
+        ]
       },
       {
         "Id": 20028,
@@ -245,7 +288,10 @@
         "Connections": {
           "South": 20030,
           "Up": 20025
-        }
+        },
+        "Contents": [
+          "A Goblin Soldier #20013"
+        ]
       },
       {
         "Id": 20030,
@@ -253,7 +299,10 @@
         "Connections": {
           "North": 20029,
           "East": 20031
-        }
+        },
+        "Contents": [
+          "Goblin King #20015"
+        ]
       },
       {
         "Id": 20031,
@@ -261,7 +310,10 @@
         "Connections": {
           "South": 20000,
           "West": 20030
-        }
+        },
+        "Contents": [
+          "A Goblin Soldier #20014"
+        ]
       },
       {
         "Id": 5278,
@@ -276,6 +328,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

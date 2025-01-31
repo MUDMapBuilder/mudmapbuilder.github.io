@@ -349,7 +349,10 @@
         "Name": "The Dock",
         "Connections": {
           "South": 235
-        }
+        },
+        "Contents": [
+          "the sailor #202"
+        ]
       },
       {
         "Id": 240,
@@ -388,7 +391,10 @@
         "Name": "Inside the Cottage",
         "Connections": {
           "East": 243
-        }
+        },
+        "Contents": [
+          "a witch #201"
+        ]
       },
       {
         "Id": 245,
@@ -444,6 +450,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

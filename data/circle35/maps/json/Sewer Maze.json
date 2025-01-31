@@ -16,7 +16,10 @@
         "Connections": {
           "South": 7202,
           "West": 7200
-        }
+        },
+        "Contents": [
+          "the master mindflayer #7200"
+        ]
       },
       {
         "Id": 7202,
@@ -34,7 +37,10 @@
           "North": 7202,
           "East": 7206,
           "South": 7204
-        }
+        },
+        "Contents": [
+          "the senior mindflayer #7201"
+        ]
       },
       {
         "Id": 7204,
@@ -51,7 +57,10 @@
         "Connections": {
           "South": 7206,
           "West": 7202
-        }
+        },
+        "Contents": [
+          "the junior mindflayer #7202"
+        ]
       },
       {
         "Id": 7206,
@@ -68,7 +77,10 @@
         "Connections": {
           "North": 7206,
           "West": 7204
-        }
+        },
+        "Contents": [
+          "the junior mindflayer #7202"
+        ]
       },
       {
         "Id": 7208,
@@ -117,14 +129,20 @@
         "Connections": {
           "East": 7214,
           "South": 7212
-        }
+        },
+        "Contents": [
+          "the ugly wererat #7203"
+        ]
       },
       {
         "Id": 7214,
         "Name": "The End Of The Drain",
         "Connections": {
           "West": 7213
-        }
+        },
+        "Contents": [
+          "the ugly wererat #7203"
+        ]
       },
       {
         "Id": 7215,
@@ -132,7 +150,10 @@
         "Connections": {
           "North": 7210,
           "South": 7216
-        }
+        },
+        "Contents": [
+          "the ugly wererat #7203"
+        ]
       },
       {
         "Id": 7216,
@@ -149,7 +170,10 @@
           "North": 7216,
           "East": 7218,
           "West": 7219
-        }
+        },
+        "Contents": [
+          "the ugly wererat #7203"
+        ]
       },
       {
         "Id": 7218,
@@ -164,7 +188,10 @@
         "Connections": {
           "East": 7217,
           "South": 7220
-        }
+        },
+        "Contents": [
+          "the ugly wererat #7203"
+        ]
       },
       {
         "Id": 7220,
@@ -181,7 +208,10 @@
           "East": 7222,
           "West": 7220,
           "Up": 7129
-        }
+        },
+        "Contents": [
+          "the ugly wererat #7203"
+        ]
       },
       {
         "Id": 7222,
@@ -197,7 +227,10 @@
         "Connections": {
           "North": 7224,
           "West": 7222
-        }
+        },
+        "Contents": [
+          "the ugly wererat #7203"
+        ]
       },
       {
         "Id": 7224,
@@ -213,7 +246,10 @@
         "Name": "The Sewer",
         "Connections": {
           "South": 7224
-        }
+        },
+        "Contents": [
+          "the ugly wererat #7203"
+        ]
       },
       {
         "Id": 7229,
@@ -253,14 +289,21 @@
         "Connections": {
           "East": 7234,
           "South": 7232
-        }
+        },
+        "Contents": [
+          "the ugly wererat #7203",
+          "the ugly wererat #7203"
+        ]
       },
       {
         "Id": 7234,
         "Name": "The Rat\u0027s Lair",
         "Connections": {
           "West": 7233
-        }
+        },
+        "Contents": [
+          "the gigantic rat #7204"
+        ]
       },
       {
         "Id": 7279,
@@ -363,6 +406,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

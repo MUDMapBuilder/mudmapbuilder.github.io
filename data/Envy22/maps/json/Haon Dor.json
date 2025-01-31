@@ -90,7 +90,10 @@
           "North": 6010,
           "South": 6014,
           "West": 6008
-        }
+        },
+        "Contents": [
+          "John the Lumberjack #6000"
+        ]
       },
       {
         "Id": 6010,
@@ -131,7 +134,10 @@
           "North": 6009,
           "East": 6015,
           "West": 6013
-        }
+        },
+        "Contents": [
+          "the brown fox #6005"
+        ]
       },
       {
         "Id": 6015,
@@ -196,14 +202,20 @@
         "Name": "Inside the cave",
         "Connections": {
           "East": 6021
-        }
+        },
+        "Contents": [
+          "the brown bear #6002"
+        ]
       },
       {
         "Id": 6023,
         "Name": "On a small, grassy field",
         "Connections": {
           "South": 6018
-        }
+        },
+        "Contents": [
+          "the fallow deer #6004"
+        ]
       },
       {
         "Id": 6100,
@@ -211,7 +223,10 @@
         "Connections": {
           "East": 6004,
           "West": 6101
-        }
+        },
+        "Contents": [
+          "Shargugh #6115"
+        ]
       },
       {
         "Id": 6101,
@@ -245,7 +260,11 @@
         "Connections": {
           "North": 6101,
           "South": 6105
-        }
+        },
+        "Contents": [
+          "the large, grey wolf #6102",
+          "the large, grey wolf #6102"
+        ]
       },
       {
         "Id": 6105,
@@ -279,7 +298,11 @@
           "North": 6103,
           "South": 6107,
           "West": 6109
-        }
+        },
+        "Contents": [
+          "the large, grey wolf #6102",
+          "the large, grey wolf #6102"
+        ]
       },
       {
         "Id": 6109,
@@ -313,7 +336,11 @@
           "North": 6111,
           "East": 6113,
           "West": 6127
-        }
+        },
+        "Contents": [
+          "the large, black wolf #6103",
+          "the large, black wolf #6103"
+        ]
       },
       {
         "Id": 6113,
@@ -346,7 +373,11 @@
         "Connections": {
           "East": 6117,
           "South": 6115
-        }
+        },
+        "Contents": [
+          "the vicious warg #6100",
+          "the vicious warg #6100"
+        ]
       },
       {
         "Id": 6117,
@@ -363,7 +394,11 @@
         "Connections": {
           "South": 6119,
           "West": 6117
-        }
+        },
+        "Contents": [
+          "the large, black wolf #6103",
+          "the large, black wolf #6103"
+        ]
       },
       {
         "Id": 6119,
@@ -437,7 +472,11 @@
         "Connections": {
           "East": 6112,
           "South": 6126
-        }
+        },
+        "Contents": [
+          "the ferocious warg #6101",
+          "the ferocious warg #6101"
+        ]
       },
       {
         "Id": 6128,
@@ -531,7 +570,10 @@
         "Name": "The cave of the Green Dragon",
         "Connections": {
           "South": 6142
-        }
+        },
+        "Contents": [
+          "the huge, green dragon #6112"
+        ]
       },
       {
         "Id": 6144,
@@ -586,7 +628,10 @@
         "Name": "The cultist temple.",
         "Connections": {
           "North": 6154
-        }
+        },
+        "Contents": [
+          "the elder druid #6116"
+        ]
       },
       {
         "Id": 1100,
@@ -623,7 +668,10 @@
         "Connections": {
           "South": 2803,
           "North": 6124
-        }
+        },
+        "Contents": [
+          "the guardian beast #2800"
+        ]
       },
       {
         "Id": 8301,
@@ -655,6 +703,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

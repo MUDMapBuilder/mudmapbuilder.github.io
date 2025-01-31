@@ -28,7 +28,12 @@
         "Connections": {
           "East": 8305,
           "West": 8302
-        }
+        },
+        "Contents": [
+          "a swamp troll #8301",
+          "a green troll #8302",
+          "an ogre #8303"
+        ]
       },
       {
         "Id": 8304,
@@ -37,7 +42,13 @@
           "North": 8302,
           "East": 8309,
           "South": 8310
-        }
+        },
+        "Contents": [
+          "a green troll #8302",
+          "a huge hairy beast #8306",
+          "a large snake #8310",
+          "a marsh wolf #8314"
+        ]
       },
       {
         "Id": 8305,
@@ -45,21 +56,38 @@
         "Connections": {
           "East": 8306,
           "West": 8303
-        }
+        },
+        "Contents": [
+          "a rather small beast #8307",
+          "the monstrous snake #8309",
+          "a large snake #8310",
+          "a marsh wolf #8314"
+        ]
       },
       {
         "Id": 8306,
         "Name": "An Oozing Bog",
         "Connections": {
           "West": 8305
-        }
+        },
+        "Contents": [
+          "a green troll #8302",
+          "a gnoll #8305",
+          "a marsh wolf #8314"
+        ]
       },
       {
         "Id": 8307,
         "Name": "Swamp Thing\u0027s Lair",
         "Connections": {
           "West": 8308
-        }
+        },
+        "Contents": [
+          "an ogre #8303",
+          "the Swamp Thing #8304",
+          "a marsh wolf #8314",
+          "a marsh giant #8320"
+        ]
       },
       {
         "Id": 8308,
@@ -68,7 +96,12 @@
           "East": 8307,
           "South": 8314,
           "West": 8309
-        }
+        },
+        "Contents": [
+          "a swamp troll #8301",
+          "the Will-O-Wisp #8308",
+          "a marsh wolf #8314"
+        ]
       },
       {
         "Id": 8309,
@@ -77,7 +110,12 @@
           "East": 8308,
           "South": 8311,
           "West": 8304
-        }
+        },
+        "Contents": [
+          "the Marsh Hag #8312",
+          "a marsh wolf #8314",
+          "a marsh giant #8320"
+        ]
       },
       {
         "Id": 8310,
@@ -85,7 +123,12 @@
         "Connections": {
           "North": 8304,
           "South": 8312
-        }
+        },
+        "Contents": [
+          "a huge hairy beast #8306",
+          "the Marsh Hag #8312",
+          "a Death Slaad #8313"
+        ]
       },
       {
         "Id": 8311,
@@ -93,7 +136,11 @@
         "Connections": {
           "North": 8309,
           "South": 8313
-        }
+        },
+        "Contents": [
+          "the monstrous snake #8309",
+          "a marsh giant #8320"
+        ]
       },
       {
         "Id": 8312,
@@ -101,7 +148,11 @@
         "Connections": {
           "North": 8310,
           "East": 8313
-        }
+        },
+        "Contents": [
+          "a shambling mound #8318",
+          "a shambling mound #8318"
+        ]
       },
       {
         "Id": 8313,
@@ -110,7 +161,12 @@
           "North": 8311,
           "East": 8314,
           "West": 8312
-        }
+        },
+        "Contents": [
+          "an ogre #8303",
+          "a rather small beast #8307",
+          "a marsh giant #8320"
+        ]
       },
       {
         "Id": 8314,
@@ -127,7 +183,10 @@
         "Connections": {
           "South": 8316,
           "West": 8314
-        }
+        },
+        "Contents": [
+          "a marsh giant #8320"
+        ]
       },
       {
         "Id": 8316,
@@ -150,7 +209,11 @@
         "Name": "Before the Great Gates.",
         "Connections": {
           "East": 8317
-        }
+        },
+        "Contents": [
+          "a gargoyle #8321",
+          "a gargoyle #8321"
+        ]
       },
       {
         "Id": 6125,
@@ -165,6 +228,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

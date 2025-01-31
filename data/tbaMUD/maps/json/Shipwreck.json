@@ -10,14 +10,20 @@
         "Name": "Old Sailor\u0027s Home",
         "Connections": {
           "West": 25531
-        }
+        },
+        "Contents": [
+          "an old sailor #25505"
+        ]
       },
       {
         "Id": 25501,
         "Name": "Skeleton Room",
         "Connections": {
           "Up": 25514
-        }
+        },
+        "Contents": [
+          "the pile of bones #25506"
+        ]
       },
       {
         "Id": 25507,
@@ -61,7 +67,10 @@
           "North": 25512,
           "South": 25510,
           "Down": 25520
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25512,
@@ -69,7 +78,10 @@
         "Connections": {
           "North": 25513,
           "South": 25511
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25513,
@@ -77,7 +89,10 @@
         "Connections": {
           "North": 25514,
           "South": 25512
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25514,
@@ -85,7 +100,10 @@
         "Connections": {
           "South": 25513,
           "Down": 25501
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25515,
@@ -93,7 +111,10 @@
         "Connections": {
           "North": 25510,
           "South": 25516
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25516,
@@ -101,28 +122,41 @@
         "Connections": {
           "North": 25515,
           "South": 25517
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501",
+          "the ghost of the First Mate #25504"
+        ]
       },
       {
         "Id": 25517,
         "Name": "Stern",
         "Connections": {
           "North": 25516
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25518,
         "Name": "Port Gunwale",
         "Connections": {
           "East": 25510
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25519,
         "Name": "Starboard Gunwale",
         "Connections": {
           "West": 25510
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25520,
@@ -131,7 +165,10 @@
           "North": 25521,
           "South": 25523,
           "Up": 25511
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25521,
@@ -141,7 +178,10 @@
           "East": 25529,
           "South": 25520,
           "West": 25530
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25522,
@@ -149,7 +189,10 @@
         "Connections": {
           "North": 25526,
           "South": 25521
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25523,
@@ -167,49 +210,75 @@
         "Connections": {
           "North": 25523,
           "South": 25525
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25525,
         "Name": "Captain\u0027s Quarters",
         "Connections": {
           "North": 25524
-        }
+        },
+        "Contents": [
+          "the Captain ghost #25502",
+          "a parrot ghost #25500"
+        ]
       },
       {
         "Id": 25526,
         "Name": "Bunk Room",
         "Connections": {
           "South": 25522
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501",
+          "a pirate ghost #25501",
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25527,
         "Name": "Galley and Mess Room",
         "Connections": {
           "East": 25523
-        }
+        },
+        "Contents": [
+          "the ghost cook #25503",
+          "a pirate ghost #25501",
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25528,
         "Name": "The Latrine",
         "Connections": {
           "West": 25523
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25529,
         "Name": "Rowing Room - Starboard Side",
         "Connections": {
           "West": 25521
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25530,
         "Name": "Rowing Room - Port Side",
         "Connections": {
           "East": 25521
-        }
+        },
+        "Contents": [
+          "a pirate ghost #25501"
+        ]
       },
       {
         "Id": 25531,
@@ -227,7 +296,11 @@
           "East": 26505,
           "West": 26511,
           "Down": 25507
-        }
+        },
+        "Contents": [
+          "a pelican #26500",
+          "a seagull #26502"
+        ]
       },
       {
         "Id": 26502,
@@ -242,6 +315,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

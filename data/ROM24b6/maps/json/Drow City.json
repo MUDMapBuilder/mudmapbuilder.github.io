@@ -10,7 +10,10 @@
         "Name": "Mage\u0027s Academy",
         "Connections": {
           "South": 5121
-        }
+        },
+        "Contents": [
+          "The drow master #5105"
+        ]
       },
       {
         "Id": 5121,
@@ -28,7 +31,10 @@
         "Connections": {
           "North": 5121,
           "East": 5101
-        }
+        },
+        "Contents": [
+          "the goblin slave #5100"
+        ]
       },
       {
         "Id": 5123,
@@ -45,14 +51,22 @@
         "Connections": {
           "East": 5125,
           "South": 5123
-        }
+        },
+        "Contents": [
+          "the drow warrior noble #5102",
+          "the drow mage noble #5103",
+          "the drow priestess #5104"
+        ]
       },
       {
         "Id": 5125,
         "Name": "Throne Room",
         "Connections": {
           "West": 5124
-        }
+        },
+        "Contents": [
+          "the matron mother #5107"
+        ]
       },
       {
         "Id": 5126,
@@ -119,7 +133,10 @@
         "Name": "Warrior\u0027s Barracks",
         "Connections": {
           "North": 5132
-        }
+        },
+        "Contents": [
+          "the drow commoner #5101"
+        ]
       },
       {
         "Id": 5134,
@@ -239,7 +256,10 @@
         "Connections": {
           "South": 5145,
           "West": 5149
-        }
+        },
+        "Contents": [
+          "the yochlol #5109"
+        ]
       },
       {
         "Id": 5149,
@@ -253,7 +273,10 @@
         "Name": "Weaponsmaster\u0027s Chamber",
         "Connections": {
           "South": 5129
-        }
+        },
+        "Contents": [
+          "The weapons master #5106"
+        ]
       },
       {
         "Id": 5100,
@@ -271,7 +294,10 @@
           "East": 5100,
           "South": 5102,
           "West": 5122
-        }
+        },
+        "Contents": [
+          "The weapons master #5106"
+        ]
       },
       {
         "Id": 5102,
@@ -296,14 +322,22 @@
         "Connections": {
           "North": 5103,
           "South": 5105
-        }
+        },
+        "Contents": [
+          "the drow warrior noble #5102",
+          "the drow mage noble #5103",
+          "the drow priestess #5104"
+        ]
       },
       {
         "Id": 5105,
         "Name": "Throne Room",
         "Connections": {
           "North": 5104
-        }
+        },
+        "Contents": [
+          "the matron mother #5107"
+        ]
       },
       {
         "Id": 5106,
@@ -329,14 +363,22 @@
         "Connections": {
           "North": 5107,
           "West": 5109
-        }
+        },
+        "Contents": [
+          "the drow warrior noble #5102",
+          "the drow mage noble #5103",
+          "the drow priestess #5104"
+        ]
       },
       {
         "Id": 5109,
         "Name": "Throne Room",
         "Connections": {
           "East": 5108
-        }
+        },
+        "Contents": [
+          "the matron mother #5107"
+        ]
       },
       {
         "Id": 5110,
@@ -353,7 +395,12 @@
         "Connections": {
           "East": 5110,
           "West": 5112
-        }
+        },
+        "Contents": [
+          "the drow warrior noble #5102",
+          "the drow mage noble #5103",
+          "the drow priestess #5104"
+        ]
       },
       {
         "Id": 5112,
@@ -368,7 +415,10 @@
         "Name": "Main Chamber",
         "Connections": {
           "South": 5112
-        }
+        },
+        "Contents": [
+          "the matron mother #5108"
+        ]
       },
       {
         "Id": 5114,
@@ -392,7 +442,10 @@
         "Name": "Cleric Academy",
         "Connections": {
           "East": 5115
-        }
+        },
+        "Contents": [
+          "The drow master #5105"
+        ]
       },
       {
         "Id": 5117,
@@ -408,7 +461,11 @@
         "Name": "Warrior\u0027s Academy",
         "Connections": {
           "South": 5106
-        }
+        },
+        "Contents": [
+          "the drow commoner #5101",
+          "The drow master #5105"
+        ]
       },
       {
         "Id": 5119,
@@ -430,6 +487,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

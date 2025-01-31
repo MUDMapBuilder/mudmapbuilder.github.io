@@ -13,7 +13,10 @@
         "Name": "The South Road",
         "Connections": {
           "South": 10102
-        }
+        },
+        "Contents": [
+          "farmer Bob #10100"
+        ]
       },
       {
         "Id": 10102,
@@ -29,7 +32,10 @@
         "Connections": {
           "North": 10102,
           "West": 10104
-        }
+        },
+        "Contents": [
+          "the reddish brown weasel #10102"
+        ]
       },
       {
         "Id": 10104,
@@ -45,7 +51,10 @@
         "Connections": {
           "North": 10104,
           "South": 10106
-        }
+        },
+        "Contents": [
+          "the fisherman #10105"
+        ]
       },
       {
         "Id": 10106,
@@ -77,7 +86,10 @@
         "Connections": {
           "North": 10108,
           "South": 10110
-        }
+        },
+        "Contents": [
+          "a pillaging bandit #10106"
+        ]
       },
       {
         "Id": 10110,
@@ -93,7 +105,10 @@
         "Connections": {
           "East": 10110,
           "South": 10112
-        }
+        },
+        "Contents": [
+          "a robbed merchant #10107"
+        ]
       },
       {
         "Id": 10112,
@@ -109,7 +124,10 @@
         "Connections": {
           "North": 10112,
           "South": 10114
-        }
+        },
+        "Contents": [
+          "a clairvoyant gypsy #10108"
+        ]
       },
       {
         "Id": 10114,
@@ -125,7 +143,10 @@
         "Connections": {
           "East": 10114,
           "South": 10116
-        }
+        },
+        "Contents": [
+          "a greedy trader #10109"
+        ]
       },
       {
         "Id": 10116,
@@ -141,7 +162,10 @@
         "Connections": {
           "North": 10116,
           "South": 10118
-        }
+        },
+        "Contents": [
+          "the groundhog #10110"
+        ]
       },
       {
         "Id": 10118,
@@ -157,7 +181,10 @@
         "Connections": {
           "North": 10118,
           "East": 10120
-        }
+        },
+        "Contents": [
+          "the wanderer #10111"
+        ]
       },
       {
         "Id": 10120,
@@ -173,7 +200,10 @@
         "Connections": {
           "South": 10122,
           "West": 10120
-        }
+        },
+        "Contents": [
+          "Bubba #10112"
+        ]
       },
       {
         "Id": 10122,
@@ -222,7 +252,10 @@
         "Connections": {
           "East": 10126,
           "South": 10128
-        }
+        },
+        "Contents": [
+          "the fisherman #10105"
+        ]
       },
       {
         "Id": 10128,
@@ -238,7 +271,10 @@
         "Connections": {
           "North": 10130,
           "East": 10128
-        }
+        },
+        "Contents": [
+          "the heifer #10104"
+        ]
       },
       {
         "Id": 10130,
@@ -269,7 +305,10 @@
         "Connections": {
           "North": 10132,
           "South": 10134
-        }
+        },
+        "Contents": [
+          "the calf #10103"
+        ]
       },
       {
         "Id": 10134,
@@ -285,7 +324,10 @@
         "Connections": {
           "South": 10136,
           "West": 10134
-        }
+        },
+        "Contents": [
+          "the reddish brown weasel #10102"
+        ]
       },
       {
         "Id": 10136,
@@ -300,11 +342,15 @@
         "Name": "The South Road",
         "Connections": {
           "North": 10136
-        }
+        },
+        "Contents": [
+          "a lost cow #10101"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

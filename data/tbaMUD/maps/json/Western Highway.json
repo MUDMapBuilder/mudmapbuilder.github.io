@@ -31,7 +31,10 @@
         "Connections": {
           "East": 20002,
           "West": 20004
-        }
+        },
+        "Contents": [
+          "the rabbit #20001"
+        ]
       },
       {
         "Id": 20004,
@@ -72,7 +75,10 @@
         "Connections": {
           "East": 20007,
           "West": 20009
-        }
+        },
+        "Contents": [
+          "a lost adventurer #20000"
+        ]
       },
       {
         "Id": 20009,
@@ -89,7 +95,11 @@
           "East": 20009,
           "South": 20026,
           "West": 20011
-        }
+        },
+        "Contents": [
+          "a bear cub #20003",
+          "the fawn #20002"
+        ]
       },
       {
         "Id": 20011,
@@ -106,7 +116,10 @@
           "North": 20018,
           "East": 20011,
           "West": 20013
-        }
+        },
+        "Contents": [
+          "a bear cub #20003"
+        ]
       },
       {
         "Id": 20013,
@@ -114,7 +127,10 @@
         "Connections": {
           "East": 20012,
           "West": 20014
-        }
+        },
+        "Contents": [
+          "a bear cub #20003"
+        ]
       },
       {
         "Id": 20014,
@@ -122,7 +138,10 @@
         "Connections": {
           "East": 20013,
           "West": 20015
-        }
+        },
+        "Contents": [
+          "the fawn #20002"
+        ]
       },
       {
         "Id": 20015,
@@ -131,7 +150,10 @@
           "East": 20014,
           "South": 20039,
           "West": 20016
-        }
+        },
+        "Contents": [
+          "the missionary #20004"
+        ]
       },
       {
         "Id": 20016,
@@ -139,14 +161,20 @@
         "Connections": {
           "East": 20015,
           "West": 20017
-        }
+        },
+        "Contents": [
+          "an angry black bear #20006"
+        ]
       },
       {
         "Id": 20017,
         "Name": "Western Highway",
         "Connections": {
           "East": 20016
-        }
+        },
+        "Contents": [
+          "the soaked captain #20011"
+        ]
       },
       {
         "Id": 20018,
@@ -170,7 +198,10 @@
         "Connections": {
           "North": 20021,
           "South": 20019
-        }
+        },
+        "Contents": [
+          "an angry black bear #20006"
+        ]
       },
       {
         "Id": 20021,
@@ -194,7 +225,10 @@
         "Connections": {
           "North": 20024,
           "South": 20022
-        }
+        },
+        "Contents": [
+          "an angry black bear #20006"
+        ]
       },
       {
         "Id": 20024,
@@ -209,7 +243,10 @@
         "Name": "Dirt Road",
         "Connections": {
           "South": 20024
-        }
+        },
+        "Contents": [
+          "a woodsman #20005"
+        ]
       },
       {
         "Id": 20026,
@@ -225,7 +262,10 @@
         "Connections": {
           "North": 20026,
           "West": 20028
-        }
+        },
+        "Contents": [
+          "the red fox #20009"
+        ]
       },
       {
         "Id": 20028,
@@ -233,7 +273,10 @@
         "Connections": {
           "East": 20027,
           "South": 20029
-        }
+        },
+        "Contents": [
+          "Talbath, the trapper #20008"
+        ]
       },
       {
         "Id": 20029,
@@ -257,7 +300,10 @@
         "Connections": {
           "North": 20030,
           "South": 20032
-        }
+        },
+        "Contents": [
+          "the red fox #20009"
+        ]
       },
       {
         "Id": 20032,
@@ -281,7 +327,11 @@
         "Connections": {
           "South": 20035,
           "West": 20033
-        }
+        },
+        "Contents": [
+          "Jaron, the lunatic #20010",
+          "the red fox #20009"
+        ]
       },
       {
         "Id": 20035,
@@ -326,11 +376,15 @@
         "Name": "Sairith\u0027s Trading Post",
         "Connections": {
           "South": 20007
-        }
+        },
+        "Contents": [
+          "Sairith, the fur trader #20007"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

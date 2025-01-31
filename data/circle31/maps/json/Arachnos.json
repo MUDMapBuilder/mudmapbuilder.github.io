@@ -8,7 +8,10 @@
         "Connections": {
           "North": 6302,
           "South": 6132
-        }
+        },
+        "Contents": [
+          "the young spider #6301"
+        ]
       },
       {
         "Id": 6302,
@@ -25,7 +28,10 @@
         "Name": "The Wasp Hive",
         "Connections": {
           "East": 6302
-        }
+        },
+        "Contents": [
+          "the queen wasp #6305"
+        ]
       },
       {
         "Id": 6304,
@@ -33,7 +39,10 @@
         "Connections": {
           "East": 6305,
           "South": 6302
-        }
+        },
+        "Contents": [
+          "the young spider #6301"
+        ]
       },
       {
         "Id": 6305,
@@ -49,7 +58,11 @@
         "Connections": {
           "South": 6307,
           "Down": 6305
-        }
+        },
+        "Contents": [
+          "the young spider #6301",
+          "the young spider #6301"
+        ]
       },
       {
         "Id": 6307,
@@ -67,7 +80,14 @@
           "East": 6306,
           "South": 6305,
           "West": 6309
-        }
+        },
+        "Contents": [
+          "the slave #6308",
+          "the slave #6308",
+          "the slave #6308",
+          "the slave #6308",
+          "the slave #6308"
+        ]
       },
       {
         "Id": 6309,
@@ -107,7 +127,10 @@
         "Name": "The Wolf Spider Lair",
         "Connections": {
           "East": 6312
-        }
+        },
+        "Contents": [
+          "the wolf spider #6303"
+        ]
       },
       {
         "Id": 6320,
@@ -124,7 +147,10 @@
           "East": 6320,
           "South": 6323,
           "Down": 6322
-        }
+        },
+        "Contents": [
+          "the drone spider #6306"
+        ]
       },
       {
         "Id": 6322,
@@ -171,7 +197,10 @@
         "Connections": {
           "North": 6328,
           "Down": 6326
-        }
+        },
+        "Contents": [
+          "the quasit #6309"
+        ]
       },
       {
         "Id": 6328,
@@ -185,7 +214,11 @@
         "Name": "The Young Wormkin\u0027s Crib",
         "Connections": {
           "Up": 6331
-        }
+        },
+        "Contents": [
+          "the drone spider #6306",
+          "the young wormkin #6316"
+        ]
       },
       {
         "Id": 6331,
@@ -195,7 +228,10 @@
           "East": 6332,
           "South": 6333,
           "West": 6334
-        }
+        },
+        "Contents": [
+          "the drone spider #6306"
+        ]
       },
       {
         "Id": 6332,
@@ -204,7 +240,10 @@
           "East": 6331,
           "South": 6335,
           "West": 6333
-        }
+        },
+        "Contents": [
+          "the orc #6304"
+        ]
       },
       {
         "Id": 6333,
@@ -213,7 +252,10 @@
           "East": 6331,
           "South": 6334,
           "West": 6335
-        }
+        },
+        "Contents": [
+          "the ethereal spider #6307"
+        ]
       },
       {
         "Id": 6334,
@@ -228,7 +270,10 @@
         "Connections": {
           "East": 6336,
           "West": 6331
-        }
+        },
+        "Contents": [
+          "the ethereal spider #6307"
+        ]
       },
       {
         "Id": 6336,
@@ -244,7 +289,10 @@
         "Name": "The Elder Wormkin\u0027s Room",
         "Connections": {
           "Down": 6331
-        }
+        },
+        "Contents": [
+          "the elder wormkin #6317"
+        ]
       },
       {
         "Id": 6341,
@@ -260,7 +308,10 @@
         "Name": "The Bird Spider\u0027s Lair",
         "Connections": {
           "Down": 6331
-        }
+        },
+        "Contents": [
+          "the bird spider #6310"
+        ]
       },
       {
         "Id": 6345,
@@ -294,7 +345,10 @@
         "Name": "The Ki-Rin Chamber",
         "Connections": {
           "North": 6347
-        }
+        },
+        "Contents": [
+          "the Ki-Rin #6315"
+        ]
       },
       {
         "Id": 6355,
@@ -309,7 +363,10 @@
         "Name": "Yevaud\u0027s Lair",
         "Connections": {
           "South": 6355
-        }
+        },
+        "Contents": [
+          "Yevaud #6302"
+        ]
       },
       {
         "Id": 6365,
@@ -333,7 +390,10 @@
         "Name": "The Guardian\u0027s Room",
         "Connections": {
           "North": 6368
-        }
+        },
+        "Contents": [
+          "the guardian #6313"
+        ]
       },
       {
         "Id": 6368,
@@ -355,7 +415,10 @@
         "Name": "The Donjonkeep",
         "Connections": {
           "East": 6371
-        }
+        },
+        "Contents": [
+          "the Donjonkeeper #6312"
+        ]
       },
       {
         "Id": 6371,
@@ -379,7 +442,10 @@
         "Connections": {
           "North": 6372,
           "South": 6380
-        }
+        },
+        "Contents": [
+          "the hermit #6311"
+        ]
       },
       {
         "Id": 6380,
@@ -414,7 +480,10 @@
         "Name": "The Lair Of Arachnos",
         "Connections": {
           "South": 6392
-        }
+        },
+        "Contents": [
+          "Arachnos #6314"
+        ]
       },
       {
         "Id": 6132,
@@ -429,6 +498,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

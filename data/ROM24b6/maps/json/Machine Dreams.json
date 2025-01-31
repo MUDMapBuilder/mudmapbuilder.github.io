@@ -391,7 +391,10 @@
       {
         "Id": 8699,
         "Name": "The Void",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "the keeper #8600"
+        ]
       },
       {
         "Id": 3050,
@@ -400,11 +403,15 @@
         "Connections": {
           "North": 3046,
           "Up": 8604
-        }
+        },
+        "Contents": [
+          "the sailor #3007"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

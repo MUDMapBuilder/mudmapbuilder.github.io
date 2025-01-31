@@ -68,7 +68,11 @@
         "Connections": {
           "North": 26308,
           "South": 26306
-        }
+        },
+        "Contents": [
+          "Ernie #26300",
+          "Sandy #26301"
+        ]
       },
       {
         "Id": 26308,
@@ -76,14 +80,21 @@
         "Connections": {
           "South": 26307,
           "Up": 26309
-        }
+        },
+        "Contents": [
+          "Patty #26302",
+          "a cow #26304"
+        ]
       },
       {
         "Id": 26309,
         "Name": "Hay Loft",
         "Connections": {
           "Down": 26308
-        }
+        },
+        "Contents": [
+          "the tramp #26303"
+        ]
       },
       {
         "Id": 26310,
@@ -126,7 +137,10 @@
         "Connections": {
           "South": 26315,
           "West": 26313
-        }
+        },
+        "Contents": [
+          "the farmhand #26306"
+        ]
       },
       {
         "Id": 26315,
@@ -134,7 +148,10 @@
         "Connections": {
           "North": 26314,
           "West": 26316
-        }
+        },
+        "Contents": [
+          "a tractor #26307"
+        ]
       },
       {
         "Id": 26316,
@@ -142,14 +159,20 @@
         "Connections": {
           "North": 26313,
           "East": 26315
-        }
+        },
+        "Contents": [
+          "the farmhand #26306"
+        ]
       },
       {
         "Id": 26317,
         "Name": "Girschwyn\u0027s Home",
         "Connections": {
           "East": 26313
-        }
+        },
+        "Contents": [
+          "Girschwyn #26305"
+        ]
       },
       {
         "Id": 26318,
@@ -182,7 +205,10 @@
         "Connections": {
           "East": 26320,
           "West": 26322
-        }
+        },
+        "Contents": [
+          "a frog #26311"
+        ]
       },
       {
         "Id": 26322,
@@ -199,7 +225,10 @@
         "Name": "Dock",
         "Connections": {
           "South": 26322
-        }
+        },
+        "Contents": [
+          "Erik #26310"
+        ]
       },
       {
         "Id": 26324,
@@ -209,14 +238,20 @@
           "East": 26325,
           "South": 26326,
           "West": 26327
-        }
+        },
+        "Contents": [
+          "Krandle #26309"
+        ]
       },
       {
         "Id": 26325,
         "Name": "Corn Field",
         "Connections": {
           "West": 26324
-        }
+        },
+        "Contents": [
+          "a frog #26311"
+        ]
       },
       {
         "Id": 26326,
@@ -238,7 +273,10 @@
         "Connections": {
           "East": 26322,
           "West": 26329
-        }
+        },
+        "Contents": [
+          "a frog #26311"
+        ]
       },
       {
         "Id": 26329,
@@ -255,7 +293,10 @@
           "North": 26331,
           "South": 26329,
           "West": 26337
-        }
+        },
+        "Contents": [
+          "a frog #26311"
+        ]
       },
       {
         "Id": 26331,
@@ -271,7 +312,10 @@
         "Connections": {
           "North": 26333,
           "West": 26331
-        }
+        },
+        "Contents": [
+          "a frog #26311"
+        ]
       },
       {
         "Id": 26333,
@@ -296,7 +340,10 @@
         "Connections": {
           "North": 26334,
           "East": 26336
-        }
+        },
+        "Contents": [
+          "a frog #26311"
+        ]
       },
       {
         "Id": 26336,
@@ -330,21 +377,35 @@
           "East": 26340,
           "South": 26338,
           "West": 26341
-        }
+        },
+        "Contents": [
+          "Suzarre the Pig Woman #26314"
+        ]
       },
       {
         "Id": 26340,
         "Name": "Chicken Yard",
         "Connections": {
           "West": 26339
-        }
+        },
+        "Contents": [
+          "a chicken #26316",
+          "a chicken #26316",
+          "a feeder #26318"
+        ]
       },
       {
         "Id": 26341,
         "Name": "Pig Wallows",
         "Connections": {
           "East": 26339
-        }
+        },
+        "Contents": [
+          "a pig #26315",
+          "a pig #26315",
+          "a pig #26315",
+          "the slopper #26317"
+        ]
       },
       {
         "Id": 26342,
@@ -481,7 +542,10 @@
         "Connections": {
           "East": 25752,
           "West": 26300
-        }
+        },
+        "Contents": [
+          "one of the town folk of Jareth #25770"
+        ]
       },
       {
         "Id": 25317,
@@ -490,7 +554,10 @@
         "Connections": {
           "North": 26342,
           "South": 25316
-        }
+        },
+        "Contents": [
+          "an MoS soldier #25302"
+        ]
       },
       {
         "Id": 26600,
@@ -504,6 +571,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

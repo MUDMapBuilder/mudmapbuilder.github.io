@@ -15,7 +15,10 @@
         "Name": "Near the Shore",
         "Connections": {
           "West": 8305
-        }
+        },
+        "Contents": [
+          "a small crab #8319"
+        ]
       },
       {
         "Id": 8302,
@@ -127,7 +130,12 @@
           "East": 8305,
           "South": 8314,
           "West": 8320
-        }
+        },
+        "Contents": [
+          "a small fish #8301",
+          "a large fish #8302",
+          "a moray eel #8303"
+        ]
       },
       {
         "Id": 8314,
@@ -447,7 +455,11 @@
           "East": 8337,
           "South": 8346,
           "West": 8363
-        }
+        },
+        "Contents": [
+          "a small fish #8301",
+          "a large fish #8302"
+        ]
       },
       {
         "Id": 8346,
@@ -618,7 +630,10 @@
           "East": 8363,
           "South": 8355,
           "West": 8361
-        }
+        },
+        "Contents": [
+          "a Pirate\u0027s Ship #8305"
+        ]
       },
       {
         "Id": 8363,
@@ -658,7 +673,10 @@
           "East": 8367,
           "South": 8366,
           "West": 8373
-        }
+        },
+        "Contents": [
+          "a Great White Shark #8304"
+        ]
       },
       {
         "Id": 8367,
@@ -728,14 +746,21 @@
           "East": 8365,
           "South": 8373,
           "West": 8373
-        }
+        },
+        "Contents": [
+          "a small fish #8301",
+          "a large fish #8302"
+        ]
       },
       {
         "Id": 8374,
         "Name": "The Bow of a Pirate\u0027s Ship",
         "Connections": {
           "South": 8376
-        }
+        },
+        "Contents": [
+          "the navigator #8306"
+        ]
       },
       {
         "Id": 8375,
@@ -795,7 +820,11 @@
         "Name": "The Captain\u0027s Quarters",
         "Connections": {
           "North": 8378
-        }
+        },
+        "Contents": [
+          "Glumgold the Pirate #8311",
+          "Polly the Parrot #8313"
+        ]
       },
       {
         "Id": 8382,
@@ -803,7 +832,10 @@
         "Connections": {
           "North": 8379,
           "West": 8383
-        }
+        },
+        "Contents": [
+          "the cabin boy #8307"
+        ]
       },
       {
         "Id": 8383,
@@ -822,7 +854,10 @@
           "West": 8399,
           "Up": 8383,
           "Down": 8394
-        }
+        },
+        "Contents": [
+          "a drunken pirate #8310"
+        ]
       },
       {
         "Id": 8385,
@@ -866,7 +901,10 @@
           "East": 8387,
           "South": 8399,
           "Down": 8395
-        }
+        },
+        "Contents": [
+          "a drunken pirate #8309"
+        ]
       },
       {
         "Id": 8394,
@@ -875,7 +913,10 @@
           "North": 8392,
           "South": 8392,
           "Up": 8384
-        }
+        },
+        "Contents": [
+          "a pirate guard #8308"
+        ]
       },
       {
         "Id": 8395,
@@ -896,14 +937,20 @@
         "Name": "On a Fishing Boat",
         "Connections": {
           "North": 8398
-        }
+        },
+        "Contents": [
+          "Tai Ho #8397"
+        ]
       },
       {
         "Id": 8398,
         "Name": "The Bow of a Fishing Boat",
         "Connections": {
           "South": 8397
-        }
+        },
+        "Contents": [
+          "Yam Koo #8398"
+        ]
       },
       {
         "Id": 8399,
@@ -916,6 +963,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

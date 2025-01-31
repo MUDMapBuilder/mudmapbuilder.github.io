@@ -29,7 +29,10 @@
         "Connections": {
           "North": 7404,
           "East": 7402
-        }
+        },
+        "Contents": [
+          "a grey dove #7400"
+        ]
       },
       {
         "Id": 7404,
@@ -37,7 +40,11 @@
         "Connections": {
           "North": 7405,
           "South": 7403
-        }
+        },
+        "Contents": [
+          "the disheveled boy #7401",
+          "the scrawny little girl #7402"
+        ]
       },
       {
         "Id": 7405,
@@ -53,7 +60,10 @@
         "Connections": {
           "North": 7407,
           "South": 7405
-        }
+        },
+        "Contents": [
+          "a squat groundskeeper #7403"
+        ]
       },
       {
         "Id": 7407,
@@ -69,7 +79,10 @@
         "Connections": {
           "North": 7409,
           "South": 7407
-        }
+        },
+        "Contents": [
+          "the graverobber #7404"
+        ]
       },
       {
         "Id": 7409,
@@ -85,7 +98,10 @@
         "Connections": {
           "North": 7411,
           "South": 7409
-        }
+        },
+        "Contents": [
+          "the angry young man #7405"
+        ]
       },
       {
         "Id": 7411,
@@ -102,7 +118,10 @@
           "East": 7421,
           "South": 7413,
           "West": 7411
-        }
+        },
+        "Contents": [
+          "the distressed mother #7406"
+        ]
       },
       {
         "Id": 7413,
@@ -118,7 +137,10 @@
         "Connections": {
           "North": 7413,
           "South": 7415
-        }
+        },
+        "Contents": [
+          "a busy groundskeeper #7407"
+        ]
       },
       {
         "Id": 7415,
@@ -134,7 +156,10 @@
         "Connections": {
           "North": 7415,
           "East": 7417
-        }
+        },
+        "Contents": [
+          "an old woman #7408"
+        ]
       },
       {
         "Id": 7417,
@@ -143,7 +168,10 @@
           "North": 7418,
           "East": 7426,
           "West": 7416
-        }
+        },
+        "Contents": [
+          "the head groundskeeper #7409"
+        ]
       },
       {
         "Id": 7418,
@@ -167,7 +195,10 @@
         "Connections": {
           "North": 7421,
           "South": 7419
-        }
+        },
+        "Contents": [
+          "a tawny owl #7410"
+        ]
       },
       {
         "Id": 7421,
@@ -175,7 +206,10 @@
         "Connections": {
           "South": 7420,
           "West": 7412
-        }
+        },
+        "Contents": [
+          "a mourner #7417"
+        ]
       },
       {
         "Id": 7422,
@@ -192,7 +226,10 @@
           "North": 7422,
           "East": 7430,
           "South": 7424
-        }
+        },
+        "Contents": [
+          "the pickpocket #7412"
+        ]
       },
       {
         "Id": 7424,
@@ -219,28 +256,40 @@
           "North": 7425,
           "East": 7427,
           "West": 7417
-        }
+        },
+        "Contents": [
+          "the ancient groundskeeper #7411"
+        ]
       },
       {
         "Id": 7427,
         "Name": "The Alchemist\u0027s Crypt",
         "Connections": {
           "West": 7426
-        }
+        },
+        "Contents": [
+          "the alchemist\u0027s shade #7414"
+        ]
       },
       {
         "Id": 7428,
         "Name": "The Lord\u0027s Crypt",
         "Connections": {
           "West": 7425
-        }
+        },
+        "Contents": [
+          "Lord Mycea\u0027s skeleton #7415"
+        ]
       },
       {
         "Id": 7429,
         "Name": "The Halfling Cleric\u0027s Crypt",
         "Connections": {
           "West": 7424
-        }
+        },
+        "Contents": [
+          "Fennywen\u0027s ghost #7416"
+        ]
       },
       {
         "Id": 7430,
@@ -255,7 +304,10 @@
         "Name": "The Pyre",
         "Connections": {
           "West": 7422
-        }
+        },
+        "Contents": [
+          "the badly burned zombie #7413"
+        ]
       },
       {
         "Id": 7432,
@@ -267,6 +319,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

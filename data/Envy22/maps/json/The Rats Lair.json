@@ -21,7 +21,10 @@
           "East": 3806,
           "South": 3803,
           "West": 3805
-        }
+        },
+        "Contents": [
+          "a small rat #3801"
+        ]
       },
       {
         "Id": 3803,
@@ -55,7 +58,10 @@
         "Name": "A Small Storage Room",
         "Connections": {
           "West": 3802
-        }
+        },
+        "Contents": [
+          "a wererat #3806"
+        ]
       },
       {
         "Id": 3807,
@@ -69,7 +75,10 @@
         "Name": "A Small Storage Room",
         "Connections": {
           "West": 3803
-        }
+        },
+        "Contents": [
+          "a rat #3804"
+        ]
       },
       {
         "Id": 3809,
@@ -83,7 +92,10 @@
         "Name": "A Small Storage Room",
         "Connections": {
           "West": 3804
-        }
+        },
+        "Contents": [
+          "a small rat #3801"
+        ]
       },
       {
         "Id": 3811,
@@ -130,21 +142,32 @@
         "Name": "A Storage Room",
         "Connections": {
           "East": 3811
-        }
+        },
+        "Contents": [
+          "a wererat guard #3807",
+          "a wererat guard #3807"
+        ]
       },
       {
         "Id": 3816,
         "Name": "A Storage Room",
         "Connections": {
           "West": 3811
-        }
+        },
+        "Contents": [
+          "a wererat guard #3807",
+          "a wererat guard #3807"
+        ]
       },
       {
         "Id": 3817,
         "Name": "A Bedroom",
         "Connections": {
           "East": 3812
-        }
+        },
+        "Contents": [
+          "a rat #3804"
+        ]
       },
       {
         "Id": 3818,
@@ -158,7 +181,10 @@
         "Name": "A Bedroom",
         "Connections": {
           "East": 3813
-        }
+        },
+        "Contents": [
+          "the green Ooze #3817"
+        ]
       },
       {
         "Id": 3820,
@@ -188,14 +214,22 @@
           "South": 3814,
           "Up": 3824,
           "Down": 3825
-        }
+        },
+        "Contents": [
+          "a large rat #3805"
+        ]
       },
       {
         "Id": 3824,
         "Name": "A Meeting Room",
         "Connections": {
           "Down": 3823
-        }
+        },
+        "Contents": [
+          "a wererat #3808",
+          "a wererat #3808",
+          "a wererat #3808"
+        ]
       },
       {
         "Id": 3825,
@@ -213,7 +247,10 @@
           "East": 3827,
           "South": 3829,
           "West": 3828
-        }
+        },
+        "Contents": [
+          "a firedrake #3809"
+        ]
       },
       {
         "Id": 3827,
@@ -227,7 +264,12 @@
         "Name": "The Leader\u0027s Quarters",
         "Connections": {
           "East": 3826
-        }
+        },
+        "Contents": [
+          "the wererat leader #3810",
+          "a large rat #3811",
+          "a large rat #3811"
+        ]
       },
       {
         "Id": 3829,
@@ -244,14 +286,22 @@
           "North": 3829,
           "East": 3832,
           "West": 3831
-        }
+        },
+        "Contents": [
+          "a wererat slavemaster #3812"
+        ]
       },
       {
         "Id": 3831,
         "Name": "A Large Cage",
         "Connections": {
           "East": 3830
-        }
+        },
+        "Contents": [
+          "a human slave #3813",
+          "a human slave #3813",
+          "a human slave #3813"
+        ]
       },
       {
         "Id": 3832,
@@ -283,7 +333,10 @@
         "Name": "An End of the Tunnel",
         "Connections": {
           "West": 3833
-        }
+        },
+        "Contents": [
+          "a human slave #3814"
+        ]
       },
       {
         "Id": 3836,
@@ -299,7 +352,10 @@
         "Connections": {
           "North": 3836,
           "South": 3838
-        }
+        },
+        "Contents": [
+          "a human slave #3814"
+        ]
       },
       {
         "Id": 3838,
@@ -324,21 +380,31 @@
           "North": 3841,
           "East": 3839,
           "South": 3842
-        }
+        },
+        "Contents": [
+          "the mortal Hatchet #3815",
+          "the mortal Icaza #3816"
+        ]
       },
       {
         "Id": 3841,
         "Name": "Hatchet\u0027s Study",
         "Connections": {
           "South": 3840
-        }
+        },
+        "Contents": [
+          "Sammy #3803"
+        ]
       },
       {
         "Id": 3842,
         "Name": "Icaza\u0027s Study",
         "Connections": {
           "North": 3840
-        }
+        },
+        "Contents": [
+          "Snigger #3802"
+        ]
       },
       {
         "Id": 3899,
@@ -355,11 +421,16 @@
           "South": 3027,
           "West": 3025,
           "Down": 3801
-        }
+        },
+        "Contents": [
+          "the vagabond #3063",
+          "an alley cat #3066"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

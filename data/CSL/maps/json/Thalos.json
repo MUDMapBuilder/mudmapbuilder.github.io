@@ -50,7 +50,10 @@
           "North": 60711,
           "South": 60703,
           "West": 60705
-        }
+        },
+        "Contents": [
+          "The lamia #60701"
+        ]
       },
       {
         "Id": 60705,
@@ -58,7 +61,10 @@
         "Connections": {
           "East": 60704,
           "South": 60750
-        }
+        },
+        "Contents": [
+          "The lamia #60701"
+        ]
       },
       {
         "Id": 60706,
@@ -161,7 +167,10 @@
           "North": 60717,
           "South": 60715,
           "West": 17223
-        }
+        },
+        "Contents": [
+          "The lamia #60701"
+        ]
       },
       {
         "Id": 60717,
@@ -170,7 +179,10 @@
           "North": 60708,
           "East": 60720,
           "South": 60716
-        }
+        },
+        "Contents": [
+          "The horned lizard #60707"
+        ]
       },
       {
         "Id": 60718,
@@ -178,14 +190,21 @@
         "Connections": {
           "East": 60714,
           "West": 60715
-        }
+        },
+        "Contents": [
+          "The lamia #60701"
+        ]
       },
       {
         "Id": 60719,
         "Name": "The guild house",
         "Connections": {
           "East": 60713
-        }
+        },
+        "Contents": [
+          "The lamia #60701",
+          "The mimic #60704"
+        ]
       },
       {
         "Id": 60720,
@@ -193,7 +212,10 @@
         "Connections": {
           "North": 60707,
           "West": 60717
-        }
+        },
+        "Contents": [
+          "The lamia #60701"
+        ]
       },
       {
         "Id": 60721,
@@ -226,7 +248,10 @@
           "East": 60728,
           "South": 60723,
           "Up": 60746
-        }
+        },
+        "Contents": [
+          "The lamia #60701"
+        ]
       },
       {
         "Id": 60725,
@@ -241,14 +266,21 @@
         "Name": "A ruined clay dwelling",
         "Connections": {
           "East": 60710
-        }
+        },
+        "Contents": [
+          "The lamia #60701",
+          "The mimic #60703"
+        ]
       },
       {
         "Id": 60727,
         "Name": "A collapsed stone dwelling",
         "Connections": {
           "East": 60711
-        }
+        },
+        "Contents": [
+          "The horned lizard #60707"
+        ]
       },
       {
         "Id": 60728,
@@ -263,7 +295,10 @@
         "Name": "An abandoned shop",
         "Connections": {
           "North": 60714
-        }
+        },
+        "Contents": [
+          "The mimic #60702"
+        ]
       },
       {
         "Id": 60730,
@@ -288,7 +323,11 @@
           "East": 60733,
           "South": 60731,
           "West": 60712
-        }
+        },
+        "Contents": [
+          "The lamia #60701",
+          "The horned lizard #60707"
+        ]
       },
       {
         "Id": 60733,
@@ -304,7 +343,10 @@
         "Connections": {
           "North": 60733,
           "West": 60731
-        }
+        },
+        "Contents": [
+          "The lamia #60701"
+        ]
       },
       {
         "Id": 60735,
@@ -318,7 +360,11 @@
         "Name": "A collapsed home",
         "Connections": {
           "South": 60702
-        }
+        },
+        "Contents": [
+          "The lamia #60701",
+          "The mimic #60706"
+        ]
       },
       {
         "Id": 60737,
@@ -334,7 +380,10 @@
         "Name": "A small shack",
         "Connections": {
           "West": 60737
-        }
+        },
+        "Contents": [
+          "The mimic #60705"
+        ]
       },
       {
         "Id": 60739,
@@ -350,7 +399,10 @@
         "Connections": {
           "North": 60741,
           "South": 60739
-        }
+        },
+        "Contents": [
+          "The lamia #60701"
+        ]
       },
       {
         "Id": 60741,
@@ -384,7 +436,10 @@
         "Connections": {
           "East": 60742,
           "West": 60710
-        }
+        },
+        "Contents": [
+          "The horned lizard #60707"
+        ]
       },
       {
         "Id": 60745,
@@ -396,21 +451,30 @@
         "Name": "The north-west watchtower",
         "Connections": {
           "Down": 60724
-        }
+        },
+        "Contents": [
+          "The stone golem #60708"
+        ]
       },
       {
         "Id": 60747,
         "Name": "The south-west watchtower",
         "Connections": {
           "Down": 60715
-        }
+        },
+        "Contents": [
+          "The stone golem #60708"
+        ]
       },
       {
         "Id": 60748,
         "Name": "The north-east watchtower",
         "Connections": {
           "Down": 60741
-        }
+        },
+        "Contents": [
+          "The stone golem #60708"
+        ]
       },
       {
         "Id": 60750,
@@ -418,7 +482,10 @@
         "Connections": {
           "North": 60705,
           "East": 60703
-        }
+        },
+        "Contents": [
+          "The mighty beholder #60700"
+        ]
       },
       {
         "Id": 60751,
@@ -450,7 +517,10 @@
         "Name": "The south-east watchtower",
         "Connections": {
           "Down": 60752
-        }
+        },
+        "Contents": [
+          "The stone golem #60708"
+        ]
       },
       {
         "Id": 60755,
@@ -946,6 +1016,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

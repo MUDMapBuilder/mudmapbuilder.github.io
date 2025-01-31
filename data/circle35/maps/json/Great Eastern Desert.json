@@ -81,7 +81,10 @@
           "North": 5010,
           "East": 5012,
           "Up": 5008
-        }
+        },
+        "Contents": [
+          "the drider #5011"
+        ]
       },
       {
         "Id": 5010,
@@ -97,7 +100,10 @@
         "Connections": {
           "Up": 5010,
           "Down": 5100
-        }
+        },
+        "Contents": [
+          "the dracolich #5010"
+        ]
       },
       {
         "Id": 5012,
@@ -121,7 +127,10 @@
         "Connections": {
           "East": 5015,
           "West": 5013
-        }
+        },
+        "Contents": [
+          "the dark dwarf #5012"
+        ]
       },
       {
         "Id": 5015,
@@ -178,7 +187,11 @@
         "Connections": {
           "North": 5020,
           "East": 5022
-        }
+        },
+        "Contents": [
+          "the myconoid #5013",
+          "the myconoid shaman #5014"
+        ]
       },
       {
         "Id": 5022,
@@ -269,7 +282,10 @@
           "East": 5031,
           "South": 5032,
           "West": 5024
-        }
+        },
+        "Contents": [
+          "the coral snake #5002"
+        ]
       },
       {
         "Id": 5032,
@@ -289,7 +305,11 @@
           "East": 5037,
           "South": 5043,
           "West": 5028
-        }
+        },
+        "Contents": [
+          "the dustdigger #5015",
+          "the dervish #5000"
+        ]
       },
       {
         "Id": 5034,
@@ -319,7 +339,10 @@
           "East": 5041,
           "South": 5032,
           "West": 5030
-        }
+        },
+        "Contents": [
+          "the sand worm #5004"
+        ]
       },
       {
         "Id": 5037,
@@ -349,7 +372,10 @@
           "East": 5039,
           "South": 5048,
           "West": 5039
-        }
+        },
+        "Contents": [
+          "the dustdigger #5015"
+        ]
       },
       {
         "Id": 5040,
@@ -359,7 +385,10 @@
           "East": 5049,
           "South": 5041,
           "West": 5300
-        }
+        },
+        "Contents": [
+          "the dervish #5001"
+        ]
       },
       {
         "Id": 5041,
@@ -429,7 +458,10 @@
           "East": 5051,
           "South": 5053,
           "West": 5040
-        }
+        },
+        "Contents": [
+          "the dervish #5000"
+        ]
       },
       {
         "Id": 5048,
@@ -449,7 +481,10 @@
           "East": 5054,
           "South": 5050,
           "West": 5042
-        }
+        },
+        "Contents": [
+          "the dustdigger #5015"
+        ]
       },
       {
         "Id": 5050,
@@ -459,7 +494,10 @@
           "East": 5054,
           "South": 5044,
           "West": 5042
-        }
+        },
+        "Contents": [
+          "the small scorpion #5003"
+        ]
       },
       {
         "Id": 5051,
@@ -523,7 +561,10 @@
         "Name": "Inside A Small Tent",
         "Connections": {
           "West": 5056
-        }
+        },
+        "Contents": [
+          "the slave #5009"
+        ]
       },
       {
         "Id": 5058,
@@ -533,14 +574,20 @@
           "East": 5059,
           "South": 5056,
           "West": 5024
-        }
+        },
+        "Contents": [
+          "the camel #5017"
+        ]
       },
       {
         "Id": 5059,
         "Name": "The Warriors\u0027 Tent",
         "Connections": {
           "West": 5058
-        }
+        },
+        "Contents": [
+          "the nomad warrior #5008"
+        ]
       },
       {
         "Id": 5060,
@@ -548,14 +595,20 @@
         "Connections": {
           "East": 5061,
           "South": 5058
-        }
+        },
+        "Contents": [
+          "the nomad commander #5007"
+        ]
       },
       {
         "Id": 5061,
         "Name": "The Main Tent",
         "Connections": {
           "West": 5060
-        }
+        },
+        "Contents": [
+          "the nomad leader #5006"
+        ]
       },
       {
         "Id": 5062,
@@ -586,7 +639,10 @@
         "Connections": {
           "East": 5064,
           "West": 5066
-        }
+        },
+        "Contents": [
+          "the brass dragon #5005"
+        ]
       },
       {
         "Id": 5066,
@@ -691,7 +747,12 @@
         "Connections": {
           "North": 5413,
           "South": 5039
-        }
+        },
+        "Contents": [
+          "the dirt devil #5447",
+          "the lamia #5448",
+          "the raggety dervish #5449"
+        ]
       },
       {
         "Id": 5200,
@@ -705,6 +766,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

@@ -79,7 +79,10 @@
         "Connections": {
           "East": 1107,
           "West": 1109
-        }
+        },
+        "Contents": [
+          "a mournful wraith #1100"
+        ]
       },
       {
         "Id": 1109,
@@ -87,7 +90,10 @@
         "Connections": {
           "East": 1108,
           "West": 1118
-        }
+        },
+        "Contents": [
+          "a mournful wraith #1100"
+        ]
       },
       {
         "Id": 1110,
@@ -164,7 +170,10 @@
         "Connections": {
           "East": 1109,
           "West": 1110
-        }
+        },
+        "Contents": [
+          "a mournful wraith #1100"
+        ]
       },
       {
         "Id": 1119,
@@ -325,7 +334,10 @@
         "Name": "Freezing Balcony",
         "Connections": {
           "North": 1135
-        }
+        },
+        "Contents": [
+          "@Can icy princess@n #1105"
+        ]
       },
       {
         "Id": 1138,
@@ -383,7 +395,10 @@
         "Connections": {
           "East": 1145,
           "West": 1143
-        }
+        },
+        "Contents": [
+          "@Ca pale queen@n #1103"
+        ]
       },
       {
         "Id": 1145,
@@ -400,7 +415,10 @@
         "Connections": {
           "East": 1147,
           "West": 1145
-        }
+        },
+        "Contents": [
+          "@Ca white-haired king@c #1104"
+        ]
       },
       {
         "Id": 1147,
@@ -766,12 +784,18 @@
         "Name": "On Top of the Castle",
         "Connections": {
           "Down": 1190
-        }
+        },
+        "Contents": [
+          "@Ca gigantic ice dragon@n #1102"
+        ]
       },
       {
         "Id": 1199,
         "Name": "Room for Trigs",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "a mob for making triggers work #1101"
+        ]
       },
       {
         "Id": 1900,
@@ -796,6 +820,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

@@ -22,7 +22,10 @@
           "North": 9402,
           "East": 9406,
           "South": 9400
-        }
+        },
+        "Contents": [
+          "The toxic slime #9405"
+        ]
       },
       {
         "Id": 9402,
@@ -30,7 +33,10 @@
         "Connections": {
           "East": 9405,
           "South": 9401
-        }
+        },
+        "Contents": [
+          "The mutant beastly fido #9401"
+        ]
       },
       {
         "Id": 9403,
@@ -38,14 +44,20 @@
         "Connections": {
           "North": 9400,
           "South": 9404
-        }
+        },
+        "Contents": [
+          "Foreman Floyd #9402"
+        ]
       },
       {
         "Id": 9404,
         "Name": "Foreman\u0027s Bathroom",
         "Connections": {
           "North": 9403
-        }
+        },
+        "Contents": [
+          "The toxic slime #9405"
+        ]
       },
       {
         "Id": 9405,
@@ -64,7 +76,10 @@
           "East": 9411,
           "South": 9407,
           "West": 9401
-        }
+        },
+        "Contents": [
+          "The Cityguard head #9403"
+        ]
       },
       {
         "Id": 9407,
@@ -82,14 +97,21 @@
         "Connections": {
           "North": 9407,
           "South": 9409
-        }
+        },
+        "Contents": [
+          "The toxic slime #9405",
+          "The mutant beastly fido #9401"
+        ]
       },
       {
         "Id": 9409,
         "Name": "Mob Factory Cafeteria",
         "Connections": {
           "North": 9408
-        }
+        },
+        "Contents": [
+          "The toxic slime #9405"
+        ]
       },
       {
         "Id": 9410,
@@ -98,7 +120,12 @@
           "East": 9415,
           "South": 9411,
           "West": 9405
-        }
+        },
+        "Contents": [
+          "The factory worker #9407",
+          "The revolving drunk #9404",
+          "The Cityguard head #9403"
+        ]
       },
       {
         "Id": 9411,
@@ -108,7 +135,11 @@
           "East": 9416,
           "South": 9412,
           "West": 9406
-        }
+        },
+        "Contents": [
+          "The factory worker #9407",
+          "The mutant beastly fido #9401"
+        ]
       },
       {
         "Id": 9412,
@@ -126,14 +157,20 @@
         "Connections": {
           "North": 9412,
           "South": 9414
-        }
+        },
+        "Contents": [
+          "The revolving drunk #9404"
+        ]
       },
       {
         "Id": 9414,
         "Name": "Mob Factory Reject Room",
         "Connections": {
           "North": 9413
-        }
+        },
+        "Contents": [
+          "The Cityguard head #9403"
+        ]
       },
       {
         "Id": 9415,
@@ -142,7 +179,11 @@
           "East": 9420,
           "South": 9416,
           "West": 9410
-        }
+        },
+        "Contents": [
+          "The toxic slime #9405",
+          "The factory worker #9406"
+        ]
       },
       {
         "Id": 9416,
@@ -152,7 +193,10 @@
           "East": 9421,
           "South": 9417,
           "West": 9411
-        }
+        },
+        "Contents": [
+          "The factory worker #9406"
+        ]
       },
       {
         "Id": 9417,
@@ -162,7 +206,10 @@
           "East": 9422,
           "South": 9418,
           "West": 9412
-        }
+        },
+        "Contents": [
+          "The factory worker #9406"
+        ]
       },
       {
         "Id": 9418,
@@ -171,7 +218,11 @@
           "North": 9417,
           "East": 9423,
           "South": 9419
-        }
+        },
+        "Contents": [
+          "The factory worker #9406",
+          "The mutant beastly fido #9401"
+        ]
       },
       {
         "Id": 9419,
@@ -179,7 +230,10 @@
         "Connections": {
           "North": 9418,
           "East": 9424
-        }
+        },
+        "Contents": [
+          "The factory worker #9406"
+        ]
       },
       {
         "Id": 9420,
@@ -187,7 +241,11 @@
         "Connections": {
           "South": 9421,
           "West": 9415
-        }
+        },
+        "Contents": [
+          "The factory worker #9406",
+          "The factory worker #9407"
+        ]
       },
       {
         "Id": 9421,
@@ -196,7 +254,11 @@
           "North": 9420,
           "South": 9422,
           "West": 9416
-        }
+        },
+        "Contents": [
+          "The toxic slime #9405",
+          "The Cityguard head #9403"
+        ]
       },
       {
         "Id": 9422,
@@ -205,7 +267,10 @@
           "North": 9421,
           "South": 9423,
           "West": 9417
-        }
+        },
+        "Contents": [
+          "The Cityguard head #9403"
+        ]
       },
       {
         "Id": 9423,
@@ -214,7 +279,11 @@
           "North": 9422,
           "South": 9424,
           "West": 9418
-        }
+        },
+        "Contents": [
+          "The factory worker #9406",
+          "The Cityguard head #9403"
+        ]
       },
       {
         "Id": 9424,
@@ -222,7 +291,12 @@
         "Connections": {
           "North": 9423,
           "West": 9419
-        }
+        },
+        "Contents": [
+          "The Cityguard head #9403",
+          "The factory worker #9406",
+          "The toxic slime #9405"
+        ]
       },
       {
         "Id": 3046,
@@ -237,6 +311,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

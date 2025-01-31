@@ -14,19 +14,28 @@
         "Name": "Limbo",
         "Connections": {
           "Down": 100
-        }
+        },
+        "Contents": [
+          "Puff #1"
+        ]
       },
       {
         "Id": 2,
         "Name": "Welcome to the Builder Academy",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "Friedrich Nietzsche #18"
+        ]
       },
       {
         "Id": 3,
         "Name": "The Builder Academy",
         "Connections": {
           "East": 4
-        }
+        },
+        "Contents": [
+          "Socrates #17"
+        ]
       },
       {
         "Id": 4,
@@ -35,7 +44,10 @@
           "North": 16,
           "East": 5,
           "West": 3
-        }
+        },
+        "Contents": [
+          "Plato #21"
+        ]
       },
       {
         "Id": 5,
@@ -43,7 +55,10 @@
         "Connections": {
           "East": 6,
           "West": 4
-        }
+        },
+        "Contents": [
+          "Confucius #23"
+        ]
       },
       {
         "Id": 6,
@@ -51,7 +66,10 @@
         "Connections": {
           "East": 7,
           "West": 5
-        }
+        },
+        "Contents": [
+          "Carl Von Clausewitz #28"
+        ]
       },
       {
         "Id": 7,
@@ -59,7 +77,10 @@
         "Connections": {
           "East": 8,
           "West": 6
-        }
+        },
+        "Contents": [
+          "Epictetus #29"
+        ]
       },
       {
         "Id": 8,
@@ -139,7 +160,10 @@
         "Name": "Overview of the MUD World",
         "Connections": {
           "South": 16
-        }
+        },
+        "Contents": [
+          "James Stockdale #27"
+        ]
       },
       {
         "Id": 18,
@@ -148,14 +172,20 @@
           "North": 20,
           "East": 19,
           "South": 13
-        }
+        },
+        "Contents": [
+          "the tutorial questmaster #14"
+        ]
       },
       {
         "Id": 19,
         "Name": "A Quest Room",
         "Connections": {
           "West": 18
-        }
+        },
+        "Contents": [
+          "a quest ogre #16"
+        ]
       },
       {
         "Id": 20,
@@ -163,7 +193,10 @@
         "Connections": {
           "North": 21,
           "South": 18
-        }
+        },
+        "Contents": [
+          "the gateguard #24"
+        ]
       },
       {
         "Id": 21,
@@ -172,14 +205,20 @@
           "North": 23,
           "East": 22,
           "South": 20
-        }
+        },
+        "Contents": [
+          "the variable questmaster #25"
+        ]
       },
       {
         "Id": 22,
         "Name": "Quest Variables Example",
         "Connections": {
           "West": 21
-        }
+        },
+        "Contents": [
+          "the protector of the magic eight ball #26"
+        ]
       },
       {
         "Id": 23,
@@ -191,7 +230,10 @@
       {
         "Id": 33,
         "Name": "Rumble\u0027s Room",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "Chuck Norris #34"
+        ]
       },
       {
         "Id": 34,
@@ -210,44 +252,68 @@
           "East": 89,
           "West": 89,
           "Up": 130
-        }
+        },
+        "Contents": [
+          "the Commissar #31"
+        ]
       },
       {
         "Id": 90,
         "Name": "Epictetus\u0027 Prison Cell",
         "Connections": {
           "South": 89
-        }
+        },
+        "Contents": [
+          "Epictetus #29"
+        ]
       },
       {
         "Id": 91,
         "Name": "Aristotle\u0027s Prison Cell",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "Aristotle #22"
+        ]
       },
       {
         "Id": 92,
         "Name": "Plato\u0027s Prison Cell",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "Plato #21"
+        ]
       },
       {
         "Id": 93,
         "Name": "Friedrich Nietzsche\u0027s Prison Cell",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "Carl Von Clausewitz #28"
+        ]
       },
       {
         "Id": 94,
         "Name": "Socrates\u0027 Prison Cell",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "Socrates #17"
+        ]
       },
       {
         "Id": 95,
         "Name": "Confucius\u0027 Prison Cell",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "Confucius #23"
+        ]
       },
       {
         "Id": 96,
         "Name": "James Stockdale\u0027s Prison Cell",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "James Stockdale #27"
+        ]
       },
       {
         "Id": 97,
@@ -262,14 +328,21 @@
         "Connections": {
           "North": 99,
           "West": 15
-        }
+        },
+        "Contents": [
+          "Aristotle #22"
+        ]
       },
       {
         "Id": 99,
         "Name": "TBA Cafe 99",
         "Connections": {
           "South": 98
-        }
+        },
+        "Contents": [
+          "Jenny the waitress #97",
+          "Death #99"
+        ]
       },
       {
         "Id": 100,
@@ -282,7 +355,10 @@
           "West": 116,
           "Up": 101,
           "Down": 251
-        }
+        },
+        "Contents": [
+          "the speaker of the land #156"
+        ]
       },
       {
         "Id": 130,
@@ -295,6 +371,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

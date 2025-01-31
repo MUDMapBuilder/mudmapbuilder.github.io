@@ -579,7 +579,10 @@
         "Name": "The Lab",
         "Connections": {
           "West": 350
-        }
+        },
+        "Contents": [
+          "Camille the chemist #300"
+        ]
       },
       {
         "Id": 367,
@@ -662,7 +665,10 @@
           "West": 127,
           "Up": 102,
           "Down": 340
-        }
+        },
+        "Contents": [
+          "the cleric guildguard #174"
+        ]
       },
       {
         "Id": 129,
@@ -688,7 +694,10 @@
           "West": 131,
           "Up": 104,
           "Down": 345
-        }
+        },
+        "Contents": [
+          "the magi guildguard #173"
+        ]
       },
       {
         "Id": 133,
@@ -701,7 +710,10 @@
           "West": 132,
           "Up": 105,
           "Down": 346
-        }
+        },
+        "Contents": [
+          "the yellow Master Magi #138"
+        ]
       },
       {
         "Id": 139,
@@ -709,7 +721,10 @@
         "IsExitToOtherArea": true,
         "Connections": {
           "Down": 362
-        }
+        },
+        "Contents": [
+          "the lookout #181"
+        ]
       },
       {
         "Id": 101,
@@ -718,11 +733,15 @@
         "Connections": {
           "South": 365,
           "Down": 100
-        }
+        },
+        "Contents": [
+          "the old sage #157"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

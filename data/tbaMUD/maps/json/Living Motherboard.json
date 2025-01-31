@@ -132,7 +132,14 @@
           "East": 28027,
           "South": 28013,
           "West": 28007
-        }
+        },
+        "Contents": [
+          "an electron #28000",
+          "an electron #28000",
+          "an electron #28000",
+          "an electron #28000",
+          "an electron #28000"
+        ]
       },
       {
         "Id": 28015,
@@ -182,7 +189,10 @@
           "East": 28022,
           "South": 28018,
           "West": 28002
-        }
+        },
+        "Contents": [
+          "an electron #28000"
+        ]
       },
       {
         "Id": 28020,
@@ -221,7 +231,14 @@
           "East": 28038,
           "South": 28024,
           "West": 28018
-        }
+        },
+        "Contents": [
+          "an electron #28000",
+          "an electron #28000",
+          "an electron #28000",
+          "an electron #28000",
+          "an electron #28000"
+        ]
       },
       {
         "Id": 28024,
@@ -281,7 +298,10 @@
           "East": 28032,
           "South": 28030,
           "West": 28012
-        }
+        },
+        "Contents": [
+          "an fpu #28002"
+        ]
       },
       {
         "Id": 28030,
@@ -309,7 +329,10 @@
           "East": 28049,
           "South": 28031,
           "West": 28029
-        }
+        },
+        "Contents": [
+          "a cpu #28001"
+        ]
       },
       {
         "Id": 28033,
@@ -369,7 +392,10 @@
           "East": 28043,
           "South": 28037,
           "West": 28023
-        }
+        },
+        "Contents": [
+          "a 16MB EDO SIMM chip #28003"
+        ]
       },
       {
         "Id": 28039,
@@ -379,7 +405,10 @@
           "East": 28042,
           "South": 28038,
           "West": 28022
-        }
+        },
+        "Contents": [
+          "a 16MB EDO SIMM chip #28003"
+        ]
       },
       {
         "Id": 28040,
@@ -388,7 +417,10 @@
           "East": 28041,
           "South": 28039,
           "West": 28021
-        }
+        },
+        "Contents": [
+          "a 16MB EDO SIMM chip #28003"
+        ]
       },
       {
         "Id": 28041,
@@ -396,7 +428,10 @@
         "Connections": {
           "South": 28042,
           "West": 28040
-        }
+        },
+        "Contents": [
+          "a 16MB EDO SIMM chip #28003"
+        ]
       },
       {
         "Id": 28042,
@@ -405,7 +440,10 @@
           "North": 28041,
           "South": 28043,
           "West": 28039
-        }
+        },
+        "Contents": [
+          "a 16MB EDO SIMM chip #28003"
+        ]
       },
       {
         "Id": 28043,
@@ -414,7 +452,10 @@
           "North": 28042,
           "South": 28044,
           "West": 28038
-        }
+        },
+        "Contents": [
+          "a 16MB EDO SIMM chip #28003"
+        ]
       },
       {
         "Id": 28044,
@@ -423,7 +464,10 @@
           "North": 28043,
           "South": 28045,
           "West": 28037
-        }
+        },
+        "Contents": [
+          "a 28.8kbps modem #28004"
+        ]
       },
       {
         "Id": 28045,
@@ -432,7 +476,10 @@
           "North": 28044,
           "South": 28046,
           "West": 28036
-        }
+        },
+        "Contents": [
+          "a video card #28005"
+        ]
       },
       {
         "Id": 28046,
@@ -441,7 +488,10 @@
           "North": 28045,
           "South": 28047,
           "West": 28035
-        }
+        },
+        "Contents": [
+          "a sound card #28006"
+        ]
       },
       {
         "Id": 28047,
@@ -450,7 +500,10 @@
           "North": 28046,
           "South": 28048,
           "West": 28034
-        }
+        },
+        "Contents": [
+          "an SCSI controller #28007"
+        ]
       },
       {
         "Id": 28048,
@@ -488,6 +541,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

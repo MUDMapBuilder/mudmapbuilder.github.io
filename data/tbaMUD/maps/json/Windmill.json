@@ -27,7 +27,11 @@
         "Connections": {
           "East": 25300,
           "Down": 25303
-        }
+        },
+        "Contents": [
+          "Bob, the MoS guard #25309",
+          "an MoS Guard #25300"
+        ]
       },
       {
         "Id": 25303,
@@ -59,7 +63,10 @@
         "Connections": {
           "North": 25307,
           "South": 25305
-        }
+        },
+        "Contents": [
+          "Checkpoint Charley #25301"
+        ]
       },
       {
         "Id": 25307,
@@ -67,7 +74,11 @@
         "Connections": {
           "North": 25308,
           "South": 25306
-        }
+        },
+        "Contents": [
+          "an MoS soldier #25310",
+          "an MoS soldier #25302"
+        ]
       },
       {
         "Id": 25308,
@@ -76,7 +87,10 @@
           "North": 25309,
           "East": 25322,
           "South": 25307
-        }
+        },
+        "Contents": [
+          "an MoS soldier #25310"
+        ]
       },
       {
         "Id": 25309,
@@ -85,7 +99,11 @@
           "North": 25310,
           "East": 25323,
           "South": 25308
-        }
+        },
+        "Contents": [
+          "an MoS soldier #25310",
+          "an MoS soldier #25302"
+        ]
       },
       {
         "Id": 25310,
@@ -94,7 +112,10 @@
           "North": 25311,
           "East": 25324,
           "South": 25309
-        }
+        },
+        "Contents": [
+          "an MoS soldier #25310"
+        ]
       },
       {
         "Id": 25311,
@@ -104,7 +125,11 @@
           "East": 25325,
           "South": 25310,
           "West": 25326
-        }
+        },
+        "Contents": [
+          "an MoS soldier #25310",
+          "an MoS soldier #25302"
+        ]
       },
       {
         "Id": 25312,
@@ -113,7 +138,11 @@
           "North": 25313,
           "East": 25318,
           "South": 25311
-        }
+        },
+        "Contents": [
+          "an MoS soldier #25310",
+          "an MoS soldier #25302"
+        ]
       },
       {
         "Id": 25313,
@@ -130,7 +159,10 @@
         "Connections": {
           "North": 25315,
           "South": 25313
-        }
+        },
+        "Contents": [
+          "an MoS soldier #25302"
+        ]
       },
       {
         "Id": 25315,
@@ -156,7 +188,10 @@
         "Connections": {
           "North": 26342,
           "South": 25316
-        }
+        },
+        "Contents": [
+          "an MoS soldier #25302"
+        ]
       },
       {
         "Id": 25318,
@@ -172,7 +207,10 @@
         "Connections": {
           "East": 25320,
           "West": 25318
-        }
+        },
+        "Contents": [
+          "an MoS soldier #25302"
+        ]
       },
       {
         "Id": 25320,
@@ -192,7 +230,10 @@
           "East": 25334,
           "South": 25333,
           "West": 25320
-        }
+        },
+        "Contents": [
+          "an MoS soldier #25302"
+        ]
       },
       {
         "Id": 25322,
@@ -224,7 +265,10 @@
         "Connections": {
           "South": 25324,
           "West": 25311
-        }
+        },
+        "Contents": [
+          "an MoS soldier #25302"
+        ]
       },
       {
         "Id": 25326,
@@ -238,7 +282,10 @@
         "Name": "Training Room",
         "Connections": {
           "East": 25313
-        }
+        },
+        "Contents": [
+          "the Master at Arms #25303"
+        ]
       },
       {
         "Id": 25328,
@@ -252,42 +299,60 @@
         "Name": "Bunk Room",
         "Connections": {
           "West": 25315
-        }
+        },
+        "Contents": [
+          "an MoS soldier #25302"
+        ]
       },
       {
         "Id": 25330,
         "Name": "Captain\u0027s Room",
         "Connections": {
           "South": 25320
-        }
+        },
+        "Contents": [
+          "the MoS Captain #25304"
+        ]
       },
       {
         "Id": 25331,
         "Name": "Lieutenant\u0027s Room",
         "Connections": {
           "South": 25321
-        }
+        },
+        "Contents": [
+          "the MoS Lieutenant #25305"
+        ]
       },
       {
         "Id": 25332,
         "Name": "Sergeant\u0027s Room",
         "Connections": {
           "North": 25320
-        }
+        },
+        "Contents": [
+          "the MoS Sergeant #25306"
+        ]
       },
       {
         "Id": 25333,
         "Name": "General\u0027s Room",
         "Connections": {
           "North": 25321
-        }
+        },
+        "Contents": [
+          "the MoS General #25307"
+        ]
       },
       {
         "Id": 25334,
         "Name": "The Grand Knight\u0027s Room",
         "Connections": {
           "West": 25321
-        }
+        },
+        "Contents": [
+          "the Grand Knight #25308"
+        ]
       },
       {
         "Id": 26085,
@@ -313,6 +378,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

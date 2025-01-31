@@ -249,7 +249,10 @@
         "Name": "Magic shop",
         "Connections": {
           "West": 23228
-        }
+        },
+        "Contents": [
+          "a wizard #23200"
+        ]
       },
       {
         "Id": 23230,
@@ -338,7 +341,10 @@
         "Name": "Weapons Shop",
         "Connections": {
           "South": 23239
-        }
+        },
+        "Contents": [
+          "Lora Croft #23203"
+        ]
       },
       {
         "Id": 23241,
@@ -473,7 +479,10 @@
         "Name": "The armory",
         "Connections": {
           "South": 23256
-        }
+        },
+        "Contents": [
+          "the armorer #23207"
+        ]
       },
       {
         "Id": 23258,
@@ -615,7 +624,10 @@
         "Name": "The Bakery",
         "Connections": {
           "West": 23273
-        }
+        },
+        "Contents": [
+          "the Baker #23201"
+        ]
       },
       {
         "Id": 23275,
@@ -658,23 +670,34 @@
         "Name": "General Store",
         "Connections": {
           "West": 23263
-        }
+        },
+        "Contents": [
+          "Zorg the shopkeeper #23202"
+        ]
       },
       {
         "Id": 23281,
         "Name": "The Pet shop",
         "Connections": {
           "South": 23259
-        }
+        },
+        "Contents": [
+          "Tarzan #23204"
+        ]
       },
       {
         "Id": 23282,
         "Name": "PETSHOP STOREROOM",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "Sabertooth Tiger #23205",
+          "Anaconda #23206"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

@@ -10,7 +10,10 @@
         "Name": "Elixias\u0027s Zone Description Room",
         "Connections": {
           "Down": 20104
-        }
+        },
+        "Contents": [
+          "a blonde receptionist #20197"
+        ]
       },
       {
         "Id": 20101,
@@ -42,7 +45,10 @@
         "Connections": {
           "East": 20102,
           "Up": 20100
-        }
+        },
+        "Contents": [
+          "a cheerful tour guide #20198"
+        ]
       },
       {
         "Id": 20105,
@@ -52,7 +58,10 @@
           "East": 20108,
           "South": 20112,
           "West": 20106
-        }
+        },
+        "Contents": [
+          "a grumpy-looking crab #20101"
+        ]
       },
       {
         "Id": 20106,
@@ -69,7 +78,10 @@
         "Connections": {
           "East": 20106,
           "South": 20131
-        }
+        },
+        "Contents": [
+          "a pale-looking jellyfish #20102"
+        ]
       },
       {
         "Id": 20108,
@@ -79,7 +91,10 @@
           "East": 20109,
           "South": 20113,
           "West": 20105
-        }
+        },
+        "Contents": [
+          "a grumpy-looking crab #20101"
+        ]
       },
       {
         "Id": 20109,
@@ -88,7 +103,10 @@
           "East": 20110,
           "South": 20114,
           "West": 20108
-        }
+        },
+        "Contents": [
+          "a grumpy-looking crab #20101"
+        ]
       },
       {
         "Id": 20110,
@@ -96,7 +114,12 @@
         "Connections": {
           "South": 20115,
           "West": 20109
-        }
+        },
+        "Contents": [
+          "a grumpy-looking crab #20101",
+          "a grumpy-looking crab #20101",
+          "a hungry seagull #20103"
+        ]
       },
       {
         "Id": 20111,
@@ -146,7 +169,10 @@
           "East": 20122,
           "South": 20120,
           "West": 20114
-        }
+        },
+        "Contents": [
+          "a grumpy-looking crab #20101"
+        ]
       },
       {
         "Id": 20116,
@@ -166,7 +192,10 @@
           "East": 20118,
           "South": 20136,
           "West": 20116
-        }
+        },
+        "Contents": [
+          "a pale-looking jellyfish #20102"
+        ]
       },
       {
         "Id": 20118,
@@ -176,7 +205,10 @@
           "East": 20119,
           "South": 20137,
           "West": 20117
-        }
+        },
+        "Contents": [
+          "a pale-looking jellyfish #20102"
+        ]
       },
       {
         "Id": 20119,
@@ -186,7 +218,10 @@
           "East": 20120,
           "South": 20138,
           "West": 20118
-        }
+        },
+        "Contents": [
+          "a pale-looking jellyfish #20102"
+        ]
       },
       {
         "Id": 20120,
@@ -282,7 +317,10 @@
           "East": 20132,
           "South": 20132,
           "West": 20132
-        }
+        },
+        "Contents": [
+          "a stunningly beautiful siren #20104"
+        ]
       },
       {
         "Id": 20130,
@@ -469,7 +507,10 @@
         "Name": "In a Small Cozy House",
         "Connections": {
           "South": 20108
-        }
+        },
+        "Contents": [
+          "Tryny the Widow #20105"
+        ]
       },
       {
         "Id": 20151,
@@ -527,11 +568,15 @@
         "Name": "In a Small Wooden hut",
         "Connections": {
           "South": 20157
-        }
+        },
+        "Contents": [
+          "an old fool #20106"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

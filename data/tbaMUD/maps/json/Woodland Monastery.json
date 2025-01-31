@@ -52,7 +52,17 @@
           "South": 4510,
           "West": 4504,
           "Up": 4518
-        }
+        },
+        "Contents": [
+          "the monk #4500",
+          "the monk #4501",
+          "the monk #4501",
+          "the monk #4502",
+          "the monk #4502",
+          "the monk #4502",
+          "the monk #4502",
+          "the monk #4500"
+        ]
       },
       {
         "Id": 4506,
@@ -83,7 +93,12 @@
         "Name": "In the Kitchen",
         "Connections": {
           "North": 4508
-        }
+        },
+        "Contents": [
+          "Buttercup #4509",
+          "the assistant #4504",
+          "the assistant #4504"
+        ]
       },
       {
         "Id": 4510,
@@ -138,7 +153,10 @@
         "Name": "The Phoenix\u0027s Lair",
         "Connections": {
           "West": 4515
-        }
+        },
+        "Contents": [
+          "Pyrobos #4516"
+        ]
       },
       {
         "Id": 4517,
@@ -154,7 +172,10 @@
         "Connections": {
           "Up": 4517,
           "Down": 4505
-        }
+        },
+        "Contents": [
+          "Yeral #4518"
+        ]
       },
       {
         "Id": 4519,
@@ -213,7 +234,10 @@
         "Name": "A Gopher Hole",
         "Connections": {
           "Up": 4523
-        }
+        },
+        "Contents": [
+          "the gopher #4525"
+        ]
       },
       {
         "Id": 4526,
@@ -228,7 +252,11 @@
         "Connections": {
           "East": 4528,
           "West": 4526
-        }
+        },
+        "Contents": [
+          "the guard #4527",
+          "the guard #4527"
+        ]
       },
       {
         "Id": 4528,
@@ -270,7 +298,13 @@
         "Connections": {
           "East": 4533,
           "West": 4531
-        }
+        },
+        "Contents": [
+          "the Archer #4588",
+          "the Archer #4588",
+          "the Archer #4588",
+          "the Archer #4588"
+        ]
       },
       {
         "Id": 4533,
@@ -334,28 +368,40 @@
         "Name": "A Tower",
         "Connections": {
           "Down": 4530
-        }
+        },
+        "Contents": [
+          "the sentry #4543"
+        ]
       },
       {
         "Id": 4544,
         "Name": "Atop a Tower",
         "Connections": {
           "Down": 4533
-        }
+        },
+        "Contents": [
+          "the sentry #4543"
+        ]
       },
       {
         "Id": 4545,
         "Name": "A Tower",
         "Connections": {
           "Down": 4539
-        }
+        },
+        "Contents": [
+          "the sentry #4543"
+        ]
       },
       {
         "Id": 4546,
         "Name": "Tower",
         "Connections": {
           "Down": 4542
-        }
+        },
+        "Contents": [
+          "the sentry #4543"
+        ]
       },
       {
         "Id": 4557,
@@ -466,7 +512,10 @@
         "Name": "Dragon Pit",
         "Connections": {
           "Up": 4569
-        }
+        },
+        "Contents": [
+          "the forest dragon #4570"
+        ]
       },
       {
         "Id": 4588,
@@ -475,11 +524,18 @@
           "North": 4534,
           "South": 4537,
           "Down": 4528
-        }
+        },
+        "Contents": [
+          "the Archer #4588",
+          "the Archer #4588",
+          "the Archer #4588",
+          "the Archer #4588"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

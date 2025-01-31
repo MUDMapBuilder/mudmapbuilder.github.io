@@ -25,21 +25,31 @@
           "East": 4404,
           "South": 4401,
           "West": 4403
-        }
+        },
+        "Contents": [
+          "the terrible orc #4401",
+          "the terrible orc #4401"
+        ]
       },
       {
         "Id": 4403,
         "Name": "In a tent.",
         "Connections": {
           "East": 4402
-        }
+        },
+        "Contents": [
+          "the terrible orc #4401"
+        ]
       },
       {
         "Id": 4404,
         "Name": "In a Tent",
         "Connections": {
           "West": 4402
-        }
+        },
+        "Contents": [
+          "the terrible orc #4401"
+        ]
       },
       {
         "Id": 4405,
@@ -49,7 +59,10 @@
           "East": 4407,
           "South": 4402,
           "West": 4406
-        }
+        },
+        "Contents": [
+          "the terrible orc #4401"
+        ]
       },
       {
         "Id": 4406,
@@ -57,14 +70,22 @@
         "Connections": {
           "East": 4405,
           "West": 4411
-        }
+        },
+        "Contents": [
+          "H\u0027Ogh #4404",
+          "Dra\u0027L #4405"
+        ]
       },
       {
         "Id": 4407,
         "Name": "The resting area.",
         "Connections": {
           "West": 4405
-        }
+        },
+        "Contents": [
+          "the terrible orc #4402",
+          "the terrible orc #4403"
+        ]
       },
       {
         "Id": 4408,
@@ -74,7 +95,10 @@
           "East": 4410,
           "South": 4405,
           "West": 4409
-        }
+        },
+        "Contents": [
+          "the terrible orc #4401"
+        ]
       },
       {
         "Id": 4409,
@@ -97,7 +121,10 @@
         "Connections": {
           "North": 4412,
           "East": 4406
-        }
+        },
+        "Contents": [
+          "the Boss #4406"
+        ]
       },
       {
         "Id": 4412,
@@ -111,7 +138,10 @@
         "Name": "In the Shamans Tent",
         "Connections": {
           "South": 4410
-        }
+        },
+        "Contents": [
+          "the orc Shaman #4407"
+        ]
       },
       {
         "Id": 4414,
@@ -151,6 +181,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

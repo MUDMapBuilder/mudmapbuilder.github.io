@@ -23,14 +23,22 @@
       {
         "Id": 1203,
         "Name": "Ben\u0027s Room",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "Gandalf the gray cat #1201",
+          "Merlin the pinto cat #1202"
+        ]
       },
       {
         "Id": 1204,
         "Name": "Mephisto\u0027s Pad",
         "Connections": {
           "Up": 1205
-        }
+        },
+        "Contents": [
+          "Scrappy #1203",
+          "Tobie #1204"
+        ]
       },
       {
         "Id": 1205,
@@ -53,14 +61,20 @@
         "Connections": {
           "North": 1210,
           "West": 1212
-        }
+        },
+        "Contents": [
+          "Grandpa Strickland #1210"
+        ]
       },
       {
         "Id": 1212,
         "Name": "The Kitchen",
         "Connections": {
           "East": 1211
-        }
+        },
+        "Contents": [
+          "Grandma Strickland #1211"
+        ]
       },
       {
         "Id": 1213,
@@ -100,7 +114,11 @@
         "Connections": {
           "East": 1222,
           "North": 1221
-        }
+        },
+        "Contents": [
+          "Snoopy #1220",
+          "Angel #1221"
+        ]
       },
       {
         "Id": 1221,
@@ -114,21 +132,30 @@
         "Name": "James\u0027 bedroom",
         "Connections": {
           "West": 1220
-        }
+        },
+        "Contents": [
+          "James #1222"
+        ]
       },
       {
         "Id": 1223,
         "Name": "Horizon",
         "Connections": {
           "Down": 1224
-        }
+        },
+        "Contents": [
+          "the Guardian of Twilight #1223"
+        ]
       },
       {
         "Id": 1224,
         "Name": "The Hideout",
         "Connections": {
           "Up": 1223
-        }
+        },
+        "Contents": [
+          "Robbie #1224"
+        ]
       },
       {
         "Id": 1230,
@@ -136,7 +163,10 @@
         "Connections": {
           "South": 1231,
           "West": 1232
-        }
+        },
+        "Contents": [
+          "Tara the black cat #1230"
+        ]
       },
       {
         "Id": 1231,
@@ -150,14 +180,20 @@
         "Name": "Alexander\u0027s laboratory",
         "Connections": {
           "East": 1230
-        }
+        },
+        "Contents": [
+          "Rex the armadilio #1231"
+        ]
       },
       {
         "Id": 1233,
         "Name": "Wyrmclaw\u0027s Council of War Room",
         "Connections": {
           "South": 1200
-        }
+        },
+        "Contents": [
+          "Lady Jessica Quechard #1232"
+        ]
       },
       {
         "Id": 1244,
@@ -172,11 +208,15 @@
           "North": 3054,
           "South": 3005,
           "Up": 3700
-        }
+        },
+        "Contents": [
+          "the executioner #3011"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

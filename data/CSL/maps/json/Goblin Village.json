@@ -9,7 +9,11 @@
         "Connections": {
           "South": 50401,
           "West": 40624
-        }
+        },
+        "Contents": [
+          "a goblin guard #50400",
+          "a goblin guard #50400"
+        ]
       },
       {
         "Id": 50401,
@@ -17,7 +21,10 @@
         "Connections": {
           "North": 50400,
           "East": 50402
-        }
+        },
+        "Contents": [
+          "a female goblin citizen #50401"
+        ]
       },
       {
         "Id": 50402,
@@ -43,14 +50,20 @@
         "Connections": {
           "North": 50405,
           "South": 50403
-        }
+        },
+        "Contents": [
+          "a female goblin citizen #50401"
+        ]
       },
       {
         "Id": 50405,
         "Name": "Inside a goblin hut",
         "Connections": {
           "South": 50404
-        }
+        },
+        "Contents": [
+          "a male goblin citizen #50402"
+        ]
       },
       {
         "Id": 50406,
@@ -58,14 +71,20 @@
         "Connections": {
           "North": 50403,
           "South": 50407
-        }
+        },
+        "Contents": [
+          "a female goblin citizen #50401"
+        ]
       },
       {
         "Id": 50407,
         "Name": "Inside a goblin hut",
         "Connections": {
           "North": 50406
-        }
+        },
+        "Contents": [
+          "a male goblin citizen #50402"
+        ]
       },
       {
         "Id": 50408,
@@ -91,14 +110,20 @@
         "Connections": {
           "North": 50411,
           "South": 50409
-        }
+        },
+        "Contents": [
+          "a female goblin citizen #50401"
+        ]
       },
       {
         "Id": 50411,
         "Name": "Inside a goblin hut",
         "Connections": {
           "South": 50410
-        }
+        },
+        "Contents": [
+          "a male goblin citizen #50402"
+        ]
       },
       {
         "Id": 50412,
@@ -106,14 +131,20 @@
         "Connections": {
           "North": 50409,
           "South": 50413
-        }
+        },
+        "Contents": [
+          "a female goblin citizen #50401"
+        ]
       },
       {
         "Id": 50413,
         "Name": "Inside a goblin hut",
         "Connections": {
           "North": 50412
-        }
+        },
+        "Contents": [
+          "a male goblin citizen #50402"
+        ]
       },
       {
         "Id": 50414,
@@ -139,14 +170,20 @@
         "Connections": {
           "North": 50417,
           "South": 50415
-        }
+        },
+        "Contents": [
+          "a female goblin citizen #50401"
+        ]
       },
       {
         "Id": 50417,
         "Name": "Inside a goblin hut",
         "Connections": {
           "South": 50416
-        }
+        },
+        "Contents": [
+          "a male goblin citizen #50402"
+        ]
       },
       {
         "Id": 50418,
@@ -154,14 +191,20 @@
         "Connections": {
           "North": 50415,
           "South": 50419
-        }
+        },
+        "Contents": [
+          "a female goblin citizen #50401"
+        ]
       },
       {
         "Id": 50419,
         "Name": "Inside a goblin hut",
         "Connections": {
           "North": 50418
-        }
+        },
+        "Contents": [
+          "a male goblin citizen #50402"
+        ]
       },
       {
         "Id": 50420,
@@ -193,7 +236,11 @@
         "Connections": {
           "North": 50422,
           "East": 50424
-        }
+        },
+        "Contents": [
+          "an orcish guard #50403",
+          "an orcish guard #50403"
+        ]
       },
       {
         "Id": 50424,
@@ -201,7 +248,10 @@
         "Connections": {
           "East": 50425,
           "West": 50423
-        }
+        },
+        "Contents": [
+          "an orcish guard #50403"
+        ]
       },
       {
         "Id": 50425,
@@ -211,14 +261,20 @@
           "East": 50426,
           "South": 50429,
           "West": 50424
-        }
+        },
+        "Contents": [
+          "an orcish guard #50403"
+        ]
       },
       {
         "Id": 50426,
         "Name": "The commander\u0027s room",
         "Connections": {
           "West": 50425
-        }
+        },
+        "Contents": [
+          "a troll commander #50404"
+        ]
       },
       {
         "Id": 50427,
@@ -226,7 +282,10 @@
         "Connections": {
           "North": 50428,
           "South": 50425
-        }
+        },
+        "Contents": [
+          "an orcish guard #50403"
+        ]
       },
       {
         "Id": 50428,
@@ -346,6 +405,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

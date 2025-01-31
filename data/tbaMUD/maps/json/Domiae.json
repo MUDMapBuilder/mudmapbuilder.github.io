@@ -10,7 +10,10 @@
         "Name": "The mad wizard\u0027s hut",
         "Connections": {
           "East": 9602
-        }
+        },
+        "Contents": [
+          "the mad wizard #9603"
+        ]
       },
       {
         "Id": 9601,
@@ -19,7 +22,10 @@
           "North": 9604,
           "South": 9619,
           "West": 9602
-        }
+        },
+        "Contents": [
+          "a small bushy-tailed animal #9601"
+        ]
       },
       {
         "Id": 9602,
@@ -42,7 +48,11 @@
         "Connections": {
           "North": 9605,
           "South": 9601
-        }
+        },
+        "Contents": [
+          "a small bushy-tailed animal #9601",
+          "a sparrow #9602"
+        ]
       },
       {
         "Id": 9605,
@@ -52,14 +62,20 @@
           "East": 9607,
           "South": 9604,
           "West": 9606
-        }
+        },
+        "Contents": [
+          "a sparrow #9602"
+        ]
       },
       {
         "Id": 9606,
         "Name": "A dead end",
         "Connections": {
           "East": 9605
-        }
+        },
+        "Contents": [
+          "a small bushy-tailed animal #9601"
+        ]
       },
       {
         "Id": 9607,
@@ -106,7 +122,10 @@
         "Connections": {
           "South": 9611,
           "West": 9613
-        }
+        },
+        "Contents": [
+          "the mole #9612"
+        ]
       },
       {
         "Id": 9613,
@@ -131,7 +150,10 @@
         "Connections": {
           "East": 9616,
           "South": 9614
-        }
+        },
+        "Contents": [
+          "the mole #9612"
+        ]
       },
       {
         "Id": 9616,
@@ -178,7 +200,10 @@
         "Connections": {
           "East": 9620,
           "West": 9622
-        }
+        },
+        "Contents": [
+          "a rabbit #9617"
+        ]
       },
       {
         "Id": 9622,
@@ -186,7 +211,10 @@
         "Connections": {
           "East": 9621,
           "West": 9623
-        }
+        },
+        "Contents": [
+          "a red fox #9618"
+        ]
       },
       {
         "Id": 9623,
@@ -218,7 +246,10 @@
         "Connections": {
           "East": 9624,
           "West": 9627
-        }
+        },
+        "Contents": [
+          "the bear #9626"
+        ]
       },
       {
         "Id": 9627,
@@ -228,7 +259,10 @@
           "East": 9626,
           "South": 9629,
           "West": 9630
-        }
+        },
+        "Contents": [
+          "the bear #9626"
+        ]
       },
       {
         "Id": 9628,
@@ -317,7 +351,10 @@
         "Connections": {
           "North": 9639,
           "South": 9633
-        }
+        },
+        "Contents": [
+          "a rat #9634"
+        ]
       },
       {
         "Id": 9639,
@@ -343,14 +380,20 @@
         "Connections": {
           "South": 9640,
           "West": 9642
-        }
+        },
+        "Contents": [
+          "a rat #9634"
+        ]
       },
       {
         "Id": 9642,
         "Name": "Cellar",
         "Connections": {
           "East": 9641
-        }
+        },
+        "Contents": [
+          "the queen rat #9642"
+        ]
       },
       {
         "Id": 9643,
@@ -358,7 +401,10 @@
         "Connections": {
           "East": 9646,
           "West": 9639
-        }
+        },
+        "Contents": [
+          "a rat #9634"
+        ]
       },
       {
         "Id": 9644,
@@ -366,7 +412,10 @@
         "Connections": {
           "East": 9639,
           "West": 9645
-        }
+        },
+        "Contents": [
+          "a rat #9634"
+        ]
       },
       {
         "Id": 9645,
@@ -391,14 +440,20 @@
         "Name": "A holding chamber.",
         "Connections": {
           "West": 9646
-        }
+        },
+        "Contents": [
+          "the old knight #9647"
+        ]
       },
       {
         "Id": 9648,
         "Name": "A holding chamber.",
         "Connections": {
           "East": 9645
-        }
+        },
+        "Contents": [
+          "the old knight #9647"
+        ]
       },
       {
         "Id": 9649,
@@ -446,7 +501,10 @@
         "Name": "The King\u0027s Bedroom",
         "Connections": {
           "North": 9653
-        }
+        },
+        "Contents": [
+          "the king #9654"
+        ]
       },
       {
         "Id": 9655,
@@ -459,6 +517,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

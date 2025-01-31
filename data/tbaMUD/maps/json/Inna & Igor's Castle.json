@@ -12,14 +12,20 @@
           "North": 26101,
           "East": 26142,
           "West": 26102
-        }
+        },
+        "Contents": [
+          "the butler #26100"
+        ]
       },
       {
         "Id": 26101,
         "Name": "Closet",
         "Connections": {
           "South": 26100
-        }
+        },
+        "Contents": [
+          "a five headed demon #26101"
+        ]
       },
       {
         "Id": 26102,
@@ -43,7 +49,10 @@
           "West": 26104,
           "Up": 26104,
           "Down": 26104
-        }
+        },
+        "Contents": [
+          "a servant #26105"
+        ]
       },
       {
         "Id": 26104,
@@ -67,7 +76,10 @@
           "West": 26106,
           "Up": 26106,
           "Down": 26106
-        }
+        },
+        "Contents": [
+          "a maid #26106"
+        ]
       },
       {
         "Id": 26106,
@@ -91,7 +103,10 @@
           "West": 26108,
           "Up": 26108,
           "Down": 26108
-        }
+        },
+        "Contents": [
+          "a servant #26105"
+        ]
       },
       {
         "Id": 26108,
@@ -124,7 +139,12 @@
           "North": 26111,
           "East": 26100,
           "West": 26114
-        }
+        },
+        "Contents": [
+          "a man #26102",
+          "a woman #26103",
+          "a balding man #26104"
+        ]
       },
       {
         "Id": 26111,
@@ -133,14 +153,20 @@
           "North": 26112,
           "South": 26110,
           "West": 26113
-        }
+        },
+        "Contents": [
+          "the Cook #26107"
+        ]
       },
       {
         "Id": 26112,
         "Name": "Pantry",
         "Connections": {
           "South": 26111
-        }
+        },
+        "Contents": [
+          "the fat maid #26108"
+        ]
       },
       {
         "Id": 26113,
@@ -148,7 +174,11 @@
         "Connections": {
           "East": 26111,
           "South": 26114
-        }
+        },
+        "Contents": [
+          "a maid #26106",
+          "a slimy green thing #26109"
+        ]
       },
       {
         "Id": 26114,
@@ -181,7 +211,10 @@
         "Connections": {
           "Up": 26118,
           "Down": 26116
-        }
+        },
+        "Contents": [
+          "a maid #26106"
+        ]
       },
       {
         "Id": 26118,
@@ -211,14 +244,21 @@
       {
         "Id": 26121,
         "Name": "Mountain Forest",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "Inna\u0027s cat #26112"
+        ]
       },
       {
         "Id": 26122,
         "Name": "Bedroom",
         "Connections": {
           "West": 26123
-        }
+        },
+        "Contents": [
+          "a naked man #26113",
+          "the cowering woman #26114"
+        ]
       },
       {
         "Id": 26123,
@@ -237,7 +277,10 @@
           "East": 26123,
           "South": 26129,
           "West": 26125
-        }
+        },
+        "Contents": [
+          "a servant #26105"
+        ]
       },
       {
         "Id": 26125,
@@ -254,14 +297,20 @@
         "Name": "Bathroom",
         "Connections": {
           "South": 26125
-        }
+        },
+        "Contents": [
+          "vampiress #26115"
+        ]
       },
       {
         "Id": 26127,
         "Name": "Dragon\u0027s Lair",
         "Connections": {
           "East": 26125
-        }
+        },
+        "Contents": [
+          "the Ancient Dragon #26119"
+        ]
       },
       {
         "Id": 26128,
@@ -275,14 +324,20 @@
         "Name": "The Bar",
         "Connections": {
           "North": 26124
-        }
+        },
+        "Contents": [
+          "Old Marty #26116"
+        ]
       },
       {
         "Id": 26130,
         "Name": "Martin\u0027s Rest",
         "Connections": {
           "North": 26123
-        }
+        },
+        "Contents": [
+          "Martin #26120"
+        ]
       },
       {
         "Id": 26131,
@@ -297,7 +352,11 @@
         "Name": "Ma \u0026 Pa\u0027s Home",
         "Connections": {
           "South": 26124
-        }
+        },
+        "Contents": [
+          "Ma #26117",
+          "Pa #26118"
+        ]
       },
       {
         "Id": 26133,
@@ -305,7 +364,10 @@
         "Connections": {
           "North": 26134,
           "West": 26110
-        }
+        },
+        "Contents": [
+          "a receptionist #26121"
+        ]
       },
       {
         "Id": 26134,
@@ -340,7 +402,10 @@
         "Name": "Den",
         "Connections": {
           "South": 26136
-        }
+        },
+        "Contents": [
+          "a servant #26105"
+        ]
       },
       {
         "Id": 26138,
@@ -368,7 +433,11 @@
         "Name": "The Laboratory",
         "Connections": {
           "West": 26135
-        }
+        },
+        "Contents": [
+          "Inna #26122",
+          "Igor #26123"
+        ]
       },
       {
         "Id": 26142,
@@ -416,6 +485,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

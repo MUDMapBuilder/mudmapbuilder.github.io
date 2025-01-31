@@ -10,7 +10,10 @@
         "Name": "An enormous archway",
         "Connections": {
           "North": 4701
-        }
+        },
+        "Contents": [
+          "An undead assassin #4701"
+        ]
       },
       {
         "Id": 4701,
@@ -48,7 +51,10 @@
         "Connections": {
           "North": 4706,
           "South": 4704
-        }
+        },
+        "Contents": [
+          "A half-living dragon #4700"
+        ]
       },
       {
         "Id": 4706,
@@ -60,11 +66,15 @@
       {
         "Id": 4707,
         "Name": "A strange cell",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "A shadow dragon #4702"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

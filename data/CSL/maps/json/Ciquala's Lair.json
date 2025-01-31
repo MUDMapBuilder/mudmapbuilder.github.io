@@ -36,7 +36,10 @@
           "East": 13404,
           "West": 13409,
           "Up": 13402
-        }
+        },
+        "Contents": [
+          "Guardian Lich #13400"
+        ]
       },
       {
         "Id": 13404,
@@ -54,28 +57,43 @@
           "East": 13407,
           "South": 13406,
           "West": 13404
-        }
+        },
+        "Contents": [
+          "the vampire lab assistant #13401",
+          "the vampire lab assistant #13418"
+        ]
       },
       {
         "Id": 13406,
         "Name": "Supply room",
         "Connections": {
           "North": 13405
-        }
+        },
+        "Contents": [
+          "the black pudding #13404"
+        ]
       },
       {
         "Id": 13407,
         "Name": "Holding Cell",
         "Connections": {
           "West": 13405
-        }
+        },
+        "Contents": [
+          "a warped creature from a nightmare #13402",
+          "a docile creature #13403"
+        ]
       },
       {
         "Id": 13408,
         "Name": "Holding Cell",
         "Connections": {
           "South": 13405
-        }
+        },
+        "Contents": [
+          "a warped creature from a nightmare #13402",
+          "a docile creature #13403"
+        ]
       },
       {
         "Id": 13409,
@@ -83,7 +101,11 @@
         "Connections": {
           "East": 13403,
           "West": 13410
-        }
+        },
+        "Contents": [
+          "a gigantic automaton #13405",
+          "the undead guardian #13406"
+        ]
       },
       {
         "Id": 13410,
@@ -93,21 +115,30 @@
           "East": 13409,
           "South": 13412,
           "West": 13413
-        }
+        },
+        "Contents": [
+          "the lurker above #13407"
+        ]
       },
       {
         "Id": 13411,
         "Name": "The Map Room",
         "Connections": {
           "South": 13410
-        }
+        },
+        "Contents": [
+          "a vampire servant #13408"
+        ]
       },
       {
         "Id": 13412,
         "Name": "Storage Room",
         "Connections": {
           "North": 13410
-        }
+        },
+        "Contents": [
+          "the black pudding #13404"
+        ]
       },
       {
         "Id": 13413,
@@ -124,14 +155,23 @@
         "Name": "The Room of the Automatons",
         "Connections": {
           "Up": 13413
-        }
+        },
+        "Contents": [
+          "the human automaton #13409",
+          "the human automaton #13410",
+          "the human automaton #13411",
+          "the human automaton #13412"
+        ]
       },
       {
         "Id": 13415,
         "Name": "Torture Chamber",
         "Connections": {
           "South": 13413
-        }
+        },
+        "Contents": [
+          "the torturer lich #13413"
+        ]
       },
       {
         "Id": 13416,
@@ -139,7 +179,10 @@
         "Connections": {
           "North": 13413,
           "South": 13417
-        }
+        },
+        "Contents": [
+          "Ciquala\u0027s Undead Dragon #13414"
+        ]
       },
       {
         "Id": 13417,
@@ -147,7 +190,10 @@
         "Connections": {
           "North": 13416,
           "South": 13418
-        }
+        },
+        "Contents": [
+          "the lich Ciquala #13415"
+        ]
       },
       {
         "Id": 13418,
@@ -162,7 +208,13 @@
         "Name": "The hidden crypt of Ciquala",
         "Connections": {
           "Up": 13418
-        }
+        },
+        "Contents": [
+          "Lich #13416",
+          "Lich #13416",
+          "vampire #13417",
+          "vampire #13417"
+        ]
       },
       {
         "Id": 5156,
@@ -176,6 +228,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

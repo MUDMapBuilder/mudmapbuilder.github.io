@@ -20,7 +20,12 @@
           "East": 6626,
           "South": 6604,
           "West": 6603
-        }
+        },
+        "Contents": [
+          "the dwarven youth #6600",
+          "a teddy bear #6601",
+          "the nanny #6606"
+        ]
       },
       {
         "Id": 6603,
@@ -29,7 +34,10 @@
           "East": 6602,
           "South": 6605,
           "West": 6606
-        }
+        },
+        "Contents": [
+          "the dwarven youth #6600"
+        ]
       },
       {
         "Id": 6604,
@@ -38,7 +46,12 @@
           "North": 6602,
           "East": 6610,
           "West": 6605
-        }
+        },
+        "Contents": [
+          "the dwarven youth #6600",
+          "a raggedy anne doll #6602",
+          "the nanny #6606"
+        ]
       },
       {
         "Id": 6605,
@@ -47,14 +60,23 @@
           "North": 6603,
           "East": 6604,
           "West": 6607
-        }
+        },
+        "Contents": [
+          "the dwarven youth #6600",
+          "a raggedy anne doll #6602",
+          "an old doll #6605"
+        ]
       },
       {
         "Id": 6606,
         "Name": "The Messy Bathroom",
         "Connections": {
           "East": 6603
-        }
+        },
+        "Contents": [
+          "an old doll #6605",
+          "a teddy bear #6601"
+        ]
       },
       {
         "Id": 6607,
@@ -70,7 +92,11 @@
         "Connections": {
           "East": 6609,
           "South": 6610
-        }
+        },
+        "Contents": [
+          "the dwarven youth #6600",
+          "a toy soldier #6603"
+        ]
       },
       {
         "Id": 6609,
@@ -78,7 +104,13 @@
         "Connections": {
           "South": 6611,
           "West": 6608
-        }
+        },
+        "Contents": [
+          "the dwarven youth #6600",
+          "the ugly bear #6604",
+          "a toy soldier #6603",
+          "a toy soldier #6603"
+        ]
       },
       {
         "Id": 6610,
@@ -87,7 +119,12 @@
           "North": 6608,
           "East": 6611,
           "West": 6604
-        }
+        },
+        "Contents": [
+          "the dwarven youth #6600",
+          "a toy soldier #6603",
+          "an old doll #6605"
+        ]
       },
       {
         "Id": 6611,
@@ -95,7 +132,11 @@
         "Connections": {
           "North": 6609,
           "West": 6610
-        }
+        },
+        "Contents": [
+          "the ugly bear #6604",
+          "a toy soldier #6603"
+        ]
       },
       {
         "Id": 6612,
@@ -145,7 +186,10 @@
         "Connections": {
           "North": 6616,
           "South": 6631
-        }
+        },
+        "Contents": [
+          "the armed guard #6607"
+        ]
       },
       {
         "Id": 6626,
@@ -159,11 +203,15 @@
         "Name": "The End?",
         "Connections": {
           "North": 6624
-        }
+        },
+        "Contents": [
+          "the spoiled brat #6608"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

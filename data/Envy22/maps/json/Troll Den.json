@@ -11,14 +11,24 @@
         "Connections": {
           "South": 2803,
           "North": 6124
-        }
+        },
+        "Contents": [
+          "the guardian beast #2800"
+        ]
       },
       {
         "Id": 2802,
         "Name": "Troll\u0027s Larder",
         "Connections": {
           "East": 2803
-        }
+        },
+        "Contents": [
+          "the young troll #2801",
+          "the young troll #2801",
+          "a fat worm #2806",
+          "a fat worm #2806",
+          "the roving beast #2807"
+        ]
       },
       {
         "Id": 2803,
@@ -28,21 +38,39 @@
           "East": 2804,
           "South": 2805,
           "West": 2802
-        }
+        },
+        "Contents": [
+          "the medium troll #2802",
+          "the guardian beast #2800",
+          "a fat worm #2806",
+          "a fat worm #2806",
+          "the medium troll #2808"
+        ]
       },
       {
         "Id": 2804,
         "Name": "The Playpen",
         "Connections": {
           "West": 2803
-        }
+        },
+        "Contents": [
+          "a baby troll #2803",
+          "a baby troll #2803",
+          "a baby troll #2803",
+          "a baby troll #2803",
+          "a fat worm #2806"
+        ]
       },
       {
         "Id": 2805,
         "Name": "Troll\u0027s Bedroom",
         "Connections": {
           "North": 2803
-        }
+        },
+        "Contents": [
+          "the giant troll #2804",
+          "the large female troll #2805"
+        ]
       },
       {
         "Id": 6124,
@@ -56,6 +84,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

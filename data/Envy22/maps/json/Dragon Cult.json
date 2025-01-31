@@ -11,7 +11,11 @@
         "Connections": {
           "North": 9851,
           "South": 3024
-        }
+        },
+        "Contents": [
+          "the receptionist #9800",
+          "a fanatic monk #9808"
+        ]
       },
       {
         "Id": 9851,
@@ -37,7 +41,10 @@
           "South": 9852,
           "West": 9871,
           "Down": 9854
-        }
+        },
+        "Contents": [
+          "Bob #9809"
+        ]
       },
       {
         "Id": 9854,
@@ -55,7 +62,10 @@
         "Name": "A Shrine",
         "Connections": {
           "North": 9854
-        }
+        },
+        "Contents": [
+          "the minor priest #9801"
+        ]
       },
       {
         "Id": 9856,
@@ -79,7 +89,10 @@
         "Name": "The Bathroom",
         "Connections": {
           "West": 9857
-        }
+        },
+        "Contents": [
+          "the minor priest #9807"
+        ]
       },
       {
         "Id": 9859,
@@ -95,7 +108,10 @@
         "Connections": {
           "North": 9861,
           "East": 9859
-        }
+        },
+        "Contents": [
+          "the minor priest #9801"
+        ]
       },
       {
         "Id": 9861,
@@ -104,7 +120,12 @@
           "North": 9894,
           "South": 9860,
           "Down": 9862
-        }
+        },
+        "Contents": [
+          "the minor priest #9801",
+          "the minor priest #9801",
+          "the robed priest #9802"
+        ]
       },
       {
         "Id": 9862,
@@ -121,7 +142,11 @@
           "North": 9862,
           "East": 9864,
           "West": 9865
-        }
+        },
+        "Contents": [
+          "the robed priest #9802",
+          "the robed priest #9802"
+        ]
       },
       {
         "Id": 9864,
@@ -138,14 +163,20 @@
           "North": 9866,
           "East": 9863,
           "West": 9867
-        }
+        },
+        "Contents": [
+          "the draconian knight #9803"
+        ]
       },
       {
         "Id": 9866,
         "Name": "The Cell",
         "Connections": {
           "South": 9865
-        }
+        },
+        "Contents": [
+          "a virgin sacrifice #9805"
+        ]
       },
       {
         "Id": 9867,
@@ -161,7 +192,10 @@
         "Connections": {
           "North": 9869,
           "East": 9867
-        }
+        },
+        "Contents": [
+          "the High Priestess #9804"
+        ]
       },
       {
         "Id": 9869,
@@ -176,7 +210,10 @@
         "Name": "Chamber of the Wyrmling",
         "Connections": {
           "South": 9869
-        }
+        },
+        "Contents": [
+          "The Black Dragon Wyrmling #9806"
+        ]
       },
       {
         "Id": 9871,
@@ -218,21 +255,30 @@
         "Name": "Gale\u0027s Office",
         "Connections": {
           "East": 9874
-        }
+        },
+        "Contents": [
+          "Gale #9811"
+        ]
       },
       {
         "Id": 9876,
         "Name": "Fred\u0027s Office",
         "Connections": {
           "South": 9878
-        }
+        },
+        "Contents": [
+          "Fred #9812"
+        ]
       },
       {
         "Id": 9877,
         "Name": "The break room",
         "Connections": {
           "South": 9882
-        }
+        },
+        "Contents": [
+          "Marie #9810"
+        ]
       },
       {
         "Id": 9878,
@@ -248,7 +294,10 @@
         "Name": "A sales booth",
         "Connections": {
           "East": 9872
-        }
+        },
+        "Contents": [
+          "Jim #9814"
+        ]
       },
       {
         "Id": 9880,
@@ -281,7 +330,10 @@
         "Name": "The dungeon",
         "Connections": {
           "West": 9884
-        }
+        },
+        "Contents": [
+          "the Zombie #9815"
+        ]
       },
       {
         "Id": 9884,
@@ -289,7 +341,10 @@
         "Connections": {
           "North": 9886,
           "East": 9883
-        }
+        },
+        "Contents": [
+          "the Torturer #9813"
+        ]
       },
       {
         "Id": 9885,
@@ -343,14 +398,20 @@
         "Name": "The bottom of the pit",
         "Connections": {
           "Up": 9889
-        }
+        },
+        "Contents": [
+          "the Lich Priest #9816"
+        ]
       },
       {
         "Id": 9892,
         "Name": "Candy Store",
         "Connections": {
           "South": 9857
-        }
+        },
+        "Contents": [
+          "An old monk #9817"
+        ]
       },
       {
         "Id": 9893,
@@ -387,11 +448,15 @@
           "East": 3025,
           "South": 3048,
           "West": 3044
-        }
+        },
+        "Contents": [
+          "the beastly fido #3062"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

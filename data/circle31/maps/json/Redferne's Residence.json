@@ -8,7 +8,10 @@
         "Connections": {
           "North": 7901,
           "Down": 7918
-        }
+        },
+        "Contents": [
+          "the Grand Knight of Paladins #7900"
+        ]
       },
       {
         "Id": 7901,
@@ -66,7 +69,11 @@
         "Name": "The Larder",
         "Connections": {
           "South": 7906
-        }
+        },
+        "Contents": [
+          "the large rat #7901",
+          "the large rat #7901"
+        ]
       },
       {
         "Id": 7908,
@@ -111,7 +118,10 @@
         "Name": "The Monster Pen",
         "Connections": {
           "West": 7904
-        }
+        },
+        "Contents": [
+          "the Cleaver #7902"
+        ]
       },
       {
         "Id": 7914,
@@ -174,11 +184,15 @@
           "South": 3134,
           "West": 3135,
           "Up": 7914
-        }
+        },
+        "Contents": [
+          "the Town Crier #3106"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

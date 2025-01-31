@@ -45,7 +45,10 @@
           "East": 30105,
           "South": 30108,
           "West": 30103
-        }
+        },
+        "Contents": [
+          "the Coke Machine #30118"
+        ]
       },
       {
         "Id": 30105,
@@ -111,7 +114,11 @@
           "East": 30136,
           "South": 30110,
           "West": 30135
-        }
+        },
+        "Contents": [
+          "the swarm of frgos #30129",
+          "the swarm of frgos #30129"
+        ]
       },
       {
         "Id": 30112,
@@ -246,7 +253,13 @@
           "North": 30103,
           "South": 30145,
           "West": 30143
-        }
+        },
+        "Contents": [
+          "the froshie #30119",
+          "the froshie #30120",
+          "the froshie #30121",
+          "a caf employee #30123"
+        ]
       },
       {
         "Id": 30128,
@@ -255,7 +268,13 @@
           "East": 30108,
           "South": 30151,
           "West": 30148
-        }
+        },
+        "Contents": [
+          "the froshie #30119",
+          "the froshie #30120",
+          "the froshie #30121",
+          "a caf employee #30123"
+        ]
       },
       {
         "Id": 30129,
@@ -369,7 +388,13 @@
         "Connections": {
           "East": 30118,
           "South": 30165
-        }
+        },
+        "Contents": [
+          "the froshie #30119",
+          "the froshie #30120",
+          "the froshie #30121",
+          "Sue, the book-looker-after-er #30141"
+        ]
       },
       {
         "Id": 30142,
@@ -386,14 +411,21 @@
         "Connections": {
           "East": 30127,
           "South": 30144
-        }
+        },
+        "Contents": [
+          "a Mary-Rotte chef #30117",
+          "a Mary-Rotte chef #30117"
+        ]
       },
       {
         "Id": 30144,
         "Name": "The Kitchen",
         "Connections": {
           "North": 30143
-        }
+        },
+        "Contents": [
+          "a Mary-Rotte chef #30117"
+        ]
       },
       {
         "Id": 30145,
@@ -418,7 +450,10 @@
         "Connections": {
           "North": 30145,
           "East": 30148
-        }
+        },
+        "Contents": [
+          "a caf employee #30123"
+        ]
       },
       {
         "Id": 30148,
@@ -427,7 +462,10 @@
           "North": 30146,
           "East": 30128,
           "West": 30147
-        }
+        },
+        "Contents": [
+          "a caf employee #30123"
+        ]
       },
       {
         "Id": 30149,
@@ -435,7 +473,11 @@
         "Connections": {
           "East": 30151,
           "South": 30150
-        }
+        },
+        "Contents": [
+          "a Mary-Rotte chef #30117",
+          "a Mary-Rotte chef #30117"
+        ]
       },
       {
         "Id": 30150,
@@ -450,7 +492,10 @@
         "Connections": {
           "North": 30128,
           "West": 30149
-        }
+        },
+        "Contents": [
+          "a Mary-Rotte chef #30117"
+        ]
       },
       {
         "Id": 30152,
@@ -492,7 +537,10 @@
           "East": 30154,
           "West": 30159,
           "Down": 30155
-        }
+        },
+        "Contents": [
+          "a BIG jock #30124"
+        ]
       },
       {
         "Id": 30157,
@@ -500,7 +548,10 @@
         "Connections": {
           "South": 30156,
           "West": 30158
-        }
+        },
+        "Contents": [
+          "a BIG jock #30124"
+        ]
       },
       {
         "Id": 30158,
@@ -508,7 +559,10 @@
         "Connections": {
           "East": 30157,
           "South": 30159
-        }
+        },
+        "Contents": [
+          "a BIG jock #30124"
+        ]
       },
       {
         "Id": 30159,
@@ -516,7 +570,10 @@
         "Connections": {
           "North": 30158,
           "East": 30156
-        }
+        },
+        "Contents": [
+          "a BIG jock #30124"
+        ]
       },
       {
         "Id": 30160,
@@ -567,14 +624,24 @@
           "North": 30141,
           "South": 30106,
           "Up": 30166
-        }
+        },
+        "Contents": [
+          "the Drunk #30143"
+        ]
       },
       {
         "Id": 30166,
         "Name": "Campus Pub",
         "Connections": {
           "Down": 30165
-        }
+        },
+        "Contents": [
+          "a mosher #30125",
+          "a mosher #30126",
+          "a mosher #30127",
+          "the Bartender #30142",
+          "the Drunk #30143"
+        ]
       },
       {
         "Id": 30167,
@@ -596,14 +663,20 @@
         "Name": "The Tuck Shoppe",
         "Connections": {
           "East": 30137
-        }
+        },
+        "Contents": [
+          "Mr. Tuck #30140"
+        ]
       },
       {
         "Id": 30170,
         "Name": "The Post Office",
         "Connections": {
           "South": 30138
-        }
+        },
+        "Contents": [
+          "the mailbox #30128"
+        ]
       },
       {
         "Id": 30171,
@@ -998,6 +1071,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

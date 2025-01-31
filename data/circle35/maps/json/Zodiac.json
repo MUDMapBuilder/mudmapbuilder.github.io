@@ -6,7 +6,10 @@
       {
         "Id": 5700,
         "Name": "Entrance to the Zodiac",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "Sheila, Gatia\u0027s Assistant #5700"
+        ]
       },
       {
         "Id": 5701,
@@ -14,7 +17,10 @@
         "Connections": {
           "East": 5702,
           "South": 5708
-        }
+        },
+        "Contents": [
+          "the Gemini #5701"
+        ]
       },
       {
         "Id": 5702,
@@ -22,7 +28,10 @@
         "Connections": {
           "South": 5711,
           "West": 5701
-        }
+        },
+        "Contents": [
+          "Pisces #5702"
+        ]
       },
       {
         "Id": 5703,
@@ -30,7 +39,10 @@
         "Connections": {
           "North": 5711,
           "Up": 5704
-        }
+        },
+        "Contents": [
+          "Aquarius #5703"
+        ]
       },
       {
         "Id": 5704,
@@ -38,7 +50,10 @@
         "Connections": {
           "East": 5705,
           "Down": 5703
-        }
+        },
+        "Contents": [
+          "Leo the Lion #5704"
+        ]
       },
       {
         "Id": 5705,
@@ -46,7 +61,10 @@
         "Connections": {
           "South": 5706,
           "West": 5704
-        }
+        },
+        "Contents": [
+          "Taurus the Bull #5705"
+        ]
       },
       {
         "Id": 5706,
@@ -56,7 +74,10 @@
           "East": 5707,
           "South": 5710,
           "West": 5709
-        }
+        },
+        "Contents": [
+          "Aries the Ram #5706"
+        ]
       },
       {
         "Id": 5707,
@@ -85,7 +106,10 @@
           "North": 5706,
           "East": 5713,
           "West": 5714
-        }
+        },
+        "Contents": [
+          "Sagittarius #5710"
+        ]
       },
       {
         "Id": 5711,
@@ -100,14 +124,20 @@
         "Name": "Cancer\u0027s Hole",
         "Connections": {
           "East": 5709
-        }
+        },
+        "Contents": [
+          "Cancer the Crab #5712"
+        ]
       },
       {
         "Id": 5713,
         "Name": "ZodiaShop",
         "Connections": {
           "West": 5710
-        }
+        },
+        "Contents": [
+          "Bungle the shopkeeper #5713"
+        ]
       },
       {
         "Id": 5714,
@@ -196,7 +226,10 @@
         "Connections": {
           "North": 5725,
           "Down": 5723
-        }
+        },
+        "Contents": [
+          "Capricorn #5724"
+        ]
       },
       {
         "Id": 5725,
@@ -220,7 +253,13 @@
         "Connections": {
           "West": 5722,
           "Up": 5731
-        }
+        },
+        "Contents": [
+          "a male goat #5727",
+          "a male goat #5727",
+          "a male goat #5727",
+          "a male goat #5727"
+        ]
       },
       {
         "Id": 5728,
@@ -243,7 +282,11 @@
         "Name": "Scorpio\u0027s Throneroom",
         "Connections": {
           "South": 5729
-        }
+        },
+        "Contents": [
+          "Scorpio #5730",
+          "Virgo #5714"
+        ]
       },
       {
         "Id": 5731,
@@ -274,7 +317,10 @@
         "Name": "At the top of the tree",
         "Connections": {
           "Down": 5733
-        }
+        },
+        "Contents": [
+          "Crannasia the drow assassin #5734"
+        ]
       },
       {
         "Id": 5735,
@@ -289,6 +335,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

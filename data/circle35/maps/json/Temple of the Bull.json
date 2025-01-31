@@ -29,7 +29,10 @@
         "Connections": {
           "North": 30405,
           "South": 30402
-        }
+        },
+        "Contents": [
+          "the Shaggy Monk #30401"
+        ]
       },
       {
         "Id": 30404,
@@ -37,7 +40,10 @@
         "Connections": {
           "North": 30407,
           "East": 30405
-        }
+        },
+        "Contents": [
+          "the Silver Statue #30402"
+        ]
       },
       {
         "Id": 30405,
@@ -46,7 +52,10 @@
           "East": 30406,
           "South": 30403,
           "West": 30404
-        }
+        },
+        "Contents": [
+          "an acolyte #30407"
+        ]
       },
       {
         "Id": 30406,
@@ -54,7 +63,10 @@
         "Connections": {
           "North": 30409,
           "West": 30405
-        }
+        },
+        "Contents": [
+          "the Silver Statue #30402"
+        ]
       },
       {
         "Id": 30407,
@@ -63,7 +75,10 @@
           "North": 30410,
           "East": 30408,
           "South": 30404
-        }
+        },
+        "Contents": [
+          "an acolyte #30407"
+        ]
       },
       {
         "Id": 30408,
@@ -81,7 +96,10 @@
           "North": 30412,
           "South": 30406,
           "West": 30408
-        }
+        },
+        "Contents": [
+          "an acolyte #30407"
+        ]
       },
       {
         "Id": 30410,
@@ -89,14 +107,20 @@
         "Connections": {
           "South": 30407,
           "Up": 30413
-        }
+        },
+        "Contents": [
+          "the Silver Statue #30402"
+        ]
       },
       {
         "Id": 30411,
         "Name": "The Temple",
         "Connections": {
           "South": 30408
-        }
+        },
+        "Contents": [
+          "an acolyte #30407"
+        ]
       },
       {
         "Id": 30412,
@@ -104,7 +128,10 @@
         "Connections": {
           "South": 30409,
           "Up": 30415
-        }
+        },
+        "Contents": [
+          "the Silver Statue #30402"
+        ]
       },
       {
         "Id": 30413,
@@ -119,7 +146,13 @@
         "Name": "Mateon\u0027s Chamber",
         "Connections": {
           "East": 30415
-        }
+        },
+        "Contents": [
+          "the templar of Mateon #30403",
+          "the templar of Mateon #30403",
+          "the templar of Mateon #30403",
+          "the grand knight Mateon #30404"
+        ]
       },
       {
         "Id": 30415,
@@ -136,7 +169,10 @@
         "Connections": {
           "North": 30413,
           "South": 30419
-        }
+        },
+        "Contents": [
+          "an acolyte #30407"
+        ]
       },
       {
         "Id": 30417,
@@ -149,14 +185,20 @@
         "Connections": {
           "North": 30415,
           "South": 30421
-        }
+        },
+        "Contents": [
+          "an acolyte #30407"
+        ]
       },
       {
         "Id": 30419,
         "Name": "The Cul-de-Sac",
         "Connections": {
           "North": 30416
-        }
+        },
+        "Contents": [
+          "the templar of Mateon #30403"
+        ]
       },
       {
         "Id": 30420,
@@ -164,7 +206,10 @@
         "Connections": {
           "East": 30421,
           "South": 30422
-        }
+        },
+        "Contents": [
+          "the Chambermaid #30405"
+        ]
       },
       {
         "Id": 30421,
@@ -179,11 +224,15 @@
         "Name": "The Balcony",
         "Connections": {
           "North": 30420
-        }
+        },
+        "Contents": [
+          "Taurus #30406"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

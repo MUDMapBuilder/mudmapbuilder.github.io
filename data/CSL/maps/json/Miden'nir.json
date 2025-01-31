@@ -22,7 +22,10 @@
           "East": 40550,
           "South": 40509,
           "West": 40505
-        }
+        },
+        "Contents": [
+          "the goblin #40501"
+        ]
       },
       {
         "Id": 40507,
@@ -48,7 +51,10 @@
           "East": 40512,
           "South": 40514,
           "West": 40586
-        }
+        },
+        "Contents": [
+          "the goblin #40501"
+        ]
       },
       {
         "Id": 40510,
@@ -75,7 +81,11 @@
           "North": 40550,
           "South": 40513,
           "West": 40509
-        }
+        },
+        "Contents": [
+          "the goblin #40501",
+          "the goblin #40501"
+        ]
       },
       {
         "Id": 40513,
@@ -83,7 +93,10 @@
         "Connections": {
           "North": 40512,
           "West": 40514
-        }
+        },
+        "Contents": [
+          "the goblin #40501"
+        ]
       },
       {
         "Id": 40514,
@@ -155,7 +168,11 @@
           "North": 40519,
           "East": 40523,
           "West": 40522
-        }
+        },
+        "Contents": [
+          "the wyvern #40500",
+          "the wyvern #40500"
+        ]
       },
       {
         "Id": 40522,
@@ -250,7 +267,10 @@
         "Connections": {
           "South": 40552,
           "West": 40523
-        }
+        },
+        "Contents": [
+          "the goblin lieutenant #40506"
+        ]
       },
       {
         "Id": 40552,
@@ -289,7 +309,12 @@
         "Name": "The Goblin Headquarters",
         "Connections": {
           "North": 40555
-        }
+        },
+        "Contents": [
+          "the goblin #40501",
+          "the goblin lieutenant #40506",
+          "the goblin leader #40507"
+        ]
       },
       {
         "Id": 40570,
@@ -343,21 +368,30 @@
           "East": 40587,
           "South": 40596,
           "West": 40581
-        }
+        },
+        "Contents": [
+          "the small boy #40502"
+        ]
       },
       {
         "Id": 40576,
         "Name": "The Bar",
         "Connections": {
           "South": 40574
-        }
+        },
+        "Contents": [
+          "the Innkeeper #40503"
+        ]
       },
       {
         "Id": 40577,
         "Name": "The Bard\u0027s Table",
         "Connections": {
           "East": 40574
-        }
+        },
+        "Contents": [
+          "the bard #40504"
+        ]
       },
       {
         "Id": 40578,
@@ -395,14 +429,20 @@
         "Connections": {
           "North": 40582,
           "West": 40584
-        }
+        },
+        "Contents": [
+          "the dark horseman #40505"
+        ]
       },
       {
         "Id": 40584,
         "Name": "A Dead End Trail",
         "Connections": {
           "East": 40583
-        }
+        },
+        "Contents": [
+          "the dark horseman #40505"
+        ]
       },
       {
         "Id": 40586,
@@ -801,7 +841,11 @@
         "Connections": {
           "South": 50401,
           "West": 40624
-        }
+        },
+        "Contents": [
+          "a goblin guard #50400",
+          "a goblin guard #50400"
+        ]
       },
       {
         "Id": 60387,
@@ -815,6 +859,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

@@ -10,7 +10,10 @@
         "Name": "On top of the Ancient Oak",
         "Connections": {
           "Down": 8801
-        }
+        },
+        "Contents": [
+          "an herbalist #8801"
+        ]
       },
       {
         "Id": 8801,
@@ -50,7 +53,10 @@
         "Connections": {
           "North": 8804,
           "South": 26128
-        }
+        },
+        "Contents": [
+          "the Ancient Ranger #8800"
+        ]
       },
       {
         "Id": 26128,
@@ -63,6 +69,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

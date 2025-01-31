@@ -41,7 +41,10 @@
           "East": 7805,
           "South": 7818,
           "West": 7815
-        }
+        },
+        "Contents": [
+          "the village guard #7805"
+        ]
       },
       {
         "Id": 7805,
@@ -82,7 +85,10 @@
         "Connections": {
           "North": 7807,
           "South": 7810
-        }
+        },
+        "Contents": [
+          "the village fool #7806"
+        ]
       },
       {
         "Id": 7810,
@@ -98,7 +104,10 @@
         "Connections": {
           "East": 7810,
           "West": 7812
-        }
+        },
+        "Contents": [
+          "the elven healer #7810"
+        ]
       },
       {
         "Id": 7812,
@@ -107,7 +116,10 @@
           "North": 7814,
           "East": 7811,
           "West": 7813
-        }
+        },
+        "Contents": [
+          "an elven gardner #7807"
+        ]
       },
       {
         "Id": 7813,
@@ -116,7 +128,10 @@
           "North": 7818,
           "East": 7812,
           "West": 7817
-        }
+        },
+        "Contents": [
+          "the elven lass #7801"
+        ]
       },
       {
         "Id": 7814,
@@ -162,7 +177,10 @@
           "East": 7814,
           "South": 7813,
           "West": 7816
-        }
+        },
+        "Contents": [
+          "a human servant #7808"
+        ]
       },
       {
         "Id": 7819,
@@ -171,14 +189,20 @@
           "North": 7820,
           "East": 7815,
           "West": 7821
-        }
+        },
+        "Contents": [
+          "a small human boy #7804"
+        ]
       },
       {
         "Id": 7820,
         "Name": "Stamnell\u0027s Bakery",
         "Connections": {
           "South": 7819
-        }
+        },
+        "Contents": [
+          "Stamnell, the baker #7802"
+        ]
       },
       {
         "Id": 7821,
@@ -194,7 +218,10 @@
         "Name": "Vhispera\u0027s General Store",
         "Connections": {
           "South": 7821
-        }
+        },
+        "Contents": [
+          "Vhispera the shopkeeper #7803"
+        ]
       },
       {
         "Id": 7823,
@@ -203,7 +230,10 @@
           "North": 7821,
           "South": 7824,
           "West": 7826
-        }
+        },
+        "Contents": [
+          "a husky hunter #7809"
+        ]
       },
       {
         "Id": 7824,
@@ -231,6 +261,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

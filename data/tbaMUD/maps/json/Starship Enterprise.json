@@ -10,7 +10,11 @@
         "Name": "Main Engineering",
         "Connections": {
           "North": 24102
-        }
+        },
+        "Contents": [
+          "Geordi LaForge #24100",
+          "an ensign #24112"
+        ]
       },
       {
         "Id": 24101,
@@ -34,14 +38,20 @@
         "Name": "Data\u0027s Quarters",
         "Connections": {
           "West": 24102
-        }
+        },
+        "Contents": [
+          "Spot #24111"
+        ]
       },
       {
         "Id": 24104,
         "Name": "The Brig",
         "Connections": {
           "East": 24105
-        }
+        },
+        "Contents": [
+          "an ensign #24112"
+        ]
       },
       {
         "Id": 24105,
@@ -59,14 +69,20 @@
         "Connections": {
           "North": 24142,
           "West": 24105
-        }
+        },
+        "Contents": [
+          "Chief O\u0027Brien #24108"
+        ]
       },
       {
         "Id": 24107,
         "Name": "School",
         "Connections": {
           "East": 24108
-        }
+        },
+        "Contents": [
+          "Counselor Troi #24104"
+        ]
       },
       {
         "Id": 24108,
@@ -97,7 +113,10 @@
         "Name": "Turbolift",
         "Connections": {
           "North": 24113
-        }
+        },
+        "Contents": [
+          "an ensign #24112"
+        ]
       },
       {
         "Id": 24112,
@@ -128,7 +147,10 @@
         "Name": "Sick Bay",
         "Connections": {
           "East": 24116
-        }
+        },
+        "Contents": [
+          "Doctor Crusher #24103"
+        ]
       },
       {
         "Id": 24116,
@@ -138,7 +160,10 @@
           "East": 24117,
           "South": 24113,
           "West": 24115
-        }
+        },
+        "Contents": [
+          "Wesley #24109"
+        ]
       },
       {
         "Id": 24117,
@@ -169,14 +194,20 @@
         "Name": "Enterprise Security",
         "Connections": {
           "West": 24119
-        }
+        },
+        "Contents": [
+          "an ensign #24112"
+        ]
       },
       {
         "Id": 24121,
         "Name": "Ten Forward",
         "Connections": {
           "South": 24119
-        }
+        },
+        "Contents": [
+          "Guinan #24107"
+        ]
       },
       {
         "Id": 24122,
@@ -184,7 +215,10 @@
         "Connections": {
           "North": 24124,
           "South": 24139
-        }
+        },
+        "Contents": [
+          "an ensign #24112"
+        ]
       },
       {
         "Id": 24123,
@@ -201,14 +235,21 @@
           "East": 24125,
           "South": 24122,
           "West": 24123
-        }
+        },
+        "Contents": [
+          "an ensign #24112"
+        ]
       },
       {
         "Id": 24125,
         "Name": "Worf\u0027s Quarters",
         "Connections": {
           "West": 24124
-        }
+        },
+        "Contents": [
+          "alexander rozhenko #24113",
+          "Lieutenant Worf #24102"
+        ]
       },
       {
         "Id": 24126,
@@ -239,7 +280,10 @@
         "Name": "Science Lab",
         "Connections": {
           "East": 24130
-        }
+        },
+        "Contents": [
+          "Data #24101"
+        ]
       },
       {
         "Id": 24130,
@@ -282,7 +326,11 @@
         "Name": "Picard\u0027s Ready Room",
         "Connections": {
           "East": 24138
-        }
+        },
+        "Contents": [
+          "Captain Picard #24106",
+          "Livingston #24110"
+        ]
       },
       {
         "Id": 24136,
@@ -291,7 +339,11 @@
           "North": 24138,
           "East": 24137,
           "West": 24133
-        }
+        },
+        "Contents": [
+          "Commander Riker #24105",
+          "an ensign #24112"
+        ]
       },
       {
         "Id": 24137,
@@ -351,11 +403,15 @@
       {
         "Id": 24145,
         "Name": "A Genetic Scientific Laboratory",
-        "Connections": {}
+        "Connections": {},
+        "Contents": [
+          "an experimental android #24118"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

@@ -25,7 +25,10 @@
         "Name": "Boat Shop",
         "Connections": {
           "West": 60000
-        }
+        },
+        "Contents": [
+          "Margaret \u0022Maggie\u0022 Whitman #60007"
+        ]
       },
       {
         "Id": 60003,
@@ -100,7 +103,10 @@
           "North": 60009,
           "East": 60012,
           "South": 60020
-        }
+        },
+        "Contents": [
+          "the rat #60001"
+        ]
       },
       {
         "Id": 60012,
@@ -118,7 +124,10 @@
           "North": 60004,
           "East": 60014,
           "West": 60012
-        }
+        },
+        "Contents": [
+          "the rat #60001"
+        ]
       },
       {
         "Id": 60014,
@@ -136,7 +145,10 @@
           "North": 60006,
           "South": 60016,
           "West": 60014
-        }
+        },
+        "Contents": [
+          "the rat #60001"
+        ]
       },
       {
         "Id": 60016,
@@ -171,7 +183,10 @@
           "East": 60018,
           "South": 60042,
           "West": 60020
-        }
+        },
+        "Contents": [
+          "the rat #60001"
+        ]
       },
       {
         "Id": 60020,
@@ -187,7 +202,10 @@
         "Connections": {
           "North": 60016,
           "Up": 60022
-        }
+        },
+        "Contents": [
+          "the rat #60001"
+        ]
       },
       {
         "Id": 60022,
@@ -212,7 +230,10 @@
         "Connections": {
           "East": 60023,
           "West": 60025
-        }
+        },
+        "Contents": [
+          "the pigeon #60004"
+        ]
       },
       {
         "Id": 60025,
@@ -221,7 +242,10 @@
           "North": 60038,
           "East": 60024,
           "West": 60026
-        }
+        },
+        "Contents": [
+          "the starling #60005"
+        ]
       },
       {
         "Id": 60026,
@@ -229,7 +253,10 @@
         "Connections": {
           "East": 60025,
           "West": 60027
-        }
+        },
+        "Contents": [
+          "the sparrow #60006"
+        ]
       },
       {
         "Id": 60027,
@@ -245,7 +272,10 @@
         "Connections": {
           "North": 60029,
           "South": 60027
-        }
+        },
+        "Contents": [
+          "the pigeon #60004"
+        ]
       },
       {
         "Id": 60029,
@@ -253,7 +283,10 @@
         "Connections": {
           "North": 60030,
           "South": 60028
-        }
+        },
+        "Contents": [
+          "the starling #60005"
+        ]
       },
       {
         "Id": 60030,
@@ -261,7 +294,10 @@
         "Connections": {
           "North": 60031,
           "South": 60029
-        }
+        },
+        "Contents": [
+          "the sparrow #60006"
+        ]
       },
       {
         "Id": 60031,
@@ -277,7 +313,10 @@
         "Connections": {
           "East": 60033,
           "West": 60031
-        }
+        },
+        "Contents": [
+          "the pigeon #60004"
+        ]
       },
       {
         "Id": 60033,
@@ -286,7 +325,10 @@
           "East": 60034,
           "South": 60036,
           "West": 60032
-        }
+        },
+        "Contents": [
+          "the starling #60005"
+        ]
       },
       {
         "Id": 60034,
@@ -301,7 +343,10 @@
         "Name": "The Catwalk",
         "Connections": {
           "West": 60034
-        }
+        },
+        "Contents": [
+          "the sparrow #60006"
+        ]
       },
       {
         "Id": 60036,
@@ -309,7 +354,10 @@
         "Connections": {
           "North": 60033,
           "South": 60037
-        }
+        },
+        "Contents": [
+          "the pigeon #60004"
+        ]
       },
       {
         "Id": 60037,
@@ -317,7 +365,10 @@
         "Connections": {
           "North": 60036,
           "South": 60038
-        }
+        },
+        "Contents": [
+          "the pigeon #60004"
+        ]
       },
       {
         "Id": 60038,
@@ -325,7 +376,10 @@
         "Connections": {
           "North": 60037,
           "South": 60025
-        }
+        },
+        "Contents": [
+          "the starling #60005"
+        ]
       },
       {
         "Id": 60039,
@@ -333,7 +387,10 @@
         "Connections": {
           "North": 60040,
           "South": 60023
-        }
+        },
+        "Contents": [
+          "the foreman #60000"
+        ]
       },
       {
         "Id": 60040,
@@ -347,14 +404,24 @@
         "Name": "Storage Room",
         "Connections": {
           "North": 60017
-        }
+        },
+        "Contents": [
+          "the rat #60001",
+          "the centipede #60002",
+          "the spider #60003"
+        ]
       },
       {
         "Id": 60042,
         "Name": "Storage Room",
         "Connections": {
           "North": 60019
-        }
+        },
+        "Contents": [
+          "the rat #60001",
+          "the centipede #60002",
+          "the spider #60003"
+        ]
       },
       {
         "Id": 19099,
@@ -388,6 +455,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

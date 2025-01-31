@@ -139,7 +139,10 @@
         "Name": "Inside the tent",
         "Connections": {
           "East": 18010
-        }
+        },
+        "Contents": [
+          "an obsidian soldier #18000"
+        ]
       },
       {
         "Id": 18016,
@@ -164,7 +167,10 @@
           "North": 18019,
           "East": 18028,
           "West": 18017
-        }
+        },
+        "Contents": [
+          "an obsidian soldier #18000"
+        ]
       },
       {
         "Id": 18019,
@@ -181,7 +187,10 @@
         "Connections": {
           "North": 18021,
           "South": 18019
-        }
+        },
+        "Contents": [
+          "an obsidian soldier #18000"
+        ]
       },
       {
         "Id": 18021,
@@ -199,7 +208,10 @@
           "North": 18032,
           "East": 18021,
           "West": 18012
-        }
+        },
+        "Contents": [
+          "an obsidian soldier #18000"
+        ]
       },
       {
         "Id": 18023,
@@ -215,7 +227,10 @@
           "East": 18019,
           "South": 18017,
           "West": 18010
-        }
+        },
+        "Contents": [
+          "an obsidian soldier #18000"
+        ]
       },
       {
         "Id": 18025,
@@ -230,14 +245,20 @@
         "Name": "Inside the tent",
         "Connections": {
           "East": 18025
-        }
+        },
+        "Contents": [
+          "an obsidian soldier #18000"
+        ]
       },
       {
         "Id": 18027,
         "Name": "Inside the tent",
         "Connections": {
           "South": 18013
-        }
+        },
+        "Contents": [
+          "an obsidian soldier #18000"
+        ]
       },
       {
         "Id": 18028,
@@ -253,7 +274,10 @@
         "Connections": {
           "North": 18028,
           "East": 18030
-        }
+        },
+        "Contents": [
+          "an obsidian soldier #18000"
+        ]
       },
       {
         "Id": 18030,
@@ -268,7 +292,12 @@
         "Name": "At the Bottom of the Hill",
         "Connections": {
           "Up": 18030
-        }
+        },
+        "Contents": [
+          "Rasheeka #18013",
+          "Rakeesh #18014",
+          "Ralana #18015"
+        ]
       },
       {
         "Id": 18032,
@@ -276,7 +305,10 @@
         "Connections": {
           "North": 18033,
           "South": 18022
-        }
+        },
+        "Contents": [
+          "the fortress guard #18009"
+        ]
       },
       {
         "Id": 18033,
@@ -402,14 +434,20 @@
         "Connections": {
           "North": 18048,
           "East": 18046
-        }
+        },
+        "Contents": [
+          "an elite obsidian soldier #18001"
+        ]
       },
       {
         "Id": 18048,
         "Name": "The Commanding Room",
         "Connections": {
           "South": 18047
-        }
+        },
+        "Contents": [
+          "the Obsidian Commander #18002"
+        ]
       },
       {
         "Id": 18049,
@@ -449,7 +487,10 @@
         "Connections": {
           "East": 18054,
           "Down": 18052
-        }
+        },
+        "Contents": [
+          "an elite obsidian soldier #18001"
+        ]
       },
       {
         "Id": 18054,
@@ -464,7 +505,10 @@
         "Name": "The Large Room",
         "Connections": {
           "West": 18054
-        }
+        },
+        "Contents": [
+          "the Founder #18003"
+        ]
       },
       {
         "Id": 18056,
@@ -488,7 +532,10 @@
         "Connections": {
           "West": 18057,
           "Down": 18059
-        }
+        },
+        "Contents": [
+          "the obsidian jailor #18004"
+        ]
       },
       {
         "Id": 18059,
@@ -506,35 +553,51 @@
         "Name": "A dark cell",
         "Connections": {
           "South": 18059
-        }
+        },
+        "Contents": [
+          "Silea #18005"
+        ]
       },
       {
         "Id": 18061,
         "Name": "A dark cell",
         "Connections": {
           "West": 18059
-        }
+        },
+        "Contents": [
+          "Diron #18006"
+        ]
       },
       {
         "Id": 18062,
         "Name": "A dark cell",
         "Connections": {
           "North": 18059
-        }
+        },
+        "Contents": [
+          "La\u0027Shana #18007"
+        ]
       },
       {
         "Id": 18063,
         "Name": "A dark cell",
         "Connections": {
           "East": 18059
-        }
+        },
+        "Contents": [
+          "the Warrior Gnome #18008"
+        ]
       },
       {
         "Id": 18064,
         "Name": "Interrogation Room",
         "Connections": {
           "West": 18038
-        }
+        },
+        "Contents": [
+          "the troll interrogator #18011",
+          "a goblin assistant #18012"
+        ]
       },
       {
         "Id": 18065,
@@ -557,7 +620,10 @@
         "Name": "The Mess Hall",
         "Connections": {
           "South": 18035
-        }
+        },
+        "Contents": [
+          "the obsidian cook #18010"
+        ]
       },
       {
         "Id": 18068,
@@ -585,7 +651,11 @@
           "South": 602,
           "West": 5553,
           "Down": 17223
-        }
+        },
+        "Contents": [
+          "the Ofcol cityguard #600",
+          "the citizen #617"
+        ]
       },
       {
         "Id": 13083,
@@ -593,11 +663,15 @@
         "IsExitToOtherArea": true,
         "Connections": {
           "West": 13022
-        }
+        },
+        "Contents": [
+          "the Obsidian Diplomat #13016"
+        ]
       }
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

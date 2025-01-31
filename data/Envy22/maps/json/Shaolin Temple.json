@@ -43,7 +43,10 @@
         "Name": "A dark cave",
         "Connections": {
           "East": 20104
-        }
+        },
+        "Contents": [
+          "Your own inner demon #20106"
+        ]
       },
       {
         "Id": 20106,
@@ -79,7 +82,10 @@
         "Connections": {
           "South": 20110,
           "East": 20108
-        }
+        },
+        "Contents": [
+          "A monk child #20101"
+        ]
       },
       {
         "Id": 20110,
@@ -93,7 +99,10 @@
         "Name": "The Monks\u0027 Bunk",
         "Connections": {
           "South": 20108
-        }
+        },
+        "Contents": [
+          "The monk warrior #20109"
+        ]
       },
       {
         "Id": 20112,
@@ -117,14 +126,20 @@
         "Name": "The Chamber of Wooden Men",
         "Connections": {
           "South": 20115
-        }
+        },
+        "Contents": [
+          "The wooden man #20108"
+        ]
       },
       {
         "Id": 20115,
         "Name": "The Luohan Chamber",
         "Connections": {
           "Down": 20116
-        }
+        },
+        "Contents": [
+          "The Luohan #20110"
+        ]
       },
       {
         "Id": 20116,
@@ -138,14 +153,21 @@
         "Name": "A Training Arena",
         "Connections": {
           "North": 20113
-        }
+        },
+        "Contents": [
+          "A monk #20104",
+          "A monk #20104"
+        ]
       },
       {
         "Id": 20118,
         "Name": "A Training Arena",
         "Connections": {
           "South": 20113
-        }
+        },
+        "Contents": [
+          "A disciple #20103"
+        ]
       },
       {
         "Id": 20119,
@@ -173,21 +195,30 @@
         "Name": "A Master\u0027s Chamber",
         "Connections": {
           "North": 20120
-        }
+        },
+        "Contents": [
+          "The Drunken Master #20113"
+        ]
       },
       {
         "Id": 20122,
         "Name": "A Master\u0027s Chamber",
         "Connections": {
           "East": 20120
-        }
+        },
+        "Contents": [
+          "The Master Trainer #20114"
+        ]
       },
       {
         "Id": 20123,
         "Name": "The Abbot\u0027s Chamber",
         "Connections": {
           "Down": 20120
-        }
+        },
+        "Contents": [
+          "The Abbot of Shaolin #20115"
+        ]
       },
       {
         "Id": 20124,
@@ -195,7 +226,10 @@
         "Connections": {
           "South": 20120,
           "East": 20125
-        }
+        },
+        "Contents": [
+          "The Master of Books #20112"
+        ]
       },
       {
         "Id": 20125,
@@ -221,14 +255,20 @@
         "Name": "A Guest Room",
         "Connections": {
           "North": 20126
-        }
+        },
+        "Contents": [
+          "The visiting guest #20117"
+        ]
       },
       {
         "Id": 20128,
         "Name": "A Guest Room",
         "Connections": {
           "West": 20126
-        }
+        },
+        "Contents": [
+          "A monk child #20101"
+        ]
       },
       {
         "Id": 20129,
@@ -253,14 +293,21 @@
           "South": 20134,
           "East": 20133,
           "West": 20132
-        }
+        },
+        "Contents": [
+          "A monk guard #20105",
+          "A monk guard #20105"
+        ]
       },
       {
         "Id": 20132,
         "Name": "A prison cell",
         "Connections": {
           "East": 20131
-        }
+        },
+        "Contents": [
+          "An evil monk #20107"
+        ]
       },
       {
         "Id": 20133,
@@ -274,14 +321,20 @@
         "Name": "Cell of Wuhua",
         "Connections": {
           "North": 20131
-        }
+        },
+        "Contents": [
+          "Wuhua #20111"
+        ]
       },
       {
         "Id": 20135,
         "Name": "A female prison cell",
         "Connections": {
           "South": 20131
-        }
+        },
+        "Contents": [
+          "An imprisoned nun #20102"
+        ]
       },
       {
         "Id": 20136,
@@ -289,7 +342,10 @@
         "Connections": {
           "Down": 20116,
           "East": 20137
-        }
+        },
+        "Contents": [
+          "The Jinshen #20116"
+        ]
       },
       {
         "Id": 20137,
@@ -310,6 +366,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }

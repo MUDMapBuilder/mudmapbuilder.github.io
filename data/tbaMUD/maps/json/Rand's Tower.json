@@ -11,7 +11,10 @@
         "Connections": {
           "East": 6401,
           "West": 4078
-        }
+        },
+        "Contents": [
+          "the mountain goat #6400"
+        ]
       },
       {
         "Id": 6401,
@@ -27,7 +30,10 @@
         "Connections": {
           "East": 6403,
           "West": 6401
-        }
+        },
+        "Contents": [
+          "the mountain goat #6400"
+        ]
       },
       {
         "Id": 6403,
@@ -43,7 +49,10 @@
         "Connections": {
           "East": 6405,
           "West": 6403
-        }
+        },
+        "Contents": [
+          "the mountain goat #6400"
+        ]
       },
       {
         "Id": 6405,
@@ -69,7 +78,11 @@
           "West": 6409,
           "Up": 6406,
           "Down": 6413
-        }
+        },
+        "Contents": [
+          "the Demon of Decay #6401",
+          "the Demon of Decay #6401"
+        ]
       },
       {
         "Id": 6408,
@@ -99,7 +112,10 @@
         "Name": "The Master Bedroom",
         "Connections": {
           "South": 6409
-        }
+        },
+        "Contents": [
+          "a Bad Feeling #6403"
+        ]
       },
       {
         "Id": 6412,
@@ -107,7 +123,10 @@
         "Connections": {
           "East": 6413,
           "West": 6414
-        }
+        },
+        "Contents": [
+          "the Book Monster #6402"
+        ]
       },
       {
         "Id": 6413,
@@ -140,7 +159,12 @@
         "Name": "The Hidden Treasure Room",
         "Connections": {
           "Up": 6414
-        }
+        },
+        "Contents": [
+          "Your Worst Nightmare #6404",
+          "Your Worst Nightmare #6404",
+          "Your Worst Nightmare #6404"
+        ]
       },
       {
         "Id": 6417,
@@ -307,7 +331,10 @@
         "Connections": {
           "North": 6434,
           "West": 6438
-        }
+        },
+        "Contents": [
+          "the Guardian #6405"
+        ]
       },
       {
         "Id": 6438,
@@ -370,7 +397,10 @@
         "Name": "Inside A Pentagram",
         "Connections": {
           "South": 6444
-        }
+        },
+        "Contents": [
+          "a small God #6406"
+        ]
       },
       {
         "Id": 4078,
@@ -384,6 +414,7 @@
     ]
   },
   "BuildOptions": {
-    "MaxSteps": 1000
+    "MaxSteps": 1000,
+    "MaxCompactSteps": 10000
   }
 }
