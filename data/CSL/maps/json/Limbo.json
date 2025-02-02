@@ -4,10 +4,14 @@
     "Credits": "Diku",
     "MinimumLevel": "None",
     "MaximumLevel": "None",
+    "BackgroundColor": "white",
+    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 1,
-        "Name": "The Void",
+        "FrameColor": "black",
+        "Name": "The Void #1",
+        "Color": "black",
         "Connections": {},
         "Contents": [
           {
@@ -22,14 +26,18 @@
       },
       {
         "Id": 2,
-        "Name": "Limbo",
+        "FrameColor": "black",
+        "Name": "Limbo #2",
+        "Color": "black",
         "Connections": {
           "Up": 3001
         }
       },
       {
         "Id": 3,
-        "Name": "Graelik\u0027s Lair",
+        "FrameColor": "black",
+        "Name": "Graelik\u0027s Lair #3",
+        "Color": "black",
         "Connections": {},
         "Contents": [
           {
@@ -44,13 +52,16 @@
       },
       {
         "Id": 110,
-        "Name": "(null)",
+        "FrameColor": "black",
+        "Name": "(null) #110",
+        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 3001,
-        "Name": "To Midgaard",
-        "IsExitToOtherArea": true,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3001",
+        "Color": "blue",
         "Connections": {
           "North": 3054,
           "South": 3005

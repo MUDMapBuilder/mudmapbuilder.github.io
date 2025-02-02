@@ -1,16 +1,22 @@
 {
   "Area": {
     "Name": "Limbo - Internal",
+    "BackgroundColor": "white",
+    "ConnectionsColor": "black",
     "Rooms": [
       {
-        "Name": "The Void",
+        "FrameColor": "black",
+        "Name": "The Void #0",
+        "Color": "black",
         "Connections": {
           "Up": 3001
         }
       },
       {
         "Id": 1,
-        "Name": "Limbo",
+        "FrameColor": "black",
+        "Name": "Limbo #1",
+        "Color": "black",
         "Connections": {},
         "Contents": [
           {
@@ -21,15 +27,18 @@
       },
       {
         "Id": 3,
-        "Name": "A Totally Empty Room",
+        "FrameColor": "black",
+        "Name": "A Totally Empty Room #3",
+        "Color": "black",
         "Connections": {
           "Up": 3048
         }
       },
       {
         "Id": 3001,
-        "Name": "To Northern Midgaard Main City",
-        "IsExitToOtherArea": true,
+        "FrameColor": "blue",
+        "Name": "To Northern Midgaard Main City #3001",
+        "Color": "blue",
         "Connections": {
           "North": 3054,
           "East": 3063,
@@ -40,8 +49,9 @@
       },
       {
         "Id": 3048,
-        "Name": "To Northern Midgaard Main City",
-        "IsExitToOtherArea": true,
+        "FrameColor": "blue",
+        "Name": "To Northern Midgaard Main City #3048",
+        "Color": "blue",
         "Connections": {
           "North": 3024
         }

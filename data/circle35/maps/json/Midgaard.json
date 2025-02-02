@@ -2,10 +2,14 @@
   "Area": {
     "Name": "Midgaard",
     "Credits": "DikuMUD",
+    "BackgroundColor": "white",
+    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 3200,
-        "Name": "Under The Bridge",
+        "FrameColor": "black",
+        "Name": "Under The Bridge #3200",
+        "Color": "black",
         "Connections": {
           "East": 3201,
           "West": 900
@@ -13,7 +17,9 @@
       },
       {
         "Id": 3201,
-        "Name": "On The River",
+        "FrameColor": "black",
+        "Name": "On The River #3201",
+        "Color": "black",
         "Connections": {
           "East": 3202,
           "West": 3200
@@ -21,7 +27,9 @@
       },
       {
         "Id": 3202,
-        "Name": "On The River",
+        "FrameColor": "black",
+        "Name": "On The River #3202",
+        "Color": "black",
         "Connections": {
           "East": 3203,
           "West": 3201
@@ -29,7 +37,9 @@
       },
       {
         "Id": 3203,
-        "Name": "On The River",
+        "FrameColor": "black",
+        "Name": "On The River #3203",
+        "Color": "black",
         "Connections": {
           "North": 3049,
           "East": 3204,
@@ -38,7 +48,9 @@
       },
       {
         "Id": 3204,
-        "Name": "On The River",
+        "FrameColor": "black",
+        "Name": "On The River #3204",
+        "Color": "black",
         "Connections": {
           "East": 3205,
           "West": 3203
@@ -46,7 +58,9 @@
       },
       {
         "Id": 3205,
-        "Name": "On The River",
+        "FrameColor": "black",
+        "Name": "On The River #3205",
+        "Color": "black",
         "Connections": {
           "East": 5001,
           "West": 3204
@@ -54,8 +68,9 @@
       },
       {
         "Id": 900,
-        "Name": "To River Island of Minos",
-        "IsExitToOtherArea": true,
+        "FrameColor": "blue",
+        "Name": "To River Island of Minos #900",
+        "Color": "blue",
         "Connections": {
           "East": 3200,
           "West": 901
@@ -63,8 +78,9 @@
       },
       {
         "Id": 3049,
-        "Name": "To Northern Midgaard",
-        "IsExitToOtherArea": true,
+        "FrameColor": "blue",
+        "Name": "To Northern Midgaard #3049",
+        "Color": "blue",
         "Connections": {
           "North": 3045,
           "South": 3203
@@ -72,8 +88,9 @@
       },
       {
         "Id": 5001,
-        "Name": "To Great Eastern Desert",
-        "IsExitToOtherArea": true,
+        "FrameColor": "blue",
+        "Name": "To Great Eastern Desert #5001",
+        "Color": "blue",
         "Connections": {
           "East": 5002,
           "West": 3205

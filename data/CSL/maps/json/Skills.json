@@ -2,10 +2,14 @@
   "Area": {
     "Name": "Skills",
     "Credits": "(Imm) Odd Stuff",
+    "BackgroundColor": "white",
+    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 2900,
-        "Name": "Inside a darkened plane",
+        "FrameColor": "black",
+        "Name": "Inside a darkened plane #2900",
+        "Color": "black",
         "Connections": {
           "East": 2901,
           "South": 873,
@@ -16,7 +20,9 @@
       },
       {
         "Id": 2901,
-        "Name": "Inside a darkened plane",
+        "FrameColor": "black",
+        "Name": "Inside a darkened plane #2901",
+        "Color": "black",
         "Connections": {
           "East": 17004,
           "West": 2900
@@ -24,37 +30,43 @@
       },
       {
         "Id": 2920,
-        "Name": "Death!",
+        "FrameColor": "black",
+        "Name": "Death! #2920",
+        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 873,
-        "Name": "To Arkham",
-        "IsExitToOtherArea": true,
+        "FrameColor": "blue",
+        "Name": "To Arkham #873",
+        "Color": "blue",
         "Connections": {
           "East": 868
         }
       },
       {
         "Id": 4632,
-        "Name": "To Mausoleum",
-        "IsExitToOtherArea": true,
+        "FrameColor": "blue",
+        "Name": "To Mausoleum #4632",
+        "Color": "blue",
         "Connections": {
           "North": 4628
         }
       },
       {
         "Id": 1462,
-        "Name": "To High Tower",
-        "IsExitToOtherArea": true,
+        "FrameColor": "blue",
+        "Name": "To High Tower #1462",
+        "Color": "blue",
         "Connections": {
           "South": 1461
         }
       },
       {
         "Id": 27000,
-        "Name": "To Hell",
-        "IsExitToOtherArea": true,
+        "FrameColor": "blue",
+        "Name": "To Hell #27000",
+        "Color": "blue",
         "Connections": {
           "West": 27001,
           "Up": 16136
@@ -62,8 +74,9 @@
       },
       {
         "Id": 17004,
-        "Name": "To UnderDark",
-        "IsExitToOtherArea": true,
+        "FrameColor": "blue",
+        "Name": "To UnderDark #17004",
+        "Color": "blue",
         "Connections": {
           "East": 17005,
           "West": 17003
