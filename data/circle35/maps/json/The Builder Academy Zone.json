@@ -271,7 +271,17 @@
         "Name": "Advanced Trigedit Example #20",
         "Color": "black",
         "Connections": {
-          "North": 21,
+          "North": {
+            "RoomId": 21,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the gateguard key #46",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 18
         },
         "Contents": [
@@ -465,7 +475,12 @@
         "Name": "A Prison Cell #97",
         "Color": "black",
         "Connections": {
-          "South": 89
+          "South": {
+            "RoomId": 89,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {

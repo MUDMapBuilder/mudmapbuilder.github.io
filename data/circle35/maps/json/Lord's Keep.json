@@ -377,7 +377,12 @@
         "Color": "black",
         "Connections": {
           "East": 25670,
-          "Up": 25650
+          "Up": {
+            "RoomId": 25650,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -496,7 +501,17 @@
         "Name": "Lord\u0027s Reception #25636",
         "Color": "black",
         "Connections": {
-          "South": 25642,
+          "South": {
+            "RoomId": 25642,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a grey key #25625",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 25631
         },
         "Contents": [
@@ -591,7 +606,12 @@
         "Name": "Lord\u0027s Bedroom #25642",
         "Color": "black",
         "Connections": {
-          "North": 25636,
+          "North": {
+            "RoomId": 25636,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 25643,
           "West": 25630
         }

@@ -747,7 +747,17 @@
         "Color": "black",
         "Connections": {
           "South": 6243,
-          "West": 6256
+          "West": {
+            "RoomId": 6256,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #6200",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -757,7 +767,17 @@
         "Color": "black",
         "Connections": {
           "North": 6258,
-          "East": 6255,
+          "East": {
+            "RoomId": 6255,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #6200",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 6257
         }
       },

@@ -358,7 +358,17 @@
         "Name": "A dark passage #1323",
         "Color": "black",
         "Connections": {
-          "North": 1327,
+          "North": {
+            "RoomId": 1327,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an old key #1323",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 1322
         }
       },
@@ -397,7 +407,12 @@
         "Name": "A dark cell #1327",
         "Color": "black",
         "Connections": {
-          "South": 1323
+          "South": {
+            "RoomId": 1323,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2304,7 +2319,12 @@
         "Name": "A wide hallway #1473",
         "Color": "black",
         "Connections": {
-          "North": 1474,
+          "North": {
+            "RoomId": 1474,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 1450
         }
       },
@@ -2314,8 +2334,18 @@
         "Name": "A wide hallway #1474",
         "Color": "black",
         "Connections": {
-          "North": 1475,
-          "South": 1473
+          "North": {
+            "RoomId": 1475,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 1473,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -2324,8 +2354,18 @@
         "Name": "A wide hallway #1475",
         "Color": "black",
         "Connections": {
-          "North": 1476,
-          "South": 1474
+          "North": {
+            "RoomId": 1476,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 1474,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -2335,7 +2375,12 @@
         "Color": "black",
         "Connections": {
           "North": 1477,
-          "South": 1475
+          "South": {
+            "RoomId": 1475,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -2439,7 +2484,17 @@
         "Name": "To Dragon Tower #2201",
         "Color": "blue",
         "Connections": {
-          "North": 2202,
+          "North": {
+            "RoomId": 2202,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel key #2231",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 1304
         }
       },
@@ -2460,7 +2515,17 @@
         "Color": "blue",
         "Connections": {
           "East": 3459,
-          "Down": 3475
+          "Down": {
+            "RoomId": 3475,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to the coffin #3419",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {

@@ -340,9 +340,29 @@
         "Color": "black",
         "Connections": {
           "North": 3825,
-          "East": 3827,
+          "East": {
+            "RoomId": 3827,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key on a necklace #3802",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 3829,
-          "West": 3828
+          "West": {
+            "RoomId": 3828,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key on a necklace #3802",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -357,7 +377,17 @@
         "Name": "The Treasure Room #3827",
         "Color": "black",
         "Connections": {
-          "West": 3826
+          "West": {
+            "RoomId": 3826,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key on a necklace #3802",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -366,7 +396,17 @@
         "Name": "The Leader\u0027s Quarters #3828",
         "Color": "black",
         "Connections": {
-          "East": 3826
+          "East": {
+            "RoomId": 3826,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key on a necklace #3802",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -401,7 +441,17 @@
         "Connections": {
           "North": 3829,
           "East": 3832,
-          "West": 3831
+          "West": {
+            "RoomId": 3831,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #3803",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -416,7 +466,17 @@
         "Name": "A Large Cage #3831",
         "Color": "black",
         "Connections": {
-          "East": 3830
+          "East": {
+            "RoomId": 3830,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #3803",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -496,7 +556,17 @@
         "Color": "black",
         "Connections": {
           "North": 3836,
-          "South": 3838
+          "South": {
+            "RoomId": 3838,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a silver key #3801",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -511,8 +581,23 @@
         "Name": "A Small Shrine #3838",
         "Color": "black",
         "Connections": {
-          "North": 3837,
-          "West": 3839
+          "North": {
+            "RoomId": 3837,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a silver key #3801",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 3839,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -521,7 +606,12 @@
         "Name": "On the Other Side of the Dimensional Portal #3839",
         "Color": "black",
         "Connections": {
-          "East": 3838,
+          "East": {
+            "RoomId": 3838,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 3840
         }
       },
@@ -531,9 +621,19 @@
         "Name": "The Living Room of Icaza and Hatchet #3840",
         "Color": "black",
         "Connections": {
-          "North": 3841,
+          "North": {
+            "RoomId": 3841,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "East": 3839,
-          "South": 3842
+          "South": {
+            "RoomId": 3842,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {

@@ -921,7 +921,12 @@
         "Color": "black",
         "Connections": {
           "East": 9173,
-          "South": 9177,
+          "South": {
+            "RoomId": 9177,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 9167,
           "Down": 9165
         }
@@ -1033,7 +1038,12 @@
         "Name": "Foyer. #9177",
         "Color": "black",
         "Connections": {
-          "North": 9166,
+          "North": {
+            "RoomId": 9166,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 9183,
           "West": 9178,
           "Down": 9176
@@ -1168,7 +1178,12 @@
         "Name": "To Redferne\u0027s #7900",
         "Color": "blue",
         "Connections": {
-          "North": 7901,
+          "North": {
+            "RoomId": 7901,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 9101,
           "Down": 7918
         }

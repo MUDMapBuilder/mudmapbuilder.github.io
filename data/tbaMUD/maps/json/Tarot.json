@@ -31,10 +31,25 @@
         "Name": "A Room For Waiting #21102",
         "Color": "black",
         "Connections": {
-          "North": 21110,
-          "East": 21150,
+          "North": {
+            "RoomId": 21110,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 21150,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 21101,
-          "West": 21130
+          "West": {
+            "RoomId": 21130,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -58,7 +73,12 @@
         "Name": "Sibyl\u0027s office #21110",
         "Color": "black",
         "Connections": {
-          "Up": 21111
+          "Up": {
+            "RoomId": 21111,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -219,7 +239,12 @@
         "Name": "Esmerelda\u0027s office #21130",
         "Color": "black",
         "Connections": {
-          "Up": 21131
+          "Up": {
+            "RoomId": 21131,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -380,7 +405,12 @@
         "Name": "Jaelle\u0027s office #21150",
         "Color": "black",
         "Connections": {
-          "Up": 21151
+          "Up": {
+            "RoomId": 21151,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {

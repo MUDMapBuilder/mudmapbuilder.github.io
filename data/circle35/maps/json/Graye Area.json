@@ -593,7 +593,17 @@
         "Color": "black",
         "Connections": {
           "East": 31044,
-          "Down": 31059
+          "Down": {
+            "RoomId": 31059,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an inconspicuous rock #31023",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -611,7 +621,17 @@
           "East": 31045,
           "South": 31041,
           "West": 31043,
-          "Down": 31046
+          "Down": {
+            "RoomId": 31046,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a secret key #31001",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -636,7 +656,17 @@
         "Color": "black",
         "Connections": {
           "North": 31047,
-          "Up": 31044
+          "Up": {
+            "RoomId": 31044,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a secret key #31001",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -656,7 +686,17 @@
         "Color": "black",
         "Connections": {
           "South": 31047,
-          "Up": 31049
+          "Up": {
+            "RoomId": 31049,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a trapdoor key #31002",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -666,7 +706,17 @@
         "Color": "black",
         "Connections": {
           "North": 31050,
-          "Down": 31048
+          "Down": {
+            "RoomId": 31048,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a trapdoor key #31002",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -761,7 +811,17 @@
         "Name": "Irgon\u0027s Guard Room #31055",
         "Color": "black",
         "Connections": {
-          "North": 31056,
+          "North": {
+            "RoomId": 31056,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an ebony key #31003",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 31054
         },
         "Contents": [
@@ -781,8 +841,28 @@
         "Name": "Scrytin\u0027s Chamber of Doom #31056",
         "Color": "black",
         "Connections": {
-          "East": 31057,
-          "South": 31055
+          "East": {
+            "RoomId": 31057,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an ivory key #31004",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 31055,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an ebony key #31003",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -798,7 +878,17 @@
         "Color": "black",
         "Connections": {
           "East": 31043,
-          "West": 31056
+          "West": {
+            "RoomId": 31056,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an ivory key #31004",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -815,7 +905,12 @@
         "Color": "black",
         "Connections": {
           "North": 31060,
-          "Up": 31043
+          "Up": {
+            "RoomId": 31043,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {

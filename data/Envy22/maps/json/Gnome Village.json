@@ -467,7 +467,17 @@
         "Name": "A Small Unused Room #1536",
         "Color": "black",
         "Connections": {
-          "East": 1537,
+          "East": {
+            "RoomId": 1537,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a bloody key #1500",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Up": 1535
         }
       },
@@ -576,7 +586,17 @@
         "Color": "black",
         "Connections": {
           "East": 1540,
-          "West": 1546
+          "West": {
+            "RoomId": 1546,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dirty key #1501",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -591,7 +611,17 @@
         "Name": "A Ladder #1546",
         "Color": "black",
         "Connections": {
-          "East": 1545,
+          "East": {
+            "RoomId": 1545,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dirty key #1501",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 1547
         }
       },

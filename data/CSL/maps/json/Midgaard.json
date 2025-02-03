@@ -1029,7 +1029,17 @@
         "Color": "black",
         "Connections": {
           "East": 3111,
-          "West": 3142
+          "West": {
+            "RoomId": 3142,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #3120",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -1227,7 +1237,17 @@
         "Connections": {
           "North": 3144,
           "East": 3273,
-          "South": 3600,
+          "South": {
+            "RoomId": 3600,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #3121",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 3123
         }
       },
@@ -1449,8 +1469,28 @@
         "Name": "Captain\u0027s Office #3142",
         "Color": "black",
         "Connections": {
-          "East": 3110,
-          "South": 3143
+          "East": {
+            "RoomId": 3110,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #3120",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 3143,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel key #3137",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -1481,7 +1521,17 @@
         "Name": "The Jail #3143",
         "Color": "black",
         "Connections": {
-          "North": 3142
+          "North": {
+            "RoomId": 3142,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel key #3137",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -1515,7 +1565,17 @@
         "Name": "Melancholy\u0027s Maps #3160",
         "Color": "black",
         "Connections": {
-          "North": 3161,
+          "North": {
+            "RoomId": 3161,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a white key #3161",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 3024
         },
         "Contents": [
@@ -1535,7 +1595,17 @@
         "Name": "Melancholy\u0027s Room #3161",
         "Color": "black",
         "Connections": {
-          "South": 3160
+          "South": {
+            "RoomId": 3160,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a white key #3161",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -2178,7 +2248,17 @@
         "Name": "To Graveyard #3600",
         "Color": "blue",
         "Connections": {
-          "North": 3124,
+          "North": {
+            "RoomId": 3124,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #3121",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 3650,
           "South": 3601,
           "West": 3606

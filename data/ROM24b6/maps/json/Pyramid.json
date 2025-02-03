@@ -296,7 +296,17 @@
         "Name": "At the Crevasse\u0027s End #8722",
         "Color": "black",
         "Connections": {
-          "South": 8723,
+          "South": {
+            "RoomId": 8723,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the diamond #8723",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 8721
         }
       },
@@ -306,7 +316,17 @@
         "Name": "The Vault of the Lamp #8723",
         "Color": "black",
         "Connections": {
-          "North": 8722
+          "North": {
+            "RoomId": 8722,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the diamond #8723",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -361,7 +381,17 @@
         "Color": "black",
         "Connections": {
           "East": 8725,
-          "West": 8727
+          "West": {
+            "RoomId": 8727,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small emerald scarab #8712",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -380,7 +410,12 @@
         "Name": "A Stairway #8727",
         "Color": "black",
         "Connections": {
-          "East": 8726,
+          "East": {
+            "RoomId": 8726,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Down": 8728
         }
       },
@@ -852,7 +887,17 @@
         "Color": "black",
         "Connections": {
           "North": 8757,
-          "South": 8759
+          "South": {
+            "RoomId": 8759,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the answer #8717",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {

@@ -11,7 +11,17 @@
         "Name": "The Stone Door #30500",
         "Color": "black",
         "Connections": {
-          "North": 30501
+          "North": {
+            "RoomId": 30501,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a silver key #30501",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -21,7 +31,12 @@
         "Color": "black",
         "Connections": {
           "North": 30502,
-          "South": 30501
+          "South": {
+            "RoomId": 30501,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -543,7 +558,17 @@
           "North": 30524,
           "East": 30538,
           "South": 30540,
-          "West": 30577
+          "West": {
+            "RoomId": 30577,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a queens white key #30502",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -660,7 +685,17 @@
         "Color": "black",
         "Connections": {
           "North": 30532,
-          "East": 30576,
+          "East": {
+            "RoomId": 30576,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a queens black key #30503",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 30548,
           "West": 30546
         },

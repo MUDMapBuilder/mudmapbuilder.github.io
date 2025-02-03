@@ -293,7 +293,17 @@
         "Name": "At The Crevasse\u0027s End #5322",
         "Color": "black",
         "Connections": {
-          "South": 5323,
+          "South": {
+            "RoomId": 5323,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the diamond #5323",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Up": 5321
         }
       },
@@ -303,7 +313,17 @@
         "Name": "The Vault Of The Lamp #5323",
         "Color": "black",
         "Connections": {
-          "North": 5322
+          "North": {
+            "RoomId": 5322,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the diamond #5323",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -358,7 +378,17 @@
         "Color": "black",
         "Connections": {
           "East": 5325,
-          "West": 5327
+          "West": {
+            "RoomId": 5327,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small emerald scarab #5312",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -377,7 +407,12 @@
         "Name": "A Stairway #5327",
         "Color": "black",
         "Connections": {
-          "East": 5326,
+          "East": {
+            "RoomId": 5326,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "Down": 5328
         }
       },
@@ -849,7 +884,17 @@
         "Color": "black",
         "Connections": {
           "North": 5357,
-          "South": 5359
+          "South": {
+            "RoomId": 5359,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the answer #5317",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

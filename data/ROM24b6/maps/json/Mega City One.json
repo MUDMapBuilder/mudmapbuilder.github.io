@@ -407,7 +407,17 @@
         "Name": "Throt \u0026 Gleep\u0027s Megger Store #8026",
         "Color": "black",
         "Connections": {
-          "North": 8027,
+          "North": {
+            "RoomId": 8027,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key card #8013",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 8016
         }
       },
@@ -417,8 +427,28 @@
         "Name": "Stockroom of Throt \u0026 Gleep\u0027s Megger Store #8027",
         "Color": "black",
         "Connections": {
-          "North": 8028,
-          "South": 8026
+          "North": {
+            "RoomId": 8028,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a vault key #8012",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 8026,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key card #8013",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -433,7 +463,17 @@
         "Name": "Throt \u0026 Gleep\u0027s Vault #8028",
         "Color": "black",
         "Connections": {
-          "South": 8027
+          "South": {
+            "RoomId": 8027,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a vault key #8012",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {

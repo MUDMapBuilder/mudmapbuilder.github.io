@@ -1434,7 +1434,17 @@
         "Name": "In the dungeon #28612",
         "Color": "black",
         "Connections": {
-          "North": 28613,
+          "North": {
+            "RoomId": 28613,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "A key ring #28501",
+                "Color": "indianred"
+              }
+            ]
+          },
           "East": 28614,
           "West": 28611
         }
@@ -1445,7 +1455,17 @@
         "Name": "A putrid room #28613",
         "Color": "black",
         "Connections": {
-          "South": 28612
+          "South": {
+            "RoomId": 28612,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "A key ring #28501",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -1527,7 +1547,17 @@
         "Color": "black",
         "Connections": {
           "North": 28619,
-          "Down": 28621
+          "Down": {
+            "RoomId": 28621,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "A key ring #28501",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -1536,8 +1566,28 @@
         "Name": "Through the trap door #28621",
         "Color": "black",
         "Connections": {
-          "North": 28622,
-          "Up": 28620
+          "North": {
+            "RoomId": 28622,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "A key ring #28501",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "Up": {
+            "RoomId": 28620,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "A key ring #28501",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -1546,7 +1596,17 @@
         "Name": "A bloody room #28622",
         "Color": "black",
         "Connections": {
-          "South": 28621
+          "South": {
+            "RoomId": 28621,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "A key ring #28501",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -2519,7 +2579,17 @@
         "Name": "The Princess\u0027s chamber #28700",
         "Color": "black",
         "Connections": {
-          "East": 28702
+          "East": {
+            "RoomId": 28702,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a golden key #28504",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -2544,7 +2614,17 @@
         "Name": "Door before the Princess\u0027s room #28702",
         "Color": "black",
         "Connections": {
-          "West": 28700,
+          "West": {
+            "RoomId": 28700,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a golden key #28504",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Down": 28698
         },
         "Contents": [

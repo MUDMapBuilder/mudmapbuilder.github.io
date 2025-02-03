@@ -23,7 +23,17 @@
         "Name": "At the Cashier\u0027s Booth #10701",
         "Color": "black",
         "Connections": {
-          "North": 10702,
+          "North": {
+            "RoomId": 10702,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a ticket to Murky Land #10700",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 10700
         },
         "Contents": [
@@ -40,8 +50,28 @@
         "Color": "black",
         "Connections": {
           "North": 10703,
-          "East": 10722,
-          "South": 10701
+          "East": {
+            "RoomId": 10722,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a candy cane #10710",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 10701,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a ticket to Murky Land #10700",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -337,7 +367,17 @@
         "Name": "Behind the Hidden Door #10722",
         "Color": "black",
         "Connections": {
-          "West": 10702,
+          "West": {
+            "RoomId": 10702,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a candy cane #10710",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Down": 10723
         },
         "Contents": [
@@ -370,7 +410,17 @@
         "Color": "black",
         "Connections": {
           "North": 10736,
-          "East": 10737,
+          "East": {
+            "RoomId": 10737,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 10723,
           "West": 10725
         },
@@ -411,9 +461,29 @@
         "Name": "A Hallway #10726",
         "Color": "black",
         "Connections": {
-          "North": 10727,
+          "North": {
+            "RoomId": 10727,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key A #10723",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 10725,
-          "South": 10728,
+          "South": {
+            "RoomId": 10728,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key B #10724",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 10729
         }
       },
@@ -423,7 +493,17 @@
         "Name": "Room A #10727",
         "Color": "black",
         "Connections": {
-          "South": 10726
+          "South": {
+            "RoomId": 10726,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key A #10723",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -432,7 +512,17 @@
         "Name": "Room B #10728",
         "Color": "black",
         "Connections": {
-          "North": 10726
+          "North": {
+            "RoomId": 10726,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key B #10724",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -441,9 +531,29 @@
         "Name": "A Hallway #10729",
         "Color": "black",
         "Connections": {
-          "North": 10730,
+          "North": {
+            "RoomId": 10730,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key C #10725",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 10726,
-          "South": 10731,
+          "South": {
+            "RoomId": 10731,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key D #10726",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 10732
         }
       },
@@ -453,7 +563,17 @@
         "Name": "Room C #10730",
         "Color": "black",
         "Connections": {
-          "South": 10729
+          "South": {
+            "RoomId": 10729,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key C #10725",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -462,7 +582,17 @@
         "Name": "Room D #10731",
         "Color": "black",
         "Connections": {
-          "North": 10729
+          "North": {
+            "RoomId": 10729,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key D #10726",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -477,10 +607,40 @@
         "Name": "At the End of the Hallway #10732",
         "Color": "black",
         "Connections": {
-          "North": 10733,
+          "North": {
+            "RoomId": 10733,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key E #10727",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 10729,
-          "South": 10734,
-          "West": 10735
+          "South": {
+            "RoomId": 10734,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key F #10728",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 10735,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key G #10729",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -495,7 +655,17 @@
         "Name": "Room E #10733",
         "Color": "black",
         "Connections": {
-          "South": 10732
+          "South": {
+            "RoomId": 10732,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key E #10727",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -504,7 +674,17 @@
         "Name": "Room F #10734",
         "Color": "black",
         "Connections": {
-          "North": 10732
+          "North": {
+            "RoomId": 10732,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key F #10728",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -519,7 +699,17 @@
         "Name": "Room G #10735",
         "Color": "black",
         "Connections": {
-          "East": 10732
+          "East": {
+            "RoomId": 10732,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key G #10729",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -557,10 +747,40 @@
         "Name": "Hallway #10737",
         "Color": "black",
         "Connections": {
-          "North": 10738,
+          "North": {
+            "RoomId": 10738,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 10740,
-          "South": 10739,
-          "West": 10724
+          "South": {
+            "RoomId": 10739,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 10724,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -575,7 +795,17 @@
         "Name": "An Office #10738",
         "Color": "black",
         "Connections": {
-          "South": 10737
+          "South": {
+            "RoomId": 10737,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -584,7 +814,17 @@
         "Name": "A Holding Room #10739",
         "Color": "black",
         "Connections": {
-          "North": 10737
+          "North": {
+            "RoomId": 10737,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -593,9 +833,29 @@
         "Name": "A Hallway #10740",
         "Color": "black",
         "Connections": {
-          "North": 10741,
+          "North": {
+            "RoomId": 10741,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 10743,
-          "South": 10742,
+          "South": {
+            "RoomId": 10742,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 10737
         }
       },
@@ -605,7 +865,17 @@
         "Name": "An Office #10741",
         "Color": "black",
         "Connections": {
-          "South": 10740
+          "South": {
+            "RoomId": 10740,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -614,7 +884,17 @@
         "Name": "An Office #10742",
         "Color": "black",
         "Connections": {
-          "North": 10740
+          "North": {
+            "RoomId": 10740,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -633,8 +913,28 @@
         "Name": "The End of the Hallway #10743",
         "Color": "black",
         "Connections": {
-          "North": 10745,
-          "South": 10744,
+          "North": {
+            "RoomId": 10745,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 10744,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 10740
         }
       },
@@ -644,7 +944,17 @@
         "Name": "A Holding Room #10744",
         "Color": "black",
         "Connections": {
-          "North": 10743
+          "North": {
+            "RoomId": 10743,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -660,7 +970,17 @@
         "Color": "black",
         "Connections": {
           "North": 10746,
-          "South": 10743
+          "South": {
+            "RoomId": 10743,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -689,7 +1009,17 @@
         "Color": "black",
         "Connections": {
           "North": 10749,
-          "South": 10743
+          "South": {
+            "RoomId": 10743,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #10758",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -708,7 +1038,17 @@
         "Name": "At the End of a Hallway #10750",
         "Color": "black",
         "Connections": {
-          "North": 10751,
+          "North": {
+            "RoomId": 10751,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a black key #10766",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 10749
         }
       },
@@ -718,7 +1058,17 @@
         "Name": "A Dark Room #10751",
         "Color": "black",
         "Connections": {
-          "South": 10750,
+          "South": {
+            "RoomId": 10750,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a black key #10766",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 10752
         },
         "Contents": [

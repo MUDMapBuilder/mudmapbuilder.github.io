@@ -330,7 +330,17 @@
         "Color": "black",
         "Connections": {
           "West": 26521,
-          "Down": 26525
+          "Down": {
+            "RoomId": 26525,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a figure-eight key #26501",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -363,7 +373,17 @@
         "Name": "On the Spiral Staircase #26525",
         "Color": "black",
         "Connections": {
-          "Up": 26522,
+          "Up": {
+            "RoomId": 26522,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a figure-eight key #26501",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 26526
         }
       },
@@ -373,10 +393,50 @@
         "Name": "Lighthouse Keeper\u0027s Operating Room #26526",
         "Color": "black",
         "Connections": {
-          "North": 26527,
-          "East": 26528,
-          "South": 26529,
-          "West": 26530,
+          "North": {
+            "RoomId": 26527,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a cell key #26502",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "East": {
+            "RoomId": 26528,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a cell key #26502",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 26529,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a cell key #26502",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 26530,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a cell key #26502",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Up": 26525
         },
         "Contents": [
@@ -392,7 +452,17 @@
         "Name": "Keeper\u0027s Playroom #26527",
         "Color": "black",
         "Connections": {
-          "South": 26526
+          "South": {
+            "RoomId": 26526,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a cell key #26502",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -407,7 +477,17 @@
         "Name": "Cell #26528",
         "Color": "black",
         "Connections": {
-          "West": 26526
+          "West": {
+            "RoomId": 26526,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a cell key #26502",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -422,7 +502,17 @@
         "Name": "Cell #26529",
         "Color": "black",
         "Connections": {
-          "North": 26526
+          "North": {
+            "RoomId": 26526,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a cell key #26502",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -437,7 +527,17 @@
         "Name": "Cell #26530",
         "Color": "black",
         "Connections": {
-          "East": 26526
+          "East": {
+            "RoomId": 26526,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a cell key #26502",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

@@ -312,7 +312,17 @@
         "Name": "The End Of The Servants\u0027 Corridor #15022",
         "Color": "black",
         "Connections": {
-          "North": 15027,
+          "North": {
+            "RoomId": 15027,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the Butler\u0027s key #15009",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 15021
         }
       },
@@ -384,7 +394,17 @@
         "Name": "The Butler\u0027s Quarters #15027",
         "Color": "black",
         "Connections": {
-          "South": 15022
+          "South": {
+            "RoomId": 15022,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the Butler\u0027s key #15009",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -497,7 +517,17 @@
         "Name": "By The Treasure Room #15036",
         "Color": "black",
         "Connections": {
-          "East": 15037,
+          "East": {
+            "RoomId": 15037,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a huge key #15007",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 15035
         },
         "Contents": [
@@ -517,7 +547,17 @@
         "Name": "The Great Treasury #15037",
         "Color": "black",
         "Connections": {
-          "West": 15036
+          "West": {
+            "RoomId": 15036,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a huge key #15007",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -666,7 +706,17 @@
         "Name": "The Grand Staircase #15049",
         "Color": "black",
         "Connections": {
-          "East": 15050,
+          "East": {
+            "RoomId": 15050,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #15014",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 15045,
           "Up": 15053,
           "Down": 15025
@@ -679,7 +729,17 @@
         "Color": "black",
         "Connections": {
           "East": 15051,
-          "West": 15049
+          "West": {
+            "RoomId": 15049,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #15014",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -740,7 +800,17 @@
         "Name": "The Guard Room #15056",
         "Color": "black",
         "Connections": {
-          "South": 15057,
+          "South": {
+            "RoomId": 15057,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the cell key #15017",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 15055
         },
         "Contents": [
@@ -756,10 +826,50 @@
         "Name": "The Prison #15057",
         "Color": "black",
         "Connections": {
-          "North": 15056,
-          "East": 15060,
-          "South": 15059,
-          "West": 15058
+          "North": {
+            "RoomId": 15056,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the cell key #15017",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": {
+            "RoomId": 15060,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the cell key #15017",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 15059,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the cell key #15017",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 15058,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the cell key #15017",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -768,7 +878,17 @@
         "Name": "A Cell #15058",
         "Color": "black",
         "Connections": {
-          "East": 15057
+          "East": {
+            "RoomId": 15057,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the cell key #15017",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -787,7 +907,17 @@
         "Name": "Ergan\u0027s Cell #15059",
         "Color": "black",
         "Connections": {
-          "North": 15057
+          "North": {
+            "RoomId": 15057,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the cell key #15017",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -802,7 +932,17 @@
         "Name": "A Cell #15060",
         "Color": "black",
         "Connections": {
-          "West": 15057
+          "West": {
+            "RoomId": 15057,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the cell key #15017",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {

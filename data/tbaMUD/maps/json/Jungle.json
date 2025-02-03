@@ -77,7 +77,17 @@
         "Connections": {
           "North": 29507,
           "East": 29506,
-          "South": 29508,
+          "South": {
+            "RoomId": 29508,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a human heart #29502",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 29504
         },
         "Contents": [
@@ -127,7 +137,17 @@
         "Name": "The chiefs room #29508",
         "Color": "black",
         "Connections": {
-          "North": 29505
+          "North": {
+            "RoomId": 29505,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a human heart #29502",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

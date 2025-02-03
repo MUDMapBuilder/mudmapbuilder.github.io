@@ -20,7 +20,12 @@
         "Name": "The Elevator #65301",
         "Color": "black",
         "Connections": {
-          "North": 65306,
+          "North": {
+            "RoomId": 65306,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "Up": 65302
         }
       },
@@ -76,7 +81,12 @@
         "Connections": {
           "North": 65338,
           "East": 65307,
-          "South": 65399,
+          "South": {
+            "RoomId": 65399,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 65305
         }
       },

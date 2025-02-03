@@ -102,7 +102,12 @@
         "Name": "Front Hallway #25908",
         "Color": "black",
         "Connections": {
-          "East": 25931,
+          "East": {
+            "RoomId": 25931,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 25909
         },
         "Contents": [

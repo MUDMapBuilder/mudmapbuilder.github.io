@@ -398,7 +398,17 @@
         "Name": "Gargamel\u0027s Lair #27429",
         "Color": "black",
         "Connections": {
-          "East": 27430,
+          "East": {
+            "RoomId": 27430,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "square key #27400",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 27428
         },
         "Contents": [
@@ -418,7 +428,17 @@
         "Name": "A small room #27430",
         "Color": "black",
         "Connections": {
-          "West": 27429
+          "West": {
+            "RoomId": 27429,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "square key #27400",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {

@@ -438,7 +438,17 @@
         "Color": "black",
         "Connections": {
           "North": 2022,
-          "South": 2032,
+          "South": {
+            "RoomId": 2032,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a glowing key #2001",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 2027
         },
         "Contents": [
@@ -490,7 +500,17 @@
         "Name": "The holy place #2032",
         "Color": "black",
         "Connections": {
-          "North": 2028
+          "North": {
+            "RoomId": 2028,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a glowing key #2001",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {

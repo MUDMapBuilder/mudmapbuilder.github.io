@@ -299,7 +299,17 @@
         "Name": "At the Crevasse\u0027s End #8722",
         "Color": "black",
         "Connections": {
-          "South": 8723,
+          "South": {
+            "RoomId": 8723,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the diamond #8723",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Up": 8721
         }
       },
@@ -309,7 +319,17 @@
         "Name": "The Vault of the Lamp #8723",
         "Color": "black",
         "Connections": {
-          "North": 8722
+          "North": {
+            "RoomId": 8722,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the diamond #8723",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -364,7 +384,17 @@
         "Color": "black",
         "Connections": {
           "East": 8725,
-          "West": 8727
+          "West": {
+            "RoomId": 8727,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small emerald scarab #8712",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -855,7 +885,17 @@
         "Color": "black",
         "Connections": {
           "North": 8757,
-          "South": 8759
+          "South": {
+            "RoomId": 8759,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the answer #8717",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

@@ -829,7 +829,12 @@
         "Color": "black",
         "Connections": {
           "North": 29169,
-          "East": 29180,
+          "East": {
+            "RoomId": 29180,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 29163,
           "West": 29165
         }
@@ -1110,7 +1115,17 @@
         "Name": "At Death\u0027s Door #29190",
         "Color": "black",
         "Connections": {
-          "North": 29191,
+          "North": {
+            "RoomId": 29191,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "Death\u0027s Key #29115",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 29189
         }
       },

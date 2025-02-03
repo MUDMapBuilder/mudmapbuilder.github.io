@@ -85,7 +85,17 @@
         "Name": "The Dark Pit #18605",
         "Color": "black",
         "Connections": {
-          "Up": 18606
+          "Up": {
+            "RoomId": 18606,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a wee little key #18608",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -102,7 +112,17 @@
         "Connections": {
           "North": 18602,
           "East": 18607,
-          "Down": 18605
+          "Down": {
+            "RoomId": 18605,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a wee little key #18608",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {

@@ -241,7 +241,17 @@
         "Color": "black",
         "Connections": {
           "North": 3720,
-          "East": 3721,
+          "East": {
+            "RoomId": 3721,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #3714",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 3717
         }
       },

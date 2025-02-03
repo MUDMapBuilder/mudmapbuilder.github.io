@@ -715,7 +715,17 @@
         "Color": "black",
         "Connections": {
           "North": 8244,
-          "South": 8246
+          "South": {
+            "RoomId": 8246,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the large key #8233",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -730,7 +740,17 @@
         "Name": "Keep Entrance #8246",
         "Color": "black",
         "Connections": {
-          "North": 8245,
+          "North": {
+            "RoomId": 8245,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the large key #8233",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 8247
         },
         "Contents": [
@@ -877,7 +897,17 @@
         "Name": "The Second Ring #8255",
         "Color": "black",
         "Connections": {
-          "East": 8286,
+          "East": {
+            "RoomId": 8286,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a magical word #8248",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 8256,
           "Down": 8254
         },
@@ -1132,7 +1162,17 @@
         "Color": "black",
         "Connections": {
           "North": 8260,
-          "South": 8270
+          "South": {
+            "RoomId": 8270,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a Book #8240",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -1147,7 +1187,17 @@
         "Name": "A Bookshelf #8270",
         "Color": "black",
         "Connections": {
-          "North": 8269,
+          "North": {
+            "RoomId": 8269,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a Book #8240",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 8271
         }
       },
@@ -1373,7 +1423,17 @@
         "Connections": {
           "East": 8296,
           "South": 8205,
-          "West": 8255,
+          "West": {
+            "RoomId": 8255,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a magical word #8248",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 8295
         }
       },

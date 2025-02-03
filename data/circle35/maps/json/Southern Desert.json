@@ -1182,7 +1182,17 @@
         "Name": "A Small Clearing #26965",
         "Color": "black",
         "Connections": {
-          "East": 26967,
+          "East": {
+            "RoomId": 26967,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a red feather #26967",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 26964
         },
         "Contents": [
@@ -1261,7 +1271,17 @@
         "Name": "Inside A Small Stone Dwelling #26967",
         "Color": "black",
         "Connections": {
-          "West": 26965
+          "West": {
+            "RoomId": 26965,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a red feather #26967",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

@@ -754,7 +754,17 @@
         "Name": "The end #23860",
         "Color": "black",
         "Connections": {
-          "North": 23861,
+          "North": {
+            "RoomId": 23861,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a titanium key #23860",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 23859
         },
         "Contents": [
@@ -770,7 +780,17 @@
         "Name": "Portal room #23861",
         "Color": "black",
         "Connections": {
-          "South": 23860
+          "South": {
+            "RoomId": 23860,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a titanium key #23860",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {

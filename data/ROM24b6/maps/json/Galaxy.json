@@ -525,7 +525,17 @@
           "East": 9351,
           "South": 9342,
           "West": 9345,
-          "Up": 9354,
+          "Up": {
+            "RoomId": 9354,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a spring shoot #9324",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Down": 9330
         }
       },
@@ -731,8 +741,28 @@
         "Name": "End of the Mystic Chains #9354",
         "Color": "black",
         "Connections": {
-          "Up": 9355,
-          "Down": 9339
+          "Up": {
+            "RoomId": 9355,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a summer flower #9325",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": {
+            "RoomId": 9339,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a spring shoot #9324",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -742,7 +772,17 @@
         "Color": "black",
         "Connections": {
           "North": 9356,
-          "Down": 9354
+          "Down": {
+            "RoomId": 9354,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a summer flower #9325",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -793,7 +833,17 @@
         "Name": "On the Back of Draco #9359",
         "Color": "black",
         "Connections": {
-          "East": 9360,
+          "East": {
+            "RoomId": 9360,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an autumn leaf #9326",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 9358
         }
       },
@@ -804,7 +854,17 @@
         "Color": "black",
         "Connections": {
           "East": 9361,
-          "West": 9359
+          "West": {
+            "RoomId": 9359,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an autumn leaf #9326",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -840,7 +900,17 @@
         "Color": "black",
         "Connections": {
           "East": 9362,
-          "South": 9364
+          "South": {
+            "RoomId": 9364,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a winter branch #9327",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -855,7 +925,17 @@
         "Name": "At the Entrance of the Great Dipper #9364",
         "Color": "black",
         "Connections": {
-          "North": 9363,
+          "North": {
+            "RoomId": 9363,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a winter branch #9327",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 9365,
           "West": 9366
         }

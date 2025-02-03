@@ -1007,7 +1007,17 @@
         "Color": "black",
         "Connections": {
           "North": 8376,
-          "East": 8378,
+          "East": {
+            "RoomId": 8378,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small golden key #8305",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 8382,
           "West": 8380
         }
@@ -1125,7 +1135,17 @@
         "Name": "A Cramped Cell #8392",
         "Color": "black",
         "Connections": {
-          "North": 8394,
+          "North": {
+            "RoomId": 8394,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #8307",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 8394
         }
       },
@@ -1137,7 +1157,17 @@
         "Connections": {
           "East": 8387,
           "South": 8399,
-          "Down": 8395
+          "Down": {
+            "RoomId": 8395,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small, steel key #8309",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -1153,7 +1183,17 @@
         "Color": "black",
         "Connections": {
           "North": 8392,
-          "South": 8392,
+          "South": {
+            "RoomId": 8392,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #8307",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 8384
         },
         "Contents": [
@@ -1169,7 +1209,12 @@
         "Name": "The Treasury #8395",
         "Color": "black",
         "Connections": {
-          "Up": 8393
+          "Up": {
+            "RoomId": 8393,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {

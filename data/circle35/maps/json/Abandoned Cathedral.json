@@ -161,7 +161,17 @@
         "Name": "The Clergical Chambers #29910",
         "Color": "black",
         "Connections": {
-          "North": 29911,
+          "North": {
+            "RoomId": 29911,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an ivory key #29903",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 29909
         },
         "Contents": [
@@ -181,7 +191,17 @@
         "Name": "The Inner Sanctum #29911",
         "Color": "black",
         "Connections": {
-          "South": 29910
+          "South": {
+            "RoomId": 29910,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an ivory key #29903",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -610,7 +630,17 @@
         "Color": "black",
         "Connections": {
           "North": 29939,
-          "South": 29942
+          "South": {
+            "RoomId": 29942,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a strange blood key #29911",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -625,7 +655,17 @@
         "Name": "The Inner Crypt #29942",
         "Color": "black",
         "Connections": {
-          "North": 29941,
+          "North": {
+            "RoomId": 29941,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a strange blood key #29911",
+                "Color": "indianred"
+              }
+            ]
+          },
           "East": 29943
         },
         "Contents": [
@@ -696,7 +736,17 @@
         "Connections": {
           "East": 29946,
           "South": 29950,
-          "West": 29948
+          "West": {
+            "RoomId": 29948,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a beautiful golden key #29910",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -711,7 +761,17 @@
         "Name": "The Tomb Of Princess Evalynn #29948",
         "Color": "black",
         "Connections": {
-          "East": 29947
+          "East": {
+            "RoomId": 29947,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a beautiful golden key #29910",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {

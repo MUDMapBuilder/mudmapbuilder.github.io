@@ -1057,7 +1057,17 @@
         "Color": "black",
         "Connections": {
           "South": 7202,
-          "West": 7200
+          "West": {
+            "RoomId": 7200,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a black key #7205",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {

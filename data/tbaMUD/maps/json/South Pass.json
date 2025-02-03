@@ -834,7 +834,17 @@
         "Name": "A Huge Gate #23961",
         "Color": "black",
         "Connections": {
-          "South": 23962,
+          "South": {
+            "RoomId": 23962,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an obsidian gate key #23929",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 23960
         },
         "Contents": [

@@ -507,7 +507,17 @@
         "Name": "Agrodome #2 #27337",
         "Color": "black",
         "Connections": {
-          "East": 27338,
+          "East": {
+            "RoomId": 27338,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a blue plastic card #27315",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 27336
         }
       },
@@ -517,8 +527,28 @@
         "Name": "Agrodome #3 #27338",
         "Color": "black",
         "Connections": {
-          "East": 27339,
-          "West": 27337
+          "East": {
+            "RoomId": 27339,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a blue plastic card #27315",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 27337,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a blue plastic card #27315",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -528,7 +558,17 @@
         "Color": "black",
         "Connections": {
           "South": 27343,
-          "West": 27338
+          "West": {
+            "RoomId": 27338,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a blue plastic card #27315",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

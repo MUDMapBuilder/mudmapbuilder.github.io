@@ -1708,10 +1708,40 @@
         "Name": "Portal Chamber #828",
         "Color": "black",
         "Connections": {
-          "North": 831,
-          "East": 830,
+          "North": {
+            "RoomId": 831,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "star amulet #726",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "East": {
+            "RoomId": 830,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "golden ring #725",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 827,
-          "West": 829
+          "West": {
+            "RoomId": 829,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "jar of nectar #724",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {

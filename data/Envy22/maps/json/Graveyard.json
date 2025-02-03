@@ -13,7 +13,17 @@
         "Name": "A Gravel Road on the Graveyard #3600",
         "Color": "black",
         "Connections": {
-          "North": 3129,
+          "North": {
+            "RoomId": 3129,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #3121",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 3650,
           "South": 3601,
           "West": 3606
@@ -443,8 +453,23 @@
         "Name": "To Chapel Catacombs #3405",
         "Color": "blue",
         "Connections": {
-          "North": 3604,
-          "Down": 3421
+          "North": {
+            "RoomId": 3604,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 3421,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a silver key #3430",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       }
     ]

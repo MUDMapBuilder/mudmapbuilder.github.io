@@ -878,7 +878,17 @@
         "Color": "black",
         "Connections": {
           "East": 7570,
-          "South": 7572
+          "South": {
+            "RoomId": 7572,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a collar #7571",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -893,7 +903,17 @@
         "Name": "A Grand Bedchamber #7572",
         "Color": "black",
         "Connections": {
-          "North": 7571,
+          "North": {
+            "RoomId": 7571,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a collar #7571",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 7573
         },
         "Contents": [

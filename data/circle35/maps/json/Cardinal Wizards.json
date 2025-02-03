@@ -30,7 +30,17 @@
         "Name": "A Dead End #17502",
         "Color": "black",
         "Connections": {
-          "North": 17503,
+          "North": {
+            "RoomId": 17503,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "Shadimar\u0027s quest scroll #17500",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 17501
         },
         "Contents": [
@@ -48,7 +58,17 @@
         "Connections": {
           "North": 17515,
           "East": 17504,
-          "South": 17502,
+          "South": {
+            "RoomId": 17502,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "Shadimar\u0027s quest scroll #17500",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 17516
         }
       },
@@ -156,7 +176,17 @@
         "Color": "black",
         "Connections": {
           "South": 17510,
-          "West": 17513
+          "West": {
+            "RoomId": 17513,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "Trilless\u0027 sanctuary glyph #17510",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -189,9 +219,24 @@
         "Name": "The Guardian Room #17513",
         "Color": "black",
         "Connections": {
-          "East": 17511,
+          "East": {
+            "RoomId": 17511,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "Trilless\u0027 sanctuary glyph #17510",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 17503,
-          "West": 17522
+          "West": {
+            "RoomId": 17522,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -239,7 +284,12 @@
         "Color": "black",
         "Connections": {
           "West": 17518,
-          "Up": 17519,
+          "Up": {
+            "RoomId": 17519,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Down": 17516
         }
       },
@@ -268,7 +318,12 @@
           "East": 17519,
           "South": 17519,
           "West": 17519,
-          "Down": 17517
+          "Down": {
+            "RoomId": 17517,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -277,7 +332,12 @@
         "Name": "The Forge. #17520",
         "Color": "black",
         "Connections": {
-          "Up": 17521
+          "Up": {
+            "RoomId": 17521,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -286,7 +346,12 @@
         "Name": "The Windy Chimney #17521",
         "Color": "black",
         "Connections": {
-          "Down": 17520
+          "Down": {
+            "RoomId": 17520,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -295,9 +360,24 @@
         "Name": "Deeper Within the Darkness #17522",
         "Color": "black",
         "Connections": {
-          "East": 17513,
+          "East": {
+            "RoomId": 17513,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a sigil of darkness #17513",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 17523,
-          "West": 17524
+          "West": {
+            "RoomId": 17524,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {

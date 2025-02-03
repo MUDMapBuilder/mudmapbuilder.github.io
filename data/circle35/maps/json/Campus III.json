@@ -36,7 +36,17 @@
         "Color": "black",
         "Connections": {
           "North": 30296,
-          "East": 30306,
+          "East": {
+            "RoomId": 30306,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a large steel key #30142",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 30303
         }
       },
@@ -72,7 +82,17 @@
         "Name": "Really Narrow Stairwell, Part I #30306",
         "Color": "black",
         "Connections": {
-          "West": 30302,
+          "West": {
+            "RoomId": 30302,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a large steel key #30142",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Up": 30307
         }
       },
@@ -402,7 +422,17 @@
         "Name": "To Campus II #30295",
         "Color": "blue",
         "Connections": {
-          "East": 30126,
+          "East": {
+            "RoomId": 30126,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a salisbury steak #30105",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 30312
         }
       },

@@ -139,10 +139,40 @@
         "Name": "In a room with a green fountain #23271",
         "Color": "black",
         "Connections": {
-          "North": 23273,
+          "North": {
+            "RoomId": 23273,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #23268",
+                "Color": "indianred"
+              }
+            ]
+          },
           "East": 23272,
-          "South": 23275,
-          "West": 23274,
+          "South": {
+            "RoomId": 23275,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #23270",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 23274,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #23269",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 23269
         }
       },
@@ -167,7 +197,17 @@
         "Name": "In a meditation room #23273",
         "Color": "black",
         "Connections": {
-          "South": 23271
+          "South": {
+            "RoomId": 23271,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #23268",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -182,7 +222,17 @@
         "Name": "In a room of healing #23274",
         "Color": "black",
         "Connections": {
-          "East": 23271
+          "East": {
+            "RoomId": 23271,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #23269",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -197,7 +247,17 @@
         "Name": "In the holy place #23275",
         "Color": "black",
         "Connections": {
-          "North": 23271,
+          "North": {
+            "RoomId": 23271,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #23270",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Up": 23276
         },
         "Contents": [
@@ -213,8 +273,28 @@
         "Name": "Ascending into an unholy green light #23276",
         "Color": "black",
         "Connections": {
-          "North": 23278,
-          "South": 23277,
+          "North": {
+            "RoomId": 23278,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #23271",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 23277,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #23271",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 23275
         }
       },

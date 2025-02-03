@@ -699,7 +699,17 @@
         "Name": "Before the Great Hall #16146",
         "Color": "black",
         "Connections": {
-          "East": 16161,
+          "East": {
+            "RoomId": 16161,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a tarnished silver key #16112",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 16145
         },
         "Contents": [
@@ -1180,7 +1190,17 @@
         "Color": "black",
         "Connections": {
           "North": 16178,
-          "East": 16183,
+          "East": {
+            "RoomId": 16183,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a nondescript key #16114",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 16181,
           "West": 16136
         }
@@ -1295,7 +1315,17 @@
         "Color": "black",
         "Connections": {
           "North": 16190,
-          "East": 16195,
+          "East": {
+            "RoomId": 16195,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a barbed red key of bone #16119",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 16192,
           "West": 16184
         },
@@ -1464,7 +1494,17 @@
         "Name": "To Hell #27000",
         "Color": "blue",
         "Connections": {
-          "West": 27001,
+          "West": {
+            "RoomId": 27001,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #27035",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Up": 16136
         }
       }

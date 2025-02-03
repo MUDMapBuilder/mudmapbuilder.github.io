@@ -209,7 +209,17 @@
         "Color": "black",
         "Connections": {
           "East": 4516,
-          "West": 4514,
+          "West": {
+            "RoomId": 4514,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a statue of a chimera #4517",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 4517
         }
       },
@@ -244,7 +254,17 @@
         "Name": "Atop the Stairs #4518",
         "Color": "black",
         "Connections": {
-          "Up": 4517,
+          "Up": {
+            "RoomId": 4517,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a phoenix claw #4518",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 4505
         },
         "Contents": [

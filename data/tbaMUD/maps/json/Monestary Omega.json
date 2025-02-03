@@ -105,7 +105,12 @@
         "Name": "Under The Monestary #11506",
         "Color": "black",
         "Connections": {
-          "Up": 11508
+          "Up": {
+            "RoomId": 11508,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -120,7 +125,17 @@
         "Name": "Passage To The North #11507",
         "Color": "black",
         "Connections": {
-          "North": 11508,
+          "North": {
+            "RoomId": 11508,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "this is a small golden key #11514",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 11505
         }
       },
@@ -131,7 +146,12 @@
         "Color": "black",
         "Connections": {
           "South": 11507,
-          "Down": 11506
+          "Down": {
+            "RoomId": 11506,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -156,7 +176,17 @@
         "Name": "Passage to the East #11510",
         "Color": "black",
         "Connections": {
-          "East": 11511,
+          "East": {
+            "RoomId": 11511,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small key #11512",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 11509
         },
         "Contents": [
@@ -176,7 +206,17 @@
         "Name": "Eastern Room #11511",
         "Color": "black",
         "Connections": {
-          "West": 11510
+          "West": {
+            "RoomId": 11510,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small key #11512",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -208,7 +248,17 @@
         "Color": "black",
         "Connections": {
           "East": 11512,
-          "West": 11514
+          "West": {
+            "RoomId": 11514,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #11511",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -217,7 +267,17 @@
         "Name": "Dark Room #11514",
         "Color": "black",
         "Connections": {
-          "East": 11513
+          "East": {
+            "RoomId": 11513,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #11511",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {

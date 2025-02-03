@@ -1001,7 +1001,17 @@
         "Name": "Laboratory #30877",
         "Color": "black",
         "Connections": {
-          "South": 30881,
+          "South": {
+            "RoomId": 30881,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an old and brittle key #30800",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 30876
         },
         "Contents": [
@@ -1058,7 +1068,17 @@
         "Name": "Artifact Room #30881",
         "Color": "black",
         "Connections": {
-          "North": 30877
+          "North": {
+            "RoomId": 30877,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an old and brittle key #30800",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       }
     ]

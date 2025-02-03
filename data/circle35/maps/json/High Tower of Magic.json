@@ -193,7 +193,17 @@
         "Name": "The Entrance To The High Tower #2512",
         "Color": "black",
         "Connections": {
-          "North": 2513
+          "North": {
+            "RoomId": 2513,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a diamond key #2500",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -210,7 +220,17 @@
         "Connections": {
           "North": 2514,
           "East": 2515,
-          "South": 2512,
+          "South": {
+            "RoomId": 2512,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a diamond key #2500",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 2516
         },
         "Contents": [
@@ -370,7 +390,17 @@
         "Name": "A Dark Passage #2523",
         "Color": "black",
         "Connections": {
-          "North": 2527,
+          "North": {
+            "RoomId": 2527,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an old key #2522",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 2522
         }
       },
@@ -409,7 +439,17 @@
         "Name": "A Dark Cell #2527",
         "Color": "black",
         "Connections": {
-          "South": 2523
+          "South": {
+            "RoomId": 2523,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an old key #2522",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

@@ -20,7 +20,17 @@
         "Name": "Reception Desk #30201",
         "Color": "black",
         "Connections": {
-          "East": 30202,
+          "East": {
+            "RoomId": 30202,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small iron key #30103",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 30142
         }
       },
@@ -30,7 +40,17 @@
         "Name": "Main Office #30202",
         "Color": "black",
         "Connections": {
-          "West": 30201
+          "West": {
+            "RoomId": 30201,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small iron key #30103",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -291,7 +311,17 @@
         "Name": "Hallway #30225",
         "Color": "black",
         "Connections": {
-          "North": 30228,
+          "North": {
+            "RoomId": 30228,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small iron key #30104",
+                "Color": "indianred"
+              }
+            ]
+          },
           "East": 30226,
           "South": 30223,
           "West": 30227
@@ -333,7 +363,17 @@
         "Name": "Main Residence Office #30228",
         "Color": "black",
         "Connections": {
-          "South": 30225,
+          "South": {
+            "RoomId": 30225,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small iron key #30104",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Up": 30233
         }
       },
@@ -1419,7 +1459,17 @@
         "Name": "East Stairwell #30294",
         "Color": "black",
         "Connections": {
-          "West": 30126,
+          "West": {
+            "RoomId": 30126,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a garden burger #30106",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 30296
         }
       },
@@ -1429,7 +1479,17 @@
         "Name": "West Stairwell #30295",
         "Color": "black",
         "Connections": {
-          "East": 30126,
+          "East": {
+            "RoomId": 30126,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a salisbury steak #30105",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 30312
         }
       },
@@ -1660,7 +1720,17 @@
         "Color": "blue",
         "Connections": {
           "North": 30296,
-          "East": 30306,
+          "East": {
+            "RoomId": 30306,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a large steel key #30142",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 30303
         }
       },
@@ -1724,8 +1794,28 @@
         "Color": "blue",
         "Connections": {
           "North": 30102,
-          "East": 30294,
-          "West": 30295
+          "East": {
+            "RoomId": 30294,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a garden burger #30106",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 30295,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a salisbury steak #30105",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {

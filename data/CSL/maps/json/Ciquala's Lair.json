@@ -70,8 +70,28 @@
         "Name": "Ciquala\u0027s Laboratory #13405",
         "Color": "black",
         "Connections": {
-          "North": 13408,
-          "East": 13407,
+          "North": {
+            "RoomId": 13408,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #13404",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "East": {
+            "RoomId": 13407,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #13404",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 13406,
           "West": 13404
         },
@@ -107,7 +127,17 @@
         "Name": "Holding Cell #13407",
         "Color": "black",
         "Connections": {
-          "West": 13405
+          "West": {
+            "RoomId": 13405,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #13404",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -126,7 +156,17 @@
         "Name": "Holding Cell #13408",
         "Color": "black",
         "Connections": {
-          "South": 13405
+          "South": {
+            "RoomId": 13405,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #13404",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -165,7 +205,17 @@
         "Name": "A seemingly empty tunnel #13410",
         "Color": "black",
         "Connections": {
-          "North": 13411,
+          "North": {
+            "RoomId": 13411,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a iron key #13405",
+                "Color": "indianred"
+              }
+            ]
+          },
           "East": 13409,
           "South": 13412,
           "West": 13413
@@ -183,7 +233,17 @@
         "Name": "The Map Room #13411",
         "Color": "black",
         "Connections": {
-          "South": 13410
+          "South": {
+            "RoomId": 13410,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a iron key #13405",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -284,7 +344,17 @@
         "Color": "black",
         "Connections": {
           "North": 13416,
-          "South": 13418
+          "South": {
+            "RoomId": 13418,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a large key #13406",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -299,7 +369,17 @@
         "Name": "Treasure Chamber of Ciquala #13418",
         "Color": "black",
         "Connections": {
-          "North": 13417,
+          "North": {
+            "RoomId": 13417,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a large key #13406",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 13419
         }
       },

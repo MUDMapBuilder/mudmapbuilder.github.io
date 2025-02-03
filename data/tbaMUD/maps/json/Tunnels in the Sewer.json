@@ -273,9 +273,19 @@
         "Name": "The Circular Hall #7324",
         "Color": "black",
         "Connections": {
-          "North": 7324,
+          "North": {
+            "RoomId": 7324,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "East": 7325,
-          "South": 7324,
+          "South": {
+            "RoomId": 7324,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 7323
         },
         "Contents": [

@@ -107,7 +107,17 @@
         "Name": "Tunnel End #29005",
         "Color": "black",
         "Connections": {
-          "West": 29006,
+          "West": {
+            "RoomId": 29006,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a LUCKY #29008",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 29004
         }
       },
@@ -118,7 +128,17 @@
         "Color": "black",
         "Connections": {
           "North": 29018,
-          "East": 29005,
+          "East": {
+            "RoomId": 29005,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a LUCKY #29008",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 29008,
           "Down": 29007
         },
@@ -231,7 +251,17 @@
         "Name": "Temple Of Morgash #29013",
         "Color": "black",
         "Connections": {
-          "East": 29014,
+          "East": {
+            "RoomId": 29014,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a green key for the exit #29005",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 29012
         },
         "Contents": [
@@ -264,7 +294,17 @@
         "Color": "black",
         "Connections": {
           "East": 29017,
-          "West": 29013
+          "West": {
+            "RoomId": 29013,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a claymore #29001",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {

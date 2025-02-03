@@ -76,7 +76,17 @@
         "Name": "At the Doors #34506",
         "Color": "black",
         "Connections": {
-          "East": 34508,
+          "East": {
+            "RoomId": 34508,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #34500",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 34505
         }
       },
@@ -99,7 +109,17 @@
           "North": 34520,
           "East": 34519,
           "South": 34526,
-          "West": 34506
+          "West": {
+            "RoomId": 34506,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #34500",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

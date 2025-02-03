@@ -38,7 +38,17 @@
         "Connections": {
           "North": 29200,
           "East": 29204,
-          "South": 29203,
+          "South": {
+            "RoomId": 29203,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an odd scroll #29225",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 29225,
           "Down": 29300
         },
@@ -67,7 +77,17 @@
         "Name": "The Blue Temple #29203",
         "Color": "black",
         "Connections": {
-          "North": 29202,
+          "North": {
+            "RoomId": 29202,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an odd scroll #29225",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Down": 29300
         },
         "Contents": [
@@ -695,7 +715,17 @@
           "North": 29251,
           "East": 29253,
           "South": 29204,
-          "West": 29252
+          "West": {
+            "RoomId": 29252,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a guild key #29223",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -767,7 +797,17 @@
         "Name": "Mages\u0027 Guild Storeroom #29252",
         "Color": "black",
         "Connections": {
-          "East": 29249
+          "East": {
+            "RoomId": 29249,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a guild key #29223",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -922,7 +962,17 @@
         "Name": "Jailer\u0027s Room #29261",
         "Color": "black",
         "Connections": {
-          "East": 29262,
+          "East": {
+            "RoomId": 29262,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a jailer\u0027s key #29226",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 29255
         },
         "Contents": [
@@ -938,7 +988,17 @@
         "Name": "Cells #29262",
         "Color": "black",
         "Connections": {
-          "West": 29261
+          "West": {
+            "RoomId": 29261,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a jailer\u0027s key #29226",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {

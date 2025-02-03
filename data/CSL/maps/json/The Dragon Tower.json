@@ -1554,7 +1554,17 @@
         "Name": "the bone-filled Chamber #11520",
         "Color": "black",
         "Connections": {
-          "North": 11521,
+          "North": {
+            "RoomId": 11521,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small shimmering key #11409",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 11519
         },
         "Contents": [
@@ -1570,7 +1580,17 @@
         "Name": "the Lair of Tiamat #11521",
         "Color": "black",
         "Connections": {
-          "South": 11520
+          "South": {
+            "RoomId": 11520,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small shimmering key #11409",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {

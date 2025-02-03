@@ -359,7 +359,17 @@
         "Name": "A dark passage #1323",
         "Color": "black",
         "Connections": {
-          "North": 1327,
+          "North": {
+            "RoomId": 1327,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an old key #1323",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 1322
         }
       },
@@ -2303,7 +2313,12 @@
         "Name": "A wide hallway #1473",
         "Color": "black",
         "Connections": {
-          "North": 1474,
+          "North": {
+            "RoomId": 1474,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "South": 1450
         }
       },
@@ -2313,8 +2328,18 @@
         "Name": "A wide hallway #1474",
         "Color": "black",
         "Connections": {
-          "North": 1475,
-          "South": 1473
+          "North": {
+            "RoomId": 1475,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 1473,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -2323,8 +2348,18 @@
         "Name": "A wide hallway #1475",
         "Color": "black",
         "Connections": {
-          "North": 1476,
-          "South": 1474
+          "North": {
+            "RoomId": 1476,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 1474,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -2334,7 +2369,12 @@
         "Color": "black",
         "Connections": {
           "North": 1477,
-          "South": 1475
+          "South": {
+            "RoomId": 1475,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {

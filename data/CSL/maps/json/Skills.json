@@ -68,7 +68,17 @@
         "Name": "To Hell #27000",
         "Color": "blue",
         "Connections": {
-          "West": 27001,
+          "West": {
+            "RoomId": 27001,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key #27035",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Up": 16136
         }
       },

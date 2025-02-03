@@ -256,7 +256,17 @@
         "Color": "black",
         "Connections": {
           "North": 4414,
-          "South": 4416
+          "South": {
+            "RoomId": 4416,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a ticket #4400",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -283,7 +293,17 @@
         "Name": "Entryway between the Grand Stands #4416",
         "Color": "black",
         "Connections": {
-          "North": 4415,
+          "North": {
+            "RoomId": 4415,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a ticket #4400",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 4419,
           "East": 4417,
           "West": 4421
@@ -390,7 +410,17 @@
           "Down": 4444,
           "North": 4419,
           "East": 4423,
-          "West": 4424,
+          "West": {
+            "RoomId": 4424,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the key to the lion\u0027s cage #4436",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Up": 4427
         },
         "Contents": [
@@ -429,8 +459,28 @@
         "Name": "The 1st Ring #4424",
         "Color": "black",
         "Connections": {
-          "East": 4422,
-          "Down": 4469
+          "East": {
+            "RoomId": 4422,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the key to the lion\u0027s cage #4436",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "Down": {
+            "RoomId": 4469,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a barbell #4414",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

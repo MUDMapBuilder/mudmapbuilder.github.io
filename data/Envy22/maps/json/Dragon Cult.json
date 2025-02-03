@@ -13,7 +13,17 @@
         "Name": "The Reception Area #9850",
         "Color": "black",
         "Connections": {
-          "North": 9851,
+          "North": {
+            "RoomId": 9851,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a black key #9825",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 3024
         },
         "Contents": [
@@ -34,7 +44,17 @@
         "Color": "black",
         "Connections": {
           "North": 9852,
-          "South": 9850
+          "South": {
+            "RoomId": 9850,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a black key #9825",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -227,7 +247,17 @@
         "Name": "A foreboding corridor #9865",
         "Color": "black",
         "Connections": {
-          "North": 9866,
+          "North": {
+            "RoomId": 9866,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a primitive key #9826",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 9863,
           "West": 9867
         },
@@ -244,7 +274,12 @@
         "Name": "The Cell #9866",
         "Color": "black",
         "Connections": {
-          "South": 9865
+          "South": {
+            "RoomId": 9865,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -285,7 +320,17 @@
         "Name": "A foul smelling hallway #9869",
         "Color": "black",
         "Connections": {
-          "North": 9870,
+          "North": {
+            "RoomId": 9870,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skull key #9827",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 9868
         }
       },
@@ -295,7 +340,17 @@
         "Name": "Chamber of the Wyrmling #9870",
         "Color": "black",
         "Connections": {
-          "South": 9869
+          "South": {
+            "RoomId": 9869,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a primitive key #9826",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -456,7 +511,17 @@
         "Name": "The dungeon #9883",
         "Color": "black",
         "Connections": {
-          "West": 9884
+          "West": {
+            "RoomId": 9884,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a rusty key #9837",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -472,7 +537,17 @@
         "Color": "black",
         "Connections": {
           "North": 9886,
-          "East": 9883
+          "East": {
+            "RoomId": 9883,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a rusty key #9837",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {

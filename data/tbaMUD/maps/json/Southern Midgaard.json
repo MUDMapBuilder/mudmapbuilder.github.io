@@ -138,7 +138,17 @@
         "Name": "Cityguard HeadQuarters #3110",
         "Color": "black",
         "Connections": {
-          "East": 3111
+          "East": {
+            "RoomId": 3111,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #3105",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -172,7 +182,17 @@
           "North": 3131,
           "East": 3112,
           "South": 3118,
-          "West": 3110
+          "West": {
+            "RoomId": 3110,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #3105",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -408,7 +428,17 @@
         "Connections": {
           "North": 3126,
           "East": 3130,
-          "South": 3150,
+          "South": {
+            "RoomId": 3150,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a rusty key #3106",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 3128
         }
       },
@@ -549,7 +579,17 @@
         "Name": "A Gravel Road In The Graveyard #3150",
         "Color": "black",
         "Connections": {
-          "North": 3129,
+          "North": {
+            "RoomId": 3129,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a rusty key #3106",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 3151
         }
       },

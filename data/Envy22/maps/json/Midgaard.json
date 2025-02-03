@@ -1011,7 +1011,17 @@
         "Color": "black",
         "Connections": {
           "East": 3111,
-          "West": 3142
+          "West": {
+            "RoomId": 3142,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #3120",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -1421,8 +1431,28 @@
         "Name": "Captain\u0027s Office #3142",
         "Color": "black",
         "Connections": {
-          "East": 3110,
-          "South": 3143
+          "East": {
+            "RoomId": 3110,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #3120",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 3143,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel key #3137",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -1453,7 +1483,17 @@
         "Name": "The Jail #3143",
         "Color": "black",
         "Connections": {
-          "North": 3142
+          "North": {
+            "RoomId": 3142,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel key #3137",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -1674,7 +1714,17 @@
         "Name": "To Dragon Cult #9850",
         "Color": "blue",
         "Connections": {
-          "North": 9851,
+          "North": {
+            "RoomId": 9851,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a black key #9825",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 3024
         }
       },
@@ -1839,7 +1889,17 @@
         "Name": "To Graveyard #3600",
         "Color": "blue",
         "Connections": {
-          "North": 3129,
+          "North": {
+            "RoomId": 3129,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #3121",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 3650,
           "South": 3601,
           "West": 3606

@@ -54,8 +54,28 @@
         "Color": "black",
         "Connections": {
           "North": 20003,
-          "East": 20005,
-          "West": 20004,
+          "East": {
+            "RoomId": 20005,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a red number 5 key. #20004",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 20004,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a red number 1 key #20000",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Down": 20001
         },
         "Contents": [
@@ -71,10 +91,40 @@
         "Name": "End of Hall #20003",
         "Color": "black",
         "Connections": {
-          "North": 20007,
-          "East": 20008,
+          "North": {
+            "RoomId": 20007,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a red number 3 key. #20002",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": {
+            "RoomId": 20008,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a red number 4 key. #20003",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20002,
-          "West": 20006
+          "West": {
+            "RoomId": 20006,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a red number 2 key. #20001",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -164,7 +214,17 @@
         "Color": "black",
         "Connections": {
           "North": 20013,
-          "South": 20245
+          "South": {
+            "RoomId": 20245,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a silver and gold key #20011",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -173,7 +233,17 @@
         "Name": "Common Room #20013",
         "Color": "black",
         "Connections": {
-          "North": 20014,
+          "North": {
+            "RoomId": 20014,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #20091",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 20015,
           "South": 20012
         },
@@ -210,7 +280,17 @@
         "Name": "Private Room #20014",
         "Color": "black",
         "Connections": {
-          "South": 20013
+          "South": {
+            "RoomId": 20013,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #20091",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -245,7 +325,17 @@
         "Name": "Wine Cellar #20017",
         "Color": "black",
         "Connections": {
-          "North": 20018,
+          "North": {
+            "RoomId": 20018,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a silver and gold key #20011",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 20015
         }
       },
@@ -275,7 +365,17 @@
         "Color": "black",
         "Connections": {
           "North": 20019,
-          "East": 20021,
+          "East": {
+            "RoomId": 20021,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a rusty key #20092",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20022
         },
         "Contents": [
@@ -317,7 +417,17 @@
         "Color": "black",
         "Connections": {
           "North": 20020,
-          "West": 20025,
+          "West": {
+            "RoomId": 20025,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a wooden key #20093",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 20023,
           "Down": 20027
         }
@@ -367,7 +477,17 @@
         "Name": "Wine Cellar #20027",
         "Color": "black",
         "Connections": {
-          "South": 20028,
+          "South": {
+            "RoomId": 20028,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a wooden key #20093",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 20022
         }
       },
@@ -424,7 +544,17 @@
         "Name": "Smithy #20032",
         "Color": "black",
         "Connections": {
-          "West": 20240
+          "West": {
+            "RoomId": 20240,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a brass key #20094",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -433,7 +563,17 @@
         "Name": "Bell Tower #20033",
         "Color": "black",
         "Connections": {
-          "South": 20246
+          "South": {
+            "RoomId": 20246,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a copper key #20100",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -442,8 +582,28 @@
         "Name": "Sheyrrhr\u0027s House Front Garden #20034",
         "Color": "black",
         "Connections": {
-          "East": 20035,
-          "West": 20213
+          "East": {
+            "RoomId": 20035,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel key #20104",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 20213,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel key #20104",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -533,7 +693,17 @@
         "Name": "Basement #20043",
         "Color": "black",
         "Connections": {
-          "South": 20046,
+          "South": {
+            "RoomId": 20046,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel key #20104",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 20045
         }
       },
@@ -572,7 +742,17 @@
         "Color": "black",
         "Connections": {
           "East": 20048,
-          "West": 20211
+          "West": {
+            "RoomId": 20211,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a white key #20113",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -607,7 +787,17 @@
         "Name": "Kitchen #20050",
         "Color": "black",
         "Connections": {
-          "North": 20051,
+          "North": {
+            "RoomId": 20051,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a white key #20113",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 20049
         }
       },
@@ -626,7 +816,17 @@
         "Name": "The Elfstone Entrance #20052",
         "Color": "black",
         "Connections": {
-          "North": 20252,
+          "North": {
+            "RoomId": 20252,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a black key #20294",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20053
         }
       },
@@ -637,9 +837,29 @@
         "Color": "black",
         "Connections": {
           "North": 20052,
-          "East": 20055,
+          "East": {
+            "RoomId": 20055,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a black number 2 key #20296",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20056,
-          "West": 20054
+          "West": {
+            "RoomId": 20054,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a black number 1 key #20295",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -677,7 +897,17 @@
         "Color": "black",
         "Connections": {
           "North": 20053,
-          "East": 20057
+          "East": {
+            "RoomId": 20057,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a black key #20294",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -697,7 +927,17 @@
         "Connections": {
           "East": 20060,
           "South": 20059,
-          "West": 20198
+          "West": {
+            "RoomId": 20198,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a blue steel key #20297",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -707,8 +947,28 @@
         "Color": "black",
         "Connections": {
           "North": 20058,
-          "East": 20063,
-          "South": 20061
+          "East": {
+            "RoomId": 20063,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a blue steel key #20297",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 20061,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a blue steel key #20297",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -726,9 +986,29 @@
         "Name": "Halls of Hilmer #20061",
         "Color": "black",
         "Connections": {
-          "North": 20059,
+          "North": {
+            "RoomId": 20059,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a blue steel key #20297",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 20062,
-          "West": 20199
+          "West": {
+            "RoomId": 20199,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a blue steel key #20297",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -782,7 +1062,17 @@
         "Name": "Back Room #20066",
         "Color": "black",
         "Connections": {
-          "South": 20077,
+          "South": {
+            "RoomId": 20077,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a green key #20305",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 20065,
           "Down": 20078
         }
@@ -793,9 +1083,29 @@
         "Name": "Hallway #20067",
         "Color": "black",
         "Connections": {
-          "East": 20070,
+          "East": {
+            "RoomId": 20070,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a green number 1 key #20298",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20068,
-          "West": 20071,
+          "West": {
+            "RoomId": 20071,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a green number 7 key #20304",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Down": 20065
         }
       },
@@ -806,9 +1116,29 @@
         "Color": "black",
         "Connections": {
           "North": 20067,
-          "East": 20072,
+          "East": {
+            "RoomId": 20072,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a green number 6 key #20303",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20069,
-          "West": 20073
+          "West": {
+            "RoomId": 20073,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a green number 6 key #20303",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -818,9 +1148,39 @@
         "Color": "black",
         "Connections": {
           "North": 20068,
-          "East": 20074,
-          "South": 20075,
-          "West": 20076
+          "East": {
+            "RoomId": 20074,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a green number 3 key #20300",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 20075,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a green number 4 key #20301",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 20076,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a green number 5 key #20302",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -910,7 +1270,17 @@
         "Name": "The Blue Jack Entrance #20079",
         "Color": "black",
         "Connections": {
-          "North": 20274,
+          "North": {
+            "RoomId": 20274,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a blue key #20306",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20080
         }
       },
@@ -947,7 +1317,17 @@
         "Color": "black",
         "Connections": {
           "North": 20080,
-          "East": 20083,
+          "East": {
+            "RoomId": 20083,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a blue key #20306",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Down": 20085
         }
       },
@@ -1043,7 +1423,17 @@
         "Name": "Wine Cellar #20091",
         "Color": "black",
         "Connections": {
-          "North": 20092,
+          "North": {
+            "RoomId": 20092,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy silver key #20307",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 20090
         }
       },
@@ -1137,7 +1527,17 @@
         "Name": "Beginning of Hall #20098",
         "Color": "black",
         "Connections": {
-          "East": 20104,
+          "East": {
+            "RoomId": 20104,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 1 key #20308",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20099,
           "West": 20105,
           "Down": 20097
@@ -1150,9 +1550,29 @@
         "Color": "black",
         "Connections": {
           "North": 20098,
-          "East": 20106,
+          "East": {
+            "RoomId": 20106,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 2 key #20309",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20100,
-          "West": 20107
+          "West": {
+            "RoomId": 20107,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 11 key #20318",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -1168,9 +1588,29 @@
         "Color": "black",
         "Connections": {
           "North": 20099,
-          "East": 20108,
+          "East": {
+            "RoomId": 20108,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 3 key #20310",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20101,
-          "West": 20109
+          "West": {
+            "RoomId": 20109,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 10 key #20317",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -1180,9 +1620,29 @@
         "Color": "black",
         "Connections": {
           "North": 20100,
-          "East": 20110,
+          "East": {
+            "RoomId": 20110,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 4 key #20311",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20102,
-          "West": 20111
+          "West": {
+            "RoomId": 20111,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 9 key #20316",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -1192,9 +1652,29 @@
         "Color": "black",
         "Connections": {
           "North": 20101,
-          "East": 20112,
+          "East": {
+            "RoomId": 20112,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 5 key #20312",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20103,
-          "West": 20113
+          "West": {
+            "RoomId": 20113,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 8 key #20315",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -1204,8 +1684,28 @@
         "Color": "black",
         "Connections": {
           "North": 20102,
-          "East": 20114,
-          "West": 20115,
+          "East": {
+            "RoomId": 20114,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 6 key #20313",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 20115,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 7 key #20314",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 20116
         }
       },
@@ -1323,7 +1823,17 @@
         "Name": "Hallway #20116",
         "Color": "black",
         "Connections": {
-          "East": 20119,
+          "East": {
+            "RoomId": 20119,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 12 key #20319",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20117,
           "West": 20120,
           "Down": 20103
@@ -1336,7 +1846,17 @@
         "Color": "black",
         "Connections": {
           "North": 20116,
-          "East": 20121,
+          "East": {
+            "RoomId": 20121,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 13 key #20320",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20118,
           "West": 20122
         }
@@ -1348,8 +1868,28 @@
         "Color": "black",
         "Connections": {
           "North": 20117,
-          "East": 20123,
-          "West": 20124
+          "East": {
+            "RoomId": 20123,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 14 key #20321",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 20124,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a fancy number 15 key #20322",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -1412,7 +1952,17 @@
         "Name": "Marblehearth Entrance #20125",
         "Color": "black",
         "Connections": {
-          "North": 20213,
+          "North": {
+            "RoomId": 20213,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a marble key #20324",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20126,
           "Up": 20132,
           "Down": 20133
@@ -1511,7 +2061,17 @@
         "Name": "Basement #20135",
         "Color": "black",
         "Connections": {
-          "East": 20134,
+          "East": {
+            "RoomId": 20134,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a marble key #20324",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 20129,
           "Up": 20127
         }
@@ -1534,7 +2094,17 @@
           "North": 20142,
           "East": 20138,
           "South": 20143,
-          "West": 20234
+          "West": {
+            "RoomId": 20234,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a gray steel key #20325",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -1621,7 +2191,17 @@
         "Name": "Basement #20146",
         "Color": "black",
         "Connections": {
-          "South": 20145,
+          "South": {
+            "RoomId": 20145,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a gray steel key #20325",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 20140
         }
       },
@@ -1642,7 +2222,17 @@
         "Connections": {
           "North": 20149,
           "East": 20154,
-          "South": 20257,
+          "South": {
+            "RoomId": 20257,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an orange key #20326",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 20153
         }
       },
@@ -1730,7 +2320,17 @@
         "Name": "Basement #20157",
         "Color": "black",
         "Connections": {
-          "East": 20156,
+          "East": {
+            "RoomId": 20156,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an orange key #20326",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 20151
         }
       },
@@ -1770,8 +2370,28 @@
         "Name": "Hallway #20161",
         "Color": "black",
         "Connections": {
-          "North": 20164,
-          "South": 20163,
+          "North": {
+            "RoomId": 20164,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a yellow number 5 key #20331",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 20163,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a yellow number 1 key #20327",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 20162,
           "Down": 20160
         }
@@ -1782,10 +2402,40 @@
         "Name": "End of Hall #20162",
         "Color": "black",
         "Connections": {
-          "North": 20167,
+          "North": {
+            "RoomId": 20167,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a yellow number 4 key #20330",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 20161,
-          "South": 20165,
-          "West": 20166
+          "South": {
+            "RoomId": 20165,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a yellow number 2 key #20328",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 20166,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a yellow number 3 key #20329",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -2083,7 +2733,17 @@
         "Color": "black",
         "Connections": {
           "North": 20187,
-          "East": 20297,
+          "East": {
+            "RoomId": 20297,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a short bronze key #20335",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20189
         }
       },
@@ -2204,7 +2864,17 @@
         "Color": "black",
         "Connections": {
           "North": 20197,
-          "East": 20058,
+          "East": {
+            "RoomId": 20058,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a blue steel key #20297",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20199
         }
       },
@@ -2215,7 +2885,17 @@
         "Color": "black",
         "Connections": {
           "North": 20198,
-          "East": 20061,
+          "East": {
+            "RoomId": 20061,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a blue steel key #20297",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 20200
         }
       },
@@ -2278,7 +2958,17 @@
         "Color": "black",
         "Connections": {
           "East": 20205,
-          "South": 20302,
+          "South": {
+            "RoomId": 20302,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an electrum key #20336",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 20203
         }
       },
@@ -2354,7 +3044,17 @@
         "Color": "black",
         "Connections": {
           "North": 20207,
-          "East": 20047,
+          "East": {
+            "RoomId": 20047,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a white key #20113",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20212
         }
       },
@@ -2377,8 +3077,28 @@
         "Color": "black",
         "Connections": {
           "North": 20212,
-          "East": 20034,
-          "South": 20125
+          "East": {
+            "RoomId": 20034,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel key #20104",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 20125,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a marble key #20324",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -2452,7 +3172,17 @@
         "Connections": {
           "North": 20219,
           "South": 20221,
-          "West": 20306
+          "West": {
+            "RoomId": 20306,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a gnarled wood key #20337",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -2630,7 +3360,17 @@
         "Color": "black",
         "Connections": {
           "North": 20233,
-          "East": 20137,
+          "East": {
+            "RoomId": 20137,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a gray steel key #20325",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20235
         }
       },
@@ -2693,7 +3433,17 @@
         "Color": "black",
         "Connections": {
           "North": 20241,
-          "East": 20032,
+          "East": {
+            "RoomId": 20032,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a brass key #20094",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20239
         }
       },
@@ -2705,7 +3455,17 @@
         "Connections": {
           "East": 20230,
           "South": 20240,
-          "West": 20318
+          "West": {
+            "RoomId": 20318,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a plain gold key #20341",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -2714,7 +3474,17 @@
         "Name": "Colton Circle 400 Block #20242",
         "Color": "black",
         "Connections": {
-          "North": 20314,
+          "North": {
+            "RoomId": 20314,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a jewelled key #20339",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20243,
           "West": 20230
         }
@@ -2746,7 +3516,17 @@
         "Name": "Dungeon Drive 100 Block #20245",
         "Color": "black",
         "Connections": {
-          "North": 20012,
+          "North": {
+            "RoomId": 20012,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a silver and gold key #20011",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 20239,
           "West": 20187
         }
@@ -2757,7 +3537,17 @@
         "Name": "Dungeon Drive 300 Block #20246",
         "Color": "black",
         "Connections": {
-          "North": 20033,
+          "North": {
+            "RoomId": 20033,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a copper key #20100",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 20244,
           "South": 20030,
           "West": 20239
@@ -2780,7 +3570,17 @@
         "Color": "black",
         "Connections": {
           "East": 20235,
-          "South": 20319,
+          "South": {
+            "RoomId": 20319,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a mithril key #20342",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 20244
         },
         "Contents": [
@@ -2817,7 +3617,17 @@
         "Connections": {
           "North": 20248,
           "South": 20250,
-          "West": 20326
+          "West": {
+            "RoomId": 20326,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an electrum and silver key #20346",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -2850,7 +3660,17 @@
         "Connections": {
           "North": 20251,
           "East": 20223,
-          "South": 20052,
+          "South": {
+            "RoomId": 20052,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a black key #20294",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 20262
         }
       },
@@ -2900,7 +3720,17 @@
         "Name": "Riverfront Way 500 Block #20257",
         "Color": "black",
         "Connections": {
-          "North": 20148,
+          "North": {
+            "RoomId": 20148,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an orange key #20326",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 20250,
           "West": 20256
         }
@@ -2933,7 +3763,17 @@
         "Color": "black",
         "Connections": {
           "East": 20261,
-          "South": 20310,
+          "South": {
+            "RoomId": 20310,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an obisidian key #20338",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 20259
         }
       },
@@ -3052,7 +3892,17 @@
         "Color": "black",
         "Connections": {
           "East": 20272,
-          "South": 20279,
+          "South": {
+            "RoomId": 20279,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a plain steel key #20332",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 20264
         }
       },
@@ -3083,7 +3933,17 @@
         "Color": "black",
         "Connections": {
           "East": 20225,
-          "South": 20079,
+          "South": {
+            "RoomId": 20079,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a blue key #20306",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 20273
         }
       },
@@ -3113,7 +3973,17 @@
         "Name": "Calinth Way 500 Block #20277",
         "Color": "black",
         "Connections": {
-          "North": 20285,
+          "North": {
+            "RoomId": 20285,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an ornate brass key #20333",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 20278,
           "West": 20270
         }
@@ -3134,8 +4004,28 @@
         "Name": "Riautar\u0027s Weaponry #20279",
         "Color": "black",
         "Connections": {
-          "North": 20271,
-          "East": 20280,
+          "North": {
+            "RoomId": 20271,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a plain steel key #20332",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": {
+            "RoomId": 20280,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a plain steel key #20332",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20281
         },
         "Contents": [
@@ -3161,7 +4051,17 @@
         "Color": "black",
         "Connections": {
           "North": 20279,
-          "East": 20282,
+          "East": {
+            "RoomId": 20282,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a plain steel key #20332",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20283
         }
       },
@@ -3211,7 +4111,17 @@
         "Connections": {
           "North": 20286,
           "East": 20288,
-          "South": 20277
+          "South": {
+            "RoomId": 20277,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an ornate brass key #20333",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -3227,7 +4137,17 @@
         "Color": "black",
         "Connections": {
           "South": 20285,
-          "West": 20287
+          "West": {
+            "RoomId": 20287,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an ornate brass key #20333",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -3245,7 +4165,17 @@
         "Name": "Common Room #20288",
         "Color": "black",
         "Connections": {
-          "North": 20289,
+          "North": {
+            "RoomId": 20289,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an ornate brass key #20333",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 20290,
           "West": 20285
         }
@@ -3337,7 +4267,17 @@
         "Connections": {
           "East": 20299,
           "South": 20298,
-          "West": 20188
+          "West": {
+            "RoomId": 20188,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a short bronze key #20335",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -3356,7 +4296,17 @@
         "Name": "Clerk\u0027s Window #20299",
         "Color": "black",
         "Connections": {
-          "East": 20301,
+          "East": {
+            "RoomId": 20301,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a large adamantite key #20334",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 20297
         },
         "Contents": [
@@ -3391,7 +4341,17 @@
         "Name": "Vault #20301",
         "Color": "black",
         "Connections": {
-          "West": 20299
+          "West": {
+            "RoomId": 20299,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a large adamantite key #20334",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -3400,7 +4360,17 @@
         "Name": "Palauvir\u0027s Counter #20302",
         "Color": "black",
         "Connections": {
-          "North": 20204,
+          "North": {
+            "RoomId": 20204,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an electrum key #20336",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20303
         }
       },
@@ -3411,7 +4381,17 @@
         "Color": "black",
         "Connections": {
           "North": 20302,
-          "East": 20305,
+          "East": {
+            "RoomId": 20305,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an electrum key #20336",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 20304
         }
       },
@@ -3439,7 +4419,17 @@
         "Name": "Khostall Hanuss, Fine Nuts #20306",
         "Color": "black",
         "Connections": {
-          "East": 20220,
+          "East": {
+            "RoomId": 20220,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a gnarled wood key #20337",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20307
         }
       },
@@ -3451,7 +4441,17 @@
         "Connections": {
           "North": 20306,
           "East": 20308,
-          "West": 20309
+          "West": {
+            "RoomId": 20309,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a gnarled wood key #20337",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -3478,7 +4478,17 @@
         "Name": "The Slaughterhouse #20310",
         "Color": "black",
         "Connections": {
-          "North": 20260,
+          "North": {
+            "RoomId": 20260,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an obisidian key #20338",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20311
         },
         "Contents": [
@@ -3496,7 +4506,17 @@
         "Connections": {
           "North": 20310,
           "East": 20313,
-          "West": 20312
+          "West": {
+            "RoomId": 20312,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an obisidian key #20338",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -3523,8 +4543,28 @@
         "Name": "Rahib\u0027s Jewels #20314",
         "Color": "black",
         "Connections": {
-          "North": 20315,
-          "South": 20242
+          "North": {
+            "RoomId": 20315,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a jewelled key #20339",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 20242,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a jewelled key #20339",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -3540,7 +4580,17 @@
         "Color": "black",
         "Connections": {
           "North": 20317,
-          "East": 20316,
+          "East": {
+            "RoomId": 20316,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an ivory key #20340",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 20314
         }
       },
@@ -3568,7 +4618,17 @@
         "Name": "The Captain\u0027s Office #20318",
         "Color": "black",
         "Connections": {
-          "East": 20241
+          "East": {
+            "RoomId": 20241,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a plain gold key #20341",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -3577,7 +4637,17 @@
         "Name": "Jail House #20319",
         "Color": "black",
         "Connections": {
-          "North": 20247,
+          "North": {
+            "RoomId": 20247,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a mithril key #20342",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 20320,
           "South": 20321,
           "West": 20322
@@ -3599,9 +4669,39 @@
         "Color": "black",
         "Connections": {
           "North": 20319,
-          "East": 20325,
-          "South": 20324,
-          "West": 20323
+          "East": {
+            "RoomId": 20325,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a platinum and gold key #20345",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 20324,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a blue iron key #20344",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 20323,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a platinum key #20343",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -3664,7 +4764,17 @@
         "Connections": {
           "North": 20329,
           "East": 20326,
-          "West": 20328
+          "West": {
+            "RoomId": 20328,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an electrum and silver key #20346",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {

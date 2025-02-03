@@ -2833,7 +2833,17 @@
         "Name": "The end of the torture chambers #14237",
         "Color": "black",
         "Connections": {
-          "North": 14239,
+          "North": {
+            "RoomId": 14239,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a bone key #14038",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 14233
         }
       },
@@ -2852,7 +2862,17 @@
         "Name": "Under a staircase #14239",
         "Color": "black",
         "Connections": {
-          "South": 14237,
+          "South": {
+            "RoomId": 14237,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a bone key #14038",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 14240
         }
       },
@@ -3172,7 +3192,17 @@
         "Name": "Antechamber to the shadowlord\u0027s room #14267",
         "Color": "black",
         "Connections": {
-          "East": 14268,
+          "East": {
+            "RoomId": 14268,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a ring of service #14096",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 14263
         },
         "Contents": [
@@ -3188,7 +3218,17 @@
         "Name": "Inside the shadowlord\u0027s room #14268",
         "Color": "black",
         "Connections": {
-          "West": 14267
+          "West": {
+            "RoomId": 14267,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a ring of service #14096",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {

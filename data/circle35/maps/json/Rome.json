@@ -11,7 +11,17 @@
         "Name": "The Judging Booth #12001",
         "Color": "black",
         "Connections": {
-          "Down": 12002
+          "Down": {
+            "RoomId": 12002,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a rusted key #12033",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -38,7 +48,17 @@
         "Name": "Caesar\u0027s Private Box #12002",
         "Color": "black",
         "Connections": {
-          "Up": 12001,
+          "Up": {
+            "RoomId": 12001,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a rusted key #12033",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Down": 12003
         },
         "Contents": [
@@ -116,7 +136,17 @@
         "Color": "black",
         "Connections": {
           "North": 12005,
-          "South": 12007
+          "South": {
+            "RoomId": 12007,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a double sided key #12034",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -139,7 +169,17 @@
         "Name": "The Back Room #12007",
         "Color": "black",
         "Connections": {
-          "North": 12006
+          "North": {
+            "RoomId": 12006,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a double sided key #12034",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -646,8 +686,28 @@
         "Name": "The Emperor\u0027s Private Office #12036",
         "Color": "black",
         "Connections": {
-          "East": 12043,
-          "South": 12037
+          "East": {
+            "RoomId": 12043,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a diamond studded key #12035",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 12037,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a diamond studded key #12035",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -670,9 +730,39 @@
         "Name": "The Senate Chambers #12037",
         "Color": "black",
         "Connections": {
-          "North": 12036,
-          "East": 12044,
-          "South": 12038
+          "North": {
+            "RoomId": 12036,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a diamond studded key #12035",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "East": {
+            "RoomId": 12044,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key with a pearl handle #12036",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 12038,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an aquamarine key #12037",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -695,7 +785,12 @@
         "Name": "The House Of Commons #12038",
         "Color": "black",
         "Connections": {
-          "North": 12037
+          "North": {
+            "RoomId": 12037,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -754,7 +849,17 @@
         "Name": "The Mage\u0027s Shop #12042",
         "Color": "black",
         "Connections": {
-          "East": 12049,
+          "East": {
+            "RoomId": 12049,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an opal key #12038",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 12035
         },
         "Contents": [
@@ -776,7 +881,17 @@
         "Connections": {
           "East": 12050,
           "South": 12044,
-          "West": 12036
+          "West": {
+            "RoomId": 12036,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a diamond studded key #12035",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -800,7 +915,17 @@
         "Color": "black",
         "Connections": {
           "North": 12043,
-          "West": 12037,
+          "West": {
+            "RoomId": 12037,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key with a pearl handle #12036",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Down": 12045
         }
       },
@@ -881,7 +1006,17 @@
         "Name": "Froboz\u0027s Workshop #12049",
         "Color": "black",
         "Connections": {
-          "West": 12042
+          "West": {
+            "RoomId": 12042,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an opal key #12038",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -900,7 +1035,17 @@
         "Name": "The Courtroom #12050",
         "Color": "black",
         "Connections": {
-          "East": 12055,
+          "East": {
+            "RoomId": 12055,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel key #12039",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 12060,
           "West": 12043
         },
@@ -983,7 +1128,17 @@
         "Name": "The Judge\u0027s Chambers #12055",
         "Color": "black",
         "Connections": {
-          "West": 12050
+          "West": {
+            "RoomId": 12050,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel key #12039",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {

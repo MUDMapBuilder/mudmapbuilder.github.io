@@ -418,7 +418,17 @@
         "Color": "black",
         "Connections": {
           "West": 27120,
-          "Down": 27245
+          "Down": {
+            "RoomId": 27245,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a lock of someone\u0027s hair #27181",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -1190,7 +1200,17 @@
         "Name": "To Sundhaven II #27245",
         "Color": "blue",
         "Connections": {
-          "Up": 27121,
+          "Up": {
+            "RoomId": 27121,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a lock of someone\u0027s hair #27181",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Down": 27239
         }
       },

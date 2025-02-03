@@ -567,7 +567,17 @@
         "Color": "black",
         "Connections": {
           "East": 5064,
-          "West": 5066
+          "West": {
+            "RoomId": 5066,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a golden key #5024",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -582,7 +592,17 @@
         "Name": "A wide tunnel #5066",
         "Color": "black",
         "Connections": {
-          "East": 5065,
+          "East": {
+            "RoomId": 5065,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a golden key #5024",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 5067
         }
       },

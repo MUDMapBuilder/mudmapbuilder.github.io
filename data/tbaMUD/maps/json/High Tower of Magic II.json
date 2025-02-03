@@ -913,7 +913,17 @@
         "Name": "A Wide Hallway #2673",
         "Color": "black",
         "Connections": {
-          "North": 2674,
+          "North": {
+            "RoomId": 2674,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a gray key #2593",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 2650
         }
       },
@@ -923,8 +933,28 @@
         "Name": "A Wide Hallway #2674",
         "Color": "black",
         "Connections": {
-          "North": 2675,
-          "South": 2673
+          "North": {
+            "RoomId": 2675,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a black key #2594",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 2673,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a gray key #2593",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -933,8 +963,28 @@
         "Name": "A Wide Hallway #2675",
         "Color": "black",
         "Connections": {
-          "North": 2676,
-          "South": 2674
+          "North": {
+            "RoomId": 2676,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a white key #2595",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 2674,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a black key #2594",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -944,7 +994,17 @@
         "Color": "black",
         "Connections": {
           "North": 2677,
-          "South": 2675
+          "South": {
+            "RoomId": 2675,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a white key #2595",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {

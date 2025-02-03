@@ -115,7 +115,17 @@
         "Name": "Alcove #8608",
         "Color": "black",
         "Connections": {
-          "North": 8609,
+          "North": {
+            "RoomId": 8609,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small key #8602",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 8607
         }
       },

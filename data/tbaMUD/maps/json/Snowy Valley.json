@@ -103,7 +103,17 @@
         "Name": "A Small Hole #24309",
         "Color": "black",
         "Connections": {
-          "East": 24310,
+          "East": {
+            "RoomId": 24310,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small rusty key #24398",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 24308
         },
         "Contents": [
@@ -119,7 +129,17 @@
         "Name": "A Small Room #24310",
         "Color": "black",
         "Connections": {
-          "West": 24309
+          "West": {
+            "RoomId": 24309,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small rusty key #24398",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -1030,7 +1050,17 @@
         "Color": "black",
         "Connections": {
           "East": 24320,
-          "West": 24393
+          "West": {
+            "RoomId": 24393,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a yellow plastic ski pass #24306",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -1045,7 +1075,17 @@
         "Name": "Main Path #24393",
         "Color": "black",
         "Connections": {
-          "East": 24392,
+          "East": {
+            "RoomId": 24392,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a yellow plastic ski pass #24306",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 24368
         }
       },

@@ -57,7 +57,17 @@
         "Color": "black",
         "Connections": {
           "North": 23201,
-          "South": 23221
+          "South": {
+            "RoomId": 23221,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a blood red key #23201",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -295,7 +305,17 @@
         "Name": "In a room of dark red stone #23221",
         "Color": "black",
         "Connections": {
-          "North": 23204
+          "North": {
+            "RoomId": 23204,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a blood red key #23201",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

@@ -497,7 +497,17 @@
         "Name": "The Lady\u0027s Bower #1144",
         "Color": "black",
         "Connections": {
-          "East": 1145,
+          "East": {
+            "RoomId": 1145,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "@Wa white key@n #1126",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 1143
         },
         "Contents": [

@@ -13,7 +13,17 @@
         "Name": "The Gates of the Temple #29900",
         "Color": "black",
         "Connections": {
-          "North": 29901
+          "North": {
+            "RoomId": 29901,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a star-shaped key #29900",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -29,7 +39,17 @@
         "Color": "black",
         "Connections": {
           "East": 29903,
-          "South": 29900,
+          "South": {
+            "RoomId": 29900,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a star-shaped key #29900",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 29902
         }
       },
@@ -40,7 +60,17 @@
         "Color": "black",
         "Connections": {
           "East": 29901,
-          "South": 29904,
+          "South": {
+            "RoomId": 29904,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a star-shaped key #29900",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 29905
         },
         "Contents": [
@@ -65,7 +95,17 @@
         "Name": "A Room Seared by Flames #29904",
         "Color": "black",
         "Connections": {
-          "North": 29902
+          "North": {
+            "RoomId": 29902,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a star-shaped key #29900",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

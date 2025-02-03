@@ -174,7 +174,17 @@
         "Color": "black",
         "Connections": {
           "East": 4222,
-          "South": 4215,
+          "South": {
+            "RoomId": 4215,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a Prison Key #4200",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 4213
         }
       },
@@ -366,7 +376,17 @@
           "East": 4231,
           "South": 4230,
           "West": 4226,
-          "Down": 4227
+          "Down": {
+            "RoomId": 4227,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a Golden Key #4202",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {

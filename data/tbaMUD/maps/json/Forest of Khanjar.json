@@ -125,7 +125,12 @@
         "Color": "black",
         "Connections": {
           "North": 28110,
-          "West": 28109,
+          "West": {
+            "RoomId": 28109,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "Down": 28106
         }
       },
@@ -135,7 +140,12 @@
         "Name": "A dusty room #28109",
         "Color": "black",
         "Connections": {
-          "East": 28108
+          "East": {
+            "RoomId": 28108,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -171,7 +181,17 @@
         "Color": "black",
         "Connections": {
           "South": 28110,
-          "West": 28113
+          "West": {
+            "RoomId": 28113,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small iron key #28131",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -180,7 +200,17 @@
         "Name": "A tidy room #28113",
         "Color": "black",
         "Connections": {
-          "East": 28112
+          "East": {
+            "RoomId": 28112,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small iron key #28131",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {

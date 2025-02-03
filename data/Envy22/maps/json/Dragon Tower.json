@@ -13,7 +13,17 @@
         "Name": "The Tower Gates #2201",
         "Color": "black",
         "Connections": {
-          "North": 2202,
+          "North": {
+            "RoomId": 2202,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel key #2231",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 1304
         },
         "Contents": [
@@ -176,7 +186,17 @@
         "Color": "black",
         "Connections": {
           "North": 2208,
-          "West": 2218
+          "West": {
+            "RoomId": 2218,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "A ruby key #2232",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -360,7 +380,17 @@
         "Name": "Entrance to the Crypt #2218",
         "Color": "black",
         "Connections": {
-          "East": 2209,
+          "East": {
+            "RoomId": 2209,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "A ruby key #2232",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 2219
         },
         "Contents": [
@@ -431,7 +461,12 @@
         "Color": "black",
         "Connections": {
           "East": 2219,
-          "West": 2232
+          "West": {
+            "RoomId": 2232,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -512,7 +547,17 @@
         "Color": "black",
         "Connections": {
           "West": 2224,
-          "East": 2230
+          "East": {
+            "RoomId": 2230,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a tarnished gold key #2299",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -521,7 +566,17 @@
         "Name": "THE Lair #2230",
         "Color": "black",
         "Connections": {
-          "West": 2229
+          "West": {
+            "RoomId": 2229,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a tarnished gold key #2299",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -696,7 +751,17 @@
         "Color": "black",
         "Connections": {
           "Down": 2242,
-          "North": 2231
+          "North": {
+            "RoomId": 2231,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a platinum key #2241",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

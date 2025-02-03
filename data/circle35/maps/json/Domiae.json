@@ -11,7 +11,17 @@
         "Name": "The mad wizard\u0027s hut #9600",
         "Color": "black",
         "Connections": {
-          "East": 9602
+          "East": {
+            "RoomId": 9602,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small iron key #9603",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -44,7 +54,17 @@
         "Color": "black",
         "Connections": {
           "East": 9601,
-          "West": 9600
+          "West": {
+            "RoomId": 9600,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small iron key #9603",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -565,7 +585,17 @@
         "Color": "black",
         "Connections": {
           "East": 9644,
-          "West": 9648,
+          "West": {
+            "RoomId": 9648,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a silvery key #9646",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Up": 9650
         }
       },
@@ -575,7 +605,17 @@
         "Name": "A stairwell #9646",
         "Color": "black",
         "Connections": {
-          "East": 9647,
+          "East": {
+            "RoomId": 9647,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a silvery key #9646",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 9643,
           "Up": 9649
         }
@@ -657,7 +697,17 @@
         "Color": "black",
         "Connections": {
           "East": 9652,
-          "South": 9654,
+          "South": {
+            "RoomId": 9654,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a roughly made key #9652",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 9651
         }
       },

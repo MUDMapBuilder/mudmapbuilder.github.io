@@ -1217,7 +1217,17 @@
         "Name": "Throne of Glogtar #4392",
         "Color": "black",
         "Connections": {
-          "East": 4393,
+          "East": {
+            "RoomId": 4393,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "Glogtar\u0027s key #4322",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 4391,
           "West": 4341
         },
@@ -1234,7 +1244,17 @@
         "Name": "Treasure Room #4393",
         "Color": "black",
         "Connections": {
-          "West": 4392
+          "West": {
+            "RoomId": 4392,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "Glogtar\u0027s key #4322",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {

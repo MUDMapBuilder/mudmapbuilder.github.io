@@ -37,7 +37,17 @@
         "Name": "Under the Arch #30403",
         "Color": "black",
         "Connections": {
-          "North": 30405,
+          "North": {
+            "RoomId": 30405,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a marble key #30405",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 30402
         },
         "Contents": [
@@ -70,7 +80,17 @@
         "Color": "black",
         "Connections": {
           "East": 30406,
-          "South": 30403,
+          "South": {
+            "RoomId": 30403,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a marble key #30405",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 30404
         },
         "Contents": [
@@ -204,7 +224,17 @@
         "Name": "Mateon\u0027s Chamber #30414",
         "Color": "black",
         "Connections": {
-          "East": 30415
+          "East": {
+            "RoomId": 30415,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an oak key #30406",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -232,7 +262,17 @@
         "Color": "black",
         "Connections": {
           "South": 30418,
-          "West": 30414,
+          "West": {
+            "RoomId": 30414,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an oak key #30406",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 30412
         }
       },
@@ -296,7 +336,17 @@
         "Name": "The Bull\u0027s Chamber #30420",
         "Color": "black",
         "Connections": {
-          "East": 30421,
+          "East": {
+            "RoomId": 30421,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #30407",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 30422
         },
         "Contents": [
@@ -313,7 +363,17 @@
         "Color": "black",
         "Connections": {
           "North": 30418,
-          "West": 30420
+          "West": {
+            "RoomId": 30420,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #30407",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {

@@ -553,7 +553,17 @@
         "Color": "black",
         "Connections": {
           "North": 10037,
-          "East": 10040
+          "East": {
+            "RoomId": 10040,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "house key #10006",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -615,7 +625,17 @@
         "Name": "In the closet #10044",
         "Color": "black",
         "Connections": {
-          "West": 10042
+          "West": {
+            "RoomId": 10042,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "coathanger #10007",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {

@@ -311,7 +311,17 @@
         "Name": "Way to the Middle #11823",
         "Color": "black",
         "Connections": {
-          "North": 11825,
+          "North": {
+            "RoomId": 11825,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a little white key #11823",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 11822
         }
       },
@@ -322,7 +332,17 @@
         "Color": "black",
         "Connections": {
           "East": 11822,
-          "West": 11840
+          "West": {
+            "RoomId": 11840,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a little black key #11855",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {

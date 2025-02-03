@@ -338,7 +338,17 @@
         "Name": "Atop a Wobbling Stone Slab #30427",
         "Color": "black",
         "Connections": {
-          "North": 30428,
+          "North": {
+            "RoomId": 30428,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small, stone key #30411",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 30408
         }
       },

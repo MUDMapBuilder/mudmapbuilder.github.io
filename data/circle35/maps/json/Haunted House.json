@@ -146,9 +146,29 @@
         "Name": "Into the Dungeon #28311",
         "Color": "black",
         "Connections": {
-          "North": 28312,
+          "North": {
+            "RoomId": 28312,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #28302",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 28310,
-          "South": 28313,
+          "South": {
+            "RoomId": 28313,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #28302",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 28314
         },
         "Contents": [
@@ -164,7 +184,17 @@
         "Name": "A Cell #28312",
         "Color": "black",
         "Connections": {
-          "South": 28311
+          "South": {
+            "RoomId": 28311,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #28302",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -179,7 +209,17 @@
         "Name": "A Cell #28313",
         "Color": "black",
         "Connections": {
-          "North": 28311
+          "North": {
+            "RoomId": 28311,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #28302",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -194,9 +234,29 @@
         "Name": "The Dungeon #28314",
         "Color": "black",
         "Connections": {
-          "North": 28315,
+          "North": {
+            "RoomId": 28315,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #28302",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 28311,
-          "South": 28316,
+          "South": {
+            "RoomId": 28316,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #28302",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 28317
         }
       },
@@ -206,7 +266,17 @@
         "Name": "Another Cell #28315",
         "Color": "black",
         "Connections": {
-          "South": 28314
+          "South": {
+            "RoomId": 28314,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #28302",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -215,7 +285,17 @@
         "Name": "A Bloody Cell #28316",
         "Color": "black",
         "Connections": {
-          "North": 28314
+          "North": {
+            "RoomId": 28314,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #28302",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -248,7 +328,17 @@
         "Name": "The Slow-Death Room #28318",
         "Color": "black",
         "Connections": {
-          "North": 28329
+          "North": {
+            "RoomId": 28329,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a secret key #28303",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -271,7 +361,17 @@
         "Color": "black",
         "Connections": {
           "East": 28317,
-          "West": 28345
+          "West": {
+            "RoomId": 28345,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the key to the treasure #28307",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -400,7 +500,17 @@
         "Color": "black",
         "Connections": {
           "East": 28326,
-          "South": 28318,
+          "South": {
+            "RoomId": 28318,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a secret key #28303",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 28361
         }
       },
@@ -509,7 +619,17 @@
         "Color": "black",
         "Connections": {
           "West": 28337,
-          "Down": 28357
+          "Down": {
+            "RoomId": 28357,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a special key #28305",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -596,7 +716,17 @@
         "Name": "The Room of the Golden Lance #28345",
         "Color": "black",
         "Connections": {
-          "East": 28320
+          "East": {
+            "RoomId": 28320,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the key to the treasure #28307",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -746,7 +876,17 @@
         "Name": "The Secret Den of the Owner #28357",
         "Color": "black",
         "Connections": {
-          "Up": 28362
+          "Up": {
+            "RoomId": 28362,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the dark sword of power #28327",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -803,8 +943,28 @@
         "Name": "In a Very Dark Room #28362",
         "Color": "black",
         "Connections": {
-          "Up": 28338,
-          "Down": 28357
+          "Up": {
+            "RoomId": 28338,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a special key #28305",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "Down": {
+            "RoomId": 28357,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the dark sword of power #28327",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

@@ -110,7 +110,12 @@
         "Name": "A bend in the tunnel #3708",
         "Color": "black",
         "Connections": {
-          "North": 3709,
+          "North": {
+            "RoomId": 3709,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 3707
         },
         "Contents": [
@@ -131,7 +136,12 @@
         "Color": "black",
         "Connections": {
           "North": 3710,
-          "South": 3708
+          "South": {
+            "RoomId": 3708,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -507,7 +517,17 @@
         "Connections": {
           "North": 3734,
           "East": 3736,
-          "South": 3737
+          "South": {
+            "RoomId": 3737,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dirty key #3710",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -702,7 +722,17 @@
         "Color": "blue",
         "Connections": {
           "Up": 3717,
-          "Down": 3802
+          "Down": {
+            "RoomId": 3802,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a red smelly key #3804",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       }
     ]

@@ -580,7 +580,17 @@
         "Name": "Nuclear Wasteland #1837",
         "Color": "black",
         "Connections": {
-          "North": 1838,
+          "North": {
+            "RoomId": 1838,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a password key #1803",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 1812,
           "South": 1836,
           "West": 1862
@@ -1407,7 +1417,17 @@
         "Name": "Nuclear Wasteland #1887",
         "Color": "black",
         "Connections": {
-          "North": 1888,
+          "North": {
+            "RoomId": 1888,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key card #1804",
+                "Color": "indianred"
+              }
+            ]
+          },
           "East": 1862,
           "South": 1886
         },

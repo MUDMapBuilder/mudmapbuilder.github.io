@@ -692,7 +692,12 @@
         "Name": "The Great Door #6392",
         "Color": "black",
         "Connections": {
-          "North": 6399,
+          "North": {
+            "RoomId": 6399,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 6391
         }
       },
@@ -702,7 +707,12 @@
         "Name": "The Lair of Arachnos #6399",
         "Color": "black",
         "Connections": {
-          "South": 6392
+          "South": {
+            "RoomId": 6392,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {

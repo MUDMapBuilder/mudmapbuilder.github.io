@@ -21,7 +21,17 @@
         "Color": "black",
         "Connections": {
           "Up": 3717,
-          "Down": 3802
+          "Down": {
+            "RoomId": 3802,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a red smelly key #3804",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -37,7 +47,17 @@
         "Color": "black",
         "Connections": {
           "North": 3803,
-          "Up": 3801
+          "Up": {
+            "RoomId": 3801,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a red smelly key #3804",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -58,7 +78,12 @@
         "Connections": {
           "North": 3807,
           "South": 3803,
-          "Up": 3805
+          "Up": {
+            "RoomId": 3805,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -68,7 +93,12 @@
         "Color": "black",
         "Connections": {
           "Up": 3806,
-          "Down": 3804
+          "Down": {
+            "RoomId": 3804,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {

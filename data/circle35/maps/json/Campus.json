@@ -30,7 +30,17 @@
         "Name": "Campus Crescent #30102",
         "Color": "black",
         "Connections": {
-          "North": 30125,
+          "North": {
+            "RoomId": 30125,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the Key to Vic #30145",
+                "Color": "indianred"
+              }
+            ]
+          },
           "East": 30103,
           "South": 30126,
           "West": 30101
@@ -297,7 +307,17 @@
         "Name": "Victoria Hall #30125",
         "Color": "black",
         "Connections": {
-          "South": 30102
+          "South": {
+            "RoomId": 30102,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the Key to Vic #30145",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -307,8 +327,28 @@
         "Color": "black",
         "Connections": {
           "North": 30102,
-          "East": 30294,
-          "West": 30295
+          "East": {
+            "RoomId": 30294,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a garden burger #30106",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 30295,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a salisbury steak #30105",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -1003,7 +1043,17 @@
         "Color": "black",
         "Connections": {
           "East": 30177,
-          "West": 30187
+          "West": {
+            "RoomId": 30187,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a brass key #30101",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -1051,7 +1101,17 @@
         "Name": "Hallway #30183",
         "Color": "black",
         "Connections": {
-          "North": 30186,
+          "North": {
+            "RoomId": 30186,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a red key #30100",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 30184,
           "South": 30180,
           "West": 30185
@@ -1081,7 +1141,17 @@
         "Name": "Faculty Office #30186",
         "Color": "black",
         "Connections": {
-          "South": 30183
+          "South": {
+            "RoomId": 30183,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a red key #30100",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -1091,7 +1161,17 @@
         "Color": "black",
         "Connections": {
           "North": 30188,
-          "East": 30178
+          "East": {
+            "RoomId": 30178,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a brass key #30101",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -1242,7 +1322,17 @@
         "Name": "To Campus II #30294",
         "Color": "blue",
         "Connections": {
-          "West": 30126,
+          "West": {
+            "RoomId": 30126,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a garden burger #30106",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 30296
         }
       },
@@ -1252,7 +1342,17 @@
         "Name": "To Campus II #30295",
         "Color": "blue",
         "Connections": {
-          "East": 30126,
+          "East": {
+            "RoomId": 30126,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a salisbury steak #30105",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 30312
         }
       },
@@ -1369,7 +1469,17 @@
         "Name": "To Campus II #30201",
         "Color": "blue",
         "Connections": {
-          "East": 30202,
+          "East": {
+            "RoomId": 30202,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small iron key #30103",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 30142
         }
       },

@@ -156,7 +156,17 @@
         "Name": "Guarded Gates #2710",
         "Color": "black",
         "Connections": {
-          "North": 2711,
+          "North": {
+            "RoomId": 2711,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a bejewelled crystal key #2709",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 2709
         },
         "Contents": [
@@ -901,7 +911,17 @@
         "Name": "Digging Site #2767",
         "Color": "black",
         "Connections": {
-          "South": 2763,
+          "South": {
+            "RoomId": 2763,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a white bone key #2721",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 2762
         },
         "Contents": [
@@ -979,7 +999,17 @@
         "Name": "Before the Dark Gates #2772",
         "Color": "black",
         "Connections": {
-          "North": 2780,
+          "North": {
+            "RoomId": 2780,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a glistening obsidian key #2775",
+                "Color": "indianred"
+              }
+            ]
+          },
           "East": 2774,
           "South": 2769,
           "West": 2773,
@@ -1067,7 +1097,12 @@
         "Connections": {
           "North": 2783,
           "East": 2781,
-          "South": 2772,
+          "South": {
+            "RoomId": 2772,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 2782
         }
       },

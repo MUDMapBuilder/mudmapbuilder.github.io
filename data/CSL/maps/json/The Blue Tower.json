@@ -340,7 +340,17 @@
         "Name": "On a balcony wreathed in blue fire #23254",
         "Color": "black",
         "Connections": {
-          "South": 23255,
+          "South": {
+            "RoomId": 23255,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a blue key #23237",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Down": 23253
         },
         "Contents": [
@@ -356,7 +366,17 @@
         "Name": "The Witch Queen\u0027s Watch #23255",
         "Color": "black",
         "Connections": {
-          "North": 23254
+          "North": {
+            "RoomId": 23254,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a blue key #23237",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {

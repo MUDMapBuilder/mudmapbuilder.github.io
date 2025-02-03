@@ -176,7 +176,17 @@
         "Name": "Entrance to Aldin, City of the Dwarves #23610",
         "Color": "black",
         "Connections": {
-          "East": 23611,
+          "East": {
+            "RoomId": 23611,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a heavy iron key #23642",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 23609
         },
         "Contents": [
@@ -207,7 +217,17 @@
           "North": 23613,
           "East": 23615,
           "South": 23612,
-          "West": 23610
+          "West": {
+            "RoomId": 23610,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a heavy iron key #23642",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -1021,7 +1041,17 @@
         "Name": "The dwarven treasury #23668",
         "Color": "black",
         "Connections": {
-          "West": 23667
+          "West": {
+            "RoomId": 23667,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small silver key #23634",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {

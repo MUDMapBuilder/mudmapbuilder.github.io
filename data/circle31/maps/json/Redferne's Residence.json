@@ -10,7 +10,17 @@
         "Name": "Outside Redferne\u0027s Residence #7900",
         "Color": "black",
         "Connections": {
-          "North": 7901,
+          "North": {
+            "RoomId": 7901,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a copper key #7901",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 7918
         },
         "Contents": [
@@ -28,7 +38,17 @@
         "Connections": {
           "North": 7904,
           "East": 7910,
-          "South": 7900,
+          "South": {
+            "RoomId": 7900,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a copper key #7901",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 7902,
           "Up": 7909
         }
@@ -48,7 +68,17 @@
         "Name": "The Artifact Room Of Naris #7903",
         "Color": "black",
         "Connections": {
-          "West": 7910
+          "West": {
+            "RoomId": 7910,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a large key #7900",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -127,7 +157,17 @@
         "Name": "The Treasure Room #7910",
         "Color": "black",
         "Connections": {
-          "East": 7903,
+          "East": {
+            "RoomId": 7903,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a large key #7900",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 7901
         }
       },

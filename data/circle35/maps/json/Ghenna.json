@@ -11,7 +11,17 @@
         "Name": "A barrow mound. #28400",
         "Color": "black",
         "Connections": {
-          "Down": 28401
+          "Down": {
+            "RoomId": 28401,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dead fly #28403",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -320,7 +330,12 @@
         "Name": "An upstairs hallway. #28419",
         "Color": "black",
         "Connections": {
-          "North": 28420,
+          "North": {
+            "RoomId": 28420,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 28418
         }
       },
@@ -346,7 +361,17 @@
         "Color": "black",
         "Connections": {
           "East": 28418,
-          "South": 28422
+          "South": {
+            "RoomId": 28422,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton ring #28416",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -976,7 +1001,17 @@
         "Color": "black",
         "Connections": {
           "East": 28464,
-          "Down": 28411
+          "Down": {
+            "RoomId": 28411,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a shoe #28465",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {

@@ -103,7 +103,12 @@
         "Color": "black",
         "Connections": {
           "East": 9010,
-          "West": 9013
+          "West": {
+            "RoomId": 9013,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -112,7 +117,12 @@
         "Name": "A hallway in the Tower of Nirvana #9008",
         "Color": "black",
         "Connections": {
-          "East": 9012,
+          "East": {
+            "RoomId": 9012,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 9009
         }
       },
@@ -161,7 +171,12 @@
         "Connections": {
           "North": 9014,
           "South": 9005,
-          "West": 9008
+          "West": {
+            "RoomId": 9008,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -177,7 +192,12 @@
         "Color": "black",
         "Connections": {
           "North": 9015,
-          "East": 9007,
+          "East": {
+            "RoomId": 9007,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 9006
         },
         "Contents": [
@@ -369,7 +389,12 @@
         "Name": "An intersection of passages #9026",
         "Color": "black",
         "Connections": {
-          "North": 9031,
+          "North": {
+            "RoomId": 9031,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 9032,
           "South": 9025
         }
@@ -439,7 +464,12 @@
         "Color": "black",
         "Connections": {
           "East": 9030,
-          "South": 9026,
+          "South": {
+            "RoomId": 9026,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 9029
         },
         "Contents": [

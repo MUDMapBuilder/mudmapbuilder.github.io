@@ -298,7 +298,17 @@
         "Color": "black",
         "Connections": {
           "East": 27607,
-          "South": 27611
+          "South": {
+            "RoomId": 27611,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jail key #27500",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -313,7 +323,17 @@
         "Name": "The Jail Cell #27611",
         "Color": "black",
         "Connections": {
-          "North": 27610
+          "North": {
+            "RoomId": 27610,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jail key #27500",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

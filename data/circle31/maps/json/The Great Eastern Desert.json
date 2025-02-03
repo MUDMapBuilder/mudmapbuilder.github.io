@@ -953,7 +953,17 @@
         "Name": "To New Thalos #5411",
         "Color": "blue",
         "Connections": {
-          "North": 5413,
+          "North": {
+            "RoomId": 5413,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the Key to the City of New Thalos #5401",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 5039
         }
       },

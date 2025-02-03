@@ -364,7 +364,17 @@
         "Name": "The End Of The Stomach #30026",
         "Color": "black",
         "Connections": {
-          "East": 30056,
+          "East": {
+            "RoomId": 30056,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a granite key #30018",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 30015,
           "Down": 30022
         },
@@ -774,7 +784,17 @@
         "Color": "black",
         "Connections": {
           "East": 30052,
-          "Down": 30054
+          "Down": {
+            "RoomId": 30054,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #30005",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -801,7 +821,17 @@
         "Name": "The Darken Pit #30054",
         "Color": "black",
         "Connections": {
-          "Up": 30053
+          "Up": {
+            "RoomId": 30053,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a skeleton key #30005",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -840,7 +870,17 @@
         "Connections": {
           "East": 30028,
           "South": 30027,
-          "West": 30026
+          "West": {
+            "RoomId": 30026,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a granite key #30018",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {

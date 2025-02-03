@@ -256,10 +256,40 @@
         "Name": "Dungeon #919",
         "Color": "black",
         "Connections": {
-          "North": 920,
-          "East": 922,
+          "North": {
+            "RoomId": 920,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a Cell key #927",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": {
+            "RoomId": 922,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a Cell key #927",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "South": 918,
-          "West": 921
+          "West": {
+            "RoomId": 921,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a Cell key #927",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -268,7 +298,17 @@
         "Name": "Cell #920",
         "Color": "black",
         "Connections": {
-          "South": 919
+          "South": {
+            "RoomId": 919,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a Cell key #927",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -283,7 +323,17 @@
         "Name": "Cell #921",
         "Color": "black",
         "Connections": {
-          "East": 919
+          "East": {
+            "RoomId": 919,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a Cell key #927",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -298,7 +348,17 @@
         "Name": "Cell #922",
         "Color": "black",
         "Connections": {
-          "West": 919
+          "West": {
+            "RoomId": 919,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a Cell key #927",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {

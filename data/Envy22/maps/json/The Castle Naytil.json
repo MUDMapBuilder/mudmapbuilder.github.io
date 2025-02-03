@@ -69,7 +69,21 @@
         "Color": "black",
         "Connections": {
           "North": 10603,
-          "South": 10662,
+          "South": {
+            "RoomId": 10662,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10642",
+                "Color": "cornflowerblue"
+              },
+              {
+                "Text": "an iron key #10642",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 10652
         }
       },
@@ -204,7 +218,17 @@
         "Color": "black",
         "Connections": {
           "North": 10634,
-          "South": 10633,
+          "South": {
+            "RoomId": 10633,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10641",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 10613,
           "East": 10615
         }
@@ -258,7 +282,17 @@
         "Connections": {
           "North": 10630,
           "East": 10613,
-          "South": 10632,
+          "South": {
+            "RoomId": 10632,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10641",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 10619
         }
       },
@@ -429,7 +463,17 @@
         "Name": "The weapons armory. #10632",
         "Color": "black",
         "Connections": {
-          "North": 10618
+          "North": {
+            "RoomId": 10618,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10641",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -438,7 +482,17 @@
         "Name": "The armory. #10633",
         "Color": "black",
         "Connections": {
-          "North": 10614
+          "North": {
+            "RoomId": 10614,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10641",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         }
       },
       {
@@ -782,7 +836,17 @@
         "Name": "The courtyard gate #10662",
         "Color": "black",
         "Connections": {
-          "North": 10604,
+          "North": {
+            "RoomId": 10604,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10642",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "East": 10667,
           "South": 10663,
           "West": 10664
@@ -806,7 +870,17 @@
         "Connections": {
           "North": 10662,
           "East": 10666,
-          "South": 10680,
+          "South": {
+            "RoomId": 10680,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10642",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 10665
         }
       },
@@ -1095,7 +1169,17 @@
         "Name": "Owinpell Ave, in front of Naytil #10680",
         "Color": "black",
         "Connections": {
-          "North": 10663,
+          "North": {
+            "RoomId": 10663,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10642",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "Up": 3005
         },
         "Contents": [
@@ -1127,9 +1211,39 @@
         "Name": "The east end of the prison corridor #10682",
         "Color": "black",
         "Connections": {
-          "North": 10685,
-          "East": 10684,
-          "South": 10686,
+          "North": {
+            "RoomId": 10685,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10658",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "East": {
+            "RoomId": 10684,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10658",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 10686,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10658",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 10681
         }
       },
@@ -1140,8 +1254,28 @@
         "Color": "black",
         "Connections": {
           "East": 10681,
-          "North": 10687,
-          "South": 10688
+          "North": {
+            "RoomId": 10687,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10658",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 10688,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10658",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -1150,7 +1284,17 @@
         "Name": "Blue Cell #10684",
         "Color": "black",
         "Connections": {
-          "West": 10682
+          "West": {
+            "RoomId": 10682,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10658",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -1165,7 +1309,17 @@
         "Name": "Yellow cell #10685",
         "Color": "black",
         "Connections": {
-          "South": 10682
+          "South": {
+            "RoomId": 10682,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10658",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -1180,7 +1334,17 @@
         "Name": "Orange cell #10686",
         "Color": "black",
         "Connections": {
-          "North": 10682
+          "North": {
+            "RoomId": 10682,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10658",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -1195,7 +1359,17 @@
         "Name": "Red cell #10687",
         "Color": "black",
         "Connections": {
-          "South": 10683
+          "South": {
+            "RoomId": 10683,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10658",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -1210,7 +1384,17 @@
         "Name": "Green cell #10688",
         "Color": "black",
         "Connections": {
-          "North": 10683
+          "North": {
+            "RoomId": 10683,
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10658",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {

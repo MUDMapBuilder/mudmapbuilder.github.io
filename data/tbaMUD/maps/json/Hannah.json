@@ -13,7 +13,17 @@
         "Name": "At the gates of the Grand City of Hannah #12500",
         "Color": "black",
         "Connections": {
-          "North": 12501
+          "North": {
+            "RoomId": 12501,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #12500",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -30,7 +40,17 @@
         "Connections": {
           "North": 12502,
           "East": 12519,
-          "South": 12500,
+          "South": {
+            "RoomId": 12500,
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key #12500",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 12518
         },
         "Contents": [
