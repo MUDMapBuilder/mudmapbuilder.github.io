@@ -3,13 +3,10 @@
     "Name": "Skills",
     "Credits": "(Imm) Odd Stuff",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 2900,
-        "FrameColor": "black",
         "Name": "Inside a darkened plane #2900",
-        "Color": "black",
         "Connections": {
           "East": 2901,
           "South": 873,
@@ -20,9 +17,7 @@
       },
       {
         "Id": 2901,
-        "FrameColor": "black",
         "Name": "Inside a darkened plane #2901",
-        "Color": "black",
         "Connections": {
           "East": 17004,
           "West": 2900
@@ -30,9 +25,7 @@
       },
       {
         "Id": 2920,
-        "FrameColor": "black",
         "Name": "Death! #2920",
-        "Color": "black",
         "Connections": {}
       },
       {
@@ -70,6 +63,7 @@
         "Connections": {
           "West": {
             "RoomId": 27001,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -93,9 +87,5 @@
         }
       }
     ]
-  },
-  "BuildOptions": {
-    "MaxSteps": 1000,
-    "MaxCompactSteps": 10000
   }
 }

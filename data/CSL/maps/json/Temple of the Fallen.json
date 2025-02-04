@@ -5,16 +5,14 @@
     "MinimumLevel": "LOSED",
     "MaximumLevel": "LOSED",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 29900,
-        "FrameColor": "black",
         "Name": "The Gates of the Temple #29900",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 29901,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -34,13 +32,12 @@
       },
       {
         "Id": 29901,
-        "FrameColor": "black",
         "Name": "The Archway into the Temple #29901",
-        "Color": "black",
         "Connections": {
           "East": 29903,
           "South": {
             "RoomId": 29900,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -55,13 +52,12 @@
       },
       {
         "Id": 29902,
-        "FrameColor": "black",
         "Name": "A Dark Damp Hallway #29902",
-        "Color": "black",
         "Connections": {
           "East": 29901,
           "South": {
             "RoomId": 29904,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -82,21 +78,18 @@
       },
       {
         "Id": 29903,
-        "FrameColor": "black",
         "Name": "A Dark Damp Hallway #29903",
-        "Color": "black",
         "Connections": {
           "West": 29901
         }
       },
       {
         "Id": 29904,
-        "FrameColor": "black",
         "Name": "A Room Seared by Flames #29904",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 29902,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -116,9 +109,7 @@
       },
       {
         "Id": 29905,
-        "FrameColor": "black",
         "Name": "A Dark Damp Hallway #29905",
-        "Color": "black",
         "Connections": {
           "East": 29902,
           "West": 29906
@@ -132,17 +123,11 @@
       },
       {
         "Id": 29906,
-        "FrameColor": "black",
         "Name": "A Dark Damp Hallway #29906",
-        "Color": "black",
         "Connections": {
           "East": 29905
         }
       }
     ]
-  },
-  "BuildOptions": {
-    "MaxSteps": 1000,
-    "MaxCompactSteps": 10000
   }
 }

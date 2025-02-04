@@ -5,13 +5,10 @@
     "MinimumLevel": "35",
     "MaximumLevel": "up",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 23260,
-        "FrameColor": "black",
         "Name": "In a foyer filled with a green aura #23260",
-        "Color": "black",
         "Connections": {
           "North": 23262,
           "East": 23261,
@@ -20,9 +17,7 @@
       },
       {
         "Id": 23261,
-        "FrameColor": "black",
         "Name": "In a foyer filled with a green aura #23261",
-        "Color": "black",
         "Connections": {
           "North": 23263,
           "West": 23260
@@ -36,9 +31,7 @@
       },
       {
         "Id": 23262,
-        "FrameColor": "black",
         "Name": "In a foyer filled with a green aura #23262",
-        "Color": "black",
         "Connections": {
           "East": 23263,
           "South": 23260
@@ -46,9 +39,7 @@
       },
       {
         "Id": 23263,
-        "FrameColor": "black",
         "Name": "In a foyer filled with a green aura #23263",
-        "Color": "black",
         "Connections": {
           "South": 23261,
           "West": 23262,
@@ -63,9 +54,7 @@
       },
       {
         "Id": 23264,
-        "FrameColor": "black",
         "Name": "In a corridor bathed in a green glow #23264",
-        "Color": "black",
         "Connections": {
           "North": 23265,
           "Down": 23263
@@ -79,9 +68,7 @@
       },
       {
         "Id": 23265,
-        "FrameColor": "black",
         "Name": "In a corridor bathed in a green glow #23265",
-        "Color": "black",
         "Connections": {
           "North": 23266,
           "South": 23264
@@ -89,9 +76,7 @@
       },
       {
         "Id": 23266,
-        "FrameColor": "black",
         "Name": "In a corridor bathed in a green glow #23266",
-        "Color": "black",
         "Connections": {
           "North": 23267,
           "South": 23265
@@ -105,9 +90,7 @@
       },
       {
         "Id": 23267,
-        "FrameColor": "black",
         "Name": "In a corridor bathed in a green glow #23267",
-        "Color": "black",
         "Connections": {
           "East": 23268,
           "South": 23266
@@ -115,9 +98,7 @@
       },
       {
         "Id": 23268,
-        "FrameColor": "black",
         "Name": "In a corridor bathed in a green glow #23268",
-        "Color": "black",
         "Connections": {
           "East": 23269,
           "West": 23267
@@ -125,9 +106,7 @@
       },
       {
         "Id": 23269,
-        "FrameColor": "black",
         "Name": "In a corridor bathed in a green glow #23269",
-        "Color": "black",
         "Connections": {
           "West": 23268,
           "Up": 23271
@@ -135,12 +114,11 @@
       },
       {
         "Id": 23271,
-        "FrameColor": "black",
         "Name": "In a room with a green fountain #23271",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 23273,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -153,6 +131,7 @@
           "East": 23272,
           "South": {
             "RoomId": 23275,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -164,6 +143,7 @@
           },
           "West": {
             "RoomId": 23274,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -178,9 +158,7 @@
       },
       {
         "Id": 23272,
-        "FrameColor": "black",
         "Name": "In a sparse room #23272",
-        "Color": "black",
         "Connections": {
           "West": 23271
         },
@@ -193,12 +171,11 @@
       },
       {
         "Id": 23273,
-        "FrameColor": "black",
         "Name": "In a meditation room #23273",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 23271,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -218,12 +195,11 @@
       },
       {
         "Id": 23274,
-        "FrameColor": "black",
         "Name": "In a room of healing #23274",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 23271,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -243,12 +219,11 @@
       },
       {
         "Id": 23275,
-        "FrameColor": "black",
         "Name": "In the holy place #23275",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 23271,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -269,12 +244,11 @@
       },
       {
         "Id": 23276,
-        "FrameColor": "black",
         "Name": "Ascending into an unholy green light #23276",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 23278,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -286,6 +260,7 @@
           },
           "South": {
             "RoomId": 23277,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -300,9 +275,7 @@
       },
       {
         "Id": 23277,
-        "FrameColor": "black",
         "Name": "In an unholy green light #23277",
-        "Color": "black",
         "Connections": {
           "North": 23276,
           "Up": 23279
@@ -316,9 +289,7 @@
       },
       {
         "Id": 23278,
-        "FrameColor": "black",
         "Name": "In an unholy green light #23278",
-        "Color": "black",
         "Connections": {
           "South": 23276,
           "Up": 23279
@@ -332,9 +303,7 @@
       },
       {
         "Id": 23279,
-        "FrameColor": "black",
         "Name": "In a burning green light of unholy fire #23279",
-        "Color": "black",
         "Connections": {
           "South": 23281,
           "Down": 23278
@@ -342,9 +311,7 @@
       },
       {
         "Id": 23280,
-        "FrameColor": "black",
         "Name": "In a burning green light of unholy fire #23280",
-        "Color": "black",
         "Connections": {
           "North": 23281,
           "Down": 23277
@@ -352,9 +319,7 @@
       },
       {
         "Id": 23281,
-        "FrameColor": "black",
         "Name": "Within the unholy fire #23281",
-        "Color": "black",
         "Connections": {
           "North": 23279,
           "South": 23280
@@ -377,9 +342,5 @@
         }
       }
     ]
-  },
-  "BuildOptions": {
-    "MaxSteps": 1000,
-    "MaxCompactSteps": 10000
   }
 }

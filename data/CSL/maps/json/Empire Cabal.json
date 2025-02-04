@@ -5,13 +5,10 @@
     "MinimumLevel": "ABAL",
     "MaximumLevel": "ABAL",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 8100,
-        "FrameColor": "black",
         "Name": "Entrance to the Palace #8100",
-        "Color": "black",
         "Connections": {
           "North": 8101,
           "South": 8109
@@ -19,9 +16,7 @@
       },
       {
         "Id": 8101,
-        "FrameColor": "black",
         "Name": "Standing in the Courtyard #8101",
-        "Color": "black",
         "Connections": {
           "North": 8102,
           "South": 8100
@@ -29,9 +24,7 @@
       },
       {
         "Id": 8102,
-        "FrameColor": "black",
         "Name": "The Inner Gates #8102",
-        "Color": "black",
         "Connections": {
           "North": 8103,
           "South": 8101
@@ -45,9 +38,7 @@
       },
       {
         "Id": 8103,
-        "FrameColor": "black",
         "Name": "Within the Palace of Dominace #8103",
-        "Color": "black",
         "Connections": {
           "North": 8104,
           "South": 8102
@@ -55,9 +46,7 @@
       },
       {
         "Id": 8104,
-        "FrameColor": "black",
         "Name": "The Stairwell #8104",
-        "Color": "black",
         "Connections": {
           "South": 8103,
           "Up": 8105
@@ -65,9 +54,7 @@
       },
       {
         "Id": 8105,
-        "FrameColor": "black",
         "Name": "A Hallway #8105",
-        "Color": "black",
         "Connections": {
           "East": 8106,
           "West": 8107,
@@ -76,18 +63,14 @@
       },
       {
         "Id": 8106,
-        "FrameColor": "black",
         "Name": "The Altar Room #8106",
-        "Color": "black",
         "Connections": {
           "West": 8105
         }
       },
       {
         "Id": 8107,
-        "FrameColor": "black",
         "Name": "A Hallway #8107",
-        "Color": "black",
         "Connections": {
           "North": 8108,
           "East": 8105
@@ -95,9 +78,7 @@
       },
       {
         "Id": 8108,
-        "FrameColor": "black",
         "Name": "The Throne Room #8108",
-        "Color": "black",
         "Connections": {
           "South": 8107
         },
@@ -110,9 +91,7 @@
       },
       {
         "Id": 8109,
-        "FrameColor": "black",
         "Name": "The Imperial Road #8109",
-        "Color": "black",
         "Connections": {
           "North": 8100,
           "South": 8110
@@ -120,9 +99,7 @@
       },
       {
         "Id": 8110,
-        "FrameColor": "black",
         "Name": "The Imperial Road #8110",
-        "Color": "black",
         "Connections": {
           "North": 8109,
           "South": 8111
@@ -130,9 +107,7 @@
       },
       {
         "Id": 8111,
-        "FrameColor": "black",
         "Name": "Before the Imperial Road #8111",
-        "Color": "black",
         "Connections": {
           "North": 8110,
           "South": 8112
@@ -140,9 +115,7 @@
       },
       {
         "Id": 8112,
-        "FrameColor": "black",
         "Name": "Bridge before the Imperial Palace #8112",
-        "Color": "black",
         "Connections": {
           "North": 8111,
           "South": 8113
@@ -150,9 +123,7 @@
       },
       {
         "Id": 8113,
-        "FrameColor": "black",
         "Name": "Before a grand bridge #8113",
-        "Color": "black",
         "Connections": {
           "North": 8112,
           "South": 1869
@@ -171,9 +142,5 @@
         }
       }
     ]
-  },
-  "BuildOptions": {
-    "MaxSteps": 1000,
-    "MaxCompactSteps": 10000
   }
 }

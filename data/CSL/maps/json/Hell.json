@@ -5,16 +5,14 @@
     "MinimumLevel": "40",
     "MaximumLevel": "up",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 27000,
-        "FrameColor": "black",
         "Name": "Purgatory #27000",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 27001,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -35,18 +33,14 @@
       },
       {
         "Id": 27001,
-        "FrameColor": "black",
         "Name": "Entrance to the Vice and Sin Casino #27001",
-        "Color": "black",
         "Connections": {
           "West": 27002
         }
       },
       {
         "Id": 27002,
-        "FrameColor": "black",
         "Name": "Top of the Stairs #27002",
-        "Color": "black",
         "Connections": {
           "East": 27001,
           "Down": 27003
@@ -54,9 +48,7 @@
       },
       {
         "Id": 27003,
-        "FrameColor": "black",
         "Name": "The Stairs #27003",
-        "Color": "black",
         "Connections": {
           "Up": 27002,
           "Down": 27004
@@ -64,9 +56,7 @@
       },
       {
         "Id": 27004,
-        "FrameColor": "black",
         "Name": "The Stairs #27004",
-        "Color": "black",
         "Connections": {
           "Up": 27003,
           "Down": 27005
@@ -74,9 +64,7 @@
       },
       {
         "Id": 27005,
-        "FrameColor": "black",
         "Name": "Bottom of the Stairs #27005",
-        "Color": "black",
         "Connections": {
           "West": 27035,
           "Up": 27004
@@ -84,9 +72,7 @@
       },
       {
         "Id": 27006,
-        "FrameColor": "black",
         "Name": "A Bedroom #27006",
-        "Color": "black",
         "Connections": {
           "West": 27007
         },
@@ -99,12 +85,11 @@
       },
       {
         "Id": 27007,
-        "FrameColor": "black",
         "Name": "A Hallway #27007",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 27006,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -119,9 +104,7 @@
       },
       {
         "Id": 27008,
-        "FrameColor": "black",
         "Name": "The Craps Tables #27008",
-        "Color": "black",
         "Connections": {
           "South": 27016,
           "West": 27009
@@ -129,9 +112,7 @@
       },
       {
         "Id": 27009,
-        "FrameColor": "black",
         "Name": "The Craps Tables #27009",
-        "Color": "black",
         "Connections": {
           "East": 27008,
           "South": 27017,
@@ -146,9 +127,7 @@
       },
       {
         "Id": 27010,
-        "FrameColor": "black",
         "Name": "The Poker Tables #27010",
-        "Color": "black",
         "Connections": {
           "East": 27009,
           "South": 27018,
@@ -163,9 +142,7 @@
       },
       {
         "Id": 27011,
-        "FrameColor": "black",
         "Name": "The Poker Tables #27011",
-        "Color": "black",
         "Connections": {
           "East": 27010,
           "South": 27019
@@ -179,9 +156,7 @@
       },
       {
         "Id": 27012,
-        "FrameColor": "black",
         "Name": "A Hallway #27012",
-        "Color": "black",
         "Connections": {
           "South": 27020,
           "West": 27013
@@ -189,9 +164,7 @@
       },
       {
         "Id": 27013,
-        "FrameColor": "black",
         "Name": "The Tabacco Shop #27013",
-        "Color": "black",
         "Connections": {
           "East": 27012
         },
@@ -204,22 +177,19 @@
       },
       {
         "Id": 27014,
-        "FrameColor": "black",
         "Name": "A Bedroom #27014",
-        "Color": "black",
         "Connections": {
           "West": 27015
         }
       },
       {
         "Id": 27015,
-        "FrameColor": "black",
         "Name": "A Hallway #27015",
-        "Color": "black",
         "Connections": {
           "North": 27007,
           "East": {
             "RoomId": 27014,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -234,9 +204,7 @@
       },
       {
         "Id": 27016,
-        "FrameColor": "black",
         "Name": "The Craps Tables #27016",
-        "Color": "black",
         "Connections": {
           "North": 27008,
           "South": 27024,
@@ -251,9 +219,7 @@
       },
       {
         "Id": 27017,
-        "FrameColor": "black",
         "Name": "The Craps Tables #27017",
-        "Color": "black",
         "Connections": {
           "North": 27009,
           "East": 27016,
@@ -269,9 +235,7 @@
       },
       {
         "Id": 27018,
-        "FrameColor": "black",
         "Name": "The Poker Tables #27018",
-        "Color": "black",
         "Connections": {
           "North": 27010,
           "East": 27017,
@@ -281,9 +245,7 @@
       },
       {
         "Id": 27019,
-        "FrameColor": "black",
         "Name": "The Poker Tables #27019",
-        "Color": "black",
         "Connections": {
           "North": 27011,
           "East": 27018,
@@ -298,9 +260,7 @@
       },
       {
         "Id": 27020,
-        "FrameColor": "black",
         "Name": "A Hallway #27020",
-        "Color": "black",
         "Connections": {
           "North": 27012,
           "South": 27028,
@@ -309,9 +269,7 @@
       },
       {
         "Id": 27021,
-        "FrameColor": "black",
         "Name": "The Candy Store #27021",
-        "Color": "black",
         "Connections": {
           "East": 27020
         },
@@ -324,9 +282,7 @@
       },
       {
         "Id": 27022,
-        "FrameColor": "black",
         "Name": "A Bedroom #27022",
-        "Color": "black",
         "Connections": {
           "West": 27023
         },
@@ -339,13 +295,12 @@
       },
       {
         "Id": 27023,
-        "FrameColor": "black",
         "Name": "A Hallway #27023",
-        "Color": "black",
         "Connections": {
           "North": 27015,
           "East": {
             "RoomId": 27022,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -366,9 +321,7 @@
       },
       {
         "Id": 27024,
-        "FrameColor": "black",
         "Name": "The Craps Tables #27024",
-        "Color": "black",
         "Connections": {
           "North": 27016,
           "South": 27036,
@@ -383,9 +336,7 @@
       },
       {
         "Id": 27025,
-        "FrameColor": "black",
         "Name": "The Craps Tables #27025",
-        "Color": "black",
         "Connections": {
           "North": 27017,
           "East": 27024,
@@ -394,9 +345,7 @@
       },
       {
         "Id": 27026,
-        "FrameColor": "black",
         "Name": "The Poker Tables #27026",
-        "Color": "black",
         "Connections": {
           "North": 27018,
           "East": 27025,
@@ -411,9 +360,7 @@
       },
       {
         "Id": 27027,
-        "FrameColor": "black",
         "Name": "The Poker Tables #27027",
-        "Color": "black",
         "Connections": {
           "North": 27019,
           "East": 27026,
@@ -422,9 +369,7 @@
       },
       {
         "Id": 27028,
-        "FrameColor": "black",
         "Name": "A Hallway #27028",
-        "Color": "black",
         "Connections": {
           "North": 27020,
           "South": 27038,
@@ -433,9 +378,7 @@
       },
       {
         "Id": 27029,
-        "FrameColor": "black",
         "Name": "The Weapons Shop #27029",
-        "Color": "black",
         "Connections": {
           "East": 27028
         },
@@ -448,9 +391,7 @@
       },
       {
         "Id": 27030,
-        "FrameColor": "black",
         "Name": "A Bar #27030",
-        "Color": "black",
         "Connections": {
           "South": 27040,
           "West": 27031
@@ -468,9 +409,7 @@
       },
       {
         "Id": 27031,
-        "FrameColor": "black",
         "Name": "A Bar #27031",
-        "Color": "black",
         "Connections": {
           "East": 27030,
           "South": 27041,
@@ -485,9 +424,7 @@
       },
       {
         "Id": 27032,
-        "FrameColor": "black",
         "Name": "A Group of Tables Scattered About #27032",
-        "Color": "black",
         "Connections": {
           "East": 27031,
           "South": 27042,
@@ -502,9 +439,7 @@
       },
       {
         "Id": 27033,
-        "FrameColor": "black",
         "Name": "The Stage #27033",
-        "Color": "black",
         "Connections": {
           "East": 27032,
           "South": 27043,
@@ -519,18 +454,14 @@
       },
       {
         "Id": 27034,
-        "FrameColor": "black",
         "Name": "A Dressing Room #27034",
-        "Color": "black",
         "Connections": {
           "East": 27033
         }
       },
       {
         "Id": 27035,
-        "FrameColor": "black",
         "Name": "A Hallway #27035",
-        "Color": "black",
         "Connections": {
           "North": 27023,
           "East": 27005,
@@ -540,9 +471,7 @@
       },
       {
         "Id": 27036,
-        "FrameColor": "black",
         "Name": "A Hallway #27036",
-        "Color": "black",
         "Connections": {
           "North": 27024,
           "East": 27035,
@@ -552,9 +481,7 @@
       },
       {
         "Id": 27037,
-        "FrameColor": "black",
         "Name": "A Hallway #27037",
-        "Color": "black",
         "Connections": {
           "North": 27027,
           "East": 27075,
@@ -564,9 +491,7 @@
       },
       {
         "Id": 27038,
-        "FrameColor": "black",
         "Name": "A Hallway #27038",
-        "Color": "black",
         "Connections": {
           "North": 27028,
           "East": 27037,
@@ -576,9 +501,7 @@
       },
       {
         "Id": 27039,
-        "FrameColor": "black",
         "Name": "A Hallway #27039",
-        "Color": "black",
         "Connections": {
           "East": 27038,
           "West": 27040
@@ -592,9 +515,7 @@
       },
       {
         "Id": 27040,
-        "FrameColor": "black",
         "Name": "Entrance to the Den of Iniquity #27040",
-        "Color": "black",
         "Connections": {
           "North": 27030,
           "East": 27039,
@@ -604,9 +525,7 @@
       },
       {
         "Id": 27041,
-        "FrameColor": "black",
         "Name": "A Group of Tables Scattered About #27041",
-        "Color": "black",
         "Connections": {
           "North": 27031,
           "East": 27040,
@@ -622,9 +541,7 @@
       },
       {
         "Id": 27042,
-        "FrameColor": "black",
         "Name": "A Group of Tables Scattered About #27042",
-        "Color": "black",
         "Connections": {
           "North": 27032,
           "East": 27041,
@@ -640,9 +557,7 @@
       },
       {
         "Id": 27043,
-        "FrameColor": "black",
         "Name": "The Stage #27043",
-        "Color": "black",
         "Connections": {
           "North": 27033,
           "East": 27042,
@@ -652,9 +567,7 @@
       },
       {
         "Id": 27044,
-        "FrameColor": "black",
         "Name": "A Dressing Room #27044",
-        "Color": "black",
         "Connections": {
           "East": 27043
         },
@@ -667,22 +580,19 @@
       },
       {
         "Id": 27045,
-        "FrameColor": "black",
         "Name": "A Bedroom #27045",
-        "Color": "black",
         "Connections": {
           "West": 27046
         }
       },
       {
         "Id": 27046,
-        "FrameColor": "black",
         "Name": "A Hallway #27046",
-        "Color": "black",
         "Connections": {
           "North": 27035,
           "East": {
             "RoomId": 27045,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -703,9 +613,7 @@
       },
       {
         "Id": 27047,
-        "FrameColor": "black",
         "Name": "The Blackjack Tables #27047",
-        "Color": "black",
         "Connections": {
           "North": 27036,
           "South": 27060,
@@ -714,9 +622,7 @@
       },
       {
         "Id": 27048,
-        "FrameColor": "black",
         "Name": "The BlackJack Tables #27048",
-        "Color": "black",
         "Connections": {
           "East": 27047,
           "South": 27061,
@@ -725,9 +631,7 @@
       },
       {
         "Id": 27049,
-        "FrameColor": "black",
         "Name": "The Roulette Wheels #27049",
-        "Color": "black",
         "Connections": {
           "East": 27048,
           "South": 27062,
@@ -742,9 +646,7 @@
       },
       {
         "Id": 27050,
-        "FrameColor": "black",
         "Name": "The Roulette Wheels #27050",
-        "Color": "black",
         "Connections": {
           "North": 27037,
           "East": 27049,
@@ -759,9 +661,7 @@
       },
       {
         "Id": 27051,
-        "FrameColor": "black",
         "Name": "A Hallway #27051",
-        "Color": "black",
         "Connections": {
           "North": 27038,
           "South": 27064,
@@ -770,9 +670,7 @@
       },
       {
         "Id": 27052,
-        "FrameColor": "black",
         "Name": "The Toy Store #27052",
-        "Color": "black",
         "Connections": {
           "East": 27051
         },
@@ -785,9 +683,7 @@
       },
       {
         "Id": 27053,
-        "FrameColor": "black",
         "Name": "A Bar #27053",
-        "Color": "black",
         "Connections": {
           "North": 27040,
           "West": 27054
@@ -801,9 +697,7 @@
       },
       {
         "Id": 27054,
-        "FrameColor": "black",
         "Name": "A Bar #27054",
-        "Color": "black",
         "Connections": {
           "North": 27041,
           "East": 27053,
@@ -812,9 +706,7 @@
       },
       {
         "Id": 27055,
-        "FrameColor": "black",
         "Name": "A Group of Tables Scattered About #27055",
-        "Color": "black",
         "Connections": {
           "North": 27042,
           "East": 27054,
@@ -829,9 +721,7 @@
       },
       {
         "Id": 27056,
-        "FrameColor": "black",
         "Name": "The Stage #27056",
-        "Color": "black",
         "Connections": {
           "North": 27043,
           "East": 27055,
@@ -846,18 +736,14 @@
       },
       {
         "Id": 27057,
-        "FrameColor": "black",
         "Name": "A Dressing Room #27057",
-        "Color": "black",
         "Connections": {
           "East": 27056
         }
       },
       {
         "Id": 27058,
-        "FrameColor": "black",
         "Name": "A Bedroom #27058",
-        "Color": "black",
         "Connections": {
           "West": 27059
         },
@@ -870,13 +756,12 @@
       },
       {
         "Id": 27059,
-        "FrameColor": "black",
         "Name": "A Hallway #27059",
-        "Color": "black",
         "Connections": {
           "North": 27046,
           "East": {
             "RoomId": 27058,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -891,9 +776,7 @@
       },
       {
         "Id": 27060,
-        "FrameColor": "black",
         "Name": "The Blackjack Tables #27060",
-        "Color": "black",
         "Connections": {
           "North": 27047,
           "South": 27068,
@@ -908,9 +791,7 @@
       },
       {
         "Id": 27061,
-        "FrameColor": "black",
         "Name": "The Blackjack Tables #27061",
-        "Color": "black",
         "Connections": {
           "North": 27048,
           "East": 27060,
@@ -926,9 +807,7 @@
       },
       {
         "Id": 27062,
-        "FrameColor": "black",
         "Name": "The Roulette Wheels #27062",
-        "Color": "black",
         "Connections": {
           "North": 27049,
           "East": 27061,
@@ -938,9 +817,7 @@
       },
       {
         "Id": 27063,
-        "FrameColor": "black",
         "Name": "The Roulette Wheels #27063",
-        "Color": "black",
         "Connections": {
           "North": 27050,
           "East": 27062,
@@ -955,9 +832,7 @@
       },
       {
         "Id": 27064,
-        "FrameColor": "black",
         "Name": "A Hallway #27064",
-        "Color": "black",
         "Connections": {
           "North": 27051,
           "South": 27072,
@@ -966,9 +841,7 @@
       },
       {
         "Id": 27065,
-        "FrameColor": "black",
         "Name": "The Decadent Deserts Shop #27065",
-        "Color": "black",
         "Connections": {
           "East": 27064
         },
@@ -981,9 +854,7 @@
       },
       {
         "Id": 27066,
-        "FrameColor": "black",
         "Name": "A Bedroom #27066",
-        "Color": "black",
         "Connections": {
           "West": 27067
         },
@@ -996,13 +867,12 @@
       },
       {
         "Id": 27067,
-        "FrameColor": "black",
         "Name": "A Hallway #27067",
-        "Color": "black",
         "Connections": {
           "North": 27059,
           "East": {
             "RoomId": 27066,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1016,9 +886,7 @@
       },
       {
         "Id": 27068,
-        "FrameColor": "black",
         "Name": "The Blackjack Tables #27068",
-        "Color": "black",
         "Connections": {
           "North": 27060,
           "West": 27069
@@ -1032,9 +900,7 @@
       },
       {
         "Id": 27069,
-        "FrameColor": "black",
         "Name": "The Blackjack Tables #27069",
-        "Color": "black",
         "Connections": {
           "North": 27061,
           "East": 27068,
@@ -1049,9 +915,7 @@
       },
       {
         "Id": 27070,
-        "FrameColor": "black",
         "Name": "The Roulette Wheels #27070",
-        "Color": "black",
         "Connections": {
           "North": 27062,
           "East": 27069,
@@ -1066,9 +930,7 @@
       },
       {
         "Id": 27071,
-        "FrameColor": "black",
         "Name": "The Roulette Wheels #27071",
-        "Color": "black",
         "Connections": {
           "North": 27063,
           "East": 27070
@@ -1076,9 +938,7 @@
       },
       {
         "Id": 27072,
-        "FrameColor": "black",
         "Name": "A Hallway #27072",
-        "Color": "black",
         "Connections": {
           "North": 27064,
           "West": 27073
@@ -1086,9 +946,7 @@
       },
       {
         "Id": 27073,
-        "FrameColor": "black",
         "Name": "The Liquor Store #27073",
-        "Color": "black",
         "Connections": {
           "East": 27072
         },
@@ -1101,9 +959,7 @@
       },
       {
         "Id": 27074,
-        "FrameColor": "black",
         "Name": "Top of the Stairs #27074",
-        "Color": "black",
         "Connections": {
           "East": 27036,
           "Down": 27076
@@ -1111,9 +967,7 @@
       },
       {
         "Id": 27075,
-        "FrameColor": "black",
         "Name": "Top of the Stairs #27075",
-        "Color": "black",
         "Connections": {
           "West": 27037,
           "Down": 27077
@@ -1121,9 +975,7 @@
       },
       {
         "Id": 27076,
-        "FrameColor": "black",
         "Name": "The Stairs #27076",
-        "Color": "black",
         "Connections": {
           "Up": 27074,
           "Down": 27078
@@ -1131,9 +983,7 @@
       },
       {
         "Id": 27077,
-        "FrameColor": "black",
         "Name": "The Stairs #27077",
-        "Color": "black",
         "Connections": {
           "Up": 27075,
           "Down": 27079
@@ -1141,9 +991,7 @@
       },
       {
         "Id": 27078,
-        "FrameColor": "black",
         "Name": "Bottom of the Stairs #27078",
-        "Color": "black",
         "Connections": {
           "North": 27085,
           "South": 27093,
@@ -1152,9 +1000,7 @@
       },
       {
         "Id": 27079,
-        "FrameColor": "black",
         "Name": "Bottom of the Stairs #27079",
-        "Color": "black",
         "Connections": {
           "North": 27086,
           "South": 27094,
@@ -1163,9 +1009,7 @@
       },
       {
         "Id": 27080,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27080",
-        "Color": "black",
         "Connections": {
           "South": 27084,
           "West": 27081
@@ -1179,9 +1023,7 @@
       },
       {
         "Id": 27081,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27081",
-        "Color": "black",
         "Connections": {
           "East": 27080,
           "South": 27085,
@@ -1190,9 +1032,7 @@
       },
       {
         "Id": 27082,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27082",
-        "Color": "black",
         "Connections": {
           "East": 27081,
           "South": 27086,
@@ -1201,9 +1041,7 @@
       },
       {
         "Id": 27083,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27083",
-        "Color": "black",
         "Connections": {
           "East": 27082,
           "South": 27087
@@ -1211,9 +1049,7 @@
       },
       {
         "Id": 27084,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27084",
-        "Color": "black",
         "Connections": {
           "North": 27080,
           "South": 27089,
@@ -1222,9 +1058,7 @@
       },
       {
         "Id": 27085,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27085",
-        "Color": "black",
         "Connections": {
           "North": 27081,
           "East": 27084,
@@ -1234,9 +1068,7 @@
       },
       {
         "Id": 27086,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27086",
-        "Color": "black",
         "Connections": {
           "North": 27082,
           "East": 27085,
@@ -1252,9 +1084,7 @@
       },
       {
         "Id": 27087,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27087",
-        "Color": "black",
         "Connections": {
           "North": 27083,
           "East": 27086,
@@ -1263,18 +1093,14 @@
       },
       {
         "Id": 27088,
-        "FrameColor": "black",
         "Name": "The Underpass #27088",
-        "Color": "black",
         "Connections": {
           "West": 27089
         }
       },
       {
         "Id": 27089,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27089",
-        "Color": "black",
         "Connections": {
           "North": 27084,
           "East": 27088,
@@ -1289,9 +1115,7 @@
       },
       {
         "Id": 27090,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27090",
-        "Color": "black",
         "Connections": {
           "North": 27087,
           "South": 27095,
@@ -1306,9 +1130,7 @@
       },
       {
         "Id": 27091,
-        "FrameColor": "black",
         "Name": "The Heart of Hell #27091",
-        "Color": "black",
         "Connections": {
           "East": 27090
         },
@@ -1321,9 +1143,7 @@
       },
       {
         "Id": 27092,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27092",
-        "Color": "black",
         "Connections": {
           "North": 27089,
           "South": 27096,
@@ -1332,9 +1152,7 @@
       },
       {
         "Id": 27093,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27093",
-        "Color": "black",
         "Connections": {
           "North": 27078,
           "East": 27092,
@@ -1350,9 +1168,7 @@
       },
       {
         "Id": 27094,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27094",
-        "Color": "black",
         "Connections": {
           "North": 27079,
           "East": 27093,
@@ -1362,9 +1178,7 @@
       },
       {
         "Id": 27095,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27095",
-        "Color": "black",
         "Connections": {
           "North": 27090,
           "East": 27094,
@@ -1373,9 +1187,7 @@
       },
       {
         "Id": 27096,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27096",
-        "Color": "black",
         "Connections": {
           "North": 27092,
           "West": 27097
@@ -1383,9 +1195,7 @@
       },
       {
         "Id": 27097,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27097",
-        "Color": "black",
         "Connections": {
           "North": 27093,
           "East": 27096,
@@ -1394,9 +1204,7 @@
       },
       {
         "Id": 27098,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27098",
-        "Color": "black",
         "Connections": {
           "North": 27094,
           "East": 27097,
@@ -1405,9 +1213,7 @@
       },
       {
         "Id": 27099,
-        "FrameColor": "black",
         "Name": "Labyrinth of the Underworld #27099",
-        "Color": "black",
         "Connections": {
           "North": 27095,
           "East": 27098
@@ -1431,9 +1237,5 @@
         }
       }
     ]
-  },
-  "BuildOptions": {
-    "MaxSteps": 1000,
-    "MaxCompactSteps": 10000
   }
 }

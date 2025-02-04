@@ -5,13 +5,10 @@
     "MinimumLevel": "5",
     "MaximumLevel": "35",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 20000,
-        "FrameColor": "black",
         "Name": "The Yawning Portal #20000",
-        "Color": "black",
         "Connections": {
           "North": 20001,
           "East": 20009
@@ -25,9 +22,7 @@
       },
       {
         "Id": 20001,
-        "FrameColor": "black",
         "Name": "Common Room #20001",
-        "Color": "black",
         "Connections": {
           "South": 20000,
           "Up": 20002
@@ -49,13 +44,12 @@
       },
       {
         "Id": 20002,
-        "FrameColor": "black",
         "Name": "Hallway #20002",
-        "Color": "black",
         "Connections": {
           "North": 20003,
           "East": {
             "RoomId": 20005,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -67,6 +61,7 @@
           },
           "West": {
             "RoomId": 20004,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -87,12 +82,11 @@
       },
       {
         "Id": 20003,
-        "FrameColor": "black",
         "Name": "End of Hall #20003",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20007,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -104,6 +98,7 @@
           },
           "East": {
             "RoomId": 20008,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -116,6 +111,7 @@
           "South": 20002,
           "West": {
             "RoomId": 20006,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -129,45 +125,35 @@
       },
       {
         "Id": 20004,
-        "FrameColor": "black",
         "Name": "Room # 1 #20004",
-        "Color": "black",
         "Connections": {
           "East": 20002
         }
       },
       {
         "Id": 20005,
-        "FrameColor": "black",
         "Name": "Room # 5 #20005",
-        "Color": "black",
         "Connections": {
           "West": 20002
         }
       },
       {
         "Id": 20006,
-        "FrameColor": "black",
         "Name": "Room # 2 #20006",
-        "Color": "black",
         "Connections": {
           "East": 20003
         }
       },
       {
         "Id": 20007,
-        "FrameColor": "black",
         "Name": "Room # 3 #20007",
-        "Color": "black",
         "Connections": {
           "South": 20003
         }
       },
       {
         "Id": 20008,
-        "FrameColor": "black",
         "Name": "Room # 4 #20008",
-        "Color": "black",
         "Connections": {
           "West": 20003
         },
@@ -180,9 +166,7 @@
       },
       {
         "Id": 20009,
-        "FrameColor": "black",
         "Name": "Back Room #20009",
-        "Color": "black",
         "Connections": {
           "South": 20010,
           "West": 20000,
@@ -191,31 +175,26 @@
       },
       {
         "Id": 20010,
-        "FrameColor": "black",
         "Name": "Innkeeper\u0027s Quarters #20010",
-        "Color": "black",
         "Connections": {
           "North": 20009
         }
       },
       {
         "Id": 20011,
-        "FrameColor": "black",
         "Name": "Basement #20011",
-        "Color": "black",
         "Connections": {
           "Up": 20009
         }
       },
       {
         "Id": 20012,
-        "FrameColor": "black",
         "Name": "The Red-Eyed Owl #20012",
-        "Color": "black",
         "Connections": {
           "North": 20013,
           "South": {
             "RoomId": 20245,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -229,12 +208,11 @@
       },
       {
         "Id": 20013,
-        "FrameColor": "black",
         "Name": "Common Room #20013",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20014,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -276,12 +254,11 @@
       },
       {
         "Id": 20014,
-        "FrameColor": "black",
         "Name": "Private Room #20014",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 20013,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -301,9 +278,7 @@
       },
       {
         "Id": 20015,
-        "FrameColor": "black",
         "Name": "The Back Room #20015",
-        "Color": "black",
         "Connections": {
           "North": 20016,
           "West": 20013,
@@ -312,21 +287,18 @@
       },
       {
         "Id": 20016,
-        "FrameColor": "black",
         "Name": "Living Quarters #20016",
-        "Color": "black",
         "Connections": {
           "South": 20015
         }
       },
       {
         "Id": 20017,
-        "FrameColor": "black",
         "Name": "Wine Cellar #20017",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20018,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -341,18 +313,14 @@
       },
       {
         "Id": 20018,
-        "FrameColor": "black",
         "Name": "Storage Room #20018",
-        "Color": "black",
         "Connections": {
           "South": 20017
         }
       },
       {
         "Id": 20019,
-        "FrameColor": "black",
         "Name": "The Sleepy Sylph #20019",
-        "Color": "black",
         "Connections": {
           "North": 20177,
           "South": 20020
@@ -360,13 +328,12 @@
       },
       {
         "Id": 20020,
-        "FrameColor": "black",
         "Name": "Common Room #20020",
-        "Color": "black",
         "Connections": {
           "North": 20019,
           "East": {
             "RoomId": 20021,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -403,22 +370,19 @@
       },
       {
         "Id": 20021,
-        "FrameColor": "black",
         "Name": "Private Room #20021",
-        "Color": "black",
         "Connections": {
           "West": 20020
         }
       },
       {
         "Id": 20022,
-        "FrameColor": "black",
         "Name": "Back Room #20022",
-        "Color": "black",
         "Connections": {
           "North": 20020,
           "West": {
             "RoomId": 20025,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -434,9 +398,7 @@
       },
       {
         "Id": 20023,
-        "FrameColor": "black",
         "Name": "Owner\u0027s Common Room #20023",
-        "Color": "black",
         "Connections": {
           "North": 20024,
           "South": 20026,
@@ -446,39 +408,32 @@
       },
       {
         "Id": 20024,
-        "FrameColor": "black",
         "Name": "Owner\u0027s Bedroom #20024",
-        "Color": "black",
         "Connections": {
           "South": 20023
         }
       },
       {
         "Id": 20025,
-        "FrameColor": "black",
         "Name": "Bedroom #20025",
-        "Color": "black",
         "Connections": {
           "East": 20022
         }
       },
       {
         "Id": 20026,
-        "FrameColor": "black",
         "Name": "Bathroom #20026",
-        "Color": "black",
         "Connections": {
           "North": 20023
         }
       },
       {
         "Id": 20027,
-        "FrameColor": "black",
         "Name": "Wine Cellar #20027",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 20028,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -493,27 +448,21 @@
       },
       {
         "Id": 20028,
-        "FrameColor": "black",
         "Name": "Storage #20028",
-        "Color": "black",
         "Connections": {
           "North": 20027
         }
       },
       {
         "Id": 20029,
-        "FrameColor": "black",
         "Name": "Attic #20029",
-        "Color": "black",
         "Connections": {
           "Down": 20023
         }
       },
       {
         "Id": 20030,
-        "FrameColor": "black",
         "Name": "Barracks #20030",
-        "Color": "black",
         "Connections": {
           "North": 20246,
           "South": 20031
@@ -531,21 +480,18 @@
       },
       {
         "Id": 20031,
-        "FrameColor": "black",
         "Name": "Lavatory #20031",
-        "Color": "black",
         "Connections": {
           "North": 20030
         }
       },
       {
         "Id": 20032,
-        "FrameColor": "black",
         "Name": "Smithy #20032",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 20240,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -559,12 +505,11 @@
       },
       {
         "Id": 20033,
-        "FrameColor": "black",
         "Name": "Bell Tower #20033",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 20246,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -578,12 +523,11 @@
       },
       {
         "Id": 20034,
-        "FrameColor": "black",
         "Name": "Sheyrrhr\u0027s House Front Garden #20034",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 20035,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -595,6 +539,7 @@
           },
           "West": {
             "RoomId": 20213,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -608,9 +553,7 @@
       },
       {
         "Id": 20035,
-        "FrameColor": "black",
         "Name": "Foyer #20035",
-        "Color": "black",
         "Connections": {
           "East": 20036,
           "West": 20034
@@ -618,9 +561,7 @@
       },
       {
         "Id": 20036,
-        "FrameColor": "black",
         "Name": "Small Common Room #20036",
-        "Color": "black",
         "Connections": {
           "East": 20037,
           "West": 20035
@@ -628,9 +569,7 @@
       },
       {
         "Id": 20037,
-        "FrameColor": "black",
         "Name": "Dining Room #20037",
-        "Color": "black",
         "Connections": {
           "East": 20045,
           "South": 20038,
@@ -640,18 +579,14 @@
       },
       {
         "Id": 20038,
-        "FrameColor": "black",
         "Name": "Large Common Room #20038",
-        "Color": "black",
         "Connections": {
           "North": 20037
         }
       },
       {
         "Id": 20039,
-        "FrameColor": "black",
         "Name": "Landing #20039",
-        "Color": "black",
         "Connections": {
           "North": 20042,
           "East": 20040,
@@ -661,27 +596,21 @@
       },
       {
         "Id": 20040,
-        "FrameColor": "black",
         "Name": "Guest Bedroom #20040",
-        "Color": "black",
         "Connections": {
           "West": 20039
         }
       },
       {
         "Id": 20041,
-        "FrameColor": "black",
         "Name": "Bathroom #20041",
-        "Color": "black",
         "Connections": {
           "East": 20039
         }
       },
       {
         "Id": 20042,
-        "FrameColor": "black",
         "Name": "Master Bedroom #20042",
-        "Color": "black",
         "Connections": {
           "South": 20039,
           "Up": 20044
@@ -689,12 +618,11 @@
       },
       {
         "Id": 20043,
-        "FrameColor": "black",
         "Name": "Basement #20043",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 20046,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -709,18 +637,14 @@
       },
       {
         "Id": 20044,
-        "FrameColor": "black",
         "Name": "Attic #20044",
-        "Color": "black",
         "Connections": {
           "Down": 20042
         }
       },
       {
         "Id": 20045,
-        "FrameColor": "black",
         "Name": "Kitchen #20045",
-        "Color": "black",
         "Connections": {
           "West": 20037,
           "Down": 20043
@@ -728,22 +652,19 @@
       },
       {
         "Id": 20046,
-        "FrameColor": "black",
         "Name": "Storage #20046",
-        "Color": "black",
         "Connections": {
           "North": 20043
         }
       },
       {
         "Id": 20047,
-        "FrameColor": "black",
         "Name": "The Dragon\u0027s Head Entrance #20047",
-        "Color": "black",
         "Connections": {
           "East": 20048,
           "West": {
             "RoomId": 20211,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -757,9 +678,7 @@
       },
       {
         "Id": 20048,
-        "FrameColor": "black",
         "Name": "Common Room #20048",
-        "Color": "black",
         "Connections": {
           "East": 20049,
           "West": 20047
@@ -767,9 +686,7 @@
       },
       {
         "Id": 20049,
-        "FrameColor": "black",
         "Name": "Dining Room #20049",
-        "Color": "black",
         "Connections": {
           "East": 20050,
           "West": 20048
@@ -783,12 +700,11 @@
       },
       {
         "Id": 20050,
-        "FrameColor": "black",
         "Name": "Kitchen #20050",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20051,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -803,21 +719,18 @@
       },
       {
         "Id": 20051,
-        "FrameColor": "black",
         "Name": "Storage #20051",
-        "Color": "black",
         "Connections": {
           "South": 20050
         }
       },
       {
         "Id": 20052,
-        "FrameColor": "black",
         "Name": "The Elfstone Entrance #20052",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20252,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -832,13 +745,12 @@
       },
       {
         "Id": 20053,
-        "FrameColor": "black",
         "Name": "Common Room #20053",
-        "Color": "black",
         "Connections": {
           "North": 20052,
           "East": {
             "RoomId": 20055,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -851,6 +763,7 @@
           "South": 20056,
           "West": {
             "RoomId": 20054,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -874,31 +787,26 @@
       },
       {
         "Id": 20054,
-        "FrameColor": "black",
         "Name": "Private Room # 1 #20054",
-        "Color": "black",
         "Connections": {
           "East": 20053
         }
       },
       {
         "Id": 20055,
-        "FrameColor": "black",
         "Name": "Private Room # 2 #20055",
-        "Color": "black",
         "Connections": {
           "West": 20053
         }
       },
       {
         "Id": 20056,
-        "FrameColor": "black",
         "Name": "Back Room #20056",
-        "Color": "black",
         "Connections": {
           "North": 20053,
           "East": {
             "RoomId": 20057,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -912,23 +820,20 @@
       },
       {
         "Id": 20057,
-        "FrameColor": "black",
         "Name": "Storage #20057",
-        "Color": "black",
         "Connections": {
           "West": 20056
         }
       },
       {
         "Id": 20058,
-        "FrameColor": "black",
         "Name": "Hilmer Warehouse #20058",
-        "Color": "black",
         "Connections": {
           "East": 20060,
           "South": 20059,
           "West": {
             "RoomId": 20198,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -942,13 +847,12 @@
       },
       {
         "Id": 20059,
-        "FrameColor": "black",
         "Name": "Office #20059",
-        "Color": "black",
         "Connections": {
           "North": 20058,
           "East": {
             "RoomId": 20063,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -960,6 +864,7 @@
           },
           "South": {
             "RoomId": 20061,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -973,21 +878,18 @@
       },
       {
         "Id": 20060,
-        "FrameColor": "black",
         "Name": "Warehouse Floor #20060",
-        "Color": "black",
         "Connections": {
           "West": 20058
         }
       },
       {
         "Id": 20061,
-        "FrameColor": "black",
         "Name": "Halls of Hilmer #20061",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20059,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1000,6 +902,7 @@
           "East": 20062,
           "West": {
             "RoomId": 20199,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1019,27 +922,21 @@
       },
       {
         "Id": 20062,
-        "FrameColor": "black",
         "Name": "Work Area #20062",
-        "Color": "black",
         "Connections": {
           "West": 20061
         }
       },
       {
         "Id": 20063,
-        "FrameColor": "black",
         "Name": "Quarters #20063",
-        "Color": "black",
         "Connections": {
           "West": 20059
         }
       },
       {
         "Id": 20064,
-        "FrameColor": "black",
         "Name": "The Jade Jug Entrance #20064",
-        "Color": "black",
         "Connections": {
           "East": 20065,
           "West": 20267
@@ -1047,9 +944,7 @@
       },
       {
         "Id": 20065,
-        "FrameColor": "black",
         "Name": "Common Room #20065",
-        "Color": "black",
         "Connections": {
           "East": 20066,
           "West": 20064,
@@ -1058,12 +953,11 @@
       },
       {
         "Id": 20066,
-        "FrameColor": "black",
         "Name": "Back Room #20066",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 20077,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1079,12 +973,11 @@
       },
       {
         "Id": 20067,
-        "FrameColor": "black",
         "Name": "Hallway #20067",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 20070,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1097,6 +990,7 @@
           "South": 20068,
           "West": {
             "RoomId": 20071,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1111,13 +1005,12 @@
       },
       {
         "Id": 20068,
-        "FrameColor": "black",
         "Name": "Middle of Hall #20068",
-        "Color": "black",
         "Connections": {
           "North": 20067,
           "East": {
             "RoomId": 20072,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1130,6 +1023,7 @@
           "South": 20069,
           "West": {
             "RoomId": 20073,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1143,13 +1037,12 @@
       },
       {
         "Id": 20069,
-        "FrameColor": "black",
         "Name": "End of Hall #20069",
-        "Color": "black",
         "Connections": {
           "North": 20068,
           "East": {
             "RoomId": 20074,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1161,6 +1054,7 @@
           },
           "South": {
             "RoomId": 20075,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1172,6 +1066,7 @@
           },
           "West": {
             "RoomId": 20076,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1185,93 +1080,74 @@
       },
       {
         "Id": 20070,
-        "FrameColor": "black",
         "Name": "Room # 1 #20070",
-        "Color": "black",
         "Connections": {
           "West": 20067
         }
       },
       {
         "Id": 20071,
-        "FrameColor": "black",
         "Name": "Room # 7 #20071",
-        "Color": "black",
         "Connections": {
           "East": 20067
         }
       },
       {
         "Id": 20072,
-        "FrameColor": "black",
         "Name": "Room # 2 #20072",
-        "Color": "black",
         "Connections": {
           "West": 20068
         }
       },
       {
         "Id": 20073,
-        "FrameColor": "black",
         "Name": "Room # 6 #20073",
-        "Color": "black",
         "Connections": {
           "East": 20068
         }
       },
       {
         "Id": 20074,
-        "FrameColor": "black",
         "Name": "Room # 3 #20074",
-        "Color": "black",
         "Connections": {
           "West": 20069
         }
       },
       {
         "Id": 20075,
-        "FrameColor": "black",
         "Name": "Room # 4 #20075",
-        "Color": "black",
         "Connections": {
           "North": 20069
         }
       },
       {
         "Id": 20076,
-        "FrameColor": "black",
         "Name": "Room # 5 #20076",
-        "Color": "black",
         "Connections": {
           "East": 20069
         }
       },
       {
         "Id": 20077,
-        "FrameColor": "black",
         "Name": "Innkeeper\u0027s Quarters #20077",
-        "Color": "black",
         "Connections": {
           "North": 20066
         }
       },
       {
         "Id": 20078,
-        "FrameColor": "black",
         "Name": "Basement #20078",
-        "Color": "black",
         "Connections": {
           "Up": 20066
         }
       },
       {
         "Id": 20079,
-        "FrameColor": "black",
         "Name": "The Blue Jack Entrance #20079",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20274,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1286,9 +1162,7 @@
       },
       {
         "Id": 20080,
-        "FrameColor": "black",
         "Name": "Common Room #20080",
-        "Color": "black",
         "Connections": {
           "North": 20079,
           "East": 20081,
@@ -1303,22 +1177,19 @@
       },
       {
         "Id": 20081,
-        "FrameColor": "black",
         "Name": "Small Common Room #20081",
-        "Color": "black",
         "Connections": {
           "West": 20080
         }
       },
       {
         "Id": 20082,
-        "FrameColor": "black",
         "Name": "Back Room #20082",
-        "Color": "black",
         "Connections": {
           "North": 20080,
           "East": {
             "RoomId": 20083,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1333,9 +1204,7 @@
       },
       {
         "Id": 20083,
-        "FrameColor": "black",
         "Name": "Owner\u0027s Quarters #20083",
-        "Color": "black",
         "Connections": {
           "East": 20084,
           "West": 20082
@@ -1343,27 +1212,21 @@
       },
       {
         "Id": 20084,
-        "FrameColor": "black",
         "Name": "Bath Room #20084",
-        "Color": "black",
         "Connections": {
           "West": 20083
         }
       },
       {
         "Id": 20085,
-        "FrameColor": "black",
         "Name": "Basement #20085",
-        "Color": "black",
         "Connections": {
           "Up": 20082
         }
       },
       {
         "Id": 20086,
-        "FrameColor": "black",
         "Name": "The Pampered Traveler Entrance #20086",
-        "Color": "black",
         "Connections": {
           "North": 20087,
           "South": 20236
@@ -1371,9 +1234,7 @@
       },
       {
         "Id": 20087,
-        "FrameColor": "black",
         "Name": "Front Desk #20087",
-        "Color": "black",
         "Connections": {
           "North": 20089,
           "East": 20088,
@@ -1382,18 +1243,14 @@
       },
       {
         "Id": 20088,
-        "FrameColor": "black",
         "Name": "Manager\u0027s Quarters #20088",
-        "Color": "black",
         "Connections": {
           "West": 20087
         }
       },
       {
         "Id": 20089,
-        "FrameColor": "black",
         "Name": "Lounge #20089",
-        "Color": "black",
         "Connections": {
           "North": 20097,
           "East": 20094,
@@ -1409,9 +1266,7 @@
       },
       {
         "Id": 20090,
-        "FrameColor": "black",
         "Name": "Back Room #20090",
-        "Color": "black",
         "Connections": {
           "South": 20094,
           "Down": 20091
@@ -1419,12 +1274,11 @@
       },
       {
         "Id": 20091,
-        "FrameColor": "black",
         "Name": "Wine Cellar #20091",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20092,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1439,18 +1293,14 @@
       },
       {
         "Id": 20092,
-        "FrameColor": "black",
         "Name": "Storage #20092",
-        "Color": "black",
         "Connections": {
           "South": 20091
         }
       },
       {
         "Id": 20093,
-        "FrameColor": "black",
         "Name": "Dining Room #20093",
-        "Color": "black",
         "Connections": {
           "North": 20095,
           "East": 20089
@@ -1468,9 +1318,7 @@
       },
       {
         "Id": 20094,
-        "FrameColor": "black",
         "Name": "Kitchen #20094",
-        "Color": "black",
         "Connections": {
           "North": 20090,
           "East": 20096,
@@ -1489,27 +1337,21 @@
       },
       {
         "Id": 20095,
-        "FrameColor": "black",
         "Name": "Smoking Room #20095",
-        "Color": "black",
         "Connections": {
           "South": 20093
         }
       },
       {
         "Id": 20096,
-        "FrameColor": "black",
         "Name": "Laundry #20096",
-        "Color": "black",
         "Connections": {
           "West": 20094
         }
       },
       {
         "Id": 20097,
-        "FrameColor": "black",
         "Name": "Library #20097",
-        "Color": "black",
         "Connections": {
           "South": 20089,
           "Up": 20098
@@ -1523,12 +1365,11 @@
       },
       {
         "Id": 20098,
-        "FrameColor": "black",
         "Name": "Beginning of Hall #20098",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 20104,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1545,13 +1386,12 @@
       },
       {
         "Id": 20099,
-        "FrameColor": "black",
         "Name": "Hallway #20099",
-        "Color": "black",
         "Connections": {
           "North": 20098,
           "East": {
             "RoomId": 20106,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1564,6 +1404,7 @@
           "South": 20100,
           "West": {
             "RoomId": 20107,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1583,13 +1424,12 @@
       },
       {
         "Id": 20100,
-        "FrameColor": "black",
         "Name": "Middle of Hall #20100",
-        "Color": "black",
         "Connections": {
           "North": 20099,
           "East": {
             "RoomId": 20108,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1602,6 +1442,7 @@
           "South": 20101,
           "West": {
             "RoomId": 20109,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1615,13 +1456,12 @@
       },
       {
         "Id": 20101,
-        "FrameColor": "black",
         "Name": "Middle of Hall #20101",
-        "Color": "black",
         "Connections": {
           "North": 20100,
           "East": {
             "RoomId": 20110,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1634,6 +1474,7 @@
           "South": 20102,
           "West": {
             "RoomId": 20111,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1647,13 +1488,12 @@
       },
       {
         "Id": 20102,
-        "FrameColor": "black",
         "Name": "Hallway #20102",
-        "Color": "black",
         "Connections": {
           "North": 20101,
           "East": {
             "RoomId": 20112,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1666,6 +1506,7 @@
           "South": 20103,
           "West": {
             "RoomId": 20113,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1679,13 +1520,12 @@
       },
       {
         "Id": 20103,
-        "FrameColor": "black",
         "Name": "End of Hall #20103",
-        "Color": "black",
         "Connections": {
           "North": 20102,
           "East": {
             "RoomId": 20114,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1697,6 +1537,7 @@
           },
           "West": {
             "RoomId": 20115,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1711,120 +1552,95 @@
       },
       {
         "Id": 20104,
-        "FrameColor": "black",
         "Name": "Room # 1 #20104",
-        "Color": "black",
         "Connections": {
           "West": 20098
         }
       },
       {
         "Id": 20105,
-        "FrameColor": "black",
         "Name": "Bath Room #20105",
-        "Color": "black",
         "Connections": {
           "East": 20098
         }
       },
       {
         "Id": 20106,
-        "FrameColor": "black",
         "Name": "Room # 2 #20106",
-        "Color": "black",
         "Connections": {
           "West": 20099
         }
       },
       {
         "Id": 20107,
-        "FrameColor": "black",
         "Name": "Room # 11 #20107",
-        "Color": "black",
         "Connections": {
           "East": 20099
         }
       },
       {
         "Id": 20108,
-        "FrameColor": "black",
         "Name": "Room # 3 #20108",
-        "Color": "black",
         "Connections": {
           "West": 20100
         }
       },
       {
         "Id": 20109,
-        "FrameColor": "black",
         "Name": "Room # 10 #20109",
-        "Color": "black",
         "Connections": {
           "East": 20100
         }
       },
       {
         "Id": 20110,
-        "FrameColor": "black",
         "Name": "Room # 4 #20110",
-        "Color": "black",
         "Connections": {
           "West": 20101
         }
       },
       {
         "Id": 20111,
-        "FrameColor": "black",
         "Name": "Room # 9 #20111",
-        "Color": "black",
         "Connections": {
           "East": 20101
         }
       },
       {
         "Id": 20112,
-        "FrameColor": "black",
         "Name": "Room # 5 #20112",
-        "Color": "black",
         "Connections": {
           "West": 20102
         }
       },
       {
         "Id": 20113,
-        "FrameColor": "black",
         "Name": "Room # 8 #20113",
-        "Color": "black",
         "Connections": {
           "East": 20102
         }
       },
       {
         "Id": 20114,
-        "FrameColor": "black",
         "Name": "Room # 6 #20114",
-        "Color": "black",
         "Connections": {
           "West": 20103
         }
       },
       {
         "Id": 20115,
-        "FrameColor": "black",
         "Name": "Room # 7 #20115",
-        "Color": "black",
         "Connections": {
           "East": 20103
         }
       },
       {
         "Id": 20116,
-        "FrameColor": "black",
         "Name": "Hallway #20116",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 20119,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1841,13 +1657,12 @@
       },
       {
         "Id": 20117,
-        "FrameColor": "black",
         "Name": "Middle of Hall #20117",
-        "Color": "black",
         "Connections": {
           "North": 20116,
           "East": {
             "RoomId": 20121,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1863,13 +1678,12 @@
       },
       {
         "Id": 20118,
-        "FrameColor": "black",
         "Name": "End of Hall #20118",
-        "Color": "black",
         "Connections": {
           "North": 20117,
           "East": {
             "RoomId": 20123,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1881,6 +1695,7 @@
           },
           "West": {
             "RoomId": 20124,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1894,66 +1709,53 @@
       },
       {
         "Id": 20119,
-        "FrameColor": "black",
         "Name": "Room #12 #20119",
-        "Color": "black",
         "Connections": {
           "West": 20116
         }
       },
       {
         "Id": 20120,
-        "FrameColor": "black",
         "Name": "Bath Room #20120",
-        "Color": "black",
         "Connections": {
           "East": 20116
         }
       },
       {
         "Id": 20121,
-        "FrameColor": "black",
         "Name": "Room # 13 #20121",
-        "Color": "black",
         "Connections": {
           "West": 20117
         }
       },
       {
         "Id": 20122,
-        "FrameColor": "black",
         "Name": "Room # 16 #20122",
-        "Color": "black",
         "Connections": {
           "East": 20117
         }
       },
       {
         "Id": 20123,
-        "FrameColor": "black",
         "Name": "Room # 14 #20123",
-        "Color": "black",
         "Connections": {
           "West": 20118
         }
       },
       {
         "Id": 20124,
-        "FrameColor": "black",
         "Name": "Room # 15 #20124",
-        "Color": "black",
         "Connections": {
           "East": 20118
         }
       },
       {
         "Id": 20125,
-        "FrameColor": "black",
         "Name": "Marblehearth Entrance #20125",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20213,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1970,9 +1772,7 @@
       },
       {
         "Id": 20126,
-        "FrameColor": "black",
         "Name": "Common Room #20126",
-        "Color": "black",
         "Connections": {
           "North": 20125,
           "East": 20131,
@@ -1982,9 +1782,7 @@
       },
       {
         "Id": 20127,
-        "FrameColor": "black",
         "Name": "Dining Room #20127",
-        "Color": "black",
         "Connections": {
           "North": 20126,
           "East": 20128,
@@ -1993,45 +1791,35 @@
       },
       {
         "Id": 20128,
-        "FrameColor": "black",
         "Name": "Kitchen #20128",
-        "Color": "black",
         "Connections": {
           "West": 20127
         }
       },
       {
         "Id": 20129,
-        "FrameColor": "black",
         "Name": "Bath Room #20129",
-        "Color": "black",
         "Connections": {
           "East": 20135
         }
       },
       {
         "Id": 20130,
-        "FrameColor": "black",
         "Name": "Bedroom #20130",
-        "Color": "black",
         "Connections": {
           "East": 20126
         }
       },
       {
         "Id": 20131,
-        "FrameColor": "black",
         "Name": "Bedroom #20131",
-        "Color": "black",
         "Connections": {
           "West": 20126
         }
       },
       {
         "Id": 20132,
-        "FrameColor": "black",
         "Name": "Bedroom #20132",
-        "Color": "black",
         "Connections": {
           "Up": 20136,
           "Down": 20125
@@ -2039,30 +1827,25 @@
       },
       {
         "Id": 20133,
-        "FrameColor": "black",
         "Name": "Bedroom #20133",
-        "Color": "black",
         "Connections": {
           "Up": 20125
         }
       },
       {
         "Id": 20134,
-        "FrameColor": "black",
         "Name": "Storage #20134",
-        "Color": "black",
         "Connections": {
           "West": 20135
         }
       },
       {
         "Id": 20135,
-        "FrameColor": "black",
         "Name": "Basement #20135",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 20134,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -2078,24 +1861,21 @@
       },
       {
         "Id": 20136,
-        "FrameColor": "black",
         "Name": "Attic #20136",
-        "Color": "black",
         "Connections": {
           "Down": 20132
         }
       },
       {
         "Id": 20137,
-        "FrameColor": "black",
         "Name": "Stormwatch Entrance #20137",
-        "Color": "black",
         "Connections": {
           "North": 20142,
           "East": 20138,
           "South": 20143,
           "West": {
             "RoomId": 20234,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -2109,9 +1889,7 @@
       },
       {
         "Id": 20138,
-        "FrameColor": "black",
         "Name": "Common Room #20138",
-        "Color": "black",
         "Connections": {
           "North": 20141,
           "East": 20144,
@@ -2121,9 +1899,7 @@
       },
       {
         "Id": 20139,
-        "FrameColor": "black",
         "Name": "Dining Room #20139",
-        "Color": "black",
         "Connections": {
           "North": 20138,
           "East": 20140
@@ -2131,9 +1907,7 @@
       },
       {
         "Id": 20140,
-        "FrameColor": "black",
         "Name": "Kitchen #20140",
-        "Color": "black",
         "Connections": {
           "West": 20139,
           "Down": 20146
@@ -2141,36 +1915,28 @@
       },
       {
         "Id": 20141,
-        "FrameColor": "black",
         "Name": "Bath Room #20141",
-        "Color": "black",
         "Connections": {
           "South": 20138
         }
       },
       {
         "Id": 20142,
-        "FrameColor": "black",
         "Name": "Bedroom #20142",
-        "Color": "black",
         "Connections": {
           "South": 20137
         }
       },
       {
         "Id": 20143,
-        "FrameColor": "black",
         "Name": "Bedroom #20143",
-        "Color": "black",
         "Connections": {
           "North": 20137
         }
       },
       {
         "Id": 20144,
-        "FrameColor": "black",
         "Name": "Bedroom #20144",
-        "Color": "black",
         "Connections": {
           "West": 20138,
           "Up": 20147
@@ -2178,21 +1944,18 @@
       },
       {
         "Id": 20145,
-        "FrameColor": "black",
         "Name": "Storage #20145",
-        "Color": "black",
         "Connections": {
           "North": 20146
         }
       },
       {
         "Id": 20146,
-        "FrameColor": "black",
         "Name": "Basement #20146",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 20145,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -2207,23 +1970,20 @@
       },
       {
         "Id": 20147,
-        "FrameColor": "black",
         "Name": "Attic #20147",
-        "Color": "black",
         "Connections": {
           "Down": 20144
         }
       },
       {
         "Id": 20148,
-        "FrameColor": "black",
         "Name": "Heroes\u0027 Rest Entrance #20148",
-        "Color": "black",
         "Connections": {
           "North": 20149,
           "East": 20154,
           "South": {
             "RoomId": 20257,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -2238,9 +1998,7 @@
       },
       {
         "Id": 20149,
-        "FrameColor": "black",
         "Name": "Common Room #20149",
-        "Color": "black",
         "Connections": {
           "North": 20150,
           "East": 20152,
@@ -2250,9 +2008,7 @@
       },
       {
         "Id": 20150,
-        "FrameColor": "black",
         "Name": "Dining Room #20150",
-        "Color": "black",
         "Connections": {
           "East": 20151,
           "South": 20149,
@@ -2261,9 +2017,7 @@
       },
       {
         "Id": 20151,
-        "FrameColor": "black",
         "Name": "Kitchen #20151",
-        "Color": "black",
         "Connections": {
           "West": 20150,
           "Down": 20157
@@ -2271,57 +2025,46 @@
       },
       {
         "Id": 20152,
-        "FrameColor": "black",
         "Name": "Bath Room #20152",
-        "Color": "black",
         "Connections": {
           "West": 20149
         }
       },
       {
         "Id": 20153,
-        "FrameColor": "black",
         "Name": "Bedroom #20153",
-        "Color": "black",
         "Connections": {
           "East": 20148
         }
       },
       {
         "Id": 20154,
-        "FrameColor": "black",
         "Name": "Bedroom #20154",
-        "Color": "black",
         "Connections": {
           "West": 20148
         }
       },
       {
         "Id": 20155,
-        "FrameColor": "black",
         "Name": "Bedroom #20155",
-        "Color": "black",
         "Connections": {
           "East": 20149
         }
       },
       {
         "Id": 20156,
-        "FrameColor": "black",
         "Name": "Storage #20156",
-        "Color": "black",
         "Connections": {
           "West": 20157
         }
       },
       {
         "Id": 20157,
-        "FrameColor": "black",
         "Name": "Basement #20157",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 20156,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -2336,18 +2079,14 @@
       },
       {
         "Id": 20158,
-        "FrameColor": "black",
         "Name": "Attic #20158",
-        "Color": "black",
         "Connections": {
           "Down": 20150
         }
       },
       {
         "Id": 20159,
-        "FrameColor": "black",
         "Name": "The Wandering Wemic Entrance #20159",
-        "Color": "black",
         "Connections": {
           "North": 20168,
           "East": 20263,
@@ -2356,9 +2095,7 @@
       },
       {
         "Id": 20160,
-        "FrameColor": "black",
         "Name": "Common Room #20160",
-        "Color": "black",
         "Connections": {
           "East": 20159,
           "Up": 20161
@@ -2366,12 +2103,11 @@
       },
       {
         "Id": 20161,
-        "FrameColor": "black",
         "Name": "Hallway #20161",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20164,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -2383,6 +2119,7 @@
           },
           "South": {
             "RoomId": 20163,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -2398,12 +2135,11 @@
       },
       {
         "Id": 20162,
-        "FrameColor": "black",
         "Name": "End of Hall #20162",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20167,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -2416,6 +2152,7 @@
           "East": 20161,
           "South": {
             "RoomId": 20165,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -2427,6 +2164,7 @@
           },
           "West": {
             "RoomId": 20166,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -2440,54 +2178,42 @@
       },
       {
         "Id": 20163,
-        "FrameColor": "black",
         "Name": "Room # 1 #20163",
-        "Color": "black",
         "Connections": {
           "North": 20161
         }
       },
       {
         "Id": 20164,
-        "FrameColor": "black",
         "Name": "Room # 5 #20164",
-        "Color": "black",
         "Connections": {
           "South": 20161
         }
       },
       {
         "Id": 20165,
-        "FrameColor": "black",
         "Name": "Room # 2 #20165",
-        "Color": "black",
         "Connections": {
           "North": 20162
         }
       },
       {
         "Id": 20166,
-        "FrameColor": "black",
         "Name": "Room # 3 #20166",
-        "Color": "black",
         "Connections": {
           "East": 20162
         }
       },
       {
         "Id": 20167,
-        "FrameColor": "black",
         "Name": "Room # 4 #20167",
-        "Color": "black",
         "Connections": {
           "South": 20162
         }
       },
       {
         "Id": 20168,
-        "FrameColor": "black",
         "Name": "Back Room #20168",
-        "Color": "black",
         "Connections": {
           "South": 20159,
           "West": 20169,
@@ -2496,27 +2222,21 @@
       },
       {
         "Id": 20169,
-        "FrameColor": "black",
         "Name": "Owner\u0027s Living Quarters #20169",
-        "Color": "black",
         "Connections": {
           "East": 20168
         }
       },
       {
         "Id": 20170,
-        "FrameColor": "black",
         "Name": "Basement #20170",
-        "Color": "black",
         "Connections": {
           "Up": 20168
         }
       },
       {
         "Id": 20171,
-        "FrameColor": "black",
         "Name": "Corner of North Street and Mandrake Avenue #20171",
-        "Color": "black",
         "Connections": {
           "East": 20172,
           "South": 20181
@@ -2534,9 +2254,7 @@
       },
       {
         "Id": 20172,
-        "FrameColor": "black",
         "Name": "North Street 100 Block #20172",
-        "Color": "black",
         "Connections": {
           "East": 20173,
           "South": 20291,
@@ -2545,9 +2263,7 @@
       },
       {
         "Id": 20173,
-        "FrameColor": "black",
         "Name": "Intersection of North Street and Dirk Lane #20173",
-        "Color": "black",
         "Connections": {
           "East": 20174,
           "South": 20196,
@@ -2562,9 +2278,7 @@
       },
       {
         "Id": 20174,
-        "FrameColor": "black",
         "Name": "North Street 300 Block #20174",
-        "Color": "black",
         "Connections": {
           "East": 20175,
           "West": 20173
@@ -2572,9 +2286,7 @@
       },
       {
         "Id": 20175,
-        "FrameColor": "black",
         "Name": "Northern Gate #20175",
-        "Color": "black",
         "Connections": {
           "East": 20176,
           "West": 20174
@@ -2592,9 +2304,7 @@
       },
       {
         "Id": 20176,
-        "FrameColor": "black",
         "Name": "North Street 500 Block #20176",
-        "Color": "black",
         "Connections": {
           "East": 20177,
           "West": 20175
@@ -2602,9 +2312,7 @@
       },
       {
         "Id": 20177,
-        "FrameColor": "black",
         "Name": "North Street 600 Block #20177",
-        "Color": "black",
         "Connections": {
           "East": 20178,
           "South": 20019,
@@ -2613,9 +2321,7 @@
       },
       {
         "Id": 20178,
-        "FrameColor": "black",
         "Name": "North Street 700 Block #20178",
-        "Color": "black",
         "Connections": {
           "East": 20179,
           "West": 20177
@@ -2623,9 +2329,7 @@
       },
       {
         "Id": 20179,
-        "FrameColor": "black",
         "Name": "Intersection of North Street and Blue Drake Road #20179",
-        "Color": "black",
         "Connections": {
           "East": 20180,
           "South": 20210,
@@ -2634,9 +2338,7 @@
       },
       {
         "Id": 20180,
-        "FrameColor": "black",
         "Name": "Corner of North Street and Grehyton Road #20180",
-        "Color": "black",
         "Connections": {
           "South": 20214,
           "West": 20179
@@ -2654,9 +2356,7 @@
       },
       {
         "Id": 20181,
-        "FrameColor": "black",
         "Name": "Mandrake Avenue 100 Block #20181",
-        "Color": "black",
         "Connections": {
           "North": 20171,
           "East": 20291,
@@ -2665,9 +2365,7 @@
       },
       {
         "Id": 20182,
-        "FrameColor": "black",
         "Name": "Intersection of Mandrake Avenue and Storm Crest Avenue #20182",
-        "Color": "black",
         "Connections": {
           "North": 20181,
           "East": 20201,
@@ -2676,9 +2374,7 @@
       },
       {
         "Id": 20183,
-        "FrameColor": "black",
         "Name": "Mandrake Avenue 300 Block #20183",
-        "Color": "black",
         "Connections": {
           "North": 20182,
           "South": 20184
@@ -2686,9 +2382,7 @@
       },
       {
         "Id": 20184,
-        "FrameColor": "black",
         "Name": "Intersection of Mandrake Avenue and Dirk Lane #20184",
-        "Color": "black",
         "Connections": {
           "North": 20183,
           "East": 20200,
@@ -2697,9 +2391,7 @@
       },
       {
         "Id": 20185,
-        "FrameColor": "black",
         "Name": "Mandrake Avenue 500 Block #20185",
-        "Color": "black",
         "Connections": {
           "North": 20184,
           "South": 20186
@@ -2707,9 +2399,7 @@
       },
       {
         "Id": 20186,
-        "FrameColor": "black",
         "Name": "Mandrake Avenue 600 Block #20186",
-        "Color": "black",
         "Connections": {
           "North": 20185,
           "South": 20187
@@ -2717,9 +2407,7 @@
       },
       {
         "Id": 20187,
-        "FrameColor": "black",
         "Name": "Intersection of Mandrake Avenue and Dungeon Drive #20187",
-        "Color": "black",
         "Connections": {
           "North": 20186,
           "East": 20245,
@@ -2728,13 +2416,12 @@
       },
       {
         "Id": 20188,
-        "FrameColor": "black",
         "Name": "Mandrake Avenue 800 Block #20188",
-        "Color": "black",
         "Connections": {
           "North": 20187,
           "East": {
             "RoomId": 20297,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -2749,9 +2436,7 @@
       },
       {
         "Id": 20189,
-        "FrameColor": "black",
         "Name": "Intersection of Mandrake Avenue and Riverfront Way #20189",
-        "Color": "black",
         "Connections": {
           "North": 20188,
           "East": 20253,
@@ -2760,9 +2445,7 @@
       },
       {
         "Id": 20190,
-        "FrameColor": "black",
         "Name": "Mandrake Avenue on the Durgas River Bridge #20190",
-        "Color": "black",
         "Connections": {
           "North": 20189,
           "South": 20191
@@ -2770,9 +2453,7 @@
       },
       {
         "Id": 20191,
-        "FrameColor": "black",
         "Name": "Intersection of Mandrake Avenue and South Bank Drive #20191",
-        "Color": "black",
         "Connections": {
           "North": 20190,
           "East": 20258,
@@ -2781,9 +2462,7 @@
       },
       {
         "Id": 20192,
-        "FrameColor": "black",
         "Name": "Mandrake Avenue 1100 Block #20192",
-        "Color": "black",
         "Connections": {
           "North": 20191,
           "South": 20193
@@ -2791,9 +2470,7 @@
       },
       {
         "Id": 20193,
-        "FrameColor": "black",
         "Name": "Mandrake Avenue 1200 Block #20193",
-        "Color": "black",
         "Connections": {
           "North": 20192,
           "South": 20194
@@ -2801,9 +2478,7 @@
       },
       {
         "Id": 20194,
-        "FrameColor": "black",
         "Name": "Mandrake Avenue 1300 Block #20194",
-        "Color": "black",
         "Connections": {
           "North": 20193,
           "South": 20195
@@ -2811,9 +2486,7 @@
       },
       {
         "Id": 20195,
-        "FrameColor": "black",
         "Name": "Corner of Mandrake Avenue and Calinth Way #20195",
-        "Color": "black",
         "Connections": {
           "North": 20194,
           "East": 20266
@@ -2831,9 +2504,7 @@
       },
       {
         "Id": 20196,
-        "FrameColor": "black",
         "Name": "Dirk Lane 100 Block #20196",
-        "Color": "black",
         "Connections": {
           "North": 20173,
           "South": 20197
@@ -2841,9 +2512,7 @@
       },
       {
         "Id": 20197,
-        "FrameColor": "black",
         "Name": "Intersection of Storm Crest Avenue and Dirk Lane #20197",
-        "Color": "black",
         "Connections": {
           "North": 20196,
           "East": 20202,
@@ -2859,13 +2528,12 @@
       },
       {
         "Id": 20198,
-        "FrameColor": "black",
         "Name": "Dirk Lane 300 Block #20198",
-        "Color": "black",
         "Connections": {
           "North": 20197,
           "East": {
             "RoomId": 20058,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -2880,13 +2548,12 @@
       },
       {
         "Id": 20199,
-        "FrameColor": "black",
         "Name": "Dirk Lane 400 Block #20199",
-        "Color": "black",
         "Connections": {
           "North": 20198,
           "East": {
             "RoomId": 20061,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -2901,9 +2568,7 @@
       },
       {
         "Id": 20200,
-        "FrameColor": "black",
         "Name": "Dirk Lane 500 Block #20200",
-        "Color": "black",
         "Connections": {
           "North": 20000,
           "East": 20199,
@@ -2922,9 +2587,7 @@
       },
       {
         "Id": 20201,
-        "FrameColor": "black",
         "Name": "Storm Crest Avenue 100 Block #20201",
-        "Color": "black",
         "Connections": {
           "East": 20197,
           "West": 20182
@@ -2932,9 +2595,7 @@
       },
       {
         "Id": 20202,
-        "FrameColor": "black",
         "Name": "Storm Crest Avenue 300 Block #20202",
-        "Color": "black",
         "Connections": {
           "East": 20203,
           "West": 20197
@@ -2942,9 +2603,7 @@
       },
       {
         "Id": 20203,
-        "FrameColor": "black",
         "Name": "Storm Crest Avenue 400 Block #20203",
-        "Color": "black",
         "Connections": {
           "East": 20204,
           "South": 20228,
@@ -2953,13 +2612,12 @@
       },
       {
         "Id": 20204,
-        "FrameColor": "black",
         "Name": "Storm Crest Avenue 500 Block #20204",
-        "Color": "black",
         "Connections": {
           "East": 20205,
           "South": {
             "RoomId": 20302,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -2974,9 +2632,7 @@
       },
       {
         "Id": 20205,
-        "FrameColor": "black",
         "Name": "Intersection of Storm Crest Avenue and Grayford Lane #20205",
-        "Color": "black",
         "Connections": {
           "East": 20206,
           "South": 20231,
@@ -2985,9 +2641,7 @@
       },
       {
         "Id": 20206,
-        "FrameColor": "black",
         "Name": "Storm Crest Avenue 700 Block #20206",
-        "Color": "black",
         "Connections": {
           "East": 20207,
           "West": 20205
@@ -2995,9 +2649,7 @@
       },
       {
         "Id": 20207,
-        "FrameColor": "black",
         "Name": "Intersection of Storm Crest Avenue and Blue Drake Road #20207",
-        "Color": "black",
         "Connections": {
           "North": 20210,
           "East": 20208,
@@ -3007,9 +2659,7 @@
       },
       {
         "Id": 20208,
-        "FrameColor": "black",
         "Name": "Storm Crest Avenue 900 Block #20208",
-        "Color": "black",
         "Connections": {
           "East": 20209,
           "West": 20207
@@ -3017,9 +2667,7 @@
       },
       {
         "Id": 20209,
-        "FrameColor": "black",
         "Name": "Intersection of Grehyton Road and Storm Crest Avenue #20209",
-        "Color": "black",
         "Connections": {
           "North": 20214,
           "South": 20215,
@@ -3028,9 +2676,7 @@
       },
       {
         "Id": 20210,
-        "FrameColor": "black",
         "Name": "Blue Drake Road 100 Block #20210",
-        "Color": "black",
         "Connections": {
           "North": 20179,
           "East": 20284,
@@ -3039,13 +2685,12 @@
       },
       {
         "Id": 20211,
-        "FrameColor": "black",
         "Name": "Blue Drake Road 300 Block #20211",
-        "Color": "black",
         "Connections": {
           "North": 20207,
           "East": {
             "RoomId": 20047,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3060,9 +2705,7 @@
       },
       {
         "Id": 20212,
-        "FrameColor": "black",
         "Name": "Intersection of Blue Drake Road and Gables Place #20212",
-        "Color": "black",
         "Connections": {
           "North": 20211,
           "East": 20238,
@@ -3072,13 +2715,12 @@
       },
       {
         "Id": 20213,
-        "FrameColor": "black",
         "Name": "End of Blue Drake Road 500 Block #20213",
-        "Color": "black",
         "Connections": {
           "North": 20212,
           "East": {
             "RoomId": 20034,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3090,6 +2732,7 @@
           },
           "South": {
             "RoomId": 20125,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3103,9 +2746,7 @@
       },
       {
         "Id": 20214,
-        "FrameColor": "black",
         "Name": "Grehyton Road 100 Block #20214",
-        "Color": "black",
         "Connections": {
           "North": 20180,
           "South": 20209,
@@ -3114,9 +2755,7 @@
       },
       {
         "Id": 20215,
-        "FrameColor": "black",
         "Name": "Grehyton Road 300 Block #20215",
-        "Color": "black",
         "Connections": {
           "North": 20209,
           "South": 20216
@@ -3124,9 +2763,7 @@
       },
       {
         "Id": 20216,
-        "FrameColor": "black",
         "Name": "Intersection of Grehyton Road and Gables Place #20216",
-        "Color": "black",
         "Connections": {
           "North": 20215,
           "South": 20217,
@@ -3135,9 +2772,7 @@
       },
       {
         "Id": 20217,
-        "FrameColor": "black",
         "Name": "Grehyton Road 500 Block #20217",
-        "Color": "black",
         "Connections": {
           "North": 20216,
           "South": 20218
@@ -3145,9 +2780,7 @@
       },
       {
         "Id": 20218,
-        "FrameColor": "black",
         "Name": "Grehyton Road 600 Block #20218",
-        "Color": "black",
         "Connections": {
           "North": 20217,
           "South": 20219
@@ -3155,9 +2788,7 @@
       },
       {
         "Id": 20219,
-        "FrameColor": "black",
         "Name": "Intersection of Grehyton Road and Dungeon Drive #20219",
-        "Color": "black",
         "Connections": {
           "North": 20218,
           "South": 20220,
@@ -3166,14 +2797,13 @@
       },
       {
         "Id": 20220,
-        "FrameColor": "black",
         "Name": "Grehyton Road 800 Block #20220",
-        "Color": "black",
         "Connections": {
           "North": 20219,
           "South": 20221,
           "West": {
             "RoomId": 20306,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3187,9 +2817,7 @@
       },
       {
         "Id": 20221,
-        "FrameColor": "black",
         "Name": "Intersection of Grehyton Road and Riverfront Way #20221",
-        "Color": "black",
         "Connections": {
           "North": 20220,
           "South": 20222,
@@ -3198,9 +2826,7 @@
       },
       {
         "Id": 20222,
-        "FrameColor": "black",
         "Name": "Grehyton Road on Leherak Bridge #20222",
-        "Color": "black",
         "Connections": {
           "North": 20221,
           "South": 20223
@@ -3208,9 +2834,7 @@
       },
       {
         "Id": 20223,
-        "FrameColor": "black",
         "Name": "Intersection of Grehyton Road and South Bank Drive #20223",
-        "Color": "black",
         "Connections": {
           "North": 20222,
           "South": 20224,
@@ -3219,9 +2843,7 @@
       },
       {
         "Id": 20224,
-        "FrameColor": "black",
         "Name": "Grehyton Road 1000 Block #20224",
-        "Color": "black",
         "Connections": {
           "North": 20223,
           "South": 20225
@@ -3229,9 +2851,7 @@
       },
       {
         "Id": 20225,
-        "FrameColor": "black",
         "Name": "The East Gate Of Calinth #20225",
-        "Color": "black",
         "Connections": {
           "North": 20224,
           "South": 20226,
@@ -3250,9 +2870,7 @@
       },
       {
         "Id": 20226,
-        "FrameColor": "black",
         "Name": "Grehyton Road 1300 Block #20226",
-        "Color": "black",
         "Connections": {
           "North": 20225,
           "South": 20227
@@ -3260,9 +2878,7 @@
       },
       {
         "Id": 20227,
-        "FrameColor": "black",
         "Name": "Corner of Grehyton Road and Calinth Way #20227",
-        "Color": "black",
         "Connections": {
           "North": 20226,
           "West": 20278
@@ -3280,9 +2896,7 @@
       },
       {
         "Id": 20228,
-        "FrameColor": "black",
         "Name": "North Storm Crest Alley #20228",
-        "Color": "black",
         "Connections": {
           "North": 20203,
           "South": 20229
@@ -3296,9 +2910,7 @@
       },
       {
         "Id": 20229,
-        "FrameColor": "black",
         "Name": "South Storm Crest Alley #20229",
-        "Color": "black",
         "Connections": {
           "North": 20228,
           "South": 20230
@@ -3306,9 +2918,7 @@
       },
       {
         "Id": 20230,
-        "FrameColor": "black",
         "Name": "Colton Circle 300 Block #20230",
-        "Color": "black",
         "Connections": {
           "North": 20229,
           "East": 20242,
@@ -3323,9 +2933,7 @@
       },
       {
         "Id": 20231,
-        "FrameColor": "black",
         "Name": "Grayford Lane 100 Block #20231",
-        "Color": "black",
         "Connections": {
           "North": 20205,
           "South": 20232
@@ -3333,9 +2941,7 @@
       },
       {
         "Id": 20232,
-        "FrameColor": "black",
         "Name": "Intersection of Grayford Lane and Gables Place #20232",
-        "Color": "black",
         "Connections": {
           "North": 20231,
           "East": 20237,
@@ -3345,9 +2951,7 @@
       },
       {
         "Id": 20233,
-        "FrameColor": "black",
         "Name": "Grayford Lane 300 Block #20233",
-        "Color": "black",
         "Connections": {
           "North": 20232,
           "South": 20234
@@ -3355,13 +2959,12 @@
       },
       {
         "Id": 20234,
-        "FrameColor": "black",
         "Name": "Grayford Lane 400 Block #20234",
-        "Color": "black",
         "Connections": {
           "North": 20233,
           "East": {
             "RoomId": 20137,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3376,9 +2979,7 @@
       },
       {
         "Id": 20235,
-        "FrameColor": "black",
         "Name": "Intersection of Dungeon Drive and End of Grayford Lane #20235",
-        "Color": "black",
         "Connections": {
           "North": 20234,
           "East": 20248,
@@ -3387,9 +2988,7 @@
       },
       {
         "Id": 20236,
-        "FrameColor": "black",
         "Name": "End of Gables Place 500 Block #20236",
-        "Color": "black",
         "Connections": {
           "North": 20086,
           "East": 20232
@@ -3397,9 +2996,7 @@
       },
       {
         "Id": 20237,
-        "FrameColor": "black",
         "Name": "Gables Place 300 Block #20237",
-        "Color": "black",
         "Connections": {
           "East": 20212,
           "West": 20232
@@ -3407,9 +3004,7 @@
       },
       {
         "Id": 20238,
-        "FrameColor": "black",
         "Name": "Gables Place 100 Block #20238",
-        "Color": "black",
         "Connections": {
           "East": 20216,
           "West": 20212
@@ -3417,9 +3012,7 @@
       },
       {
         "Id": 20239,
-        "FrameColor": "black",
         "Name": "Intersection of Dungeon Drive and Colton Circle #20239",
-        "Color": "black",
         "Connections": {
           "North": 20240,
           "East": 20246,
@@ -3428,13 +3021,12 @@
       },
       {
         "Id": 20240,
-        "FrameColor": "black",
         "Name": "Colton Circle 100 Block #20240",
-        "Color": "black",
         "Connections": {
           "North": 20241,
           "East": {
             "RoomId": 20032,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3449,14 +3041,13 @@
       },
       {
         "Id": 20241,
-        "FrameColor": "black",
         "Name": "Colton Circle 200 Block #20241",
-        "Color": "black",
         "Connections": {
           "East": 20230,
           "South": 20240,
           "West": {
             "RoomId": 20318,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3470,12 +3061,11 @@
       },
       {
         "Id": 20242,
-        "FrameColor": "black",
         "Name": "Colton Circle 400 Block #20242",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20314,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3491,9 +3081,7 @@
       },
       {
         "Id": 20243,
-        "FrameColor": "black",
         "Name": "Colton Circle 500 Block #20243",
-        "Color": "black",
         "Connections": {
           "North": 20242,
           "South": 20244
@@ -3501,9 +3089,7 @@
       },
       {
         "Id": 20244,
-        "FrameColor": "black",
         "Name": "Intersection of Dungeon Drive and End of Colton Circle #20244",
-        "Color": "black",
         "Connections": {
           "North": 20243,
           "East": 20247,
@@ -3512,12 +3098,11 @@
       },
       {
         "Id": 20245,
-        "FrameColor": "black",
         "Name": "Dungeon Drive 100 Block #20245",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20012,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3533,12 +3118,11 @@
       },
       {
         "Id": 20246,
-        "FrameColor": "black",
         "Name": "Dungeon Drive 300 Block #20246",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20033,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3565,13 +3149,12 @@
       },
       {
         "Id": 20247,
-        "FrameColor": "black",
         "Name": "Dungeon Drive 500 Block #20247",
-        "Color": "black",
         "Connections": {
           "East": 20235,
           "South": {
             "RoomId": 20319,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3600,9 +3183,7 @@
       },
       {
         "Id": 20248,
-        "FrameColor": "black",
         "Name": "Intersection of Dungeon Drive and Doorstop Drive #20248",
-        "Color": "black",
         "Connections": {
           "East": 20219,
           "South": 20249,
@@ -3611,14 +3192,13 @@
       },
       {
         "Id": 20249,
-        "FrameColor": "black",
         "Name": "Doorstop Drive 100 Block #20249",
-        "Color": "black",
         "Connections": {
           "North": 20248,
           "South": 20250,
           "West": {
             "RoomId": 20326,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3632,9 +3212,7 @@
       },
       {
         "Id": 20250,
-        "FrameColor": "black",
         "Name": "Intersection of Riverfront Way and Doorstop Drive #20250",
-        "Color": "black",
         "Connections": {
           "North": 20249,
           "East": 20221,
@@ -3644,9 +3222,7 @@
       },
       {
         "Id": 20251,
-        "FrameColor": "black",
         "Name": "Doorstop Drive on Xavumeer Bridge #20251",
-        "Color": "black",
         "Connections": {
           "North": 20250,
           "South": 20252
@@ -3654,14 +3230,13 @@
       },
       {
         "Id": 20252,
-        "FrameColor": "black",
         "Name": "Intersection of South Bank Drive and End of Doorstop Drive #20252",
-        "Color": "black",
         "Connections": {
           "North": 20251,
           "East": 20223,
           "South": {
             "RoomId": 20052,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3676,9 +3251,7 @@
       },
       {
         "Id": 20253,
-        "FrameColor": "black",
         "Name": "Riverfront Way 100 Block #20253",
-        "Color": "black",
         "Connections": {
           "East": 20254,
           "West": 20189
@@ -3686,9 +3259,7 @@
       },
       {
         "Id": 20254,
-        "FrameColor": "black",
         "Name": "Riverfront Way 200 Block #20254",
-        "Color": "black",
         "Connections": {
           "East": 20255,
           "West": 20253
@@ -3696,9 +3267,7 @@
       },
       {
         "Id": 20255,
-        "FrameColor": "black",
         "Name": "Riverfront Way 300 Block #20255",
-        "Color": "black",
         "Connections": {
           "East": 20256,
           "West": 20254
@@ -3706,9 +3275,7 @@
       },
       {
         "Id": 20256,
-        "FrameColor": "black",
         "Name": "Riverfront Way 400 Block #20256",
-        "Color": "black",
         "Connections": {
           "East": 20257,
           "West": 20255
@@ -3716,12 +3283,11 @@
       },
       {
         "Id": 20257,
-        "FrameColor": "black",
         "Name": "Riverfront Way 500 Block #20257",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20148,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3737,9 +3303,7 @@
       },
       {
         "Id": 20258,
-        "FrameColor": "black",
         "Name": "Intersection of South Bank Drive and Hedram Place #20258",
-        "Color": "black",
         "Connections": {
           "East": 20259,
           "South": 20263,
@@ -3748,9 +3312,7 @@
       },
       {
         "Id": 20259,
-        "FrameColor": "black",
         "Name": "South Bank Drive 200 Block #20259",
-        "Color": "black",
         "Connections": {
           "East": 20260,
           "West": 20258
@@ -3758,13 +3320,12 @@
       },
       {
         "Id": 20260,
-        "FrameColor": "black",
         "Name": "South Bank Drive 300 Block #20260",
-        "Color": "black",
         "Connections": {
           "East": 20261,
           "South": {
             "RoomId": 20310,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3779,9 +3340,7 @@
       },
       {
         "Id": 20261,
-        "FrameColor": "black",
         "Name": "Intersection of South Bank Drive and Forworth Boulevard #20261",
-        "Color": "black",
         "Connections": {
           "East": 20262,
           "South": 20267,
@@ -3790,9 +3349,7 @@
       },
       {
         "Id": 20262,
-        "FrameColor": "black",
         "Name": "South Bank Drive 500 Block #20262",
-        "Color": "black",
         "Connections": {
           "East": 20252,
           "West": 20261
@@ -3800,9 +3357,7 @@
       },
       {
         "Id": 20263,
-        "FrameColor": "black",
         "Name": "Hedram Place 100 Block #20263",
-        "Color": "black",
         "Connections": {
           "North": 20258,
           "South": 20264,
@@ -3811,9 +3366,7 @@
       },
       {
         "Id": 20264,
-        "FrameColor": "black",
         "Name": "Intersection of Troll Street and Hedram Place #20264",
-        "Color": "black",
         "Connections": {
           "North": 20263,
           "East": 20271,
@@ -3822,9 +3375,7 @@
       },
       {
         "Id": 20265,
-        "FrameColor": "black",
         "Name": "Hedram Place 300 Block #20265",
-        "Color": "black",
         "Connections": {
           "North": 20264,
           "South": 20266
@@ -3832,9 +3383,7 @@
       },
       {
         "Id": 20266,
-        "FrameColor": "black",
         "Name": "Intersection of Calinth Way and Hedram Place #20266",
-        "Color": "black",
         "Connections": {
           "North": 20265,
           "East": 20275,
@@ -3843,9 +3392,7 @@
       },
       {
         "Id": 20267,
-        "FrameColor": "black",
         "Name": "Forworth Boulevard 100 Block #20267",
-        "Color": "black",
         "Connections": {
           "North": 20261,
           "East": 20064,
@@ -3854,9 +3401,7 @@
       },
       {
         "Id": 20268,
-        "FrameColor": "black",
         "Name": "Intersection of Troll Street and Forworth Boulevard #20268",
-        "Color": "black",
         "Connections": {
           "North": 20267,
           "East": 20273,
@@ -3866,9 +3411,7 @@
       },
       {
         "Id": 20269,
-        "FrameColor": "black",
         "Name": "Forworth Boulevard 300 Block #20269",
-        "Color": "black",
         "Connections": {
           "North": 20268,
           "South": 20270
@@ -3876,9 +3419,7 @@
       },
       {
         "Id": 20270,
-        "FrameColor": "black",
         "Name": "Intersection of Calinth Way and Forworth Boulevard #20270",
-        "Color": "black",
         "Connections": {
           "North": 20269,
           "East": 20277,
@@ -3887,13 +3428,12 @@
       },
       {
         "Id": 20271,
-        "FrameColor": "black",
         "Name": "Troll Street 100 Block #20271",
-        "Color": "black",
         "Connections": {
           "East": 20272,
           "South": {
             "RoomId": 20279,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3908,9 +3448,7 @@
       },
       {
         "Id": 20272,
-        "FrameColor": "black",
         "Name": "Troll Street 200 Block #20272",
-        "Color": "black",
         "Connections": {
           "East": 20268,
           "West": 20271
@@ -3918,9 +3456,7 @@
       },
       {
         "Id": 20273,
-        "FrameColor": "black",
         "Name": "Troll Street 400 Block #20273",
-        "Color": "black",
         "Connections": {
           "East": 20274,
           "West": 20268
@@ -3928,13 +3464,12 @@
       },
       {
         "Id": 20274,
-        "FrameColor": "black",
         "Name": "Troll Street 500 Block #20274",
-        "Color": "black",
         "Connections": {
           "East": 20225,
           "South": {
             "RoomId": 20079,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3949,9 +3484,7 @@
       },
       {
         "Id": 20275,
-        "FrameColor": "black",
         "Name": "Calinth Way 200 Block #20275",
-        "Color": "black",
         "Connections": {
           "East": 20276,
           "West": 20266
@@ -3959,9 +3492,7 @@
       },
       {
         "Id": 20276,
-        "FrameColor": "black",
         "Name": "Calinth Way 300 Block #20276",
-        "Color": "black",
         "Connections": {
           "East": 20270,
           "West": 20275
@@ -3969,12 +3500,11 @@
       },
       {
         "Id": 20277,
-        "FrameColor": "black",
         "Name": "Calinth Way 500 Block #20277",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20285,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -3990,9 +3520,7 @@
       },
       {
         "Id": 20278,
-        "FrameColor": "black",
         "Name": "Calinth Way 600 Block #20278",
-        "Color": "black",
         "Connections": {
           "East": 20227,
           "West": 20277
@@ -4000,12 +3528,11 @@
       },
       {
         "Id": 20279,
-        "FrameColor": "black",
         "Name": "Riautar\u0027s Weaponry #20279",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20271,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4017,6 +3544,7 @@
           },
           "East": {
             "RoomId": 20280,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4037,22 +3565,19 @@
       },
       {
         "Id": 20280,
-        "FrameColor": "black",
         "Name": "Storage Room #20280",
-        "Color": "black",
         "Connections": {
           "West": 20279
         }
       },
       {
         "Id": 20281,
-        "FrameColor": "black",
         "Name": "Common Room #20281",
-        "Color": "black",
         "Connections": {
           "North": 20279,
           "East": {
             "RoomId": 20282,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4067,27 +3592,21 @@
       },
       {
         "Id": 20282,
-        "FrameColor": "black",
         "Name": "Riautar\u0027s Bedroom #20282",
-        "Color": "black",
         "Connections": {
           "West": 20281
         }
       },
       {
         "Id": 20283,
-        "FrameColor": "black",
         "Name": "Office #20283",
-        "Color": "black",
         "Connections": {
           "North": 20281
         }
       },
       {
         "Id": 20284,
-        "FrameColor": "black",
         "Name": "Warriors of Calinth Monument Plaza #20284",
-        "Color": "black",
         "Connections": {
           "East": 20214,
           "West": 20210
@@ -4105,14 +3624,13 @@
       },
       {
         "Id": 20285,
-        "FrameColor": "black",
         "Name": "Melgard\u0027s Fine Leather #20285",
-        "Color": "black",
         "Connections": {
           "North": 20286,
           "East": 20288,
           "South": {
             "RoomId": 20277,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4132,13 +3650,12 @@
       },
       {
         "Id": 20286,
-        "FrameColor": "black",
         "Name": "Leather Making Area #20286",
-        "Color": "black",
         "Connections": {
           "South": 20285,
           "West": {
             "RoomId": 20287,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4152,21 +3669,18 @@
       },
       {
         "Id": 20287,
-        "FrameColor": "black",
         "Name": "Storage #20287",
-        "Color": "black",
         "Connections": {
           "East": 20286
         }
       },
       {
         "Id": 20288,
-        "FrameColor": "black",
         "Name": "Common Room #20288",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20289,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4182,27 +3696,21 @@
       },
       {
         "Id": 20289,
-        "FrameColor": "black",
         "Name": "Bedroom #20289",
-        "Color": "black",
         "Connections": {
           "South": 20288
         }
       },
       {
         "Id": 20290,
-        "FrameColor": "black",
         "Name": "Kitchen and Dining Area #20290",
-        "Color": "black",
         "Connections": {
           "West": 20288
         }
       },
       {
         "Id": 20291,
-        "FrameColor": "black",
         "Name": "Bath House Atrium #20291",
-        "Color": "black",
         "Connections": {
           "North": 20172,
           "East": 20293,
@@ -4212,18 +3720,14 @@
       },
       {
         "Id": 20292,
-        "FrameColor": "black",
         "Name": "Fountain Garden #20292",
-        "Color": "black",
         "Connections": {
           "North": 20291
         }
       },
       {
         "Id": 20293,
-        "FrameColor": "black",
         "Name": "Changing Room #20293",
-        "Color": "black",
         "Connections": {
           "East": 20294,
           "West": 20291
@@ -4231,9 +3735,7 @@
       },
       {
         "Id": 20294,
-        "FrameColor": "black",
         "Name": "Main Pool Side #20294",
-        "Color": "black",
         "Connections": {
           "North": 20295,
           "East": 20296,
@@ -4243,32 +3745,27 @@
       },
       {
         "Id": 20295,
-        "FrameColor": "black",
         "Name": "Small, Heated, Bubbling Pool #20295",
-        "Color": "black",
         "Connections": {
           "South": 20294
         }
       },
       {
         "Id": 20296,
-        "FrameColor": "black",
         "Name": "Steam Room #20296",
-        "Color": "black",
         "Connections": {
           "West": 20294
         }
       },
       {
         "Id": 20297,
-        "FrameColor": "black",
         "Name": "First Bank of Calinth #20297",
-        "Color": "black",
         "Connections": {
           "East": 20299,
           "South": 20298,
           "West": {
             "RoomId": 20188,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4282,9 +3779,7 @@
       },
       {
         "Id": 20298,
-        "FrameColor": "black",
         "Name": "Loan Agent #20298",
-        "Color": "black",
         "Connections": {
           "North": 20297,
           "South": 20300
@@ -4292,12 +3787,11 @@
       },
       {
         "Id": 20299,
-        "FrameColor": "black",
         "Name": "Clerk\u0027s Window #20299",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 20301,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -4318,9 +3812,7 @@
       },
       {
         "Id": 20300,
-        "FrameColor": "black",
         "Name": "Manager\u0027s Office #20300",
-        "Color": "black",
         "Connections": {
           "North": 20298
         },
@@ -4337,12 +3829,11 @@
       },
       {
         "Id": 20301,
-        "FrameColor": "black",
         "Name": "Vault #20301",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 20299,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -4356,12 +3847,11 @@
       },
       {
         "Id": 20302,
-        "FrameColor": "black",
         "Name": "Palauvir\u0027s Counter #20302",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20204,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4376,13 +3866,12 @@
       },
       {
         "Id": 20303,
-        "FrameColor": "black",
         "Name": "Back Room #20303",
-        "Color": "black",
         "Connections": {
           "North": 20302,
           "East": {
             "RoomId": 20305,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4397,30 +3886,25 @@
       },
       {
         "Id": 20304,
-        "FrameColor": "black",
         "Name": "Quarters #20304",
-        "Color": "black",
         "Connections": {
           "East": 20303
         }
       },
       {
         "Id": 20305,
-        "FrameColor": "black",
         "Name": "Storage #20305",
-        "Color": "black",
         "Connections": {
           "West": 20303
         }
       },
       {
         "Id": 20306,
-        "FrameColor": "black",
         "Name": "Khostall Hanuss, Fine Nuts #20306",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 20220,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4435,14 +3919,13 @@
       },
       {
         "Id": 20307,
-        "FrameColor": "black",
         "Name": "Back Room #20307",
-        "Color": "black",
         "Connections": {
           "North": 20306,
           "East": 20308,
           "West": {
             "RoomId": 20309,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4456,30 +3939,25 @@
       },
       {
         "Id": 20308,
-        "FrameColor": "black",
         "Name": "Quarters #20308",
-        "Color": "black",
         "Connections": {
           "West": 20307
         }
       },
       {
         "Id": 20309,
-        "FrameColor": "black",
         "Name": "Storage #20309",
-        "Color": "black",
         "Connections": {
           "East": 20307
         }
       },
       {
         "Id": 20310,
-        "FrameColor": "black",
         "Name": "The Slaughterhouse #20310",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20260,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4500,14 +3978,13 @@
       },
       {
         "Id": 20311,
-        "FrameColor": "black",
         "Name": "Back Room #20311",
-        "Color": "black",
         "Connections": {
           "North": 20310,
           "East": 20313,
           "West": {
             "RoomId": 20312,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4521,30 +3998,25 @@
       },
       {
         "Id": 20312,
-        "FrameColor": "black",
         "Name": "Storage #20312",
-        "Color": "black",
         "Connections": {
           "East": 20311
         }
       },
       {
         "Id": 20313,
-        "FrameColor": "black",
         "Name": "Quarters #20313",
-        "Color": "black",
         "Connections": {
           "West": 20311
         }
       },
       {
         "Id": 20314,
-        "FrameColor": "black",
         "Name": "Rahib\u0027s Jewels #20314",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20315,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4556,6 +4028,7 @@
           },
           "South": {
             "RoomId": 20242,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4575,13 +4048,12 @@
       },
       {
         "Id": 20315,
-        "FrameColor": "black",
         "Name": "Back Room #20315",
-        "Color": "black",
         "Connections": {
           "North": 20317,
           "East": {
             "RoomId": 20316,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4596,30 +4068,25 @@
       },
       {
         "Id": 20316,
-        "FrameColor": "black",
         "Name": "Storage #20316",
-        "Color": "black",
         "Connections": {
           "West": 20315
         }
       },
       {
         "Id": 20317,
-        "FrameColor": "black",
         "Name": "Quarters #20317",
-        "Color": "black",
         "Connections": {
           "South": 20315
         }
       },
       {
         "Id": 20318,
-        "FrameColor": "black",
         "Name": "The Captain\u0027s Office #20318",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 20241,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4633,12 +4100,11 @@
       },
       {
         "Id": 20319,
-        "FrameColor": "black",
         "Name": "Jail House #20319",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 20247,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4655,22 +4121,19 @@
       },
       {
         "Id": 20320,
-        "FrameColor": "black",
         "Name": "Office #20320",
-        "Color": "black",
         "Connections": {
           "West": 20319
         }
       },
       {
         "Id": 20321,
-        "FrameColor": "black",
         "Name": "Interrogation Area #20321",
-        "Color": "black",
         "Connections": {
           "North": 20319,
           "East": {
             "RoomId": 20325,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4682,6 +4145,7 @@
           },
           "South": {
             "RoomId": 20324,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4693,6 +4157,7 @@
           },
           "West": {
             "RoomId": 20323,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4706,45 +4171,35 @@
       },
       {
         "Id": 20322,
-        "FrameColor": "black",
         "Name": "Large Common Cell #20322",
-        "Color": "black",
         "Connections": {
           "East": 20319
         }
       },
       {
         "Id": 20323,
-        "FrameColor": "black",
         "Name": "Cell #1 #20323",
-        "Color": "black",
         "Connections": {
           "East": 20321
         }
       },
       {
         "Id": 20324,
-        "FrameColor": "black",
         "Name": "Cell #2 #20324",
-        "Color": "black",
         "Connections": {
           "North": 20321
         }
       },
       {
         "Id": 20325,
-        "FrameColor": "black",
         "Name": "Cell #3 #20325",
-        "Color": "black",
         "Connections": {
           "West": 20321
         }
       },
       {
         "Id": 20326,
-        "FrameColor": "black",
         "Name": "Tuck\u0027s Store #20326",
-        "Color": "black",
         "Connections": {
           "East": 20249,
           "West": 20327
@@ -4758,14 +4213,13 @@
       },
       {
         "Id": 20327,
-        "FrameColor": "black",
         "Name": "Back Room #20327",
-        "Color": "black",
         "Connections": {
           "North": 20329,
           "East": 20326,
           "West": {
             "RoomId": 20328,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -4779,42 +4233,30 @@
       },
       {
         "Id": 20328,
-        "FrameColor": "black",
         "Name": "Storage #20328",
-        "Color": "black",
         "Connections": {
           "East": 20327
         }
       },
       {
         "Id": 20329,
-        "FrameColor": "black",
         "Name": "Quarters #20329",
-        "Color": "black",
         "Connections": {
           "South": 20327
         }
       },
       {
         "Id": 20330,
-        "FrameColor": "black",
         "Name": "MOB Storage Room #20330",
-        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 20331,
-        "FrameColor": "black",
         "Name": "In the Main Pool #20331",
-        "Color": "black",
         "Connections": {
           "Up": 20294
         }
       }
     ]
-  },
-  "BuildOptions": {
-    "MaxSteps": 1000,
-    "MaxCompactSteps": 10000
   }
 }

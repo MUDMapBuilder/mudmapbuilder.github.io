@@ -3,13 +3,10 @@
     "Name": "Caverns of Reflection",
     "Credits": "",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 30800,
-        "FrameColor": "black",
         "Name": "Cave Mouth #30800",
-        "Color": "black",
         "Connections": {
           "North": 30803,
           "East": 30802,
@@ -18,27 +15,21 @@
       },
       {
         "Id": 30801,
-        "FrameColor": "black",
         "Name": "Path Through the Mountain Foothills #30801",
-        "Color": "black",
         "Connections": {
           "East": 30800
         }
       },
       {
         "Id": 30802,
-        "FrameColor": "black",
         "Name": "Path Through the Mountain Foothills #30802",
-        "Color": "black",
         "Connections": {
           "West": 30800
         }
       },
       {
         "Id": 30803,
-        "FrameColor": "black",
         "Name": "Tunnel Entrance #30803",
-        "Color": "black",
         "Connections": {
           "North": 30804,
           "South": 30800
@@ -46,9 +37,7 @@
       },
       {
         "Id": 30804,
-        "FrameColor": "black",
         "Name": "Dark Tunnel #30804",
-        "Color": "black",
         "Connections": {
           "North": 30805,
           "South": 30803
@@ -56,9 +45,7 @@
       },
       {
         "Id": 30805,
-        "FrameColor": "black",
         "Name": "Dark Tunnel #30805",
-        "Color": "black",
         "Connections": {
           "South": 30804,
           "Up": 30806
@@ -66,9 +53,7 @@
       },
       {
         "Id": 30806,
-        "FrameColor": "black",
         "Name": "Above a Small Ledge #30806",
-        "Color": "black",
         "Connections": {
           "East": 30807,
           "Down": 30805
@@ -76,9 +61,7 @@
       },
       {
         "Id": 30807,
-        "FrameColor": "black",
         "Name": "Small Passageway #30807",
-        "Color": "black",
         "Connections": {
           "West": 30806
         },
@@ -130,9 +113,5 @@
         ]
       }
     ]
-  },
-  "BuildOptions": {
-    "MaxSteps": 1000,
-    "MaxCompactSteps": 10000
   }
 }
