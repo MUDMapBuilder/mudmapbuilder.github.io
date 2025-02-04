@@ -3,13 +3,10 @@
     "Name": "New Sparta II",
     "Credits": "Naved",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 27600,
-        "FrameColor": "black",
         "Name": "The Church #27600",
-        "Color": "black",
         "Connections": {
           "South": 27599
         },
@@ -22,9 +19,7 @@
       },
       {
         "Id": 27601,
-        "FrameColor": "black",
         "Name": "Fire Station #27601",
-        "Color": "black",
         "Connections": {
           "North": 27599,
           "South": 27602,
@@ -43,9 +38,7 @@
       },
       {
         "Id": 27602,
-        "FrameColor": "black",
         "Name": "Fire Marshall Bob\u0027s Office #27602",
-        "Color": "black",
         "Connections": {
           "North": 27601
         },
@@ -58,9 +51,7 @@
       },
       {
         "Id": 27603,
-        "FrameColor": "black",
         "Name": "Firemen\u0027s Quarters #27603",
-        "Color": "black",
         "Connections": {
           "Down": 27601
         },
@@ -81,9 +72,7 @@
       },
       {
         "Id": 27604,
-        "FrameColor": "black",
         "Name": "Second Avenue #27604",
-        "Color": "black",
         "Connections": {
           "East": 27570,
           "West": 27605
@@ -101,9 +90,7 @@
       },
       {
         "Id": 27605,
-        "FrameColor": "black",
         "Name": "Second Avenue #27605",
-        "Color": "black",
         "Connections": {
           "North": 27606,
           "East": 27604,
@@ -119,9 +106,7 @@
       },
       {
         "Id": 27606,
-        "FrameColor": "black",
         "Name": "The Pound #27606",
-        "Color": "black",
         "Connections": {
           "South": 27605
         },
@@ -222,9 +207,7 @@
       },
       {
         "Id": 27607,
-        "FrameColor": "black",
         "Name": "The Police Station #27607",
-        "Color": "black",
         "Connections": {
           "North": 27605,
           "South": 27609,
@@ -247,9 +230,7 @@
       },
       {
         "Id": 27608,
-        "FrameColor": "black",
         "Name": "The Jersey Dump #27608",
-        "Color": "black",
         "Connections": {
           "East": 27605
         },
@@ -278,9 +259,7 @@
       },
       {
         "Id": 27609,
-        "FrameColor": "black",
         "Name": "The Chief\u0027s Office #27609",
-        "Color": "black",
         "Connections": {
           "North": 27607
         },
@@ -293,13 +272,12 @@
       },
       {
         "Id": 27610,
-        "FrameColor": "black",
         "Name": "The Jail #27610",
-        "Color": "black",
         "Connections": {
           "East": 27607,
           "South": {
             "RoomId": 27611,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -319,12 +297,11 @@
       },
       {
         "Id": 27611,
-        "FrameColor": "black",
         "Name": "The Jail Cell #27611",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 27610,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -344,9 +321,7 @@
       },
       {
         "Id": 27612,
-        "FrameColor": "black",
         "Name": "The Entrance To Goethe\u0027s Garden #27612",
-        "Color": "black",
         "Connections": {
           "North": 27613,
           "South": 27580
@@ -354,9 +329,7 @@
       },
       {
         "Id": 27613,
-        "FrameColor": "black",
         "Name": "The Statue Of Goethe #27613",
-        "Color": "black",
         "Connections": {
           "South": 27612
         },
@@ -369,9 +342,7 @@
       },
       {
         "Id": 27614,
-        "FrameColor": "black",
         "Name": "First Avenue #27614",
-        "Color": "black",
         "Connections": {
           "East": 27516,
           "West": 27615
@@ -385,9 +356,7 @@
       },
       {
         "Id": 27615,
-        "FrameColor": "black",
         "Name": "The Entrance To Hell\u0027s Kitchen #27615",
-        "Color": "black",
         "Connections": {
           "East": 27614
         },
@@ -408,18 +377,14 @@
       },
       {
         "Id": 27616,
-        "FrameColor": "black",
         "Name": "Petland Discount Store #27616",
-        "Color": "black",
         "Connections": {
           "West": 27569
         }
       },
       {
         "Id": 27617,
-        "FrameColor": "black",
         "Name": "PETSHOP STOREROOM #27617",
-        "Color": "black",
         "Connections": {},
         "Contents": [
           {

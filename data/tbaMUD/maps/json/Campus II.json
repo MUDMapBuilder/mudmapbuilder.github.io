@@ -3,25 +3,21 @@
     "Name": "Campus II",
     "Credits": "Matrix of C.A.W.",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 30200,
-        "FrameColor": "black",
         "Name": "The Top of the Greasepole #30200",
-        "Color": "black",
         "Connections": {
           "Down": 30192
         }
       },
       {
         "Id": 30201,
-        "FrameColor": "black",
         "Name": "Reception Desk #30201",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 30202,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -36,12 +32,11 @@
       },
       {
         "Id": 30202,
-        "FrameColor": "black",
         "Name": "Main Office #30202",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 30201,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -55,9 +50,7 @@
       },
       {
         "Id": 30203,
-        "FrameColor": "black",
         "Name": "Lobby #30203",
-        "Color": "black",
         "Connections": {
           "East": 30204,
           "West": 30142
@@ -71,9 +64,7 @@
       },
       {
         "Id": 30204,
-        "FrameColor": "black",
         "Name": "Stairwell #30204",
-        "Color": "black",
         "Connections": {
           "West": 30203,
           "Up": 30205
@@ -81,9 +72,7 @@
       },
       {
         "Id": 30205,
-        "FrameColor": "black",
         "Name": "Stairwell #30205",
-        "Color": "black",
         "Connections": {
           "West": 30206,
           "Up": 30222,
@@ -92,9 +81,7 @@
       },
       {
         "Id": 30206,
-        "FrameColor": "black",
         "Name": "Landing #30206",
-        "Color": "black",
         "Connections": {
           "North": 30208,
           "East": 30205,
@@ -110,18 +97,14 @@
       },
       {
         "Id": 30207,
-        "FrameColor": "black",
         "Name": "Broom Closet #30207",
-        "Color": "black",
         "Connections": {
           "East": 30206
         }
       },
       {
         "Id": 30208,
-        "FrameColor": "black",
         "Name": "Hallway #30208",
-        "Color": "black",
         "Connections": {
           "North": 30211,
           "East": 30209,
@@ -131,18 +114,14 @@
       },
       {
         "Id": 30209,
-        "FrameColor": "black",
         "Name": "Private Room 205 #30209",
-        "Color": "black",
         "Connections": {
           "West": 30208
         }
       },
       {
         "Id": 30210,
-        "FrameColor": "black",
         "Name": "Private Room 206 #30210",
-        "Color": "black",
         "Connections": {
           "East": 30208
         },
@@ -155,9 +134,7 @@
       },
       {
         "Id": 30211,
-        "FrameColor": "black",
         "Name": "Hallway #30211",
-        "Color": "black",
         "Connections": {
           "North": 30214,
           "East": 30212,
@@ -167,36 +144,28 @@
       },
       {
         "Id": 30212,
-        "FrameColor": "black",
         "Name": "Private Room 203 #30212",
-        "Color": "black",
         "Connections": {
           "West": 30211
         }
       },
       {
         "Id": 30213,
-        "FrameColor": "black",
         "Name": "Private Room 204 #30213",
-        "Color": "black",
         "Connections": {
           "East": 30211
         }
       },
       {
         "Id": 30214,
-        "FrameColor": "black",
         "Name": "Private Room 201 #30214",
-        "Color": "black",
         "Connections": {
           "South": 30211
         }
       },
       {
         "Id": 30215,
-        "FrameColor": "black",
         "Name": "Hallway #30215",
-        "Color": "black",
         "Connections": {
           "North": 30206,
           "East": 30216,
@@ -206,27 +175,21 @@
       },
       {
         "Id": 30216,
-        "FrameColor": "black",
         "Name": "Private Room 207 #30216",
-        "Color": "black",
         "Connections": {
           "West": 30215
         }
       },
       {
         "Id": 30217,
-        "FrameColor": "black",
         "Name": "Private Room 208 #30217",
-        "Color": "black",
         "Connections": {
           "East": 30215
         }
       },
       {
         "Id": 30218,
-        "FrameColor": "black",
         "Name": "Hallway #30218",
-        "Color": "black",
         "Connections": {
           "North": 30215,
           "East": 30219,
@@ -236,18 +199,14 @@
       },
       {
         "Id": 30219,
-        "FrameColor": "black",
         "Name": "Private Room 209 #30219",
-        "Color": "black",
         "Connections": {
           "West": 30218
         }
       },
       {
         "Id": 30220,
-        "FrameColor": "black",
         "Name": "Private Room 210 #30220",
-        "Color": "black",
         "Connections": {
           "East": 30218
         },
@@ -260,18 +219,14 @@
       },
       {
         "Id": 30221,
-        "FrameColor": "black",
         "Name": "Private Room 202 #30221",
-        "Color": "black",
         "Connections": {
           "North": 30218
         }
       },
       {
         "Id": 30222,
-        "FrameColor": "black",
         "Name": "Stairwell #30222",
-        "Color": "black",
         "Connections": {
           "West": 30223,
           "Up": 30205,
@@ -280,9 +235,7 @@
       },
       {
         "Id": 30223,
-        "FrameColor": "black",
         "Name": "Landing #30223",
-        "Color": "black",
         "Connections": {
           "North": 30225,
           "East": 30222,
@@ -292,9 +245,7 @@
       },
       {
         "Id": 30224,
-        "FrameColor": "black",
         "Name": "Broom Closet #30224",
-        "Color": "black",
         "Connections": {
           "East": 30223
         },
@@ -307,12 +258,11 @@
       },
       {
         "Id": 30225,
-        "FrameColor": "black",
         "Name": "Hallway #30225",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 30228,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -329,9 +279,7 @@
       },
       {
         "Id": 30226,
-        "FrameColor": "black",
         "Name": "Private Room 301 #30226",
-        "Color": "black",
         "Connections": {
           "West": 30225
         },
@@ -344,9 +292,7 @@
       },
       {
         "Id": 30227,
-        "FrameColor": "black",
         "Name": "Private Room 302 #30227",
-        "Color": "black",
         "Connections": {
           "East": 30225
         },
@@ -359,12 +305,11 @@
       },
       {
         "Id": 30228,
-        "FrameColor": "black",
         "Name": "Main Residence Office #30228",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 30225,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -379,9 +324,7 @@
       },
       {
         "Id": 30229,
-        "FrameColor": "black",
         "Name": "Hallway #30229",
-        "Color": "black",
         "Connections": {
           "North": 30223,
           "East": 30231,
@@ -391,36 +334,28 @@
       },
       {
         "Id": 30230,
-        "FrameColor": "black",
         "Name": "Private Room 304 #30230",
-        "Color": "black",
         "Connections": {
           "East": 30229
         }
       },
       {
         "Id": 30231,
-        "FrameColor": "black",
         "Name": "Private Room 303 #30231",
-        "Color": "black",
         "Connections": {
           "West": 30229
         }
       },
       {
         "Id": 30232,
-        "FrameColor": "black",
         "Name": "Private Room 300 #30232",
-        "Color": "black",
         "Connections": {
           "North": 30229
         }
       },
       {
         "Id": 30233,
-        "FrameColor": "black",
         "Name": "Attic #30233",
-        "Color": "black",
         "Connections": {
           "South": 30234,
           "Down": 30228
@@ -428,9 +363,7 @@
       },
       {
         "Id": 30234,
-        "FrameColor": "black",
         "Name": "Small Storage Room #30234",
-        "Color": "black",
         "Connections": {
           "North": 30233,
           "Down": 30235
@@ -438,18 +371,14 @@
       },
       {
         "Id": 30235,
-        "FrameColor": "black",
         "Name": "The Chute #30235",
-        "Color": "black",
         "Connections": {
           "Down": 30203
         }
       },
       {
         "Id": 30236,
-        "FrameColor": "black",
         "Name": "The Ghetto #30236",
-        "Color": "black",
         "Connections": {
           "North": 30123,
           "East": 30237,
@@ -458,18 +387,14 @@
       },
       {
         "Id": 30237,
-        "FrameColor": "black",
         "Name": "Ghetto House #30237",
-        "Color": "black",
         "Connections": {
           "West": 30236
         }
       },
       {
         "Id": 30238,
-        "FrameColor": "black",
         "Name": "Frec House #30238",
-        "Color": "black",
         "Connections": {
           "East": 30236,
           "South": 30239
@@ -491,9 +416,7 @@
       },
       {
         "Id": 30239,
-        "FrameColor": "black",
         "Name": "Ghetto House #30239",
-        "Color": "black",
         "Connections": {
           "North": 30238,
           "East": 30240
@@ -501,9 +424,7 @@
       },
       {
         "Id": 30240,
-        "FrameColor": "black",
         "Name": "The Ghetto #30240",
-        "Color": "black",
         "Connections": {
           "South": 30241,
           "West": 30239
@@ -511,9 +432,7 @@
       },
       {
         "Id": 30241,
-        "FrameColor": "black",
         "Name": "The Ghetto Intersection #30241",
-        "Color": "black",
         "Connections": {
           "North": 30240,
           "East": 30242,
@@ -523,9 +442,7 @@
       },
       {
         "Id": 30242,
-        "FrameColor": "black",
         "Name": "The Ghetto #30242",
-        "Color": "black",
         "Connections": {
           "North": 30246,
           "East": 30243,
@@ -534,9 +451,7 @@
       },
       {
         "Id": 30243,
-        "FrameColor": "black",
         "Name": "The Ghetto #30243",
-        "Color": "black",
         "Connections": {
           "East": 30244,
           "South": 30245,
@@ -545,18 +460,14 @@
       },
       {
         "Id": 30244,
-        "FrameColor": "black",
         "Name": "Gael House #30244",
-        "Color": "black",
         "Connections": {
           "West": 30243
         }
       },
       {
         "Id": 30245,
-        "FrameColor": "black",
         "Name": "Gael House #30245",
-        "Color": "black",
         "Connections": {
           "North": 30243
         },
@@ -569,18 +480,14 @@
       },
       {
         "Id": 30246,
-        "FrameColor": "black",
         "Name": "Boss House #30246",
-        "Color": "black",
         "Connections": {
           "South": 30242
         }
       },
       {
         "Id": 30247,
-        "FrameColor": "black",
         "Name": "The Ghetto #30247",
-        "Color": "black",
         "Connections": {
           "North": 30241,
           "South": 30248
@@ -588,9 +495,7 @@
       },
       {
         "Id": 30248,
-        "FrameColor": "black",
         "Name": "The Ghetto #30248",
-        "Color": "black",
         "Connections": {
           "North": 30247,
           "East": 30251,
@@ -605,9 +510,7 @@
       },
       {
         "Id": 30249,
-        "FrameColor": "black",
         "Name": "The Ghetto #30249",
-        "Color": "black",
         "Connections": {
           "North": 30248,
           "East": 30252,
@@ -617,9 +520,7 @@
       },
       {
         "Id": 30250,
-        "FrameColor": "black",
         "Name": "The Ghetto #30250",
-        "Color": "black",
         "Connections": {
           "North": 30249,
           "East": 30254,
@@ -628,45 +529,35 @@
       },
       {
         "Id": 30251,
-        "FrameColor": "black",
         "Name": "The A \u0026 Z Supermarket #30251",
-        "Color": "black",
         "Connections": {
           "West": 30248
         }
       },
       {
         "Id": 30252,
-        "FrameColor": "black",
         "Name": "Frec House #30252",
-        "Color": "black",
         "Connections": {
           "West": 30249
         }
       },
       {
         "Id": 30253,
-        "FrameColor": "black",
         "Name": "Boss House #30253",
-        "Color": "black",
         "Connections": {
           "East": 30249
         }
       },
       {
         "Id": 30254,
-        "FrameColor": "black",
         "Name": "Gael House #30254",
-        "Color": "black",
         "Connections": {
           "West": 30250
         }
       },
       {
         "Id": 30255,
-        "FrameColor": "black",
         "Name": "Boss House #30255",
-        "Color": "black",
         "Connections": {
           "East": 30241,
           "South": 30256
@@ -674,18 +565,14 @@
       },
       {
         "Id": 30256,
-        "FrameColor": "black",
         "Name": "Frec House #30256",
-        "Color": "black",
         "Connections": {
           "North": 30255
         }
       },
       {
         "Id": 30257,
-        "FrameColor": "black",
         "Name": "Stairwell #30257",
-        "Color": "black",
         "Connections": {
           "East": 30258,
           "Up": 30262,
@@ -694,9 +581,7 @@
       },
       {
         "Id": 30258,
-        "FrameColor": "black",
         "Name": "The West Aisle Of The Auditorium #30258",
-        "Color": "black",
         "Connections": {
           "East": 30259,
           "West": 30257
@@ -704,9 +589,7 @@
       },
       {
         "Id": 30259,
-        "FrameColor": "black",
         "Name": "The Center Aisle Of The Auditorium #30259",
-        "Color": "black",
         "Connections": {
           "East": 30260,
           "South": 30261,
@@ -715,9 +598,7 @@
       },
       {
         "Id": 30260,
-        "FrameColor": "black",
         "Name": "The East Aisle Of The Auditorium #30260",
-        "Color": "black",
         "Connections": {
           "North": 30140,
           "West": 30259
@@ -725,18 +606,14 @@
       },
       {
         "Id": 30261,
-        "FrameColor": "black",
         "Name": "The Stage #30261",
-        "Color": "black",
         "Connections": {
           "North": 30259
         }
       },
       {
         "Id": 30262,
-        "FrameColor": "black",
         "Name": "Upper Stairwell #30262",
-        "Color": "black",
         "Connections": {
           "East": 30263,
           "Up": 30265,
@@ -745,27 +622,21 @@
       },
       {
         "Id": 30263,
-        "FrameColor": "black",
         "Name": "The Balcony #30263",
-        "Color": "black",
         "Connections": {
           "West": 30262
         }
       },
       {
         "Id": 30264,
-        "FrameColor": "black",
         "Name": "Entrance To The Catacombs #30264",
-        "Color": "black",
         "Connections": {
           "Up": 30257
         }
       },
       {
         "Id": 30265,
-        "FrameColor": "black",
         "Name": "The Grant Hall Clock #30265",
-        "Color": "black",
         "Connections": {
           "Down": 30262
         },
@@ -778,9 +649,7 @@
       },
       {
         "Id": 30266,
-        "FrameColor": "black",
         "Name": "Hallway #30266",
-        "Color": "black",
         "Connections": {
           "North": 30273,
           "East": 30267,
@@ -790,9 +659,7 @@
       },
       {
         "Id": 30267,
-        "FrameColor": "black",
         "Name": "Hallway #30267",
-        "Color": "black",
         "Connections": {
           "East": 30268,
           "South": 30270,
@@ -801,9 +668,7 @@
       },
       {
         "Id": 30268,
-        "FrameColor": "black",
         "Name": "Hallway #30268",
-        "Color": "black",
         "Connections": {
           "North": 30271,
           "West": 30267,
@@ -812,54 +677,42 @@
       },
       {
         "Id": 30269,
-        "FrameColor": "black",
         "Name": "Mike-Lab #30269",
-        "Color": "black",
         "Connections": {
           "North": 30266
         }
       },
       {
         "Id": 30270,
-        "FrameColor": "black",
         "Name": "John-Lab #30270",
-        "Color": "black",
         "Connections": {
           "North": 30267
         }
       },
       {
         "Id": 30271,
-        "FrameColor": "black",
         "Name": "Office #30271",
-        "Color": "black",
         "Connections": {
           "South": 30268
         }
       },
       {
         "Id": 30272,
-        "FrameColor": "black",
         "Name": "Jeff-Lab #30272",
-        "Color": "black",
         "Connections": {
           "Up": 30268
         }
       },
       {
         "Id": 30273,
-        "FrameColor": "black",
         "Name": "A Classroom #30273",
-        "Color": "black",
         "Connections": {
           "South": 30266
         }
       },
       {
         "Id": 30274,
-        "FrameColor": "black",
         "Name": "A Hallway #30274",
-        "Color": "black",
         "Connections": {
           "North": 30275,
           "East": 30279,
@@ -870,9 +723,7 @@
       },
       {
         "Id": 30275,
-        "FrameColor": "black",
         "Name": "A Hallway #30275",
-        "Color": "black",
         "Connections": {
           "North": 30280,
           "South": 30276,
@@ -881,9 +732,7 @@
       },
       {
         "Id": 30276,
-        "FrameColor": "black",
         "Name": "A Hallway #30276",
-        "Color": "black",
         "Connections": {
           "North": 30274,
           "East": 30279,
@@ -893,9 +742,7 @@
       },
       {
         "Id": 30277,
-        "FrameColor": "black",
         "Name": "A Hallway #30277",
-        "Color": "black",
         "Connections": {
           "North": 30280,
           "East": 30276,
@@ -905,9 +752,7 @@
       },
       {
         "Id": 30278,
-        "FrameColor": "black",
         "Name": "A Hallway #30278",
-        "Color": "black",
         "Connections": {
           "North": 30280,
           "East": 30281,
@@ -917,9 +762,7 @@
       },
       {
         "Id": 30279,
-        "FrameColor": "black",
         "Name": "A Hallway #30279",
-        "Color": "black",
         "Connections": {
           "North": 30274,
           "East": 30281,
@@ -929,9 +772,7 @@
       },
       {
         "Id": 30280,
-        "FrameColor": "black",
         "Name": "A Classroom #30280",
-        "Color": "black",
         "Connections": {
           "North": 30278,
           "South": 30274,
@@ -940,9 +781,7 @@
       },
       {
         "Id": 30281,
-        "FrameColor": "black",
         "Name": "A Classroom #30281",
-        "Color": "black",
         "Connections": {
           "East": 30275,
           "South": 30278,
@@ -952,9 +791,7 @@
       },
       {
         "Id": 30282,
-        "FrameColor": "black",
         "Name": "A Hallway #30282",
-        "Color": "black",
         "Connections": {
           "East": 30283,
           "West": 30274
@@ -962,9 +799,7 @@
       },
       {
         "Id": 30283,
-        "FrameColor": "black",
         "Name": "The Exit #30283",
-        "Color": "black",
         "Connections": {
           "East": 30134,
           "West": 30282
@@ -972,9 +807,7 @@
       },
       {
         "Id": 30284,
-        "FrameColor": "black",
         "Name": "Mob Chute A #30284",
-        "Color": "black",
         "Connections": {
           "North": 30109,
           "East": 30115,
@@ -1075,9 +908,7 @@
       },
       {
         "Id": 30285,
-        "FrameColor": "black",
         "Name": "Mob Chute B #30285",
-        "Color": "black",
         "Connections": {
           "North": 30138,
           "East": 30206,
@@ -1115,9 +946,7 @@
       },
       {
         "Id": 30286,
-        "FrameColor": "black",
         "Name": "Mob Chute C #30286",
-        "Color": "black",
         "Connections": {
           "North": 30168,
           "East": 30297,
@@ -1155,9 +984,7 @@
       },
       {
         "Id": 30287,
-        "FrameColor": "black",
         "Name": "Mob Chute D #30287",
-        "Color": "black",
         "Connections": {
           "North": 30170,
           "East": 30203,
@@ -1195,9 +1022,7 @@
       },
       {
         "Id": 30288,
-        "FrameColor": "black",
         "Name": "Mob Chute E #30288",
-        "Color": "black",
         "Connections": {
           "North": 30237,
           "East": 30247,
@@ -1311,9 +1136,7 @@
       },
       {
         "Id": 30289,
-        "FrameColor": "black",
         "Name": "Mob Chute F #30289",
-        "Color": "black",
         "Connections": {
           "North": 30280,
           "East": 30276,
@@ -1351,9 +1174,7 @@
       },
       {
         "Id": 30290,
-        "FrameColor": "black",
         "Name": "Central Mob Chute #30290",
-        "Color": "black",
         "Connections": {
           "North": 30284,
           "East": 30285,
@@ -1427,18 +1248,14 @@
       },
       {
         "Id": 30291,
-        "FrameColor": "black",
         "Name": "Dunning Auditorium #30291",
-        "Color": "black",
         "Connections": {
           "East": 30135
         }
       },
       {
         "Id": 30292,
-        "FrameColor": "black",
         "Name": "A Completely Empty Hallway #30292",
-        "Color": "black",
         "Connections": {
           "North": 30293,
           "East": 30135
@@ -1446,21 +1263,18 @@
       },
       {
         "Id": 30293,
-        "FrameColor": "black",
         "Name": "Classroom #30293",
-        "Color": "black",
         "Connections": {
           "South": 30292
         }
       },
       {
         "Id": 30294,
-        "FrameColor": "black",
         "Name": "East Stairwell #30294",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 30126,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1475,12 +1289,11 @@
       },
       {
         "Id": 30295,
-        "FrameColor": "black",
         "Name": "West Stairwell #30295",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 30126,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1495,9 +1308,7 @@
       },
       {
         "Id": 30296,
-        "FrameColor": "black",
         "Name": "Junction #30296",
-        "Color": "black",
         "Connections": {
           "North": 30297,
           "South": 30302,
@@ -1506,9 +1317,7 @@
       },
       {
         "Id": 30297,
-        "FrameColor": "black",
         "Name": "Hallway #30297",
-        "Color": "black",
         "Connections": {
           "North": 30298,
           "East": 30299,
@@ -1517,18 +1326,14 @@
       },
       {
         "Id": 30298,
-        "FrameColor": "black",
         "Name": "Dorm Room #30298",
-        "Color": "black",
         "Connections": {
           "South": 30297
         }
       },
       {
         "Id": 30299,
-        "FrameColor": "black",
         "Name": "Hallway #30299",
-        "Color": "black",
         "Connections": {
           "North": 30300,
           "East": 30301,
@@ -1722,6 +1527,7 @@
           "North": 30296,
           "East": {
             "RoomId": 30306,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1796,6 +1602,7 @@
           "North": 30102,
           "East": {
             "RoomId": 30294,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1807,6 +1614,7 @@
           },
           "West": {
             "RoomId": 30295,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [

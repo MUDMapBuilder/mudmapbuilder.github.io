@@ -2,13 +2,10 @@
   "Area": {
     "Name": "Newbie Zone",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 18600,
-        "FrameColor": "black",
         "Name": "The Entrance To The Newbie Zone #18600",
-        "Color": "black",
         "Connections": {
           "North": 18601,
           "West": 3061
@@ -22,9 +19,7 @@
       },
       {
         "Id": 18601,
-        "FrameColor": "black",
         "Name": "The Beginning Of The Passage #18601",
-        "Color": "black",
         "Connections": {
           "East": 18602,
           "South": 18600
@@ -32,9 +27,7 @@
       },
       {
         "Id": 18602,
-        "FrameColor": "black",
         "Name": "The Dirty Hallway #18602",
-        "Color": "black",
         "Connections": {
           "East": 18603,
           "South": 18606,
@@ -53,9 +46,7 @@
       },
       {
         "Id": 18603,
-        "FrameColor": "black",
         "Name": "A Nexus #18603",
-        "Color": "black",
         "Connections": {
           "North": 18644,
           "East": 18646,
@@ -65,9 +56,7 @@
       },
       {
         "Id": 18604,
-        "FrameColor": "black",
         "Name": "A Narrow Passage #18604",
-        "Color": "black",
         "Connections": {
           "North": 18647,
           "South": 18612
@@ -81,12 +70,11 @@
       },
       {
         "Id": 18605,
-        "FrameColor": "black",
         "Name": "The Dark Pit #18605",
-        "Color": "black",
         "Connections": {
           "Up": {
             "RoomId": 18606,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -106,14 +94,13 @@
       },
       {
         "Id": 18606,
-        "FrameColor": "black",
         "Name": "A Small Room #18606",
-        "Color": "black",
         "Connections": {
           "North": 18602,
           "East": 18607,
           "Down": {
             "RoomId": 18605,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -137,9 +124,7 @@
       },
       {
         "Id": 18607,
-        "FrameColor": "black",
         "Name": "More Of The Hallway #18607",
-        "Color": "black",
         "Connections": {
           "North": 18603,
           "South": 18611,
@@ -154,9 +139,7 @@
       },
       {
         "Id": 18608,
-        "FrameColor": "black",
         "Name": "An Open Field By The Great Field #18608",
-        "Color": "black",
         "Connections": {
           "North": 3061,
           "East": 18609
@@ -164,9 +147,7 @@
       },
       {
         "Id": 18609,
-        "FrameColor": "black",
         "Name": "The End Of The Passage #18609",
-        "Color": "black",
         "Connections": {
           "East": 18610,
           "West": 18608
@@ -180,9 +161,7 @@
       },
       {
         "Id": 18610,
-        "FrameColor": "black",
         "Name": "A Brighter Hallway #18610",
-        "Color": "black",
         "Connections": {
           "East": 18611,
           "West": 18609
@@ -190,9 +169,7 @@
       },
       {
         "Id": 18611,
-        "FrameColor": "black",
         "Name": "Another Corner #18611",
-        "Color": "black",
         "Connections": {
           "North": 18607,
           "East": 18612,
@@ -201,9 +178,7 @@
       },
       {
         "Id": 18612,
-        "FrameColor": "black",
         "Name": "The Alchemist\u0027s Room #18612",
-        "Color": "black",
         "Connections": {
           "North": 18604,
           "West": 18611,
@@ -218,9 +193,7 @@
       },
       {
         "Id": 18620,
-        "FrameColor": "black",
         "Name": "A Turn In The Passage #18620",
-        "Color": "black",
         "Connections": {
           "East": 18621,
           "South": 18629
@@ -234,9 +207,7 @@
       },
       {
         "Id": 18621,
-        "FrameColor": "black",
         "Name": "A T-Intersection In The Passage #18621",
-        "Color": "black",
         "Connections": {
           "East": 18622,
           "South": 18633,
@@ -251,9 +222,7 @@
       },
       {
         "Id": 18622,
-        "FrameColor": "black",
         "Name": "Another Corner #18622",
-        "Color": "black",
         "Connections": {
           "South": 18628,
           "West": 18621
@@ -261,9 +230,7 @@
       },
       {
         "Id": 18623,
-        "FrameColor": "black",
         "Name": "A Corner In The Hallway #18623",
-        "Color": "black",
         "Connections": {
           "East": 18624,
           "South": 18627
@@ -271,9 +238,7 @@
       },
       {
         "Id": 18624,
-        "FrameColor": "black",
         "Name": "Another Turn #18624",
-        "Color": "black",
         "Connections": {
           "South": 18630,
           "West": 18623
@@ -287,9 +252,7 @@
       },
       {
         "Id": 18625,
-        "FrameColor": "black",
         "Name": "A Large Room #18625",
-        "Color": "black",
         "Connections": {
           "East": 18626,
           "South": 18631
@@ -297,9 +260,7 @@
       },
       {
         "Id": 18626,
-        "FrameColor": "black",
         "Name": "A Long East-West Passage #18626",
-        "Color": "black",
         "Connections": {
           "East": 18627,
           "West": 18625
@@ -307,9 +268,7 @@
       },
       {
         "Id": 18627,
-        "FrameColor": "black",
         "Name": "A Crossing Of Corridors #18627",
-        "Color": "black",
         "Connections": {
           "North": 18623,
           "East": 18628,
@@ -325,9 +284,7 @@
       },
       {
         "Id": 18628,
-        "FrameColor": "black",
         "Name": "A Corner Room #18628",
-        "Color": "black",
         "Connections": {
           "North": 18622,
           "West": 18627
@@ -335,9 +292,7 @@
       },
       {
         "Id": 18629,
-        "FrameColor": "black",
         "Name": "The Red Room #18629",
-        "Color": "black",
         "Connections": {
           "North": 18620,
           "East": 18630,
@@ -352,9 +307,7 @@
       },
       {
         "Id": 18630,
-        "FrameColor": "black",
         "Name": "A Branching Passage #18630",
-        "Color": "black",
         "Connections": {
           "North": 18624,
           "South": 18634,
@@ -363,9 +316,7 @@
       },
       {
         "Id": 18631,
-        "FrameColor": "black",
         "Name": "A Passage #18631",
-        "Color": "black",
         "Connections": {
           "North": 18625,
           "East": 18632,
@@ -374,9 +325,7 @@
       },
       {
         "Id": 18632,
-        "FrameColor": "black",
         "Name": "The Entrance #18632",
-        "Color": "black",
         "Connections": {
           "North": 18627,
           "South": 18635,
@@ -386,9 +335,7 @@
       },
       {
         "Id": 18633,
-        "FrameColor": "black",
         "Name": "Another Corner #18633",
-        "Color": "black",
         "Connections": {
           "North": 18621,
           "East": 18634
@@ -402,9 +349,7 @@
       },
       {
         "Id": 18634,
-        "FrameColor": "black",
         "Name": "An Intersection Of Passages #18634",
-        "Color": "black",
         "Connections": {
           "North": 18630,
           "South": 18637,
@@ -413,9 +358,7 @@
       },
       {
         "Id": 18635,
-        "FrameColor": "black",
         "Name": "A Turn In The Passage #18635",
-        "Color": "black",
         "Connections": {
           "North": 18632,
           "East": 18636
@@ -423,9 +366,7 @@
       },
       {
         "Id": 18636,
-        "FrameColor": "black",
         "Name": "A Branch To The South #18636",
-        "Color": "black",
         "Connections": {
           "East": 18637,
           "South": 18639,
@@ -440,9 +381,7 @@
       },
       {
         "Id": 18637,
-        "FrameColor": "black",
         "Name": "Yet Another Corner #18637",
-        "Color": "black",
         "Connections": {
           "North": 18634,
           "West": 18636
@@ -456,9 +395,7 @@
       },
       {
         "Id": 18638,
-        "FrameColor": "black",
         "Name": "A Large Room #18638",
-        "Color": "black",
         "Connections": {
           "North": 18631,
           "East": 18639
@@ -472,9 +409,7 @@
       },
       {
         "Id": 18639,
-        "FrameColor": "black",
         "Name": "A Large Room #18639",
-        "Color": "black",
         "Connections": {
           "North": 18636,
           "West": 18638
@@ -488,9 +423,7 @@
       },
       {
         "Id": 18640,
-        "FrameColor": "black",
         "Name": "The Statue\u0027s Room #18640",
-        "Color": "black",
         "Connections": {
           "East": 18641,
           "South": 18644
@@ -504,9 +437,7 @@
       },
       {
         "Id": 18641,
-        "FrameColor": "black",
         "Name": "The Hallway #18641",
-        "Color": "black",
         "Connections": {
           "East": 18642,
           "West": 18640
@@ -514,9 +445,7 @@
       },
       {
         "Id": 18642,
-        "FrameColor": "black",
         "Name": "The North Stairs #18642",
-        "Color": "black",
         "Connections": {
           "South": 18647,
           "West": 18641,
@@ -531,9 +460,7 @@
       },
       {
         "Id": 18643,
-        "FrameColor": "black",
         "Name": "The Balcony #18643",
-        "Color": "black",
         "Connections": {
           "South": 18645,
           "Down": 18642
@@ -541,9 +468,7 @@
       },
       {
         "Id": 18644,
-        "FrameColor": "black",
         "Name": "A Bright Hallway #18644",
-        "Color": "black",
         "Connections": {
           "North": 18640,
           "South": 18603
@@ -551,9 +476,7 @@
       },
       {
         "Id": 18645,
-        "FrameColor": "black",
         "Name": "The Balcony #18645",
-        "Color": "black",
         "Connections": {
           "North": 18643,
           "Down": 18647
@@ -567,9 +490,7 @@
       },
       {
         "Id": 18646,
-        "FrameColor": "black",
         "Name": "A Bright Hallway #18646",
-        "Color": "black",
         "Connections": {
           "East": 18647,
           "West": 18603
@@ -583,9 +504,7 @@
       },
       {
         "Id": 18647,
-        "FrameColor": "black",
         "Name": "The South Stairs #18647",
-        "Color": "black",
         "Connections": {
           "North": 18642,
           "South": 18604,

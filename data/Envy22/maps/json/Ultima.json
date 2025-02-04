@@ -5,13 +5,10 @@
     "MinimumLevel": "5",
     "MaximumLevel": "50",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 2400,
-        "FrameColor": "black",
         "Name": "Entrance to Ultima #2400",
-        "Color": "black",
         "Connections": {
           "South": 2401,
           "Down": 315
@@ -19,9 +16,7 @@
       },
       {
         "Id": 2401,
-        "FrameColor": "black",
         "Name": "New Magincia Road #2401",
-        "Color": "black",
         "Connections": {
           "North": 2400,
           "South": 2402
@@ -39,9 +34,7 @@
       },
       {
         "Id": 2402,
-        "FrameColor": "black",
         "Name": "New Magincia Road #2402",
-        "Color": "black",
         "Connections": {
           "North": 2401,
           "South": 2403
@@ -55,9 +48,7 @@
       },
       {
         "Id": 2403,
-        "FrameColor": "black",
         "Name": "The New Magincia Moongate #2403",
-        "Color": "black",
         "Connections": {
           "North": 2402,
           "East": 2413,
@@ -65,6 +56,7 @@
           "West": 2408,
           "Up": {
             "RoomId": 2416,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -78,9 +70,7 @@
       },
       {
         "Id": 2404,
-        "FrameColor": "black",
         "Name": "New Magincia Road #2404",
-        "Color": "black",
         "Connections": {
           "North": 2403,
           "East": 2414,
@@ -95,9 +85,7 @@
       },
       {
         "Id": 2405,
-        "FrameColor": "black",
         "Name": "New Magincia Road #2405",
-        "Color": "black",
         "Connections": {
           "North": 2404,
           "West": 2410
@@ -105,9 +93,7 @@
       },
       {
         "Id": 2406,
-        "FrameColor": "black",
         "Name": "Stables #2406",
-        "Color": "black",
         "Connections": {
           "South": 2407
         },
@@ -120,9 +106,7 @@
       },
       {
         "Id": 2407,
-        "FrameColor": "black",
         "Name": "Barn #2407",
-        "Color": "black",
         "Connections": {
           "North": 2406,
           "South": 2408
@@ -136,9 +120,7 @@
       },
       {
         "Id": 2408,
-        "FrameColor": "black",
         "Name": "Humility Lane #2408",
-        "Color": "black",
         "Connections": {
           "North": 2407,
           "East": 2403
@@ -160,18 +142,14 @@
       },
       {
         "Id": 2409,
-        "FrameColor": "black",
         "Name": "Condemned House #2409",
-        "Color": "black",
         "Connections": {
           "South": 2410
         }
       },
       {
         "Id": 2410,
-        "FrameColor": "black",
         "Name": "Condemned House #2410",
-        "Color": "black",
         "Connections": {
           "North": 2409,
           "East": 2405
@@ -179,9 +157,7 @@
       },
       {
         "Id": 2411,
-        "FrameColor": "black",
         "Name": "Attic #2411",
-        "Color": "black",
         "Connections": {
           "Down": 2412
         },
@@ -194,9 +170,7 @@
       },
       {
         "Id": 2412,
-        "FrameColor": "black",
         "Name": "House #2412",
-        "Color": "black",
         "Connections": {
           "South": 2413,
           "Up": 2411
@@ -210,9 +184,7 @@
       },
       {
         "Id": 2413,
-        "FrameColor": "black",
         "Name": "Humility Lane #2413",
-        "Color": "black",
         "Connections": {
           "North": 2412,
           "West": 2403
@@ -230,9 +202,7 @@
       },
       {
         "Id": 2414,
-        "FrameColor": "black",
         "Name": "Entrance to the Office #2414",
-        "Color": "black",
         "Connections": {
           "South": 2415,
           "West": 2404
@@ -240,9 +210,7 @@
       },
       {
         "Id": 2415,
-        "FrameColor": "black",
         "Name": "Katrina\u0027s Office #2415",
-        "Color": "black",
         "Connections": {
           "North": 2414
         },
@@ -255,9 +223,7 @@
       },
       {
         "Id": 2416,
-        "FrameColor": "black",
         "Name": "Library #2416",
-        "Color": "black",
         "Connections": {
           "East": 2417,
           "West": 2436
@@ -265,9 +231,7 @@
       },
       {
         "Id": 2417,
-        "FrameColor": "black",
         "Name": "Library #2417",
-        "Color": "black",
         "Connections": {
           "East": 2418,
           "West": 2416
@@ -275,9 +239,7 @@
       },
       {
         "Id": 2418,
-        "FrameColor": "black",
         "Name": "Library #2418",
-        "Color": "black",
         "Connections": {
           "East": 2419,
           "West": 2417
@@ -291,9 +253,7 @@
       },
       {
         "Id": 2419,
-        "FrameColor": "black",
         "Name": "Library #2419",
-        "Color": "black",
         "Connections": {
           "South": 2420,
           "West": 2418
@@ -301,9 +261,7 @@
       },
       {
         "Id": 2420,
-        "FrameColor": "black",
         "Name": "Library #2420",
-        "Color": "black",
         "Connections": {
           "North": 2419,
           "West": 2421
@@ -311,9 +269,7 @@
       },
       {
         "Id": 2421,
-        "FrameColor": "black",
         "Name": "Library Office #2421",
-        "Color": "black",
         "Connections": {
           "East": 2420,
           "West": 2422
@@ -327,9 +283,7 @@
       },
       {
         "Id": 2422,
-        "FrameColor": "black",
         "Name": "Library #2422",
-        "Color": "black",
         "Connections": {
           "East": 2421,
           "West": 2423
@@ -337,9 +291,7 @@
       },
       {
         "Id": 2423,
-        "FrameColor": "black",
         "Name": "Library #2423",
-        "Color": "black",
         "Connections": {
           "South": 2424,
           "East": 2422
@@ -347,9 +299,7 @@
       },
       {
         "Id": 2424,
-        "FrameColor": "black",
         "Name": "Library #2424",
-        "Color": "black",
         "Connections": {
           "North": 2423,
           "East": 2425
@@ -363,9 +313,7 @@
       },
       {
         "Id": 2425,
-        "FrameColor": "black",
         "Name": "Library #2425",
-        "Color": "black",
         "Connections": {
           "East": 2426,
           "West": 2424
@@ -373,9 +321,7 @@
       },
       {
         "Id": 2426,
-        "FrameColor": "black",
         "Name": "Library #2426",
-        "Color": "black",
         "Connections": {
           "East": 2427,
           "West": 2425
@@ -383,9 +329,7 @@
       },
       {
         "Id": 2427,
-        "FrameColor": "black",
         "Name": "Library #2427",
-        "Color": "black",
         "Connections": {
           "South": 2429,
           "West": 2426
@@ -393,13 +337,12 @@
       },
       {
         "Id": 2428,
-        "FrameColor": "black",
         "Name": "The Library Moongate #2428",
-        "Color": "black",
         "Connections": {
           "North": 2432,
           "Up": {
             "RoomId": 2437,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -413,9 +356,7 @@
       },
       {
         "Id": 2429,
-        "FrameColor": "black",
         "Name": "Library #2429",
-        "Color": "black",
         "Connections": {
           "North": 2427,
           "West": 2430
@@ -423,9 +364,7 @@
       },
       {
         "Id": 2430,
-        "FrameColor": "black",
         "Name": "Library #2430",
-        "Color": "black",
         "Connections": {
           "East": 2429,
           "West": 2431
@@ -439,9 +378,7 @@
       },
       {
         "Id": 2431,
-        "FrameColor": "black",
         "Name": "Library #2431",
-        "Color": "black",
         "Connections": {
           "East": 2430,
           "West": 2432
@@ -449,9 +386,7 @@
       },
       {
         "Id": 2432,
-        "FrameColor": "black",
         "Name": "Library #2432",
-        "Color": "black",
         "Connections": {
           "East": 2431,
           "South": 2428,
@@ -460,9 +395,7 @@
       },
       {
         "Id": 2433,
-        "FrameColor": "black",
         "Name": "Library #2433",
-        "Color": "black",
         "Connections": {
           "North": 2434,
           "East": 2432
@@ -470,9 +403,7 @@
       },
       {
         "Id": 2434,
-        "FrameColor": "black",
         "Name": "Library #2434",
-        "Color": "black",
         "Connections": {
           "North": 2435,
           "South": 2433
@@ -480,9 +411,7 @@
       },
       {
         "Id": 2435,
-        "FrameColor": "black",
         "Name": "Web #2435",
-        "Color": "black",
         "Connections": {
           "North": 2436,
           "South": 2434
@@ -496,9 +425,7 @@
       },
       {
         "Id": 2436,
-        "FrameColor": "black",
         "Name": "Library #2436",
-        "Color": "black",
         "Connections": {
           "East": 2416,
           "South": 2435
@@ -506,9 +433,7 @@
       },
       {
         "Id": 2437,
-        "FrameColor": "black",
         "Name": "The Center of the Tavern #2437",
-        "Color": "black",
         "Connections": {
           "North": 2439,
           "East": 2442,
@@ -524,9 +449,7 @@
       },
       {
         "Id": 2438,
-        "FrameColor": "black",
         "Name": "The Northwest Corner of the Tavern #2438",
-        "Color": "black",
         "Connections": {
           "East": 2439,
           "South": 2441
@@ -534,9 +457,7 @@
       },
       {
         "Id": 2439,
-        "FrameColor": "black",
         "Name": "The North Wall of the Tavern #2439",
-        "Color": "black",
         "Connections": {
           "East": 2440,
           "South": 2437,
@@ -555,9 +476,7 @@
       },
       {
         "Id": 2440,
-        "FrameColor": "black",
         "Name": "The Northeast Corner of the Tavern #2440",
-        "Color": "black",
         "Connections": {
           "South": 2442,
           "West": 2439
@@ -565,9 +484,7 @@
       },
       {
         "Id": 2441,
-        "FrameColor": "black",
         "Name": "The West Wall of the Tavern #2441",
-        "Color": "black",
         "Connections": {
           "North": 2438,
           "East": 2437,
@@ -576,9 +493,7 @@
       },
       {
         "Id": 2442,
-        "FrameColor": "black",
         "Name": "The East Wall of the Tavern #2442",
-        "Color": "black",
         "Connections": {
           "North": 2440,
           "South": 2445,
@@ -587,9 +502,7 @@
       },
       {
         "Id": 2443,
-        "FrameColor": "black",
         "Name": "The Southwest Corner of the Tavern #2443",
-        "Color": "black",
         "Connections": {
           "North": 2441,
           "East": 2444,
@@ -598,9 +511,7 @@
       },
       {
         "Id": 2444,
-        "FrameColor": "black",
         "Name": "The South Wall of the Tavern #2444",
-        "Color": "black",
         "Connections": {
           "North": 2437,
           "East": 2445,
@@ -615,9 +526,7 @@
       },
       {
         "Id": 2445,
-        "FrameColor": "black",
         "Name": "The Southeast Corner of the Tavern #2445",
-        "Color": "black",
         "Connections": {
           "North": 2442,
           "West": 2444
@@ -631,9 +540,7 @@
       },
       {
         "Id": 2446,
-        "FrameColor": "black",
         "Name": "Cellar #2446",
-        "Color": "black",
         "Connections": {
           "East": 2447,
           "South": 2449,
@@ -642,9 +549,7 @@
       },
       {
         "Id": 2447,
-        "FrameColor": "black",
         "Name": "Cellar #2447",
-        "Color": "black",
         "Connections": {
           "East": 2448,
           "South": 2450,
@@ -653,9 +558,7 @@
       },
       {
         "Id": 2448,
-        "FrameColor": "black",
         "Name": "Cellar #2448",
-        "Color": "black",
         "Connections": {
           "South": 2451,
           "West": 2447
@@ -669,9 +572,7 @@
       },
       {
         "Id": 2449,
-        "FrameColor": "black",
         "Name": "Cellar #2449",
-        "Color": "black",
         "Connections": {
           "North": 2446,
           "East": 2450,
@@ -680,9 +581,7 @@
       },
       {
         "Id": 2450,
-        "FrameColor": "black",
         "Name": "The Britain Moongate #2450",
-        "Color": "black",
         "Connections": {
           "North": 2447,
           "East": 2451,
@@ -690,6 +589,7 @@
           "West": 2449,
           "Up": {
             "RoomId": 2456,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -703,9 +603,7 @@
       },
       {
         "Id": 2451,
-        "FrameColor": "black",
         "Name": "Cellar #2451",
-        "Color": "black",
         "Connections": {
           "North": 2448,
           "South": 2454,
@@ -714,9 +612,7 @@
       },
       {
         "Id": 2452,
-        "FrameColor": "black",
         "Name": "Cellar #2452",
-        "Color": "black",
         "Connections": {
           "North": 2449,
           "East": 2453
@@ -730,9 +626,7 @@
       },
       {
         "Id": 2453,
-        "FrameColor": "black",
         "Name": "Cellar #2453",
-        "Color": "black",
         "Connections": {
           "North": 2450,
           "East": 2454,
@@ -741,9 +635,7 @@
       },
       {
         "Id": 2454,
-        "FrameColor": "black",
         "Name": "Cellar #2454",
-        "Color": "black",
         "Connections": {
           "North": 2451,
           "West": 2453
@@ -757,9 +649,7 @@
       },
       {
         "Id": 2455,
-        "FrameColor": "black",
         "Name": "The Yew Entrance #2455",
-        "Color": "black",
         "Connections": {
           "North": 2470,
           "South": 2456
@@ -767,9 +657,7 @@
       },
       {
         "Id": 2456,
-        "FrameColor": "black",
         "Name": "In Front of the Courthouse #2456",
-        "Color": "black",
         "Connections": {
           "North": 2455,
           "East": 2457,
@@ -785,9 +673,7 @@
       },
       {
         "Id": 2457,
-        "FrameColor": "black",
         "Name": "Justice Row #2457",
-        "Color": "black",
         "Connections": {
           "East": 2458,
           "West": 2456
@@ -795,9 +681,7 @@
       },
       {
         "Id": 2458,
-        "FrameColor": "black",
         "Name": "Under the Stone Arch #2458",
-        "Color": "black",
         "Connections": {
           "East": 2459,
           "West": 2457
@@ -805,9 +689,7 @@
       },
       {
         "Id": 2459,
-        "FrameColor": "black",
         "Name": "Bonfire #2459",
-        "Color": "black",
         "Connections": {
           "West": 2458
         },
@@ -820,9 +702,7 @@
       },
       {
         "Id": 2460,
-        "FrameColor": "black",
         "Name": "Pub #2460",
-        "Color": "black",
         "Connections": {
           "East": 2461
         },
@@ -835,9 +715,7 @@
       },
       {
         "Id": 2461,
-        "FrameColor": "black",
         "Name": "Justice Row #2461",
-        "Color": "black",
         "Connections": {
           "East": 2462,
           "West": 2460
@@ -845,9 +723,7 @@
       },
       {
         "Id": 2462,
-        "FrameColor": "black",
         "Name": "Justice Row #2462",
-        "Color": "black",
         "Connections": {
           "East": 2456,
           "West": 2461
@@ -855,9 +731,7 @@
       },
       {
         "Id": 2463,
-        "FrameColor": "black",
         "Name": "The Audience Room #2463",
-        "Color": "black",
         "Connections": {
           "North": 2456,
           "South": 2464
@@ -865,9 +739,7 @@
       },
       {
         "Id": 2464,
-        "FrameColor": "black",
         "Name": "The Bench #2464",
-        "Color": "black",
         "Connections": {
           "North": 2463,
           "East": 2465,
@@ -882,9 +754,7 @@
       },
       {
         "Id": 2465,
-        "FrameColor": "black",
         "Name": "Prison #2465",
-        "Color": "black",
         "Connections": {
           "North": 2468,
           "West": 2464
@@ -892,9 +762,7 @@
       },
       {
         "Id": 2466,
-        "FrameColor": "black",
         "Name": "Prison #2466",
-        "Color": "black",
         "Connections": {
           "North": 2467,
           "East": 2464
@@ -902,9 +770,7 @@
       },
       {
         "Id": 2467,
-        "FrameColor": "black",
         "Name": "Prison Cell #2467",
-        "Color": "black",
         "Connections": {
           "South": 2466
         },
@@ -917,9 +783,7 @@
       },
       {
         "Id": 2468,
-        "FrameColor": "black",
         "Name": "Prison Cell #2468",
-        "Color": "black",
         "Connections": {
           "South": 2465
         },
@@ -932,9 +796,7 @@
       },
       {
         "Id": 2469,
-        "FrameColor": "black",
         "Name": "Yew Forest #2469",
-        "Color": "black",
         "Connections": {
           "North": 2478,
           "East": 2470,
@@ -944,9 +806,7 @@
       },
       {
         "Id": 2470,
-        "FrameColor": "black",
         "Name": "Yew Forest #2470",
-        "Color": "black",
         "Connections": {
           "North": 2477,
           "East": 2471,
@@ -962,9 +822,7 @@
       },
       {
         "Id": 2471,
-        "FrameColor": "black",
         "Name": "Yew Forest #2471",
-        "Color": "black",
         "Connections": {
           "North": 2476,
           "East": 2472,
@@ -974,9 +832,7 @@
       },
       {
         "Id": 2472,
-        "FrameColor": "black",
         "Name": "Yew Forest #2472",
-        "Color": "black",
         "Connections": {
           "North": 2475,
           "East": 2473,
@@ -986,9 +842,7 @@
       },
       {
         "Id": 2473,
-        "FrameColor": "black",
         "Name": "Yew Forest #2473",
-        "Color": "black",
         "Connections": {
           "North": 2474,
           "East": 2469,
@@ -1004,9 +858,7 @@
       },
       {
         "Id": 2474,
-        "FrameColor": "black",
         "Name": "Yew Forest #2474",
-        "Color": "black",
         "Connections": {
           "North": 2483,
           "East": 2478,
@@ -1016,9 +868,7 @@
       },
       {
         "Id": 2475,
-        "FrameColor": "black",
         "Name": "Yew Forest #2475",
-        "Color": "black",
         "Connections": {
           "North": 2482,
           "East": 2474,
@@ -1028,9 +878,7 @@
       },
       {
         "Id": 2476,
-        "FrameColor": "black",
         "Name": "Yew Forest #2476",
-        "Color": "black",
         "Connections": {
           "North": 2481,
           "East": 2475,
@@ -1040,9 +888,7 @@
       },
       {
         "Id": 2477,
-        "FrameColor": "black",
         "Name": "Yew Forest #2477",
-        "Color": "black",
         "Connections": {
           "North": 2480,
           "East": 2476,
@@ -1052,9 +898,7 @@
       },
       {
         "Id": 2478,
-        "FrameColor": "black",
         "Name": "Yew Forest #2478",
-        "Color": "black",
         "Connections": {
           "North": 2479,
           "East": 2477,
@@ -1070,9 +914,7 @@
       },
       {
         "Id": 2479,
-        "FrameColor": "black",
         "Name": "Yew Forest #2479",
-        "Color": "black",
         "Connections": {
           "North": 2469,
           "East": 2480,
@@ -1082,9 +924,7 @@
       },
       {
         "Id": 2480,
-        "FrameColor": "black",
         "Name": "Yew Forest #2480",
-        "Color": "black",
         "Connections": {
           "North": 2484,
           "East": 2481,
@@ -1100,9 +940,7 @@
       },
       {
         "Id": 2481,
-        "FrameColor": "black",
         "Name": "Yew Forest #2481",
-        "Color": "black",
         "Connections": {
           "North": 2471,
           "East": 2482,
@@ -1118,9 +956,7 @@
       },
       {
         "Id": 2482,
-        "FrameColor": "black",
         "Name": "Yew Forest #2482",
-        "Color": "black",
         "Connections": {
           "North": 2472,
           "East": 2483,
@@ -1130,9 +966,7 @@
       },
       {
         "Id": 2483,
-        "FrameColor": "black",
         "Name": "Yew Forest #2483",
-        "Color": "black",
         "Connections": {
           "North": 2473,
           "East": 2479,
@@ -1142,13 +976,12 @@
       },
       {
         "Id": 2484,
-        "FrameColor": "black",
         "Name": "The Yew Moongate #2484",
-        "Color": "black",
         "Connections": {
           "South": 2480,
           "Up": {
             "RoomId": 2485,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1162,9 +995,7 @@
       },
       {
         "Id": 2485,
-        "FrameColor": "black",
         "Name": "Dungeon Entrance #2485",
-        "Color": "black",
         "Connections": {
           "Up": 2487,
           "Down": 2484
@@ -1172,9 +1003,7 @@
       },
       {
         "Id": 2486,
-        "FrameColor": "black",
         "Name": "The Dungeon #2486",
-        "Color": "black",
         "Connections": {
           "North": 2490
         },
@@ -1187,9 +1016,7 @@
       },
       {
         "Id": 2487,
-        "FrameColor": "black",
         "Name": "The Dungeon #2487",
-        "Color": "black",
         "Connections": {
           "North": 2491,
           "Down": 2485
@@ -1203,9 +1030,7 @@
       },
       {
         "Id": 2488,
-        "FrameColor": "black",
         "Name": "The Dungeon #2488",
-        "Color": "black",
         "Connections": {
           "North": 2492,
           "East": 2489
@@ -1223,18 +1048,14 @@
       },
       {
         "Id": 2489,
-        "FrameColor": "black",
         "Name": "The Dungeon #2489",
-        "Color": "black",
         "Connections": {
           "West": 2488
         }
       },
       {
         "Id": 2490,
-        "FrameColor": "black",
         "Name": "The Dungeon #2490",
-        "Color": "black",
         "Connections": {
           "North": 2494,
           "East": 2491,
@@ -1249,9 +1070,7 @@
       },
       {
         "Id": 2491,
-        "FrameColor": "black",
         "Name": "The Dungeon #2491",
-        "Color": "black",
         "Connections": {
           "North": 2495,
           "East": 2492,
@@ -1261,9 +1080,7 @@
       },
       {
         "Id": 2492,
-        "FrameColor": "black",
         "Name": "The Dungeon #2492",
-        "Color": "black",
         "Connections": {
           "East": 2493,
           "South": 2488,
@@ -1278,9 +1095,7 @@
       },
       {
         "Id": 2493,
-        "FrameColor": "black",
         "Name": "The Dungeon #2493",
-        "Color": "black",
         "Connections": {
           "North": 2497,
           "West": 2492
@@ -1288,9 +1103,7 @@
       },
       {
         "Id": 2494,
-        "FrameColor": "black",
         "Name": "The Dungeon #2494",
-        "Color": "black",
         "Connections": {
           "North": 2498,
           "South": 2490
@@ -1298,9 +1111,7 @@
       },
       {
         "Id": 2495,
-        "FrameColor": "black",
         "Name": "The Dungeon #2495",
-        "Color": "black",
         "Connections": {
           "North": 2499,
           "East": 2496,
@@ -1309,9 +1120,7 @@
       },
       {
         "Id": 2496,
-        "FrameColor": "black",
         "Name": "The Dungeon #2496",
-        "Color": "black",
         "Connections": {
           "North": 2500,
           "West": 2495
@@ -1319,36 +1128,28 @@
       },
       {
         "Id": 2497,
-        "FrameColor": "black",
         "Name": "The Dungeon #2497",
-        "Color": "black",
         "Connections": {
           "South": 2493
         }
       },
       {
         "Id": 2498,
-        "FrameColor": "black",
         "Name": "The Dungeon #2498",
-        "Color": "black",
         "Connections": {
           "South": 2494
         }
       },
       {
         "Id": 2499,
-        "FrameColor": "black",
         "Name": "The Dungeon #2499",
-        "Color": "black",
         "Connections": {
           "South": 2495
         }
       },
       {
         "Id": 2500,
-        "FrameColor": "black",
         "Name": "The Dungeon #2500",
-        "Color": "black",
         "Connections": {
           "East": 2501,
           "South": 2496
@@ -1356,13 +1157,12 @@
       },
       {
         "Id": 2501,
-        "FrameColor": "black",
         "Name": "The Dungeon Moongate #2501",
-        "Color": "black",
         "Connections": {
           "West": 2500,
           "Up": {
             "RoomId": 2502,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1376,9 +1176,7 @@
       },
       {
         "Id": 2502,
-        "FrameColor": "black",
         "Name": "Minoc #2502",
-        "Color": "black",
         "Connections": {
           "North": 2515,
           "South": 2504
@@ -1386,9 +1184,7 @@
       },
       {
         "Id": 2503,
-        "FrameColor": "black",
         "Name": "The Armourer #2503",
-        "Color": "black",
         "Connections": {
           "East": 2504
         },
@@ -1401,9 +1197,7 @@
       },
       {
         "Id": 2504,
-        "FrameColor": "black",
         "Name": "Minoc\u0027s Fountain #2504",
-        "Color": "black",
         "Connections": {
           "North": 2502,
           "East": 2505,
@@ -1413,9 +1207,7 @@
       },
       {
         "Id": 2505,
-        "FrameColor": "black",
         "Name": "The Weaponsmith #2505",
-        "Color": "black",
         "Connections": {
           "West": 2504
         },
@@ -1428,9 +1220,7 @@
       },
       {
         "Id": 2506,
-        "FrameColor": "black",
         "Name": "The Boatseller #2506",
-        "Color": "black",
         "Connections": {
           "East": 2507
         },
@@ -1443,9 +1233,7 @@
       },
       {
         "Id": 2507,
-        "FrameColor": "black",
         "Name": "Sacrifice Street #2507",
-        "Color": "black",
         "Connections": {
           "East": 2508,
           "South": 2511,
@@ -1454,9 +1242,7 @@
       },
       {
         "Id": 2508,
-        "FrameColor": "black",
         "Name": "Sacrifice Street #2508",
-        "Color": "black",
         "Connections": {
           "North": 2504,
           "East": 2509,
@@ -1475,9 +1261,7 @@
       },
       {
         "Id": 2509,
-        "FrameColor": "black",
         "Name": "Sacrifice Street #2509",
-        "Color": "black",
         "Connections": {
           "East": 2510,
           "South": 2512,
@@ -1486,9 +1270,7 @@
       },
       {
         "Id": 2510,
-        "FrameColor": "black",
         "Name": "Forge #2510",
-        "Color": "black",
         "Connections": {
           "West": 2509
         },
@@ -1501,9 +1283,7 @@
       },
       {
         "Id": 2511,
-        "FrameColor": "black",
         "Name": "Residence #2511",
-        "Color": "black",
         "Connections": {
           "North": 2507
         },
@@ -1516,9 +1296,7 @@
       },
       {
         "Id": 2512,
-        "FrameColor": "black",
         "Name": "Residence #2512",
-        "Color": "black",
         "Connections": {
           "North": 2509
         },
@@ -1531,9 +1309,7 @@
       },
       {
         "Id": 2513,
-        "FrameColor": "black",
         "Name": "The Beach #2513",
-        "Color": "black",
         "Connections": {
           "West": 2584,
           "East": 2514
@@ -1541,9 +1317,7 @@
       },
       {
         "Id": 2514,
-        "FrameColor": "black",
         "Name": "The Beach #2514",
-        "Color": "black",
         "Connections": {
           "East": 2515,
           "West": 2513
@@ -1557,9 +1331,7 @@
       },
       {
         "Id": 2515,
-        "FrameColor": "black",
         "Name": "The Beach #2515",
-        "Color": "black",
         "Connections": {
           "East": 2516,
           "South": 2502,
@@ -1574,9 +1346,7 @@
       },
       {
         "Id": 2516,
-        "FrameColor": "black",
         "Name": "The Beach #2516",
-        "Color": "black",
         "Connections": {
           "East": 2517,
           "West": 2515
@@ -1590,9 +1360,7 @@
       },
       {
         "Id": 2517,
-        "FrameColor": "black",
         "Name": "The Beach #2517",
-        "Color": "black",
         "Connections": {
           "West": 2516
         },
@@ -1605,9 +1373,7 @@
       },
       {
         "Id": 2518,
-        "FrameColor": "black",
         "Name": "The Whirlpool #2518",
-        "Color": "black",
         "Connections": {
           "North": 2521,
           "East": 2519,
@@ -1617,9 +1383,7 @@
       },
       {
         "Id": 2519,
-        "FrameColor": "black",
         "Name": "The Whirlpool #2519",
-        "Color": "black",
         "Connections": {
           "North": 2522,
           "East": 2520,
@@ -1629,9 +1393,7 @@
       },
       {
         "Id": 2520,
-        "FrameColor": "black",
         "Name": "The Whirlpool #2520",
-        "Color": "black",
         "Connections": {
           "North": 2523,
           "East": 2518,
@@ -1641,9 +1403,7 @@
       },
       {
         "Id": 2521,
-        "FrameColor": "black",
         "Name": "The Whirlpool #2521",
-        "Color": "black",
         "Connections": {
           "North": 2524,
           "East": 2522,
@@ -1659,9 +1419,7 @@
       },
       {
         "Id": 2522,
-        "FrameColor": "black",
         "Name": "The Whirlpool #2522",
-        "Color": "black",
         "Connections": {
           "North": 2525,
           "East": 2523,
@@ -1677,9 +1435,7 @@
       },
       {
         "Id": 2523,
-        "FrameColor": "black",
         "Name": "The Whirlpool #2523",
-        "Color": "black",
         "Connections": {
           "North": 2526,
           "East": 2521,
@@ -1695,9 +1451,7 @@
       },
       {
         "Id": 2524,
-        "FrameColor": "black",
         "Name": "The Whirlpool #2524",
-        "Color": "black",
         "Connections": {
           "North": 2527,
           "East": 2525,
@@ -1707,9 +1461,7 @@
       },
       {
         "Id": 2525,
-        "FrameColor": "black",
         "Name": "The Whirlpool #2525",
-        "Color": "black",
         "Connections": {
           "North": 2519,
           "East": 2526,
@@ -1719,9 +1471,7 @@
       },
       {
         "Id": 2526,
-        "FrameColor": "black",
         "Name": "The Whirlpool #2526",
-        "Color": "black",
         "Connections": {
           "North": 2520,
           "East": 2524,
@@ -1731,13 +1481,12 @@
       },
       {
         "Id": 2527,
-        "FrameColor": "black",
         "Name": "The Minoc Moongate #2527",
-        "Color": "black",
         "Connections": {
           "South": 2524,
           "Up": {
             "RoomId": 2528,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1751,9 +1500,7 @@
       },
       {
         "Id": 2528,
-        "FrameColor": "black",
         "Name": "A Campfire #2528",
-        "Color": "black",
         "Connections": {
           "North": 2538,
           "East": 2529,
@@ -1762,9 +1509,7 @@
       },
       {
         "Id": 2529,
-        "FrameColor": "black",
         "Name": "Between the Tents #2529",
-        "Color": "black",
         "Connections": {
           "East": 2530,
           "West": 2528
@@ -1778,9 +1523,7 @@
       },
       {
         "Id": 2530,
-        "FrameColor": "black",
         "Name": "In front of the Grand Tent #2530",
-        "Color": "black",
         "Connections": {
           "East": 2531,
           "South": 2534,
@@ -1789,9 +1532,7 @@
       },
       {
         "Id": 2531,
-        "FrameColor": "black",
         "Name": "A Small Tent #2531",
-        "Color": "black",
         "Connections": {
           "West": 2530
         },
@@ -1804,9 +1545,7 @@
       },
       {
         "Id": 2532,
-        "FrameColor": "black",
         "Name": "A Small Tent #2532",
-        "Color": "black",
         "Connections": {
           "North": 2528
         },
@@ -1819,18 +1558,14 @@
       },
       {
         "Id": 2533,
-        "FrameColor": "black",
         "Name": "The Treasure Tent #2533",
-        "Color": "black",
         "Connections": {
           "East": 2534
         }
       },
       {
         "Id": 2534,
-        "FrameColor": "black",
         "Name": "The Grand Tent #2534",
-        "Color": "black",
         "Connections": {
           "North": 2530,
           "East": 2535,
@@ -1846,18 +1581,14 @@
       },
       {
         "Id": 2535,
-        "FrameColor": "black",
         "Name": "The Map Tent #2535",
-        "Color": "black",
         "Connections": {
           "West": 2534
         }
       },
       {
         "Id": 2536,
-        "FrameColor": "black",
         "Name": "Dupre\u0027s Tent #2536",
-        "Color": "black",
         "Connections": {
           "North": 2534
         },
@@ -1870,9 +1601,7 @@
       },
       {
         "Id": 2537,
-        "FrameColor": "black",
         "Name": "A Small Tent #2537",
-        "Color": "black",
         "Connections": {
           "East": 2538
         },
@@ -1885,9 +1614,7 @@
       },
       {
         "Id": 2538,
-        "FrameColor": "black",
         "Name": "Desert Entrance #2538",
-        "Color": "black",
         "Connections": {
           "North": 2541,
           "East": 2539,
@@ -1902,9 +1629,7 @@
       },
       {
         "Id": 2539,
-        "FrameColor": "black",
         "Name": "A Small Tent #2539",
-        "Color": "black",
         "Connections": {
           "West": 2538
         },
@@ -1917,9 +1642,7 @@
       },
       {
         "Id": 2540,
-        "FrameColor": "black",
         "Name": "The Desert #2540",
-        "Color": "black",
         "Connections": {
           "North": 2544,
           "East": 2541
@@ -1927,9 +1650,7 @@
       },
       {
         "Id": 2541,
-        "FrameColor": "black",
         "Name": "The Desert #2541",
-        "Color": "black",
         "Connections": {
           "East": 2542,
           "South": 2538,
@@ -1944,9 +1665,7 @@
       },
       {
         "Id": 2542,
-        "FrameColor": "black",
         "Name": "The Desert #2542",
-        "Color": "black",
         "Connections": {
           "North": 2546,
           "East": 2543,
@@ -1955,13 +1674,12 @@
       },
       {
         "Id": 2543,
-        "FrameColor": "black",
         "Name": "The Desert Moongate #2543",
-        "Color": "black",
         "Connections": {
           "West": 2542,
           "Up": {
             "RoomId": 2549,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1975,13 +1693,12 @@
       },
       {
         "Id": 2544,
-        "FrameColor": "black",
         "Name": "The Desert Moongate #2544",
-        "Color": "black",
         "Connections": {
           "South": 2540,
           "Up": {
             "RoomId": 1,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": []
@@ -1990,9 +1707,7 @@
       },
       {
         "Id": 2545,
-        "FrameColor": "black",
         "Name": "The Desert #2545",
-        "Color": "black",
         "Connections": {
           "North": 2548,
           "East": 2546
@@ -2000,9 +1715,7 @@
       },
       {
         "Id": 2546,
-        "FrameColor": "black",
         "Name": "The Desert #2546",
-        "Color": "black",
         "Connections": {
           "East": 2547,
           "South": 2542,
@@ -2011,13 +1724,12 @@
       },
       {
         "Id": 2547,
-        "FrameColor": "black",
         "Name": "The Desert Moongate #2547",
-        "Color": "black",
         "Connections": {
           "West": 2546,
           "Up": {
             "RoomId": 1,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": []
@@ -2026,9 +1738,7 @@
       },
       {
         "Id": 2548,
-        "FrameColor": "black",
         "Name": "The Dragon Cave #2548",
-        "Color": "black",
         "Connections": {
           "South": 2545
         },
@@ -2041,14 +1751,13 @@
       },
       {
         "Id": 2549,
-        "FrameColor": "black",
         "Name": "The Shrine of Spirituality #2549",
-        "Color": "black",
         "Connections": {
           "North": 2554,
           "South": 2557,
           "Up": {
             "RoomId": 2562,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2068,9 +1777,7 @@
       },
       {
         "Id": 2550,
-        "FrameColor": "black",
         "Name": "The Place of Ultimate Evil #2550",
-        "Color": "black",
         "Connections": {
           "East": 2551,
           "South": 2553
@@ -2084,9 +1791,7 @@
       },
       {
         "Id": 2551,
-        "FrameColor": "black",
         "Name": "The Place of Ultimate Evil #2551",
-        "Color": "black",
         "Connections": {
           "East": 2552,
           "South": 2554,
@@ -2101,9 +1806,7 @@
       },
       {
         "Id": 2552,
-        "FrameColor": "black",
         "Name": "The Place of Ultimate Evil #2552",
-        "Color": "black",
         "Connections": {
           "South": 2555,
           "West": 2551
@@ -2117,9 +1820,7 @@
       },
       {
         "Id": 2553,
-        "FrameColor": "black",
         "Name": "The Place of Ultimate Evil #2553",
-        "Color": "black",
         "Connections": {
           "North": 2550,
           "East": 2554
@@ -2133,9 +1834,7 @@
       },
       {
         "Id": 2554,
-        "FrameColor": "black",
         "Name": "The Place of Ultimate Evil #2554",
-        "Color": "black",
         "Connections": {
           "North": 2551,
           "East": 2555,
@@ -2145,9 +1844,7 @@
       },
       {
         "Id": 2555,
-        "FrameColor": "black",
         "Name": "The Place of Ultimate Evil #2555",
-        "Color": "black",
         "Connections": {
           "North": 2552,
           "West": 2554
@@ -2165,9 +1862,7 @@
       },
       {
         "Id": 2556,
-        "FrameColor": "black",
         "Name": "The Graveyard #2556",
-        "Color": "black",
         "Connections": {
           "East": 2557,
           "South": 2559
@@ -2175,9 +1870,7 @@
       },
       {
         "Id": 2557,
-        "FrameColor": "black",
         "Name": "The Graveyard #2557",
-        "Color": "black",
         "Connections": {
           "North": 2549,
           "East": 2558,
@@ -2187,9 +1880,7 @@
       },
       {
         "Id": 2558,
-        "FrameColor": "black",
         "Name": "The Graveyard #2558",
-        "Color": "black",
         "Connections": {
           "South": 2561,
           "West": 2557
@@ -2197,9 +1888,7 @@
       },
       {
         "Id": 2559,
-        "FrameColor": "black",
         "Name": "The Graveyard #2559",
-        "Color": "black",
         "Connections": {
           "North": 2556,
           "East": 2560
@@ -2207,9 +1896,7 @@
       },
       {
         "Id": 2560,
-        "FrameColor": "black",
         "Name": "The Graveyard #2560",
-        "Color": "black",
         "Connections": {
           "North": 2557,
           "East": 2561,
@@ -2228,9 +1915,7 @@
       },
       {
         "Id": 2561,
-        "FrameColor": "black",
         "Name": "The Graveyard #2561",
-        "Color": "black",
         "Connections": {
           "North": 2558,
           "West": 2560
@@ -2244,9 +1929,7 @@
       },
       {
         "Id": 2562,
-        "FrameColor": "black",
         "Name": "Lord British\u0027s Castle Entrance #2562",
-        "Color": "black",
         "Connections": {
           "North": 2563
         },
@@ -2259,9 +1942,7 @@
       },
       {
         "Id": 2563,
-        "FrameColor": "black",
         "Name": "Castle Fountain #2563",
-        "Color": "black",
         "Connections": {
           "North": 2565,
           "South": 2562
@@ -2269,9 +1950,7 @@
       },
       {
         "Id": 2564,
-        "FrameColor": "black",
         "Name": "A staircase #2564",
-        "Color": "black",
         "Connections": {
           "East": 2565,
           "Up": 2569
@@ -2279,9 +1958,7 @@
       },
       {
         "Id": 2565,
-        "FrameColor": "black",
         "Name": "Hallways #2565",
-        "Color": "black",
         "Connections": {
           "North": 2567,
           "East": 2566,
@@ -2297,9 +1974,7 @@
       },
       {
         "Id": 2566,
-        "FrameColor": "black",
         "Name": "Hallway #2566",
-        "Color": "black",
         "Connections": {
           "North": 2568,
           "West": 2565
@@ -2307,9 +1982,7 @@
       },
       {
         "Id": 2567,
-        "FrameColor": "black",
         "Name": "The Throne Room #2567",
-        "Color": "black",
         "Connections": {
           "South": 2565
         },
@@ -2326,9 +1999,7 @@
       },
       {
         "Id": 2568,
-        "FrameColor": "black",
         "Name": "Batlin\u0027s Room #2568",
-        "Color": "black",
         "Connections": {
           "South": 2566
         },
@@ -2341,12 +2012,11 @@
       },
       {
         "Id": 2569,
-        "FrameColor": "black",
         "Name": "The Altar of Honesty #2569",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 2570,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2360,12 +2030,11 @@
       },
       {
         "Id": 2570,
-        "FrameColor": "black",
         "Name": "The Altar of Compassion #2570",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 2571,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2379,12 +2048,11 @@
       },
       {
         "Id": 2571,
-        "FrameColor": "black",
         "Name": "The Altar of Valor #2571",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 2572,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2398,12 +2066,11 @@
       },
       {
         "Id": 2572,
-        "FrameColor": "black",
         "Name": "The Altar of Justice #2572",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 2573,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2417,12 +2084,11 @@
       },
       {
         "Id": 2573,
-        "FrameColor": "black",
         "Name": "The Altar of Sacrifice #2573",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 2574,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2440,12 +2106,11 @@
       },
       {
         "Id": 2574,
-        "FrameColor": "black",
         "Name": "The Altar of Honour #2574",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 2575,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2459,12 +2124,11 @@
       },
       {
         "Id": 2575,
-        "FrameColor": "black",
         "Name": "The Altar of Spirituality #2575",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 2576,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2478,12 +2142,11 @@
       },
       {
         "Id": 2576,
-        "FrameColor": "black",
         "Name": "The Altar of Humility #2576",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 2577,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2497,12 +2160,11 @@
       },
       {
         "Id": 2577,
-        "FrameColor": "black",
         "Name": "The Enlightenment #2577",
-        "Color": "black",
         "Connections": {
           "Up": {
             "RoomId": 2578,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2516,12 +2178,11 @@
       },
       {
         "Id": 2578,
-        "FrameColor": "black",
         "Name": "In the Warp #2578",
-        "Color": "black",
         "Connections": {
           "Up": {
             "RoomId": 2579,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2541,12 +2202,11 @@
       },
       {
         "Id": 2579,
-        "FrameColor": "black",
         "Name": "In the Warp #2579",
-        "Color": "black",
         "Connections": {
           "Up": {
             "RoomId": 2580,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2566,12 +2226,11 @@
       },
       {
         "Id": 2580,
-        "FrameColor": "black",
         "Name": "In the Warp #2580",
-        "Color": "black",
         "Connections": {
           "Up": {
             "RoomId": 2581,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2591,12 +2250,11 @@
       },
       {
         "Id": 2581,
-        "FrameColor": "black",
         "Name": "The Enlightenment #2581",
-        "Color": "black",
         "Connections": {
           "Up": {
             "RoomId": 2582,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2610,12 +2268,11 @@
       },
       {
         "Id": 2582,
-        "FrameColor": "black",
         "Name": "In the Warp #2582",
-        "Color": "black",
         "Connections": {
           "Up": {
             "RoomId": 2583,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2635,9 +2292,7 @@
       },
       {
         "Id": 2583,
-        "FrameColor": "black",
         "Name": "In the Warp #2583",
-        "Color": "black",
         "Connections": {},
         "Contents": [
           {
@@ -2648,9 +2303,7 @@
       },
       {
         "Id": 2584,
-        "FrameColor": "black",
         "Name": "The Lagoon #2584",
-        "Color": "black",
         "Connections": {
           "North": 2518,
           "East": 2513

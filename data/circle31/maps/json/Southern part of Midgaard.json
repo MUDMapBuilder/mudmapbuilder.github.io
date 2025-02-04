@@ -2,13 +2,10 @@
   "Area": {
     "Name": "Southern part of Midgaard",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 3100,
-        "FrameColor": "black",
         "Name": "The Northwest End Of The Concourse #3100",
-        "Color": "black",
         "Connections": {
           "North": 3051,
           "East": 3101,
@@ -17,9 +14,7 @@
       },
       {
         "Id": 3101,
-        "FrameColor": "black",
         "Name": "The Promenade #3101",
-        "Color": "black",
         "Connections": {
           "East": 3102,
           "South": 3131,
@@ -28,9 +23,7 @@
       },
       {
         "Id": 3102,
-        "FrameColor": "black",
         "Name": "The Promenade #3102",
-        "Color": "black",
         "Connections": {
           "East": 3103,
           "South": 3105,
@@ -39,9 +32,7 @@
       },
       {
         "Id": 3103,
-        "FrameColor": "black",
         "Name": "The Promenade #3103",
-        "Color": "black",
         "Connections": {
           "East": 3104,
           "South": 3132,
@@ -50,9 +41,7 @@
       },
       {
         "Id": 3104,
-        "FrameColor": "black",
         "Name": "The Northeast End Of The Concourse #3104",
-        "Color": "black",
         "Connections": {
           "South": 3130,
           "West": 3103
@@ -60,9 +49,7 @@
       },
       {
         "Id": 3105,
-        "FrameColor": "black",
         "Name": "The Park Entrance #3105",
-        "Color": "black",
         "Connections": {
           "North": 3102,
           "East": 3106,
@@ -71,9 +58,7 @@
       },
       {
         "Id": 3106,
-        "FrameColor": "black",
         "Name": "Park Cafe #3106",
-        "Color": "black",
         "Connections": {
           "West": 3105
         },
@@ -94,9 +79,7 @@
       },
       {
         "Id": 3107,
-        "FrameColor": "black",
         "Name": "A Small Path In The Park #3107",
-        "Color": "black",
         "Connections": {
           "East": 3108,
           "South": 3113
@@ -104,9 +87,7 @@
       },
       {
         "Id": 3108,
-        "FrameColor": "black",
         "Name": "A Small Path In The Park #3108",
-        "Color": "black",
         "Connections": {
           "North": 3105,
           "East": 3109,
@@ -115,9 +96,7 @@
       },
       {
         "Id": 3109,
-        "FrameColor": "black",
         "Name": "A Small Path In The Park #3109",
-        "Color": "black",
         "Connections": {
           "South": 3115,
           "West": 3108
@@ -131,12 +110,11 @@
       },
       {
         "Id": 3110,
-        "FrameColor": "black",
         "Name": "Cityguard HeadQuarters #3110",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 3111,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -172,15 +150,14 @@
       },
       {
         "Id": 3111,
-        "FrameColor": "black",
         "Name": "Park Road #3111",
-        "Color": "black",
         "Connections": {
           "North": 3131,
           "East": 3112,
           "South": 3118,
           "West": {
             "RoomId": 3110,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -212,9 +189,7 @@
       },
       {
         "Id": 3112,
-        "FrameColor": "black",
         "Name": "The Western Park Entrance #3112",
-        "Color": "black",
         "Connections": {
           "East": 3113,
           "West": 3111
@@ -222,9 +197,7 @@
       },
       {
         "Id": 3113,
-        "FrameColor": "black",
         "Name": "A Path In The Park #3113",
-        "Color": "black",
         "Connections": {
           "North": 3107,
           "East": 3114,
@@ -239,9 +212,7 @@
       },
       {
         "Id": 3114,
-        "FrameColor": "black",
         "Name": "The Pond #3114",
-        "Color": "black",
         "Connections": {
           "East": 3115,
           "West": 3113
@@ -259,9 +230,7 @@
       },
       {
         "Id": 3115,
-        "FrameColor": "black",
         "Name": "A Path In The Park #3115",
-        "Color": "black",
         "Connections": {
           "North": 3109,
           "East": 3116,
@@ -276,9 +245,7 @@
       },
       {
         "Id": 3116,
-        "FrameColor": "black",
         "Name": "The Eastern Park Entrance #3116",
-        "Color": "black",
         "Connections": {
           "East": 3117,
           "West": 3115
@@ -286,9 +253,7 @@
       },
       {
         "Id": 3117,
-        "FrameColor": "black",
         "Name": "Emerald Avenue #3117",
-        "Color": "black",
         "Connections": {
           "North": 3132,
           "East": 3137,
@@ -298,9 +263,7 @@
       },
       {
         "Id": 3118,
-        "FrameColor": "black",
         "Name": "Park Road #3118",
-        "Color": "black",
         "Connections": {
           "North": 3111,
           "South": 3135
@@ -308,9 +271,7 @@
       },
       {
         "Id": 3119,
-        "FrameColor": "black",
         "Name": "Emerald Avenue #3119",
-        "Color": "black",
         "Connections": {
           "North": 3117,
           "West": 3133
@@ -318,9 +279,7 @@
       },
       {
         "Id": 3120,
-        "FrameColor": "black",
         "Name": "The Road Crossing #3120",
-        "Color": "black",
         "Connections": {
           "North": 3133,
           "East": 3136,
@@ -337,9 +296,7 @@
       },
       {
         "Id": 3121,
-        "FrameColor": "black",
         "Name": "Emerald Avenue #3121",
-        "Color": "black",
         "Connections": {
           "East": 3134,
           "South": 3125
@@ -347,9 +304,7 @@
       },
       {
         "Id": 3122,
-        "FrameColor": "black",
         "Name": "Park Road #3122",
-        "Color": "black",
         "Connections": {
           "North": 3136,
           "East": 3123,
@@ -358,9 +313,7 @@
       },
       {
         "Id": 3123,
-        "FrameColor": "black",
         "Name": "Elm Street #3123",
-        "Color": "black",
         "Connections": {
           "East": 3124,
           "West": 3122
@@ -368,18 +321,14 @@
       },
       {
         "Id": 3124,
-        "FrameColor": "black",
         "Name": "The End Of Elm Street #3124",
-        "Color": "black",
         "Connections": {
           "West": 3123
         }
       },
       {
         "Id": 3125,
-        "FrameColor": "black",
         "Name": "Emerald Avenue #3125",
-        "Color": "black",
         "Connections": {
           "North": 3121,
           "South": 3128
@@ -387,9 +336,7 @@
       },
       {
         "Id": 3126,
-        "FrameColor": "black",
         "Name": "Park Road #3126",
-        "Color": "black",
         "Connections": {
           "North": 3122,
           "South": 3129
@@ -397,9 +344,7 @@
       },
       {
         "Id": 3127,
-        "FrameColor": "black",
         "Name": "On The Concourse #3127",
-        "Color": "black",
         "Connections": {
           "North": 3100,
           "East": 3128,
@@ -408,9 +353,7 @@
       },
       {
         "Id": 3128,
-        "FrameColor": "black",
         "Name": "On The Concourse #3128",
-        "Color": "black",
         "Connections": {
           "North": 3125,
           "East": 3129,
@@ -419,14 +362,13 @@
       },
       {
         "Id": 3129,
-        "FrameColor": "black",
         "Name": "On The Concourse #3129",
-        "Color": "black",
         "Connections": {
           "North": 3126,
           "East": 3130,
           "South": {
             "RoomId": 3150,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -441,9 +383,7 @@
       },
       {
         "Id": 3130,
-        "FrameColor": "black",
         "Name": "On The Concourse #3130",
-        "Color": "black",
         "Connections": {
           "North": 3104,
           "West": 3129
@@ -451,9 +391,7 @@
       },
       {
         "Id": 3131,
-        "FrameColor": "black",
         "Name": "Park Road #3131",
-        "Color": "black",
         "Connections": {
           "North": 3101,
           "South": 3111
@@ -461,9 +399,7 @@
       },
       {
         "Id": 3132,
-        "FrameColor": "black",
         "Name": "Emerald Avenue #3132",
-        "Color": "black",
         "Connections": {
           "North": 3103,
           "East": 3139,
@@ -472,9 +408,7 @@
       },
       {
         "Id": 3133,
-        "FrameColor": "black",
         "Name": "Emerald Avenue #3133",
-        "Color": "black",
         "Connections": {
           "East": 3119,
           "South": 3120
@@ -482,9 +416,7 @@
       },
       {
         "Id": 3134,
-        "FrameColor": "black",
         "Name": "Emerald Avenue #3134",
-        "Color": "black",
         "Connections": {
           "North": 3120,
           "West": 3121
@@ -492,9 +424,7 @@
       },
       {
         "Id": 3135,
-        "FrameColor": "black",
         "Name": "Park Road #3135",
-        "Color": "black",
         "Connections": {
           "North": 3118,
           "East": 3120
@@ -502,9 +432,7 @@
       },
       {
         "Id": 3136,
-        "FrameColor": "black",
         "Name": "Park Road #3136",
-        "Color": "black",
         "Connections": {
           "South": 3122,
           "West": 3120
@@ -512,9 +440,7 @@
       },
       {
         "Id": 3137,
-        "FrameColor": "black",
         "Name": "The Waiting Room #3137",
-        "Color": "black",
         "Connections": {
           "East": 3138,
           "West": 3117
@@ -528,9 +454,7 @@
       },
       {
         "Id": 3138,
-        "FrameColor": "black",
         "Name": "The Mayor\u0027s Office #3138",
-        "Color": "black",
         "Connections": {
           "West": 3137
         },
@@ -543,9 +467,7 @@
       },
       {
         "Id": 3139,
-        "FrameColor": "black",
         "Name": "Penny Lane #3139",
-        "Color": "black",
         "Connections": {
           "East": 3140,
           "West": 3132
@@ -553,9 +475,7 @@
       },
       {
         "Id": 3140,
-        "FrameColor": "black",
         "Name": "Penny Lane #3140",
-        "Color": "black",
         "Connections": {
           "North": 3141,
           "West": 3139
@@ -563,21 +483,18 @@
       },
       {
         "Id": 3141,
-        "FrameColor": "black",
         "Name": "The End Of Penny Lane #3141",
-        "Color": "black",
         "Connections": {
           "South": 3140
         }
       },
       {
         "Id": 3150,
-        "FrameColor": "black",
         "Name": "A Gravel Road In The Graveyard #3150",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 3129,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -592,9 +509,7 @@
       },
       {
         "Id": 3151,
-        "FrameColor": "black",
         "Name": "A Gravel Road In The Graveyard #3151",
-        "Color": "black",
         "Connections": {
           "North": 3150,
           "South": 3152
@@ -602,9 +517,7 @@
       },
       {
         "Id": 3152,
-        "FrameColor": "black",
         "Name": "A Gravel Road In The Graveyard #3152",
-        "Color": "black",
         "Connections": {
           "North": 3151,
           "South": 3153
@@ -612,9 +525,7 @@
       },
       {
         "Id": 3153,
-        "FrameColor": "black",
         "Name": "A Gravel Road In The Graveyard #3153",
-        "Color": "black",
         "Connections": {
           "North": 3152,
           "South": 3154
@@ -622,9 +533,7 @@
       },
       {
         "Id": 3154,
-        "FrameColor": "black",
         "Name": "In Front Of The Chapel #3154",
-        "Color": "black",
         "Connections": {
           "North": 3153,
           "South": 3155
@@ -632,18 +541,14 @@
       },
       {
         "Id": 3155,
-        "FrameColor": "black",
         "Name": "Inside The Chapel #3155",
-        "Color": "black",
         "Connections": {
           "North": 3154
         }
       },
       {
         "Id": 3200,
-        "FrameColor": "black",
         "Name": "Under The Bridge #3200",
-        "Color": "black",
         "Connections": {
           "East": 3201,
           "West": 900
@@ -651,9 +556,7 @@
       },
       {
         "Id": 3201,
-        "FrameColor": "black",
         "Name": "On The River #3201",
-        "Color": "black",
         "Connections": {
           "East": 3202,
           "West": 3200
@@ -661,9 +564,7 @@
       },
       {
         "Id": 3202,
-        "FrameColor": "black",
         "Name": "On The River #3202",
-        "Color": "black",
         "Connections": {
           "East": 3203,
           "West": 3201
@@ -671,9 +572,7 @@
       },
       {
         "Id": 3203,
-        "FrameColor": "black",
         "Name": "On The River #3203",
-        "Color": "black",
         "Connections": {
           "North": 3049,
           "East": 3204,
@@ -682,9 +581,7 @@
       },
       {
         "Id": 3204,
-        "FrameColor": "black",
         "Name": "On The River #3204",
-        "Color": "black",
         "Connections": {
           "East": 3205,
           "West": 3203
@@ -692,9 +589,7 @@
       },
       {
         "Id": 3205,
-        "FrameColor": "black",
         "Name": "On The River #3205",
-        "Color": "black",
         "Connections": {
           "East": 5001,
           "West": 3204

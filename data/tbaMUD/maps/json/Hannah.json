@@ -5,16 +5,14 @@
     "MinimumLevel": "7",
     "MaximumLevel": "10",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 12500,
-        "FrameColor": "black",
         "Name": "At the gates of the Grand City of Hannah #12500",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 12501,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -34,14 +32,13 @@
       },
       {
         "Id": 12501,
-        "FrameColor": "black",
         "Name": "Intersection of Trenton Avenue and Main Street. #12501",
-        "Color": "black",
         "Connections": {
           "North": 12502,
           "East": 12519,
           "South": {
             "RoomId": 12500,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -74,9 +71,7 @@
       },
       {
         "Id": 12502,
-        "FrameColor": "black",
         "Name": "Main Street #12502",
-        "Color": "black",
         "Connections": {
           "North": 12503,
           "South": 12501
@@ -90,9 +85,7 @@
       },
       {
         "Id": 12503,
-        "FrameColor": "black",
         "Name": "Main Street #12503",
-        "Color": "black",
         "Connections": {
           "North": 12504,
           "South": 12502
@@ -106,9 +99,7 @@
       },
       {
         "Id": 12504,
-        "FrameColor": "black",
         "Name": "Temple Square #12504",
-        "Color": "black",
         "Connections": {
           "North": 12505,
           "East": 12532,
@@ -119,9 +110,7 @@
       },
       {
         "Id": 12505,
-        "FrameColor": "black",
         "Name": "Main Street #12505",
-        "Color": "black",
         "Connections": {
           "North": 12506,
           "South": 12504
@@ -135,9 +124,7 @@
       },
       {
         "Id": 12506,
-        "FrameColor": "black",
         "Name": "Main Street #12506",
-        "Color": "black",
         "Connections": {
           "North": 12507,
           "South": 12505
@@ -145,9 +132,7 @@
       },
       {
         "Id": 12507,
-        "FrameColor": "black",
         "Name": "Intersection of Main Street and High Street #12507",
-        "Color": "black",
         "Connections": {
           "East": 12529,
           "South": 12506,
@@ -162,9 +147,7 @@
       },
       {
         "Id": 12508,
-        "FrameColor": "black",
         "Name": "High Street #12508",
-        "Color": "black",
         "Connections": {
           "East": 12507,
           "West": 12509
@@ -182,9 +165,7 @@
       },
       {
         "Id": 12509,
-        "FrameColor": "black",
         "Name": "High Street #12509",
-        "Color": "black",
         "Connections": {
           "East": 12508,
           "West": 12510
@@ -202,9 +183,7 @@
       },
       {
         "Id": 12510,
-        "FrameColor": "black",
         "Name": "Intersection of Onyx Avenue and High Street   #12510",
-        "Color": "black",
         "Connections": {
           "East": 12509,
           "South": 12511
@@ -218,9 +197,7 @@
       },
       {
         "Id": 12511,
-        "FrameColor": "black",
         "Name": "Onyx Avenue #12511",
-        "Color": "black",
         "Connections": {
           "North": 12510,
           "South": 12512
@@ -234,9 +211,7 @@
       },
       {
         "Id": 12512,
-        "FrameColor": "black",
         "Name": "Onyx Avenue #12512",
-        "Color": "black",
         "Connections": {
           "North": 12511,
           "South": 12513
@@ -244,9 +219,7 @@
       },
       {
         "Id": 12513,
-        "FrameColor": "black",
         "Name": "Onyx Avenue #12513",
-        "Color": "black",
         "Connections": {
           "North": 12512,
           "East": 12534,
@@ -265,9 +238,7 @@
       },
       {
         "Id": 12514,
-        "FrameColor": "black",
         "Name": "Onyx Avenue #12514",
-        "Color": "black",
         "Connections": {
           "North": 12513,
           "South": 12515
@@ -285,9 +256,7 @@
       },
       {
         "Id": 12515,
-        "FrameColor": "black",
         "Name": "Onyx Avenue #12515",
-        "Color": "black",
         "Connections": {
           "North": 12514,
           "South": 12516
@@ -309,9 +278,7 @@
       },
       {
         "Id": 12516,
-        "FrameColor": "black",
         "Name": "Intersection of Onyx Avenue and Trenton Street #12516",
-        "Color": "black",
         "Connections": {
           "North": 12515,
           "East": 12517
@@ -329,9 +296,7 @@
       },
       {
         "Id": 12517,
-        "FrameColor": "black",
         "Name": "Trenton Avenue #12517",
-        "Color": "black",
         "Connections": {
           "East": 12518,
           "West": 12516
@@ -345,9 +310,7 @@
       },
       {
         "Id": 12518,
-        "FrameColor": "black",
         "Name": "Trenton Avenue #12518",
-        "Color": "black",
         "Connections": {
           "East": 12501,
           "West": 12517
@@ -361,9 +324,7 @@
       },
       {
         "Id": 12519,
-        "FrameColor": "black",
         "Name": "Trenton Avenue #12519",
-        "Color": "black",
         "Connections": {
           "East": 12520,
           "West": 12501
@@ -371,9 +332,7 @@
       },
       {
         "Id": 12520,
-        "FrameColor": "black",
         "Name": "Trenton Avenue #12520",
-        "Color": "black",
         "Connections": {
           "East": 12521,
           "West": 12519
@@ -381,9 +340,7 @@
       },
       {
         "Id": 12521,
-        "FrameColor": "black",
         "Name": "Intersection of Trenton Avenue and Plexus Street #12521",
-        "Color": "black",
         "Connections": {
           "North": 12522,
           "West": 12520
@@ -401,9 +358,7 @@
       },
       {
         "Id": 12522,
-        "FrameColor": "black",
         "Name": "Plexus Street #12522",
-        "Color": "black",
         "Connections": {
           "North": 12523,
           "South": 12521
@@ -417,9 +372,7 @@
       },
       {
         "Id": 12523,
-        "FrameColor": "black",
         "Name": "Plexus Street #12523",
-        "Color": "black",
         "Connections": {
           "North": 12524,
           "South": 12522
@@ -427,9 +380,7 @@
       },
       {
         "Id": 12524,
-        "FrameColor": "black",
         "Name": "Plexus Street #12524",
-        "Color": "black",
         "Connections": {
           "North": 12525,
           "South": 12523,
@@ -448,9 +399,7 @@
       },
       {
         "Id": 12525,
-        "FrameColor": "black",
         "Name": "Plexus Street #12525",
-        "Color": "black",
         "Connections": {
           "North": 12526,
           "South": 12524
@@ -458,9 +407,7 @@
       },
       {
         "Id": 12526,
-        "FrameColor": "black",
         "Name": "Plexus Street #12526",
-        "Color": "black",
         "Connections": {
           "North": 12527,
           "South": 12525
@@ -478,9 +425,7 @@
       },
       {
         "Id": 12527,
-        "FrameColor": "black",
         "Name": "Intersection of High Street and Plexus Avenue #12527",
-        "Color": "black",
         "Connections": {
           "South": 12526,
           "West": 12530
@@ -498,9 +443,7 @@
       },
       {
         "Id": 12528,
-        "FrameColor": "black",
         "Name": "Entrance to the Temple #12528",
-        "Color": "black",
         "Connections": {
           "North": 12595,
           "Down": 12504
@@ -508,9 +451,7 @@
       },
       {
         "Id": 12529,
-        "FrameColor": "black",
         "Name": "High Street #12529",
-        "Color": "black",
         "Connections": {
           "East": 12530,
           "West": 12507
@@ -524,9 +465,7 @@
       },
       {
         "Id": 12530,
-        "FrameColor": "black",
         "Name": "High Street #12530",
-        "Color": "black",
         "Connections": {
           "East": 12527,
           "West": 12529
@@ -534,9 +473,7 @@
       },
       {
         "Id": 12531,
-        "FrameColor": "black",
         "Name": "A dark, hidden alley   #12531",
-        "Color": "black",
         "Connections": {
           "East": 12524,
           "West": 12532
@@ -550,9 +487,7 @@
       },
       {
         "Id": 12532,
-        "FrameColor": "black",
         "Name": "A dark, hidden alley   #12532",
-        "Color": "black",
         "Connections": {
           "East": 12531,
           "West": 12504
@@ -570,9 +505,7 @@
       },
       {
         "Id": 12533,
-        "FrameColor": "black",
         "Name": "A dark, hidden alley   #12533",
-        "Color": "black",
         "Connections": {
           "East": 12504,
           "West": 12534
@@ -590,9 +523,7 @@
       },
       {
         "Id": 12534,
-        "FrameColor": "black",
         "Name": "A dark, hidden alley   #12534",
-        "Color": "black",
         "Connections": {
           "East": 12533,
           "West": 12513
@@ -606,9 +537,7 @@
       },
       {
         "Id": 12535,
-        "FrameColor": "black",
         "Name": "A hall in the Temple #12535",
-        "Color": "black",
         "Connections": {
           "North": 12536,
           "South": 12596
@@ -616,9 +545,7 @@
       },
       {
         "Id": 12536,
-        "FrameColor": "black",
         "Name": "An intersection inside the Temple of Hannah #12536",
-        "Color": "black",
         "Connections": {
           "East": 12540,
           "South": 12535,
@@ -627,9 +554,7 @@
       },
       {
         "Id": 12537,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12537",
-        "Color": "black",
         "Connections": {
           "East": 12536,
           "West": 12538
@@ -643,9 +568,7 @@
       },
       {
         "Id": 12538,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12538",
-        "Color": "black",
         "Connections": {
           "East": 12537,
           "West": 12539
@@ -653,9 +576,7 @@
       },
       {
         "Id": 12539,
-        "FrameColor": "black",
         "Name": "A corner in a hallway inside the Temple of Hannah #12539",
-        "Color": "black",
         "Connections": {
           "North": 12547,
           "East": 12538
@@ -669,9 +590,7 @@
       },
       {
         "Id": 12540,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12540",
-        "Color": "black",
         "Connections": {
           "North": 12541,
           "East": 12559,
@@ -686,9 +605,7 @@
       },
       {
         "Id": 12541,
-        "FrameColor": "black",
         "Name": "A beautifully manicured courtyard #12541",
-        "Color": "black",
         "Connections": {
           "North": 12542,
           "South": 12540
@@ -696,9 +613,7 @@
       },
       {
         "Id": 12542,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12542",
-        "Color": "black",
         "Connections": {
           "North": 12560,
           "East": 12548,
@@ -708,9 +623,7 @@
       },
       {
         "Id": 12543,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12543",
-        "Color": "black",
         "Connections": {
           "East": 12542,
           "West": 12544
@@ -724,9 +637,7 @@
       },
       {
         "Id": 12544,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12544",
-        "Color": "black",
         "Connections": {
           "East": 12543,
           "West": 12545
@@ -740,9 +651,7 @@
       },
       {
         "Id": 12545,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12545",
-        "Color": "black",
         "Connections": {
           "East": 12544,
           "West": 12546
@@ -750,9 +659,7 @@
       },
       {
         "Id": 12546,
-        "FrameColor": "black",
         "Name": "A corner in the hallway in the Temple of Hannah #12546",
-        "Color": "black",
         "Connections": {
           "East": 12545,
           "South": 12547
@@ -770,9 +677,7 @@
       },
       {
         "Id": 12547,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12547",
-        "Color": "black",
         "Connections": {
           "North": 12546,
           "South": 12539
@@ -780,9 +685,7 @@
       },
       {
         "Id": 12548,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12548",
-        "Color": "black",
         "Connections": {
           "East": 12549,
           "West": 12542
@@ -796,9 +699,7 @@
       },
       {
         "Id": 12549,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12549",
-        "Color": "black",
         "Connections": {
           "East": 12550,
           "West": 12548
@@ -816,9 +717,7 @@
       },
       {
         "Id": 12550,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12550",
-        "Color": "black",
         "Connections": {
           "East": 12551,
           "West": 12549
@@ -826,9 +725,7 @@
       },
       {
         "Id": 12551,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12551",
-        "Color": "black",
         "Connections": {
           "East": 12552,
           "West": 12550
@@ -842,9 +739,7 @@
       },
       {
         "Id": 12552,
-        "FrameColor": "black",
         "Name": "A corner in the hallway in the Temple of Hannah #12552",
-        "Color": "black",
         "Connections": {
           "South": 12553,
           "West": 12551
@@ -858,9 +753,7 @@
       },
       {
         "Id": 12553,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12553",
-        "Color": "black",
         "Connections": {
           "North": 12552,
           "South": 12554
@@ -868,9 +761,7 @@
       },
       {
         "Id": 12554,
-        "FrameColor": "black",
         "Name": "A corner in the hallway in the Temple of Hannah #12554",
-        "Color": "black",
         "Connections": {
           "North": 12553,
           "West": 12555
@@ -884,9 +775,7 @@
       },
       {
         "Id": 12555,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12555",
-        "Color": "black",
         "Connections": {
           "East": 12554,
           "West": 12556
@@ -894,9 +783,7 @@
       },
       {
         "Id": 12556,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12556",
-        "Color": "black",
         "Connections": {
           "East": 12555,
           "West": 12557
@@ -904,9 +791,7 @@
       },
       {
         "Id": 12557,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12557",
-        "Color": "black",
         "Connections": {
           "East": 12556,
           "West": 12558
@@ -920,9 +805,7 @@
       },
       {
         "Id": 12558,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12558",
-        "Color": "black",
         "Connections": {
           "East": 12557,
           "West": 12559
@@ -936,9 +819,7 @@
       },
       {
         "Id": 12559,
-        "FrameColor": "black",
         "Name": "A grand hallway inside the Temple of Hannah #12559",
-        "Color": "black",
         "Connections": {
           "East": 12558,
           "West": 12540
@@ -946,9 +827,7 @@
       },
       {
         "Id": 12560,
-        "FrameColor": "black",
         "Name": "Temple Hannah Market Place #12560",
-        "Color": "black",
         "Connections": {
           "North": 12561,
           "South": 12542
@@ -956,9 +835,7 @@
       },
       {
         "Id": 12561,
-        "FrameColor": "black",
         "Name": "Temple Hannah Market Place #12561",
-        "Color": "black",
         "Connections": {
           "North": 12563,
           "East": 12562,
@@ -967,9 +844,7 @@
       },
       {
         "Id": 12562,
-        "FrameColor": "black",
         "Name": "Hannah Bakery #12562",
-        "Color": "black",
         "Connections": {
           "West": 12561
         },
@@ -982,9 +857,7 @@
       },
       {
         "Id": 12563,
-        "FrameColor": "black",
         "Name": "Temple Hannah Market Place #12563",
-        "Color": "black",
         "Connections": {
           "North": 12565,
           "South": 12561,
@@ -993,9 +866,7 @@
       },
       {
         "Id": 12564,
-        "FrameColor": "black",
         "Name": "Temporary Housing #12564",
-        "Color": "black",
         "Connections": {
           "East": 12563
         },
@@ -1008,9 +879,7 @@
       },
       {
         "Id": 12565,
-        "FrameColor": "black",
         "Name": "Temple Hannah Market Place #12565",
-        "Color": "black",
         "Connections": {
           "North": 12566,
           "South": 12563
@@ -1018,9 +887,7 @@
       },
       {
         "Id": 12566,
-        "FrameColor": "black",
         "Name": "Temple Hannah Market Place #12566",
-        "Color": "black",
         "Connections": {
           "North": 12569,
           "East": 12568,
@@ -1036,9 +903,7 @@
       },
       {
         "Id": 12567,
-        "FrameColor": "black",
         "Name": "Taber\u0027s Butcher Shop #12567",
-        "Color": "black",
         "Connections": {
           "East": 12566
         },
@@ -1051,9 +916,7 @@
       },
       {
         "Id": 12568,
-        "FrameColor": "black",
         "Name": "Temple of Hannah General Store and Goods #12568",
-        "Color": "black",
         "Connections": {
           "West": 12566
         },
@@ -1066,9 +929,7 @@
       },
       {
         "Id": 12569,
-        "FrameColor": "black",
         "Name": "Temple of Hannah Health Services  #12569",
-        "Color": "black",
         "Connections": {
           "South": 12566
         },
@@ -1085,9 +946,7 @@
       },
       {
         "Id": 12595,
-        "FrameColor": "black",
         "Name": "Check Station in the Temple #12595",
-        "Color": "black",
         "Connections": {
           "North": 12597,
           "East": 12598,
@@ -1106,9 +965,7 @@
       },
       {
         "Id": 12596,
-        "FrameColor": "black",
         "Name": "A hall in the Temple #12596",
-        "Color": "black",
         "Connections": {
           "North": 12535,
           "South": 12597
@@ -1116,9 +973,7 @@
       },
       {
         "Id": 12597,
-        "FrameColor": "black",
         "Name": "A hall in the Temple #12597",
-        "Color": "black",
         "Connections": {
           "North": 12596,
           "South": 12595
@@ -1126,9 +981,7 @@
       },
       {
         "Id": 12598,
-        "FrameColor": "black",
         "Name": "Temple Guards\u0027 Barracks #12598",
-        "Color": "black",
         "Connections": {
           "West": 12595
         },

@@ -3,22 +3,17 @@
     "Name": "Campus III",
     "Credits": "Matrix of C.A.W.",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 30300,
-        "FrameColor": "black",
         "Name": "Dorm Room #30300",
-        "Color": "black",
         "Connections": {
           "South": 30299
         }
       },
       {
         "Id": 30301,
-        "FrameColor": "black",
         "Name": "The Animal Cage #30301",
-        "Color": "black",
         "Connections": {
           "West": 30299
         },
@@ -31,13 +26,12 @@
       },
       {
         "Id": 30302,
-        "FrameColor": "black",
         "Name": "Hallway #30302",
-        "Color": "black",
         "Connections": {
           "North": 30296,
           "East": {
             "RoomId": 30306,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -52,18 +46,14 @@
       },
       {
         "Id": 30303,
-        "FrameColor": "black",
         "Name": "Smithville #30303",
-        "Color": "black",
         "Connections": {
           "North": 30302
         }
       },
       {
         "Id": 30304,
-        "FrameColor": "black",
         "Name": "Ledge #30304",
-        "Color": "black",
         "Connections": {
           "North": 30311,
           "Down": 30305
@@ -71,19 +61,16 @@
       },
       {
         "Id": 30305,
-        "FrameColor": "black",
         "Name": "A Really Bad, Evil, And Nasty Deathtrap #30305",
-        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 30306,
-        "FrameColor": "black",
         "Name": "Really Narrow Stairwell, Part I #30306",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 30302,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -98,9 +85,7 @@
       },
       {
         "Id": 30307,
-        "FrameColor": "black",
         "Name": "Really Narrow Stairwell, Part II #30307",
-        "Color": "black",
         "Connections": {
           "West": 30308,
           "Down": 30306
@@ -108,9 +93,7 @@
       },
       {
         "Id": 30308,
-        "FrameColor": "black",
         "Name": "Entry Hall #30308",
-        "Color": "black",
         "Connections": {
           "East": 30307,
           "West": 30309
@@ -118,9 +101,7 @@
       },
       {
         "Id": 30309,
-        "FrameColor": "black",
         "Name": "Living Room #30309",
-        "Color": "black",
         "Connections": {
           "East": 30308,
           "South": 30310
@@ -128,9 +109,7 @@
       },
       {
         "Id": 30310,
-        "FrameColor": "black",
         "Name": "Bedroom #30310",
-        "Color": "black",
         "Connections": {
           "North": 30309,
           "East": 30311
@@ -138,9 +117,7 @@
       },
       {
         "Id": 30311,
-        "FrameColor": "black",
         "Name": "Balcony #30311",
-        "Color": "black",
         "Connections": {
           "South": 30304,
           "West": 30310
@@ -154,9 +131,7 @@
       },
       {
         "Id": 30312,
-        "FrameColor": "black",
         "Name": "Hallway Junction #30312",
-        "Color": "black",
         "Connections": {
           "North": 30313,
           "South": 30319,
@@ -165,9 +140,7 @@
       },
       {
         "Id": 30313,
-        "FrameColor": "black",
         "Name": "Hallway #30313",
-        "Color": "black",
         "Connections": {
           "North": 30314,
           "South": 30312,
@@ -176,18 +149,14 @@
       },
       {
         "Id": 30314,
-        "FrameColor": "black",
         "Name": "The V.P.\u0027s Room #30314",
-        "Color": "black",
         "Connections": {
           "South": 30313
         }
       },
       {
         "Id": 30315,
-        "FrameColor": "black",
         "Name": "Hallway #30315",
-        "Color": "black",
         "Connections": {
           "North": 30316,
           "East": 30313,
@@ -203,18 +172,14 @@
       },
       {
         "Id": 30316,
-        "FrameColor": "black",
         "Name": "Bubble Land #30316",
-        "Color": "black",
         "Connections": {
           "South": 30315
         }
       },
       {
         "Id": 30317,
-        "FrameColor": "black",
         "Name": "C.S.E. #30317",
-        "Color": "black",
         "Connections": {
           "East": 30315
         },
@@ -227,27 +192,21 @@
       },
       {
         "Id": 30318,
-        "FrameColor": "black",
         "Name": "Lennon\u0027s Shrine #30318",
-        "Color": "black",
         "Connections": {
           "North": 30315
         }
       },
       {
         "Id": 30319,
-        "FrameColor": "black",
         "Name": "Common Room #30319",
-        "Color": "black",
         "Connections": {
           "North": 30312
         }
       },
       {
         "Id": 30320,
-        "FrameColor": "black",
         "Name": "Hallway #30320",
-        "Color": "black",
         "Connections": {
           "East": 30321,
           "South": 30326,
@@ -256,9 +215,7 @@
       },
       {
         "Id": 30321,
-        "FrameColor": "black",
         "Name": "Hallway #30321",
-        "Color": "black",
         "Connections": {
           "East": 30322,
           "South": 30327,
@@ -267,9 +224,7 @@
       },
       {
         "Id": 30322,
-        "FrameColor": "black",
         "Name": "Hallway #30322",
-        "Color": "black",
         "Connections": {
           "North": 30325,
           "East": 30323,
@@ -278,9 +233,7 @@
       },
       {
         "Id": 30323,
-        "FrameColor": "black",
         "Name": "Hallway #30323",
-        "Color": "black",
         "Connections": {
           "East": 30324,
           "South": 30328,
@@ -289,9 +242,7 @@
       },
       {
         "Id": 30324,
-        "FrameColor": "black",
         "Name": "Hallway #30324",
-        "Color": "black",
         "Connections": {
           "East": 30130,
           "South": 30329,
@@ -300,9 +251,7 @@
       },
       {
         "Id": 30325,
-        "FrameColor": "black",
         "Name": "An Odd Circular Room #30325",
-        "Color": "black",
         "Connections": {
           "North": 30130,
           "South": 30322
@@ -310,18 +259,14 @@
       },
       {
         "Id": 30326,
-        "FrameColor": "black",
         "Name": "Lecture Hall \u0022B\u0022 #30326",
-        "Color": "black",
         "Connections": {
           "North": 30320
         }
       },
       {
         "Id": 30327,
-        "FrameColor": "black",
         "Name": "Lecture Hall \u0022A\u0022 #30327",
-        "Color": "black",
         "Connections": {
           "North": 30321
         },
@@ -338,9 +283,7 @@
       },
       {
         "Id": 30328,
-        "FrameColor": "black",
         "Name": "Lecture Hall \u0022D\u0022 #30328",
-        "Color": "black",
         "Connections": {
           "North": 30323
         },
@@ -353,9 +296,7 @@
       },
       {
         "Id": 30329,
-        "FrameColor": "black",
         "Name": "Lecture Hall \u0022C\u0022 #30329",
-        "Color": "black",
         "Connections": {
           "North": 30324
         },
@@ -372,9 +313,7 @@
       },
       {
         "Id": 30330,
-        "FrameColor": "black",
         "Name": "Hallway #30330",
-        "Color": "black",
         "Connections": {
           "West": 30331
         },
@@ -387,9 +326,7 @@
       },
       {
         "Id": 30331,
-        "FrameColor": "black",
         "Name": "Abattoir #30331",
-        "Color": "black",
         "Connections": {
           "East": 30330
         }
@@ -424,6 +361,7 @@
         "Connections": {
           "East": {
             "RoomId": 30126,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [

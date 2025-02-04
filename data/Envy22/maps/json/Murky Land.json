@@ -5,13 +5,10 @@
     "MinimumLevel": "3",
     "MaximumLevel": "50",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 10700,
-        "FrameColor": "black",
         "Name": "Entrance to Murky Land #10700",
-        "Color": "black",
         "Connections": {
           "North": 10701,
           "West": 5552
@@ -19,12 +16,11 @@
       },
       {
         "Id": 10701,
-        "FrameColor": "black",
         "Name": "At the Cashier\u0027s Booth #10701",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 10702,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -45,13 +41,12 @@
       },
       {
         "Id": 10702,
-        "FrameColor": "black",
         "Name": "Inside the Entrance to Murky Land #10702",
-        "Color": "black",
         "Connections": {
           "North": 10703,
           "East": {
             "RoomId": 10722,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -63,6 +58,7 @@
           },
           "South": {
             "RoomId": 10701,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -82,9 +78,7 @@
       },
       {
         "Id": 10703,
-        "FrameColor": "black",
         "Name": "A Room in Murky Land #10703",
-        "Color": "black",
         "Connections": {
           "North": 10709,
           "East": 10704,
@@ -94,9 +88,7 @@
       },
       {
         "Id": 10704,
-        "FrameColor": "black",
         "Name": "Restroom Hallway #10704",
-        "Color": "black",
         "Connections": {
           "North": 10705,
           "South": 10706,
@@ -111,27 +103,21 @@
       },
       {
         "Id": 10705,
-        "FrameColor": "black",
         "Name": "Little Boys Room #10705",
-        "Color": "black",
         "Connections": {
           "South": 10704
         }
       },
       {
         "Id": 10706,
-        "FrameColor": "black",
         "Name": "Little Girls Room #10706",
-        "Color": "black",
         "Connections": {
           "North": 10704
         }
       },
       {
         "Id": 10707,
-        "FrameColor": "black",
         "Name": "Cafeteria #10707",
-        "Color": "black",
         "Connections": {
           "North": 10708,
           "East": 10703
@@ -145,9 +131,7 @@
       },
       {
         "Id": 10708,
-        "FrameColor": "black",
         "Name": "Kitchen #10708",
-        "Color": "black",
         "Connections": {
           "South": 10707
         },
@@ -160,9 +144,7 @@
       },
       {
         "Id": 10709,
-        "FrameColor": "black",
         "Name": "Along a Brick Path in Murky Land #10709",
-        "Color": "black",
         "Connections": {
           "North": 10718,
           "East": 10714,
@@ -172,9 +154,7 @@
       },
       {
         "Id": 10710,
-        "FrameColor": "black",
         "Name": "Along a Path in Murky Land #10710",
-        "Color": "black",
         "Connections": {
           "North": 10711,
           "East": 10709,
@@ -190,9 +170,7 @@
       },
       {
         "Id": 10711,
-        "FrameColor": "black",
         "Name": "Hatchling\u0027s and Iccy\u0027s Playpen #10711",
-        "Color": "black",
         "Connections": {
           "South": 10710
         },
@@ -209,9 +187,7 @@
       },
       {
         "Id": 10712,
-        "FrameColor": "black",
         "Name": "Fraggie\u0027s Dark Hovel #10712",
-        "Color": "black",
         "Connections": {
           "North": 10710
         },
@@ -224,9 +200,7 @@
       },
       {
         "Id": 10713,
-        "FrameColor": "black",
         "Name": "KahnO\u0027s Hall of Mirrors #10713",
-        "Color": "black",
         "Connections": {
           "East": 10710
         },
@@ -239,9 +213,7 @@
       },
       {
         "Id": 10714,
-        "FrameColor": "black",
         "Name": "Along a Path in Murky Land #10714",
-        "Color": "black",
         "Connections": {
           "North": 10715,
           "East": 10717,
@@ -251,9 +223,7 @@
       },
       {
         "Id": 10715,
-        "FrameColor": "black",
         "Name": "A Small Hell #10715",
-        "Color": "black",
         "Connections": {
           "South": 10714
         },
@@ -270,9 +240,7 @@
       },
       {
         "Id": 10716,
-        "FrameColor": "black",
         "Name": "Blinky\u0027s Kitchenette #10716",
-        "Color": "black",
         "Connections": {
           "North": 10714
         },
@@ -285,9 +253,7 @@
       },
       {
         "Id": 10717,
-        "FrameColor": "black",
         "Name": "Atom\u0027s Little Galaxy #10717",
-        "Color": "black",
         "Connections": {
           "West": 10714
         },
@@ -300,9 +266,7 @@
       },
       {
         "Id": 10718,
-        "FrameColor": "black",
         "Name": "Along a Path in Murky Land #10718",
-        "Color": "black",
         "Connections": {
           "North": 10719,
           "East": 10721,
@@ -318,9 +282,7 @@
       },
       {
         "Id": 10719,
-        "FrameColor": "black",
         "Name": "A Monk\u0027s Temple/Crackhouse #10719",
-        "Color": "black",
         "Connections": {
           "South": 10718
         },
@@ -333,9 +295,7 @@
       },
       {
         "Id": 10720,
-        "FrameColor": "black",
         "Name": "A Junkyard #10720",
-        "Color": "black",
         "Connections": {
           "East": 10718
         },
@@ -348,9 +308,7 @@
       },
       {
         "Id": 10721,
-        "FrameColor": "black",
         "Name": "An Ash Heap #10721",
-        "Color": "black",
         "Connections": {
           "West": 10718
         },
@@ -363,12 +321,11 @@
       },
       {
         "Id": 10722,
-        "FrameColor": "black",
         "Name": "Behind the Hidden Door #10722",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 10702,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -389,9 +346,7 @@
       },
       {
         "Id": 10723,
-        "FrameColor": "black",
         "Name": "Beneath Murky Land #10723",
-        "Color": "black",
         "Connections": {
           "North": 10724,
           "Up": 10722
@@ -405,13 +360,12 @@
       },
       {
         "Id": 10724,
-        "FrameColor": "black",
         "Name": "Inside a Tavern #10724",
-        "Color": "black",
         "Connections": {
           "North": 10736,
           "East": {
             "RoomId": 10737,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -441,9 +395,7 @@
       },
       {
         "Id": 10725,
-        "FrameColor": "black",
         "Name": "The Shady Rooms Counter #10725",
-        "Color": "black",
         "Connections": {
           "East": 10724,
           "West": 10726
@@ -457,12 +409,11 @@
       },
       {
         "Id": 10726,
-        "FrameColor": "black",
         "Name": "A Hallway #10726",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 10727,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -475,6 +426,7 @@
           "East": 10725,
           "South": {
             "RoomId": 10728,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -489,12 +441,11 @@
       },
       {
         "Id": 10727,
-        "FrameColor": "black",
         "Name": "Room A #10727",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 10726,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -508,12 +459,11 @@
       },
       {
         "Id": 10728,
-        "FrameColor": "black",
         "Name": "Room B #10728",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 10726,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -527,12 +477,11 @@
       },
       {
         "Id": 10729,
-        "FrameColor": "black",
         "Name": "A Hallway #10729",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 10730,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -545,6 +494,7 @@
           "East": 10726,
           "South": {
             "RoomId": 10731,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -559,12 +509,11 @@
       },
       {
         "Id": 10730,
-        "FrameColor": "black",
         "Name": "Room C #10730",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 10729,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -578,12 +527,11 @@
       },
       {
         "Id": 10731,
-        "FrameColor": "black",
         "Name": "Room D #10731",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 10729,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -603,12 +551,11 @@
       },
       {
         "Id": 10732,
-        "FrameColor": "black",
         "Name": "At the End of the Hallway #10732",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 10733,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -621,6 +568,7 @@
           "East": 10729,
           "South": {
             "RoomId": 10734,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -632,6 +580,7 @@
           },
           "West": {
             "RoomId": 10735,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -651,12 +600,11 @@
       },
       {
         "Id": 10733,
-        "FrameColor": "black",
         "Name": "Room E #10733",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 10732,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -670,12 +618,11 @@
       },
       {
         "Id": 10734,
-        "FrameColor": "black",
         "Name": "Room F #10734",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 10732,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -695,12 +642,11 @@
       },
       {
         "Id": 10735,
-        "FrameColor": "black",
         "Name": "Room G #10735",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 10732,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -720,9 +666,7 @@
       },
       {
         "Id": 10736,
-        "FrameColor": "black",
         "Name": "The Bar #10736",
-        "Color": "black",
         "Connections": {
           "South": 10724
         },
@@ -743,12 +687,11 @@
       },
       {
         "Id": 10737,
-        "FrameColor": "black",
         "Name": "Hallway #10737",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 10738,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -761,6 +704,7 @@
           "East": 10740,
           "South": {
             "RoomId": 10739,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -772,6 +716,7 @@
           },
           "West": {
             "RoomId": 10724,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -791,12 +736,11 @@
       },
       {
         "Id": 10738,
-        "FrameColor": "black",
         "Name": "An Office #10738",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 10737,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -810,12 +754,11 @@
       },
       {
         "Id": 10739,
-        "FrameColor": "black",
         "Name": "A Holding Room #10739",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 10737,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -829,12 +772,11 @@
       },
       {
         "Id": 10740,
-        "FrameColor": "black",
         "Name": "A Hallway #10740",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 10741,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -847,6 +789,7 @@
           "East": 10743,
           "South": {
             "RoomId": 10742,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -861,12 +804,11 @@
       },
       {
         "Id": 10741,
-        "FrameColor": "black",
         "Name": "An Office #10741",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 10740,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -880,12 +822,11 @@
       },
       {
         "Id": 10742,
-        "FrameColor": "black",
         "Name": "An Office #10742",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 10740,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -909,12 +850,11 @@
       },
       {
         "Id": 10743,
-        "FrameColor": "black",
         "Name": "The End of the Hallway #10743",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 10745,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -926,6 +866,7 @@
           },
           "South": {
             "RoomId": 10744,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -940,12 +881,11 @@
       },
       {
         "Id": 10744,
-        "FrameColor": "black",
         "Name": "A Holding Room #10744",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 10743,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -965,13 +905,12 @@
       },
       {
         "Id": 10745,
-        "FrameColor": "black",
         "Name": "An Empty Hallway #10745",
-        "Color": "black",
         "Connections": {
           "North": 10746,
           "South": {
             "RoomId": 10743,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -985,9 +924,7 @@
       },
       {
         "Id": 10746,
-        "FrameColor": "black",
         "Name": "Hallway #10746",
-        "Color": "black",
         "Connections": {
           "North": 10747,
           "South": 10748
@@ -995,22 +932,19 @@
       },
       {
         "Id": 10747,
-        "FrameColor": "black",
         "Name": "At the End of a Hallway #10747",
-        "Color": "black",
         "Connections": {
           "South": 10746
         }
       },
       {
         "Id": 10748,
-        "FrameColor": "black",
         "Name": "An Empty Hallway #10748",
-        "Color": "black",
         "Connections": {
           "North": 10749,
           "South": {
             "RoomId": 10743,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1024,9 +958,7 @@
       },
       {
         "Id": 10749,
-        "FrameColor": "black",
         "Name": "Hallway #10749",
-        "Color": "black",
         "Connections": {
           "North": 10750,
           "South": 10745
@@ -1034,12 +966,11 @@
       },
       {
         "Id": 10750,
-        "FrameColor": "black",
         "Name": "At the End of a Hallway #10750",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 10751,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1054,12 +985,11 @@
       },
       {
         "Id": 10751,
-        "FrameColor": "black",
         "Name": "A Dark Room #10751",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 10750,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1080,9 +1010,7 @@
       },
       {
         "Id": 10752,
-        "FrameColor": "black",
         "Name": "Lower Chambers #10752",
-        "Color": "black",
         "Connections": {
           "North": 10768,
           "East": 10756,
@@ -1093,9 +1021,7 @@
       },
       {
         "Id": 10753,
-        "FrameColor": "black",
         "Name": "A Dark Hallway #10753",
-        "Color": "black",
         "Connections": {
           "North": 10752,
           "South": 10754
@@ -1103,9 +1029,7 @@
       },
       {
         "Id": 10754,
-        "FrameColor": "black",
         "Name": "A Dark Hallway #10754",
-        "Color": "black",
         "Connections": {
           "North": 10753,
           "South": 10755
@@ -1123,9 +1047,7 @@
       },
       {
         "Id": 10755,
-        "FrameColor": "black",
         "Name": "Shadow Dragon\u0027s Lair #10755",
-        "Color": "black",
         "Connections": {
           "North": 10754
         },
@@ -1138,9 +1060,7 @@
       },
       {
         "Id": 10756,
-        "FrameColor": "black",
         "Name": "A Dark Hallway #10756",
-        "Color": "black",
         "Connections": {
           "North": 10759,
           "East": 10757,
@@ -1150,9 +1070,7 @@
       },
       {
         "Id": 10757,
-        "FrameColor": "black",
         "Name": "A Dark Hallway #10757",
-        "Color": "black",
         "Connections": {
           "East": 10758,
           "West": 10756
@@ -1166,9 +1084,7 @@
       },
       {
         "Id": 10758,
-        "FrameColor": "black",
         "Name": "The Altar of the Shadow Demon #10758",
-        "Color": "black",
         "Connections": {
           "North": 10766,
           "East": 10766,
@@ -1194,9 +1110,7 @@
       },
       {
         "Id": 10759,
-        "FrameColor": "black",
         "Name": "A Library #10759",
-        "Color": "black",
         "Connections": {
           "South": 10756
         },
@@ -1209,9 +1123,7 @@
       },
       {
         "Id": 10760,
-        "FrameColor": "black",
         "Name": "A Laboratory #10760",
-        "Color": "black",
         "Connections": {
           "North": 10756
         },
@@ -1224,9 +1136,7 @@
       },
       {
         "Id": 10761,
-        "FrameColor": "black",
         "Name": "A Dark Hallway #10761",
-        "Color": "black",
         "Connections": {
           "North": 10764,
           "East": 10752,
@@ -1236,9 +1146,7 @@
       },
       {
         "Id": 10762,
-        "FrameColor": "black",
         "Name": "A Dark Hallway #10762",
-        "Color": "black",
         "Connections": {
           "East": 10761,
           "West": 10763
@@ -1252,9 +1160,7 @@
       },
       {
         "Id": 10763,
-        "FrameColor": "black",
         "Name": "The Altar of the Shadow Demon #10763",
-        "Color": "black",
         "Connections": {
           "North": 10767,
           "East": 10762,
@@ -1280,9 +1186,7 @@
       },
       {
         "Id": 10764,
-        "FrameColor": "black",
         "Name": "A Scribing Room #10764",
-        "Color": "black",
         "Connections": {
           "South": 10761
         },
@@ -1295,9 +1199,7 @@
       },
       {
         "Id": 10765,
-        "FrameColor": "black",
         "Name": "A Weapon Room #10765",
-        "Color": "black",
         "Connections": {
           "North": 10761
         },
@@ -1310,9 +1212,7 @@
       },
       {
         "Id": 10766,
-        "FrameColor": "black",
         "Name": "A Nether Room #10766",
-        "Color": "black",
         "Connections": {
           "North": 10767,
           "East": 10771,
@@ -1324,9 +1224,7 @@
       },
       {
         "Id": 10767,
-        "FrameColor": "black",
         "Name": "A Nether Room #10767",
-        "Color": "black",
         "Connections": {
           "North": 10766,
           "East": 10763,
@@ -1338,9 +1236,7 @@
       },
       {
         "Id": 10768,
-        "FrameColor": "black",
         "Name": "A Dark Hallway #10768",
-        "Color": "black",
         "Connections": {
           "North": 10769,
           "South": 10752
@@ -1348,9 +1244,7 @@
       },
       {
         "Id": 10769,
-        "FrameColor": "black",
         "Name": "A Dark Hallway #10769",
-        "Color": "black",
         "Connections": {
           "North": 10770,
           "South": 10768
@@ -1368,9 +1262,7 @@
       },
       {
         "Id": 10770,
-        "FrameColor": "black",
         "Name": "The Altar of the Shadow Lord #10770",
-        "Color": "black",
         "Connections": {
           "North": 10771,
           "East": 10771,
@@ -1396,9 +1288,7 @@
       },
       {
         "Id": 10771,
-        "FrameColor": "black",
         "Name": "A Nether Room #10771",
-        "Color": "black",
         "Connections": {
           "North": 10770,
           "East": 10767,

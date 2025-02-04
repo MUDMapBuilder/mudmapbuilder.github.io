@@ -5,22 +5,17 @@
     "MinimumLevel": "20",
     "MaximumLevel": "30",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 28300,
-        "FrameColor": "black",
         "Name": "Up a Twisting Path #28300",
-        "Color": "black",
         "Connections": {
           "East": 28301
         }
       },
       {
         "Id": 28301,
-        "FrameColor": "black",
         "Name": "Farther Up the Mountain #28301",
-        "Color": "black",
         "Connections": {
           "West": 28300,
           "Up": 28302
@@ -28,9 +23,7 @@
       },
       {
         "Id": 28302,
-        "FrameColor": "black",
         "Name": "At the Top of the Mountain #28302",
-        "Color": "black",
         "Connections": {
           "North": 28303,
           "Down": 28301
@@ -38,9 +31,7 @@
       },
       {
         "Id": 28303,
-        "FrameColor": "black",
         "Name": "At the Front Door #28303",
-        "Color": "black",
         "Connections": {
           "North": 28304,
           "South": 28302
@@ -48,9 +39,7 @@
       },
       {
         "Id": 28304,
-        "FrameColor": "black",
         "Name": "Inside The Dark and Creepy House #28304",
-        "Color": "black",
         "Connections": {
           "North": 28321,
           "East": 28305,
@@ -66,9 +55,7 @@
       },
       {
         "Id": 28305,
-        "FrameColor": "black",
         "Name": "The Beginning of a Hallway #28305",
-        "Color": "black",
         "Connections": {
           "East": 28306,
           "West": 28304
@@ -82,9 +69,7 @@
       },
       {
         "Id": 28306,
-        "FrameColor": "black",
         "Name": "In the Eastern Hallway #28306",
-        "Color": "black",
         "Connections": {
           "East": 28307,
           "West": 28305
@@ -98,9 +83,7 @@
       },
       {
         "Id": 28307,
-        "FrameColor": "black",
         "Name": "The Top of the Basement Stairs #28307",
-        "Color": "black",
         "Connections": {
           "West": 28306,
           "Down": 28308
@@ -108,9 +91,7 @@
       },
       {
         "Id": 28308,
-        "FrameColor": "black",
         "Name": "The Basement of the House #28308",
-        "Color": "black",
         "Connections": {
           "North": 28309,
           "Up": 28307
@@ -118,9 +99,7 @@
       },
       {
         "Id": 28309,
-        "FrameColor": "black",
         "Name": "A Small Tunnel #28309",
-        "Color": "black",
         "Connections": {
           "South": 28308,
           "West": 28310
@@ -134,9 +113,7 @@
       },
       {
         "Id": 28310,
-        "FrameColor": "black",
         "Name": "At the End of the Tunnel #28310",
-        "Color": "black",
         "Connections": {
           "East": 28309,
           "West": 28311
@@ -144,12 +121,11 @@
       },
       {
         "Id": 28311,
-        "FrameColor": "black",
         "Name": "Into the Dungeon #28311",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 28312,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -162,6 +138,7 @@
           "East": 28310,
           "South": {
             "RoomId": 28313,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -182,12 +159,11 @@
       },
       {
         "Id": 28312,
-        "FrameColor": "black",
         "Name": "A Cell #28312",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 28311,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -207,12 +183,11 @@
       },
       {
         "Id": 28313,
-        "FrameColor": "black",
         "Name": "A Cell #28313",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 28311,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -232,12 +207,11 @@
       },
       {
         "Id": 28314,
-        "FrameColor": "black",
         "Name": "The Dungeon #28314",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 28315,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -250,6 +224,7 @@
           "East": 28311,
           "South": {
             "RoomId": 28316,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -264,12 +239,11 @@
       },
       {
         "Id": 28315,
-        "FrameColor": "black",
         "Name": "Another Cell #28315",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 28314,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -283,12 +257,11 @@
       },
       {
         "Id": 28316,
-        "FrameColor": "black",
         "Name": "A Bloody Cell #28316",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 28314,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -308,9 +281,7 @@
       },
       {
         "Id": 28317,
-        "FrameColor": "black",
         "Name": "The Entrance to the Death Chambers #28317",
-        "Color": "black",
         "Connections": {
           "North": 28318,
           "East": 28314,
@@ -326,12 +297,11 @@
       },
       {
         "Id": 28318,
-        "FrameColor": "black",
         "Name": "The Slow-Death Room #28318",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 28329,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -351,20 +321,17 @@
       },
       {
         "Id": 28319,
-        "FrameColor": "black",
         "Name": "Stepping into the Pit #28319",
-        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 28320,
-        "FrameColor": "black",
         "Name": "The Lair of the Dungeon Ruler #28320",
-        "Color": "black",
         "Connections": {
           "East": 28317,
           "West": {
             "RoomId": 28345,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -388,9 +355,7 @@
       },
       {
         "Id": 28321,
-        "FrameColor": "black",
         "Name": "Near the Deck #28321",
-        "Color": "black",
         "Connections": {
           "North": 28325,
           "East": 28332,
@@ -406,9 +371,7 @@
       },
       {
         "Id": 28322,
-        "FrameColor": "black",
         "Name": "The Southwestern Corner #28322",
-        "Color": "black",
         "Connections": {
           "North": 28323,
           "East": 28304
@@ -422,9 +385,7 @@
       },
       {
         "Id": 28323,
-        "FrameColor": "black",
         "Name": "A Room in the House #28323",
-        "Color": "black",
         "Connections": {
           "East": 28321,
           "South": 28322,
@@ -433,9 +394,7 @@
       },
       {
         "Id": 28324,
-        "FrameColor": "black",
         "Name": "The Second Floor Stairs #28324",
-        "Color": "black",
         "Connections": {
           "East": 28323,
           "Up": 28335
@@ -443,9 +402,7 @@
       },
       {
         "Id": 28325,
-        "FrameColor": "black",
         "Name": "The Back Deck #28325",
-        "Color": "black",
         "Connections": {
           "South": 28321,
           "Down": 28326
@@ -453,9 +410,7 @@
       },
       {
         "Id": 28326,
-        "FrameColor": "black",
         "Name": "Back on the Ground #28326",
-        "Color": "black",
         "Connections": {
           "North": 28327,
           "West": 28329,
@@ -470,9 +425,7 @@
       },
       {
         "Id": 28327,
-        "FrameColor": "black",
         "Name": "The Path to the Outhouse #28327",
-        "Color": "black",
         "Connections": {
           "North": 28328,
           "East": 28330,
@@ -488,22 +441,19 @@
       },
       {
         "Id": 28328,
-        "FrameColor": "black",
         "Name": "The Outhouse #28328",
-        "Color": "black",
         "Connections": {
           "South": 28327
         }
       },
       {
         "Id": 28329,
-        "FrameColor": "black",
         "Name": "Outside the Secret #28329",
-        "Color": "black",
         "Connections": {
           "East": 28326,
           "South": {
             "RoomId": 28318,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -518,9 +468,7 @@
       },
       {
         "Id": 28330,
-        "FrameColor": "black",
         "Name": "The Path East #28330",
-        "Color": "black",
         "Connections": {
           "East": 28331,
           "West": 28327
@@ -528,18 +476,14 @@
       },
       {
         "Id": 28331,
-        "FrameColor": "black",
         "Name": "A Path Through the Forest #28331",
-        "Color": "black",
         "Connections": {
           "West": 28330
         }
       },
       {
         "Id": 28332,
-        "FrameColor": "black",
         "Name": "At the Bookshelf #28332",
-        "Color": "black",
         "Connections": {
           "North": 28334,
           "East": 28333,
@@ -548,9 +492,7 @@
       },
       {
         "Id": 28333,
-        "FrameColor": "black",
         "Name": "A Closet #28333",
-        "Color": "black",
         "Connections": {
           "West": 28332
         },
@@ -563,18 +505,14 @@
       },
       {
         "Id": 28334,
-        "FrameColor": "black",
         "Name": "A Secret Room #28334",
-        "Color": "black",
         "Connections": {
           "South": 28332
         }
       },
       {
         "Id": 28335,
-        "FrameColor": "black",
         "Name": "The Second Floor #28335",
-        "Color": "black",
         "Connections": {
           "East": 28336,
           "Down": 28324
@@ -582,9 +520,7 @@
       },
       {
         "Id": 28336,
-        "FrameColor": "black",
         "Name": "The Hallway #28336",
-        "Color": "black",
         "Connections": {
           "East": 28337,
           "West": 28335
@@ -598,9 +534,7 @@
       },
       {
         "Id": 28337,
-        "FrameColor": "black",
         "Name": "Before the Porch #28337",
-        "Color": "black",
         "Connections": {
           "North": 28355,
           "East": 28338,
@@ -616,13 +550,12 @@
       },
       {
         "Id": 28338,
-        "FrameColor": "black",
         "Name": "The Closet #28338",
-        "Color": "black",
         "Connections": {
           "West": 28337,
           "Down": {
             "RoomId": 28357,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -636,9 +569,7 @@
       },
       {
         "Id": 28339,
-        "FrameColor": "black",
         "Name": "The Southern Hallway #28339",
-        "Color": "black",
         "Connections": {
           "North": 28337,
           "East": 28341,
@@ -654,9 +585,7 @@
       },
       {
         "Id": 28340,
-        "FrameColor": "black",
         "Name": "A Plain Old Room #28340",
-        "Color": "black",
         "Connections": {
           "East": 28339
         },
@@ -669,18 +598,14 @@
       },
       {
         "Id": 28341,
-        "FrameColor": "black",
         "Name": "A Room in the House #28341",
-        "Color": "black",
         "Connections": {
           "West": 28339
         }
       },
       {
         "Id": 28342,
-        "FrameColor": "black",
         "Name": "More of the Hallway #28342",
-        "Color": "black",
         "Connections": {
           "North": 28339,
           "East": 28343,
@@ -690,18 +615,14 @@
       },
       {
         "Id": 28343,
-        "FrameColor": "black",
         "Name": "A Room in the House #28343",
-        "Color": "black",
         "Connections": {
           "West": 28342
         }
       },
       {
         "Id": 28344,
-        "FrameColor": "black",
         "Name": "A Room #28344",
-        "Color": "black",
         "Connections": {
           "East": 28342
         },
@@ -714,12 +635,11 @@
       },
       {
         "Id": 28345,
-        "FrameColor": "black",
         "Name": "The Room of the Golden Lance #28345",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 28320,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -739,9 +659,7 @@
       },
       {
         "Id": 28346,
-        "FrameColor": "black",
         "Name": "Nearing the End of the Hall #28346",
-        "Color": "black",
         "Connections": {
           "North": 28342,
           "South": 28347
@@ -755,9 +673,7 @@
       },
       {
         "Id": 28347,
-        "FrameColor": "black",
         "Name": "The End of the Hallway #28347",
-        "Color": "black",
         "Connections": {
           "North": 28346,
           "East": 28348,
@@ -772,9 +688,7 @@
       },
       {
         "Id": 28348,
-        "FrameColor": "black",
         "Name": "Stairs to the Attic #28348",
-        "Color": "black",
         "Connections": {
           "East": 28358,
           "West": 28347,
@@ -783,9 +697,7 @@
       },
       {
         "Id": 28349,
-        "FrameColor": "black",
         "Name": "Inside the Attic #28349",
-        "Color": "black",
         "Connections": {
           "West": 28350,
           "Down": 28348
@@ -799,9 +711,7 @@
       },
       {
         "Id": 28350,
-        "FrameColor": "black",
         "Name": "On the Roof #28350",
-        "Color": "black",
         "Connections": {
           "North": 28351,
           "East": 28349
@@ -809,9 +719,7 @@
       },
       {
         "Id": 28351,
-        "FrameColor": "black",
         "Name": "Walking the Roof #28351",
-        "Color": "black",
         "Connections": {
           "North": 28352,
           "South": 28350
@@ -825,9 +733,7 @@
       },
       {
         "Id": 28352,
-        "FrameColor": "black",
         "Name": "The Roof #28352",
-        "Color": "black",
         "Connections": {
           "North": 28353,
           "South": 28351,
@@ -836,9 +742,7 @@
       },
       {
         "Id": 28353,
-        "FrameColor": "black",
         "Name": "The End of the Roof #28353",
-        "Color": "black",
         "Connections": {
           "South": 28352,
           "West": 28354
@@ -846,9 +750,7 @@
       },
       {
         "Id": 28354,
-        "FrameColor": "black",
         "Name": "At the Top of the Chimney #28354",
-        "Color": "black",
         "Connections": {
           "East": 28353,
           "Down": 28322
@@ -856,30 +758,25 @@
       },
       {
         "Id": 28355,
-        "FrameColor": "black",
         "Name": "The Second Floor Balcony #28355",
-        "Color": "black",
         "Connections": {
           "South": 28337
         }
       },
       {
         "Id": 28356,
-        "FrameColor": "black",
         "Name": "The Closet #28356",
-        "Color": "black",
         "Connections": {
           "East": 28347
         }
       },
       {
         "Id": 28357,
-        "FrameColor": "black",
         "Name": "The Secret Den of the Owner #28357",
-        "Color": "black",
         "Connections": {
           "Up": {
             "RoomId": 28362,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -899,9 +796,7 @@
       },
       {
         "Id": 28358,
-        "FrameColor": "black",
         "Name": "Behind the Stairs #28358",
-        "Color": "black",
         "Connections": {
           "West": 28348
         },
@@ -914,39 +809,32 @@
       },
       {
         "Id": 28359,
-        "FrameColor": "black",
         "Name": "Oops! #28359",
-        "Color": "black",
         "Connections": {
           "Up": 28352
         }
       },
       {
         "Id": 28360,
-        "FrameColor": "black",
         "Name": "At the Well #28360",
-        "Color": "black",
         "Connections": {
           "East": 28327
         }
       },
       {
         "Id": 28361,
-        "FrameColor": "black",
         "Name": "The Storm Cellar #28361",
-        "Color": "black",
         "Connections": {
           "Up": 28329
         }
       },
       {
         "Id": 28362,
-        "FrameColor": "black",
         "Name": "In a Very Dark Room #28362",
-        "Color": "black",
         "Connections": {
           "Up": {
             "RoomId": 28338,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -958,6 +846,7 @@
           },
           "Down": {
             "RoomId": 28357,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [

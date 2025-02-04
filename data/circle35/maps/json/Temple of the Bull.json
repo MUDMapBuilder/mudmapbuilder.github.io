@@ -3,29 +3,22 @@
     "Name": "Temple of the Bull",
     "Credits": "Aten",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 30400,
-        "FrameColor": "black",
         "Name": "Aten\u0027s Zone Description Room #30400",
-        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 30401,
-        "FrameColor": "black",
         "Name": "A Grassy Field #30401",
-        "Color": "black",
         "Connections": {
           "North": 30402
         }
       },
       {
         "Id": 30402,
-        "FrameColor": "black",
         "Name": "Before the Temple #30402",
-        "Color": "black",
         "Connections": {
           "North": 30403,
           "South": 30401
@@ -33,12 +26,11 @@
       },
       {
         "Id": 30403,
-        "FrameColor": "black",
         "Name": "Under the Arch #30403",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 30405,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -59,9 +51,7 @@
       },
       {
         "Id": 30404,
-        "FrameColor": "black",
         "Name": "The Temple #30404",
-        "Color": "black",
         "Connections": {
           "North": 30407,
           "East": 30405
@@ -75,13 +65,12 @@
       },
       {
         "Id": 30405,
-        "FrameColor": "black",
         "Name": "The Temple #30405",
-        "Color": "black",
         "Connections": {
           "East": 30406,
           "South": {
             "RoomId": 30403,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -102,9 +91,7 @@
       },
       {
         "Id": 30406,
-        "FrameColor": "black",
         "Name": "The Temple #30406",
-        "Color": "black",
         "Connections": {
           "North": 30409,
           "West": 30405
@@ -118,9 +105,7 @@
       },
       {
         "Id": 30407,
-        "FrameColor": "black",
         "Name": "The Temple #30407",
-        "Color": "black",
         "Connections": {
           "North": 30410,
           "East": 30408,
@@ -135,9 +120,7 @@
       },
       {
         "Id": 30408,
-        "FrameColor": "black",
         "Name": "The Atrium and Gardens #30408",
-        "Color": "black",
         "Connections": {
           "North": 30411,
           "East": 30409,
@@ -146,9 +129,7 @@
       },
       {
         "Id": 30409,
-        "FrameColor": "black",
         "Name": "The Temple #30409",
-        "Color": "black",
         "Connections": {
           "North": 30412,
           "South": 30406,
@@ -163,9 +144,7 @@
       },
       {
         "Id": 30410,
-        "FrameColor": "black",
         "Name": "The Stairwell #30410",
-        "Color": "black",
         "Connections": {
           "South": 30407,
           "Up": 30413
@@ -179,9 +158,7 @@
       },
       {
         "Id": 30411,
-        "FrameColor": "black",
         "Name": "The Temple #30411",
-        "Color": "black",
         "Connections": {
           "South": 30408
         },
@@ -194,9 +171,7 @@
       },
       {
         "Id": 30412,
-        "FrameColor": "black",
         "Name": "The Stairwell #30412",
-        "Color": "black",
         "Connections": {
           "South": 30409,
           "Up": 30415
@@ -210,9 +185,7 @@
       },
       {
         "Id": 30413,
-        "FrameColor": "black",
         "Name": "The Upper Temple #30413",
-        "Color": "black",
         "Connections": {
           "South": 30416,
           "Down": 30410
@@ -220,12 +193,11 @@
       },
       {
         "Id": 30414,
-        "FrameColor": "black",
         "Name": "Mateon\u0027s Chamber #30414",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 30415,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -257,13 +229,12 @@
       },
       {
         "Id": 30415,
-        "FrameColor": "black",
         "Name": "The Upper Temple #30415",
-        "Color": "black",
         "Connections": {
           "South": 30418,
           "West": {
             "RoomId": 30414,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -278,9 +249,7 @@
       },
       {
         "Id": 30416,
-        "FrameColor": "black",
         "Name": "The Corridor #30416",
-        "Color": "black",
         "Connections": {
           "North": 30413,
           "South": 30419
@@ -294,16 +263,12 @@
       },
       {
         "Id": 30417,
-        "FrameColor": "black",
         "Name": "Aten\u0027s Chamber #30417",
-        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 30418,
-        "FrameColor": "black",
         "Name": "The Corridor #30418",
-        "Color": "black",
         "Connections": {
           "North": 30415,
           "South": 30421
@@ -317,9 +282,7 @@
       },
       {
         "Id": 30419,
-        "FrameColor": "black",
         "Name": "The Cul-de-Sac #30419",
-        "Color": "black",
         "Connections": {
           "North": 30416
         },
@@ -332,12 +295,11 @@
       },
       {
         "Id": 30420,
-        "FrameColor": "black",
         "Name": "The Bull\u0027s Chamber #30420",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 30421,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -358,13 +320,12 @@
       },
       {
         "Id": 30421,
-        "FrameColor": "black",
         "Name": "The Dark Chamber #30421",
-        "Color": "black",
         "Connections": {
           "North": 30418,
           "West": {
             "RoomId": 30420,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -378,9 +339,7 @@
       },
       {
         "Id": 30422,
-        "FrameColor": "black",
         "Name": "The Balcony #30422",
-        "Color": "black",
         "Connections": {
           "North": 30420
         },

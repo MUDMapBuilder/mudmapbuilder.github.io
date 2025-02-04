@@ -5,20 +5,15 @@
     "MinimumLevel": "3",
     "MaximumLevel": "7",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 3700,
-        "FrameColor": "black",
         "Name": "Zone Description Room for Capital Sewer System #3700",
-        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 3701,
-        "FrameColor": "black",
         "Name": "Entering the sewers #3701",
-        "Color": "black",
         "Connections": {
           "North": 3716,
           "East": 3703,
@@ -28,18 +23,14 @@
       },
       {
         "Id": 3702,
-        "FrameColor": "black",
         "Name": "Under the Drainpipe #3702",
-        "Color": "black",
         "Connections": {
           "North": 3701
         }
       },
       {
         "Id": 3703,
-        "FrameColor": "black",
         "Name": "Pipe turning north and west #3703",
-        "Color": "black",
         "Connections": {
           "North": 3704,
           "West": 3701
@@ -57,9 +48,7 @@
       },
       {
         "Id": 3704,
-        "FrameColor": "black",
         "Name": "A pipe deep underground. #3704",
-        "Color": "black",
         "Connections": {
           "North": 3705,
           "South": 3703
@@ -67,9 +56,7 @@
       },
       {
         "Id": 3705,
-        "FrameColor": "black",
         "Name": "A pipe deep underground #3705",
-        "Color": "black",
         "Connections": {
           "North": 3707,
           "South": 3704
@@ -87,9 +74,7 @@
       },
       {
         "Id": 3707,
-        "FrameColor": "black",
         "Name": "A three-way intersection #3707",
-        "Color": "black",
         "Connections": {
           "East": 3708,
           "South": 3705,
@@ -108,12 +93,11 @@
       },
       {
         "Id": 3708,
-        "FrameColor": "black",
         "Name": "A bend in the tunnel #3708",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 3709,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": []
@@ -133,13 +117,12 @@
       },
       {
         "Id": 3709,
-        "FrameColor": "black",
         "Name": "North of a grate #3709",
-        "Color": "black",
         "Connections": {
           "North": 3710,
           "South": {
             "RoomId": 3708,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": []
@@ -148,9 +131,7 @@
       },
       {
         "Id": 3710,
-        "FrameColor": "black",
         "Name": "Near the northern drainhole #3710",
-        "Color": "black",
         "Connections": {
           "South": 3709,
           "West": 3711
@@ -158,9 +139,7 @@
       },
       {
         "Id": 3711,
-        "FrameColor": "black",
         "Name": "The northern drainhole #3711",
-        "Color": "black",
         "Connections": {
           "East": 3710,
           "South": 3715,
@@ -187,9 +166,7 @@
       },
       {
         "Id": 3712,
-        "FrameColor": "black",
         "Name": "A dirt tunnel #3712",
-        "Color": "black",
         "Connections": {
           "East": 3711,
           "South": 3713
@@ -197,9 +174,7 @@
       },
       {
         "Id": 3713,
-        "FrameColor": "black",
         "Name": "In a dirt tunnel #3713",
-        "Color": "black",
         "Connections": {
           "North": 3712,
           "South": 3714
@@ -217,9 +192,7 @@
       },
       {
         "Id": 3714,
-        "FrameColor": "black",
         "Name": "A dirt tunnel #3714",
-        "Color": "black",
         "Connections": {
           "North": 3713,
           "East": 3707
@@ -227,9 +200,7 @@
       },
       {
         "Id": 3715,
-        "FrameColor": "black",
         "Name": "The Lair of the King Rat. #3715",
-        "Color": "black",
         "Connections": {
           "North": 3711
         },
@@ -242,9 +213,7 @@
       },
       {
         "Id": 3716,
-        "FrameColor": "black",
         "Name": "The Northern Pipe #3716",
-        "Color": "black",
         "Connections": {
           "North": 3717,
           "South": 3701
@@ -252,9 +221,7 @@
       },
       {
         "Id": 3717,
-        "FrameColor": "black",
         "Name": "At the edge of a pit #3717",
-        "Color": "black",
         "Connections": {
           "South": 3716,
           "Down": 3801
@@ -262,9 +229,7 @@
       },
       {
         "Id": 3718,
-        "FrameColor": "black",
         "Name": "The western junction. #3718",
-        "Color": "black",
         "Connections": {
           "North": 3719,
           "East": 3701,
@@ -273,9 +238,7 @@
       },
       {
         "Id": 3719,
-        "FrameColor": "black",
         "Name": "North/south Pipe #3719",
-        "Color": "black",
         "Connections": {
           "North": 3720,
           "South": 3718
@@ -283,9 +246,7 @@
       },
       {
         "Id": 3720,
-        "FrameColor": "black",
         "Name": "North/south Pipe #3720",
-        "Color": "black",
         "Connections": {
           "North": 3721,
           "South": 3719
@@ -293,9 +254,7 @@
       },
       {
         "Id": 3721,
-        "FrameColor": "black",
         "Name": "North of the grate. #3721",
-        "Color": "black",
         "Connections": {
           "North": 3722,
           "South": 3720,
@@ -310,9 +269,7 @@
       },
       {
         "Id": 3722,
-        "FrameColor": "black",
         "Name": "A domed cave #3722",
-        "Color": "black",
         "Connections": {
           "North": 3723,
           "South": 3721
@@ -330,9 +287,7 @@
       },
       {
         "Id": 3723,
-        "FrameColor": "black",
         "Name": "Near the outside #3723",
-        "Color": "black",
         "Connections": {
           "South": 3722,
           "Up": 3743
@@ -346,9 +301,7 @@
       },
       {
         "Id": 3724,
-        "FrameColor": "black",
         "Name": "A side tunnel #3724",
-        "Color": "black",
         "Connections": {
           "North": 3725,
           "East": 3721
@@ -370,9 +323,7 @@
       },
       {
         "Id": 3725,
-        "FrameColor": "black",
         "Name": "A side tunnel #3725",
-        "Color": "black",
         "Connections": {
           "North": 3726,
           "South": 3724
@@ -390,9 +341,7 @@
       },
       {
         "Id": 3726,
-        "FrameColor": "black",
         "Name": "Turn in a side tunnel #3726",
-        "Color": "black",
         "Connections": {
           "South": 3725,
           "West": 3727
@@ -410,9 +359,7 @@
       },
       {
         "Id": 3727,
-        "FrameColor": "black",
         "Name": "The west tunnel #3727",
-        "Color": "black",
         "Connections": {
           "East": 3726,
           "West": 3728
@@ -434,9 +381,7 @@
       },
       {
         "Id": 3728,
-        "FrameColor": "black",
         "Name": "The west tunnel #3728",
-        "Color": "black",
         "Connections": {
           "East": 3727
         },
@@ -453,9 +398,7 @@
       },
       {
         "Id": 3729,
-        "FrameColor": "black",
         "Name": "A turn in the western pipe #3729",
-        "Color": "black",
         "Connections": {
           "North": 3730,
           "East": 3718
@@ -463,9 +406,7 @@
       },
       {
         "Id": 3730,
-        "FrameColor": "black",
         "Name": "A boring pipe #3730",
-        "Color": "black",
         "Connections": {
           "North": 3731,
           "South": 3729
@@ -473,9 +414,7 @@
       },
       {
         "Id": 3731,
-        "FrameColor": "black",
         "Name": "A turn in a boring pipe #3731",
-        "Color": "black",
         "Connections": {
           "South": 3730,
           "West": 3732
@@ -483,9 +422,7 @@
       },
       {
         "Id": 3732,
-        "FrameColor": "black",
         "Name": "A boring pipe #3732",
-        "Color": "black",
         "Connections": {
           "East": 3731,
           "West": 3733
@@ -493,9 +430,7 @@
       },
       {
         "Id": 3733,
-        "FrameColor": "black",
         "Name": "A turn in a boring pipe #3733",
-        "Color": "black",
         "Connections": {
           "East": 3732,
           "South": 3734
@@ -503,9 +438,7 @@
       },
       {
         "Id": 3734,
-        "FrameColor": "black",
         "Name": "A boring pipe #3734",
-        "Color": "black",
         "Connections": {
           "North": 3733,
           "South": 3735
@@ -513,14 +446,13 @@
       },
       {
         "Id": 3735,
-        "FrameColor": "black",
         "Name": "A strange halt #3735",
-        "Color": "black",
         "Connections": {
           "North": 3734,
           "East": 3736,
           "South": {
             "RoomId": 3737,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -534,18 +466,14 @@
       },
       {
         "Id": 3736,
-        "FrameColor": "black",
         "Name": "By the hole #3736",
-        "Color": "black",
         "Connections": {
           "East": 3729
         }
       },
       {
         "Id": 3737,
-        "FrameColor": "black",
         "Name": "By an underground fishing pond #3737",
-        "Color": "black",
         "Connections": {
           "North": 3735,
           "South": 3738,
@@ -554,9 +482,7 @@
       },
       {
         "Id": 3738,
-        "FrameColor": "black",
         "Name": "The pool. #3738",
-        "Color": "black",
         "Connections": {
           "North": 3737,
           "South": 3739,
@@ -575,9 +501,7 @@
       },
       {
         "Id": 3739,
-        "FrameColor": "black",
         "Name": "The pool #3739",
-        "Color": "black",
         "Connections": {
           "North": 3738,
           "West": 3740
@@ -585,9 +509,7 @@
       },
       {
         "Id": 3740,
-        "FrameColor": "black",
         "Name": "The pool #3740",
-        "Color": "black",
         "Connections": {
           "North": 3741,
           "East": 3739
@@ -605,9 +527,7 @@
       },
       {
         "Id": 3741,
-        "FrameColor": "black",
         "Name": "The pool #3741",
-        "Color": "black",
         "Connections": {
           "North": 3742,
           "East": 3738,
@@ -626,9 +546,7 @@
       },
       {
         "Id": 3742,
-        "FrameColor": "black",
         "Name": "The pool #3742",
-        "Color": "black",
         "Connections": {
           "East": 3737,
           "South": 3741
@@ -646,9 +564,7 @@
       },
       {
         "Id": 3743,
-        "FrameColor": "black",
         "Name": "Through the hole #3743",
-        "Color": "black",
         "Connections": {
           "North": 3744,
           "Down": 3723
@@ -656,9 +572,7 @@
       },
       {
         "Id": 3744,
-        "FrameColor": "black",
         "Name": "Outside the cave #3744",
-        "Color": "black",
         "Connections": {
           "South": 3743,
           "West": 3745
@@ -680,9 +594,7 @@
       },
       {
         "Id": 3745,
-        "FrameColor": "black",
         "Name": "Outside the capital #3745",
-        "Color": "black",
         "Connections": {
           "East": 3744,
           "South": 3746
@@ -704,9 +616,7 @@
       },
       {
         "Id": 3746,
-        "FrameColor": "black",
         "Name": "On a gravelled path #3746",
-        "Color": "black",
         "Connections": {
           "North": 3745
         },
@@ -726,6 +636,7 @@
           "Up": 3717,
           "Down": {
             "RoomId": 3802,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [

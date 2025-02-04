@@ -5,13 +5,10 @@
     "MinimumLevel": "1",
     "MaximumLevel": "34",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 20100,
-        "FrameColor": "black",
         "Name": "Elixias\u0027s Zone Description Room #20100",
-        "Color": "black",
         "Connections": {
           "Down": 20104
         },
@@ -24,22 +21,19 @@
       },
       {
         "Id": 20101,
-        "FrameColor": "black",
         "Name": "At the Entrance of a Gloomy Forest #20101",
-        "Color": "black",
         "Connections": {
           "South": 20103
         }
       },
       {
         "Id": 20102,
-        "FrameColor": "black",
         "Name": "On a Cliff by a Lighthouse #20102",
-        "Color": "black",
         "Connections": {
           "East": 20103,
           "West": {
             "RoomId": 20104,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -53,9 +47,7 @@
       },
       {
         "Id": 20103,
-        "FrameColor": "black",
         "Name": "At a T-Junction by a Slope #20103",
-        "Color": "black",
         "Connections": {
           "North": 20101,
           "South": 20105,
@@ -64,9 +56,7 @@
       },
       {
         "Id": 20104,
-        "FrameColor": "black",
         "Name": "In a Lighthouse #20104",
-        "Color": "black",
         "Connections": {
           "East": 20102,
           "Up": 20100
@@ -80,9 +70,7 @@
       },
       {
         "Id": 20105,
-        "FrameColor": "black",
         "Name": "On the Coast of Konolua Beach @Y[DIG]@n #20105",
-        "Color": "black",
         "Connections": {
           "North": 20103,
           "East": 20108,
@@ -98,9 +86,7 @@
       },
       {
         "Id": 20106,
-        "FrameColor": "black",
         "Name": "On a Sandy Shore @Y[DIG]@n #20106",
-        "Color": "black",
         "Connections": {
           "East": 20105,
           "South": 20111,
@@ -109,9 +95,7 @@
       },
       {
         "Id": 20107,
-        "FrameColor": "black",
         "Name": "In Shallow Waters @B[DIVE]@n #20107",
-        "Color": "black",
         "Connections": {
           "East": 20106,
           "South": 20131
@@ -125,9 +109,7 @@
       },
       {
         "Id": 20108,
-        "FrameColor": "black",
         "Name": "Konolua Seacoast @Y[DIG]@n #20108",
-        "Color": "black",
         "Connections": {
           "North": 20150,
           "East": 20109,
@@ -143,9 +125,7 @@
       },
       {
         "Id": 20109,
-        "FrameColor": "black",
         "Name": "Konolua Seacoast @Y[DIG] @G[CLIMB]@n #20109",
-        "Color": "black",
         "Connections": {
           "East": 20110,
           "South": 20114,
@@ -160,9 +140,7 @@
       },
       {
         "Id": 20110,
-        "FrameColor": "black",
         "Name": "On a Rocky Part of Konolua Seacoast @Y[DIG]@n #20110",
-        "Color": "black",
         "Connections": {
           "South": 20115,
           "West": 20109
@@ -184,9 +162,7 @@
       },
       {
         "Id": 20111,
-        "FrameColor": "black",
         "Name": "In Shallow Waters #20111",
-        "Color": "black",
         "Connections": {
           "North": 20106,
           "East": 20112,
@@ -196,9 +172,7 @@
       },
       {
         "Id": 20112,
-        "FrameColor": "black",
         "Name": "By the Seashore @Y[DIG]@n #20112",
-        "Color": "black",
         "Connections": {
           "North": 20105,
           "East": 20113,
@@ -208,9 +182,7 @@
       },
       {
         "Id": 20113,
-        "FrameColor": "black",
         "Name": "By the Seashore @Y[DIG]@n #20113",
-        "Color": "black",
         "Connections": {
           "North": 20108,
           "East": 20114,
@@ -220,9 +192,7 @@
       },
       {
         "Id": 20114,
-        "FrameColor": "black",
         "Name": "By the Seashore @Y[DIG]@n #20114",
-        "Color": "black",
         "Connections": {
           "North": 20109,
           "East": 20115,
@@ -232,9 +202,7 @@
       },
       {
         "Id": 20115,
-        "FrameColor": "black",
         "Name": "By a Seashore @Y[DIG]@n #20115",
-        "Color": "black",
         "Connections": {
           "North": 20110,
           "East": 20122,
@@ -250,9 +218,7 @@
       },
       {
         "Id": 20116,
-        "FrameColor": "black",
         "Name": "In Shallow Waters #20116",
-        "Color": "black",
         "Connections": {
           "North": 20111,
           "East": 20117,
@@ -262,9 +228,7 @@
       },
       {
         "Id": 20117,
-        "FrameColor": "black",
         "Name": "In Shallow Waters #20117",
-        "Color": "black",
         "Connections": {
           "North": 20112,
           "East": 20118,
@@ -280,9 +244,7 @@
       },
       {
         "Id": 20118,
-        "FrameColor": "black",
         "Name": "In Shallow Waters #20118",
-        "Color": "black",
         "Connections": {
           "North": 20113,
           "East": 20119,
@@ -298,9 +260,7 @@
       },
       {
         "Id": 20119,
-        "FrameColor": "black",
         "Name": "In Shallow Waters #20119",
-        "Color": "black",
         "Connections": {
           "North": 20114,
           "East": 20120,
@@ -316,9 +276,7 @@
       },
       {
         "Id": 20120,
-        "FrameColor": "black",
         "Name": "In Shallow Waters #20120",
-        "Color": "black",
         "Connections": {
           "North": 20115,
           "East": 20123,
@@ -328,9 +286,7 @@
       },
       {
         "Id": 20121,
-        "FrameColor": "black",
         "Name": "In Deep Waters #20121",
-        "Color": "black",
         "Connections": {
           "North": 20120,
           "East": 20124,
@@ -340,9 +296,7 @@
       },
       {
         "Id": 20122,
-        "FrameColor": "black",
         "Name": "On a Sandy Path #20122",
-        "Color": "black",
         "Connections": {
           "East": 20132,
           "South": 20123,
@@ -351,9 +305,7 @@
       },
       {
         "Id": 20123,
-        "FrameColor": "black",
         "Name": "On a Sandy Path #20123",
-        "Color": "black",
         "Connections": {
           "North": 20122,
           "East": 20132,
@@ -363,9 +315,7 @@
       },
       {
         "Id": 20124,
-        "FrameColor": "black",
         "Name": "A Narrow Sandy Path #20124",
-        "Color": "black",
         "Connections": {
           "North": 20123,
           "East": 20125,
@@ -375,9 +325,7 @@
       },
       {
         "Id": 20125,
-        "FrameColor": "black",
         "Name": "On a Sandy Pathway #20125",
-        "Color": "black",
         "Connections": {
           "North": 20132,
           "East": 20132,
@@ -387,9 +335,7 @@
       },
       {
         "Id": 20126,
-        "FrameColor": "black",
         "Name": "A Small Island in the Sea #20126",
-        "Color": "black",
         "Connections": {
           "North": 20125,
           "East": 20132,
@@ -399,9 +345,7 @@
       },
       {
         "Id": 20127,
-        "FrameColor": "black",
         "Name": "At the Base of a Small Cliff #20127",
-        "Color": "black",
         "Connections": {
           "North": 20126,
           "East": 20128,
@@ -411,18 +355,14 @@
       },
       {
         "Id": 20128,
-        "FrameColor": "black",
         "Name": "At the Peak of the Cliff #20128",
-        "Color": "black",
         "Connections": {
           "West": 20127
         }
       },
       {
         "Id": 20129,
-        "FrameColor": "black",
         "Name": "An Isolated Part of the Island #20129",
-        "Color": "black",
         "Connections": {
           "North": 20127,
           "East": 20132,
@@ -438,16 +378,12 @@
       },
       {
         "Id": 20130,
-        "FrameColor": "black",
         "Name": "Underwater #20130",
-        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 20131,
-        "FrameColor": "black",
         "Name": "In the Deep Ocean #20131",
-        "Color": "black",
         "Connections": {
           "North": 20107,
           "East": 20111,
@@ -457,9 +393,7 @@
       },
       {
         "Id": 20132,
-        "FrameColor": "black",
         "Name": "In the Middle of the Ocean #20132",
-        "Color": "black",
         "Connections": {
           "North": 20140,
           "East": 20142,
@@ -470,9 +404,7 @@
       },
       {
         "Id": 20133,
-        "FrameColor": "black",
         "Name": "In the Deep Ocean #20133",
-        "Color": "black",
         "Connections": {
           "North": 20131,
           "East": 20116,
@@ -482,9 +414,7 @@
       },
       {
         "Id": 20135,
-        "FrameColor": "black",
         "Name": "In the Deep Waters #20135",
-        "Color": "black",
         "Connections": {
           "North": 20116,
           "East": 20136,
@@ -494,9 +424,7 @@
       },
       {
         "Id": 20136,
-        "FrameColor": "black",
         "Name": "In the Ocean #20136",
-        "Color": "black",
         "Connections": {
           "North": 20117,
           "East": 20137,
@@ -506,9 +434,7 @@
       },
       {
         "Id": 20137,
-        "FrameColor": "black",
         "Name": "In the Ocean #20137",
-        "Color": "black",
         "Connections": {
           "North": 20118,
           "East": 20138,
@@ -518,9 +444,7 @@
       },
       {
         "Id": 20138,
-        "FrameColor": "black",
         "Name": "In the Ocean #20138",
-        "Color": "black",
         "Connections": {
           "North": 20119,
           "East": 20121,
@@ -530,9 +454,7 @@
       },
       {
         "Id": 20139,
-        "FrameColor": "black",
         "Name": "Underwater #20139",
-        "Color": "black",
         "Connections": {
           "North": 20143,
           "East": 20145,
@@ -543,9 +465,7 @@
       },
       {
         "Id": 20140,
-        "FrameColor": "black",
         "Name": "In the Middle of the Ocean #20140",
-        "Color": "black",
         "Connections": {
           "North": 20132,
           "East": 20141,
@@ -556,9 +476,7 @@
       },
       {
         "Id": 20141,
-        "FrameColor": "black",
         "Name": "In the Middle of the Ocean #20141",
-        "Color": "black",
         "Connections": {
           "North": 20142,
           "East": 20140,
@@ -569,9 +487,7 @@
       },
       {
         "Id": 20142,
-        "FrameColor": "black",
         "Name": "In the Middle of the Ocean #20142",
-        "Color": "black",
         "Connections": {
           "North": 20141,
           "East": 20132,
@@ -582,9 +498,7 @@
       },
       {
         "Id": 20143,
-        "FrameColor": "black",
         "Name": "Underwater #20143",
-        "Color": "black",
         "Connections": {
           "North": 20139,
           "East": 20144,
@@ -595,9 +509,7 @@
       },
       {
         "Id": 20144,
-        "FrameColor": "black",
         "Name": "Underwater #20144",
-        "Color": "black",
         "Connections": {
           "North": 20145,
           "East": 20143,
@@ -608,9 +520,7 @@
       },
       {
         "Id": 20145,
-        "FrameColor": "black",
         "Name": "Underwater #20145",
-        "Color": "black",
         "Connections": {
           "North": 20144,
           "East": 20139,
@@ -621,16 +531,12 @@
       },
       {
         "Id": 20146,
-        "FrameColor": "black",
         "Name": "In Oblivion #20146",
-        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 20147,
-        "FrameColor": "black",
         "Name": "On a Sandy Bay #20147",
-        "Color": "black",
         "Connections": {
           "North": 20148,
           "West": 20149
@@ -638,27 +544,21 @@
       },
       {
         "Id": 20148,
-        "FrameColor": "black",
         "Name": "On a Sandy bay #20148",
-        "Color": "black",
         "Connections": {
           "South": 20147
         }
       },
       {
         "Id": 20149,
-        "FrameColor": "black",
         "Name": "At the Scene of a Shipwreck #20149",
-        "Color": "black",
         "Connections": {
           "East": 20147
         }
       },
       {
         "Id": 20150,
-        "FrameColor": "black",
         "Name": "In a Small Cozy House #20150",
-        "Color": "black",
         "Connections": {
           "South": 20108
         },
@@ -671,36 +571,28 @@
       },
       {
         "Id": 20151,
-        "FrameColor": "black",
         "Name": "In a Small Underwater Tunnel @C[SURFACE]@n #20151",
-        "Color": "black",
         "Connections": {
           "North": 20152
         }
       },
       {
         "Id": 20152,
-        "FrameColor": "black",
         "Name": "In a Underwater Tunnel @C[SURFACE]@n #20152",
-        "Color": "black",
         "Connections": {
           "South": 20151
         }
       },
       {
         "Id": 20153,
-        "FrameColor": "black",
         "Name": "In a Secret Cove @B[DIVE]@n #20153",
-        "Color": "black",
         "Connections": {
           "North": 20154
         }
       },
       {
         "Id": 20154,
-        "FrameColor": "black",
         "Name": "In a Tunnel of A Cove #20154",
-        "Color": "black",
         "Connections": {
           "South": 20153,
           "West": 20155,
@@ -709,36 +601,28 @@
       },
       {
         "Id": 20155,
-        "FrameColor": "black",
         "Name": "A Room in the Cliff #20155",
-        "Color": "black",
         "Connections": {
           "East": 20154
         }
       },
       {
         "Id": 20156,
-        "FrameColor": "black",
         "Name": "A Room in the Cliff #20156",
-        "Color": "black",
         "Connections": {
           "Down": 20154
         }
       },
       {
         "Id": 20157,
-        "FrameColor": "black",
         "Name": "On top of a Cliff @G[CLIMB]@n #20157",
-        "Color": "black",
         "Connections": {
           "North": 20158
         }
       },
       {
         "Id": 20158,
-        "FrameColor": "black",
         "Name": "In a Small Wooden hut #20158",
-        "Color": "black",
         "Connections": {
           "South": 20157
         },

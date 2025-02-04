@@ -5,13 +5,10 @@
     "MinimumLevel": "15",
     "MaximumLevel": "50",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 901,
-        "FrameColor": "black",
         "Name": "Mountain #901",
-        "Color": "black",
         "Connections": {
           "Up": 902,
           "South": 324
@@ -19,9 +16,7 @@
       },
       {
         "Id": 902,
-        "FrameColor": "black",
         "Name": "Mountain #902",
-        "Color": "black",
         "Connections": {
           "Up": 903,
           "Down": 901
@@ -29,9 +24,7 @@
       },
       {
         "Id": 903,
-        "FrameColor": "black",
         "Name": "Mountain #903",
-        "Color": "black",
         "Connections": {
           "North": 904,
           "Down": 902
@@ -39,9 +32,7 @@
       },
       {
         "Id": 904,
-        "FrameColor": "black",
         "Name": "Entrance #904",
-        "Color": "black",
         "Connections": {
           "North": 905,
           "South": 903
@@ -55,9 +46,7 @@
       },
       {
         "Id": 905,
-        "FrameColor": "black",
         "Name": "Zeus Street #905",
-        "Color": "black",
         "Connections": {
           "North": 906,
           "South": 904,
@@ -72,9 +61,7 @@
       },
       {
         "Id": 906,
-        "FrameColor": "black",
         "Name": "Zeus Street #906",
-        "Color": "black",
         "Connections": {
           "North": 907,
           "South": 905,
@@ -90,9 +77,7 @@
       },
       {
         "Id": 907,
-        "FrameColor": "black",
         "Name": "Zeus Street #907",
-        "Color": "black",
         "Connections": {
           "North": 908,
           "South": 906,
@@ -107,9 +92,7 @@
       },
       {
         "Id": 908,
-        "FrameColor": "black",
         "Name": "Zeus Street #908",
-        "Color": "black",
         "Connections": {
           "North": 909,
           "South": 907,
@@ -124,9 +107,7 @@
       },
       {
         "Id": 909,
-        "FrameColor": "black",
         "Name": "Castle Entryway #909",
-        "Color": "black",
         "Connections": {
           "North": 910,
           "South": 908,
@@ -136,9 +117,7 @@
       },
       {
         "Id": 910,
-        "FrameColor": "black",
         "Name": "Throne Room #910",
-        "Color": "black",
         "Connections": {
           "North": 923,
           "South": 909,
@@ -153,9 +132,7 @@
       },
       {
         "Id": 911,
-        "FrameColor": "black",
         "Name": "Western Wing #911",
-        "Color": "black",
         "Connections": {
           "East": 909,
           "West": 912
@@ -163,9 +140,7 @@
       },
       {
         "Id": 912,
-        "FrameColor": "black",
         "Name": "Western Wing #912",
-        "Color": "black",
         "Connections": {
           "East": 911,
           "West": 929,
@@ -175,9 +150,7 @@
       },
       {
         "Id": 913,
-        "FrameColor": "black",
         "Name": "Western Wing #913",
-        "Color": "black",
         "Connections": {
           "South": 912,
           "North": 914
@@ -185,9 +158,7 @@
       },
       {
         "Id": 914,
-        "FrameColor": "black",
         "Name": "Kitchen #914",
-        "Color": "black",
         "Connections": {
           "South": 913
         },
@@ -204,9 +175,7 @@
       },
       {
         "Id": 915,
-        "FrameColor": "black",
         "Name": "Eastern Wing #915",
-        "Color": "black",
         "Connections": {
           "West": 909,
           "East": 916
@@ -214,9 +183,7 @@
       },
       {
         "Id": 916,
-        "FrameColor": "black",
         "Name": "Eastern Wing #916",
-        "Color": "black",
         "Connections": {
           "West": 915,
           "East": 931,
@@ -226,9 +193,7 @@
       },
       {
         "Id": 917,
-        "FrameColor": "black",
         "Name": "Eastern Wing #917",
-        "Color": "black",
         "Connections": {
           "North": 933,
           "South": 916
@@ -236,9 +201,7 @@
       },
       {
         "Id": 918,
-        "FrameColor": "black",
         "Name": "Dungeon #918",
-        "Color": "black",
         "Connections": {
           "North": 919,
           "Up": 910
@@ -252,12 +215,11 @@
       },
       {
         "Id": 919,
-        "FrameColor": "black",
         "Name": "Dungeon #919",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 920,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -269,6 +231,7 @@
           },
           "East": {
             "RoomId": 922,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -280,6 +243,7 @@
           },
           "West": {
             "RoomId": 921,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -294,12 +258,11 @@
       },
       {
         "Id": 920,
-        "FrameColor": "black",
         "Name": "Cell #920",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 919,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -319,12 +282,11 @@
       },
       {
         "Id": 921,
-        "FrameColor": "black",
         "Name": "Cell #921",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 919,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -344,12 +306,11 @@
       },
       {
         "Id": 922,
-        "FrameColor": "black",
         "Name": "Cell #922",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 919,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -369,9 +330,7 @@
       },
       {
         "Id": 923,
-        "FrameColor": "black",
         "Name": "Stairway #923",
-        "Color": "black",
         "Connections": {
           "Up": 939,
           "South": 910
@@ -379,9 +338,7 @@
       },
       {
         "Id": 924,
-        "FrameColor": "black",
         "Name": "Bakery #924",
-        "Color": "black",
         "Connections": {
           "East": 905
         },
@@ -394,9 +351,7 @@
       },
       {
         "Id": 925,
-        "FrameColor": "black",
         "Name": "Residence #925",
-        "Color": "black",
         "Connections": {
           "West": 906
         },
@@ -417,9 +372,7 @@
       },
       {
         "Id": 926,
-        "FrameColor": "black",
         "Name": "Residence #926",
-        "Color": "black",
         "Connections": {
           "East": 906
         },
@@ -440,9 +393,7 @@
       },
       {
         "Id": 927,
-        "FrameColor": "black",
         "Name": "Mystic Shop #927",
-        "Color": "black",
         "Connections": {
           "East": 907
         },
@@ -455,9 +406,7 @@
       },
       {
         "Id": 928,
-        "FrameColor": "black",
         "Name": "Ares Street #928",
-        "Color": "black",
         "Connections": {
           "West": 908,
           "East": 934
@@ -471,9 +420,7 @@
       },
       {
         "Id": 929,
-        "FrameColor": "black",
         "Name": "Guest Quarters #929",
-        "Color": "black",
         "Connections": {
           "East": 912
         },
@@ -486,18 +433,14 @@
       },
       {
         "Id": 930,
-        "FrameColor": "black",
         "Name": "Storage Room #930",
-        "Color": "black",
         "Connections": {
           "North": 912
         }
       },
       {
         "Id": 931,
-        "FrameColor": "black",
         "Name": "Guest Quarters #931",
-        "Color": "black",
         "Connections": {
           "West": 916
         },
@@ -510,18 +453,14 @@
       },
       {
         "Id": 932,
-        "FrameColor": "black",
         "Name": "Storage Room #932",
-        "Color": "black",
         "Connections": {
           "North": 916
         }
       },
       {
         "Id": 933,
-        "FrameColor": "black",
         "Name": "Stable #933",
-        "Color": "black",
         "Connections": {
           "South": 917
         },
@@ -546,9 +485,7 @@
       },
       {
         "Id": 934,
-        "FrameColor": "black",
         "Name": "Ares Street #934",
-        "Color": "black",
         "Connections": {
           "West": 928,
           "North": 937,
@@ -564,9 +501,7 @@
       },
       {
         "Id": 935,
-        "FrameColor": "black",
         "Name": "Armoury #935",
-        "Color": "black",
         "Connections": {
           "North": 934
         },
@@ -579,9 +514,7 @@
       },
       {
         "Id": 936,
-        "FrameColor": "black",
         "Name": "Weapon Shop #936",
-        "Color": "black",
         "Connections": {
           "West": 934
         },
@@ -594,9 +527,7 @@
       },
       {
         "Id": 937,
-        "FrameColor": "black",
         "Name": "Smithy #937",
-        "Color": "black",
         "Connections": {
           "South": 934,
           "West": 938
@@ -618,9 +549,7 @@
       },
       {
         "Id": 938,
-        "FrameColor": "black",
         "Name": "The Planning Room #938",
-        "Color": "black",
         "Connections": {
           "East": 937,
           "North": 954
@@ -642,9 +571,7 @@
       },
       {
         "Id": 939,
-        "FrameColor": "black",
         "Name": "Second Floor #939",
-        "Color": "black",
         "Connections": {
           "Down": 923,
           "Up": 948,
@@ -656,9 +583,7 @@
       },
       {
         "Id": 940,
-        "FrameColor": "black",
         "Name": "Northern Hall #940",
-        "Color": "black",
         "Connections": {
           "South": 939,
           "North": 947
@@ -666,9 +591,7 @@
       },
       {
         "Id": 941,
-        "FrameColor": "black",
         "Name": "Southern Hall #941",
-        "Color": "black",
         "Connections": {
           "South": 944,
           "North": 939
@@ -676,9 +599,7 @@
       },
       {
         "Id": 942,
-        "FrameColor": "black",
         "Name": "Western Hall #942",
-        "Color": "black",
         "Connections": {
           "East": 939,
           "West": 945
@@ -686,9 +607,7 @@
       },
       {
         "Id": 943,
-        "FrameColor": "black",
         "Name": "Eastern Hall #943",
-        "Color": "black",
         "Connections": {
           "East": 946,
           "West": 939
@@ -696,18 +615,14 @@
       },
       {
         "Id": 944,
-        "FrameColor": "black",
         "Name": "Bed Room #944",
-        "Color": "black",
         "Connections": {
           "North": 941
         }
       },
       {
         "Id": 945,
-        "FrameColor": "black",
         "Name": "Bed Room #945",
-        "Color": "black",
         "Connections": {
           "East": 942
         },
@@ -720,9 +635,7 @@
       },
       {
         "Id": 946,
-        "FrameColor": "black",
         "Name": "Bed Room #946",
-        "Color": "black",
         "Connections": {
           "West": 943
         },
@@ -735,9 +648,7 @@
       },
       {
         "Id": 947,
-        "FrameColor": "black",
         "Name": "Bed Room #947",
-        "Color": "black",
         "Connections": {
           "South": 940
         },
@@ -750,9 +661,7 @@
       },
       {
         "Id": 948,
-        "FrameColor": "black",
         "Name": "Hall of Gods #948",
-        "Color": "black",
         "Connections": {
           "Down": 939,
           "North": 951
@@ -760,18 +669,14 @@
       },
       {
         "Id": 951,
-        "FrameColor": "black",
         "Name": "The Portal #951",
-        "Color": "black",
         "Connections": {
           "South": 948
         }
       },
       {
         "Id": 954,
-        "FrameColor": "black",
         "Name": "The Believer #954",
-        "Color": "black",
         "Connections": {
           "South": 938
         },

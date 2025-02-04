@@ -2,16 +2,14 @@
   "Area": {
     "Name": "The Sewer Maze",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 7200,
-        "FrameColor": "black",
         "Name": "The Treasury #7200",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 7201,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -25,13 +23,12 @@
       },
       {
         "Id": 7201,
-        "FrameColor": "black",
         "Name": "The Inner Lair #7201",
-        "Color": "black",
         "Connections": {
           "South": 7202,
           "West": {
             "RoomId": 7200,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -51,9 +48,7 @@
       },
       {
         "Id": 7202,
-        "FrameColor": "black",
         "Name": "The Lair #7202",
-        "Color": "black",
         "Connections": {
           "North": 7201,
           "East": 7205,
@@ -62,9 +57,7 @@
       },
       {
         "Id": 7203,
-        "FrameColor": "black",
         "Name": "The Lair #7203",
-        "Color": "black",
         "Connections": {
           "North": 7202,
           "East": 7206,
@@ -79,9 +72,7 @@
       },
       {
         "Id": 7204,
-        "FrameColor": "black",
         "Name": "The Lair #7204",
-        "Color": "black",
         "Connections": {
           "North": 7203,
           "East": 7207,
@@ -90,9 +81,7 @@
       },
       {
         "Id": 7205,
-        "FrameColor": "black",
         "Name": "The Lair #7205",
-        "Color": "black",
         "Connections": {
           "South": 7206,
           "West": 7202
@@ -106,9 +95,7 @@
       },
       {
         "Id": 7206,
-        "FrameColor": "black",
         "Name": "The Lair #7206",
-        "Color": "black",
         "Connections": {
           "North": 7205,
           "South": 7207,
@@ -117,9 +104,7 @@
       },
       {
         "Id": 7207,
-        "FrameColor": "black",
         "Name": "The Lair #7207",
-        "Color": "black",
         "Connections": {
           "North": 7206,
           "West": 7204
@@ -133,9 +118,7 @@
       },
       {
         "Id": 7208,
-        "FrameColor": "black",
         "Name": "The Lair Entrance #7208",
-        "Color": "black",
         "Connections": {
           "North": 7204,
           "East": 7209
@@ -143,9 +126,7 @@
       },
       {
         "Id": 7209,
-        "FrameColor": "black",
         "Name": "The Crawlway #7209",
-        "Color": "black",
         "Connections": {
           "East": 7210,
           "West": 7208
@@ -153,9 +134,7 @@
       },
       {
         "Id": 7210,
-        "FrameColor": "black",
         "Name": "The Four-Way Junction #7210",
-        "Color": "black",
         "Connections": {
           "North": 7211,
           "East": 7212,
@@ -165,18 +144,14 @@
       },
       {
         "Id": 7211,
-        "FrameColor": "black",
         "Name": "The Small Cave #7211",
-        "Color": "black",
         "Connections": {
           "South": 7210
         }
       },
       {
         "Id": 7212,
-        "FrameColor": "black",
         "Name": "The Sewer Drain #7212",
-        "Color": "black",
         "Connections": {
           "North": 7213,
           "West": 7210
@@ -184,9 +159,7 @@
       },
       {
         "Id": 7213,
-        "FrameColor": "black",
         "Name": "The Sewer Drain #7213",
-        "Color": "black",
         "Connections": {
           "East": 7214,
           "South": 7212
@@ -200,9 +173,7 @@
       },
       {
         "Id": 7214,
-        "FrameColor": "black",
         "Name": "The End Of The Drain #7214",
-        "Color": "black",
         "Connections": {
           "West": 7213
         },
@@ -215,9 +186,7 @@
       },
       {
         "Id": 7215,
-        "FrameColor": "black",
         "Name": "The Half-Wet Drain #7215",
-        "Color": "black",
         "Connections": {
           "North": 7210,
           "South": 7216
@@ -231,9 +200,7 @@
       },
       {
         "Id": 7216,
-        "FrameColor": "black",
         "Name": "Under Water In The Sewer #7216",
-        "Color": "black",
         "Connections": {
           "North": 7215,
           "South": 7217
@@ -241,9 +208,7 @@
       },
       {
         "Id": 7217,
-        "FrameColor": "black",
         "Name": "The Half-Dry Drain #7217",
-        "Color": "black",
         "Connections": {
           "North": 7216,
           "East": 7218,
@@ -258,18 +223,14 @@
       },
       {
         "Id": 7218,
-        "FrameColor": "black",
         "Name": "The Very Small Room #7218",
-        "Color": "black",
         "Connections": {
           "West": 7217
         }
       },
       {
         "Id": 7219,
-        "FrameColor": "black",
         "Name": "A Dry Sewer Drain #7219",
-        "Color": "black",
         "Connections": {
           "East": 7217,
           "South": 7220
@@ -283,9 +244,7 @@
       },
       {
         "Id": 7220,
-        "FrameColor": "black",
         "Name": "A Boring Drain #7220",
-        "Color": "black",
         "Connections": {
           "North": 7219,
           "East": 7221
@@ -293,9 +252,7 @@
       },
       {
         "Id": 7221,
-        "FrameColor": "black",
         "Name": "The Sewer Drain #7221",
-        "Color": "black",
         "Connections": {
           "East": 7222,
           "West": 7220,
@@ -310,9 +267,7 @@
       },
       {
         "Id": 7222,
-        "FrameColor": "black",
         "Name": "The Sewer Drain #7222",
-        "Color": "black",
         "Connections": {
           "East": 7223,
           "West": 7221
@@ -320,9 +275,7 @@
       },
       {
         "Id": 7223,
-        "FrameColor": "black",
         "Name": "The Sewer Bend #7223",
-        "Color": "black",
         "Connections": {
           "North": 7224,
           "West": 7222
@@ -336,9 +289,7 @@
       },
       {
         "Id": 7224,
-        "FrameColor": "black",
         "Name": "The Sewer Junction #7224",
-        "Color": "black",
         "Connections": {
           "North": 7225,
           "South": 7223,
@@ -347,9 +298,7 @@
       },
       {
         "Id": 7225,
-        "FrameColor": "black",
         "Name": "The Sewer #7225",
-        "Color": "black",
         "Connections": {
           "South": 7224
         },
@@ -362,9 +311,7 @@
       },
       {
         "Id": 7229,
-        "FrameColor": "black",
         "Name": "The Strange Sewer #7229",
-        "Color": "black",
         "Connections": {
           "East": 7224,
           "West": 7230
@@ -372,9 +319,7 @@
       },
       {
         "Id": 7230,
-        "FrameColor": "black",
         "Name": "The Damp Sewer #7230",
-        "Color": "black",
         "Connections": {
           "East": 7229,
           "West": 7231
@@ -382,9 +327,7 @@
       },
       {
         "Id": 7231,
-        "FrameColor": "black",
         "Name": "The Strange Sewer #7231",
-        "Color": "black",
         "Connections": {
           "East": 7230,
           "West": 7232
@@ -392,9 +335,7 @@
       },
       {
         "Id": 7232,
-        "FrameColor": "black",
         "Name": "The Sewer #7232",
-        "Color": "black",
         "Connections": {
           "North": 7233,
           "East": 7231
@@ -402,9 +343,7 @@
       },
       {
         "Id": 7233,
-        "FrameColor": "black",
         "Name": "The Sewer Drain #7233",
-        "Color": "black",
         "Connections": {
           "East": 7234,
           "South": 7232
@@ -422,9 +361,7 @@
       },
       {
         "Id": 7234,
-        "FrameColor": "black",
         "Name": "The Rat\u0027s Lair #7234",
-        "Color": "black",
         "Connections": {
           "West": 7233
         },
@@ -437,9 +374,7 @@
       },
       {
         "Id": 7279,
-        "FrameColor": "black",
         "Name": "The Wall Of The Abyss #7279",
-        "Color": "black",
         "Connections": {
           "Up": 7111,
           "Down": 7299
@@ -447,9 +382,7 @@
       },
       {
         "Id": 7280,
-        "FrameColor": "black",
         "Name": "The Entrance #7280",
-        "Color": "black",
         "Connections": {
           "North": 7281,
           "Up": 7116
@@ -463,9 +396,7 @@
       },
       {
         "Id": 7281,
-        "FrameColor": "black",
         "Name": "The Corridor #7281",
-        "Color": "black",
         "Connections": {
           "East": 7282,
           "South": 7280
@@ -483,9 +414,7 @@
       },
       {
         "Id": 7282,
-        "FrameColor": "black",
         "Name": "The Realm Of Lost Souls #7282",
-        "Color": "black",
         "Connections": {
           "North": 7283,
           "West": 7281
@@ -493,9 +422,7 @@
       },
       {
         "Id": 7283,
-        "FrameColor": "black",
         "Name": "The T-Crossing #7283",
-        "Color": "black",
         "Connections": {
           "East": 7286,
           "South": 7282,
@@ -504,16 +431,12 @@
       },
       {
         "Id": 7284,
-        "FrameColor": "black",
         "Name": "The Firedeath #7284",
-        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 7285,
-        "FrameColor": "black",
         "Name": "The Torture Room #7285",
-        "Color": "black",
         "Connections": {
           "South": 7286
         },
@@ -534,9 +457,7 @@
       },
       {
         "Id": 7286,
-        "FrameColor": "black",
         "Name": "The Hell Yard #7286",
-        "Color": "black",
         "Connections": {
           "North": 7285,
           "West": 7283
@@ -554,18 +475,14 @@
       },
       {
         "Id": 7299,
-        "FrameColor": "black",
         "Name": "On The Walls Of The Abyss #7299",
-        "Color": "black",
         "Connections": {
           "Up": 7279
         }
       },
       {
         "Id": 7300,
-        "FrameColor": "black",
         "Name": "Cave Entrance #7300",
-        "Color": "black",
         "Connections": {
           "North": 7301,
           "Up": 7102
@@ -573,9 +490,7 @@
       },
       {
         "Id": 7301,
-        "FrameColor": "black",
         "Name": "Cave Tunnel #7301",
-        "Color": "black",
         "Connections": {
           "North": 7302,
           "South": 7300
@@ -583,9 +498,7 @@
       },
       {
         "Id": 7302,
-        "FrameColor": "black",
         "Name": "Cave Room #7302",
-        "Color": "black",
         "Connections": {
           "East": 7303,
           "South": 7301,
@@ -594,9 +507,7 @@
       },
       {
         "Id": 7303,
-        "FrameColor": "black",
         "Name": "The Cave T-Cross #7303",
-        "Color": "black",
         "Connections": {
           "East": 7304,
           "South": 7308,
@@ -605,9 +516,7 @@
       },
       {
         "Id": 7304,
-        "FrameColor": "black",
         "Name": "The Cave Turning-Point #7304",
-        "Color": "black",
         "Connections": {
           "South": 7305,
           "West": 7303
@@ -615,9 +524,7 @@
       },
       {
         "Id": 7305,
-        "FrameColor": "black",
         "Name": "The Secret Room #7305",
-        "Color": "black",
         "Connections": {
           "North": 7304,
           "South": 7306
@@ -625,9 +532,7 @@
       },
       {
         "Id": 7306,
-        "FrameColor": "black",
         "Name": "The Mudhole #7306",
-        "Color": "black",
         "Connections": {
           "North": 7305,
           "West": 7307
@@ -635,9 +540,7 @@
       },
       {
         "Id": 7307,
-        "FrameColor": "black",
         "Name": "A Tunnel #7307",
-        "Color": "black",
         "Connections": {
           "North": 7308,
           "East": 7306,
@@ -646,9 +549,7 @@
       },
       {
         "Id": 7308,
-        "FrameColor": "black",
         "Name": "The Long Tunnel #7308",
-        "Color": "black",
         "Connections": {
           "North": 7303,
           "South": 7307
@@ -656,9 +557,7 @@
       },
       {
         "Id": 7309,
-        "FrameColor": "black",
         "Name": "The Hot Room #7309",
-        "Color": "black",
         "Connections": {
           "North": 7307,
           "West": 7310
@@ -666,9 +565,7 @@
       },
       {
         "Id": 7310,
-        "FrameColor": "black",
         "Name": "The Small Room #7310",
-        "Color": "black",
         "Connections": {
           "East": 7309,
           "West": 7311
@@ -676,9 +573,7 @@
       },
       {
         "Id": 7311,
-        "FrameColor": "black",
         "Name": "The Stalagmite Cave #7311",
-        "Color": "black",
         "Connections": {
           "North": 7314,
           "East": 7310,
@@ -687,9 +582,7 @@
       },
       {
         "Id": 7312,
-        "FrameColor": "black",
         "Name": "The Stalagmite Tunnel #7312",
-        "Color": "black",
         "Connections": {
           "North": 7311,
           "West": 7313
@@ -697,9 +590,7 @@
       },
       {
         "Id": 7313,
-        "FrameColor": "black",
         "Name": "The Spongy Room #7313",
-        "Color": "black",
         "Connections": {
           "East": 7312,
           "West": 7345
@@ -707,9 +598,7 @@
       },
       {
         "Id": 7314,
-        "FrameColor": "black",
         "Name": "The Stalagmite T-Cross #7314",
-        "Color": "black",
         "Connections": {
           "North": 7317,
           "East": 7315,
@@ -718,9 +607,7 @@
       },
       {
         "Id": 7315,
-        "FrameColor": "black",
         "Name": "The Blind End Room #7315",
-        "Color": "black",
         "Connections": {
           "North": 7316,
           "West": 7314
@@ -728,18 +615,14 @@
       },
       {
         "Id": 7316,
-        "FrameColor": "black",
         "Name": "The Treasure Room #7316",
-        "Color": "black",
         "Connections": {
           "South": 7315
         }
       },
       {
         "Id": 7317,
-        "FrameColor": "black",
         "Name": "The Square Lair #7317",
-        "Color": "black",
         "Connections": {
           "North": 7318,
           "West": 7320,
@@ -748,9 +631,7 @@
       },
       {
         "Id": 7318,
-        "FrameColor": "black",
         "Name": "The Square Lair #7318",
-        "Color": "black",
         "Connections": {
           "East": 7321,
           "South": 7317,
@@ -759,9 +640,7 @@
       },
       {
         "Id": 7319,
-        "FrameColor": "black",
         "Name": "The Square Lair #7319",
-        "Color": "black",
         "Connections": {
           "North": 7322,
           "East": 7318,
@@ -770,9 +649,7 @@
       },
       {
         "Id": 7320,
-        "FrameColor": "black",
         "Name": "The Lair End #7320",
-        "Color": "black",
         "Connections": {
           "North": 7319,
           "East": 7317
@@ -780,9 +657,7 @@
       },
       {
         "Id": 7321,
-        "FrameColor": "black",
         "Name": "The East Tunnel #7321",
-        "Color": "black",
         "Connections": {
           "West": 7318,
           "East": 7302
@@ -790,9 +665,7 @@
       },
       {
         "Id": 7322,
-        "FrameColor": "black",
         "Name": "The North Tunnel #7322",
-        "Color": "black",
         "Connections": {
           "North": 7323,
           "South": 7319,
@@ -801,9 +674,7 @@
       },
       {
         "Id": 7323,
-        "FrameColor": "black",
         "Name": "The L-Shaped Room #7323",
-        "Color": "black",
         "Connections": {
           "East": 7324,
           "South": 7322
@@ -811,9 +682,7 @@
       },
       {
         "Id": 7324,
-        "FrameColor": "black",
         "Name": "The Circular Hall #7324",
-        "Color": "black",
         "Connections": {
           "North": 7324,
           "East": 7325,
@@ -823,9 +692,7 @@
       },
       {
         "Id": 7325,
-        "FrameColor": "black",
         "Name": "A Dusty Tunnel #7325",
-        "Color": "black",
         "Connections": {
           "East": 7326,
           "West": 7324
@@ -833,9 +700,7 @@
       },
       {
         "Id": 7326,
-        "FrameColor": "black",
         "Name": "The Crossing #7326",
-        "Color": "black",
         "Connections": {
           "North": 7331,
           "East": 7330,
@@ -845,9 +710,7 @@
       },
       {
         "Id": 7327,
-        "FrameColor": "black",
         "Name": "The L-Shaped Room #7327",
-        "Color": "black",
         "Connections": {
           "North": 7326,
           "East": 7328
@@ -855,9 +718,7 @@
       },
       {
         "Id": 7328,
-        "FrameColor": "black",
         "Name": "The Dragon\u0027s Lair #7328",
-        "Color": "black",
         "Connections": {
           "North": 7329,
           "West": 7327
@@ -865,9 +726,7 @@
       },
       {
         "Id": 7329,
-        "FrameColor": "black",
         "Name": "The Burnt Room #7329",
-        "Color": "black",
         "Connections": {
           "South": 7328,
           "West": 7330
@@ -875,9 +734,7 @@
       },
       {
         "Id": 7330,
-        "FrameColor": "black",
         "Name": "The Windy Tunnel #7330",
-        "Color": "black",
         "Connections": {
           "East": 7329,
           "West": 7326
@@ -885,9 +742,7 @@
       },
       {
         "Id": 7331,
-        "FrameColor": "black",
         "Name": "The Glittering Room #7331",
-        "Color": "black",
         "Connections": {
           "East": 7332,
           "South": 7326,
@@ -896,18 +751,14 @@
       },
       {
         "Id": 7332,
-        "FrameColor": "black",
         "Name": "The Secret Passageway #7332",
-        "Color": "black",
         "Connections": {
           "West": 7331
         }
       },
       {
         "Id": 7333,
-        "FrameColor": "black",
         "Name": "The End Of Long Tunnel #7333",
-        "Color": "black",
         "Connections": {
           "East": 7331,
           "West": 7334
@@ -915,18 +766,14 @@
       },
       {
         "Id": 7334,
-        "FrameColor": "black",
         "Name": "The Stair-Room #7334",
-        "Color": "black",
         "Connections": {
           "South": 7335
         }
       },
       {
         "Id": 7335,
-        "FrameColor": "black",
         "Name": "A Dark Tunnel #7335",
-        "Color": "black",
         "Connections": {
           "North": 7334,
           "South": 7336
@@ -934,9 +781,7 @@
       },
       {
         "Id": 7336,
-        "FrameColor": "black",
         "Name": "The Entrance To The Lair #7336",
-        "Color": "black",
         "Connections": {
           "North": 7335,
           "South": 7337,
@@ -945,9 +790,7 @@
       },
       {
         "Id": 7337,
-        "FrameColor": "black",
         "Name": "The North-Eastern Part Of The Basilisk\u0027s Cave #7337",
-        "Color": "black",
         "Connections": {
           "North": 7336,
           "South": 7338,
@@ -956,9 +799,7 @@
       },
       {
         "Id": 7338,
-        "FrameColor": "black",
         "Name": "The South-Eastern Part Of The Basilisk\u0027s Cave #7338",
-        "Color": "black",
         "Connections": {
           "North": 7337,
           "West": 7340
@@ -966,9 +807,7 @@
       },
       {
         "Id": 7339,
-        "FrameColor": "black",
         "Name": "The North-Western Part Of The Basilisk\u0027s Cave #7339",
-        "Color": "black",
         "Connections": {
           "East": 7337,
           "South": 7340
@@ -976,9 +815,7 @@
       },
       {
         "Id": 7340,
-        "FrameColor": "black",
         "Name": "The South-Western Part Of The Basilisk\u0027s Cave #7340",
-        "Color": "black",
         "Connections": {
           "North": 7339,
           "East": 7338,
@@ -987,9 +824,7 @@
       },
       {
         "Id": 7341,
-        "FrameColor": "black",
         "Name": "The Small Cave #7341",
-        "Color": "black",
         "Connections": {
           "North": 7340,
           "South": 7342
@@ -997,9 +832,7 @@
       },
       {
         "Id": 7342,
-        "FrameColor": "black",
         "Name": "The Northern End Of The Pool #7342",
-        "Color": "black",
         "Connections": {
           "North": 7341,
           "East": 7343,
@@ -1008,9 +841,7 @@
       },
       {
         "Id": 7343,
-        "FrameColor": "black",
         "Name": "The Pool #7343",
-        "Color": "black",
         "Connections": {
           "South": 7345,
           "West": 7342
@@ -1018,9 +849,7 @@
       },
       {
         "Id": 7344,
-        "FrameColor": "black",
         "Name": "The South End Of The Pool #7344",
-        "Color": "black",
         "Connections": {
           "North": 7342,
           "East": 7345
@@ -1028,9 +857,7 @@
       },
       {
         "Id": 7345,
-        "FrameColor": "black",
         "Name": "The Pool #7345",
-        "Color": "black",
         "Connections": {
           "North": 7343,
           "East": 7313,

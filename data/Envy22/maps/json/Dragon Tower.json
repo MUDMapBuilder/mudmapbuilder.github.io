@@ -5,16 +5,14 @@
     "MinimumLevel": "5",
     "MaximumLevel": "50",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 2201,
-        "FrameColor": "black",
         "Name": "The Tower Gates #2201",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 2202,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -35,9 +33,7 @@
       },
       {
         "Id": 2202,
-        "FrameColor": "black",
         "Name": "The Foyer #2202",
-        "Color": "black",
         "Connections": {
           "North": 2203,
           "South": 2201
@@ -51,9 +47,7 @@
       },
       {
         "Id": 2203,
-        "FrameColor": "black",
         "Name": "Hallway #2203",
-        "Color": "black",
         "Connections": {
           "South": 2202,
           "North": 2204
@@ -75,9 +69,7 @@
       },
       {
         "Id": 2204,
-        "FrameColor": "black",
         "Name": "Hallway #2204",
-        "Color": "black",
         "Connections": {
           "North": 2207,
           "East": 2205,
@@ -101,9 +93,7 @@
       },
       {
         "Id": 2205,
-        "FrameColor": "black",
         "Name": "Nursery #2205",
-        "Color": "black",
         "Connections": {
           "West": 2204,
           "East": 2223
@@ -129,9 +119,7 @@
       },
       {
         "Id": 2206,
-        "FrameColor": "black",
         "Name": "Storage Room #2206",
-        "Color": "black",
         "Connections": {
           "East": 2204,
           "Down": 2208
@@ -145,9 +133,7 @@
       },
       {
         "Id": 2207,
-        "FrameColor": "black",
         "Name": "End of the Hallway #2207",
-        "Color": "black",
         "Connections": {
           "South": 2204,
           "Up": 2210
@@ -165,9 +151,7 @@
       },
       {
         "Id": 2208,
-        "FrameColor": "black",
         "Name": "Guardian\u0027s Room #2208",
-        "Color": "black",
         "Connections": {
           "Up": 2206,
           "South": 2209
@@ -181,13 +165,12 @@
       },
       {
         "Id": 2209,
-        "FrameColor": "black",
         "Name": "The Treasure Room #2209",
-        "Color": "black",
         "Connections": {
           "North": 2208,
           "West": {
             "RoomId": 2218,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -201,9 +184,7 @@
       },
       {
         "Id": 2210,
-        "FrameColor": "black",
         "Name": "The Second Floor #2210",
-        "Color": "black",
         "Connections": {
           "Down": 2207,
           "South": 2211
@@ -221,9 +202,7 @@
       },
       {
         "Id": 2211,
-        "FrameColor": "black",
         "Name": "The Court #2211",
-        "Color": "black",
         "Connections": {
           "North": 2210,
           "South": 2213,
@@ -242,9 +221,7 @@
       },
       {
         "Id": 2212,
-        "FrameColor": "black",
         "Name": "Hall O\u0027 Pleasure #2212",
-        "Color": "black",
         "Connections": {
           "West": 2211
         },
@@ -269,9 +246,7 @@
       },
       {
         "Id": 2213,
-        "FrameColor": "black",
         "Name": "The Court #2213",
-        "Color": "black",
         "Connections": {
           "North": 2211,
           "East": 2214,
@@ -281,9 +256,7 @@
       },
       {
         "Id": 2214,
-        "FrameColor": "black",
         "Name": "The Library #2214",
-        "Color": "black",
         "Connections": {
           "West": 2213
         },
@@ -304,18 +277,14 @@
       },
       {
         "Id": 2215,
-        "FrameColor": "black",
         "Name": "The Sanctum #2215",
-        "Color": "black",
         "Connections": {
           "East": 2213
         }
       },
       {
         "Id": 2216,
-        "FrameColor": "black",
         "Name": "The Court Ends #2216",
-        "Color": "black",
         "Connections": {
           "North": 2213,
           "East": 2217
@@ -349,9 +318,7 @@
       },
       {
         "Id": 2217,
-        "FrameColor": "black",
         "Name": "bedroom #2217",
-        "Color": "black",
         "Connections": {
           "West": 2216
         },
@@ -376,12 +343,11 @@
       },
       {
         "Id": 2218,
-        "FrameColor": "black",
         "Name": "Entrance to the Crypt #2218",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 2209,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -406,9 +372,7 @@
       },
       {
         "Id": 2219,
-        "FrameColor": "black",
         "Name": "Crypt #2219",
-        "Color": "black",
         "Connections": {
           "East": 2218,
           "West": 2222
@@ -426,9 +390,7 @@
       },
       {
         "Id": 2220,
-        "FrameColor": "black",
         "Name": "The Lair #2220",
-        "Color": "black",
         "Connections": {
           "South": 2235
         },
@@ -441,9 +403,7 @@
       },
       {
         "Id": 2221,
-        "FrameColor": "black",
         "Name": "A Lair #2221",
-        "Color": "black",
         "Connections": {
           "North": 2241
         },
@@ -456,13 +416,12 @@
       },
       {
         "Id": 2222,
-        "FrameColor": "black",
         "Name": "The Crypt Ends #2222",
-        "Color": "black",
         "Connections": {
           "East": 2219,
           "West": {
             "RoomId": 2232,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": []
@@ -477,9 +436,7 @@
       },
       {
         "Id": 2223,
-        "FrameColor": "black",
         "Name": "Entrance to the Great Hall #2223",
-        "Color": "black",
         "Connections": {
           "West": 2205,
           "East": 2224
@@ -487,9 +444,7 @@
       },
       {
         "Id": 2224,
-        "FrameColor": "black",
         "Name": "The Great Hall #2224",
-        "Color": "black",
         "Connections": {
           "North": 2225,
           "East": 2229
@@ -497,9 +452,7 @@
       },
       {
         "Id": 2225,
-        "FrameColor": "black",
         "Name": "A Narrow Passageway #2225",
-        "Color": "black",
         "Connections": {
           "North": 2226,
           "South": 2224
@@ -507,9 +460,7 @@
       },
       {
         "Id": 2226,
-        "FrameColor": "black",
         "Name": "Lair #2226",
-        "Color": "black",
         "Connections": {
           "South": 2225,
           "Down": 2227
@@ -523,9 +474,7 @@
       },
       {
         "Id": 2227,
-        "FrameColor": "black",
         "Name": "Underground Tunnel #2227",
-        "Color": "black",
         "Connections": {
           "North": 2228,
           "Up": 2226
@@ -533,22 +482,19 @@
       },
       {
         "Id": 2228,
-        "FrameColor": "black",
         "Name": "Underground Tunnel #2228",
-        "Color": "black",
         "Connections": {
           "South": 2227
         }
       },
       {
         "Id": 2229,
-        "FrameColor": "black",
         "Name": "The Great Hall Ends. #2229",
-        "Color": "black",
         "Connections": {
           "West": 2224,
           "East": {
             "RoomId": 2230,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -562,12 +508,11 @@
       },
       {
         "Id": 2230,
-        "FrameColor": "black",
         "Name": "THE Lair #2230",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 2229,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -587,18 +532,14 @@
       },
       {
         "Id": 2231,
-        "FrameColor": "black",
         "Name": "The End... #2231",
-        "Color": "black",
         "Connections": {
           "South": 2243
         }
       },
       {
         "Id": 2232,
-        "FrameColor": "black",
         "Name": "Stairwell #2232",
-        "Color": "black",
         "Connections": {
           "East": 2222,
           "Down": 2233
@@ -612,9 +553,7 @@
       },
       {
         "Id": 2233,
-        "FrameColor": "black",
         "Name": "Wine cellar #2233",
-        "Color": "black",
         "Connections": {
           "Up": 2232,
           "East": 2234
@@ -628,9 +567,7 @@
       },
       {
         "Id": 2234,
-        "FrameColor": "black",
         "Name": "Tunnel #2234",
-        "Color": "black",
         "Connections": {
           "North": 2235,
           "West": 2233,
@@ -645,9 +582,7 @@
       },
       {
         "Id": 2235,
-        "FrameColor": "black",
         "Name": "A cave opening #2235",
-        "Color": "black",
         "Connections": {
           "North": 2220,
           "South": 2234
@@ -655,9 +590,7 @@
       },
       {
         "Id": 2236,
-        "FrameColor": "black",
         "Name": "The End of the tunnel #2236",
-        "Color": "black",
         "Connections": {
           "West": 2234,
           "Up": 2202,
@@ -672,9 +605,7 @@
       },
       {
         "Id": 2237,
-        "FrameColor": "black",
         "Name": "The Bridge #2237",
-        "Color": "black",
         "Connections": {
           "North": 2236,
           "South": 2238
@@ -682,9 +613,7 @@
       },
       {
         "Id": 2238,
-        "FrameColor": "black",
         "Name": "A small opening #2238",
-        "Color": "black",
         "Connections": {
           "North": 2237,
           "South": 2239
@@ -692,9 +621,7 @@
       },
       {
         "Id": 2239,
-        "FrameColor": "black",
         "Name": "Clearing #2239",
-        "Color": "black",
         "Connections": {
           "North": 2238,
           "Up": 2240,
@@ -709,9 +636,7 @@
       },
       {
         "Id": 2240,
-        "FrameColor": "black",
         "Name": "A path #2240",
-        "Color": "black",
         "Connections": {
           "West": 2241,
           "Down": 2239,
@@ -720,9 +645,7 @@
       },
       {
         "Id": 2241,
-        "FrameColor": "black",
         "Name": "A cave opening #2241",
-        "Color": "black",
         "Connections": {
           "South": 2221,
           "East": 2240
@@ -736,9 +659,7 @@
       },
       {
         "Id": 2242,
-        "FrameColor": "black",
         "Name": "The path continues #2242",
-        "Color": "black",
         "Connections": {
           "Up": 2243,
           "Down": 2240
@@ -746,13 +667,12 @@
       },
       {
         "Id": 2243,
-        "FrameColor": "black",
         "Name": "The top of the mountain #2243",
-        "Color": "black",
         "Connections": {
           "Down": 2242,
           "North": {
             "RoomId": 2231,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -772,9 +692,7 @@
       },
       {
         "Id": 2244,
-        "FrameColor": "black",
         "Name": "Well #2244",
-        "Color": "black",
         "Connections": {}
       },
       {

@@ -5,22 +5,17 @@
     "MinimumLevel": "5",
     "MaximumLevel": "20",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 29500,
-        "FrameColor": "black",
         "Name": "The start of the jungle #29500",
-        "Color": "black",
         "Connections": {
           "South": 29501
         }
       },
       {
         "Id": 29501,
-        "FrameColor": "black",
         "Name": "Deeper into the jungle #29501",
-        "Color": "black",
         "Connections": {
           "North": 29500,
           "South": 29502
@@ -34,9 +29,7 @@
       },
       {
         "Id": 29502,
-        "FrameColor": "black",
         "Name": "Deeper in to the jungle #29502",
-        "Color": "black",
         "Connections": {
           "North": 29501,
           "East": 29503,
@@ -45,9 +38,7 @@
       },
       {
         "Id": 29503,
-        "FrameColor": "black",
         "Name": "On a small trail #29503",
-        "Color": "black",
         "Connections": {
           "East": 29504,
           "West": 29502
@@ -55,9 +46,7 @@
       },
       {
         "Id": 29504,
-        "FrameColor": "black",
         "Name": "The gate to the camp #29504",
-        "Color": "black",
         "Connections": {
           "East": 29505,
           "West": 29503
@@ -71,14 +60,13 @@
       },
       {
         "Id": 29505,
-        "FrameColor": "black",
         "Name": "In the camp #29505",
-        "Color": "black",
         "Connections": {
           "North": 29507,
           "East": 29506,
           "South": {
             "RoomId": 29508,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -103,9 +91,7 @@
       },
       {
         "Id": 29506,
-        "FrameColor": "black",
         "Name": "The food store #29506",
-        "Color": "black",
         "Connections": {
           "West": 29505
         },
@@ -118,9 +104,7 @@
       },
       {
         "Id": 29507,
-        "FrameColor": "black",
         "Name": "The womans room #29507",
-        "Color": "black",
         "Connections": {
           "South": 29505
         },
@@ -133,12 +117,11 @@
       },
       {
         "Id": 29508,
-        "FrameColor": "black",
         "Name": "The chiefs room #29508",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 29505,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -158,9 +141,7 @@
       },
       {
         "Id": 29509,
-        "FrameColor": "black",
         "Name": "To the monkeys! #29509",
-        "Color": "black",
         "Connections": {
           "East": 29502,
           "West": 29513,
@@ -169,9 +150,7 @@
       },
       {
         "Id": 29510,
-        "FrameColor": "black",
         "Name": "In the trees #29510",
-        "Color": "black",
         "Connections": {
           "North": 29511,
           "Down": 29509
@@ -179,9 +158,7 @@
       },
       {
         "Id": 29511,
-        "FrameColor": "black",
         "Name": "In the trees #29511",
-        "Color": "black",
         "Connections": {
           "North": 29512,
           "South": 29510
@@ -189,9 +166,7 @@
       },
       {
         "Id": 29512,
-        "FrameColor": "black",
         "Name": "In the trees #29512",
-        "Color": "black",
         "Connections": {
           "South": 29511
         },
@@ -204,9 +179,7 @@
       },
       {
         "Id": 29513,
-        "FrameColor": "black",
         "Name": "Close to the monkeys #29513",
-        "Color": "black",
         "Connections": {
           "East": 29509,
           "West": 29514
@@ -220,9 +193,7 @@
       },
       {
         "Id": 29514,
-        "FrameColor": "black",
         "Name": "The meeting room #29514",
-        "Color": "black",
         "Connections": {
           "North": 29515,
           "East": 29513
@@ -244,9 +215,7 @@
       },
       {
         "Id": 29515,
-        "FrameColor": "black",
         "Name": "North of the meeting place #29515",
-        "Color": "black",
         "Connections": {
           "South": 29514
         },

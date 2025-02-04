@@ -5,13 +5,10 @@
     "MinimumLevel": "1",
     "MaximumLevel": "12",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 4401,
-        "FrameColor": "black",
         "Name": "The Path to the Circus #4401",
-        "Color": "black",
         "Connections": {
           "North": 2172,
           "South": 4402
@@ -19,9 +16,7 @@
       },
       {
         "Id": 4402,
-        "FrameColor": "black",
         "Name": "The Entrance to the Circus #4402",
-        "Color": "black",
         "Connections": {
           "South": 4403,
           "North": 4401
@@ -35,9 +30,7 @@
       },
       {
         "Id": 4403,
-        "FrameColor": "black",
         "Name": "The Path to the Big Top #4403",
-        "Color": "black",
         "Connections": {
           "North": 4402,
           "South": 4406,
@@ -57,9 +50,7 @@
       },
       {
         "Id": 4404,
-        "FrameColor": "black",
         "Name": "The Game Booths #4404",
-        "Color": "black",
         "Connections": {
           "East": 4403
         },
@@ -76,9 +67,7 @@
       },
       {
         "Id": 4405,
-        "FrameColor": "black",
         "Name": "The Game Booths #4405",
-        "Color": "black",
         "Connections": {
           "West": 4403
         },
@@ -91,9 +80,7 @@
       },
       {
         "Id": 4406,
-        "FrameColor": "black",
         "Name": "The Path to the Big Top #4406",
-        "Color": "black",
         "Connections": {
           "North": 4403,
           "South": 4414,
@@ -113,9 +100,7 @@
       },
       {
         "Id": 4407,
-        "FrameColor": "black",
         "Name": "The Cotton Candy Vendor #4407",
-        "Color": "black",
         "Connections": {
           "East": 4406
         },
@@ -128,9 +113,7 @@
       },
       {
         "Id": 4408,
-        "FrameColor": "black",
         "Name": "The Entrance to the Freak Shows #4408",
-        "Color": "black",
         "Connections": {
           "West": 4406,
           "East": 4409,
@@ -145,9 +128,7 @@
       },
       {
         "Id": 4409,
-        "FrameColor": "black",
         "Name": "The Tent of the Bearded Lady #4409",
-        "Color": "black",
         "Connections": {
           "West": 4408,
           "East": 4410,
@@ -162,9 +143,7 @@
       },
       {
         "Id": 4410,
-        "FrameColor": "black",
         "Name": "The Tent of the Illusionist #4410",
-        "Color": "black",
         "Connections": {
           "West": 4409,
           "South": 4411
@@ -178,9 +157,7 @@
       },
       {
         "Id": 4411,
-        "FrameColor": "black",
         "Name": "The Midget\u0027s Tent #4411",
-        "Color": "black",
         "Connections": {
           "North": 4410,
           "West": 4412
@@ -194,9 +171,7 @@
       },
       {
         "Id": 4412,
-        "FrameColor": "black",
         "Name": "The Sword Swallower\u0027s Tent #4412",
-        "Color": "black",
         "Connections": {
           "North": 4409,
           "East": 4411,
@@ -211,9 +186,7 @@
       },
       {
         "Id": 4413,
-        "FrameColor": "black",
         "Name": "The Strongman\u0027s Tent #4413",
-        "Color": "black",
         "Connections": {
           "North": 4408,
           "East": 4412
@@ -227,9 +200,7 @@
       },
       {
         "Id": 4414,
-        "FrameColor": "black",
         "Name": "The Path to the Big Top #4414",
-        "Color": "black",
         "Connections": {
           "North": 4406,
           "South": 4415
@@ -251,13 +222,12 @@
       },
       {
         "Id": 4415,
-        "FrameColor": "black",
         "Name": "The Entrance to the Big Top. #4415",
-        "Color": "black",
         "Connections": {
           "North": 4414,
           "South": {
             "RoomId": 4416,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -289,12 +259,11 @@
       },
       {
         "Id": 4416,
-        "FrameColor": "black",
         "Name": "Entryway between the Grand Stands #4416",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 4415,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -311,9 +280,7 @@
       },
       {
         "Id": 4417,
-        "FrameColor": "black",
         "Name": "Under the Grand Stands #4417",
-        "Color": "black",
         "Connections": {
           "West": 4416,
           "Up": 4418
@@ -327,9 +294,7 @@
       },
       {
         "Id": 4418,
-        "FrameColor": "black",
         "Name": "In the Grand Stands #4418",
-        "Color": "black",
         "Connections": {
           "Down": 4417,
           "West": 4419
@@ -347,9 +312,7 @@
       },
       {
         "Id": 4419,
-        "FrameColor": "black",
         "Name": "First Look at the Big Top #4419",
-        "Color": "black",
         "Connections": {
           "East": 4418,
           "North": 4416,
@@ -369,9 +332,7 @@
       },
       {
         "Id": 4420,
-        "FrameColor": "black",
         "Name": "In the Grand Stands #4420",
-        "Color": "black",
         "Connections": {
           "Down": 4421,
           "East": 4419
@@ -393,9 +354,7 @@
       },
       {
         "Id": 4421,
-        "FrameColor": "black",
         "Name": "Under the Grand Stands #4421",
-        "Color": "black",
         "Connections": {
           "Up": 4420,
           "East": 4416
@@ -403,15 +362,14 @@
       },
       {
         "Id": 4422,
-        "FrameColor": "black",
         "Name": "The 2nd Ring - You\u0027d better read the description of this room.  #4422",
-        "Color": "black",
         "Connections": {
           "Down": 4444,
           "North": 4419,
           "East": 4423,
           "West": {
             "RoomId": 4424,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -436,9 +394,7 @@
       },
       {
         "Id": 4423,
-        "FrameColor": "black",
         "Name": "The 3rd Ring #4423",
-        "Color": "black",
         "Connections": {
           "West": 4422
         },
@@ -455,12 +411,11 @@
       },
       {
         "Id": 4424,
-        "FrameColor": "black",
         "Name": "The 1st Ring #4424",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 4422,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -472,6 +427,7 @@
           },
           "Down": {
             "RoomId": 4469,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -503,9 +459,7 @@
       },
       {
         "Id": 4425,
-        "FrameColor": "black",
         "Name": "On the High Wire #4425",
-        "Color": "black",
         "Connections": {
           "Down": 4424,
           "East": 4426,
@@ -520,9 +474,7 @@
       },
       {
         "Id": 4426,
-        "FrameColor": "black",
         "Name": "On the High Wire #4426",
-        "Color": "black",
         "Connections": {
           "East": 4427,
           "West": 4425
@@ -536,9 +488,7 @@
       },
       {
         "Id": 4427,
-        "FrameColor": "black",
         "Name": "On the Platform Way, Way Up in the Air #4427",
-        "Color": "black",
         "Connections": {
           "Down": 4422,
           "West": 4426
@@ -546,9 +496,7 @@
       },
       {
         "Id": 4428,
-        "FrameColor": "black",
         "Name": "The End of the Highwire #4428",
-        "Color": "black",
         "Connections": {
           "East": 4425,
           "Down": 4429
@@ -556,9 +504,7 @@
       },
       {
         "Id": 4429,
-        "FrameColor": "black",
         "Name": "Behind the Big Top #4429",
-        "Color": "black",
         "Connections": {
           "Up": 4428,
           "West": 4445,
@@ -574,9 +520,7 @@
       },
       {
         "Id": 4430,
-        "FrameColor": "black",
         "Name": "The Animal Pens #4430",
-        "Color": "black",
         "Connections": {
           "North": 4429,
           "East": 4433,
@@ -592,9 +536,7 @@
       },
       {
         "Id": 4431,
-        "FrameColor": "black",
         "Name": "The Elephant Pen #4431",
-        "Color": "black",
         "Connections": {
           "East": 4430
         },
@@ -607,9 +549,7 @@
       },
       {
         "Id": 4432,
-        "FrameColor": "black",
         "Name": "The Bear Pen #4432",
-        "Color": "black",
         "Connections": {
           "North": 4430
         },
@@ -626,9 +566,7 @@
       },
       {
         "Id": 4433,
-        "FrameColor": "black",
         "Name": "The Horse Corral #4433",
-        "Color": "black",
         "Connections": {
           "West": 4430
         },
@@ -641,9 +579,7 @@
       },
       {
         "Id": 4434,
-        "FrameColor": "black",
         "Name": "The Row of Trailers #4434",
-        "Color": "black",
         "Connections": {
           "North": 4435,
           "East": 4438,
@@ -659,36 +595,28 @@
       },
       {
         "Id": 4435,
-        "FrameColor": "black",
         "Name": "The Strongman\u0027s Trailer #4435",
-        "Color": "black",
         "Connections": {
           "South": 4434
         }
       },
       {
         "Id": 4436,
-        "FrameColor": "black",
         "Name": "The Bearded Lady\u0027s Trailer #4436",
-        "Color": "black",
         "Connections": {
           "North": 4434
         }
       },
       {
         "Id": 4437,
-        "FrameColor": "black",
         "Name": "The Sword Swallower\u0027s Trailer #4437",
-        "Color": "black",
         "Connections": {
           "South": 4438
         }
       },
       {
         "Id": 4438,
-        "FrameColor": "black",
         "Name": "The Row of Trailers #4438",
-        "Color": "black",
         "Connections": {
           "North": 4437,
           "East": 4440,
@@ -698,9 +626,7 @@
       },
       {
         "Id": 4439,
-        "FrameColor": "black",
         "Name": "The Midget\u0027s Tiny Trailer #4439",
-        "Color": "black",
         "Connections": {
           "North": 4438
         },
@@ -713,9 +639,7 @@
       },
       {
         "Id": 4440,
-        "FrameColor": "black",
         "Name": "The Row of Trailers #4440",
-        "Color": "black",
         "Connections": {
           "East": 4448,
           "North": 4441,
@@ -731,18 +655,14 @@
       },
       {
         "Id": 4441,
-        "FrameColor": "black",
         "Name": "The Illusionist\u0027s Trailer #4441",
-        "Color": "black",
         "Connections": {
           "South": 4440
         }
       },
       {
         "Id": 4442,
-        "FrameColor": "black",
         "Name": "The Circus Owner\u0027s Trailer #4442",
-        "Color": "black",
         "Connections": {
           "North": 4440,
           "South": 4443
@@ -760,18 +680,14 @@
       },
       {
         "Id": 4443,
-        "FrameColor": "black",
         "Name": "The Secret Room #4443",
-        "Color": "black",
         "Connections": {
           "North": 4442
         }
       },
       {
         "Id": 4444,
-        "FrameColor": "black",
         "Name": "The Clown\u0027s Room below the 2nd Ring #4444",
-        "Color": "black",
         "Connections": {
           "Up": 4422
         },
@@ -800,9 +716,7 @@
       },
       {
         "Id": 4445,
-        "FrameColor": "black",
         "Name": "Behind the Big Top #4445",
-        "Color": "black",
         "Connections": {
           "East": 4429,
           "West": 4446
@@ -816,9 +730,7 @@
       },
       {
         "Id": 4446,
-        "FrameColor": "black",
         "Name": "Behind the Big Top #4446",
-        "Color": "black",
         "Connections": {
           "East": 4445,
           "West": 4447
@@ -832,9 +744,7 @@
       },
       {
         "Id": 4447,
-        "FrameColor": "black",
         "Name": "Behind the Big Top #4447",
-        "Color": "black",
         "Connections": {
           "East": 4446
         },
@@ -847,9 +757,7 @@
       },
       {
         "Id": 4448,
-        "FrameColor": "black",
         "Name": "The Tightrope Walkers Trailer #4448",
-        "Color": "black",
         "Connections": {
           "West": 4440
         },
@@ -862,9 +770,7 @@
       },
       {
         "Id": 4469,
-        "FrameColor": "black",
         "Name": "Binky\u0027s Kitchen #4469",
-        "Color": "black",
         "Connections": {},
         "Contents": [
           {

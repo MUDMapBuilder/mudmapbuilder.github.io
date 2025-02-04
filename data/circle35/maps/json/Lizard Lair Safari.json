@@ -3,13 +3,10 @@
     "Name": "Lizard Lair Safari",
     "Credits": "Matrix of C.A.W.",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 29000,
-        "FrameColor": "black",
         "Name": "The Entrance To The Lizard Lair Safari #29000",
-        "Color": "black",
         "Connections": {
           "East": 29017,
           "South": 29001
@@ -17,18 +14,14 @@
       },
       {
         "Id": 29001,
-        "FrameColor": "black",
         "Name": "The Quest Preparation Room #29001",
-        "Color": "black",
         "Connections": {
           "Down": 29002
         }
       },
       {
         "Id": 29002,
-        "FrameColor": "black",
         "Name": "A Tunnel #29002",
-        "Color": "black",
         "Connections": {
           "North": 29016,
           "East": 29003,
@@ -71,9 +64,7 @@
       },
       {
         "Id": 29003,
-        "FrameColor": "black",
         "Name": "A Tunnel #29003",
-        "Color": "black",
         "Connections": {
           "East": 29004,
           "West": 29002
@@ -91,9 +82,7 @@
       },
       {
         "Id": 29004,
-        "FrameColor": "black",
         "Name": "A Tunnel #29004",
-        "Color": "black",
         "Connections": {
           "West": 29003,
           "Down": 29005
@@ -101,12 +90,11 @@
       },
       {
         "Id": 29005,
-        "FrameColor": "black",
         "Name": "Tunnel End #29005",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 29006,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -121,13 +109,12 @@
       },
       {
         "Id": 29006,
-        "FrameColor": "black",
         "Name": "The Conjuring Chamber #29006",
-        "Color": "black",
         "Connections": {
           "North": 29018,
           "East": {
             "RoomId": 29005,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -153,18 +140,14 @@
       },
       {
         "Id": 29007,
-        "FrameColor": "black",
         "Name": "The Whirlpool #29007",
-        "Color": "black",
         "Connections": {
           "Up": 29006
         }
       },
       {
         "Id": 29008,
-        "FrameColor": "black",
         "Name": "A Hallway #29008",
-        "Color": "black",
         "Connections": {
           "East": 29006,
           "Down": 29009
@@ -172,9 +155,7 @@
       },
       {
         "Id": 29009,
-        "FrameColor": "black",
         "Name": "A Hallway #29009",
-        "Color": "black",
         "Connections": {
           "East": 29011,
           "Up": 29008
@@ -182,16 +163,12 @@
       },
       {
         "Id": 29010,
-        "FrameColor": "black",
         "Name": "A Completely Useless Room #29010",
-        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 29011,
-        "FrameColor": "black",
         "Name": "The Throne Room Annex #29011",
-        "Color": "black",
         "Connections": {
           "East": 29012,
           "West": 29009
@@ -217,9 +194,7 @@
       },
       {
         "Id": 29012,
-        "FrameColor": "black",
         "Name": "Throne Room #29012",
-        "Color": "black",
         "Connections": {
           "West": 29011,
           "Up": 29013
@@ -245,12 +220,11 @@
       },
       {
         "Id": 29013,
-        "FrameColor": "black",
         "Name": "Temple Of Morgash #29013",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 29014,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -287,13 +261,12 @@
       },
       {
         "Id": 29014,
-        "FrameColor": "black",
         "Name": "Quest End #29014",
-        "Color": "black",
         "Connections": {
           "East": 29017,
           "West": {
             "RoomId": 29013,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -307,36 +280,28 @@
       },
       {
         "Id": 29015,
-        "FrameColor": "black",
         "Name": "Quest Preparation Room #29015",
-        "Color": "black",
         "Connections": {
           "Down": 29002
         }
       },
       {
         "Id": 29016,
-        "FrameColor": "black",
         "Name": "LUCKY #29016",
-        "Color": "black",
         "Connections": {
           "South": 29002
         }
       },
       {
         "Id": 29017,
-        "FrameColor": "black",
         "Name": "The Real World Ends Here #29017",
-        "Color": "black",
         "Connections": {
           "West": 29000
         }
       },
       {
         "Id": 29018,
-        "FrameColor": "black",
         "Name": "Mr. Hooper\u0027s store #29018",
-        "Color": "black",
         "Connections": {
           "South": 29006
         },

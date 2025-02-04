@@ -5,13 +5,10 @@
     "MinimumLevel": "10",
     "MaximumLevel": "26",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 20000,
-        "FrameColor": "black",
         "Name": "Base of the Mountain #20000",
-        "Color": "black",
         "Connections": {
           "South": 5278,
           "Up": 20001
@@ -25,9 +22,7 @@
       },
       {
         "Id": 20001,
-        "FrameColor": "black",
         "Name": "On the Mountain Path #20001",
-        "Color": "black",
         "Connections": {
           "Up": 20002,
           "Down": 20000
@@ -35,9 +30,7 @@
       },
       {
         "Id": 20002,
-        "FrameColor": "black",
         "Name": "On the Mountain Path #20002",
-        "Color": "black",
         "Connections": {
           "Up": 20003,
           "Down": 20001
@@ -45,9 +38,7 @@
       },
       {
         "Id": 20003,
-        "FrameColor": "black",
         "Name": "On the Mountain Path #20003",
-        "Color": "black",
         "Connections": {
           "Up": 20004,
           "Down": 20002
@@ -55,9 +46,7 @@
       },
       {
         "Id": 20004,
-        "FrameColor": "black",
         "Name": "Path to the Caves #20004",
-        "Color": "black",
         "Connections": {
           "North": 20005,
           "Down": 20003
@@ -65,9 +54,7 @@
       },
       {
         "Id": 20005,
-        "FrameColor": "black",
         "Name": "Atop the mountain and before the caves #20005",
-        "Color": "black",
         "Connections": {
           "East": 20006,
           "South": 20004
@@ -75,13 +62,12 @@
       },
       {
         "Id": 20006,
-        "FrameColor": "black",
         "Name": "At the entrance #20006",
-        "Color": "black",
         "Connections": {
           "West": 20005,
           "Down": {
             "RoomId": 20007,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -101,13 +87,12 @@
       },
       {
         "Id": 20007,
-        "FrameColor": "black",
         "Name": "Within the Entrance #20007",
-        "Color": "black",
         "Connections": {
           "North": 20008,
           "Up": {
             "RoomId": 20006,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -131,9 +116,7 @@
       },
       {
         "Id": 20008,
-        "FrameColor": "black",
         "Name": "Hallway #20008",
-        "Color": "black",
         "Connections": {
           "North": 20012,
           "East": 20009,
@@ -142,9 +125,7 @@
       },
       {
         "Id": 20009,
-        "FrameColor": "black",
         "Name": "Hallway #20009",
-        "Color": "black",
         "Connections": {
           "South": 20010,
           "West": 20008
@@ -158,13 +139,12 @@
       },
       {
         "Id": 20010,
-        "FrameColor": "black",
         "Name": "End of the Hallway #20010",
-        "Color": "black",
         "Connections": {
           "North": 20009,
           "East": {
             "RoomId": 20011,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -178,12 +158,11 @@
       },
       {
         "Id": 20011,
-        "FrameColor": "black",
         "Name": "Armory #20011",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 20010,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -203,9 +182,7 @@
       },
       {
         "Id": 20012,
-        "FrameColor": "black",
         "Name": "Intersection #20012",
-        "Color": "black",
         "Connections": {
           "North": 20017,
           "South": 20008,
@@ -220,9 +197,7 @@
       },
       {
         "Id": 20013,
-        "FrameColor": "black",
         "Name": "Hallway #20013",
-        "Color": "black",
         "Connections": {
           "East": 20012,
           "West": 20014
@@ -230,14 +205,13 @@
       },
       {
         "Id": 20014,
-        "FrameColor": "black",
         "Name": "End of the Hallway #20014",
-        "Color": "black",
         "Connections": {
           "North": 20015,
           "East": 20013,
           "West": {
             "RoomId": 20016,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -257,9 +231,7 @@
       },
       {
         "Id": 20015,
-        "FrameColor": "black",
         "Name": "Guard Room #20015",
-        "Color": "black",
         "Connections": {
           "South": 20014
         },
@@ -272,12 +244,11 @@
       },
       {
         "Id": 20016,
-        "FrameColor": "black",
         "Name": "Dark Cell #20016",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 20014,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -297,9 +268,7 @@
       },
       {
         "Id": 20017,
-        "FrameColor": "black",
         "Name": "Hallway #20017",
-        "Color": "black",
         "Connections": {
           "East": 20018,
           "South": 20012
@@ -307,12 +276,11 @@
       },
       {
         "Id": 20018,
-        "FrameColor": "black",
         "Name": "Alcove #20018",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 20019,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -333,12 +301,11 @@
       },
       {
         "Id": 20019,
-        "FrameColor": "black",
         "Name": "Stairway #20019",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 20018,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -353,9 +320,7 @@
       },
       {
         "Id": 20020,
-        "FrameColor": "black",
         "Name": "Lower caves #20020",
-        "Color": "black",
         "Connections": {
           "South": 20021,
           "Up": 20019
@@ -363,9 +328,7 @@
       },
       {
         "Id": 20021,
-        "FrameColor": "black",
         "Name": "Eroded Hallway #20021",
-        "Color": "black",
         "Connections": {
           "North": 20020,
           "East": 20026,
@@ -380,9 +343,7 @@
       },
       {
         "Id": 20022,
-        "FrameColor": "black",
         "Name": "Cavern Entrance #20022",
-        "Color": "black",
         "Connections": {
           "North": 20021,
           "South": 20023
@@ -390,9 +351,7 @@
       },
       {
         "Id": 20023,
-        "FrameColor": "black",
         "Name": "Dark Tunnel #20023",
-        "Color": "black",
         "Connections": {
           "North": 20022,
           "East": 20024
@@ -406,9 +365,7 @@
       },
       {
         "Id": 20024,
-        "FrameColor": "black",
         "Name": "Cavern Opening #20024",
-        "Color": "black",
         "Connections": {
           "East": 20025,
           "West": 20023
@@ -416,9 +373,7 @@
       },
       {
         "Id": 20025,
-        "FrameColor": "black",
         "Name": "Great Waterfall #20025",
-        "Color": "black",
         "Connections": {
           "North": 20028,
           "West": 20024,
@@ -433,9 +388,7 @@
       },
       {
         "Id": 20026,
-        "FrameColor": "black",
         "Name": "Underground River #20026",
-        "Color": "black",
         "Connections": {
           "South": 20027,
           "West": 20021
@@ -443,9 +396,7 @@
       },
       {
         "Id": 20027,
-        "FrameColor": "black",
         "Name": "Underground Pool #20027",
-        "Color": "black",
         "Connections": {
           "North": 20026,
           "East": 20028
@@ -459,9 +410,7 @@
       },
       {
         "Id": 20028,
-        "FrameColor": "black",
         "Name": "Underground River #20028",
-        "Color": "black",
         "Connections": {
           "South": 20025,
           "West": 20027
@@ -469,9 +418,7 @@
       },
       {
         "Id": 20029,
-        "FrameColor": "black",
         "Name": "Below Waterfall #20029",
-        "Color": "black",
         "Connections": {
           "South": 20030,
           "Up": 20025
@@ -485,9 +432,7 @@
       },
       {
         "Id": 20030,
-        "FrameColor": "black",
         "Name": "Large Cave #20030",
-        "Color": "black",
         "Connections": {
           "North": 20029,
           "East": 20031
@@ -501,9 +446,7 @@
       },
       {
         "Id": 20031,
-        "FrameColor": "black",
         "Name": "Storage Cave #20031",
-        "Color": "black",
         "Connections": {
           "South": 20000,
           "West": 20030

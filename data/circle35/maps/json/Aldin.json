@@ -3,20 +3,15 @@
     "Name": "Aldin",
     "Credits": "Welcor",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 23600,
-        "FrameColor": "black",
         "Name": "Start of Aldin, City of the Dwarves #23600",
-        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 23601,
-        "FrameColor": "black",
         "Name": "Entrance to the Tradehalls #23601",
-        "Color": "black",
         "Connections": {
           "North": 23602,
           "South": 23700
@@ -30,9 +25,7 @@
       },
       {
         "Id": 23602,
-        "FrameColor": "black",
         "Name": "Inside the Tradehalls #23602",
-        "Color": "black",
         "Connections": {
           "North": 23607,
           "East": 23603,
@@ -52,18 +45,14 @@
       },
       {
         "Id": 23603,
-        "FrameColor": "black",
         "Name": "Travellers rest. #23603",
-        "Color": "black",
         "Connections": {
           "West": 23602
         }
       },
       {
         "Id": 23604,
-        "FrameColor": "black",
         "Name": "The stonewrights stall #23604",
-        "Color": "black",
         "Connections": {
           "East": 23602
         },
@@ -80,9 +69,7 @@
       },
       {
         "Id": 23605,
-        "FrameColor": "black",
         "Name": "The weaponsmiths stall #23605",
-        "Color": "black",
         "Connections": {
           "East": 23607
         },
@@ -99,9 +86,7 @@
       },
       {
         "Id": 23606,
-        "FrameColor": "black",
         "Name": "The armourers stall #23606",
-        "Color": "black",
         "Connections": {
           "South": 23607
         },
@@ -118,9 +103,7 @@
       },
       {
         "Id": 23607,
-        "FrameColor": "black",
         "Name": "Center of the Trade Halls #23607",
-        "Color": "black",
         "Connections": {
           "North": 23606,
           "East": 23609,
@@ -156,9 +139,7 @@
       },
       {
         "Id": 23609,
-        "FrameColor": "black",
         "Name": "On a narrow platform #23609",
-        "Color": "black",
         "Connections": {
           "East": 23610,
           "West": 23607
@@ -172,12 +153,11 @@
       },
       {
         "Id": 23610,
-        "FrameColor": "black",
         "Name": "Entrance to Aldin, City of the Dwarves #23610",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 23611,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -210,15 +190,14 @@
       },
       {
         "Id": 23611,
-        "FrameColor": "black",
         "Name": "Passing by the workshops #23611",
-        "Color": "black",
         "Connections": {
           "North": 23613,
           "East": 23615,
           "South": 23612,
           "West": {
             "RoomId": 23610,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -232,9 +211,7 @@
       },
       {
         "Id": 23612,
-        "FrameColor": "black",
         "Name": "At Torgs\u0027 smithy #23612",
-        "Color": "black",
         "Connections": {
           "North": 23611
         },
@@ -247,9 +224,7 @@
       },
       {
         "Id": 23613,
-        "FrameColor": "black",
         "Name": "Before the city #23613",
-        "Color": "black",
         "Connections": {
           "North": 23617,
           "East": 23616,
@@ -258,9 +233,7 @@
       },
       {
         "Id": 23614,
-        "FrameColor": "black",
         "Name": "The dwarven city #23614",
-        "Color": "black",
         "Connections": {
           "North": 23621,
           "East": 23618
@@ -278,9 +251,7 @@
       },
       {
         "Id": 23615,
-        "FrameColor": "black",
         "Name": "At Ralfs\u0027 smithy #23615",
-        "Color": "black",
         "Connections": {
           "West": 23611
         },
@@ -293,9 +264,7 @@
       },
       {
         "Id": 23616,
-        "FrameColor": "black",
         "Name": "At the stonewrights. #23616",
-        "Color": "black",
         "Connections": {
           "West": 23613
         },
@@ -308,9 +277,7 @@
       },
       {
         "Id": 23617,
-        "FrameColor": "black",
         "Name": "The dwarven city #23617",
-        "Color": "black",
         "Connections": {
           "East": 23619,
           "South": 23613,
@@ -319,9 +286,7 @@
       },
       {
         "Id": 23618,
-        "FrameColor": "black",
         "Name": "The dwarven city #23618",
-        "Color": "black",
         "Connections": {
           "North": 23623,
           "East": 23617,
@@ -330,9 +295,7 @@
       },
       {
         "Id": 23619,
-        "FrameColor": "black",
         "Name": "The dwarven city #23619",
-        "Color": "black",
         "Connections": {
           "East": 23620,
           "West": 23617
@@ -340,9 +303,7 @@
       },
       {
         "Id": 23620,
-        "FrameColor": "black",
         "Name": "The dwarven city #23620",
-        "Color": "black",
         "Connections": {
           "North": 23627,
           "West": 23619
@@ -360,9 +321,7 @@
       },
       {
         "Id": 23621,
-        "FrameColor": "black",
         "Name": "The dwarven city #23621",
-        "Color": "black",
         "Connections": {
           "North": 23628,
           "South": 23614
@@ -370,9 +329,7 @@
       },
       {
         "Id": 23622,
-        "FrameColor": "black",
         "Name": "Dwarven mines #23622",
-        "Color": "black",
         "Connections": {
           "North": 23629,
           "Down": 23670
@@ -386,9 +343,7 @@
       },
       {
         "Id": 23623,
-        "FrameColor": "black",
         "Name": "The dwarven city #23623",
-        "Color": "black",
         "Connections": {
           "North": 23630,
           "South": 23618
@@ -402,9 +357,7 @@
       },
       {
         "Id": 23624,
-        "FrameColor": "black",
         "Name": "A dwarven home #23624",
-        "Color": "black",
         "Connections": {
           "North": 23631,
           "East": 23625
@@ -422,27 +375,21 @@
       },
       {
         "Id": 23625,
-        "FrameColor": "black",
         "Name": "In a closet #23625",
-        "Color": "black",
         "Connections": {
           "West": 23624
         }
       },
       {
         "Id": 23626,
-        "FrameColor": "black",
         "Name": "The dwarven city #23626",
-        "Color": "black",
         "Connections": {
           "North": 23632
         }
       },
       {
         "Id": 23627,
-        "FrameColor": "black",
         "Name": "The dwarven city #23627",
-        "Color": "black",
         "Connections": {
           "North": 23633,
           "South": 23620
@@ -450,9 +397,7 @@
       },
       {
         "Id": 23628,
-        "FrameColor": "black",
         "Name": "The dwarven city #23628",
-        "Color": "black",
         "Connections": {
           "North": 23634,
           "East": 23629,
@@ -467,9 +412,7 @@
       },
       {
         "Id": 23629,
-        "FrameColor": "black",
         "Name": "The dwarven city #23629",
-        "Color": "black",
         "Connections": {
           "East": 23630,
           "South": 23622,
@@ -488,9 +431,7 @@
       },
       {
         "Id": 23630,
-        "FrameColor": "black",
         "Name": "The dwarven city #23630",
-        "Color": "black",
         "Connections": {
           "East": 23631,
           "South": 23623,
@@ -499,9 +440,7 @@
       },
       {
         "Id": 23631,
-        "FrameColor": "black",
         "Name": "The dwarven city #23631",
-        "Color": "black",
         "Connections": {
           "North": 23637,
           "East": 23632,
@@ -511,9 +450,7 @@
       },
       {
         "Id": 23632,
-        "FrameColor": "black",
         "Name": "The dwarven city #23632",
-        "Color": "black",
         "Connections": {
           "East": 23633,
           "South": 23626,
@@ -528,9 +465,7 @@
       },
       {
         "Id": 23633,
-        "FrameColor": "black",
         "Name": "The dwarven city #23633",
-        "Color": "black",
         "Connections": {
           "North": 23640,
           "South": 23627,
@@ -549,9 +484,7 @@
       },
       {
         "Id": 23634,
-        "FrameColor": "black",
         "Name": "The dwarven city #23634",
-        "Color": "black",
         "Connections": {
           "North": 23641,
           "South": 23628
@@ -559,18 +492,14 @@
       },
       {
         "Id": 23635,
-        "FrameColor": "black",
         "Name": "A dwarven home #23635",
-        "Color": "black",
         "Connections": {
           "East": 23636
         }
       },
       {
         "Id": 23636,
-        "FrameColor": "black",
         "Name": "A dwarven home #23636",
-        "Color": "black",
         "Connections": {
           "North": 23643,
           "West": 23635
@@ -578,9 +507,7 @@
       },
       {
         "Id": 23637,
-        "FrameColor": "black",
         "Name": "The dwarven city #23637",
-        "Color": "black",
         "Connections": {
           "North": 23644,
           "South": 23631
@@ -588,27 +515,21 @@
       },
       {
         "Id": 23638,
-        "FrameColor": "black",
         "Name": "A dwarven home #23638",
-        "Color": "black",
         "Connections": {
           "North": 23645
         }
       },
       {
         "Id": 23639,
-        "FrameColor": "black",
         "Name": "A dwarven home #23639",
-        "Color": "black",
         "Connections": {
           "North": 23646
         }
       },
       {
         "Id": 23640,
-        "FrameColor": "black",
         "Name": "The dwarven city #23640",
-        "Color": "black",
         "Connections": {
           "North": 23647,
           "South": 23633
@@ -616,9 +537,7 @@
       },
       {
         "Id": 23641,
-        "FrameColor": "black",
         "Name": "The dwarven city #23641",
-        "Color": "black",
         "Connections": {
           "East": 23642,
           "South": 23634
@@ -626,9 +545,7 @@
       },
       {
         "Id": 23642,
-        "FrameColor": "black",
         "Name": "The dwarven city #23642",
-        "Color": "black",
         "Connections": {
           "East": 23643,
           "West": 23641
@@ -636,9 +553,7 @@
       },
       {
         "Id": 23643,
-        "FrameColor": "black",
         "Name": "The dwarven city #23643",
-        "Color": "black",
         "Connections": {
           "North": 23650,
           "East": 23644,
@@ -648,9 +563,7 @@
       },
       {
         "Id": 23644,
-        "FrameColor": "black",
         "Name": "The dwarven city #23644",
-        "Color": "black",
         "Connections": {
           "East": 23645,
           "South": 23637,
@@ -665,9 +578,7 @@
       },
       {
         "Id": 23645,
-        "FrameColor": "black",
         "Name": "The dwarven city #23645",
-        "Color": "black",
         "Connections": {
           "North": 23652,
           "East": 23646,
@@ -677,9 +588,7 @@
       },
       {
         "Id": 23646,
-        "FrameColor": "black",
         "Name": "The dwarven city #23646",
-        "Color": "black",
         "Connections": {
           "East": 23647,
           "South": 23639,
@@ -698,9 +607,7 @@
       },
       {
         "Id": 23647,
-        "FrameColor": "black",
         "Name": "The dwarven city #23647",
-        "Color": "black",
         "Connections": {
           "North": 23654,
           "South": 23640,
@@ -709,9 +616,7 @@
       },
       {
         "Id": 23648,
-        "FrameColor": "black",
         "Name": "The dwarven city #23648",
-        "Color": "black",
         "Connections": {
           "East": 23649,
           "West": 23655
@@ -719,9 +624,7 @@
       },
       {
         "Id": 23649,
-        "FrameColor": "black",
         "Name": "The dwarven city #23649",
-        "Color": "black",
         "Connections": {
           "East": 23650,
           "West": 23648
@@ -739,9 +642,7 @@
       },
       {
         "Id": 23650,
-        "FrameColor": "black",
         "Name": "The dwarven city #23650",
-        "Color": "black",
         "Connections": {
           "South": 23643,
           "West": 23649
@@ -749,18 +650,14 @@
       },
       {
         "Id": 23651,
-        "FrameColor": "black",
         "Name": "A dwarven nobles\u0027 home #23651",
-        "Color": "black",
         "Connections": {
           "East": 23652
         }
       },
       {
         "Id": 23652,
-        "FrameColor": "black",
         "Name": "a dwarven nobles\u0027 home. #23652",
-        "Color": "black",
         "Connections": {
           "South": 23645,
           "West": 23651
@@ -778,9 +675,7 @@
       },
       {
         "Id": 23653,
-        "FrameColor": "black",
         "Name": "The tool shed. #23653",
-        "Color": "black",
         "Connections": {
           "East": 23654
         },
@@ -817,9 +712,7 @@
       },
       {
         "Id": 23654,
-        "FrameColor": "black",
         "Name": "In a drafty tunnel. #23654",
-        "Color": "black",
         "Connections": {
           "North": 23669,
           "South": 23647,
@@ -828,9 +721,7 @@
       },
       {
         "Id": 23655,
-        "FrameColor": "black",
         "Name": "The Checkpoint #23655",
-        "Color": "black",
         "Connections": {
           "North": 23656,
           "East": 23648,
@@ -854,9 +745,7 @@
       },
       {
         "Id": 23656,
-        "FrameColor": "black",
         "Name": "The barracks #23656",
-        "Color": "black",
         "Connections": {
           "North": 23657,
           "South": 23655
@@ -878,9 +767,7 @@
       },
       {
         "Id": 23657,
-        "FrameColor": "black",
         "Name": "The barracks #23657",
-        "Color": "black",
         "Connections": {
           "South": 23656
         },
@@ -905,9 +792,7 @@
       },
       {
         "Id": 23658,
-        "FrameColor": "black",
         "Name": "The barracks #23658",
-        "Color": "black",
         "Connections": {
           "North": 23655,
           "South": 23659
@@ -929,9 +814,7 @@
       },
       {
         "Id": 23659,
-        "FrameColor": "black",
         "Name": "The barracks #23659",
-        "Color": "black",
         "Connections": {
           "North": 23658
         },
@@ -944,9 +827,7 @@
       },
       {
         "Id": 23660,
-        "FrameColor": "black",
         "Name": "At the court #23660",
-        "Color": "black",
         "Connections": {
           "East": 23655,
           "West": 23661
@@ -954,9 +835,7 @@
       },
       {
         "Id": 23661,
-        "FrameColor": "black",
         "Name": "At the court #23661",
-        "Color": "black",
         "Connections": {
           "East": 23660,
           "South": 23663,
@@ -965,9 +844,7 @@
       },
       {
         "Id": 23662,
-        "FrameColor": "black",
         "Name": "Royal sleeping room #23662",
-        "Color": "black",
         "Connections": {
           "East": 23661
         },
@@ -980,9 +857,7 @@
       },
       {
         "Id": 23663,
-        "FrameColor": "black",
         "Name": "At the court #23663",
-        "Color": "black",
         "Connections": {
           "North": 23661,
           "East": 23666,
@@ -992,9 +867,7 @@
       },
       {
         "Id": 23664,
-        "FrameColor": "black",
         "Name": "Ministry of trade #23664",
-        "Color": "black",
         "Connections": {
           "East": 23663
         },
@@ -1007,9 +880,7 @@
       },
       {
         "Id": 23666,
-        "FrameColor": "black",
         "Name": "Shrine of Welcor #23666",
-        "Color": "black",
         "Connections": {
           "West": 23663
         },
@@ -1022,9 +893,7 @@
       },
       {
         "Id": 23667,
-        "FrameColor": "black",
         "Name": "At the Dwarven Court #23667",
-        "Color": "black",
         "Connections": {
           "North": 23663
         },
@@ -1037,12 +906,11 @@
       },
       {
         "Id": 23668,
-        "FrameColor": "black",
         "Name": "The dwarven treasury #23668",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 23667,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1056,9 +924,7 @@
       },
       {
         "Id": 23669,
-        "FrameColor": "black",
         "Name": "In a drafty tunnel #23669",
-        "Color": "black",
         "Connections": {
           "North": 23685,
           "South": 23654
@@ -1072,9 +938,7 @@
       },
       {
         "Id": 23670,
-        "FrameColor": "black",
         "Name": "In the Mines #23670",
-        "Color": "black",
         "Connections": {
           "Up": 23622,
           "Down": 23671
@@ -1082,9 +946,7 @@
       },
       {
         "Id": 23671,
-        "FrameColor": "black",
         "Name": "In the mines #23671",
-        "Color": "black",
         "Connections": {
           "Up": 23670,
           "Down": 23672
@@ -1092,9 +954,7 @@
       },
       {
         "Id": 23672,
-        "FrameColor": "black",
         "Name": "In the mines #23672",
-        "Color": "black",
         "Connections": {
           "Up": 23671,
           "Down": 23673
@@ -1102,9 +962,7 @@
       },
       {
         "Id": 23673,
-        "FrameColor": "black",
         "Name": "In the mines #23673",
-        "Color": "black",
         "Connections": {
           "Up": 23672,
           "Down": 23674
@@ -1112,9 +970,7 @@
       },
       {
         "Id": 23674,
-        "FrameColor": "black",
         "Name": "In the mines #23674",
-        "Color": "black",
         "Connections": {
           "North": 23675,
           "Up": 23673
@@ -1128,9 +984,7 @@
       },
       {
         "Id": 23675,
-        "FrameColor": "black",
         "Name": "In the mines #23675",
-        "Color": "black",
         "Connections": {
           "North": 23676,
           "South": 23674
@@ -1138,9 +992,7 @@
       },
       {
         "Id": 23676,
-        "FrameColor": "black",
         "Name": "In the mines #23676",
-        "Color": "black",
         "Connections": {
           "North": 23678,
           "South": 23675,
@@ -1155,9 +1007,7 @@
       },
       {
         "Id": 23677,
-        "FrameColor": "black",
         "Name": "In the mines #23677",
-        "Color": "black",
         "Connections": {
           "North": 23679,
           "East": 23680,
@@ -1172,9 +1022,7 @@
       },
       {
         "Id": 23678,
-        "FrameColor": "black",
         "Name": "In the mines #23678",
-        "Color": "black",
         "Connections": {
           "North": 23677,
           "South": 23676
@@ -1182,18 +1030,14 @@
       },
       {
         "Id": 23679,
-        "FrameColor": "black",
         "Name": "At a dead end in the mines. #23679",
-        "Color": "black",
         "Connections": {
           "South": 23677
         }
       },
       {
         "Id": 23680,
-        "FrameColor": "black",
         "Name": "In the side tunnels #23680",
-        "Color": "black",
         "Connections": {
           "South": 23681,
           "West": 23677
@@ -1211,9 +1055,7 @@
       },
       {
         "Id": 23681,
-        "FrameColor": "black",
         "Name": "In the side tunnels #23681",
-        "Color": "black",
         "Connections": {
           "North": 23680,
           "East": 23683,
@@ -1222,18 +1064,14 @@
       },
       {
         "Id": 23682,
-        "FrameColor": "black",
         "Name": "In the side tunnels #23682",
-        "Color": "black",
         "Connections": {
           "North": 23681
         }
       },
       {
         "Id": 23683,
-        "FrameColor": "black",
         "Name": "In the side tunnels #23683",
-        "Color": "black",
         "Connections": {
           "West": 23681
         },
@@ -1246,16 +1084,12 @@
       },
       {
         "Id": 23684,
-        "FrameColor": "black",
         "Name": "Falling...... #23684",
-        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 23685,
-        "FrameColor": "black",
         "Name": "At the end of the tunnel #23685",
-        "Color": "black",
         "Connections": {
           "South": 23669
         }

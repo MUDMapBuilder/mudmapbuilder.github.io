@@ -5,22 +5,17 @@
     "MinimumLevel": "18",
     "MaximumLevel": "22",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 17500,
-        "FrameColor": "black",
         "Name": "The Cardinal Wizards Zone Description Room #17500",
-        "Color": "black",
         "Connections": {
           "Down": 17501
         }
       },
       {
         "Id": 17501,
-        "FrameColor": "black",
         "Name": "A Gravel Path #17501",
-        "Color": "black",
         "Connections": {
           "North": 17502,
           "West": 17526
@@ -28,12 +23,11 @@
       },
       {
         "Id": 17502,
-        "FrameColor": "black",
         "Name": "A Dead End #17502",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 17503,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -54,14 +48,13 @@
       },
       {
         "Id": 17503,
-        "FrameColor": "black",
         "Name": "The Wizard\u0027s Mansion #17503",
-        "Color": "black",
         "Connections": {
           "North": 17515,
           "East": 17504,
           "South": {
             "RoomId": 17502,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -76,9 +69,7 @@
       },
       {
         "Id": 17504,
-        "FrameColor": "black",
         "Name": "An Indoor River #17504",
-        "Color": "black",
         "Connections": {
           "North": 17505,
           "East": 17506,
@@ -87,18 +78,14 @@
       },
       {
         "Id": 17505,
-        "FrameColor": "black",
         "Name": "A Tight Space #17505",
-        "Color": "black",
         "Connections": {
           "South": 17504
         }
       },
       {
         "Id": 17506,
-        "FrameColor": "black",
         "Name": "The River Quickens #17506",
-        "Color": "black",
         "Connections": {
           "East": 17507
         },
@@ -111,9 +98,7 @@
       },
       {
         "Id": 17507,
-        "FrameColor": "black",
         "Name": "A Bend in the River #17507",
-        "Color": "black",
         "Connections": {
           "North": 17508
         },
@@ -126,9 +111,7 @@
       },
       {
         "Id": 17508,
-        "FrameColor": "black",
         "Name": "The River Continues #17508",
-        "Color": "black",
         "Connections": {
           "North": 17509
         },
@@ -141,9 +124,7 @@
       },
       {
         "Id": 17509,
-        "FrameColor": "black",
         "Name": "A Bend to the East #17509",
-        "Color": "black",
         "Connections": {
           "East": 17510
         },
@@ -156,9 +137,7 @@
       },
       {
         "Id": 17510,
-        "FrameColor": "black",
         "Name": "Out on the Lake #17510",
-        "Color": "black",
         "Connections": {
           "North": 17511,
           "East": 17512,
@@ -173,13 +152,12 @@
       },
       {
         "Id": 17511,
-        "FrameColor": "black",
         "Name": "Trilless\u0027s Sanctuary. #17511",
-        "Color": "black",
         "Connections": {
           "South": 17510,
           "West": {
             "RoomId": 17513,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -207,9 +185,7 @@
       },
       {
         "Id": 17512,
-        "FrameColor": "black",
         "Name": "The Mirror on the Lake #17512",
-        "Color": "black",
         "Connections": {
           "South": 17515,
           "West": 17510
@@ -217,12 +193,11 @@
       },
       {
         "Id": 17513,
-        "FrameColor": "black",
         "Name": "The Guardian Room #17513",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 17511,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -235,6 +210,7 @@
           "South": 17503,
           "West": {
             "RoomId": 17522,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": []
@@ -253,27 +229,21 @@
       },
       {
         "Id": 17514,
-        "FrameColor": "black",
         "Name": "The Flowing River #17514",
-        "Color": "black",
         "Connections": {
           "East": 17510
         }
       },
       {
         "Id": 17515,
-        "FrameColor": "black",
         "Name": "Inside the Mirror #17515",
-        "Color": "black",
         "Connections": {
           "South": 17503
         }
       },
       {
         "Id": 17516,
-        "FrameColor": "black",
         "Name": "The Base of the Stairs #17516",
-        "Color": "black",
         "Connections": {
           "East": 17503,
           "Up": 17517
@@ -281,13 +251,12 @@
       },
       {
         "Id": 17517,
-        "FrameColor": "black",
         "Name": "The Foyer of the Tower #17517",
-        "Color": "black",
         "Connections": {
           "West": 17518,
           "Up": {
             "RoomId": 17519,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": []
@@ -297,9 +266,7 @@
       },
       {
         "Id": 17518,
-        "FrameColor": "black",
         "Name": "Behind the Desk #17518",
-        "Color": "black",
         "Connections": {
           "East": 17517
         },
@@ -312,9 +279,7 @@
       },
       {
         "Id": 17519,
-        "FrameColor": "black",
         "Name": "Outside #17519",
-        "Color": "black",
         "Connections": {
           "North": 17519,
           "East": 17519,
@@ -322,6 +287,7 @@
           "West": 17519,
           "Down": {
             "RoomId": 17517,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": []
@@ -330,12 +296,11 @@
       },
       {
         "Id": 17520,
-        "FrameColor": "black",
         "Name": "The Forge. #17520",
-        "Color": "black",
         "Connections": {
           "Up": {
             "RoomId": 17521,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": []
@@ -344,12 +309,11 @@
       },
       {
         "Id": 17521,
-        "FrameColor": "black",
         "Name": "The Windy Chimney #17521",
-        "Color": "black",
         "Connections": {
           "Down": {
             "RoomId": 17520,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": []
@@ -358,12 +322,11 @@
       },
       {
         "Id": 17522,
-        "FrameColor": "black",
         "Name": "Deeper Within the Darkness #17522",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 17513,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -376,6 +339,7 @@
           "South": 17523,
           "West": {
             "RoomId": 17524,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": []
@@ -390,18 +354,14 @@
       },
       {
         "Id": 17523,
-        "FrameColor": "black",
         "Name": "Within the Darkness #17523",
-        "Color": "black",
         "Connections": {
           "North": 17522
         }
       },
       {
         "Id": 17524,
-        "FrameColor": "black",
         "Name": "Carcophan\u0027s Study #17524",
-        "Color": "black",
         "Connections": {
           "East": 17522
         },
@@ -422,18 +382,14 @@
       },
       {
         "Id": 17525,
-        "FrameColor": "black",
         "Name": "Before a Cliff Face #17525",
-        "Color": "black",
         "Connections": {
           "East": 17526
         }
       },
       {
         "Id": 17526,
-        "FrameColor": "black",
         "Name": "Before a Cliff Face #17526",
-        "Color": "black",
         "Connections": {
           "East": 17501,
           "West": 17525

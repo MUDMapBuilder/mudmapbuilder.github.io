@@ -3,22 +3,17 @@
     "Name": "Ofingia and the Goblin Town",
     "Credits": "Pippin",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 28700,
-        "FrameColor": "black",
         "Name": "A Narrow Crawlway #28700",
-        "Color": "black",
         "Connections": {
           "South": 28701
         }
       },
       {
         "Id": 28701,
-        "FrameColor": "black",
         "Name": "A Tunnel in the Mountains #28701",
-        "Color": "black",
         "Connections": {
           "North": 28700,
           "South": 28702,
@@ -27,9 +22,7 @@
       },
       {
         "Id": 28702,
-        "FrameColor": "black",
         "Name": "A Tunnel in the Mountains #28702",
-        "Color": "black",
         "Connections": {
           "North": 28701,
           "East": 28705,
@@ -38,9 +31,7 @@
       },
       {
         "Id": 28703,
-        "FrameColor": "black",
         "Name": "A Narrow Ledge #28703",
-        "Color": "black",
         "Connections": {
           "North": 28702,
           "South": 28704
@@ -48,16 +39,12 @@
       },
       {
         "Id": 28704,
-        "FrameColor": "black",
         "Name": "The Fall is Fine but the Landing Hurts #28704",
-        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 28705,
-        "FrameColor": "black",
         "Name": "A Short Tunnel #28705",
-        "Color": "black",
         "Connections": {
           "South": 28706,
           "West": 28702
@@ -65,9 +52,7 @@
       },
       {
         "Id": 28706,
-        "FrameColor": "black",
         "Name": "The Tunnel\u0027s Entrance #28706",
-        "Color": "black",
         "Connections": {
           "North": 28705,
           "South": 28707
@@ -75,9 +60,7 @@
       },
       {
         "Id": 28707,
-        "FrameColor": "black",
         "Name": "The Old Plank Road #28707",
-        "Color": "black",
         "Connections": {
           "North": 28706,
           "East": 28708
@@ -85,9 +68,7 @@
       },
       {
         "Id": 28708,
-        "FrameColor": "black",
         "Name": "The Old Plank Road #28708",
-        "Color": "black",
         "Connections": {
           "East": 28709,
           "West": 28707
@@ -105,9 +86,7 @@
       },
       {
         "Id": 28709,
-        "FrameColor": "black",
         "Name": "King\u0027s Way #28709",
-        "Color": "black",
         "Connections": {
           "East": 28710,
           "South": 28728,
@@ -134,9 +113,7 @@
       },
       {
         "Id": 28710,
-        "FrameColor": "black",
         "Name": "A Small Square #28710",
-        "Color": "black",
         "Connections": {
           "North": 28718,
           "East": 28711,
@@ -160,9 +137,7 @@
       },
       {
         "Id": 28711,
-        "FrameColor": "black",
         "Name": "King\u0027s Way #28711",
-        "Color": "black",
         "Connections": {
           "North": 28719,
           "East": 28712,
@@ -178,9 +153,7 @@
       },
       {
         "Id": 28712,
-        "FrameColor": "black",
         "Name": "The Market Square #28712",
-        "Color": "black",
         "Connections": {
           "North": 28720,
           "East": 28721,
@@ -196,9 +169,7 @@
       },
       {
         "Id": 28713,
-        "FrameColor": "black",
         "Name": "Southwestern Market Square #28713",
-        "Color": "black",
         "Connections": {
           "North": 28712,
           "East": 28722,
@@ -214,9 +185,7 @@
       },
       {
         "Id": 28714,
-        "FrameColor": "black",
         "Name": "Joel Kreb\u0027s Fine Woodbutchery #28714",
-        "Color": "black",
         "Connections": {
           "North": 28711,
           "East": 28713
@@ -230,9 +199,7 @@
       },
       {
         "Id": 28715,
-        "FrameColor": "black",
         "Name": "Drovers\u0027 Street #28715",
-        "Color": "black",
         "Connections": {
           "North": 28713,
           "East": 28723,
@@ -251,13 +218,12 @@
       },
       {
         "Id": 28716,
-        "FrameColor": "black",
         "Name": "Inside the South Gate of Ofingia #28716",
-        "Color": "black",
         "Connections": {
           "North": 28715,
           "East": {
             "RoomId": 28717,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -293,12 +259,11 @@
       },
       {
         "Id": 28717,
-        "FrameColor": "black",
         "Name": "The Guard Headquarters #28717",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 28723,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -310,6 +275,7 @@
           },
           "West": {
             "RoomId": 28716,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -323,9 +289,7 @@
       },
       {
         "Id": 28718,
-        "FrameColor": "black",
         "Name": "The Church of St. John Nepomucene. #28718",
-        "Color": "black",
         "Connections": {
           "South": 28710
         },
@@ -338,9 +302,7 @@
       },
       {
         "Id": 28719,
-        "FrameColor": "black",
         "Name": "Dorig Foehammer\u0027s Smithy #28719",
-        "Color": "black",
         "Connections": {
           "South": 28711
         },
@@ -353,9 +315,7 @@
       },
       {
         "Id": 28720,
-        "FrameColor": "black",
         "Name": "Maxtrum Holloknob\u0027s Dry Goods #28720",
-        "Color": "black",
         "Connections": {
           "South": 28712
         },
@@ -372,9 +332,7 @@
       },
       {
         "Id": 28721,
-        "FrameColor": "black",
         "Name": "Northeastern Market Square #28721",
-        "Color": "black",
         "Connections": {
           "North": 28729,
           "East": 28730,
@@ -398,9 +356,7 @@
       },
       {
         "Id": 28722,
-        "FrameColor": "black",
         "Name": "Southeastern Market Square #28722",
-        "Color": "black",
         "Connections": {
           "North": 28721,
           "East": 28731,
@@ -428,13 +384,12 @@
       },
       {
         "Id": 28723,
-        "FrameColor": "black",
         "Name": "The Great Hall #28723",
-        "Color": "black",
         "Connections": {
           "East": 28726,
           "South": {
             "RoomId": 28717,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -460,9 +415,7 @@
       },
       {
         "Id": 28724,
-        "FrameColor": "black",
         "Name": "The Ofintine Public Library #28724",
-        "Color": "black",
         "Connections": {
           "South": 28725,
           "Up": 28723
@@ -476,22 +429,19 @@
       },
       {
         "Id": 28725,
-        "FrameColor": "black",
         "Name": "The Secret Library Vault #28725",
-        "Color": "black",
         "Connections": {
           "North": 28724
         }
       },
       {
         "Id": 28726,
-        "FrameColor": "black",
         "Name": "The Eastern End of the Great Hall #28726",
-        "Color": "black",
         "Connections": {
           "West": 28723,
           "Down": {
             "RoomId": 28749,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -505,18 +455,14 @@
       },
       {
         "Id": 28727,
-        "FrameColor": "black",
         "Name": "The Sheriff Office #28727",
-        "Color": "black",
         "Connections": {
           "North": 28710
         }
       },
       {
         "Id": 28728,
-        "FrameColor": "black",
         "Name": "The Crossbow Inn #28728",
-        "Color": "black",
         "Connections": {
           "North": 28709
         },
@@ -553,9 +499,7 @@
       },
       {
         "Id": 28729,
-        "FrameColor": "black",
         "Name": "D. Shattershock\u0027s Fine Armor. #28729",
-        "Color": "black",
         "Connections": {
           "South": 28721
         },
@@ -568,9 +512,7 @@
       },
       {
         "Id": 28730,
-        "FrameColor": "black",
         "Name": "Churt\u0027s Mortar and Pestle #28730",
-        "Color": "black",
         "Connections": {
           "West": 28721
         },
@@ -583,9 +525,7 @@
       },
       {
         "Id": 28731,
-        "FrameColor": "black",
         "Name": "Marya Luzarna\u0027s Bakery #28731",
-        "Color": "black",
         "Connections": {
           "West": 28722
         },
@@ -598,18 +538,14 @@
       },
       {
         "Id": 28732,
-        "FrameColor": "black",
         "Name": "Rzesk and Zykub, Jewelers. #28732",
-        "Color": "black",
         "Connections": {
           "North": 28722
         }
       },
       {
         "Id": 28733,
-        "FrameColor": "black",
         "Name": "The Dog-Leg #28733",
-        "Color": "black",
         "Connections": {
           "East": 28701,
           "Down": 28734
@@ -617,9 +553,7 @@
       },
       {
         "Id": 28734,
-        "FrameColor": "black",
         "Name": "Down, Down, to Goblin-Town! #28734",
-        "Color": "black",
         "Connections": {
           "South": 28735
         },
@@ -632,9 +566,7 @@
       },
       {
         "Id": 28735,
-        "FrameColor": "black",
         "Name": "The Stone Hallway #28735",
-        "Color": "black",
         "Connections": {
           "North": 28734,
           "West": 28736
@@ -648,9 +580,7 @@
       },
       {
         "Id": 28736,
-        "FrameColor": "black",
         "Name": "The Stone Hallway #28736",
-        "Color": "black",
         "Connections": {
           "East": 28735,
           "West": 28737
@@ -664,9 +594,7 @@
       },
       {
         "Id": 28737,
-        "FrameColor": "black",
         "Name": "The Stone Hallway #28737",
-        "Color": "black",
         "Connections": {
           "East": 28736,
           "South": 28739,
@@ -675,9 +603,7 @@
       },
       {
         "Id": 28738,
-        "FrameColor": "black",
         "Name": "The Guard Room #28738",
-        "Color": "black",
         "Connections": {
           "East": 28737
         },
@@ -690,13 +616,12 @@
       },
       {
         "Id": 28739,
-        "FrameColor": "black",
         "Name": "The Stone Hallway #28739",
-        "Color": "black",
         "Connections": {
           "North": 28737,
           "East": {
             "RoomId": 28740,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -710,13 +635,12 @@
       },
       {
         "Id": 28740,
-        "FrameColor": "black",
         "Name": "The Stone Hallway #28740",
-        "Color": "black",
         "Connections": {
           "East": 28741,
           "West": {
             "RoomId": 28739,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -730,12 +654,11 @@
       },
       {
         "Id": 28741,
-        "FrameColor": "black",
         "Name": "The Stone Hallway #28741",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 28742,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -751,12 +674,11 @@
       },
       {
         "Id": 28742,
-        "FrameColor": "black",
         "Name": "A Small Chamber #28742",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 28741,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -776,9 +698,7 @@
       },
       {
         "Id": 28743,
-        "FrameColor": "black",
         "Name": "The Spiral Tunnel #28743",
-        "Color": "black",
         "Connections": {
           "Up": 28741,
           "Down": 28744
@@ -796,9 +716,7 @@
       },
       {
         "Id": 28744,
-        "FrameColor": "black",
         "Name": "The Spiral Tunnel #28744",
-        "Color": "black",
         "Connections": {
           "Up": 28743,
           "Down": 28745
@@ -816,9 +734,7 @@
       },
       {
         "Id": 28745,
-        "FrameColor": "black",
         "Name": "The Spiral Tunnel #28745",
-        "Color": "black",
         "Connections": {
           "Up": 28744,
           "Down": 28746
@@ -840,9 +756,7 @@
       },
       {
         "Id": 28746,
-        "FrameColor": "black",
         "Name": "The Spiral Tunnel #28746",
-        "Color": "black",
         "Connections": {
           "East": 28747,
           "Up": 28745
@@ -856,9 +770,7 @@
       },
       {
         "Id": 28747,
-        "FrameColor": "black",
         "Name": "The Spiral Tunnel #28747",
-        "Color": "black",
         "Connections": {
           "West": 28746,
           "Down": 28748
@@ -866,9 +778,7 @@
       },
       {
         "Id": 28748,
-        "FrameColor": "black",
         "Name": "The Spiral Tunnel #28748",
-        "Color": "black",
         "Connections": {
           "Up": 28747,
           "Down": 28750
@@ -876,12 +786,11 @@
       },
       {
         "Id": 28749,
-        "FrameColor": "black",
         "Name": "The Treasury #28749",
-        "Color": "black",
         "Connections": {
           "Up": {
             "RoomId": 28726,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -901,9 +810,7 @@
       },
       {
         "Id": 28750,
-        "FrameColor": "black",
         "Name": "The Spiral Tunnel\u0027s End #28750",
-        "Color": "black",
         "Connections": {
           "Up": 28748,
           "Down": 28751
@@ -917,13 +824,12 @@
       },
       {
         "Id": 28751,
-        "FrameColor": "black",
         "Name": "Upper Goblin-Town #28751",
-        "Color": "black",
         "Connections": {
           "South": 28753,
           "West": {
             "RoomId": 28752,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -948,12 +854,11 @@
       },
       {
         "Id": 28752,
-        "FrameColor": "black",
         "Name": "A Small Armory #28752",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 28751,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -967,13 +872,12 @@
       },
       {
         "Id": 28753,
-        "FrameColor": "black",
         "Name": "A Dark Hall in Goblin-Town #28753",
-        "Color": "black",
         "Connections": {
           "North": 28751,
           "East": {
             "RoomId": 28754,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -994,12 +898,11 @@
       },
       {
         "Id": 28754,
-        "FrameColor": "black",
         "Name": "A Small Storeroom #28754",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 28753,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1013,13 +916,12 @@
       },
       {
         "Id": 28755,
-        "FrameColor": "black",
         "Name": "A Dark Hall in Goblin-Town. #28755",
-        "Color": "black",
         "Connections": {
           "North": 28753,
           "East": {
             "RoomId": 28757,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1031,6 +933,7 @@
           },
           "South": {
             "RoomId": 28756,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1054,12 +957,11 @@
       },
       {
         "Id": 28756,
-        "FrameColor": "black",
         "Name": "A Small Room #28756",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 28755,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1073,12 +975,11 @@
       },
       {
         "Id": 28757,
-        "FrameColor": "black",
         "Name": "A Guard Room #28757",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 28758,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1090,6 +991,7 @@
           },
           "West": {
             "RoomId": 28755,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1113,12 +1015,11 @@
       },
       {
         "Id": 28758,
-        "FrameColor": "black",
         "Name": "A Landing #28758",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 28757,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1133,9 +1034,7 @@
       },
       {
         "Id": 28759,
-        "FrameColor": "black",
         "Name": "The Barracks #28759",
-        "Color": "black",
         "Connections": {
           "South": 28760,
           "Up": 28758
@@ -1149,13 +1048,12 @@
       },
       {
         "Id": 28760,
-        "FrameColor": "black",
         "Name": "A Pale-Glowing Hall in Goblin-Town #28760",
-        "Color": "black",
         "Connections": {
           "North": 28759,
           "South": {
             "RoomId": 28775,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1176,9 +1074,7 @@
       },
       {
         "Id": 28761,
-        "FrameColor": "black",
         "Name": "A Pale-Glowing Hall in Goblin-Town #28761",
-        "Color": "black",
         "Connections": {
           "North": 28762,
           "East": 28760,
@@ -1194,9 +1090,7 @@
       },
       {
         "Id": 28762,
-        "FrameColor": "black",
         "Name": "A Barracks Room #28762",
-        "Color": "black",
         "Connections": {
           "South": 28761
         },
@@ -1217,9 +1111,7 @@
       },
       {
         "Id": 28763,
-        "FrameColor": "black",
         "Name": "A Pale-Glowing Hall in Goblin-Town #28763",
-        "Color": "black",
         "Connections": {
           "North": 28764,
           "East": 28761,
@@ -1235,9 +1127,7 @@
       },
       {
         "Id": 28764,
-        "FrameColor": "black",
         "Name": "A Barracks Room #28764",
-        "Color": "black",
         "Connections": {
           "South": 28763
         },
@@ -1258,9 +1148,7 @@
       },
       {
         "Id": 28765,
-        "FrameColor": "black",
         "Name": "A Pale-Glowing Hall in Goblin-Town #28765",
-        "Color": "black",
         "Connections": {
           "North": 28766,
           "East": 28763,
@@ -1275,9 +1163,7 @@
       },
       {
         "Id": 28766,
-        "FrameColor": "black",
         "Name": "A Barracks Room #28766",
-        "Color": "black",
         "Connections": {
           "South": 28765
         },
@@ -1298,9 +1184,7 @@
       },
       {
         "Id": 28767,
-        "FrameColor": "black",
         "Name": "A Glowing Hallway in Goblin-Town #28767",
-        "Color": "black",
         "Connections": {
           "North": 28765,
           "South": 28768
@@ -1314,9 +1198,7 @@
       },
       {
         "Id": 28768,
-        "FrameColor": "black",
         "Name": "The Mess #28768",
-        "Color": "black",
         "Connections": {
           "North": 28767,
           "East": 28769,
@@ -1343,9 +1225,7 @@
       },
       {
         "Id": 28769,
-        "FrameColor": "black",
         "Name": "The Mess #28769",
-        "Color": "black",
         "Connections": {
           "South": 28771,
           "West": 28768
@@ -1359,9 +1239,7 @@
       },
       {
         "Id": 28770,
-        "FrameColor": "black",
         "Name": "The Mess #28770",
-        "Color": "black",
         "Connections": {
           "North": 28768,
           "East": 28771
@@ -1391,13 +1269,12 @@
       },
       {
         "Id": 28771,
-        "FrameColor": "black",
         "Name": "The Mess #28771",
-        "Color": "black",
         "Connections": {
           "North": 28769,
           "East": {
             "RoomId": 28772,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1418,12 +1295,11 @@
       },
       {
         "Id": 28772,
-        "FrameColor": "black",
         "Name": "A Small Room #28772",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 28771,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1444,9 +1320,7 @@
       },
       {
         "Id": 28773,
-        "FrameColor": "black",
         "Name": "The Barracks Room #28773",
-        "Color": "black",
         "Connections": {
           "North": 28763
         },
@@ -1467,9 +1341,7 @@
       },
       {
         "Id": 28774,
-        "FrameColor": "black",
         "Name": "The Barracks Room #28774",
-        "Color": "black",
         "Connections": {
           "North": 28761
         },
@@ -1490,12 +1362,11 @@
       },
       {
         "Id": 28775,
-        "FrameColor": "black",
         "Name": "The Chieftain\u0027s Quarters #28775",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 28760,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1523,9 +1394,7 @@
       },
       {
         "Id": 28776,
-        "FrameColor": "black",
         "Name": "A Rough Tunnel #28776",
-        "Color": "black",
         "Connections": {
           "North": 28777,
           "Up": 28772
@@ -1539,9 +1408,7 @@
       },
       {
         "Id": 28777,
-        "FrameColor": "black",
         "Name": "A Rough Tunnel #28777",
-        "Color": "black",
         "Connections": {
           "North": 28778,
           "South": 28776
@@ -1555,9 +1422,7 @@
       },
       {
         "Id": 28778,
-        "FrameColor": "black",
         "Name": "A Rough Tunnel #28778",
-        "Color": "black",
         "Connections": {
           "North": 28779,
           "South": 28777
@@ -1587,9 +1452,7 @@
       },
       {
         "Id": 28779,
-        "FrameColor": "black",
         "Name": "A Rough Tunnel #28779",
-        "Color": "black",
         "Connections": {
           "North": 28781,
           "East": 28780,
@@ -1604,9 +1467,7 @@
       },
       {
         "Id": 28780,
-        "FrameColor": "black",
         "Name": "The Iron Foundry #28780",
-        "Color": "black",
         "Connections": {
           "North": 28782,
           "West": 28779
@@ -1652,9 +1513,7 @@
       },
       {
         "Id": 28781,
-        "FrameColor": "black",
         "Name": "A Corner In the Mines #28781",
-        "Color": "black",
         "Connections": {
           "East": 28782,
           "South": 28779,
@@ -1663,9 +1522,7 @@
       },
       {
         "Id": 28782,
-        "FrameColor": "black",
         "Name": "A Rough Tunnel #28782",
-        "Color": "black",
         "Connections": {
           "East": 28783,
           "South": 28780,
@@ -1680,9 +1537,7 @@
       },
       {
         "Id": 28783,
-        "FrameColor": "black",
         "Name": "A Corner in the Mines #28783",
-        "Color": "black",
         "Connections": {
           "North": 28784,
           "West": 28782
@@ -1700,9 +1555,7 @@
       },
       {
         "Id": 28784,
-        "FrameColor": "black",
         "Name": "The Mine Shaft #28784",
-        "Color": "black",
         "Connections": {
           "South": 28783,
           "Down": 28794
@@ -1716,27 +1569,21 @@
       },
       {
         "Id": 28785,
-        "FrameColor": "black",
         "Name": "On the Underground Lake #28785",
-        "Color": "black",
         "Connections": {
           "North": 28786
         }
       },
       {
         "Id": 28786,
-        "FrameColor": "black",
         "Name": "On the Underground Stream #28786",
-        "Color": "black",
         "Connections": {
           "East": 28787
         }
       },
       {
         "Id": 28787,
-        "FrameColor": "black",
         "Name": "The Stream at the Underground Cliff #28787",
-        "Color": "black",
         "Connections": {
           "North": 28789,
           "East": 28788
@@ -1744,16 +1591,12 @@
       },
       {
         "Id": 28788,
-        "FrameColor": "black",
         "Name": "The Waterfall #28788",
-        "Color": "black",
         "Connections": {}
       },
       {
         "Id": 28789,
-        "FrameColor": "black",
         "Name": "The Ledge #28789",
-        "Color": "black",
         "Connections": {
           "South": 28787,
           "Up": 28790
@@ -1761,48 +1604,39 @@
       },
       {
         "Id": 28790,
-        "FrameColor": "black",
         "Name": "The Crevasse #28790",
-        "Color": "black",
         "Connections": {
           "Up": 28791
         }
       },
       {
         "Id": 28791,
-        "FrameColor": "black",
         "Name": "The Crevasse #28791",
-        "Color": "black",
         "Connections": {
           "Up": 28792
         }
       },
       {
         "Id": 28792,
-        "FrameColor": "black",
         "Name": "The Crevasse #28792",
-        "Color": "black",
         "Connections": {
           "Up": 28793
         }
       },
       {
         "Id": 28793,
-        "FrameColor": "black",
         "Name": "Up the Cliff We Go #28793",
-        "Color": "black",
         "Connections": {
           "Up": 28703
         }
       },
       {
         "Id": 28794,
-        "FrameColor": "black",
         "Name": "A Crossing of Tunnels #28794",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 28795,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1814,6 +1648,7 @@
           },
           "East": {
             "RoomId": 28796,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1825,6 +1660,7 @@
           },
           "South": {
             "RoomId": 28797,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1836,6 +1672,7 @@
           },
           "West": {
             "RoomId": 28798,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1864,12 +1701,11 @@
       },
       {
         "Id": 28795,
-        "FrameColor": "black",
         "Name": "The Storeroom #28795",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 28794,
+            "Color": "cornflowerblue",
             "IsDoor": true,
             "DoorColor": "cornflowerblue",
             "DoorSigns": [
@@ -1889,12 +1725,11 @@
       },
       {
         "Id": 28796,
-        "FrameColor": "black",
         "Name": "The Guard Chamber #28796",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 28794,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1930,12 +1765,11 @@
       },
       {
         "Id": 28797,
-        "FrameColor": "black",
         "Name": "The North End of a Hall #28797",
-        "Color": "black",
         "Connections": {
           "North": {
             "RoomId": 28794,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -1976,12 +1810,11 @@
       },
       {
         "Id": 28798,
-        "FrameColor": "black",
         "Name": "The Goblin Treasury #28798",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 28794,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -2001,9 +1834,7 @@
       },
       {
         "Id": 28799,
-        "FrameColor": "black",
         "Name": "The Throne Room #28799",
-        "Color": "black",
         "Connections": {
           "North": 28797
         },

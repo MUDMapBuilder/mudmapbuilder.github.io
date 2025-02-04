@@ -5,13 +5,10 @@
     "MinimumLevel": "10",
     "MaximumLevel": "25",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 6500,
-        "FrameColor": "black",
         "Name": "Path to Dwarven Village #6500",
-        "Color": "black",
         "Connections": {
           "Up": 3502,
           "North": 6501,
@@ -20,9 +17,7 @@
       },
       {
         "Id": 6501,
-        "FrameColor": "black",
         "Name": "Path, base of mountain #6501",
-        "Color": "black",
         "Connections": {
           "North": 6502,
           "South": 6500
@@ -36,9 +31,7 @@
       },
       {
         "Id": 6502,
-        "FrameColor": "black",
         "Name": "Path, middle of mountain #6502",
-        "Color": "black",
         "Connections": {
           "North": 6503,
           "South": 6501
@@ -52,9 +45,7 @@
       },
       {
         "Id": 6503,
-        "FrameColor": "black",
         "Name": "Top of mountain #6503",
-        "Color": "black",
         "Connections": {
           "South": 6502,
           "East": 6540,
@@ -69,9 +60,7 @@
       },
       {
         "Id": 6504,
-        "FrameColor": "black",
         "Name": "Narrow Path #6504",
-        "Color": "black",
         "Connections": {
           "North": 6506,
           "South": 6540
@@ -79,12 +68,11 @@
       },
       {
         "Id": 6505,
-        "FrameColor": "black",
         "Name": "Entrance to Mountain #6505",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 6513,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -109,9 +97,7 @@
       },
       {
         "Id": 6506,
-        "FrameColor": "black",
         "Name": "Bend in Narrow Path #6506",
-        "Color": "black",
         "Connections": {
           "East": 6507,
           "South": 6504
@@ -119,9 +105,7 @@
       },
       {
         "Id": 6507,
-        "FrameColor": "black",
         "Name": "Narrow path #6507",
-        "Color": "black",
         "Connections": {
           "North": 6508,
           "West": 6506
@@ -129,9 +113,7 @@
       },
       {
         "Id": 6508,
-        "FrameColor": "black",
         "Name": "Narrow north-south path #6508",
-        "Color": "black",
         "Connections": {
           "North": 6509,
           "South": 6507
@@ -145,12 +127,11 @@
       },
       {
         "Id": 6509,
-        "FrameColor": "black",
         "Name": "Door to Kingdom #6509",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 6510,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -176,12 +157,11 @@
       },
       {
         "Id": 6510,
-        "FrameColor": "black",
         "Name": "Path to the Castle #6510",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 6509,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -196,9 +176,7 @@
       },
       {
         "Id": 6511,
-        "FrameColor": "black",
         "Name": "Still on the path to the Castle #6511",
-        "Color": "black",
         "Connections": {
           "South": 6510,
           "North": 6512
@@ -206,12 +184,11 @@
       },
       {
         "Id": 6512,
-        "FrameColor": "black",
         "Name": "Door to Castle #6512",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 6525,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -236,14 +213,13 @@
       },
       {
         "Id": 6513,
-        "FrameColor": "black",
         "Name": "Inside the entrance #6513",
-        "Color": "black",
         "Connections": {
           "West": 6526,
           "North": 6514,
           "East": {
             "RoomId": 6505,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -257,9 +233,7 @@
       },
       {
         "Id": 6514,
-        "FrameColor": "black",
         "Name": "Path #6514",
-        "Color": "black",
         "Connections": {
           "South": 6513,
           "North": 6515
@@ -267,9 +241,7 @@
       },
       {
         "Id": 6515,
-        "FrameColor": "black",
         "Name": "Turn in road #6515",
-        "Color": "black",
         "Connections": {
           "West": 6516,
           "South": 6514
@@ -283,9 +255,7 @@
       },
       {
         "Id": 6516,
-        "FrameColor": "black",
         "Name": "Hide \u0026 Tooth Shop #6516",
-        "Color": "black",
         "Connections": {
           "East": 6515,
           "North": 6517
@@ -299,9 +269,7 @@
       },
       {
         "Id": 6517,
-        "FrameColor": "black",
         "Name": "Path to the north of shop #6517",
-        "Color": "black",
         "Connections": {
           "North": 6518,
           "South": 6516,
@@ -310,9 +278,7 @@
       },
       {
         "Id": 6518,
-        "FrameColor": "black",
         "Name": "North of Shops #6518",
-        "Color": "black",
         "Connections": {
           "East": 6519,
           "South": 6517
@@ -320,9 +286,7 @@
       },
       {
         "Id": 6519,
-        "FrameColor": "black",
         "Name": "Path by Hospital #6519",
-        "Color": "black",
         "Connections": {
           "North": 6534,
           "East": 6520,
@@ -331,9 +295,7 @@
       },
       {
         "Id": 6520,
-        "FrameColor": "black",
         "Name": "Path next to barracks #6520",
-        "Color": "black",
         "Connections": {
           "East": 6521,
           "West": 6519
@@ -347,9 +309,7 @@
       },
       {
         "Id": 6521,
-        "FrameColor": "black",
         "Name": "Entrance to barracks #6521",
-        "Color": "black",
         "Connections": {
           "West": 6520,
           "South": 6523
@@ -375,18 +335,14 @@
       },
       {
         "Id": 6522,
-        "FrameColor": "black",
         "Name": "Guard House #6522",
-        "Color": "black",
         "Connections": {
           "East": 6509
         }
       },
       {
         "Id": 6523,
-        "FrameColor": "black",
         "Name": "First Barrack room #6523",
-        "Color": "black",
         "Connections": {
           "North": 6521,
           "South": 6524
@@ -412,9 +368,7 @@
       },
       {
         "Id": 6524,
-        "FrameColor": "black",
         "Name": "Back of Barracks #6524",
-        "Color": "black",
         "Connections": {
           "North": 6523,
           "Down": 2001
@@ -436,12 +390,11 @@
       },
       {
         "Id": 6525,
-        "FrameColor": "black",
         "Name": "Inside of Castle Strangelove #6525",
-        "Color": "black",
         "Connections": {
           "West": {
             "RoomId": 6512,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -456,9 +409,7 @@
       },
       {
         "Id": 6526,
-        "FrameColor": "black",
         "Name": "A store room #6526",
-        "Color": "black",
         "Connections": {
           "East": 6513,
           "Down": 6527
@@ -466,9 +417,7 @@
       },
       {
         "Id": 6527,
-        "FrameColor": "black",
         "Name": "Wine cellar #6527",
-        "Color": "black",
         "Connections": {
           "Up": 6526,
           "Down": 2065
@@ -482,9 +431,7 @@
       },
       {
         "Id": 6528,
-        "FrameColor": "black",
         "Name": "Stairs in castle #6528",
-        "Color": "black",
         "Connections": {
           "Down": 6525,
           "Up": 6529
@@ -498,9 +445,7 @@
       },
       {
         "Id": 6529,
-        "FrameColor": "black",
         "Name": "Stairs #6529",
-        "Color": "black",
         "Connections": {
           "Down": 6528,
           "Up": 6530
@@ -518,9 +463,7 @@
       },
       {
         "Id": 6530,
-        "FrameColor": "black",
         "Name": "Top of stairs #6530",
-        "Color": "black",
         "Connections": {
           "Down": 6529,
           "East": 6531
@@ -534,9 +477,7 @@
       },
       {
         "Id": 6531,
-        "FrameColor": "black",
         "Name": "Queen\u0027s waiting room #6531",
-        "Color": "black",
         "Connections": {
           "West": 6530,
           "North": 6532
@@ -554,18 +495,14 @@
       },
       {
         "Id": 6532,
-        "FrameColor": "black",
         "Name": "Bedroom #6532",
-        "Color": "black",
         "Connections": {
           "South": 6531
         }
       },
       {
         "Id": 6534,
-        "FrameColor": "black",
         "Name": "Hospital #6534",
-        "Color": "black",
         "Connections": {
           "South": 6519
         },
@@ -586,9 +523,7 @@
       },
       {
         "Id": 6535,
-        "FrameColor": "black",
         "Name": "Granite Head\u0027s Bakery #6535",
-        "Color": "black",
         "Connections": {
           "East": 6517
         },
@@ -601,12 +536,11 @@
       },
       {
         "Id": 6540,
-        "FrameColor": "black",
         "Name": "Dark path #6540",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 6541,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -632,13 +566,12 @@
       },
       {
         "Id": 6541,
-        "FrameColor": "black",
         "Name": "Mine entrance #6541",
-        "Color": "black",
         "Connections": {
           "Down": 6542,
           "West": {
             "RoomId": 6540,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -652,9 +585,7 @@
       },
       {
         "Id": 6542,
-        "FrameColor": "black",
         "Name": "Inside the mine #6542",
-        "Color": "black",
         "Connections": {
           "Up": 6541,
           "Down": 6554
@@ -668,9 +599,7 @@
       },
       {
         "Id": 6543,
-        "FrameColor": "black",
         "Name": "Path in the mine #6543",
-        "Color": "black",
         "Connections": {
           "West": 6554,
           "East": 6544
@@ -692,14 +621,13 @@
       },
       {
         "Id": 6544,
-        "FrameColor": "black",
         "Name": "Mine crossroad #6544",
-        "Color": "black",
         "Connections": {
           "East": 6545,
           "West": 6543,
           "North": {
             "RoomId": 6546,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -714,21 +642,18 @@
       },
       {
         "Id": 6545,
-        "FrameColor": "black",
         "Name": "Coal Room #6545",
-        "Color": "black",
         "Connections": {
           "West": 6544
         }
       },
       {
         "Id": 6546,
-        "FrameColor": "black",
         "Name": "Mine Maze #6546",
-        "Color": "black",
         "Connections": {
           "South": {
             "RoomId": 6544,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -743,9 +668,7 @@
       },
       {
         "Id": 6547,
-        "FrameColor": "black",
         "Name": "Maze inscription #6547",
-        "Color": "black",
         "Connections": {
           "North": 6548,
           "West": 6546
@@ -753,9 +676,7 @@
       },
       {
         "Id": 6548,
-        "FrameColor": "black",
         "Name": "Maze #6548",
-        "Color": "black",
         "Connections": {
           "North": 6549,
           "South": 6547
@@ -769,9 +690,7 @@
       },
       {
         "Id": 6549,
-        "FrameColor": "black",
         "Name": "Maze #6549",
-        "Color": "black",
         "Connections": {
           "North": 6550,
           "West": 6548
@@ -785,9 +704,7 @@
       },
       {
         "Id": 6550,
-        "FrameColor": "black",
         "Name": "Maze #6550",
-        "Color": "black",
         "Connections": {
           "South": 6549,
           "West": 6552
@@ -795,18 +712,14 @@
       },
       {
         "Id": 6551,
-        "FrameColor": "black",
         "Name": "Mining equipment room #6551",
-        "Color": "black",
         "Connections": {
           "North": 6544
         }
       },
       {
         "Id": 6552,
-        "FrameColor": "black",
         "Name": "Solved the Maze. #6552",
-        "Color": "black",
         "Connections": {
           "East": 6550,
           "West": 6553
@@ -814,9 +727,7 @@
       },
       {
         "Id": 6553,
-        "FrameColor": "black",
         "Name": "The Mazekeeper\u0027s Room #6553",
-        "Color": "black",
         "Connections": {
           "East": 6552
         },
@@ -829,9 +740,7 @@
       },
       {
         "Id": 6554,
-        "FrameColor": "black",
         "Name": "Bottom of mineshaft #6554",
-        "Color": "black",
         "Connections": {
           "Up": 6542,
           "East": 6543

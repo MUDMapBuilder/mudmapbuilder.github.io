@@ -5,13 +5,10 @@
     "MinimumLevel": "4",
     "MaximumLevel": "25",
     "BackgroundColor": "white",
-    "ConnectionsColor": "black",
     "Rooms": [
       {
         "Id": 900,
-        "FrameColor": "black",
         "Name": "On The Swift Flowing River #900",
-        "Color": "black",
         "Connections": {
           "East": 3200,
           "West": 901
@@ -19,9 +16,7 @@
       },
       {
         "Id": 901,
-        "FrameColor": "black",
         "Name": "The Riverbank #901",
-        "Color": "black",
         "Connections": {
           "North": 6120,
           "East": 900,
@@ -30,9 +25,7 @@
       },
       {
         "Id": 902,
-        "FrameColor": "black",
         "Name": "The Twisty Part Of The River #902",
-        "Color": "black",
         "Connections": {
           "East": 901,
           "South": 903
@@ -40,9 +33,7 @@
       },
       {
         "Id": 903,
-        "FrameColor": "black",
         "Name": "The Scenic Route #903",
-        "Color": "black",
         "Connections": {
           "East": 902,
           "West": 904
@@ -50,9 +41,7 @@
       },
       {
         "Id": 904,
-        "FrameColor": "black",
         "Name": "The Swift River Delta #904",
-        "Color": "black",
         "Connections": {
           "North": 911,
           "East": 903,
@@ -62,9 +51,7 @@
       },
       {
         "Id": 905,
-        "FrameColor": "black",
         "Name": "Near The Rocks #905",
-        "Color": "black",
         "Connections": {
           "East": 904,
           "South": 906
@@ -72,9 +59,7 @@
       },
       {
         "Id": 906,
-        "FrameColor": "black",
         "Name": "The South River Delta #906",
-        "Color": "black",
         "Connections": {
           "North": 905,
           "East": 904,
@@ -84,9 +69,7 @@
       },
       {
         "Id": 907,
-        "FrameColor": "black",
         "Name": "The Pier #907",
-        "Color": "black",
         "Connections": {
           "North": 906,
           "West": 908
@@ -94,9 +77,7 @@
       },
       {
         "Id": 908,
-        "FrameColor": "black",
         "Name": "Mired In Seaweed #908",
-        "Color": "black",
         "Connections": {
           "North": 906,
           "East": 907,
@@ -115,9 +96,7 @@
       },
       {
         "Id": 909,
-        "FrameColor": "black",
         "Name": "The Last Stop #909",
-        "Color": "black",
         "Connections": {
           "North": 910,
           "East": 908
@@ -135,9 +114,7 @@
       },
       {
         "Id": 910,
-        "FrameColor": "black",
         "Name": "The Beach Head #910",
-        "Color": "black",
         "Connections": {
           "South": 909
         },
@@ -154,9 +131,7 @@
       },
       {
         "Id": 911,
-        "FrameColor": "black",
         "Name": "The North Channel #911",
-        "Color": "black",
         "Connections": {
           "North": 912,
           "South": 904,
@@ -165,9 +140,7 @@
       },
       {
         "Id": 912,
-        "FrameColor": "black",
         "Name": "The North Channel #912",
-        "Color": "black",
         "Connections": {
           "East": 911,
           "South": 911,
@@ -176,9 +149,7 @@
       },
       {
         "Id": 913,
-        "FrameColor": "black",
         "Name": "Near The Isle #913",
-        "Color": "black",
         "Connections": {
           "East": 912,
           "South": 914
@@ -186,9 +157,7 @@
       },
       {
         "Id": 914,
-        "FrameColor": "black",
         "Name": "The Lane Of The Lying #914",
-        "Color": "black",
         "Connections": {
           "North": 913,
           "South": 915
@@ -196,9 +165,7 @@
       },
       {
         "Id": 915,
-        "FrameColor": "black",
         "Name": "The First Trial Of Minos #915",
-        "Color": "black",
         "Connections": {
           "East": 916
         },
@@ -219,9 +186,7 @@
       },
       {
         "Id": 916,
-        "FrameColor": "black",
         "Name": "The Second Trial Of Minos #916",
-        "Color": "black",
         "Connections": {
           "South": 917
         },
@@ -238,9 +203,7 @@
       },
       {
         "Id": 917,
-        "FrameColor": "black",
         "Name": "The Third Trial Of Minos #917",
-        "Color": "black",
         "Connections": {
           "East": 918
         },
@@ -253,9 +216,7 @@
       },
       {
         "Id": 918,
-        "FrameColor": "black",
         "Name": "The Fourth Trial Of Minos #918",
-        "Color": "black",
         "Connections": {
           "South": 919
         },
@@ -268,9 +229,7 @@
       },
       {
         "Id": 919,
-        "FrameColor": "black",
         "Name": "The Fifth Trial Of Minos #919",
-        "Color": "black",
         "Connections": {
           "East": 920
         },
@@ -283,9 +242,7 @@
       },
       {
         "Id": 920,
-        "FrameColor": "black",
         "Name": "The Sixth Trial Of Minos #920",
-        "Color": "black",
         "Connections": {
           "South": 921,
           "Up": 923
@@ -303,12 +260,11 @@
       },
       {
         "Id": 921,
-        "FrameColor": "black",
         "Name": "The Final Trial Of Minos #921",
-        "Color": "black",
         "Connections": {
           "East": {
             "RoomId": 922,
+            "Color": "indianred",
             "IsDoor": true,
             "DoorColor": "indianred",
             "DoorSigns": [
@@ -328,18 +284,14 @@
       },
       {
         "Id": 922,
-        "FrameColor": "black",
         "Name": "The Royal Chamber #922",
-        "Color": "black",
         "Connections": {
           "Up": 910
         }
       },
       {
         "Id": 923,
-        "FrameColor": "black",
         "Name": "Above, On The Beach #923",
-        "Color": "black",
         "Connections": {
           "Down": 910
         }
