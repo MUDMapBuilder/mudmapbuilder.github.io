@@ -1,0 +1,807 @@
+{
+  "Area": {
+    "Name": "ClansArea",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 400,
+        "Name": "Index for ClansArea #400",
+        "Connections": {
+          "South": 3070
+        }
+      },
+      {
+        "Id": 401,
+        "Name": "Threshold to the Bastion #401",
+        "Connections": {
+          "North": 402,
+          "South": 3070
+        }
+      },
+      {
+        "Id": 402,
+        "Name": "The Flourishing Courtyard #402",
+        "Connections": {
+          "East": 405,
+          "South": 401,
+          "West": 403
+        }
+      },
+      {
+        "Id": 403,
+        "Name": "The Schoolhouse #403",
+        "Connections": {
+          "East": 402,
+          "West": 404
+        }
+      },
+      {
+        "Id": 404,
+        "Name": "A Comfortable Library #404",
+        "Connections": {
+          "East": 403
+        }
+      },
+      {
+        "Id": 405,
+        "Name": "Base of the Tower #405",
+        "Connections": {
+          "West": 402,
+          "Up": 406,
+          "Down": 408
+        }
+      },
+      {
+        "Id": 406,
+        "Name": "Tower of the Aberrant #406",
+        "Connections": {
+          "East": 411,
+          "West": 410,
+          "Up": 407,
+          "Down": 405
+        }
+      },
+      {
+        "Id": 407,
+        "Name": "Tower of the Aberrant #407",
+        "Connections": {
+          "North": 409,
+          "East": 412,
+          "South": 414,
+          "West": 413,
+          "Up": {
+            "RoomId": 415,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 406
+        }
+      },
+      {
+        "Id": 408,
+        "Name": "Underwater Tomb #408",
+        "Connections": {
+          "Up": 405
+        }
+      },
+      {
+        "Id": 409,
+        "Name": "Secret\u0027s Office #409",
+        "Connections": {
+          "South": 407
+        }
+      },
+      {
+        "Id": 410,
+        "Name": "NightOwl and Dark\u0027s Dungeon #410",
+        "Connections": {
+          "East": 406
+        }
+      },
+      {
+        "Id": 411,
+        "Name": "Living Quarters of SadPanda and Pleb #411",
+        "Connections": {
+          "West": 406
+        }
+      },
+      {
+        "Id": 412,
+        "Name": "SeeSaw\u0027s Playground. #412",
+        "Connections": {
+          "West": 407
+        }
+      },
+      {
+        "Id": 413,
+        "Name": "The Great Hall of Theorin #413",
+        "Connections": {
+          "East": 407
+        }
+      },
+      {
+        "Id": 414,
+        "Name": "Bart\u0027s Room #414",
+        "Connections": {
+          "North": 407
+        }
+      },
+      {
+        "Id": 415,
+        "Name": "The Tolling of the Bells #415",
+        "Connections": {
+          "Down": {
+            "RoomId": 407,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 416,
+        "Name": "Crimson Guard entrance #416",
+        "Connections": {
+          "East": 417,
+          "Down": 3070
+        }
+      },
+      {
+        "Id": 417,
+        "Name": "Crimson Guard assembly room #417",
+        "Connections": {
+          "West": 416
+        }
+      },
+      {
+        "Id": 418,
+        "Name": "This could be yours. #418",
+        "Connections": {
+          "West": 429
+        }
+      },
+      {
+        "Id": 419,
+        "Name": "Temple of Pain #419",
+        "Connections": {
+          "East": 429
+        }
+      },
+      {
+        "Id": 420,
+        "Name": "unused #420",
+        "Connections": {
+          "North": 421,
+          "East": 422,
+          "South": 419,
+          "West": 412
+        }
+      },
+      {
+        "Id": 421,
+        "Name": "Entrance to the Caern of the Wyrm #421",
+        "Connections": {
+          "North": 422,
+          "Down": 3070
+        }
+      },
+      {
+        "Id": 422,
+        "Name": "Altar to the Wyrm #422",
+        "Connections": {
+          "East": 424,
+          "South": 421,
+          "West": 423
+        }
+      },
+      {
+        "Id": 423,
+        "Name": "The Moonbridge #423",
+        "Connections": {
+          "East": 422
+        }
+      },
+      {
+        "Id": 424,
+        "Name": "The Hall of Blood #424",
+        "Connections": {
+          "North": 425,
+          "West": 422
+        }
+      },
+      {
+        "Id": 425,
+        "Name": "The Bane\u0027s Throneroom #425",
+        "Connections": {
+          "South": 424
+        }
+      },
+      {
+        "Id": 426,
+        "Name": "Palace of Ataraxia Foyer #426",
+        "Connections": {
+          "Up": 429,
+          "Down": 3008
+        }
+      },
+      {
+        "Id": 427,
+        "Name": "Timeless Treasures #427",
+        "Connections": {
+          "East": 437
+        }
+      },
+      {
+        "Id": 428,
+        "Name": "the end is near #428",
+        "Connections": {
+          "West": 437
+        }
+      },
+      {
+        "Id": 429,
+        "Name": "Second Floor Lounge #429",
+        "Connections": {
+          "East": 418,
+          "West": 419,
+          "Down": 436
+        }
+      },
+      {
+        "Id": 430,
+        "Name": "The Garden Labyrinth of Ataraxia #430",
+        "Connections": {
+          "North": 426,
+          "Down": 438
+        }
+      },
+      {
+        "Id": 431,
+        "Name": "Entry Way #431",
+        "Connections": {
+          "North": 432,
+          "East": 433,
+          "South": 435,
+          "West": 434,
+          "Down": 3070
+        }
+      },
+      {
+        "Id": 432,
+        "Name": "Council Room #432",
+        "Connections": {
+          "South": 431
+        }
+      },
+      {
+        "Id": 433,
+        "Name": "Hall of History #433",
+        "Connections": {
+          "West": 431
+        }
+      },
+      {
+        "Id": 434,
+        "Name": "Rose Bush #434",
+        "Connections": {
+          "East": 431
+        }
+      },
+      {
+        "Id": 435,
+        "Name": "Armory #435",
+        "Connections": {
+          "North": 431
+        }
+      },
+      {
+        "Id": 436,
+        "Name": "Black Tower of the Brotherless #436",
+        "Connections": {
+          "Up": 429,
+          "Down": 3008
+        }
+      },
+      {
+        "Id": 437,
+        "Name": "Room of sorts #437",
+        "Connections": {
+          "East": 428,
+          "South": 426,
+          "West": 427,
+          "Down": 3008
+        }
+      },
+      {
+        "Id": 438,
+        "Name": "Saddam Hussein\u0027s spider hole #438",
+        "Connections": {
+          "Up": 430
+        }
+      },
+      {
+        "Id": 439,
+        "Name": "The Caddyshack Board Room #439",
+        "Connections": {
+          "North": 471
+        }
+      },
+      {
+        "Id": 440,
+        "Name": "Tetragrammaton Council #440",
+        "Connections": {
+          "Down": 441
+        }
+      },
+      {
+        "Id": 441,
+        "Name": "Entrance Hall #441",
+        "Connections": {
+          "North": 442,
+          "South": 3070,
+          "Up": 440,
+          "Down": 445
+        }
+      },
+      {
+        "Id": 442,
+        "Name": "Fountain Rest Lounge #442",
+        "Connections": {
+          "East": 444,
+          "South": 441,
+          "West": 443
+        }
+      },
+      {
+        "Id": 443,
+        "Name": "Board Room #443",
+        "Connections": {
+          "East": 442
+        }
+      },
+      {
+        "Id": 444,
+        "Name": "War Council Room #444",
+        "Connections": {
+          "West": 442
+        }
+      },
+      {
+        "Id": 445,
+        "Name": "The White Garden #445",
+        "Connections": {
+          "Up": 441
+        }
+      },
+      {
+        "Id": 446,
+        "Name": "Great Hall of The Caddyshack #446",
+        "Connections": {
+          "North": 450,
+          "East": 447,
+          "South": 471
+        }
+      },
+      {
+        "Id": 447,
+        "Name": "The Caddyshack Cafeteria #447",
+        "Connections": {
+          "West": 446
+        }
+      },
+      {
+        "Id": 448,
+        "Name": "Head Greenskeeper Office #448",
+        "Connections": {
+          "West": 449
+        }
+      },
+      {
+        "Id": 449,
+        "Name": "Great Hall of The Caddyshack #449",
+        "Connections": {
+          "East": 448,
+          "South": 450
+        }
+      },
+      {
+        "Id": 450,
+        "Name": "Great Hall of The Caddyshack #450",
+        "Connections": {
+          "North": 449,
+          "South": 446
+        }
+      },
+      {
+        "Id": 451,
+        "Name": "Entrance #451",
+        "Connections": {
+          "Down": 3070
+        }
+      },
+      {
+        "Id": 452,
+        "Name": "Board Room #452",
+        "Connections": {
+          "West": 451
+        }
+      },
+      {
+        "Id": 453,
+        "Name": "Donation Room #453",
+        "Connections": {
+          "East": 451,
+          "Down": 456
+        }
+      },
+      {
+        "Id": 454,
+        "Name": "Council Meeting Room #454",
+        "Connections": {
+          "North": 451
+        }
+      },
+      {
+        "Id": 455,
+        "Name": "Blood-Bath #455",
+        "Connections": {
+          "South": 451
+        }
+      },
+      {
+        "Id": 456,
+        "Name": "Quest Room #456",
+        "Connections": {
+          "Up": 453
+        }
+      },
+      {
+        "Id": 457,
+        "Name": "unused #457",
+        "Connections": {}
+      },
+      {
+        "Id": 458,
+        "Name": "unused #458",
+        "Connections": {}
+      },
+      {
+        "Id": 459,
+        "Name": "unused #459",
+        "Connections": {}
+      },
+      {
+        "Id": 460,
+        "Name": "Entrance hall to the Order of the Black Hand #460",
+        "Connections": {
+          "North": 461,
+          "Down": 3070
+        }
+      },
+      {
+        "Id": 461,
+        "Name": "Resting and Relaxation Room #461",
+        "Connections": {
+          "North": 463,
+          "East": 462,
+          "South": 460,
+          "West": 464
+        }
+      },
+      {
+        "Id": 462,
+        "Name": "Black Hand Donation Room #462",
+        "Connections": {
+          "West": 461
+        }
+      },
+      {
+        "Id": 463,
+        "Name": "Order of the Black Hand #463",
+        "Connections": {
+          "East": 465,
+          "South": 461,
+          "West": 466,
+          "Down": 467
+        }
+      },
+      {
+        "Id": 464,
+        "Name": "Assembly Hall #464",
+        "Connections": {
+          "East": 461
+        }
+      },
+      {
+        "Id": 465,
+        "Name": "Wawa\u0027s Private Abode #465",
+        "Connections": {
+          "West": 463
+        }
+      },
+      {
+        "Id": 466,
+        "Name": "Raistlin\u0027s Chamber of Infinity #466",
+        "Connections": {
+          "East": 465
+        }
+      },
+      {
+        "Id": 467,
+        "Name": "Gorbash\u0027s Den #467",
+        "Connections": {
+          "Up": 463
+        }
+      },
+      {
+        "Id": 468,
+        "Name": "unused #468",
+        "Connections": {}
+      },
+      {
+        "Id": 469,
+        "Name": "FuNkY sTaIrWaY #469",
+        "Connections": {
+          "West": 497,
+          "Up": 474,
+          "Down": 492
+        }
+      },
+      {
+        "Id": 470,
+        "Name": "unused #470",
+        "Connections": {}
+      },
+      {
+        "Id": 471,
+        "Name": "Great Hall of The Caddyshack #471",
+        "Connections": {
+          "North": 446,
+          "East": 473,
+          "South": 439,
+          "West": 472,
+          "Down": 3008
+        }
+      },
+      {
+        "Id": 472,
+        "Name": "The Caddyshack Locker Room #472",
+        "Connections": {
+          "East": 471
+        }
+      },
+      {
+        "Id": 473,
+        "Name": "The Caddyshack Pro Shop #473",
+        "Connections": {
+          "West": 471
+        }
+      },
+      {
+        "Id": 474,
+        "Name": "MeRcYs FuNkTaSiA. #474",
+        "Connections": {
+          "East": 497,
+          "Down": 469
+        }
+      },
+      {
+        "Id": 475,
+        "Name": "Tactics Room #475",
+        "Connections": {
+          "North": 471
+        }
+      },
+      {
+        "Id": 476,
+        "Name": "Tomb of Shadow\u0027s Edge #476",
+        "Connections": {
+          "Up": 474
+        }
+      },
+      {
+        "Id": 477,
+        "Name": "ChUrCh Of FuNk #477",
+        "Connections": {
+          "East": 3008,
+          "Up": 478
+        }
+      },
+      {
+        "Id": 478,
+        "Name": "FuNkY sTaIrWaY #478",
+        "Connections": {
+          "Up": 479,
+          "Down": 477
+        }
+      },
+      {
+        "Id": 479,
+        "Name": "FuNkY sTaIrWaY #479",
+        "Connections": {
+          "West": 495,
+          "Up": 469,
+          "Down": 493
+        }
+      },
+      {
+        "Id": 480,
+        "Name": "A dark cave. #480",
+        "Connections": {
+          "North": 481,
+          "South": 3070
+        }
+      },
+      {
+        "Id": 481,
+        "Name": "Entrance to the Hall of the Wolves. #481",
+        "Connections": {
+          "North": 482,
+          "East": 485,
+          "South": 480,
+          "West": 483
+        }
+      },
+      {
+        "Id": 482,
+        "Name": "The Great Hall of the Wolf #482",
+        "Connections": {
+          "South": 481,
+          "Down": 491
+        }
+      },
+      {
+        "Id": 483,
+        "Name": "War room of the Wolf #483",
+        "Connections": {
+          "East": 481
+        }
+      },
+      {
+        "Id": 484,
+        "Name": "The Wolf\u0027s Den #484",
+        "Connections": {
+          "East": 490
+        }
+      },
+      {
+        "Id": 485,
+        "Name": "The Garden of Gaia #485",
+        "Connections": {
+          "East": 489,
+          "South": 490,
+          "West": 481,
+          "Up": 486
+        }
+      },
+      {
+        "Id": 486,
+        "Name": "The Mountain trail #486",
+        "Connections": {
+          "Up": 488,
+          "Down": 485
+        }
+      },
+      {
+        "Id": 487,
+        "Name": "The Cret of Mount Wolf #487",
+        "Connections": {
+          "South": 488
+        }
+      },
+      {
+        "Id": 488,
+        "Name": "The Mountain Trail #488",
+        "Connections": {
+          "North": 487,
+          "Down": 486
+        }
+      },
+      {
+        "Id": 489,
+        "Name": "The Shrine of Gaia #489",
+        "Connections": {
+          "West": 485
+        }
+      },
+      {
+        "Id": 490,
+        "Name": "The Baths of Gaia #490",
+        "Connections": {
+          "North": 485,
+          "West": 484
+        }
+      },
+      {
+        "Id": 491,
+        "Name": "The Council Room of Clan Wolf #491",
+        "Connections": {
+          "Up": 482
+        }
+      },
+      {
+        "Id": 492,
+        "Name": "FuNkY sTaIrWaY #492",
+        "Connections": {
+          "East": 496,
+          "West": 479,
+          "Up": 498,
+          "Down": 493
+        }
+      },
+      {
+        "Id": 493,
+        "Name": "FuNkY sTaIrWaY #493",
+        "Connections": {
+          "East": 494,
+          "Up": 479,
+          "Down": 477
+        }
+      },
+      {
+        "Id": 494,
+        "Name": "Casa de Ramza #494",
+        "Connections": {
+          "West": 493
+        }
+      },
+      {
+        "Id": 495,
+        "Name": "Corey\u0027s Room #495",
+        "Connections": {
+          "East": 479
+        }
+      },
+      {
+        "Id": 496,
+        "Name": "@----- Peeberoni\u0027s Room @----- #496",
+        "Connections": {
+          "West": 492
+        }
+      },
+      {
+        "Id": 497,
+        "Name": "Polyandrium of euphoria #497",
+        "Connections": {
+          "East": 469,
+          "West": 474
+        }
+      },
+      {
+        "Id": 498,
+        "Name": "[Box of Under] #498",
+        "Connections": {
+          "Down": 492
+        }
+      },
+      {
+        "Id": 499,
+        "Name": "Between Worlds #499",
+        "Connections": {}
+      },
+      {
+        "Id": 3070,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3070",
+        "Color": "blue",
+        "Connections": {
+          "Down": 3025
+        }
+      },
+      {
+        "Id": 3008,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3008",
+        "Color": "blue",
+        "Connections": {
+          "North": 100,
+          "Up": 3000,
+          "Down": 3006
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1261 @@
+{
+  "Area": {
+    "Name": "OverlordLair",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 5300,
+        "Name": "Entrance to the Overlord\u0027s Lair #5300",
+        "Connections": {
+          "North": 17687,
+          "South": 5301
+        }
+      },
+      {
+        "Id": 5301,
+        "Name": "Hallway #5301",
+        "Connections": {
+          "North": 5300,
+          "East": 5302,
+          "South": 5304,
+          "West": 5303
+        },
+        "Contents": [
+          {
+            "Text": "a demiservant #5300",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5302,
+        "Name": "Embassary\u0027s Chamber #5302",
+        "Connections": {
+          "West": 5301
+        },
+        "Contents": [
+          {
+            "Text": "an embassary #5302",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5303,
+        "Name": "Guards\u0027 Chamber #5303",
+        "Connections": {
+          "East": 5301
+        },
+        "Contents": [
+          {
+            "Text": "a Keep Guard #5301",
+            "Color": "green"
+          },
+          {
+            "Text": "a Keep Guard #5301",
+            "Color": "green"
+          },
+          {
+            "Text": "a Keep Guard #5301",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5304,
+        "Name": "Hallway #5304",
+        "Connections": {
+          "North": 5301,
+          "East": 5305,
+          "South": 5309,
+          "West": 5306
+        },
+        "Contents": [
+          {
+            "Text": "a demiservant #5300",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5305,
+        "Name": "Embassary\u0027s Chamber #5305",
+        "Connections": {
+          "West": 5304
+        },
+        "Contents": [
+          {
+            "Text": "Kuo Kan the embassary of old #5314",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5306,
+        "Name": "Embassary\u0027s Chamber #5306",
+        "Connections": {
+          "East": 5304,
+          "West": {
+            "RoomId": 5307,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an embassary #5302",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5307,
+        "Name": "Down #5307",
+        "Connections": {
+          "East": {
+            "RoomId": 5306,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 5308
+        }
+      },
+      {
+        "Id": 5308,
+        "Name": "Down #5308",
+        "Connections": {
+          "Up": 5307,
+          "Down": 5325
+        }
+      },
+      {
+        "Id": 5309,
+        "Name": "Intersection #5309",
+        "Connections": {
+          "North": 5304,
+          "East": 5315,
+          "South": 5310,
+          "West": 5312
+        }
+      },
+      {
+        "Id": 5310,
+        "Name": "Hallway #5310",
+        "Connections": {
+          "North": 5309,
+          "South": 5318,
+          "West": 5311
+        },
+        "Contents": [
+          {
+            "Text": "a demiservant #5300",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5311,
+        "Name": "Wizard\u0027s Chamber #5311",
+        "Connections": {
+          "East": 5310
+        },
+        "Contents": [
+          {
+            "Text": "an old Wizard #5304",
+            "Color": "green"
+          },
+          {
+            "Text": "the wizard\u0027s black cat #5321",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5312,
+        "Name": "West Hall #5312",
+        "Connections": {
+          "East": 5309,
+          "West": 5313
+        }
+      },
+      {
+        "Id": 5313,
+        "Name": "Overlord\u0027s Library #5313",
+        "Connections": {
+          "East": 5312,
+          "South": 5314
+        }
+      },
+      {
+        "Id": 5314,
+        "Name": "Hidden Library #5314",
+        "Connections": {
+          "North": 5313
+        },
+        "Contents": [
+          {
+            "Text": "an apparition #5323",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5315,
+        "Name": "East Hall #5315",
+        "Connections": {
+          "East": 5316,
+          "West": 5309
+        }
+      },
+      {
+        "Id": 5316,
+        "Name": "Servant\u0027s Concourse #5316",
+        "Connections": {
+          "North": 5317,
+          "East": 5412,
+          "South": 5321,
+          "West": 5315
+        },
+        "Contents": [
+          {
+            "Text": "a demiservant #5300",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5317,
+        "Name": "Servant\u0027s Quarters #5317",
+        "Connections": {
+          "South": 5316
+        },
+        "Contents": [
+          {
+            "Text": "a demiservant #5300",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5318,
+        "Name": "Before the Throne Room of the Overlord #5318",
+        "Connections": {
+          "North": 5310,
+          "East": 5319,
+          "South": 5323
+        }
+      },
+      {
+        "Id": 5319,
+        "Name": "Anteroom #5319",
+        "Connections": {
+          "East": 5320,
+          "West": 5318
+        }
+      },
+      {
+        "Id": 5320,
+        "Name": "Servants\u0027 Concourse #5320",
+        "Connections": {
+          "North": 5321,
+          "South": 5322,
+          "West": 5319
+        }
+      },
+      {
+        "Id": 5321,
+        "Name": "Servants\u0027 Concourse #5321",
+        "Connections": {
+          "North": 5316,
+          "East": 5411,
+          "South": 5320
+        },
+        "Contents": [
+          {
+            "Text": "a demiservant #5300",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5322,
+        "Name": "James\u0027 Personal Quarters #5322",
+        "Connections": {
+          "North": 5320
+        },
+        "Contents": [
+          {
+            "Text": "James #5305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5323,
+        "Name": "Throne Room of the Overlord #5323",
+        "Connections": {
+          "North": 5318,
+          "East": 5324
+        },
+        "Contents": [
+          {
+            "Text": "the Overlord #5315",
+            "Color": "red"
+          },
+          {
+            "Text": "the Demiwolf #5320",
+            "Color": "green"
+          },
+          {
+            "Text": "the Demiwolf #5320",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5324,
+        "Name": "Living Room #5324",
+        "Connections": {
+          "South": 5413,
+          "West": 5323
+        }
+      },
+      {
+        "Id": 5325,
+        "Name": "Entrance to the Underground Mines #5325",
+        "Connections": {
+          "East": 5330,
+          "South": 5329,
+          "West": 5326,
+          "Up": 5308
+        }
+      },
+      {
+        "Id": 5326,
+        "Name": "Duerger Mines #5326",
+        "Connections": {
+          "East": 5325,
+          "South": 5327
+        }
+      },
+      {
+        "Id": 5327,
+        "Name": "Duerger Mines #5327",
+        "Connections": {
+          "North": 5326,
+          "South": 5328
+        }
+      },
+      {
+        "Id": 5328,
+        "Name": "Dead End #5328",
+        "Connections": {
+          "North": 5327
+        }
+      },
+      {
+        "Id": 5329,
+        "Name": "Supply room #5329",
+        "Connections": {
+          "North": 5325
+        }
+      },
+      {
+        "Id": 5330,
+        "Name": "Duergar mines #5330",
+        "Connections": {
+          "East": 5331,
+          "West": 5325
+        }
+      },
+      {
+        "Id": 5331,
+        "Name": "Duergar mines #5331",
+        "Connections": {
+          "East": 5332,
+          "West": 5330
+        },
+        "Contents": [
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5332,
+        "Name": "Duergar mines #5332",
+        "Connections": {
+          "South": 5333,
+          "West": 5331
+        }
+      },
+      {
+        "Id": 5333,
+        "Name": "Duergar mines #5333",
+        "Connections": {
+          "North": 5332,
+          "South": 5335,
+          "West": 5334
+        }
+      },
+      {
+        "Id": 5334,
+        "Name": "Duerger Mines #5334",
+        "Connections": {
+          "East": 5333
+        },
+        "Contents": [
+          {
+            "Text": "a Duergar #5322",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5335,
+        "Name": "Duergar mines #5335",
+        "Connections": {
+          "North": 5333,
+          "South": 5336,
+          "Down": 5337
+        }
+      },
+      {
+        "Id": 5336,
+        "Name": "Hobart\u0027s Room #5336",
+        "Connections": {
+          "North": 5335
+        },
+        "Contents": [
+          {
+            "Text": "Hobart the Hobgoblin #5307",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5337,
+        "Name": "Dark Shaft #5337",
+        "Connections": {
+          "South": 5339,
+          "Up": 5335,
+          "Down": 5338
+        }
+      },
+      {
+        "Id": 5338,
+        "Name": "Duerger Mines #5338",
+        "Connections": {
+          "Up": 5337
+        }
+      },
+      {
+        "Id": 5339,
+        "Name": "Duergar mines #5339",
+        "Connections": {
+          "North": 5337,
+          "South": 5340
+        },
+        "Contents": [
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          },
+          {
+            "Text": "a Duergar #5322",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5340,
+        "Name": "Duergar mines #5340",
+        "Connections": {
+          "North": 5339,
+          "East": 5341,
+          "South": 5342
+        }
+      },
+      {
+        "Id": 5341,
+        "Name": "Small diamond mine #5341",
+        "Connections": {
+          "West": 5340
+        },
+        "Contents": [
+          {
+            "Text": "the Mine leader #5310",
+            "Color": "red"
+          },
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          },
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5342,
+        "Name": "South mines #5342",
+        "Connections": {
+          "North": 5340,
+          "South": 5344,
+          "West": 5343
+        }
+      },
+      {
+        "Id": 5343,
+        "Name": "The Toilet #5343",
+        "Connections": {
+          "East": 5342
+        },
+        "Contents": [
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5344,
+        "Name": "South mines #5344",
+        "Connections": {
+          "North": 5342,
+          "East": 5345,
+          "South": 5348,
+          "West": 5347
+        },
+        "Contents": [
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5345,
+        "Name": "South mines #5345",
+        "Connections": {
+          "East": 5346,
+          "West": 5344
+        }
+      },
+      {
+        "Id": 5346,
+        "Name": "Diamond Mine #5346",
+        "Connections": {
+          "West": 5345
+        },
+        "Contents": [
+          {
+            "Text": "the Mine leader #5310",
+            "Color": "red"
+          },
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          },
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          },
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5347,
+        "Name": "A bend in the passage #5347",
+        "Connections": {
+          "East": 5344,
+          "South": 5349
+        }
+      },
+      {
+        "Id": 5348,
+        "Name": "Grimvare\u0027s Green Moss Temple #5348",
+        "Connections": {
+          "North": 5344
+        },
+        "Contents": [
+          {
+            "Text": "Grimvare #5309",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5349,
+        "Name": "West mines #5349",
+        "Connections": {
+          "North": 5347,
+          "West": 5350
+        }
+      },
+      {
+        "Id": 5350,
+        "Name": "West mines #5350",
+        "Connections": {
+          "East": 5349,
+          "South": 5351,
+          "West": 5353,
+          "Down": 1903
+        }
+      },
+      {
+        "Id": 5351,
+        "Name": "West mines #5351",
+        "Connections": {
+          "North": 5350,
+          "East": 5352
+        }
+      },
+      {
+        "Id": 5352,
+        "Name": "Room of the Wraith #5352",
+        "Connections": {
+          "West": 5351
+        },
+        "Contents": [
+          {
+            "Text": "the lesser Wraith #5311",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5353,
+        "Name": "West mines #5353",
+        "Connections": {
+          "East": 5350,
+          "West": 5354
+        }
+      },
+      {
+        "Id": 5354,
+        "Name": "Before a Great Door #5354",
+        "Connections": {
+          "East": 5353,
+          "South": 5355
+        }
+      },
+      {
+        "Id": 5355,
+        "Name": "The Ancient Hall #5355",
+        "Connections": {
+          "North": 5354,
+          "South": 5356
+        }
+      },
+      {
+        "Id": 5356,
+        "Name": "The Ancient Hall #5356",
+        "Connections": {
+          "North": 5355,
+          "South": 5357
+        }
+      },
+      {
+        "Id": 5357,
+        "Name": "The Ancient Hall #5357",
+        "Connections": {
+          "North": 5356,
+          "East": 5358,
+          "South": 5408,
+          "West": 5361
+        }
+      },
+      {
+        "Id": 5358,
+        "Name": "Before a Great Door #5358",
+        "Connections": {
+          "West": 5357
+        }
+      },
+      {
+        "Id": 5359,
+        "Name": "Antechamber before the Demon Lord #5359",
+        "Connections": {
+          "North": 5410,
+          "South": 5360
+        },
+        "Contents": [
+          {
+            "Text": "Gornath #5308",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5360,
+        "Name": "At the Demon Lord #5360",
+        "Connections": {
+          "North": 5359
+        },
+        "Contents": [
+          {
+            "Text": "Nightmare the Demon Lord #5317",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5361,
+        "Name": "Room of Shulk the Guardian #5361",
+        "Connections": {
+          "East": 5357,
+          "West": 5362
+        },
+        "Contents": [
+          {
+            "Text": "Shulk #5312",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5362,
+        "Name": "Lower tunnel #5362",
+        "Connections": {
+          "North": 5363,
+          "East": 5361
+        }
+      },
+      {
+        "Id": 5363,
+        "Name": "Lower tunnel #5363",
+        "Connections": {
+          "South": 5362,
+          "West": 5364
+        }
+      },
+      {
+        "Id": 5364,
+        "Name": "Lower tunnel #5364",
+        "Connections": {
+          "East": 5363,
+          "Up": 5365
+        }
+      },
+      {
+        "Id": 5365,
+        "Name": "The Underworld #5365",
+        "Connections": {
+          "West": 5366,
+          "Down": 5364
+        }
+      },
+      {
+        "Id": 5366,
+        "Name": "The Underworld #5366",
+        "Connections": {
+          "North": 5367,
+          "East": 5365,
+          "South": 5407,
+          "West": 5371
+        }
+      },
+      {
+        "Id": 5367,
+        "Name": "The Underworld #5367",
+        "Connections": {
+          "North": 5369,
+          "East": 5368,
+          "South": 5366,
+          "West": 5370
+        }
+      },
+      {
+        "Id": 5368,
+        "Name": "Duergar underground home #5368",
+        "Connections": {
+          "West": 5367
+        },
+        "Contents": [
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          },
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5369,
+        "Name": "In a dwelling #5369",
+        "Connections": {
+          "South": 5367
+        },
+        "Contents": [
+          {
+            "Text": "a rat #5324",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5370,
+        "Name": "Pit to the Center of the Earth #5370",
+        "Connections": {}
+      },
+      {
+        "Id": 5371,
+        "Name": "The Underworld #5371",
+        "Connections": {
+          "North": 5370,
+          "East": 5366,
+          "South": 5372,
+          "West": 5373
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #5319",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5372,
+        "Name": "In a dwelling #5372",
+        "Connections": {
+          "North": 5371
+        },
+        "Contents": [
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          },
+          {
+            "Text": "a Duergar #5322",
+            "Color": "red"
+          },
+          {
+            "Text": "a goblin #5319",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5373,
+        "Name": "a bend in the hallway #5373",
+        "Connections": {
+          "North": 5375,
+          "East": 5371,
+          "South": 5374
+        }
+      },
+      {
+        "Id": 5374,
+        "Name": "Planning Chamber #5374",
+        "Connections": {
+          "North": 5373,
+          "West": 5406
+        },
+        "Contents": [
+          {
+            "Text": "a Duergar #5322",
+            "Color": "red"
+          },
+          {
+            "Text": "a goblin #5319",
+            "Color": "green"
+          },
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          },
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5375,
+        "Name": "The Underworld #5375",
+        "Connections": {
+          "North": 5376,
+          "East": 5370,
+          "South": 5373,
+          "West": 5384
+        }
+      },
+      {
+        "Id": 5376,
+        "Name": "The Underworld #5376",
+        "Connections": {
+          "North": 5378,
+          "East": 5377,
+          "South": 5375,
+          "West": 5380
+        }
+      },
+      {
+        "Id": 5377,
+        "Name": "Duergar Captain\u0027s room #5377",
+        "Connections": {
+          "South": 5370,
+          "West": 5376
+        },
+        "Contents": [
+          {
+            "Text": "the Captain of Arms #5313",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5378,
+        "Name": "The Underworld #5378",
+        "Connections": {
+          "North": 5379,
+          "South": 5376,
+          "West": 5381
+        }
+      },
+      {
+        "Id": 5379,
+        "Name": "The Underworld #5379",
+        "Connections": {
+          "North": 5382,
+          "East": 5387,
+          "South": 5378,
+          "West": 5386
+        },
+        "Contents": [
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          },
+          {
+            "Text": "a Duergar #5322",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5380,
+        "Name": "In a dwelling #5380",
+        "Connections": {
+          "East": 5376
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #5319",
+            "Color": "green"
+          },
+          {
+            "Text": "a goblin #5319",
+            "Color": "green"
+          },
+          {
+            "Text": "a goblin #5319",
+            "Color": "green"
+          },
+          {
+            "Text": "a goblin #5319",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5381,
+        "Name": "Duergar underground home #5381",
+        "Connections": {
+          "East": 5378
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #5319",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5382,
+        "Name": "staircase leading up #5382",
+        "Connections": {
+          "South": 5379,
+          "Up": 5383
+        }
+      },
+      {
+        "Id": 5383,
+        "Name": "staircase leading down #5383",
+        "Connections": {
+          "East": 5396,
+          "Down": 5382
+        }
+      },
+      {
+        "Id": 5384,
+        "Name": "The Underworld #5384",
+        "Connections": {
+          "East": 5375,
+          "West": 5385
+        },
+        "Contents": [
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          },
+          {
+            "Text": "a Duergar warrior #5303",
+            "Color": "red"
+          },
+          {
+            "Text": "a Duergar #5322",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5385,
+        "Name": "staircase leading down #5385",
+        "Connections": {
+          "East": 5384,
+          "Down": 5388
+        }
+      },
+      {
+        "Id": 5386,
+        "Name": "A dwelling #5386",
+        "Connections": {
+          "East": 5379
+        }
+      },
+      {
+        "Id": 5387,
+        "Name": "In a dwelling #5387",
+        "Connections": {
+          "West": 5379
+        }
+      },
+      {
+        "Id": 5388,
+        "Name": "Entrance to the Halls of the Warlord #5388",
+        "Connections": {
+          "West": 5389,
+          "Up": 5385
+        }
+      },
+      {
+        "Id": 5389,
+        "Name": "Halls of the Duergar Warlord #5389",
+        "Connections": {
+          "North": 5390,
+          "East": 5388
+        }
+      },
+      {
+        "Id": 5390,
+        "Name": "Halls of the Duergar Warlord #5390",
+        "Connections": {
+          "North": 5391,
+          "South": 5389
+        }
+      },
+      {
+        "Id": 5391,
+        "Name": "The Bridge Underground #5391",
+        "Connections": {
+          "North": 5394,
+          "South": 5390,
+          "Down": 5392
+        }
+      },
+      {
+        "Id": 5392,
+        "Name": "in the dark pool #5392",
+        "Connections": {
+          "North": 5393,
+          "Up": 5391
+        },
+        "Contents": [
+          {
+            "Text": "a water wierd #5318",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5393,
+        "Name": "Treasure room of the Duergar Warlord #5393",
+        "Connections": {
+          "South": 5392
+        }
+      },
+      {
+        "Id": 5394,
+        "Name": "Halls of the Duergar Warlord #5394",
+        "Connections": {
+          "North": 5395,
+          "South": 5391
+        }
+      },
+      {
+        "Id": 5395,
+        "Name": "Chamber of the Duergar Warlord #5395",
+        "Connections": {
+          "East": 5357,
+          "South": 5394
+        },
+        "Contents": [
+          {
+            "Text": "the Duergar Warlord #5316",
+            "Color": "green"
+          },
+          {
+            "Text": "the Demiwolf #5320",
+            "Color": "green"
+          },
+          {
+            "Text": "the Demiwolf #5320",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5396,
+        "Name": "Duergar Caves #5396",
+        "Connections": {
+          "East": 5397,
+          "West": 5383
+        }
+      },
+      {
+        "Id": 5397,
+        "Name": "Duergar Caves #5397",
+        "Connections": {
+          "North": 5398,
+          "West": 5396
+        }
+      },
+      {
+        "Id": 5398,
+        "Name": "UnderMountain Caves #5398",
+        "Connections": {
+          "South": 5397,
+          "West": 5399
+        }
+      },
+      {
+        "Id": 5399,
+        "Name": "UnderMoutain Caves #5399",
+        "Connections": {
+          "East": 5398,
+          "West": 5400
+        }
+      },
+      {
+        "Id": 17687,
+        "FrameColor": "blue",
+        "Name": "To Halfling #17687",
+        "Color": "blue",
+        "Connections": {
+          "North": 17686,
+          "South": 5300
+        }
+      },
+      {
+        "Id": 5412,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair2 #5412",
+        "Color": "blue",
+        "Connections": {
+          "South": 5411,
+          "West": 5316
+        }
+      },
+      {
+        "Id": 5411,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair2 #5411",
+        "Color": "blue",
+        "Connections": {
+          "North": 5412,
+          "West": 5321
+        }
+      },
+      {
+        "Id": 5413,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair2 #5413",
+        "Color": "blue",
+        "Connections": {
+          "South": 5414
+        }
+      },
+      {
+        "Id": 1903,
+        "FrameColor": "blue",
+        "Name": "To Dusk #1903",
+        "Color": "blue",
+        "Connections": {
+          "East": 1948,
+          "Up": 5350
+        }
+      },
+      {
+        "Id": 5408,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair2 #5408",
+        "Color": "blue",
+        "Connections": {
+          "North": 5357,
+          "South": 5409
+        }
+      },
+      {
+        "Id": 5410,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair2 #5410",
+        "Color": "blue",
+        "Connections": {
+          "South": 5359,
+          "West": 5409
+        }
+      },
+      {
+        "Id": 5407,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair2 #5407",
+        "Color": "blue",
+        "Connections": {
+          "North": 5366
+        }
+      },
+      {
+        "Id": 5406,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair2 #5406",
+        "Color": "blue",
+        "Connections": {
+          "East": 5374
+        }
+      },
+      {
+        "Id": 5400,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair2 #5400",
+        "Color": "blue",
+        "Connections": {
+          "North": 5401,
+          "East": 5399
+        }
+      }
+    ]
+  }
+}

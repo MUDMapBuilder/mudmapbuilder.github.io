@@ -1,0 +1,1320 @@
+{
+  "Area": {
+    "Name": "Tuscany2",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 21200,
+        "Name": "Winding Unused Trail #21200",
+        "Connections": {
+          "South": 21202,
+          "West": 21199
+        },
+        "Contents": [
+          {
+            "Text": "a mountain lion #21226",
+            "Color": "green"
+          },
+          {
+            "Text": "a mountain lion #21226",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21201,
+        "Name": "Top of the Crack #21201",
+        "Connections": {
+          "North": 21199,
+          "Down": 21198
+        },
+        "Contents": [
+          {
+            "Text": "A swooping hawk #21110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21202,
+        "Name": "Winding Unused Trail #21202",
+        "Connections": {
+          "North": 21200,
+          "East": 21203
+        }
+      },
+      {
+        "Id": 21203,
+        "Name": "By the Blood Stained Crags #21203",
+        "Connections": {
+          "West": 21202,
+          "Up": 21204
+        },
+        "Contents": [
+          {
+            "Text": "a mountain lion #21124",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21204,
+        "Name": "Scaling the Mountain #21204",
+        "Connections": {
+          "Up": 21205,
+          "Down": 21203
+        },
+        "Contents": [
+          {
+            "Text": "a mountain dwarf #21227",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21205,
+        "Name": "Top of the Peak, Outside a HUGE Cave #21205",
+        "Connections": {
+          "East": 21206,
+          "Down": 21204
+        }
+      },
+      {
+        "Id": 21206,
+        "Name": "The Lair of Seolfor #21206",
+        "Connections": {
+          "West": 21205
+        },
+        "Contents": [
+          {
+            "Text": "Seolfor, the Ancient Silver Dragon #21200",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21207,
+        "Name": "River Cadera #21207",
+        "Connections": {
+          "North": 21146,
+          "East": 21208
+        }
+      },
+      {
+        "Id": 21208,
+        "Name": "Outside a Large Fort #21208",
+        "Connections": {
+          "South": 21209,
+          "West": 21207
+        }
+      },
+      {
+        "Id": 21209,
+        "Name": "Gates of the Ranger\u0027s Fort #21209",
+        "Connections": {
+          "North": 21208,
+          "East": {
+            "RoomId": 21210,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a courser #21225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21210,
+        "Name": "Entryway to the Fort #21210",
+        "Connections": {
+          "East": 21211,
+          "South": 21212,
+          "West": {
+            "RoomId": 21209,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a tracker #21224",
+            "Color": "green"
+          },
+          {
+            "Text": "a tracker #21224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21211,
+        "Name": "In the Fort #21211",
+        "Connections": {
+          "South": 21213,
+          "West": 21210
+        }
+      },
+      {
+        "Id": 21212,
+        "Name": "In the Fort #21212",
+        "Connections": {
+          "North": 21210,
+          "South": 21216
+        }
+      },
+      {
+        "Id": 21213,
+        "Name": "By the Grand Garden #21213",
+        "Connections": {
+          "North": 21211,
+          "East": 21214
+        }
+      },
+      {
+        "Id": 21214,
+        "Name": "North End of the Garden #21214",
+        "Connections": {
+          "South": 21218,
+          "West": 21213
+        },
+        "Contents": [
+          {
+            "Text": "Corwel, the Ranger #21228",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21215,
+        "Name": "The Armory #21215",
+        "Connections": {
+          "East": 21216
+        }
+      },
+      {
+        "Id": 21216,
+        "Name": "In the Fort #21216",
+        "Connections": {
+          "North": 21212,
+          "East": 21217,
+          "South": 21220,
+          "West": 21215
+        }
+      },
+      {
+        "Id": 21217,
+        "Name": "North of the Training Grounds #21217",
+        "Connections": {
+          "South": 21221,
+          "West": 21216
+        }
+      },
+      {
+        "Id": 21218,
+        "Name": "Southern End of the Garden #21218",
+        "Connections": {
+          "North": 21214
+        },
+        "Contents": [
+          {
+            "Text": "Belor, the Ranger #21229",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21219,
+        "Name": "Dining Hall #21219",
+        "Connections": {
+          "East": 21220
+        }
+      },
+      {
+        "Id": 21220,
+        "Name": "In the Fort #21220",
+        "Connections": {
+          "North": 21216,
+          "South": 21223,
+          "West": 21219
+        }
+      },
+      {
+        "Id": 21221,
+        "Name": "Western End of the Training Grounds #21221",
+        "Connections": {
+          "North": 21217,
+          "East": 21222
+        }
+      },
+      {
+        "Id": 21222,
+        "Name": "Eastern End of the Training Grounds #21222",
+        "Connections": {
+          "West": 21221
+        },
+        "Contents": [
+          {
+            "Text": "the Master of the Hunt #21223",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21223,
+        "Name": "In the Fort #21223",
+        "Connections": {
+          "North": 21220,
+          "East": 21224
+        }
+      },
+      {
+        "Id": 21224,
+        "Name": "Outside of a Locked Building #21224",
+        "Connections": {
+          "East": {
+            "RoomId": 21225,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 21223
+        },
+        "Contents": [
+          {
+            "Text": "Sir Triumph, the Ranger Knight #21222",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21225,
+        "Name": "Chamber of the Ranger Lord #21225",
+        "Connections": {
+          "West": 21224
+        },
+        "Contents": [
+          {
+            "Text": "Telgar, the Ranger Lord #21202",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21226,
+        "Name": "Enclave in the Altat Forest #21226",
+        "Connections": {
+          "East": 21174
+        },
+        "Contents": [
+          {
+            "Text": "Peacock, Hierophant of the Cabal #21201",
+            "Color": "green"
+          },
+          {
+            "Text": "Squirrel, the druidic farmer #21230",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21227,
+        "Name": "Turn in the Hall #21227",
+        "Connections": {
+          "East": 21228,
+          "South": 21232
+        }
+      },
+      {
+        "Id": 21228,
+        "Name": "The Entry Hall #21228",
+        "Connections": {
+          "East": 21229,
+          "West": 21227
+        }
+      },
+      {
+        "Id": 21229,
+        "Name": "Entrance to the Tower #21229",
+        "Connections": {
+          "East": {
+            "RoomId": 21230,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 21228
+        }
+      },
+      {
+        "Id": 21230,
+        "Name": "Outside the Tower Doors #21230",
+        "Connections": {
+          "North": 21247,
+          "East": 21231,
+          "South": 21247,
+          "West": {
+            "RoomId": 21229,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a Tower Guard #21203",
+            "Color": "green"
+          },
+          {
+            "Text": "a Tower Guard #21203",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21231,
+        "Name": "Gazing at the Tower #21231",
+        "Connections": {
+          "South": 21235,
+          "West": 21230
+        }
+      },
+      {
+        "Id": 21232,
+        "Name": "Bend in the Hall #21232",
+        "Connections": {
+          "North": 21227,
+          "East": 21233
+        }
+      },
+      {
+        "Id": 21233,
+        "Name": "Hallway #21233",
+        "Connections": {
+          "East": 21234,
+          "South": {
+            "RoomId": 21237,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 21232
+        }
+      },
+      {
+        "Id": 21234,
+        "Name": "Turn to the Stairs #21234",
+        "Connections": {
+          "South": 21238,
+          "West": 21233
+        }
+      },
+      {
+        "Id": 21235,
+        "Name": "Approaching the Tower #21235",
+        "Connections": {
+          "North": 21231,
+          "South": 21239,
+          "West": 21247
+        }
+      },
+      {
+        "Id": 21236,
+        "Name": "Grand Dusty Staircase #21236",
+        "Connections": {
+          "East": 21237,
+          "Down": 21243
+        }
+      },
+      {
+        "Id": 21237,
+        "Name": "Dusty Chamber #21237",
+        "Connections": {
+          "North": {
+            "RoomId": 21233,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 21236
+        }
+      },
+      {
+        "Id": 21238,
+        "Name": "Staircase to the Second Level #21238",
+        "Connections": {
+          "North": 21234,
+          "Up": 21256
+        },
+        "Contents": [
+          {
+            "Text": "a Horseman #21204",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21239,
+        "Name": "Shore on the Island #21239",
+        "Connections": {
+          "North": 21235,
+          "East": 21240,
+          "West": 21247
+        }
+      },
+      {
+        "Id": 21240,
+        "Name": "River Cadera #21240",
+        "Connections": {
+          "South": 21241,
+          "West": 21239
+        }
+      },
+      {
+        "Id": 21241,
+        "Name": "River Cadera #21241",
+        "Connections": {
+          "North": 21240,
+          "South": 21242
+        }
+      },
+      {
+        "Id": 21242,
+        "Name": "River Cadera #21242",
+        "Connections": {
+          "North": 21241,
+          "South": 21111
+        }
+      },
+      {
+        "Id": 21243,
+        "Name": "Bottom of the Dusty Staircase #21243",
+        "Connections": {
+          "South": 21244,
+          "Up": 21236
+        }
+      },
+      {
+        "Id": 21244,
+        "Name": "Dusty Hall Before an Ancient Blue Door #21244",
+        "Connections": {
+          "North": 21243,
+          "South": {
+            "RoomId": 21245,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 21245,
+        "Name": "Dusty Chamber Before an Ancient Green Door #21245",
+        "Connections": {
+          "North": {
+            "RoomId": 21244,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 21246,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 21246,
+        "Name": "Chamber of the Gods #21246",
+        "Connections": {
+          "North": {
+            "RoomId": 21372,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Sir Ludwig Von Helstrom #21231",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21247,
+        "Name": "The Crevice #21247",
+        "Connections": {}
+      },
+      {
+        "Id": 21248,
+        "Name": "Base of the Staircase to the Third Level #21248",
+        "Connections": {
+          "East": 21249,
+          "Up": 21257
+        },
+        "Contents": [
+          {
+            "Text": "a Lancer #21205",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21249,
+        "Name": "Marble Hall #21249",
+        "Connections": {
+          "East": 21250,
+          "West": 21248
+        }
+      },
+      {
+        "Id": 21250,
+        "Name": "Turn in the Marble Hall #21250",
+        "Connections": {
+          "South": 21253,
+          "West": 21249
+        }
+      },
+      {
+        "Id": 21251,
+        "Name": "Center of the Grand Dining Hall #21251",
+        "Connections": {
+          "East": 21252,
+          "South": 21254
+        }
+      },
+      {
+        "Id": 21252,
+        "Name": "Eastern End of the Dining Hall #21252",
+        "Connections": {
+          "East": 21253,
+          "West": 21251
+        }
+      },
+      {
+        "Id": 21253,
+        "Name": "Marble Hall #21253",
+        "Connections": {
+          "North": 21250,
+          "South": 21256,
+          "West": 21252
+        }
+      },
+      {
+        "Id": 21254,
+        "Name": "Southern End of the Dining Hall #21254",
+        "Connections": {
+          "North": 21251,
+          "East": 21255
+        }
+      },
+      {
+        "Id": 21255,
+        "Name": "Kitchen #21255",
+        "Connections": {
+          "West": 21254
+        }
+      },
+      {
+        "Id": 21256,
+        "Name": "Top of the Marble Staircase #21256",
+        "Connections": {
+          "North": 21253,
+          "Down": 21238
+        }
+      },
+      {
+        "Id": 21257,
+        "Name": "Top of the Staircase #21257",
+        "Connections": {
+          "East": 21258,
+          "Down": 21248
+        }
+      },
+      {
+        "Id": 21258,
+        "Name": "Marble Hall #21258",
+        "Connections": {
+          "East": 21259,
+          "West": 21257
+        }
+      },
+      {
+        "Id": 21259,
+        "Name": "Bend in the Hall #21259",
+        "Connections": {
+          "South": 21262,
+          "West": 21258
+        },
+        "Contents": [
+          {
+            "Text": "an Armiger #21206",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21260,
+        "Name": "Behind the Copper Door #21260",
+        "Connections": {
+          "East": {
+            "RoomId": 21261,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 21263
+        }
+      },
+      {
+        "Id": 21261,
+        "Name": "Before a Copper Door #21261",
+        "Connections": {
+          "East": 21262,
+          "West": {
+            "RoomId": 21260,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Greel, the Esquire Guard #21207",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21262,
+        "Name": "Turn in the Hall #21262",
+        "Connections": {
+          "North": 21259,
+          "West": 21261
+        }
+      },
+      {
+        "Id": 21263,
+        "Name": "Turn in the Copper Hall #21263",
+        "Connections": {
+          "North": 21260,
+          "East": 21264
+        }
+      },
+      {
+        "Id": 21264,
+        "Name": "Copper Hall #21264",
+        "Connections": {
+          "East": 21265,
+          "West": 21263
+        }
+      },
+      {
+        "Id": 21265,
+        "Name": "Base of the Copper Stairs #21265",
+        "Connections": {
+          "West": 21264,
+          "Up": 21274
+        },
+        "Contents": [
+          {
+            "Text": "an Esquire #21208",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21266,
+        "Name": "Bend in the Brass Hall #21266",
+        "Connections": {
+          "East": 21267,
+          "South": 21269
+        }
+      },
+      {
+        "Id": 21267,
+        "Name": "T-Intersection in the Brass Hall #21267",
+        "Connections": {
+          "East": 21268,
+          "South": 21270,
+          "West": 21266
+        }
+      },
+      {
+        "Id": 21268,
+        "Name": "End of the Brass Hall #21268",
+        "Connections": {
+          "West": 21267
+        },
+        "Contents": [
+          {
+            "Text": "a Knight Errant #21210",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21269,
+        "Name": "Brass Hall #21269",
+        "Connections": {
+          "North": 21266,
+          "South": 21272
+        },
+        "Contents": [
+          {
+            "Text": "a Knight Errant #21210",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21270,
+        "Name": "Behind the Brass Door #21270",
+        "Connections": {
+          "North": 21267,
+          "East": {
+            "RoomId": 21271,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 21271,
+        "Name": "Before a Brass Door #21271",
+        "Connections": {
+          "South": 21274,
+          "West": {
+            "RoomId": 21270,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Sir Barrow, the Knight Errant #21209",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21272,
+        "Name": "Before a Bronze Door #21272",
+        "Connections": {
+          "North": 21269,
+          "East": {
+            "RoomId": 21273,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Sir Timor, the Knight Bachelor #21211",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21273,
+        "Name": "Base of the Bronze Staircase #21273",
+        "Connections": {
+          "West": {
+            "RoomId": 21272,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 21282
+        }
+      },
+      {
+        "Id": 21274,
+        "Name": "Top of the Copper Staircase #21274",
+        "Connections": {
+          "North": 21271,
+          "Down": 21265
+        }
+      },
+      {
+        "Id": 21275,
+        "Name": "Turn in the Bronze Hall #21275",
+        "Connections": {
+          "East": 21276,
+          "South": 21278
+        },
+        "Contents": [
+          {
+            "Text": "a Knight #21213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21276,
+        "Name": "Bronze Hall #21276",
+        "Connections": {
+          "East": 21277,
+          "West": 21275
+        }
+      },
+      {
+        "Id": 21277,
+        "Name": "Winding Bronze Hall #21277",
+        "Connections": {
+          "South": 21280,
+          "West": 21276
+        }
+      },
+      {
+        "Id": 21278,
+        "Name": "Bronze Hall #21278",
+        "Connections": {
+          "North": 21275,
+          "South": 21281
+        }
+      },
+      {
+        "Id": 21279,
+        "Name": "Winding Bronze Hall #21279",
+        "Connections": {
+          "East": 21280,
+          "South": 21282
+        }
+      },
+      {
+        "Id": 21280,
+        "Name": "Winding Bronze Hall Before a Silver Door #21280",
+        "Connections": {
+          "North": 21277,
+          "South": {
+            "RoomId": 21283,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 21279
+        },
+        "Contents": [
+          {
+            "Text": "Sir Briara, the Knight #21212",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21281,
+        "Name": "Base of the Sapphire Staircase #21281",
+        "Connections": {
+          "North": 21278,
+          "Up": 21290
+        }
+      },
+      {
+        "Id": 21282,
+        "Name": "Top of the Bronze Staircase #21282",
+        "Connections": {
+          "North": 21279,
+          "Down": 21273
+        }
+      },
+      {
+        "Id": 21283,
+        "Name": "Base of the Silver Staircase #21283",
+        "Connections": {
+          "North": {
+            "RoomId": 21280,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 21292
+        },
+        "Contents": [
+          {
+            "Text": "a Knight Bachelor #21220",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21284,
+        "Name": "Turn in the Sapphire Hall #21284",
+        "Connections": {
+          "East": 21285,
+          "South": 21287
+        }
+      },
+      {
+        "Id": 21285,
+        "Name": "Sapphire Hall #21285",
+        "Connections": {
+          "East": 21286,
+          "West": 21284
+        }
+      },
+      {
+        "Id": 21286,
+        "Name": "Another Bend in the Sapphire Hall #21286",
+        "Connections": {
+          "South": 21289,
+          "West": 21285
+        },
+        "Contents": [
+          {
+            "Text": "a Banneret #21214",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21287,
+        "Name": "End of the Sapphire Hall Beneath a Trapdoor #21287",
+        "Connections": {
+          "North": 21284,
+          "Up": {
+            "RoomId": 21296,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Sir Silverstreak, the Elven Tower Guard #21215",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21288,
+        "Name": "Turn in the Sapphire Hall #21288",
+        "Connections": {
+          "East": 21289,
+          "South": 21291
+        }
+      },
+      {
+        "Id": 21289,
+        "Name": "Another Bend in the Sapphire Hall #21289",
+        "Connections": {
+          "North": 21286,
+          "West": 21288
+        }
+      },
+      {
+        "Id": 21290,
+        "Name": "Top of the Sapphire Staircase #21290",
+        "Connections": {
+          "East": 21291,
+          "Down": 21281
+        }
+      },
+      {
+        "Id": 21291,
+        "Name": "Bend in the Sapphire Hall #21291",
+        "Connections": {
+          "North": 21288,
+          "West": 21290
+        }
+      },
+      {
+        "Id": 21292,
+        "Name": "Climbing the Silver Stairs #21292",
+        "Connections": {
+          "Up": 21301,
+          "Down": 21283
+        }
+      },
+      {
+        "Id": 21293,
+        "Name": "Master Trainer\u0027s Antechamber #21293",
+        "Connections": {
+          "East": 21294,
+          "South": {
+            "RoomId": 21296,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Sir Mentor, the Grand Knight #21217",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21294,
+        "Name": "Chamber of the Master Trainer #21294",
+        "Connections": {
+          "West": 21293
+        },
+        "Contents": [
+          {
+            "Text": "Sir Randal Benzidar, the Master Trainer #21218",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21295,
+        "Name": "Base of the Topaz Stairs #21295",
+        "Connections": {
+          "South": {
+            "RoomId": 21298,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 21304
+        }
+      },
+      {
+        "Id": 21296,
+        "Name": "Above the Sapphire Trapdoor #21296",
+        "Connections": {
+          "North": {
+            "RoomId": 21293,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 21297,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 21299,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 21287,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Sir Mathis Eurid, the Ivory Guard #21216",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21297,
+        "Name": "Base of the Pearl Staircase #21297",
+        "Connections": {
+          "West": {
+            "RoomId": 21296,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 21306
+        }
+      },
+      {
+        "Id": 21298,
+        "Name": "Before a Topaz Door #21298",
+        "Connections": {
+          "North": {
+            "RoomId": 21295,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 21301
+        },
+        "Contents": [
+          {
+            "Text": "Sir Xavier Canadrel, the Ivory Keeper #21221",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21299,
+        "Name": "Weapons Master\u0027s Antechamber #21299",
+        "Connections": {
+          "North": {
+            "RoomId": 21296,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 21300
+        },
+        "Contents": [
+          {
+            "Text": "Sir Randal, the Grand Knight #21219",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21199,
+        "FrameColor": "blue",
+        "Name": "To Tuscany1 #21199",
+        "Color": "blue",
+        "Connections": {
+          "East": 21200,
+          "South": 21201
+        }
+      },
+      {
+        "Id": 21198,
+        "FrameColor": "blue",
+        "Name": "To Tuscany1 #21198",
+        "Color": "blue",
+        "Connections": {
+          "Up": 21201,
+          "Down": 21197
+        }
+      },
+      {
+        "Id": 21146,
+        "FrameColor": "blue",
+        "Name": "To Tuscany1 #21146",
+        "Color": "blue",
+        "Connections": {
+          "North": 21145,
+          "South": 21207
+        }
+      },
+      {
+        "Id": 21174,
+        "FrameColor": "blue",
+        "Name": "To Tuscany1 #21174",
+        "Color": "blue",
+        "Connections": {
+          "North": 21173,
+          "South": 21177,
+          "West": 21226
+        }
+      },
+      {
+        "Id": 21111,
+        "FrameColor": "blue",
+        "Name": "To Tuscany1 #21111",
+        "Color": "blue",
+        "Connections": {
+          "North": 21242,
+          "South": 21112
+        }
+      },
+      {
+        "Id": 21372,
+        "FrameColor": "blue",
+        "Name": "To Tuscany3 #21372",
+        "Color": "blue",
+        "Connections": {
+          "South": {
+            "RoomId": 21246,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 21301,
+        "FrameColor": "blue",
+        "Name": "To Tuscany3 #21301",
+        "Color": "blue",
+        "Connections": {
+          "North": 21298,
+          "Down": 21292
+        }
+      },
+      {
+        "Id": 21304,
+        "FrameColor": "blue",
+        "Name": "To Tuscany3 #21304",
+        "Color": "blue",
+        "Connections": {
+          "South": {
+            "RoomId": 21307,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 21303,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 21295
+        }
+      },
+      {
+        "Id": 21306,
+        "FrameColor": "blue",
+        "Name": "To Tuscany3 #21306",
+        "Color": "blue",
+        "Connections": {
+          "South": 21309,
+          "Down": 21297
+        }
+      },
+      {
+        "Id": 21300,
+        "FrameColor": "blue",
+        "Name": "To Tuscany3 #21300",
+        "Color": "blue",
+        "Connections": {
+          "West": 21299
+        }
+      }
+    ]
+  }
+}

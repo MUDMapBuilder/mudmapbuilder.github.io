@@ -1,0 +1,1005 @@
+{
+  "Area": {
+    "Name": "IceCrystalPalace",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 18800,
+        "Name": "Before the Ice Crystal Palace #18800",
+        "Connections": {
+          "North": 18802,
+          "South": 4510
+        }
+      },
+      {
+        "Id": 18801,
+        "Name": "Guard Post in the Ice Palace #18801",
+        "Connections": {
+          "East": 18802
+        },
+        "Contents": [
+          {
+            "Text": "Ice Palace Sentry #18804",
+            "Color": "red"
+          },
+          {
+            "Text": "Ice Palace Sentry #18804",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18802,
+        "Name": "The Grand Foyer to The Ice Crystal Palace #18802",
+        "Connections": {
+          "North": 18805,
+          "East": 18803,
+          "South": 18800,
+          "West": 18801
+        }
+      },
+      {
+        "Id": 18803,
+        "Name": "Guard Post in the Ice Palace #18803",
+        "Connections": {
+          "West": 18802
+        },
+        "Contents": [
+          {
+            "Text": "Ice Palace Sentry #18804",
+            "Color": "red"
+          },
+          {
+            "Text": "Ice Palace Sentry #18804",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18804,
+        "Name": "In the Royal Chambers of the Ice Crystal Palace #18804",
+        "Connections": {
+          "East": 18848,
+          "West": 18847
+        }
+      },
+      {
+        "Id": 18805,
+        "Name": "Grand Hallway in the Ice Crystal Palace. #18805",
+        "Connections": {
+          "North": 18807,
+          "South": 18802
+        }
+      },
+      {
+        "Id": 18806,
+        "Name": "The corner of the Throne Room #18806",
+        "Connections": {
+          "North": 18811,
+          "East": 18807
+        }
+      },
+      {
+        "Id": 18807,
+        "Name": "In the Throne Room of Ice Palace #18807",
+        "Connections": {
+          "North": 18812,
+          "East": 18809,
+          "South": 18805,
+          "West": 18806
+        }
+      },
+      {
+        "Id": 18808,
+        "Name": "Before the Ice Crystal Palace #18808",
+        "Connections": {}
+      },
+      {
+        "Id": 18809,
+        "Name": "The corner of Throne Room #18809",
+        "Connections": {
+          "North": 18813,
+          "West": 18807
+        }
+      },
+      {
+        "Id": 18810,
+        "Name": "Sentry Post leading to the Dungeon #18810",
+        "Connections": {
+          "East": 18811,
+          "Down": 18820
+        },
+        "Contents": [
+          {
+            "Text": "Royal Guard of the Palace #18806",
+            "Color": "red"
+          },
+          {
+            "Text": "Royal Guard of the Palace #18806",
+            "Color": "red"
+          },
+          {
+            "Text": "Royal Captain #18818",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18811,
+        "Name": "In the Throne Room of Ice Palace #18811",
+        "Connections": {
+          "North": 18815,
+          "East": 18812,
+          "South": 18806,
+          "West": 18810
+        }
+      },
+      {
+        "Id": 18812,
+        "Name": "The middle of the Throne Room #18812",
+        "Connections": {
+          "North": 18816,
+          "East": 18813,
+          "South": 18807,
+          "West": 18811
+        },
+        "Contents": [
+          {
+            "Text": "Royal Knight #18817",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18813,
+        "Name": "In the Throne Room of Ice Palace #18813",
+        "Connections": {
+          "North": 18817,
+          "East": 18814,
+          "South": 18809,
+          "West": 18812
+        }
+      },
+      {
+        "Id": 18814,
+        "Name": "The bottom of a Grand Staircase #18814",
+        "Connections": {
+          "West": 18813,
+          "Up": 18834
+        },
+        "Contents": [
+          {
+            "Text": "Royal Guard of the Palace #18806",
+            "Color": "red"
+          },
+          {
+            "Text": "Royal Guard of the Palace #18806",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18815,
+        "Name": "The corner of the Throne Room #18815",
+        "Connections": {
+          "East": 18816,
+          "South": 18811
+        },
+        "Contents": [
+          {
+            "Text": "Royal Knight #18817",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18816,
+        "Name": "In the Throne Room of Ice Palace #18816",
+        "Connections": {
+          "North": 18818,
+          "East": 18817,
+          "South": 18812,
+          "West": 18815
+        }
+      },
+      {
+        "Id": 18817,
+        "Name": "The corner of the Throne Room #18817",
+        "Connections": {
+          "South": 18813,
+          "West": 18816
+        },
+        "Contents": [
+          {
+            "Text": "Royal Knight #18817",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18818,
+        "Name": "The Throne Room of the Ice Crystal Palace #18818",
+        "Connections": {
+          "North": 18819,
+          "South": 18816
+        },
+        "Contents": [
+          {
+            "Text": "King Rowan #18801",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18819,
+        "Name": "Behind The Throne #18819",
+        "Connections": {
+          "South": 18818,
+          "Down": 18850
+        }
+      },
+      {
+        "Id": 18820,
+        "Name": "The entrance to the Ice Crystal Palace Dungeon #18820",
+        "Connections": {
+          "East": 18827,
+          "Up": 18810
+        },
+        "Contents": [
+          {
+            "Text": "Royal Paladin #18807",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18821,
+        "Name": "In the Ice Palace Dungeon #18821",
+        "Connections": {
+          "North": 18824,
+          "East": {
+            "RoomId": 18822,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 18822,
+        "Name": "A Holding Cell in the Ice Palace #18822",
+        "Connections": {
+          "West": {
+            "RoomId": 18821,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "old man #18812",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18823,
+        "Name": "A Guard Post in the Dungeon #18823",
+        "Connections": {
+          "East": 18824
+        },
+        "Contents": [
+          {
+            "Text": "Royal Paladin #18807",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18824,
+        "Name": "In the Ice Palace Dungeon #18824",
+        "Connections": {
+          "North": 18825,
+          "South": 18821,
+          "West": 18823
+        }
+      },
+      {
+        "Id": 18825,
+        "Name": "In the Ice Palace Dungeon #18825",
+        "Connections": {
+          "North": 18827,
+          "East": {
+            "RoomId": 18826,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 18824
+        }
+      },
+      {
+        "Id": 18826,
+        "Name": "A Holding Cell in the Ice Palace #18826",
+        "Connections": {
+          "West": {
+            "RoomId": 18825,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Kazgoroth #18811",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18827,
+        "Name": "In the Ice Palace Dungeon #18827",
+        "Connections": {
+          "North": 18828,
+          "South": 18825,
+          "West": 18820
+        }
+      },
+      {
+        "Id": 18828,
+        "Name": "In the Ice Palace Dungeon #18828",
+        "Connections": {
+          "North": 18831,
+          "East": {
+            "RoomId": 18829,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 18827
+        }
+      },
+      {
+        "Id": 18829,
+        "Name": "A Holding Cell in the Ice Palace #18829",
+        "Connections": {
+          "West": {
+            "RoomId": 18828,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Ice Thief #18810",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18830,
+        "Name": "A Guard Post in the Dungeon #18830",
+        "Connections": {
+          "East": 18831
+        },
+        "Contents": [
+          {
+            "Text": "Royal Paladin #18807",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18831,
+        "Name": "In the Ice Palace Dungeon #18831",
+        "Connections": {
+          "North": 18832,
+          "South": 18828,
+          "West": 18830
+        }
+      },
+      {
+        "Id": 18832,
+        "Name": "In the Ice Palace Dungeon #18832",
+        "Connections": {
+          "East": {
+            "RoomId": 18833,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 18831
+        }
+      },
+      {
+        "Id": 18833,
+        "Name": "A Holding Cell in the Ice Palace #18833",
+        "Connections": {
+          "West": {
+            "RoomId": 18832,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Diplomat of Icewind Dale #18809",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18834,
+        "Name": "The top of the Grand Staircase #18834",
+        "Connections": {
+          "East": 18836,
+          "Down": 18814
+        }
+      },
+      {
+        "Id": 18835,
+        "Name": "The Royal Bedroom of Hobarth #18835",
+        "Connections": {
+          "North": 18838
+        },
+        "Contents": [
+          {
+            "Text": "Hobarth #18803",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18836,
+        "Name": "In the Royal Chambers of the Ice Crystal Palace #18836",
+        "Connections": {
+          "East": 18837,
+          "West": 18834
+        },
+        "Contents": [
+          {
+            "Text": "Royal Knight #18817",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18837,
+        "Name": "In the Royal Chambers of the Ice Crystal Palace #18837",
+        "Connections": {
+          "North": 18840,
+          "East": 18838,
+          "West": 18836
+        }
+      },
+      {
+        "Id": 18838,
+        "Name": "In the Royal Chambers of the Ice Crystal Palace #18838",
+        "Connections": {
+          "East": 18839,
+          "South": 18835,
+          "West": 18837
+        }
+      },
+      {
+        "Id": 18839,
+        "Name": "In the Royal Chambers of the Ice Crystal Palace #18839",
+        "Connections": {
+          "North": 18841,
+          "West": 18838
+        },
+        "Contents": [
+          {
+            "Text": "Royal Knight #18817",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18840,
+        "Name": "The Royal Bedroom of Perdix #18840",
+        "Connections": {
+          "South": 18837
+        },
+        "Contents": [
+          {
+            "Text": "Perdix #18802",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18841,
+        "Name": "In the Royal Chambers of the Ice Crystal Palace #18841",
+        "Connections": {
+          "North": 18843,
+          "East": 18842,
+          "South": 18839
+        }
+      },
+      {
+        "Id": 18842,
+        "Name": "The Royal Bedroom of Lady Eskaia #18842",
+        "Connections": {
+          "West": 18841
+        },
+        "Contents": [
+          {
+            "Text": "Lady Eskaia #18813",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18843,
+        "Name": "In the Royal Chambers of the Ice Crystal Palace #18843",
+        "Connections": {
+          "North": 18845,
+          "South": 18841
+        },
+        "Contents": [
+          {
+            "Text": "Royal Knight #18817",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18844,
+        "Name": "The Royal Bedroom of Princess Gwen Onire #18844",
+        "Connections": {
+          "North": 18847
+        },
+        "Contents": [
+          {
+            "Text": "Gwen Onire #18816",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18845,
+        "Name": "In the Royal Chambers of the Ice Crystal Palace #18845",
+        "Connections": {
+          "North": 18848,
+          "East": 18846,
+          "South": 18843
+        }
+      },
+      {
+        "Id": 18846,
+        "Name": "The Grand Bedroom of Queen Robyn Onire #18846",
+        "Connections": {
+          "West": 18845
+        },
+        "Contents": [
+          {
+            "Text": "Queen Robyn Onire #18814",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18847,
+        "Name": "In the Royal Chambers of the Ice Crystal Palace #18847",
+        "Connections": {
+          "North": 18849,
+          "East": 18804,
+          "South": 18844
+        }
+      },
+      {
+        "Id": 18848,
+        "Name": "In the Royal Chambers of the Ice Crystal Palace #18848",
+        "Connections": {
+          "South": 18845,
+          "West": 18804
+        },
+        "Contents": [
+          {
+            "Text": "Royal Knight #18817",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18849,
+        "Name": "The Royal Bedroom of Prince Alban Onire #18849",
+        "Connections": {
+          "South": 18847
+        },
+        "Contents": [
+          {
+            "Text": "Alban Onire #18815",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18850,
+        "Name": "In the Ice Palace cavern #18850",
+        "Connections": {
+          "North": 18851,
+          "Up": 18819
+        }
+      },
+      {
+        "Id": 18851,
+        "Name": "In the Ice Palace cavern #18851",
+        "Connections": {
+          "North": 18852,
+          "South": 18850
+        },
+        "Contents": [
+          {
+            "Text": "Horde of Rats #18819",
+            "Color": "red"
+          },
+          {
+            "Text": "Horde of Rats #18819",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18852,
+        "Name": "In the Ice Palace cavern #18852",
+        "Connections": {
+          "East": 18853,
+          "South": 18851
+        }
+      },
+      {
+        "Id": 18853,
+        "Name": "In the Ice Palace cavern #18853",
+        "Connections": {
+          "East": 18854,
+          "West": 18852
+        },
+        "Contents": [
+          {
+            "Text": "Horde of Rats #18819",
+            "Color": "red"
+          },
+          {
+            "Text": "Horde of Rats #18819",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18854,
+        "Name": "In the Ice Palace cavern #18854",
+        "Connections": {
+          "North": 18855,
+          "West": 18853
+        }
+      },
+      {
+        "Id": 18855,
+        "Name": "In the Ice Palace cavern #18855",
+        "Connections": {
+          "North": 18856,
+          "South": 18854
+        },
+        "Contents": [
+          {
+            "Text": "Horde of Rats #18819",
+            "Color": "red"
+          },
+          {
+            "Text": "Horde of Rats #18819",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18856,
+        "Name": "In the Ice Palace cavern #18856",
+        "Connections": {
+          "South": 18855,
+          "West": 18857
+        }
+      },
+      {
+        "Id": 18857,
+        "Name": "In the Ice Palace cavern #18857",
+        "Connections": {
+          "East": 18856,
+          "West": 18858
+        },
+        "Contents": [
+          {
+            "Text": "Horde of Rats #18819",
+            "Color": "red"
+          },
+          {
+            "Text": "Horde of Rats #18819",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18858,
+        "Name": "In the Ice Palace cavern #18858",
+        "Connections": {
+          "North": 18859,
+          "East": 18857
+        }
+      },
+      {
+        "Id": 18859,
+        "Name": "In the Ice Palace cavern #18859",
+        "Connections": {
+          "North": 18860,
+          "South": 18858
+        },
+        "Contents": [
+          {
+            "Text": "Horde of Rats #18819",
+            "Color": "red"
+          },
+          {
+            "Text": "Horde of Rats #18819",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18860,
+        "Name": "In the Ice Palace cavern #18860",
+        "Connections": {
+          "South": 18859,
+          "Up": 18861,
+          "Down": 18881
+        }
+      },
+      {
+        "Id": 18861,
+        "Name": "In the Tunnel #18861",
+        "Connections": {
+          "Up": 18862,
+          "Down": 18860
+        }
+      },
+      {
+        "Id": 18862,
+        "Name": "In the tunnel #18862",
+        "Connections": {
+          "East": 18864,
+          "Up": 18863,
+          "Down": 18861
+        }
+      },
+      {
+        "Id": 18863,
+        "Name": "Before the Lich Lair #18863",
+        "Connections": {
+          "West": {
+            "RoomId": 18874,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 18862
+        }
+      },
+      {
+        "Id": 18864,
+        "Name": "Cave-In #18864",
+        "Connections": {}
+      },
+      {
+        "Id": 18865,
+        "Name": "Before the Ice Crystal Palace #18865",
+        "Connections": {
+          "North": 18867
+        }
+      },
+      {
+        "Id": 18866,
+        "Name": "Before the Ice Crystal Palace #18866",
+        "Connections": {
+          "North": 18872,
+          "East": 18867
+        },
+        "Contents": [
+          {
+            "Text": "Ice Golem #18820",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18867,
+        "Name": "Before the Ice Crystal Palace #18867",
+        "Connections": {
+          "East": 18868,
+          "South": 18865,
+          "West": 18866
+        }
+      },
+      {
+        "Id": 18868,
+        "Name": "Before the Ice Crystal Palace #18868",
+        "Connections": {
+          "East": 18869,
+          "West": 18867
+        },
+        "Contents": [
+          {
+            "Text": "Ice Golem #18820",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18869,
+        "Name": "Before the Ice Crystal Palace #18869",
+        "Connections": {
+          "North": 18873,
+          "East": 18870,
+          "West": 18868
+        }
+      },
+      {
+        "Id": 18870,
+        "Name": "Before the Ice Crystal Palace #18870",
+        "Connections": {
+          "North": 18874,
+          "West": 18869
+        }
+      },
+      {
+        "Id": 18871,
+        "Name": "The throne room of the Ice Lich #18871",
+        "Connections": {
+          "East": 18872
+        },
+        "Contents": [
+          {
+            "Text": "Ice Lich #18808",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18872,
+        "Name": "In the Lich lair #18872",
+        "Connections": {
+          "North": 18875,
+          "South": 18866,
+          "West": 18871
+        }
+      },
+      {
+        "Id": 18873,
+        "Name": "Before the Ice Crystal Palace #18873",
+        "Connections": {
+          "North": 18878,
+          "East": 18874,
+          "South": 18869
+        }
+      },
+      {
+        "Id": 18874,
+        "Name": "Before the Ice Crystal Palace #18874",
+        "Connections": {
+          "North": 18879,
+          "East": {
+            "RoomId": 18863,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 18870,
+          "West": 18873
+        },
+        "Contents": [
+          {
+            "Text": "Ice Golem #18820",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18875,
+        "Name": "Before the Ice Crystal Palace #18875",
+        "Connections": {
+          "East": 18876,
+          "South": 18872
+        },
+        "Contents": [
+          {
+            "Text": "Ice Golem #18820",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18876,
+        "Name": "Before the Ice Crystal Palace #18876",
+        "Connections": {
+          "North": 18880,
+          "East": 18877,
+          "West": 18875
+        }
+      },
+      {
+        "Id": 18877,
+        "Name": "Before the Ice Crystal Palace #18877",
+        "Connections": {
+          "East": 18878,
+          "West": 18876
+        },
+        "Contents": [
+          {
+            "Text": "Ice Golem #18820",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18878,
+        "Name": "Before the Ice Crystal Palace #18878",
+        "Connections": {
+          "East": 18879,
+          "South": 18873,
+          "West": 18877
+        }
+      },
+      {
+        "Id": 18879,
+        "Name": "Before the Ice Crystal Palace #18879",
+        "Connections": {
+          "South": 18874,
+          "West": 18878
+        }
+      },
+      {
+        "Id": 18880,
+        "Name": "Before the Ice Crystal Palace #18880",
+        "Connections": {
+          "South": 18876
+        }
+      },
+      {
+        "Id": 18881,
+        "Name": "The pit of the great worm. #18881",
+        "Connections": {
+          "Up": 18860
+        },
+        "Contents": [
+          {
+            "Text": "remorhaz #18805",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4510,
+        "FrameColor": "blue",
+        "Name": "To SilverDale #4510",
+        "Color": "blue",
+        "Connections": {
+          "North": 18800,
+          "East": 4511,
+          "South": 4509
+        }
+      }
+    ]
+  }
+}

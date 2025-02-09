@@ -1,0 +1,549 @@
+{
+  "Area": {
+    "Name": "LizardCanyon",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 2901,
+        "Name": "A desert canyon entrance #2901",
+        "Connections": {
+          "North": 2902,
+          "South": 3720
+        }
+      },
+      {
+        "Id": 2902,
+        "Name": "A desert basin #2902",
+        "Connections": {
+          "North": 2903,
+          "South": 2901
+        },
+        "Contents": [
+          {
+            "Text": "A South Desert Citizen #2910",
+            "Color": "green"
+          },
+          {
+            "Text": "A South Desert Citizen #2910",
+            "Color": "green"
+          },
+          {
+            "Text": "A South Desert Citizen #2910",
+            "Color": "green"
+          },
+          {
+            "Text": "A South Desert Citizen #2910",
+            "Color": "green"
+          },
+          {
+            "Text": "A South Desert Citizen #2910",
+            "Color": "green"
+          },
+          {
+            "Text": "A South Desert Citizen #2910",
+            "Color": "green"
+          },
+          {
+            "Text": "A South Desert Citizen #2910",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2903,
+        "Name": "Near the small market place #2903",
+        "Connections": {
+          "North": 2911,
+          "East": 2917,
+          "South": 2902,
+          "West": 2918
+        },
+        "Contents": [
+          {
+            "Text": "A South Desert Citizen #2910",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2909,
+        "Name": "On the drawbridge #2909",
+        "Connections": {
+          "North": 2910,
+          "South": 2911
+        }
+      },
+      {
+        "Id": 2910,
+        "Name": "Inside the castle walls #2910",
+        "Connections": {
+          "North": 2919,
+          "South": 2909
+        }
+      },
+      {
+        "Id": 2911,
+        "Name": "The castle gates #2911",
+        "Connections": {
+          "North": 2909,
+          "South": 2903
+        }
+      },
+      {
+        "Id": 2917,
+        "Name": "The \u0022Retail\u0022 outfit shop #2917",
+        "Connections": {
+          "West": 2903
+        },
+        "Contents": [
+          {
+            "Text": "Ned #2916",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2918,
+        "Name": "The lizardman herbal shop #2918",
+        "Connections": {
+          "East": 2903
+        },
+        "Contents": [
+          {
+            "Text": "Big happy Al #2913",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2919,
+        "Name": "The castle path #2919",
+        "Connections": {
+          "North": 2920,
+          "South": 2910
+        }
+      },
+      {
+        "Id": 2920,
+        "Name": "At the gates #2920",
+        "Connections": {
+          "North": 2921,
+          "South": 2919
+        },
+        "Contents": [
+          {
+            "Text": "The lizardman guard #2900",
+            "Color": "green"
+          },
+          {
+            "Text": "The lizardman guard #2900",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2921,
+        "Name": "Inside the castle #2921",
+        "Connections": {
+          "North": 2928,
+          "East": 2922,
+          "South": 2920,
+          "West": 2924
+        }
+      },
+      {
+        "Id": 2922,
+        "Name": "Inside the castle foyer #2922",
+        "Connections": {
+          "North": 2929,
+          "East": 2923,
+          "West": 2921
+        }
+      },
+      {
+        "Id": 2923,
+        "Name": "Inside the castle foyer #2923",
+        "Connections": {
+          "North": 2930,
+          "West": 2922
+        }
+      },
+      {
+        "Id": 2924,
+        "Name": "Inside the castle foyer #2924",
+        "Connections": {
+          "North": 2927,
+          "East": 2921,
+          "West": 2925
+        },
+        "Contents": [
+          {
+            "Text": "Pip, A royal guard #2909",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2925,
+        "Name": "Inside the castle foyer #2925",
+        "Connections": {
+          "North": 2926,
+          "East": 2924
+        }
+      },
+      {
+        "Id": 2926,
+        "Name": "Inside the castle foyer #2926",
+        "Connections": {
+          "North": 2939,
+          "East": 2927,
+          "South": 2925,
+          "West": 2941
+        }
+      },
+      {
+        "Id": 2927,
+        "Name": "Inside the castle foyer #2927",
+        "Connections": {
+          "North": 2937,
+          "East": 2928,
+          "South": 2924,
+          "West": 2926
+        }
+      },
+      {
+        "Id": 2928,
+        "Name": "Inside the castle foyer #2928",
+        "Connections": {
+          "North": 2935,
+          "East": 2929,
+          "South": 2921,
+          "West": 2927
+        }
+      },
+      {
+        "Id": 2929,
+        "Name": "Inside the castle foyer #2929",
+        "Connections": {
+          "North": 2933,
+          "East": 2930,
+          "South": 2922,
+          "West": 2928
+        }
+      },
+      {
+        "Id": 2930,
+        "Name": "Inside the castle foyer #2930",
+        "Connections": {
+          "North": 2931,
+          "East": 2959,
+          "South": 2923,
+          "West": 2929
+        }
+      },
+      {
+        "Id": 2931,
+        "Name": "Inside the castle foyer #2931",
+        "Connections": {
+          "North": 2932,
+          "South": 2930,
+          "West": 2933
+        },
+        "Contents": [
+          {
+            "Text": "Wendy, A royal guard #2907",
+            "Color": "green"
+          },
+          {
+            "Text": "Stan, Captain of the guard. #2906",
+            "Color": "red"
+          },
+          {
+            "Text": "Kyle, A royal guard #2908",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2932,
+        "Name": "Inside the castle foyer #2932",
+        "Connections": {
+          "South": 2931,
+          "West": 2934
+        }
+      },
+      {
+        "Id": 2933,
+        "Name": "Inside the castle foyer #2933",
+        "Connections": {
+          "North": 2934,
+          "East": 2931,
+          "South": 2929,
+          "West": 2935
+        }
+      },
+      {
+        "Id": 2934,
+        "Name": "Inside the castle foyer #2934",
+        "Connections": {
+          "East": 2932,
+          "South": 2933,
+          "West": 2936
+        }
+      },
+      {
+        "Id": 2935,
+        "Name": "Inside the castle foyer #2935",
+        "Connections": {
+          "North": 2936,
+          "East": 2933,
+          "South": 2928,
+          "West": 2937
+        },
+        "Contents": [
+          {
+            "Text": "The court jester Garrison #2903",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2936,
+        "Name": "Inside the castle foyer #2936",
+        "Connections": {
+          "East": 2934,
+          "South": 2935,
+          "West": 2938
+        }
+      },
+      {
+        "Id": 2937,
+        "Name": "Inside the castle foyer #2937",
+        "Connections": {
+          "North": 2938,
+          "East": 2935,
+          "South": 2927,
+          "West": 2939
+        }
+      },
+      {
+        "Id": 2938,
+        "Name": "Inside the castle foyer #2938",
+        "Connections": {
+          "East": 2936,
+          "South": 2937,
+          "West": 2940
+        }
+      },
+      {
+        "Id": 2939,
+        "Name": "Inside the castle foyer #2939",
+        "Connections": {
+          "North": 2940,
+          "East": 2937,
+          "South": 2926
+        }
+      },
+      {
+        "Id": 2940,
+        "Name": "Inside the castle foyer #2940",
+        "Connections": {
+          "East": 2938,
+          "South": 2939
+        }
+      },
+      {
+        "Id": 2941,
+        "Name": "A passage in the castle #2941",
+        "Connections": {
+          "East": 2926,
+          "West": 2942
+        }
+      },
+      {
+        "Id": 2942,
+        "Name": "A passage in the castle #2942",
+        "Connections": {
+          "North": 2943,
+          "East": 2941
+        }
+      },
+      {
+        "Id": 2943,
+        "Name": "A passage in the castle #2943",
+        "Connections": {
+          "North": 2944,
+          "South": 2942
+        }
+      },
+      {
+        "Id": 2944,
+        "Name": "A set of two stairs #2944",
+        "Connections": {
+          "South": 2943,
+          "Up": 2950,
+          "Down": 2945
+        }
+      },
+      {
+        "Id": 2945,
+        "Name": "The staircase #2945",
+        "Connections": {
+          "South": 2946,
+          "Up": 2944
+        }
+      },
+      {
+        "Id": 2946,
+        "Name": "The coal chamber #2946",
+        "Connections": {
+          "North": 2945,
+          "South": 2947
+        }
+      },
+      {
+        "Id": 2947,
+        "Name": "The fragile caves #2947",
+        "Connections": {
+          "North": 2946,
+          "South": 2948
+        }
+      },
+      {
+        "Id": 2948,
+        "Name": "The fragile caves #2948",
+        "Connections": {
+          "North": 2947,
+          "South": 2949
+        }
+      },
+      {
+        "Id": 2949,
+        "Name": "A small hole #2949",
+        "Connections": {
+          "North": 2948,
+          "Up": 2901
+        },
+        "Contents": [
+          {
+            "Text": "Kenny the human slave #2902",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2950,
+        "Name": "The royal hallways #2950",
+        "Connections": {
+          "East": 2951,
+          "Down": 2944
+        }
+      },
+      {
+        "Id": 2951,
+        "Name": "The royal hallways #2951",
+        "Connections": {
+          "East": 2952,
+          "West": 2950
+        }
+      },
+      {
+        "Id": 2952,
+        "Name": "The royal hallways #2952",
+        "Connections": {
+          "East": 2953,
+          "West": 2951
+        }
+      },
+      {
+        "Id": 2953,
+        "Name": "The royal hallways #2953",
+        "Connections": {
+          "North": 2958,
+          "East": 2954,
+          "South": 2956,
+          "West": 2952
+        }
+      },
+      {
+        "Id": 2954,
+        "Name": "The royal hallways #2954",
+        "Connections": {
+          "South": 2955,
+          "West": 2953
+        }
+      },
+      {
+        "Id": 2955,
+        "Name": "The Queen\u0027s bedchambers #2955",
+        "Connections": {
+          "North": 2954,
+          "East": 2957
+        }
+      },
+      {
+        "Id": 2956,
+        "Name": "Prince Eric\u0027s Room #2956",
+        "Connections": {
+          "North": 2953
+        },
+        "Contents": [
+          {
+            "Text": "Prince Eric #2901",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2957,
+        "Name": "The Queen\u0027s bedchambers #2957",
+        "Connections": {
+          "West": 2955
+        },
+        "Contents": [
+          {
+            "Text": "Queen Cartman #2911",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2958,
+        "Name": "The royal counsole\u0027s room #2958",
+        "Connections": {
+          "South": 2953
+        },
+        "Contents": [
+          {
+            "Text": "Mr Mackey the royal counsel #2915",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2959,
+        "Name": "The royal eating hall #2959",
+        "Connections": {
+          "West": 2930
+        },
+        "Contents": [
+          {
+            "Text": "Chef #2905",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3720,
+        "FrameColor": "blue",
+        "Name": "To TheRoads #3720",
+        "Color": "blue",
+        "Connections": {
+          "North": 2901,
+          "South": 5252,
+          "West": 3721
+        }
+      }
+    ]
+  }
+}

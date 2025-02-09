@@ -1,0 +1,812 @@
+{
+  "Area": {
+    "Name": "QuelSithForest",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 8500,
+        "Name": "The Forest of Quel\u0027Sith #8500",
+        "Connections": {
+          "North": 6021,
+          "South": 8501
+        }
+      },
+      {
+        "Id": 8501,
+        "Name": "A Trail in the Quel\u0027Sith Forest #8501",
+        "Connections": {
+          "North": 8500,
+          "South": 8502
+        }
+      },
+      {
+        "Id": 8502,
+        "Name": "A Split in the Path #8502",
+        "Connections": {
+          "North": 8501,
+          "East": 8522,
+          "West": 8503
+        }
+      },
+      {
+        "Id": 8503,
+        "Name": "Turn in the Trail #8503",
+        "Connections": {
+          "East": 8502,
+          "South": 8504
+        },
+        "Contents": [
+          {
+            "Text": "The pixie #8515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8504,
+        "Name": "A Large Stream #8504",
+        "Connections": {
+          "North": 8503,
+          "East": 8507,
+          "West": 8505,
+          "Up": 8508
+        }
+      },
+      {
+        "Id": 8505,
+        "Name": "Wading Through the Water #8505",
+        "Connections": {
+          "East": 8504,
+          "West": 8506
+        }
+      },
+      {
+        "Id": 8506,
+        "Name": "Stream Origins #8506",
+        "Connections": {
+          "East": 8505,
+          "South": 17017
+        }
+      },
+      {
+        "Id": 8507,
+        "Name": "A Small River #8507",
+        "Connections": {
+          "East": 8508,
+          "West": 8504
+        }
+      },
+      {
+        "Id": 8508,
+        "Name": "A Small River #8508",
+        "Connections": {
+          "East": 8509,
+          "West": 8507
+        }
+      },
+      {
+        "Id": 8509,
+        "Name": "A Small River #8509",
+        "Connections": {
+          "East": 8510,
+          "West": 8508
+        }
+      },
+      {
+        "Id": 8510,
+        "Name": "A Small River #8510",
+        "Connections": {
+          "East": 8511,
+          "West": 8509
+        }
+      },
+      {
+        "Id": 8511,
+        "Name": "A Small River #8511",
+        "Connections": {
+          "East": 8512,
+          "West": 8510
+        }
+      },
+      {
+        "Id": 8512,
+        "Name": "A Small River #8512",
+        "Connections": {
+          "East": 8513
+        }
+      },
+      {
+        "Id": 8513,
+        "Name": "A Large Pool of Water #8513",
+        "Connections": {
+          "North": 8514,
+          "East": 8521,
+          "South": 8520,
+          "West": 8512
+        },
+        "Contents": [
+          {
+            "Text": "The Nixie #8506",
+            "Color": "green"
+          },
+          {
+            "Text": "The Nixie #8506",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8514,
+        "Name": "Near the Edge #8514",
+        "Connections": {
+          "East": 8515,
+          "South": 8513
+        }
+      },
+      {
+        "Id": 8515,
+        "Name": "Near the Edge #8515",
+        "Connections": {
+          "East": 8516,
+          "South": 8521,
+          "West": 8514
+        },
+        "Contents": [
+          {
+            "Text": "The water sprite #8512",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8516,
+        "Name": "Near the Edge #8516",
+        "Connections": {
+          "South": 8517,
+          "West": 8515
+        },
+        "Contents": [
+          {
+            "Text": "The water sprite #8512",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8517,
+        "Name": "Near the Edge #8517",
+        "Connections": {
+          "North": 8516,
+          "South": 8518,
+          "West": 8521
+        },
+        "Contents": [
+          {
+            "Text": "The water sprite #8512",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8518,
+        "Name": "Near the Edge #8518",
+        "Connections": {
+          "North": 8517,
+          "West": 8519
+        }
+      },
+      {
+        "Id": 8519,
+        "Name": "Near the Edge #8519",
+        "Connections": {
+          "North": 8521,
+          "East": 8518,
+          "West": 8520
+        },
+        "Contents": [
+          {
+            "Text": "The water sprite #8512",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8520,
+        "Name": "Near the Edge #8520",
+        "Connections": {
+          "North": 8513,
+          "East": 8519
+        },
+        "Contents": [
+          {
+            "Text": "The Nixie #8506",
+            "Color": "green"
+          },
+          {
+            "Text": "The water sprite #8512",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8521,
+        "Name": "Center of the Pool #8521",
+        "Connections": {
+          "North": 8515,
+          "East": 8517,
+          "South": 8519,
+          "West": 8513
+        },
+        "Contents": [
+          {
+            "Text": "The water sprite #8512",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8522,
+        "Name": "Turn in the Trail #8522",
+        "Connections": {
+          "South": 8523,
+          "West": 8502
+        }
+      },
+      {
+        "Id": 8523,
+        "Name": "The Forest Trail #8523",
+        "Connections": {
+          "North": 8522,
+          "South": 8524
+        },
+        "Contents": [
+          {
+            "Text": "The treant #8508",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8524,
+        "Name": "Small Bridge Over the River #8524",
+        "Connections": {
+          "North": 8523,
+          "South": 8525
+        },
+        "Contents": [
+          {
+            "Text": "The warrior #8509",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8525,
+        "Name": "The Forest Trail #8525",
+        "Connections": {
+          "North": 8524,
+          "South": 8526
+        }
+      },
+      {
+        "Id": 8526,
+        "Name": "Crossroads in the Trail #8526",
+        "Connections": {
+          "North": 8525,
+          "East": 8527,
+          "West": 8538
+        },
+        "Contents": [
+          {
+            "Text": "The dryad #8505",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8527,
+        "Name": "The Forest Trail #8527",
+        "Connections": {
+          "East": 8528,
+          "West": 8526
+        }
+      },
+      {
+        "Id": 8528,
+        "Name": "Turn in the Trail #8528",
+        "Connections": {
+          "North": 8529,
+          "South": 8532,
+          "West": 8527
+        }
+      },
+      {
+        "Id": 8529,
+        "Name": "The Base of a Huge Tree #8529",
+        "Connections": {
+          "South": 8528,
+          "Up": 8530
+        }
+      },
+      {
+        "Id": 8530,
+        "Name": "Climbing a Tree #8530",
+        "Connections": {
+          "Up": 8531,
+          "Down": 8529
+        }
+      },
+      {
+        "Id": 8531,
+        "Name": "A Branch with a View #8531",
+        "Connections": {
+          "Down": 8530
+        }
+      },
+      {
+        "Id": 8532,
+        "Name": "The Forest Trail #8532",
+        "Connections": {
+          "North": 8528,
+          "South": 8533
+        }
+      },
+      {
+        "Id": 8533,
+        "Name": "Turn in the Trail #8533",
+        "Connections": {
+          "North": 8532,
+          "West": 8534
+        }
+      },
+      {
+        "Id": 8534,
+        "Name": "A Worn Path #8534",
+        "Connections": {
+          "East": 8533,
+          "West": 8535
+        }
+      },
+      {
+        "Id": 8535,
+        "Name": "Outside a Small Cave #8535",
+        "Connections": {
+          "North": 8536,
+          "East": 8534
+        }
+      },
+      {
+        "Id": 8536,
+        "Name": "The Dragons Den #8536",
+        "Connections": {
+          "North": 8537,
+          "South": 8535
+        },
+        "Contents": [
+          {
+            "Text": "The black dragon #8513",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8537,
+        "Name": "Hidden Treasure Room #8537",
+        "Connections": {
+          "South": 8536
+        }
+      },
+      {
+        "Id": 8538,
+        "Name": "The Forest Trail #8538",
+        "Connections": {
+          "East": 8526,
+          "West": 8539
+        }
+      },
+      {
+        "Id": 8539,
+        "Name": "Turn in the Trail #8539",
+        "Connections": {
+          "East": 8538,
+          "South": 8540
+        },
+        "Contents": [
+          {
+            "Text": "The dryad #8505",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8540,
+        "Name": "The Forest Trail #8540",
+        "Connections": {
+          "North": 8539,
+          "South": 8541
+        },
+        "Contents": [
+          {
+            "Text": "The treant #8508",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8541,
+        "Name": "The Forest Trail #8541",
+        "Connections": {
+          "North": 8540,
+          "South": 8542
+        }
+      },
+      {
+        "Id": 8542,
+        "Name": "Crossroads in the Trail #8542",
+        "Connections": {
+          "North": 8541,
+          "East": 8551,
+          "West": 8543
+        },
+        "Contents": [
+          {
+            "Text": "The warrior #8509",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8543,
+        "Name": "Turn in the Trail #8543",
+        "Connections": {
+          "East": 8542,
+          "South": 8544
+        },
+        "Contents": [
+          {
+            "Text": "The thief #8510",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8544,
+        "Name": "The Forest Trail #8544",
+        "Connections": {
+          "North": 8543,
+          "South": 8545
+        }
+      },
+      {
+        "Id": 8545,
+        "Name": "Entrance to a Small Glade #8545",
+        "Connections": {
+          "North": 8544,
+          "East": 8550,
+          "South": 8548,
+          "West": 8546
+        }
+      },
+      {
+        "Id": 8546,
+        "Name": "A Small Glade #8546",
+        "Connections": {
+          "East": 8545,
+          "South": 8547
+        }
+      },
+      {
+        "Id": 8547,
+        "Name": "A Small Glade #8547",
+        "Connections": {
+          "North": 8546,
+          "East": 8548
+        },
+        "Contents": [
+          {
+            "Text": "The fairy dragon #8504",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8548,
+        "Name": "A Small Glade #8548",
+        "Connections": {
+          "North": 8545,
+          "East": 8549,
+          "West": 8547
+        },
+        "Contents": [
+          {
+            "Text": "The druid #8511",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8549,
+        "Name": "A Small Glade #8549",
+        "Connections": {
+          "North": 8550,
+          "West": 8548
+        },
+        "Contents": [
+          {
+            "Text": "The fairy dragon #8504",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8550,
+        "Name": "A Small Glade #8550",
+        "Connections": {
+          "South": 8549,
+          "West": 8545
+        }
+      },
+      {
+        "Id": 8551,
+        "Name": "The Forest Trail #8551",
+        "Connections": {
+          "East": 8552,
+          "West": 8542
+        }
+      },
+      {
+        "Id": 8552,
+        "Name": "The Forest Trail #8552",
+        "Connections": {
+          "East": 8553,
+          "West": 8551
+        },
+        "Contents": [
+          {
+            "Text": "The sylph #8518",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8553,
+        "Name": "Turn in the Trail #8553",
+        "Connections": {
+          "South": 8554,
+          "West": 8552
+        },
+        "Contents": [
+          {
+            "Text": "The warrior #8509",
+            "Color": "green"
+          },
+          {
+            "Text": "The thief #8510",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8554,
+        "Name": "The Forest Trail #8554",
+        "Connections": {
+          "North": 8553,
+          "South": 8555
+        },
+        "Contents": [
+          {
+            "Text": "The gnome adventurer #8519",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8555,
+        "Name": "The Forest Trail #8555",
+        "Connections": {
+          "North": 8554,
+          "South": 8556
+        },
+        "Contents": [
+          {
+            "Text": "The sprite #8516",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8556,
+        "Name": "Crossroads in the Trail #8556",
+        "Connections": {
+          "North": 8555,
+          "East": 8558,
+          "West": 8557
+        },
+        "Contents": [
+          {
+            "Text": "The dryad #8505",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8557,
+        "Name": "A Dead End #8557",
+        "Connections": {
+          "East": 8556
+        },
+        "Contents": [
+          {
+            "Text": "A small forest gnome #8507",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8558,
+        "Name": "The Forest Trail #8558",
+        "Connections": {
+          "North": 8559,
+          "East": 8561,
+          "South": 8560,
+          "West": 8556
+        },
+        "Contents": [
+          {
+            "Text": "The sprite #8516",
+            "Color": "green"
+          },
+          {
+            "Text": "The sylph #8518",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8559,
+        "Name": "Base of a Large Tree #8559",
+        "Connections": {
+          "South": 8558
+        },
+        "Contents": [
+          {
+            "Text": "The dryad #8505",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8560,
+        "Name": "Base of a Large Tree #8560",
+        "Connections": {
+          "North": 8558
+        },
+        "Contents": [
+          {
+            "Text": "The hamadryad #8517",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8561,
+        "Name": "Turn in the Trail #8561",
+        "Connections": {
+          "East": 20745,
+          "South": 8562,
+          "West": 8558
+        },
+        "Contents": [
+          {
+            "Text": "The quickling #8514",
+            "Color": "green"
+          },
+          {
+            "Text": "The quickling #8514",
+            "Color": "green"
+          },
+          {
+            "Text": "The quickling #8514",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8562,
+        "Name": "The Forest Trail #8562",
+        "Connections": {
+          "North": 8561,
+          "South": 8563,
+          "West": 8625
+        },
+        "Contents": [
+          {
+            "Text": "The sylph #8518",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8563,
+        "Name": "Turn in the Trail #8563",
+        "Connections": {
+          "North": 8562,
+          "East": 8564
+        },
+        "Contents": [
+          {
+            "Text": "The sprite #8516",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8564,
+        "Name": "A Dead End #8564",
+        "Connections": {
+          "West": 8563
+        },
+        "Contents": [
+          {
+            "Text": "A red Kil\u0027Ron Mor #8502",
+            "Color": "green"
+          },
+          {
+            "Text": "A red Kil\u0027Ron Mor #8503",
+            "Color": "green"
+          },
+          {
+            "Text": "A black Kil\u0027Ron Mor #8500",
+            "Color": "green"
+          },
+          {
+            "Text": "A white Kil\u0027Ron Mor #8501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6021,
+        "FrameColor": "blue",
+        "Name": "To HaonDorLight #6021",
+        "Color": "blue",
+        "Connections": {
+          "North": 6012,
+          "East": 6020,
+          "South": 8500,
+          "West": 6022
+        }
+      },
+      {
+        "Id": 17017,
+        "FrameColor": "blue",
+        "Name": "To TeldescianSwamps #17017",
+        "Color": "blue",
+        "Connections": {
+          "North": 8506,
+          "South": 17018
+        }
+      },
+      {
+        "Id": 20745,
+        "FrameColor": "blue",
+        "Name": "To QuelSithElves #20745",
+        "Color": "blue",
+        "Connections": {
+          "West": 8561,
+          "Up": 20746
+        }
+      },
+      {
+        "Id": 8625,
+        "FrameColor": "blue",
+        "Name": "To MythDrannor #8625",
+        "Color": "blue",
+        "Connections": {
+          "East": 8562,
+          "West": 8626
+        }
+      }
+    ]
+  }
+}

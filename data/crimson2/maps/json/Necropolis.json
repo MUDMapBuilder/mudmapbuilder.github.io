@@ -1,0 +1,571 @@
+{
+  "Area": {
+    "Name": "Necropolis",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 4400,
+        "Name": "In a cavern #4400",
+        "Connections": {
+          "North": 4401,
+          "South": 4050
+        }
+      },
+      {
+        "Id": 4401,
+        "Name": "In a cavern #4401",
+        "Connections": {
+          "North": 4402,
+          "South": 4400
+        }
+      },
+      {
+        "Id": 4402,
+        "Name": "In a cavern #4402",
+        "Connections": {
+          "North": 4403,
+          "South": 4401
+        }
+      },
+      {
+        "Id": 4403,
+        "Name": "In a cavern #4403",
+        "Connections": {
+          "North": 4404,
+          "South": 4402
+        }
+      },
+      {
+        "Id": 4404,
+        "Name": "In a cavern #4404",
+        "Connections": {
+          "North": 4405,
+          "South": 4403
+        }
+      },
+      {
+        "Id": 4405,
+        "Name": "Nearing the City of Necropolis #4405",
+        "Connections": {
+          "North": 4406,
+          "South": 4404
+        }
+      },
+      {
+        "Id": 4406,
+        "Name": "On a lighted path #4406",
+        "Connections": {
+          "North": 4407,
+          "South": 4405
+        }
+      },
+      {
+        "Id": 4407,
+        "Name": "On a lighted path #4407",
+        "Connections": {
+          "North": 4408,
+          "South": 4406
+        }
+      },
+      {
+        "Id": 4408,
+        "Name": "On a lighted path #4408",
+        "Connections": {
+          "North": 4409,
+          "South": 4407
+        }
+      },
+      {
+        "Id": 4409,
+        "Name": "At the gate of the city of Necropolis. #4409",
+        "Connections": {
+          "North": 4410,
+          "South": 4408
+        },
+        "Contents": [
+          {
+            "Text": "An Undead Guard #4405",
+            "Color": "green"
+          },
+          {
+            "Text": "An Undead Guard #4405",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4410,
+        "Name": "Inside the City of Necropolis #4410",
+        "Connections": {
+          "East": 4412,
+          "South": 4409,
+          "West": 4411
+        },
+        "Contents": [
+          {
+            "Text": "A mighty Sartan #4407",
+            "Color": "red"
+          },
+          {
+            "Text": "A mighty Sartan #4407",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4411,
+        "Name": "On a dirt path #4411",
+        "Connections": {
+          "North": 4417,
+          "East": 4410
+        }
+      },
+      {
+        "Id": 4412,
+        "Name": "On a dirt path #4412",
+        "Connections": {
+          "North": 4414,
+          "West": 4410
+        }
+      },
+      {
+        "Id": 4413,
+        "Name": "In a house #4413",
+        "Connections": {
+          "East": 4427
+        },
+        "Contents": [
+          {
+            "Text": "A Lazar #4404",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4414,
+        "Name": "On a dirt path #4414",
+        "Connections": {
+          "North": 4415,
+          "South": 4412
+        }
+      },
+      {
+        "Id": 4415,
+        "Name": "At an intersection #4415",
+        "Connections": {
+          "North": 4420,
+          "South": 4414,
+          "West": 4419
+        }
+      },
+      {
+        "Id": 4416,
+        "Name": "On a dirt path #4416",
+        "Connections": {}
+      },
+      {
+        "Id": 4417,
+        "Name": "On a dirt path #4417",
+        "Connections": {
+          "North": 4418,
+          "South": 4411
+        }
+      },
+      {
+        "Id": 4418,
+        "Name": "At an intersection #4418",
+        "Connections": {
+          "North": 4422,
+          "East": 4419,
+          "South": 4417
+        }
+      },
+      {
+        "Id": 4419,
+        "Name": "At an intersection #4419",
+        "Connections": {
+          "North": 4423,
+          "East": 4415,
+          "South": 4426,
+          "West": 4418
+        }
+      },
+      {
+        "Id": 4420,
+        "Name": "On a dirt path #4420",
+        "Connections": {
+          "North": 4421,
+          "South": 4415
+        }
+      },
+      {
+        "Id": 4421,
+        "Name": "On a dirt path #4421",
+        "Connections": {
+          "North": 4428,
+          "South": 4420
+        }
+      },
+      {
+        "Id": 4422,
+        "Name": "On a dirt path #4422",
+        "Connections": {
+          "North": 4424,
+          "South": 4418
+        }
+      },
+      {
+        "Id": 4423,
+        "Name": "On a road #4423",
+        "Connections": {
+          "North": 4425,
+          "East": 4445,
+          "South": 4419,
+          "West": 4444
+        }
+      },
+      {
+        "Id": 4424,
+        "Name": "On a dirt path #4424",
+        "Connections": {
+          "North": 4429,
+          "South": 4422
+        }
+      },
+      {
+        "Id": 4425,
+        "Name": "On a road #4425",
+        "Connections": {
+          "East": 4447,
+          "South": 4423,
+          "West": 4446
+        }
+      },
+      {
+        "Id": 4426,
+        "Name": "On a road #4426",
+        "Connections": {
+          "North": 4419,
+          "East": 4443,
+          "South": 4427,
+          "West": 4442
+        }
+      },
+      {
+        "Id": 4427,
+        "Name": "On a road #4427",
+        "Connections": {
+          "North": 4426,
+          "East": 4441,
+          "West": 4413
+        }
+      },
+      {
+        "Id": 4428,
+        "Name": "At an intersection #4428",
+        "Connections": {
+          "South": 4421,
+          "West": 4430
+        }
+      },
+      {
+        "Id": 4429,
+        "Name": "At an intersection #4429",
+        "Connections": {
+          "East": 4430,
+          "South": 4424
+        }
+      },
+      {
+        "Id": 4430,
+        "Name": "At an intersection #4430",
+        "Connections": {
+          "North": 4431,
+          "East": 4428,
+          "West": 4429
+        }
+      },
+      {
+        "Id": 4431,
+        "Name": "Path of the Necromancer #4431",
+        "Connections": {
+          "North": 4432,
+          "South": 4430
+        }
+      },
+      {
+        "Id": 4432,
+        "Name": "Path of the Necromancer #4432",
+        "Connections": {
+          "North": 4433,
+          "South": 4431
+        }
+      },
+      {
+        "Id": 4433,
+        "Name": "Path of the Necromancer #4433",
+        "Connections": {
+          "North": 4434,
+          "South": 4432
+        },
+        "Contents": [
+          {
+            "Text": "A mighty Sartan #4407",
+            "Color": "red"
+          },
+          {
+            "Text": "A mighty Sartan #4407",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4434,
+        "Name": "Entrance to Baltazar\u0027s manor #4434",
+        "Connections": {
+          "North": 4435,
+          "South": 4433
+        }
+      },
+      {
+        "Id": 4435,
+        "Name": "Inside the manor #4435",
+        "Connections": {
+          "East": 4438,
+          "South": 4434,
+          "West": 4436
+        }
+      },
+      {
+        "Id": 4436,
+        "Name": "The west hall #4436",
+        "Connections": {
+          "North": 4457,
+          "East": 4435,
+          "West": 4437
+        }
+      },
+      {
+        "Id": 4437,
+        "Name": "The west hall #4437",
+        "Connections": {
+          "North": 4440,
+          "East": 4436
+        }
+      },
+      {
+        "Id": 4438,
+        "Name": "The east hall #4438",
+        "Connections": {
+          "North": 4458,
+          "East": 4439,
+          "West": 4435
+        }
+      },
+      {
+        "Id": 4439,
+        "Name": "The east hall #4439",
+        "Connections": {
+          "North": 4459,
+          "West": 4438
+        }
+      },
+      {
+        "Id": 4440,
+        "Name": "The Library #4440",
+        "Connections": {
+          "South": 4437
+        },
+        "Contents": [
+          {
+            "Text": "Baltazar the Necromancer #4400",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4441,
+        "Name": "In a house #4441",
+        "Connections": {
+          "West": 4427
+        },
+        "Contents": [
+          {
+            "Text": "A Lazar #4404",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4442,
+        "Name": "In a house #4442",
+        "Connections": {
+          "East": 4426
+        }
+      },
+      {
+        "Id": 4443,
+        "Name": "In a house #4443",
+        "Connections": {
+          "West": 4426
+        },
+        "Contents": [
+          {
+            "Text": "A Lazar #4404",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4444,
+        "Name": "In a house #4444",
+        "Connections": {
+          "East": 4423
+        },
+        "Contents": [
+          {
+            "Text": "A Lazar #4404",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4445,
+        "Name": "In a house #4445",
+        "Connections": {
+          "West": 4423
+        },
+        "Contents": [
+          {
+            "Text": "A Lazar #4404",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4446,
+        "Name": "In a house #4446",
+        "Connections": {
+          "East": 4425
+        }
+      },
+      {
+        "Id": 4447,
+        "Name": "In a house #4447",
+        "Connections": {
+          "West": 4425
+        },
+        "Contents": [
+          {
+            "Text": "A Lazar #4404",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4448,
+        "Name": "blank #4448",
+        "Connections": {
+          "North": 4451
+        }
+      },
+      {
+        "Id": 4449,
+        "Name": "blank #4449",
+        "Connections": {}
+      },
+      {
+        "Id": 4450,
+        "Name": "blank #4450",
+        "Connections": {}
+      },
+      {
+        "Id": 4451,
+        "Name": "blank #4451",
+        "Connections": {
+          "Up": 4452
+        }
+      },
+      {
+        "Id": 4452,
+        "Name": "blah #4452",
+        "Connections": {}
+      },
+      {
+        "Id": 4453,
+        "Name": "Sleeping chambers of Sarel #4453",
+        "Connections": {}
+      },
+      {
+        "Id": 4454,
+        "Name": "boo #4454",
+        "Connections": {}
+      },
+      {
+        "Id": 4455,
+        "Name": "boo #4455",
+        "Connections": {}
+      },
+      {
+        "Id": 4456,
+        "Name": "Lost #4456",
+        "Connections": {}
+      },
+      {
+        "Id": 4457,
+        "Name": "A small room #4457",
+        "Connections": {
+          "South": 4436
+        },
+        "Contents": [
+          {
+            "Text": "Jonathan the Lazar #4401",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4458,
+        "Name": "A small room #4458",
+        "Connections": {
+          "South": 4438
+        },
+        "Contents": [
+          {
+            "Text": "Jera #4402",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4459,
+        "Name": "A small room #4459",
+        "Connections": {
+          "South": 4439
+        },
+        "Contents": [
+          {
+            "Text": "Kleitus the Lazar #4403",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4460,
+        "Name": "boo #4460",
+        "Connections": {}
+      },
+      {
+        "Id": 4050,
+        "FrameColor": "blue",
+        "Name": "To Moria12 #4050",
+        "Color": "blue",
+        "Connections": {
+          "North": 4400,
+          "East": 4051,
+          "South": 4053
+        }
+      }
+    ]
+  }
+}

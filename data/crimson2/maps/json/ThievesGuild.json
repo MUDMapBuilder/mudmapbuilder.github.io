@@ -1,0 +1,1047 @@
+{
+  "Area": {
+    "Name": "ThievesGuild",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 16600,
+        "Name": "Graffin\u0027s Delicatessen #16600",
+        "Connections": {}
+      },
+      {
+        "Id": 16601,
+        "Name": "Man-Made Tunnel #16601",
+        "Connections": {
+          "Up": 3427,
+          "Down": 16602
+        }
+      },
+      {
+        "Id": 16602,
+        "Name": "Man-Made Tunnel #16602",
+        "Connections": {
+          "North": 16603,
+          "Up": 16601
+        }
+      },
+      {
+        "Id": 16603,
+        "Name": "Man-Made Tunnel #16603",
+        "Connections": {
+          "North": {
+            "RoomId": 16604,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 16602
+        },
+        "Contents": [
+          {
+            "Text": "The shady guard #16600",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16604,
+        "Name": "Entryway #16604",
+        "Connections": {
+          "North": 16605,
+          "South": {
+            "RoomId": 16603,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "An annoying hidden guard #16603",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16605,
+        "Name": "Entryway #16605",
+        "Connections": {
+          "North": 16606
+        }
+      },
+      {
+        "Id": 16606,
+        "Name": "Entryway #16606",
+        "Connections": {
+          "North": 16607
+        },
+        "Contents": [
+          {
+            "Text": "An annoying hidden guard #16603",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16607,
+        "Name": "Entryway #16607",
+        "Connections": {
+          "North": 16608
+        }
+      },
+      {
+        "Id": 16608,
+        "Name": "Entryway #16608",
+        "Connections": {
+          "North": 16605,
+          "Up": 16609
+        }
+      },
+      {
+        "Id": 16609,
+        "Name": "Bare Hallway #16609",
+        "Connections": {
+          "North": 16610,
+          "East": 16623,
+          "South": 16619,
+          "West": 16627,
+          "Up": 16633,
+          "Down": 16608
+        }
+      },
+      {
+        "Id": 16610,
+        "Name": "Bare Hallway #16610",
+        "Connections": {
+          "North": 16611,
+          "South": 16609
+        },
+        "Contents": [
+          {
+            "Text": "A scary spider #16604",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16611,
+        "Name": "Fork in the Hall #16611",
+        "Connections": {
+          "North": 16618,
+          "East": 16613,
+          "South": 16610,
+          "West": 16612
+        }
+      },
+      {
+        "Id": 16612,
+        "Name": "Dirty Passageway #16612",
+        "Connections": {
+          "North": 16615,
+          "East": 16611
+        }
+      },
+      {
+        "Id": 16613,
+        "Name": "Dirty Passageway #16613",
+        "Connections": {
+          "North": 16614,
+          "West": 16611
+        }
+      },
+      {
+        "Id": 16614,
+        "Name": "Lighter Hallway #16614",
+        "Connections": {
+          "South": 16613,
+          "West": 16616
+        }
+      },
+      {
+        "Id": 16615,
+        "Name": "Lighter Hallway #16615",
+        "Connections": {
+          "East": 16616,
+          "South": 16612
+        }
+      },
+      {
+        "Id": 16616,
+        "Name": "Before a Cell #16616",
+        "Connections": {
+          "East": 16614,
+          "South": {
+            "RoomId": 16617,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 16615
+        }
+      },
+      {
+        "Id": 16617,
+        "Name": "Inside a Cell #16617",
+        "Connections": {
+          "North": {
+            "RoomId": 16616,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 16618,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A scary spider #16604",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16618,
+        "Name": "Interrogation Room #16618",
+        "Connections": {
+          "North": {
+            "RoomId": 16617,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 16611
+        },
+        "Contents": [
+          {
+            "Text": "The Head Interrogator #16602",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16619,
+        "Name": "Bare Hallway #16619",
+        "Connections": {
+          "North": 16609,
+          "South": 16620
+        }
+      },
+      {
+        "Id": 16620,
+        "Name": "Bare Hallway #16620",
+        "Connections": {
+          "North": 16619,
+          "South": 16621
+        },
+        "Contents": [
+          {
+            "Text": "A scary spider #16604",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16621,
+        "Name": "Bare Hallway #16621",
+        "Connections": {
+          "North": 16620,
+          "South": 16622
+        }
+      },
+      {
+        "Id": 16622,
+        "Name": "Storage Room #16622",
+        "Connections": {
+          "North": 16621
+        }
+      },
+      {
+        "Id": 16623,
+        "Name": "Bare Hallway #16623",
+        "Connections": {
+          "East": 16624,
+          "West": 16609
+        },
+        "Contents": [
+          {
+            "Text": "the shadow #16606",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16624,
+        "Name": "Bare Hallway #16624",
+        "Connections": {
+          "East": 16625,
+          "South": 16640,
+          "West": 16623
+        }
+      },
+      {
+        "Id": 16625,
+        "Name": "Room of Death (Traps) #16625",
+        "Connections": {}
+      },
+      {
+        "Id": 16626,
+        "Name": "The Stairwell #16626",
+        "Connections": {
+          "Up": 16601
+        }
+      },
+      {
+        "Id": 16627,
+        "Name": "Bare Hallway #16627",
+        "Connections": {
+          "East": 16609,
+          "West": 16628
+        }
+      },
+      {
+        "Id": 16628,
+        "Name": "Bare Hallway #16628",
+        "Connections": {
+          "East": 16627,
+          "West": 16631
+        },
+        "Contents": [
+          {
+            "Text": "An annoying hidden guard #16603",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16629,
+        "Name": "Nick the Fence\u0027s Gallery of Merchandise #16629",
+        "Connections": {
+          "North": 16635
+        },
+        "Contents": [
+          {
+            "Text": "Nick #16613",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16630,
+        "Name": "Jhessail\u0027s Training Room #16630",
+        "Connections": {
+          "South": 16635
+        },
+        "Contents": [
+          {
+            "Text": "Jhessail the Relentless #16609",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16631,
+        "Name": "At an Iron Gate #16631",
+        "Connections": {
+          "East": 16628,
+          "West": 16632
+        }
+      },
+      {
+        "Id": 16632,
+        "Name": "Room of Garbage #16632",
+        "Connections": {
+          "East": 16631
+        },
+        "Contents": [
+          {
+            "Text": "the Otyugh #16608",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16633,
+        "Name": "Staircase #16633",
+        "Connections": {
+          "Up": 16634,
+          "Down": 16609
+        }
+      },
+      {
+        "Id": 16634,
+        "Name": "Staircase. #16634",
+        "Connections": {
+          "Up": 16635,
+          "Down": 16633
+        },
+        "Contents": [
+          {
+            "Text": "An annoying hidden guard #16603",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16635,
+        "Name": "Decorated Hallway #16635",
+        "Connections": {
+          "North": 16630,
+          "East": 16652,
+          "South": 16629,
+          "West": 16636,
+          "Up": 16626,
+          "Down": 16634
+        }
+      },
+      {
+        "Id": 16636,
+        "Name": "Decorated Hallway #16636",
+        "Connections": {
+          "East": 16635,
+          "West": 16637
+        }
+      },
+      {
+        "Id": 16637,
+        "Name": "Decorated Hallway #16637",
+        "Connections": {
+          "North": 16663,
+          "East": 16636,
+          "South": 16645,
+          "West": 16638
+        },
+        "Contents": [
+          {
+            "Text": "An annoying hidden guard #16603",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16638,
+        "Name": "The End of the Decorated Hallway. #16638",
+        "Connections": {
+          "East": 16637,
+          "West": 16639,
+          "Down": 16643
+        }
+      },
+      {
+        "Id": 16639,
+        "Name": "The Nest. #16639",
+        "Connections": {}
+      },
+      {
+        "Id": 16640,
+        "Name": "Secret Passageway #16640",
+        "Connections": {
+          "North": 16624,
+          "South": 16641
+        }
+      },
+      {
+        "Id": 16641,
+        "Name": "Secret Passageway #16641",
+        "Connections": {
+          "North": 16640,
+          "East": 16642
+        }
+      },
+      {
+        "Id": 16642,
+        "Name": "The Rapid Descent #16642",
+        "Connections": {
+          "Down": 16601
+        }
+      },
+      {
+        "Id": 16643,
+        "Name": "The Hidden Corridor. #16643",
+        "Connections": {
+          "East": 16651,
+          "West": 16644,
+          "Up": 16638
+        },
+        "Contents": [
+          {
+            "Text": "The Deadly Virus #16610",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16644,
+        "Name": "The Hidden Corridor. #16644",
+        "Connections": {
+          "East": 16643,
+          "South": 16646,
+          "West": 16647
+        }
+      },
+      {
+        "Id": 16645,
+        "Name": "Accomplice Barracks #16645",
+        "Connections": {
+          "North": 16637
+        },
+        "Contents": [
+          {
+            "Text": "the black attack cat #16620",
+            "Color": "green"
+          },
+          {
+            "Text": "the blacksmith #16605",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16646,
+        "Name": "The Hidden Corridor. #16646",
+        "Connections": {
+          "North": 16644,
+          "South": 16648
+        }
+      },
+      {
+        "Id": 16647,
+        "Name": "The Hidden Corridor. #16647",
+        "Connections": {
+          "East": 16644,
+          "West": 16649
+        }
+      },
+      {
+        "Id": 16648,
+        "Name": "The Cage #16648",
+        "Connections": {
+          "North": 16646
+        },
+        "Contents": [
+          {
+            "Text": "the purple worm #16619",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16649,
+        "Name": "Elaborate Bedroom #16649",
+        "Connections": {
+          "East": 16647,
+          "West": {
+            "RoomId": 16650,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the thief guard #16611",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16650,
+        "Name": "Alcove #16650",
+        "Connections": {
+          "East": {
+            "RoomId": 16649,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 16664
+        },
+        "Contents": [
+          {
+            "Text": "Quinn, the Master Thief #16601",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16651,
+        "Name": "The Master\u0027s Court #16651",
+        "Connections": {
+          "North": 16692,
+          "West": 16643
+        },
+        "Contents": [
+          {
+            "Text": "the Court Jester #16612",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16652,
+        "Name": "Top of the Spiral #16652",
+        "Connections": {
+          "West": 16635,
+          "Down": 16653
+        }
+      },
+      {
+        "Id": 16653,
+        "Name": "Downward Spiral #16653",
+        "Connections": {
+          "Up": 16652,
+          "Down": 16654
+        },
+        "Contents": [
+          {
+            "Text": "the rust monster #16614",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16654,
+        "Name": "Downward Spiral #16654",
+        "Connections": {
+          "Up": 16653,
+          "Down": 16655
+        }
+      },
+      {
+        "Id": 16655,
+        "Name": "Downward Spiral #16655",
+        "Connections": {
+          "Up": 16654,
+          "Down": 16656
+        }
+      },
+      {
+        "Id": 16656,
+        "Name": "Bottom of the Spiral #16656",
+        "Connections": {
+          "North": 16657,
+          "West": 16658,
+          "Up": 16655
+        }
+      },
+      {
+        "Id": 16657,
+        "Name": "Underground Cavern #16657",
+        "Connections": {
+          "North": 16662,
+          "South": 16656,
+          "West": 16659
+        }
+      },
+      {
+        "Id": 16658,
+        "Name": "By the Flow #16658",
+        "Connections": {
+          "North": 16659,
+          "East": 16656
+        },
+        "Contents": [
+          {
+            "Text": "the flame salamander #16615",
+            "Color": "green"
+          },
+          {
+            "Text": "the flame salamander #16615",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16659,
+        "Name": "By the Flow #16659",
+        "Connections": {
+          "North": 16661,
+          "East": 16657,
+          "South": 16658,
+          "West": 16660
+        },
+        "Contents": [
+          {
+            "Text": "the flame salamander #16615",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16660,
+        "Name": "In the Flow #16660",
+        "Connections": {}
+      },
+      {
+        "Id": 16661,
+        "Name": "By the Flow #16661",
+        "Connections": {
+          "East": 16662,
+          "South": 16659
+        }
+      },
+      {
+        "Id": 16662,
+        "Name": "Throne of Grendel #16662",
+        "Connections": {
+          "South": 16657,
+          "West": 16661
+        },
+        "Contents": [
+          {
+            "Text": "Grendel #16616",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16663,
+        "Name": "The Lady\u0027s Chamber. #16663",
+        "Connections": {
+          "South": 16637
+        },
+        "Contents": [
+          {
+            "Text": "the foxy lady #16621",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16664,
+        "Name": "Stone Passage #16664",
+        "Connections": {
+          "North": 16665
+        }
+      },
+      {
+        "Id": 16665,
+        "Name": "Stone Passage #16665",
+        "Connections": {
+          "North": 16676,
+          "East": 16666,
+          "South": 16664,
+          "West": 16679
+        }
+      },
+      {
+        "Id": 16666,
+        "Name": "Stone Passage #16666",
+        "Connections": {
+          "North": 16667,
+          "East": 16669,
+          "West": 16665
+        },
+        "Contents": [
+          {
+            "Text": "the glabrezu #16617",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16667,
+        "Name": "Stone Passage #16667",
+        "Connections": {
+          "East": 16668,
+          "South": 16666
+        }
+      },
+      {
+        "Id": 16668,
+        "Name": "Shrine to an Nameless God #16668",
+        "Connections": {
+          "West": 16667
+        }
+      },
+      {
+        "Id": 16669,
+        "Name": "Stone Passage #16669",
+        "Connections": {
+          "East": 16670,
+          "West": 16666
+        }
+      },
+      {
+        "Id": 16670,
+        "Name": "Stone Passage #16670",
+        "Connections": {
+          "East": 16671,
+          "South": 16677,
+          "West": 16669
+        },
+        "Contents": [
+          {
+            "Text": "the glabrezu #16617",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16671,
+        "Name": "Stone Passage #16671",
+        "Connections": {
+          "North": 16672,
+          "West": 16670
+        }
+      },
+      {
+        "Id": 16672,
+        "Name": "Stone Passage #16672",
+        "Connections": {
+          "North": 16673,
+          "South": 16671
+        }
+      },
+      {
+        "Id": 16673,
+        "Name": "A Portal #16673",
+        "Connections": {
+          "North": 15902,
+          "East": 16676,
+          "South": 16672,
+          "West": 16675
+        },
+        "Contents": [
+          {
+            "Text": "the glabrezu #16617",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16674,
+        "Name": "Inside a wall! #16674",
+        "Connections": {}
+      },
+      {
+        "Id": 16675,
+        "Name": "Alcove #16675",
+        "Connections": {
+          "East": 16673
+        }
+      },
+      {
+        "Id": 16676,
+        "Name": "Stone Passage #16676",
+        "Connections": {
+          "South": 16665,
+          "West": 16673
+        }
+      },
+      {
+        "Id": 16677,
+        "Name": "Stone Passage #16677",
+        "Connections": {
+          "North": 16670,
+          "West": 16678
+        }
+      },
+      {
+        "Id": 16678,
+        "Name": "Stone Passage #16678",
+        "Connections": {
+          "East": 16677,
+          "South": 16691
+        },
+        "Contents": [
+          {
+            "Text": "the glabrezu #16617",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16679,
+        "Name": "Stone Passage #16679",
+        "Connections": {
+          "East": 16665,
+          "West": 16680
+        }
+      },
+      {
+        "Id": 16680,
+        "Name": "Stone Passage #16680",
+        "Connections": {
+          "North": 16681,
+          "East": 16679,
+          "South": 16686
+        }
+      },
+      {
+        "Id": 16681,
+        "Name": "Stone Passage #16681",
+        "Connections": {
+          "South": 16680,
+          "West": 16682
+        },
+        "Contents": [
+          {
+            "Text": "the pit fiend #16618",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16682,
+        "Name": "Stone Passage #16682",
+        "Connections": {
+          "North": 16685,
+          "East": 16681,
+          "South": 16683,
+          "West": 16690
+        }
+      },
+      {
+        "Id": 16683,
+        "Name": "Stone Passage #16683",
+        "Connections": {
+          "North": 16682,
+          "West": 16684
+        },
+        "Contents": [
+          {
+            "Text": "the pit fiend #16618",
+            "Color": "red"
+          },
+          {
+            "Text": "the pit fiend #16618",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16684,
+        "Name": "Exit #16684",
+        "Connections": {
+          "East": 16683,
+          "Down": 16601
+        }
+      },
+      {
+        "Id": 16685,
+        "Name": "Stone Passage #16685",
+        "Connections": {
+          "North": 16686,
+          "South": 16682
+        },
+        "Contents": [
+          {
+            "Text": "the pit fiend #16618",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16686,
+        "Name": "Stone Passage #16686",
+        "Connections": {
+          "North": 16680,
+          "East": 16687,
+          "South": 16685
+        }
+      },
+      {
+        "Id": 16687,
+        "Name": "Stone Passage #16687",
+        "Connections": {
+          "East": 16688,
+          "West": 16686
+        }
+      },
+      {
+        "Id": 16688,
+        "Name": "Stone Passage #16688",
+        "Connections": {
+          "North": 16689,
+          "West": 16687
+        },
+        "Contents": [
+          {
+            "Text": "the pit fiend #16618",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16689,
+        "Name": "Stone Passage #16689",
+        "Connections": {
+          "East": 16690,
+          "South": 16688
+        }
+      },
+      {
+        "Id": 16690,
+        "Name": "Stone Passage #16690",
+        "Connections": {
+          "North": 16691,
+          "East": 16682,
+          "West": 16689
+        },
+        "Contents": [
+          {
+            "Text": "the pit fiend #16618",
+            "Color": "red"
+          },
+          {
+            "Text": "the glabrezu #16617",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16691,
+        "Name": "Stone Passage #16691",
+        "Connections": {
+          "North": 16678,
+          "South": 16690
+        }
+      },
+      {
+        "Id": 16692,
+        "Name": "Consultation Room #16692",
+        "Connections": {
+          "South": 16651
+        },
+        "Contents": [
+          {
+            "Text": "Mystif #16607",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3427,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3427",
+        "Color": "blue",
+        "Connections": {
+          "East": 3400,
+          "Down": 16601
+        }
+      },
+      {
+        "Id": 15902,
+        "FrameColor": "blue",
+        "Name": "To AvatGargathKeep #15902",
+        "Color": "blue",
+        "Connections": {
+          "East": 15903,
+          "West": 15901
+        }
+      }
+    ]
+  }
+}

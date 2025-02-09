@@ -1,0 +1,1215 @@
+{
+  "Area": {
+    "Name": "Volcano",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 3900,
+        "Name": "Approaching the Volcano #3900",
+        "Connections": {
+          "North": 3901,
+          "South": 16356
+        }
+      },
+      {
+        "Id": 3901,
+        "Name": "At the base of the Volcano #3901",
+        "Connections": {
+          "South": 3900,
+          "Up": 3902
+        }
+      },
+      {
+        "Id": 3902,
+        "Name": "Climbing the Volcano #3902",
+        "Connections": {
+          "Up": 3903,
+          "Down": 3901
+        }
+      },
+      {
+        "Id": 3903,
+        "Name": "Road before the Volcano #3903",
+        "Connections": {
+          "West": 3904,
+          "Down": 3902
+        }
+      },
+      {
+        "Id": 3904,
+        "Name": "Entrance to the Volcano #3904",
+        "Connections": {
+          "East": 3903,
+          "Up": 3905
+        },
+        "Contents": [
+          {
+            "Text": "a flame beast #3900",
+            "Color": "green"
+          },
+          {
+            "Text": "a flame beast #3900",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3905,
+        "Name": "Entryway of the Volcano #3905",
+        "Connections": {
+          "West": 3906,
+          "Down": 3904
+        }
+      },
+      {
+        "Id": 3906,
+        "Name": "Top of the Volcano #3906",
+        "Connections": {
+          "East": 3905,
+          "Down": 3907
+        },
+        "Contents": [
+          {
+            "Text": "a half dead man #3901",
+            "Color": "green"
+          },
+          {
+            "Text": "a half dead man #3901",
+            "Color": "green"
+          },
+          {
+            "Text": "a half dead man #3901",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3907,
+        "Name": "Passageway in the Volcano. #3907",
+        "Connections": {
+          "North": 3981,
+          "East": 3908,
+          "South": 3932,
+          "West": {
+            "RoomId": 3931,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 3906,
+          "Down": {
+            "RoomId": 3943,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a lavaman #3902",
+            "Color": "green"
+          },
+          {
+            "Text": "a lavaman #3902",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3908,
+        "Name": "Entrance to the Temple of Lava #3908",
+        "Connections": {
+          "East": 3909,
+          "West": 3907
+        },
+        "Contents": [
+          {
+            "Text": "Inferno, Prince of Fire #3903",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3909,
+        "Name": "Inside the Temple of Lava #3909",
+        "Connections": {
+          "North": 3913,
+          "East": 3918,
+          "South": 3910,
+          "West": 3908
+        },
+        "Contents": [
+          {
+            "Text": "Hellspawn #3908",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3910,
+        "Name": "Corner of the Temple of Lava #3910",
+        "Connections": {
+          "North": 3909,
+          "East": 3911
+        },
+        "Contents": [
+          {
+            "Text": "a fire demon #3904",
+            "Color": "green"
+          },
+          {
+            "Text": "a flaming skeleton #3907",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3911,
+        "Name": "Inside the Temple of Lava #3911",
+        "Connections": {
+          "North": 3918,
+          "East": 3919,
+          "South": {
+            "RoomId": 3912,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 3910
+        }
+      },
+      {
+        "Id": 3912,
+        "Name": "Spine\u0027s Lair #3912",
+        "Connections": {
+          "North": {
+            "RoomId": 3911,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Spine the Skeleton Master #3905",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3913,
+        "Name": "Inside the Temple of Lava #3913",
+        "Connections": {
+          "North": 3914,
+          "East": 3917,
+          "South": 3909
+        },
+        "Contents": [
+          {
+            "Text": "a fire demon #3904",
+            "Color": "green"
+          },
+          {
+            "Text": "a fleshless monk #3906",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3914,
+        "Name": "Corner of the Temple of Lava #3914",
+        "Connections": {
+          "East": 3915,
+          "South": 3913
+        },
+        "Contents": [
+          {
+            "Text": "a fleshless monk #3906",
+            "Color": "green"
+          },
+          {
+            "Text": "a flaming skeleton #3907",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3915,
+        "Name": "Inside the Temple of Lava #3915",
+        "Connections": {
+          "North": 3916,
+          "East": 3922,
+          "South": 3917,
+          "West": 3914
+        },
+        "Contents": [
+          {
+            "Text": "Hellspawn #3908",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3916,
+        "Name": "River of Lava #3916",
+        "Connections": {}
+      },
+      {
+        "Id": 3917,
+        "Name": "Inside the Temple of Lava #3917",
+        "Connections": {
+          "North": 3915,
+          "East": 3921,
+          "South": 3918,
+          "West": 3913
+        },
+        "Contents": [
+          {
+            "Text": "a fleshless monk #3906",
+            "Color": "green"
+          },
+          {
+            "Text": "a flaming skeleton #3907",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3918,
+        "Name": "Inside the Temple of Lava #3918",
+        "Connections": {
+          "North": 3917,
+          "East": 3920,
+          "South": 3911,
+          "West": 3909
+        },
+        "Contents": [
+          {
+            "Text": "a fire demon #3904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3919,
+        "Name": "Inside the Temple of Lava #3919",
+        "Connections": {
+          "North": 3920,
+          "East": 3923,
+          "West": 3911
+        },
+        "Contents": [
+          {
+            "Text": "Hellspawn #3908",
+            "Color": "red"
+          },
+          {
+            "Text": "a flaming skeleton #3907",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3920,
+        "Name": "Inside the Temple of Lava #3920",
+        "Connections": {
+          "North": 3921,
+          "East": 3924,
+          "South": 3919,
+          "West": 3918,
+          "Down": {
+            "RoomId": 3975,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a fleshless monk #3906",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3921,
+        "Name": "Inside the Temple of Lava #3921",
+        "Connections": {
+          "North": 3922,
+          "East": 3925,
+          "South": 3920,
+          "West": 3917
+        },
+        "Contents": [
+          {
+            "Text": "a fire demon #3904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3922,
+        "Name": "Inside the Temple of Lava #3922",
+        "Connections": {
+          "East": 3926,
+          "South": 3921,
+          "West": 3915
+        },
+        "Contents": [
+          {
+            "Text": "a fleshless monk #3906",
+            "Color": "green"
+          },
+          {
+            "Text": "a flaming skeleton #3907",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3923,
+        "Name": "Corner of the Temple of Lava #3923",
+        "Connections": {
+          "North": 3924,
+          "West": 3919
+        },
+        "Contents": [
+          {
+            "Text": "a fire demon #3904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3924,
+        "Name": "Inside the Temple of Lava #3924",
+        "Connections": {
+          "North": 3925,
+          "East": 3927,
+          "South": 3923,
+          "West": 3920
+        },
+        "Contents": [
+          {
+            "Text": "Hellspawn #3908",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3925,
+        "Name": "Inside the Temple of Lava #3925",
+        "Connections": {
+          "North": 3926,
+          "South": 3924,
+          "West": 3921
+        },
+        "Contents": [
+          {
+            "Text": "a fleshless monk #3906",
+            "Color": "green"
+          },
+          {
+            "Text": "a flaming skeleton #3907",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3926,
+        "Name": "Corner of the Temple of Lava #3926",
+        "Connections": {
+          "South": 3925,
+          "West": 3922
+        },
+        "Contents": [
+          {
+            "Text": "a fire demon #3904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3927,
+        "Name": "Passageway to the Chamber of Vulcan #3927",
+        "Connections": {
+          "North": 3928,
+          "West": 3924
+        }
+      },
+      {
+        "Id": 3928,
+        "Name": "Before the Chamber of Vulcan #3928",
+        "Connections": {
+          "South": 3927,
+          "Up": 3929
+        }
+      },
+      {
+        "Id": 3929,
+        "Name": "Entrance to the Chamber of Vulcan #3929",
+        "Connections": {
+          "East": {
+            "RoomId": 3930,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 3928
+        },
+        "Contents": [
+          {
+            "Text": "Holocaust #3910",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3930,
+        "Name": "The Chamber of Vulcan #3930",
+        "Connections": {
+          "West": {
+            "RoomId": 3929,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Vulcan, God of Fire #3911",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3931,
+        "Name": "Vulcan\u0027s Weapon Hold #3931",
+        "Connections": {
+          "East": 3930
+        }
+      },
+      {
+        "Id": 3932,
+        "Name": "Corridor to Pyro\u0027s Castle #3932",
+        "Connections": {
+          "North": 3907,
+          "South": 3933
+        }
+      },
+      {
+        "Id": 3933,
+        "Name": "Corridor before Pyro\u0027s Castle #3933",
+        "Connections": {
+          "North": 3932,
+          "South": 3934
+        }
+      },
+      {
+        "Id": 3934,
+        "Name": "Entrance to Pyro\u0027s Castle #3934",
+        "Connections": {
+          "North": 3933,
+          "South": 3935
+        },
+        "Contents": [
+          {
+            "Text": "an ivory gargoyle #3912",
+            "Color": "green"
+          },
+          {
+            "Text": "a marble gargoyle #3913",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3935,
+        "Name": "Pyro\u0027s Castle #3935",
+        "Connections": {
+          "North": 3934,
+          "East": 3936,
+          "South": 3938,
+          "West": 3937
+        },
+        "Contents": [
+          {
+            "Text": "Royal Guard of the Fire Palace #3916",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3936,
+        "Name": "Guard Room #3936",
+        "Connections": {
+          "West": 3935
+        },
+        "Contents": [
+          {
+            "Text": "Royal Guard of the Fire Palace #3916",
+            "Color": "green"
+          },
+          {
+            "Text": "Blaze, Keeper of the Flame #3914",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3937,
+        "Name": "Dining Room #3937",
+        "Connections": {
+          "East": 3935
+        },
+        "Contents": [
+          {
+            "Text": "Royal Guard of the Fire Palace #3916",
+            "Color": "green"
+          },
+          {
+            "Text": "Chef Cann\u0027Ibal #3915",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3938,
+        "Name": "Centre of the Castle #3938",
+        "Connections": {
+          "North": 3935,
+          "East": 3940,
+          "South": 3941,
+          "West": 3939
+        },
+        "Contents": [
+          {
+            "Text": "Royal Guard of the Fire Palace #3916",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3939,
+        "Name": "Guard Room #3939",
+        "Connections": {
+          "East": 3938
+        },
+        "Contents": [
+          {
+            "Text": "Royal Guard of the Fire Palace #3916",
+            "Color": "green"
+          },
+          {
+            "Text": "Cremate #3917",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3940,
+        "Name": "Treasure Room #3940",
+        "Connections": {}
+      },
+      {
+        "Id": 3941,
+        "Name": "Pyro\u0027s Throne Room #3941",
+        "Connections": {
+          "North": 3938,
+          "Down": 3942
+        },
+        "Contents": [
+          {
+            "Text": "Royal Guard of the Fire Palace #3916",
+            "Color": "green"
+          },
+          {
+            "Text": "Pyro #3918",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3942,
+        "Name": "Hidden Treasure Room #3942",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "the Flame Elemental #3927",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3943,
+        "Name": "Portal of Destiny #3943",
+        "Connections": {
+          "North": 1750,
+          "East": 3900,
+          "South": 3982,
+          "West": 3944,
+          "Up": 3943,
+          "Down": 3916
+        },
+        "Contents": [
+          {
+            "Text": "the TimeMaster #3909",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3944,
+        "Name": "Road to Vulcanus #3944",
+        "Connections": {
+          "South": 3945,
+          "Up": 3900
+        }
+      },
+      {
+        "Id": 3945,
+        "Name": "Road before Vulcanus #3945",
+        "Connections": {
+          "North": 3944,
+          "South": 3946
+        }
+      },
+      {
+        "Id": 3946,
+        "Name": "Vulcan Street #3946",
+        "Connections": {
+          "North": 3945,
+          "South": 3947
+        },
+        "Contents": [
+          {
+            "Text": "a citizen of Vulcanus #3919",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3947,
+        "Name": "Centre of Vulcanus #3947",
+        "Connections": {
+          "North": 3946,
+          "East": 3948,
+          "South": 3950,
+          "West": 3949
+        },
+        "Contents": [
+          {
+            "Text": "a citizen of Vulcanus #3919",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3948,
+        "Name": "Vulcan Road. #3948",
+        "Connections": {
+          "North": 3954,
+          "South": 3953,
+          "West": 3947
+        },
+        "Contents": [
+          {
+            "Text": "a citizen of Vulcanus #3919",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3949,
+        "Name": "Vulcan Road. #3949",
+        "Connections": {
+          "North": 3951,
+          "East": 3947,
+          "South": 3952
+        },
+        "Contents": [
+          {
+            "Text": "a citizen of Vulcanus #3919",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3950,
+        "Name": "Vulcan Street #3950",
+        "Connections": {
+          "North": 3947,
+          "South": 3955
+        }
+      },
+      {
+        "Id": 3951,
+        "Name": "Home of the Slave Master #3951",
+        "Connections": {
+          "South": 3949
+        },
+        "Contents": [
+          {
+            "Text": "the slave master #3920",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3952,
+        "Name": "Slave Chamber #3952",
+        "Connections": {
+          "North": 3949
+        },
+        "Contents": [
+          {
+            "Text": "a citizen of Vulcanus #3919",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3953,
+        "Name": "Slave Quarters #3953",
+        "Connections": {
+          "North": 3948
+        },
+        "Contents": [
+          {
+            "Text": "a citizen of Vulcanus #3919",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3954,
+        "Name": "Vergil\u0027s Exotic Food and Drink #3954",
+        "Connections": {
+          "South": 3948
+        },
+        "Contents": [
+          {
+            "Text": "Vergil #3921",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3955,
+        "Name": "A dark path #3955",
+        "Connections": {
+          "North": 3950,
+          "Down": 3956
+        }
+      },
+      {
+        "Id": 3956,
+        "Name": "Inside the Well #3956",
+        "Connections": {
+          "Up": 3955,
+          "Down": 3957
+        }
+      },
+      {
+        "Id": 3957,
+        "Name": "Further down the Well #3957",
+        "Connections": {
+          "Up": 3956,
+          "Down": 3958
+        }
+      },
+      {
+        "Id": 3958,
+        "Name": "Continuing down the Well #3958",
+        "Connections": {
+          "Up": 3957,
+          "Down": 3959
+        }
+      },
+      {
+        "Id": 3959,
+        "Name": "Bottom of the Well #3959",
+        "Connections": {
+          "North": 3960,
+          "Up": 3958
+        }
+      },
+      {
+        "Id": 3960,
+        "Name": "Deep beneath the Volcano #3960",
+        "Connections": {
+          "South": 3959,
+          "West": 3961
+        }
+      },
+      {
+        "Id": 3961,
+        "Name": "Secret Passageway #3961",
+        "Connections": {
+          "East": 3960,
+          "West": 3962
+        }
+      },
+      {
+        "Id": 3962,
+        "Name": "Lost Kingdom of Fire #3962",
+        "Connections": {
+          "North": 3963,
+          "East": 3961,
+          "South": 3964,
+          "West": 3965
+        },
+        "Contents": [
+          {
+            "Text": "a fire drake #3922",
+            "Color": "red"
+          },
+          {
+            "Text": "a fire drake #3923",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3963,
+        "Name": "Lost Kingdom of Fire #3963",
+        "Connections": {
+          "North": 3983,
+          "South": 3962,
+          "West": 3967
+        },
+        "Contents": [
+          {
+            "Text": "a fire drake #3922",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3964,
+        "Name": "Lost Kingdom of Fire #3964",
+        "Connections": {
+          "North": 3962,
+          "South": 3974,
+          "West": 3966
+        },
+        "Contents": [
+          {
+            "Text": "a fire drake #3922",
+            "Color": "red"
+          },
+          {
+            "Text": "a fire drake #3923",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3965,
+        "Name": "Lost Kingdom of Fire #3965",
+        "Connections": {
+          "North": 3967,
+          "East": 3962,
+          "South": 3966,
+          "West": 3968
+        },
+        "Contents": [
+          {
+            "Text": "a fire drake #3922",
+            "Color": "red"
+          },
+          {
+            "Text": "a fire drake #3923",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3966,
+        "Name": "Lost Kingdom of Fire #3966",
+        "Connections": {
+          "North": 3965,
+          "East": 3964
+        },
+        "Contents": [
+          {
+            "Text": "a fire drake #3923",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3967,
+        "Name": "Lost Kingdom of Fire #3967",
+        "Connections": {
+          "North": 3972,
+          "East": 3963,
+          "South": 3965
+        },
+        "Contents": [
+          {
+            "Text": "a fire drake #3922",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3968,
+        "Name": "Queen\u0027s Chamber #3968",
+        "Connections": {
+          "East": 3965,
+          "Up": 3969
+        },
+        "Contents": [
+          {
+            "Text": "a fire drake #3923",
+            "Color": "red"
+          },
+          {
+            "Text": "Queen Xyria #3924",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3969,
+        "Name": "Up the Palace Tower #3969",
+        "Connections": {
+          "Up": 3970,
+          "Down": 3968
+        }
+      },
+      {
+        "Id": 3970,
+        "Name": "Further Up the Tower #3970",
+        "Connections": {
+          "Up": 3971,
+          "Down": 3969
+        }
+      },
+      {
+        "Id": 3971,
+        "Name": "King\u0027s Overlook #3971",
+        "Connections": {
+          "Down": 3970
+        },
+        "Contents": [
+          {
+            "Text": "King Shi\u0027van #3925",
+            "Color": "red"
+          },
+          {
+            "Text": "a fire drake #3922",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3972,
+        "Name": "Path to the Tree #3972",
+        "Connections": {
+          "South": 3967,
+          "West": 3973
+        },
+        "Contents": [
+          {
+            "Text": "a fire drake #3922",
+            "Color": "red"
+          },
+          {
+            "Text": "a fire drake #3923",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3973,
+        "Name": "The Tree of Fire #3973",
+        "Connections": {
+          "East": 3972
+        },
+        "Contents": [
+          {
+            "Text": "Ancient Tree of Fire #3926",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3974,
+        "Name": "Pit of Fire #3974",
+        "Connections": {}
+      },
+      {
+        "Id": 3975,
+        "Name": "Hidden path to the core #3975",
+        "Connections": {
+          "Up": {
+            "RoomId": 3920,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 3976
+        }
+      },
+      {
+        "Id": 3976,
+        "Name": "Continuing down the hidden path #3976",
+        "Connections": {
+          "Up": 3975,
+          "Down": 3977
+        },
+        "Contents": [
+          {
+            "Text": "a fireball #3928",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3977,
+        "Name": "Further down the hidden path #3977",
+        "Connections": {
+          "Up": 3976,
+          "Down": 3978
+        },
+        "Contents": [
+          {
+            "Text": "a fireball #3928",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3978,
+        "Name": "Nearing the end of the hidden path #3978",
+        "Connections": {
+          "Up": 3977,
+          "Down": 3979
+        },
+        "Contents": [
+          {
+            "Text": "a fireball #3928",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3979,
+        "Name": "Before the bottom of the hidden path #3979",
+        "Connections": {
+          "Up": 3978,
+          "Down": 3980
+        }
+      },
+      {
+        "Id": 3980,
+        "Name": "The Core #3980",
+        "Connections": {
+          "Up": 3979
+        },
+        "Contents": [
+          {
+            "Text": "the Fire #3929",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3981,
+        "Name": "Room of the lava lords #3981",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "a lava lord #3930",
+            "Color": "green"
+          },
+          {
+            "Text": "a lava lord #3930",
+            "Color": "green"
+          },
+          {
+            "Text": "a lava lord #3930",
+            "Color": "green"
+          },
+          {
+            "Text": "a lava lord #3930",
+            "Color": "green"
+          },
+          {
+            "Text": "a lava lord #3930",
+            "Color": "green"
+          },
+          {
+            "Text": "a lava lord #3930",
+            "Color": "green"
+          },
+          {
+            "Text": "a lava lord #3930",
+            "Color": "green"
+          },
+          {
+            "Text": "a lava lord #3930",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3982,
+        "Name": "Gotcha! #3982",
+        "Connections": {}
+      },
+      {
+        "Id": 3983,
+        "Name": "Lost Kingdom of Fire #3983",
+        "Connections": {
+          "East": 3984,
+          "South": 3963
+        }
+      },
+      {
+        "Id": 3984,
+        "Name": "DuskFlame\u0027s Lair #3984",
+        "Connections": {
+          "West": 3983
+        },
+        "Contents": [
+          {
+            "Text": "DuskFlame #3932",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16356,
+        "FrameColor": "blue",
+        "Name": "To AmazonJungle #16356",
+        "Color": "blue",
+        "Connections": {
+          "North": 3900,
+          "South": 16357,
+          "West": 16355
+        }
+      },
+      {
+        "Id": 1750,
+        "FrameColor": "blue",
+        "Name": "To HadesCastle #1750",
+        "Color": "blue",
+        "Connections": {
+          "South": 3943,
+          "West": 1751
+        }
+      }
+    ]
+  }
+}

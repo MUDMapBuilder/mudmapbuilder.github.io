@@ -1,0 +1,983 @@
+{
+  "Area": {
+    "Name": "CastleWhiteFlame",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 20200,
+        "Name": "Drawbridge to the Castle #20200",
+        "Connections": {
+          "North": 20201,
+          "West": 1086
+        }
+      },
+      {
+        "Id": 20201,
+        "Name": "Castle Gates #20201",
+        "Connections": {
+          "North": 20202,
+          "East": 20273,
+          "South": 20200
+        }
+      },
+      {
+        "Id": 20202,
+        "Name": "Great Hall #20202",
+        "Connections": {
+          "North": 20203,
+          "South": 20201
+        },
+        "Contents": [
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          },
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20203,
+        "Name": "Great Hall #20203",
+        "Connections": {
+          "North": 20204,
+          "South": 20202
+        }
+      },
+      {
+        "Id": 20204,
+        "Name": "Great Hall #20204",
+        "Connections": {
+          "North": 20205,
+          "East": 20216,
+          "South": 20203,
+          "West": 20217
+        },
+        "Contents": [
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          },
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20205,
+        "Name": "Chapel #20205",
+        "Connections": {
+          "North": 20206,
+          "South": 20204
+        }
+      },
+      {
+        "Id": 20206,
+        "Name": "Chapel Library #20206",
+        "Connections": {
+          "North": 20207,
+          "South": 20205
+        },
+        "Contents": [
+          {
+            "Text": "Chapel Librarian #20219",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20207,
+        "Name": "Staircase #20207",
+        "Connections": {
+          "South": 20206,
+          "Down": 20208
+        }
+      },
+      {
+        "Id": 20208,
+        "Name": "Dungeon Entrance #20208",
+        "Connections": {
+          "North": 20272,
+          "East": 20211,
+          "South": 20209,
+          "West": 20212,
+          "Up": 20207
+        },
+        "Contents": [
+          {
+            "Text": "Ogre #20222",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20209,
+        "Name": "Dungeon #20209",
+        "Connections": {
+          "North": 20208,
+          "East": 20214,
+          "South": 20210,
+          "West": 20215
+        }
+      },
+      {
+        "Id": 20210,
+        "Name": "Torture Room #20210",
+        "Connections": {
+          "North": 20209
+        },
+        "Contents": [
+          {
+            "Text": "Torturer #20210",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20211,
+        "Name": "Pitch Black Cell #20211",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "A Large Snarling Beast #20201",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20212,
+        "Name": "Pitch Black Cell #20212",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "A Large Creature #20203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20213,
+        "Name": "Pitch Black Cell #20213",
+        "Connections": {}
+      },
+      {
+        "Id": 20214,
+        "Name": "Pitch Black Cell #20214",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "The Warlord Karloff #20217",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20215,
+        "Name": "Pitch Black Cell #20215",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "A Faceless Man #20218",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20216,
+        "Name": "East Wing #20216",
+        "Connections": {
+          "East": 20218,
+          "West": 20204
+        }
+      },
+      {
+        "Id": 20217,
+        "Name": "West Wing #20217",
+        "Connections": {
+          "East": 20204,
+          "West": 20219
+        },
+        "Contents": [
+          {
+            "Text": "Guard of the White Flame #20205",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20218,
+        "Name": "East Wing #20218",
+        "Connections": {
+          "North": 20241,
+          "East": 20220,
+          "West": 20216
+        },
+        "Contents": [
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          },
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20219,
+        "Name": "West Wing #20219",
+        "Connections": {
+          "North": 20222,
+          "East": 20217,
+          "West": 20221
+        },
+        "Contents": [
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          },
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20220,
+        "Name": "East Wing #20220",
+        "Connections": {
+          "East": 20246,
+          "West": 20218
+        }
+      },
+      {
+        "Id": 20221,
+        "Name": "West Wing #20221",
+        "Connections": {
+          "East": 20219,
+          "West": 20227
+        },
+        "Contents": [
+          {
+            "Text": "A Servant Of The King #20209",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20222,
+        "Name": "North-West Hall #20222",
+        "Connections": {
+          "North": 20223,
+          "South": 20219
+        },
+        "Contents": [
+          {
+            "Text": "A Servant Of The King #20209",
+            "Color": "green"
+          },
+          {
+            "Text": "A Servant Of The King #20209",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20223,
+        "Name": "North-West Hall #20223",
+        "Connections": {
+          "North": 20224,
+          "South": 20222
+        }
+      },
+      {
+        "Id": 20224,
+        "Name": "North-West Hall #20224",
+        "Connections": {
+          "North": 20225,
+          "South": 20223
+        },
+        "Contents": [
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          },
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20225,
+        "Name": "A Royal Bedroom #20225",
+        "Connections": {
+          "East": 20226,
+          "South": 20224
+        },
+        "Contents": [
+          {
+            "Text": "Prince Alexander #20221",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20226,
+        "Name": "The Prince\u0027s Closet #20226",
+        "Connections": {
+          "West": 20225
+        }
+      },
+      {
+        "Id": 20227,
+        "Name": "West Wing #20227",
+        "Connections": {
+          "East": 20221,
+          "West": 20228
+        }
+      },
+      {
+        "Id": 20228,
+        "Name": "The West Staircase #20228",
+        "Connections": {
+          "East": 20227,
+          "Down": 20229
+        }
+      },
+      {
+        "Id": 20229,
+        "Name": "Bottom of the West Staircase #20229",
+        "Connections": {
+          "East": 20230,
+          "Up": 20228
+        }
+      },
+      {
+        "Id": 20230,
+        "Name": "Basement #20230",
+        "Connections": {
+          "East": 20231,
+          "West": 20229
+        },
+        "Contents": [
+          {
+            "Text": "Skeleton #20206",
+            "Color": "red"
+          },
+          {
+            "Text": "Skeleton #20206",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20231,
+        "Name": "Basement #20231",
+        "Connections": {
+          "East": 20232,
+          "West": 20230
+        },
+        "Contents": [
+          {
+            "Text": "Skeleton #20206",
+            "Color": "red"
+          },
+          {
+            "Text": "Skeleton #20206",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20232,
+        "Name": "Basement #20232",
+        "Connections": {
+          "West": 20232,
+          "Down": 20233
+        }
+      },
+      {
+        "Id": 20233,
+        "Name": "Deeper into the Basement #20233",
+        "Connections": {
+          "East": 20234,
+          "Up": 20232
+        }
+      },
+      {
+        "Id": 20234,
+        "Name": "Deeper into the Basement #20234",
+        "Connections": {
+          "West": 20233,
+          "Down": 20235
+        }
+      },
+      {
+        "Id": 20235,
+        "Name": "Under the Castle #20235",
+        "Connections": {
+          "South": 20236,
+          "Up": 20234
+        }
+      },
+      {
+        "Id": 20236,
+        "Name": "Under the Castle #20236",
+        "Connections": {
+          "North": 20235,
+          "Down": 20238
+        }
+      },
+      {
+        "Id": 20237,
+        "Name": "The Long Plummit #20237",
+        "Connections": {}
+      },
+      {
+        "Id": 20238,
+        "Name": "Deeper Under the Castle #20238",
+        "Connections": {
+          "East": 20237,
+          "Up": 20236,
+          "Down": 20239
+        }
+      },
+      {
+        "Id": 20239,
+        "Name": "Even Deeper Under the Castle #20239",
+        "Connections": {
+          "Up": 20238,
+          "Down": 20240
+        }
+      },
+      {
+        "Id": 20240,
+        "Name": "A Pit.. #20240",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "Giant Rattlesnake #20213",
+            "Color": "red"
+          },
+          {
+            "Text": "Giant Rattlesnake #20213",
+            "Color": "red"
+          },
+          {
+            "Text": "Giant Rattlesnake #20213",
+            "Color": "red"
+          },
+          {
+            "Text": "Giant Rattlesnake #20213",
+            "Color": "red"
+          },
+          {
+            "Text": "Giant Rattlesnake #20213",
+            "Color": "red"
+          },
+          {
+            "Text": "Giant Rattlesnake #20213",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20241,
+        "Name": "Northern Hallway #20241",
+        "Connections": {
+          "North": 20242,
+          "South": 20218
+        }
+      },
+      {
+        "Id": 20242,
+        "Name": "Northern Hallway #20242",
+        "Connections": {
+          "North": 20243,
+          "South": 20241,
+          "West": {
+            "RoomId": 20249,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 20243,
+        "Name": "Northern Hallway #20243",
+        "Connections": {
+          "North": 20244,
+          "South": 20242
+        },
+        "Contents": [
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          },
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          },
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20244,
+        "Name": "Royal Bedroom #20244",
+        "Connections": {
+          "East": 20245,
+          "South": 20243
+        },
+        "Contents": [
+          {
+            "Text": "Queen Liane #20204",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20245,
+        "Name": "Inside A Closet #20245",
+        "Connections": {
+          "West": 20244
+        }
+      },
+      {
+        "Id": 20246,
+        "Name": "East Wing #20246",
+        "Connections": {
+          "East": 20250,
+          "South": 20247,
+          "West": 20220
+        }
+      },
+      {
+        "Id": 20247,
+        "Name": "Dining Hall #20247",
+        "Connections": {
+          "North": 20246,
+          "South": 20248
+        },
+        "Contents": [
+          {
+            "Text": "A Servant Of The King #20209",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20248,
+        "Name": "Kitchen #20248",
+        "Connections": {
+          "North": 20247,
+          "East": 20270
+        },
+        "Contents": [
+          {
+            "Text": "Royal Chef #20207",
+            "Color": "green"
+          },
+          {
+            "Text": "Royal Chef #20207",
+            "Color": "green"
+          },
+          {
+            "Text": "A Servant Of The King #20209",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20249,
+        "Name": "Castle Vault #20249",
+        "Connections": {
+          "East": 20242
+        }
+      },
+      {
+        "Id": 20250,
+        "Name": "East Wing #20250",
+        "Connections": {
+          "East": 20251,
+          "West": 20246
+        },
+        "Contents": [
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          },
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          },
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20251,
+        "Name": "Eastern Staircase #20251",
+        "Connections": {
+          "West": 20250,
+          "Up": 20252
+        },
+        "Contents": [
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          },
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          },
+          {
+            "Text": "Guard of the White Flame #20200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20252,
+        "Name": "Top of the Staircase #20252",
+        "Connections": {
+          "West": 20253,
+          "Down": 20251
+        },
+        "Contents": [
+          {
+            "Text": "Royal Knight Of The White Flame #20214",
+            "Color": "red"
+          },
+          {
+            "Text": "Royal Knight Of The White Flame #20214",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20253,
+        "Name": "Hall of the White Flame. #20253",
+        "Connections": {
+          "East": 20252,
+          "West": 20254
+        },
+        "Contents": [
+          {
+            "Text": "A Castle Watchman #20215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20254,
+        "Name": "Hall of the White Flame. #20254",
+        "Connections": {
+          "North": 20255,
+          "East": 20253,
+          "South": 20256,
+          "West": 20257
+        },
+        "Contents": [
+          {
+            "Text": "Royal Knight Of The White Flame #20214",
+            "Color": "red"
+          },
+          {
+            "Text": "Royal Knight Of The White Flame #20214",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20255,
+        "Name": "The Kings Study #20255",
+        "Connections": {
+          "South": 20254
+        },
+        "Contents": [
+          {
+            "Text": "King of the White Flame #20212",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20256,
+        "Name": "The Wizards Sleeping Quarters #20256",
+        "Connections": {
+          "North": 20254,
+          "East": 20258
+        },
+        "Contents": [
+          {
+            "Text": "Wizard of the White Flame #20202",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20257,
+        "Name": "Hall of the White Flame. #20257",
+        "Connections": {
+          "East": 20254,
+          "West": 20260,
+          "Up": 20259
+        },
+        "Contents": [
+          {
+            "Text": "Royal Knight Of The White Flame #20214",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20258,
+        "Name": "The Wizards Closet #20258",
+        "Connections": {
+          "West": 20256
+        }
+      },
+      {
+        "Id": 20259,
+        "Name": "In The Ceiling #20259",
+        "Connections": {
+          "West": 20262,
+          "Down": 20257
+        }
+      },
+      {
+        "Id": 20260,
+        "Name": "Hall of the White Flame. #20260",
+        "Connections": {
+          "North": 20261,
+          "East": 20257,
+          "West": 20267,
+          "Down": 20266
+        },
+        "Contents": [
+          {
+            "Text": "Royal Knight Of The White Flame #20214",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20261,
+        "Name": "Office of the Kings Accountant #20261",
+        "Connections": {
+          "South": 20260
+        }
+      },
+      {
+        "Id": 20262,
+        "Name": "In The Ceiling #20262",
+        "Connections": {
+          "East": 20259,
+          "West": 20263
+        }
+      },
+      {
+        "Id": 20263,
+        "Name": "In The Ceiling #20263",
+        "Connections": {
+          "East": 20262,
+          "West": 20264
+        }
+      },
+      {
+        "Id": 20264,
+        "Name": "In The Ceiling #20264",
+        "Connections": {
+          "East": 20263,
+          "West": 20265
+        }
+      },
+      {
+        "Id": 20265,
+        "Name": "In The Ceiling #20265",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "A Poisonus Spider #20211",
+            "Color": "red"
+          },
+          {
+            "Text": "A Poisonus Spider #20211",
+            "Color": "red"
+          },
+          {
+            "Text": "A Poisonus Spider #20211",
+            "Color": "red"
+          },
+          {
+            "Text": "A Poisonus Spider #20211",
+            "Color": "red"
+          },
+          {
+            "Text": "A Poisonus Spider #20211",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20266,
+        "Name": "Under the Floor Panels #20266",
+        "Connections": {
+          "East": 20268,
+          "Up": 20260
+        }
+      },
+      {
+        "Id": 20267,
+        "Name": "Hall of the White Flame. #20267",
+        "Connections": {
+          "North": 20271,
+          "East": 20260,
+          "West": 20274
+        },
+        "Contents": [
+          {
+            "Text": "Royal Knight Of The White Flame #20214",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20268,
+        "Name": "Under the Floor Panels #20268",
+        "Connections": {
+          "West": 20266
+        },
+        "Contents": [
+          {
+            "Text": "Castle Ghost #20216",
+            "Color": "green"
+          },
+          {
+            "Text": "Castle Ghost #20216",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20269,
+        "Name": "A Large, Spacious Cave #20269",
+        "Connections": {
+          "West": 20273
+        },
+        "Contents": [
+          {
+            "Text": "Weyr, the Gold Dragon #20224",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20270,
+        "Name": "Wine Cellar #20270",
+        "Connections": {
+          "West": 20248
+        },
+        "Contents": [
+          {
+            "Text": "A Drunken Guard #20223",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20271,
+        "Name": "Scriptorium #20271",
+        "Connections": {
+          "South": 20267
+        },
+        "Contents": [
+          {
+            "Text": "A Historian #20208",
+            "Color": "green"
+          },
+          {
+            "Text": "A Historian #20208",
+            "Color": "green"
+          },
+          {
+            "Text": "A Historian #20208",
+            "Color": "green"
+          },
+          {
+            "Text": "A Historian #20208",
+            "Color": "green"
+          },
+          {
+            "Text": "A Historian #20208",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20272,
+        "Name": "Slaves Quarters #20272",
+        "Connections": {
+          "South": 20208
+        },
+        "Contents": [
+          {
+            "Text": "A Servant Of The King #20209",
+            "Color": "green"
+          },
+          {
+            "Text": "A Servant Of The King #20209",
+            "Color": "green"
+          },
+          {
+            "Text": "A Servant Of The King #20209",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20273,
+        "Name": "Rocky Trail #20273",
+        "Connections": {
+          "East": 20269,
+          "West": 20201
+        }
+      },
+      {
+        "Id": 20274,
+        "Name": "Room of the White Flame #20274",
+        "Connections": {
+          "East": 20267
+        },
+        "Contents": [
+          {
+            "Text": "Guardian of the White Flame #20220",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1086,
+        "FrameColor": "blue",
+        "Name": "To Shikonas #1086",
+        "Color": "blue",
+        "Connections": {
+          "North": 1087,
+          "East": 20200,
+          "West": 1048
+        }
+      }
+    ]
+  }
+}

@@ -4,3 +4,4 @@ MUDMapBuilder.Import.Console.exe tbaMUD "D:\Projects\chaos\tbamud\lib\world" "da
 MUDMapBuilder.Import.Console.exe Envy22 "D:\Projects\chaos\envy22\area" "data\Envy22\maps\json" >Envy22.import.txt
 MUDMapBuilder.Import.Console.exe ROM24b6 "D:\Projects\chaos\ROM\area" "data\ROM24b6\maps\json" >ROM24b6.import.txt
 MUDMapBuilder.Import.Console.exe CSL "D:\Projects\CrimsonStainedLands\master\CrimsonStainedLands\data\areas" "data\CSL\maps\json" >CSL.import.txt
+MUDMapBuilder.Import.Console.exe crimson2 "D:\Projects\chaos\Crimson-2-MUD\prod\lib" "data\crimson2\maps\json" >crimson2.import.txt

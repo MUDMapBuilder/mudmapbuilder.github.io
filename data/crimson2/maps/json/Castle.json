@@ -1,0 +1,1389 @@
+{
+  "Area": {
+    "Name": "Castle",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 16200,
+        "Name": "Outside Castle Bryan #16200",
+        "Connections": {
+          "North": 16201,
+          "South": 3734
+        }
+      },
+      {
+        "Id": 16201,
+        "Name": "A Large Dirt Path #16201",
+        "Connections": {
+          "North": 16205,
+          "South": 16200
+        }
+      },
+      {
+        "Id": 16202,
+        "Name": "Temple to The Grand Universal Mike #16202",
+        "Connections": {
+          "East": 16209,
+          "West": 16203
+        },
+        "Contents": [
+          {
+            "Text": "joe the cleric #16209",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16203,
+        "Name": "Temple Storage Room #16203",
+        "Connections": {
+          "East": 16202
+        },
+        "Contents": [
+          {
+            "Text": "a dust devil #16211",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16204,
+        "Name": "Dwarven Weaponsmith Workshop #16204",
+        "Connections": {
+          "West": 16209
+        },
+        "Contents": [
+          {
+            "Text": "the weaponsmith #16216",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16205,
+        "Name": "The Drawbridge #16205",
+        "Connections": {
+          "North": {
+            "RoomId": 16206,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 16201
+        },
+        "Contents": [
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          },
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16206,
+        "Name": "Bryan Street #16206",
+        "Connections": {
+          "North": 16207,
+          "South": {
+            "RoomId": 16205,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 16207,
+        "Name": "Bryan Street #16207",
+        "Connections": {
+          "North": 16208,
+          "East": 16213,
+          "South": 16206,
+          "West": 16212
+        },
+        "Contents": [
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16208,
+        "Name": "Bryan Street #16208",
+        "Connections": {
+          "North": 16209,
+          "East": 16224,
+          "South": 16207,
+          "West": 16210
+        },
+        "Contents": [
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          },
+          {
+            "Text": "soldier of bryan #16225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16209,
+        "Name": "Bryan Street #16209",
+        "Connections": {
+          "North": 16255,
+          "East": 16204,
+          "South": 16208,
+          "West": 16202
+        }
+      },
+      {
+        "Id": 16210,
+        "Name": "Dark Alley #16210",
+        "Connections": {
+          "East": 16208,
+          "West": 16211
+        },
+        "Contents": [
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16211,
+        "Name": "Dark Alley #16211",
+        "Connections": {
+          "East": 16210,
+          "West": 16215
+        }
+      },
+      {
+        "Id": 16212,
+        "Name": "Pig\u0027N\u0027Wistle Inn #16212",
+        "Connections": {
+          "East": 16207
+        },
+        "Contents": [
+          {
+            "Text": "a demon nacho #16204",
+            "Color": "green"
+          },
+          {
+            "Text": "woz the bumbling mage #16214",
+            "Color": "green"
+          },
+          {
+            "Text": "the bartender #16217",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16213,
+        "Name": "Castle Stables #16213",
+        "Connections": {
+          "West": 16207
+        },
+        "Contents": [
+          {
+            "Text": "a demon nacho #16204",
+            "Color": "green"
+          },
+          {
+            "Text": "a demon nacho #16204",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16214,
+        "Name": "Dark Alley #16214",
+        "Connections": {
+          "East": 16215,
+          "South": 16220,
+          "West": 16216
+        }
+      },
+      {
+        "Id": 16215,
+        "Name": "Dark Alley #16215",
+        "Connections": {
+          "East": 16211,
+          "West": 16214
+        }
+      },
+      {
+        "Id": 16216,
+        "Name": "Dark Alley #16216",
+        "Connections": {
+          "North": 16217,
+          "East": 16216,
+          "South": 16216,
+          "West": 16217
+        }
+      },
+      {
+        "Id": 16217,
+        "Name": "Dark Alley #16217",
+        "Connections": {
+          "North": 16217,
+          "East": 16218,
+          "South": 16217,
+          "West": 16216
+        },
+        "Contents": [
+          {
+            "Text": "a demon nacho #16204",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16218,
+        "Name": "Dark Alley #16218",
+        "Connections": {
+          "North": 16217,
+          "East": 16216,
+          "South": 16214,
+          "West": 16219
+        }
+      },
+      {
+        "Id": 16219,
+        "Name": "Dead End. #16219",
+        "Connections": {
+          "East": 16216
+        },
+        "Contents": [
+          {
+            "Text": "the cat ninja #16223",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16220,
+        "Name": "Dark Alley #16220",
+        "Connections": {
+          "North": 16214,
+          "South": 16221
+        }
+      },
+      {
+        "Id": 16221,
+        "Name": "Dark Alley #16221",
+        "Connections": {
+          "North": 16220,
+          "West": 16222
+        }
+      },
+      {
+        "Id": 16222,
+        "Name": "Dark Alley #16222",
+        "Connections": {
+          "East": 16221,
+          "South": 16223
+        }
+      },
+      {
+        "Id": 16223,
+        "Name": "Memory Lane #16223",
+        "Connections": {
+          "North": 16222,
+          "East": 16223,
+          "South": 16223,
+          "West": 16223
+        },
+        "Contents": [
+          {
+            "Text": "the death knight #16208",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16224,
+        "Name": "Side Street #16224",
+        "Connections": {
+          "East": 16225,
+          "West": 16208
+        }
+      },
+      {
+        "Id": 16225,
+        "Name": "Side Street #16225",
+        "Connections": {
+          "North": 16229,
+          "East": 16226,
+          "West": 16224
+        },
+        "Contents": [
+          {
+            "Text": "a demon nacho #16204",
+            "Color": "green"
+          },
+          {
+            "Text": "a demon nacho #16204",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16226,
+        "Name": "Side Street #16226",
+        "Connections": {
+          "South": 16227,
+          "West": 16225
+        }
+      },
+      {
+        "Id": 16227,
+        "Name": "Tower Road #16227",
+        "Connections": {
+          "North": 16226,
+          "East": 16235,
+          "South": 16228
+        }
+      },
+      {
+        "Id": 16228,
+        "Name": "East Drawbridge Tower. #16228",
+        "Connections": {
+          "North": 16227,
+          "Up": 16236
+        }
+      },
+      {
+        "Id": 16229,
+        "Name": "Small Dirt Path #16229",
+        "Connections": {
+          "North": 16230,
+          "South": 16225
+        }
+      },
+      {
+        "Id": 16230,
+        "Name": "Small Dirt Path #16230",
+        "Connections": {
+          "East": 16231,
+          "South": 16229
+        },
+        "Contents": [
+          {
+            "Text": "soldier of bryan #16225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16231,
+        "Name": "Shady Looking Bar. #16231",
+        "Connections": {
+          "West": 16230,
+          "Down": 16232
+        },
+        "Contents": [
+          {
+            "Text": "the bartender #16217",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16232,
+        "Name": "The Pit Arena. #16232",
+        "Connections": {
+          "South": 16234,
+          "Up": 16231,
+          "Down": 16233
+        },
+        "Contents": [
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16233,
+        "Name": "Demon Nacho Stand #16233",
+        "Connections": {}
+      },
+      {
+        "Id": 16234,
+        "Name": "Gladiator Resting Area. #16234",
+        "Connections": {
+          "North": 16232
+        },
+        "Contents": [
+          {
+            "Text": "Thorak #16222",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16235,
+        "Name": "Joe\u0027s Place. #16235",
+        "Connections": {
+          "West": 16227
+        },
+        "Contents": [
+          {
+            "Text": "riana #16210",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16236,
+        "Name": "East Drawbridge Upper Tower. #16236",
+        "Connections": {
+          "East": 16237,
+          "West": 16254,
+          "Down": 16228
+        },
+        "Contents": [
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          },
+          {
+            "Text": "the young knight #16201",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16237,
+        "Name": "Along The Castle Wall. #16237",
+        "Connections": {
+          "East": 16238,
+          "West": 16236
+        },
+        "Contents": [
+          {
+            "Text": "soldier of bryan #16225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16238,
+        "Name": "South East Guard Tower. #16238",
+        "Connections": {
+          "North": 16239,
+          "West": 16237
+        },
+        "Contents": [
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          },
+          {
+            "Text": "the knight #16202",
+            "Color": "green"
+          },
+          {
+            "Text": "a squire #16207",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16239,
+        "Name": "Along The Castle Wall. #16239",
+        "Connections": {
+          "North": 16240,
+          "South": 16238
+        },
+        "Contents": [
+          {
+            "Text": "soldier of bryan #16225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16240,
+        "Name": "Along The Castle Wall. #16240",
+        "Connections": {
+          "North": 16241,
+          "South": 16239
+        },
+        "Contents": [
+          {
+            "Text": "soldier of bryan #16225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16241,
+        "Name": "Along The Castle Wall. #16241",
+        "Connections": {
+          "North": 16242,
+          "South": 16240
+        },
+        "Contents": [
+          {
+            "Text": "a demon nacho #16204",
+            "Color": "green"
+          },
+          {
+            "Text": "soldier of bryan #16225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16242,
+        "Name": "North East Guard Tower. #16242",
+        "Connections": {
+          "South": 16241,
+          "West": 16243
+        },
+        "Contents": [
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          },
+          {
+            "Text": "the head knight #16203",
+            "Color": "green"
+          },
+          {
+            "Text": "a squire #16207",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16243,
+        "Name": "Along The Castle Wall. #16243",
+        "Connections": {
+          "East": 16242,
+          "West": 16244
+        },
+        "Contents": [
+          {
+            "Text": "soldier of bryan #16225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16244,
+        "Name": "Along The Castle Wall. #16244",
+        "Connections": {
+          "East": 16243,
+          "West": 16245
+        },
+        "Contents": [
+          {
+            "Text": "soldier of bryan #16225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16245,
+        "Name": "Along The Castle Wall. #16245",
+        "Connections": {
+          "East": 16244,
+          "West": 16246
+        },
+        "Contents": [
+          {
+            "Text": "a demon nacho #16204",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16246,
+        "Name": "Along The Castle Wall. #16246",
+        "Connections": {
+          "East": 16245,
+          "West": 16247
+        }
+      },
+      {
+        "Id": 16247,
+        "Name": "North West Guard Tower. #16247",
+        "Connections": {
+          "East": 16246,
+          "South": 16248
+        },
+        "Contents": [
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          },
+          {
+            "Text": "the knight #16202",
+            "Color": "green"
+          },
+          {
+            "Text": "a squire #16207",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16248,
+        "Name": "Along The Castle Wall. #16248",
+        "Connections": {
+          "North": 16247,
+          "South": 16249
+        },
+        "Contents": [
+          {
+            "Text": "soldier of bryan #16225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16249,
+        "Name": "Along The Castle Wall. #16249",
+        "Connections": {
+          "North": 16248,
+          "South": 16250
+        }
+      },
+      {
+        "Id": 16250,
+        "Name": "Along The Castle Wall. #16250",
+        "Connections": {
+          "North": 16249,
+          "South": 16251
+        },
+        "Contents": [
+          {
+            "Text": "a demon nacho #16204",
+            "Color": "green"
+          },
+          {
+            "Text": "soldier of bryan #16225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16251,
+        "Name": "South West Guard Tower. #16251",
+        "Connections": {
+          "North": 16250,
+          "East": 16252
+        },
+        "Contents": [
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          },
+          {
+            "Text": "the knight #16202",
+            "Color": "green"
+          },
+          {
+            "Text": "a squire #16207",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16252,
+        "Name": "Along The Castle Wall. #16252",
+        "Connections": {
+          "East": 16253,
+          "West": 16251
+        }
+      },
+      {
+        "Id": 16253,
+        "Name": "West Drawbridge Guard Tower. #16253",
+        "Connections": {
+          "East": 16254,
+          "West": 16252
+        },
+        "Contents": [
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          },
+          {
+            "Text": "the young knight #16201",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16254,
+        "Name": "Above The Drawbridge. #16254",
+        "Connections": {
+          "East": 16236,
+          "West": 16253
+        },
+        "Contents": [
+          {
+            "Text": "a demon nacho #16204",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16255,
+        "Name": "Check Point One. #16255",
+        "Connections": {
+          "North": {
+            "RoomId": 16257,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 16262,
+          "South": 16209
+        },
+        "Contents": [
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          },
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16256,
+        "Name": "Vangar\u0027s Closet #16256",
+        "Connections": {}
+      },
+      {
+        "Id": 16257,
+        "Name": "Check Point Two. #16257",
+        "Connections": {
+          "North": {
+            "RoomId": 16258,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 16255,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 16260
+        },
+        "Contents": [
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          },
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16258,
+        "Name": "Check Point Three. #16258",
+        "Connections": {
+          "North": {
+            "RoomId": 16259,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 16257,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          },
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          },
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          },
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16259,
+        "Name": "Check Point Four. #16259",
+        "Connections": {
+          "North": {
+            "RoomId": 16268,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 16261,
+          "South": {
+            "RoomId": 16258,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          },
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16260,
+        "Name": "Royal Armory #16260",
+        "Connections": {
+          "East": 16257
+        },
+        "Contents": [
+          {
+            "Text": "soldier of bryan #16225",
+            "Color": "green"
+          },
+          {
+            "Text": "soldier of bryan #16225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16261,
+        "Name": "Small Courtyard #16261",
+        "Connections": {
+          "West": 16259
+        }
+      },
+      {
+        "Id": 16262,
+        "Name": "Entrance to the Knight Training Area. #16262",
+        "Connections": {
+          "East": 16263,
+          "West": 16255
+        }
+      },
+      {
+        "Id": 16263,
+        "Name": "Training Ground #16263",
+        "Connections": {
+          "East": 16264,
+          "West": 16262
+        },
+        "Contents": [
+          {
+            "Text": "a squire #16207",
+            "Color": "green"
+          },
+          {
+            "Text": "a squire #16207",
+            "Color": "green"
+          },
+          {
+            "Text": "weaponmaster #16220",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16264,
+        "Name": "Training Ground #16264",
+        "Connections": {
+          "East": 16265,
+          "West": 16263
+        },
+        "Contents": [
+          {
+            "Text": "a squire #16207",
+            "Color": "green"
+          },
+          {
+            "Text": "a squire #16207",
+            "Color": "green"
+          },
+          {
+            "Text": "weaponmaster #16220",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16265,
+        "Name": "Training Ground #16265",
+        "Connections": {
+          "East": 16266,
+          "West": 16264
+        },
+        "Contents": [
+          {
+            "Text": "a squire #16207",
+            "Color": "green"
+          },
+          {
+            "Text": "a squire #16207",
+            "Color": "green"
+          },
+          {
+            "Text": "weaponmaster #16220",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16266,
+        "Name": "Training Ground #16266",
+        "Connections": {
+          "East": 16267,
+          "West": 16265
+        },
+        "Contents": [
+          {
+            "Text": "a squire #16207",
+            "Color": "green"
+          },
+          {
+            "Text": "a squire #16207",
+            "Color": "green"
+          },
+          {
+            "Text": "the spell master #16221",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16267,
+        "Name": "Training Ground #16267",
+        "Connections": {
+          "West": 16266
+        },
+        "Contents": [
+          {
+            "Text": "a squire #16207",
+            "Color": "green"
+          },
+          {
+            "Text": "a squire #16207",
+            "Color": "green"
+          },
+          {
+            "Text": "weaponmaster #16220",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16268,
+        "Name": "Castle Bryan Foyer #16268",
+        "Connections": {
+          "North": 16277,
+          "East": 16274,
+          "South": {
+            "RoomId": 16259,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 16281,
+          "Up": 16269
+        }
+      },
+      {
+        "Id": 16269,
+        "Name": "Upper Foyer #16269",
+        "Connections": {
+          "North": 16270,
+          "Down": 16268
+        }
+      },
+      {
+        "Id": 16270,
+        "Name": "Hallway in the Castle #16270",
+        "Connections": {
+          "North": 16273,
+          "East": 16272,
+          "South": 16269,
+          "West": 16271
+        },
+        "Contents": [
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          },
+          {
+            "Text": "the castle guard #16200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16271,
+        "Name": "Guest Bedroom. #16271",
+        "Connections": {
+          "East": 16270
+        },
+        "Contents": [
+          {
+            "Text": "a noble #16205",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16272,
+        "Name": "Guest Bedroom. #16272",
+        "Connections": {
+          "West": 16270
+        },
+        "Contents": [
+          {
+            "Text": "a noble #16205",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16273,
+        "Name": "Royal Bedroom #16273",
+        "Connections": {
+          "North": 16293,
+          "South": 16270
+        },
+        "Contents": [
+          {
+            "Text": "the queen of castle bryan #16212",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16274,
+        "Name": "Hallway in the Castle #16274",
+        "Connections": {
+          "East": 16275,
+          "West": 16268
+        }
+      },
+      {
+        "Id": 16275,
+        "Name": "Hallway in the Castle #16275",
+        "Connections": {
+          "East": 16276,
+          "West": 16274
+        }
+      },
+      {
+        "Id": 16276,
+        "Name": "Observation Room #16276",
+        "Connections": {
+          "West": 16275
+        },
+        "Contents": [
+          {
+            "Text": "a noble #16205",
+            "Color": "green"
+          },
+          {
+            "Text": "a noble #16205",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16277,
+        "Name": "Hallway in the Castle #16277",
+        "Connections": {
+          "North": 16279,
+          "East": 16278,
+          "South": 16268
+        }
+      },
+      {
+        "Id": 16278,
+        "Name": "Royal Library #16278",
+        "Connections": {
+          "West": 16277
+        }
+      },
+      {
+        "Id": 16279,
+        "Name": "Outside The Throne Room #16279",
+        "Connections": {
+          "North": 16280,
+          "South": 16277
+        }
+      },
+      {
+        "Id": 16280,
+        "Name": "Throne Room of Castle Bryan #16280",
+        "Connections": {
+          "North": 16294,
+          "South": 16279
+        },
+        "Contents": [
+          {
+            "Text": "the king of castle bryan #16213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16281,
+        "Name": "Hallway in the Castle #16281",
+        "Connections": {
+          "East": 16268,
+          "West": 16282
+        }
+      },
+      {
+        "Id": 16282,
+        "Name": "Royal Dining Room #16282",
+        "Connections": {
+          "East": 16281,
+          "West": 16283
+        },
+        "Contents": [
+          {
+            "Text": "a noble #16205",
+            "Color": "green"
+          },
+          {
+            "Text": "a noble #16205",
+            "Color": "green"
+          },
+          {
+            "Text": "a noble #16205",
+            "Color": "green"
+          },
+          {
+            "Text": "chauncey #16215",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16283,
+        "Name": "Royal Kitchen #16283",
+        "Connections": {
+          "North": 16284,
+          "East": 16282
+        },
+        "Contents": [
+          {
+            "Text": "don the chef #16218",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16284,
+        "Name": "Royal Pantry #16284",
+        "Connections": {
+          "South": 16283,
+          "Down": 16285
+        }
+      },
+      {
+        "Id": 16285,
+        "Name": "Staircase #16285",
+        "Connections": {
+          "Up": 16284,
+          "Down": 16286
+        }
+      },
+      {
+        "Id": 16286,
+        "Name": "Royal Wine Cellar #16286",
+        "Connections": {
+          "South": 16287,
+          "Up": 16285
+        }
+      },
+      {
+        "Id": 16287,
+        "Name": "Staircase #16287",
+        "Connections": {
+          "North": 16286,
+          "Down": 16288
+        }
+      },
+      {
+        "Id": 16288,
+        "Name": "Royal Prison #16288",
+        "Connections": {
+          "East": 16289,
+          "South": 16290,
+          "Up": 16287
+        }
+      },
+      {
+        "Id": 16289,
+        "Name": "Prison Cell #16289",
+        "Connections": {
+          "West": 16288
+        },
+        "Contents": [
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen of bryan #16224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16290,
+        "Name": "Torture Chamber #16290",
+        "Connections": {
+          "North": 16288,
+          "South": 16292,
+          "West": 16291
+        },
+        "Contents": [
+          {
+            "Text": "the royal inquisitor #16206",
+            "Color": "green"
+          },
+          {
+            "Text": "the royal inquisitor #16206",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16291,
+        "Name": "Planning Room #16291",
+        "Connections": {
+          "East": 16290
+        }
+      },
+      {
+        "Id": 16292,
+        "Name": "Small Dirty Passage #16292",
+        "Connections": {
+          "North": 16290,
+          "East": 16293,
+          "South": 16233
+        }
+      },
+      {
+        "Id": 16293,
+        "Name": "Cardinal\u0027s Room #16293",
+        "Connections": {
+          "West": 16292
+        },
+        "Contents": [
+          {
+            "Text": "the cardinal #16219",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16294,
+        "Name": "Secret Escape #16294",
+        "Connections": {
+          "North": 16200
+        },
+        "Contents": [
+          {
+            "Text": "a dust devil #16211",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3734,
+        "FrameColor": "blue",
+        "Name": "To TheRoads #3734",
+        "Color": "blue",
+        "Connections": {
+          "North": 16200,
+          "South": 3733
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "Area": {
+    "Name": "MidgaardQuifael",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 6900,
+        "Name": "Quifael\u0027s monster pen #6900",
+        "Connections": {
+          "Up": 6902
+        },
+        "Contents": [
+          {
+            "Text": "the cute rabbit #6001",
+            "Color": "green"
+          },
+          {
+            "Text": "the ferocious rabbit #6003",
+            "Color": "red"
+          },
+          {
+            "Text": "the computer bug #6900",
+            "Color": "green"
+          },
+          {
+            "Text": "Isha the Dark Elf #6910",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6901,
+        "Name": "Quifael\u0027s study #6901",
+        "Connections": {
+          "South": 6904
+        }
+      },
+      {
+        "Id": 6902,
+        "Name": "Quifael\u0027s laboratory #6902",
+        "Connections": {
+          "East": 6903,
+          "West": 6904,
+          "Down": 6900
+        }
+      },
+      {
+        "Id": 6903,
+        "Name": "Quifael\u0027s virtual balcony #6903",
+        "Connections": {
+          "West": 6902
+        }
+      },
+      {
+        "Id": 6904,
+        "Name": "Quifael\u0027s hall #6904",
+        "Connections": {
+          "North": 6901,
+          "East": 6902,
+          "South": 6905,
+          "West": 3126
+        }
+      },
+      {
+        "Id": 6905,
+        "Name": "Quifael\u0027s kitchen #6905",
+        "Connections": {
+          "North": 6904
+        }
+      },
+      {
+        "Id": 6999,
+        "Name": "The Realm of the Dead #6999",
+        "Connections": {
+          "North": 6999,
+          "East": 6999,
+          "South": 6999,
+          "West": 6999
+        },
+        "Contents": [
+          {
+            "Text": "Sammael, an Incarnation of Death #6999",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3126,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3126",
+        "Color": "blue",
+        "Connections": {
+          "North": 3122,
+          "East": 6904,
+          "South": 3129
+        }
+      }
+    ]
+  }
+}

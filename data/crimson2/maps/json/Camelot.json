@@ -1,0 +1,795 @@
+{
+  "Area": {
+    "Name": "Camelot",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 2030,
+        "Name": "The Drawbridge #2030",
+        "Connections": {
+          "North": {
+            "RoomId": 2031,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 14406
+        }
+      },
+      {
+        "Id": 2031,
+        "Name": "The City Gates #2031",
+        "Connections": {
+          "North": 2032,
+          "South": 2030
+        },
+        "Contents": [
+          {
+            "Text": "A Camelot City Guard #2031",
+            "Color": "green"
+          },
+          {
+            "Text": "A Camelot City Guard #2031",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2032,
+        "Name": "South Courtyard #2032",
+        "Connections": {
+          "North": 2036,
+          "East": 2035,
+          "South": 2031,
+          "West": 2033
+        },
+        "Contents": [
+          {
+            "Text": "A Lady of Camelot #2033",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2033,
+        "Name": "SouthWest Court #2033",
+        "Connections": {
+          "North": 2037,
+          "East": 2032,
+          "West": 2064
+        },
+        "Contents": [
+          {
+            "Text": "A Lady of Camelot #2033",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2034,
+        "Name": "East Courtyard #2034",
+        "Connections": {
+          "North": 2041,
+          "East": 2051,
+          "South": 2038,
+          "West": 2040
+        },
+        "Contents": [
+          {
+            "Text": "A Lady of Camelot #2033",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2035,
+        "Name": "SouthEast Courtyard #2035",
+        "Connections": {
+          "North": 2038,
+          "East": 2061,
+          "West": 2032
+        },
+        "Contents": [
+          {
+            "Text": "A citizen of Camelot #2032",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2036,
+        "Name": "Inner Courtyard #2036",
+        "Connections": {
+          "North": 2040,
+          "East": 2038,
+          "South": 2032,
+          "West": 2037
+        }
+      },
+      {
+        "Id": 2037,
+        "Name": "The Main Courtyard #2037",
+        "Connections": {
+          "North": 2042,
+          "East": 2036,
+          "South": 2033
+        },
+        "Contents": [
+          {
+            "Text": "A citizen of Camelot #2032",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2038,
+        "Name": "The Main Courtyard #2038",
+        "Connections": {
+          "North": 2034,
+          "East": 2062,
+          "South": 2035,
+          "West": 2036
+        },
+        "Contents": [
+          {
+            "Text": "A Lady of Camelot #2033",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2040,
+        "Name": "The Center of the Court #2040",
+        "Connections": {
+          "North": 2045,
+          "East": 2034,
+          "South": 2036,
+          "West": 2042
+        },
+        "Contents": [
+          {
+            "Text": "A citizen of Camelot #2032",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2041,
+        "Name": "Main Courtyard #2041",
+        "Connections": {
+          "North": 2047,
+          "South": 2034,
+          "West": 2045
+        },
+        "Contents": [
+          {
+            "Text": "A citizen of Camelot #2032",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2042,
+        "Name": "West Court #2042",
+        "Connections": {
+          "North": 2044,
+          "East": 2040,
+          "South": 2037,
+          "West": 2048
+        },
+        "Contents": [
+          {
+            "Text": "A Lady of Camelot #2033",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2043,
+        "Name": "North Courtyard #2043",
+        "Connections": {
+          "North": 2058,
+          "East": 2047,
+          "South": 2045,
+          "West": 2046
+        }
+      },
+      {
+        "Id": 2044,
+        "Name": "The Main Courtyard #2044",
+        "Connections": {
+          "North": 2046,
+          "East": 2045,
+          "South": 2042
+        }
+      },
+      {
+        "Id": 2045,
+        "Name": "The Inner Courtyard #2045",
+        "Connections": {
+          "North": 2043,
+          "East": 2041,
+          "South": 2040,
+          "West": 2044
+        },
+        "Contents": [
+          {
+            "Text": "A Lady of Camelot #2033",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2046,
+        "Name": "NorthWest Courtyard #2046",
+        "Connections": {
+          "North": 2056,
+          "East": 2043,
+          "South": 2044,
+          "West": 2057
+        },
+        "Contents": [
+          {
+            "Text": "A citizen of Camelot #2032",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2047,
+        "Name": "NorthEast Courtyard #2047",
+        "Connections": {
+          "North": 2054,
+          "East": 2055,
+          "South": 2041,
+          "West": 2043
+        }
+      },
+      {
+        "Id": 2048,
+        "Name": "A Side Street #2048",
+        "Connections": {
+          "East": 2042,
+          "West": 2049
+        }
+      },
+      {
+        "Id": 2049,
+        "Name": "A Side Street #2049",
+        "Connections": {
+          "North": 2076,
+          "East": 2048,
+          "South": 2077,
+          "West": 2050
+        }
+      },
+      {
+        "Id": 2050,
+        "Name": "A Side Street #2050",
+        "Connections": {
+          "North": 2080,
+          "East": 2049,
+          "South": 2081
+        }
+      },
+      {
+        "Id": 2051,
+        "Name": "A Side Street #2051",
+        "Connections": {
+          "East": 2052,
+          "South": 2062,
+          "West": 2034
+        }
+      },
+      {
+        "Id": 2052,
+        "Name": "A Side Street #2052",
+        "Connections": {
+          "North": 2083,
+          "East": 2053,
+          "South": 2082,
+          "West": 2051
+        }
+      },
+      {
+        "Id": 2053,
+        "Name": "A Side Street #2053",
+        "Connections": {
+          "North": 2084,
+          "East": 2089,
+          "South": 2085,
+          "West": 2052
+        }
+      },
+      {
+        "Id": 2054,
+        "Name": "The Lance #2054",
+        "Connections": {
+          "South": 2047
+        },
+        "Contents": [
+          {
+            "Text": "the Receptionist #2030",
+            "Color": "green"
+          },
+          {
+            "Text": "Pim, the Head Royal Knight #2034",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2055,
+        "Name": "The Holy Grail Tavern #2055",
+        "Connections": {
+          "West": 2047
+        },
+        "Contents": [
+          {
+            "Text": "James #2040",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2056,
+        "Name": "The Library #2056",
+        "Connections": {
+          "South": 2046
+        }
+      },
+      {
+        "Id": 2057,
+        "Name": "Merlin\u0027s Magic Shoppe #2057",
+        "Connections": {
+          "East": 2046,
+          "West": 2088
+        },
+        "Contents": [
+          {
+            "Text": "Elayne #2039",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2058,
+        "Name": "The Main Road #2058",
+        "Connections": {
+          "North": 2059,
+          "South": 2043
+        }
+      },
+      {
+        "Id": 2059,
+        "Name": "The Main Road #2059",
+        "Connections": {
+          "North": 2060,
+          "South": 2058
+        }
+      },
+      {
+        "Id": 2060,
+        "Name": "The Main Road #2060",
+        "Connections": {
+          "North": 2065,
+          "South": 2059
+        }
+      },
+      {
+        "Id": 2061,
+        "Name": "Lancelot\u0027s Weapon Shoppe #2061",
+        "Connections": {
+          "East": 2086,
+          "West": 2035
+        },
+        "Contents": [
+          {
+            "Text": "Jason #2042",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2062,
+        "Name": "Galahad\u0027s Armour Shop #2062",
+        "Connections": {
+          "North": 2051,
+          "East": 2087,
+          "West": 2038
+        },
+        "Contents": [
+          {
+            "Text": "Brian #2043",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2064,
+        "Name": "The Bakery #2064",
+        "Connections": {
+          "East": 2033
+        },
+        "Contents": [
+          {
+            "Text": "Thom  #2041",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2065,
+        "Name": "Entrance to the Castle #2065",
+        "Connections": {
+          "North": 2066,
+          "South": 2060
+        }
+      },
+      {
+        "Id": 2066,
+        "Name": "Castle Foyer #2066",
+        "Connections": {
+          "North": 2071,
+          "East": 2068,
+          "South": 2065,
+          "West": 2067
+        }
+      },
+      {
+        "Id": 2067,
+        "Name": "A Hallway #2067",
+        "Connections": {
+          "East": 2066,
+          "West": 2070
+        }
+      },
+      {
+        "Id": 2068,
+        "Name": "A Hallway #2068",
+        "Connections": {
+          "East": 2069,
+          "West": 2066
+        }
+      },
+      {
+        "Id": 2069,
+        "Name": "The East Wing #2069",
+        "Connections": {
+          "North": {
+            "RoomId": 2079,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 2068
+        }
+      },
+      {
+        "Id": 2070,
+        "Name": "The West Wing #2070",
+        "Connections": {
+          "North": 2078,
+          "East": 2067
+        }
+      },
+      {
+        "Id": 2071,
+        "Name": "The Main Hallway #2071",
+        "Connections": {
+          "North": 2072,
+          "South": 2066
+        }
+      },
+      {
+        "Id": 2072,
+        "Name": "The Audience Chamber #2072",
+        "Connections": {
+          "East": 2073,
+          "South": 2071,
+          "West": 2075
+        }
+      },
+      {
+        "Id": 2073,
+        "Name": "The Throne Room #2073",
+        "Connections": {
+          "North": 2074,
+          "West": 2072
+        },
+        "Contents": [
+          {
+            "Text": "King Arthur #2054",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2074,
+        "Name": "A Dark Hallway #2074",
+        "Connections": {
+          "South": 2075
+        }
+      },
+      {
+        "Id": 2075,
+        "Name": "The Round Room #2075",
+        "Connections": {
+          "East": 2072
+        },
+        "Contents": [
+          {
+            "Text": "Sir Kay #2049",
+            "Color": "green"
+          },
+          {
+            "Text": "Sir Gareth #2050",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2076,
+        "Name": "A Noble House #2076",
+        "Connections": {
+          "South": 2049
+        },
+        "Contents": [
+          {
+            "Text": "Lord Uther #2037",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2077,
+        "Name": "A Noble House #2077",
+        "Connections": {
+          "North": 2049
+        },
+        "Contents": [
+          {
+            "Text": "Lady Christine #2036",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2078,
+        "Name": "A Meeting Room #2078",
+        "Connections": {
+          "North": 2073,
+          "South": 2070
+        }
+      },
+      {
+        "Id": 2079,
+        "Name": "Merlin\u0027s Laboratory #2079",
+        "Connections": {
+          "North": 2074,
+          "South": 2069
+        },
+        "Contents": [
+          {
+            "Text": "Merlin, the Grand Wizard of Camelot #2044",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2080,
+        "Name": "A Noble House #2080",
+        "Connections": {
+          "South": 2050
+        },
+        "Contents": [
+          {
+            "Text": "Duke Barant le Apres #2038",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2081,
+        "Name": "A Noble House #2081",
+        "Connections": {
+          "North": 2050
+        },
+        "Contents": [
+          {
+            "Text": "The Lady Tiffany #2035",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2082,
+        "Name": "A Noble House #2082",
+        "Connections": {
+          "North": 2052
+        }
+      },
+      {
+        "Id": 2083,
+        "Name": "A Noble House #2083",
+        "Connections": {
+          "South": 2052
+        }
+      },
+      {
+        "Id": 2084,
+        "Name": "A Noble House #2084",
+        "Connections": {
+          "South": 2053
+        }
+      },
+      {
+        "Id": 2085,
+        "Name": "A Noble House #2085",
+        "Connections": {
+          "North": 2053
+        }
+      },
+      {
+        "Id": 2086,
+        "Name": "Sir Lancelot\u0092s Training Center #2086",
+        "Connections": {
+          "West": 2061
+        },
+        "Contents": [
+          {
+            "Text": "Sir Lancelot #2053",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2087,
+        "Name": "Galahad\u0027s Sanctuary #2087",
+        "Connections": {
+          "West": 2062
+        },
+        "Contents": [
+          {
+            "Text": "Sir Galahad #2046",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2088,
+        "Name": "Merlin\u0027s Private Study #2088",
+        "Connections": {
+          "East": 2057
+        },
+        "Contents": [
+          {
+            "Text": "Ainvir #2045",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2089,
+        "Name": "A Winding Path #2089",
+        "Connections": {
+          "North": 2096,
+          "East": 2090,
+          "South": 2097,
+          "West": 2053
+        }
+      },
+      {
+        "Id": 2090,
+        "Name": "A Winding Path #2090",
+        "Connections": {
+          "North": 2096,
+          "East": 2091,
+          "South": 2097,
+          "West": 2089
+        }
+      },
+      {
+        "Id": 2091,
+        "Name": "A Winding Path #2091",
+        "Connections": {
+          "North": 2092,
+          "East": 2097,
+          "South": 2091,
+          "West": 2090
+        }
+      },
+      {
+        "Id": 2092,
+        "Name": "A Winding Path #2092",
+        "Connections": {
+          "North": 2097,
+          "East": 2098,
+          "South": 2091,
+          "West": 2093
+        }
+      },
+      {
+        "Id": 2093,
+        "Name": "A Winding Path #2093",
+        "Connections": {
+          "North": 2094,
+          "East": 2092,
+          "South": 2097,
+          "West": 2089
+        }
+      },
+      {
+        "Id": 2094,
+        "Name": "A Winding Path #2094",
+        "Connections": {
+          "North": 2092,
+          "East": 2095,
+          "South": 2093,
+          "West": 2097
+        }
+      },
+      {
+        "Id": 2095,
+        "Name": "A Winding Path #2095",
+        "Connections": {
+          "North": 2096,
+          "East": 2097,
+          "South": 2090,
+          "West": 2094
+        }
+      },
+      {
+        "Id": 2096,
+        "Name": "A Winding Path #2096",
+        "Connections": {
+          "North": 2097,
+          "East": 2099,
+          "South": 2095,
+          "West": 2089
+        }
+      },
+      {
+        "Id": 2097,
+        "Name": "A Winding Path #2097",
+        "Connections": {
+          "North": 2097,
+          "East": 2089,
+          "South": 2090,
+          "West": 2097
+        }
+      },
+      {
+        "Id": 2098,
+        "Name": "STAY OUT! #2098",
+        "Connections": {}
+      },
+      {
+        "Id": 2099,
+        "Name": "By A Large Lake #2099",
+        "Connections": {
+          "West": 2096
+        },
+        "Contents": [
+          {
+            "Text": "The Lady of the Lake #2048",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14406,
+        "FrameColor": "blue",
+        "Name": "To Arnath #14406",
+        "Color": "blue",
+        "Connections": {
+          "East": 14405,
+          "South": 14408,
+          "West": 2030
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "Area": {
+    "Name": "Arena",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 1700,
+        "Name": "Arena Center #1700",
+        "Connections": {
+          "North": 1702,
+          "East": 1703,
+          "South": 1701,
+          "West": 1704,
+          "Up": 3014
+        }
+      },
+      {
+        "Id": 1701,
+        "Name": "One of the Pits. #1701",
+        "Connections": {}
+      },
+      {
+        "Id": 1702,
+        "Name": "One of the Pits. #1702",
+        "Connections": {}
+      },
+      {
+        "Id": 1703,
+        "Name": "E Arena #1703",
+        "Connections": {
+          "North": 1706,
+          "East": 1717,
+          "South": 1710,
+          "West": 1700
+        }
+      },
+      {
+        "Id": 1704,
+        "Name": "W Arena #1704",
+        "Connections": {
+          "North": 1705,
+          "East": 1700,
+          "South": 1714,
+          "West": 1716
+        }
+      },
+      {
+        "Id": 1705,
+        "Name": "NW Arena #1705",
+        "Connections": {
+          "South": 1704,
+          "Down": 1707
+        }
+      },
+      {
+        "Id": 1706,
+        "Name": "NE arena #1706",
+        "Connections": {
+          "South": 1703,
+          "Down": 1708
+        }
+      },
+      {
+        "Id": 1707,
+        "Name": "Lower NW Arena #1707",
+        "Connections": {
+          "East": 1709,
+          "Up": 1705
+        }
+      },
+      {
+        "Id": 1708,
+        "Name": "Lower NE Arena #1708",
+        "Connections": {
+          "West": 1709,
+          "Up": 1706
+        }
+      },
+      {
+        "Id": 1709,
+        "Name": "N Arena #1709",
+        "Connections": {
+          "East": 1707,
+          "West": 1708,
+          "Down": 1715
+        }
+      },
+      {
+        "Id": 1710,
+        "Name": "SE Arena #1710",
+        "Connections": {
+          "North": 1703,
+          "Down": 1711
+        }
+      },
+      {
+        "Id": 1711,
+        "Name": "Lower SE Arena #1711",
+        "Connections": {
+          "West": 1712,
+          "Up": 1710
+        }
+      },
+      {
+        "Id": 1712,
+        "Name": "S Arena #1712",
+        "Connections": {
+          "East": 1711,
+          "West": 1713,
+          "Down": 1715
+        }
+      },
+      {
+        "Id": 1713,
+        "Name": "Lower SW Arena #1713",
+        "Connections": {
+          "East": 1712,
+          "Up": 1714
+        }
+      },
+      {
+        "Id": 1714,
+        "Name": "SW Arena #1714",
+        "Connections": {
+          "North": 1704,
+          "Down": 1713
+        }
+      },
+      {
+        "Id": 1715,
+        "Name": "Arena Pit #1715",
+        "Connections": {
+          "Up": 1700
+        }
+      },
+      {
+        "Id": 1716,
+        "Name": "The Landing #1716",
+        "Connections": {
+          "North": 1722,
+          "East": 1704,
+          "South": 1723,
+          "West": 1719
+        }
+      },
+      {
+        "Id": 1717,
+        "Name": "The Landing #1717",
+        "Connections": {
+          "North": 1720,
+          "East": 1718,
+          "South": 1721,
+          "West": 1703
+        }
+      },
+      {
+        "Id": 1718,
+        "Name": "Knife-edge #1718",
+        "Connections": {}
+      },
+      {
+        "Id": 1719,
+        "Name": "Suicide\u0027s Place #1719",
+        "Connections": {}
+      },
+      {
+        "Id": 1720,
+        "Name": "Entrance to the Rooms of what Awaits #1720",
+        "Connections": {
+          "South": 1717,
+          "Down": 1724
+        }
+      },
+      {
+        "Id": 1721,
+        "Name": "Entrance to the Halls of Immortality #1721",
+        "Connections": {
+          "North": 1717,
+          "Down": 1730
+        }
+      },
+      {
+        "Id": 1722,
+        "Name": "Entrance to the Rooms of what Awaits #1722",
+        "Connections": {
+          "South": 1716,
+          "Down": 1725
+        }
+      },
+      {
+        "Id": 1723,
+        "Name": "Entrance to the Halls of Immortality #1723",
+        "Connections": {
+          "North": 1716,
+          "Down": 1731
+        }
+      },
+      {
+        "Id": 1724,
+        "Name": "Futility #1724",
+        "Connections": {
+          "South": 1736,
+          "West": 1726,
+          "Up": 1720
+        }
+      },
+      {
+        "Id": 1725,
+        "Name": "Despair #1725",
+        "Connections": {
+          "East": 1728,
+          "South": 1735,
+          "Up": 1722
+        }
+      },
+      {
+        "Id": 1726,
+        "Name": "Room of Suffering #1726",
+        "Connections": {
+          "East": 1724,
+          "South": 1729,
+          "West": 1727
+        }
+      },
+      {
+        "Id": 1727,
+        "Name": "Dread #1727",
+        "Connections": {
+          "East": 1726,
+          "West": 1728
+        }
+      },
+      {
+        "Id": 1728,
+        "Name": "Death #1728",
+        "Connections": {
+          "East": 1727,
+          "West": 1725
+        }
+      },
+      {
+        "Id": 1729,
+        "Name": "MERCY\u0027s Room #1729",
+        "Connections": {
+          "North": 1726,
+          "South": 1734
+        },
+        "Contents": [
+          {
+            "Text": "FuNkMaStEr SaGeY #1710",
+            "Color": "green"
+          },
+          {
+            "Text": "Balderdash, the Mad Jester #1712",
+            "Color": "green"
+          },
+          {
+            "Text": "Frostmourne #1714",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1730,
+        "Name": "The Mortal\u0027s Room #1730",
+        "Connections": {
+          "North": 1736,
+          "West": 1734,
+          "Up": 1721
+        }
+      },
+      {
+        "Id": 1731,
+        "Name": "The Avatar\u0027s Room #1731",
+        "Connections": {
+          "North": 1735,
+          "East": 1732,
+          "Up": 1723
+        }
+      },
+      {
+        "Id": 1732,
+        "Name": "The Room of Heros #1732",
+        "Connections": {
+          "East": 1733,
+          "West": 1731
+        }
+      },
+      {
+        "Id": 1733,
+        "Name": "The Room of Clans #1733",
+        "Connections": {
+          "East": 1734,
+          "West": 1732
+        }
+      },
+      {
+        "Id": 1734,
+        "Name": "The Room of Gods #1734",
+        "Connections": {
+          "North": 1729,
+          "East": 1730,
+          "West": 1733
+        }
+      },
+      {
+        "Id": 1735,
+        "Name": "The Bloodied GateWay to Battle #1735",
+        "Connections": {
+          "North": 1725,
+          "South": 1731,
+          "Down": 1738
+        }
+      },
+      {
+        "Id": 1736,
+        "Name": "The Bloodied GateWay to Battle #1736",
+        "Connections": {
+          "North": 1724,
+          "South": 1730,
+          "Down": 1737
+        }
+      },
+      {
+        "Id": 1737,
+        "Name": "The Sounds of Death and Triumph #1737",
+        "Connections": {
+          "West": 1741,
+          "Up": 1736
+        }
+      },
+      {
+        "Id": 1738,
+        "Name": "The Sounds of Triumph and Death #1738",
+        "Connections": {
+          "East": 1739,
+          "Up": 1735
+        }
+      },
+      {
+        "Id": 1739,
+        "Name": "Clashing of Swords #1739",
+        "Connections": {
+          "North": 1744,
+          "East": 1740,
+          "South": 1747,
+          "West": 1738
+        }
+      },
+      {
+        "Id": 1740,
+        "Name": "In the Midst of the Battle #1740",
+        "Connections": {
+          "North": 1743,
+          "East": 1741,
+          "South": 1746,
+          "West": 1739
+        }
+      },
+      {
+        "Id": 1741,
+        "Name": "The Fallen and The Triumphant #1741",
+        "Connections": {
+          "North": 1742,
+          "East": 1737,
+          "South": 1745,
+          "West": 1740
+        }
+      },
+      {
+        "Id": 1742,
+        "Name": "The Last Stand #1742",
+        "Connections": {
+          "South": 1741,
+          "West": 1743
+        }
+      },
+      {
+        "Id": 1743,
+        "Name": "Field of Agony and Wickedness #1743",
+        "Connections": {
+          "North": 1748,
+          "East": 1742,
+          "South": 1740,
+          "West": 1744
+        }
+      },
+      {
+        "Id": 1744,
+        "Name": "Bloody Fields #1744",
+        "Connections": {
+          "East": 1743,
+          "South": 1739
+        }
+      },
+      {
+        "Id": 1745,
+        "Name": "Guts and Glory #1745",
+        "Connections": {
+          "North": 1741,
+          "West": 1746
+        }
+      },
+      {
+        "Id": 1746,
+        "Name": "Rivers of Blood #1746",
+        "Connections": {
+          "North": 1740,
+          "East": 1745,
+          "South": 1749,
+          "West": 1747
+        }
+      },
+      {
+        "Id": 1747,
+        "Name": "Death and Triumph #1747",
+        "Connections": {
+          "North": 1739,
+          "East": 1746
+        }
+      },
+      {
+        "Id": 1748,
+        "Name": "Mortal\u0027s Sanctuary #1748",
+        "Connections": {
+          "South": 1743
+        }
+      },
+      {
+        "Id": 1749,
+        "Name": "The Watcher\u0027s Room #1749",
+        "Connections": {
+          "North": 1746
+        }
+      },
+      {
+        "Id": 3014,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3014",
+        "Color": "blue",
+        "Connections": {
+          "North": 3005,
+          "East": 3015,
+          "South": 3025,
+          "West": 3013,
+          "Up": 3073,
+          "Down": 3074
+        }
+      }
+    ]
+  }
+}

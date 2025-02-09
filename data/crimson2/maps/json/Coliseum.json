@@ -1,0 +1,534 @@
+{
+  "Area": {
+    "Name": "Coliseum",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 9050,
+        "Name": "Coliseum Foyer #9050",
+        "Connections": {
+          "North": 14941,
+          "East": 9072,
+          "West": 9051,
+          "Up": 9068,
+          "Down": 9056
+        }
+      },
+      {
+        "Id": 9051,
+        "Name": "Dim Corridor #9051",
+        "Connections": {
+          "East": 9050,
+          "West": 9052
+        },
+        "Contents": [
+          {
+            "Text": "Gladiator Novice #9053",
+            "Color": "green"
+          },
+          {
+            "Text": "Gladiator Novice #9053",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9052,
+        "Name": "Dim Corridor #9052",
+        "Connections": {
+          "North": 9053,
+          "East": 9051
+        }
+      },
+      {
+        "Id": 9053,
+        "Name": "Dim Corridor #9053",
+        "Connections": {
+          "North": 9054,
+          "South": 9052
+        }
+      },
+      {
+        "Id": 9054,
+        "Name": "Training Room of Baralius #9054",
+        "Connections": {
+          "South": 9053,
+          "West": 9055
+        },
+        "Contents": [
+          {
+            "Text": "Baralius, Trainer of Gladiators #9051",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9055,
+        "Name": "Corridor #9055",
+        "Connections": {
+          "East": 9054,
+          "West": 9070
+        }
+      },
+      {
+        "Id": 9056,
+        "Name": "Tomb\u0027s Entrance #9056",
+        "Connections": {
+          "North": 9057,
+          "Up": 9050
+        },
+        "Contents": [
+          {
+            "Text": "Cokren, Overseer of Corpses #9050",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9057,
+        "Name": "In the Tomb #9057",
+        "Connections": {
+          "North": 9058,
+          "East": 9062,
+          "South": 9056,
+          "West": 9060
+        }
+      },
+      {
+        "Id": 9058,
+        "Name": "In the Tomb #9058",
+        "Connections": {
+          "North": 9059,
+          "South": 9057
+        }
+      },
+      {
+        "Id": 9059,
+        "Name": "In the Tomb #9059",
+        "Connections": {
+          "North": {
+            "RoomId": 9064,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 9058
+        }
+      },
+      {
+        "Id": 9060,
+        "Name": "In the Tomb #9060",
+        "Connections": {
+          "East": 9057,
+          "West": 9061
+        }
+      },
+      {
+        "Id": 9061,
+        "Name": "In the Tomb #9061",
+        "Connections": {
+          "East": 9060,
+          "South": 9065
+        }
+      },
+      {
+        "Id": 9062,
+        "Name": "In the Tomb #9062",
+        "Connections": {
+          "East": 9063,
+          "West": 9057
+        }
+      },
+      {
+        "Id": 9063,
+        "Name": "In the Tomb #9063",
+        "Connections": {
+          "North": 9066,
+          "West": 9062
+        }
+      },
+      {
+        "Id": 9064,
+        "Name": "The Preparation Room #9064",
+        "Connections": {
+          "South": 9059
+        },
+        "Contents": [
+          {
+            "Text": "Dazzius Maximus #9052",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9065,
+        "Name": "an unfinished chamber #9065",
+        "Connections": {
+          "North": 9061
+        },
+        "Contents": [
+          {
+            "Text": "the corpse of a gladiator #9054",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9066,
+        "Name": "an unfinished chamber #9066",
+        "Connections": {
+          "South": 9063
+        },
+        "Contents": [
+          {
+            "Text": "the corpse of a gladiator #9054",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9067,
+        "Name": "Dim Corridor #9067",
+        "Connections": {
+          "West": 9050
+        }
+      },
+      {
+        "Id": 9068,
+        "Name": "Second Floor of the Coliseum #9068",
+        "Connections": {
+          "North": 9079,
+          "East": 9069,
+          "Down": 9050
+        }
+      },
+      {
+        "Id": 9069,
+        "Name": "Second Floor of the Coliseum #9069",
+        "Connections": {
+          "West": 9068,
+          "Up": 9075
+        }
+      },
+      {
+        "Id": 9070,
+        "Name": "Coliseum Terrace #9070",
+        "Connections": {
+          "North": 9095,
+          "East": 9055,
+          "South": 9071,
+          "West": 9072
+        }
+      },
+      {
+        "Id": 9071,
+        "Name": "Battlegrounds #9071",
+        "Connections": {
+          "North": 9070,
+          "Down": 9073
+        }
+      },
+      {
+        "Id": 9072,
+        "Name": "The Corridor #9072",
+        "Connections": {
+          "East": 9070,
+          "West": 9050
+        }
+      },
+      {
+        "Id": 9073,
+        "Name": "Battle grounds, Room 1. #9073",
+        "Connections": {
+          "South": 9074,
+          "Up": 9071
+        }
+      },
+      {
+        "Id": 9074,
+        "Name": "Battle grounds, Room 2. #9074",
+        "Connections": {
+          "North": 9073,
+          "East": 9077
+        }
+      },
+      {
+        "Id": 9075,
+        "Name": "Second Floor of the Coliseum #9075",
+        "Connections": {
+          "East": 9084,
+          "Up": 9076,
+          "Down": 9069
+        },
+        "Contents": [
+          {
+            "Text": "Caesar Smurf #9055",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9076,
+        "Name": "Second Floor of the Coliseum #9076",
+        "Connections": {
+          "Down": 9075
+        }
+      },
+      {
+        "Id": 9077,
+        "Name": "Battle grounds, Room 3. #9077",
+        "Connections": {
+          "West": 9074,
+          "Down": 9078
+        }
+      },
+      {
+        "Id": 9078,
+        "Name": "Sulfur\u0027s Stinky Sanctuary #9078",
+        "Connections": {
+          "Up": 9077
+        },
+        "Contents": [
+          {
+            "Text": "Sulfur, Lord of Stench #9056",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9079,
+        "Name": "Barfatorium entry way #9079",
+        "Connections": {
+          "North": 9080,
+          "South": 9068
+        }
+      },
+      {
+        "Id": 9080,
+        "Name": "Barfatorium communal room #9080",
+        "Connections": {
+          "East": 9081,
+          "South": 9079,
+          "West": 9082
+        }
+      },
+      {
+        "Id": 9081,
+        "Name": "Barfatorium Fountain #9081",
+        "Connections": {
+          "West": 9080,
+          "Down": 9083
+        },
+        "Contents": [
+          {
+            "Text": "Roman Senator #9057",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9082,
+        "Name": "Barfatorium communal room #9082",
+        "Connections": {
+          "East": 9080
+        },
+        "Contents": [
+          {
+            "Text": "Roman Senator #9057",
+            "Color": "green"
+          },
+          {
+            "Text": "Roman Senator #9057",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9083,
+        "Name": "Smileus Gratisimus\u0027 Hut #9083",
+        "Connections": {
+          "Up": 9081
+        },
+        "Contents": [
+          {
+            "Text": "Smileus Gratisimus #9058",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9084,
+        "Name": "Passageway #9084",
+        "Connections": {
+          "East": 9085,
+          "West": 9075
+        }
+      },
+      {
+        "Id": 9085,
+        "Name": "Passageway #9085",
+        "Connections": {
+          "East": 9086,
+          "West": 9084
+        }
+      },
+      {
+        "Id": 9086,
+        "Name": "Passageway #9086",
+        "Connections": {
+          "North": 9089,
+          "South": 9087,
+          "West": 9085
+        }
+      },
+      {
+        "Id": 9087,
+        "Name": "A small dungeon. #9087",
+        "Connections": {
+          "North": 9086,
+          "South": 9088
+        }
+      },
+      {
+        "Id": 9088,
+        "Name": "Dungeon Holding Room. #9088",
+        "Connections": {
+          "North": 9087
+        },
+        "Contents": [
+          {
+            "Text": "Skeleton Gladiators #9059",
+            "Color": "red"
+          },
+          {
+            "Text": "Skeleton Gladiators #9059",
+            "Color": "red"
+          },
+          {
+            "Text": "Skeleton Gladiators #9059",
+            "Color": "red"
+          },
+          {
+            "Text": "Skeleton Gladiators #9059",
+            "Color": "red"
+          },
+          {
+            "Text": "Skeleton Gladiators #9059",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9089,
+        "Name": "Abandoned passage. #9089",
+        "Connections": {
+          "North": 9090,
+          "South": 9086
+        }
+      },
+      {
+        "Id": 9090,
+        "Name": "Abandoned passage. #9090",
+        "Connections": {
+          "North": 9091,
+          "South": 9089
+        }
+      },
+      {
+        "Id": 9091,
+        "Name": "Abandoned passage. #9091",
+        "Connections": {
+          "South": 9090,
+          "West": 9092
+        }
+      },
+      {
+        "Id": 9092,
+        "Name": "Abandoned passage. #9092",
+        "Connections": {
+          "East": 9091,
+          "West": 9093
+        }
+      },
+      {
+        "Id": 9093,
+        "Name": "Abandoned passage. #9093",
+        "Connections": {
+          "East": 9092,
+          "West": 9094
+        }
+      },
+      {
+        "Id": 9094,
+        "Name": "Titus\u0027 room. #9094",
+        "Connections": {
+          "East": 9093
+        },
+        "Contents": [
+          {
+            "Text": "Titus Bloatus #9060",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9095,
+        "Name": "Hidden Passage #9095",
+        "Connections": {
+          "North": 9096,
+          "South": 9070
+        }
+      },
+      {
+        "Id": 9096,
+        "Name": "Hidden Passage #9096",
+        "Connections": {
+          "North": 9097,
+          "South": 9095
+        }
+      },
+      {
+        "Id": 9097,
+        "Name": "Hidden Passage #9097",
+        "Connections": {
+          "North": 9098,
+          "South": 9096
+        }
+      },
+      {
+        "Id": 9098,
+        "Name": "Hidden Passage #9098",
+        "Connections": {
+          "East": 9099,
+          "South": 9097
+        }
+      },
+      {
+        "Id": 9099,
+        "Name": "Mad Battler\u0027s Room #9099",
+        "Connections": {
+          "West": 9098
+        },
+        "Contents": [
+          {
+            "Text": "The Mad Battler #9061",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14941,
+        "FrameColor": "blue",
+        "Name": "To Arnath2 #14941",
+        "Color": "blue",
+        "Connections": {
+          "East": 14939,
+          "South": 9050,
+          "West": 14908,
+          "Up": 15028
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,729 @@
+{
+  "Area": {
+    "Name": "VillageOfKorum",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 12625,
+        "Name": "The entrance to Korum #12625",
+        "Connections": {
+          "North": 12626,
+          "South": 12671
+        },
+        "Contents": [
+          {
+            "Text": "A gate guard #12642",
+            "Color": "green"
+          },
+          {
+            "Text": "A gate guard #12642",
+            "Color": "green"
+          },
+          {
+            "Text": "A gate guard #12642",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12626,
+        "Name": "Inside the small village of Korum #12626",
+        "Connections": {
+          "North": 12627,
+          "South": 12625
+        }
+      },
+      {
+        "Id": 12627,
+        "Name": "The southern path in the village #12627",
+        "Connections": {
+          "North": 12630,
+          "East": 12628,
+          "South": 12626,
+          "West": 12629
+        }
+      },
+      {
+        "Id": 12628,
+        "Name": "The bakery in Korum #12628",
+        "Connections": {
+          "West": 12627
+        },
+        "Contents": [
+          {
+            "Text": "Lonny the baker #12639",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12629,
+        "Name": "The Korum Village Armory #12629",
+        "Connections": {
+          "East": 12627
+        },
+        "Contents": [
+          {
+            "Text": "Bruno the blacksmith #12638",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12630,
+        "Name": "The southern path in the village #12630",
+        "Connections": {
+          "North": 12631,
+          "South": 12627
+        },
+        "Contents": [
+          {
+            "Text": "A bum #12643",
+            "Color": "green"
+          },
+          {
+            "Text": "A bum #12643",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12631,
+        "Name": "The Korum Town Square #12631",
+        "Connections": {
+          "North": 12632,
+          "East": 12674,
+          "South": 12630
+        }
+      },
+      {
+        "Id": 12632,
+        "Name": "The northern path in the village #12632",
+        "Connections": {
+          "North": 12633,
+          "South": 12631
+        },
+        "Contents": [
+          {
+            "Text": "A citizen of Korum #12637",
+            "Color": "green"
+          },
+          {
+            "Text": "A citizen of Korum #12637",
+            "Color": "green"
+          },
+          {
+            "Text": "A citizen of Korum #12637",
+            "Color": "green"
+          },
+          {
+            "Text": "A citizen of Korum #12637",
+            "Color": "green"
+          },
+          {
+            "Text": "A citizen of Korum #12637",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12633,
+        "Name": "Outside of the Inn #12633",
+        "Connections": {
+          "North": 12662,
+          "East": 12634,
+          "South": 12632,
+          "West": 12636
+        }
+      },
+      {
+        "Id": 12634,
+        "Name": "The entrance to the park of Korum #12634",
+        "Connections": {
+          "East": 12635,
+          "West": 12633
+        }
+      },
+      {
+        "Id": 12635,
+        "Name": "The Park of Korum #12635",
+        "Connections": {
+          "North": 12637,
+          "South": 12652,
+          "West": 12634
+        }
+      },
+      {
+        "Id": 12636,
+        "Name": "The Korum Inn #12636",
+        "Connections": {
+          "East": 12633,
+          "West": 12657
+        },
+        "Contents": [
+          {
+            "Text": "John, the inkeeper #12635",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12637,
+        "Name": "The Park of Korum #12637",
+        "Connections": {
+          "North": 12638,
+          "South": 12635
+        }
+      },
+      {
+        "Id": 12638,
+        "Name": "The Park of Korum #12638",
+        "Connections": {
+          "East": 12639,
+          "South": 12637
+        },
+        "Contents": [
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          },
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          },
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12639,
+        "Name": "The Park of Korum #12639",
+        "Connections": {
+          "East": 12640,
+          "West": 12638
+        },
+        "Contents": [
+          {
+            "Text": "A small bird flies around here. #12628",
+            "Color": "green"
+          },
+          {
+            "Text": "A small bird flies around here. #12628",
+            "Color": "green"
+          },
+          {
+            "Text": "A small bird flies around here. #12628",
+            "Color": "green"
+          },
+          {
+            "Text": "A small bird flies around here. #12628",
+            "Color": "green"
+          },
+          {
+            "Text": "A small bird flies around here. #12628",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12640,
+        "Name": "The Park of Korum #12640",
+        "Connections": {
+          "East": 12641,
+          "South": 12655,
+          "West": 12639
+        }
+      },
+      {
+        "Id": 12641,
+        "Name": "The Park of Korum #12641",
+        "Connections": {
+          "East": 12642,
+          "West": 12640
+        }
+      },
+      {
+        "Id": 12642,
+        "Name": "The Park of Korum #12642",
+        "Connections": {
+          "South": 12643,
+          "West": 12641
+        },
+        "Contents": [
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          },
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          },
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12643,
+        "Name": "The Park of Korum #12643",
+        "Connections": {
+          "North": 12642,
+          "South": 12644
+        }
+      },
+      {
+        "Id": 12644,
+        "Name": "The Park of Korum #12644",
+        "Connections": {
+          "North": 12643,
+          "South": 12645
+        }
+      },
+      {
+        "Id": 12645,
+        "Name": "The Park of Korum #12645",
+        "Connections": {
+          "North": 12644,
+          "South": 12646
+        }
+      },
+      {
+        "Id": 12646,
+        "Name": "The Park of Korum #12646",
+        "Connections": {
+          "North": 12645,
+          "West": 12647
+        }
+      },
+      {
+        "Id": 12647,
+        "Name": "The Park of Korum #12647",
+        "Connections": {
+          "East": 12646,
+          "West": 12648
+        },
+        "Contents": [
+          {
+            "Text": "A small dog #12625",
+            "Color": "green"
+          },
+          {
+            "Text": "A small dog #12625",
+            "Color": "green"
+          },
+          {
+            "Text": "A small dog #12625",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12648,
+        "Name": "The Park of Korum #12648",
+        "Connections": {
+          "North": 12653,
+          "East": 12647,
+          "West": 12649
+        }
+      },
+      {
+        "Id": 12649,
+        "Name": "The Park of Korum #12649",
+        "Connections": {
+          "East": 12648,
+          "West": 12650
+        },
+        "Contents": [
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          },
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          },
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12650,
+        "Name": "The Park of Korum #12650",
+        "Connections": {
+          "North": 12651,
+          "East": 12649
+        }
+      },
+      {
+        "Id": 12651,
+        "Name": "The Park of Korum #12651",
+        "Connections": {
+          "North": 12652,
+          "South": 12650
+        }
+      },
+      {
+        "Id": 12652,
+        "Name": "The Park of Korum #12652",
+        "Connections": {
+          "North": 12635,
+          "South": 12651
+        }
+      },
+      {
+        "Id": 12653,
+        "Name": "On a small bridge #12653",
+        "Connections": {
+          "North": 12655,
+          "South": 12648
+        }
+      },
+      {
+        "Id": 12654,
+        "Name": "The Park of Korum #12654",
+        "Connections": {}
+      },
+      {
+        "Id": 12655,
+        "Name": "On a small bridge #12655",
+        "Connections": {
+          "North": 12640,
+          "South": 12653
+        },
+        "Contents": [
+          {
+            "Text": "A frog #12627",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12656,
+        "Name": "blank #12656",
+        "Connections": {}
+      },
+      {
+        "Id": 12657,
+        "Name": "The Korum Inn #12657",
+        "Connections": {
+          "North": 12658,
+          "East": 12636,
+          "South": 12659,
+          "West": 12661
+        }
+      },
+      {
+        "Id": 12658,
+        "Name": "Marak\u0027s Pub #12658",
+        "Connections": {
+          "South": 12657
+        },
+        "Contents": [
+          {
+            "Text": "Woody The Bartender #12629",
+            "Color": "green"
+          },
+          {
+            "Text": "Cliff #12630",
+            "Color": "green"
+          },
+          {
+            "Text": "Norm #12631",
+            "Color": "green"
+          },
+          {
+            "Text": "Sam #12632",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12659,
+        "Name": "The Korum Inn #12659",
+        "Connections": {
+          "North": 12657,
+          "West": 12660
+        },
+        "Contents": [
+          {
+            "Text": "A bellhop #12633",
+            "Color": "green"
+          },
+          {
+            "Text": "A bellhop #12633",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12660,
+        "Name": "The Korum Inn #12660",
+        "Connections": {
+          "North": 12661,
+          "East": 12659
+        },
+        "Contents": [
+          {
+            "Text": "A hotel guest #12634",
+            "Color": "green"
+          },
+          {
+            "Text": "A hotel guest #12634",
+            "Color": "green"
+          },
+          {
+            "Text": "A hotel guest #12634",
+            "Color": "green"
+          },
+          {
+            "Text": "A hotel guest #12634",
+            "Color": "green"
+          },
+          {
+            "Text": "A hotel guest #12634",
+            "Color": "green"
+          },
+          {
+            "Text": "A hotel guest #12634",
+            "Color": "green"
+          },
+          {
+            "Text": "A hotel guest #12634",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12661,
+        "Name": "The Korum Inn #12661",
+        "Connections": {
+          "East": 12657,
+          "South": 12660
+        },
+        "Contents": [
+          {
+            "Text": "A hotel guest #12634",
+            "Color": "green"
+          },
+          {
+            "Text": "A hotel guest #12634",
+            "Color": "green"
+          },
+          {
+            "Text": "A hotel guest #12634",
+            "Color": "green"
+          },
+          {
+            "Text": "A hotel guest #12634",
+            "Color": "green"
+          },
+          {
+            "Text": "A hotel guest #12634",
+            "Color": "green"
+          },
+          {
+            "Text": "A hotel guest #12634",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12662,
+        "Name": "The northern road #12662",
+        "Connections": {
+          "North": 12663,
+          "South": 12633
+        },
+        "Contents": [
+          {
+            "Text": "A citizen of Korum #12637",
+            "Color": "green"
+          },
+          {
+            "Text": "A citizen of Korum #12637",
+            "Color": "green"
+          },
+          {
+            "Text": "A citizen of Korum #12637",
+            "Color": "green"
+          },
+          {
+            "Text": "A citizen of Korum #12637",
+            "Color": "green"
+          },
+          {
+            "Text": "A citizen of Korum #12637",
+            "Color": "green"
+          },
+          {
+            "Text": "A small dog #12625",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12663,
+        "Name": "The northside of Korum #12663",
+        "Connections": {
+          "North": 12670,
+          "East": 12667,
+          "South": 12633,
+          "West": 12664
+        }
+      },
+      {
+        "Id": 12664,
+        "Name": "The Witches Brew #12664",
+        "Connections": {
+          "East": 12663,
+          "West": 12665
+        },
+        "Contents": [
+          {
+            "Text": "Ilsa #12641",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12665,
+        "Name": "The back of the Witches Brew #12665",
+        "Connections": {
+          "East": 12664,
+          "Up": 12666
+        }
+      },
+      {
+        "Id": 12666,
+        "Name": "Above the Witches Brew #12666",
+        "Connections": {
+          "Down": 12665
+        }
+      },
+      {
+        "Id": 12667,
+        "Name": "Job\u0027s Lil General Store #12667",
+        "Connections": {
+          "East": 12668,
+          "West": 12663
+        },
+        "Contents": [
+          {
+            "Text": "Job #12640",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12668,
+        "Name": "Behind the store #12668",
+        "Connections": {
+          "West": 12667,
+          "Up": 12669
+        }
+      },
+      {
+        "Id": 12669,
+        "Name": "Job\u0027s loft #12669",
+        "Connections": {
+          "Down": 12668
+        }
+      },
+      {
+        "Id": 12670,
+        "Name": "The end of the road #12670",
+        "Connections": {
+          "South": 12663
+        },
+        "Contents": [
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          },
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          },
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          },
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          },
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          },
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          },
+          {
+            "Text": "A local villager #12626",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12671,
+        "Name": "Ouside the village of Korum #12671",
+        "Connections": {
+          "North": 12625,
+          "West": 12672
+        }
+      },
+      {
+        "Id": 12672,
+        "Name": "Inside the forest #12672",
+        "Connections": {
+          "East": 12671,
+          "West": 12673
+        }
+      },
+      {
+        "Id": 12673,
+        "Name": "Inside the forest #12673",
+        "Connections": {
+          "East": 12672,
+          "West": 3069
+        }
+      },
+      {
+        "Id": 12674,
+        "Name": "The mayors office #12674",
+        "Connections": {
+          "West": 12631
+        },
+        "Contents": [
+          {
+            "Text": "The mayor of Korum #12636",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12675,
+        "Name": "blank #12675",
+        "Connections": {}
+      },
+      {
+        "Id": 3069,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3069",
+        "Color": "blue",
+        "Connections": {
+          "North": 3410,
+          "East": 12673,
+          "South": 3068
+        }
+      }
+    ]
+  }
+}

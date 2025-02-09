@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>crimson2's Maps</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" />
+</head>
+<body>
+    <table id="table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Credits</th>
+                <th scope="col">Min Level</th>
+                <th scope="col">Max Level</th>
+                <th scope="col">Json</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+    <script>
+var data = [
+[["Aerie", "data/crimson2/maps/png/Aerie.png"], "", "", "", "data/crimson2/maps/json/Aerie.json"],
+[["AmazonJungle", "data/crimson2/maps/png/AmazonJungle.png"], "", "", "", "data/crimson2/maps/json/AmazonJungle.json"],
+[["Arachnos", "data/crimson2/maps/png/Arachnos.png"], "", "", "", "data/crimson2/maps/json/Arachnos.json"],
+[["ArcaneRuins", "data/crimson2/maps/png/ArcaneRuins.png"], "", "", "", "data/crimson2/maps/json/ArcaneRuins.json"],
+[["Arena", "data/crimson2/maps/png/Arena.png"], "", "", "", "data/crimson2/maps/json/Arena.json"],
+[["ArenaOfDeath", "data/crimson2/maps/png/ArenaOfDeath.png"], "", "", "", "data/crimson2/maps/json/ArenaOfDeath.json"],
+[["Arnath", "data/crimson2/maps/png/Arnath.png"], "", "", "", "data/crimson2/maps/json/Arnath.json"],
+[["Arnath2", "data/crimson2/maps/png/Arnath2.png"], "", "", "", "data/crimson2/maps/json/Arnath2.json"],
+[["Arnath3", "data/crimson2/maps/png/Arnath3.png"], "", "", "", "data/crimson2/maps/json/Arnath3.json"],
+[["Atlantis", "data/crimson2/maps/png/Atlantis.png"], "", "", "", "data/crimson2/maps/json/Atlantis.json"],
+[["AvatGargathDungeon", "data/crimson2/maps/png/AvatGargathDungeon.png"], "", "", "", "data/crimson2/maps/json/AvatGargathDungeon.json"],
+[["AvatGargathKeep", "data/crimson2/maps/png/AvatGargathKeep.png"], "", "", "", "data/crimson2/maps/json/AvatGargathKeep.json"],
+[["AvatLucifersDomain", "data/crimson2/maps/png/AvatLucifersDomain.png"], "", "", "", "data/crimson2/maps/json/AvatLucifersDomain.json"],
+[["BelloTerra", "data/crimson2/maps/png/BelloTerra.png"], "", "", "", "data/crimson2/maps/json/BelloTerra.json"],
+[["Camelot", "data/crimson2/maps/png/Camelot.png"], "", "", "", "data/crimson2/maps/json/Camelot.json"],
+[["Castle", "data/crimson2/maps/png/Castle.png"], "", "", "", "data/crimson2/maps/json/Castle.json"],
+[["CastleFagus", "data/crimson2/maps/png/CastleFagus.png"], "", "", "", "data/crimson2/maps/json/CastleFagus.json"],
+[["CastleWhiteFlame", "data/crimson2/maps/png/CastleWhiteFlame.png"], "", "", "", "data/crimson2/maps/json/CastleWhiteFlame.json"],
+[["CavesOfNumbness", "data/crimson2/maps/png/CavesOfNumbness.png"], "", "", "", "data/crimson2/maps/json/CavesOfNumbness.json"],
+[["CitadelofChaos", "data/crimson2/maps/png/CitadelofChaos.png"], "", "", "", "data/crimson2/maps/json/CitadelofChaos.json"],
+[["CityofMirielle", "data/crimson2/maps/png/CityofMirielle.png"], "", "", "", "data/crimson2/maps/json/CityofMirielle.json"],
+[["ClansArea", "data/crimson2/maps/png/ClansArea.png"], "", "", "", "data/crimson2/maps/json/ClansArea.json"],
+[["ClansArea2", "data/crimson2/maps/png/ClansArea2.png"], "", "", "", "data/crimson2/maps/json/ClansArea2.json"],
+[["CloudPalace", "data/crimson2/maps/png/CloudPalace.png"], "", "", "", "data/crimson2/maps/json/CloudPalace.json"],
+[["Coliseum", "data/crimson2/maps/png/Coliseum.png"], "", "", "", "data/crimson2/maps/json/Coliseum.json"],
+[["DarkCastle", "data/crimson2/maps/png/DarkCastle.png"], "", "", "", "data/crimson2/maps/json/DarkCastle.json"],
+[["Darkling", "data/crimson2/maps/png/Darkling.png"], "", "", "", "data/crimson2/maps/json/Darkling.json"],
+[["DarkWood", "data/crimson2/maps/png/DarkWood.png"], "", "", "", "data/crimson2/maps/json/DarkWood.json"],
+[["Daydream", "data/crimson2/maps/png/Daydream.png"], "", "", "", "data/crimson2/maps/json/Daydream.json"],
+[["DevilsDomain", "data/crimson2/maps/png/DevilsDomain.png"], "", "", "", "data/crimson2/maps/json/DevilsDomain.json"],
+[["DomoiItaba", "data/crimson2/maps/png/DomoiItaba.png"], "", "", "", "data/crimson2/maps/json/DomoiItaba.json"],
+[["Draconia", "data/crimson2/maps/png/Draconia.png"], "", "", "", "data/crimson2/maps/json/Draconia.json"],
+[["DragonIsle", "data/crimson2/maps/png/DragonIsle.png"], "", "", "", "data/crimson2/maps/json/DragonIsle.json"],
+[["DragonRealm3", "data/crimson2/maps/png/DragonRealm3.png"], "", "", "", "data/crimson2/maps/json/DragonRealm3.json"],
+[["DrowCity", "data/crimson2/maps/png/DrowCity.png"], "", "", "", "data/crimson2/maps/json/DrowCity.json"],
+[["DrowGods", "data/crimson2/maps/png/DrowGods.png"], "", "", "", "data/crimson2/maps/json/DrowGods.json"],
+[["Dusk", "data/crimson2/maps/png/Dusk.png"], "", "", "", "data/crimson2/maps/json/Dusk.json"],
+[["DwarvenKingdom2", "data/crimson2/maps/png/DwarvenKingdom2.png"], "", "", "", "data/crimson2/maps/json/DwarvenKingdom2.json"],
+[["Egypt", "data/crimson2/maps/png/Egypt.png"], "", "", "", "data/crimson2/maps/json/Egypt.json"],
+[["EgyptianGods", "data/crimson2/maps/png/EgyptianGods.png"], "", "", "", "data/crimson2/maps/json/EgyptianGods.json"],
+[["ElementalCanyon", "data/crimson2/maps/png/ElementalCanyon.png"], "", "", "", "data/crimson2/maps/json/ElementalCanyon.json"],
+[["ElfinCitadel", "data/crimson2/maps/png/ElfinCitadel.png"], "", "", "", "data/crimson2/maps/json/ElfinCitadel.json"],
+[["Elmpatris", "data/crimson2/maps/png/Elmpatris.png"], "", "", "", "data/crimson2/maps/json/Elmpatris.json"],
+[["End", "data/crimson2/maps/png/End.png"], "", "", "", "data/crimson2/maps/json/End.json"],
+[["GerinsHill", "data/crimson2/maps/png/GerinsHill.png"], "", "", "", "data/crimson2/maps/json/GerinsHill.json"],
+[["GerinsTower", "data/crimson2/maps/png/GerinsTower.png"], "", "", "", "data/crimson2/maps/json/GerinsTower.json"],
+[["GlassCathedral", "data/crimson2/maps/png/GlassCathedral.png"], "", "", "", "data/crimson2/maps/json/GlassCathedral.json"],
+[["GnomeVillage", "data/crimson2/maps/png/GnomeVillage.png"], "", "", "", "data/crimson2/maps/json/GnomeVillage.json"],
+[["GrigForest", "data/crimson2/maps/png/GrigForest.png"], "", "", "", "data/crimson2/maps/json/GrigForest.json"],
+[["HadesCastle", "data/crimson2/maps/png/HadesCastle.png"], "", "", "", "data/crimson2/maps/json/HadesCastle.json"],
+[["Halfling", "data/crimson2/maps/png/Halfling.png"], "", "", "", "data/crimson2/maps/json/Halfling.json"],
+[["HaonDorDark", "data/crimson2/maps/png/HaonDorDark.png"], "", "", "", "data/crimson2/maps/json/HaonDorDark.json"],
+[["HaonDorLight", "data/crimson2/maps/png/HaonDorLight.png"], "", "", "", "data/crimson2/maps/json/HaonDorLight.json"],
+[["HelmsDeep", "data/crimson2/maps/png/HelmsDeep.png"], "", "", "", "data/crimson2/maps/json/HelmsDeep.json"],
+[["Houses", "data/crimson2/maps/png/Houses.png"], "", "", "", "data/crimson2/maps/json/Houses.json"],
+[["IceCrystalPalace", "data/crimson2/maps/png/IceCrystalPalace.png"], "", "", "", "data/crimson2/maps/json/IceCrystalPalace.json"],
+[["InThePink", "data/crimson2/maps/png/InThePink.png"], "", "", "", "data/crimson2/maps/json/InThePink.json"],
+[["LairOfTheRatmen", "data/crimson2/maps/png/LairOfTheRatmen.png"], "", "", "", "data/crimson2/maps/json/LairOfTheRatmen.json"],
+[["Lake", "data/crimson2/maps/png/Lake.png"], "", "", "", "data/crimson2/maps/json/Lake.json"],
+[["LizardCanyon", "data/crimson2/maps/png/LizardCanyon.png"], "", "", "", "data/crimson2/maps/json/LizardCanyon.json"],
+[["Magetower", "data/crimson2/maps/png/Magetower.png"], "", "", "", "data/crimson2/maps/json/Magetower.json"],
+[["Midgaard", "data/crimson2/maps/png/Midgaard.png"], "", "", "", "data/crimson2/maps/json/Midgaard.json"],
+[["MidgaardQuifael", "data/crimson2/maps/png/MidgaardQuifael.png"], "", "", "", "data/crimson2/maps/json/MidgaardQuifael.json"],
+[["Moria12", "data/crimson2/maps/png/Moria12.png"], "", "", "", "data/crimson2/maps/json/Moria12.json"],
+[["Moria34", "data/crimson2/maps/png/Moria34.png"], "", "", "", "data/crimson2/maps/json/Moria34.json"],
+[["Moria56", "data/crimson2/maps/png/Moria56.png"], "", "", "", "data/crimson2/maps/json/Moria56.json"],
+[["MythDrannor", "data/crimson2/maps/png/MythDrannor.png"], "", "", "", "data/crimson2/maps/json/MythDrannor.json"],
+[["Necropolis", "data/crimson2/maps/png/Necropolis.png"], "", "", "", "data/crimson2/maps/json/Necropolis.json"],
+[["NedragaardKeep", "data/crimson2/maps/png/NedragaardKeep.png"], "", "", "", "data/crimson2/maps/json/NedragaardKeep.json"],
+[["NewbieVillage", "data/crimson2/maps/png/NewbieVillage.png"], "", "", "", "data/crimson2/maps/json/NewbieVillage.json"],
+[["NumidianSwamps", "data/crimson2/maps/png/NumidianSwamps.png"], "", "", "", "data/crimson2/maps/json/NumidianSwamps.json"],
+[["Ocean1", "data/crimson2/maps/png/Ocean1.png"], "", "", "", "data/crimson2/maps/json/Ocean1.json"],
+[["Ocean2", "data/crimson2/maps/png/Ocean2.png"], "", "", "", "data/crimson2/maps/json/Ocean2.json"],
+[["Olympus", "data/crimson2/maps/png/Olympus.png"], "", "", "", "data/crimson2/maps/json/Olympus.json"],
+[["OverlordLair", "data/crimson2/maps/png/OverlordLair.png"], "", "", "", "data/crimson2/maps/json/OverlordLair.json"],
+[["OverlordLair2", "data/crimson2/maps/png/OverlordLair2.png"], "", "", "", "data/crimson2/maps/json/OverlordLair2.json"],
+[["PalaceofElements", "data/crimson2/maps/png/PalaceofElements.png"], "", "", "", "data/crimson2/maps/json/PalaceofElements.json"],
+[["Phaze", "data/crimson2/maps/png/Phaze.png"], "", "", "", "data/crimson2/maps/json/Phaze.json"],
+[["PixieGarden", "data/crimson2/maps/png/PixieGarden.png"], "", "", "", "data/crimson2/maps/json/PixieGarden.json"],
+[["Playground", "data/crimson2/maps/png/Playground.png"], "", "", "", "data/crimson2/maps/json/Playground.json"],
+[["PortalPlane", "data/crimson2/maps/png/PortalPlane.png"], "", "", "", "data/crimson2/maps/json/PortalPlane.json"],
+[["QuelSithElves", "data/crimson2/maps/png/QuelSithElves.png"], "", "", "", "data/crimson2/maps/json/QuelSithElves.json"],
+[["QuelSithForest", "data/crimson2/maps/png/QuelSithForest.png"], "", "", "", "data/crimson2/maps/json/QuelSithForest.json"],
+[["Quest", "data/crimson2/maps/png/Quest.png"], "", "", "", "data/crimson2/maps/json/Quest.json"],
+[["RealmOfKhorne", "data/crimson2/maps/png/RealmOfKhorne.png"], "", "", "", "data/crimson2/maps/json/RealmOfKhorne.json"],
+[["RoyalAcademy", "data/crimson2/maps/png/RoyalAcademy.png"], "", "", "", "data/crimson2/maps/json/RoyalAcademy.json"],
+[["SevenHeavens", "data/crimson2/maps/png/SevenHeavens.png"], "", "", "", "data/crimson2/maps/json/SevenHeavens.json"],
+[["SevenHeavens2", "data/crimson2/maps/png/SevenHeavens2.png"], "", "", "", "data/crimson2/maps/json/SevenHeavens2.json"],
+[["Sewer", "data/crimson2/maps/png/Sewer.png"], "", "", "", "data/crimson2/maps/json/Sewer.json"],
+[["ShalNagiTemple", "data/crimson2/maps/png/ShalNagiTemple.png"], "", "", "", "data/crimson2/maps/json/ShalNagiTemple.json"],
+[["ShaolinTemple", "data/crimson2/maps/png/ShaolinTemple.png"], "", "", "", "data/crimson2/maps/json/ShaolinTemple.json"],
+[["Sharrizar", "data/crimson2/maps/png/Sharrizar.png"], "", "", "", "data/crimson2/maps/json/Sharrizar.json"],
+[["SherwoodForest", "data/crimson2/maps/png/SherwoodForest.png"], "", "", "", "data/crimson2/maps/json/SherwoodForest.json"],
+[["Shikonas", "data/crimson2/maps/png/Shikonas.png"], "", "", "", "data/crimson2/maps/json/Shikonas.json"],
+[["SilverDale", "data/crimson2/maps/png/SilverDale.png"], "", "", "", "data/crimson2/maps/json/SilverDale.json"],
+[["SNotling", "data/crimson2/maps/png/SNotling.png"], "", "", "", "data/crimson2/maps/json/SNotling.json"],
+[["SnowPeak", "data/crimson2/maps/png/SnowPeak.png"], "", "", "", "data/crimson2/maps/json/SnowPeak.json"],
+[["Space", "data/crimson2/maps/png/Space.png"], "", "", "", "data/crimson2/maps/json/Space.json"],
+[["TeldescianSwamps", "data/crimson2/maps/png/TeldescianSwamps.png"], "", "", "", "data/crimson2/maps/json/TeldescianSwamps.json"],
+[["TempleOfPres", "data/crimson2/maps/png/TempleOfPres.png"], "", "", "", "data/crimson2/maps/json/TempleOfPres.json"],
+[["TempleOfSalvation", "data/crimson2/maps/png/TempleOfSalvation.png"], "", "", "", "data/crimson2/maps/json/TempleOfSalvation.json"],
+[["TempleOfTsalchoic", "data/crimson2/maps/png/TempleOfTsalchoic.png"], "", "", "", "data/crimson2/maps/json/TempleOfTsalchoic.json"],
+[["Thalos", "data/crimson2/maps/png/Thalos.png"], "", "", "", "data/crimson2/maps/json/Thalos.json"],
+[["TheAbyss", "data/crimson2/maps/png/TheAbyss.png"], "", "", "", "data/crimson2/maps/json/TheAbyss.json"],
+[["TheFields", "data/crimson2/maps/png/TheFields.png"], "", "", "", "data/crimson2/maps/json/TheFields.json"],
+[["TheMasquerade", "data/crimson2/maps/png/TheMasquerade.png"], "", "", "", "data/crimson2/maps/json/TheMasquerade.json"],
+[["TheMasquerade2", "data/crimson2/maps/png/TheMasquerade2.png"], "", "", "", "data/crimson2/maps/json/TheMasquerade2.json"],
+[["TheMasquerade3", "data/crimson2/maps/png/TheMasquerade3.png"], "", "", "", "data/crimson2/maps/json/TheMasquerade3.json"],
+[["TheRoads", "data/crimson2/maps/png/TheRoads.png"], "", "", "", "data/crimson2/maps/json/TheRoads.json"],
+[["ThievesDen", "data/crimson2/maps/png/ThievesDen.png"], "", "", "", "data/crimson2/maps/json/ThievesDen.json"],
+[["ThievesGuild", "data/crimson2/maps/png/ThievesGuild.png"], "", "", "", "data/crimson2/maps/json/ThievesGuild.json"],
+[["Tuscany1", "data/crimson2/maps/png/Tuscany1.png"], "", "", "", "data/crimson2/maps/json/Tuscany1.json"],
+[["Tuscany2", "data/crimson2/maps/png/Tuscany2.png"], "", "", "", "data/crimson2/maps/json/Tuscany2.json"],
+[["Tuscany3", "data/crimson2/maps/png/Tuscany3.png"], "", "", "", "data/crimson2/maps/json/Tuscany3.json"],
+[["VampLair1", "data/crimson2/maps/png/VampLair1.png"], "", "", "", "data/crimson2/maps/json/VampLair1.json"],
+[["VampLair2", "data/crimson2/maps/png/VampLair2.png"], "", "", "", "data/crimson2/maps/json/VampLair2.json"],
+[["VampLair3", "data/crimson2/maps/png/VampLair3.png"], "", "", "", "data/crimson2/maps/json/VampLair3.json"],
+[["Vehicles", "data/crimson2/maps/png/Vehicles.png"], "", "", "", "data/crimson2/maps/json/Vehicles.json"],
+[["Viking", "data/crimson2/maps/png/Viking.png"], "", "", "", "data/crimson2/maps/json/Viking.json"],
+[["VillageOfKorum", "data/crimson2/maps/png/VillageOfKorum.png"], "", "", "", "data/crimson2/maps/json/VillageOfKorum.json"],
+[["Volcano", "data/crimson2/maps/png/Volcano.png"], "", "", "", "data/crimson2/maps/json/Volcano.json"],
+[["WailingBanshee", "data/crimson2/maps/png/WailingBanshee.png"], "", "", "", "data/crimson2/maps/json/WailingBanshee.json"],
+[["Xanth4", "data/crimson2/maps/png/Xanth4.png"], "", "", "", "data/crimson2/maps/json/Xanth4.json"],
+];
+
+
+    $('#table').DataTable({
+		columnDefs: [
+			{
+				targets: 0,
+				render: function (data, type) {
+					return '<a href="' + data[1] + '">' + data[0] + '</a>';
+				}
+            },
+			{
+				targets: 4,
+				render: function (data, type) {
+					return '<a href="' + data + '">json</a>';
+				}
+            }
+		],
+        paging: false,
+        data: data
+    });
+    </script>
+</body>
+</html>

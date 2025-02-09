@@ -1,0 +1,692 @@
+{
+  "Area": {
+    "Name": "EgyptianGods",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 5950,
+        "Name": "The overhang #5950",
+        "Connections": {
+          "North": 5951
+        }
+      },
+      {
+        "Id": 5951,
+        "Name": "Approaching the pyramid #5951",
+        "Connections": {
+          "North": 5964,
+          "South": 5950,
+          "West": 5952
+        }
+      },
+      {
+        "Id": 5952,
+        "Name": "Path in front of the great Pyramid #5952",
+        "Connections": {
+          "East": 5951,
+          "West": 5953
+        }
+      },
+      {
+        "Id": 5953,
+        "Name": "Nearing salvation #5953",
+        "Connections": {
+          "East": 5952,
+          "West": 5954
+        }
+      },
+      {
+        "Id": 5954,
+        "Name": "Entrance to the Pyramid #5954",
+        "Connections": {
+          "North": 5955,
+          "East": 5953
+        }
+      },
+      {
+        "Id": 5955,
+        "Name": "the heat of hell #5955",
+        "Connections": {
+          "East": 5963,
+          "South": 5954,
+          "West": 5956
+        }
+      },
+      {
+        "Id": 5956,
+        "Name": "the heat of hell #5956",
+        "Connections": {
+          "North": 5957,
+          "East": 5955
+        }
+      },
+      {
+        "Id": 5957,
+        "Name": "the heat of hell #5957",
+        "Connections": {
+          "North": 5958,
+          "South": 5956
+        }
+      },
+      {
+        "Id": 5958,
+        "Name": "the heat of hell #5958",
+        "Connections": {
+          "East": 5959,
+          "South": 5957
+        }
+      },
+      {
+        "Id": 5959,
+        "Name": "Room of the Scorpion King #5959",
+        "Connections": {
+          "East": 5961,
+          "South": {
+            "RoomId": 5960,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 5958
+        },
+        "Contents": [
+          {
+            "Text": "Mathyas, the scorpion king #5954",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5960,
+        "Name": "Throne of the mighty god Anubis #5960",
+        "Connections": {
+          "North": {
+            "RoomId": 5959,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 5991
+        },
+        "Contents": [
+          {
+            "Text": "Anubis #5952",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5961,
+        "Name": "the heat of hell #5961",
+        "Connections": {
+          "South": 5962,
+          "West": 5959
+        }
+      },
+      {
+        "Id": 5962,
+        "Name": "the heat of hell #5962",
+        "Connections": {
+          "North": 5961,
+          "South": 5963
+        }
+      },
+      {
+        "Id": 5963,
+        "Name": "the heat of hell #5963",
+        "Connections": {
+          "North": 5962,
+          "West": 5955
+        }
+      },
+      {
+        "Id": 5964,
+        "Name": "Ancient\u0027s Entrance #5964",
+        "Connections": {
+          "North": 5965,
+          "South": 5951
+        }
+      },
+      {
+        "Id": 5965,
+        "Name": "Marble Hallway #5965",
+        "Connections": {
+          "North": 5966,
+          "South": 5964
+        }
+      },
+      {
+        "Id": 5966,
+        "Name": "Sunlit Foyer #5966",
+        "Connections": {
+          "North": {
+            "RoomId": 5988,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 5970,
+          "South": 5965,
+          "West": 5967
+        }
+      },
+      {
+        "Id": 5967,
+        "Name": "Sandy Corridor #5967",
+        "Connections": {
+          "East": 5966,
+          "South": 5968
+        }
+      },
+      {
+        "Id": 5968,
+        "Name": "Sandy Corridor #5968",
+        "Connections": {
+          "North": 5967,
+          "South": 5969
+        }
+      },
+      {
+        "Id": 5969,
+        "Name": "Wall of Scarabs #5969",
+        "Connections": {
+          "North": 5968,
+          "Down": 5997
+        },
+        "Contents": [
+          {
+            "Text": "Onyx Scarab #5956",
+            "Color": "red"
+          },
+          {
+            "Text": "Onyx Scarab #5956",
+            "Color": "red"
+          },
+          {
+            "Text": "Onyx Scarab #5956",
+            "Color": "red"
+          },
+          {
+            "Text": "Onyx Scarab #5956",
+            "Color": "red"
+          },
+          {
+            "Text": "Onyx Scarab #5956",
+            "Color": "red"
+          },
+          {
+            "Text": "Golden Scarab #5957",
+            "Color": "red"
+          },
+          {
+            "Text": "Golden Scarab #5957",
+            "Color": "red"
+          },
+          {
+            "Text": "Golden Scarab #5957",
+            "Color": "red"
+          },
+          {
+            "Text": "Golden Scarab #5957",
+            "Color": "red"
+          },
+          {
+            "Text": "Golden Scarab #5957",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5970,
+        "Name": "Foggy Corridor #5970",
+        "Connections": {
+          "East": 5975,
+          "South": 5971,
+          "West": 5966
+        }
+      },
+      {
+        "Id": 5971,
+        "Name": "Polished Ivory hallway #5971",
+        "Connections": {
+          "North": 5970,
+          "South": 5972
+        }
+      },
+      {
+        "Id": 5972,
+        "Name": "Polished Ivory hallway #5972",
+        "Connections": {
+          "North": 5971,
+          "South": 5973
+        }
+      },
+      {
+        "Id": 5973,
+        "Name": "Polished Ivory hallway #5973",
+        "Connections": {
+          "North": 5972,
+          "South": 5974
+        }
+      },
+      {
+        "Id": 5974,
+        "Name": "Throne of the Lovers #5974",
+        "Connections": {
+          "North": 5973
+        },
+        "Contents": [
+          {
+            "Text": "Imhotep #5953",
+            "Color": "green"
+          },
+          {
+            "Text": "Anuksonamun, the Lover of Imhotep #5960",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5975,
+        "Name": "Foggy Corridor #5975",
+        "Connections": {
+          "East": 5982,
+          "South": 5976,
+          "West": 5970
+        }
+      },
+      {
+        "Id": 5976,
+        "Name": "pale stone corridor #5976",
+        "Connections": {
+          "North": 5975,
+          "South": 5977
+        }
+      },
+      {
+        "Id": 5977,
+        "Name": "turn in the stone corridor #5977",
+        "Connections": {
+          "North": 5976,
+          "East": 5978
+        }
+      },
+      {
+        "Id": 5978,
+        "Name": "pale stone corridor #5978",
+        "Connections": {
+          "South": 5979,
+          "West": 5977
+        }
+      },
+      {
+        "Id": 5979,
+        "Name": "pale stone corridor #5979",
+        "Connections": {
+          "North": 5978,
+          "South": 5980
+        }
+      },
+      {
+        "Id": 5980,
+        "Name": "Bloodied Throne of Set #5980",
+        "Connections": {
+          "North": 5979,
+          "West": 5981,
+          "Down": 5993
+        },
+        "Contents": [
+          {
+            "Text": "Horus, the Patron Deity of Egypt #5955",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5981,
+        "Name": "Room of glorious riches #5981",
+        "Connections": {
+          "East": 5980
+        }
+      },
+      {
+        "Id": 5982,
+        "Name": "Foggy Corridor #5982",
+        "Connections": {
+          "North": 5984,
+          "East": 5983,
+          "South": 5986,
+          "West": 5975
+        }
+      },
+      {
+        "Id": 5983,
+        "Name": "Foggy Corridor #5983",
+        "Connections": {
+          "North": 5985,
+          "South": 5987,
+          "West": 5982
+        }
+      },
+      {
+        "Id": 5984,
+        "Name": "Pit of Slaves #5984",
+        "Connections": {
+          "South": 5982
+        },
+        "Contents": [
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5985,
+        "Name": "Pit of Slaves #5985",
+        "Connections": {
+          "South": 5983
+        },
+        "Contents": [
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5986,
+        "Name": "Pit of Slaves #5986",
+        "Connections": {
+          "North": 5982
+        },
+        "Contents": [
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5987,
+        "Name": "Pit of Slaves #5987",
+        "Connections": {
+          "North": 5983
+        },
+        "Contents": [
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          },
+          {
+            "Text": "a weakened slave #5950",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5988,
+        "Name": "Sunlit Hall #5988",
+        "Connections": {
+          "East": {
+            "RoomId": 5989,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 5966,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 5989,
+        "Name": "Sunlit Hall #5989",
+        "Connections": {
+          "East": {
+            "RoomId": 5990,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 5988,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 5990,
+        "Name": "The blazing heat #5990",
+        "Connections": {
+          "North": {
+            "RoomId": 5996,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 5989,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Userkaf, the High Priest of Ra #5962",
+            "Color": "green"
+          },
+          {
+            "Text": "Ra #5951",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5991,
+        "Name": "the Underworld #5991",
+        "Connections": {
+          "West": 5992,
+          "Up": 5960
+        },
+        "Contents": [
+          {
+            "Text": "Osiris, the father of Horus #5958",
+            "Color": "green"
+          },
+          {
+            "Text": "Isis, mother of Horus #5959",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5992,
+        "Name": "The room of the Raising #5992",
+        "Connections": {
+          "East": 5991
+        }
+      },
+      {
+        "Id": 5993,
+        "Name": "Hidden path to the desert #5993",
+        "Connections": {
+          "North": 5994,
+          "Up": 5980
+        }
+      },
+      {
+        "Id": 5994,
+        "Name": "Hidden path to the desert #5994",
+        "Connections": {
+          "South": 5993,
+          "West": 5995
+        }
+      },
+      {
+        "Id": 5995,
+        "Name": "Set\u0027s destroyed hideaway. #5995",
+        "Connections": {
+          "East": 5994
+        },
+        "Contents": [
+          {
+            "Text": "Set, the evil uncle of Horus. #5961",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5996,
+        "Name": "The great Escape!!! #5996",
+        "Connections": {}
+      },
+      {
+        "Id": 5997,
+        "Name": "A Bloody pit #5997",
+        "Connections": {
+          "East": 5998,
+          "Up": 5969
+        },
+        "Contents": [
+          {
+            "Text": "a pit mummy #5963",
+            "Color": "green"
+          },
+          {
+            "Text": "a pit mummy #5963",
+            "Color": "green"
+          },
+          {
+            "Text": "a pit mummy #5963",
+            "Color": "green"
+          },
+          {
+            "Text": "a pit mummy #5963",
+            "Color": "green"
+          },
+          {
+            "Text": "a pit mummy #5963",
+            "Color": "green"
+          },
+          {
+            "Text": "a pit mummy #5963",
+            "Color": "green"
+          },
+          {
+            "Text": "a pit mummy #5963",
+            "Color": "green"
+          },
+          {
+            "Text": "a pit mummy #5963",
+            "Color": "green"
+          },
+          {
+            "Text": "a pit mummy #5963",
+            "Color": "green"
+          },
+          {
+            "Text": "a pit mummy #5963",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5998,
+        "Name": "the zombie lord\u0027s chamber #5998",
+        "Connections": {
+          "West": 5997
+        },
+        "Contents": [
+          {
+            "Text": "mummy lord #5965",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5999,
+        "Name": "the bottomless pit of bloodless death #5999",
+        "Connections": {
+          "East": 5998,
+          "Up": 5969
+        }
+      }
+    ]
+  }
+}

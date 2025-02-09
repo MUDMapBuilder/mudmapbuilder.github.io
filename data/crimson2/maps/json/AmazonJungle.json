@@ -1,0 +1,1264 @@
+{
+  "Area": {
+    "Name": "AmazonJungle",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 16300,
+        "Name": "Amazon River #16300",
+        "Connections": {
+          "North": 3064,
+          "South": 16301
+        },
+        "Contents": [
+          {
+            "Text": "a crocodile #16332",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16301,
+        "Name": "Amazon River #16301",
+        "Connections": {
+          "North": 16300,
+          "South": 16302,
+          "West": 16312
+        }
+      },
+      {
+        "Id": 16302,
+        "Name": "Amazon River #16302",
+        "Connections": {
+          "North": 16301,
+          "South": 16303
+        },
+        "Contents": [
+          {
+            "Text": "a crocodile #16332",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16303,
+        "Name": "Amazon River #16303",
+        "Connections": {
+          "North": 16302,
+          "South": 16304
+        },
+        "Contents": [
+          {
+            "Text": "A ferocious Piraniah #16301",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16304,
+        "Name": "Amazon River #16304",
+        "Connections": {
+          "North": 16303,
+          "South": 16305
+        },
+        "Contents": [
+          {
+            "Text": "a crocodile #16332",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16305,
+        "Name": "Before the Waterfall #16305",
+        "Connections": {
+          "North": 16304,
+          "South": 16306
+        },
+        "Contents": [
+          {
+            "Text": "A ferocious Piraniah #16301",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16306,
+        "Name": "Waterfall Lagoon #16306",
+        "Connections": {
+          "West": 16307,
+          "Up": 16313
+        }
+      },
+      {
+        "Id": 16307,
+        "Name": "Jungle Trail #16307",
+        "Connections": {
+          "North": 16308,
+          "East": 16306
+        }
+      },
+      {
+        "Id": 16308,
+        "Name": "Jungle Trail #16308",
+        "Connections": {
+          "North": 16309,
+          "East": 16324,
+          "South": 16307,
+          "West": 16307
+        },
+        "Contents": [
+          {
+            "Text": "a headhunter #16316",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16309,
+        "Name": "Jungle Trail #16309",
+        "Connections": {
+          "North": 16307,
+          "East": 16308,
+          "South": 16310,
+          "West": 16322
+        }
+      },
+      {
+        "Id": 16310,
+        "Name": "Jungle Trail #16310",
+        "Connections": {
+          "North": 16307,
+          "East": 16307,
+          "South": 16323,
+          "West": {
+            "RoomId": 16311,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 16355
+        },
+        "Contents": [
+          {
+            "Text": "a headhunter #16316",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16311,
+        "Name": "A Small Hut #16311",
+        "Connections": {
+          "East": {
+            "RoomId": 16310,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Salam #16303",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16312,
+        "Name": "Small, Tributary to the Amazon #16312",
+        "Connections": {
+          "East": 16301,
+          "West": 16314
+        }
+      },
+      {
+        "Id": 16313,
+        "Name": "Fallen off the Waterfall #16313",
+        "Connections": {}
+      },
+      {
+        "Id": 16314,
+        "Name": "Small, Tributary to the Amazon #16314",
+        "Connections": {
+          "East": 16312,
+          "West": 16315
+        }
+      },
+      {
+        "Id": 16315,
+        "Name": "Small, Tributary to the Amazon #16315",
+        "Connections": {
+          "East": 16314,
+          "South": 16316
+        }
+      },
+      {
+        "Id": 16316,
+        "Name": "Village of Tubbiki #16316",
+        "Connections": {
+          "North": 16315,
+          "East": 16317,
+          "South": 16322,
+          "West": 16320
+        },
+        "Contents": [
+          {
+            "Text": "a pygmy boy #16321",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16317,
+        "Name": "Village of Tubbiki #16317",
+        "Connections": {
+          "North": 16318,
+          "East": 16319,
+          "South": 16389,
+          "West": 16316
+        },
+        "Contents": [
+          {
+            "Text": "a pygmy girl #16320",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16318,
+        "Name": "Food Storage Room #16318",
+        "Connections": {
+          "South": 16317
+        }
+      },
+      {
+        "Id": 16319,
+        "Name": "Village of Tubbiki #16319",
+        "Connections": {
+          "North": 16390,
+          "East": 16392,
+          "South": 16391,
+          "West": 16317
+        }
+      },
+      {
+        "Id": 16320,
+        "Name": "Village of Tubbiki #16320",
+        "Connections": {
+          "North": 16388,
+          "East": 16316,
+          "South": 16321,
+          "West": 16363
+        }
+      },
+      {
+        "Id": 16321,
+        "Name": "Small Hut #16321",
+        "Connections": {
+          "North": 16320,
+          "South": {
+            "RoomId": 16354,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a pygmy woman #16322",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16322,
+        "Name": "Jungle Path #16322",
+        "Connections": {
+          "North": 16316,
+          "West": 16323
+        },
+        "Contents": [
+          {
+            "Text": "a monkey #16318",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16323,
+        "Name": "Wandering the Jungle #16323",
+        "Connections": {
+          "North": 16376,
+          "East": 16324,
+          "South": 16323,
+          "West": 16308
+        }
+      },
+      {
+        "Id": 16324,
+        "Name": "Wandering the Jungle #16324",
+        "Connections": {
+          "North": 16323,
+          "East": 16324,
+          "South": 16325,
+          "West": 16323
+        },
+        "Contents": [
+          {
+            "Text": "a headhunter #16316",
+            "Color": "green"
+          },
+          {
+            "Text": "a live vine #16319",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16325,
+        "Name": "Wandering the Jungle #16325",
+        "Connections": {
+          "North": 16323,
+          "East": 16325,
+          "South": 16324,
+          "West": 16326
+        }
+      },
+      {
+        "Id": 16326,
+        "Name": "Wandering the Jungle #16326",
+        "Connections": {
+          "North": 16308,
+          "East": 16327,
+          "South": 16325,
+          "West": 16307
+        },
+        "Contents": [
+          {
+            "Text": "a live vine #16319",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16327,
+        "Name": "Wandering the Jungle #16327",
+        "Connections": {
+          "North": 16328,
+          "East": 16326,
+          "South": 16326,
+          "West": 16365
+        },
+        "Contents": [
+          {
+            "Text": "a monkey #16318",
+            "Color": "green"
+          },
+          {
+            "Text": "a parrot #16331",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16328,
+        "Name": "Wandering the Jungle #16328",
+        "Connections": {
+          "North": 16366,
+          "East": 16326,
+          "South": 16325,
+          "West": 16329
+        },
+        "Contents": [
+          {
+            "Text": "the komodo dragon #16310",
+            "Color": "green"
+          },
+          {
+            "Text": "a tiger #16315",
+            "Color": "red"
+          },
+          {
+            "Text": "a tiger #16315",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16329,
+        "Name": "Wandering the Jungle #16329",
+        "Connections": {
+          "North": 16330,
+          "East": 16328,
+          "South": 16327,
+          "West": 16323,
+          "Up": 16345
+        },
+        "Contents": [
+          {
+            "Text": "a headhunter #16316",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16330,
+        "Name": "Wandering the Jungle #16330",
+        "Connections": {
+          "North": 16362,
+          "East": 16328,
+          "South": 16337,
+          "West": 16331
+        },
+        "Contents": [
+          {
+            "Text": "an anaconda #16326",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16331,
+        "Name": "Wandering the Jungle #16331",
+        "Connections": {
+          "North": 16335,
+          "East": 16332,
+          "South": 16329,
+          "West": 16330
+        },
+        "Contents": [
+          {
+            "Text": "Sabretooth Tiger #16335",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16332,
+        "Name": "Wandering the Jungle #16332",
+        "Connections": {
+          "North": 16330,
+          "East": 16333,
+          "South": 16324,
+          "West": 16323
+        },
+        "Contents": [
+          {
+            "Text": "a live vine #16319",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16333,
+        "Name": "Pygmy Camp #16333",
+        "Connections": {
+          "North": 16332,
+          "East": 16394,
+          "South": 16393,
+          "West": 16395
+        },
+        "Contents": [
+          {
+            "Text": "a pygmy man #16324",
+            "Color": "green"
+          },
+          {
+            "Text": "a pygmy man #16324",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16334,
+        "Name": "Pygmy Throne Room #16334",
+        "Connections": {
+          "Up": {
+            "RoomId": 16361,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 16393
+        },
+        "Contents": [
+          {
+            "Text": "Kabukiki #16314",
+            "Color": "red"
+          },
+          {
+            "Text": "a pygmy guard #16323",
+            "Color": "green"
+          },
+          {
+            "Text": "a pygmy guard #16323",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16335,
+        "Name": "Canopy Opening #16335",
+        "Connections": {
+          "North": 16323,
+          "East": 16324,
+          "South": 16325,
+          "West": 16323,
+          "Up": 16336
+        },
+        "Contents": [
+          {
+            "Text": "Cheetah #16333",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16336,
+        "Name": "Adar\u0027s Tree House #16336",
+        "Connections": {
+          "Down": 16335
+        },
+        "Contents": [
+          {
+            "Text": "Adar #16300",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16337,
+        "Name": "Entrance to the Ant Hill #16337",
+        "Connections": {
+          "North": 16365,
+          "East": 16308,
+          "West": 16302,
+          "Down": 16338
+        }
+      },
+      {
+        "Id": 16338,
+        "Name": "The Ant Hill #16338",
+        "Connections": {
+          "North": 16339,
+          "East": 16339,
+          "South": 16341,
+          "Up": 16337
+        },
+        "Contents": [
+          {
+            "Text": "a worker ant #16329",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16339,
+        "Name": "The Ant Hill #16339",
+        "Connections": {
+          "East": 16341,
+          "West": 16339,
+          "Up": 16340,
+          "Down": 16340
+        },
+        "Contents": [
+          {
+            "Text": "a worker ant #16329",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16340,
+        "Name": "The Ant Hill #16340",
+        "Connections": {
+          "North": 16338,
+          "East": 16380,
+          "South": 16339,
+          "West": 16338
+        },
+        "Contents": [
+          {
+            "Text": "a worker ant #16329",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16341,
+        "Name": "The Ant Hill #16341",
+        "Connections": {
+          "North": 16340,
+          "South": 16342,
+          "West": 16338,
+          "Up": 16339,
+          "Down": 16338
+        }
+      },
+      {
+        "Id": 16342,
+        "Name": "Royal Ant Chamber #16342",
+        "Connections": {
+          "North": 16341,
+          "Down": 16343
+        },
+        "Contents": [
+          {
+            "Text": "a soldier ant #16330",
+            "Color": "green"
+          },
+          {
+            "Text": "a soldier ant #16330",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16343,
+        "Name": "Royal Chamber #16343",
+        "Connections": {
+          "East": 16344,
+          "Up": 16342
+        },
+        "Contents": [
+          {
+            "Text": "King Hormiga #16307",
+            "Color": "red"
+          },
+          {
+            "Text": "Queen Hormigeta #16308",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16344,
+        "Name": "Egg Chamber #16344",
+        "Connections": {
+          "West": 16343
+        }
+      },
+      {
+        "Id": 16345,
+        "Name": "Entrance to the Hive #16345",
+        "Connections": {
+          "Up": 16346,
+          "Down": 16329
+        }
+      },
+      {
+        "Id": 16346,
+        "Name": "Honeycomb #16346",
+        "Connections": {
+          "North": 16347,
+          "Down": 16345
+        }
+      },
+      {
+        "Id": 16347,
+        "Name": "Center of the Hive #16347",
+        "Connections": {
+          "North": 16349,
+          "East": 16348,
+          "South": 16350,
+          "West": 16350
+        }
+      },
+      {
+        "Id": 16348,
+        "Name": "Honeycomb #16348",
+        "Connections": {
+          "North": 16347,
+          "East": 16347,
+          "South": 16351,
+          "West": 16347
+        },
+        "Contents": [
+          {
+            "Text": "a drone bee #16327",
+            "Color": "red"
+          },
+          {
+            "Text": "a worker bee #16328",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16349,
+        "Name": "Honeycomb #16349",
+        "Connections": {
+          "North": 16347,
+          "East": 16347,
+          "South": 16347,
+          "West": 16347
+        },
+        "Contents": [
+          {
+            "Text": "a drone bee #16327",
+            "Color": "red"
+          },
+          {
+            "Text": "a worker bee #16328",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16350,
+        "Name": "Honeycomb #16350",
+        "Connections": {
+          "North": 16347,
+          "East": 16347,
+          "South": 16347,
+          "West": 16347
+        },
+        "Contents": [
+          {
+            "Text": "a drone bee #16327",
+            "Color": "red"
+          },
+          {
+            "Text": "a worker bee #16328",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16351,
+        "Name": "Queen Bee Chamber #16351",
+        "Connections": {
+          "North": 16350,
+          "East": 16346,
+          "South": 16349,
+          "West": 16348
+        },
+        "Contents": [
+          {
+            "Text": "The Queen Bee #16309",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16352,
+        "Name": "By the Deadly Jungle #16352",
+        "Connections": {
+          "North": 16353,
+          "East": 16353,
+          "South": 16353,
+          "West": 16353
+        }
+      },
+      {
+        "Id": 16353,
+        "Name": "Lair of the Red Panther #16353",
+        "Connections": {}
+      },
+      {
+        "Id": 16354,
+        "Name": "Witch Doctor\u0027s Clinic #16354",
+        "Connections": {
+          "North": {
+            "RoomId": 16321,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Tibiki, the Witch Doctor #16302",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16355,
+        "Name": "Jungle Mountain Trail #16355",
+        "Connections": {
+          "East": 16356,
+          "Down": 16310
+        },
+        "Contents": [
+          {
+            "Text": "a gorilla #16325",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16356,
+        "Name": "Jungle Mountain Trail #16356",
+        "Connections": {
+          "North": 3900,
+          "South": 16357,
+          "West": 16355
+        }
+      },
+      {
+        "Id": 16357,
+        "Name": "Village #16357",
+        "Connections": {
+          "North": 16356,
+          "East": 16358,
+          "South": 16360,
+          "West": 16359
+        },
+        "Contents": [
+          {
+            "Text": "a cannibal #16317",
+            "Color": "green"
+          },
+          {
+            "Text": "a cannibal #16317",
+            "Color": "green"
+          },
+          {
+            "Text": "a headhunter #16316",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16358,
+        "Name": "Village #16358",
+        "Connections": {
+          "South": 16360,
+          "West": 16357
+        },
+        "Contents": [
+          {
+            "Text": "a cannibal #16317",
+            "Color": "green"
+          },
+          {
+            "Text": "a cannibal #16317",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16359,
+        "Name": "Village #16359",
+        "Connections": {
+          "East": 16357,
+          "South": 16360
+        }
+      },
+      {
+        "Id": 16360,
+        "Name": "Village #16360",
+        "Connections": {
+          "North": 16357,
+          "East": 16358,
+          "South": 16367,
+          "West": 16359
+        }
+      },
+      {
+        "Id": 16361,
+        "Name": "Elder Room #16361",
+        "Connections": {
+          "Down": {
+            "RoomId": 16334,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Village Elder #16305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16362,
+        "Name": "Lion\u0027s Den #16362",
+        "Connections": {
+          "South": 16330
+        },
+        "Contents": [
+          {
+            "Text": "the King of the Jungle #16306",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16363,
+        "Name": "Village of Tubbiki #16363",
+        "Connections": {
+          "North": 16364,
+          "East": 16320,
+          "South": 16387,
+          "West": 16386
+        }
+      },
+      {
+        "Id": 16364,
+        "Name": "Pygmy House #16364",
+        "Connections": {
+          "South": 16363
+        }
+      },
+      {
+        "Id": 16365,
+        "Name": "Tiger Pit #16365",
+        "Connections": {}
+      },
+      {
+        "Id": 16366,
+        "Name": "The Poachers Cage #16366",
+        "Connections": {}
+      },
+      {
+        "Id": 16367,
+        "Name": "Path to the Plain #16367",
+        "Connections": {
+          "North": 16360,
+          "South": 16368
+        }
+      },
+      {
+        "Id": 16368,
+        "Name": "Path to the Plain #16368",
+        "Connections": {
+          "North": 16367,
+          "South": 16369
+        }
+      },
+      {
+        "Id": 16369,
+        "Name": "Plain #16369",
+        "Connections": {
+          "North": 16368,
+          "East": 16371,
+          "South": 16372,
+          "West": 16370
+        },
+        "Contents": [
+          {
+            "Text": "a male elephant #16311",
+            "Color": "green"
+          },
+          {
+            "Text": "a female elephant #16312",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16370,
+        "Name": "Plain #16370",
+        "Connections": {
+          "North": 16370,
+          "East": 16369,
+          "South": 16373,
+          "West": 16370
+        },
+        "Contents": [
+          {
+            "Text": "a male elephant #16311",
+            "Color": "green"
+          },
+          {
+            "Text": "a female elephant #16312",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16371,
+        "Name": "Plain #16371",
+        "Connections": {
+          "North": 16371,
+          "East": 16371,
+          "South": 16374,
+          "West": 16369
+        },
+        "Contents": [
+          {
+            "Text": "a male elephant #16311",
+            "Color": "green"
+          },
+          {
+            "Text": "a female elephant #16312",
+            "Color": "green"
+          },
+          {
+            "Text": "the elephant leader #16313",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16372,
+        "Name": "Plain #16372",
+        "Connections": {
+          "North": 16369,
+          "East": 16374,
+          "South": 16375,
+          "West": 16373
+        }
+      },
+      {
+        "Id": 16373,
+        "Name": "Plain #16373",
+        "Connections": {
+          "North": 16370,
+          "East": 16372,
+          "South": 16373,
+          "West": 16373
+        }
+      },
+      {
+        "Id": 16374,
+        "Name": "Plain #16374",
+        "Connections": {
+          "North": 16371,
+          "East": 16374,
+          "South": 16374,
+          "West": 16372
+        }
+      },
+      {
+        "Id": 16375,
+        "Name": "Plain #16375",
+        "Connections": {
+          "North": 16372,
+          "Down": 16381
+        }
+      },
+      {
+        "Id": 16376,
+        "Name": "Path to Adalla\u0027s #16376",
+        "Connections": {
+          "North": 16377,
+          "South": 16323
+        }
+      },
+      {
+        "Id": 16377,
+        "Name": "Outside Adalla\u0027s House #16377",
+        "Connections": {
+          "North": 16378,
+          "South": 16376
+        }
+      },
+      {
+        "Id": 16378,
+        "Name": "Adalla\u0027s House #16378",
+        "Connections": {
+          "South": 16377
+        },
+        "Contents": [
+          {
+            "Text": "Princess Adalla #16304",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16379,
+        "Name": "Map Room. #16379",
+        "Connections": {
+          "West": 16398
+        }
+      },
+      {
+        "Id": 16380,
+        "Name": "The Ant Lion\u0027s Den #16380",
+        "Connections": {}
+      },
+      {
+        "Id": 16381,
+        "Name": "Secret Underground River #16381",
+        "Connections": {
+          "South": 16382
+        }
+      },
+      {
+        "Id": 16382,
+        "Name": "Secret Underground River #16382",
+        "Connections": {
+          "South": 16383
+        }
+      },
+      {
+        "Id": 16383,
+        "Name": "Secret Underground River #16383",
+        "Connections": {
+          "East": 16384
+        }
+      },
+      {
+        "Id": 16384,
+        "Name": "Secret Underground River #16384",
+        "Connections": {
+          "South": 16385
+        }
+      },
+      {
+        "Id": 16385,
+        "Name": "Secret Underground River #16385",
+        "Connections": {
+          "Down": 16300
+        }
+      },
+      {
+        "Id": 16386,
+        "Name": "Pygmy House #16386",
+        "Connections": {
+          "East": 16363
+        }
+      },
+      {
+        "Id": 16387,
+        "Name": "Pygmy House #16387",
+        "Connections": {
+          "North": 16363
+        }
+      },
+      {
+        "Id": 16388,
+        "Name": "Pygmy House #16388",
+        "Connections": {
+          "South": 16320
+        }
+      },
+      {
+        "Id": 16389,
+        "Name": "Pygmy House #16389",
+        "Connections": {
+          "North": 16317
+        }
+      },
+      {
+        "Id": 16390,
+        "Name": "Pygmy House #16390",
+        "Connections": {
+          "South": 16319
+        }
+      },
+      {
+        "Id": 16391,
+        "Name": "Pygmy House #16391",
+        "Connections": {
+          "North": 16319
+        },
+        "Contents": [
+          {
+            "Text": "a pygmy man #16324",
+            "Color": "green"
+          },
+          {
+            "Text": "a pygmy man #16324",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16392,
+        "Name": "Pygmy House #16392",
+        "Connections": {
+          "West": 16319
+        }
+      },
+      {
+        "Id": 16393,
+        "Name": "Pygmy Camp #16393",
+        "Connections": {
+          "North": 16333,
+          "East": 16397,
+          "West": 16396,
+          "Up": 16334
+        }
+      },
+      {
+        "Id": 16394,
+        "Name": "Pygmy Camp #16394",
+        "Connections": {
+          "South": 16397,
+          "West": 16333
+        }
+      },
+      {
+        "Id": 16395,
+        "Name": "Pygmy Camp #16395",
+        "Connections": {
+          "East": 16333,
+          "South": 16396
+        }
+      },
+      {
+        "Id": 16396,
+        "Name": "Pygmy Camp #16396",
+        "Connections": {
+          "North": 16395,
+          "East": 16393
+        },
+        "Contents": [
+          {
+            "Text": "a pygmy man #16324",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16397,
+        "Name": "Pygmy Camp #16397",
+        "Connections": {
+          "North": 16394,
+          "West": 16393
+        }
+      },
+      {
+        "Id": 16398,
+        "Name": "Map Room 2. #16398",
+        "Connections": {
+          "East": 16379,
+          "West": 16399
+        }
+      },
+      {
+        "Id": 16399,
+        "Name": "Map Room 3. #16399",
+        "Connections": {
+          "East": 16398
+        }
+      },
+      {
+        "Id": 3064,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3064",
+        "Color": "blue",
+        "Connections": {
+          "North": 3063,
+          "East": 3065,
+          "South": 16300,
+          "West": 3066
+        }
+      },
+      {
+        "Id": 3900,
+        "FrameColor": "blue",
+        "Name": "To Volcano #3900",
+        "Color": "blue",
+        "Connections": {
+          "North": 3901,
+          "South": 16356
+        }
+      }
+    ]
+  }
+}

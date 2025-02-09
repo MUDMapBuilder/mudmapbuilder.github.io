@@ -1,0 +1,1084 @@
+{
+  "Area": {
+    "Name": "QuelSithElves",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 20745,
+        "Name": "Inside the Hollow of a Large Tree #20745",
+        "Connections": {
+          "West": 8561,
+          "Up": 20746
+        }
+      },
+      {
+        "Id": 20746,
+        "Name": "Inside the Hollow of a Large Tree #20746",
+        "Connections": {
+          "West": 20747,
+          "Up": 20748,
+          "Down": 20745
+        }
+      },
+      {
+        "Id": 20747,
+        "Name": "A Hidden Lookout Post #20747",
+        "Connections": {
+          "East": 20746
+        },
+        "Contents": [
+          {
+            "Text": "The elven lookout #20745",
+            "Color": "green"
+          },
+          {
+            "Text": "The elven lookout #20745",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20748,
+        "Name": "Top of the Staircase #20748",
+        "Connections": {
+          "North": 20749,
+          "Down": 20746
+        },
+        "Contents": [
+          {
+            "Text": "The elven sentry #20746",
+            "Color": "green"
+          },
+          {
+            "Text": "The elven sentry #20746",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20749,
+        "Name": "On a Large Tree Branch #20749",
+        "Connections": {
+          "North": 20750,
+          "South": 20748
+        }
+      },
+      {
+        "Id": 20750,
+        "Name": "On a Large Tree Branch #20750",
+        "Connections": {
+          "North": 20751,
+          "South": 20749
+        }
+      },
+      {
+        "Id": 20751,
+        "Name": "Crossing Branches #20751",
+        "Connections": {
+          "North": 20752,
+          "South": 20750,
+          "Up": 20756
+        }
+      },
+      {
+        "Id": 20752,
+        "Name": "On a Large Tree Branch #20752",
+        "Connections": {
+          "North": 20753,
+          "South": 20751
+        }
+      },
+      {
+        "Id": 20753,
+        "Name": "In a Large Tree Home #20753",
+        "Connections": {
+          "South": 20752,
+          "Down": 20754
+        }
+      },
+      {
+        "Id": 20754,
+        "Name": "In a Large Tree Home #20754",
+        "Connections": {
+          "Up": 20753,
+          "Down": 20755
+        }
+      },
+      {
+        "Id": 20755,
+        "Name": "In a Large Tree Home #20755",
+        "Connections": {
+          "Up": 20754
+        },
+        "Contents": [
+          {
+            "Text": "A small elven child #20761",
+            "Color": "green"
+          },
+          {
+            "Text": "A male elf #20758",
+            "Color": "green"
+          },
+          {
+            "Text": "A female elf #20759",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20756,
+        "Name": "A Short, Sturdy Branch #20756",
+        "Connections": {
+          "East": 20757,
+          "Down": 20751
+        }
+      },
+      {
+        "Id": 20757,
+        "Name": "A Short, Sturdy Branch #20757",
+        "Connections": {
+          "East": 20758,
+          "West": 20756
+        },
+        "Contents": [
+          {
+            "Text": "A small elven child #20761",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20758,
+        "Name": "Inside a Community Tree #20758",
+        "Connections": {
+          "West": 20757,
+          "Up": 20761,
+          "Down": 20759
+        },
+        "Contents": [
+          {
+            "Text": "An elven Wardancer #20778",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20759,
+        "Name": "Above the Meeting Hall #20759",
+        "Connections": {
+          "East": 20781,
+          "South": 20768,
+          "Up": 20758,
+          "Down": 20760
+        },
+        "Contents": [
+          {
+            "Text": "A female elf #20759",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20760,
+        "Name": "Grand Meeting Hall #20760",
+        "Connections": {
+          "Up": 20759
+        },
+        "Contents": [
+          {
+            "Text": "Torwyn Bloodstone #20754",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20761,
+        "Name": "Elven Marketplace #20761",
+        "Connections": {
+          "Up": 20762,
+          "Down": 20758
+        },
+        "Contents": [
+          {
+            "Text": "A small elven child #20762",
+            "Color": "green"
+          },
+          {
+            "Text": "An elven Wardancer #20778",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20762,
+        "Name": "Elven Marketplace #20762",
+        "Connections": {
+          "East": 20764,
+          "Up": 20763,
+          "Down": 20761
+        },
+        "Contents": [
+          {
+            "Text": "The Elven merchant #20756",
+            "Color": "green"
+          },
+          {
+            "Text": "A male elf #20758",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20763,
+        "Name": "Elven Marketplace #20763",
+        "Connections": {
+          "Down": 20762
+        },
+        "Contents": [
+          {
+            "Text": "The Elven armorer #20757",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20764,
+        "Name": "On a Large Tree Branch #20764",
+        "Connections": {
+          "East": 20815,
+          "West": 20762
+        },
+        "Contents": [
+          {
+            "Text": "A small elven child #20762",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20765,
+        "Name": "On a Large Tree Branch #20765",
+        "Connections": {
+          "East": 20766,
+          "West": 20815,
+          "Up": 20792
+        }
+      },
+      {
+        "Id": 20766,
+        "Name": "On a Large Tree Branch #20766",
+        "Connections": {
+          "East": 20767,
+          "West": 20765,
+          "Down": 20771
+        },
+        "Contents": [
+          {
+            "Text": "A small elven child #20761",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20767,
+        "Name": "On a Large Tree Branch #20767",
+        "Connections": {
+          "East": 20790,
+          "West": 20766
+        },
+        "Contents": [
+          {
+            "Text": "An elven Wardancer #20778",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20768,
+        "Name": "A Short, Sturdy Branch #20768",
+        "Connections": {
+          "North": 20759,
+          "South": 20769
+        }
+      },
+      {
+        "Id": 20769,
+        "Name": "A Short, Sturdy Branch #20769",
+        "Connections": {
+          "North": 20768,
+          "South": 20772,
+          "Down": 20770
+        },
+        "Contents": [
+          {
+            "Text": "A female elf #20759",
+            "Color": "green"
+          },
+          {
+            "Text": "An elven Wardancer #20778",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20770,
+        "Name": "A Short, Sturdy Branch #20770",
+        "Connections": {
+          "North": 20805,
+          "South": 20774,
+          "Up": 20769
+        }
+      },
+      {
+        "Id": 20771,
+        "Name": "A Short, Sturdy Branch #20771",
+        "Connections": {
+          "South": 20775,
+          "Up": 20766
+        }
+      },
+      {
+        "Id": 20772,
+        "Name": "In a Large Tree Home #20772",
+        "Connections": {
+          "North": 20769,
+          "Up": 20773
+        }
+      },
+      {
+        "Id": 20773,
+        "Name": "In a Large Tree Home #20773",
+        "Connections": {
+          "Down": 20772
+        },
+        "Contents": [
+          {
+            "Text": "A female elf #20759",
+            "Color": "green"
+          },
+          {
+            "Text": "A small elven child #20762",
+            "Color": "green"
+          },
+          {
+            "Text": "A small elven child #20761",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20774,
+        "Name": "Temple of the Sun #20774",
+        "Connections": {
+          "North": 20770
+        },
+        "Contents": [
+          {
+            "Text": "Nindel T\u0027elnorn #20749",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20775,
+        "Name": "Temple of the Moon #20775",
+        "Connections": {
+          "North": 20771,
+          "South": 20777
+        },
+        "Contents": [
+          {
+            "Text": "Elemir Til\u0027Giras #20750",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20776,
+        "Name": "Temple of the Stars #20776",
+        "Connections": {
+          "East": 20777
+        },
+        "Contents": [
+          {
+            "Text": "Legandir Eveningstar #20747",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20777,
+        "Name": "A Short, Sturdy Branch #20777",
+        "Connections": {
+          "North": 20775,
+          "West": 20776,
+          "Down": 20788
+        }
+      },
+      {
+        "Id": 20778,
+        "Name": "Shadowdancers guild #20778",
+        "Connections": {
+          "North": 20812,
+          "South": 20803
+        },
+        "Contents": [
+          {
+            "Text": "An elven shadowdancer #20764",
+            "Color": "red"
+          },
+          {
+            "Text": "An elven shadowdancer #20765",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20779,
+        "Name": "Stoneweavers guild #20779",
+        "Connections": {
+          "North": 20788,
+          "South": 20819
+        },
+        "Contents": [
+          {
+            "Text": "A male elf stoneweaver #20773",
+            "Color": "red"
+          },
+          {
+            "Text": "A female elf stoneweaver #20774",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20780,
+        "Name": "Treeshapers guild #20780",
+        "Connections": {
+          "West": 20816
+        },
+        "Contents": [
+          {
+            "Text": "Thrawyn Silverstaff #20748",
+            "Color": "green"
+          },
+          {
+            "Text": "A male elf treeshaper #20771",
+            "Color": "red"
+          },
+          {
+            "Text": "Thrawyn\u0027s guard #20760",
+            "Color": "red"
+          },
+          {
+            "Text": "Thrawyn\u0027s guard #20760",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20781,
+        "Name": "Wardancers guild #20781",
+        "Connections": {
+          "West": 20759
+        },
+        "Contents": [
+          {
+            "Text": "An elven Wardancer #20778",
+            "Color": "red"
+          },
+          {
+            "Text": "An elven Wardancer #20778",
+            "Color": "red"
+          },
+          {
+            "Text": "Shallessa Der\u0027Desseau #20767",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20782,
+        "Name": "Bladesingers guild #20782",
+        "Connections": {
+          "North": 20813,
+          "South": 20815
+        },
+        "Contents": [
+          {
+            "Text": "A bladesinger initiate #20769",
+            "Color": "red"
+          },
+          {
+            "Text": "A bladesinger initiate #20769",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20783,
+        "Name": "Kil\u0027Ron Mor Pen #20783",
+        "Connections": {
+          "North": 20808,
+          "South": 20784,
+          "West": 20787
+        },
+        "Contents": [
+          {
+            "Text": "A white Kil\u0027Ron Mor #20776",
+            "Color": "green"
+          },
+          {
+            "Text": "A red Kil\u0027Ron Mor #20777",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20784,
+        "Name": "Kil\u0027Ron Mor Pen #20784",
+        "Connections": {
+          "North": 20783,
+          "East": 20785,
+          "West": 20786
+        },
+        "Contents": [
+          {
+            "Text": "A black Kil\u0027Ron Mor #20775",
+            "Color": "green"
+          },
+          {
+            "Text": "A white Kil\u0027Ron Mor #20776",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20785,
+        "Name": "Kil\u0027Ron Mor Pen #20785",
+        "Connections": {
+          "West": 20784
+        },
+        "Contents": [
+          {
+            "Text": "A red Kil\u0027Ron Mor #20777",
+            "Color": "green"
+          },
+          {
+            "Text": "A red Kil\u0027Ron Mor #20777",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20786,
+        "Name": "Kil\u0027Ron Mor Pen #20786",
+        "Connections": {
+          "North": 20787,
+          "East": 20784
+        },
+        "Contents": [
+          {
+            "Text": "Tinewen Snowraven #20752",
+            "Color": "red"
+          },
+          {
+            "Text": "A black Kil\u0027Ron Mor #20775",
+            "Color": "green"
+          },
+          {
+            "Text": "A red Kil\u0027Ron Mor #20777",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20787,
+        "Name": "Kil\u0027Ron Mor Pen #20787",
+        "Connections": {
+          "East": 20783,
+          "South": 20786
+        },
+        "Contents": [
+          {
+            "Text": "A red Kil\u0027Ron Mor #20777",
+            "Color": "green"
+          },
+          {
+            "Text": "A red Kil\u0027Ron Mor #20777",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20788,
+        "Name": "A Short, Sturdy Branch #20788",
+        "Connections": {
+          "North": 20804,
+          "South": 20779
+        }
+      },
+      {
+        "Id": 20789,
+        "Name": "In a Large Tree Home #20789",
+        "Connections": {
+          "Up": 20790
+        }
+      },
+      {
+        "Id": 20790,
+        "Name": "In a Large Tree Home #20790",
+        "Connections": {
+          "West": 20767,
+          "Down": 20789
+        },
+        "Contents": [
+          {
+            "Text": "A male elf #20758",
+            "Color": "green"
+          },
+          {
+            "Text": "A small elven child #20761",
+            "Color": "green"
+          },
+          {
+            "Text": "A female elf #20759",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20791,
+        "Name": "Temple of the Sky #20791",
+        "Connections": {
+          "South": 20793
+        },
+        "Contents": [
+          {
+            "Text": "Elruwen Til\u0027Giras #20751",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20792,
+        "Name": "On a Large Tree Branch #20792",
+        "Connections": {
+          "North": 20793,
+          "South": 20794,
+          "Down": 20765
+        },
+        "Contents": [
+          {
+            "Text": "An elven Wardancer #20778",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20793,
+        "Name": "On a Large Tree Branch #20793",
+        "Connections": {
+          "North": 20791,
+          "South": 20792
+        },
+        "Contents": [
+          {
+            "Text": "An elven Wardancer #20778",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20794,
+        "Name": "On a Large Tree Branch #20794",
+        "Connections": {
+          "North": 20792,
+          "South": 20795
+        },
+        "Contents": [
+          {
+            "Text": "A small elven child #20761",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20795,
+        "Name": "On a Large Tree Branch #20795",
+        "Connections": {
+          "North": 20794,
+          "South": 20796
+        },
+        "Contents": [
+          {
+            "Text": "An elven Wardancer #20778",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20796,
+        "Name": "In a Large Tree Home #20796",
+        "Connections": {
+          "North": 20795,
+          "Down": 20798
+        }
+      },
+      {
+        "Id": 20797,
+        "Name": "In a Large Tree Home #20797",
+        "Connections": {
+          "Up": 20796
+        }
+      },
+      {
+        "Id": 20798,
+        "Name": "In a Large Tree Home #20798",
+        "Connections": {
+          "Up": 20796,
+          "Down": 20799
+        }
+      },
+      {
+        "Id": 20799,
+        "Name": "In a Large Tree Home #20799",
+        "Connections": {
+          "Up": 20798
+        }
+      },
+      {
+        "Id": 20800,
+        "Name": "A Short, Sturdy Branch #20800",
+        "Connections": {
+          "North": 20801,
+          "Up": 20805
+        }
+      },
+      {
+        "Id": 20801,
+        "Name": "A Short, Sturdy Branch #20801",
+        "Connections": {
+          "North": 20802,
+          "South": 20800,
+          "Down": 20804
+        },
+        "Contents": [
+          {
+            "Text": "An elven Wardancer #20778",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20802,
+        "Name": "Crossing Branches #20802",
+        "Connections": {
+          "South": 20801,
+          "Up": 20803
+        },
+        "Contents": [
+          {
+            "Text": "An elven Wardancer #20778",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20803,
+        "Name": "A Dead End #20803",
+        "Connections": {
+          "North": 20778,
+          "Down": 20802
+        }
+      },
+      {
+        "Id": 20804,
+        "Name": "A Short, Sturdy Branch #20804",
+        "Connections": {
+          "South": 20788,
+          "West": 20806,
+          "Up": 20801
+        }
+      },
+      {
+        "Id": 20805,
+        "Name": "A Short, Sturdy Branch #20805",
+        "Connections": {
+          "South": 20770,
+          "Down": 20800
+        },
+        "Contents": [
+          {
+            "Text": "An elven Wardancer #20778",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20806,
+        "Name": "A Short, Sturdy Branch #20806",
+        "Connections": {
+          "East": 20804,
+          "Down": 20807
+        }
+      },
+      {
+        "Id": 20807,
+        "Name": "The Forest Floor #20807",
+        "Connections": {
+          "South": 20808,
+          "Up": 20806
+        }
+      },
+      {
+        "Id": 20808,
+        "Name": "Small Trail #20808",
+        "Connections": {
+          "North": 20807,
+          "South": 20783
+        }
+      },
+      {
+        "Id": 20809,
+        "Name": "Laera\u0027s Sanctuary #20809",
+        "Connections": {
+          "Up": 20811
+        },
+        "Contents": [
+          {
+            "Text": "Laera Shadowsong #20763",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20810,
+        "Name": "Sleeping Quarters #20810",
+        "Connections": {
+          "East": 20811
+        },
+        "Contents": [
+          {
+            "Text": "An elven shadowdancer #20764",
+            "Color": "red"
+          },
+          {
+            "Text": "An elven shadowdancer #20765",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20811,
+        "Name": "Halls of the Shadowdancers #20811",
+        "Connections": {
+          "South": 20812,
+          "West": 20810,
+          "Down": 20809
+        },
+        "Contents": [
+          {
+            "Text": "An elven shadowdancer #20764",
+            "Color": "red"
+          },
+          {
+            "Text": "An elven shadowdancer #20765",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20812,
+        "Name": "Halls of the Shadowdancers #20812",
+        "Connections": {
+          "North": 20811,
+          "South": 20778
+        },
+        "Contents": [
+          {
+            "Text": "An elven shadowdancer #20764",
+            "Color": "red"
+          },
+          {
+            "Text": "An elven shadowdancer #20765",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20813,
+        "Name": "Bladesingers guild #20813",
+        "Connections": {
+          "North": 20814,
+          "South": 20782
+        },
+        "Contents": [
+          {
+            "Text": "A bladesinger initiate #20769",
+            "Color": "red"
+          },
+          {
+            "Text": "A bladesinger initiate #20769",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20814,
+        "Name": "Bladesingers guild #20814",
+        "Connections": {
+          "South": 20813
+        },
+        "Contents": [
+          {
+            "Text": "Koevar Hlae\u0027Athem, Master Bladesinger #20766",
+            "Color": "red"
+          },
+          {
+            "Text": "An advanced bladesinger #20770",
+            "Color": "red"
+          },
+          {
+            "Text": "An advanced bladesinger #20770",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20815,
+        "Name": "Crossing Branches #20815",
+        "Connections": {
+          "North": 20782,
+          "East": 20765,
+          "South": 20818,
+          "West": 20764
+        },
+        "Contents": [
+          {
+            "Text": "An elven Wardancer #20778",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20816,
+        "Name": "Treeshapers guild #20816",
+        "Connections": {
+          "North": 20817,
+          "East": 20780
+        },
+        "Contents": [
+          {
+            "Text": "A female elf Treeshaper #20772",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20817,
+        "Name": "Treeshapers guild #20817",
+        "Connections": {
+          "East": 20818,
+          "South": 20816
+        },
+        "Contents": [
+          {
+            "Text": "A female elf Treeshaper #20772",
+            "Color": "red"
+          },
+          {
+            "Text": "A male elf treeshaper #20771",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20818,
+        "Name": "Treeshapers guild #20818",
+        "Connections": {
+          "North": 20815,
+          "West": 20817
+        },
+        "Contents": [
+          {
+            "Text": "A male elf treeshaper #20771",
+            "Color": "red"
+          },
+          {
+            "Text": "A female elf Treeshaper #20772",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20819,
+        "Name": "Stoneweavers guild #20819",
+        "Connections": {
+          "North": 20779,
+          "East": 20821,
+          "West": 20820
+        },
+        "Contents": [
+          {
+            "Text": "A male elf stoneweaver #20773",
+            "Color": "red"
+          },
+          {
+            "Text": "A female elf stoneweaver #20774",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20820,
+        "Name": "Stoneweavers guild #20820",
+        "Connections": {
+          "East": 20819
+        },
+        "Contents": [
+          {
+            "Text": "A male elf stoneweaver #20773",
+            "Color": "red"
+          },
+          {
+            "Text": "A female elf stoneweaver #20774",
+            "Color": "red"
+          },
+          {
+            "Text": "A female elf stoneweaver #20774",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20821,
+        "Name": "Stoneweavers guild #20821",
+        "Connections": {
+          "West": 20819
+        },
+        "Contents": [
+          {
+            "Text": "Celendril N\u0027ahlor #20753",
+            "Color": "green"
+          },
+          {
+            "Text": "A male elf stoneweaver #20773",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8561,
+        "FrameColor": "blue",
+        "Name": "To QuelSithForest #8561",
+        "Color": "blue",
+        "Connections": {
+          "East": 20745,
+          "South": 8562,
+          "West": 8558
+        }
+      }
+    ]
+  }
+}

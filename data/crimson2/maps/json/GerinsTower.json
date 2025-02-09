@@ -1,0 +1,1006 @@
+{
+  "Area": {
+    "Name": "GerinsTower",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 1500,
+        "Name": "Inside Gerin\u0027s Tower #1500",
+        "Connections": {
+          "North": 1501,
+          "South": 1496
+        },
+        "Contents": [
+          {
+            "Text": "a roach #1511",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1501,
+        "Name": "The Foyer #1501",
+        "Connections": {
+          "North": 1502,
+          "East": 1504,
+          "South": 1500,
+          "West": 1503
+        },
+        "Contents": [
+          {
+            "Text": "a roach #1511",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1502,
+        "Name": "First Floor landing #1502",
+        "Connections": {
+          "East": 1506,
+          "South": 1501,
+          "West": 1553
+        }
+      },
+      {
+        "Id": 1503,
+        "Name": "Servant\u0027s Concourse #1503",
+        "Connections": {
+          "North": 1540,
+          "East": 1501,
+          "West": 1537
+        }
+      },
+      {
+        "Id": 1504,
+        "Name": "The Guest\u0027s Concourse #1504",
+        "Connections": {
+          "North": 1560,
+          "East": 1558,
+          "West": 1501
+        }
+      },
+      {
+        "Id": 1505,
+        "Name": "The Spiral #1505",
+        "Connections": {
+          "North": 1507,
+          "South": 1506
+        }
+      },
+      {
+        "Id": 1506,
+        "Name": "First Floor Spiral #1506",
+        "Connections": {
+          "North": 1505,
+          "West": 1502
+        }
+      },
+      {
+        "Id": 1507,
+        "Name": "Second Floor Spiral #1507",
+        "Connections": {
+          "South": 1505,
+          "West": 1508
+        },
+        "Contents": [
+          {
+            "Text": "a Dark Dweller #1500",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1508,
+        "Name": "Second Floor #1508",
+        "Connections": {
+          "North": 1546,
+          "East": 1507,
+          "West": 1510
+        }
+      },
+      {
+        "Id": 1509,
+        "Name": "Falling Down the Main Shaft of Gerin\u0027s Tower #1509",
+        "Connections": {}
+      },
+      {
+        "Id": 1510,
+        "Name": "Second Floor Spiral #1510",
+        "Connections": {
+          "East": 1508,
+          "South": 1511
+        }
+      },
+      {
+        "Id": 1511,
+        "Name": "The Spiral #1511",
+        "Connections": {
+          "North": 1510,
+          "East": 1509,
+          "South": 1512
+        }
+      },
+      {
+        "Id": 1512,
+        "Name": "Third Floor Spiral #1512",
+        "Connections": {
+          "North": 1511,
+          "East": 1513
+        }
+      },
+      {
+        "Id": 1513,
+        "Name": "Third Floor #1513",
+        "Connections": {
+          "East": 1514,
+          "South": 1532,
+          "West": 1512
+        }
+      },
+      {
+        "Id": 1514,
+        "Name": "Third Floor Spiral #1514",
+        "Connections": {
+          "North": 1515,
+          "West": 1513
+        }
+      },
+      {
+        "Id": 1515,
+        "Name": "The Spiral #1515",
+        "Connections": {
+          "North": 1516,
+          "South": 1514,
+          "West": 1509
+        },
+        "Contents": [
+          {
+            "Text": "a Dark Dweller #1500",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1516,
+        "Name": "Fourth Floor Spiral #1516",
+        "Connections": {
+          "South": 1515,
+          "West": 1517
+        }
+      },
+      {
+        "Id": 1517,
+        "Name": "Fourth Floor #1517",
+        "Connections": {
+          "North": {
+            "RoomId": 1525,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 1516,
+          "West": 1518
+        }
+      },
+      {
+        "Id": 1518,
+        "Name": "Fourth Floor Spiral #1518",
+        "Connections": {
+          "East": 1517,
+          "South": 1519
+        },
+        "Contents": [
+          {
+            "Text": "a wolf-spider #1510",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1519,
+        "Name": "The Spiral #1519",
+        "Connections": {
+          "North": 1518,
+          "East": 1509,
+          "South": 1520
+        }
+      },
+      {
+        "Id": 1520,
+        "Name": "Fifth Floor Spiral #1520",
+        "Connections": {
+          "North": 1519,
+          "East": 1521
+        }
+      },
+      {
+        "Id": 1521,
+        "Name": "Fifth Floor #1521",
+        "Connections": {
+          "East": 1522,
+          "South": {
+            "RoomId": 1541,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 1520
+        }
+      },
+      {
+        "Id": 1522,
+        "Name": "Fifth Floor Spiral #1522",
+        "Connections": {
+          "North": 1523,
+          "West": 1521
+        },
+        "Contents": [
+          {
+            "Text": "a Dark Dweller #1500",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1523,
+        "Name": "The Spiral #1523",
+        "Connections": {
+          "North": 1524,
+          "South": 1522
+        },
+        "Contents": [
+          {
+            "Text": "a wolf-spider #1510",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1524,
+        "Name": "Sixth Floor Spiral #1524",
+        "Connections": {
+          "South": 1523,
+          "West": 1556
+        }
+      },
+      {
+        "Id": 1525,
+        "Name": "Apprentices\u0027 Dormitory #1525",
+        "Connections": {
+          "North": 1528,
+          "East": 1526,
+          "South": 1517,
+          "West": 1527
+        }
+      },
+      {
+        "Id": 1526,
+        "Name": "Apprentice\u0027s Chamber #1526",
+        "Connections": {
+          "West": 1525
+        },
+        "Contents": [
+          {
+            "Text": "Gromen #1501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1527,
+        "Name": "Apprentice\u0027s Chamber #1527",
+        "Connections": {
+          "East": 1525
+        },
+        "Contents": [
+          {
+            "Text": "Ziljus #1502",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1528,
+        "Name": "Apprentices\u0027 Dormitory #1528",
+        "Connections": {
+          "North": 1530,
+          "East": 1529,
+          "South": 1525
+        }
+      },
+      {
+        "Id": 1529,
+        "Name": "Apprentice\u0027s Chamber #1529",
+        "Connections": {
+          "West": 1528
+        },
+        "Contents": [
+          {
+            "Text": "Tester #1503",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1530,
+        "Name": "Apprentices\u0027 Dormitory #1530",
+        "Connections": {
+          "South": 1528,
+          "West": {
+            "RoomId": 1531,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 1531,
+        "Name": "Junior Apprentice Laboratory #1531",
+        "Connections": {
+          "East": 1530
+        }
+      },
+      {
+        "Id": 1532,
+        "Name": "Library Entrance #1532",
+        "Connections": {
+          "North": 1513,
+          "South": 1533
+        }
+      },
+      {
+        "Id": 1533,
+        "Name": "Grand Study #1533",
+        "Connections": {
+          "North": 1532,
+          "East": 1534,
+          "South": 1536,
+          "West": 1535
+        }
+      },
+      {
+        "Id": 1534,
+        "Name": "East wing of the Library #1534",
+        "Connections": {
+          "West": 1533
+        }
+      },
+      {
+        "Id": 1535,
+        "Name": "West wing of the Library #1535",
+        "Connections": {
+          "East": 1533
+        },
+        "Contents": [
+          {
+            "Text": "Nezryn Illvar #1504",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1536,
+        "Name": "South wing of the Library #1536",
+        "Connections": {
+          "North": 1533
+        }
+      },
+      {
+        "Id": 1537,
+        "Name": "Servant\u0027s Concourse #1537",
+        "Connections": {
+          "North": 1538,
+          "East": 1503,
+          "West": 1545
+        }
+      },
+      {
+        "Id": 1538,
+        "Name": "Sevant\u0027s Quarters #1538",
+        "Connections": {
+          "North": 1539,
+          "East": 1540,
+          "South": 1537
+        }
+      },
+      {
+        "Id": 1539,
+        "Name": "Shower #1539",
+        "Connections": {
+          "South": 1538
+        },
+        "Contents": [
+          {
+            "Text": "Masa\u0027Shing #1505",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1540,
+        "Name": "Servant\u0027s Quarters #1540",
+        "Connections": {
+          "South": 1503,
+          "West": 1538
+        }
+      },
+      {
+        "Id": 1541,
+        "Name": "Hall of the Senior Apprentice #1541",
+        "Connections": {
+          "North": 1521,
+          "East": 1542,
+          "South": {
+            "RoomId": 1544,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 1543,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 1542,
+        "Name": "Study of the Senior Apprentice #1542",
+        "Connections": {
+          "West": 1541
+        }
+      },
+      {
+        "Id": 1543,
+        "Name": "Room of the Senior Apprentice #1543",
+        "Connections": {
+          "East": 1541
+        },
+        "Contents": [
+          {
+            "Text": "Mathias #1506",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1544,
+        "Name": "Senior Laboratory #1544",
+        "Connections": {
+          "North": 1541
+        }
+      },
+      {
+        "Id": 1545,
+        "Name": "Televator #1545",
+        "Connections": {
+          "East": 1548
+        }
+      },
+      {
+        "Id": 1546,
+        "Name": "Dining Hall #1546",
+        "Connections": {
+          "North": 1547,
+          "East": 1551,
+          "South": 1508
+        }
+      },
+      {
+        "Id": 1547,
+        "Name": "Dining Room #1547",
+        "Connections": {
+          "East": 1551,
+          "South": 1546,
+          "West": 1548
+        }
+      },
+      {
+        "Id": 1548,
+        "Name": "Kitchen #1548",
+        "Connections": {
+          "East": 1547,
+          "South": 1550,
+          "West": 1549
+        },
+        "Contents": [
+          {
+            "Text": "a roach #1511",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1549,
+        "Name": "Televator #1549",
+        "Connections": {
+          "East": 1537
+        }
+      },
+      {
+        "Id": 1550,
+        "Name": "Chef\u0027s Room #1550",
+        "Connections": {
+          "North": 1548
+        },
+        "Contents": [
+          {
+            "Text": "the Swedish Chef #1507",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1551,
+        "Name": "Theater #1551",
+        "Connections": {
+          "East": 1552,
+          "South": 1546,
+          "West": 1547
+        }
+      },
+      {
+        "Id": 1552,
+        "Name": "The Green Room #1552",
+        "Connections": {
+          "West": 1551
+        }
+      },
+      {
+        "Id": 1553,
+        "Name": "Hallway #1553",
+        "Connections": {
+          "North": 1430,
+          "East": 1502,
+          "West": 1554
+        }
+      },
+      {
+        "Id": 1554,
+        "Name": "Televator to the 6th floor #1554",
+        "Connections": {
+          "North": 1583,
+          "East": 1556
+        }
+      },
+      {
+        "Id": 1555,
+        "Name": "Televator to the 1st floor #1555",
+        "Connections": {
+          "East": 1553
+        }
+      },
+      {
+        "Id": 1556,
+        "Name": "Sixth Floor #1556",
+        "Connections": {
+          "North": 1557,
+          "East": 1524,
+          "South": 1574,
+          "West": 1555
+        }
+      },
+      {
+        "Id": 1557,
+        "Name": "Hallway to the Second Spiral #1557",
+        "Connections": {
+          "North": {
+            "RoomId": 1561,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 1556
+        },
+        "Contents": [
+          {
+            "Text": "a Wood Golem #1508",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1558,
+        "Name": "The Guest\u0027s Concourse #1558",
+        "Connections": {
+          "North": 1559,
+          "West": 1504
+        }
+      },
+      {
+        "Id": 1559,
+        "Name": "Guest Room #1559",
+        "Connections": {
+          "South": 1558
+        }
+      },
+      {
+        "Id": 1560,
+        "Name": "Guest Room #1560",
+        "Connections": {
+          "South": 1504
+        }
+      },
+      {
+        "Id": 1561,
+        "Name": "Beginning of the Second Spiral #1561",
+        "Connections": {
+          "East": 1562,
+          "South": 1557,
+          "West": 1570
+        }
+      },
+      {
+        "Id": 1562,
+        "Name": "Upper-Tower Spiral #1562",
+        "Connections": {
+          "North": 1563,
+          "West": 1561
+        }
+      },
+      {
+        "Id": 1563,
+        "Name": "Upper-Tower Spiral #1563",
+        "Connections": {
+          "South": 1562,
+          "West": 1564
+        },
+        "Contents": [
+          {
+            "Text": "a wolf-spider #1510",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1564,
+        "Name": "Upper-Tower Spiral #1564",
+        "Connections": {
+          "East": 1563,
+          "South": 1565
+        }
+      },
+      {
+        "Id": 1565,
+        "Name": "Upper-Tower Spiral #1565",
+        "Connections": {
+          "North": 1564,
+          "East": 1566
+        }
+      },
+      {
+        "Id": 1566,
+        "Name": "Upper-Tower Spiral #1566",
+        "Connections": {
+          "North": 1567,
+          "West": 1565
+        }
+      },
+      {
+        "Id": 1567,
+        "Name": "High Up in Gerin\u0027s Tower #1567",
+        "Connections": {
+          "South": 1566,
+          "West": 1568
+        }
+      },
+      {
+        "Id": 1568,
+        "Name": "High Up in Gerin\u0027s Tower #1568",
+        "Connections": {
+          "North": {
+            "RoomId": 1569,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 1567
+        },
+        "Contents": [
+          {
+            "Text": "a Stone Golem #1509",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1569,
+        "Name": "Chambers of Old Mage Gerin #1569",
+        "Connections": {
+          "North": 1582,
+          "South": 1568
+        }
+      },
+      {
+        "Id": 1570,
+        "Name": "An Old Hallway #1570",
+        "Connections": {
+          "North": 1571,
+          "East": 1561
+        },
+        "Contents": [
+          {
+            "Text": "a wolf-spider #1510",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1571,
+        "Name": "An Old Hallway #1571",
+        "Connections": {
+          "North": 1572,
+          "South": 1570
+        },
+        "Contents": [
+          {
+            "Text": "a roach #1511",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1572,
+        "Name": "An Old Hallway #1572",
+        "Connections": {
+          "North": {
+            "RoomId": 1573,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 1571
+        }
+      },
+      {
+        "Id": 1573,
+        "Name": "Desdemona\u0027s Room #1573",
+        "Connections": {
+          "South": 1572
+        },
+        "Contents": [
+          {
+            "Text": "the wraith of Desdemona #1512",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1574,
+        "Name": "On the Bridge of Faith #1574",
+        "Connections": {
+          "North": 1556,
+          "Up": 1575
+        }
+      },
+      {
+        "Id": 1575,
+        "Name": "In a Secret Shaft #1575",
+        "Connections": {
+          "Up": 1576,
+          "Down": 1574
+        }
+      },
+      {
+        "Id": 1576,
+        "Name": "Room of Riddles #1576",
+        "Connections": {
+          "North": {
+            "RoomId": 1577,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 1575
+        }
+      },
+      {
+        "Id": 1577,
+        "Name": "Room of Dark Secrets #1577",
+        "Connections": {
+          "North": 1578,
+          "South": 1576,
+          "West": 1579
+        }
+      },
+      {
+        "Id": 1578,
+        "Name": "A Secret Hall #1578",
+        "Connections": {
+          "North": 1580,
+          "South": 1577
+        }
+      },
+      {
+        "Id": 1579,
+        "Name": "The Chamber of Nezryn Illvar #1579",
+        "Connections": {
+          "East": 1577
+        },
+        "Contents": [
+          {
+            "Text": "a goldbug #1515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1580,
+        "Name": "A Secret Hall #1580",
+        "Connections": {
+          "North": {
+            "RoomId": 1581,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 1578
+        }
+      },
+      {
+        "Id": 1581,
+        "Name": "Gerin\u0027s Secret Laboratory #1581",
+        "Connections": {
+          "North": {
+            "RoomId": 1590,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 1580
+        }
+      },
+      {
+        "Id": 1582,
+        "Name": "Chambers of Old Mage Gerin #1582",
+        "Connections": {
+          "North": 1587,
+          "East": 1585,
+          "South": 1569,
+          "West": {
+            "RoomId": 1588,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 1583,
+        "Name": "A Secret Place #1583",
+        "Connections": {
+          "South": 1518,
+          "West": 1584
+        }
+      },
+      {
+        "Id": 1584,
+        "Name": "A Secret Place #1584",
+        "Connections": {
+          "East": 1583
+        },
+        "Contents": [
+          {
+            "Text": "a Rock Reaver #1513",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1585,
+        "Name": "Gerin\u0027s Private Library #1585",
+        "Connections": {
+          "North": 1586,
+          "West": 1582
+        }
+      },
+      {
+        "Id": 1586,
+        "Name": "Gerin\u0027s Study Room #1586",
+        "Connections": {
+          "South": 1585,
+          "West": 1587
+        }
+      },
+      {
+        "Id": 1587,
+        "Name": "Gerin\u0027s Laboratory #1587",
+        "Connections": {
+          "East": 1586,
+          "South": 1582
+        }
+      },
+      {
+        "Id": 1588,
+        "Name": "Room of Gerin #1588",
+        "Connections": {
+          "East": 1582,
+          "West": {
+            "RoomId": 1592,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 1591
+        },
+        "Contents": [
+          {
+            "Text": "a goldbug #1515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1589,
+        "Name": "Cryogenic Storage Chamber #1589",
+        "Connections": {
+          "East": 1591
+        },
+        "Contents": [
+          {
+            "Text": "Gerin #1514",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1590,
+        "Name": "Room of Lost Souls #1590",
+        "Connections": {}
+      },
+      {
+        "Id": 1591,
+        "Name": "A Small Room #1591",
+        "Connections": {
+          "North": 1590,
+          "West": 1589,
+          "Down": 1588
+        }
+      },
+      {
+        "Id": 1592,
+        "Name": "Treasure Room of Old Mage Gerin #1592",
+        "Connections": {
+          "East": 1588
+        }
+      },
+      {
+        "Id": 1496,
+        "FrameColor": "blue",
+        "Name": "To GerinsHill #1496",
+        "Color": "blue",
+        "Connections": {
+          "West": 1492
+        }
+      },
+      {
+        "Id": 1430,
+        "FrameColor": "blue",
+        "Name": "To GerinsHill #1430",
+        "Color": "blue",
+        "Connections": {
+          "North": 1431,
+          "East": 1433,
+          "South": 1459,
+          "West": 1437
+        }
+      }
+    ]
+  }
+}

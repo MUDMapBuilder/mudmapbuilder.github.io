@@ -1,0 +1,733 @@
+{
+  "Area": {
+    "Name": "DevilsDomain",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 20050,
+        "Name": "A temple hallway #20050",
+        "Connections": {
+          "South": 20051,
+          "Up": 20101
+        }
+      },
+      {
+        "Id": 20051,
+        "Name": "A temple hallway #20051",
+        "Connections": {
+          "North": 20050,
+          "South": 20052
+        }
+      },
+      {
+        "Id": 20052,
+        "Name": "A Grand cave #20052",
+        "Connections": {
+          "North": 20051,
+          "South": 20053
+        },
+        "Contents": [
+          {
+            "Text": "A living Statue #20055",
+            "Color": "green"
+          },
+          {
+            "Text": "A living Statue #20055",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20053,
+        "Name": "A damp cave #20053",
+        "Connections": {
+          "North": 20052,
+          "South": 20054
+        }
+      },
+      {
+        "Id": 20054,
+        "Name": "A damp cave #20054",
+        "Connections": {
+          "North": 20053,
+          "South": 20055
+        }
+      },
+      {
+        "Id": 20055,
+        "Name": "Dry land #20055",
+        "Connections": {
+          "North": 20054,
+          "Down": 20056
+        }
+      },
+      {
+        "Id": 20056,
+        "Name": "The Beginning #20056",
+        "Connections": {
+          "North": 20057,
+          "Up": 20055
+        }
+      },
+      {
+        "Id": 20057,
+        "Name": "Underwater cave #20057",
+        "Connections": {
+          "North": 20061,
+          "South": 20056
+        }
+      },
+      {
+        "Id": 20058,
+        "Name": "Beneath the surface #20058",
+        "Connections": {
+          "East": 20061
+        }
+      },
+      {
+        "Id": 20059,
+        "Name": "Beneath the surface #20059",
+        "Connections": {
+          "West": 20061
+        }
+      },
+      {
+        "Id": 20060,
+        "Name": "Beneath the surface #20060",
+        "Connections": {
+          "South": 20061
+        }
+      },
+      {
+        "Id": 20061,
+        "Name": "Beneath the surface #20061",
+        "Connections": {
+          "North": 20060,
+          "East": 20059,
+          "South": 20057,
+          "West": 20058,
+          "Up": 20074
+        },
+        "Contents": [
+          {
+            "Text": "The Devouring Deep #20052",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20062,
+        "Name": "shallow water #20062",
+        "Connections": {
+          "East": 20063,
+          "South": 20061
+        }
+      },
+      {
+        "Id": 20063,
+        "Name": "shallow water #20063",
+        "Connections": {
+          "East": 20064,
+          "South": 20070,
+          "West": 20062
+        }
+      },
+      {
+        "Id": 20064,
+        "Name": "Shallow water #20064",
+        "Connections": {
+          "North": 20111,
+          "East": 20065,
+          "South": 20069,
+          "West": 20063
+        }
+      },
+      {
+        "Id": 20065,
+        "Name": "Shallow water #20065",
+        "Connections": {
+          "East": 20066,
+          "South": 20068,
+          "West": 20064
+        }
+      },
+      {
+        "Id": 20066,
+        "Name": "Shallow water #20066",
+        "Connections": {
+          "South": 20067,
+          "West": 20065
+        }
+      },
+      {
+        "Id": 20067,
+        "Name": "Deep water #20067",
+        "Connections": {
+          "North": 20066,
+          "South": 20076,
+          "West": 20068
+        }
+      },
+      {
+        "Id": 20068,
+        "Name": "Deep water #20068",
+        "Connections": {
+          "North": 20065,
+          "East": 20067,
+          "South": 20075,
+          "West": 20069
+        }
+      },
+      {
+        "Id": 20069,
+        "Name": "Deep water #20069",
+        "Connections": {
+          "North": 20064,
+          "East": 20068,
+          "South": 20074,
+          "West": 20070
+        }
+      },
+      {
+        "Id": 20070,
+        "Name": "Deep water #20070",
+        "Connections": {
+          "North": 20063,
+          "East": 20069,
+          "South": 20073,
+          "West": 20071
+        }
+      },
+      {
+        "Id": 20071,
+        "Name": "Deep water #20071",
+        "Connections": {
+          "North": 20062,
+          "East": 20070,
+          "South": 20072
+        }
+      },
+      {
+        "Id": 20072,
+        "Name": "Deep water #20072",
+        "Connections": {
+          "North": 20071,
+          "East": 20073,
+          "South": 20077
+        }
+      },
+      {
+        "Id": 20073,
+        "Name": "Deep water #20073",
+        "Connections": {
+          "North": 20070,
+          "East": 20074,
+          "South": 20078,
+          "West": 20072
+        }
+      },
+      {
+        "Id": 20074,
+        "Name": "Deep water #20074",
+        "Connections": {
+          "North": 20069,
+          "East": 20075,
+          "South": 20081,
+          "West": 20073,
+          "Down": 20061
+        }
+      },
+      {
+        "Id": 20075,
+        "Name": "Deep water #20075",
+        "Connections": {
+          "North": 20068,
+          "East": 20076,
+          "South": 20080,
+          "West": 20074
+        }
+      },
+      {
+        "Id": 20076,
+        "Name": "Deep waters #20076",
+        "Connections": {
+          "North": 20067,
+          "South": 20079,
+          "West": 20075
+        }
+      },
+      {
+        "Id": 20077,
+        "Name": "Waters edge #20077",
+        "Connections": {
+          "North": 20072,
+          "East": 20078,
+          "South": 20082
+        }
+      },
+      {
+        "Id": 20078,
+        "Name": "Waters edge #20078",
+        "Connections": {
+          "North": 20073,
+          "East": 20081,
+          "South": 20083,
+          "West": 20077
+        }
+      },
+      {
+        "Id": 20079,
+        "Name": "Waters edge #20079",
+        "Connections": {
+          "North": 20076,
+          "South": 20084,
+          "West": 20080
+        }
+      },
+      {
+        "Id": 20080,
+        "Name": "Waters edge #20080",
+        "Connections": {
+          "North": 20075,
+          "East": 20079,
+          "South": 20085,
+          "West": 20081
+        }
+      },
+      {
+        "Id": 20081,
+        "Name": "Waters edge #20081",
+        "Connections": {
+          "North": 20074,
+          "East": 20080,
+          "South": 20086,
+          "West": 20078
+        }
+      },
+      {
+        "Id": 20082,
+        "Name": "A shore line #20082",
+        "Connections": {
+          "North": 20077,
+          "East": 20083
+        }
+      },
+      {
+        "Id": 20083,
+        "Name": "A shore line #20083",
+        "Connections": {
+          "North": 20078,
+          "East": 20086,
+          "West": 20082
+        }
+      },
+      {
+        "Id": 20084,
+        "Name": "Shore line #20084",
+        "Connections": {
+          "North": 20079,
+          "West": 20085
+        }
+      },
+      {
+        "Id": 20085,
+        "Name": "Shore line #20085",
+        "Connections": {
+          "North": 20080,
+          "East": 20084,
+          "West": 20086
+        }
+      },
+      {
+        "Id": 20086,
+        "Name": "A shore line #20086",
+        "Connections": {
+          "North": 20081,
+          "East": 20085,
+          "South": 20087,
+          "West": 20083
+        }
+      },
+      {
+        "Id": 20087,
+        "Name": "A large opening #20087",
+        "Connections": {
+          "North": 20086,
+          "South": 20088
+        },
+        "Contents": [
+          {
+            "Text": "A living wall #20057",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20088,
+        "Name": "A small tunnel #20088",
+        "Connections": {
+          "North": 20087,
+          "South": 20089
+        },
+        "Contents": [
+          {
+            "Text": "A living wall #20057",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20089,
+        "Name": "A small tunnel #20089",
+        "Connections": {
+          "North": 20088,
+          "South": 20095
+        }
+      },
+      {
+        "Id": 20090,
+        "Name": "Hidden cave #20090",
+        "Connections": {
+          "South": 20092
+        },
+        "Contents": [
+          {
+            "Text": "A stone giant #20058",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20091,
+        "Name": "Sacrificial pit #20091",
+        "Connections": {
+          "Up": 20092
+        },
+        "Contents": [
+          {
+            "Text": "A stone elemental #20056",
+            "Color": "red"
+          },
+          {
+            "Text": "A stone elemental #20056",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20092,
+        "Name": "Deadend #20092",
+        "Connections": {
+          "North": 20090,
+          "West": 20093,
+          "Down": 20091
+        }
+      },
+      {
+        "Id": 20093,
+        "Name": "The tunnel continues #20093",
+        "Connections": {
+          "East": 20092,
+          "West": 20094
+        },
+        "Contents": [
+          {
+            "Text": "A living wall #20057",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20094,
+        "Name": "The tunnel continues #20094",
+        "Connections": {
+          "East": 20093,
+          "West": 20095
+        }
+      },
+      {
+        "Id": 20095,
+        "Name": "A small tunnel #20095",
+        "Connections": {
+          "North": 20089,
+          "East": 20094,
+          "Up": 20096
+        },
+        "Contents": [
+          {
+            "Text": "A living wall #20057",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20096,
+        "Name": "A small tunnel #20096",
+        "Connections": {
+          "Up": 20097,
+          "Down": 20095
+        }
+      },
+      {
+        "Id": 20097,
+        "Name": "Cavern opening #20097",
+        "Connections": {
+          "South": 20098,
+          "Down": 20096
+        },
+        "Contents": [
+          {
+            "Text": "A living wall #20057",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20098,
+        "Name": "Small cavern #20098",
+        "Connections": {
+          "North": 20097,
+          "South": 20099
+        }
+      },
+      {
+        "Id": 20099,
+        "Name": "Small cavern #20099",
+        "Connections": {
+          "North": 20098,
+          "South": 20100
+        },
+        "Contents": [
+          {
+            "Text": "A living wall #20057",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20100,
+        "Name": "Large cavern #20100",
+        "Connections": {
+          "North": 20099,
+          "West": 1915
+        },
+        "Contents": [
+          {
+            "Text": "Grunger Telfor #20059",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20101,
+        "Name": "Temple foyer #20101",
+        "Connections": {
+          "North": 20106,
+          "East": 20104,
+          "South": 20108,
+          "West": 20102,
+          "Down": 20050
+        }
+      },
+      {
+        "Id": 20102,
+        "Name": "A temple hallway #20102",
+        "Connections": {
+          "North": 20103,
+          "East": 20101
+        }
+      },
+      {
+        "Id": 20103,
+        "Name": "Temple library #20103",
+        "Connections": {
+          "South": 20102
+        },
+        "Contents": [
+          {
+            "Text": "Temple guard #20053",
+            "Color": "red"
+          },
+          {
+            "Text": "Temple guard #20053",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20104,
+        "Name": "A temple hallway #20104",
+        "Connections": {
+          "North": 20105,
+          "West": 20101
+        }
+      },
+      {
+        "Id": 20105,
+        "Name": "The portal room #20105",
+        "Connections": {
+          "South": 20104
+        },
+        "Contents": [
+          {
+            "Text": "Temple priest #20054",
+            "Color": "red"
+          },
+          {
+            "Text": "Temple guard #20053",
+            "Color": "red"
+          },
+          {
+            "Text": "Temple guard #20053",
+            "Color": "red"
+          },
+          {
+            "Text": "Temple guard #20053",
+            "Color": "red"
+          },
+          {
+            "Text": "Temple guard #20053",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20106,
+        "Name": "Ritual room #20106",
+        "Connections": {
+          "North": 20107,
+          "South": 20101
+        },
+        "Contents": [
+          {
+            "Text": "A dark Priest #20051",
+            "Color": "red"
+          },
+          {
+            "Text": "Temple priest #20054",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20107,
+        "Name": "Summoning Room #20107",
+        "Connections": {
+          "South": 20106
+        },
+        "Contents": [
+          {
+            "Text": "Soulravage #20050",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20108,
+        "Name": "Temple Foyer #20108",
+        "Connections": {
+          "North": 20101,
+          "South": 20109
+        },
+        "Contents": [
+          {
+            "Text": "Temple guard #20053",
+            "Color": "red"
+          },
+          {
+            "Text": "Temple guard #20053",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20109,
+        "Name": "Temple foyer #20109",
+        "Connections": {
+          "North": 20108,
+          "South": 20110
+        }
+      },
+      {
+        "Id": 20110,
+        "Name": "Temple entrance #20110",
+        "Connections": {
+          "North": 20109,
+          "South": 20113
+        },
+        "Contents": [
+          {
+            "Text": "Temple guard #20053",
+            "Color": "red"
+          },
+          {
+            "Text": "Temple guard #20053",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20111,
+        "Name": "Dry land #20111",
+        "Connections": {
+          "North": 20112,
+          "South": 20064
+        }
+      },
+      {
+        "Id": 20112,
+        "Name": "A small pathway #20112",
+        "Connections": {
+          "North": 20113,
+          "South": 20111
+        }
+      },
+      {
+        "Id": 20113,
+        "Name": "Path before a temple #20113",
+        "Connections": {
+          "North": 20110,
+          "South": 20112
+        }
+      },
+      {
+        "Id": 20114,
+        "Name": "Li Mu Bai\u0027s sanctuary #20114",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "Jade Fox #20061",
+            "Color": "green"
+          },
+          {
+            "Text": "LiMuBai #20060",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20115,
+        "Name": "Hiding place #20115",
+        "Connections": {
+          "South": 20107
+        },
+        "Contents": [
+          {
+            "Text": "The Fallen Paladin #20063",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1915,
+        "FrameColor": "blue",
+        "Name": "To Dusk #1915",
+        "Color": "blue",
+        "Connections": {
+          "East": 20100,
+          "West": 1913
+        }
+      }
+    ]
+  }
+}

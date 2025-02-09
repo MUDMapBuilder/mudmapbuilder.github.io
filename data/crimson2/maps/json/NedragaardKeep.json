@@ -1,0 +1,1180 @@
+{
+  "Area": {
+    "Name": "NedragaardKeep",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 1200,
+        "Name": "The Depths of the Moat #1200",
+        "Connections": {
+          "Up": 1238
+        }
+      },
+      {
+        "Id": 1201,
+        "Name": "The Gnarled Drawbridge #1201",
+        "Connections": {
+          "North": 1206,
+          "East": 1202,
+          "Down": 1203
+        }
+      },
+      {
+        "Id": 1202,
+        "Name": "The Gnarled Drawbridge #1202",
+        "Connections": {
+          "North": 1206,
+          "East": 1252,
+          "West": 1201
+        }
+      },
+      {
+        "Id": 1203,
+        "Name": "In the Moat #1203",
+        "Connections": {
+          "East": 1204,
+          "West": 1238,
+          "Up": 1201
+        }
+      },
+      {
+        "Id": 1204,
+        "Name": "The haven of the killer eels. #1204",
+        "Connections": {
+          "East": 1205,
+          "West": 1203
+        }
+      },
+      {
+        "Id": 1205,
+        "Name": "The Treasure Room #1205",
+        "Connections": {
+          "West": 1204
+        },
+        "Contents": [
+          {
+            "Text": "a small bleeting goat #1200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1206,
+        "Name": "The Entry hall #1206",
+        "Connections": {
+          "North": 1207,
+          "South": 1202
+        }
+      },
+      {
+        "Id": 1207,
+        "Name": "The Great Hall #1207",
+        "Connections": {
+          "North": 1210,
+          "East": 1209,
+          "South": 1206,
+          "West": 1208
+        }
+      },
+      {
+        "Id": 1208,
+        "Name": "A Small Library #1208",
+        "Connections": {
+          "East": 1207
+        },
+        "Contents": [
+          {
+            "Text": "Zaccura the Librarian #1204",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1209,
+        "Name": "The Sword Room #1209",
+        "Connections": {
+          "West": 1207
+        },
+        "Contents": [
+          {
+            "Text": "Braim, the sword keeper #1201",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1210,
+        "Name": "The Great Hall #1210",
+        "Connections": {
+          "North": 1218,
+          "East": 1212,
+          "South": 1207,
+          "West": 1211
+        }
+      },
+      {
+        "Id": 1211,
+        "Name": "Turakah\u0027s Room #1211",
+        "Connections": {
+          "East": 1210
+        },
+        "Contents": [
+          {
+            "Text": "Turakah #1203",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1212,
+        "Name": "The Secret Escape #1212",
+        "Connections": {
+          "East": 1213,
+          "West": 1210
+        }
+      },
+      {
+        "Id": 1213,
+        "Name": "Along a Dusty Passage #1213",
+        "Connections": {
+          "North": 1220,
+          "East": 1214,
+          "West": 1212
+        }
+      },
+      {
+        "Id": 1214,
+        "Name": "A Turn in the Passage #1214",
+        "Connections": {
+          "South": 1215,
+          "West": 1213
+        }
+      },
+      {
+        "Id": 1215,
+        "Name": "The End of the Passage #1215",
+        "Connections": {
+          "North": 1214,
+          "East": {
+            "RoomId": 1216,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 1217,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 1216,
+        "Name": "A Cell #1216",
+        "Connections": {
+          "West": {
+            "RoomId": 1215,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A shade #1205",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1217,
+        "Name": "A Cell #1217",
+        "Connections": {}
+      },
+      {
+        "Id": 1218,
+        "Name": "North of the Great Hall #1218",
+        "Connections": {
+          "South": 1210,
+          "West": 1219
+        }
+      },
+      {
+        "Id": 1219,
+        "Name": "The Northern Hallway #1219",
+        "Connections": {
+          "North": {
+            "RoomId": 1235,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 1218,
+          "West": 1221
+        }
+      },
+      {
+        "Id": 1220,
+        "Name": "An Alcove #1220",
+        "Connections": {
+          "South": 1213
+        }
+      },
+      {
+        "Id": 1221,
+        "Name": "End of the Hallway #1221",
+        "Connections": {
+          "North": 1222,
+          "East": 1219,
+          "South": {
+            "RoomId": 1223,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 1222,
+        "Name": "Room of the Keymaster #1222",
+        "Connections": {
+          "South": 1221
+        },
+        "Contents": [
+          {
+            "Text": "The Keymaster #1206",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1223,
+        "Name": "Entrance to the Dungeon #1223",
+        "Connections": {
+          "North": {
+            "RoomId": 1221,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 1224,
+          "Down": 1225
+        }
+      },
+      {
+        "Id": 1224,
+        "Name": "The Guards Room #1224",
+        "Connections": {
+          "East": 1223
+        },
+        "Contents": [
+          {
+            "Text": "Thaan the dungeon guard #1207",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1225,
+        "Name": "The Dungeon #1225",
+        "Connections": {
+          "West": 1226,
+          "Up": 1223
+        }
+      },
+      {
+        "Id": 1226,
+        "Name": "The Dungeon #1226",
+        "Connections": {
+          "East": 1225,
+          "South": {
+            "RoomId": 1227,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 1228
+        }
+      },
+      {
+        "Id": 1227,
+        "Name": "A Cell #1227",
+        "Connections": {
+          "North": {
+            "RoomId": 1226,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 1228,
+        "Name": "The Dungeon #1228",
+        "Connections": {
+          "North": {
+            "RoomId": 1230,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 1226,
+          "South": {
+            "RoomId": 1229,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 1231
+        },
+        "Contents": [
+          {
+            "Text": "A dungeon rat #1208",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1229,
+        "Name": "A Cell #1229",
+        "Connections": {
+          "North": {
+            "RoomId": 1228,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 1230,
+        "Name": "A Cell #1230",
+        "Connections": {
+          "South": {
+            "RoomId": 1228,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 1231,
+        "Name": "The Dungeon #1231",
+        "Connections": {
+          "North": {
+            "RoomId": 1233,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 1228,
+          "South": {
+            "RoomId": 1232,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 1234
+        }
+      },
+      {
+        "Id": 1232,
+        "Name": "A Cell #1232",
+        "Connections": {
+          "North": {
+            "RoomId": 1231,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 1245
+        }
+      },
+      {
+        "Id": 1233,
+        "Name": "A Cell #1233",
+        "Connections": {
+          "South": {
+            "RoomId": 1231,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 1234,
+        "Name": "A Comfy Looking Room #1234",
+        "Connections": {}
+      },
+      {
+        "Id": 1235,
+        "Name": "The Guarded Hall #1235",
+        "Connections": {
+          "North": 1236,
+          "South": {
+            "RoomId": 1219,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 1236,
+        "Name": "The Well Trodden Path #1236",
+        "Connections": {
+          "North": 1239,
+          "South": 1235,
+          "West": 1237
+        }
+      },
+      {
+        "Id": 1237,
+        "Name": "The Guards Nook #1237",
+        "Connections": {
+          "East": 1236
+        },
+        "Contents": [
+          {
+            "Text": "Nedragaard Keep Guard #1228",
+            "Color": "red"
+          },
+          {
+            "Text": "Nedragaard Keep Guard #1228",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1238,
+        "Name": "Dark Water of the Moat #1238",
+        "Connections": {
+          "East": 1203,
+          "Down": 1200
+        },
+        "Contents": [
+          {
+            "Text": "the electric eel. #1211",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1239,
+        "Name": "The Guarded Path #1239",
+        "Connections": {
+          "East": 1240,
+          "South": 1236
+        }
+      },
+      {
+        "Id": 1240,
+        "Name": "The Guarded Path #1240",
+        "Connections": {
+          "East": 1241,
+          "West": 1239
+        }
+      },
+      {
+        "Id": 1241,
+        "Name": "At the base of a stairwell #1241",
+        "Connections": {
+          "West": 1240,
+          "Up": 1242
+        }
+      },
+      {
+        "Id": 1242,
+        "Name": "The Stairwell #1242",
+        "Connections": {
+          "Up": 1243,
+          "Down": 1241
+        }
+      },
+      {
+        "Id": 1243,
+        "Name": "Near the Top of the Stairs #1243",
+        "Connections": {
+          "Up": 1244,
+          "Down": 1242
+        }
+      },
+      {
+        "Id": 1244,
+        "Name": "Top of the Battered Stairway #1244",
+        "Connections": {
+          "North": 1246,
+          "Down": 1243
+        }
+      },
+      {
+        "Id": 1245,
+        "Name": "The Evil Room of Gite #1245",
+        "Connections": {
+          "North": 1232
+        },
+        "Contents": [
+          {
+            "Text": "Gite, the blowing goat #1209",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1246,
+        "Name": "The Southern Intersection #1246",
+        "Connections": {
+          "North": 1247,
+          "East": 1251,
+          "South": 1244,
+          "West": 1253
+        },
+        "Contents": [
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1247,
+        "Name": "The North Hallway #1247",
+        "Connections": {
+          "North": 1248,
+          "South": 1246
+        }
+      },
+      {
+        "Id": 1248,
+        "Name": "The North Hallway #1248",
+        "Connections": {
+          "North": 1257,
+          "East": 1249,
+          "South": 1247,
+          "West": 1250
+        },
+        "Contents": [
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1249,
+        "Name": "The Study #1249",
+        "Connections": {
+          "South": 1256,
+          "West": 1248
+        },
+        "Contents": [
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1250,
+        "Name": "Mikel\u0027s Chamber #1250",
+        "Connections": {
+          "East": 1248
+        },
+        "Contents": [
+          {
+            "Text": "Sir Mikel, the skeletal knight #1212",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1251,
+        "Name": "The East Hallway #1251",
+        "Connections": {
+          "East": 1281,
+          "West": 1246
+        }
+      },
+      {
+        "Id": 1252,
+        "Name": "Overgrown Gardens #1252",
+        "Connections": {
+          "North": 1291,
+          "East": 1290,
+          "West": 1202
+        }
+      },
+      {
+        "Id": 1253,
+        "Name": "The West Hallway #1253",
+        "Connections": {
+          "East": 1246,
+          "West": 1254
+        },
+        "Contents": [
+          {
+            "Text": "Sir Francis, the skeletal knight #1218",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1254,
+        "Name": "The West Hallway #1254",
+        "Connections": {
+          "East": 1253,
+          "South": 1259,
+          "West": 1255
+        }
+      },
+      {
+        "Id": 1255,
+        "Name": "The West Hall #1255",
+        "Connections": {
+          "East": 1254,
+          "West": 1263
+        }
+      },
+      {
+        "Id": 1256,
+        "Name": "Caradoc\u0027s Private Room #1256",
+        "Connections": {
+          "North": 1249
+        }
+      },
+      {
+        "Id": 1257,
+        "Name": "The North Hallway #1257",
+        "Connections": {
+          "North": 1258,
+          "South": 1248
+        }
+      },
+      {
+        "Id": 1258,
+        "Name": "The Northern Intersection #1258",
+        "Connections": {
+          "East": 1272,
+          "South": 1257,
+          "West": 1267
+        },
+        "Contents": [
+          {
+            "Text": "Sir Frederick, the skeletal knight #1217",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1259,
+        "Name": "Once Guarded Hallway #1259",
+        "Connections": {
+          "North": 1254,
+          "South": 1260
+        },
+        "Contents": [
+          {
+            "Text": "a Massive fire blackened suit of armor #1229",
+            "Color": "red"
+          },
+          {
+            "Text": "a Massive fire blackened suit of armor #1229",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1260,
+        "Name": "Once Guarded Hallway #1260",
+        "Connections": {
+          "North": 1259,
+          "East": 1282,
+          "West": 1261
+        }
+      },
+      {
+        "Id": 1261,
+        "Name": "Mess Hall #1261",
+        "Connections": {
+          "North": 1262,
+          "East": 1260
+        }
+      },
+      {
+        "Id": 1262,
+        "Name": "Mess Hall #1262",
+        "Connections": {
+          "South": 1261
+        },
+        "Contents": [
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          },
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1263,
+        "Name": "End of the Hall #1263",
+        "Connections": {
+          "North": 1264,
+          "East": 1255,
+          "South": 1265
+        }
+      },
+      {
+        "Id": 1264,
+        "Name": "Tyron\u0027s Chamber #1264",
+        "Connections": {
+          "South": 1263
+        },
+        "Contents": [
+          {
+            "Text": "Sir Tyron, the skeletal knight #1213",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1265,
+        "Name": "Narrow Passage #1265",
+        "Connections": {
+          "North": 1263,
+          "South": 1266
+        }
+      },
+      {
+        "Id": 1266,
+        "Name": "Treasure Room #1266",
+        "Connections": {
+          "North": 1265
+        },
+        "Contents": [
+          {
+            "Text": "Sir Alexander, the skeletal knight #1219",
+            "Color": "red"
+          },
+          {
+            "Text": "Sir Erik, the skeletal knight #1220",
+            "Color": "red"
+          },
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1267,
+        "Name": "A Hallway #1267",
+        "Connections": {
+          "East": 1258,
+          "West": 1268
+        },
+        "Contents": [
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1268,
+        "Name": "A Hallway #1268",
+        "Connections": {
+          "East": 1267,
+          "West": 1269
+        }
+      },
+      {
+        "Id": 1269,
+        "Name": "A Hallway #1269",
+        "Connections": {
+          "East": 1268,
+          "South": 1270
+        }
+      },
+      {
+        "Id": 1270,
+        "Name": "Nathan\u0027s Chamber #1270",
+        "Connections": {
+          "North": 1269,
+          "South": 1271
+        },
+        "Contents": [
+          {
+            "Text": "Sir Nathan, the skeletal knight #1216",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1271,
+        "Name": "Hidden Room #1271",
+        "Connections": {
+          "North": 1270
+        },
+        "Contents": [
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1272,
+        "Name": "A Hallway #1272",
+        "Connections": {
+          "East": 1273,
+          "South": 1297,
+          "West": 1258
+        }
+      },
+      {
+        "Id": 1273,
+        "Name": "A Hallway #1273",
+        "Connections": {
+          "East": 1274,
+          "West": 1272
+        },
+        "Contents": [
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1274,
+        "Name": "A Hallway #1274",
+        "Connections": {
+          "South": 1275,
+          "West": 1273
+        }
+      },
+      {
+        "Id": 1275,
+        "Name": "A Hallway #1275",
+        "Connections": {
+          "North": 1274,
+          "East": 1276,
+          "South": 1277
+        }
+      },
+      {
+        "Id": 1276,
+        "Name": "Sebastian\u0027s Chamber #1276",
+        "Connections": {
+          "West": 1275
+        },
+        "Contents": [
+          {
+            "Text": "Sir Sebastian, the skeletal knight #1214",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1277,
+        "Name": "A Hallway #1277",
+        "Connections": {
+          "North": 1275,
+          "South": 1278
+        },
+        "Contents": [
+          {
+            "Text": "Sir Duncan, the skeletal knight #1226",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1278,
+        "Name": "A Hallway #1278",
+        "Connections": {
+          "North": 1277,
+          "East": 1279,
+          "South": 1280
+        },
+        "Contents": [
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1279,
+        "Name": "Visitors Quarters #1279",
+        "Connections": {
+          "West": 1278
+        }
+      },
+      {
+        "Id": 1280,
+        "Name": "A Hallway #1280",
+        "Connections": {
+          "North": 1278,
+          "West": 1281
+        }
+      },
+      {
+        "Id": 1281,
+        "Name": "The East Hallway #1281",
+        "Connections": {
+          "East": 1280,
+          "West": 1251
+        },
+        "Contents": [
+          {
+            "Text": "Sir Marcus, the skeletal knight #1225",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1282,
+        "Name": "The Royal Passage #1282",
+        "Connections": {
+          "East": 1283,
+          "West": 1260
+        }
+      },
+      {
+        "Id": 1283,
+        "Name": "The Royal Passage #1283",
+        "Connections": {
+          "East": 1284,
+          "West": 1282
+        },
+        "Contents": [
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1284,
+        "Name": "The Royal Passage #1284",
+        "Connections": {
+          "East": 1285,
+          "West": 1283
+        }
+      },
+      {
+        "Id": 1285,
+        "Name": "The Royal Passage #1285",
+        "Connections": {
+          "North": 1286,
+          "West": 1284
+        },
+        "Contents": [
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          },
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1286,
+        "Name": "Audience Chamber #1286",
+        "Connections": {
+          "East": 1287,
+          "South": 1285
+        }
+      },
+      {
+        "Id": 1287,
+        "Name": "Soth\u0027s Royal Throne Room #1287",
+        "Connections": {
+          "West": 1286,
+          "Down": {
+            "RoomId": 1288,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          },
+          {
+            "Text": "a Banshee #1222",
+            "Color": "red"
+          },
+          {
+            "Text": "Lord Soth, the Deathknight #1215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1288,
+        "Name": "Under the throne. #1288",
+        "Connections": {
+          "Up": {
+            "RoomId": 1287,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 1289,
+        "Name": "The room of the Re-enforcements! #1289",
+        "Connections": {
+          "Up": 1287
+        },
+        "Contents": [
+          {
+            "Text": "Sir Sheridan, the skeletal knight #1227",
+            "Color": "red"
+          },
+          {
+            "Text": "Sir Lynch, the skeletal knight #1223",
+            "Color": "red"
+          },
+          {
+            "Text": "Sir Gwedian, the skeletal knight #1224",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1290,
+        "Name": "Overgrown Gardens #1290",
+        "Connections": {
+          "West": 1252
+        },
+        "Contents": [
+          {
+            "Text": "a giant venus fly trap #1221",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1291,
+        "Name": "Overgrown Gardens #1291",
+        "Connections": {
+          "North": 1292,
+          "East": 1293,
+          "South": 1252
+        }
+      },
+      {
+        "Id": 1292,
+        "Name": "Overgrown Gardens #1292",
+        "Connections": {
+          "North": 19519,
+          "South": 1291,
+          "West": 1294
+        }
+      },
+      {
+        "Id": 1293,
+        "Name": "Overgrown Gardens #1293",
+        "Connections": {
+          "West": 1291
+        },
+        "Contents": [
+          {
+            "Text": "Undead groundsman #1210",
+            "Color": "red"
+          },
+          {
+            "Text": "a giant venus fly trap #1221",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1294,
+        "Name": "Overgrown Gardens #1294",
+        "Connections": {
+          "East": 1292,
+          "West": 1295
+        },
+        "Contents": [
+          {
+            "Text": "a giant venus fly trap #1221",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1295,
+        "Name": "Passage Through the Garden #1295",
+        "Connections": {
+          "North": 1298,
+          "East": 1296,
+          "South": 1298,
+          "West": 1296,
+          "Down": 1207
+        }
+      },
+      {
+        "Id": 1296,
+        "Name": "Death? #1296",
+        "Connections": {}
+      },
+      {
+        "Id": 1297,
+        "Name": "Hidden Armory #1297",
+        "Connections": {
+          "North": 1272
+        }
+      },
+      {
+        "Id": 1298,
+        "Name": "Horrible Cold Cell #1298",
+        "Connections": {}
+      },
+      {
+        "Id": 19519,
+        "FrameColor": "blue",
+        "Name": "To GlassCathedral #19519",
+        "Color": "blue",
+        "Connections": {
+          "East": 19518,
+          "South": 1292,
+          "West": 19520
+        }
+      }
+    ]
+  }
+}

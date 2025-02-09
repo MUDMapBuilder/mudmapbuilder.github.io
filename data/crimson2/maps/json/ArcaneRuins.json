@@ -1,0 +1,756 @@
+{
+  "Area": {
+    "Name": "ArcaneRuins",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 20850,
+        "Name": "Arcane Ruins Entry #20850",
+        "Connections": {
+          "Up": 7503,
+          "Down": 20851
+        }
+      },
+      {
+        "Id": 20851,
+        "Name": "Swampy Forest Area #20851",
+        "Connections": {
+          "North": 20907,
+          "East": 20866,
+          "West": 20852,
+          "Up": 20850
+        },
+        "Contents": [
+          {
+            "Text": "Godzilla #20850",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20852,
+        "Name": "A Swampy Pathway #20852",
+        "Connections": {
+          "East": 20851,
+          "West": 20853
+        }
+      },
+      {
+        "Id": 20853,
+        "Name": "A Swampy Pathway #20853",
+        "Connections": {
+          "North": 20854,
+          "East": 20852
+        }
+      },
+      {
+        "Id": 20854,
+        "Name": "Mausoleum #20854",
+        "Connections": {
+          "South": 20853,
+          "Down": 20855
+        }
+      },
+      {
+        "Id": 20855,
+        "Name": "Tunnel Beneath the Swamp #20855",
+        "Connections": {
+          "North": 20856,
+          "Up": 20854
+        }
+      },
+      {
+        "Id": 20856,
+        "Name": "Tunnel Beneath the Swamp #20856",
+        "Connections": {
+          "North": 20857,
+          "South": 20855
+        }
+      },
+      {
+        "Id": 20857,
+        "Name": "The Branchway #20857",
+        "Connections": {
+          "East": 20862,
+          "South": 20856,
+          "West": 20860
+        }
+      },
+      {
+        "Id": 20858,
+        "Name": "The Crypt of the Lord of Vampires. #20858",
+        "Connections": {
+          "South": 20861
+        },
+        "Contents": [
+          {
+            "Text": "Dracula, Lord of the Vampires #20852",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20859,
+        "Name": "Frankenstein\u0027s Chamber. #20859",
+        "Connections": {
+          "East": 20865
+        },
+        "Contents": [
+          {
+            "Text": "Frankenstein #20853",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20860,
+        "Name": "The Stone Corridor #20860",
+        "Connections": {
+          "East": 20857,
+          "Down": 20861
+        }
+      },
+      {
+        "Id": 20861,
+        "Name": "Before the Dungeon of Blood #20861",
+        "Connections": {
+          "North": 20858,
+          "Up": 20860
+        },
+        "Contents": [
+          {
+            "Text": "A Ghoul #20851",
+            "Color": "green"
+          },
+          {
+            "Text": "A Ghoul #20851",
+            "Color": "green"
+          },
+          {
+            "Text": "A Ghoul #20851",
+            "Color": "green"
+          },
+          {
+            "Text": "A Ghoul #20851",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20862,
+        "Name": "A Dimly Lit Path #20862",
+        "Connections": {
+          "West": 20857,
+          "Up": 20863
+        }
+      },
+      {
+        "Id": 20863,
+        "Name": "Closer to the Light. #20863",
+        "Connections": {
+          "Up": 20864,
+          "Down": 20862
+        }
+      },
+      {
+        "Id": 20864,
+        "Name": "A Few Feet to Freedom! #20864",
+        "Connections": {
+          "Up": 20865,
+          "Down": 20863
+        }
+      },
+      {
+        "Id": 20865,
+        "Name": "The LIGHT! #20865",
+        "Connections": {
+          "West": 20859,
+          "Down": 20864
+        }
+      },
+      {
+        "Id": 20866,
+        "Name": "Path towards the Howling Woods #20866",
+        "Connections": {
+          "East": 20867,
+          "West": 20851
+        }
+      },
+      {
+        "Id": 20867,
+        "Name": "Path towards the Howling Woods #20867",
+        "Connections": {
+          "East": 20868,
+          "West": 20866
+        }
+      },
+      {
+        "Id": 20868,
+        "Name": "The Foreboding Mouth of Howling Woods #20868",
+        "Connections": {
+          "East": 20869,
+          "West": 20867
+        }
+      },
+      {
+        "Id": 20869,
+        "Name": "Inside the Howling Woods #20869",
+        "Connections": {
+          "North": 20870,
+          "West": 20868
+        }
+      },
+      {
+        "Id": 20870,
+        "Name": "A Path Through the Howling Woods #20870",
+        "Connections": {
+          "North": 20871,
+          "South": 20869
+        }
+      },
+      {
+        "Id": 20871,
+        "Name": "The Howling Path #20871",
+        "Connections": {
+          "East": 20872,
+          "South": 20870
+        }
+      },
+      {
+        "Id": 20872,
+        "Name": "The Witches Clearing #20872",
+        "Connections": {
+          "North": 20873,
+          "East": 20875,
+          "South": 20876,
+          "West": 20871
+        },
+        "Contents": [
+          {
+            "Text": "A werewolf #20854",
+            "Color": "green"
+          },
+          {
+            "Text": "A werewolf #20854",
+            "Color": "green"
+          },
+          {
+            "Text": "A werewolf #20854",
+            "Color": "green"
+          },
+          {
+            "Text": "A witch #20855",
+            "Color": "green"
+          },
+          {
+            "Text": "A witch #20855",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20873,
+        "Name": "The Northern Edge of the Witches Clearing #20873",
+        "Connections": {
+          "East": 20874,
+          "South": 20872
+        }
+      },
+      {
+        "Id": 20874,
+        "Name": "The Northern Edge of the Witches Clearing #20874",
+        "Connections": {
+          "North": 20878,
+          "South": 20875,
+          "West": 20873
+        }
+      },
+      {
+        "Id": 20875,
+        "Name": "The Witches Clearing #20875",
+        "Connections": {
+          "North": 20874,
+          "East": 20879,
+          "South": 20877,
+          "West": 20872
+        },
+        "Contents": [
+          {
+            "Text": "A werewolf #20854",
+            "Color": "green"
+          },
+          {
+            "Text": "A werewolf #20854",
+            "Color": "green"
+          },
+          {
+            "Text": "A witch #20855",
+            "Color": "green"
+          },
+          {
+            "Text": "A witch #20855",
+            "Color": "green"
+          },
+          {
+            "Text": "A witch #20855",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20876,
+        "Name": "The Southern Edge of the Witches Clearing #20876",
+        "Connections": {
+          "North": 20872,
+          "East": 20877
+        }
+      },
+      {
+        "Id": 20877,
+        "Name": "The Southern Edge of the Witches Clearing #20877",
+        "Connections": {
+          "North": 20875,
+          "West": 20876
+        }
+      },
+      {
+        "Id": 20878,
+        "Name": "The Witches General Supply Store #20878",
+        "Connections": {
+          "South": 20874
+        },
+        "Contents": [
+          {
+            "Text": "The black-cloaked witch #20856",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20879,
+        "Name": "The Turn of Choice #20879",
+        "Connections": {
+          "North": 20880,
+          "South": 20881,
+          "West": 20875
+        }
+      },
+      {
+        "Id": 20880,
+        "Name": "The Mountain Path #20880",
+        "Connections": {
+          "North": 20900,
+          "South": 20879
+        }
+      },
+      {
+        "Id": 20881,
+        "Name": "The Path Continues #20881",
+        "Connections": {
+          "North": 20879,
+          "South": 20882
+        }
+      },
+      {
+        "Id": 20882,
+        "Name": "The Continuing Trail #20882",
+        "Connections": {
+          "North": 20881,
+          "East": 20883
+        }
+      },
+      {
+        "Id": 20883,
+        "Name": "The Continuing Trail #20883",
+        "Connections": {
+          "South": 20884,
+          "West": 20882
+        }
+      },
+      {
+        "Id": 20884,
+        "Name": "An Interesting Turn #20884",
+        "Connections": {
+          "North": 20883,
+          "West": 20885
+        }
+      },
+      {
+        "Id": 20885,
+        "Name": "In Front of the Cabin #20885",
+        "Connections": {
+          "East": 20884,
+          "South": 20888,
+          "West": 20886
+        }
+      },
+      {
+        "Id": 20886,
+        "Name": "Cabin of Dreams. #20886",
+        "Connections": {
+          "North": 20887,
+          "East": 20885
+        },
+        "Contents": [
+          {
+            "Text": "Freddy Krueger #20858",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20887,
+        "Name": "Freddy\u0027s Dream Closet #20887",
+        "Connections": {
+          "South": 20886
+        }
+      },
+      {
+        "Id": 20888,
+        "Name": "The Howling Path Continued #20888",
+        "Connections": {
+          "North": 20885,
+          "South": 20889
+        }
+      },
+      {
+        "Id": 20889,
+        "Name": "The Howling Path Continued #20889",
+        "Connections": {
+          "North": 20888,
+          "East": 20890
+        }
+      },
+      {
+        "Id": 20890,
+        "Name": "Near the Waterfront. #20890",
+        "Connections": {
+          "West": 20889,
+          "Down": 20891
+        }
+      },
+      {
+        "Id": 20891,
+        "Name": "The Beach of Crystal Lake #20891",
+        "Connections": {
+          "West": 20892,
+          "Up": 20890
+        }
+      },
+      {
+        "Id": 20892,
+        "Name": "The Beach of Crystal Lake #20892",
+        "Connections": {
+          "East": 20891,
+          "West": 20893
+        }
+      },
+      {
+        "Id": 20893,
+        "Name": "Crystal Lake Lodge #20893",
+        "Connections": {
+          "North": 20894,
+          "East": 20892
+        }
+      },
+      {
+        "Id": 20894,
+        "Name": "Inside the Crystal Lake Lodge #20894",
+        "Connections": {
+          "North": 20895,
+          "South": 20893
+        }
+      },
+      {
+        "Id": 20895,
+        "Name": "The Lodge Stairway #20895",
+        "Connections": {
+          "South": 20894,
+          "Up": 20896,
+          "Down": 20898
+        }
+      },
+      {
+        "Id": 20896,
+        "Name": "Upstairs in the Lodge #20896",
+        "Connections": {
+          "West": 20897,
+          "Down": 20895
+        }
+      },
+      {
+        "Id": 20897,
+        "Name": "The Master Bedroom of the Lodge #20897",
+        "Connections": {
+          "East": 20896
+        },
+        "Contents": [
+          {
+            "Text": "Mrs. Voorhees #20860",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20898,
+        "Name": "Basement Entry of the Lodge #20898",
+        "Connections": {
+          "West": 20899,
+          "Up": 20895
+        }
+      },
+      {
+        "Id": 20899,
+        "Name": "The Cellar of Jason Voorhees. #20899",
+        "Connections": {
+          "East": 20898
+        },
+        "Contents": [
+          {
+            "Text": "Jason Voorhees #20859",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20900,
+        "Name": "The Mountain Path #20900",
+        "Connections": {
+          "North": 20912,
+          "South": 20880,
+          "Up": 20901
+        }
+      },
+      {
+        "Id": 20901,
+        "Name": "Climbing the Mountain #20901",
+        "Connections": {
+          "Up": 20902,
+          "Down": 20900
+        },
+        "Contents": [
+          {
+            "Text": "Sasquatch #20861",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20902,
+        "Name": "Climbing the Mountain #20902",
+        "Connections": {
+          "Up": 20903,
+          "Down": 20901
+        }
+      },
+      {
+        "Id": 20903,
+        "Name": "The Mountain Ledge #20903",
+        "Connections": {
+          "Up": 20904,
+          "Down": 20902
+        },
+        "Contents": [
+          {
+            "Text": "Cujo #20862",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 20904,
+        "Name": "Further Up the Mountain #20904",
+        "Connections": {
+          "Up": 20905,
+          "Down": 20903
+        }
+      },
+      {
+        "Id": 20905,
+        "Name": "Further Up the Mountain #20905",
+        "Connections": {
+          "Up": 20906,
+          "Down": 20904
+        }
+      },
+      {
+        "Id": 20906,
+        "Name": "Kong\u0027s Overlook #20906",
+        "Connections": {
+          "Down": 20905
+        },
+        "Contents": [
+          {
+            "Text": "King Kong #20857",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20907,
+        "Name": "Leading to the Lagoon #20907",
+        "Connections": {
+          "North": 20908,
+          "South": 20851
+        }
+      },
+      {
+        "Id": 20908,
+        "Name": "A Dock Overlooking the Lagoon #20908",
+        "Connections": {
+          "East": 20910,
+          "South": 20907,
+          "West": 20909
+        }
+      },
+      {
+        "Id": 20909,
+        "Name": "The Lagoon of Nessie #20909",
+        "Connections": {
+          "East": 20908
+        },
+        "Contents": [
+          {
+            "Text": "Lochness Monster #20863",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20910,
+        "Name": "The Creatures Lagoon #20910",
+        "Connections": {
+          "North": 20911,
+          "West": 20908
+        },
+        "Contents": [
+          {
+            "Text": "The Creature from the Black Lagoon #20864",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20911,
+        "Name": "SwampThing\u0027s Residence #20911",
+        "Connections": {
+          "South": 20910
+        },
+        "Contents": [
+          {
+            "Text": "SwampThing #20865",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20912,
+        "Name": "The Gritty Path #20912",
+        "Connections": {
+          "North": 20913,
+          "South": 20900
+        }
+      },
+      {
+        "Id": 20913,
+        "Name": "The Gritty Path #20913",
+        "Connections": {
+          "East": 20914,
+          "South": 20912
+        }
+      },
+      {
+        "Id": 20914,
+        "Name": "The Gritty Path #20914",
+        "Connections": {
+          "North": 20915,
+          "West": 20913
+        }
+      },
+      {
+        "Id": 20915,
+        "Name": "The Gritty Path #20915",
+        "Connections": {
+          "North": 20916,
+          "South": 20914
+        }
+      },
+      {
+        "Id": 20916,
+        "Name": "Just before the Stone Structure #20916",
+        "Connections": {
+          "North": 20917,
+          "South": 20915
+        },
+        "Contents": [
+          {
+            "Text": "A Lesser Mummy #20867",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20917,
+        "Name": "The Stone Structure #20917",
+        "Connections": {
+          "South": 20916,
+          "West": 20918
+        },
+        "Contents": [
+          {
+            "Text": "A Lesser Mummy #20867",
+            "Color": "green"
+          },
+          {
+            "Text": "A Lesser Mummy #20867",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20918,
+        "Name": "The Stone Structure #20918",
+        "Connections": {
+          "East": 20917,
+          "West": 20919
+        },
+        "Contents": [
+          {
+            "Text": "A Lesser Mummy #20867",
+            "Color": "green"
+          },
+          {
+            "Text": "A Lesser Mummy #20867",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20919,
+        "Name": "The Mummy Antechamber #20919",
+        "Connections": {
+          "East": 20918
+        },
+        "Contents": [
+          {
+            "Text": "The Mummy #20866",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7503,
+        "FrameColor": "blue",
+        "Name": "To Sharrizar #7503",
+        "Color": "blue",
+        "Connections": {
+          "North": 7509,
+          "East": 7502,
+          "South": 7517,
+          "West": 7504,
+          "Down": 20850
+        }
+      }
+    ]
+  }
+}

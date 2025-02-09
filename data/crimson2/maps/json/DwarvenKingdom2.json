@@ -1,0 +1,1096 @@
+{
+  "Area": {
+    "Name": "DwarvenKingdom2",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 4700,
+        "Name": "The Spiral Stair #4700",
+        "Connections": {
+          "Up": 3608
+        }
+      },
+      {
+        "Id": 4701,
+        "Name": "Caves #4701",
+        "Connections": {
+          "East": 4702,
+          "West": 7766
+        }
+      },
+      {
+        "Id": 4702,
+        "Name": "Caves #4702",
+        "Connections": {
+          "North": 4703,
+          "West": 4701
+        }
+      },
+      {
+        "Id": 4703,
+        "Name": "Caves #4703",
+        "Connections": {
+          "South": 4702,
+          "West": 4704
+        }
+      },
+      {
+        "Id": 4704,
+        "Name": "Side of Mountain #4704",
+        "Connections": {
+          "East": 4703,
+          "West": 4706
+        }
+      },
+      {
+        "Id": 4705,
+        "Name": "Caves #4705",
+        "Connections": {}
+      },
+      {
+        "Id": 4706,
+        "Name": "Mines #4706",
+        "Connections": {
+          "East": 4704,
+          "West": 4707
+        }
+      },
+      {
+        "Id": 4707,
+        "Name": "Turn in the Mine #4707",
+        "Connections": {
+          "East": 4706,
+          "South": 4708
+        },
+        "Contents": [
+          {
+            "Text": "The small dwarf #4701",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4708,
+        "Name": "Mines #4708",
+        "Connections": {
+          "North": 4707,
+          "South": 4709,
+          "West": 4736
+        }
+      },
+      {
+        "Id": 4709,
+        "Name": "Dwarven mine #4709",
+        "Connections": {
+          "North": 4708,
+          "East": 4724,
+          "South": 4710
+        }
+      },
+      {
+        "Id": 4710,
+        "Name": "Dwarven mine #4710",
+        "Connections": {
+          "North": 4709,
+          "East": 4712,
+          "South": 4711
+        }
+      },
+      {
+        "Id": 4711,
+        "Name": "Dwarven mine #4711",
+        "Connections": {
+          "North": 4710
+        }
+      },
+      {
+        "Id": 4712,
+        "Name": "Dwarven mine #4712",
+        "Connections": {
+          "South": 4713,
+          "West": 4710
+        }
+      },
+      {
+        "Id": 4713,
+        "Name": "Dwarven mine #4713",
+        "Connections": {
+          "North": 4712,
+          "South": 4714
+        }
+      },
+      {
+        "Id": 4714,
+        "Name": "Dwarven mines #4714",
+        "Connections": {
+          "North": 4713,
+          "East": 4719,
+          "West": 4715
+        }
+      },
+      {
+        "Id": 4715,
+        "Name": "Dwarven mines #4715",
+        "Connections": {
+          "East": 4714,
+          "South": 4716
+        }
+      },
+      {
+        "Id": 4716,
+        "Name": "Dwarven mines #4716",
+        "Connections": {
+          "North": 4715,
+          "East": 4717
+        },
+        "Contents": [
+          {
+            "Text": "The dreaded rock worm #4707",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4717,
+        "Name": "Dwarven mines #4717",
+        "Connections": {
+          "South": 4718,
+          "West": 4716
+        },
+        "Contents": [
+          {
+            "Text": "The dreaded rock worm #4707",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4718,
+        "Name": "End of the mine #4718",
+        "Connections": {
+          "North": 4717,
+          "South": 4772
+        }
+      },
+      {
+        "Id": 4719,
+        "Name": "Dwarven mines #4719",
+        "Connections": {
+          "East": 4721,
+          "South": 4720,
+          "West": 4714
+        },
+        "Contents": [
+          {
+            "Text": "The dreaded rock worm #4707",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4720,
+        "Name": "Unfinished shaft #4720",
+        "Connections": {
+          "North": 4719
+        },
+        "Contents": [
+          {
+            "Text": "The dreaded rock worm #4707",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4721,
+        "Name": "Dwarven mines #4721",
+        "Connections": {
+          "South": 4722,
+          "West": 4719
+        }
+      },
+      {
+        "Id": 4722,
+        "Name": "Dwarven mines #4722",
+        "Connections": {
+          "North": 4721,
+          "South": 4723
+        }
+      },
+      {
+        "Id": 4723,
+        "Name": "Unfinished mine #4723",
+        "Connections": {
+          "North": 4722
+        }
+      },
+      {
+        "Id": 4724,
+        "Name": "Dwarven mine #4724",
+        "Connections": {
+          "East": 4725,
+          "West": 4709
+        }
+      },
+      {
+        "Id": 4725,
+        "Name": "Dwarven mine #4725",
+        "Connections": {
+          "South": 4726,
+          "West": 4724
+        },
+        "Contents": [
+          {
+            "Text": "The small dwarf #4700",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4726,
+        "Name": "Dwarven mines #4726",
+        "Connections": {
+          "North": 4725,
+          "South": 4727
+        }
+      },
+      {
+        "Id": 4727,
+        "Name": "Dwarven mines #4727",
+        "Connections": {
+          "North": 4726,
+          "East": 4728
+        },
+        "Contents": [
+          {
+            "Text": "The small dwarf #4700",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4728,
+        "Name": "Dwarven mines #4728",
+        "Connections": {
+          "East": 4729,
+          "West": 4727
+        }
+      },
+      {
+        "Id": 4729,
+        "Name": "Dwarven mines #4729",
+        "Connections": {
+          "North": 4732,
+          "South": 4730,
+          "West": 4728
+        },
+        "Contents": [
+          {
+            "Text": "The small dwarf #4700",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4730,
+        "Name": "Dwarven mines #4730",
+        "Connections": {
+          "North": 4729,
+          "South": 4731
+        },
+        "Contents": [
+          {
+            "Text": "The small dwarf #4701",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4731,
+        "Name": "Dwarven mines #4731",
+        "Connections": {
+          "North": 4730
+        },
+        "Contents": [
+          {
+            "Text": "The small dwarf #4700",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4732,
+        "Name": "Duergar Outcamp #4732",
+        "Connections": {
+          "North": 4733,
+          "South": 4729,
+          "West": 4735
+        }
+      },
+      {
+        "Id": 4733,
+        "Name": "Duergar Barracks #4733",
+        "Connections": {
+          "South": 4732
+        },
+        "Contents": [
+          {
+            "Text": "The duergar dwarf #4705",
+            "Color": "red"
+          },
+          {
+            "Text": "The duergar dwarf #4705",
+            "Color": "red"
+          },
+          {
+            "Text": "The duergar dwarf #4705",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4734,
+        "Name": "Small cave #4734",
+        "Connections": {
+          "South": 4735
+        }
+      },
+      {
+        "Id": 4735,
+        "Name": "By a small fire #4735",
+        "Connections": {
+          "North": 4734,
+          "East": 4732
+        },
+        "Contents": [
+          {
+            "Text": "The duergar dwarf #4705",
+            "Color": "red"
+          },
+          {
+            "Text": "The duergar dwarf #4705",
+            "Color": "red"
+          },
+          {
+            "Text": "The duergar dwarf #4705",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4736,
+        "Name": "Carved Tunnel #4736",
+        "Connections": {
+          "North": 4737,
+          "East": 4708
+        }
+      },
+      {
+        "Id": 4737,
+        "Name": "Carved Tunnel #4737",
+        "Connections": {
+          "South": 4736,
+          "West": 4738
+        }
+      },
+      {
+        "Id": 4738,
+        "Name": "Carved Tunnel #4738",
+        "Connections": {
+          "East": 4737,
+          "South": 4739
+        }
+      },
+      {
+        "Id": 4739,
+        "Name": "Stone Gates #4739",
+        "Connections": {
+          "North": 4738,
+          "South": 4740
+        }
+      },
+      {
+        "Id": 4740,
+        "Name": "Walkway #4740",
+        "Connections": {
+          "North": 4739,
+          "South": 4741,
+          "West": 4750
+        }
+      },
+      {
+        "Id": 4741,
+        "Name": "Rock Garden #4741",
+        "Connections": {
+          "North": 4740,
+          "East": 4742,
+          "West": 4748
+        }
+      },
+      {
+        "Id": 4742,
+        "Name": "Rock Garden #4742",
+        "Connections": {
+          "South": 4743,
+          "West": 4741
+        }
+      },
+      {
+        "Id": 4743,
+        "Name": "Rock Garden #4743",
+        "Connections": {
+          "North": 4742,
+          "South": 4744
+        }
+      },
+      {
+        "Id": 4744,
+        "Name": "Rock Garden #4744",
+        "Connections": {
+          "North": 4743,
+          "West": 4745
+        }
+      },
+      {
+        "Id": 4745,
+        "Name": "Rock Garden #4745",
+        "Connections": {
+          "North": 4749,
+          "East": 4744,
+          "South": 4790,
+          "West": 4746
+        }
+      },
+      {
+        "Id": 4746,
+        "Name": "Rock Garden #4746",
+        "Connections": {
+          "North": 4747,
+          "East": 4745
+        }
+      },
+      {
+        "Id": 4747,
+        "Name": "Rock Garden #4747",
+        "Connections": {
+          "North": 4748,
+          "South": 4746
+        }
+      },
+      {
+        "Id": 4748,
+        "Name": "Rock Garden #4748",
+        "Connections": {
+          "East": 4741,
+          "South": 4747
+        }
+      },
+      {
+        "Id": 4749,
+        "Name": "Temple of Juargan #4749",
+        "Connections": {
+          "South": 4745
+        },
+        "Contents": [
+          {
+            "Text": "Juargan the Dwarven King #4704",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4750,
+        "Name": "Walkway #4750",
+        "Connections": {
+          "East": 4740,
+          "West": 4751
+        }
+      },
+      {
+        "Id": 4751,
+        "Name": "Walkway #4751",
+        "Connections": {
+          "East": 4750,
+          "South": 4753,
+          "West": 4752
+        }
+      },
+      {
+        "Id": 4752,
+        "Name": "Blacksmith\u0027s Home #4752",
+        "Connections": {
+          "East": 4751
+        },
+        "Contents": [
+          {
+            "Text": "Rothegar Ironstar #4712",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4753,
+        "Name": "Walkway #4753",
+        "Connections": {
+          "North": 4751,
+          "South": 4759,
+          "West": 4754
+        }
+      },
+      {
+        "Id": 4754,
+        "Name": "Path in the Rock #4754",
+        "Connections": {
+          "East": 4753,
+          "West": 4755
+        }
+      },
+      {
+        "Id": 4755,
+        "Name": "Path in the Rock #4755",
+        "Connections": {
+          "East": 4754,
+          "South": 4756
+        }
+      },
+      {
+        "Id": 4756,
+        "Name": "Path in the Rock #4756",
+        "Connections": {
+          "North": 4755,
+          "East": 4771,
+          "South": 4757
+        },
+        "Contents": [
+          {
+            "Text": "Yentle the dwarf #4703",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4757,
+        "Name": "Path in the Rock #4757",
+        "Connections": {
+          "North": 4756,
+          "East": 4758,
+          "West": 4785
+        }
+      },
+      {
+        "Id": 4758,
+        "Name": "Path in the Rock #4758",
+        "Connections": {
+          "East": 4760,
+          "South": 4761,
+          "West": 4757
+        }
+      },
+      {
+        "Id": 4759,
+        "Name": "Walkway #4759",
+        "Connections": {
+          "North": 4753,
+          "South": 4760
+        }
+      },
+      {
+        "Id": 4760,
+        "Name": "Walkway #4760",
+        "Connections": {
+          "North": 4759,
+          "South": 4762,
+          "West": 4758
+        }
+      },
+      {
+        "Id": 4761,
+        "Name": "Pasty\u0027s Dwelling #4761",
+        "Connections": {
+          "North": 4758
+        },
+        "Contents": [
+          {
+            "Text": "Pasty Ironstar #4715",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4762,
+        "Name": "Walkway #4762",
+        "Connections": {
+          "North": 4760,
+          "East": 4763,
+          "South": 4764,
+          "West": 4786
+        }
+      },
+      {
+        "Id": 4763,
+        "Name": "Walkway #4763",
+        "Connections": {
+          "East": 4766,
+          "South": 4765,
+          "West": 4762
+        }
+      },
+      {
+        "Id": 4764,
+        "Name": "Leatherbies Home #4764",
+        "Connections": {
+          "North": 4762
+        },
+        "Contents": [
+          {
+            "Text": "Leatherbie Ironstar #4711",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4765,
+        "Name": "The Stone Jewel #4765",
+        "Connections": {
+          "North": 4763
+        },
+        "Contents": [
+          {
+            "Text": "Dolscar Ironstar #4717",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4766,
+        "Name": "Guard Barrack #4766",
+        "Connections": {
+          "South": {
+            "RoomId": 4767,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 4763
+        },
+        "Contents": [
+          {
+            "Text": "Thormtur Ironstar #4716",
+            "Color": "green"
+          },
+          {
+            "Text": "The dwarf guard #4702",
+            "Color": "green"
+          },
+          {
+            "Text": "The dwarf guard #4702",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4767,
+        "Name": "Alcove #4767",
+        "Connections": {
+          "North": 4766,
+          "West": 4768
+        }
+      },
+      {
+        "Id": 4768,
+        "Name": "Entrance to Tomb #4768",
+        "Connections": {
+          "North": 4769,
+          "East": 4767
+        }
+      },
+      {
+        "Id": 4769,
+        "Name": "Ancients Tomb #4769",
+        "Connections": {
+          "South": 4768,
+          "West": {
+            "RoomId": 4770,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A dwarven spirit #4708",
+            "Color": "red"
+          },
+          {
+            "Text": "A dwarven spirit #4708",
+            "Color": "red"
+          },
+          {
+            "Text": "A dwarven spirit #4708",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4770,
+        "Name": "Ancients Vault #4770",
+        "Connections": {
+          "East": {
+            "RoomId": 4769,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A dwarven spirit #4708",
+            "Color": "red"
+          },
+          {
+            "Text": "A dwarven spirit #4708",
+            "Color": "red"
+          },
+          {
+            "Text": "Grimdale the ancient king #4706",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4771,
+        "Name": "Siven\u0027s Stone #4771",
+        "Connections": {
+          "West": 4756
+        },
+        "Contents": [
+          {
+            "Text": "Siven Ironstar #4713",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4772,
+        "Name": "Dark Tunnel #4772",
+        "Connections": {
+          "North": 4718,
+          "South": 4773
+        }
+      },
+      {
+        "Id": 4773,
+        "Name": "Dark Tunnel #4773",
+        "Connections": {
+          "North": 4772,
+          "East": 4774,
+          "South": 4776
+        }
+      },
+      {
+        "Id": 4774,
+        "Name": "Dark Cavern #4774",
+        "Connections": {
+          "West": 4773,
+          "Down": 4775
+        }
+      },
+      {
+        "Id": 4775,
+        "Name": "Bottom of the Crevice #4775",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "Gothron, the Greater Demon #4710",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4776,
+        "Name": "Path Across the Lava Flow #4776",
+        "Connections": {
+          "North": 4773,
+          "East": 4777
+        }
+      },
+      {
+        "Id": 4777,
+        "Name": "On the Lava Bridge #4777",
+        "Connections": {
+          "East": 4778,
+          "West": 4776
+        }
+      },
+      {
+        "Id": 4778,
+        "Name": "Path Across the Lava Flow #4778",
+        "Connections": {
+          "East": 4779,
+          "West": 4777
+        }
+      },
+      {
+        "Id": 4779,
+        "Name": "Ancient Chamber #4779",
+        "Connections": {
+          "North": 4780,
+          "East": 4782,
+          "South": 4784,
+          "West": 4778
+        },
+        "Contents": [
+          {
+            "Text": "the dreaded rock demon #4709",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4780,
+        "Name": "Ancient Chamber #4780",
+        "Connections": {
+          "East": 4781,
+          "South": 4779
+        },
+        "Contents": [
+          {
+            "Text": "the dreaded rock demon #4709",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4781,
+        "Name": "Ancient Chamber #4781",
+        "Connections": {
+          "South": 4782,
+          "West": 4780
+        },
+        "Contents": [
+          {
+            "Text": "the dreaded rock demon #4709",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4782,
+        "Name": "Ancient Chamber #4782",
+        "Connections": {
+          "North": 4781,
+          "South": 4783,
+          "West": 4779
+        },
+        "Contents": [
+          {
+            "Text": "the dreaded rock demon #4709",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4783,
+        "Name": "Ancient Chamber #4783",
+        "Connections": {
+          "North": 4782,
+          "West": 4784
+        },
+        "Contents": [
+          {
+            "Text": "the dreaded rock demon #4709",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4784,
+        "Name": "Ancient Chamber #4784",
+        "Connections": {
+          "North": 4779,
+          "East": 4783
+        },
+        "Contents": [
+          {
+            "Text": "the dreaded rock demon #4709",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4785,
+        "Name": "Drugar\u0027s Supplies #4785",
+        "Connections": {
+          "East": 4757
+        },
+        "Contents": [
+          {
+            "Text": "Drugar Ironstar #4714",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4786,
+        "Name": "Dwarven Nursery #4786",
+        "Connections": {
+          "North": 4788,
+          "East": 4762,
+          "West": 4787
+        }
+      },
+      {
+        "Id": 4787,
+        "Name": "Dwarven Nursery #4787",
+        "Connections": {
+          "East": 4786
+        }
+      },
+      {
+        "Id": 4788,
+        "Name": "Dwarven Nursery #4788",
+        "Connections": {
+          "South": 4786
+        }
+      },
+      {
+        "Id": 4789,
+        "Name": "Natural Spring #4789",
+        "Connections": {
+          "West": 4760
+        }
+      },
+      {
+        "Id": 4790,
+        "Name": "Entrance to the Temple of Reorx #4790",
+        "Connections": {
+          "North": 4745,
+          "South": 4791
+        }
+      },
+      {
+        "Id": 4791,
+        "Name": "Temple of Reorx #4791",
+        "Connections": {
+          "North": 4790,
+          "East": 4792,
+          "South": 4793
+        }
+      },
+      {
+        "Id": 4792,
+        "Name": "Small Bedroom #4792",
+        "Connections": {
+          "West": 4791
+        },
+        "Contents": [
+          {
+            "Text": "Rhydolin Ironstar #4722",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4793,
+        "Name": "Temple of Reorx #4793",
+        "Connections": {
+          "North": 4791,
+          "South": 4795,
+          "West": 4794
+        }
+      },
+      {
+        "Id": 4794,
+        "Name": "Small Study #4794",
+        "Connections": {
+          "East": 4793
+        },
+        "Contents": [
+          {
+            "Text": "Sevros Ironstar #4721",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4795,
+        "Name": "Temple of Reorx #4795",
+        "Connections": {
+          "North": 4793,
+          "East": 4796,
+          "South": 4798,
+          "West": 4797
+        }
+      },
+      {
+        "Id": 4796,
+        "Name": "Meditation Room #4796",
+        "Connections": {
+          "West": 4795
+        },
+        "Contents": [
+          {
+            "Text": "Kilas Ironstar #4720",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4797,
+        "Name": "Meditation Room #4797",
+        "Connections": {
+          "East": 4795
+        },
+        "Contents": [
+          {
+            "Text": "Mordeth Ironstar #4719",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4798,
+        "Name": "Before the Great Statue of Reorx #4798",
+        "Connections": {
+          "North": 4795,
+          "Up": 4799
+        }
+      },
+      {
+        "Id": 4799,
+        "Name": "At the Base of the Statue #4799",
+        "Connections": {
+          "Down": 4798
+        },
+        "Contents": [
+          {
+            "Text": "Dugan Ironstar #4718",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3608,
+        "FrameColor": "blue",
+        "Name": "To TheRoads #3608",
+        "Color": "blue",
+        "Connections": {
+          "East": 3607
+        }
+      },
+      {
+        "Id": 7766,
+        "FrameColor": "blue",
+        "Name": "To Aerie #7766",
+        "Color": "blue",
+        "Connections": {
+          "East": 4701,
+          "Up": 7767,
+          "Down": 7765
+        }
+      }
+    ]
+  }
+}

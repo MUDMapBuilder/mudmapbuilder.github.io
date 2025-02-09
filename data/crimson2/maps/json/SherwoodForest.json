@@ -1,0 +1,605 @@
+{
+  "Area": {
+    "Name": "SherwoodForest",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 6025,
+        "Name": "The entrance to the haunted Sherwood Forest #6025",
+        "Connections": {
+          "North": 6027,
+          "East": 6028,
+          "South": 6026,
+          "West": 6107
+        }
+      },
+      {
+        "Id": 6026,
+        "Name": "Thieves Path #6026",
+        "Connections": {
+          "North": 6025,
+          "South": 6030
+        },
+        "Contents": [
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          },
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          },
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6027,
+        "Name": "A dimly lit path  #6027",
+        "Connections": {
+          "North": 6033,
+          "South": 6025
+        }
+      },
+      {
+        "Id": 6028,
+        "Name": "The Great Tree of Sherwood #6028",
+        "Connections": {
+          "East": 6031,
+          "West": 6025,
+          "Up": 6029
+        },
+        "Contents": [
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          },
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          },
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6029,
+        "Name": "Home of John Little #6029",
+        "Connections": {
+          "Down": 6028
+        },
+        "Contents": [
+          {
+            "Text": "John Little #6025",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6030,
+        "Name": "Thieves Path #6030",
+        "Connections": {
+          "North": 6026,
+          "East": 6038,
+          "South": 6037
+        },
+        "Contents": [
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          },
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          },
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6031,
+        "Name": "In the Forest #6031",
+        "Connections": {
+          "North": 6032,
+          "West": 6028
+        },
+        "Contents": [
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          },
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          },
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6032,
+        "Name": "Deeper in the forest #6032",
+        "Connections": {
+          "East": 6042,
+          "South": 6031
+        }
+      },
+      {
+        "Id": 6033,
+        "Name": "Sherwood gathering point #6033",
+        "Connections": {
+          "North": 6036,
+          "East": 6035,
+          "South": 6027,
+          "West": 6034
+        }
+      },
+      {
+        "Id": 6034,
+        "Name": "Sherwood Temple #6034",
+        "Connections": {
+          "East": 6033,
+          "Up": 6046
+        }
+      },
+      {
+        "Id": 6035,
+        "Name": "Armoury of Sherwood Forest #6035",
+        "Connections": {
+          "West": 6033
+        },
+        "Contents": [
+          {
+            "Text": "David, The Armourer #6030",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 6036,
+        "Name": "A dimly lit path #6036",
+        "Connections": {
+          "North": 6056,
+          "South": 6033
+        }
+      },
+      {
+        "Id": 6037,
+        "Name": "Thieves path #6037",
+        "Connections": {
+          "North": 6030,
+          "South": 6039
+        },
+        "Contents": [
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          },
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          },
+          {
+            "Text": "A juvenile thief #6026",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6038,
+        "Name": "Locksley Road #6038",
+        "Connections": {
+          "East": 6050,
+          "West": 6030
+        }
+      },
+      {
+        "Id": 6039,
+        "Name": "End of Thieves path #6039",
+        "Connections": {
+          "North": 6037,
+          "South": 6040
+        }
+      },
+      {
+        "Id": 6040,
+        "Name": "The legendary Tree of Sherwood #6040",
+        "Connections": {
+          "North": 6039,
+          "Up": 6041
+        }
+      },
+      {
+        "Id": 6041,
+        "Name": "Robin Hood\u0027s gentle landing #6041",
+        "Connections": {
+          "Down": 6040
+        },
+        "Contents": [
+          {
+            "Text": "Robin Hood #6027",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 6042,
+        "Name": "A dimly lit clearing in the forest #6042",
+        "Connections": {
+          "North": 6042,
+          "East": 6043,
+          "South": 6042,
+          "West": 6032
+        }
+      },
+      {
+        "Id": 6043,
+        "Name": "Along the stream #6043",
+        "Connections": {
+          "North": 6045,
+          "South": 6044,
+          "West": 6042
+        }
+      },
+      {
+        "Id": 6044,
+        "Name": "Along the stream #6044",
+        "Connections": {
+          "North": 6043,
+          "South": 6047
+        }
+      },
+      {
+        "Id": 6045,
+        "Name": "Along the stream #6045",
+        "Connections": {
+          "North": 6051,
+          "South": 6043
+        },
+        "Contents": [
+          {
+            "Text": "viscious jackyl #6029",
+            "Color": "green"
+          },
+          {
+            "Text": "viscious jackyl #6029",
+            "Color": "green"
+          },
+          {
+            "Text": "viscious jackyl #6029",
+            "Color": "green"
+          },
+          {
+            "Text": "viscious jackyl #6029",
+            "Color": "green"
+          },
+          {
+            "Text": "viscious jackyl #6029",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6046,
+        "Name": "Priest\u0027s quarters #6046",
+        "Connections": {
+          "Down": 6034
+        },
+        "Contents": [
+          {
+            "Text": "Johnathan #6028",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6047,
+        "Name": "A sharp twist in the road #6047",
+        "Connections": {
+          "North": 6044,
+          "West": 6048
+        }
+      },
+      {
+        "Id": 6048,
+        "Name": "Locksley Road #6048",
+        "Connections": {
+          "North": 6071,
+          "East": 6047,
+          "West": 6049
+        }
+      },
+      {
+        "Id": 6049,
+        "Name": "Locksley Road #6049",
+        "Connections": {
+          "North": 6058,
+          "East": 6048,
+          "South": 6059,
+          "West": 6050
+        },
+        "Contents": [
+          {
+            "Text": "viscious jackyl #6029",
+            "Color": "green"
+          },
+          {
+            "Text": "viscious jackyl #6029",
+            "Color": "green"
+          },
+          {
+            "Text": "viscious jackyl #6029",
+            "Color": "green"
+          },
+          {
+            "Text": "viscious jackyl #6029",
+            "Color": "green"
+          },
+          {
+            "Text": "viscious jackyl #6029",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6050,
+        "Name": "Locksley Road #6050",
+        "Connections": {
+          "East": 6049,
+          "South": 6057,
+          "West": 6038
+        }
+      },
+      {
+        "Id": 6051,
+        "Name": "A turning point #6051",
+        "Connections": {
+          "South": 6045,
+          "West": 6052
+        }
+      },
+      {
+        "Id": 6052,
+        "Name": "The end of the dusty road #6052",
+        "Connections": {
+          "East": 6051,
+          "West": 6053
+        }
+      },
+      {
+        "Id": 6053,
+        "Name": "A dusty road in the forest #6053",
+        "Connections": {
+          "East": 6052,
+          "West": 6054
+        }
+      },
+      {
+        "Id": 6054,
+        "Name": "A dusty road in the forest #6054",
+        "Connections": {
+          "North": 6057,
+          "East": 6053,
+          "West": 6055
+        }
+      },
+      {
+        "Id": 6055,
+        "Name": "A dusty road in the forest #6055",
+        "Connections": {
+          "East": 6054,
+          "West": 6056
+        }
+      },
+      {
+        "Id": 6056,
+        "Name": "A turn in the path #6056",
+        "Connections": {
+          "East": 6055,
+          "South": 6036
+        }
+      },
+      {
+        "Id": 6057,
+        "Name": "House of the Sorcerer of Sherwood #6057",
+        "Connections": {
+          "South": 6054
+        },
+        "Contents": [
+          {
+            "Text": "Triton, The Great #6031",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6058,
+        "Name": "Sherwood Tavern #6058",
+        "Connections": {
+          "South": 6049
+        }
+      },
+      {
+        "Id": 6059,
+        "Name": "Before the gates of the great Cemetary of Sherwood #6059",
+        "Connections": {
+          "North": 6049,
+          "South": {
+            "RoomId": 6060,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Cemetary Guardian #6032",
+            "Color": "green"
+          },
+          {
+            "Text": "The Cemetary Guardian #6032",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6060,
+        "Name": "Inside the gates of the great Cemetary of Sherwood #6060",
+        "Connections": {
+          "North": {
+            "RoomId": 6059,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 6063,
+          "West": 6061
+        }
+      },
+      {
+        "Id": 6061,
+        "Name": "In the cemetary #6061",
+        "Connections": {
+          "East": 6060,
+          "West": 6062
+        }
+      },
+      {
+        "Id": 6062,
+        "Name": "King Locksley\u0027s grave #6062",
+        "Connections": {
+          "East": 6061
+        }
+      },
+      {
+        "Id": 6063,
+        "Name": "In the cemetary #6063",
+        "Connections": {
+          "South": 6064,
+          "West": 6060
+        }
+      },
+      {
+        "Id": 6064,
+        "Name": "In the cemetary #6064",
+        "Connections": {
+          "North": 6063,
+          "East": 6069,
+          "South": 6070,
+          "West": 6065,
+          "Down": 6068
+        }
+      },
+      {
+        "Id": 6065,
+        "Name": "The door to the great treasure room of Sherwood Cemetary #6065",
+        "Connections": {
+          "East": 6064,
+          "Down": {
+            "RoomId": 6066,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A Sherwood Knight #6033",
+            "Color": "red"
+          },
+          {
+            "Text": "A Sherwood Knight #6033",
+            "Color": "red"
+          },
+          {
+            "Text": "A Sherwood Knight #6033",
+            "Color": "red"
+          },
+          {
+            "Text": "A Sherwood Knight #6033",
+            "Color": "red"
+          },
+          {
+            "Text": "A Sherwood Knight #6033",
+            "Color": "red"
+          },
+          {
+            "Text": "A Sherwood Knight #6033",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 6066,
+        "Name": "The great Treasure room of Sherwood Cemetary #6066",
+        "Connections": {
+          "Up": 6065
+        }
+      },
+      {
+        "Id": 6067,
+        "Name": "The bottomless grave in the cemetary #6067",
+        "Connections": {}
+      },
+      {
+        "Id": 6068,
+        "Name": "The bottomless grave in the cemetary #6068",
+        "Connections": {}
+      },
+      {
+        "Id": 6069,
+        "Name": "The bottomless grave in the cemetary #6069",
+        "Connections": {}
+      },
+      {
+        "Id": 6070,
+        "Name": "The bottomless grave in the cemetary #6070",
+        "Connections": {}
+      },
+      {
+        "Id": 6071,
+        "Name": "Sherwood Inn #6071",
+        "Connections": {
+          "South": 6048
+        }
+      },
+      {
+        "Id": 6072,
+        "Name": "The Beginning #6072",
+        "Connections": {}
+      },
+      {
+        "Id": 6073,
+        "Name": "The Beginning #6073",
+        "Connections": {}
+      },
+      {
+        "Id": 6074,
+        "Name": "The Beginning #6074",
+        "Connections": {}
+      },
+      {
+        "Id": 6107,
+        "FrameColor": "blue",
+        "Name": "To HaonDorDark #6107",
+        "Color": "blue",
+        "Connections": {
+          "North": 6108,
+          "East": 6106,
+          "West": 6025
+        }
+      }
+    ]
+  }
+}

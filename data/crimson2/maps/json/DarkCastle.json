@@ -1,0 +1,972 @@
+{
+  "Area": {
+    "Name": "DarkCastle",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 19200,
+        "Name": "Standing before the Gates. #19200",
+        "Connections": {
+          "North": {
+            "RoomId": 19201,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 19264
+        },
+        "Contents": [
+          {
+            "Text": "The Gate Keeper #19232",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 19201,
+        "Name": "In a pool of Lava. #19201",
+        "Connections": {
+          "North": 19205,
+          "East": 19202,
+          "West": 19203
+        },
+        "Contents": [
+          {
+            "Text": "Lava Daemon #19201",
+            "Color": "red"
+          },
+          {
+            "Text": "Lava Daemon #19201",
+            "Color": "red"
+          },
+          {
+            "Text": "Lava Daemon #19201",
+            "Color": "red"
+          },
+          {
+            "Text": "Lava Daemon #19201",
+            "Color": "red"
+          },
+          {
+            "Text": "Lava Daemon #19201",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 19202,
+        "Name": "In a pool of Lava. #19202",
+        "Connections": {
+          "West": 19201,
+          "Down": 19204
+        }
+      },
+      {
+        "Id": 19203,
+        "Name": "In a pool of Lava. #19203",
+        "Connections": {
+          "East": 19201,
+          "Down": 19204
+        }
+      },
+      {
+        "Id": 19204,
+        "Name": "Swallowed Whole. #19204",
+        "Connections": {}
+      },
+      {
+        "Id": 19205,
+        "Name": "In a pool of Lava. #19205",
+        "Connections": {
+          "North": 19208,
+          "East": 19206,
+          "South": 19201
+        }
+      },
+      {
+        "Id": 19206,
+        "Name": "In a pool of Lava. #19206",
+        "Connections": {
+          "North": 19207,
+          "West": 19205
+        }
+      },
+      {
+        "Id": 19207,
+        "Name": "A Throne Room, made purely of Lava. #19207",
+        "Connections": {
+          "South": 19206
+        },
+        "Contents": [
+          {
+            "Text": "The King Daemon #19202",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19208,
+        "Name": "A Dusty Pathway, made solely of Skulls. #19208",
+        "Connections": {
+          "South": 19205,
+          "West": 19209
+        },
+        "Contents": [
+          {
+            "Text": "A Forgotten Spirit #19203",
+            "Color": "green"
+          },
+          {
+            "Text": "A Forgotten Spirit #19203",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19209,
+        "Name": "A Dusty Pathway, made solely of Skulls. #19209",
+        "Connections": {
+          "North": 19210,
+          "East": 19208
+        },
+        "Contents": [
+          {
+            "Text": "A Forgotten Spirit #19203",
+            "Color": "green"
+          },
+          {
+            "Text": "A Forgotten Spirit #19203",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19210,
+        "Name": "A Dusty Pathway, made solely of Skulls. #19210",
+        "Connections": {
+          "South": 19209,
+          "West": 19211
+        },
+        "Contents": [
+          {
+            "Text": "A Forgotten Spirit #19203",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19211,
+        "Name": "A Dusty Pathway, made solely of Skulls. #19211",
+        "Connections": {
+          "East": 19210,
+          "West": 19281,
+          "Down": {
+            "RoomId": 19212,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 19212,
+        "Name": "The Forgotten Pathway to the DarkCastle. #19212",
+        "Connections": {
+          "East": 19213,
+          "West": 19214
+        }
+      },
+      {
+        "Id": 19213,
+        "Name": "A Dusty Pathway, made solely of Skulls. #19213",
+        "Connections": {
+          "South": 19216,
+          "West": 19212
+        }
+      },
+      {
+        "Id": 19214,
+        "Name": "Before the Altar. #19214",
+        "Connections": {
+          "East": 19212,
+          "Down": 19215
+        }
+      },
+      {
+        "Id": 19215,
+        "Name": "The Altar of the Unforgiven. #19215",
+        "Connections": {
+          "Up": 19214
+        },
+        "Contents": [
+          {
+            "Text": "The Priest of Dark Souls #19204",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19216,
+        "Name": "A Dusty Pathway, made solely of Skulls. #19216",
+        "Connections": {
+          "North": 19213,
+          "East": 19217
+        }
+      },
+      {
+        "Id": 19217,
+        "Name": "The Pathway to DarkCastle. #19217",
+        "Connections": {
+          "South": 19218,
+          "West": 19216
+        }
+      },
+      {
+        "Id": 19218,
+        "Name": "The Pathway to DarkCastle. #19218",
+        "Connections": {
+          "North": 19217,
+          "East": 19220,
+          "West": 19219
+        }
+      },
+      {
+        "Id": 19219,
+        "Name": "A Hidden Pathway to the Temple. #19219",
+        "Connections": {
+          "East": 19218,
+          "South": 19221
+        }
+      },
+      {
+        "Id": 19220,
+        "Name": "The Pathway to DarkCastle. #19220",
+        "Connections": {
+          "West": 19218,
+          "Up": 19223
+        }
+      },
+      {
+        "Id": 19221,
+        "Name": "Standing Before a Large Temple. #19221",
+        "Connections": {
+          "North": 19219,
+          "South": 19222
+        }
+      },
+      {
+        "Id": 19222,
+        "Name": "Walking The Isle of the Dead. #19222",
+        "Connections": {
+          "North": 19221
+        },
+        "Contents": [
+          {
+            "Text": "Soul-less Damned #19206",
+            "Color": "green"
+          },
+          {
+            "Text": "Soul-less Damned #19206",
+            "Color": "green"
+          },
+          {
+            "Text": "Soul-less Damned #19206",
+            "Color": "green"
+          },
+          {
+            "Text": "Soul-less Damned #19206",
+            "Color": "green"
+          },
+          {
+            "Text": "Soul-less Damned #19206",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19223,
+        "Name": "The Ferry Docks of the DarkCastle #19223",
+        "Connections": {
+          "West": 19226,
+          "Down": 19220
+        }
+      },
+      {
+        "Id": 19224,
+        "Name": "The Crypt of Ereshkigal, Queen of the Damned #19224",
+        "Connections": {
+          "South": {
+            "RoomId": 19255,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Ereshkigal, Queen of the Damned #19207",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 19225,
+        "Name": "The Summoning Room of Spirits and Gods #19225",
+        "Connections": {
+          "Down": 19254
+        },
+        "Contents": [
+          {
+            "Text": "Marduk, the Deformed #19220",
+            "Color": "green"
+          },
+          {
+            "Text": "The King of the Gods, Anu #19219",
+            "Color": "green"
+          },
+          {
+            "Text": "Utu #19218",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19226,
+        "Name": "The Moat. #19226",
+        "Connections": {
+          "East": 19223,
+          "Down": 19227
+        }
+      },
+      {
+        "Id": 19227,
+        "Name": "The Moat. #19227",
+        "Connections": {
+          "North": 19228,
+          "Up": 19226
+        }
+      },
+      {
+        "Id": 19228,
+        "Name": "The Moat. #19228",
+        "Connections": {
+          "South": 19227,
+          "Up": 19229
+        }
+      },
+      {
+        "Id": 19229,
+        "Name": "The Port at the Entrance to DarkCastle. #19229",
+        "Connections": {
+          "North": 19230
+        }
+      },
+      {
+        "Id": 19230,
+        "Name": "At The Gates. #19230",
+        "Connections": {
+          "North": {
+            "RoomId": 19231,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 19229,
+          "Down": {
+            "RoomId": 19256,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Guardian of the Castle #19205",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 19231,
+        "Name": "Hallway of Horrors. #19231",
+        "Connections": {
+          "North": 19235,
+          "East": 19233,
+          "West": 19232
+        }
+      },
+      {
+        "Id": 19232,
+        "Name": "Hallway of Horrors. #19232",
+        "Connections": {
+          "North": 19236,
+          "East": 19231
+        }
+      },
+      {
+        "Id": 19233,
+        "Name": "Hallway of Horrors. #19233",
+        "Connections": {
+          "North": 19234,
+          "West": 19231
+        }
+      },
+      {
+        "Id": 19234,
+        "Name": "Hallway of Horrors. #19234",
+        "Connections": {
+          "South": 19233,
+          "West": 19235
+        }
+      },
+      {
+        "Id": 19235,
+        "Name": "Hallway of Horrors. #19235",
+        "Connections": {
+          "North": 19237,
+          "East": 19234,
+          "South": 19231,
+          "West": 19236
+        }
+      },
+      {
+        "Id": 19236,
+        "Name": "Hallway of Horrors. #19236",
+        "Connections": {
+          "East": 19235,
+          "South": 19232
+        }
+      },
+      {
+        "Id": 19237,
+        "Name": "Hallway of Horrors. #19237",
+        "Connections": {
+          "North": 19238,
+          "South": 19235
+        },
+        "Contents": [
+          {
+            "Text": "Arch-Angel Zadkiel #19208",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 19238,
+        "Name": "Roaming the Darkness. #19238",
+        "Connections": {
+          "North": 19245
+        }
+      },
+      {
+        "Id": 19239,
+        "Name": "Demon Chamber #19239",
+        "Connections": {
+          "West": 19245
+        },
+        "Contents": [
+          {
+            "Text": "Aziel #19209",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 19240,
+        "Name": "Demon Chamber #19240",
+        "Connections": {
+          "East": 19245
+        },
+        "Contents": [
+          {
+            "Text": "Ariel #19210",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 19241,
+        "Name": "Demon Chamber #19241",
+        "Connections": {
+          "West": 19246
+        },
+        "Contents": [
+          {
+            "Text": "Marbuel #19211",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 19242,
+        "Name": "Demon Chamber #19242",
+        "Connections": {
+          "East": 19246
+        },
+        "Contents": [
+          {
+            "Text": "Barbuel #19212",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 19243,
+        "Name": "Demon Chamber #19243",
+        "Connections": {
+          "West": 19247
+        },
+        "Contents": [
+          {
+            "Text": "Aziabel #19213",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 19244,
+        "Name": "Demon Chamber #19244",
+        "Connections": {
+          "East": 19247
+        },
+        "Contents": [
+          {
+            "Text": "Aniquel #19214",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 19245,
+        "Name": "Roaming the Darkness. #19245",
+        "Connections": {
+          "North": 19246,
+          "East": 19239,
+          "South": 19238,
+          "West": 19240
+        }
+      },
+      {
+        "Id": 19246,
+        "Name": "Roaming the Darkness. #19246",
+        "Connections": {
+          "North": 19247,
+          "East": 19241,
+          "South": 19245,
+          "West": 19242
+        }
+      },
+      {
+        "Id": 19247,
+        "Name": "Roaming the Darkness. #19247",
+        "Connections": {
+          "North": 19248,
+          "East": 19243,
+          "South": 19246,
+          "West": 19244
+        }
+      },
+      {
+        "Id": 19248,
+        "Name": "Roaming the Darkness. #19248",
+        "Connections": {
+          "North": 19248,
+          "East": 19248,
+          "South": 19249,
+          "West": 19248,
+          "Up": 19248,
+          "Down": 19248
+        },
+        "Contents": [
+          {
+            "Text": "Whispering Wind #19215",
+            "Color": "red"
+          },
+          {
+            "Text": "Whispering Wind #19215",
+            "Color": "red"
+          },
+          {
+            "Text": "Whispering Wind #19215",
+            "Color": "red"
+          },
+          {
+            "Text": "Whispering Wind #19215",
+            "Color": "red"
+          },
+          {
+            "Text": "Whispering Wind #19215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 19249,
+        "Name": "Roaming the Darkness. #19249",
+        "Connections": {
+          "North": 19247,
+          "East": 19246,
+          "South": 19248,
+          "West": 19245,
+          "Up": 19250,
+          "Down": 19249
+        }
+      },
+      {
+        "Id": 19250,
+        "Name": "Roaming the Darkness. #19250",
+        "Connections": {
+          "North": 19250,
+          "East": 19251,
+          "South": 19250,
+          "West": 19250,
+          "Up": 19250,
+          "Down": 19250
+        }
+      },
+      {
+        "Id": 19251,
+        "Name": "Roaming the Darkness. #19251",
+        "Connections": {
+          "North": 19252
+        }
+      },
+      {
+        "Id": 19252,
+        "Name": "Halls of Misery #19252",
+        "Connections": {
+          "North": 19253
+        }
+      },
+      {
+        "Id": 19253,
+        "Name": "Halls of Misery #19253",
+        "Connections": {
+          "South": 19252,
+          "West": 19254
+        }
+      },
+      {
+        "Id": 19254,
+        "Name": "Halls of Misery #19254",
+        "Connections": {
+          "East": 19253,
+          "Up": 19225,
+          "Down": 19255
+        }
+      },
+      {
+        "Id": 19255,
+        "Name": "Halls of Misery #19255",
+        "Connections": {
+          "North": {
+            "RoomId": 19224,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 19266,
+          "Up": 19254
+        }
+      },
+      {
+        "Id": 19256,
+        "Name": "Under the DarkCastle. #19256",
+        "Connections": {
+          "North": 19257
+        }
+      },
+      {
+        "Id": 19257,
+        "Name": "Under the DarkCastle. #19257",
+        "Connections": {
+          "North": 19258,
+          "South": 19256
+        }
+      },
+      {
+        "Id": 19258,
+        "Name": "Under the DarkCastle. #19258",
+        "Connections": {
+          "South": 19257,
+          "Up": 19259
+        }
+      },
+      {
+        "Id": 19259,
+        "Name": "The Light from Heaven. #19259",
+        "Connections": {
+          "Up": 19261
+        },
+        "Contents": [
+          {
+            "Text": "Uriel, Pillar of the Tree of Life #19216",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 19260,
+        "Name": "Behind the Crypt. #19260",
+        "Connections": {
+          "South": 19224
+        },
+        "Contents": [
+          {
+            "Text": "Nergal, the King of the Underworld #19217",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 19261,
+        "Name": "The Light from Heaven. #19261",
+        "Connections": {}
+      },
+      {
+        "Id": 19262,
+        "Name": "Descending From Heaven #19262",
+        "Connections": {
+          "Down": 19264
+        }
+      },
+      {
+        "Id": 19263,
+        "Name": "Descending From Heaven #19263",
+        "Connections": {
+          "Up": 19262,
+          "Down": 19200
+        }
+      },
+      {
+        "Id": 19264,
+        "Name": "Descending From Heaven #19264",
+        "Connections": {
+          "Up": 19262,
+          "Down": 19265
+        }
+      },
+      {
+        "Id": 19265,
+        "Name": "Descending From Heaven #19265",
+        "Connections": {
+          "Up": 19264,
+          "Down": 19200
+        }
+      },
+      {
+        "Id": 19266,
+        "Name": "Halls of Misery #19266",
+        "Connections": {
+          "North": 19255,
+          "South": 19267
+        }
+      },
+      {
+        "Id": 19267,
+        "Name": "Everything and Nothing #19267",
+        "Connections": {
+          "South": 19268
+        }
+      },
+      {
+        "Id": 19268,
+        "Name": "Everything and Nothing #19268",
+        "Connections": {
+          "North": 19267,
+          "South": 19269
+        }
+      },
+      {
+        "Id": 19269,
+        "Name": "Everything and Nothing #19269",
+        "Connections": {
+          "East": 19271,
+          "West": 19270,
+          "Up": 19273,
+          "Down": 19279
+        }
+      },
+      {
+        "Id": 19270,
+        "Name": "Marvayn\u0027s Crypt #19270",
+        "Connections": {
+          "North": 19277,
+          "East": 19269,
+          "South": 19278,
+          "West": 19280
+        },
+        "Contents": [
+          {
+            "Text": "The Vampire, Marvayn #19222",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19271,
+        "Name": "Aasmol\u0027s Tomb #19271",
+        "Connections": {
+          "North": 19275,
+          "East": 19274,
+          "South": 19276,
+          "West": 19269
+        },
+        "Contents": [
+          {
+            "Text": "Aasmol #19223",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19272,
+        "Name": "Karu\u0027s Crypt #19272",
+        "Connections": {
+          "South": 19273,
+          "Down": 19269
+        },
+        "Contents": [
+          {
+            "Text": "Karu, Vampire Lord #19221",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19273,
+        "Name": "Stlesht\u0027s Coffin #19273",
+        "Connections": {
+          "North": 19272,
+          "Down": 19269
+        },
+        "Contents": [
+          {
+            "Text": "Stlesht, wife of Karu #19224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19274,
+        "Name": "Gromphel\u0027s Tomb #19274",
+        "Connections": {
+          "West": 19271
+        },
+        "Contents": [
+          {
+            "Text": "Grolmphel #19225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19275,
+        "Name": "Former warlord, Sijmar\u0027s Crypt #19275",
+        "Connections": {
+          "South": 19271
+        },
+        "Contents": [
+          {
+            "Text": "Sijmar, the Undead #19226",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19276,
+        "Name": "Former Prince, Mol\u0027s Crypt #19276",
+        "Connections": {
+          "North": 19271
+        },
+        "Contents": [
+          {
+            "Text": "Mol #19227",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19277,
+        "Name": "Atir\u0027s Cradle of Souls #19277",
+        "Connections": {
+          "South": 19270
+        },
+        "Contents": [
+          {
+            "Text": "Atir, the Baby Princess #19229",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19278,
+        "Name": "Shilva\u0027s Mystical Crypt #19278",
+        "Connections": {
+          "North": 19270
+        },
+        "Contents": [
+          {
+            "Text": "The Mystical Vampire, Shilva #19228",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19279,
+        "Name": "The Tomb of the HonorGuard #19279",
+        "Connections": {
+          "Up": 19269
+        },
+        "Contents": [
+          {
+            "Text": "Maykvirs #19230",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19280,
+        "Name": "The Tomb of the Valiant #19280",
+        "Connections": {
+          "East": 19270
+        },
+        "Contents": [
+          {
+            "Text": "Kosis, the Valiant #19231",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19281,
+        "Name": "A Dusty Pathway, made solely of Skulls. #19281",
+        "Connections": {}
+      },
+      {
+        "Id": 19282,
+        "Name": "The End of Hope #19282",
+        "Connections": {
+          "North": 8988,
+          "Down": 19262
+        }
+      },
+      {
+        "Id": 8988,
+        "FrameColor": "blue",
+        "Name": "To TheFields #8988",
+        "Color": "blue",
+        "Connections": {
+          "North": 8987,
+          "South": 19282
+        }
+      }
+    ]
+  }
+}

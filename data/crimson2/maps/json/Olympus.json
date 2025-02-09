@@ -1,0 +1,941 @@
+{
+  "Area": {
+    "Name": "Olympus",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 15650,
+        "Name": "Island of ancient Greece #15650",
+        "Connections": {
+          "North": 15651
+        }
+      },
+      {
+        "Id": 15651,
+        "Name": "A pathway overgrown by vegetation #15651",
+        "Connections": {
+          "North": 15652,
+          "South": 15650
+        }
+      },
+      {
+        "Id": 15652,
+        "Name": "A pathway leading towards a clearing #15652",
+        "Connections": {
+          "North": 15653,
+          "South": 15651
+        }
+      },
+      {
+        "Id": 15653,
+        "Name": "Base of Mount Olympus #15653",
+        "Connections": {
+          "South": 15652,
+          "Up": 15654
+        }
+      },
+      {
+        "Id": 15654,
+        "Name": "Mountain face #15654",
+        "Connections": {
+          "Up": 15655,
+          "Down": 15653
+        }
+      },
+      {
+        "Id": 15655,
+        "Name": "Mountain face #15655",
+        "Connections": {
+          "Up": 15656,
+          "Down": 15654
+        }
+      },
+      {
+        "Id": 15656,
+        "Name": "Mountain face #15656",
+        "Connections": {
+          "North": 15658,
+          "Up": 15657,
+          "Down": 15655
+        }
+      },
+      {
+        "Id": 15657,
+        "Name": "Mountain face #15657",
+        "Connections": {
+          "Up": 15657,
+          "Down": 15656
+        }
+      },
+      {
+        "Id": 15658,
+        "Name": "Mountain Crevice #15658",
+        "Connections": {
+          "South": 15656,
+          "Up": 15659
+        }
+      },
+      {
+        "Id": 15659,
+        "Name": "Hidden passage #15659",
+        "Connections": {
+          "Up": 15660,
+          "Down": 15658
+        }
+      },
+      {
+        "Id": 15660,
+        "Name": "Hidden passage #15660",
+        "Connections": {
+          "Up": 15661,
+          "Down": 15659
+        }
+      },
+      {
+        "Id": 15661,
+        "Name": "Hidden passage #15661",
+        "Connections": {
+          "East": 15662,
+          "Down": 15660
+        }
+      },
+      {
+        "Id": 15662,
+        "Name": "Cave opening #15662",
+        "Connections": {
+          "East": 15663,
+          "West": 15661
+        }
+      },
+      {
+        "Id": 15663,
+        "Name": "Massive doors #15663",
+        "Connections": {
+          "East": {
+            "RoomId": 15664,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 15662
+        },
+        "Contents": [
+          {
+            "Text": "The Cyclopes #15650",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15664,
+        "Name": "Cloud Road #15664",
+        "Connections": {
+          "North": 15665,
+          "West": 15663
+        }
+      },
+      {
+        "Id": 15665,
+        "Name": "Cloud Road #15665",
+        "Connections": {
+          "North": 15666,
+          "South": 15664
+        }
+      },
+      {
+        "Id": 15666,
+        "Name": "Cloud Road #15666",
+        "Connections": {
+          "North": 15668,
+          "East": 15667,
+          "South": 15665
+        }
+      },
+      {
+        "Id": 15667,
+        "Name": "Forest of the Basilisks #15667",
+        "Connections": {
+          "East": 15719,
+          "West": 15666
+        },
+        "Contents": [
+          {
+            "Text": "Hercules #15652",
+            "Color": "green"
+          },
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          },
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15668,
+        "Name": "Cloud Road #15668",
+        "Connections": {
+          "North": 15669,
+          "South": 15666
+        }
+      },
+      {
+        "Id": 15669,
+        "Name": "Cloud Road #15669",
+        "Connections": {
+          "North": 15676,
+          "East": 15670,
+          "South": 15668
+        }
+      },
+      {
+        "Id": 15670,
+        "Name": "Storm Cloud #15670",
+        "Connections": {
+          "East": 15671,
+          "West": 15669
+        },
+        "Contents": [
+          {
+            "Text": "Fiery Titan #15653",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15671,
+        "Name": "Abyssal prison #15671",
+        "Connections": {
+          "North": 15672,
+          "East": 15674,
+          "South": 15673,
+          "West": 15670
+        },
+        "Contents": [
+          {
+            "Text": "A storm Titan #15654",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15672,
+        "Name": "Abyssal prison #15672",
+        "Connections": {
+          "South": 15671
+        },
+        "Contents": [
+          {
+            "Text": "Titan of the Earth #15655",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15673,
+        "Name": "Abyssal prison #15673",
+        "Connections": {
+          "North": 15671
+        },
+        "Contents": [
+          {
+            "Text": "The Titan of the Oceans fury #15656",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15674,
+        "Name": "Abyssal prison #15674",
+        "Connections": {
+          "East": {
+            "RoomId": 15675,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 15671
+        },
+        "Contents": [
+          {
+            "Text": "Abysmal Guardian #15657",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15675,
+        "Name": "Abyssal chamber #15675",
+        "Connections": {
+          "West": {
+            "RoomId": 15674,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Cronus #15658",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15676,
+        "Name": "Cloud Road #15676",
+        "Connections": {
+          "North": 15677,
+          "South": 15669
+        },
+        "Contents": [
+          {
+            "Text": "A Pegasus #15659",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15677,
+        "Name": "Cloud Road #15677",
+        "Connections": {
+          "North": 15678,
+          "South": 15676
+        }
+      },
+      {
+        "Id": 15678,
+        "Name": "Cloud Road #15678",
+        "Connections": {
+          "North": 15679,
+          "South": 15677
+        }
+      },
+      {
+        "Id": 15679,
+        "Name": "Gates of Olympus #15679",
+        "Connections": {
+          "North": {
+            "RoomId": 15680,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 15678
+        },
+        "Contents": [
+          {
+            "Text": "Hermes the Messenger #15660",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15680,
+        "Name": "Streets of Olympus #15680",
+        "Connections": {
+          "North": 15681,
+          "South": 15679
+        }
+      },
+      {
+        "Id": 15681,
+        "Name": "Streets of Olympus #15681",
+        "Connections": {
+          "North": 15682,
+          "South": 15680
+        },
+        "Contents": [
+          {
+            "Text": "A Olympus sentinel guard #15661",
+            "Color": "red"
+          },
+          {
+            "Text": "A Olympus sentinel guard #15661",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15682,
+        "Name": "Streets of Olympus #15682",
+        "Connections": {
+          "North": 15683,
+          "South": 15681
+        }
+      },
+      {
+        "Id": 15683,
+        "Name": "Streets of Olympus #15683",
+        "Connections": {
+          "North": 15685,
+          "East": 15684,
+          "South": 15682
+        }
+      },
+      {
+        "Id": 15684,
+        "Name": "The apothecary shop #15684",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "Hedes the apothecary #15662",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15685,
+        "Name": "Streets of Olympus #15685",
+        "Connections": {
+          "North": 15686,
+          "South": 15683
+        }
+      },
+      {
+        "Id": 15686,
+        "Name": "Streets of Olympus #15686",
+        "Connections": {
+          "North": 15689,
+          "South": 15685,
+          "West": 15687
+        }
+      },
+      {
+        "Id": 15687,
+        "Name": "Temple entrance #15687",
+        "Connections": {
+          "East": 15686,
+          "West": 15688
+        }
+      },
+      {
+        "Id": 15688,
+        "Name": "Hera\u0027s temple #15688",
+        "Connections": {
+          "East": 15687
+        },
+        "Contents": [
+          {
+            "Text": "Hera #15663",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15689,
+        "Name": "Streets of Olympus #15689",
+        "Connections": {
+          "North": 15701,
+          "South": 15686,
+          "West": 15690
+        }
+      },
+      {
+        "Id": 15690,
+        "Name": "Cobblestone path #15690",
+        "Connections": {
+          "North": 15691,
+          "East": 15689
+        }
+      },
+      {
+        "Id": 15691,
+        "Name": "Cobblestone path #15691",
+        "Connections": {
+          "East": 15692,
+          "South": 15690
+        }
+      },
+      {
+        "Id": 15692,
+        "Name": "Cobblestone path #15692",
+        "Connections": {
+          "North": 15693,
+          "West": 15691
+        }
+      },
+      {
+        "Id": 15693,
+        "Name": "Cobblestone path #15693",
+        "Connections": {
+          "North": 15694,
+          "South": 15692
+        }
+      },
+      {
+        "Id": 15694,
+        "Name": "Cave entrance #15694",
+        "Connections": {
+          "North": 15695,
+          "South": 15693
+        }
+      },
+      {
+        "Id": 15695,
+        "Name": "Fiery lava forge #15695",
+        "Connections": {
+          "South": 15694,
+          "Down": 15696
+        }
+      },
+      {
+        "Id": 15696,
+        "Name": "The hidden forge of Hephaestus #15696",
+        "Connections": {
+          "Up": 15697
+        },
+        "Contents": [
+          {
+            "Text": "Hephaestus, the master blacksmith #15664",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15697,
+        "Name": "A small shaft #15697",
+        "Connections": {
+          "Up": 15698,
+          "Down": 15696
+        }
+      },
+      {
+        "Id": 15698,
+        "Name": "A small shaft #15698",
+        "Connections": {
+          "Up": 15699,
+          "Down": 15697
+        }
+      },
+      {
+        "Id": 15699,
+        "Name": "A small shaft #15699",
+        "Connections": {
+          "Up": 15700,
+          "Down": 15698
+        }
+      },
+      {
+        "Id": 15700,
+        "Name": "Weight of the world #15700",
+        "Connections": {
+          "Down": 15699
+        },
+        "Contents": [
+          {
+            "Text": "Prometheus #15665",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15701,
+        "Name": "Streets of Olympus #15701",
+        "Connections": {
+          "North": 15709,
+          "East": 15702,
+          "South": 15689
+        },
+        "Contents": [
+          {
+            "Text": "A Olympus sentinel guard #15661",
+            "Color": "red"
+          },
+          {
+            "Text": "A Olympus sentinel guard #15661",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15702,
+        "Name": "A bloodied battlefield #15702",
+        "Connections": {
+          "North": 15703,
+          "East": 15705
+        },
+        "Contents": [
+          {
+            "Text": "A cloaked Assassin #15666",
+            "Color": "green"
+          },
+          {
+            "Text": "A cloaked Assassin #15666",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15703,
+        "Name": "A bloodied battlefield #15703",
+        "Connections": {
+          "East": 15704,
+          "South": 15702
+        },
+        "Contents": [
+          {
+            "Text": "A cloaked Assassin #15666",
+            "Color": "green"
+          },
+          {
+            "Text": "A cloaked Assassin #15666",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15704,
+        "Name": "A bloodied battlefield #15704",
+        "Connections": {
+          "East": 15706,
+          "South": 15705,
+          "West": 15703
+        },
+        "Contents": [
+          {
+            "Text": "A cloaked Assassin #15666",
+            "Color": "green"
+          },
+          {
+            "Text": "A cloaked Assassin #15666",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15705,
+        "Name": "A bloodied battlefield #15705",
+        "Connections": {
+          "North": 15704,
+          "West": 15702
+        },
+        "Contents": [
+          {
+            "Text": "A cloaked Assassin #15666",
+            "Color": "green"
+          },
+          {
+            "Text": "A cloaked Assassin #15666",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15706,
+        "Name": "A bloodied battlefield #15706",
+        "Connections": {
+          "East": 15707,
+          "West": 15704
+        },
+        "Contents": [
+          {
+            "Text": "A cloaked Assassin #15666",
+            "Color": "green"
+          },
+          {
+            "Text": "A cloaked Assassin #15666",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15707,
+        "Name": "A bloodied battlefield #15707",
+        "Connections": {
+          "West": 15706,
+          "Down": 15708
+        },
+        "Contents": [
+          {
+            "Text": "Ares the God of War #15667",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15708,
+        "Name": "A secret escape #15708",
+        "Connections": {}
+      },
+      {
+        "Id": 15709,
+        "Name": "Streets of Olympus #15709",
+        "Connections": {
+          "North": 15710,
+          "South": 15701
+        }
+      },
+      {
+        "Id": 15710,
+        "Name": "Temple entrance #15710",
+        "Connections": {
+          "North": 15711,
+          "South": 15709
+        }
+      },
+      {
+        "Id": 15711,
+        "Name": "Temple foyer #15711",
+        "Connections": {
+          "North": 15717,
+          "East": 15712,
+          "South": 15710,
+          "West": 15714
+        }
+      },
+      {
+        "Id": 15712,
+        "Name": "Beautiful Garden #15712",
+        "Connections": {
+          "North": 15713,
+          "West": 15711
+        }
+      },
+      {
+        "Id": 15713,
+        "Name": "Aphrodites abode #15713",
+        "Connections": {
+          "South": 15712
+        },
+        "Contents": [
+          {
+            "Text": "The Beautiful Goddess Aphrodite #15668",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15714,
+        "Name": "A small pathway #15714",
+        "Connections": {
+          "East": 15711,
+          "West": 15715
+        }
+      },
+      {
+        "Id": 15715,
+        "Name": "Base at the pool #15715",
+        "Connections": {
+          "East": 15714,
+          "Down": 15716
+        }
+      },
+      {
+        "Id": 15716,
+        "Name": "Underwater throne room #15716",
+        "Connections": {
+          "Up": 15715
+        },
+        "Contents": [
+          {
+            "Text": "Poseidon God of the Seas #15669",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15717,
+        "Name": "Throne room of Zeus #15717",
+        "Connections": {
+          "South": 15711,
+          "Down": 15718
+        },
+        "Contents": [
+          {
+            "Text": "Zeus king of the Gods #15670",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15718,
+        "Name": "Hidden treasure room #15718",
+        "Connections": {
+          "Up": 15717
+        }
+      },
+      {
+        "Id": 15719,
+        "Name": "Forest of the Basilisks #15719",
+        "Connections": {
+          "North": 15720,
+          "West": 15667
+        },
+        "Contents": [
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          },
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15720,
+        "Name": "Forest of the Basilisks #15720",
+        "Connections": {
+          "North": 15725,
+          "East": 15722,
+          "South": 15719,
+          "West": 15721
+        },
+        "Contents": [
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          },
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15721,
+        "Name": "Forest of the Basilisks #15721",
+        "Connections": {
+          "North": 15724,
+          "East": 15720,
+          "South": 15727
+        }
+      },
+      {
+        "Id": 15722,
+        "Name": "Forest of the Basilisks #15722",
+        "Connections": {
+          "North": 15723,
+          "South": 15726,
+          "West": 15720
+        }
+      },
+      {
+        "Id": 15723,
+        "Name": "Forest of the Basilisks #15723",
+        "Connections": {
+          "South": 15722
+        },
+        "Contents": [
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          },
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15724,
+        "Name": "Forest of the Basilisks #15724",
+        "Connections": {
+          "South": 15721
+        },
+        "Contents": [
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          },
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15725,
+        "Name": "A destroyed camp #15725",
+        "Connections": {
+          "North": 15728,
+          "South": 15720
+        },
+        "Contents": [
+          {
+            "Text": "A greater basilisk #15671",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15726,
+        "Name": "Forest of the Basilisks #15726",
+        "Connections": {
+          "North": 15722
+        },
+        "Contents": [
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          },
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15727,
+        "Name": "Forest of the Basilisks #15727",
+        "Connections": {
+          "North": 15721
+        },
+        "Contents": [
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          },
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          },
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          },
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          },
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          },
+          {
+            "Text": "A basilisk #15651",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15728,
+        "Name": "A nesting mound #15728",
+        "Connections": {
+          "South": 15725
+        },
+        "Contents": [
+          {
+            "Text": "A small basilisk #15672",
+            "Color": "red"
+          },
+          {
+            "Text": "A small basilisk #15672",
+            "Color": "red"
+          },
+          {
+            "Text": "A small basilisk #15672",
+            "Color": "red"
+          }
+        ]
+      }
+    ]
+  }
+}

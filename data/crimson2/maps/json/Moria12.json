@@ -1,0 +1,1194 @@
+{
+  "Area": {
+    "Name": "Moria12",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 4000,
+        "Name": "The hills #4000",
+        "Connections": {
+          "North": 4001,
+          "South": 3500
+        }
+      },
+      {
+        "Id": 4001,
+        "Name": "The hills #4001",
+        "Connections": {
+          "North": 4002,
+          "South": 4000
+        }
+      },
+      {
+        "Id": 4002,
+        "Name": "End of the path #4002",
+        "Connections": {
+          "North": 4010,
+          "South": 4001
+        }
+      },
+      {
+        "Id": 4003,
+        "Name": "The damp tunnel #4003",
+        "Connections": {
+          "North": 4022,
+          "South": 4004
+        },
+        "Contents": [
+          {
+            "Text": "The kobold hunter #4069",
+            "Color": "green"
+          },
+          {
+            "Text": "The kobold hunter #4069",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4004,
+        "Name": "Battle Scene #4004",
+        "Connections": {
+          "North": 4003,
+          "South": 4005
+        }
+      },
+      {
+        "Id": 4005,
+        "Name": "Kobold Barricade #4005",
+        "Connections": {
+          "North": 4004,
+          "South": 4006
+        }
+      },
+      {
+        "Id": 4006,
+        "Name": "Beyond the Barricade #4006",
+        "Connections": {
+          "North": 4005,
+          "East": 4007,
+          "South": 4009,
+          "West": 4008
+        }
+      },
+      {
+        "Id": 4007,
+        "Name": "Small Guard House #4007",
+        "Connections": {
+          "West": 4006
+        },
+        "Contents": [
+          {
+            "Text": "The kobold warrior #4066",
+            "Color": "green"
+          },
+          {
+            "Text": "The kobold warrior #4066",
+            "Color": "green"
+          },
+          {
+            "Text": "The kobold warrior #4066",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4008,
+        "Name": "Small Guard House #4008",
+        "Connections": {
+          "East": 4006
+        },
+        "Contents": [
+          {
+            "Text": "The kobold warrior #4066",
+            "Color": "green"
+          },
+          {
+            "Text": "The kobold warrior #4066",
+            "Color": "green"
+          },
+          {
+            "Text": "The kobold warrior #4066",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4009,
+        "Name": "Inside the Cavern #4009",
+        "Connections": {
+          "North": 4006,
+          "East": 4033,
+          "South": 4034,
+          "West": 4032
+        },
+        "Contents": [
+          {
+            "Text": "The female kobold #4070",
+            "Color": "green"
+          },
+          {
+            "Text": "The female kobold #4070",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4010,
+        "Name": "The cave #4010",
+        "Connections": {
+          "North": 4011,
+          "South": 4002
+        }
+      },
+      {
+        "Id": 4011,
+        "Name": "The tunnel #4011",
+        "Connections": {
+          "North": 4014,
+          "South": 4010
+        }
+      },
+      {
+        "Id": 4012,
+        "Name": "The tunnel #4012",
+        "Connections": {
+          "North": 4016,
+          "East": 4013
+        }
+      },
+      {
+        "Id": 4013,
+        "Name": "The tunnel #4013",
+        "Connections": {
+          "East": 4014,
+          "West": 4012
+        },
+        "Contents": [
+          {
+            "Text": "The living rock #4003",
+            "Color": "green"
+          },
+          {
+            "Text": "The living rock #4003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4014,
+        "Name": "The tunnel #4014",
+        "Connections": {
+          "North": 4018,
+          "East": 4015,
+          "South": 4011,
+          "West": 4013
+        }
+      },
+      {
+        "Id": 4015,
+        "Name": "The tunnel #4015",
+        "Connections": {
+          "North": 4019,
+          "East": 4049,
+          "West": 4014
+        },
+        "Contents": [
+          {
+            "Text": "The greelak #4001",
+            "Color": "green"
+          },
+          {
+            "Text": "the orc #4004",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4016,
+        "Name": "The large cave #4016",
+        "Connections": {
+          "East": 4017,
+          "South": 4012,
+          "West": 4023
+        }
+      },
+      {
+        "Id": 4017,
+        "Name": "The large cave #4017",
+        "Connections": {
+          "West": 4016
+        },
+        "Contents": [
+          {
+            "Text": "the centipede #4002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4018,
+        "Name": "The cave #4018",
+        "Connections": {
+          "North": 4025,
+          "South": 4014
+        }
+      },
+      {
+        "Id": 4019,
+        "Name": "The tunnel #4019",
+        "Connections": {
+          "North": 4026,
+          "South": 4015
+        }
+      },
+      {
+        "Id": 4020,
+        "Name": "The hole #4020",
+        "Connections": {
+          "North": 4027,
+          "Down": 4064
+        },
+        "Contents": [
+          {
+            "Text": "the centipede #4002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4021,
+        "Name": "The hole #4021",
+        "Connections": {
+          "East": 4022
+        },
+        "Contents": [
+          {
+            "Text": "The living rock #4003",
+            "Color": "green"
+          },
+          {
+            "Text": "The living rock #4003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4022,
+        "Name": "The damp tunnel #4022",
+        "Connections": {
+          "North": 4024,
+          "East": 4023,
+          "South": 4003,
+          "West": 4021
+        },
+        "Contents": [
+          {
+            "Text": "the orc #4005",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4023,
+        "Name": "The large cave #4023",
+        "Connections": {
+          "East": 4016,
+          "West": 4022
+        },
+        "Contents": [
+          {
+            "Text": "the centipede #4002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4024,
+        "Name": "The damp tunnel #4024",
+        "Connections": {
+          "South": 4022,
+          "West": 4059
+        }
+      },
+      {
+        "Id": 4025,
+        "Name": "The cave #4025",
+        "Connections": {
+          "North": 4096,
+          "East": 4026,
+          "South": 4018
+        },
+        "Contents": [
+          {
+            "Text": "The greelak #4001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4026,
+        "Name": "The many tunnels #4026",
+        "Connections": {
+          "North": 4028,
+          "East": 4027,
+          "South": 4019,
+          "West": 4025
+        }
+      },
+      {
+        "Id": 4027,
+        "Name": "The tunnel #4027",
+        "Connections": {
+          "North": 4029,
+          "South": 4020,
+          "West": 4026
+        },
+        "Contents": [
+          {
+            "Text": "The living rock #4003",
+            "Color": "green"
+          },
+          {
+            "Text": "The living rock #4003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4028,
+        "Name": "The smelly tunnel #4028",
+        "Connections": {
+          "North": 4030,
+          "South": 4026
+        },
+        "Contents": [
+          {
+            "Text": "the orc #4004",
+            "Color": "red"
+          },
+          {
+            "Text": "the orc #4004",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4029,
+        "Name": "The cave #4029",
+        "Connections": {
+          "North": 4031,
+          "South": 4027
+        }
+      },
+      {
+        "Id": 4030,
+        "Name": "The light cave #4030",
+        "Connections": {
+          "North": 4096,
+          "South": 4028,
+          "Up": 4075
+        },
+        "Contents": [
+          {
+            "Text": "the snake #4000",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4031,
+        "Name": "The valley #4031",
+        "Connections": {
+          "South": 4029
+        }
+      },
+      {
+        "Id": 4032,
+        "Name": "A Kobold House #4032",
+        "Connections": {
+          "East": 4009
+        },
+        "Contents": [
+          {
+            "Text": "The kobold child #4071",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4033,
+        "Name": "A Kobold House #4033",
+        "Connections": {
+          "West": 4009
+        }
+      },
+      {
+        "Id": 4034,
+        "Name": "Inside the Cavern #4034",
+        "Connections": {
+          "North": 4009,
+          "East": 4039,
+          "South": 4035,
+          "West": 4036
+        }
+      },
+      {
+        "Id": 4035,
+        "Name": "A Small Kobold House #4035",
+        "Connections": {
+          "North": 4034
+        },
+        "Contents": [
+          {
+            "Text": "The female kobold #4070",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4036,
+        "Name": "Path Through the Stalagmites #4036",
+        "Connections": {
+          "East": 4034,
+          "West": 4037
+        }
+      },
+      {
+        "Id": 4037,
+        "Name": "Large Kobold House #4037",
+        "Connections": {
+          "East": 4036,
+          "South": 4038
+        }
+      },
+      {
+        "Id": 4038,
+        "Name": "A Hidden Room #4038",
+        "Connections": {
+          "North": 4037
+        },
+        "Contents": [
+          {
+            "Text": "The kobold priestess #4067",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4039,
+        "Name": "Narrow Trail Through the Stalagmites #4039",
+        "Connections": {
+          "East": 4040,
+          "South": 4041,
+          "West": 4034
+        }
+      },
+      {
+        "Id": 4040,
+        "Name": "A Narrow Trail Through the Stalagmites #4040",
+        "Connections": {
+          "East": 4042,
+          "West": 4039
+        },
+        "Contents": [
+          {
+            "Text": "The female kobold #4070",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4041,
+        "Name": "A Small Kobold House #4041",
+        "Connections": {
+          "North": 4039
+        }
+      },
+      {
+        "Id": 4042,
+        "Name": "Home of the Chief #4042",
+        "Connections": {
+          "North": 4044,
+          "East": 4043,
+          "West": 4040
+        }
+      },
+      {
+        "Id": 4043,
+        "Name": "The Waiting Room #4043",
+        "Connections": {
+          "East": 4045,
+          "West": 4042
+        }
+      },
+      {
+        "Id": 4044,
+        "Name": "A Small Side Room #4044",
+        "Connections": {
+          "South": 4042
+        }
+      },
+      {
+        "Id": 4045,
+        "Name": "The Throne Room #4045",
+        "Connections": {
+          "North": 4046,
+          "West": 4043
+        },
+        "Contents": [
+          {
+            "Text": "The kobold shaman #4068",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4046,
+        "Name": "The Chief\u0027s Sleeping Quarters #4046",
+        "Connections": {
+          "South": 4045
+        },
+        "Contents": [
+          {
+            "Text": "The kobold chieftain #4065",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4047,
+        "Name": "Newly Carved Tunnel #4047",
+        "Connections": {
+          "East": 4048,
+          "West": 4049
+        }
+      },
+      {
+        "Id": 4048,
+        "Name": "Newly Carved Tunnel #4048",
+        "Connections": {
+          "South": 4077,
+          "West": 4047
+        }
+      },
+      {
+        "Id": 4049,
+        "Name": "A Carved Out Tunnel #4049",
+        "Connections": {
+          "East": 4047,
+          "West": 4015
+        }
+      },
+      {
+        "Id": 4050,
+        "Name": "The tunnel #4050",
+        "Connections": {
+          "North": 4400,
+          "East": 4051,
+          "South": 4053
+        },
+        "Contents": [
+          {
+            "Text": "the warrior #4051",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4051,
+        "Name": "The tunnel #4051",
+        "Connections": {
+          "East": 4052,
+          "West": 4050
+        }
+      },
+      {
+        "Id": 4052,
+        "Name": "The tunnel #4052",
+        "Connections": {
+          "East": 4100,
+          "West": 4051
+        },
+        "Contents": [
+          {
+            "Text": "the centipede #4054",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4053,
+        "Name": "The tunnel #4053",
+        "Connections": {
+          "North": 4050,
+          "East": 4054
+        },
+        "Contents": [
+          {
+            "Text": "the centipede #4054",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4054,
+        "Name": "The light cave #4054",
+        "Connections": {
+          "East": 4055,
+          "South": 4056,
+          "West": 4053
+        }
+      },
+      {
+        "Id": 4055,
+        "Name": "The maze #4055",
+        "Connections": {
+          "West": 4054
+        },
+        "Contents": [
+          {
+            "Text": "the warrior #4051",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4056,
+        "Name": "The light cave #4056",
+        "Connections": {
+          "North": 4054,
+          "South": 4061
+        },
+        "Contents": [
+          {
+            "Text": "the hobgoblin #4052",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4057,
+        "Name": "The maze #4057",
+        "Connections": {
+          "North": 4055,
+          "South": 4062
+        },
+        "Contents": [
+          {
+            "Text": "The vorlon #4056",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4058,
+        "Name": "The maze #4058",
+        "Connections": {
+          "South": 4063,
+          "West": 4057
+        },
+        "Contents": [
+          {
+            "Text": "the snake #4053",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4059,
+        "Name": "The tunnel #4059",
+        "Connections": {
+          "East": 4024
+        },
+        "Contents": [
+          {
+            "Text": "the hobgoblin #4052",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4060,
+        "Name": "The tunnel #4060",
+        "Connections": {
+          "East": 4061,
+          "West": 4059
+        },
+        "Contents": [
+          {
+            "Text": "the centipede #4054",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4061,
+        "Name": "The light cave #4061",
+        "Connections": {
+          "North": 4056,
+          "South": 4065,
+          "West": 4060
+        }
+      },
+      {
+        "Id": 4062,
+        "Name": "The maze #4062",
+        "Connections": {
+          "East": 4063,
+          "West": 4061
+        },
+        "Contents": [
+          {
+            "Text": "The kargros #4050",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4063,
+        "Name": "The maze #4063",
+        "Connections": {
+          "North": 4054,
+          "East": 4064
+        }
+      },
+      {
+        "Id": 4064,
+        "Name": "The tunnel #4064",
+        "Connections": {
+          "West": 4063,
+          "Up": 4020
+        },
+        "Contents": [
+          {
+            "Text": "the hobgoblin #4055",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4065,
+        "Name": "The maze #4065",
+        "Connections": {
+          "North": 4061,
+          "East": 4066
+        },
+        "Contents": [
+          {
+            "Text": "the hobgoblin #4052",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4066,
+        "Name": "The maze #4066",
+        "Connections": {
+          "North": 4062,
+          "East": 4067,
+          "South": 4069
+        }
+      },
+      {
+        "Id": 4067,
+        "Name": "The maze #4067",
+        "Connections": {
+          "North": 4063,
+          "West": 4066
+        },
+        "Contents": [
+          {
+            "Text": "The vorlon #4056",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4068,
+        "Name": "The large cave #4068",
+        "Connections": {
+          "East": 4069,
+          "South": 4070
+        },
+        "Contents": [
+          {
+            "Text": "the snake #4053",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4069,
+        "Name": "The large cave #4069",
+        "Connections": {
+          "North": 4066,
+          "South": 4071,
+          "West": 4068
+        }
+      },
+      {
+        "Id": 4070,
+        "Name": "The large cave #4070",
+        "Connections": {
+          "North": 4068,
+          "East": 4071
+        },
+        "Contents": [
+          {
+            "Text": "the warrior #4051",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4071,
+        "Name": "The large cave #4071",
+        "Connections": {
+          "North": 4069,
+          "East": 4072,
+          "West": 4070
+        },
+        "Contents": [
+          {
+            "Text": "the hobgoblin #4055",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4072,
+        "Name": "The tunnel #4072",
+        "Connections": {
+          "East": 4073,
+          "South": 4074,
+          "West": 4071
+        }
+      },
+      {
+        "Id": 4073,
+        "Name": "End of tunnel #4073",
+        "Connections": {
+          "West": 4072
+        },
+        "Contents": [
+          {
+            "Text": "the warrior #4051",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4074,
+        "Name": "The hole #4074",
+        "Connections": {
+          "North": 4072
+        }
+      },
+      {
+        "Id": 4075,
+        "Name": "Abandoned Mineshaft #4075",
+        "Connections": {
+          "Up": 4076,
+          "Down": 4030
+        }
+      },
+      {
+        "Id": 4076,
+        "Name": "Abandoned Mineshaft #4076",
+        "Connections": {
+          "Up": 4500,
+          "Down": 4075
+        }
+      },
+      {
+        "Id": 4077,
+        "Name": "Newly Carved Tunnel #4077",
+        "Connections": {
+          "North": 4048,
+          "East": 4078
+        }
+      },
+      {
+        "Id": 4078,
+        "Name": "Newly Carved Tunnel #4078",
+        "Connections": {
+          "North": 4079,
+          "West": 4077
+        }
+      },
+      {
+        "Id": 4079,
+        "Name": "Newly Carved Tunnel #4079",
+        "Connections": {
+          "North": 4080,
+          "South": 4078
+        }
+      },
+      {
+        "Id": 4080,
+        "Name": "A Sharp Turn #4080",
+        "Connections": {
+          "East": 4081,
+          "South": 4079
+        }
+      },
+      {
+        "Id": 4081,
+        "Name": "Unnatural Cavern #4081",
+        "Connections": {
+          "East": 4084,
+          "South": 4082,
+          "West": 4080
+        }
+      },
+      {
+        "Id": 4082,
+        "Name": "Unnatural Cavern #4082",
+        "Connections": {
+          "North": 4081,
+          "East": 4083
+        }
+      },
+      {
+        "Id": 4083,
+        "Name": "Unnatural Cavern #4083",
+        "Connections": {
+          "North": 4084,
+          "West": 4082
+        },
+        "Contents": [
+          {
+            "Text": "An orc worker #4074",
+            "Color": "green"
+          },
+          {
+            "Text": "An orc worker #4074",
+            "Color": "green"
+          },
+          {
+            "Text": "An orc worker #4074",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4084,
+        "Name": "Unnatural Cavern #4084",
+        "Connections": {
+          "East": 4085,
+          "South": 4083,
+          "West": 4081
+        },
+        "Contents": [
+          {
+            "Text": "The orc sentinel #4060",
+            "Color": "green"
+          },
+          {
+            "Text": "The orc sentinel #4060",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4085,
+        "Name": "Small Side Tunnel #4085",
+        "Connections": {
+          "East": 4086,
+          "West": 4084
+        }
+      },
+      {
+        "Id": 4086,
+        "Name": "Turn in the Tunnel #4086",
+        "Connections": {
+          "North": 4087,
+          "West": 4085
+        },
+        "Contents": [
+          {
+            "Text": "The orc sentinel #4060",
+            "Color": "green"
+          },
+          {
+            "Text": "The orc sentinel #4060",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4087,
+        "Name": "Planning Room #4087",
+        "Connections": {
+          "South": 4086
+        },
+        "Contents": [
+          {
+            "Text": "The orc chieftain #4057",
+            "Color": "green"
+          },
+          {
+            "Text": "The orc witchdoctor #4059",
+            "Color": "green"
+          },
+          {
+            "Text": "The orc shaman #4058",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4088,
+        "Name": "Orc Area #4088",
+        "Connections": {}
+      },
+      {
+        "Id": 4089,
+        "Name": "Orc Area #4089",
+        "Connections": {}
+      },
+      {
+        "Id": 4090,
+        "Name": "Orc Area #4090",
+        "Connections": {}
+      },
+      {
+        "Id": 4091,
+        "Name": "Orc Area #4091",
+        "Connections": {}
+      },
+      {
+        "Id": 4092,
+        "Name": "Orc Area #4092",
+        "Connections": {}
+      },
+      {
+        "Id": 4093,
+        "Name": "Orc Area #4093",
+        "Connections": {}
+      },
+      {
+        "Id": 4094,
+        "Name": "Orc Area #4094",
+        "Connections": {}
+      },
+      {
+        "Id": 4095,
+        "Name": "The Pits of Despair #4095",
+        "Connections": {}
+      },
+      {
+        "Id": 4096,
+        "Name": "Entrance to the Temple #4096",
+        "Connections": {
+          "North": 4095,
+          "East": 4095,
+          "West": 4095,
+          "Up": 4097
+        }
+      },
+      {
+        "Id": 4097,
+        "Name": "Throne Room of the Hobgoblin King #4097",
+        "Connections": {
+          "North": 4095,
+          "East": 4095,
+          "South": 4095,
+          "West": 4095,
+          "Up": 4098
+        },
+        "Contents": [
+          {
+            "Text": "Hagus, the hobgoblin king #4087",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4098,
+        "Name": "Temple of the Kobold Lord #4098",
+        "Connections": {
+          "North": 4095,
+          "East": 4095,
+          "South": 4095,
+          "West": 4095,
+          "Up": 4099
+        },
+        "Contents": [
+          {
+            "Text": "Spline, lord of the kobolds #4086",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4099,
+        "Name": "Throne of the Orc God #4099",
+        "Connections": {
+          "North": 4095,
+          "East": 4095,
+          "South": 4095,
+          "West": 4095,
+          "Up": 4095,
+          "Down": 4115
+        },
+        "Contents": [
+          {
+            "Text": "Groll, the orc god #4085",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3500,
+        "FrameColor": "blue",
+        "Name": "To TheRoads #3500",
+        "Color": "blue",
+        "Connections": {
+          "North": 4000,
+          "South": 3501,
+          "West": 3414
+        }
+      },
+      {
+        "Id": 4400,
+        "FrameColor": "blue",
+        "Name": "To Necropolis #4400",
+        "Color": "blue",
+        "Connections": {
+          "North": 4401,
+          "South": 4050
+        }
+      },
+      {
+        "Id": 4100,
+        "FrameColor": "blue",
+        "Name": "To Moria34 #4100",
+        "Color": "blue",
+        "Connections": {
+          "West": 4101
+        }
+      },
+      {
+        "Id": 4500,
+        "FrameColor": "blue",
+        "Name": "To SilverDale #4500",
+        "Color": "blue",
+        "Connections": {
+          "North": 4501,
+          "Down": 4076
+        }
+      },
+      {
+        "Id": 4115,
+        "FrameColor": "blue",
+        "Name": "To Moria34 #4115",
+        "Color": "blue",
+        "Connections": {
+          "Up": 4099
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "Area": {
+    "Name": "Phaze",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 17700,
+        "Name": "At the edge of the forest. #17700",
+        "Connections": {
+          "North": 17748,
+          "East": 17701
+        }
+      },
+      {
+        "Id": 17701,
+        "Name": "Nearing the Blue Demenses. #17701",
+        "Connections": {
+          "South": 17702,
+          "West": 17700
+        }
+      },
+      {
+        "Id": 17702,
+        "Name": "Nearing the Blue Demenses. #17702",
+        "Connections": {
+          "North": 17701,
+          "South": 17703
+        }
+      },
+      {
+        "Id": 17703,
+        "Name": "Near the Blue Demenses. #17703",
+        "Connections": {
+          "North": 17702,
+          "South": 17704
+        }
+      },
+      {
+        "Id": 17704,
+        "Name": "On a bridge. #17704",
+        "Connections": {
+          "North": 17703,
+          "South": 17705
+        }
+      },
+      {
+        "Id": 17705,
+        "Name": "Entrance to the Blue Demenses. #17705",
+        "Connections": {
+          "North": 17704,
+          "East": 17725,
+          "South": 17706
+        }
+      },
+      {
+        "Id": 17706,
+        "Name": "The main room. #17706",
+        "Connections": {
+          "North": 17705,
+          "East": 17718,
+          "South": 17729,
+          "West": 17707
+        }
+      },
+      {
+        "Id": 17707,
+        "Name": "The western hall. #17707",
+        "Connections": {
+          "North": 17709,
+          "East": 17706,
+          "South": 17710,
+          "West": 17708
+        }
+      },
+      {
+        "Id": 17708,
+        "Name": "The western hall. #17708",
+        "Connections": {
+          "North": 17711,
+          "East": 17707,
+          "South": 17712,
+          "West": 17713
+        }
+      },
+      {
+        "Id": 17709,
+        "Name": "A room. #17709",
+        "Connections": {
+          "South": 17707
+        },
+        "Contents": [
+          {
+            "Text": "A Werewolf #17709",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17710,
+        "Name": "A room. #17710",
+        "Connections": {
+          "North": 17707
+        },
+        "Contents": [
+          {
+            "Text": "A Werewolf #17710",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17711,
+        "Name": "A room. #17711",
+        "Connections": {
+          "South": 17708
+        },
+        "Contents": [
+          {
+            "Text": "A Unicorn #17708",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17712,
+        "Name": "A room. #17712",
+        "Connections": {
+          "North": 17708
+        },
+        "Contents": [
+          {
+            "Text": "A Unicorn #17707",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17713,
+        "Name": "The stairs. #17713",
+        "Connections": {
+          "East": 17708,
+          "Up": 17714
+        }
+      },
+      {
+        "Id": 17714,
+        "Name": "The stairs. #17714",
+        "Connections": {
+          "Up": 17715,
+          "Down": 17713
+        }
+      },
+      {
+        "Id": 17715,
+        "Name": "The stairs. #17715",
+        "Connections": {
+          "Up": 17716,
+          "Down": 17714
+        }
+      },
+      {
+        "Id": 17716,
+        "Name": "The top of the tower. #17716",
+        "Connections": {
+          "West": 17717,
+          "Down": 17715
+        }
+      },
+      {
+        "Id": 17717,
+        "Name": "A fall. #17717",
+        "Connections": {}
+      },
+      {
+        "Id": 17718,
+        "Name": "The eastern hall. #17718",
+        "Connections": {
+          "North": 17719,
+          "East": 17721,
+          "South": 17720,
+          "West": 17706
+        }
+      },
+      {
+        "Id": 17719,
+        "Name": "A room. #17719",
+        "Connections": {
+          "South": 17718
+        },
+        "Contents": [
+          {
+            "Text": "A Werewolf #17711",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17720,
+        "Name": "A room. #17720",
+        "Connections": {
+          "North": 17718
+        },
+        "Contents": [
+          {
+            "Text": "A Werewolf #17715",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17721,
+        "Name": "The eastern hall. #17721",
+        "Connections": {
+          "North": 17722,
+          "East": 17724,
+          "South": 17723,
+          "West": 17718
+        },
+        "Contents": [
+          {
+            "Text": "A Werewolf #17716",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17722,
+        "Name": "A room. #17722",
+        "Connections": {
+          "South": 17721
+        },
+        "Contents": [
+          {
+            "Text": "A Unicorn #17713",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17723,
+        "Name": "A room. #17723",
+        "Connections": {
+          "North": 17721
+        },
+        "Contents": [
+          {
+            "Text": "A Unicorn #17714",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17724,
+        "Name": "The end of the eastern hall. #17724",
+        "Connections": {
+          "West": 17721
+        }
+      },
+      {
+        "Id": 17725,
+        "Name": "Stairs up the tower. #17725",
+        "Connections": {
+          "West": 17705,
+          "Up": 17726
+        }
+      },
+      {
+        "Id": 17726,
+        "Name": "Stairs up the tower. #17726",
+        "Connections": {
+          "Up": 17727,
+          "Down": 17725
+        }
+      },
+      {
+        "Id": 17727,
+        "Name": "Stairs up the tower. #17727",
+        "Connections": {
+          "Up": 17728,
+          "Down": 17726
+        }
+      },
+      {
+        "Id": 17728,
+        "Name": "Top of the tower. #17728",
+        "Connections": {
+          "Down": 17727
+        },
+        "Contents": [
+          {
+            "Text": "Fleta #17705",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17729,
+        "Name": "The main room. #17729",
+        "Connections": {
+          "North": 17706,
+          "Up": 17730
+        }
+      },
+      {
+        "Id": 17730,
+        "Name": "Stairs to the second floor. #17730",
+        "Connections": {
+          "Up": 17731,
+          "Down": 17729
+        }
+      },
+      {
+        "Id": 17731,
+        "Name": "Stairs to the second floor. #17731",
+        "Connections": {
+          "Up": 17732,
+          "Down": 17730
+        }
+      },
+      {
+        "Id": 17732,
+        "Name": "The second floor. #17732",
+        "Connections": {
+          "North": 17744,
+          "East": 17739,
+          "West": 17733,
+          "Down": 17731
+        }
+      },
+      {
+        "Id": 17733,
+        "Name": "The western hall. #17733",
+        "Connections": {
+          "North": 17735,
+          "East": 17732,
+          "South": 17736,
+          "West": 17734
+        },
+        "Contents": [
+          {
+            "Text": "The Ice Demon #17706",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17734,
+        "Name": "The western hall. #17734",
+        "Connections": {
+          "North": 17738,
+          "East": 17733,
+          "South": 17737
+        },
+        "Contents": [
+          {
+            "Text": "Bane #17712",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17735,
+        "Name": "The kitchen. #17735",
+        "Connections": {
+          "South": 17733,
+          "West": 17738
+        }
+      },
+      {
+        "Id": 17736,
+        "Name": "A room. #17736",
+        "Connections": {
+          "North": 17733
+        }
+      },
+      {
+        "Id": 17737,
+        "Name": "A room. #17737",
+        "Connections": {
+          "North": 17734
+        },
+        "Contents": [
+          {
+            "Text": "The Ice Demon #17704",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17738,
+        "Name": "The pantry. #17738",
+        "Connections": {
+          "East": 17735,
+          "South": 17734
+        }
+      },
+      {
+        "Id": 17739,
+        "Name": "The eastern hall. #17739",
+        "Connections": {
+          "North": 17742,
+          "East": 17740,
+          "South": 17743,
+          "West": 17732
+        }
+      },
+      {
+        "Id": 17740,
+        "Name": "The eastern hall. #17740",
+        "Connections": {
+          "North": 17741,
+          "West": 17739
+        }
+      },
+      {
+        "Id": 17741,
+        "Name": "A room. #17741",
+        "Connections": {
+          "South": 17740
+        },
+        "Contents": [
+          {
+            "Text": "Neysa #17702",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17742,
+        "Name": "Lord and Lady Blue\u0027s room. #17742",
+        "Connections": {
+          "South": 17739
+        },
+        "Contents": [
+          {
+            "Text": "the Lady Blue #17701",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17743,
+        "Name": "Stile\u0027s study. #17743",
+        "Connections": {
+          "North": 17739
+        },
+        "Contents": [
+          {
+            "Text": "Stile #17700",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17744,
+        "Name": "Flach\u0027s room. #17744",
+        "Connections": {
+          "South": 17732
+        },
+        "Contents": [
+          {
+            "Text": "Flach #17703",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17745,
+        "Name": "Home of Sarel. #17745",
+        "Connections": {
+          "East": 17746,
+          "West": 17747,
+          "Up": 17700
+        }
+      },
+      {
+        "Id": 17746,
+        "Name": "Home of Sarel. #17746",
+        "Connections": {
+          "West": 17745
+        }
+      },
+      {
+        "Id": 17747,
+        "Name": "Home of Sarel. #17747",
+        "Connections": {
+          "East": 17745
+        }
+      },
+      {
+        "Id": 17748,
+        "Name": "In the forest. #17748",
+        "Connections": {
+          "North": 17749,
+          "South": 17700
+        }
+      },
+      {
+        "Id": 17749,
+        "Name": "In the dark forest. #17749",
+        "Connections": {
+          "East": 6154,
+          "South": 17748
+        }
+      },
+      {
+        "Id": 6154,
+        "FrameColor": "blue",
+        "Name": "To HaonDorDark #6154",
+        "Color": "blue",
+        "Connections": {
+          "North": 6153,
+          "West": 17749
+        }
+      }
+    ]
+  }
+}

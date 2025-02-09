@@ -1,0 +1,1286 @@
+{
+  "Area": {
+    "Name": "NumidianSwamps",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 2300,
+        "Name": "Swamps on Numidia. #2300",
+        "Connections": {}
+      },
+      {
+        "Id": 2301,
+        "Name": "Embankment around the swamp. #2301",
+        "Connections": {
+          "South": 7526,
+          "West": 2302
+        }
+      },
+      {
+        "Id": 2302,
+        "Name": "Edge of the swamp. #2302",
+        "Connections": {
+          "North": 2303,
+          "East": 2301,
+          "West": 2306
+        },
+        "Contents": [
+          {
+            "Text": "the poisonous plant #2306",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2303,
+        "Name": "In the Numidian Swamps. #2303",
+        "Connections": {
+          "North": 2304,
+          "South": 2302
+        },
+        "Contents": [
+          {
+            "Text": "a swamp snake #2301",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2304,
+        "Name": "In the Numidian Swamps. #2304",
+        "Connections": {
+          "South": 2303,
+          "West": 2308
+        }
+      },
+      {
+        "Id": 2305,
+        "Name": "In the Numidian Swamps. #2305",
+        "Connections": {
+          "North": 2306,
+          "West": 2312
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          },
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2306,
+        "Name": "In the Numidian Swamps. #2306",
+        "Connections": {
+          "North": 2307,
+          "East": 2302,
+          "South": 2305,
+          "West": 2313
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2307,
+        "Name": "In the Numidian Swamps. #2307",
+        "Connections": {
+          "South": 2306,
+          "West": 2314
+        }
+      },
+      {
+        "Id": 2308,
+        "Name": "In the Numidian Swamps. #2308",
+        "Connections": {
+          "East": 2304,
+          "West": 2315
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2309,
+        "Name": "In the Numidian Swamps. #2309",
+        "Connections": {
+          "West": 2316
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2310,
+        "Name": "In the Numidian Swamps. #2310",
+        "Connections": {
+          "North": 2311,
+          "West": 2318
+        }
+      },
+      {
+        "Id": 2311,
+        "Name": "In the Numidian Swamps. #2311",
+        "Connections": {
+          "North": 2312,
+          "South": 2310,
+          "West": 2319
+        },
+        "Contents": [
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          },
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          },
+          {
+            "Text": "the poisonous plant #2307",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2312,
+        "Name": "In the Numidian Swamps. #2312",
+        "Connections": {
+          "North": 2313,
+          "East": 2305,
+          "South": 2311,
+          "West": 2320
+        },
+        "Contents": [
+          {
+            "Text": "a swamp snake #2301",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2313,
+        "Name": "In the Numidian Swamps. #2313",
+        "Connections": {
+          "East": 2306,
+          "South": 2312
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2314,
+        "Name": "In the Numidian Swamps. #2314",
+        "Connections": {
+          "North": 2315,
+          "East": 2307,
+          "West": 2322
+        },
+        "Contents": [
+          {
+            "Text": "the poisonous plant #2307",
+            "Color": "red"
+          },
+          {
+            "Text": "a rat #2312",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2315,
+        "Name": "In the Numidian Swamps. #2315",
+        "Connections": {
+          "North": 2316,
+          "East": 2308,
+          "South": 2314,
+          "West": 2323
+        },
+        "Contents": [
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2316,
+        "Name": "In the Numidian Swamps. #2316",
+        "Connections": {
+          "North": 2317,
+          "East": 2309,
+          "South": 2315,
+          "West": 2324
+        },
+        "Contents": [
+          {
+            "Text": "a swamp snake #2301",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2317,
+        "Name": "In the Numidian Swamps. #2317",
+        "Connections": {
+          "South": 2316
+        },
+        "Contents": [
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          },
+          {
+            "Text": "the poisonous plant #2306",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2318,
+        "Name": "Embankment around the swamp. #2318",
+        "Connections": {
+          "North": 2319,
+          "East": 2310
+        },
+        "Contents": [
+          {
+            "Text": "a swamp snake #2301",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2319,
+        "Name": "In the Numidian Swamps. #2319",
+        "Connections": {
+          "East": 2311,
+          "South": 2318
+        }
+      },
+      {
+        "Id": 2320,
+        "Name": "In the Numidian Swamps. #2320",
+        "Connections": {
+          "East": 2312,
+          "West": 2326
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          },
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          },
+          {
+            "Text": "the poisonous plant #2307",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2321,
+        "Name": "In the Numidian Swamps. #2321",
+        "Connections": {
+          "North": 2322
+        },
+        "Contents": [
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          },
+          {
+            "Text": "the poisonous plant #2307",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2322,
+        "Name": "In the Numidian Swamps. #2322",
+        "Connections": {
+          "East": 2314,
+          "South": 2321,
+          "West": 2328
+        }
+      },
+      {
+        "Id": 2323,
+        "Name": "In the Numidian Swamps. #2323",
+        "Connections": {
+          "North": 2324,
+          "East": 2315
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2324,
+        "Name": "In the Numidian Swamps. #2324",
+        "Connections": {
+          "East": 2316,
+          "South": 2323,
+          "West": 2330
+        }
+      },
+      {
+        "Id": 2325,
+        "Name": "In the Numidian Swamps. #2325",
+        "Connections": {
+          "West": 2331
+        }
+      },
+      {
+        "Id": 2326,
+        "Name": "In the Numidian Swamps. #2326",
+        "Connections": {
+          "North": 2327,
+          "East": 2320,
+          "West": 2333
+        }
+      },
+      {
+        "Id": 2327,
+        "Name": "In the Numidian Swamps. #2327",
+        "Connections": {
+          "North": 2328,
+          "South": 2326
+        }
+      },
+      {
+        "Id": 2328,
+        "Name": "In the Numidian Swamps. #2328",
+        "Connections": {
+          "North": 2329,
+          "East": 2322,
+          "South": 2327,
+          "West": 2335
+        },
+        "Contents": [
+          {
+            "Text": "a swamp snake #2301",
+            "Color": "red"
+          },
+          {
+            "Text": "the poisonous plant #2306",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2329,
+        "Name": "In the Numidian Swamps. #2329",
+        "Connections": {
+          "North": 2330,
+          "South": 2328
+        },
+        "Contents": [
+          {
+            "Text": "the poisonous plant #2306",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2330,
+        "Name": "In the Numidian Swamps. #2330",
+        "Connections": {
+          "North": 2331,
+          "East": 2324,
+          "South": 2329
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          },
+          {
+            "Text": "the poisonous plant #2306",
+            "Color": "red"
+          },
+          {
+            "Text": "the poisonous plant #2307",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2331,
+        "Name": "In the Numidian Swamps. #2331",
+        "Connections": {
+          "North": 2332,
+          "East": 2325,
+          "South": 2330
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2332,
+        "Name": "In the Numidian Swamps. #2332",
+        "Connections": {
+          "South": 2331,
+          "West": 2339
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2333,
+        "Name": "In the Numidian Swamps. #2333",
+        "Connections": {
+          "North": 2334,
+          "East": 2326
+        },
+        "Contents": [
+          {
+            "Text": "a swamp snake #2301",
+            "Color": "red"
+          },
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          },
+          {
+            "Text": "the poisonous plant #2306",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2334,
+        "Name": "In the Numidian Swamps. #2334",
+        "Connections": {
+          "North": 2335,
+          "South": 2333,
+          "West": 2340
+        },
+        "Contents": [
+          {
+            "Text": "a swamp snake #2301",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2335,
+        "Name": "Edge of the swamp. #2335",
+        "Connections": {
+          "North": 2336,
+          "East": 2328,
+          "South": 2334,
+          "West": 2341
+        }
+      },
+      {
+        "Id": 2336,
+        "Name": "On a dark murky hill. #2336",
+        "Connections": {
+          "South": 2335,
+          "West": 2342
+        }
+      },
+      {
+        "Id": 2337,
+        "Name": "On a dark murky hill. #2337",
+        "Connections": {
+          "North": 2338
+        }
+      },
+      {
+        "Id": 2338,
+        "Name": "On a dark murky hill. #2338",
+        "Connections": {
+          "South": 2337,
+          "West": 2344
+        },
+        "Contents": [
+          {
+            "Text": "an undead tree #2311",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2339,
+        "Name": "In the Numidian Swamps. #2339",
+        "Connections": {
+          "East": 2332,
+          "West": 2345
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          },
+          {
+            "Text": "a swamp snake #2301",
+            "Color": "red"
+          },
+          {
+            "Text": "a rat #2312",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2340,
+        "Name": "In the Numidian Swamps. #2340",
+        "Connections": {
+          "North": 2341,
+          "East": 2334,
+          "West": 2348
+        },
+        "Contents": [
+          {
+            "Text": "the poisonous plant #2306",
+            "Color": "red"
+          },
+          {
+            "Text": "the poisonous plant #2307",
+            "Color": "red"
+          },
+          {
+            "Text": "a rat #2312",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2341,
+        "Name": "In the Numidian Swamps. #2341",
+        "Connections": {
+          "East": 2335,
+          "South": 2340
+        }
+      },
+      {
+        "Id": 2342,
+        "Name": "On a dark murky hill. #2342",
+        "Connections": {
+          "North": 2343,
+          "East": 2336,
+          "West": 2350
+        },
+        "Contents": [
+          {
+            "Text": "an undead tree #2310",
+            "Color": "green"
+          },
+          {
+            "Text": "an undead tree #2310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2343,
+        "Name": "On a dark murky hill. #2343",
+        "Connections": {
+          "North": 2344,
+          "South": 2342
+        }
+      },
+      {
+        "Id": 2344,
+        "Name": "On a dark murky hill. #2344",
+        "Connections": {
+          "East": 2338,
+          "South": 2343,
+          "West": 2352
+        },
+        "Contents": [
+          {
+            "Text": "a crow #2309",
+            "Color": "green"
+          },
+          {
+            "Text": "an undead tree #2310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2345,
+        "Name": "In the Numidian Swamps. #2345",
+        "Connections": {
+          "North": 2346,
+          "East": 2339,
+          "West": 2353
+        },
+        "Contents": [
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          },
+          {
+            "Text": "the poisonous plant #2307",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2346,
+        "Name": "In the Numidian Swamps. #2346",
+        "Connections": {
+          "South": 2345,
+          "West": 2354
+        }
+      },
+      {
+        "Id": 2347,
+        "Name": "In the Numidian Swamps. #2347",
+        "Connections": {
+          "North": 2348,
+          "East": 2385,
+          "West": 2355
+        }
+      },
+      {
+        "Id": 2348,
+        "Name": "In the Numidian Swamps. #2348",
+        "Connections": {
+          "East": 2340,
+          "South": 2347
+        },
+        "Contents": [
+          {
+            "Text": "the poisonous plant #2307",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2349,
+        "Name": "On a dark murky hill. #2349",
+        "Connections": {
+          "North": 2350,
+          "West": 2357
+        },
+        "Contents": [
+          {
+            "Text": "an undead tree #2310",
+            "Color": "green"
+          },
+          {
+            "Text": "an undead tree #2311",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2350,
+        "Name": "On a dark murky hill. #2350",
+        "Connections": {
+          "East": 2342,
+          "South": 2349,
+          "West": 2358
+        },
+        "Contents": [
+          {
+            "Text": "a crow #2309",
+            "Color": "green"
+          },
+          {
+            "Text": "a rat #2312",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2351,
+        "Name": "At the gravestone. #2351",
+        "Connections": {
+          "West": 2359
+        },
+        "Contents": [
+          {
+            "Text": "a strange ghost #2303",
+            "Color": "green"
+          },
+          {
+            "Text": "an undead tree #2310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2352,
+        "Name": "On a dark murky hill. #2352",
+        "Connections": {
+          "East": 2344,
+          "West": 2360
+        },
+        "Contents": [
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          },
+          {
+            "Text": "an undead tree #2310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2353,
+        "Name": "In the Numidian Swamps. #2353",
+        "Connections": {
+          "North": 2354,
+          "East": 2345
+        },
+        "Contents": [
+          {
+            "Text": "a bullfrog #2308",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2354,
+        "Name": "In the Numidian Swamps. #2354",
+        "Connections": {
+          "East": 2346,
+          "South": 2353,
+          "West": 2362
+        }
+      },
+      {
+        "Id": 2355,
+        "Name": "In the Numidian Swamps. #2355",
+        "Connections": {
+          "North": 2356,
+          "East": 2347,
+          "South": 2391,
+          "West": 2363
+        },
+        "Contents": [
+          {
+            "Text": "a swamp snake #2301",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2356,
+        "Name": "In the Numidian Swamps. #2356",
+        "Connections": {
+          "South": 2355,
+          "West": 2364
+        },
+        "Contents": [
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2357,
+        "Name": "On a dark murky hill. #2357",
+        "Connections": {
+          "North": 2358,
+          "East": 2349
+        }
+      },
+      {
+        "Id": 2358,
+        "Name": "On a dark murky hill. #2358",
+        "Connections": {
+          "East": 2350,
+          "South": 2357
+        },
+        "Contents": [
+          {
+            "Text": "an undead tree #2310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2359,
+        "Name": "On the dark murky hill. #2359",
+        "Connections": {
+          "North": 2360,
+          "East": 2351,
+          "West": 2367
+        }
+      },
+      {
+        "Id": 2360,
+        "Name": "On the dark murky hill. #2360",
+        "Connections": {
+          "North": 2361,
+          "East": 2352,
+          "South": 2359,
+          "West": 2368
+        },
+        "Contents": [
+          {
+            "Text": "an undead tree #2311",
+            "Color": "red"
+          },
+          {
+            "Text": "a rat #2312",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2361,
+        "Name": "On the dark murky hill. #2361",
+        "Connections": {
+          "North": 2362,
+          "South": 2360,
+          "West": 2369
+        },
+        "Contents": [
+          {
+            "Text": "an undead tree #2310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2362,
+        "Name": "Edge of the swamp. #2362",
+        "Connections": {
+          "East": 2354,
+          "South": 2361,
+          "West": 2370
+        }
+      },
+      {
+        "Id": 2363,
+        "Name": "In the Numidian Swamps. #2363",
+        "Connections": {
+          "North": 2364,
+          "East": 2355
+        },
+        "Contents": [
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2364,
+        "Name": "In the Numidian Swamps. #2364",
+        "Connections": {
+          "North": 2365,
+          "East": 2356,
+          "South": 2363
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2365,
+        "Name": "In the Numidian Swamps. #2365",
+        "Connections": {
+          "North": 2366,
+          "South": 2364,
+          "West": 2371
+        }
+      },
+      {
+        "Id": 2366,
+        "Name": "In the Numidian Swamps. #2366",
+        "Connections": {
+          "South": 2365,
+          "West": 2372
+        }
+      },
+      {
+        "Id": 2367,
+        "Name": "On the dark murky hill. #2367",
+        "Connections": {
+          "North": 2368,
+          "East": 2359
+        },
+        "Contents": [
+          {
+            "Text": "a crow #2309",
+            "Color": "green"
+          },
+          {
+            "Text": "an undead tree #2310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2368,
+        "Name": "On the dark murky hill. #2368",
+        "Connections": {
+          "North": 2369,
+          "East": 2360,
+          "South": 2367
+        },
+        "Contents": [
+          {
+            "Text": "an undead tree #2310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2369,
+        "Name": "On the dark murky hill. #2369",
+        "Connections": {
+          "East": 2361,
+          "South": 2368
+        }
+      },
+      {
+        "Id": 2370,
+        "Name": "In the Numidian Swamps. #2370",
+        "Connections": {
+          "East": 2362,
+          "West": 2376
+        },
+        "Contents": [
+          {
+            "Text": "the poisonous plant #2306",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2371,
+        "Name": "In the Numidian Swamps. #2371",
+        "Connections": {
+          "North": 2372,
+          "East": 2365
+        }
+      },
+      {
+        "Id": 2372,
+        "Name": "In the Numidian Swamps. #2372",
+        "Connections": {
+          "North": 2373,
+          "East": 2366,
+          "South": 2371
+        }
+      },
+      {
+        "Id": 2373,
+        "Name": "In the Numidian Swamps. #2373",
+        "Connections": {
+          "North": 2374,
+          "South": 2372,
+          "West": 2377
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          },
+          {
+            "Text": "the poisonous plant #2306",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2374,
+        "Name": "In the Numidian Swamps. #2374",
+        "Connections": {
+          "South": 2373,
+          "West": 2378
+        }
+      },
+      {
+        "Id": 2375,
+        "Name": "In the Numidian Swamps. #2375",
+        "Connections": {
+          "North": 2376,
+          "West": 2379
+        },
+        "Contents": [
+          {
+            "Text": "a bullfrog #2308",
+            "Color": "green"
+          },
+          {
+            "Text": "a rat #2312",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2376,
+        "Name": "In the Numidian Swamps. #2376",
+        "Connections": {
+          "East": 2370,
+          "South": 2375
+        }
+      },
+      {
+        "Id": 2377,
+        "Name": "In the Numidian Swamps. #2377",
+        "Connections": {
+          "North": 2378,
+          "East": 2373
+        },
+        "Contents": [
+          {
+            "Text": "a swamp snake #2301",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2378,
+        "Name": "In the Numidian Swamps. #2378",
+        "Connections": {
+          "North": 2379,
+          "East": 2374,
+          "South": 2377
+        }
+      },
+      {
+        "Id": 2379,
+        "Name": "In the Numidian Swamps. #2379",
+        "Connections": {
+          "East": 2375,
+          "South": 2378
+        },
+        "Contents": [
+          {
+            "Text": "the poisonous plant #2306",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2380,
+        "Name": "In the Numidian Swamps. #2380",
+        "Connections": {
+          "North": 2381,
+          "West": 2383
+        }
+      },
+      {
+        "Id": 2381,
+        "Name": "In the Numidian Swamps. #2381",
+        "Connections": {
+          "South": 2380,
+          "West": 2384
+        },
+        "Contents": [
+          {
+            "Text": "a swamp snake #2301",
+            "Color": "red"
+          },
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          },
+          {
+            "Text": "the poisonous plant #2307",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2382,
+        "Name": "In the Numidian Swamps. #2382",
+        "Connections": {
+          "West": 2386
+        }
+      },
+      {
+        "Id": 2383,
+        "Name": "In the Numidian Swamps. #2383",
+        "Connections": {
+          "North": 2384,
+          "East": 2380,
+          "West": 2387
+        }
+      },
+      {
+        "Id": 2384,
+        "Name": "In the Numidian Swamps. #2384",
+        "Connections": {
+          "North": 2385,
+          "East": 2381,
+          "South": 2383,
+          "West": 2388
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          },
+          {
+            "Text": "the poisonous plant #2306",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2385,
+        "Name": "In the Numidian Swamps. #2385",
+        "Connections": {
+          "South": 2384,
+          "West": 2347
+        }
+      },
+      {
+        "Id": 2386,
+        "Name": "In the Numidian Swamps. #2386",
+        "Connections": {
+          "North": 2387,
+          "East": 2382,
+          "West": 2389
+        }
+      },
+      {
+        "Id": 2387,
+        "Name": "In the Numidian Swamps. #2387",
+        "Connections": {
+          "East": 2383,
+          "South": 2386,
+          "West": 2390
+        },
+        "Contents": [
+          {
+            "Text": "a troll #2302",
+            "Color": "red"
+          },
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          },
+          {
+            "Text": "a rat #2312",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2388,
+        "Name": "In the Numidian Swamps. #2388",
+        "Connections": {
+          "East": 2384,
+          "West": 2391
+        },
+        "Contents": [
+          {
+            "Text": "a large lizard #2305",
+            "Color": "red"
+          },
+          {
+            "Text": "the poisonous plant #2306",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2389,
+        "Name": "In the Numidian Swamps. #2389",
+        "Connections": {
+          "North": 2390,
+          "East": 2386
+        },
+        "Contents": [
+          {
+            "Text": "the poisonous plant #2307",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2390,
+        "Name": "In the Numidian Swamps. #2390",
+        "Connections": {
+          "East": 2387,
+          "South": 2389,
+          "West": 2392
+        },
+        "Contents": [
+          {
+            "Text": "a lizardman #2300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2391,
+        "Name": "In the Numidian Swamps. #2391",
+        "Connections": {
+          "North": 2355,
+          "East": 2388
+        }
+      },
+      {
+        "Id": 2392,
+        "Name": "In the Numidian Swamps. #2392",
+        "Connections": {
+          "North": 2393,
+          "East": 2390
+        },
+        "Contents": [
+          {
+            "Text": "a swamp snake #2301",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2393,
+        "Name": "In the Numidian Swamps. #2393",
+        "Connections": {
+          "South": 2392
+        }
+      },
+      {
+        "Id": 7526,
+        "FrameColor": "blue",
+        "Name": "To Sharrizar #7526",
+        "Color": "blue",
+        "Connections": {
+          "North": 2301,
+          "South": 7516,
+          "West": 7527,
+          "Down": 7528
+        }
+      }
+    ]
+  }
+}

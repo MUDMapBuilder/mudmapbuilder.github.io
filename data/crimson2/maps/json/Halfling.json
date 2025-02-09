@@ -1,0 +1,1464 @@
+{
+  "Area": {
+    "Name": "Halfling",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 17600,
+        "Name": "A dimly lit path #17600",
+        "Connections": {
+          "North": 3701,
+          "South": 17601
+        }
+      },
+      {
+        "Id": 17601,
+        "Name": "A dimly lit path #17601",
+        "Connections": {
+          "North": 17600,
+          "South": 17602
+        }
+      },
+      {
+        "Id": 17602,
+        "Name": "A dimly lit path #17602",
+        "Connections": {
+          "North": 17601,
+          "South": 17603
+        }
+      },
+      {
+        "Id": 17603,
+        "Name": "Entrance to Shire #17603",
+        "Connections": {
+          "North": 17602,
+          "East": 17618,
+          "West": 17604
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17629",
+            "Color": "green"
+          },
+          {
+            "Text": "a country bumpkin #17629",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17604,
+        "Name": "Bywater Road #17604",
+        "Connections": {
+          "East": 17603,
+          "South": 17605,
+          "West": 17606
+        }
+      },
+      {
+        "Id": 17605,
+        "Name": "The General Store #17605",
+        "Connections": {
+          "North": 17604
+        },
+        "Contents": [
+          {
+            "Text": "the shopkeeper #17618",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17606,
+        "Name": "Bywater Road #17606",
+        "Connections": {
+          "North": 17608,
+          "East": 17604,
+          "South": 17607,
+          "West": 17609
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17629",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17607,
+        "Name": "The House of Arms #17607",
+        "Connections": {
+          "North": 17606
+        },
+        "Contents": [
+          {
+            "Text": "the blacksmith #17620",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17608,
+        "Name": "Kid\u0027n Keep #17608",
+        "Connections": {
+          "South": 17606
+        },
+        "Contents": [
+          {
+            "Text": "a nursemaid #17604",
+            "Color": "green"
+          },
+          {
+            "Text": "a nursemaid #17604",
+            "Color": "green"
+          },
+          {
+            "Text": "a toddler #17603",
+            "Color": "green"
+          },
+          {
+            "Text": "a toddler #17603",
+            "Color": "green"
+          },
+          {
+            "Text": "a toddler #17603",
+            "Color": "green"
+          },
+          {
+            "Text": "a toddler #17603",
+            "Color": "green"
+          },
+          {
+            "Text": "a toddler #17603",
+            "Color": "green"
+          },
+          {
+            "Text": "a toddler #17603",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17609,
+        "Name": "A bend in the road #17609",
+        "Connections": {
+          "North": 17612,
+          "East": 17606,
+          "South": 17657,
+          "West": 17610
+        }
+      },
+      {
+        "Id": 17610,
+        "Name": "Shiriff Post of the Eastern Shire #17610",
+        "Connections": {
+          "East": 17609,
+          "West": 17611
+        },
+        "Contents": [
+          {
+            "Text": "a shiriff #17610",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17610",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17610",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17611",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17611,
+        "Name": "Thain\u0027s Office #17611",
+        "Connections": {
+          "East": 17610
+        },
+        "Contents": [
+          {
+            "Text": "the Thain #17612",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17612,
+        "Name": "Bywater Road. #17612",
+        "Connections": {
+          "North": 17613,
+          "South": 17609,
+          "West": 17617
+        }
+      },
+      {
+        "Id": 17613,
+        "Name": "Bywater Road #17613",
+        "Connections": {
+          "North": 17616,
+          "East": 17614,
+          "South": 17612,
+          "West": 17615
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17629",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17614,
+        "Name": "A smial #17614",
+        "Connections": {
+          "West": 17613
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17628",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17615,
+        "Name": "A smial #17615",
+        "Connections": {
+          "East": 17613
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17628",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17616,
+        "Name": "The Ivy Bush #17616",
+        "Connections": {
+          "South": 17613
+        },
+        "Contents": [
+          {
+            "Text": "the Innkeeper #17630",
+            "Color": "green"
+          },
+          {
+            "Text": "a chic urbanite #17627",
+            "Color": "green"
+          },
+          {
+            "Text": "a chic urbanite #17627",
+            "Color": "green"
+          },
+          {
+            "Text": "a chic urbanite #17627",
+            "Color": "green"
+          },
+          {
+            "Text": "a chic urbanite #17627",
+            "Color": "green"
+          },
+          {
+            "Text": "a seasoned adventurer #17623",
+            "Color": "green"
+          },
+          {
+            "Text": "a seasoned adventurer #17623",
+            "Color": "green"
+          },
+          {
+            "Text": "a seasoned adventurer #17623",
+            "Color": "green"
+          },
+          {
+            "Text": "a seasoned adventurer #17623",
+            "Color": "green"
+          },
+          {
+            "Text": "a local gossip #17624",
+            "Color": "green"
+          },
+          {
+            "Text": "a local gossip #17624",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17617,
+        "Name": "Shiriff Training Grounds. #17617",
+        "Connections": {
+          "East": 17612
+        },
+        "Contents": [
+          {
+            "Text": "the Battle Master #17621",
+            "Color": "green"
+          },
+          {
+            "Text": "a trainee #17626",
+            "Color": "green"
+          },
+          {
+            "Text": "a trainee #17626",
+            "Color": "green"
+          },
+          {
+            "Text": "a trainee #17626",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17618,
+        "Name": "Bywater Road #17618",
+        "Connections": {
+          "North": 17619,
+          "East": 17620,
+          "West": 17603
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17629",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17619,
+        "Name": "Shiriff Post of the Bridge #17619",
+        "Connections": {
+          "South": 17618
+        },
+        "Contents": [
+          {
+            "Text": "a shiriff #17610",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17610",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17610",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17611",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17611",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17620,
+        "Name": "Bywater Road #17620",
+        "Connections": {
+          "North": 17621,
+          "East": 17622,
+          "South": 17631,
+          "West": 17618
+        }
+      },
+      {
+        "Id": 17621,
+        "Name": "The Grocer\u0027s Delight #17621",
+        "Connections": {
+          "South": 17620
+        },
+        "Contents": [
+          {
+            "Text": "the grocer #17619",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17622,
+        "Name": "Bywater Road #17622",
+        "Connections": {
+          "North": 17623,
+          "East": 17626,
+          "West": 17620
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17629",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17623,
+        "Name": "Entrance to Watermill #17623",
+        "Connections": {
+          "North": 17624,
+          "South": 17622
+        },
+        "Contents": [
+          {
+            "Text": "the mill worker #17615",
+            "Color": "green"
+          },
+          {
+            "Text": "the mill worker #17615",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17624,
+        "Name": "The Watermill #17624",
+        "Connections": {
+          "North": 17625,
+          "South": 17623
+        },
+        "Contents": [
+          {
+            "Text": "the Miller #17614",
+            "Color": "green"
+          },
+          {
+            "Text": "the mill worker #17615",
+            "Color": "green"
+          },
+          {
+            "Text": "the mill worker #17615",
+            "Color": "green"
+          },
+          {
+            "Text": "the mill worker #17615",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17625,
+        "Name": "Rear of watermill #17625",
+        "Connections": {
+          "South": 17624,
+          "Down": 17646
+        },
+        "Contents": [
+          {
+            "Text": "the mill worker #17615",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17626,
+        "Name": "Took Hill #17626",
+        "Connections": {
+          "East": 17628,
+          "West": 17622
+        },
+        "Contents": [
+          {
+            "Text": "a halfling youth #17622",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17627,
+        "Name": "Northern end of a grassy field #17627",
+        "Connections": {
+          "North": 17628,
+          "East": 17630,
+          "West": 17626
+        }
+      },
+      {
+        "Id": 17628,
+        "Name": "A grassy field #17628",
+        "Connections": {
+          "North": 17629,
+          "East": 17630,
+          "South": 17627,
+          "West": 17626
+        },
+        "Contents": [
+          {
+            "Text": "the Elven Wizard #17600",
+            "Color": "green"
+          },
+          {
+            "Text": "a halfling beauty #17625",
+            "Color": "green"
+          },
+          {
+            "Text": "a halfling youth #17622",
+            "Color": "green"
+          },
+          {
+            "Text": "a halfling youth #17622",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17629,
+        "Name": "Southern end of a grassy field #17629",
+        "Connections": {
+          "East": 17630,
+          "South": 17628,
+          "West": 17626
+        }
+      },
+      {
+        "Id": 17630,
+        "Name": "Western end of a grassy field #17630",
+        "Connections": {
+          "North": 17629,
+          "East": 5456,
+          "South": 17627,
+          "West": 17628
+        }
+      },
+      {
+        "Id": 17631,
+        "Name": "Brandywine Bridge #17631",
+        "Connections": {
+          "North": 17620,
+          "South": 17632
+        }
+      },
+      {
+        "Id": 17632,
+        "Name": "Delving Lane #17632",
+        "Connections": {
+          "North": 17631,
+          "East": 17638,
+          "South": 17633,
+          "West": 17644
+        },
+        "Contents": [
+          {
+            "Text": "a halfling youth #17622",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17633,
+        "Name": "Delving Lane #17633",
+        "Connections": {
+          "North": 17632,
+          "East": 17638,
+          "South": 17634,
+          "West": 17645
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17629",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17634,
+        "Name": "Delving Lane #17634",
+        "Connections": {
+          "North": 17633,
+          "South": 17635
+        }
+      },
+      {
+        "Id": 17635,
+        "Name": "Bag End #17635",
+        "Connections": {
+          "North": 17634,
+          "East": 17636,
+          "West": 17637
+        }
+      },
+      {
+        "Id": 17636,
+        "Name": "Bedroom #17636",
+        "Connections": {
+          "West": 17635
+        },
+        "Contents": [
+          {
+            "Text": "the Elven Warrior #17616",
+            "Color": "green"
+          },
+          {
+            "Text": "the Dwarven Prince #17617",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17637,
+        "Name": "Pantry #17637",
+        "Connections": {
+          "East": 17635,
+          "Down": 17656
+        },
+        "Contents": [
+          {
+            "Text": "the Keeper of the Ring #17601",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17638,
+        "Name": "A grassy field #17638",
+        "Connections": {
+          "North": 17639,
+          "South": 17642,
+          "West": 17633
+        },
+        "Contents": [
+          {
+            "Text": "a shiriff #17611",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17639,
+        "Name": "Pig pen #17639",
+        "Connections": {
+          "East": 17640,
+          "South": 17638
+        },
+        "Contents": [
+          {
+            "Text": "a pig #17606",
+            "Color": "green"
+          },
+          {
+            "Text": "a pig #17606",
+            "Color": "green"
+          },
+          {
+            "Text": "a pig #17606",
+            "Color": "green"
+          },
+          {
+            "Text": "a pig #17606",
+            "Color": "green"
+          },
+          {
+            "Text": "a pig #17606",
+            "Color": "green"
+          },
+          {
+            "Text": "a pig #17606",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17640,
+        "Name": "A stony path #17640",
+        "Connections": {
+          "North": 17641,
+          "West": 17639
+        }
+      },
+      {
+        "Id": 17641,
+        "Name": "Gamgee Residence #17641",
+        "Connections": {
+          "South": 17640
+        },
+        "Contents": [
+          {
+            "Text": "Farmer Gamgee #17602",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17642,
+        "Name": "A barn #17642",
+        "Connections": {
+          "North": 17639,
+          "South": 17643
+        },
+        "Contents": [
+          {
+            "Text": "a horse #17609",
+            "Color": "green"
+          },
+          {
+            "Text": "a horse #17609",
+            "Color": "green"
+          },
+          {
+            "Text": "a horse #17609",
+            "Color": "green"
+          },
+          {
+            "Text": "a horse #17609",
+            "Color": "green"
+          },
+          {
+            "Text": "a cow #17605",
+            "Color": "green"
+          },
+          {
+            "Text": "a cow #17605",
+            "Color": "green"
+          },
+          {
+            "Text": "a cow #17605",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17643,
+        "Name": "A chicken coop #17643",
+        "Connections": {
+          "North": 17642
+        },
+        "Contents": [
+          {
+            "Text": "a chicken #17607",
+            "Color": "green"
+          },
+          {
+            "Text": "a chicken #17607",
+            "Color": "green"
+          },
+          {
+            "Text": "a chicken #17607",
+            "Color": "green"
+          },
+          {
+            "Text": "a chicken #17607",
+            "Color": "green"
+          },
+          {
+            "Text": "a chicken #17607",
+            "Color": "green"
+          },
+          {
+            "Text": "a chicken #17607",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17644,
+        "Name": "The Green Dragon #17644",
+        "Connections": {
+          "East": 17632
+        },
+        "Contents": [
+          {
+            "Text": "a chic urbanite #17627",
+            "Color": "green"
+          },
+          {
+            "Text": "a chic urbanite #17627",
+            "Color": "green"
+          },
+          {
+            "Text": "a chic urbanite #17627",
+            "Color": "green"
+          },
+          {
+            "Text": "a chic urbanite #17627",
+            "Color": "green"
+          },
+          {
+            "Text": "a seasoned adventurer #17623",
+            "Color": "green"
+          },
+          {
+            "Text": "a seasoned adventurer #17623",
+            "Color": "green"
+          },
+          {
+            "Text": "a seasoned adventurer #17623",
+            "Color": "green"
+          },
+          {
+            "Text": "a local gossip #17624",
+            "Color": "green"
+          },
+          {
+            "Text": "the Innkeeper #17613",
+            "Color": "green"
+          },
+          {
+            "Text": "a halfling youth #17622",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17645,
+        "Name": "Shiriff Post of Delving Lane #17645",
+        "Connections": {
+          "East": 17633
+        },
+        "Contents": [
+          {
+            "Text": "a shiriff #17610",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17610",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17610",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17611",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17646,
+        "Name": "A dark tunnel #17646",
+        "Connections": {
+          "West": 17647,
+          "Up": 17625
+        }
+      },
+      {
+        "Id": 17647,
+        "Name": "A dark tunnel #17647",
+        "Connections": {
+          "East": 17646,
+          "West": 17648
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17629",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17648,
+        "Name": "A dark tunnel #17648",
+        "Connections": {
+          "East": 17647,
+          "West": 17649
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17629",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17649,
+        "Name": "A dark tunnel #17649",
+        "Connections": {
+          "East": 17648,
+          "South": 17651,
+          "West": 17650
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17629",
+            "Color": "green"
+          },
+          {
+            "Text": "a halfling youth #17622",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17650,
+        "Name": "A halfling hole. #17650",
+        "Connections": {
+          "East": 17649
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17628",
+            "Color": "green"
+          },
+          {
+            "Text": "a country bumpkin #17628",
+            "Color": "green"
+          },
+          {
+            "Text": "a country bumpkin #17628",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17651,
+        "Name": "A dark tunnel #17651",
+        "Connections": {
+          "North": 17649,
+          "East": 17653,
+          "South": 17652,
+          "West": 17654
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17629",
+            "Color": "green"
+          },
+          {
+            "Text": "a halfling youth #17622",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17652,
+        "Name": "A dark tunnel #17652",
+        "Connections": {
+          "North": 17651,
+          "East": 17655,
+          "South": 17656
+        }
+      },
+      {
+        "Id": 17653,
+        "Name": "Shiriff Post of the Lower Shire #17653",
+        "Connections": {
+          "West": 17651
+        },
+        "Contents": [
+          {
+            "Text": "a shiriff #17610",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17610",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17610",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17611",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17611",
+            "Color": "green"
+          },
+          {
+            "Text": "a shiriff #17611",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17654,
+        "Name": "A halfling hole #17654",
+        "Connections": {
+          "East": 17651
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17628",
+            "Color": "green"
+          },
+          {
+            "Text": "a country bumpkin #17628",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17655,
+        "Name": "A halfling hole #17655",
+        "Connections": {
+          "West": 17652
+        },
+        "Contents": [
+          {
+            "Text": "a country bumpkin #17628",
+            "Color": "green"
+          },
+          {
+            "Text": "a country bumpkin #17628",
+            "Color": "green"
+          },
+          {
+            "Text": "a halfling youth #17622",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17656,
+        "Name": "End of a dark tunnel #17656",
+        "Connections": {
+          "North": 17652,
+          "Up": 17637
+        },
+        "Contents": [
+          {
+            "Text": "a halfling youth #17622",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17657,
+        "Name": "The Moor #17657",
+        "Connections": {
+          "North": 17609,
+          "South": 17658
+        }
+      },
+      {
+        "Id": 17658,
+        "Name": "Moor #17658",
+        "Connections": {
+          "North": 17657,
+          "East": 23800,
+          "South": 17659
+        }
+      },
+      {
+        "Id": 17659,
+        "Name": "Iron Gate #17659",
+        "Connections": {
+          "North": 17658,
+          "South": 17660
+        }
+      },
+      {
+        "Id": 17660,
+        "Name": "Entryway to Canticle #17660",
+        "Connections": {
+          "North": 17659,
+          "South": 17661
+        },
+        "Contents": [
+          {
+            "Text": "the Rook #17631",
+            "Color": "green"
+          },
+          {
+            "Text": "the Rook #17631",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17661,
+        "Name": "Blue Hall #17661",
+        "Connections": {
+          "North": 17660,
+          "South": 17664,
+          "West": 17662
+        },
+        "Contents": [
+          {
+            "Text": "the Rook #17631",
+            "Color": "green"
+          },
+          {
+            "Text": "the Rook #17631",
+            "Color": "green"
+          },
+          {
+            "Text": "the Rook #17631",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17662,
+        "Name": "Rook Hall #17662",
+        "Connections": {
+          "East": 17661,
+          "West": 17663
+        },
+        "Contents": [
+          {
+            "Text": "the Rook #17631",
+            "Color": "green"
+          },
+          {
+            "Text": "the Rook #17631",
+            "Color": "green"
+          },
+          {
+            "Text": "the Rook #17631",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17663,
+        "Name": "Rook Nook #17663",
+        "Connections": {
+          "East": 17662,
+          "South": 17666
+        },
+        "Contents": [
+          {
+            "Text": "the Rook #17631",
+            "Color": "green"
+          },
+          {
+            "Text": "the Rook #17631",
+            "Color": "green"
+          },
+          {
+            "Text": "the Rook #17631",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17664,
+        "Name": "Light Blue Hall #17664",
+        "Connections": {
+          "North": 17661,
+          "East": 17665,
+          "South": 17669
+        }
+      },
+      {
+        "Id": 17665,
+        "Name": "Scullery #17665",
+        "Connections": {
+          "East": 17667,
+          "South": 17674,
+          "West": 17664
+        },
+        "Contents": [
+          {
+            "Text": "the old frump #17632",
+            "Color": "red"
+          },
+          {
+            "Text": "the old frump #17632",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 17666,
+        "Name": "Bastille #17666",
+        "Connections": {}
+      },
+      {
+        "Id": 17667,
+        "Name": "Scullery #17667",
+        "Connections": {
+          "North": 17668,
+          "West": 17665
+        }
+      },
+      {
+        "Id": 17668,
+        "Name": "The Jitney #17668",
+        "Connections": {
+          "South": 17667
+        },
+        "Contents": [
+          {
+            "Text": "the old frump #17632",
+            "Color": "red"
+          },
+          {
+            "Text": "the Gargon #17633",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17669,
+        "Name": "Deep Blue Hall #17669",
+        "Connections": {
+          "North": 17664,
+          "South": 17670
+        }
+      },
+      {
+        "Id": 17670,
+        "Name": "Dark Blue Hall #17670",
+        "Connections": {
+          "North": 17669,
+          "South": 17672,
+          "West": 17671
+        }
+      },
+      {
+        "Id": 17671,
+        "Name": "Blue Cube #17671",
+        "Connections": {
+          "East": 17670
+        },
+        "Contents": [
+          {
+            "Text": "the Blue Rook #17634",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17672,
+        "Name": "Black Corridor #17672",
+        "Connections": {
+          "North": 17670,
+          "South": 17673
+        }
+      },
+      {
+        "Id": 17673,
+        "Name": "Glass Walk #17673",
+        "Connections": {
+          "North": 17672,
+          "East": 17681,
+          "West": 17677
+        }
+      },
+      {
+        "Id": 17674,
+        "Name": "Frump\u0027s Den #17674",
+        "Connections": {
+          "North": 17665,
+          "East": 17675
+        },
+        "Contents": [
+          {
+            "Text": "the old frump #17632",
+            "Color": "red"
+          },
+          {
+            "Text": "the old frump #17632",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 17675,
+        "Name": "Altar Room #17675",
+        "Connections": {
+          "West": 17674
+        },
+        "Contents": [
+          {
+            "Text": "the old frump #17632",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 17676,
+        "Name": "Deep Blue Hall #17676",
+        "Connections": {
+          "North": 17665
+        }
+      },
+      {
+        "Id": 17677,
+        "Name": "Glass Walk #17677",
+        "Connections": {
+          "East": 17673,
+          "West": 17678
+        }
+      },
+      {
+        "Id": 17678,
+        "Name": "Crystal Parapet #17678",
+        "Connections": {
+          "East": 17677,
+          "Up": 17679
+        },
+        "Contents": [
+          {
+            "Text": "the Sentinel #17635",
+            "Color": "red"
+          },
+          {
+            "Text": "the Sentinel #17635",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 17679,
+        "Name": "Upper Parapet #17679",
+        "Connections": {
+          "North": 17680,
+          "Down": 17678
+        },
+        "Contents": [
+          {
+            "Text": "the Sentinel #17635",
+            "Color": "red"
+          },
+          {
+            "Text": "the Sentinel #17635",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 17680,
+        "Name": "Rampart #17680",
+        "Connections": {
+          "South": 17679
+        },
+        "Contents": [
+          {
+            "Text": "the Sentinel #17635",
+            "Color": "red"
+          },
+          {
+            "Text": "the Sentinel #17635",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 17681,
+        "Name": "Glass Walk #17681",
+        "Connections": {
+          "North": 17682,
+          "East": 17683,
+          "West": 17673
+        }
+      },
+      {
+        "Id": 17682,
+        "Name": "Edificant Library #17682",
+        "Connections": {
+          "South": 17681,
+          "West": 17673
+        }
+      },
+      {
+        "Id": 17683,
+        "Name": "Mirror Room #17683",
+        "Connections": {
+          "North": 17684,
+          "South": 19506,
+          "West": 17681
+        }
+      },
+      {
+        "Id": 17684,
+        "Name": "In The Mirror #17684",
+        "Connections": {
+          "North": 17685,
+          "South": 17683
+        }
+      },
+      {
+        "Id": 17685,
+        "Name": "Bottom of Staircase #17685",
+        "Connections": {
+          "South": 17684,
+          "Up": 17686
+        }
+      },
+      {
+        "Id": 17686,
+        "Name": "Entrance to the Keep #17686",
+        "Connections": {
+          "South": 17687,
+          "Down": 17685
+        },
+        "Contents": [
+          {
+            "Text": "the Demiwolf #17636",
+            "Color": "green"
+          },
+          {
+            "Text": "the Demiwolf #17636",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17687,
+        "Name": "The Keep #17687",
+        "Connections": {
+          "North": 17686,
+          "South": 5300
+        },
+        "Contents": [
+          {
+            "Text": "a Grey Rook #17637",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 3701,
+        "FrameColor": "blue",
+        "Name": "To TheRoads #3701",
+        "Color": "blue",
+        "Connections": {
+          "South": 17600,
+          "West": 3709
+        }
+      },
+      {
+        "Id": 5456,
+        "FrameColor": "blue",
+        "Name": "To PixieGarden #5456",
+        "Color": "blue",
+        "Connections": {
+          "North": 5453,
+          "East": 5457,
+          "South": 5459,
+          "West": 17630
+        }
+      },
+      {
+        "Id": 23800,
+        "FrameColor": "blue",
+        "Name": "To HelmsDeep #23800",
+        "Color": "blue",
+        "Connections": {
+          "North": 23801,
+          "West": 17658
+        }
+      },
+      {
+        "Id": 19506,
+        "FrameColor": "blue",
+        "Name": "To GlassCathedral #19506",
+        "Color": "blue",
+        "Connections": {
+          "North": 19505,
+          "South": 19542
+        }
+      },
+      {
+        "Id": 5300,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair #5300",
+        "Color": "blue",
+        "Connections": {
+          "North": 17687,
+          "South": 5301
+        }
+      }
+    ]
+  }
+}

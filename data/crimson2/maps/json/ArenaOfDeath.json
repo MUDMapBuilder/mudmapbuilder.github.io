@@ -1,0 +1,116 @@
+{
+  "Area": {
+    "Name": "ArenaOfDeath",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 2690,
+        "Name": "NW Arena #2690",
+        "Connections": {
+          "East": 2691,
+          "South": 2693,
+          "Down": 2699
+        }
+      },
+      {
+        "Id": 2691,
+        "Name": "N Arena #2691",
+        "Connections": {
+          "East": 2692,
+          "South": 2694,
+          "West": 2690,
+          "Down": 2699
+        }
+      },
+      {
+        "Id": 2692,
+        "Name": "NE Arena #2692",
+        "Connections": {
+          "South": 2695,
+          "West": 2691,
+          "Down": 2699
+        }
+      },
+      {
+        "Id": 2693,
+        "Name": "W Arena #2693",
+        "Connections": {
+          "North": 2690,
+          "East": 2694,
+          "South": 2696,
+          "Down": 2699
+        }
+      },
+      {
+        "Id": 2694,
+        "Name": "Arena Center #2694",
+        "Connections": {
+          "North": 2691,
+          "East": 2695,
+          "South": 2697,
+          "West": 2693,
+          "Up": 3001
+        }
+      },
+      {
+        "Id": 2695,
+        "Name": "E Arena #2695",
+        "Connections": {
+          "North": 2692,
+          "South": 2698,
+          "West": 2694,
+          "Down": 2699
+        }
+      },
+      {
+        "Id": 2696,
+        "Name": "SW Arena #2696",
+        "Connections": {
+          "North": 2693,
+          "East": 2697,
+          "Down": 2699
+        }
+      },
+      {
+        "Id": 2697,
+        "Name": "S Arena #2697",
+        "Connections": {
+          "North": 2694,
+          "East": 2698,
+          "West": 2696,
+          "Down": 2699
+        }
+      },
+      {
+        "Id": 2698,
+        "Name": "SE Arena #2698",
+        "Connections": {
+          "North": 2695,
+          "West": 2697,
+          "Down": 2699
+        }
+      },
+      {
+        "Id": 2699,
+        "Name": "Arena Pit #2699",
+        "Connections": {
+          "Up": 2694
+        }
+      },
+      {
+        "Id": 3001,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3001",
+        "Color": "blue",
+        "Connections": {
+          "North": 3054,
+          "East": 3419,
+          "South": 3005,
+          "West": 3413,
+          "Up": 8248,
+          "Down": 2694
+        }
+      }
+    ]
+  }
+}

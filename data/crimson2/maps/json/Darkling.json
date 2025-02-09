@@ -1,0 +1,391 @@
+{
+  "Area": {
+    "Name": "Darkling",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 9300,
+        "Name": "Light and Shade #9300",
+        "Connections": {
+          "North": 9301,
+          "East": 3035
+        },
+        "Contents": [
+          {
+            "Text": "Whitey, the outcast Darkling #9301",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9301,
+        "Name": "Flashes of Light #9301",
+        "Connections": {
+          "North": 9304,
+          "East": 9303,
+          "South": 9300,
+          "West": 9302,
+          "Down": 9328
+        }
+      },
+      {
+        "Id": 9302,
+        "Name": "Darkling camp entrance: Reds #9302",
+        "Connections": {
+          "East": 9301,
+          "West": 9312
+        }
+      },
+      {
+        "Id": 9303,
+        "Name": "Darkling camp entrance: Blues #9303",
+        "Connections": {
+          "East": 9305,
+          "West": 9301
+        }
+      },
+      {
+        "Id": 9304,
+        "Name": "Darkling camp entrance: Greens #9304",
+        "Connections": {
+          "South": 9301,
+          "Up": 9308
+        }
+      },
+      {
+        "Id": 9305,
+        "Name": "The Blue Darkling excrement room #9305",
+        "Connections": {
+          "West": 9303,
+          "Down": 9306
+        },
+        "Contents": [
+          {
+            "Text": "A blue darkling #9302",
+            "Color": "green"
+          },
+          {
+            "Text": "A blue darkling #9302",
+            "Color": "green"
+          },
+          {
+            "Text": "A blue darkling #9302",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9306,
+        "Name": "The Blue Darkling training den #9306",
+        "Connections": {
+          "East": 9319,
+          "South": 9307,
+          "Up": 9305
+        },
+        "Contents": [
+          {
+            "Text": "A Blue Darkling guard #9303",
+            "Color": "red"
+          },
+          {
+            "Text": "A Blue Darkling guard #9303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9307,
+        "Name": "The office of Hex, the Blue Darkling trainer #9307",
+        "Connections": {
+          "North": 9306
+        },
+        "Contents": [
+          {
+            "Text": "Hex, blue darkling trainer #9304",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9308,
+        "Name": "The Green Darkling orchard #9308",
+        "Connections": {
+          "East": 9309,
+          "Down": 9304
+        }
+      },
+      {
+        "Id": 9309,
+        "Name": "The Green Darkling plowing grounds #9309",
+        "Connections": {
+          "North": 9310,
+          "South": 9315,
+          "West": 9308,
+          "Down": 9311
+        },
+        "Contents": [
+          {
+            "Text": "A green darkling #9305",
+            "Color": "green"
+          },
+          {
+            "Text": "A green darkling #9305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9310,
+        "Name": "The hall of the May Queen #9310",
+        "Connections": {
+          "South": 9309,
+          "Down": 9325
+        },
+        "Contents": [
+          {
+            "Text": "The May Queen #9300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9311,
+        "Name": "The Peach Pit #9311",
+        "Connections": {
+          "Up": 9309
+        },
+        "Contents": [
+          {
+            "Text": "A produce junkie #9306",
+            "Color": "green"
+          },
+          {
+            "Text": "A produce junkie #9306",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9312,
+        "Name": "The Red Darkling bazaar #9312",
+        "Connections": {
+          "East": 9302,
+          "South": 9313,
+          "West": 9322
+        },
+        "Contents": [
+          {
+            "Text": "A red darkling #9307",
+            "Color": "red"
+          },
+          {
+            "Text": "A red darkling #9307",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9313,
+        "Name": "The Den of Thieves #9313",
+        "Connections": {
+          "North": 9312,
+          "West": 9314
+        },
+        "Contents": [
+          {
+            "Text": "a thieving sentinel #9308",
+            "Color": "green"
+          },
+          {
+            "Text": "a thieving sentinel #9308",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9314,
+        "Name": "The Hall of Phakir #9314",
+        "Connections": {
+          "East": 9313
+        },
+        "Contents": [
+          {
+            "Text": "Phakir the head thief #9309",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9315,
+        "Name": "More plowing grounds #9315",
+        "Connections": {
+          "North": 9309,
+          "East": 9318,
+          "South": 9316
+        }
+      },
+      {
+        "Id": 9316,
+        "Name": "More plowing grounds (2) #9316",
+        "Connections": {
+          "North": 9315,
+          "East": 9317
+        },
+        "Contents": [
+          {
+            "Text": "A green darkling plowman #9310",
+            "Color": "green"
+          },
+          {
+            "Text": "A green darkling plowman #9310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9317,
+        "Name": "More plowing grounds (3) #9317",
+        "Connections": {
+          "North": 9318,
+          "West": 9316
+        }
+      },
+      {
+        "Id": 9318,
+        "Name": "More plowing grounds (4) #9318",
+        "Connections": {
+          "South": 9317,
+          "West": 9315
+        },
+        "Contents": [
+          {
+            "Text": "A green darkling plowman #9310",
+            "Color": "green"
+          },
+          {
+            "Text": "A green darkling plowman #9310",
+            "Color": "green"
+          },
+          {
+            "Text": "A green darkling plowman #9310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9319,
+        "Name": "The Blue Darkling training nook passage #9319",
+        "Connections": {
+          "East": 9320,
+          "West": 9306
+        }
+      },
+      {
+        "Id": 9320,
+        "Name": "The Blue Darkling training nook passage #9320",
+        "Connections": {
+          "West": 9319,
+          "Down": 9321
+        }
+      },
+      {
+        "Id": 9321,
+        "Name": "The Blue Darkling training nook #9321",
+        "Connections": {
+          "Up": 9320
+        },
+        "Contents": [
+          {
+            "Text": "A blue darkling trainee #9311",
+            "Color": "green"
+          },
+          {
+            "Text": "A blue darkling trainee #9311",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9322,
+        "Name": "The Red Darkling bazaar trading alley #9322",
+        "Connections": {
+          "East": 9312,
+          "Up": 9323,
+          "Down": 9324
+        }
+      },
+      {
+        "Id": 9323,
+        "Name": "The room of illegal barter #9323",
+        "Connections": {
+          "Down": 9322
+        },
+        "Contents": [
+          {
+            "Text": "A red darkling #9307",
+            "Color": "red"
+          },
+          {
+            "Text": "A red darkling #9307",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9324,
+        "Name": "The Black Market dump #9324",
+        "Connections": {
+          "Up": 9322
+        }
+      },
+      {
+        "Id": 9325,
+        "Name": "a dank library #9325",
+        "Connections": {
+          "North": 9326,
+          "Up": 9310
+        }
+      },
+      {
+        "Id": 9326,
+        "Name": "the forgotten dungeon #9326",
+        "Connections": {
+          "South": 9325,
+          "Down": 9327
+        }
+      },
+      {
+        "Id": 9327,
+        "Name": "the hidden tomb #9327",
+        "Connections": {
+          "Up": 9326
+        }
+      },
+      {
+        "Id": 9328,
+        "Name": "a calm water basin #9328",
+        "Connections": {
+          "Up": 9301
+        }
+      },
+      {
+        "Id": 9329,
+        "Name": "The bazaar fountain #9329",
+        "Connections": {
+          "South": 9312
+        }
+      },
+      {
+        "Id": 3035,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3035",
+        "Color": "blue",
+        "Connections": {
+          "North": 6006,
+          "West": 9300,
+          "Up": 3036
+        }
+      }
+    ]
+  }
+}

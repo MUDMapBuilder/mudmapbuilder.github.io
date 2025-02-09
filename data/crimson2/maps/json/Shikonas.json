@@ -1,0 +1,1024 @@
+{
+  "Area": {
+    "Name": "Shikonas",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 1000,
+        "Name": "The Great River Yansu #1000",
+        "Connections": {
+          "East": 1001,
+          "West": 15099
+        }
+      },
+      {
+        "Id": 1001,
+        "Name": "The Great River Yansu #1001",
+        "Connections": {
+          "East": 1002,
+          "West": 1000
+        }
+      },
+      {
+        "Id": 1002,
+        "Name": "The Widening of the Great River Yansu #1002",
+        "Connections": {
+          "East": 1004,
+          "West": 1001
+        }
+      },
+      {
+        "Id": 1003,
+        "Name": "Mouth of the Yansu River #1003",
+        "Connections": {
+          "North": 1004,
+          "East": 1068,
+          "South": 1006,
+          "West": 1004
+        }
+      },
+      {
+        "Id": 1004,
+        "Name": "Mouth of the Yansu River #1004",
+        "Connections": {
+          "North": 1005,
+          "East": 1003,
+          "South": 1003,
+          "West": 1002
+        }
+      },
+      {
+        "Id": 1005,
+        "Name": "The Shikonas Sea Coast Line #1005",
+        "Connections": {
+          "North": 1008,
+          "South": 1004
+        }
+      },
+      {
+        "Id": 1006,
+        "Name": "Distinct Path Up the Southern Bank #1006",
+        "Connections": {
+          "North": 1003,
+          "South": 1007
+        }
+      },
+      {
+        "Id": 1007,
+        "Name": "Cottage in the Forest #1007",
+        "Connections": {
+          "North": 1006
+        },
+        "Contents": [
+          {
+            "Text": "the Ferryman #1000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1008,
+        "Name": "The Shikonas Sea Coast Line #1008",
+        "Connections": {
+          "North": 1009,
+          "South": 1005,
+          "West": 1005
+        }
+      },
+      {
+        "Id": 1009,
+        "Name": "The Shikonas Sea Coast Line #1009",
+        "Connections": {
+          "North": 1098,
+          "South": 1008
+        }
+      },
+      {
+        "Id": 1010,
+        "Name": "Coast Line #1010",
+        "Connections": {
+          "North": 4954,
+          "South": 1099
+        }
+      },
+      {
+        "Id": 1011,
+        "Name": "Sholana Island Beach #1011",
+        "Connections": {
+          "North": 1012,
+          "South": 1074
+        }
+      },
+      {
+        "Id": 1012,
+        "Name": "Sholana Island #1012",
+        "Connections": {
+          "North": 1013,
+          "South": 1011
+        }
+      },
+      {
+        "Id": 1013,
+        "Name": "Sholana Island #1013",
+        "Connections": {
+          "North": 1014,
+          "East": 1016,
+          "South": 1012
+        },
+        "Contents": [
+          {
+            "Text": "the forest dryad #1001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1014,
+        "Name": "Sholana Island #1014",
+        "Connections": {
+          "East": 1015,
+          "South": 1013
+        }
+      },
+      {
+        "Id": 1015,
+        "Name": "Sholana Island #1015",
+        "Connections": {
+          "South": 1016,
+          "West": 1014
+        },
+        "Contents": [
+          {
+            "Text": "the nymph #1004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1016,
+        "Name": "Sholana Island #1016",
+        "Connections": {
+          "North": 1015,
+          "West": 1013
+        }
+      },
+      {
+        "Id": 1017,
+        "Name": "Lorantis Island Beach #1017",
+        "Connections": {
+          "North": 1075,
+          "South": 1018,
+          "West": 1019
+        },
+        "Contents": [
+          {
+            "Text": "a centaur #1005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1018,
+        "Name": "Lorantis Island Beach #1018",
+        "Connections": {
+          "North": 1017,
+          "East": 1078,
+          "South": 1021,
+          "West": 1020
+        }
+      },
+      {
+        "Id": 1019,
+        "Name": "Western Side of Lorantis island #1019",
+        "Connections": {
+          "East": 1017,
+          "South": 1020
+        },
+        "Contents": [
+          {
+            "Text": "a centaur #1005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1020,
+        "Name": "Western Side of Lorantis island #1020",
+        "Connections": {
+          "North": 1019,
+          "East": 1018
+        },
+        "Contents": [
+          {
+            "Text": "a centaur #1005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1021,
+        "Name": "Southern End of Lorantis Island #1021",
+        "Connections": {
+          "North": 1018
+        }
+      },
+      {
+        "Id": 1022,
+        "Name": "Vensita Island beach #1022",
+        "Connections": {
+          "East": 1023,
+          "West": 1076
+        }
+      },
+      {
+        "Id": 1023,
+        "Name": "Vensita Island #1023",
+        "Connections": {
+          "North": 1025,
+          "East": 1024,
+          "West": 1022
+        }
+      },
+      {
+        "Id": 1024,
+        "Name": "Vensita Island #1024",
+        "Connections": {
+          "North": 1026,
+          "West": 1023
+        }
+      },
+      {
+        "Id": 1025,
+        "Name": "Vensita Island #1025",
+        "Connections": {
+          "North": 1027,
+          "East": 1026,
+          "South": 1023
+        }
+      },
+      {
+        "Id": 1026,
+        "Name": "Vensita Island #1026",
+        "Connections": {
+          "South": 1024,
+          "West": 1025
+        },
+        "Contents": [
+          {
+            "Text": "a druid #1002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1027,
+        "Name": "Vensita Island #1027",
+        "Connections": {
+          "North": 1029,
+          "South": 1025
+        }
+      },
+      {
+        "Id": 1028,
+        "Name": "Vensita Island. #1028",
+        "Connections": {
+          "East": 1029
+        }
+      },
+      {
+        "Id": 1029,
+        "Name": "Vensita Island. #1029",
+        "Connections": {
+          "East": 1030,
+          "South": 1027,
+          "West": 1028
+        },
+        "Contents": [
+          {
+            "Text": "a druid #1002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1030,
+        "Name": "Vensita Island. #1030",
+        "Connections": {
+          "South": 1031,
+          "West": 1029
+        }
+      },
+      {
+        "Id": 1031,
+        "Name": "Inside the Tower #1031",
+        "Connections": {
+          "North": 1030,
+          "Up": 1032
+        }
+      },
+      {
+        "Id": 1032,
+        "Name": "Spiral Staircase #1032",
+        "Connections": {
+          "Up": 1033,
+          "Down": 1031
+        }
+      },
+      {
+        "Id": 1033,
+        "Name": "Top of the Tower #1033",
+        "Connections": {
+          "North": 1034,
+          "Down": 1032
+        }
+      },
+      {
+        "Id": 1034,
+        "Name": "Top of the Tower #1034",
+        "Connections": {
+          "South": 1033
+        },
+        "Contents": [
+          {
+            "Text": "the head druid #1003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1035,
+        "Name": "Shikarnith Island Beach #1035",
+        "Connections": {
+          "South": 1036,
+          "West": 1077
+        }
+      },
+      {
+        "Id": 1036,
+        "Name": "Shikarnith Island Beach #1036",
+        "Connections": {
+          "North": 1035,
+          "East": 1037
+        }
+      },
+      {
+        "Id": 1037,
+        "Name": "Outside the Village #1037",
+        "Connections": {
+          "East": 1038,
+          "West": 1036
+        }
+      },
+      {
+        "Id": 1038,
+        "Name": "Village of Shikarnith #1038",
+        "Connections": {
+          "East": 1039,
+          "South": 1041,
+          "West": 1037
+        }
+      },
+      {
+        "Id": 1039,
+        "Name": "Village of Shikarnith #1039",
+        "Connections": {
+          "East": 1040,
+          "South": 1050,
+          "West": 1038
+        }
+      },
+      {
+        "Id": 1040,
+        "Name": "Village of Shikarnith #1040",
+        "Connections": {
+          "South": 1051,
+          "West": 1039
+        }
+      },
+      {
+        "Id": 1041,
+        "Name": "Village of Shikarnith #1041",
+        "Connections": {
+          "North": 1038,
+          "South": 1042
+        },
+        "Contents": [
+          {
+            "Text": "A Wood Elf Wardancer #1011",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1042,
+        "Name": "Village of Shikarnith #1042",
+        "Connections": {
+          "North": 1041,
+          "South": 1043
+        },
+        "Contents": [
+          {
+            "Text": "a young Wood Elf #1015",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1043,
+        "Name": "Village of Shikarnith #1043",
+        "Connections": {
+          "North": 1042,
+          "East": 1049,
+          "South": 1044
+        }
+      },
+      {
+        "Id": 1044,
+        "Name": "Village of Shikarnith #1044",
+        "Connections": {
+          "North": 1043,
+          "East": 1045,
+          "South": 1052
+        },
+        "Contents": [
+          {
+            "Text": "A Wood Elf Wardancer #1011",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1045,
+        "Name": "Village of Shikarnith #1045",
+        "Connections": {
+          "East": 1046,
+          "West": 1044
+        }
+      },
+      {
+        "Id": 1046,
+        "Name": "Village of Shikarnith #1046",
+        "Connections": {
+          "East": 1047,
+          "West": 1045
+        }
+      },
+      {
+        "Id": 1047,
+        "Name": "Village of Shikarnith #1047",
+        "Connections": {
+          "North": 1048,
+          "West": 1046
+        }
+      },
+      {
+        "Id": 1048,
+        "Name": "Fur Trappers Hut #1048",
+        "Connections": {
+          "East": 1086,
+          "South": 1047
+        },
+        "Contents": [
+          {
+            "Text": "the Wood Elf Furtrapper #1013",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1049,
+        "Name": "Wood Elf Shaman\u0027s Hut #1049",
+        "Connections": {
+          "West": 1043
+        },
+        "Contents": [
+          {
+            "Text": "the Wood Elf Shaman #1012",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1050,
+        "Name": "Village Hut #1050",
+        "Connections": {
+          "North": 1039
+        },
+        "Contents": [
+          {
+            "Text": "the Wood Elf Elder #1010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1051,
+        "Name": "Village Hut #1051",
+        "Connections": {
+          "North": 1040
+        },
+        "Contents": [
+          {
+            "Text": "the Wood Elf Elder #1010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1052,
+        "Name": "Village of Shikarnith #1052",
+        "Connections": {
+          "North": 1044,
+          "West": 1053
+        }
+      },
+      {
+        "Id": 1053,
+        "Name": "Shikarnith Island Beach #1053",
+        "Connections": {
+          "East": 1052,
+          "West": 1080
+        }
+      },
+      {
+        "Id": 1054,
+        "Name": "Flanithar Island Beach #1054",
+        "Connections": {
+          "East": 1079,
+          "South": 1055
+        }
+      },
+      {
+        "Id": 1055,
+        "Name": "Fields of Flanithar Island #1055",
+        "Connections": {
+          "North": 1054,
+          "East": 1056,
+          "South": 1058
+        },
+        "Contents": [
+          {
+            "Text": "a small fairy #1006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1056,
+        "Name": "Fields of Flanithar Island #1056",
+        "Connections": {
+          "South": 1057,
+          "West": 1055
+        }
+      },
+      {
+        "Id": 1057,
+        "Name": "Fields of Flanithar Island #1057",
+        "Connections": {
+          "North": 1056,
+          "West": 1058
+        }
+      },
+      {
+        "Id": 1058,
+        "Name": "Fields of Flanithar Island #1058",
+        "Connections": {
+          "North": 1055,
+          "East": 1057,
+          "South": 1059
+        }
+      },
+      {
+        "Id": 1059,
+        "Name": "Inside the Fairy Palace #1059",
+        "Connections": {
+          "North": 1058,
+          "West": 1060
+        }
+      },
+      {
+        "Id": 1060,
+        "Name": "Inside the Fairy Palace #1060",
+        "Connections": {
+          "East": 1059,
+          "South": 1061
+        }
+      },
+      {
+        "Id": 1061,
+        "Name": "Inside the Fairy Palace #1061",
+        "Connections": {
+          "North": 1060,
+          "East": 1062
+        }
+      },
+      {
+        "Id": 1062,
+        "Name": "Inside the Fairy Palace #1062",
+        "Connections": {
+          "West": 1061,
+          "Up": 1063
+        }
+      },
+      {
+        "Id": 1063,
+        "Name": "Inside the Fairy Palace #1063",
+        "Connections": {
+          "Up": 1064,
+          "Down": 1062
+        }
+      },
+      {
+        "Id": 1064,
+        "Name": "Inside the Fairy Palace #1064",
+        "Connections": {
+          "North": 1065,
+          "West": {
+            "RoomId": 1067,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 1063
+        },
+        "Contents": [
+          {
+            "Text": "a fairy guard #1007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1065,
+        "Name": "Inside the Fairy Palace #1065",
+        "Connections": {
+          "South": 1064,
+          "West": 1066
+        }
+      },
+      {
+        "Id": 1066,
+        "Name": "The Fairy Royal Bedroom #1066",
+        "Connections": {
+          "East": 1065
+        },
+        "Contents": [
+          {
+            "Text": "the fairy queen #1009",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1067,
+        "Name": "Fairy Palace Throne Room #1067",
+        "Connections": {
+          "East": {
+            "RoomId": 1064,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the fairy king #1008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1068,
+        "Name": "The Shikonas Sea #1068",
+        "Connections": {
+          "East": 1069,
+          "West": 1003
+        }
+      },
+      {
+        "Id": 1069,
+        "Name": "The Shikonas Sea #1069",
+        "Connections": {
+          "North": 1071,
+          "East": 1070,
+          "South": 1070,
+          "West": 1068
+        }
+      },
+      {
+        "Id": 1070,
+        "Name": "The Shikonas Sea #1070",
+        "Connections": {
+          "North": 1074,
+          "East": 1071,
+          "South": 1071,
+          "West": 1069
+        }
+      },
+      {
+        "Id": 1071,
+        "Name": "The Shikonas Sea #1071",
+        "Connections": {
+          "North": 1069,
+          "East": 1072,
+          "South": 1075,
+          "West": 1070
+        }
+      },
+      {
+        "Id": 1072,
+        "Name": "The Shikonas Sea #1072",
+        "Connections": {
+          "North": 1073,
+          "East": 1077,
+          "South": 1071,
+          "West": 1071
+        }
+      },
+      {
+        "Id": 1073,
+        "Name": "The Shikonas Sea #1073",
+        "Connections": {
+          "North": 1076,
+          "East": 1070,
+          "South": 1072,
+          "West": 1069
+        }
+      },
+      {
+        "Id": 1074,
+        "Name": "The Shikonas Sea #1074",
+        "Connections": {
+          "North": 1011,
+          "South": 1070
+        }
+      },
+      {
+        "Id": 1075,
+        "Name": "The Shikonas Sea #1075",
+        "Connections": {
+          "North": 1071,
+          "South": 1017
+        }
+      },
+      {
+        "Id": 1076,
+        "Name": "The Shikonas Sea #1076",
+        "Connections": {
+          "East": 1022,
+          "South": 1073
+        }
+      },
+      {
+        "Id": 1077,
+        "Name": "The Shikonas Sea #1077",
+        "Connections": {
+          "East": 1035,
+          "West": 1072
+        }
+      },
+      {
+        "Id": 1078,
+        "Name": "The Shikonas Sea #1078",
+        "Connections": {
+          "East": 1081,
+          "West": 1018
+        }
+      },
+      {
+        "Id": 1079,
+        "Name": "The Shikonas Sea #1079",
+        "Connections": {
+          "East": 1085,
+          "West": 1054
+        }
+      },
+      {
+        "Id": 1080,
+        "Name": "The Shikonas Sea #1080",
+        "Connections": {
+          "East": 1053,
+          "West": 1084
+        }
+      },
+      {
+        "Id": 1081,
+        "Name": "The Shikonas Sea #1081",
+        "Connections": {
+          "North": 1083,
+          "East": 1078,
+          "South": 1082,
+          "West": 1078
+        }
+      },
+      {
+        "Id": 1082,
+        "Name": "The Shikonas Sea #1082",
+        "Connections": {
+          "North": 1081,
+          "East": 1085,
+          "South": 1083,
+          "West": 1084
+        },
+        "Contents": [
+          {
+            "Text": "the Sea Dragon #1018",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1083,
+        "Name": "The Shikonas Sea #1083",
+        "Connections": {
+          "North": 1082,
+          "East": 1081,
+          "South": 1084,
+          "West": 1078
+        }
+      },
+      {
+        "Id": 1084,
+        "Name": "The Shikonas Sea #1084",
+        "Connections": {
+          "North": 1083,
+          "East": 1080,
+          "South": 1085,
+          "West": 1085
+        }
+      },
+      {
+        "Id": 1085,
+        "Name": "The Shikonas Sea #1085",
+        "Connections": {
+          "North": 1078,
+          "East": 1084,
+          "South": 1082,
+          "West": 1079
+        }
+      },
+      {
+        "Id": 1086,
+        "Name": "Forest at the Back of Shikarnith Island #1086",
+        "Connections": {
+          "North": 1087,
+          "East": 20200,
+          "West": 1048
+        }
+      },
+      {
+        "Id": 1087,
+        "Name": "Forest at the Back of Shikarnith Island #1087",
+        "Connections": {
+          "North": 1088,
+          "South": 1086
+        },
+        "Contents": [
+          {
+            "Text": "the Wood Elf Hunter #1014",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1088,
+        "Name": "Back of Shikarnith Island Beach #1088",
+        "Connections": {
+          "East": 1089,
+          "South": 1087
+        }
+      },
+      {
+        "Id": 1089,
+        "Name": "The Shikonas Sea #1089",
+        "Connections": {
+          "North": 1091,
+          "East": 1091,
+          "South": 1090,
+          "West": 1088
+        }
+      },
+      {
+        "Id": 1090,
+        "Name": "The Shikonas Sea #1090",
+        "Connections": {
+          "North": 1089,
+          "East": 1093,
+          "South": 1091,
+          "West": 1091
+        }
+      },
+      {
+        "Id": 1091,
+        "Name": "Nearing DEATH in the Wirlpool #1091",
+        "Connections": {
+          "Down": 1092
+        }
+      },
+      {
+        "Id": 1092,
+        "Name": "A Watery Grave #1092",
+        "Connections": {}
+      },
+      {
+        "Id": 1093,
+        "Name": "Kansrilla Island Beach #1093",
+        "Connections": {
+          "East": 1094,
+          "South": 1095,
+          "West": 1090
+        }
+      },
+      {
+        "Id": 1094,
+        "Name": "Magical Kansrilla Forest #1094",
+        "Connections": {
+          "South": 1096,
+          "West": 1093
+        }
+      },
+      {
+        "Id": 1095,
+        "Name": "Magical Kansrilla Forest #1095",
+        "Connections": {
+          "North": 1093,
+          "East": 1096
+        }
+      },
+      {
+        "Id": 1096,
+        "Name": "Magical Kansrilla Forest #1096",
+        "Connections": {
+          "North": 1094,
+          "South": 1097,
+          "West": 1095
+        }
+      },
+      {
+        "Id": 1097,
+        "Name": "Kansrilla Island Shrine. #1097",
+        "Connections": {
+          "North": 1096
+        },
+        "Contents": [
+          {
+            "Text": "a small forest pixie #1016",
+            "Color": "green"
+          },
+          {
+            "Text": "the Head Pixie #1017",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1098,
+        "Name": "The Borders of the Shikonas Sea #1098",
+        "Connections": {
+          "North": 1099,
+          "South": 1009
+        }
+      },
+      {
+        "Id": 1099,
+        "Name": "Coast Line #1099",
+        "Connections": {
+          "North": 1010,
+          "South": 1098
+        }
+      },
+      {
+        "Id": 15099,
+        "FrameColor": "blue",
+        "Name": "To Arnath3 #15099",
+        "Color": "blue",
+        "Connections": {
+          "East": 1000,
+          "West": 15098
+        }
+      },
+      {
+        "Id": 4954,
+        "FrameColor": "blue",
+        "Name": "To Elmpatris #4954",
+        "Color": "blue",
+        "Connections": {
+          "North": 4953,
+          "South": 1010
+        }
+      },
+      {
+        "Id": 20200,
+        "FrameColor": "blue",
+        "Name": "To CastleWhiteFlame #20200",
+        "Color": "blue",
+        "Connections": {
+          "North": 20201,
+          "West": 1086
+        }
+      }
+    ]
+  }
+}

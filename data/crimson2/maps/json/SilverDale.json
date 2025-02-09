@@ -1,0 +1,1015 @@
+{
+  "Area": {
+    "Name": "SilverDale",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 4500,
+        "Name": "At the top of the Mineshaft. #4500",
+        "Connections": {
+          "North": 4501,
+          "Down": 4076
+        }
+      },
+      {
+        "Id": 4501,
+        "Name": "Moria\u0027s Backdoor #4501",
+        "Connections": {
+          "North": 4502,
+          "South": 4500
+        }
+      },
+      {
+        "Id": 4502,
+        "Name": "Road in the Mountains #4502",
+        "Connections": {
+          "South": 4501,
+          "West": 4503
+        }
+      },
+      {
+        "Id": 4503,
+        "Name": "Muddy Road in the Mountains #4503",
+        "Connections": {
+          "North": 4504,
+          "East": 4502
+        },
+        "Contents": [
+          {
+            "Text": "The Timberwolf #4501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4504,
+        "Name": "Snowy Road in the Mountains #4504",
+        "Connections": {
+          "North": 4505,
+          "South": 4503
+        }
+      },
+      {
+        "Id": 4505,
+        "Name": "Tracks in the Snow #4505",
+        "Connections": {
+          "South": 4504,
+          "West": 4506
+        }
+      },
+      {
+        "Id": 4506,
+        "Name": "Road across the Roof-Of-The-World #4506",
+        "Connections": {
+          "North": 4507,
+          "East": 4505
+        },
+        "Contents": [
+          {
+            "Text": "The Timberwolf #4501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4507,
+        "Name": "Mountain Pass #4507",
+        "Connections": {
+          "North": 4508,
+          "South": 4506
+        },
+        "Contents": [
+          {
+            "Text": "The Timberwolf #4501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4508,
+        "Name": "Curve in the Road #4508",
+        "Connections": {
+          "East": 4509,
+          "South": 4507
+        }
+      },
+      {
+        "Id": 4509,
+        "Name": "Icy Road #4509",
+        "Connections": {
+          "North": 4510,
+          "West": 4508
+        }
+      },
+      {
+        "Id": 4510,
+        "Name": "Icy Bend in the Road #4510",
+        "Connections": {
+          "North": 18800,
+          "East": 4511,
+          "South": 4509
+        },
+        "Contents": [
+          {
+            "Text": "The Timberwolf #4501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4511,
+        "Name": "Battle near the Road #4511",
+        "Connections": {
+          "North": 4512,
+          "West": 4510
+        }
+      },
+      {
+        "Id": 4512,
+        "Name": "Overlooking a village #4512",
+        "Connections": {
+          "North": 4513,
+          "South": 4511
+        }
+      },
+      {
+        "Id": 4513,
+        "Name": "Crumbled Cliff-face #4513",
+        "Connections": {
+          "North": 4514,
+          "South": 4512,
+          "West": 4516
+        }
+      },
+      {
+        "Id": 4514,
+        "Name": "Bend in the Road. #4514",
+        "Connections": {
+          "North": 4515,
+          "East": 4517,
+          "South": 4513
+        },
+        "Contents": [
+          {
+            "Text": "The Timberwolf #4501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4515,
+        "Name": "Forgotten path by Avalanche #4515",
+        "Connections": {
+          "South": 4514,
+          "Down": 4955
+        }
+      },
+      {
+        "Id": 4516,
+        "Name": "Base of the Cliff #4516",
+        "Connections": {
+          "Up": 4513
+        },
+        "Contents": [
+          {
+            "Text": "The Huge White Wolf #4502",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4517,
+        "Name": "Approaching the Village #4517",
+        "Connections": {
+          "East": 4518,
+          "West": 4514
+        }
+      },
+      {
+        "Id": 4518,
+        "Name": "Approaching the Village Gate #4518",
+        "Connections": {
+          "East": 4519,
+          "West": 4517
+        },
+        "Contents": [
+          {
+            "Text": "The Timberwolf #4501",
+            "Color": "green"
+          },
+          {
+            "Text": "The Huge White Wolf #4502",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4519,
+        "Name": "Outside the West Gate #4519",
+        "Connections": {
+          "East": {
+            "RoomId": 4520,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 4518
+        }
+      },
+      {
+        "Id": 4520,
+        "Name": "By the West Gate #4520",
+        "Connections": {
+          "North": 4530,
+          "East": 4521,
+          "South": 4524,
+          "West": {
+            "RoomId": 4519,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4521,
+        "Name": "The Village Inn #4521",
+        "Connections": {
+          "West": 4520
+        }
+      },
+      {
+        "Id": 4522,
+        "Name": "The Town Hall #4522",
+        "Connections": {
+          "East": 4523
+        }
+      },
+      {
+        "Id": 4523,
+        "Name": "By the East Gate #4523",
+        "Connections": {
+          "North": 4533,
+          "East": 4536,
+          "South": 4527,
+          "West": 4522
+        }
+      },
+      {
+        "Id": 4524,
+        "Name": "A dirt road #4524",
+        "Connections": {
+          "North": 4520,
+          "East": 4525
+        }
+      },
+      {
+        "Id": 4525,
+        "Name": "A dirt road #4525",
+        "Connections": {
+          "East": 4526,
+          "South": 4528,
+          "West": 4524
+        },
+        "Contents": [
+          {
+            "Text": "The Huge White Wolf #4502",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4526,
+        "Name": "A dirt road #4526",
+        "Connections": {
+          "East": 4527,
+          "South": 4529,
+          "West": 4525
+        }
+      },
+      {
+        "Id": 4527,
+        "Name": "A dirt road #4527",
+        "Connections": {
+          "North": 4523,
+          "West": 4526
+        },
+        "Contents": [
+          {
+            "Text": "The Timberwolf #4501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4528,
+        "Name": "The Outfitters Shop #4528",
+        "Connections": {
+          "North": 4525
+        }
+      },
+      {
+        "Id": 4529,
+        "Name": "The Assayers Office #4529",
+        "Connections": {
+          "North": 4526
+        }
+      },
+      {
+        "Id": 4530,
+        "Name": "A dirt road #4530",
+        "Connections": {
+          "East": 4531,
+          "South": 4520
+        },
+        "Contents": [
+          {
+            "Text": "The Timberwolf #4501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4531,
+        "Name": "A dirt road #4531",
+        "Connections": {
+          "North": 4534,
+          "East": 4532,
+          "West": 4530
+        }
+      },
+      {
+        "Id": 4532,
+        "Name": "A dirt road #4532",
+        "Connections": {
+          "North": 4535,
+          "East": 4533,
+          "West": 4531
+        }
+      },
+      {
+        "Id": 4533,
+        "Name": "A dirt road #4533",
+        "Connections": {
+          "South": 4523,
+          "West": 4532
+        },
+        "Contents": [
+          {
+            "Text": "The Huge White Wolf #4502",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4534,
+        "Name": "The Smithy #4534",
+        "Connections": {
+          "South": 4531
+        },
+        "Contents": [
+          {
+            "Text": "The Vampire Orc-Shaman #4504",
+            "Color": "red"
+          },
+          {
+            "Text": "The Orc Bodyguard #4505",
+            "Color": "red"
+          },
+          {
+            "Text": "The Orc Bodyguard #4505",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4535,
+        "Name": "The Miners Barracks #4535",
+        "Connections": {
+          "South": 4532
+        },
+        "Contents": [
+          {
+            "Text": "The Huge White Wolf #4502",
+            "Color": "red"
+          },
+          {
+            "Text": "The Huge White Wolf #4502",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4536,
+        "Name": "Outside the East Gate #4536",
+        "Connections": {
+          "East": 4537,
+          "West": {
+            "RoomId": 4523,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4537,
+        "Name": "Inside the Black Forest #4537",
+        "Connections": {
+          "North": 4558,
+          "East": 4538,
+          "South": 4543,
+          "West": 4536
+        },
+        "Contents": [
+          {
+            "Text": "The Huge Shadow Wolf #4503",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4538,
+        "Name": "Inside the Black Forest #4538",
+        "Connections": {
+          "North": 4559,
+          "East": 4539,
+          "West": 4537
+        }
+      },
+      {
+        "Id": 4539,
+        "Name": "Inside the Black Forest #4539",
+        "Connections": {
+          "West": 4538
+        }
+      },
+      {
+        "Id": 4540,
+        "Name": "Inside the Black Forest #4540",
+        "Connections": {
+          "North": 4561,
+          "South": 4546
+        },
+        "Contents": [
+          {
+            "Text": "The Huge Shadow Wolf #4503",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4541,
+        "Name": "Inside the Black Forest #4541",
+        "Connections": {
+          "East": 4542,
+          "South": 4547
+        }
+      },
+      {
+        "Id": 4542,
+        "Name": "West of the Watch Tower #4542",
+        "Connections": {
+          "East": 4573,
+          "West": 4541
+        }
+      },
+      {
+        "Id": 4543,
+        "Name": "Inside the Black Forest #4543",
+        "Connections": {
+          "North": 4537,
+          "East": 4544,
+          "South": 4548
+        },
+        "Contents": [
+          {
+            "Text": "The Huge Shadow Wolf #4503",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4544,
+        "Name": "Inside the Black Forest #4544",
+        "Connections": {
+          "West": 4543
+        }
+      },
+      {
+        "Id": 4545,
+        "Name": "Inside the Black Forest #4545",
+        "Connections": {
+          "East": 4546,
+          "South": 4550
+        }
+      },
+      {
+        "Id": 4546,
+        "Name": "Inside the Black Forest #4546",
+        "Connections": {
+          "North": 4540,
+          "South": 4551,
+          "West": 4545
+        },
+        "Contents": [
+          {
+            "Text": "The Huge Shadow Wolf #4503",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4547,
+        "Name": "Inside the Black Forest #4547",
+        "Connections": {
+          "North": 4541,
+          "South": 4552
+        }
+      },
+      {
+        "Id": 4548,
+        "Name": "Inside the Black Forest #4548",
+        "Connections": {
+          "North": 4543,
+          "East": 4549,
+          "South": 4553
+        }
+      },
+      {
+        "Id": 4549,
+        "Name": "Inside the Black Forest #4549",
+        "Connections": {
+          "South": 4554,
+          "West": 4548
+        },
+        "Contents": [
+          {
+            "Text": "The Huge Shadow Wolf #4503",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4550,
+        "Name": "Inside the Black Forest #4550",
+        "Connections": {
+          "North": 4545,
+          "South": 4555
+        }
+      },
+      {
+        "Id": 4551,
+        "Name": "Inside the Black Forest #4551",
+        "Connections": {
+          "North": 4546
+        },
+        "Contents": [
+          {
+            "Text": "The Huge Shadow Wolf #4503",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4552,
+        "Name": "Inside the Black Forest #4552",
+        "Connections": {
+          "North": 4547,
+          "South": 4557
+        }
+      },
+      {
+        "Id": 4553,
+        "Name": "Inside the Black Forest #4553",
+        "Connections": {
+          "North": 4548
+        }
+      },
+      {
+        "Id": 4554,
+        "Name": "Inside the Black Forest #4554",
+        "Connections": {
+          "North": 4549
+        },
+        "Contents": [
+          {
+            "Text": "The Huge Shadow Wolf #4503",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4555,
+        "Name": "Inside the Black Forest #4555",
+        "Connections": {
+          "North": 4550,
+          "East": 4556
+        }
+      },
+      {
+        "Id": 4556,
+        "Name": "Inside the Black Forest #4556",
+        "Connections": {
+          "East": 4557,
+          "West": 4555
+        }
+      },
+      {
+        "Id": 4557,
+        "Name": "Inside the Black Forest #4557",
+        "Connections": {
+          "North": 4552,
+          "West": 4556
+        },
+        "Contents": [
+          {
+            "Text": "The Huge Shadow Wolf #4503",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4558,
+        "Name": "Inside the Black Forest #4558",
+        "Connections": {
+          "North": 4563,
+          "South": 4537
+        }
+      },
+      {
+        "Id": 4559,
+        "Name": "Inside the Black Forest #4559",
+        "Connections": {
+          "South": 4538
+        }
+      },
+      {
+        "Id": 4560,
+        "Name": "Inside the Black Forest #4560",
+        "Connections": {
+          "North": 4565,
+          "East": 4561
+        },
+        "Contents": [
+          {
+            "Text": "The Huge Shadow Wolf #4503",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4561,
+        "Name": "Inside the Black Forest #4561",
+        "Connections": {
+          "South": 4540,
+          "West": 4560
+        }
+      },
+      {
+        "Id": 4562,
+        "Name": "Inside the Black Forest #4562",
+        "Connections": {
+          "North": 4567
+        }
+      },
+      {
+        "Id": 4563,
+        "Name": "Inside the Black Forest #4563",
+        "Connections": {
+          "North": 4568,
+          "East": 4564,
+          "South": 4558
+        },
+        "Contents": [
+          {
+            "Text": "The Huge Shadow Wolf #4503",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4564,
+        "Name": "Inside the Black Forest #4564",
+        "Connections": {
+          "West": 4563
+        }
+      },
+      {
+        "Id": 4565,
+        "Name": "Inside the Black Forest #4565",
+        "Connections": {
+          "North": 4570,
+          "East": 4566,
+          "South": 4560
+        }
+      },
+      {
+        "Id": 4566,
+        "Name": "Inside the Black Forest #4566",
+        "Connections": {
+          "East": 4567,
+          "West": 4565
+        },
+        "Contents": [
+          {
+            "Text": "The Huge Shadow Wolf #4503",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4567,
+        "Name": "Inside the Black Forest #4567",
+        "Connections": {
+          "North": 4572,
+          "South": 4562,
+          "West": 4566
+        }
+      },
+      {
+        "Id": 4568,
+        "Name": "Inside the Black Forest #4568",
+        "Connections": {
+          "East": 4569,
+          "South": 4563
+        }
+      },
+      {
+        "Id": 4569,
+        "Name": "Inside the Black Forest #4569",
+        "Connections": {
+          "East": 4570,
+          "West": 4568
+        },
+        "Contents": [
+          {
+            "Text": "The Huge Shadow Wolf #4503",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4570,
+        "Name": "Inside the Black Forest #4570",
+        "Connections": {
+          "East": 4571,
+          "South": 4565,
+          "West": 4569
+        }
+      },
+      {
+        "Id": 4571,
+        "Name": "Inside the Black Forest #4571",
+        "Connections": {
+          "West": 4570
+        }
+      },
+      {
+        "Id": 4572,
+        "Name": "Inside the Black Forest #4572",
+        "Connections": {
+          "South": 4567
+        },
+        "Contents": [
+          {
+            "Text": "The Huge Shadow Wolf #4503",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4573,
+        "Name": "Entranceway to the Watch Tower #4573",
+        "Connections": {
+          "East": 4574,
+          "South": 4577,
+          "West": {
+            "RoomId": 4542,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4574,
+        "Name": "Inside the Watch Tower #4574",
+        "Connections": {
+          "East": 4575,
+          "West": 4573
+        }
+      },
+      {
+        "Id": 4575,
+        "Name": "Entranceway to the Watch Tower #4575",
+        "Connections": {
+          "North": 4582,
+          "East": 4576,
+          "South": 4579,
+          "West": 4574
+        }
+      },
+      {
+        "Id": 4576,
+        "Name": "Outside the Watch Tower #4576",
+        "Connections": {
+          "West": 4575
+        }
+      },
+      {
+        "Id": 4577,
+        "Name": "The Stables #4577",
+        "Connections": {
+          "North": 4573
+        }
+      },
+      {
+        "Id": 4578,
+        "Name": "The Cold Room #4578",
+        "Connections": {
+          "East": 4579
+        }
+      },
+      {
+        "Id": 4579,
+        "Name": "The Store Room #4579",
+        "Connections": {
+          "North": 4575,
+          "West": 4578
+        }
+      },
+      {
+        "Id": 4580,
+        "Name": "A stairwell #4580",
+        "Connections": {
+          "East": 4581,
+          "Up": 4583
+        }
+      },
+      {
+        "Id": 4581,
+        "Name": "Inside the Watch Tower #4581",
+        "Connections": {
+          "East": 4582,
+          "West": 4580
+        }
+      },
+      {
+        "Id": 4582,
+        "Name": "Inside the Watch Tower #4582",
+        "Connections": {
+          "South": 4575,
+          "West": 4581
+        },
+        "Contents": [
+          {
+            "Text": "The Orc Bodyguard #4505",
+            "Color": "red"
+          },
+          {
+            "Text": "The Orc Bodyguard #4505",
+            "Color": "red"
+          },
+          {
+            "Text": "The Orc Bodyguard #4505",
+            "Color": "red"
+          },
+          {
+            "Text": "The Orc Bodyguard #4505",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4583,
+        "Name": "Inside a Stairwell #4583",
+        "Connections": {
+          "East": 4584,
+          "Down": 4580
+        }
+      },
+      {
+        "Id": 4584,
+        "Name": "Reception Area #4584",
+        "Connections": {
+          "South": 4585,
+          "West": 4583
+        },
+        "Contents": [
+          {
+            "Text": "The giant rat #4509",
+            "Color": "red"
+          },
+          {
+            "Text": "The giant rat #4509",
+            "Color": "red"
+          },
+          {
+            "Text": "The giant rat #4509",
+            "Color": "red"
+          },
+          {
+            "Text": "The giant rat #4509",
+            "Color": "red"
+          },
+          {
+            "Text": "The giant rat #4509",
+            "Color": "red"
+          },
+          {
+            "Text": "The giant rat #4509",
+            "Color": "red"
+          },
+          {
+            "Text": "The giant rat #4509",
+            "Color": "red"
+          },
+          {
+            "Text": "The giant rat #4509",
+            "Color": "red"
+          },
+          {
+            "Text": "The giant rat #4509",
+            "Color": "red"
+          },
+          {
+            "Text": "The giant rat #4509",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4585,
+        "Name": "Audience Chamber #4585",
+        "Connections": {
+          "North": 4584,
+          "West": 4586
+        },
+        "Contents": [
+          {
+            "Text": "A vampire mistress #4508",
+            "Color": "red"
+          },
+          {
+            "Text": "A vampire mistress #4508",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4586,
+        "Name": "The Bedroom #4586",
+        "Connections": {
+          "East": 4585
+        },
+        "Contents": [
+          {
+            "Text": "Nosferatu #4510",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4587,
+        "Name": "A Private Cubbyhole #4587",
+        "Connections": {
+          "East": 4586
+        }
+      },
+      {
+        "Id": 4076,
+        "FrameColor": "blue",
+        "Name": "To Moria12 #4076",
+        "Color": "blue",
+        "Connections": {
+          "Up": 4500,
+          "Down": 4075
+        }
+      },
+      {
+        "Id": 18800,
+        "FrameColor": "blue",
+        "Name": "To IceCrystalPalace #18800",
+        "Color": "blue",
+        "Connections": {
+          "North": 18802,
+          "South": 4510
+        }
+      },
+      {
+        "Id": 4955,
+        "FrameColor": "blue",
+        "Name": "To SnowPeak #4955",
+        "Color": "blue",
+        "Connections": {
+          "North": 4956
+        }
+      }
+    ]
+  }
+}

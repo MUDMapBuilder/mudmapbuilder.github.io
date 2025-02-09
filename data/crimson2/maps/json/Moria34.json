@@ -1,0 +1,331 @@
+{
+  "Area": {
+    "Name": "Moria34",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 4100,
+        "Name": "The tunnel #4100",
+        "Connections": {
+          "West": 4101
+        }
+      },
+      {
+        "Id": 4101,
+        "Name": "The long tunnel #4101",
+        "Connections": {
+          "East": 4100,
+          "West": 4102
+        }
+      },
+      {
+        "Id": 4102,
+        "Name": "The long tunnel #4102",
+        "Connections": {
+          "East": 4101,
+          "West": 4103
+        }
+      },
+      {
+        "Id": 4103,
+        "Name": "The long tunnel #4103",
+        "Connections": {
+          "East": 4102,
+          "South": 4106,
+          "West": 4104
+        },
+        "Contents": [
+          {
+            "Text": "the snake #4102",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4104,
+        "Name": "The long tunnel #4104",
+        "Connections": {
+          "East": 4103,
+          "West": 21400
+        }
+      },
+      {
+        "Id": 4105,
+        "Name": "The golden cave #4105",
+        "Connections": {
+          "South": 4108,
+          "West": 4106
+        }
+      },
+      {
+        "Id": 4106,
+        "Name": "The golden cave #4106",
+        "Connections": {
+          "North": 4103,
+          "East": 4105,
+          "South": 4109
+        },
+        "Contents": [
+          {
+            "Text": "The phantom #4104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4107,
+        "Name": "The passage #4107",
+        "Connections": {
+          "South": 4113,
+          "West": 4108
+        }
+      },
+      {
+        "Id": 4108,
+        "Name": "The golden cave #4108",
+        "Connections": {
+          "North": 4105,
+          "East": 4107,
+          "West": 4109
+        },
+        "Contents": [
+          {
+            "Text": "a centipede #4105",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4109,
+        "Name": "The golden cave #4109",
+        "Connections": {
+          "North": 4106,
+          "East": 4108,
+          "South": 4114
+        }
+      },
+      {
+        "Id": 4110,
+        "Name": "The hole #4110",
+        "Connections": {
+          "West": 4111,
+          "Down": 5100
+        }
+      },
+      {
+        "Id": 4111,
+        "Name": "The tunnel #4111",
+        "Connections": {
+          "East": 4110,
+          "West": 4112
+        },
+        "Contents": [
+          {
+            "Text": "the snake #4102",
+            "Color": "red"
+          },
+          {
+            "Text": "the snake #4102",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4112,
+        "Name": "The tunnel #4112",
+        "Connections": {
+          "East": 4111,
+          "West": 4113
+        }
+      },
+      {
+        "Id": 4113,
+        "Name": "The passage #4113",
+        "Connections": {
+          "North": 4107,
+          "East": 4112,
+          "South": 4116
+        },
+        "Contents": [
+          {
+            "Text": "the Warrior #4106",
+            "Color": "red"
+          },
+          {
+            "Text": "The phantom #4104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4114,
+        "Name": "The golden cave #4114",
+        "Connections": {
+          "North": 4109
+        },
+        "Contents": [
+          {
+            "Text": "the Mage #4100",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4115,
+        "Name": "The dark passage. #4115",
+        "Connections": {
+          "Up": 4099
+        },
+        "Contents": [
+          {
+            "Text": "Melcrin, sovereign of the trolls #4108",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4116,
+        "Name": "The passage #4116",
+        "Connections": {
+          "North": 4113,
+          "South": 4120
+        }
+      },
+      {
+        "Id": 4117,
+        "Name": "The secret tunnel #4117",
+        "Connections": {
+          "North": 4114,
+          "East": 21420,
+          "South": 4122
+        }
+      },
+      {
+        "Id": 4118,
+        "Name": "The cave #4118",
+        "Connections": {
+          "South": 4123,
+          "West": 4119
+        }
+      },
+      {
+        "Id": 4119,
+        "Name": "The cave #4119",
+        "Connections": {
+          "East": 4118,
+          "South": 4124,
+          "West": 4121
+        },
+        "Contents": [
+          {
+            "Text": "the kobold #4107",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4120,
+        "Name": "The passage #4120",
+        "Connections": {
+          "North": 4116,
+          "South": 4125
+        }
+      },
+      {
+        "Id": 4121,
+        "Name": "The secret tunnel #4121",
+        "Connections": {
+          "West": 4122
+        }
+      },
+      {
+        "Id": 4122,
+        "Name": "The secret chamber #4122",
+        "Connections": {
+          "North": 4117
+        },
+        "Contents": [
+          {
+            "Text": "the troll #4101",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4123,
+        "Name": "The cave #4123",
+        "Connections": {
+          "North": 4118,
+          "West": 4124
+        }
+      },
+      {
+        "Id": 4124,
+        "Name": "The cave #4124",
+        "Connections": {
+          "North": 4119,
+          "East": 4123,
+          "West": 4125
+        },
+        "Contents": [
+          {
+            "Text": "the Thief #4103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4125,
+        "Name": "The passage #4125",
+        "Connections": {
+          "North": 4120,
+          "East": 4124
+        }
+      },
+      {
+        "Id": 21400,
+        "FrameColor": "blue",
+        "Name": "To Moria56 #21400",
+        "Color": "blue",
+        "Connections": {
+          "East": 4104,
+          "West": 21401
+        }
+      },
+      {
+        "Id": 5100,
+        "FrameColor": "blue",
+        "Name": "To DrowCity #5100",
+        "Color": "blue",
+        "Connections": {
+          "West": 5101,
+          "Up": 4110
+        }
+      },
+      {
+        "Id": 4099,
+        "FrameColor": "blue",
+        "Name": "To Moria12 #4099",
+        "Color": "blue",
+        "Connections": {
+          "North": 4095,
+          "East": 4095,
+          "South": 4095,
+          "West": 4095,
+          "Up": 4095,
+          "Down": 4115
+        }
+      },
+      {
+        "Id": 21420,
+        "FrameColor": "blue",
+        "Name": "To Moria56 #21420",
+        "Color": "blue",
+        "Connections": {
+          "East": 21421,
+          "West": 4117
+        }
+      }
+    ]
+  }
+}

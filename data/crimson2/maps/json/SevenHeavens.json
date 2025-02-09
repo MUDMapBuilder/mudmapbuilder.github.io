@@ -1,0 +1,1156 @@
+{
+  "Area": {
+    "Name": "SevenHeavens",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 7400,
+        "Name": "Zone Explanation #7400",
+        "Connections": {}
+      },
+      {
+        "Id": 7401,
+        "Name": "Entrace to the first level of Heaven #7401",
+        "Connections": {
+          "East": 7402,
+          "Down": 18494
+        }
+      },
+      {
+        "Id": 7402,
+        "Name": "At the gates of Heaven. #7402",
+        "Connections": {
+          "East": {
+            "RoomId": 7403,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 7401
+        },
+        "Contents": [
+          {
+            "Text": "A celestial guard #7400",
+            "Color": "green"
+          },
+          {
+            "Text": "A celestial guard #7400",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7403,
+        "Name": "The first level of Heaven #7403",
+        "Connections": {
+          "North": 7404,
+          "West": 7402
+        }
+      },
+      {
+        "Id": 7404,
+        "Name": "The first level of Heaven #7404",
+        "Connections": {
+          "North": 7408,
+          "East": 7410,
+          "South": 7403,
+          "West": 7405
+        },
+        "Contents": [
+          {
+            "Text": "A lower celestial #7401",
+            "Color": "red"
+          },
+          {
+            "Text": "A lower cupid #7402",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7405,
+        "Name": "The first level of Heaven #7405",
+        "Connections": {
+          "North": 7406,
+          "East": 7404
+        }
+      },
+      {
+        "Id": 7406,
+        "Name": "The first level of Heaven #7406",
+        "Connections": {
+          "North": 7407,
+          "South": 7405
+        }
+      },
+      {
+        "Id": 7407,
+        "Name": "Doorway to the second level of Heaven #7407",
+        "Connections": {
+          "North": {
+            "RoomId": 7417,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 7406
+        },
+        "Contents": [
+          {
+            "Text": "The Cupid Michael #7403",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7408,
+        "Name": "The first level of Heaven. #7408",
+        "Connections": {
+          "North": 7416,
+          "East": 7409,
+          "South": 7404
+        }
+      },
+      {
+        "Id": 7409,
+        "Name": "The first level of Heaven #7409",
+        "Connections": {
+          "North": 7415,
+          "South": 7410,
+          "West": 7408
+        },
+        "Contents": [
+          {
+            "Text": "A lower celestial #7401",
+            "Color": "red"
+          },
+          {
+            "Text": "A lower cupid #7402",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7410,
+        "Name": "The first level of Heaven. #7410",
+        "Connections": {
+          "North": 7409,
+          "East": 7411,
+          "West": 7404
+        }
+      },
+      {
+        "Id": 7411,
+        "Name": "The first level of Heaven #7411",
+        "Connections": {
+          "East": 7412,
+          "West": 7410
+        }
+      },
+      {
+        "Id": 7412,
+        "Name": "The first level of Heaven #7412",
+        "Connections": {
+          "North": 7413,
+          "West": 7411
+        }
+      },
+      {
+        "Id": 7413,
+        "Name": "The first level of Heaven #7413",
+        "Connections": {
+          "East": 7414,
+          "South": 7412
+        }
+      },
+      {
+        "Id": 7414,
+        "Name": "Home of Purineesa #7414",
+        "Connections": {
+          "West": 7413
+        },
+        "Contents": [
+          {
+            "Text": "Purineesa the seraph #7404",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7415,
+        "Name": "The first level of Heaven #7415",
+        "Connections": {
+          "South": 7409,
+          "West": 7416
+        }
+      },
+      {
+        "Id": 7416,
+        "Name": "The first level of Heaven #7416",
+        "Connections": {
+          "East": 7415,
+          "South": 7408
+        }
+      },
+      {
+        "Id": 7417,
+        "Name": "The second level of Heaven #7417",
+        "Connections": {
+          "East": 7421,
+          "South": 7407
+        }
+      },
+      {
+        "Id": 7418,
+        "Name": "Anael\u0027s Sanctuary #7418",
+        "Connections": {
+          "East": 7429
+        },
+        "Contents": [
+          {
+            "Text": "Anael, the seraph #7417",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7419,
+        "Name": "At the third level gates #7419",
+        "Connections": {
+          "South": 7430,
+          "West": {
+            "RoomId": 7434,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Sebastian, the cupid #7414",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7420,
+        "Name": "Gedariah\u0027s Home #7420",
+        "Connections": {
+          "East": 7442
+        },
+        "Contents": [
+          {
+            "Text": "Gedariah #7405",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7421,
+        "Name": "The second level of Heaven #7421",
+        "Connections": {
+          "North": 7422,
+          "West": 7417
+        },
+        "Contents": [
+          {
+            "Text": "Soshia, the muse #7409",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7422,
+        "Name": "The second level of Heaven #7422",
+        "Connections": {
+          "East": 7423,
+          "South": 7421
+        }
+      },
+      {
+        "Id": 7423,
+        "Name": "The second level of Heaven #7423",
+        "Connections": {
+          "North": 7424,
+          "West": 7422
+        }
+      },
+      {
+        "Id": 7424,
+        "Name": "The second level of Heaven #7424",
+        "Connections": {
+          "North": 7425,
+          "South": 7423
+        },
+        "Contents": [
+          {
+            "Text": "A lower celestial #7401",
+            "Color": "red"
+          },
+          {
+            "Text": "A lower celestial #7401",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7425,
+        "Name": "The second level of Heaven #7425",
+        "Connections": {
+          "South": 7424,
+          "West": 7426
+        },
+        "Contents": [
+          {
+            "Text": "A lower cupid #7402",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7426,
+        "Name": "The second level of Heaven #7426",
+        "Connections": {
+          "North": 7427,
+          "East": 7425
+        },
+        "Contents": [
+          {
+            "Text": "A lower cupid #7402",
+            "Color": "red"
+          },
+          {
+            "Text": "A lower celestial #7401",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7427,
+        "Name": "The second level of Heaven #7427",
+        "Connections": {
+          "North": 7430,
+          "South": 7426,
+          "West": 7428
+        },
+        "Contents": [
+          {
+            "Text": "A celestial #7407",
+            "Color": "green"
+          },
+          {
+            "Text": "A celestial #7407",
+            "Color": "green"
+          },
+          {
+            "Text": "A celestial #7407",
+            "Color": "green"
+          },
+          {
+            "Text": "A celestial #7407",
+            "Color": "green"
+          },
+          {
+            "Text": "A celestial #7407",
+            "Color": "green"
+          },
+          {
+            "Text": "A celestial #7407",
+            "Color": "green"
+          },
+          {
+            "Text": "A celestial #7407",
+            "Color": "green"
+          },
+          {
+            "Text": "A celestial #7407",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7428,
+        "Name": "The second level of Heaven #7428",
+        "Connections": {
+          "East": 7427,
+          "West": 7429
+        }
+      },
+      {
+        "Id": 7429,
+        "Name": "The second level of Heaven #7429",
+        "Connections": {
+          "East": 7428,
+          "West": 7418
+        }
+      },
+      {
+        "Id": 7430,
+        "Name": "The second level of Heaven #7430",
+        "Connections": {
+          "North": 7419,
+          "South": 7427
+        }
+      },
+      {
+        "Id": 7431,
+        "Name": "The third level of Heaven #7431",
+        "Connections": {}
+      },
+      {
+        "Id": 7432,
+        "Name": "The fourth gate of Heaven #7432",
+        "Connections": {
+          "North": {
+            "RoomId": 7445,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 7443
+        },
+        "Contents": [
+          {
+            "Text": "Wayne the cupid #7406",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7433,
+        "Name": "The Silvery Dragons Lair #7433",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "The silvery dragon #7416",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7434,
+        "Name": "The third level of Heaven #7434",
+        "Connections": {
+          "East": 7419,
+          "West": 7435
+        }
+      },
+      {
+        "Id": 7435,
+        "Name": "The third level of Heaven #7435",
+        "Connections": {
+          "North": 7436,
+          "East": 7434
+        }
+      },
+      {
+        "Id": 7436,
+        "Name": "The third level of Heaven #7436",
+        "Connections": {
+          "North": 7437,
+          "South": 7435
+        },
+        "Contents": [
+          {
+            "Text": "A cupid #7427",
+            "Color": "green"
+          },
+          {
+            "Text": "A cupid #7427",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7437,
+        "Name": "The third level of Heaven #7437",
+        "Connections": {
+          "South": 7436,
+          "West": 7438
+        }
+      },
+      {
+        "Id": 7438,
+        "Name": "The third level of Heaven #7438",
+        "Connections": {
+          "East": 7437,
+          "West": 7439
+        }
+      },
+      {
+        "Id": 7439,
+        "Name": "The third level of Heaven #7439",
+        "Connections": {
+          "East": 7438,
+          "West": 7440
+        }
+      },
+      {
+        "Id": 7440,
+        "Name": "The third level of Heaven #7440",
+        "Connections": {
+          "North": 7443,
+          "East": 7439,
+          "West": 7441
+        }
+      },
+      {
+        "Id": 7441,
+        "Name": "The third level of Heaven #7441",
+        "Connections": {
+          "East": 7440,
+          "South": 7442
+        },
+        "Contents": [
+          {
+            "Text": "A cupid #7427",
+            "Color": "green"
+          },
+          {
+            "Text": "A cupid #7427",
+            "Color": "green"
+          },
+          {
+            "Text": "A cupid #7427",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7442,
+        "Name": "The third level of Heaven #7442",
+        "Connections": {
+          "North": 7441,
+          "West": 7420
+        }
+      },
+      {
+        "Id": 7443,
+        "Name": "The third level of Heaven #7443",
+        "Connections": {
+          "North": 7432,
+          "South": 7440
+        },
+        "Contents": [
+          {
+            "Text": "A cupid #7427",
+            "Color": "green"
+          },
+          {
+            "Text": "A cupid #7427",
+            "Color": "green"
+          },
+          {
+            "Text": "A cupid #7427",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7444,
+        "Name": "The fourth level of Heaven #7444",
+        "Connections": {}
+      },
+      {
+        "Id": 7445,
+        "Name": "The fourth level of Heaven #7445",
+        "Connections": {
+          "South": 7432,
+          "Up": 7446
+        }
+      },
+      {
+        "Id": 7446,
+        "Name": "The fourth level of Heaven #7446",
+        "Connections": {
+          "North": 7447,
+          "Down": 7445
+        },
+        "Contents": [
+          {
+            "Text": "Sabrina, the muse #7408",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7447,
+        "Name": "The fourth level of Heaven #7447",
+        "Connections": {
+          "South": 7446,
+          "West": 7448
+        },
+        "Contents": [
+          {
+            "Text": "Emily, a muse #7410",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7448,
+        "Name": "The fourth level of Heaven #7448",
+        "Connections": {
+          "East": 7447,
+          "Up": 7449
+        },
+        "Contents": [
+          {
+            "Text": "Kelly, the muse #7413",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7449,
+        "Name": "The fourth level of Heaven #7449",
+        "Connections": {
+          "East": 7450,
+          "Down": 7448
+        }
+      },
+      {
+        "Id": 7450,
+        "Name": "The fourth level of Heaven #7450",
+        "Connections": {
+          "West": 7449,
+          "Down": 7451
+        },
+        "Contents": [
+          {
+            "Text": "Natasha, the muse #7411",
+            "Color": "green"
+          },
+          {
+            "Text": "Haley, the muse #7412",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7451,
+        "Name": "The fourth level of Heaven #7451",
+        "Connections": {
+          "North": 7452,
+          "Up": 7450
+        }
+      },
+      {
+        "Id": 7452,
+        "Name": "The fourth level of Heaven #7452",
+        "Connections": {
+          "South": 7451,
+          "Down": 7453
+        }
+      },
+      {
+        "Id": 7453,
+        "Name": "The fourth level of Heaven #7453",
+        "Connections": {
+          "West": 7454,
+          "Up": 7452
+        }
+      },
+      {
+        "Id": 7454,
+        "Name": "The fourth level of Heaven #7454",
+        "Connections": {
+          "East": 7453,
+          "Down": 7455
+        }
+      },
+      {
+        "Id": 7455,
+        "Name": "The fourth level of Heaven #7455",
+        "Connections": {
+          "West": 7456,
+          "Up": 7454,
+          "Down": 7459
+        }
+      },
+      {
+        "Id": 7456,
+        "Name": "The fourth level of Heaven #7456",
+        "Connections": {
+          "North": 7457,
+          "East": 7455
+        }
+      },
+      {
+        "Id": 7457,
+        "Name": "The fourth level of Heaven #7457",
+        "Connections": {
+          "North": 7458,
+          "South": 7456
+        }
+      },
+      {
+        "Id": 7458,
+        "Name": "Michah\u0027s Home #7458",
+        "Connections": {
+          "South": 7457
+        },
+        "Contents": [
+          {
+            "Text": "Micah #7415",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7459,
+        "Name": "The fourth level of Heaven #7459",
+        "Connections": {
+          "North": 7461,
+          "Up": 7455
+        }
+      },
+      {
+        "Id": 7460,
+        "Name": "The gates of the fifth level #7460",
+        "Connections": {
+          "North": {
+            "RoomId": 7462,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 7461
+        },
+        "Contents": [
+          {
+            "Text": "Rhonda, the cupid #7418",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7461,
+        "Name": "The fourth level of Heaven #7461",
+        "Connections": {
+          "North": 7460,
+          "South": 7459
+        }
+      },
+      {
+        "Id": 7462,
+        "Name": "The fifth level of Heaven #7462",
+        "Connections": {
+          "East": 7463,
+          "South": 7460,
+          "West": 7483
+        }
+      },
+      {
+        "Id": 7463,
+        "Name": "The fifth level of Heaven #7463",
+        "Connections": {
+          "East": 7464,
+          "West": 7462
+        }
+      },
+      {
+        "Id": 7464,
+        "Name": "The fifth level of Heaven #7464",
+        "Connections": {
+          "East": 7465,
+          "West": 7463
+        }
+      },
+      {
+        "Id": 7465,
+        "Name": "The fifth level of Heaven #7465",
+        "Connections": {
+          "East": 7466,
+          "West": 7464
+        }
+      },
+      {
+        "Id": 7466,
+        "Name": "The fifth level of Heaven #7466",
+        "Connections": {
+          "North": 7467,
+          "West": 7465,
+          "Up": 7488
+        }
+      },
+      {
+        "Id": 7467,
+        "Name": "The fifth level of Heaven #7467",
+        "Connections": {
+          "North": 7468,
+          "South": 7466
+        }
+      },
+      {
+        "Id": 7468,
+        "Name": "The fifth level of Heaven #7468",
+        "Connections": {
+          "North": 7469,
+          "South": 7467
+        }
+      },
+      {
+        "Id": 7469,
+        "Name": "The fifth level of Heaven #7469",
+        "Connections": {
+          "North": 7487,
+          "South": 7468
+        }
+      },
+      {
+        "Id": 7470,
+        "Name": "The fifth level of Heaven #7470",
+        "Connections": {
+          "South": 7487,
+          "West": 7471,
+          "Up": 7489
+        }
+      },
+      {
+        "Id": 7471,
+        "Name": "The fifth level of Heaven #7471",
+        "Connections": {
+          "East": 7470,
+          "West": 7472
+        }
+      },
+      {
+        "Id": 7472,
+        "Name": "The fifth level of Heaven #7472",
+        "Connections": {
+          "East": 7471,
+          "West": 7473
+        }
+      },
+      {
+        "Id": 7473,
+        "Name": "The fifth level of Heaven #7473",
+        "Connections": {
+          "East": 7472,
+          "West": 7474
+        }
+      },
+      {
+        "Id": 7474,
+        "Name": "The fifth level of Heaven #7474",
+        "Connections": {
+          "East": 7473,
+          "South": 7490,
+          "West": 7475
+        },
+        "Contents": [
+          {
+            "Text": "A lower watcher #7426",
+            "Color": "red"
+          },
+          {
+            "Text": "A lower watcher #7426",
+            "Color": "red"
+          },
+          {
+            "Text": "A lower watcher #7426",
+            "Color": "red"
+          },
+          {
+            "Text": "A lower watcher #7426",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7475,
+        "Name": "The fifth level of Heaven #7475",
+        "Connections": {
+          "East": 7474,
+          "West": 7476
+        }
+      },
+      {
+        "Id": 7476,
+        "Name": "The fifth level of Heaven #7476",
+        "Connections": {
+          "East": 7475,
+          "West": 7477
+        }
+      },
+      {
+        "Id": 7477,
+        "Name": "The fifth level of Heaven #7477",
+        "Connections": {
+          "East": 7476,
+          "West": 7478
+        }
+      },
+      {
+        "Id": 7478,
+        "Name": "The fifth level of Heaven #7478",
+        "Connections": {
+          "East": 7477,
+          "South": 7479,
+          "Up": 7494
+        }
+      },
+      {
+        "Id": 7479,
+        "Name": "The fifth level of Heaven #7479",
+        "Connections": {
+          "North": 7478,
+          "South": 7480
+        }
+      },
+      {
+        "Id": 7480,
+        "Name": "The fifth level of Heaven #7480",
+        "Connections": {
+          "North": 7479,
+          "South": 7481
+        }
+      },
+      {
+        "Id": 7481,
+        "Name": "The fifth level of Heaven #7481",
+        "Connections": {
+          "North": 7480,
+          "South": 7482
+        }
+      },
+      {
+        "Id": 7482,
+        "Name": "The fifth level of Heaven #7482",
+        "Connections": {
+          "North": 7481,
+          "South": 7486
+        }
+      },
+      {
+        "Id": 7483,
+        "Name": "The fifth level of Heaven #7483",
+        "Connections": {
+          "East": 7462,
+          "West": 7484
+        }
+      },
+      {
+        "Id": 7484,
+        "Name": "The fifth level of Heaven #7484",
+        "Connections": {
+          "East": 7483,
+          "West": 7485
+        }
+      },
+      {
+        "Id": 7485,
+        "Name": "The fifth level of Heaven #7485",
+        "Connections": {
+          "East": 7484,
+          "West": 7486
+        }
+      },
+      {
+        "Id": 7486,
+        "Name": "The fifth level of Heaven #7486",
+        "Connections": {
+          "North": 7482,
+          "East": 7485,
+          "Up": 7495
+        }
+      },
+      {
+        "Id": 7487,
+        "Name": "The fifth level of Heaven #7487",
+        "Connections": {
+          "North": 7470,
+          "South": 7469
+        }
+      },
+      {
+        "Id": 7488,
+        "Name": "A watch tower #7488",
+        "Connections": {
+          "Down": 7466
+        },
+        "Contents": [
+          {
+            "Text": "Lebes, the watchman #7421",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7489,
+        "Name": "The watch tower #7489",
+        "Connections": {
+          "Down": 7470
+        },
+        "Contents": [
+          {
+            "Text": "Ramiel, the watchman #7422",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7490,
+        "Name": "The fifth level of Heaven #7490",
+        "Connections": {
+          "North": 7474,
+          "South": 7491
+        }
+      },
+      {
+        "Id": 7491,
+        "Name": "The fifth level of Heaven #7491",
+        "Connections": {
+          "North": 7490,
+          "East": 7492,
+          "West": 7493
+        }
+      },
+      {
+        "Id": 7492,
+        "Name": "The fifth level of Heaven #7492",
+        "Connections": {
+          "West": 7491,
+          "Up": 7497
+        }
+      },
+      {
+        "Id": 7493,
+        "Name": "The fifth level of Heaven #7493",
+        "Connections": {
+          "East": 7491,
+          "Up": 7496
+        }
+      },
+      {
+        "Id": 7494,
+        "Name": "A watch tower #7494",
+        "Connections": {
+          "Down": 7478
+        },
+        "Contents": [
+          {
+            "Text": "Yurkemi, the watcher #7423",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7495,
+        "Name": "A watch tower #7495",
+        "Connections": {
+          "Down": 7486
+        },
+        "Contents": [
+          {
+            "Text": "Marcus, the watcher #7420",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7496,
+        "Name": "The sixth level gates #7496",
+        "Connections": {
+          "Up": {
+            "RoomId": 7498,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 7493
+        },
+        "Contents": [
+          {
+            "Text": "Loki, The Seraphim #7425",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7497,
+        "Name": "The watch tower of Bartlebee #7497",
+        "Connections": {
+          "Down": 7492
+        },
+        "Contents": [
+          {
+            "Text": "Bartlebee, the Head Watcher #7424",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7498,
+        "Name": "The sixth level of Heaven #7498",
+        "Connections": {
+          "North": 20000,
+          "Down": 7496
+        }
+      },
+      {
+        "Id": 18494,
+        "FrameColor": "blue",
+        "Name": "To TempleOfPres #18494",
+        "Color": "blue",
+        "Connections": {
+          "North": {
+            "RoomId": 18497,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 18498,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 18495,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 18496,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 7401,
+          "Down": {
+            "RoomId": 18499,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 20000,
+        "FrameColor": "blue",
+        "Name": "To SevenHeavens2 #20000",
+        "Color": "blue",
+        "Connections": {
+          "North": 20021,
+          "East": 20001,
+          "South": 7498,
+          "West": 20008
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1624 @@
+{
+  "Area": {
+    "Name": "MythDrannor",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 8625,
+        "Name": "A Narrow Forest Trail #8625",
+        "Connections": {
+          "East": 8562,
+          "West": 8626
+        }
+      },
+      {
+        "Id": 8626,
+        "Name": "A Narrow Forest Trail #8626",
+        "Connections": {
+          "East": 8625,
+          "South": 8629
+        }
+      },
+      {
+        "Id": 8627,
+        "Name": "A Thin Trail #8627",
+        "Connections": {
+          "East": 8628,
+          "South": 8630
+        }
+      },
+      {
+        "Id": 8628,
+        "Name": "A Dead End #8628",
+        "Connections": {
+          "West": 8627
+        },
+        "Contents": [
+          {
+            "Text": "Poison Giant #8629",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8629,
+        "Name": "A Narrow Forest Trail #8629",
+        "Connections": {
+          "North": 8626,
+          "South": 8632
+        }
+      },
+      {
+        "Id": 8630,
+        "Name": "A Thin Trail #8630",
+        "Connections": {
+          "North": 8627,
+          "South": 8634
+        }
+      },
+      {
+        "Id": 8631,
+        "Name": "A Dead End #8631",
+        "Connections": {
+          "East": 8632
+        }
+      },
+      {
+        "Id": 8632,
+        "Name": "A Forest Trail #8632",
+        "Connections": {
+          "North": 8629,
+          "East": 8633,
+          "West": 8631
+        }
+      },
+      {
+        "Id": 8633,
+        "Name": "A Forest Trail #8633",
+        "Connections": {
+          "East": 8634,
+          "South": 8636,
+          "West": 8632
+        }
+      },
+      {
+        "Id": 8634,
+        "Name": "A Forest Trail #8634",
+        "Connections": {
+          "North": 8630,
+          "East": 8635,
+          "West": 8633
+        }
+      },
+      {
+        "Id": 8635,
+        "Name": "A Dead End #8635",
+        "Connections": {
+          "West": 8634
+        }
+      },
+      {
+        "Id": 8636,
+        "Name": "Vaulted Gates of Myth Drannor #8636",
+        "Connections": {
+          "North": 8633,
+          "South": 8637
+        }
+      },
+      {
+        "Id": 8637,
+        "Name": "Wall Road of Myth Drannor #8637",
+        "Connections": {
+          "North": 8636,
+          "East": 8683,
+          "South": 8638,
+          "West": 8648
+        },
+        "Contents": [
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          },
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8638,
+        "Name": "Kendrel Road of Myth Drannor #8638",
+        "Connections": {
+          "North": 8637,
+          "South": 8639
+        }
+      },
+      {
+        "Id": 8639,
+        "Name": "Kendrel Road of Myth Drannor #8639",
+        "Connections": {
+          "North": 8638,
+          "South": 8640,
+          "West": {
+            "RoomId": 8723,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8640,
+        "Name": "Kendrel Road of Myth Drannor #8640",
+        "Connections": {
+          "North": 8639,
+          "East": {
+            "RoomId": 8726,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 8641
+        }
+      },
+      {
+        "Id": 8641,
+        "Name": "Kendrel Road of Myth Drannor #8641",
+        "Connections": {
+          "North": 8640,
+          "South": 8642
+        }
+      },
+      {
+        "Id": 8642,
+        "Name": "Town Square of Myth Drannor #8642",
+        "Connections": {
+          "North": 8641,
+          "East": 8712,
+          "South": 8643,
+          "West": 8711
+        },
+        "Contents": [
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          },
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8643,
+        "Name": "Kendrel Road of Myth Drannor #8643",
+        "Connections": {
+          "North": 8642,
+          "South": 8644
+        }
+      },
+      {
+        "Id": 8644,
+        "Name": "Kendrel Road of Myth Drannor #8644",
+        "Connections": {
+          "North": 8643,
+          "South": 8645
+        }
+      },
+      {
+        "Id": 8645,
+        "Name": "Kendrel Road of Myth Drannor #8645",
+        "Connections": {
+          "North": 8644,
+          "South": 8646
+        }
+      },
+      {
+        "Id": 8646,
+        "Name": "Lancer Road of Myth Drannor #8646",
+        "Connections": {
+          "North": 8645,
+          "East": 8666,
+          "South": {
+            "RoomId": 8647,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 8665
+        },
+        "Contents": [
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8647,
+        "Name": "Guard Spire of the Temple #8647",
+        "Connections": {
+          "North": 8646
+        },
+        "Contents": [
+          {
+            "Text": "Cylyria Dragonbreast,Knight of Myth Drannor #8627",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8648,
+        "Name": "Wall Road of Myth Drannor #8648",
+        "Connections": {
+          "East": 8637,
+          "West": 8649
+        }
+      },
+      {
+        "Id": 8649,
+        "Name": "Wall Road of Myth Drannor #8649",
+        "Connections": {
+          "East": 8648,
+          "West": 8650
+        }
+      },
+      {
+        "Id": 8650,
+        "Name": "Wall Road of Myth Drannor #8650",
+        "Connections": {
+          "East": 8649,
+          "West": 8651
+        }
+      },
+      {
+        "Id": 8651,
+        "Name": "Wall Road of Myth Drannor #8651",
+        "Connections": {
+          "East": 8650,
+          "West": 8652
+        }
+      },
+      {
+        "Id": 8652,
+        "Name": "Wall Road of Myth Drannor #8652",
+        "Connections": {
+          "North": 8684,
+          "East": 8651,
+          "South": 8653,
+          "West": 8687
+        },
+        "Contents": [
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          },
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8653,
+        "Name": "Lasik Road of Myth Drannor #8653",
+        "Connections": {
+          "North": 8652,
+          "South": 8654
+        }
+      },
+      {
+        "Id": 8654,
+        "Name": "Lasik Road of Myth Drannor #8654",
+        "Connections": {
+          "North": 8653,
+          "South": 8655,
+          "West": {
+            "RoomId": 8688,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8655,
+        "Name": "Lasik Road of Myth Drannor #8655",
+        "Connections": {
+          "North": 8654,
+          "South": 8656
+        }
+      },
+      {
+        "Id": 8656,
+        "Name": "Lasik Road of Myth Drannor #8656",
+        "Connections": {
+          "North": 8655,
+          "South": 8657
+        }
+      },
+      {
+        "Id": 8657,
+        "Name": "Intersection of Lasik and Cheldran Roads #8657",
+        "Connections": {
+          "North": 8656,
+          "East": 8708,
+          "South": 8658
+        },
+        "Contents": [
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          },
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8658,
+        "Name": "Lasik Road of Myth Drannor #8658",
+        "Connections": {
+          "North": 8657,
+          "South": 8659,
+          "West": {
+            "RoomId": 8698,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8659,
+        "Name": "Lasik Road of Myth Drannor #8659",
+        "Connections": {
+          "North": 8658,
+          "East": 8716,
+          "South": 8660
+        }
+      },
+      {
+        "Id": 8660,
+        "Name": "Lasik Road of Myth Drannor #8660",
+        "Connections": {
+          "North": 8659,
+          "South": 8661
+        }
+      },
+      {
+        "Id": 8661,
+        "Name": "Lancer Road of Myth Drannor #8661",
+        "Connections": {
+          "North": 8660,
+          "East": 8662,
+          "South": 8707,
+          "West": 8704
+        },
+        "Contents": [
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          },
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8662,
+        "Name": "Lancer Road of Myth Drannor #8662",
+        "Connections": {
+          "East": 8663,
+          "West": 8661
+        }
+      },
+      {
+        "Id": 8663,
+        "Name": "Lancer Road of Myth Drannor #8663",
+        "Connections": {
+          "North": 8718,
+          "East": 8664,
+          "West": 8662
+        }
+      },
+      {
+        "Id": 8664,
+        "Name": "Lancer Road of Myth Drannor #8664",
+        "Connections": {
+          "East": 8665,
+          "South": {
+            "RoomId": 8763,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 8663
+        }
+      },
+      {
+        "Id": 8665,
+        "Name": "Lancer Road of Myth Drannor #8665",
+        "Connections": {
+          "East": 8646,
+          "West": 8664
+        }
+      },
+      {
+        "Id": 8666,
+        "Name": "Lancer Road of Myth Drannor #8666",
+        "Connections": {
+          "East": 8667,
+          "West": 8646
+        }
+      },
+      {
+        "Id": 8667,
+        "Name": "Lancer Road of Myth Drannor #8667",
+        "Connections": {
+          "East": 8668,
+          "South": {
+            "RoomId": 8764,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 8666
+        }
+      },
+      {
+        "Id": 8668,
+        "Name": "Lancer Road of Myth Drannor #8668",
+        "Connections": {
+          "North": 8748,
+          "East": 8669,
+          "West": 8667
+        }
+      },
+      {
+        "Id": 8669,
+        "Name": "Lancer Road of Myth Drannor #8669",
+        "Connections": {
+          "East": 8670,
+          "West": 8668
+        }
+      },
+      {
+        "Id": 8670,
+        "Name": "Lancer Road of Myth Drannor #8670",
+        "Connections": {
+          "North": 8671,
+          "East": 8752,
+          "South": 8749,
+          "West": 8669
+        },
+        "Contents": [
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          },
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8671,
+        "Name": "Shan Road of Myth Drannor #8671",
+        "Connections": {
+          "North": 8672,
+          "South": 8670
+        }
+      },
+      {
+        "Id": 8672,
+        "Name": "Shan Road of Myth Drannor #8672",
+        "Connections": {
+          "North": 8673,
+          "East": {
+            "RoomId": 8753,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 8671,
+          "West": 8747
+        }
+      },
+      {
+        "Id": 8673,
+        "Name": "Shan Road of Myth Drannor #8673",
+        "Connections": {
+          "North": 8674,
+          "South": 8672
+        }
+      },
+      {
+        "Id": 8674,
+        "Name": "Intersection of Shand and Cheldran Roads #8674",
+        "Connections": {
+          "North": 8675,
+          "South": 8673,
+          "West": 8715
+        },
+        "Contents": [
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          },
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8675,
+        "Name": "Shan Road of Myth Drannor #8675",
+        "Connections": {
+          "North": 8676,
+          "South": 8674
+        }
+      },
+      {
+        "Id": 8676,
+        "Name": "Shan Road of Myth Drannor #8676",
+        "Connections": {
+          "North": 8677,
+          "South": 8675
+        }
+      },
+      {
+        "Id": 8677,
+        "Name": "Shan Road of Myth Drannor #8677",
+        "Connections": {
+          "North": 8678,
+          "East": {
+            "RoomId": 8740,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 8676
+        }
+      },
+      {
+        "Id": 8678,
+        "Name": "Shan Road of Myth Drannor #8678",
+        "Connections": {
+          "North": 8679,
+          "South": 8677
+        }
+      },
+      {
+        "Id": 8679,
+        "Name": "Wall Road of Myth Drannor #8679",
+        "Connections": {
+          "North": 8731,
+          "East": 8734,
+          "South": 8678,
+          "West": 8680
+        },
+        "Contents": [
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          },
+          {
+            "Text": "Knight of Myth Drannor #8640",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8680,
+        "Name": "Wall Road of Myth Drannor #8680",
+        "Connections": {
+          "East": 8679,
+          "West": 8681
+        }
+      },
+      {
+        "Id": 8681,
+        "Name": "Wall Road of Myth Drannor #8681",
+        "Connections": {
+          "East": 8680,
+          "West": 8682
+        }
+      },
+      {
+        "Id": 8682,
+        "Name": "Wall Road of Myth Drannor #8682",
+        "Connections": {
+          "East": 8681,
+          "West": 8683
+        }
+      },
+      {
+        "Id": 8683,
+        "Name": "Wall Road of Myth Drannor #8683",
+        "Connections": {
+          "East": 8682,
+          "West": 8637
+        }
+      },
+      {
+        "Id": 8684,
+        "Name": "Before the Guard Posts of Myth Drannor #8684",
+        "Connections": {
+          "South": 8652,
+          "West": 8685
+        }
+      },
+      {
+        "Id": 8685,
+        "Name": "Before the Guard Posts of Myth Drannor #8685",
+        "Connections": {
+          "East": 8684,
+          "South": 8687,
+          "Up": {
+            "RoomId": 8686,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8686,
+        "Name": "Guard Post Spire #8686",
+        "Connections": {
+          "Down": 8685
+        },
+        "Contents": [
+          {
+            "Text": "Mari Al\u0027maren, Bowrider of Myth Drannor  #8631",
+            "Color": "red"
+          },
+          {
+            "Text": "Guardian of Myth Drannor #8642",
+            "Color": "green"
+          },
+          {
+            "Text": "Guardian of Myth Drannor #8642",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8687,
+        "Name": "Before the Guard Posts of Myth Drannor #8687",
+        "Connections": {
+          "North": 8685,
+          "East": 8652
+        }
+      },
+      {
+        "Id": 8688,
+        "Name": "Spitting Dragon Tavern #8688",
+        "Connections": {
+          "East": 8654,
+          "West": 8690
+        }
+      },
+      {
+        "Id": 8689,
+        "Name": "Spitting Dragon Tavern #8689",
+        "Connections": {
+          "South": 8690,
+          "West": 8694
+        }
+      },
+      {
+        "Id": 8690,
+        "Name": "Spitting Dragon Tavern #8690",
+        "Connections": {
+          "North": 8689,
+          "East": 8688,
+          "South": 8691,
+          "West": 8693
+        }
+      },
+      {
+        "Id": 8691,
+        "Name": "Spitting Dragon Tavern #8691",
+        "Connections": {
+          "North": 8690,
+          "West": 8692
+        }
+      },
+      {
+        "Id": 8692,
+        "Name": "Spitting Dragon Tavern #8692",
+        "Connections": {
+          "North": 8693,
+          "East": 8691,
+          "South": 8692,
+          "West": 8697
+        }
+      },
+      {
+        "Id": 8693,
+        "Name": "Spitting Dragon Tavern #8693",
+        "Connections": {
+          "North": 8694,
+          "East": 8690,
+          "South": 8692,
+          "West": 8696
+        }
+      },
+      {
+        "Id": 8694,
+        "Name": "Spitting Dragon Tavern #8694",
+        "Connections": {
+          "East": 8689,
+          "South": 8693,
+          "West": 8695
+        }
+      },
+      {
+        "Id": 8695,
+        "Name": "Spitting Dragon Tavern #8695",
+        "Connections": {
+          "East": 8694,
+          "South": 8696
+        }
+      },
+      {
+        "Id": 8696,
+        "Name": "Spitting Dragon Tavern #8696",
+        "Connections": {
+          "North": 8695,
+          "East": 8693,
+          "South": 8697
+        },
+        "Contents": [
+          {
+            "Text": "Dove Falconhand,Knight of Myth Drannor #8625",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8697,
+        "Name": "Spitting Dragon Tavern #8697",
+        "Connections": {
+          "North": 8696,
+          "East": 8692
+        }
+      },
+      {
+        "Id": 8698,
+        "Name": "Prison of Myth Drannor #8698",
+        "Connections": {
+          "East": 8658,
+          "West": 8699
+        }
+      },
+      {
+        "Id": 8699,
+        "Name": "Prison of Myth Drannor #8699",
+        "Connections": {
+          "North": 8700,
+          "East": 8698,
+          "South": 8702
+        }
+      },
+      {
+        "Id": 8700,
+        "Name": "Prison of Myth Drannor #8700",
+        "Connections": {
+          "South": 8699,
+          "West": 8701
+        }
+      },
+      {
+        "Id": 8701,
+        "Name": "Prison of Myth Drannor #8701",
+        "Connections": {
+          "East": 8700
+        },
+        "Contents": [
+          {
+            "Text": "Finder Wyvernspur #8636",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8702,
+        "Name": "Prison of Myth Drannor #8702",
+        "Connections": {
+          "North": 8699,
+          "West": 8703
+        }
+      },
+      {
+        "Id": 8703,
+        "Name": "Prison of Myth Drannor #8703",
+        "Connections": {
+          "East": 8702
+        },
+        "Contents": [
+          {
+            "Text": "Olive Ruskettle #8637",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8704,
+        "Name": "Before the Guard Posts of Myth Drannor #8704",
+        "Connections": {
+          "East": 8661,
+          "South": 8705
+        }
+      },
+      {
+        "Id": 8705,
+        "Name": "Before the Guard Posts of Myth Drannor #8705",
+        "Connections": {
+          "North": 8704,
+          "East": 8707,
+          "Up": {
+            "RoomId": 8706,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8706,
+        "Name": "Guard Post Spire #8706",
+        "Connections": {
+          "Down": 8705
+        },
+        "Contents": [
+          {
+            "Text": "Brenna Greycloak #8633",
+            "Color": "red"
+          },
+          {
+            "Text": "Guardian of Myth Drannor #8642",
+            "Color": "green"
+          },
+          {
+            "Text": "Guardian of Myth Drannor #8642",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8707,
+        "Name": "Before the Guard Posts of Myth Drannor #8707",
+        "Connections": {
+          "North": 8661,
+          "West": 8705
+        }
+      },
+      {
+        "Id": 8708,
+        "Name": "Cheldran Road of Myth Drannor #8708",
+        "Connections": {
+          "East": 8709,
+          "West": 8657
+        }
+      },
+      {
+        "Id": 8709,
+        "Name": "Cheldran Road of Myth Drannor #8709",
+        "Connections": {
+          "East": 8710,
+          "South": 8717,
+          "West": 8708
+        }
+      },
+      {
+        "Id": 8710,
+        "Name": "Cheldran Road of Myth Drannor #8710",
+        "Connections": {
+          "East": 8711,
+          "West": 8709
+        }
+      },
+      {
+        "Id": 8711,
+        "Name": "Cheldran Road of Myth Drannor #8711",
+        "Connections": {
+          "East": 8642,
+          "West": 8710
+        }
+      },
+      {
+        "Id": 8712,
+        "Name": "Cheldran Road of Myth Drannor #8712",
+        "Connections": {
+          "East": 8713,
+          "West": 8642
+        }
+      },
+      {
+        "Id": 8713,
+        "Name": "Cheldran Road of Myth Drannor #8713",
+        "Connections": {
+          "East": 8714,
+          "West": 8712
+        }
+      },
+      {
+        "Id": 8714,
+        "Name": "Cheldran Road of Myth Drannor #8714",
+        "Connections": {
+          "East": 8715,
+          "South": 8746,
+          "West": 8713
+        }
+      },
+      {
+        "Id": 8715,
+        "Name": "Cheldran Road of Myth Drannor #8715",
+        "Connections": {
+          "East": 8674,
+          "West": 8714
+        }
+      },
+      {
+        "Id": 8716,
+        "Name": "Noblemans Quarters #8716",
+        "Connections": {
+          "West": 8659
+        },
+        "Contents": [
+          {
+            "Text": "Holy Paladin of Myth Drannor #8645",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8717,
+        "Name": "Noblemans Quarters #8717",
+        "Connections": {
+          "North": 8709
+        },
+        "Contents": [
+          {
+            "Text": "Holy Paladin of Myth Drannor #8644",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8718,
+        "Name": "Noblemans Quarters #8718",
+        "Connections": {
+          "South": 8663
+        },
+        "Contents": [
+          {
+            "Text": "Holy Paladin of Myth Drannor #8646",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8719,
+        "Name": "Lucky Stars Inn  #8719",
+        "Connections": {
+          "East": 8722
+        },
+        "Contents": [
+          {
+            "Text": "Minitiper Moonsilver #8639",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8720,
+        "Name": "Lucky Stars Inn  #8720",
+        "Connections": {
+          "East": 8721,
+          "South": 8722
+        }
+      },
+      {
+        "Id": 8721,
+        "Name": "Lucky Stars Inn  #8721",
+        "Connections": {
+          "South": 8723,
+          "West": 8720
+        }
+      },
+      {
+        "Id": 8722,
+        "Name": "Lucky Stars Inn  #8722",
+        "Connections": {
+          "North": 8720,
+          "East": 8723,
+          "South": 8724,
+          "West": 8719
+        }
+      },
+      {
+        "Id": 8723,
+        "Name": "Lucky Stars Inn  #8723",
+        "Connections": {
+          "North": 8721,
+          "East": 8639,
+          "South": 8725,
+          "West": 8722
+        }
+      },
+      {
+        "Id": 8724,
+        "Name": "Lucky Stars Inn  #8724",
+        "Connections": {
+          "North": 8722,
+          "East": 8725
+        }
+      },
+      {
+        "Id": 8725,
+        "Name": "Lucky Stars Inn  #8725",
+        "Connections": {
+          "North": 8723,
+          "West": 8724
+        }
+      },
+      {
+        "Id": 8726,
+        "Name": "Branded Steel Blacksmithing #8726",
+        "Connections": {
+          "East": 8727,
+          "West": 8640
+        }
+      },
+      {
+        "Id": 8727,
+        "Name": "Branded Steel Blacksmithing #8727",
+        "Connections": {
+          "North": 8728,
+          "East": 8729,
+          "South": 8730,
+          "West": 8726
+        }
+      },
+      {
+        "Id": 8728,
+        "Name": "Branded Steel Blacksmithing #8728",
+        "Connections": {
+          "South": 8727
+        }
+      },
+      {
+        "Id": 8729,
+        "Name": "Branded Steel Blacksmithing #8729",
+        "Connections": {
+          "West": 8727
+        },
+        "Contents": [
+          {
+            "Text": "Sheenra Duth #8638",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8730,
+        "Name": "Branded Steel Blacksmithing #8730",
+        "Connections": {
+          "North": 8727
+        }
+      },
+      {
+        "Id": 8731,
+        "Name": "Before the Guard Posts of Myth Drannor #8731",
+        "Connections": {
+          "East": 8732,
+          "South": 8679
+        }
+      },
+      {
+        "Id": 8732,
+        "Name": "Before the Guard Posts of Myth Drannor #8732",
+        "Connections": {
+          "South": 8734,
+          "West": 8731,
+          "Up": {
+            "RoomId": 8733,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8733,
+        "Name": "Guard Post Spire #8733",
+        "Connections": {
+          "Down": 8732
+        },
+        "Contents": [
+          {
+            "Text": "Galvin #8632",
+            "Color": "green"
+          },
+          {
+            "Text": "Guardian of Myth Drannor #8642",
+            "Color": "green"
+          },
+          {
+            "Text": "Guardian of Myth Drannor #8642",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8734,
+        "Name": "Before the Guard Posts of Myth Drannor #8734",
+        "Connections": {
+          "North": 8732,
+          "West": 8679
+        }
+      },
+      {
+        "Id": 8735,
+        "Name": "Cathedral of Singing Spires  #8735",
+        "Connections": {
+          "South": 8736
+        }
+      },
+      {
+        "Id": 8736,
+        "Name": "Cathedral of Singing Spires  #8736",
+        "Connections": {
+          "North": 8735,
+          "South": 8737
+        }
+      },
+      {
+        "Id": 8737,
+        "Name": "Cathedral of Singing Spires  #8737",
+        "Connections": {
+          "North": 8736,
+          "East": 8741,
+          "South": 8738,
+          "West": 8740
+        }
+      },
+      {
+        "Id": 8738,
+        "Name": "Cathedral of Singing Spires  #8738",
+        "Connections": {
+          "North": 8737,
+          "South": 8739
+        }
+      },
+      {
+        "Id": 8739,
+        "Name": "Cathedral of Singing Spires  #8739",
+        "Connections": {
+          "North": 8738
+        }
+      },
+      {
+        "Id": 8740,
+        "Name": "Cathedral of Singing Spires  #8740",
+        "Connections": {
+          "East": 8737,
+          "West": 8677
+        }
+      },
+      {
+        "Id": 8741,
+        "Name": "Cathedral of Singing Spires  #8741",
+        "Connections": {
+          "East": 8742,
+          "West": 8737
+        }
+      },
+      {
+        "Id": 8742,
+        "Name": "Cathedral of Singing Spires  #8742",
+        "Connections": {
+          "North": 8744,
+          "East": 8743,
+          "South": 8745,
+          "West": 8741
+        }
+      },
+      {
+        "Id": 8743,
+        "Name": "Cathedral of Singing Spires  #8743",
+        "Connections": {
+          "West": 8742
+        },
+        "Contents": [
+          {
+            "Text": "Arilyn Moonblade #8635",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8744,
+        "Name": "Cathedral of Singing Spires  #8744",
+        "Connections": {
+          "South": 8742
+        }
+      },
+      {
+        "Id": 8745,
+        "Name": "Cathedral of Singing Spires  #8745",
+        "Connections": {
+          "North": 8742
+        }
+      },
+      {
+        "Id": 8746,
+        "Name": "Noblemans Quarters #8746",
+        "Connections": {
+          "North": 8714
+        },
+        "Contents": [
+          {
+            "Text": "Holy Paladin of Myth Drannor #8641",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8747,
+        "Name": "Noblemans Quarters #8747",
+        "Connections": {
+          "East": 8672
+        },
+        "Contents": [
+          {
+            "Text": "Holy Paladin of Myth Drannor #8643",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8748,
+        "Name": "Noblemans Quarters #8748",
+        "Connections": {
+          "South": 8668
+        },
+        "Contents": [
+          {
+            "Text": "Holy Paladin of Myth Drannor #8647",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8749,
+        "Name": "Before the Guard Posts of Myth Drannor #8749",
+        "Connections": {
+          "North": 8670,
+          "East": 8750
+        }
+      },
+      {
+        "Id": 8750,
+        "Name": "Before the Guard Posts of Myth Drannor #8750",
+        "Connections": {
+          "North": 8752,
+          "West": 8749,
+          "Up": {
+            "RoomId": 8751,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8751,
+        "Name": "Guard Post Spire #8751",
+        "Connections": {
+          "Down": 8750
+        },
+        "Contents": [
+          {
+            "Text": "Wynter #8634",
+            "Color": "green"
+          },
+          {
+            "Text": "Guardian of Myth Drannor #8642",
+            "Color": "green"
+          },
+          {
+            "Text": "Guardian of Myth Drannor #8642",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8752,
+        "Name": "Before the Guard Posts of Myth Drannor #8752",
+        "Connections": {
+          "South": 8750,
+          "West": 8670
+        }
+      },
+      {
+        "Id": 8753,
+        "Name": "Fallen Sickle Training Grounds #8753",
+        "Connections": {
+          "East": 8754,
+          "West": 8672
+        }
+      },
+      {
+        "Id": 8754,
+        "Name": "Fallen Sickle Training Grounds #8754",
+        "Connections": {
+          "North": 8755,
+          "East": 8758,
+          "South": 8756,
+          "West": 8753
+        }
+      },
+      {
+        "Id": 8755,
+        "Name": "Fallen Sickle Training Grounds #8755",
+        "Connections": {
+          "East": 8759,
+          "South": 8754
+        }
+      },
+      {
+        "Id": 8756,
+        "Name": "Fallen Sickle Training Grounds #8756",
+        "Connections": {
+          "North": 8754,
+          "East": 8757
+        }
+      },
+      {
+        "Id": 8757,
+        "Name": "Fallen Sickle Training Grounds #8757",
+        "Connections": {
+          "North": 8758,
+          "East": 8762,
+          "West": 8756
+        }
+      },
+      {
+        "Id": 8758,
+        "Name": "Fallen Sickle Training Grounds #8758",
+        "Connections": {
+          "North": 8759,
+          "East": 8761,
+          "South": 8757,
+          "West": 8754
+        }
+      },
+      {
+        "Id": 8759,
+        "Name": "Fallen Sickle Training Grounds #8759",
+        "Connections": {
+          "East": 8760,
+          "South": 8758,
+          "West": 8755
+        }
+      },
+      {
+        "Id": 8760,
+        "Name": "Fallen Sickle Training Grounds #8760",
+        "Connections": {
+          "South": 8761,
+          "West": 8759
+        }
+      },
+      {
+        "Id": 8761,
+        "Name": "Fallen Sickle Training Grounds #8761",
+        "Connections": {
+          "North": 8760,
+          "South": 8762,
+          "West": 8758
+        },
+        "Contents": [
+          {
+            "Text": "Florin Falconhand, Knight of Myth Drannor #8626",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8762,
+        "Name": "Fallen Sickle Training Grounds #8762",
+        "Connections": {
+          "North": 8761,
+          "West": 8757
+        }
+      },
+      {
+        "Id": 8763,
+        "Name": "Mystic Temple of Mystra #8763",
+        "Connections": {
+          "North": 8664,
+          "South": 8765
+        }
+      },
+      {
+        "Id": 8764,
+        "Name": "Mystic Temple of Mystra #8764",
+        "Connections": {
+          "North": 8667,
+          "South": 8768
+        }
+      },
+      {
+        "Id": 8765,
+        "Name": "Mystic Temple of Mystra #8765",
+        "Connections": {
+          "North": 8763,
+          "East": 8766
+        }
+      },
+      {
+        "Id": 8766,
+        "Name": "Mystic Temple of Mystra #8766",
+        "Connections": {
+          "South": 8769,
+          "West": 8765
+        }
+      },
+      {
+        "Id": 8767,
+        "Name": "Mystic Temple of Mystra #8767",
+        "Connections": {
+          "East": 8768,
+          "South": 8771
+        }
+      },
+      {
+        "Id": 8768,
+        "Name": "Mystic Temple of Mystra #8768",
+        "Connections": {
+          "North": 8764,
+          "West": 8767
+        }
+      },
+      {
+        "Id": 8769,
+        "Name": "Mystic Temple of Mystra #8769",
+        "Connections": {
+          "North": 8766,
+          "East": 8770
+        }
+      },
+      {
+        "Id": 8770,
+        "Name": "Mystic Temple of Mystra #8770",
+        "Connections": {
+          "East": 8771,
+          "South": 8772,
+          "West": 8769
+        },
+        "Contents": [
+          {
+            "Text": "Khelben \u0022Blackstaff\u0022 Arunson #8630",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8771,
+        "Name": "Mystic Temple of Mystra #8771",
+        "Connections": {
+          "North": 8767,
+          "West": 8770
+        }
+      },
+      {
+        "Id": 8772,
+        "Name": "Mystic Temple of Mystra #8772",
+        "Connections": {
+          "North": 8770,
+          "South": 8775
+        }
+      },
+      {
+        "Id": 8773,
+        "Name": "Mystic Temple of Mystra #8773",
+        "Connections": {
+          "East": 8774
+        }
+      },
+      {
+        "Id": 8774,
+        "Name": "Mystic Temple of Mystra #8774",
+        "Connections": {
+          "East": 8775,
+          "West": 8773
+        }
+      },
+      {
+        "Id": 8775,
+        "Name": "Mystic Temple of Mystra #8775",
+        "Connections": {
+          "North": 8772,
+          "East": 8776,
+          "South": 8778,
+          "West": 8774
+        },
+        "Contents": [
+          {
+            "Text": "Elminster, the Old Mage #8628",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8776,
+        "Name": "Mystic Temple of Mystra #8776",
+        "Connections": {
+          "East": 8777,
+          "West": 8775
+        }
+      },
+      {
+        "Id": 8777,
+        "Name": "Mystic Temple of Mystra #8777",
+        "Connections": {
+          "West": 8776
+        }
+      },
+      {
+        "Id": 8778,
+        "Name": "Mystic Temple of Mystra #8778",
+        "Connections": {
+          "North": 8775,
+          "South": 8779
+        }
+      },
+      {
+        "Id": 8779,
+        "Name": "Mystic Temple of Mystra #8779",
+        "Connections": {
+          "North": 8778
+        }
+      },
+      {
+        "Id": 8780,
+        "Name": "The Beginning #8780",
+        "Connections": {}
+      },
+      {
+        "Id": 8562,
+        "FrameColor": "blue",
+        "Name": "To QuelSithForest #8562",
+        "Color": "blue",
+        "Connections": {
+          "North": 8561,
+          "South": 8563,
+          "West": 8625
+        }
+      }
+    ]
+  }
+}

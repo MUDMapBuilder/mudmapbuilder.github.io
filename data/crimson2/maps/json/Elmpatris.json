@@ -1,0 +1,2203 @@
+{
+  "Area": {
+    "Name": "Elmpatris",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 4800,
+        "Name": "Blank #4800",
+        "Connections": {}
+      },
+      {
+        "Id": 4801,
+        "Name": "River Watch Post. #4801",
+        "Connections": {
+          "North": 4802
+        }
+      },
+      {
+        "Id": 4802,
+        "Name": "End of the city defenses. #4802",
+        "Connections": {
+          "North": 4803,
+          "South": 4801
+        }
+      },
+      {
+        "Id": 4803,
+        "Name": "Atop the city wall. #4803",
+        "Connections": {
+          "North": 4804,
+          "South": 4802
+        }
+      },
+      {
+        "Id": 4804,
+        "Name": "Atop the city wall. #4804",
+        "Connections": {
+          "North": 4805,
+          "South": 4803,
+          "Down": 4818
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          },
+          {
+            "Text": "a Captain #4820",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4805,
+        "Name": "Atop the city wall. #4805",
+        "Connections": {
+          "North": 4806,
+          "South": 4804
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4806,
+        "Name": "Atop the city wall. #4806",
+        "Connections": {
+          "North": 4807,
+          "South": 4805,
+          "Down": 4820
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4807,
+        "Name": "Atop the city wall. #4807",
+        "Connections": {
+          "North": 4808,
+          "South": 4806
+        }
+      },
+      {
+        "Id": 4808,
+        "Name": "Atop the city wall. #4808",
+        "Connections": {
+          "North": 4809,
+          "South": 4807,
+          "Down": 4822
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4809,
+        "Name": "Atop the city wall. #4809",
+        "Connections": {
+          "North": 4810,
+          "South": 4808
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4810,
+        "Name": "Atop the city wall. #4810",
+        "Connections": {
+          "North": 4811,
+          "South": 4809
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4811,
+        "Name": "Corner of the wall. #4811",
+        "Connections": {
+          "East": 4812,
+          "South": 4810
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          },
+          {
+            "Text": "a Captain #4820",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4812,
+        "Name": "On the wall. #4812",
+        "Connections": {
+          "East": 4813,
+          "West": 4811,
+          "Down": 4823
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4813,
+        "Name": "On the wall. #4813",
+        "Connections": {
+          "East": 4814,
+          "West": 4812
+        }
+      },
+      {
+        "Id": 4814,
+        "Name": "On the wall. #4814",
+        "Connections": {
+          "East": 4815,
+          "West": 4813
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4815,
+        "Name": "On the wall. #4815",
+        "Connections": {
+          "East": 4816,
+          "West": 4814
+        }
+      },
+      {
+        "Id": 4816,
+        "Name": "On the wall. #4816",
+        "Connections": {
+          "East": 4817,
+          "West": 4815
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4817,
+        "Name": "End of the city wall. #4817",
+        "Connections": {
+          "East": 4827,
+          "West": 4816
+        },
+        "Contents": [
+          {
+            "Text": "a Captain #4820",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4818,
+        "Name": "A guard house in the wall. #4818",
+        "Connections": {
+          "East": 4845,
+          "South": 4819,
+          "Up": 4804
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4819,
+        "Name": "An armoury. #4819",
+        "Connections": {
+          "North": 4818
+        }
+      },
+      {
+        "Id": 4820,
+        "Name": "The guard house at the gate. #4820",
+        "Connections": {
+          "East": 4863,
+          "Up": 4806
+        }
+      },
+      {
+        "Id": 4821,
+        "Name": "The city entrance. #4821",
+        "Connections": {
+          "East": 4868,
+          "West": 4927
+        }
+      },
+      {
+        "Id": 4822,
+        "Name": "The guard house at the gate. #4822",
+        "Connections": {
+          "East": 4873,
+          "Up": 4808
+        },
+        "Contents": [
+          {
+            "Text": "a Captain #4820",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4823,
+        "Name": "Guard house. #4823",
+        "Connections": {
+          "South": 4879,
+          "Up": 4812
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4824,
+        "Name": "In a guard house. #4824",
+        "Connections": {
+          "East": 4826,
+          "South": 4825
+        }
+      },
+      {
+        "Id": 4825,
+        "Name": "In a guard house. #4825",
+        "Connections": {
+          "North": 4824,
+          "South": 4886
+        }
+      },
+      {
+        "Id": 4826,
+        "Name": "In a guard house. #4826",
+        "Connections": {
+          "West": 4824,
+          "Up": 4827
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4827,
+        "Name": "In a guard tower. #4827",
+        "Connections": {
+          "West": 4817,
+          "Up": 4828,
+          "Down": 4826
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4824",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4828,
+        "Name": "Top of the observation post. #4828",
+        "Connections": {
+          "Down": 4827
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4824",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4829,
+        "Name": "In the guard house. #4829",
+        "Connections": {
+          "East": 4830,
+          "West": 4838
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4830,
+        "Name": "Back of the guard house. #4830",
+        "Connections": {
+          "West": 4829,
+          "Up": 4831
+        },
+        "Contents": [
+          {
+            "Text": "an off-duty soldier #4825",
+            "Color": "green"
+          },
+          {
+            "Text": "a Captain #4820",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4831,
+        "Name": "In the stairwell. #4831",
+        "Connections": {
+          "Up": 4832,
+          "Down": 4830
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4819",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4832,
+        "Name": "Top of the watch tower. #4832",
+        "Connections": {
+          "Down": 4831
+        },
+        "Contents": [
+          {
+            "Text": "a soldier #4824",
+            "Color": "green"
+          },
+          {
+            "Text": "a soldier #4824",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4833,
+        "Name": "Corner of Eastgate Road and Karyna Road. #4833",
+        "Connections": {
+          "North": 4839,
+          "East": 4834
+        }
+      },
+      {
+        "Id": 4834,
+        "Name": "Karyna Road. #4834",
+        "Connections": {
+          "East": 4835,
+          "West": 4833
+        }
+      },
+      {
+        "Id": 4835,
+        "Name": "Karyna Road. #4835",
+        "Connections": {
+          "North": 4909,
+          "East": 4836,
+          "South": 4945,
+          "West": 4834
+        },
+        "Contents": [
+          {
+            "Text": "a sailor #4840",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4836,
+        "Name": "Karyna Road. #4836",
+        "Connections": {
+          "North": 4840,
+          "East": 4837,
+          "West": 4835
+        },
+        "Contents": [
+          {
+            "Text": "a militia patrol leader #4822",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4837,
+        "Name": "Karyna Road. #4837",
+        "Connections": {
+          "East": 4838,
+          "West": 4836
+        }
+      },
+      {
+        "Id": 4838,
+        "Name": "Corner of Karyna Road. #4838",
+        "Connections": {
+          "North": 4841,
+          "East": 4829,
+          "West": 4837
+        }
+      },
+      {
+        "Id": 4839,
+        "Name": "Eastgate Road. #4839",
+        "Connections": {
+          "North": 4842,
+          "South": 4833
+        },
+        "Contents": [
+          {
+            "Text": "a citizen #4844",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4840,
+        "Name": "End of a dark alleyway. #4840",
+        "Connections": {
+          "North": 4843,
+          "South": 4836
+        }
+      },
+      {
+        "Id": 4841,
+        "Name": "On the waterfront. #4841",
+        "Connections": {
+          "North": 4844,
+          "East": 4951,
+          "South": 4838
+        }
+      },
+      {
+        "Id": 4842,
+        "Name": "Eastgate Road. #4842",
+        "Connections": {
+          "North": 4845,
+          "East": 4913,
+          "South": 4839
+        }
+      },
+      {
+        "Id": 4843,
+        "Name": "Along a dark alleyway. #4843",
+        "Connections": {
+          "North": 4846,
+          "South": 4840
+        },
+        "Contents": [
+          {
+            "Text": "a footpad #4849",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4844,
+        "Name": "On the waterfront. #4844",
+        "Connections": {
+          "North": 4848,
+          "South": 4841,
+          "West": 4902
+        },
+        "Contents": [
+          {
+            "Text": "a sailor #4839",
+            "Color": "green"
+          },
+          {
+            "Text": "a dock worker #4851",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4845,
+        "Name": "Eastgate Road. #4845",
+        "Connections": {
+          "North": 4849,
+          "East": 4915,
+          "South": 4842,
+          "West": 4818
+        }
+      },
+      {
+        "Id": 4846,
+        "Name": "Along a dark alleyway. #4846",
+        "Connections": {
+          "East": 4847,
+          "South": 4843
+        },
+        "Contents": [
+          {
+            "Text": "a footpad #4849",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4847,
+        "Name": "Along a dark alleyway. #4847",
+        "Connections": {
+          "North": 4850,
+          "South": 4907,
+          "West": 4846
+        }
+      },
+      {
+        "Id": 4848,
+        "Name": "On the waterfront. #4848",
+        "Connections": {
+          "North": 4851,
+          "South": 4844,
+          "West": 4901
+        },
+        "Contents": [
+          {
+            "Text": "an off-duty soldier #4825",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4849,
+        "Name": "Eastgate Road. #4849",
+        "Connections": {
+          "North": 4852,
+          "South": 4845
+        }
+      },
+      {
+        "Id": 4850,
+        "Name": "End of a dark alleyway. #4850",
+        "Connections": {
+          "North": 4859,
+          "South": 4847
+        },
+        "Contents": [
+          {
+            "Text": "a footpad #4849",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4851,
+        "Name": "On the waterfront. #4851",
+        "Connections": {
+          "North": 4853,
+          "South": 4848,
+          "West": 4900
+        },
+        "Contents": [
+          {
+            "Text": "a militiaman #4821",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen #4843",
+            "Color": "green"
+          },
+          {
+            "Text": "a dock worker #4851",
+            "Color": "green"
+          },
+          {
+            "Text": "a dock worker #4851",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4852,
+        "Name": "Eastgate Road. #4852",
+        "Connections": {
+          "North": 4855,
+          "East": 4917,
+          "South": 4849
+        }
+      },
+      {
+        "Id": 4853,
+        "Name": "End of Waterfront Lane. #4853",
+        "Connections": {
+          "North": 4861,
+          "East": 4854,
+          "South": 4851
+        },
+        "Contents": [
+          {
+            "Text": "a youth #4850",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4854,
+        "Name": "On the waterfront. #4854",
+        "Connections": {
+          "North": 4862,
+          "West": 4853
+        },
+        "Contents": [
+          {
+            "Text": "a sailor #4839",
+            "Color": "green"
+          },
+          {
+            "Text": "a dock worker #4851",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4855,
+        "Name": "Junction of Eastgate Road and Market Road. #4855",
+        "Connections": {
+          "North": 4863,
+          "East": 4856,
+          "South": 4852
+        },
+        "Contents": [
+          {
+            "Text": "a citizen #4844",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen #4848",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4856,
+        "Name": "Market Road. #4856",
+        "Connections": {
+          "East": 4857,
+          "West": 4855
+        },
+        "Contents": [
+          {
+            "Text": "a sailor #4840",
+            "Color": "green"
+          },
+          {
+            "Text": "a youth #4850",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4857,
+        "Name": "Market Road. #4857",
+        "Connections": {
+          "North": 4864,
+          "East": 4858,
+          "South": 4919,
+          "West": 4856
+        },
+        "Contents": [
+          {
+            "Text": "a militiaman #4821",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen #4842",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen #4844",
+            "Color": "green"
+          },
+          {
+            "Text": "a market trader #4847",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4858,
+        "Name": "Market Road. #4858",
+        "Connections": {
+          "North": 4865,
+          "East": 4859,
+          "West": 4857
+        }
+      },
+      {
+        "Id": 4859,
+        "Name": "Market Road. #4859",
+        "Connections": {
+          "North": 4866,
+          "East": 4860,
+          "South": 4850,
+          "West": 4858
+        },
+        "Contents": [
+          {
+            "Text": "a sailor #4839",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen #4843",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4860,
+        "Name": "Waterfront Lane. #4860",
+        "Connections": {
+          "East": 4861,
+          "South": 4899,
+          "West": 4859
+        }
+      },
+      {
+        "Id": 4861,
+        "Name": "Waterfront Lane. #4861",
+        "Connections": {
+          "South": 4853,
+          "West": 4860
+        },
+        "Contents": [
+          {
+            "Text": "an off-duty militiaman #4823",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4862,
+        "Name": "On the waterfront. #4862",
+        "Connections": {
+          "North": 4867,
+          "South": 4854
+        },
+        "Contents": [
+          {
+            "Text": "a militia patrol leader #4822",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4863,
+        "Name": "Eastgate Road. #4863",
+        "Connections": {
+          "North": 4868,
+          "South": 4855,
+          "West": 4820
+        }
+      },
+      {
+        "Id": 4864,
+        "Name": "The marketplace. #4864",
+        "Connections": {
+          "North": 4869,
+          "East": 4865,
+          "South": 4857,
+          "West": 4934
+        },
+        "Contents": [
+          {
+            "Text": "a scrawny dog #4807",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4865,
+        "Name": "The marketplace. #4865",
+        "Connections": {
+          "North": 4870,
+          "East": 4866,
+          "South": 4858,
+          "West": 4864
+        },
+        "Contents": [
+          {
+            "Text": "a scrawny dog #4807",
+            "Color": "green"
+          },
+          {
+            "Text": "an off-duty soldier #4825",
+            "Color": "green"
+          },
+          {
+            "Text": "a militiaman #4821",
+            "Color": "green"
+          },
+          {
+            "Text": "a militiaman #4821",
+            "Color": "green"
+          },
+          {
+            "Text": "a militia patrol leader #4822",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen #4841",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen #4843",
+            "Color": "green"
+          },
+          {
+            "Text": "a market trader #4846",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen #4848",
+            "Color": "green"
+          },
+          {
+            "Text": "a youth #4850",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4866,
+        "Name": "Market Road. #4866",
+        "Connections": {
+          "North": 4871,
+          "South": 4859,
+          "West": 4865
+        },
+        "Contents": [
+          {
+            "Text": "a militia patrol leader #4822",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen #4844",
+            "Color": "green"
+          },
+          {
+            "Text": "a market trader #4845",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen #4848",
+            "Color": "green"
+          },
+          {
+            "Text": "a youth #4850",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4867,
+        "Name": "On the waterfront. #4867",
+        "Connections": {
+          "North": 4872,
+          "East": 4944,
+          "South": 4862,
+          "West": 4898
+        }
+      },
+      {
+        "Id": 4868,
+        "Name": "Eastgate Road. #4868",
+        "Connections": {
+          "North": 4873,
+          "South": 4863,
+          "West": 4821
+        },
+        "Contents": [
+          {
+            "Text": "a militiaman #4821",
+            "Color": "green"
+          },
+          {
+            "Text": "a militiaman #4821",
+            "Color": "green"
+          },
+          {
+            "Text": "a militia patrol leader #4822",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4869,
+        "Name": "The marketplace. #4869",
+        "Connections": {
+          "East": 4870,
+          "South": 4864
+        },
+        "Contents": [
+          {
+            "Text": "a citizen #4843",
+            "Color": "green"
+          },
+          {
+            "Text": "a market trader #4845",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen #4848",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4870,
+        "Name": "The marketplace. #4870",
+        "Connections": {
+          "East": 4871,
+          "South": 4865,
+          "West": 4869
+        },
+        "Contents": [
+          {
+            "Text": "a citizen #4842",
+            "Color": "green"
+          },
+          {
+            "Text": "a market trader #4846",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4871,
+        "Name": "Market Road. #4871",
+        "Connections": {
+          "North": 4874,
+          "South": 4866,
+          "West": 4870
+        },
+        "Contents": [
+          {
+            "Text": "a market trader #4847",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4872,
+        "Name": "On the waterfront. #4872",
+        "Connections": {
+          "North": 4875,
+          "South": 4867,
+          "West": 4896
+        },
+        "Contents": [
+          {
+            "Text": "a dock worker #4851",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4873,
+        "Name": "Eastgate Road. #4873",
+        "Connections": {
+          "North": 4876,
+          "South": 4868,
+          "West": 4822
+        },
+        "Contents": [
+          {
+            "Text": "a militiaman #4821",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4874,
+        "Name": "Market Road. #4874",
+        "Connections": {
+          "North": 4877,
+          "South": 4871
+        },
+        "Contents": [
+          {
+            "Text": "a sailor #4840",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4875,
+        "Name": "On the waterfront. #4875",
+        "Connections": {
+          "North": 4878,
+          "South": 4872,
+          "West": 4894
+        },
+        "Contents": [
+          {
+            "Text": "a militiaman #4821",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4876,
+        "Name": "Eastgate Road. #4876",
+        "Connections": {
+          "North": 4879,
+          "South": 4873
+        }
+      },
+      {
+        "Id": 4877,
+        "Name": "Market Road. #4877",
+        "Connections": {
+          "North": 4883,
+          "South": 4874
+        }
+      },
+      {
+        "Id": 4878,
+        "Name": "On the waterfront. #4878",
+        "Connections": {
+          "North": 4886,
+          "South": 4875,
+          "West": 4892
+        },
+        "Contents": [
+          {
+            "Text": "a sailor #4839",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen #4842",
+            "Color": "green"
+          },
+          {
+            "Text": "a dock worker #4851",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4879,
+        "Name": "Corner of Eastgate Road and Empire Road. #4879",
+        "Connections": {
+          "North": 4823,
+          "East": 4880,
+          "South": 4876
+        },
+        "Contents": [
+          {
+            "Text": "a militia patrol leader #4822",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4880,
+        "Name": "Empire Road. #4880",
+        "Connections": {
+          "East": 4881,
+          "West": 4879
+        },
+        "Contents": [
+          {
+            "Text": "an off-duty militiaman #4823",
+            "Color": "green"
+          },
+          {
+            "Text": "a sailor #4840",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4881,
+        "Name": "Empire Road. #4881",
+        "Connections": {
+          "East": 4882,
+          "South": 4930,
+          "West": 4880
+        },
+        "Contents": [
+          {
+            "Text": "a stout monk #4804",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4882,
+        "Name": "Empire Road. #4882",
+        "Connections": {
+          "North": 4937,
+          "East": 4883,
+          "West": 4881
+        }
+      },
+      {
+        "Id": 4883,
+        "Name": "Empire Road. #4883",
+        "Connections": {
+          "East": 4884,
+          "South": 4877,
+          "West": 4882
+        },
+        "Contents": [
+          {
+            "Text": "a militiaman #4821",
+            "Color": "green"
+          },
+          {
+            "Text": "a militiaman #4821",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4884,
+        "Name": "Empire Road. #4884",
+        "Connections": {
+          "North": 4890,
+          "East": 4885,
+          "West": 4883
+        },
+        "Contents": [
+          {
+            "Text": "a citizen #4841",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4885,
+        "Name": "Empire Road. #4885",
+        "Connections": {
+          "North": 4890,
+          "East": 4886,
+          "West": 4884
+        }
+      },
+      {
+        "Id": 4886,
+        "Name": "End of the waterfront. #4886",
+        "Connections": {
+          "North": 4825,
+          "South": 4878,
+          "West": 4885
+        }
+      },
+      {
+        "Id": 4887,
+        "Name": "Back of the Bearded Moskavan Inn. #4887",
+        "Connections": {
+          "East": 4888,
+          "South": 4889
+        },
+        "Contents": [
+          {
+            "Text": "an innkeeper #4833",
+            "Color": "green"
+          },
+          {
+            "Text": "a drunken sailor #4855",
+            "Color": "green"
+          },
+          {
+            "Text": "a drunken sailor #4855",
+            "Color": "green"
+          },
+          {
+            "Text": "a drunken citizen #4856",
+            "Color": "green"
+          },
+          {
+            "Text": "a drunken citizen #4856",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4888,
+        "Name": "In the Bearded Moskavan. #4888",
+        "Connections": {
+          "South": 4890,
+          "West": 4887
+        },
+        "Contents": [
+          {
+            "Text": "a drunken sailor #4855",
+            "Color": "green"
+          },
+          {
+            "Text": "a drunken sailor #4855",
+            "Color": "green"
+          },
+          {
+            "Text": "a drunken citizen #4856",
+            "Color": "green"
+          },
+          {
+            "Text": "a drunken citizen #4856",
+            "Color": "green"
+          },
+          {
+            "Text": "an off-duty soldier #4854",
+            "Color": "green"
+          },
+          {
+            "Text": "a citizen #4857",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4889,
+        "Name": "A storeroom. #4889",
+        "Connections": {
+          "North": 4887
+        }
+      },
+      {
+        "Id": 4890,
+        "Name": "The Bearded Moskavan. #4890",
+        "Connections": {
+          "North": 4888,
+          "South": 4884
+        },
+        "Contents": [
+          {
+            "Text": "a drunken sailor #4855",
+            "Color": "green"
+          },
+          {
+            "Text": "a drunken citizen #4856",
+            "Color": "green"
+          },
+          {
+            "Text": "an off-duty militiaman #4853",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4891,
+        "Name": "A warehouse. #4891",
+        "Connections": {
+          "East": 4892
+        }
+      },
+      {
+        "Id": 4892,
+        "Name": "A warehouse. #4892",
+        "Connections": {
+          "East": 4878,
+          "West": 4891
+        }
+      },
+      {
+        "Id": 4893,
+        "Name": "A warehouse. #4893",
+        "Connections": {
+          "East": 4894
+        }
+      },
+      {
+        "Id": 4894,
+        "Name": "A warehouse. #4894",
+        "Connections": {
+          "East": 4875,
+          "West": 4893
+        }
+      },
+      {
+        "Id": 4895,
+        "Name": "A warehouse. #4895",
+        "Connections": {
+          "East": 4896
+        }
+      },
+      {
+        "Id": 4896,
+        "Name": "A warehouse. #4896",
+        "Connections": {
+          "East": 4872,
+          "West": 4895
+        }
+      },
+      {
+        "Id": 4897,
+        "Name": "A warehouse. #4897",
+        "Connections": {
+          "East": 4898
+        }
+      },
+      {
+        "Id": 4898,
+        "Name": "A warehouse. #4898",
+        "Connections": {
+          "East": 4867,
+          "West": 4897
+        }
+      },
+      {
+        "Id": 4899,
+        "Name": "Falinor Trathar\u0027s Weapons. #4899",
+        "Connections": {
+          "North": 4860
+        },
+        "Contents": [
+          {
+            "Text": "Falinor Trathar #4852",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4900,
+        "Name": "Habrem Librol\u0027s Metalurgy. #4900",
+        "Connections": {
+          "East": 4851
+        },
+        "Contents": [
+          {
+            "Text": "Habrem Librol #4802",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4901,
+        "Name": "Kasper\u0027s Charms and Blessings. #4901",
+        "Connections": {
+          "East": 4848
+        },
+        "Contents": [
+          {
+            "Text": "Mystic Kasper #4801",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4902,
+        "Name": "The Great Waterfront Inn. #4902",
+        "Connections": {
+          "East": 4844,
+          "South": 4903
+        },
+        "Contents": [
+          {
+            "Text": "a gentleman #4837",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4903,
+        "Name": "Inside the Great Waterfront Inn. #4903",
+        "Connections": {
+          "North": 4902,
+          "West": 4904,
+          "Up": 4906
+        },
+        "Contents": [
+          {
+            "Text": "a gentleman #4837",
+            "Color": "green"
+          },
+          {
+            "Text": "an older gentleman #4838",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4904,
+        "Name": "Inside the  Great Waterfront Inn. #4904",
+        "Connections": {
+          "East": 4903
+        },
+        "Contents": [
+          {
+            "Text": "an innkeeper #4836",
+            "Color": "green"
+          },
+          {
+            "Text": "a gentleman #4837",
+            "Color": "green"
+          },
+          {
+            "Text": "an older gentleman #4838",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4905,
+        "Name": "A small bedroom. #4905",
+        "Connections": {
+          "South": 4906
+        }
+      },
+      {
+        "Id": 4906,
+        "Name": "Top landing. #4906",
+        "Connections": {
+          "North": 4905,
+          "Down": 4903
+        }
+      },
+      {
+        "Id": 4907,
+        "Name": "Murphey\u0027s Great Grub Emporium. #4907",
+        "Connections": {
+          "North": 4847
+        },
+        "Contents": [
+          {
+            "Text": "Murphey Jones #4803",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4908,
+        "Name": "The Jail Office. #4908",
+        "Connections": {
+          "South": 4909
+        },
+        "Contents": [
+          {
+            "Text": "the Chief Jailer of Elmpatris #4814",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4909,
+        "Name": "Inside the jailhouse. #4909",
+        "Connections": {
+          "North": 4908,
+          "South": 4835,
+          "Down": 4912
+        }
+      },
+      {
+        "Id": 4910,
+        "Name": "A smelly cell. #4910",
+        "Connections": {
+          "East": {
+            "RoomId": 4912,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a young rebel #4817",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4911,
+        "Name": "A smelly cell. #4911",
+        "Connections": {
+          "South": {
+            "RoomId": 4912,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an old man #4816",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4912,
+        "Name": "By the cells. #4912",
+        "Connections": {
+          "North": {
+            "RoomId": 4911,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 4910,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 4909
+        },
+        "Contents": [
+          {
+            "Text": "the Jailer of Elmpatris #4815",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4913,
+        "Name": "The stables. #4913",
+        "Connections": {
+          "South": 4914,
+          "West": 4842
+        },
+        "Contents": [
+          {
+            "Text": "a sturdy horse #4805",
+            "Color": "green"
+          },
+          {
+            "Text": "a strong horse #4806",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4914,
+        "Name": "The stables. #4914",
+        "Connections": {
+          "North": 4913
+        },
+        "Contents": [
+          {
+            "Text": "a sturdy horse #4805",
+            "Color": "green"
+          },
+          {
+            "Text": "a strong horse #4806",
+            "Color": "green"
+          },
+          {
+            "Text": "a strong horse #4806",
+            "Color": "green"
+          },
+          {
+            "Text": "a stableboy #4818",
+            "Color": "green"
+          },
+          {
+            "Text": "a stableboy #4818",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4915,
+        "Name": "Elmpatris barracks. #4915",
+        "Connections": {
+          "East": 4916,
+          "West": 4845
+        }
+      },
+      {
+        "Id": 4916,
+        "Name": "Elmpatris barracks. #4916",
+        "Connections": {
+          "North": 4921,
+          "West": 4915
+        }
+      },
+      {
+        "Id": 4917,
+        "Name": "Elmpatris library. #4917",
+        "Connections": {
+          "South": 4918,
+          "West": 4852
+        },
+        "Contents": [
+          {
+            "Text": "a librarian #4812",
+            "Color": "green"
+          },
+          {
+            "Text": "a scholar #4813",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4918,
+        "Name": "Elmpatris library. #4918",
+        "Connections": {
+          "North": 4917,
+          "East": 4921
+        },
+        "Contents": [
+          {
+            "Text": "a scholar #4813",
+            "Color": "green"
+          },
+          {
+            "Text": "a scholar #4813",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4919,
+        "Name": "Town Hall reception. #4919",
+        "Connections": {
+          "North": 4857,
+          "South": 4921
+        },
+        "Contents": [
+          {
+            "Text": "the town hall receptionist #4808",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4920,
+        "Name": "An office. #4920",
+        "Connections": {
+          "South": 4922
+        },
+        "Contents": [
+          {
+            "Text": "a clerk #4811",
+            "Color": "green"
+          },
+          {
+            "Text": "a clerk #4811",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4921,
+        "Name": "A corridor. #4921",
+        "Connections": {
+          "North": 4919,
+          "East": 4922,
+          "South": 4916,
+          "West": 4918
+        },
+        "Contents": [
+          {
+            "Text": "a clerk #4811",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4922,
+        "Name": "A corridor. #4922",
+        "Connections": {
+          "North": 4920,
+          "West": 4921,
+          "Up": 4926
+        }
+      },
+      {
+        "Id": 4923,
+        "Name": "Town Council meeting chamber. #4923",
+        "Connections": {
+          "South": 4925
+        },
+        "Contents": [
+          {
+            "Text": "a city official #4810",
+            "Color": "green"
+          },
+          {
+            "Text": "a clerk #4811",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4924,
+        "Name": "The Mayor\u0027s office. #4924",
+        "Connections": {
+          "South": 4926
+        },
+        "Contents": [
+          {
+            "Text": "the Mayor of Elmpatris #4809",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4925,
+        "Name": "A corridor. #4925",
+        "Connections": {
+          "North": 4923,
+          "East": 4926
+        }
+      },
+      {
+        "Id": 4926,
+        "Name": "A corridor #4926",
+        "Connections": {
+          "North": 4924,
+          "West": 4925,
+          "Down": 4922
+        },
+        "Contents": [
+          {
+            "Text": "a city official #4810",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4927,
+        "Name": "Before the city walls. #4927",
+        "Connections": {
+          "East": 4821,
+          "West": 4939
+        }
+      },
+      {
+        "Id": 4928,
+        "Name": "Corner of Eastgate Road. #4928",
+        "Connections": {}
+      },
+      {
+        "Id": 4929,
+        "Name": "l #4929",
+        "Connections": {}
+      },
+      {
+        "Id": 4930,
+        "Name": "Alyah\u0027s Massage and Comfort Parlour. #4930",
+        "Connections": {
+          "North": 4881,
+          "West": 4931,
+          "Up": 4933
+        },
+        "Contents": [
+          {
+            "Text": "Alyah the Madam #4800",
+            "Color": "green"
+          },
+          {
+            "Text": "a prostitute #4826",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4931,
+        "Name": "A bedroom. #4931",
+        "Connections": {
+          "East": 4930
+        },
+        "Contents": [
+          {
+            "Text": "a prostitute #4826",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4932,
+        "Name": "A bedroom. #4932",
+        "Connections": {
+          "East": 4933
+        },
+        "Contents": [
+          {
+            "Text": "a prostitute #4826",
+            "Color": "green"
+          },
+          {
+            "Text": "a man #4827",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4933,
+        "Name": "On the landing. #4933",
+        "Connections": {
+          "West": 4932,
+          "Down": 4930
+        },
+        "Contents": [
+          {
+            "Text": "a man #4827",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4934,
+        "Name": "Church of Aodhfidiahnn. #4934",
+        "Connections": {
+          "North": 4935,
+          "East": 4864
+        },
+        "Contents": [
+          {
+            "Text": "an Aodhfidiahnn believer #4832",
+            "Color": "green"
+          },
+          {
+            "Text": "a scrawny dog #4807",
+            "Color": "green"
+          },
+          {
+            "Text": "a scrawny dog #4807",
+            "Color": "green"
+          },
+          {
+            "Text": "a scrawny dog #4807",
+            "Color": "green"
+          },
+          {
+            "Text": "a scrawny dog #4807",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4935,
+        "Name": "Before the Idol of Aodhfidiahnn. #4935",
+        "Connections": {
+          "South": 4934
+        },
+        "Contents": [
+          {
+            "Text": "a priest of Aodhfidiahnn #4830",
+            "Color": "green"
+          },
+          {
+            "Text": "an Aodhfidiahnn believer #4831",
+            "Color": "green"
+          },
+          {
+            "Text": "a scrawny dog #4807",
+            "Color": "green"
+          },
+          {
+            "Text": "a scrawny dog #4807",
+            "Color": "green"
+          },
+          {
+            "Text": "a scrawny dog #4807",
+            "Color": "green"
+          },
+          {
+            "Text": "a scrawny dog #4807",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4936,
+        "Name": "At the statue of Pageoran. #4936",
+        "Connections": {
+          "South": 4937
+        },
+        "Contents": [
+          {
+            "Text": "a Pageoran priest #4828",
+            "Color": "green"
+          },
+          {
+            "Text": "a Pageoran follower #4829",
+            "Color": "green"
+          },
+          {
+            "Text": "a Pageoran follower #4829",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4937,
+        "Name": "Shrine of the Saved. #4937",
+        "Connections": {
+          "North": 4936,
+          "South": 4882
+        },
+        "Contents": [
+          {
+            "Text": "a Pageoran follower #4829",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4938,
+        "Name": "Road across the rolling hills. #4938",
+        "Connections": {
+          "East": 4943,
+          "West": 3506
+        }
+      },
+      {
+        "Id": 4939,
+        "Name": "Road before Elmpatris. #4939",
+        "Connections": {
+          "North": 1900,
+          "East": 4927,
+          "West": 4940
+        }
+      },
+      {
+        "Id": 4940,
+        "Name": "Pathway through the hills. #4940",
+        "Connections": {
+          "East": 4939,
+          "West": 4941
+        }
+      },
+      {
+        "Id": 4941,
+        "Name": "Pathway through the hills. #4941",
+        "Connections": {
+          "East": 4940,
+          "South": 4955,
+          "West": 4942
+        }
+      },
+      {
+        "Id": 4942,
+        "Name": "Pathway through the hills. #4942",
+        "Connections": {
+          "North": 18400,
+          "East": 4941,
+          "West": 4943
+        }
+      },
+      {
+        "Id": 4943,
+        "Name": "Pathway through the hills. #4943",
+        "Connections": {
+          "East": 4942,
+          "West": 4938
+        }
+      },
+      {
+        "Id": 4944,
+        "Name": "A pier on the waterfront. #4944",
+        "Connections": {
+          "East": 3513,
+          "West": 4867
+        }
+      },
+      {
+        "Id": 4945,
+        "Name": "A small pier on the River Karyna. #4945",
+        "Connections": {
+          "North": 4835,
+          "South": 4949,
+          "West": 4946
+        }
+      },
+      {
+        "Id": 4946,
+        "Name": "On the River Karyna. #4946",
+        "Connections": {
+          "East": 4945,
+          "West": 4947
+        }
+      },
+      {
+        "Id": 4947,
+        "Name": "The River Karyna. #4947",
+        "Connections": {
+          "East": 4946,
+          "South": 3535
+        }
+      },
+      {
+        "Id": 4948,
+        "Name": "A small pier on the River Karyna. #4948",
+        "Connections": {
+          "South": 4949
+        }
+      },
+      {
+        "Id": 4949,
+        "Name": "On the River Karyna. #4949",
+        "Connections": {
+          "North": 4945,
+          "West": 4950
+        }
+      },
+      {
+        "Id": 4950,
+        "Name": "On the River Karyna. #4950",
+        "Connections": {
+          "East": 4949,
+          "South": 3536
+        }
+      },
+      {
+        "Id": 4951,
+        "Name": "A Pier on the Waterfront #4951",
+        "Connections": {
+          "East": 4952,
+          "West": 4841
+        }
+      },
+      {
+        "Id": 4952,
+        "Name": "The Harbour of Elmpartis #4952",
+        "Connections": {
+          "North": 4951,
+          "East": 21977,
+          "South": 4953,
+          "West": 4951
+        }
+      },
+      {
+        "Id": 4953,
+        "Name": "The Harbour of Elmpartis #4953",
+        "Connections": {
+          "North": 4952,
+          "South": 4954
+        }
+      },
+      {
+        "Id": 4954,
+        "Name": "A Rocky Coastline #4954",
+        "Connections": {
+          "North": 4953,
+          "South": 1010
+        }
+      },
+      {
+        "Id": 3506,
+        "FrameColor": "blue",
+        "Name": "To TheRoads #3506",
+        "Color": "blue",
+        "Connections": {
+          "North": 2279,
+          "East": 4938,
+          "West": 3505
+        }
+      },
+      {
+        "Id": 1900,
+        "FrameColor": "blue",
+        "Name": "To Dusk #1900",
+        "Color": "blue",
+        "Connections": {
+          "North": 1942,
+          "South": 4939
+        }
+      },
+      {
+        "Id": 4955,
+        "FrameColor": "blue",
+        "Name": "To SnowPeak #4955",
+        "Color": "blue",
+        "Connections": {
+          "North": 4956
+        }
+      },
+      {
+        "Id": 18400,
+        "FrameColor": "blue",
+        "Name": "To TempleOfPres #18400",
+        "Color": "blue",
+        "Connections": {
+          "North": 18401,
+          "South": 4942
+        }
+      },
+      {
+        "Id": 3513,
+        "FrameColor": "blue",
+        "Name": "To TheRoads #3513",
+        "Color": "blue",
+        "Connections": {
+          "East": 3512,
+          "West": 4944
+        }
+      },
+      {
+        "Id": 3535,
+        "FrameColor": "blue",
+        "Name": "To TheRoads #3535",
+        "Color": "blue",
+        "Connections": {
+          "North": 4947,
+          "West": 3534
+        }
+      },
+      {
+        "Id": 3536,
+        "FrameColor": "blue",
+        "Name": "To TheRoads #3536",
+        "Color": "blue",
+        "Connections": {
+          "North": 4950,
+          "West": 3537
+        }
+      },
+      {
+        "Id": 21977,
+        "FrameColor": "blue",
+        "Name": "To Ocean2 #21977",
+        "Color": "blue",
+        "Connections": {
+          "East": 21976,
+          "West": 4952
+        }
+      },
+      {
+        "Id": 1010,
+        "FrameColor": "blue",
+        "Name": "To Shikonas #1010",
+        "Color": "blue",
+        "Connections": {
+          "North": 4954,
+          "South": 1099
+        }
+      }
+    ]
+  }
+}

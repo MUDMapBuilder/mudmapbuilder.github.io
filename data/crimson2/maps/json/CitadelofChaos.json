@@ -1,0 +1,1030 @@
+{
+  "Area": {
+    "Name": "CitadelofChaos",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 4200,
+        "Name": "Cyric\u0027s Funky Reggae Lounge. #4200",
+        "Connections": {
+          "Up": 4201
+        }
+      },
+      {
+        "Id": 4201,
+        "Name": "Pathway to Chaos. #4201",
+        "Connections": {
+          "East": 3711,
+          "West": 4295
+        }
+      },
+      {
+        "Id": 4202,
+        "Name": "Before the Firey Mountain #4202",
+        "Connections": {
+          "East": 4297,
+          "South": 1300,
+          "Up": 4203
+        }
+      },
+      {
+        "Id": 4203,
+        "Name": "Nearing the Citadel of Chaos #4203",
+        "Connections": {
+          "West": 4204,
+          "Down": 4202
+        }
+      },
+      {
+        "Id": 4204,
+        "Name": "Before the Citadel Entrance. #4204",
+        "Connections": {
+          "East": 4203,
+          "West": 4205
+        }
+      },
+      {
+        "Id": 4205,
+        "Name": "Inside the Citadel #4205",
+        "Connections": {
+          "North": 4208,
+          "East": 4204,
+          "South": 4210,
+          "West": 4206
+        },
+        "Contents": [
+          {
+            "Text": "the horned statue #4200",
+            "Color": "green"
+          },
+          {
+            "Text": "the chaos warrior #4221",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4206,
+        "Name": "Courtyard in the Citadel of Chaos #4206",
+        "Connections": {
+          "North": 4207,
+          "East": 4205,
+          "South": 4209,
+          "West": 4215
+        },
+        "Contents": [
+          {
+            "Text": "the chaos squire #4219",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4207,
+        "Name": "Courtyard in the Citadel of Chaos #4207",
+        "Connections": {
+          "North": 4213,
+          "East": 4208,
+          "South": 4206
+        },
+        "Contents": [
+          {
+            "Text": "the chaos squire #4219",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4208,
+        "Name": "Courtyard in the Citadel of Chaos #4208",
+        "Connections": {
+          "South": 4205,
+          "West": 4207
+        }
+      },
+      {
+        "Id": 4209,
+        "Name": "Courtyard in the Citadel of Chaos #4209",
+        "Connections": {
+          "North": 4206,
+          "East": 4210,
+          "South": 4211
+        },
+        "Contents": [
+          {
+            "Text": "the minotaur warrior #4223",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4210,
+        "Name": "Courtyard in the Citadel of Chaos #4210",
+        "Connections": {
+          "North": 4205,
+          "West": 4209
+        },
+        "Contents": [
+          {
+            "Text": "the chaos squire #4219",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4211,
+        "Name": "Short Hallway #4211",
+        "Connections": {
+          "North": 4209,
+          "West": 4212
+        }
+      },
+      {
+        "Id": 4212,
+        "Name": "Short Hallway #4212",
+        "Connections": {
+          "East": 4211,
+          "Up": 4247
+        }
+      },
+      {
+        "Id": 4213,
+        "Name": "Short Hallway #4213",
+        "Connections": {
+          "South": 4207,
+          "West": 4214
+        }
+      },
+      {
+        "Id": 4214,
+        "Name": "Short Hallway #4214",
+        "Connections": {
+          "East": 4213,
+          "Up": 4231
+        }
+      },
+      {
+        "Id": 4215,
+        "Name": "Long Hallway #4215",
+        "Connections": {
+          "East": 4206,
+          "West": 4216
+        }
+      },
+      {
+        "Id": 4216,
+        "Name": "Long Hallway #4216",
+        "Connections": {
+          "East": 4215,
+          "West": 4217,
+          "Down": 4219
+        },
+        "Contents": [
+          {
+            "Text": "the chaos warrior #4221",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4217,
+        "Name": "Long Hallway #4217",
+        "Connections": {
+          "East": 4216,
+          "West": 4218
+        }
+      },
+      {
+        "Id": 4218,
+        "Name": "Chambers of Lord Toraak #4218",
+        "Connections": {
+          "East": 4217
+        },
+        "Contents": [
+          {
+            "Text": "Lord Toraak #4201",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4219,
+        "Name": "Under the Trapdoor #4219",
+        "Connections": {
+          "South": 4220
+        }
+      },
+      {
+        "Id": 4220,
+        "Name": "Labyrinth #4220",
+        "Connections": {
+          "North": 4219,
+          "South": 4229,
+          "West": 4221
+        }
+      },
+      {
+        "Id": 4221,
+        "Name": "Labyrinth #4221",
+        "Connections": {
+          "East": 4220,
+          "West": 4222
+        },
+        "Contents": [
+          {
+            "Text": "the minotaur #4220",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4222,
+        "Name": "Labyrinth #4222",
+        "Connections": {
+          "North": 4223,
+          "East": 4221,
+          "South": 4224
+        }
+      },
+      {
+        "Id": 4223,
+        "Name": "Labyrinth #4223",
+        "Connections": {
+          "South": 4222
+        }
+      },
+      {
+        "Id": 4224,
+        "Name": "Labyrinth #4224",
+        "Connections": {
+          "North": 4222,
+          "South": 4225
+        }
+      },
+      {
+        "Id": 4225,
+        "Name": "Labyrinth #4225",
+        "Connections": {
+          "North": 4224,
+          "East": 4226
+        },
+        "Contents": [
+          {
+            "Text": "the minotaur #4220",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4226,
+        "Name": "Labyrinth #4226",
+        "Connections": {
+          "North": 4230,
+          "East": 4227,
+          "West": 4225
+        }
+      },
+      {
+        "Id": 4227,
+        "Name": "Labyrinth #4227",
+        "Connections": {
+          "North": 4229,
+          "East": 4228,
+          "West": 4226
+        }
+      },
+      {
+        "Id": 4228,
+        "Name": "Labyrinth #4228",
+        "Connections": {
+          "West": 4227
+        }
+      },
+      {
+        "Id": 4229,
+        "Name": "Labyrinth #4229",
+        "Connections": {
+          "North": 4220,
+          "South": 4227
+        },
+        "Contents": [
+          {
+            "Text": "the minotaur #4220",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4230,
+        "Name": "Center of the Labyrinth #4230",
+        "Connections": {
+          "South": 4226
+        },
+        "Contents": [
+          {
+            "Text": "Kithnak #4202",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4231,
+        "Name": "Top of the Stone Stairs #4231",
+        "Connections": {
+          "North": 4232,
+          "Down": 4214
+        }
+      },
+      {
+        "Id": 4232,
+        "Name": "Hallway in the Citadel #4232",
+        "Connections": {
+          "East": 4233,
+          "South": 4231,
+          "West": 4238
+        },
+        "Contents": [
+          {
+            "Text": "the chaos warrior #4221",
+            "Color": "green"
+          },
+          {
+            "Text": "the veteran chaos warrior #4222",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4233,
+        "Name": "Hallway in the Citadel #4233",
+        "Connections": {
+          "North": 4234,
+          "West": 4232
+        }
+      },
+      {
+        "Id": 4234,
+        "Name": "Hallway in the Citadel #4234",
+        "Connections": {
+          "North": 4235,
+          "South": 4233
+        }
+      },
+      {
+        "Id": 4235,
+        "Name": "Hallway in the Citadel #4235",
+        "Connections": {
+          "North": 4236,
+          "South": 4234,
+          "West": 4237
+        }
+      },
+      {
+        "Id": 4236,
+        "Name": "Sleeping Quaters of the retired Lord Omant #4236",
+        "Connections": {
+          "South": 4235
+        },
+        "Contents": [
+          {
+            "Text": "Lord Omant #4203",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4237,
+        "Name": "Study of Doorin, Mage of Chaos #4237",
+        "Connections": {
+          "East": 4235
+        },
+        "Contents": [
+          {
+            "Text": "Doorin #4204",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4238,
+        "Name": "Hallway in the Citadel #4238",
+        "Connections": {
+          "East": 4232,
+          "West": 4239
+        }
+      },
+      {
+        "Id": 4239,
+        "Name": "Hallway in the Citadel #4239",
+        "Connections": {
+          "North": 4240,
+          "East": 4238,
+          "South": 4242
+        }
+      },
+      {
+        "Id": 4240,
+        "Name": "Hallway in the Citadel #4240",
+        "Connections": {
+          "North": 4241,
+          "South": 4239
+        }
+      },
+      {
+        "Id": 4241,
+        "Name": "Room of Mithar, the Chaos Preacher #4241",
+        "Connections": {
+          "South": 4240
+        },
+        "Contents": [
+          {
+            "Text": "Mithar #4205",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4242,
+        "Name": "Living Quaters of Viscount Berin #4242",
+        "Connections": {
+          "North": 4239,
+          "South": 4243
+        }
+      },
+      {
+        "Id": 4243,
+        "Name": "Living Quaters of Viscount Berin #4243",
+        "Connections": {
+          "North": 4242,
+          "East": 4246,
+          "South": 4244,
+          "West": 4245
+        }
+      },
+      {
+        "Id": 4244,
+        "Name": "Living Quaters of Viscount Berin #4244",
+        "Connections": {
+          "North": 4243
+        },
+        "Contents": [
+          {
+            "Text": "the Viscount Berin #4206",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4245,
+        "Name": "Living Quaters of Viscount Berin #4245",
+        "Connections": {
+          "East": 4243
+        }
+      },
+      {
+        "Id": 4246,
+        "Name": "Living Quaters of Viscount Berin #4246",
+        "Connections": {
+          "West": 4243
+        }
+      },
+      {
+        "Id": 4247,
+        "Name": "Top of the Stone Stairs #4247",
+        "Connections": {
+          "North": 4248,
+          "Down": 4212
+        }
+      },
+      {
+        "Id": 4248,
+        "Name": "Large Hallway in the Citadel #4248",
+        "Connections": {
+          "North": 4249,
+          "South": 4247,
+          "West": 4257
+        }
+      },
+      {
+        "Id": 4249,
+        "Name": "Large Hallway in the Citadel #4249",
+        "Connections": {
+          "North": 4251,
+          "East": 4250,
+          "South": 4248
+        },
+        "Contents": [
+          {
+            "Text": "the minotaur warrior #4223",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4250,
+        "Name": "Chambers of Igour, Minotaur Battle Master #4250",
+        "Connections": {
+          "West": 4249
+        },
+        "Contents": [
+          {
+            "Text": "Igour #4207",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4251,
+        "Name": "Large Hallway in the Citadel #4251",
+        "Connections": {
+          "North": 4252,
+          "South": 4249
+        }
+      },
+      {
+        "Id": 4252,
+        "Name": "Large Hallway in the Citadel #4252",
+        "Connections": {
+          "East": 4253,
+          "South": 4251
+        }
+      },
+      {
+        "Id": 4253,
+        "Name": "Large Hallway in the Citadel #4253",
+        "Connections": {
+          "North": 4254,
+          "East": 4255,
+          "West": 4252
+        }
+      },
+      {
+        "Id": 4254,
+        "Name": "Chambers of Nark, Minotaur Veteran #4254",
+        "Connections": {
+          "South": 4253
+        },
+        "Contents": [
+          {
+            "Text": "Nark #4208",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4255,
+        "Name": "Large Hallway in the Citadel #4255",
+        "Connections": {
+          "South": 4256,
+          "West": 4253
+        }
+      },
+      {
+        "Id": 4256,
+        "Name": "Laboratory of Quarth, the Minotaur Mage #4256",
+        "Connections": {
+          "North": 4255
+        },
+        "Contents": [
+          {
+            "Text": "Quarth #4209",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4257,
+        "Name": "Large Hallway in the Citadel #4257",
+        "Connections": {
+          "East": 4248,
+          "West": 4258
+        }
+      },
+      {
+        "Id": 4258,
+        "Name": "Large Hallway in the Citadel #4258",
+        "Connections": {
+          "North": 4259,
+          "East": 4257,
+          "West": 4260
+        },
+        "Contents": [
+          {
+            "Text": "the battle hardened minotaur #4224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4259,
+        "Name": "Room of Lamarth, Speaker of the Minotaurs #4259",
+        "Connections": {
+          "South": 4258
+        },
+        "Contents": [
+          {
+            "Text": "Lamarth #4210",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4260,
+        "Name": "Large Hallway in the Citadel #4260",
+        "Connections": {
+          "East": 4258,
+          "South": 4261,
+          "West": 4269
+        }
+      },
+      {
+        "Id": 4261,
+        "Name": "Under the Archway #4261",
+        "Connections": {
+          "North": 4260,
+          "South": 4262
+        }
+      },
+      {
+        "Id": 4262,
+        "Name": "Halls of Raak #4262",
+        "Connections": {
+          "North": 4261,
+          "East": 4266,
+          "South": 4263,
+          "West": 4264
+        },
+        "Contents": [
+          {
+            "Text": "the minotaur bodyguard #4211",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4263,
+        "Name": "Halls of Raak #4263",
+        "Connections": {
+          "North": 4262,
+          "East": 4267,
+          "South": 4268,
+          "West": 4265
+        }
+      },
+      {
+        "Id": 4264,
+        "Name": "Halls of Raak #4264",
+        "Connections": {
+          "East": 4262,
+          "South": 4265
+        }
+      },
+      {
+        "Id": 4265,
+        "Name": "Halls of Raak #4265",
+        "Connections": {
+          "North": 4264,
+          "East": 4263
+        }
+      },
+      {
+        "Id": 4266,
+        "Name": "Halls of Raak #4266",
+        "Connections": {
+          "South": 4267,
+          "West": 4262
+        }
+      },
+      {
+        "Id": 4267,
+        "Name": "Halls of Raak #4267",
+        "Connections": {
+          "North": 4266,
+          "West": 4263
+        }
+      },
+      {
+        "Id": 4268,
+        "Name": "Halls of Raak #4268",
+        "Connections": {
+          "North": 4263
+        },
+        "Contents": [
+          {
+            "Text": "Raak #4212",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4269,
+        "Name": "Large Hallway in the Citadel #4269",
+        "Connections": {
+          "East": 4260,
+          "West": 4270
+        }
+      },
+      {
+        "Id": 4270,
+        "Name": "Large Hallway in the Citadel #4270",
+        "Connections": {
+          "North": 4271,
+          "East": 4269
+        }
+      },
+      {
+        "Id": 4271,
+        "Name": "End of the Large Hallway #4271",
+        "Connections": {
+          "South": 4270,
+          "Up": 4272
+        }
+      },
+      {
+        "Id": 4272,
+        "Name": "Wide Corridor in the Citadel #4272",
+        "Connections": {
+          "East": 4273,
+          "West": 4282,
+          "Down": 4271
+        }
+      },
+      {
+        "Id": 4273,
+        "Name": "Wide Corridor in the Citadel #4273",
+        "Connections": {
+          "East": 4274,
+          "West": 4272
+        }
+      },
+      {
+        "Id": 4274,
+        "Name": "Junction in the Wide Corridor #4274",
+        "Connections": {
+          "North": 4275,
+          "East": 4281,
+          "South": 4278,
+          "West": 4273
+        }
+      },
+      {
+        "Id": 4275,
+        "Name": "Wide Corridor in the Citadel #4275",
+        "Connections": {
+          "North": 4276,
+          "South": 4274
+        }
+      },
+      {
+        "Id": 4276,
+        "Name": "End of the Wide Corridor #4276",
+        "Connections": {
+          "East": 4277,
+          "South": 4275
+        }
+      },
+      {
+        "Id": 4277,
+        "Name": "Chamber of Gonark #4277",
+        "Connections": {
+          "West": 4276
+        },
+        "Contents": [
+          {
+            "Text": "Gonark #4216",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4278,
+        "Name": "Wide Corridor in the Citadel #4278",
+        "Connections": {
+          "North": 4274,
+          "South": 4279
+        }
+      },
+      {
+        "Id": 4279,
+        "Name": "End of the Wide Corridor #4279",
+        "Connections": {
+          "North": 4278,
+          "East": 4280
+        }
+      },
+      {
+        "Id": 4280,
+        "Name": "Chamber of Jorn #4280",
+        "Connections": {
+          "West": 4279
+        },
+        "Contents": [
+          {
+            "Text": "Jorn #4217",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4281,
+        "Name": "Chambers of Henark, Minotaur Overlord #4281",
+        "Connections": {
+          "West": 4274
+        },
+        "Contents": [
+          {
+            "Text": "Henark #4218",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4282,
+        "Name": "Wide Corridor in the Citadel #4282",
+        "Connections": {
+          "East": 4272,
+          "West": 4283
+        }
+      },
+      {
+        "Id": 4283,
+        "Name": "Minotaur Hall #4283",
+        "Connections": {
+          "North": 4284,
+          "East": 4282,
+          "West": 4286
+        },
+        "Contents": [
+          {
+            "Text": "the elite minotaur guard #4225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4284,
+        "Name": "Minotaur Hall #4284",
+        "Connections": {
+          "South": 4283,
+          "West": 4285
+        }
+      },
+      {
+        "Id": 4285,
+        "Name": "Minotaur Hall #4285",
+        "Connections": {
+          "East": 4284,
+          "South": 4286
+        }
+      },
+      {
+        "Id": 4286,
+        "Name": "Minotaur Hall #4286",
+        "Connections": {
+          "North": 4285,
+          "East": 4283,
+          "South": 4287
+        }
+      },
+      {
+        "Id": 4287,
+        "Name": "Dark and Gloomy Corridor #4287",
+        "Connections": {
+          "North": 4286,
+          "South": 4288
+        }
+      },
+      {
+        "Id": 4288,
+        "Name": "Dark and Gloomy Corridor #4288",
+        "Connections": {
+          "North": 4287,
+          "East": 4289
+        }
+      },
+      {
+        "Id": 4289,
+        "Name": "Dark and Gloomy Corridor #4289",
+        "Connections": {
+          "East": 4290,
+          "West": 4288
+        }
+      },
+      {
+        "Id": 4290,
+        "Name": "Dark and Gloomy Corridor #4290",
+        "Connections": {
+          "East": 4291,
+          "West": 4289
+        }
+      },
+      {
+        "Id": 4291,
+        "Name": "End of the Dark and Gloomy Corridor #4291",
+        "Connections": {
+          "North": 4292,
+          "East": 4294,
+          "South": 4293,
+          "West": 4290
+        }
+      },
+      {
+        "Id": 4292,
+        "Name": "Lair of Sinth, Minotaur Savage #4292",
+        "Connections": {
+          "South": 4291
+        },
+        "Contents": [
+          {
+            "Text": "Sinth #4213",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4293,
+        "Name": "Lair of Tiron, Minotaur Savage #4293",
+        "Connections": {
+          "North": 4291
+        },
+        "Contents": [
+          {
+            "Text": "Tiron #4215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4294,
+        "Name": "Lair of Fasht, Minotaur Savage #4294",
+        "Connections": {
+          "West": 4291
+        },
+        "Contents": [
+          {
+            "Text": "Fasht #4214",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4295,
+        "Name": "Pathway to Chaos. #4295",
+        "Connections": {
+          "North": 1201,
+          "East": 4201,
+          "West": 4296
+        }
+      },
+      {
+        "Id": 4296,
+        "Name": "Pathway to Chaos. #4296",
+        "Connections": {
+          "East": 4295,
+          "West": 4297
+        }
+      },
+      {
+        "Id": 4297,
+        "Name": "Pathway to Chaos. #4297",
+        "Connections": {
+          "East": 4296,
+          "West": 4202
+        }
+      },
+      {
+        "Id": 3711,
+        "FrameColor": "blue",
+        "Name": "To TheRoads #3711",
+        "Color": "blue",
+        "Connections": {
+          "North": 3710,
+          "South": 3712,
+          "West": 4201
+        }
+      },
+      {
+        "Id": 1300,
+        "FrameColor": "blue",
+        "Name": "To RealmOfKhorne #1300",
+        "Color": "blue",
+        "Connections": {
+          "North": 4202,
+          "East": 1301,
+          "South": 1303
+        }
+      },
+      {
+        "Id": 1201,
+        "FrameColor": "blue",
+        "Name": "To NedragaardKeep #1201",
+        "Color": "blue",
+        "Connections": {
+          "North": 1206,
+          "East": 1202,
+          "Down": 1203
+        }
+      }
+    ]
+  }
+}

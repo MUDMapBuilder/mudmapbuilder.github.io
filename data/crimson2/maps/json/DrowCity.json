@@ -1,0 +1,1341 @@
+{
+  "Area": {
+    "Name": "DrowCity",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 5100,
+        "Name": "Entrance to Tel\u0027Dnor #5100",
+        "Connections": {
+          "West": 5101,
+          "Up": 4110
+        }
+      },
+      {
+        "Id": 5101,
+        "Name": "Entrance to the Mushroom Fields #5101",
+        "Connections": {
+          "North": 5123,
+          "East": 5100,
+          "South": 5102,
+          "West": {
+            "RoomId": 5122,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a drow overseer #5109",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5102,
+        "Name": "Path through the Mushroom Fields #5102",
+        "Connections": {
+          "North": 5101,
+          "West": 5103
+        },
+        "Contents": [
+          {
+            "Text": "an ogre slave #5104",
+            "Color": "green"
+          },
+          {
+            "Text": "a human slave #5103",
+            "Color": "green"
+          },
+          {
+            "Text": "a wandering drow merchant #5140",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5103,
+        "Name": "Path through the Mushroom Fields #5103",
+        "Connections": {
+          "East": 5102,
+          "South": 5104,
+          "West": 5106
+        },
+        "Contents": [
+          {
+            "Text": "a human slave #5103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5104,
+        "Name": "House of Lestel #5104",
+        "Connections": {
+          "North": 5103,
+          "South": 5105
+        },
+        "Contents": [
+          {
+            "Text": "the house guard #5111",
+            "Color": "red"
+          },
+          {
+            "Text": "the house guard #5111",
+            "Color": "red"
+          },
+          {
+            "Text": "the house guard #5111",
+            "Color": "red"
+          },
+          {
+            "Text": "the house guard #5111",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5105,
+        "Name": "Doors of House Lestel #5105",
+        "Connections": {
+          "North": 5104,
+          "South": 5151
+        }
+      },
+      {
+        "Id": 5106,
+        "Name": "Path through the Mushroom Fields #5106",
+        "Connections": {
+          "North": 5118,
+          "East": 5103,
+          "West": 5107
+        },
+        "Contents": [
+          {
+            "Text": "a drow overseer #5139",
+            "Color": "red"
+          },
+          {
+            "Text": "a wandering drow merchant #5141",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5107,
+        "Name": "Path through the Mushroom Fields #5107",
+        "Connections": {
+          "North": 5110,
+          "East": 5106,
+          "South": 5108
+        }
+      },
+      {
+        "Id": 5108,
+        "Name": "House of Freth #5108",
+        "Connections": {
+          "North": 5107,
+          "West": 5109
+        },
+        "Contents": [
+          {
+            "Text": "the house guard #5112",
+            "Color": "red"
+          },
+          {
+            "Text": "the house guard #5112",
+            "Color": "red"
+          },
+          {
+            "Text": "the house guard #5112",
+            "Color": "red"
+          },
+          {
+            "Text": "the house guard #5112",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5109,
+        "Name": "Entryway to House Freth #5109",
+        "Connections": {
+          "East": 5108,
+          "West": 5176
+        }
+      },
+      {
+        "Id": 5110,
+        "Name": "Path through the Mushroom Fields #5110",
+        "Connections": {
+          "North": 5114,
+          "South": 5107,
+          "West": 5111
+        },
+        "Contents": [
+          {
+            "Text": "a drow overseer #5139",
+            "Color": "red"
+          },
+          {
+            "Text": "a human slave #5103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5111,
+        "Name": "House of Maerrai #5111",
+        "Connections": {
+          "East": 5110,
+          "West": 5112
+        },
+        "Contents": [
+          {
+            "Text": "the house guard #5113",
+            "Color": "red"
+          },
+          {
+            "Text": "the house guard #5113",
+            "Color": "red"
+          },
+          {
+            "Text": "the house guard #5113",
+            "Color": "red"
+          },
+          {
+            "Text": "the house guard #5113",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5112,
+        "Name": "Entryway to House Maerrai #5112",
+        "Connections": {
+          "North": 5113,
+          "East": 5111
+        }
+      },
+      {
+        "Id": 5113,
+        "Name": "Main Chamber #5113",
+        "Connections": {
+          "North": 5190,
+          "East": 5188,
+          "South": 5112,
+          "West": 5189
+        },
+        "Contents": [
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5114,
+        "Name": "Path through the Mushroom Fields #5114",
+        "Connections": {
+          "North": 5115,
+          "East": 5117,
+          "South": 5110
+        },
+        "Contents": [
+          {
+            "Text": "an ogre slave #5104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5115,
+        "Name": "Path through the Mushroom Fields #5115",
+        "Connections": {
+          "South": 5114,
+          "West": 5116
+        }
+      },
+      {
+        "Id": 5116,
+        "Name": "Assassin\u0027s Academy #5116",
+        "Connections": {
+          "East": 5115
+        },
+        "Contents": [
+          {
+            "Text": "the assassin guildmaster #5144",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5117,
+        "Name": "Path through the Mushroom Fields #5117",
+        "Connections": {
+          "North": 5119,
+          "East": 5121,
+          "West": 5114
+        },
+        "Contents": [
+          {
+            "Text": "a drow overseer #5139",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5118,
+        "Name": "The Warrior\u0027s Academy #5118",
+        "Connections": {
+          "South": 5106
+        },
+        "Contents": [
+          {
+            "Text": "the warrior guildmaster #5145",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5119,
+        "Name": "Entrance to the Temple of Lolth #5119",
+        "Connections": {
+          "South": 5117,
+          "Down": 5126
+        },
+        "Contents": [
+          {
+            "Text": "a guard spider #5136",
+            "Color": "red"
+          },
+          {
+            "Text": "a guard spider #5136",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5120,
+        "Name": "The Mage\u0027s Academy #5120",
+        "Connections": {
+          "South": 5121
+        },
+        "Contents": [
+          {
+            "Text": "A mage guildmaster #5142",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5121,
+        "Name": "Path through the Mushroom Fields #5121",
+        "Connections": {
+          "North": 5120,
+          "East": 5123,
+          "South": {
+            "RoomId": 5122,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 5117
+        },
+        "Contents": [
+          {
+            "Text": "a human slave #5103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5122,
+        "Name": "Slave Pen #5122",
+        "Connections": {
+          "North": {
+            "RoomId": 5121,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 5101,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The goblin slave #5100",
+            "Color": "green"
+          },
+          {
+            "Text": "a high elven slave #5102",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5123,
+        "Name": "Path through the Mushroom Fields #5123",
+        "Connections": {
+          "North": 5124,
+          "South": 5101,
+          "West": 5121
+        },
+        "Contents": [
+          {
+            "Text": "a wandering drow merchant #5108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5124,
+        "Name": "House of Baenre #5124",
+        "Connections": {
+          "East": 5125,
+          "South": 5123
+        },
+        "Contents": [
+          {
+            "Text": "the house guard #5110",
+            "Color": "red"
+          },
+          {
+            "Text": "the house guard #5110",
+            "Color": "red"
+          },
+          {
+            "Text": "the house guard #5110",
+            "Color": "red"
+          },
+          {
+            "Text": "the house guard #5110",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5125,
+        "Name": "Before the Oaken Doors #5125",
+        "Connections": {
+          "North": 5165,
+          "West": 5124
+        }
+      },
+      {
+        "Id": 5126,
+        "Name": "Entryway #5126",
+        "Connections": {
+          "North": 5127,
+          "Up": 5119
+        }
+      },
+      {
+        "Id": 5127,
+        "Name": "Crossroads #5127",
+        "Connections": {
+          "North": 5135,
+          "East": 5128,
+          "South": 5126,
+          "West": 5131
+        }
+      },
+      {
+        "Id": 5128,
+        "Name": "Long Hallway #5128",
+        "Connections": {
+          "East": 5129,
+          "West": 5127
+        },
+        "Contents": [
+          {
+            "Text": "a lesser priestess of Lolth #5105",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5129,
+        "Name": "Long Hallway #5129",
+        "Connections": {
+          "North": 5150,
+          "East": 5130,
+          "West": 5128
+        }
+      },
+      {
+        "Id": 5130,
+        "Name": "End of the Hall #5130",
+        "Connections": {
+          "West": 5129
+        }
+      },
+      {
+        "Id": 5131,
+        "Name": "Long Hallway #5131",
+        "Connections": {
+          "East": 5127,
+          "West": 5132
+        }
+      },
+      {
+        "Id": 5132,
+        "Name": "Long Hallway #5132",
+        "Connections": {
+          "East": 5131,
+          "West": 5134,
+          "Down": 5133
+        }
+      },
+      {
+        "Id": 5133,
+        "Name": "Spider Pit #5133",
+        "Connections": {
+          "Up": 5132
+        },
+        "Contents": [
+          {
+            "Text": "a myrlochar spider #5137",
+            "Color": "green"
+          },
+          {
+            "Text": "a myrlochar spider #5137",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5134,
+        "Name": "End of the Hall #5134",
+        "Connections": {
+          "East": 5132
+        },
+        "Contents": [
+          {
+            "Text": "a lesser priestess of Lolth #5105",
+            "Color": "red"
+          },
+          {
+            "Text": "a lesser priestess of Lolth #5105",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5135,
+        "Name": "Grand Staircase #5135",
+        "Connections": {
+          "South": 5127,
+          "Up": 5136
+        }
+      },
+      {
+        "Id": 5136,
+        "Name": "Grand Hallway #5136",
+        "Connections": {
+          "North": 5138,
+          "East": 5137,
+          "Down": 5135
+        }
+      },
+      {
+        "Id": 5137,
+        "Name": "Lesser Priestess Chamber #5137",
+        "Connections": {
+          "West": 5136
+        },
+        "Contents": [
+          {
+            "Text": "a lesser priestess of Lolth #5105",
+            "Color": "red"
+          },
+          {
+            "Text": "a lesser priestess of Lolth #5105",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5138,
+        "Name": "Grand Hallway #5138",
+        "Connections": {
+          "South": 5136,
+          "West": 5139,
+          "Down": 5140
+        },
+        "Contents": [
+          {
+            "Text": "a gruesome drider #5107",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5139,
+        "Name": "Chambers of the Greater Priestesses #5139",
+        "Connections": {
+          "East": 5138
+        },
+        "Contents": [
+          {
+            "Text": "a greater priestess of Lolth #5106",
+            "Color": "red"
+          },
+          {
+            "Text": "a greater priestess of Lolth #5106",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5140,
+        "Name": "Grand Stairway #5140",
+        "Connections": {
+          "North": 5141,
+          "Up": 5138
+        }
+      },
+      {
+        "Id": 5141,
+        "Name": "Main Chamber #5141",
+        "Connections": {
+          "North": 5145,
+          "East": 5142,
+          "South": 5140,
+          "West": 5144
+        },
+        "Contents": [
+          {
+            "Text": "a greater priestess of Lolth #5106",
+            "Color": "red"
+          },
+          {
+            "Text": "a gruesome drider #5107",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5142,
+        "Name": "Easternside of the Chamber #5142",
+        "Connections": {
+          "East": 5146,
+          "West": 5141
+        }
+      },
+      {
+        "Id": 5143,
+        "Name": "Sacrificial Pit #5143",
+        "Connections": {
+          "Up": 5145
+        }
+      },
+      {
+        "Id": 5144,
+        "Name": "Westernside of the Chamber #5144",
+        "Connections": {
+          "East": 5141
+        },
+        "Contents": [
+          {
+            "Text": "a gruesome drider #5107",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5145,
+        "Name": "The Altar #5145",
+        "Connections": {
+          "North": 5148,
+          "South": 5141,
+          "Down": 5143
+        }
+      },
+      {
+        "Id": 5146,
+        "Name": "Slave Cells #5146",
+        "Connections": {
+          "North": 5147,
+          "West": 5142
+        }
+      },
+      {
+        "Id": 5147,
+        "Name": "Slave Pen #5147",
+        "Connections": {
+          "South": 5146
+        }
+      },
+      {
+        "Id": 5148,
+        "Name": "Dias #5148",
+        "Connections": {
+          "East": 17901,
+          "South": 5145,
+          "West": 5149
+        },
+        "Contents": [
+          {
+            "Text": "a drow overseer #5109",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5149,
+        "Name": "The Treasury #5149",
+        "Connections": {
+          "East": 5148
+        }
+      },
+      {
+        "Id": 5150,
+        "Name": "Cleric\u0027s Academy #5150",
+        "Connections": {
+          "South": 5129
+        },
+        "Contents": [
+          {
+            "Text": "the mistress of clerics #5143",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5151,
+        "Name": "Entryway #5151",
+        "Connections": {
+          "North": 5105,
+          "South": 5152,
+          "Up": 5155
+        }
+      },
+      {
+        "Id": 5152,
+        "Name": "Servants Hall #5152",
+        "Connections": {
+          "North": 5151,
+          "East": 5154,
+          "South": 5153
+        },
+        "Contents": [
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5153,
+        "Name": "Servants Quarters #5153",
+        "Connections": {
+          "North": 5152
+        },
+        "Contents": [
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5154,
+        "Name": "Kitchen #5154",
+        "Connections": {
+          "West": 5152
+        },
+        "Contents": [
+          {
+            "Text": "Chessintra Lestel, matron mother of House Lestel #5122",
+            "Color": "red"
+          },
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5155,
+        "Name": "Long Hallway #5155",
+        "Connections": {
+          "South": 5156,
+          "Down": 5151
+        }
+      },
+      {
+        "Id": 5156,
+        "Name": "Long Hallway #5156",
+        "Connections": {
+          "North": 5155,
+          "South": 5157
+        }
+      },
+      {
+        "Id": 5157,
+        "Name": "Long Hallway #5157",
+        "Connections": {
+          "North": 5156,
+          "South": 5158
+        }
+      },
+      {
+        "Id": 5158,
+        "Name": "Long Hallway #5158",
+        "Connections": {
+          "North": 5157,
+          "East": 5159,
+          "South": 5161,
+          "West": 5160
+        }
+      },
+      {
+        "Id": 5159,
+        "Name": "Laele\u0027s Bedroom #5159",
+        "Connections": {
+          "West": 5158
+        },
+        "Contents": [
+          {
+            "Text": "Laele Hune, priestess of House Lestel #5120",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5160,
+        "Name": "Imrae\u0027s Bedroom #5160",
+        "Connections": {
+          "East": 5158
+        },
+        "Contents": [
+          {
+            "Text": "Imrae Coloara, weaponsmaster of House Lestel #5121",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5161,
+        "Name": "End of the Hallway #5161",
+        "Connections": {
+          "North": 5158,
+          "East": 5162,
+          "South": 5164,
+          "West": 5163
+        }
+      },
+      {
+        "Id": 5162,
+        "Name": "Tathlyn\u0027s Room #5162",
+        "Connections": {
+          "West": 5161
+        },
+        "Contents": [
+          {
+            "Text": "Tathlyn Lestel, mage of House Lestel #5118",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5163,
+        "Name": "Guldor\u0027s Room #5163",
+        "Connections": {
+          "East": 5161
+        },
+        "Contents": [
+          {
+            "Text": "Guldor Lestel, assassin of House Lestel #5119",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5164,
+        "Name": "Room of the Matron Mother #5164",
+        "Connections": {
+          "North": 5161
+        }
+      },
+      {
+        "Id": 5165,
+        "Name": "Entryway #5165",
+        "Connections": {
+          "North": 5166,
+          "South": 5125
+        }
+      },
+      {
+        "Id": 5166,
+        "Name": "Servants Hall #5166",
+        "Connections": {
+          "North": 5169,
+          "East": 5167,
+          "South": 5165,
+          "West": 5168
+        },
+        "Contents": [
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5167,
+        "Name": "Kitchen #5167",
+        "Connections": {
+          "West": 5166
+        },
+        "Contents": [
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5168,
+        "Name": "Servants Quarters #5168",
+        "Connections": {
+          "East": 5166
+        },
+        "Contents": [
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5169,
+        "Name": "Servants Hall #5169",
+        "Connections": {
+          "South": 5166,
+          "Up": 5170
+        }
+      },
+      {
+        "Id": 5170,
+        "Name": "Upper Hallway #5170",
+        "Connections": {
+          "North": 5173,
+          "East": 5172,
+          "West": {
+            "RoomId": 5171,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 5169
+        }
+      },
+      {
+        "Id": 5171,
+        "Name": "Akordia\u0027s Room #5171",
+        "Connections": {
+          "East": {
+            "RoomId": 5170,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Akordia Baenre, mage of House Baenre #5114",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5172,
+        "Name": "Wode\u0027s Room #5172",
+        "Connections": {
+          "West": 5170
+        },
+        "Contents": [
+          {
+            "Text": "Wode Baenre, weaponsmaster of House Baenre #5116",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5173,
+        "Name": "Upper Hallway #5173",
+        "Connections": {
+          "North": 5175,
+          "South": 5170,
+          "West": 5174
+        }
+      },
+      {
+        "Id": 5174,
+        "Name": "Nym\u0027s room #5174",
+        "Connections": {
+          "East": 5173
+        },
+        "Contents": [
+          {
+            "Text": "Nym Luen, assassin of House Baenre #5115",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5175,
+        "Name": "Halisstra\u0027s Den #5175",
+        "Connections": {
+          "South": 5173
+        },
+        "Contents": [
+          {
+            "Text": "Halisstra Baenre, matron of House Baenre #5117",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5176,
+        "Name": "Foyer #5176",
+        "Connections": {
+          "East": 5109,
+          "West": 5177
+        }
+      },
+      {
+        "Id": 5177,
+        "Name": "A Marble Hallway #5177",
+        "Connections": {
+          "East": 5176,
+          "South": 5178,
+          "West": 5179
+        },
+        "Contents": [
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5178,
+        "Name": "Kitchen #5178",
+        "Connections": {
+          "North": 5177
+        },
+        "Contents": [
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5179,
+        "Name": "A Marble Hallway #5179",
+        "Connections": {
+          "North": 5181,
+          "East": 5177,
+          "South": 5180,
+          "West": 5182
+        }
+      },
+      {
+        "Id": 5180,
+        "Name": "Servants Quarters #5180",
+        "Connections": {
+          "North": 5179
+        },
+        "Contents": [
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5181,
+        "Name": "Durdyn\u0027s Room #5181",
+        "Connections": {
+          "South": 5179
+        },
+        "Contents": [
+          {
+            "Text": "Durdyn Freth, mage of House Freth #5123",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5182,
+        "Name": "A Marble Hallway #5182",
+        "Connections": {
+          "North": 5183,
+          "East": 5179,
+          "South": 5184,
+          "West": 5185
+        }
+      },
+      {
+        "Id": 5183,
+        "Name": "Drisinil\u0027s Room #5183",
+        "Connections": {
+          "South": 5182
+        },
+        "Contents": [
+          {
+            "Text": "Drisinil Freth, assassin of House Freth #5124",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5184,
+        "Name": "Lyme\u0027s Room #5184",
+        "Connections": {
+          "North": 5182
+        },
+        "Contents": [
+          {
+            "Text": "Lyme Ghaun, weaponsmaster of House Freth #5125",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5185,
+        "Name": "A Marble Hallway #5185",
+        "Connections": {
+          "East": 5182,
+          "South": 5187,
+          "West": 5186
+        }
+      },
+      {
+        "Id": 5186,
+        "Name": "Waerva\u0027s Den #5186",
+        "Connections": {
+          "East": 5185
+        },
+        "Contents": [
+          {
+            "Text": "Waerva Freth, matron mother of House Freth #5127",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5187,
+        "Name": "Xune\u0027s Room #5187",
+        "Connections": {
+          "North": 5185
+        },
+        "Contents": [
+          {
+            "Text": "Xune Freth, priestess of House Freth #5126",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5188,
+        "Name": "Kitchen #5188",
+        "Connections": {
+          "West": 5113
+        },
+        "Contents": [
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5189,
+        "Name": "Servants Quarters #5189",
+        "Connections": {
+          "East": 5113
+        },
+        "Contents": [
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5190,
+        "Name": "Short Hallway #5190",
+        "Connections": {
+          "North": 5191,
+          "East": 5193,
+          "South": 5113,
+          "West": 5194
+        },
+        "Contents": [
+          {
+            "Text": "a drow servant #5138",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5191,
+        "Name": "Bottom of the stairs #5191",
+        "Connections": {
+          "East": 5195,
+          "South": 5190,
+          "West": 5196,
+          "Up": 5192
+        }
+      },
+      {
+        "Id": 5192,
+        "Name": "Upper Chambers #5192",
+        "Connections": {
+          "North": 5197,
+          "South": 5198,
+          "Down": 5191
+        }
+      },
+      {
+        "Id": 5193,
+        "Name": "Talryn\u0027s Room #5193",
+        "Connections": {
+          "West": 5190
+        },
+        "Contents": [
+          {
+            "Text": "Talryn Maerrai, mage of House Maerrai #5128",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5194,
+        "Name": "Deroune\u0027s Room #5194",
+        "Connections": {
+          "East": 5190
+        },
+        "Contents": [
+          {
+            "Text": "Deroune Maerrai, assassin of House Maerrai #5129",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5195,
+        "Name": "Talice\u0027s Room #5195",
+        "Connections": {
+          "West": 5191
+        },
+        "Contents": [
+          {
+            "Text": "Talice Maerrai, priestess of House Maerrai #5130",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5196,
+        "Name": "Gelroos\u0027 Room #5196",
+        "Connections": {
+          "East": 5191
+        },
+        "Contents": [
+          {
+            "Text": "Gelroos Maerrai, weaponsmaster of House Maerrai #5131",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5197,
+        "Name": "Ginafae\u0027s Room #5197",
+        "Connections": {
+          "South": 5192
+        }
+      },
+      {
+        "Id": 5198,
+        "Name": "Short Hallway #5198",
+        "Connections": {
+          "North": 5192,
+          "South": 5199
+        }
+      },
+      {
+        "Id": 5199,
+        "Name": "Den of the First Matron #5199",
+        "Connections": {
+          "North": 5198
+        },
+        "Contents": [
+          {
+            "Text": "Rauva Maerrai, matron mother of House Maerrai #5133",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4110,
+        "FrameColor": "blue",
+        "Name": "To Moria34 #4110",
+        "Color": "blue",
+        "Connections": {
+          "West": 4111,
+          "Down": 5100
+        }
+      },
+      {
+        "Id": 17901,
+        "FrameColor": "blue",
+        "Name": "To DrowGods #17901",
+        "Color": "blue",
+        "Connections": {
+          "South": 17902
+        }
+      }
+    ]
+  }
+}

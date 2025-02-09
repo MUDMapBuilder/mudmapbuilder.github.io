@@ -1,0 +1,1174 @@
+{
+  "Area": {
+    "Name": "ShalNagiTemple",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 6500,
+        "Name": "The isle shoreline #6500",
+        "Connections": {
+          "East": 3066,
+          "West": 6501
+        }
+      },
+      {
+        "Id": 6501,
+        "Name": "The forest path #6501",
+        "Connections": {
+          "North": 6506,
+          "East": 6500,
+          "West": 6502
+        }
+      },
+      {
+        "Id": 6502,
+        "Name": "In the deep forest #6502",
+        "Connections": {
+          "North": 6505,
+          "East": 6501,
+          "West": 6503
+        },
+        "Contents": [
+          {
+            "Text": "An ent #6516",
+            "Color": "green"
+          },
+          {
+            "Text": "An Irda citizen #6515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6503,
+        "Name": "In the deep forest #6503",
+        "Connections": {
+          "North": 6504,
+          "East": 6502
+        },
+        "Contents": [
+          {
+            "Text": "An Irda citizen #6515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6504,
+        "Name": "In the deep forest #6504",
+        "Connections": {
+          "East": 6505,
+          "South": 6503
+        }
+      },
+      {
+        "Id": 6505,
+        "Name": "In the deep forest #6505",
+        "Connections": {
+          "North": 6507,
+          "East": 6506,
+          "South": 6502,
+          "West": 6504
+        },
+        "Contents": [
+          {
+            "Text": "An ent #6516",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6506,
+        "Name": "In the deep forest #6506",
+        "Connections": {
+          "South": 6501,
+          "West": 6505
+        }
+      },
+      {
+        "Id": 6507,
+        "Name": "In the deep forest #6507",
+        "Connections": {
+          "South": 6505,
+          "West": 6508
+        },
+        "Contents": [
+          {
+            "Text": "An ent #6516",
+            "Color": "green"
+          },
+          {
+            "Text": "An Irda citizen #6515",
+            "Color": "green"
+          },
+          {
+            "Text": "An Irda citizen #6515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6508,
+        "Name": "In the deep forest #6508",
+        "Connections": {
+          "East": 6507,
+          "West": 6509
+        }
+      },
+      {
+        "Id": 6509,
+        "Name": "In the deep forest #6509",
+        "Connections": {
+          "East": 6508,
+          "South": 6510
+        },
+        "Contents": [
+          {
+            "Text": "An Irda citizen #6515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6510,
+        "Name": "Before the great temple #6510",
+        "Connections": {
+          "North": 6509,
+          "South": 6511
+        }
+      },
+      {
+        "Id": 6511,
+        "Name": "Entrance to the temple #6511",
+        "Connections": {
+          "North": 6510,
+          "South": 6512
+        }
+      },
+      {
+        "Id": 6512,
+        "Name": "The long hallway #6512",
+        "Connections": {
+          "North": 6511,
+          "South": 6513
+        },
+        "Contents": [
+          {
+            "Text": "An Irda citizen #6515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6513,
+        "Name": "The long hallway #6513",
+        "Connections": {
+          "North": 6512,
+          "South": 6514
+        },
+        "Contents": [
+          {
+            "Text": "An Irda citizen #6515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6514,
+        "Name": "The room of decision #6514",
+        "Connections": {
+          "North": 6513,
+          "East": 6564,
+          "South": 6515,
+          "West": 6539,
+          "Up": 6588
+        },
+        "Contents": [
+          {
+            "Text": "An Irda citizen #6515",
+            "Color": "green"
+          },
+          {
+            "Text": "An Irda citizen #6515",
+            "Color": "green"
+          },
+          {
+            "Text": "An Irda citizen #6515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6515,
+        "Name": "The hall of warriors #6515",
+        "Connections": {
+          "East": 6517,
+          "South": 6519,
+          "West": 6516
+        },
+        "Contents": [
+          {
+            "Text": "Irda warrior #6500",
+            "Color": "green"
+          },
+          {
+            "Text": "An Irda citizen #6515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6516,
+        "Name": "Corner of the hall of warriors #6516",
+        "Connections": {
+          "East": 6515,
+          "South": 6520
+        }
+      },
+      {
+        "Id": 6517,
+        "Name": "Corner of the hall of warriors #6517",
+        "Connections": {
+          "South": 6518,
+          "West": 6515
+        }
+      },
+      {
+        "Id": 6518,
+        "Name": "The hall of warriors #6518",
+        "Connections": {
+          "North": 6517,
+          "South": 6522,
+          "West": 6519
+        },
+        "Contents": [
+          {
+            "Text": "Irda guardian #6501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6519,
+        "Name": "The altar of warriors #6519",
+        "Connections": {
+          "North": 6515,
+          "East": 6518,
+          "South": 6523,
+          "West": 6520,
+          "Down": 6521
+        },
+        "Contents": [
+          {
+            "Text": "Irda warrior #6500",
+            "Color": "green"
+          },
+          {
+            "Text": "Irda guardian #6501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6520,
+        "Name": "The hall of warriors #6520",
+        "Connections": {
+          "North": 6516,
+          "East": 6519,
+          "South": 6524,
+          "West": 6527
+        },
+        "Contents": [
+          {
+            "Text": "Irda guardian #6501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6521,
+        "Name": "The sacrifice pit #6521",
+        "Connections": {}
+      },
+      {
+        "Id": 6522,
+        "Name": "Corner of the hall of warriors #6522",
+        "Connections": {
+          "North": 6518,
+          "West": 6523
+        },
+        "Contents": [
+          {
+            "Text": "Irda warrior #6500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6523,
+        "Name": "The hall of warriors #6523",
+        "Connections": {
+          "North": 6519,
+          "East": 6522,
+          "South": 6525,
+          "West": 6524
+        },
+        "Contents": [
+          {
+            "Text": "Irda warrior #6500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6524,
+        "Name": "Corner of the hall of warriors #6524",
+        "Connections": {
+          "North": 6520,
+          "East": 6523
+        },
+        "Contents": [
+          {
+            "Text": "Irda warrior #6500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6525,
+        "Name": "The meditation room of Bal\u0027Tannar #6525",
+        "Connections": {
+          "North": 6523,
+          "Up": 6526
+        },
+        "Contents": [
+          {
+            "Text": "Bal\u0027Tannar #6503",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6526,
+        "Name": "Bal\u0027Tannars Chambers #6526",
+        "Connections": {
+          "Down": 6525
+        }
+      },
+      {
+        "Id": 6527,
+        "Name": "A dusty hallway #6527",
+        "Connections": {
+          "East": 6520,
+          "West": 6528
+        }
+      },
+      {
+        "Id": 6528,
+        "Name": "A dusty hallway #6528",
+        "Connections": {
+          "East": 6527,
+          "Down": 6529
+        }
+      },
+      {
+        "Id": 6529,
+        "Name": "Ancient hallway #6529",
+        "Connections": {
+          "East": 6531,
+          "South": 6532,
+          "West": 6530,
+          "Up": 6528
+        }
+      },
+      {
+        "Id": 6530,
+        "Name": "An old crypt #6530",
+        "Connections": {
+          "East": 6529
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda warrior #6502",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6531,
+        "Name": "An old crypt #6531",
+        "Connections": {
+          "West": 6529
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda warrior #6502",
+            "Color": "green"
+          },
+          {
+            "Text": "Corpse of an Irda warrior #6502",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6532,
+        "Name": "Ancient hallway #6532",
+        "Connections": {
+          "North": 6529,
+          "East": 6534,
+          "South": 6535,
+          "West": 6533
+        }
+      },
+      {
+        "Id": 6533,
+        "Name": "An old crypt #6533",
+        "Connections": {
+          "East": 6532
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda warrior #6502",
+            "Color": "green"
+          },
+          {
+            "Text": "Corpse of an Irda warrior #6502",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6534,
+        "Name": "An old crypt #6534",
+        "Connections": {
+          "West": 6532
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda warrior #6502",
+            "Color": "green"
+          },
+          {
+            "Text": "Corpse of an Irda warrior #6502",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6535,
+        "Name": "Ancient hallway #6535",
+        "Connections": {
+          "North": 6532,
+          "East": 6537,
+          "South": 6538,
+          "West": 6536
+        }
+      },
+      {
+        "Id": 6536,
+        "Name": "An old crypt #6536",
+        "Connections": {
+          "East": 6535
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda warrior #6502",
+            "Color": "green"
+          },
+          {
+            "Text": "Corpse of an Irda warrior #6502",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6537,
+        "Name": "An old crypt #6537",
+        "Connections": {
+          "West": 6535
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda warrior #6502",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6538,
+        "Name": "The ancient crypt of Morsath #6538",
+        "Connections": {
+          "North": 6535
+        },
+        "Contents": [
+          {
+            "Text": "Morsath #6504",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6539,
+        "Name": "The hall of the priest #6539",
+        "Connections": {
+          "North": 6540,
+          "South": 6541,
+          "West": 6543
+        },
+        "Contents": [
+          {
+            "Text": "Irda priest #6505",
+            "Color": "green"
+          },
+          {
+            "Text": "Irda priest #6505",
+            "Color": "green"
+          },
+          {
+            "Text": "An Irda citizen #6515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6540,
+        "Name": "Corner of the hall of the priest #6540",
+        "Connections": {
+          "South": 6539,
+          "West": 6544
+        }
+      },
+      {
+        "Id": 6541,
+        "Name": "Corner of the hall of the priest #6541",
+        "Connections": {
+          "North": 6539,
+          "West": 6542
+        }
+      },
+      {
+        "Id": 6542,
+        "Name": "The hall of the priest #6542",
+        "Connections": {
+          "North": 6543,
+          "East": 6541,
+          "West": 6548
+        },
+        "Contents": [
+          {
+            "Text": "Irda minister #6506",
+            "Color": "green"
+          },
+          {
+            "Text": "Irda minister #6506",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6543,
+        "Name": "The altar of the priest #6543",
+        "Connections": {
+          "North": 6544,
+          "East": 6539,
+          "South": 6542,
+          "West": 6547,
+          "Down": 6551
+        },
+        "Contents": [
+          {
+            "Text": "Irda priest #6505",
+            "Color": "green"
+          },
+          {
+            "Text": "Irda minister #6506",
+            "Color": "green"
+          },
+          {
+            "Text": "Irda minister #6506",
+            "Color": "green"
+          },
+          {
+            "Text": "Irda priest #6505",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6544,
+        "Name": "The hall of the priest #6544",
+        "Connections": {
+          "North": 6545,
+          "East": 6540,
+          "South": 6543,
+          "West": 6546
+        },
+        "Contents": [
+          {
+            "Text": "Irda minister #6506",
+            "Color": "green"
+          },
+          {
+            "Text": "Irda minister #6506",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6545,
+        "Name": "The spike trap #6545",
+        "Connections": {}
+      },
+      {
+        "Id": 6546,
+        "Name": "Corner of the hall of the priest #6546",
+        "Connections": {
+          "East": 6544,
+          "South": 6547
+        },
+        "Contents": [
+          {
+            "Text": "Irda priest #6505",
+            "Color": "green"
+          },
+          {
+            "Text": "Irda priest #6505",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6547,
+        "Name": "The hall of the priest #6547",
+        "Connections": {
+          "North": 6546,
+          "East": 6543,
+          "South": 6548,
+          "West": 6549
+        }
+      },
+      {
+        "Id": 6548,
+        "Name": "Corner of the hall of the priest #6548",
+        "Connections": {
+          "North": 6547,
+          "East": 6542
+        },
+        "Contents": [
+          {
+            "Text": "Irda priest #6505",
+            "Color": "green"
+          },
+          {
+            "Text": "Irda priest #6505",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6549,
+        "Name": "The meditation chamber #6549",
+        "Connections": {
+          "North": 6550,
+          "East": 6547
+        },
+        "Contents": [
+          {
+            "Text": "Zai\u0027Isha #6508",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6550,
+        "Name": "Chambers of Zai\u0027Isha #6550",
+        "Connections": {
+          "South": 6549
+        }
+      },
+      {
+        "Id": 6551,
+        "Name": "A dusty hallway #6551",
+        "Connections": {
+          "South": 6552,
+          "Up": 6543
+        }
+      },
+      {
+        "Id": 6552,
+        "Name": "A dusty hallway #6552",
+        "Connections": {
+          "North": 6551,
+          "Down": 6553
+        }
+      },
+      {
+        "Id": 6553,
+        "Name": "An ancient hallway #6553",
+        "Connections": {
+          "North": 6554,
+          "South": 6555,
+          "West": 6556,
+          "Up": 6552
+        }
+      },
+      {
+        "Id": 6554,
+        "Name": "An old crypt #6554",
+        "Connections": {
+          "South": 6553
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda priest #6507",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6555,
+        "Name": "An old crypt #6555",
+        "Connections": {
+          "North": 6553
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda priest #6507",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6556,
+        "Name": "An ancient hallway #6556",
+        "Connections": {
+          "North": 6557,
+          "East": 6553,
+          "South": 6558,
+          "West": 6559
+        }
+      },
+      {
+        "Id": 6557,
+        "Name": "An old crypt #6557",
+        "Connections": {
+          "South": 6556
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda priest #6507",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6558,
+        "Name": "An old crypt #6558",
+        "Connections": {
+          "North": 6556
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda priest #6507",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6559,
+        "Name": "An ancient hallway #6559",
+        "Connections": {
+          "North": 6560,
+          "East": 6556,
+          "South": 6561,
+          "West": 6562,
+          "Down": 6563
+        }
+      },
+      {
+        "Id": 6560,
+        "Name": "An old crypt #6560",
+        "Connections": {
+          "South": 6559
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda priest #6507",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6561,
+        "Name": "An old crypt #6561",
+        "Connections": {
+          "North": 6559
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda priest #6507",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6562,
+        "Name": "An old crypt #6562",
+        "Connections": {
+          "East": 6559
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda priest #6507",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6563,
+        "Name": "Riadun\u0027s Crypt #6563",
+        "Connections": {
+          "Up": 6559
+        },
+        "Contents": [
+          {
+            "Text": "Riadun #6509",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6564,
+        "Name": "The hall of the mage #6564",
+        "Connections": {
+          "North": 6566,
+          "East": 6568,
+          "South": 6565
+        },
+        "Contents": [
+          {
+            "Text": "Irda apprenctice #6510",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6565,
+        "Name": "Corner of the hall of the mage #6565",
+        "Connections": {
+          "North": 6564,
+          "East": 6569,
+          "South": 6576
+        }
+      },
+      {
+        "Id": 6566,
+        "Name": "Corner of the hall of the mage #6566",
+        "Connections": {
+          "East": 6567,
+          "South": 6564
+        }
+      },
+      {
+        "Id": 6567,
+        "Name": "The hall of the mage #6567",
+        "Connections": {
+          "East": 6570,
+          "South": 6568,
+          "West": 6566
+        },
+        "Contents": [
+          {
+            "Text": "Irda mage #6511",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6568,
+        "Name": "The altar of the mage #6568",
+        "Connections": {
+          "North": 6567,
+          "East": 6571,
+          "South": 6569,
+          "West": 6564,
+          "Down": 6574
+        },
+        "Contents": [
+          {
+            "Text": "Irda apprenctice #6510",
+            "Color": "green"
+          },
+          {
+            "Text": "Irda mage #6511",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6569,
+        "Name": "The hall of the mage #6569",
+        "Connections": {
+          "North": 6568,
+          "East": 6572,
+          "West": 6565
+        },
+        "Contents": [
+          {
+            "Text": "Irda mage #6511",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6570,
+        "Name": "Corner of the hall of the mage #6570",
+        "Connections": {
+          "South": 6571,
+          "West": 6567
+        },
+        "Contents": [
+          {
+            "Text": "Irda apprenctice #6510",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6571,
+        "Name": "The hall of the mage #6571",
+        "Connections": {
+          "North": 6570,
+          "East": 6573,
+          "South": 6572,
+          "West": 6568
+        }
+      },
+      {
+        "Id": 6572,
+        "Name": "Corner of the hall of the mage #6572",
+        "Connections": {
+          "North": 6571,
+          "West": 6569
+        },
+        "Contents": [
+          {
+            "Text": "Irda apprenctice #6510",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6573,
+        "Name": "The magic trap #6573",
+        "Connections": {}
+      },
+      {
+        "Id": 6574,
+        "Name": "The meditation chamber #6574",
+        "Connections": {
+          "North": 6575,
+          "Up": 6568
+        },
+        "Contents": [
+          {
+            "Text": "Ky\u0027Ilad #6513",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6575,
+        "Name": "The chambers of Ky\u0027Ilad #6575",
+        "Connections": {
+          "South": 6574
+        }
+      },
+      {
+        "Id": 6576,
+        "Name": "A dusty hallway #6576",
+        "Connections": {
+          "North": 6565,
+          "East": 6577
+        }
+      },
+      {
+        "Id": 6577,
+        "Name": "A dusty hallway #6577",
+        "Connections": {
+          "West": 6576,
+          "Down": 6578
+        }
+      },
+      {
+        "Id": 6578,
+        "Name": "An ancient hallway #6578",
+        "Connections": {
+          "East": 6580,
+          "South": 6581,
+          "West": 6579,
+          "Up": 6577
+        }
+      },
+      {
+        "Id": 6579,
+        "Name": "An old crypt #6579",
+        "Connections": {
+          "East": 6578
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda mage #6512",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6580,
+        "Name": "An old crypt #6580",
+        "Connections": {
+          "West": 6578
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda mage #6512",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6581,
+        "Name": "An ancient hallway #6581",
+        "Connections": {
+          "North": 6578,
+          "East": 6584,
+          "South": 6583,
+          "West": 6582
+        }
+      },
+      {
+        "Id": 6582,
+        "Name": "An old crypt #6582",
+        "Connections": {
+          "East": 6581
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda mage #6512",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6583,
+        "Name": "An old crypt #6583",
+        "Connections": {
+          "North": 6581
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda mage #6512",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6584,
+        "Name": "An ancient hallway #6584",
+        "Connections": {
+          "North": 6585,
+          "East": 6587,
+          "West": 6581,
+          "Up": 6586
+        }
+      },
+      {
+        "Id": 6585,
+        "Name": "An old crypt #6585",
+        "Connections": {
+          "South": 6584
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda mage #6512",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6586,
+        "Name": "An old crypt #6586",
+        "Connections": {
+          "Down": 6584
+        },
+        "Contents": [
+          {
+            "Text": "Corpse of an Irda mage #6512",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6587,
+        "Name": "The crypt of Kalison #6587",
+        "Connections": {
+          "West": 6584
+        },
+        "Contents": [
+          {
+            "Text": "Kalison #6514",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6588,
+        "Name": "The final corridor #6588",
+        "Connections": {
+          "North": 6589,
+          "Down": 6514
+        }
+      },
+      {
+        "Id": 6589,
+        "Name": "The final corridor #6589",
+        "Connections": {
+          "North": 6590,
+          "South": 6588
+        }
+      },
+      {
+        "Id": 6590,
+        "Name": "The final corridor #6590",
+        "Connections": {
+          "North": 6591,
+          "South": 6589
+        }
+      },
+      {
+        "Id": 6591,
+        "Name": "Chamber of Shal\u0027Nai #6591",
+        "Connections": {
+          "South": 6590
+        },
+        "Contents": [
+          {
+            "Text": "Shal\u0027Nai #6517",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3066,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3066",
+        "Color": "blue",
+        "Connections": {
+          "East": 3064,
+          "West": 6500
+        }
+      }
+    ]
+  }
+}

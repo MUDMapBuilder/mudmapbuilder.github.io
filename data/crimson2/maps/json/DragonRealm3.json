@@ -1,0 +1,1009 @@
+{
+  "Area": {
+    "Name": "DragonRealm3",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 13900,
+        "Name": "Drawbridge #13900",
+        "Connections": {
+          "North": 13901,
+          "South": 2250
+        }
+      },
+      {
+        "Id": 13901,
+        "Name": "Castle Entrance #13901",
+        "Connections": {
+          "North": 13904,
+          "East": 13902,
+          "South": 13900,
+          "West": 13903
+        },
+        "Contents": [
+          {
+            "Text": "A gate guard #13900",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13902,
+        "Name": "East Guard Tower #13902",
+        "Connections": {
+          "West": 13901,
+          "Up": 13948
+        },
+        "Contents": [
+          {
+            "Text": "A gate guard #13900",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13903,
+        "Name": "West Guard Tower #13903",
+        "Connections": {
+          "East": 13901,
+          "Up": 13947
+        },
+        "Contents": [
+          {
+            "Text": "The Captain of the guard. #13901",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 13904,
+        "Name": "The Castle Court #13904",
+        "Connections": {
+          "North": 13905,
+          "East": 13906,
+          "South": 13901,
+          "West": 13912
+        }
+      },
+      {
+        "Id": 13905,
+        "Name": "Center Court #13905",
+        "Connections": {
+          "North": 13909,
+          "East": 13907,
+          "South": 13904,
+          "West": 13911
+        },
+        "Contents": [
+          {
+            "Text": "A Dragon-kin Noble #13903",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13906,
+        "Name": "The Castle Court #13906",
+        "Connections": {
+          "North": 13907,
+          "West": 13904
+        },
+        "Contents": [
+          {
+            "Text": "A Dragon-kin Noble #13903",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13907,
+        "Name": "The Castle Court #13907",
+        "Connections": {
+          "North": 13908,
+          "East": 13926,
+          "South": 13906,
+          "West": 13905
+        },
+        "Contents": [
+          {
+            "Text": "A Dragon-kin maid #13902",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13908,
+        "Name": "The Castle Court #13908",
+        "Connections": {
+          "South": 13907,
+          "West": 13909
+        }
+      },
+      {
+        "Id": 13909,
+        "Name": "The Castle Court #13909",
+        "Connections": {
+          "North": 13913,
+          "East": 13908,
+          "South": 13905,
+          "West": 13910
+        }
+      },
+      {
+        "Id": 13910,
+        "Name": "The Castle Court #13910",
+        "Connections": {
+          "East": 13909,
+          "South": 13911
+        },
+        "Contents": [
+          {
+            "Text": "A Dragon-kin Noble #13903",
+            "Color": "green"
+          },
+          {
+            "Text": "A Dragon-kin Noble #13903",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13911,
+        "Name": "The Castle Court #13911",
+        "Connections": {
+          "North": 13910,
+          "East": 13905,
+          "South": 13912,
+          "West": 13935
+        }
+      },
+      {
+        "Id": 13912,
+        "Name": "The Castle Court #13912",
+        "Connections": {
+          "North": 13911,
+          "East": 13904
+        }
+      },
+      {
+        "Id": 13913,
+        "Name": "The North Hall #13913",
+        "Connections": {
+          "North": 13914,
+          "East": 13917,
+          "South": 13909,
+          "West": 13919
+        },
+        "Contents": [
+          {
+            "Text": "the King\u0027s Guard #13907",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 13914,
+        "Name": "The North Hall #13914",
+        "Connections": {
+          "North": 13915,
+          "East": 13918,
+          "South": 13913,
+          "West": 13920
+        }
+      },
+      {
+        "Id": 13915,
+        "Name": "The North Hall #13915",
+        "Connections": {
+          "North": 13916,
+          "South": 13914
+        },
+        "Contents": [
+          {
+            "Text": "the King\u0027s Guard #13907",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 13916,
+        "Name": "The Royal Foyer #13916",
+        "Connections": {
+          "North": 13923,
+          "East": 13922,
+          "South": 13915,
+          "West": 13921
+        },
+        "Contents": [
+          {
+            "Text": "a Gold Dragon Guard #13908",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 13917,
+        "Name": "Guard\u0027s Chambers #13917",
+        "Connections": {
+          "North": 13918,
+          "West": 13913
+        }
+      },
+      {
+        "Id": 13918,
+        "Name": "Guard\u0027s Chambers #13918",
+        "Connections": {
+          "South": 13917,
+          "West": 13914
+        },
+        "Contents": [
+          {
+            "Text": "the King\u0027s Guard #13907",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 13919,
+        "Name": "Guard\u0027s Chambers #13919",
+        "Connections": {
+          "North": 13920,
+          "East": 13913
+        }
+      },
+      {
+        "Id": 13920,
+        "Name": "Guard\u0027s Chambers #13920",
+        "Connections": {
+          "East": 13914,
+          "South": 13919
+        },
+        "Contents": [
+          {
+            "Text": "the King\u0027s Guard #13907",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 13921,
+        "Name": "Guard Room #13921",
+        "Connections": {
+          "East": 13916
+        }
+      },
+      {
+        "Id": 13922,
+        "Name": "Guard Room #13922",
+        "Connections": {
+          "West": 13916
+        }
+      },
+      {
+        "Id": 13923,
+        "Name": "Throne Room #13923",
+        "Connections": {
+          "East": 13924,
+          "South": 13916,
+          "West": 13925
+        },
+        "Contents": [
+          {
+            "Text": "King Bahamut #13909",
+            "Color": "green"
+          },
+          {
+            "Text": "a Gold Dragon Guard #13908",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 13924,
+        "Name": "The Royal Library #13924",
+        "Connections": {
+          "West": 13923
+        }
+      },
+      {
+        "Id": 13925,
+        "Name": "King Bahamut\u0027s Private Room #13925",
+        "Connections": {
+          "East": 13923,
+          "West": 13940,
+          "Up": 13952
+        }
+      },
+      {
+        "Id": 13926,
+        "Name": "East Hall #13926",
+        "Connections": {
+          "East": 13927,
+          "South": 13930,
+          "West": 13907
+        }
+      },
+      {
+        "Id": 13927,
+        "Name": "East Hall #13927",
+        "Connections": {
+          "North": 13931,
+          "East": 13928,
+          "South": 13932,
+          "West": 13926
+        }
+      },
+      {
+        "Id": 13928,
+        "Name": "East Hall #13928",
+        "Connections": {
+          "North": 13934,
+          "East": 13929,
+          "South": 13933,
+          "West": 13927
+        }
+      },
+      {
+        "Id": 13929,
+        "Name": "East Hall #13929",
+        "Connections": {
+          "West": 13928
+        }
+      },
+      {
+        "Id": 13930,
+        "Name": "A Closet #13930",
+        "Connections": {
+          "North": 13926
+        }
+      },
+      {
+        "Id": 13931,
+        "Name": "Butler\u0027s Chambers #13931",
+        "Connections": {
+          "South": 13927
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-kin butler #13904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13932,
+        "Name": "Maid\u0027s Chambers #13932",
+        "Connections": {
+          "North": 13927,
+          "East": 13933
+        }
+      },
+      {
+        "Id": 13933,
+        "Name": "Maid\u0027s Chambers #13933",
+        "Connections": {
+          "North": 13928,
+          "West": 13932
+        }
+      },
+      {
+        "Id": 13934,
+        "Name": "Cook\u0027s Chambers #13934",
+        "Connections": {
+          "South": 13928
+        }
+      },
+      {
+        "Id": 13935,
+        "Name": "West Hall #13935",
+        "Connections": {
+          "North": 13941,
+          "East": 13911,
+          "West": 13936
+        }
+      },
+      {
+        "Id": 13936,
+        "Name": "West Hall #13936",
+        "Connections": {
+          "North": 13942,
+          "East": 13935,
+          "South": 13944,
+          "West": 13937
+        }
+      },
+      {
+        "Id": 13937,
+        "Name": "West Hall #13937",
+        "Connections": {
+          "North": 13943,
+          "East": 13936,
+          "West": 13938
+        }
+      },
+      {
+        "Id": 13938,
+        "Name": "West Hall #13938",
+        "Connections": {
+          "East": 13937,
+          "West": 13939
+        }
+      },
+      {
+        "Id": 13939,
+        "Name": "West Hall #13939",
+        "Connections": {
+          "East": 13938
+        }
+      },
+      {
+        "Id": 13940,
+        "Name": "Treasure Room #13940",
+        "Connections": {
+          "East": 13925
+        }
+      },
+      {
+        "Id": 13941,
+        "Name": "Dining Hall #13941",
+        "Connections": {
+          "South": 13935,
+          "West": 13942
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-kin butler #13904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13942,
+        "Name": "Dining Hall #13942",
+        "Connections": {
+          "East": 13941,
+          "South": 13936,
+          "West": 13943
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-kin butler #13904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13943,
+        "Name": "Dining Hall #13943",
+        "Connections": {
+          "East": 13942,
+          "South": 13937
+        }
+      },
+      {
+        "Id": 13944,
+        "Name": "Kitchen #13944",
+        "Connections": {
+          "North": 13936,
+          "East": 13945,
+          "South": 13946
+        },
+        "Contents": [
+          {
+            "Text": "A Dragon-Kin Cook #13906",
+            "Color": "green"
+          },
+          {
+            "Text": "The Head Dragon-Kin Chef #13905",
+            "Color": "red"
+          },
+          {
+            "Text": "A Dragon-Kin Cook #13906",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13945,
+        "Name": "Pantry #13945",
+        "Connections": {
+          "West": 13944
+        },
+        "Contents": [
+          {
+            "Text": "A Dragon-Kin Cook #13906",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13946,
+        "Name": "Store Room #13946",
+        "Connections": {
+          "North": 13944
+        },
+        "Contents": [
+          {
+            "Text": "A Dragon-Kin Cook #13906",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13947,
+        "Name": "Upper Tower #13947",
+        "Connections": {
+          "West": 13949,
+          "Down": 13903
+        }
+      },
+      {
+        "Id": 13948,
+        "Name": "Upper Tower #13948",
+        "Connections": {
+          "East": 13951,
+          "Down": 13902
+        }
+      },
+      {
+        "Id": 13949,
+        "Name": "Castle Walls #13949",
+        "Connections": {
+          "East": 13947,
+          "West": 13950
+        }
+      },
+      {
+        "Id": 13950,
+        "Name": "West Tower #13950",
+        "Connections": {
+          "East": 13949
+        },
+        "Contents": [
+          {
+            "Text": "A gate guard #13900",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13951,
+        "Name": "Castle Walls #13951",
+        "Connections": {
+          "East": 13953,
+          "West": 13948
+        }
+      },
+      {
+        "Id": 13952,
+        "Name": "Upper Hallway #13952",
+        "Connections": {
+          "North": 13964,
+          "East": 13958,
+          "South": 13974,
+          "West": 13954,
+          "Down": 13925
+        }
+      },
+      {
+        "Id": 13953,
+        "Name": "East Tower #13953",
+        "Connections": {
+          "West": 13951
+        },
+        "Contents": [
+          {
+            "Text": "A gate guard #13900",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13954,
+        "Name": "Upper Hallway #13954",
+        "Connections": {
+          "North": 13963,
+          "East": 13952,
+          "West": 13955
+        }
+      },
+      {
+        "Id": 13955,
+        "Name": "Upper Hallway #13955",
+        "Connections": {
+          "North": 13962,
+          "East": 13954,
+          "South": 13961,
+          "West": 13956
+        }
+      },
+      {
+        "Id": 13956,
+        "Name": "Upper Hallway #13956",
+        "Connections": {
+          "East": 13955,
+          "West": 13957
+        }
+      },
+      {
+        "Id": 13957,
+        "Name": "Upper Hallway #13957",
+        "Connections": {
+          "East": 13956
+        }
+      },
+      {
+        "Id": 13958,
+        "Name": "Upper Hallway #13958",
+        "Connections": {
+          "North": 13965,
+          "East": 13959,
+          "South": 13972,
+          "West": 13952
+        }
+      },
+      {
+        "Id": 13959,
+        "Name": "Upper Hallway #13959",
+        "Connections": {
+          "North": 13966,
+          "East": 13960,
+          "South": 13973,
+          "West": 13958
+        }
+      },
+      {
+        "Id": 13960,
+        "Name": "Upper Hallway #13960",
+        "Connections": {
+          "West": 13959
+        }
+      },
+      {
+        "Id": 13961,
+        "Name": "Banquet Kitchen #13961",
+        "Connections": {
+          "North": 13955
+        }
+      },
+      {
+        "Id": 13962,
+        "Name": "Banquet Hall #13962",
+        "Connections": {
+          "North": 13971,
+          "East": 13963,
+          "South": 13955
+        },
+        "Contents": [
+          {
+            "Text": "The Head Dragon-Kin Chef #13905",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 13963,
+        "Name": "Banquet Hall #13963",
+        "Connections": {
+          "North": 13970,
+          "East": 13964,
+          "South": 13954,
+          "West": 13962
+        }
+      },
+      {
+        "Id": 13964,
+        "Name": "Banquet Hall #13964",
+        "Connections": {
+          "North": 13969,
+          "East": 13965,
+          "South": 13952,
+          "West": 13963
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-kin butler #13904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13965,
+        "Name": "Banquet Hall #13965",
+        "Connections": {
+          "North": 13968,
+          "East": 13966,
+          "South": 13958,
+          "West": 13964
+        }
+      },
+      {
+        "Id": 13966,
+        "Name": "Banquet Hall #13966",
+        "Connections": {
+          "South": 13959,
+          "West": 13965
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-kin butler #13904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13967,
+        "Name": "Balcony #13967",
+        "Connections": {
+          "South": 13966,
+          "West": 13968
+        }
+      },
+      {
+        "Id": 13968,
+        "Name": "Balcony #13968",
+        "Connections": {
+          "East": 13967,
+          "South": 13965,
+          "West": 13969
+        }
+      },
+      {
+        "Id": 13969,
+        "Name": "Balcony #13969",
+        "Connections": {
+          "East": 13968,
+          "South": 13964,
+          "West": 13970
+        }
+      },
+      {
+        "Id": 13970,
+        "Name": "Balcony #13970",
+        "Connections": {
+          "East": 13969,
+          "South": 13963,
+          "West": 13971
+        }
+      },
+      {
+        "Id": 13971,
+        "Name": "Balcony #13971",
+        "Connections": {
+          "East": 13970,
+          "South": 13962
+        }
+      },
+      {
+        "Id": 13972,
+        "Name": "Servents Quarters #13972",
+        "Connections": {
+          "North": 13958,
+          "East": 13973
+        }
+      },
+      {
+        "Id": 13973,
+        "Name": "Servents Quarters #13973",
+        "Connections": {
+          "North": 13959,
+          "West": 13972
+        }
+      },
+      {
+        "Id": 13974,
+        "Name": "Lighted Hallway #13974",
+        "Connections": {
+          "North": 13952,
+          "South": 13975
+        }
+      },
+      {
+        "Id": 13975,
+        "Name": "Lighted Hallway #13975",
+        "Connections": {
+          "North": 13974,
+          "South": 13976
+        }
+      },
+      {
+        "Id": 13976,
+        "Name": "Lighted Hallway #13976",
+        "Connections": {
+          "North": 13975,
+          "South": 13977
+        }
+      },
+      {
+        "Id": 13977,
+        "Name": "Lighted Hallway #13977",
+        "Connections": {
+          "North": 13976,
+          "East": 13982,
+          "South": 13978,
+          "West": 13981
+        }
+      },
+      {
+        "Id": 13978,
+        "Name": "Lighted Hallway #13978",
+        "Connections": {
+          "North": 13977,
+          "South": 13979
+        }
+      },
+      {
+        "Id": 13979,
+        "Name": "Lighted Hallway #13979",
+        "Connections": {
+          "North": 13978,
+          "South": 13980
+        }
+      },
+      {
+        "Id": 13980,
+        "Name": "Lighted Hallway #13980",
+        "Connections": {
+          "North": 13979,
+          "South": 13984
+        }
+      },
+      {
+        "Id": 13981,
+        "Name": "Guard Room #13981",
+        "Connections": {
+          "East": 13977
+        }
+      },
+      {
+        "Id": 13982,
+        "Name": "King\u0027s Chambers #13982",
+        "Connections": {
+          "East": 13983,
+          "West": 13977
+        },
+        "Contents": [
+          {
+            "Text": "The Queen Dragon #13910",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13983,
+        "Name": "Royal Balcony #13983",
+        "Connections": {
+          "West": 13982
+        }
+      },
+      {
+        "Id": 13984,
+        "Name": "Royal Mages Chambers #13984",
+        "Connections": {
+          "North": 13980,
+          "East": 13989,
+          "South": 13985,
+          "West": 13986
+        }
+      },
+      {
+        "Id": 13985,
+        "Name": "Royal Mages Study #13985",
+        "Connections": {
+          "North": 13984
+        },
+        "Contents": [
+          {
+            "Text": "the royal mage #13911",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13986,
+        "Name": "Dark Hallway #13986",
+        "Connections": {
+          "East": 13984,
+          "South": 13992,
+          "West": 13987
+        }
+      },
+      {
+        "Id": 13987,
+        "Name": "Dark Hallway #13987",
+        "Connections": {
+          "North": 13993,
+          "East": 13986,
+          "West": 13988
+        }
+      },
+      {
+        "Id": 13988,
+        "Name": "Dark Hallway #13988",
+        "Connections": {
+          "East": 13987
+        }
+      },
+      {
+        "Id": 13989,
+        "Name": "Dark Hallway #13989",
+        "Connections": {
+          "East": 13990,
+          "West": 13984
+        }
+      },
+      {
+        "Id": 13990,
+        "Name": "Dark Hallway #13990",
+        "Connections": {
+          "East": 13991,
+          "South": 13994,
+          "West": 13989
+        }
+      },
+      {
+        "Id": 13991,
+        "Name": "Dark Hallway #13991",
+        "Connections": {
+          "North": 13995,
+          "West": 13990
+        }
+      },
+      {
+        "Id": 13992,
+        "Name": "Mage\u0027s Apprentice\u0027s Room #13992",
+        "Connections": {
+          "North": 13986
+        }
+      },
+      {
+        "Id": 13993,
+        "Name": "Apprentice\u0027s Study #13993",
+        "Connections": {
+          "South": 13987
+        }
+      },
+      {
+        "Id": 13994,
+        "Name": "Mage\u0027s Private Study #13994",
+        "Connections": {
+          "North": 13990
+        },
+        "Contents": [
+          {
+            "Text": "Tiamat, the Chromatic Dragon #13914",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13995,
+        "Name": "Mage\u0027s Observatory #13995",
+        "Connections": {
+          "South": 13991
+        },
+        "Contents": [
+          {
+            "Text": "The Mage\u0027s Apprentice #13912",
+            "Color": "green"
+          },
+          {
+            "Text": "The Shadow Dragon #13913",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2250,
+        "FrameColor": "blue",
+        "Name": "To Draconia #2250",
+        "Color": "blue",
+        "Connections": {
+          "North": 13900,
+          "East": 2251,
+          "South": 2247
+        }
+      }
+    ]
+  }
+}

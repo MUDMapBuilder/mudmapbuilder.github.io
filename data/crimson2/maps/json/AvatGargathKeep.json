@@ -1,0 +1,933 @@
+{
+  "Area": {
+    "Name": "AvatGargathKeep",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 15900,
+        "Name": "A secret place. #15900",
+        "Connections": {}
+      },
+      {
+        "Id": 15901,
+        "Name": "Portal to the Plane of Tarterus #15901",
+        "Connections": {
+          "East": 15902
+        }
+      },
+      {
+        "Id": 15902,
+        "Name": "The Plane of Tarterus #15902",
+        "Connections": {
+          "East": 15903,
+          "West": 15901
+        }
+      },
+      {
+        "Id": 15903,
+        "Name": "Road Leading Through the Mountains #15903",
+        "Connections": {
+          "East": 15904,
+          "West": 15902
+        }
+      },
+      {
+        "Id": 15904,
+        "Name": "The Road Before the Keep #15904",
+        "Connections": {
+          "East": 15905,
+          "West": 15903
+        }
+      },
+      {
+        "Id": 15905,
+        "Name": "Entrance to Gargath Keep #15905",
+        "Connections": {
+          "East": 15906,
+          "West": 15904
+        }
+      },
+      {
+        "Id": 15906,
+        "Name": "Beneath the Murder Holes #15906",
+        "Connections": {
+          "North": 15907,
+          "East": 15908,
+          "West": 15905
+        },
+        "Contents": [
+          {
+            "Text": "the Guardian Daemon #15900",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15907,
+        "Name": "The Gatehouse #15907",
+        "Connections": {
+          "South": 15906
+        },
+        "Contents": [
+          {
+            "Text": "the gatehouse guard #15901",
+            "Color": "red"
+          },
+          {
+            "Text": "the gatehouse guard #15901",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15908,
+        "Name": "A Black Marble Hallway #15908",
+        "Connections": {
+          "East": 15909,
+          "West": 15906
+        },
+        "Contents": [
+          {
+            "Text": "the displacer beast #15902",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15909,
+        "Name": "A Black Marble Hallway #15909",
+        "Connections": {
+          "East": 15915,
+          "South": 15910,
+          "West": 15908
+        }
+      },
+      {
+        "Id": 15910,
+        "Name": "A Dimly Lit Corridor #15910",
+        "Connections": {
+          "North": 15909,
+          "South": 15911
+        }
+      },
+      {
+        "Id": 15911,
+        "Name": "A Lit Corridor #15911",
+        "Connections": {
+          "North": 15910,
+          "East": 15914,
+          "South": 15913,
+          "West": 15912
+        }
+      },
+      {
+        "Id": 15912,
+        "Name": "The Servant\u0027s Quarters #15912",
+        "Connections": {
+          "East": 15911
+        },
+        "Contents": [
+          {
+            "Text": "the servant #15903",
+            "Color": "green"
+          },
+          {
+            "Text": "the servant #15903",
+            "Color": "green"
+          },
+          {
+            "Text": "the servant #15903",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15913,
+        "Name": "The Jester\u0027s Room #15913",
+        "Connections": {
+          "North": 15911
+        },
+        "Contents": [
+          {
+            "Text": "Chaelin the jester #15904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15914,
+        "Name": "The Kitchen #15914",
+        "Connections": {
+          "West": 15911
+        },
+        "Contents": [
+          {
+            "Text": "the master chef #15905",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15915,
+        "Name": "A Black Marble Hallway #15915",
+        "Connections": {
+          "North": 15916,
+          "East": 15917,
+          "West": 15909
+        },
+        "Contents": [
+          {
+            "Text": "the displacer beast #15902",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15916,
+        "Name": "The Sweltering Smithy #15916",
+        "Connections": {
+          "South": 15915
+        },
+        "Contents": [
+          {
+            "Text": "the master blacksmith #15906",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15917,
+        "Name": "A Black Marble Hallway #15917",
+        "Connections": {
+          "East": 15918,
+          "West": 15915
+        },
+        "Contents": [
+          {
+            "Text": "the displacer beast #15902",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15918,
+        "Name": "A Black Marble Hallway #15918",
+        "Connections": {
+          "North": 15920,
+          "South": 15919,
+          "West": 15917
+        }
+      },
+      {
+        "Id": 15919,
+        "Name": "Entrance to the Cellar #15919",
+        "Connections": {
+          "North": 15918,
+          "Down": 15925
+        }
+      },
+      {
+        "Id": 15920,
+        "Name": "A Black Marble Hallway #15920",
+        "Connections": {
+          "North": 15922,
+          "East": 15921,
+          "South": 15918
+        },
+        "Contents": [
+          {
+            "Text": "the displacer beast #15902",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15921,
+        "Name": "The Bath House #15921",
+        "Connections": {
+          "West": 15920
+        }
+      },
+      {
+        "Id": 15922,
+        "Name": "The Golden Rain #15922",
+        "Connections": {
+          "North": 15923,
+          "South": 15920
+        }
+      },
+      {
+        "Id": 15923,
+        "Name": "A Staircase #15923",
+        "Connections": {
+          "East": 15924,
+          "South": 15922,
+          "Up": 15929
+        }
+      },
+      {
+        "Id": 15924,
+        "Name": "The Storeroom #15924",
+        "Connections": {
+          "West": 15923
+        },
+        "Contents": [
+          {
+            "Text": "the wraithform #15907",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15925,
+        "Name": "The Brewery #15925",
+        "Connections": {
+          "West": 15926,
+          "Up": 15919
+        },
+        "Contents": [
+          {
+            "Text": "the brewer #15908",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15926,
+        "Name": "The Web Ridden Corridor #15926",
+        "Connections": {
+          "East": 15925,
+          "West": 15927
+        }
+      },
+      {
+        "Id": 15927,
+        "Name": "At the End of the Hallway #15927",
+        "Connections": {
+          "North": 15928,
+          "East": 15926
+        },
+        "Contents": [
+          {
+            "Text": "the phase spider #15909",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15928,
+        "Name": "Lair of the Darkenbeast #15928",
+        "Connections": {
+          "South": 15927
+        },
+        "Contents": [
+          {
+            "Text": "The darkenbeast #15910",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15929,
+        "Name": "The Top of the Staircase #15929",
+        "Connections": {
+          "East": 15930,
+          "South": 15935,
+          "West": 15945
+        }
+      },
+      {
+        "Id": 15930,
+        "Name": "A Wide Hallway #15930",
+        "Connections": {
+          "East": 15931,
+          "West": 15929
+        },
+        "Contents": [
+          {
+            "Text": "the shadow #15911",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15931,
+        "Name": "Before the Arena #15931",
+        "Connections": {
+          "East": 15932,
+          "West": 15930
+        }
+      },
+      {
+        "Id": 15932,
+        "Name": "The Battle Arena #15932",
+        "Connections": {
+          "North": 15933,
+          "South": 15934,
+          "West": 15931
+        },
+        "Contents": [
+          {
+            "Text": "the dark knight of Tarterus #15912",
+            "Color": "green"
+          },
+          {
+            "Text": "the dark knight of Tarterus #15912",
+            "Color": "green"
+          },
+          {
+            "Text": "the dark knight of Tarterus #15912",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15933,
+        "Name": "The Armory #15933",
+        "Connections": {
+          "South": 15932
+        },
+        "Contents": [
+          {
+            "Text": "the dancing sword #15913",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15934,
+        "Name": "The Weaponmaster\u0027s Chamber #15934",
+        "Connections": {
+          "North": 15932
+        },
+        "Contents": [
+          {
+            "Text": "Tyneri, weaponmaster of Gargath #15914",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15935,
+        "Name": "The Guarded Hall #15935",
+        "Connections": {
+          "North": 15929,
+          "South": 15936
+        },
+        "Contents": [
+          {
+            "Text": "the shadow #15911",
+            "Color": "red"
+          },
+          {
+            "Text": "the marble golem #15915",
+            "Color": "red"
+          },
+          {
+            "Text": "the marble golem #15915",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15936,
+        "Name": "The Hall of Pets #15936",
+        "Connections": {
+          "North": 15935,
+          "South": 15937,
+          "West": 15941
+        }
+      },
+      {
+        "Id": 15937,
+        "Name": "The Hall of Pets #15937",
+        "Connections": {
+          "North": 15936,
+          "East": 15942,
+          "South": 15938
+        }
+      },
+      {
+        "Id": 15938,
+        "Name": "The Hall of Pets #15938",
+        "Connections": {
+          "North": 15937,
+          "South": 15939,
+          "West": 15943
+        },
+        "Contents": [
+          {
+            "Text": "the shadow #15911",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15939,
+        "Name": "The Hall of Pets #15939",
+        "Connections": {
+          "North": 15938,
+          "East": 15944,
+          "South": 15940
+        }
+      },
+      {
+        "Id": 15940,
+        "Name": "The Keeper\u0027s Room #15940",
+        "Connections": {
+          "North": 15939
+        },
+        "Contents": [
+          {
+            "Text": "the keeper #15916",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15941,
+        "Name": "The Lair of the Pit Fiend #15941",
+        "Connections": {
+          "East": 15936
+        },
+        "Contents": [
+          {
+            "Text": "the pit fiend #15929",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15942,
+        "Name": "The Lair of the Jiblat #15942",
+        "Connections": {
+          "West": 15937
+        },
+        "Contents": [
+          {
+            "Text": "the jiblat #15919",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15943,
+        "Name": "The Lair of the Astral Discourser #15943",
+        "Connections": {
+          "East": 15938
+        },
+        "Contents": [
+          {
+            "Text": "the astral discourser #15918",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15944,
+        "Name": "The Lair of the Crimson Doom #15944",
+        "Connections": {
+          "West": 15939
+        },
+        "Contents": [
+          {
+            "Text": "the crimson doom #15920",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15945,
+        "Name": "The Art Collection #15945",
+        "Connections": {
+          "East": 15929,
+          "West": 15946
+        }
+      },
+      {
+        "Id": 15946,
+        "Name": "A Junction in the Wide Hallway #15946",
+        "Connections": {
+          "East": 15945,
+          "South": 15947,
+          "West": 15948
+        },
+        "Contents": [
+          {
+            "Text": "the shadow #15911",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15947,
+        "Name": "The Torture Chamber #15947",
+        "Connections": {
+          "North": 15946,
+          "Down": 15885
+        },
+        "Contents": [
+          {
+            "Text": "Ocara, master of torture #15921",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15948,
+        "Name": "A Bend in the Hallway #15948",
+        "Connections": {
+          "East": 15946,
+          "South": 15949
+        }
+      },
+      {
+        "Id": 15949,
+        "Name": "A Staircase #15949",
+        "Connections": {
+          "North": 15948,
+          "Up": 15950
+        }
+      },
+      {
+        "Id": 15950,
+        "Name": "At the Top of the Stairs #15950",
+        "Connections": {
+          "South": 15951,
+          "Down": 15949
+        }
+      },
+      {
+        "Id": 15951,
+        "Name": "A Dark Hallway #15951",
+        "Connections": {
+          "North": 15950,
+          "East": 15955,
+          "South": 15952
+        },
+        "Contents": [
+          {
+            "Text": "the invisible stalker #15922",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15952,
+        "Name": "A Dark Hallway #15952",
+        "Connections": {
+          "North": 15951,
+          "West": 15953
+        },
+        "Contents": [
+          {
+            "Text": "the invisible stalker #15922",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15953,
+        "Name": "A Dark Hallway #15953",
+        "Connections": {
+          "East": 15952,
+          "South": 15954,
+          "West": 15960
+        },
+        "Contents": [
+          {
+            "Text": "the invisible stalker #15922",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15954,
+        "Name": "A Dark Hallway #15954",
+        "Connections": {
+          "North": 15953,
+          "South": 15963
+        },
+        "Contents": [
+          {
+            "Text": "the invisible stalker #15922",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15955,
+        "Name": "Entryway to a Temple #15955",
+        "Connections": {
+          "East": 15956,
+          "West": 15951
+        }
+      },
+      {
+        "Id": 15956,
+        "Name": "The Inner Temple #15956",
+        "Connections": {
+          "North": 15958,
+          "East": 15959,
+          "South": 15957,
+          "West": 15955
+        }
+      },
+      {
+        "Id": 15957,
+        "Name": "Chamber of the Acolyte #15957",
+        "Connections": {
+          "North": 15956
+        },
+        "Contents": [
+          {
+            "Text": "the acolyte #15923",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15958,
+        "Name": "Chamber of the High Priest #15958",
+        "Connections": {
+          "South": 15956
+        },
+        "Contents": [
+          {
+            "Text": "the High Priest #15924",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15959,
+        "Name": "The Altar #15959",
+        "Connections": {
+          "West": 15956
+        }
+      },
+      {
+        "Id": 15960,
+        "Name": "The Portal #15960",
+        "Connections": {
+          "East": 15953,
+          "West": 15961
+        }
+      },
+      {
+        "Id": 15961,
+        "Name": "The Waiting Room #15961",
+        "Connections": {
+          "East": 15962
+        }
+      },
+      {
+        "Id": 15962,
+        "Name": "The Audience Chamber of Merkuul, Lord of Bones #15962",
+        "Connections": {
+          "East": 15964,
+          "West": 15961
+        },
+        "Contents": [
+          {
+            "Text": "Merkuul, mighty Lord of Bones #15925",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15963,
+        "Name": "The Golden Staircase #15963",
+        "Connections": {
+          "North": 15954,
+          "Up": 15964
+        }
+      },
+      {
+        "Id": 15964,
+        "Name": "The Golden Hallway #15964",
+        "Connections": {
+          "South": 15965,
+          "Down": 15963
+        }
+      },
+      {
+        "Id": 15965,
+        "Name": "The Golden Hallway #15965",
+        "Connections": {
+          "North": 15964,
+          "East": 15973,
+          "South": 15966
+        },
+        "Contents": [
+          {
+            "Text": "A Demon of the Pit #15926",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15966,
+        "Name": "The Golden Hallway #15966",
+        "Connections": {
+          "North": 15965,
+          "East": 15967,
+          "South": 15974
+        }
+      },
+      {
+        "Id": 15967,
+        "Name": "The Golden Hallway #15967",
+        "Connections": {
+          "South": 15968,
+          "West": 15966
+        },
+        "Contents": [
+          {
+            "Text": "A Demon of the Pit #15926",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15968,
+        "Name": "The Golden Hallway #15968",
+        "Connections": {
+          "North": 15967,
+          "South": 15969,
+          "West": 15975
+        }
+      },
+      {
+        "Id": 15969,
+        "Name": "The Golden Hallway #15969",
+        "Connections": {
+          "North": 15968,
+          "West": 15970
+        },
+        "Contents": [
+          {
+            "Text": "A Demon of the Pit #15926",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15970,
+        "Name": "The Golden Hallway #15970",
+        "Connections": {
+          "East": 15969,
+          "South": 15971,
+          "West": 15976
+        }
+      },
+      {
+        "Id": 15971,
+        "Name": "The Golden Hallway #15971",
+        "Connections": {
+          "North": 15970,
+          "South": 15972
+        },
+        "Contents": [
+          {
+            "Text": "A Demon of the Pit #15926",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15972,
+        "Name": "Before the Court #15972",
+        "Connections": {
+          "North": 15971,
+          "South": 15977
+        }
+      },
+      {
+        "Id": 15973,
+        "Name": "Chamber of Querkaf, Avatar of Hate #15973",
+        "Connections": {
+          "West": 15965
+        },
+        "Contents": [
+          {
+            "Text": "Querkaf, Avatar of Hate #15927",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15974,
+        "Name": "Chamber of Elderiz, Avatar of Sin #15974",
+        "Connections": {
+          "North": 15966
+        },
+        "Contents": [
+          {
+            "Text": "Elderiz, Avatar of Sin #15928",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15975,
+        "Name": "Chamber of Mizral, Avatar of Jealousy #15975",
+        "Connections": {
+          "East": 15968
+        },
+        "Contents": [
+          {
+            "Text": "Mizral, Avatar of Jealousy #15917",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15976,
+        "Name": "Chamber of Arpedion, Avatar of Doom #15976",
+        "Connections": {
+          "East": 15970
+        },
+        "Contents": [
+          {
+            "Text": "Arpedion, Avatar of Doom #15930",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15977,
+        "Name": "The Court of Gargath, Arch-Duke of Tarterus #15977",
+        "Connections": {
+          "North": 15972,
+          "South": 15978
+        }
+      },
+      {
+        "Id": 15978,
+        "Name": "Sleeping Chamber of Gargath, Arch-Duke of Tarterus #15978",
+        "Connections": {
+          "North": 15977,
+          "South": 15961,
+          "Up": 15900
+        },
+        "Contents": [
+          {
+            "Text": "Gargath, Arch-duke of Tarterus #15931",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15885,
+        "FrameColor": "blue",
+        "Name": "To AvatGargathDungeon #15885",
+        "Color": "blue",
+        "Connections": {
+          "Up": 15947,
+          "Down": 15886
+        }
+      }
+    ]
+  }
+}

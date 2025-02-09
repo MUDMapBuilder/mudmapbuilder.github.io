@@ -1,0 +1,1281 @@
+{
+  "Area": {
+    "Name": "ElfinCitadel",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 14600,
+        "Name": "Near the Elfin Citadel #14600",
+        "Connections": {
+          "North": 14601,
+          "East": 14671,
+          "Down": 3712
+        }
+      },
+      {
+        "Id": 14601,
+        "Name": "On the Drawbridge #14601",
+        "Connections": {
+          "North": 14602,
+          "South": 14600
+        }
+      },
+      {
+        "Id": 14602,
+        "Name": "The Great Entryway to the Elfin Citadel. #14602",
+        "Connections": {
+          "North": 14603,
+          "East": 14606,
+          "South": 14601,
+          "West": 14608
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Guard #14609",
+            "Color": "green"
+          },
+          {
+            "Text": "The Elfin Knight #14611",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14603,
+        "Name": "The Dining Hall. #14603",
+        "Connections": {
+          "North": 14604,
+          "South": 14602,
+          "West": 14626
+        },
+        "Contents": [
+          {
+            "Text": "The Shadow Thief #14605",
+            "Color": "red"
+          },
+          {
+            "Text": "Boris #14617",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14604,
+        "Name": "The Kitchen. #14604",
+        "Connections": {
+          "South": 14603,
+          "Down": 14605
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin maid #14604",
+            "Color": "green"
+          },
+          {
+            "Text": "The Chef #14618",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14605,
+        "Name": "The wine room. #14605",
+        "Connections": {
+          "West": 14617,
+          "Up": 14604
+        }
+      },
+      {
+        "Id": 14606,
+        "Name": "The lounge. #14606",
+        "Connections": {
+          "North": 14662,
+          "East": 14607,
+          "West": 14602
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Knight #14611",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14607,
+        "Name": "The tower base #14607",
+        "Connections": {
+          "North": 14681,
+          "West": 14606,
+          "Up": 14616
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Knight #14611",
+            "Color": "green"
+          },
+          {
+            "Text": "The Elfin Guard #14609",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14608,
+        "Name": "The observation room. #14608",
+        "Connections": {
+          "North": 14648,
+          "East": 14602,
+          "West": 14609
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Knight #14611",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14609,
+        "Name": "The tower base #14609",
+        "Connections": {
+          "North": 14683,
+          "East": 14608,
+          "Up": 14610
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Guard #14609",
+            "Color": "green"
+          },
+          {
+            "Text": "The Elfin Knight #14611",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14610,
+        "Name": "The tower, 2nd floor #14610",
+        "Connections": {
+          "West": 14615,
+          "Up": 14611,
+          "Down": 14609
+        }
+      },
+      {
+        "Id": 14611,
+        "Name": "The top of the tower #14611",
+        "Connections": {
+          "Down": 14613
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Guard #14609",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14612,
+        "Name": "The top of the tower #14612",
+        "Connections": {
+          "Down": 14616
+        }
+      },
+      {
+        "Id": 14613,
+        "Name": "The tower, 2nd floor #14613",
+        "Connections": {
+          "West": 14614,
+          "Up": 14611,
+          "Down": 14609
+        }
+      },
+      {
+        "Id": 14614,
+        "Name": "The moat #14614",
+        "Connections": {
+          "East": 14609,
+          "Down": 14664
+        }
+      },
+      {
+        "Id": 14615,
+        "Name": "The moat #14615",
+        "Connections": {}
+      },
+      {
+        "Id": 14616,
+        "Name": "The tower, 2nd floor #14616",
+        "Connections": {
+          "Up": 14612,
+          "Down": 14607
+        }
+      },
+      {
+        "Id": 14617,
+        "Name": "A small dark passage #14617",
+        "Connections": {
+          "East": 14605,
+          "South": 14618
+        }
+      },
+      {
+        "Id": 14618,
+        "Name": "A small dark passage #14618",
+        "Connections": {
+          "North": 14617,
+          "South": 14619
+        }
+      },
+      {
+        "Id": 14619,
+        "Name": "The Dungeon of the Citadel #14619",
+        "Connections": {
+          "North": 14618,
+          "East": 14650,
+          "South": {
+            "RoomId": 14647,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 14620
+        },
+        "Contents": [
+          {
+            "Text": "The Shadow Thief #14605",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14620,
+        "Name": "In the Dungeon of the Citadel #14620",
+        "Connections": {
+          "East": 14619,
+          "West": 14621
+        }
+      },
+      {
+        "Id": 14621,
+        "Name": "Deep in the dark Dungeon of the Citadel #14621",
+        "Connections": {
+          "North": 14697,
+          "East": 14620,
+          "South": 14696,
+          "West": 14622
+        }
+      },
+      {
+        "Id": 14622,
+        "Name": "VERY deep in the Dungeon of the Citadel #14622",
+        "Connections": {
+          "North": 14624,
+          "East": 14621,
+          "South": 14623
+        }
+      },
+      {
+        "Id": 14623,
+        "Name": "A prison cell in the dungeon of the Citadel #14623",
+        "Connections": {
+          "North": 14622
+        },
+        "Contents": [
+          {
+            "Text": "the midnight lag monster #14630",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14624,
+        "Name": "Inside the crushed cell #14624",
+        "Connections": {
+          "North": 14625,
+          "South": 14622
+        }
+      },
+      {
+        "Id": 14625,
+        "Name": "The new lair of the escaped creature #14625",
+        "Connections": {
+          "South": 14624
+        },
+        "Contents": [
+          {
+            "Text": "An ugly fanged monster #14606",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14626,
+        "Name": "Base of Stairwell #14626",
+        "Connections": {
+          "East": 14603,
+          "Up": 14627
+        }
+      },
+      {
+        "Id": 14627,
+        "Name": "Second floor lounge #14627",
+        "Connections": {
+          "North": 14637,
+          "East": 14628,
+          "West": 14638,
+          "Down": 14626
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin maid #14604",
+            "Color": "green"
+          },
+          {
+            "Text": "The Elfin Knight #14611",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14628,
+        "Name": "The East Hallway #14628",
+        "Connections": {
+          "North": 14654,
+          "East": 14629,
+          "South": 14653,
+          "West": 14627
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin maid #14604",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14629,
+        "Name": "East end of the hallway #14629",
+        "Connections": {
+          "East": 14630,
+          "West": 14628
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Guard #14609",
+            "Color": "green"
+          },
+          {
+            "Text": "The Elfin Knight #14611",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14630,
+        "Name": "The bottom of the slide #14630",
+        "Connections": {
+          "East": 14631
+        }
+      },
+      {
+        "Id": 14631,
+        "Name": "The mirror maze #14631",
+        "Connections": {
+          "North": 14679,
+          "East": 14631,
+          "South": 14631,
+          "West": 14632
+        }
+      },
+      {
+        "Id": 14632,
+        "Name": "The mirror maze #14632",
+        "Connections": {
+          "North": 14633,
+          "East": 14631,
+          "South": 14631,
+          "West": 14631
+        }
+      },
+      {
+        "Id": 14633,
+        "Name": "The mirror maze #14633",
+        "Connections": {
+          "North": 14634,
+          "South": 14631
+        }
+      },
+      {
+        "Id": 14634,
+        "Name": "The Elfin Astrologer\u0027s Room #14634",
+        "Connections": {
+          "South": 14633,
+          "Up": 14635
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Astrologer #14610",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14635,
+        "Name": "The King\u0027s Closet #14635",
+        "Connections": {
+          "West": 14636
+        }
+      },
+      {
+        "Id": 14636,
+        "Name": "The Royal Bedroom #14636",
+        "Connections": {
+          "East": 14635,
+          "South": 14637,
+          "West": 14640
+        },
+        "Contents": [
+          {
+            "Text": "The Royal Bodyguard #14603",
+            "Color": "green"
+          },
+          {
+            "Text": "The Elfin Queen #14601",
+            "Color": "green"
+          },
+          {
+            "Text": "The Royal Bodyguard #14603",
+            "Color": "green"
+          },
+          {
+            "Text": "The Elfin King #14600",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14637,
+        "Name": "Entrance to the Royal Bedroom #14637",
+        "Connections": {
+          "North": 14636,
+          "South": 14627
+        }
+      },
+      {
+        "Id": 14638,
+        "Name": "The West Hallway #14638",
+        "Connections": {
+          "North": 14652,
+          "East": 14627,
+          "South": 14651,
+          "West": 14639
+        }
+      },
+      {
+        "Id": 14639,
+        "Name": "The west end of the hallway #14639",
+        "Connections": {
+          "East": 14638,
+          "West": {
+            "RoomId": 14655,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Guard #14609",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14640,
+        "Name": "The Royal Bathroom #14640",
+        "Connections": {
+          "East": 14636,
+          "Down": 14641
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin maid #14604",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14641,
+        "Name": "The Citadel Royal laundry room #14641",
+        "Connections": {
+          "West": 14642
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Servant #14607",
+            "Color": "green"
+          },
+          {
+            "Text": "The Elfin Servant #14607",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14642,
+        "Name": "A small tunnel #14642",
+        "Connections": {
+          "North": 14646,
+          "East": 14641,
+          "South": 14644,
+          "West": 14643
+        }
+      },
+      {
+        "Id": 14643,
+        "Name": "The Servants\u0027 quarters #14643",
+        "Connections": {
+          "East": 14642
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Servant #14607",
+            "Color": "green"
+          },
+          {
+            "Text": "The Elfin Servant #14607",
+            "Color": "green"
+          },
+          {
+            "Text": "The Elfin Servant #14607",
+            "Color": "green"
+          },
+          {
+            "Text": "The Elfin Servant #14607",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14644,
+        "Name": "A small tunnel #14644",
+        "Connections": {
+          "North": 14642,
+          "South": 14645
+        }
+      },
+      {
+        "Id": 14645,
+        "Name": "The Supervisor\u0027s Bedroom #14645",
+        "Connections": {
+          "North": 14644
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Supervisor #14608",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14646,
+        "Name": "A small tunnel #14646",
+        "Connections": {
+          "East": 14647,
+          "South": 14642
+        }
+      },
+      {
+        "Id": 14647,
+        "Name": "A small tunnel, leading to a door #14647",
+        "Connections": {
+          "North": 14619,
+          "West": 14646
+        }
+      },
+      {
+        "Id": 14648,
+        "Name": "The Elfin Prince\u0027s Royal Study #14648",
+        "Connections": {
+          "South": 14608,
+          "Up": 14649
+        },
+        "Contents": [
+          {
+            "Text": "The Stately Prince #14615",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14649,
+        "Name": "The Elfin Prince\u0027s Bedroom #14649",
+        "Connections": {
+          "Down": 14648
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin maid #14604",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14650,
+        "Name": "The Warden\u0027s Office #14650",
+        "Connections": {
+          "West": 14619
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Warden #14629",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14651,
+        "Name": "A Nobleman\u0027s Sleeping Quarters #14651",
+        "Connections": {
+          "North": 14638
+        },
+        "Contents": [
+          {
+            "Text": "The Elf Nobleman #14602",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14652,
+        "Name": "A Nobleman\u0027s Sleeping Quarters #14652",
+        "Connections": {
+          "South": 14638
+        },
+        "Contents": [
+          {
+            "Text": "The Elf Nobleman #14602",
+            "Color": "green"
+          },
+          {
+            "Text": "The Elfin maid #14604",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14653,
+        "Name": "A Nobleman\u0027s Sleeping Quarters #14653",
+        "Connections": {
+          "North": 14628
+        },
+        "Contents": [
+          {
+            "Text": "The Elf Nobleman #14602",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14654,
+        "Name": "A Nobleman\u0027s Sleeping Quarters #14654",
+        "Connections": {
+          "South": 14628
+        },
+        "Contents": [
+          {
+            "Text": "The Elf Nobleman #14602",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14655,
+        "Name": "Black Room #14655",
+        "Connections": {
+          "East": 14639,
+          "Up": 14656,
+          "Down": 14657
+        }
+      },
+      {
+        "Id": 14656,
+        "Name": "The Infiniti Room #14656",
+        "Connections": {
+          "Down": 14655
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Special Forces Guard #14613",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14657,
+        "Name": "Odd Room #14657",
+        "Connections": {
+          "East": 14658,
+          "Up": 14655
+        }
+      },
+      {
+        "Id": 14658,
+        "Name": "The Room Between the Levels #14658",
+        "Connections": {
+          "East": 14659,
+          "West": 14657
+        }
+      },
+      {
+        "Id": 14659,
+        "Name": "Further in the tunnel #14659",
+        "Connections": {
+          "East": 14660,
+          "West": 14658
+        }
+      },
+      {
+        "Id": 14660,
+        "Name": "The Lair of the Elfin Woman #14660",
+        "Connections": {
+          "West": 14659,
+          "Down": 14604
+        },
+        "Contents": [
+          {
+            "Text": "A feeble woman #14612",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14661,
+        "Name": "Garden #14661",
+        "Connections": {
+          "North": 14686,
+          "East": 14685,
+          "South": 14690,
+          "West": 14687
+        }
+      },
+      {
+        "Id": 14662,
+        "Name": "The Princess\u0027s Piano Room #14662",
+        "Connections": {
+          "South": 14606,
+          "Up": 14663
+        },
+        "Contents": [
+          {
+            "Text": "The piano #14619",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14663,
+        "Name": "The Princess\u0027s Bedroom #14663",
+        "Connections": {
+          "Down": 14662
+        },
+        "Contents": [
+          {
+            "Text": "The Beautiful Princess Melian #14614",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14664,
+        "Name": "An Underwater tunnel that goes under the castle #14664",
+        "Connections": {
+          "East": 14665,
+          "Up": 14614
+        }
+      },
+      {
+        "Id": 14665,
+        "Name": "An Underwater tunnel that goes under the castle #14665",
+        "Connections": {
+          "East": 14666,
+          "West": 14664
+        }
+      },
+      {
+        "Id": 14666,
+        "Name": "An Underwater tunnel that goes under the castle #14666",
+        "Connections": {
+          "East": 14667,
+          "West": 14665
+        }
+      },
+      {
+        "Id": 14667,
+        "Name": "Under the Elfin Citadel #14667",
+        "Connections": {
+          "East": 14669,
+          "West": 14668
+        }
+      },
+      {
+        "Id": 14668,
+        "Name": "An Underwater tunnel that goes under the castle #14668",
+        "Connections": {
+          "East": 14667,
+          "West": 14668
+        }
+      },
+      {
+        "Id": 14669,
+        "Name": "A Holy Tunnel #14669",
+        "Connections": {
+          "East": 14670,
+          "West": 14667
+        }
+      },
+      {
+        "Id": 14670,
+        "Name": "The Holy Elfin Altar Room #14670",
+        "Connections": {
+          "West": 14669,
+          "Up": 14678
+        },
+        "Contents": [
+          {
+            "Text": "The High Priest #14616",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14671,
+        "Name": "On a Path to the Elfin Caves #14671",
+        "Connections": {
+          "East": 14672,
+          "West": 14600
+        }
+      },
+      {
+        "Id": 14672,
+        "Name": "Inside the Elfin Caves #14672",
+        "Connections": {
+          "North": 14673,
+          "West": 14671
+        }
+      },
+      {
+        "Id": 14673,
+        "Name": "Inside the Magical Elfin Caves #14673",
+        "Connections": {
+          "North": 14675,
+          "East": 14676,
+          "South": 14674,
+          "West": 14674
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Mage #14620",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14674,
+        "Name": "Inside the Magical Elfin Caves #14674",
+        "Connections": {
+          "North": 14675,
+          "East": 14676,
+          "South": 14675,
+          "West": 14673
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Mage #14620",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14675,
+        "Name": "Inside the Magical Elfin Caves #14675",
+        "Connections": {
+          "North": 14675,
+          "East": 14677,
+          "South": 14676,
+          "West": 14674
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Mage #14620",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14676,
+        "Name": "Inside the Magical Elfin Caves #14676",
+        "Connections": {
+          "North": 14673,
+          "East": 14676,
+          "South": 14676,
+          "West": 14673
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Mage #14620",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14677,
+        "Name": "Inside the Magical Elfin Caves #14677",
+        "Connections": {
+          "North": 14676,
+          "East": 14676,
+          "South": 14676,
+          "West": 14678
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Mage #14620",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14678,
+        "Name": "The Elfin Sorcerer\u0027s lair #14678",
+        "Connections": {
+          "East": 14677,
+          "Up": 14605
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Sorcerer #14621",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14679,
+        "Name": "The mirror maze #14679",
+        "Connections": {
+          "North": 14631,
+          "East": 14679,
+          "South": 14631,
+          "West": 14680
+        }
+      },
+      {
+        "Id": 14680,
+        "Name": "The mirror maze #14680",
+        "Connections": {
+          "North": 14680,
+          "East": 14631,
+          "South": 14680,
+          "West": 14679
+        }
+      },
+      {
+        "Id": 14681,
+        "Name": "The North Hallway. #14681",
+        "Connections": {
+          "South": 14607,
+          "West": 14682
+        }
+      },
+      {
+        "Id": 14682,
+        "Name": "The North Hallway. #14682",
+        "Connections": {
+          "East": 14681,
+          "West": 14694
+        }
+      },
+      {
+        "Id": 14683,
+        "Name": "The North Hallway. #14683",
+        "Connections": {
+          "East": 14684,
+          "South": 14609
+        }
+      },
+      {
+        "Id": 14684,
+        "Name": "The North Hallway. #14684",
+        "Connections": {
+          "East": 14694,
+          "West": 14683
+        }
+      },
+      {
+        "Id": 14685,
+        "Name": "Garden Path #14685",
+        "Connections": {
+          "North": 14686,
+          "East": 14699,
+          "South": 14694,
+          "West": 14661
+        },
+        "Contents": [
+          {
+            "Text": "A sparrow #14626",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14686,
+        "Name": "Middle of Garden #14686",
+        "Connections": {
+          "North": 14690,
+          "East": 14692,
+          "South": 14685,
+          "West": 14688
+        },
+        "Contents": [
+          {
+            "Text": "A plant #14624",
+            "Color": "green"
+          },
+          {
+            "Text": "a rabbit #14628",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14687,
+        "Name": "Garden #14687",
+        "Connections": {
+          "North": 14688,
+          "East": 14661,
+          "South": 14689,
+          "West": 14693
+        },
+        "Contents": [
+          {
+            "Text": "a rabbit #14628",
+            "Color": "green"
+          },
+          {
+            "Text": "a squirrel #14627",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14688,
+        "Name": "Garden #14688",
+        "Connections": {
+          "North": 14689,
+          "East": 14686,
+          "South": 14687,
+          "West": 14692
+        },
+        "Contents": [
+          {
+            "Text": "A plant #14624",
+            "Color": "green"
+          },
+          {
+            "Text": "a squirrel #14627",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14689,
+        "Name": "Garden #14689",
+        "Connections": {
+          "North": 14687,
+          "East": 14690,
+          "South": 14688,
+          "West": 14691
+        },
+        "Contents": [
+          {
+            "Text": "A sparrow #14626",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14690,
+        "Name": "Garden #14690",
+        "Connections": {
+          "North": 14698,
+          "East": 14691,
+          "South": 14686,
+          "West": 14689
+        },
+        "Contents": [
+          {
+            "Text": "A plant #14624",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14691,
+        "Name": "Garden #14691",
+        "Connections": {
+          "North": 14693,
+          "East": 14689,
+          "South": 14692,
+          "West": 14690
+        },
+        "Contents": [
+          {
+            "Text": "A sparrow #14626",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14692,
+        "Name": "Garden #14692",
+        "Connections": {
+          "North": 14691,
+          "East": 14688,
+          "South": 14693,
+          "West": 14686
+        },
+        "Contents": [
+          {
+            "Text": "a squirrel #14627",
+            "Color": "green"
+          },
+          {
+            "Text": "A plant #14624",
+            "Color": "green"
+          },
+          {
+            "Text": "a squirrel #14627",
+            "Color": "green"
+          },
+          {
+            "Text": "a rabbit #14628",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14693,
+        "Name": "Garden #14693",
+        "Connections": {
+          "North": 14692,
+          "East": 14687,
+          "South": 14691,
+          "West": 14699
+        },
+        "Contents": [
+          {
+            "Text": "An elfin gardener #14625",
+            "Color": "green"
+          },
+          {
+            "Text": "A sparrow #14626",
+            "Color": "green"
+          },
+          {
+            "Text": "a rabbit #14628",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14694,
+        "Name": "The Elfin Library #14694",
+        "Connections": {
+          "North": 14685,
+          "East": 14682,
+          "South": 14695,
+          "West": 14684
+        },
+        "Contents": [
+          {
+            "Text": "The Elfin Librarian #14622",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14695,
+        "Name": "The Elfin Courtyard #14695",
+        "Connections": {
+          "North": 14694
+        },
+        "Contents": [
+          {
+            "Text": "A fountain #14623",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14696,
+        "Name": "A prison cell in the dungeon of the Citadel #14696",
+        "Connections": {
+          "North": 14621
+        },
+        "Contents": [
+          {
+            "Text": "the midnight lag monster #14630",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14697,
+        "Name": "A prison cell in the dungeon of the Citadel #14697",
+        "Connections": {
+          "South": 14621
+        },
+        "Contents": [
+          {
+            "Text": "the midnight lag monster #14630",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14698,
+        "Name": "Garden #14698",
+        "Connections": {
+          "North": 14698,
+          "East": 14698,
+          "South": 14690,
+          "West": 14698
+        }
+      },
+      {
+        "Id": 14699,
+        "Name": "Garden #14699",
+        "Connections": {
+          "North": 14686,
+          "East": 14693,
+          "South": 14690,
+          "West": 14685
+        }
+      },
+      {
+        "Id": 3712,
+        "FrameColor": "blue",
+        "Name": "To TheRoads #3712",
+        "Color": "blue",
+        "Connections": {
+          "North": 3711,
+          "South": 3713,
+          "Up": 14600
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1155 @@
+{
+  "Area": {
+    "Name": "Egypt",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 14200,
+        "Name": "Edge of the valley. #14200",
+        "Connections": {
+          "Down": 14201
+        }
+      },
+      {
+        "Id": 14201,
+        "Name": "The Sand Sea #14201",
+        "Connections": {
+          "North": 5267,
+          "South": 14202
+        }
+      },
+      {
+        "Id": 14202,
+        "Name": "In the Desert #14202",
+        "Connections": {
+          "North": 14201,
+          "South": 14203
+        }
+      },
+      {
+        "Id": 14203,
+        "Name": "In the Desert #14203",
+        "Connections": {
+          "North": 14202,
+          "South": 14205,
+          "West": 14204
+        }
+      },
+      {
+        "Id": 14204,
+        "Name": "The Mirage #14204",
+        "Connections": {
+          "East": 14203
+        },
+        "Contents": [
+          {
+            "Text": "Sandroth #14201",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14205,
+        "Name": "In the Desert #14205",
+        "Connections": {
+          "North": 14203,
+          "South": 14206
+        }
+      },
+      {
+        "Id": 14206,
+        "Name": "At the Gate #14206",
+        "Connections": {
+          "North": 14205,
+          "South": 14207
+        },
+        "Contents": [
+          {
+            "Text": "the Guard #14200",
+            "Color": "green"
+          },
+          {
+            "Text": "the Guard #14200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14207,
+        "Name": "Inside the Gate #14207",
+        "Connections": {
+          "North": 14206,
+          "South": 14209,
+          "West": 14208
+        },
+        "Contents": [
+          {
+            "Text": "the Guard #14200",
+            "Color": "green"
+          },
+          {
+            "Text": "the Guard #14200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14208,
+        "Name": "Guard House #14208",
+        "Connections": {
+          "East": 14207
+        },
+        "Contents": [
+          {
+            "Text": "the Guard #14200",
+            "Color": "green"
+          },
+          {
+            "Text": "the Guard #14200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14209,
+        "Name": "The Market #14209",
+        "Connections": {
+          "North": 14207,
+          "South": 14210,
+          "West": 14219
+        },
+        "Contents": [
+          {
+            "Text": "the Peddler #14202",
+            "Color": "green"
+          },
+          {
+            "Text": "the Peddler #14202",
+            "Color": "green"
+          },
+          {
+            "Text": "the Peddler #14202",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14210,
+        "Name": "The Market #14210",
+        "Connections": {
+          "North": 14209,
+          "East": 14216,
+          "South": 14211,
+          "West": 14215
+        }
+      },
+      {
+        "Id": 14211,
+        "Name": "The Market #14211",
+        "Connections": {
+          "North": 14210,
+          "East": 14217,
+          "South": 14212,
+          "West": 14218
+        }
+      },
+      {
+        "Id": 14212,
+        "Name": "A Paved Street #14212",
+        "Connections": {
+          "North": 14211,
+          "South": 14213
+        }
+      },
+      {
+        "Id": 14213,
+        "Name": "Guard Post #14213",
+        "Connections": {
+          "North": 14212,
+          "South": {
+            "RoomId": 14242,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 14214
+        },
+        "Contents": [
+          {
+            "Text": "the Pyramid guard #14208",
+            "Color": "green"
+          },
+          {
+            "Text": "the Pyramid guard #14208",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14214,
+        "Name": "Guard House of the Pyramid #14214",
+        "Connections": {
+          "East": 14213
+        },
+        "Contents": [
+          {
+            "Text": "the Pyramid guard #14208",
+            "Color": "green"
+          },
+          {
+            "Text": "the Pyramid guard #14208",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14215,
+        "Name": "Rez\u0027s World of Weapons #14215",
+        "Connections": {
+          "East": 14210
+        },
+        "Contents": [
+          {
+            "Text": "Rez #14203",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14216,
+        "Name": "Skins of the Desert Beetle #14216",
+        "Connections": {
+          "West": 14210
+        },
+        "Contents": [
+          {
+            "Text": "Habib #14204",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14217,
+        "Name": "Food of the Gods #14217",
+        "Connections": {
+          "West": 14211
+        },
+        "Contents": [
+          {
+            "Text": "Omar #14205",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14218,
+        "Name": "Mystery of the Sands #14218",
+        "Connections": {
+          "East": 14211
+        },
+        "Contents": [
+          {
+            "Text": "Iona #14206",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14219,
+        "Name": "A City Street #14219",
+        "Connections": {
+          "North": 14221,
+          "East": 14209,
+          "West": 14220
+        }
+      },
+      {
+        "Id": 14220,
+        "Name": "A City Street #14220",
+        "Connections": {
+          "East": 14219,
+          "South": 14222,
+          "West": 14223
+        }
+      },
+      {
+        "Id": 14221,
+        "Name": "A Commoner\u0027s House #14221",
+        "Connections": {
+          "South": 14219
+        },
+        "Contents": [
+          {
+            "Text": "the egyptian commoner #14207",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14222,
+        "Name": "A Commoner\u0027s Home #14222",
+        "Connections": {
+          "North": 14220
+        },
+        "Contents": [
+          {
+            "Text": "the egyptian commoner #14207",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14223,
+        "Name": "Approaching the Palace #14223",
+        "Connections": {
+          "East": 14220,
+          "West": 14224
+        }
+      },
+      {
+        "Id": 14224,
+        "Name": "At the Palace Gates #14224",
+        "Connections": {
+          "East": 14223,
+          "West": {
+            "RoomId": 14225,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the palace guard #14226",
+            "Color": "green"
+          },
+          {
+            "Text": "the palace guard #14226",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14225,
+        "Name": "Entrance to the Palace #14225",
+        "Connections": {
+          "North": 14227,
+          "East": {
+            "RoomId": 14224,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 14226,
+          "West": 14228
+        }
+      },
+      {
+        "Id": 14226,
+        "Name": "Storage Room #14226",
+        "Connections": {
+          "North": 14225
+        },
+        "Contents": [
+          {
+            "Text": "the Guard #14200",
+            "Color": "green"
+          },
+          {
+            "Text": "the Guard #14200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14227,
+        "Name": "Captain\u0027s Room #14227",
+        "Connections": {
+          "South": 14225
+        },
+        "Contents": [
+          {
+            "Text": "the Captain of the Guard #14210",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14228,
+        "Name": "The Palace Courtyard #14228",
+        "Connections": {
+          "North": 14230,
+          "East": 14225,
+          "South": 14231,
+          "West": 14229
+        },
+        "Contents": [
+          {
+            "Text": "the egyptian nobleman #14209",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14229,
+        "Name": "The Palace Courtyard #14229",
+        "Connections": {
+          "North": 14233,
+          "East": 14228,
+          "South": 14232,
+          "West": 14234
+        },
+        "Contents": [
+          {
+            "Text": "the egyptian nobleman #14209",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14230,
+        "Name": "The Palace Courtyard #14230",
+        "Connections": {
+          "South": 14228,
+          "West": 14233
+        }
+      },
+      {
+        "Id": 14231,
+        "Name": "The Palace Courtyard #14231",
+        "Connections": {
+          "North": 14228,
+          "West": 14232
+        }
+      },
+      {
+        "Id": 14232,
+        "Name": "The Palace Courtyard #14232",
+        "Connections": {
+          "North": 14229,
+          "East": 14231,
+          "South": 14241,
+          "West": 14236
+        }
+      },
+      {
+        "Id": 14233,
+        "Name": "The Palace Courtyard #14233",
+        "Connections": {
+          "North": 14237,
+          "East": 14230,
+          "South": 14229,
+          "West": 14235
+        }
+      },
+      {
+        "Id": 14234,
+        "Name": "Before the Throne #14234",
+        "Connections": {
+          "North": 14235,
+          "East": 14229,
+          "South": 14236
+        },
+        "Contents": [
+          {
+            "Text": "the egyptian nobleman #14209",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14235,
+        "Name": "The Palace Courtyard #14235",
+        "Connections": {
+          "East": 14233,
+          "South": 14234,
+          "West": {
+            "RoomId": 14238,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 14236,
+        "Name": "The Palace Courtyard #14236",
+        "Connections": {
+          "North": 14234,
+          "East": 14232
+        }
+      },
+      {
+        "Id": 14237,
+        "Name": "The Guest Bedroom #14237",
+        "Connections": {
+          "South": 14233
+        },
+        "Contents": [
+          {
+            "Text": "Antonious #14212",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14238,
+        "Name": "The Antechamber #14238",
+        "Connections": {
+          "East": {
+            "RoomId": 14235,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 14239
+        },
+        "Contents": [
+          {
+            "Text": "the bodyguard #14214",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14239,
+        "Name": "The Bedroom of Cleopatra #14239",
+        "Connections": {
+          "North": 14240,
+          "East": 14238
+        },
+        "Contents": [
+          {
+            "Text": "Cleopatra #14213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14240,
+        "Name": "The Royal Bath #14240",
+        "Connections": {
+          "South": 14239
+        }
+      },
+      {
+        "Id": 14241,
+        "Name": "Vangar\u0027s Chamber #14241",
+        "Connections": {
+          "North": 14232
+        },
+        "Contents": [
+          {
+            "Text": "Vangar #14211",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14242,
+        "Name": "Entryway to the Pyramid #14242",
+        "Connections": {
+          "North": {
+            "RoomId": 14213,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 14243
+        }
+      },
+      {
+        "Id": 14243,
+        "Name": "Long Hallway #14243",
+        "Connections": {
+          "North": 14242,
+          "South": 14244
+        }
+      },
+      {
+        "Id": 14244,
+        "Name": "The Junction #14244",
+        "Connections": {
+          "North": 14243,
+          "East": 14253,
+          "South": 14254,
+          "West": 14245
+        },
+        "Contents": [
+          {
+            "Text": "the giant brown snake #14215",
+            "Color": "red"
+          },
+          {
+            "Text": "the giant brown snake #14215",
+            "Color": "red"
+          },
+          {
+            "Text": "the giant brown snake #14215",
+            "Color": "red"
+          },
+          {
+            "Text": "the giant brown snake #14215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14245,
+        "Name": "A Wide Hallyway #14245",
+        "Connections": {
+          "East": 14244,
+          "West": 14246
+        }
+      },
+      {
+        "Id": 14246,
+        "Name": "Junction Deep in the Pyramid #14246",
+        "Connections": {
+          "North": 14247,
+          "East": 14245,
+          "West": 14249
+        }
+      },
+      {
+        "Id": 14247,
+        "Name": "A Sloping Passage #14247",
+        "Connections": {
+          "North": 14248,
+          "South": 14246
+        }
+      },
+      {
+        "Id": 14248,
+        "Name": "The Slave Pit #14248",
+        "Connections": {
+          "South": 14247
+        },
+        "Contents": [
+          {
+            "Text": "the skeleton of a slave #14216",
+            "Color": "red"
+          },
+          {
+            "Text": "the skeleton of a slave #14216",
+            "Color": "red"
+          },
+          {
+            "Text": "the skeleton of a slave #14216",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14249,
+        "Name": "Hallway Deep in the Pyramid #14249",
+        "Connections": {
+          "East": 14246,
+          "West": 14250
+        }
+      },
+      {
+        "Id": 14250,
+        "Name": "A Ladder #14250",
+        "Connections": {
+          "East": 14249,
+          "Up": 14251
+        }
+      },
+      {
+        "Id": 14251,
+        "Name": "A Ladder #14251",
+        "Connections": {
+          "East": 14266,
+          "Down": 14250
+        }
+      },
+      {
+        "Id": 14252,
+        "Name": "The Junction #14252",
+        "Connections": {
+          "South": 14244
+        }
+      },
+      {
+        "Id": 14253,
+        "Name": "Dusty Passage #14253",
+        "Connections": {
+          "East": 14255,
+          "West": 14244
+        }
+      },
+      {
+        "Id": 14254,
+        "Name": "Tapering Hallway #14254",
+        "Connections": {
+          "North": 14244,
+          "South": 14257
+        }
+      },
+      {
+        "Id": 14255,
+        "Name": "Dusty Passage #14255",
+        "Connections": {
+          "East": 14256,
+          "West": 14253
+        }
+      },
+      {
+        "Id": 14256,
+        "Name": "Crumbling Junction #14256",
+        "Connections": {
+          "North": 14284,
+          "East": 14283,
+          "South": 14258,
+          "West": 14255
+        }
+      },
+      {
+        "Id": 14257,
+        "Name": "Junction Deep in the Pyramid #14257",
+        "Connections": {
+          "North": 14254,
+          "East": 14259,
+          "West": 14261
+        }
+      },
+      {
+        "Id": 14258,
+        "Name": "Dark Passage #14258",
+        "Connections": {
+          "North": 14256,
+          "South": 14274
+        }
+      },
+      {
+        "Id": 14259,
+        "Name": "Red Hallway #14259",
+        "Connections": {
+          "East": 14260,
+          "West": 14257
+        }
+      },
+      {
+        "Id": 14260,
+        "Name": "The Room of War #14260",
+        "Connections": {
+          "West": 14259
+        },
+        "Contents": [
+          {
+            "Text": "the mummy of a general #14217",
+            "Color": "red"
+          },
+          {
+            "Text": "the mummy of a general #14217",
+            "Color": "red"
+          },
+          {
+            "Text": "the mummy of a general #14217",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14261,
+        "Name": "Entrance to the Crypt #14261",
+        "Connections": {
+          "East": 14257,
+          "Down": 14262
+        }
+      },
+      {
+        "Id": 14262,
+        "Name": "In the Crypt #14262",
+        "Connections": {
+          "North": 14263,
+          "Up": 14261
+        }
+      },
+      {
+        "Id": 14263,
+        "Name": "Entrance to the Tombs #14263",
+        "Connections": {
+          "North": 14264,
+          "East": 14265,
+          "South": 14262
+        },
+        "Contents": [
+          {
+            "Text": "the large mummy #14221",
+            "Color": "red"
+          },
+          {
+            "Text": "the large mummy #14221",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14264,
+        "Name": "Tomb of the Great Pharaoh Tutankahmen #14264",
+        "Connections": {
+          "South": 14263,
+          "Down": 5950
+        },
+        "Contents": [
+          {
+            "Text": "Tutankahmen #14219",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14265,
+        "Name": "Aelphia\u0027s Tomb #14265",
+        "Connections": {
+          "West": 14263
+        },
+        "Contents": [
+          {
+            "Text": "Aelphia #14220",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14266,
+        "Name": "A Round Tunnel #14266",
+        "Connections": {
+          "East": 14267,
+          "South": 14268,
+          "West": 14251
+        }
+      },
+      {
+        "Id": 14267,
+        "Name": "The Pit #14267",
+        "Connections": {}
+      },
+      {
+        "Id": 14268,
+        "Name": "A Round Tunnel #14268",
+        "Connections": {
+          "North": 14266,
+          "East": 14269
+        },
+        "Contents": [
+          {
+            "Text": "the wandering mummy #14222",
+            "Color": "red"
+          },
+          {
+            "Text": "the wandering mummy #14222",
+            "Color": "red"
+          },
+          {
+            "Text": "the wandering mummy #14222",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14269,
+        "Name": "A Round Tunnel #14269",
+        "Connections": {
+          "East": 14270,
+          "West": 14268
+        }
+      },
+      {
+        "Id": 14270,
+        "Name": "A Partial Cave-In #14270",
+        "Connections": {
+          "North": 14271,
+          "West": 14269
+        }
+      },
+      {
+        "Id": 14271,
+        "Name": "A Junction #14271",
+        "Connections": {
+          "North": 14272,
+          "East": 14277,
+          "South": 14270
+        }
+      },
+      {
+        "Id": 14272,
+        "Name": "A Bend in the Tunnel #14272",
+        "Connections": {
+          "South": 14271,
+          "West": 14273
+        }
+      },
+      {
+        "Id": 14273,
+        "Name": "A Bend in the Tunnel #14273",
+        "Connections": {
+          "North": 14276,
+          "East": 14272
+        }
+      },
+      {
+        "Id": 14274,
+        "Name": "Blocked Passage #14274",
+        "Connections": {
+          "Up": 14275
+        }
+      },
+      {
+        "Id": 14275,
+        "Name": "Lit Corridor #14275",
+        "Connections": {
+          "East": 14281,
+          "Down": 14274
+        }
+      },
+      {
+        "Id": 14276,
+        "Name": "The Stairwell #14276",
+        "Connections": {
+          "South": 14273,
+          "Up": 14279
+        },
+        "Contents": [
+          {
+            "Text": "the enormous cobra #14223",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14277,
+        "Name": "Long Hallway #14277",
+        "Connections": {
+          "East": 14278,
+          "West": 14271
+        }
+      },
+      {
+        "Id": 14278,
+        "Name": "The Priest\u0027s Chamber #14278",
+        "Connections": {
+          "West": 14277
+        },
+        "Contents": [
+          {
+            "Text": "the heucuva #14227",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14279,
+        "Name": "Entrance to the Great Tomb #14279",
+        "Connections": {
+          "South": 14280,
+          "Down": 14276
+        }
+      },
+      {
+        "Id": 14280,
+        "Name": "The Tomb of the Great Pharaoh Ramses #14280",
+        "Connections": {
+          "North": 14279
+        },
+        "Contents": [
+          {
+            "Text": "Rameses the Great #14224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14281,
+        "Name": "Lit Corridor #14281",
+        "Connections": {
+          "South": 14282,
+          "West": 14275
+        },
+        "Contents": [
+          {
+            "Text": "the big ugly mean aggressive thing #14225",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14282,
+        "Name": "Alcove #14282",
+        "Connections": {
+          "North": 14281,
+          "Down": 14244
+        }
+      },
+      {
+        "Id": 14283,
+        "Name": "Collapsing Floor #14283",
+        "Connections": {}
+      },
+      {
+        "Id": 14284,
+        "Name": "Tiny Passage #14284",
+        "Connections": {
+          "North": 14285,
+          "South": 14256
+        }
+      },
+      {
+        "Id": 14285,
+        "Name": "Well Constructed Corridor #14285",
+        "Connections": {
+          "North": 14286,
+          "South": 14284
+        }
+      },
+      {
+        "Id": 14286,
+        "Name": "Well Constructed Corridor #14286",
+        "Connections": {
+          "North": 14292,
+          "East": 14287,
+          "South": 14285
+        }
+      },
+      {
+        "Id": 14287,
+        "Name": "Little Used Passage #14287",
+        "Connections": {
+          "East": 14288,
+          "West": 14286
+        }
+      },
+      {
+        "Id": 14288,
+        "Name": "T Junction #14288",
+        "Connections": {
+          "North": 14290,
+          "South": 14289,
+          "West": 14287
+        }
+      },
+      {
+        "Id": 14289,
+        "Name": "Dark Corridor #14289",
+        "Connections": {
+          "North": 14288,
+          "West": 14283
+        },
+        "Contents": [
+          {
+            "Text": "the big ugly mean aggressive thing #14225",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14290,
+        "Name": "Lair #14290",
+        "Connections": {
+          "South": 14288,
+          "West": 14291
+        },
+        "Contents": [
+          {
+            "Text": "the big ugly mean aggressive thing #14225",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14291,
+        "Name": "Dark Room #14291",
+        "Connections": {
+          "East": 14290,
+          "West": 14292
+        }
+      },
+      {
+        "Id": 14292,
+        "Name": "Junction #14292",
+        "Connections": {
+          "North": 14293,
+          "East": 14291,
+          "South": 14286,
+          "West": 14289
+        }
+      },
+      {
+        "Id": 14293,
+        "Name": "Bright Chamber #14293",
+        "Connections": {
+          "North": 14294,
+          "South": 14292
+        }
+      },
+      {
+        "Id": 14294,
+        "Name": "Bright Room #14294",
+        "Connections": {
+          "North": 14296,
+          "East": 14295,
+          "South": 14293
+        },
+        "Contents": [
+          {
+            "Text": "Moses #14218",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14295,
+        "Name": "Bright Room #14295",
+        "Connections": {
+          "North": 14297,
+          "West": 14294
+        }
+      },
+      {
+        "Id": 14296,
+        "Name": "Bright Room #14296",
+        "Connections": {
+          "East": 14297,
+          "South": 14294
+        }
+      },
+      {
+        "Id": 14297,
+        "Name": "Bright Room #14297",
+        "Connections": {
+          "South": 14295,
+          "West": 14296
+        }
+      },
+      {
+        "Id": 5267,
+        "FrameColor": "blue",
+        "Name": "To Thalos #5267",
+        "Color": "blue",
+        "Connections": {
+          "North": 5259,
+          "East": 5268,
+          "South": 14201,
+          "West": 5266
+        }
+      },
+      {
+        "Id": 5950,
+        "FrameColor": "blue",
+        "Name": "To EgyptianGods #5950",
+        "Color": "blue",
+        "Connections": {
+          "North": 5951
+        }
+      }
+    ]
+  }
+}

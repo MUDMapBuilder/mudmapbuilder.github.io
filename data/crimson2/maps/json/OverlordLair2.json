@@ -1,0 +1,316 @@
+{
+  "Area": {
+    "Name": "OverlordLair2",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 5400,
+        "Name": "UnderMountain Caves #5400",
+        "Connections": {
+          "North": 5401,
+          "East": 5399
+        }
+      },
+      {
+        "Id": 5401,
+        "Name": "UnderMountain Caves #5401",
+        "Connections": {
+          "North": 5402,
+          "South": 5400
+        },
+        "Contents": [
+          {
+            "Text": "a rust monster #5400",
+            "Color": "green"
+          },
+          {
+            "Text": "a rust monster #5400",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5402,
+        "Name": "UnderMountain Caves #5402",
+        "Connections": {
+          "North": 5403,
+          "South": 5401
+        }
+      },
+      {
+        "Id": 5403,
+        "Name": "UnderMountain Caves #5403",
+        "Connections": {
+          "East": 5404,
+          "South": 5402
+        }
+      },
+      {
+        "Id": 5404,
+        "Name": "UnderMountain Caves #5404",
+        "Connections": {
+          "East": 5405,
+          "West": 5403
+        }
+      },
+      {
+        "Id": 5405,
+        "Name": "Entrance to UnderMountain #5405",
+        "Connections": {
+          "East": 5419,
+          "West": 5404
+        }
+      },
+      {
+        "Id": 5406,
+        "Name": "Map-Maker\u0027s room #5406",
+        "Connections": {
+          "East": 5374
+        },
+        "Contents": [
+          {
+            "Text": "the map-maker #5401",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5407,
+        "Name": "Food Warren #5407",
+        "Connections": {
+          "North": 5366
+        }
+      },
+      {
+        "Id": 5408,
+        "Name": "Dark Caves #5408",
+        "Connections": {
+          "North": 5357,
+          "South": 5409
+        }
+      },
+      {
+        "Id": 5409,
+        "Name": "Dark Caves #5409",
+        "Connections": {
+          "North": 5408,
+          "East": 5410
+        },
+        "Contents": [
+          {
+            "Text": "a lemure #5402",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5410,
+        "Name": "Dark Caves #5410",
+        "Connections": {
+          "South": 5359,
+          "West": 5409
+        }
+      },
+      {
+        "Id": 5411,
+        "Name": "Pantry #5411",
+        "Connections": {
+          "North": 5412,
+          "West": 5321
+        }
+      },
+      {
+        "Id": 5412,
+        "Name": "Kitchen #5412",
+        "Connections": {
+          "South": 5411,
+          "West": 5316
+        },
+        "Contents": [
+          {
+            "Text": "the Keep\u0027s Chef #5405",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5413,
+        "Name": "Mystical Hallway #5413",
+        "Connections": {
+          "South": 5414
+        }
+      },
+      {
+        "Id": 5414,
+        "Name": "Mystical Hallway #5414",
+        "Connections": {
+          "North": 5413,
+          "East": 5415,
+          "South": 5355,
+          "West": 5417
+        }
+      },
+      {
+        "Id": 5415,
+        "Name": "Mystical Hallway #5415",
+        "Connections": {
+          "South": 5416,
+          "West": 5414
+        }
+      },
+      {
+        "Id": 5416,
+        "Name": "Room of Necromancy #5416",
+        "Connections": {
+          "North": 5415
+        },
+        "Contents": [
+          {
+            "Text": "a lemure #5402",
+            "Color": "green"
+          },
+          {
+            "Text": "a zombie #5403",
+            "Color": "green"
+          },
+          {
+            "Text": "a zombie #5403",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5417,
+        "Name": "Overlord\u0027s Personal Sleeping Chambers #5417",
+        "Connections": {
+          "East": 5414
+        },
+        "Contents": [
+          {
+            "Text": "a whore #5404",
+            "Color": "green"
+          },
+          {
+            "Text": "a whore #5404",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5418,
+        "Name": "dirt path #5418",
+        "Connections": {
+          "North": 5419,
+          "South": 5241
+        }
+      },
+      {
+        "Id": 5419,
+        "Name": "dirt path #5419",
+        "Connections": {
+          "South": 5418,
+          "West": 5405
+        }
+      },
+      {
+        "Id": 5399,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair #5399",
+        "Color": "blue",
+        "Connections": {
+          "East": 5398,
+          "West": 5400
+        }
+      },
+      {
+        "Id": 5374,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair #5374",
+        "Color": "blue",
+        "Connections": {
+          "North": 5373,
+          "West": 5406
+        }
+      },
+      {
+        "Id": 5366,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair #5366",
+        "Color": "blue",
+        "Connections": {
+          "North": 5367,
+          "East": 5365,
+          "South": 5407,
+          "West": 5371
+        }
+      },
+      {
+        "Id": 5357,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair #5357",
+        "Color": "blue",
+        "Connections": {
+          "North": 5356,
+          "East": 5358,
+          "South": 5408,
+          "West": 5361
+        }
+      },
+      {
+        "Id": 5359,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair #5359",
+        "Color": "blue",
+        "Connections": {
+          "North": 5410,
+          "South": 5360
+        }
+      },
+      {
+        "Id": 5321,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair #5321",
+        "Color": "blue",
+        "Connections": {
+          "North": 5316,
+          "East": 5411,
+          "South": 5320
+        }
+      },
+      {
+        "Id": 5316,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair #5316",
+        "Color": "blue",
+        "Connections": {
+          "North": 5317,
+          "East": 5412,
+          "South": 5321,
+          "West": 5315
+        }
+      },
+      {
+        "Id": 5355,
+        "FrameColor": "blue",
+        "Name": "To OverlordLair #5355",
+        "Color": "blue",
+        "Connections": {
+          "North": 5354,
+          "South": 5356
+        }
+      },
+      {
+        "Id": 5241,
+        "FrameColor": "blue",
+        "Name": "To Thalos #5241",
+        "Color": "blue",
+        "Connections": {
+          "North": 5418,
+          "South": 5240,
+          "West": 5243,
+          "Up": 5248
+        }
+      }
+    ]
+  }
+}

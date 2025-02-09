@@ -1,0 +1,744 @@
+{
+  "Area": {
+    "Name": "Atlantis",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 14500,
+        "Name": "Nefarious and Graffin\u0027s lobby of love. #14500",
+        "Connections": {
+          "Up": 3001
+        }
+      },
+      {
+        "Id": 14501,
+        "Name": "SPARE #14501",
+        "Connections": {
+          "East": 14502,
+          "West": 3205
+        }
+      },
+      {
+        "Id": 14502,
+        "Name": "A small unnoticed waterway. #14502",
+        "Connections": {
+          "South": 14503,
+          "West": 14501
+        }
+      },
+      {
+        "Id": 14503,
+        "Name": "A Small Tunnel #14503",
+        "Connections": {
+          "North": 3038,
+          "Down": 14504
+        }
+      },
+      {
+        "Id": 14504,
+        "Name": "Where the Tunnel Descends  #14504",
+        "Connections": {
+          "Up": 14503,
+          "Down": 14505
+        }
+      },
+      {
+        "Id": 14505,
+        "Name": "Descending Tunnel #14505",
+        "Connections": {
+          "Up": 14504,
+          "Down": 14506
+        }
+      },
+      {
+        "Id": 14506,
+        "Name": "Bottom of Tunnel #14506",
+        "Connections": {
+          "East": 14507,
+          "Up": 14505
+        }
+      },
+      {
+        "Id": 14507,
+        "Name": "Dark Passage #14507",
+        "Connections": {
+          "East": 14508,
+          "West": 14506
+        }
+      },
+      {
+        "Id": 14508,
+        "Name": "Entrance to Atlantis #14508",
+        "Connections": {
+          "East": 14509,
+          "West": 14507
+        },
+        "Contents": [
+          {
+            "Text": "the merman guard #14500",
+            "Color": "green"
+          },
+          {
+            "Text": "the merman guard #14500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14509,
+        "Name": "The Lost City of Atlantis #14509",
+        "Connections": {
+          "East": 14510,
+          "West": 14508
+        },
+        "Contents": [
+          {
+            "Text": "the merman guard #14500",
+            "Color": "green"
+          },
+          {
+            "Text": "the merman guard #14500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14510,
+        "Name": "Moon Pearl Boulevard #14510",
+        "Connections": {
+          "East": 14511,
+          "West": 14509
+        }
+      },
+      {
+        "Id": 14511,
+        "Name": "Moon Pearl Boulevard #14511",
+        "Connections": {
+          "East": 14512,
+          "West": 14510
+        },
+        "Contents": [
+          {
+            "Text": "the merman citizen #14502",
+            "Color": "green"
+          },
+          {
+            "Text": "the sahaugin citizen #14503",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14512,
+        "Name": "Moon Pearl Boulevard #14512",
+        "Connections": {
+          "North": 14513,
+          "East": 14516,
+          "West": 14511
+        }
+      },
+      {
+        "Id": 14513,
+        "Name": "Kelp-Lined Alley #14513",
+        "Connections": {
+          "North": 14514,
+          "South": 14512
+        },
+        "Contents": [
+          {
+            "Text": "the merman guard #14500",
+            "Color": "green"
+          },
+          {
+            "Text": "the merman guard #14500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14514,
+        "Name": "Kelp-Lined Alley #14514",
+        "Connections": {
+          "North": 14515,
+          "South": 14513
+        }
+      },
+      {
+        "Id": 14515,
+        "Name": "Kelp Farm #14515",
+        "Connections": {
+          "North": 14529,
+          "East": 14515,
+          "South": 14515,
+          "West": 14515
+        },
+        "Contents": [
+          {
+            "Text": "the electric eel #14513",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14516,
+        "Name": "Town Square #14516",
+        "Connections": {
+          "North": 14517,
+          "South": 14528,
+          "West": 14512
+        },
+        "Contents": [
+          {
+            "Text": "the merman citizen #14502",
+            "Color": "green"
+          },
+          {
+            "Text": "the sahaugin citizen #14503",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14517,
+        "Name": "Town Square #14517",
+        "Connections": {
+          "East": 14518,
+          "South": 14516
+        }
+      },
+      {
+        "Id": 14518,
+        "Name": "Before the Temple #14518",
+        "Connections": {
+          "North": 14542,
+          "East": 14519,
+          "West": 14517
+        }
+      },
+      {
+        "Id": 14519,
+        "Name": "Town Square #14519",
+        "Connections": {
+          "South": 14520,
+          "West": 14518
+        }
+      },
+      {
+        "Id": 14520,
+        "Name": "Entrance to the Lighted Tower #14520",
+        "Connections": {
+          "North": 14519,
+          "East": 14533,
+          "South": 14526,
+          "West": 14521
+        }
+      },
+      {
+        "Id": 14521,
+        "Name": "Inside the Tower #14521",
+        "Connections": {
+          "East": 14520,
+          "Up": 14522
+        }
+      },
+      {
+        "Id": 14522,
+        "Name": "Neptune\u0027s Chamber #14522",
+        "Connections": {
+          "Up": 14523,
+          "Down": 14521
+        },
+        "Contents": [
+          {
+            "Text": "Neptune #14504",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14523,
+        "Name": "Dark Staircase #14523",
+        "Connections": {
+          "Up": 14524,
+          "Down": 14522
+        }
+      },
+      {
+        "Id": 14524,
+        "Name": "Dark Landing #14524",
+        "Connections": {
+          "North": 14525,
+          "Down": 14523
+        }
+      },
+      {
+        "Id": 14525,
+        "Name": "Wizard\u0027s Chamber #14525",
+        "Connections": {
+          "South": 14524
+        },
+        "Contents": [
+          {
+            "Text": "Medeak #14505",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14526,
+        "Name": "Town Square #14526",
+        "Connections": {
+          "North": 14520,
+          "West": 14527
+        },
+        "Contents": [
+          {
+            "Text": "the merman citizen #14502",
+            "Color": "green"
+          },
+          {
+            "Text": "the sahaugin citizen #14503",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14527,
+        "Name": "Before The Palace #14527",
+        "Connections": {
+          "East": 14526,
+          "South": 14537,
+          "West": 14528
+        }
+      },
+      {
+        "Id": 14528,
+        "Name": "Town Square #14528",
+        "Connections": {
+          "North": 14516,
+          "East": 14527
+        }
+      },
+      {
+        "Id": 14529,
+        "Name": "Kelp Farm #14529",
+        "Connections": {
+          "North": 14530,
+          "East": 14515,
+          "South": 14515,
+          "West": 14530
+        },
+        "Contents": [
+          {
+            "Text": "the electric eel #14513",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14530,
+        "Name": "Kelp Farm #14530",
+        "Connections": {
+          "North": 14529,
+          "East": 14529,
+          "South": 14515,
+          "West": 14531
+        },
+        "Contents": [
+          {
+            "Text": "the electric eel #14513",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14531,
+        "Name": "Kelp Farm #14531",
+        "Connections": {
+          "North": 14531,
+          "East": 14530,
+          "South": 14532,
+          "West": 14530
+        },
+        "Contents": [
+          {
+            "Text": "the electric eel #14513",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14532,
+        "Name": "Kelp Farm #14532",
+        "Connections": {
+          "North": 14531,
+          "East": 14515,
+          "South": 14510,
+          "West": 14530
+        }
+      },
+      {
+        "Id": 14533,
+        "Name": "Moon Pearl Boulevard #14533",
+        "Connections": {
+          "East": 14534,
+          "West": 14520
+        }
+      },
+      {
+        "Id": 14534,
+        "Name": "Moon Pearl Boulevard #14534",
+        "Connections": {
+          "East": 14536,
+          "South": 14535,
+          "West": 14533
+        }
+      },
+      {
+        "Id": 14535,
+        "Name": "The Smithy #14535",
+        "Connections": {
+          "North": 14534
+        },
+        "Contents": [
+          {
+            "Text": "the sahaugin blacksmith #14509",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14536,
+        "Name": "Moon Pearl Boulevard #14536",
+        "Connections": {
+          "East": 14548,
+          "West": 14534
+        },
+        "Contents": [
+          {
+            "Text": "the merman citizen #14502",
+            "Color": "green"
+          },
+          {
+            "Text": "the sahaugin citizen #14503",
+            "Color": "green"
+          },
+          {
+            "Text": "the merman tradesman #14515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14537,
+        "Name": "The Palace Foyer #14537",
+        "Connections": {
+          "North": 14527,
+          "East": 14538,
+          "South": 14539
+        },
+        "Contents": [
+          {
+            "Text": "the sahaugin guard #14501",
+            "Color": "red"
+          },
+          {
+            "Text": "the sahaugin guard #14501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14538,
+        "Name": "Alcove #14538",
+        "Connections": {
+          "West": 14537
+        },
+        "Contents": [
+          {
+            "Text": "the merman guard #14500",
+            "Color": "green"
+          },
+          {
+            "Text": "the merman guard #14500",
+            "Color": "green"
+          },
+          {
+            "Text": "the sahaugin guard #14501",
+            "Color": "red"
+          },
+          {
+            "Text": "the sahaugin guard #14501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14539,
+        "Name": "Approaching the Throne #14539",
+        "Connections": {
+          "North": 14537,
+          "East": 14555,
+          "South": 14540
+        }
+      },
+      {
+        "Id": 14540,
+        "Name": "Throne Room #14540",
+        "Connections": {
+          "North": 14539,
+          "West": 14541
+        },
+        "Contents": [
+          {
+            "Text": "the merman queen #14510",
+            "Color": "green"
+          },
+          {
+            "Text": "the sahaugin king #14511",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14541,
+        "Name": "Dressing Chamber #14541",
+        "Connections": {
+          "East": 14540
+        }
+      },
+      {
+        "Id": 14542,
+        "Name": "The Temple Of Pisces #14542",
+        "Connections": {
+          "North": 14545,
+          "East": 14544,
+          "South": 14518,
+          "West": 14543
+        }
+      },
+      {
+        "Id": 14543,
+        "Name": "The Temple Of Pisces #14543",
+        "Connections": {
+          "East": 14542
+        },
+        "Contents": [
+          {
+            "Text": "the merman priest #14508",
+            "Color": "green"
+          },
+          {
+            "Text": "the merman priest #14508",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14544,
+        "Name": "The Temple Of Pisces #14544",
+        "Connections": {
+          "West": 14542
+        },
+        "Contents": [
+          {
+            "Text": "the merman priest #14508",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14545,
+        "Name": "The Temple Of Pisces #14545",
+        "Connections": {
+          "North": 14546,
+          "South": 14542
+        },
+        "Contents": [
+          {
+            "Text": "the merman priest #14508",
+            "Color": "green"
+          },
+          {
+            "Text": "the merman priest #14508",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14546,
+        "Name": "The Altar to Pisces #14546",
+        "Connections": {
+          "South": 14545,
+          "Down": 14547
+        },
+        "Contents": [
+          {
+            "Text": "the merman shaman #14506",
+            "Color": "green"
+          },
+          {
+            "Text": "the shaman\u0027s assistant #14507",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14547,
+        "Name": "Under the Altar #14547",
+        "Connections": {
+          "Up": 14546,
+          "Down": 14554
+        }
+      },
+      {
+        "Id": 14548,
+        "Name": "The Bazaar #14548",
+        "Connections": {
+          "South": 14549,
+          "West": 14536
+        },
+        "Contents": [
+          {
+            "Text": "the merman citizen #14502",
+            "Color": "green"
+          },
+          {
+            "Text": "the sahaugin citizen #14503",
+            "Color": "green"
+          },
+          {
+            "Text": "the merman tradesman #14515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14549,
+        "Name": "The Alley #14549",
+        "Connections": {
+          "North": 14548,
+          "South": 14550
+        }
+      },
+      {
+        "Id": 14550,
+        "Name": "The Alley #14550",
+        "Connections": {
+          "North": 14549,
+          "South": 14551
+        },
+        "Contents": [
+          {
+            "Text": "the merman tradesman #14515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14551,
+        "Name": "Bend in the Alley #14551",
+        "Connections": {
+          "North": 14550,
+          "West": 14552
+        }
+      },
+      {
+        "Id": 14552,
+        "Name": "By the Crack #14552",
+        "Connections": {
+          "East": 14551,
+          "South": 14553
+        },
+        "Contents": [
+          {
+            "Text": "the Kraken #14512",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14553,
+        "Name": "Outside the Dome #14553",
+        "Connections": {}
+      },
+      {
+        "Id": 14554,
+        "Name": "Underwater Passage #14554",
+        "Connections": {
+          "Up": 14547,
+          "Down": 14556
+        }
+      },
+      {
+        "Id": 14555,
+        "Name": "The Home of the Sage #14555",
+        "Connections": {
+          "West": 14539
+        },
+        "Contents": [
+          {
+            "Text": "Kreel #14514",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14556,
+        "Name": "Underwater Passage #14556",
+        "Connections": {
+          "North": 14557,
+          "Up": 14554
+        }
+      },
+      {
+        "Id": 14557,
+        "Name": "Residence of Pisces #14557",
+        "Connections": {
+          "South": 14556
+        },
+        "Contents": [
+          {
+            "Text": "Pisces #14516",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3001,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3001",
+        "Color": "blue",
+        "Connections": {
+          "North": 3054,
+          "East": 3419,
+          "South": 3005,
+          "West": 3413,
+          "Up": 8248,
+          "Down": 2694
+        }
+      },
+      {
+        "Id": 3205,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3205",
+        "Color": "blue",
+        "Connections": {
+          "East": 3037,
+          "West": 3204
+        }
+      },
+      {
+        "Id": 3038,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3038",
+        "Color": "blue",
+        "Connections": {
+          "East": 3039,
+          "South": 14503,
+          "West": 3037
+        }
+      }
+    ]
+  }
+}

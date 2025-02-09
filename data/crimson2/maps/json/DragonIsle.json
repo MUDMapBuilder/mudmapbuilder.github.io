@@ -1,0 +1,523 @@
+{
+  "Area": {
+    "Name": "DragonIsle",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 8565,
+        "Name": "Entrance to the caves #8565",
+        "Connections": {
+          "North": 8566
+        }
+      },
+      {
+        "Id": 8566,
+        "Name": "Inside the catacombs #8566",
+        "Connections": {
+          "North": 8567,
+          "South": 8565
+        }
+      },
+      {
+        "Id": 8567,
+        "Name": "Inside the catacombs #8567",
+        "Connections": {
+          "North": 8568,
+          "South": 8566
+        }
+      },
+      {
+        "Id": 8568,
+        "Name": "Inside the catacombs #8568",
+        "Connections": {
+          "South": 8567,
+          "West": 8569
+        }
+      },
+      {
+        "Id": 8569,
+        "Name": "Inside the catacombs #8569",
+        "Connections": {
+          "East": 8568,
+          "West": 8570
+        }
+      },
+      {
+        "Id": 8570,
+        "Name": "Inside the catacombs #8570",
+        "Connections": {
+          "East": 8569,
+          "West": 8571
+        }
+      },
+      {
+        "Id": 8571,
+        "Name": "Inside the catacombs #8571",
+        "Connections": {
+          "North": 8572,
+          "East": 8570
+        }
+      },
+      {
+        "Id": 8572,
+        "Name": "Inside the catacombs #8572",
+        "Connections": {
+          "East": 8573,
+          "South": 8571
+        }
+      },
+      {
+        "Id": 8573,
+        "Name": "Inside the catacombs #8573",
+        "Connections": {
+          "North": 8574,
+          "West": 8572
+        }
+      },
+      {
+        "Id": 8574,
+        "Name": "Inside the catacombs #8574",
+        "Connections": {
+          "North": 8575,
+          "South": 8573
+        }
+      },
+      {
+        "Id": 8575,
+        "Name": "Inside the catacombs #8575",
+        "Connections": {
+          "North": 8578,
+          "South": 8574,
+          "West": 8576
+        }
+      },
+      {
+        "Id": 8576,
+        "Name": "Inside the catacombs #8576",
+        "Connections": {
+          "East": 8575,
+          "South": 8577
+        }
+      },
+      {
+        "Id": 8577,
+        "Name": "Lair of the Black Wyrm #8577",
+        "Connections": {
+          "North": 8576
+        },
+        "Contents": [
+          {
+            "Text": "The Black Wyrm #8565",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8578,
+        "Name": "Inside the catacombs #8578",
+        "Connections": {
+          "North": 8579,
+          "South": 8575
+        }
+      },
+      {
+        "Id": 8579,
+        "Name": "Inside the catacombs #8579",
+        "Connections": {
+          "North": 8580,
+          "South": 8578
+        }
+      },
+      {
+        "Id": 8580,
+        "Name": "At the foot of the waterfall #8580",
+        "Connections": {
+          "North": 8581,
+          "South": 8579
+        }
+      },
+      {
+        "Id": 8581,
+        "Name": "Inside the waterfall #8581",
+        "Connections": {
+          "North": 8582,
+          "South": 8580
+        }
+      },
+      {
+        "Id": 8582,
+        "Name": "Inside the waterfall #8582",
+        "Connections": {
+          "North": 8583,
+          "South": 8581
+        }
+      },
+      {
+        "Id": 8583,
+        "Name": "Inside the waterfall #8583",
+        "Connections": {
+          "South": 8582,
+          "West": 8584
+        }
+      },
+      {
+        "Id": 8584,
+        "Name": "Inside the waterfall #8584",
+        "Connections": {
+          "East": 8583,
+          "West": {
+            "RoomId": 8585,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8585,
+        "Name": "The lair of the Blue Wyrm #8585",
+        "Connections": {
+          "East": 8584,
+          "South": 8586
+        },
+        "Contents": [
+          {
+            "Text": "The Blue Wyrm #8566",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8586,
+        "Name": "Behind the lair #8586",
+        "Connections": {
+          "North": 8585,
+          "West": 8587
+        }
+      },
+      {
+        "Id": 8587,
+        "Name": "Tight squeeze #8587",
+        "Connections": {
+          "East": 8586,
+          "West": 8588
+        }
+      },
+      {
+        "Id": 8588,
+        "Name": "Tight squeeze #8588",
+        "Connections": {
+          "North": 8589,
+          "East": 8587
+        }
+      },
+      {
+        "Id": 8589,
+        "Name": "Tight squeeze #8589",
+        "Connections": {
+          "North": 8590,
+          "South": 8588
+        }
+      },
+      {
+        "Id": 8590,
+        "Name": "Tight squeeze #8590",
+        "Connections": {
+          "East": 8591,
+          "South": 8589
+        }
+      },
+      {
+        "Id": 8591,
+        "Name": "Tight squeeze #8591",
+        "Connections": {
+          "North": 8592,
+          "West": 8590
+        }
+      },
+      {
+        "Id": 8592,
+        "Name": "Tight squeeze #8592",
+        "Connections": {
+          "East": 8593,
+          "South": 8591
+        }
+      },
+      {
+        "Id": 8593,
+        "Name": "The dead end #8593",
+        "Connections": {
+          "West": 8592,
+          "Down": {
+            "RoomId": 8594,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8594,
+        "Name": "The lair of the Red Wyrm #8594",
+        "Connections": {
+          "West": 8614,
+          "Up": 8593
+        },
+        "Contents": [
+          {
+            "Text": "The Red Wyrm #8567",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8595,
+        "Name": "In the sand #8595",
+        "Connections": {
+          "North": 8596,
+          "East": 8597,
+          "South": 8598,
+          "West": 8601
+        }
+      },
+      {
+        "Id": 8596,
+        "Name": "In the sand #8596",
+        "Connections": {
+          "East": 8600,
+          "South": 8595,
+          "West": 8602
+        }
+      },
+      {
+        "Id": 8597,
+        "Name": "In the sand #8597",
+        "Connections": {
+          "North": 8600,
+          "South": 8599,
+          "West": 8595,
+          "Down": 8604
+        }
+      },
+      {
+        "Id": 8598,
+        "Name": "In the sand #8598",
+        "Connections": {
+          "North": 8595,
+          "East": 8599,
+          "West": 8603
+        }
+      },
+      {
+        "Id": 8599,
+        "Name": "In the sand #8599",
+        "Connections": {
+          "North": 8597,
+          "West": 8598
+        }
+      },
+      {
+        "Id": 8600,
+        "Name": "In the sand #8600",
+        "Connections": {
+          "South": 8597,
+          "West": 8596
+        }
+      },
+      {
+        "Id": 8601,
+        "Name": "In the sand #8601",
+        "Connections": {
+          "North": 8602,
+          "East": 8595,
+          "South": 8603
+        }
+      },
+      {
+        "Id": 8602,
+        "Name": "In the sand #8602",
+        "Connections": {
+          "East": 8596,
+          "South": 8601
+        }
+      },
+      {
+        "Id": 8603,
+        "Name": "Quicksand! #8603",
+        "Connections": {}
+      },
+      {
+        "Id": 8604,
+        "Name": "In the sand room #8604",
+        "Connections": {
+          "North": {
+            "RoomId": 8605,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 8597
+        }
+      },
+      {
+        "Id": 8605,
+        "Name": "Lair of the Yellow Wyrm #8605",
+        "Connections": {
+          "North": 8606,
+          "South": 8604
+        },
+        "Contents": [
+          {
+            "Text": "The Yellow Wyrm #8568",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8606,
+        "Name": "Exiting the cave #8606",
+        "Connections": {
+          "South": 8605,
+          "West": 8607
+        }
+      },
+      {
+        "Id": 8607,
+        "Name": "Coastline #8607",
+        "Connections": {
+          "East": 8606,
+          "West": 8608
+        }
+      },
+      {
+        "Id": 8608,
+        "Name": "Coastline #8608",
+        "Connections": {
+          "North": 8609,
+          "East": 8607
+        }
+      },
+      {
+        "Id": 8609,
+        "Name": "Stairs #8609",
+        "Connections": {
+          "South": 8608,
+          "Up": 8610
+        }
+      },
+      {
+        "Id": 8610,
+        "Name": "Top of the stairs #8610",
+        "Connections": {
+          "North": {
+            "RoomId": 8611,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 8609
+        }
+      },
+      {
+        "Id": 8611,
+        "Name": "Lair of the White Wyrm #8611",
+        "Connections": {
+          "South": 8610
+        },
+        "Contents": [
+          {
+            "Text": "The White Wyrm #8569",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8612,
+        "Name": "In the clouds! #8612",
+        "Connections": {
+          "North": {
+            "RoomId": 8613,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8613,
+        "Name": "The cloudbank #8613",
+        "Connections": {
+          "South": 8612
+        },
+        "Contents": [
+          {
+            "Text": "the Ultimate Wyrm #8570",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8614,
+        "Name": "Outside the volcano #8614",
+        "Connections": {
+          "East": 8594,
+          "West": 8615
+        }
+      },
+      {
+        "Id": 8615,
+        "Name": "In the fog #8615",
+        "Connections": {
+          "East": 8614,
+          "West": 8616
+        }
+      },
+      {
+        "Id": 8616,
+        "Name": "In the fog #8616",
+        "Connections": {
+          "North": 8617,
+          "East": 8615,
+          "South": 8617,
+          "West": {
+            "RoomId": 8618,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8617,
+        "Name": "Falling... #8617",
+        "Connections": {}
+      },
+      {
+        "Id": 8618,
+        "Name": "Lair of the Green Wyrm #8618",
+        "Connections": {
+          "East": {
+            "RoomId": 8616,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 8595
+        },
+        "Contents": [
+          {
+            "Text": "The Green Wyrm #8571",
+            "Color": "green"
+          }
+        ]
+      }
+    ]
+  }
+}

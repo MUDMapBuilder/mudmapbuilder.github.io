@@ -1,0 +1,1167 @@
+{
+  "Area": {
+    "Name": "ElementalCanyon",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 7300,
+        "Name": "A Small Dock #7300",
+        "Connections": {
+          "North": 7301,
+          "South": 12879
+        }
+      },
+      {
+        "Id": 7301,
+        "Name": "Base of the Mountain #7301",
+        "Connections": {
+          "South": 7300,
+          "Up": 7302
+        }
+      },
+      {
+        "Id": 7302,
+        "Name": "Halfway up the Mountain #7302",
+        "Connections": {
+          "Up": 7303,
+          "Down": 7301
+        }
+      },
+      {
+        "Id": 7303,
+        "Name": "Top of the Mountain #7303",
+        "Connections": {
+          "North": 7304,
+          "Down": 7302
+        }
+      },
+      {
+        "Id": 7304,
+        "Name": "The Overlook #7304",
+        "Connections": {
+          "South": 7303,
+          "Down": 7305
+        }
+      },
+      {
+        "Id": 7305,
+        "Name": "A Long Winding Ravine #7305",
+        "Connections": {
+          "Up": 7304,
+          "Down": 7306
+        }
+      },
+      {
+        "Id": 7306,
+        "Name": "Canyon Floor #7306",
+        "Connections": {
+          "North": 7317,
+          "East": 7336,
+          "South": 7356,
+          "West": 7377,
+          "Up": 7305,
+          "Down": 7307
+        }
+      },
+      {
+        "Id": 7307,
+        "Name": "A Black Passage #7307",
+        "Connections": {
+          "North": 7308
+        }
+      },
+      {
+        "Id": 7308,
+        "Name": "A Black Passage #7308",
+        "Connections": {
+          "North": 7309
+        }
+      },
+      {
+        "Id": 7309,
+        "Name": "A Black Passage #7309",
+        "Connections": {
+          "East": 7310,
+          "South": 7308,
+          "West": 7316
+        }
+      },
+      {
+        "Id": 7310,
+        "Name": "A Black Passage #7310",
+        "Connections": {
+          "North": 7311,
+          "West": 7309
+        },
+        "Contents": [
+          {
+            "Text": "an ether warrior #7328",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7311,
+        "Name": "A Black Passage #7311",
+        "Connections": {
+          "South": 7310,
+          "West": 7312
+        },
+        "Contents": [
+          {
+            "Text": "an ether warrior #7328",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7312,
+        "Name": "A Black Passage #7312",
+        "Connections": {
+          "North": 7313,
+          "East": 7311,
+          "West": 7315
+        }
+      },
+      {
+        "Id": 7313,
+        "Name": "A Black Passage #7313",
+        "Connections": {
+          "North": 7314,
+          "South": 7312
+        }
+      },
+      {
+        "Id": 7314,
+        "Name": "The Shrine of Ether #7314",
+        "Connections": {
+          "South": 7313,
+          "West": 7399
+        },
+        "Contents": [
+          {
+            "Text": "the guardian of ether #7329",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7315,
+        "Name": "A Black Passage #7315",
+        "Connections": {
+          "East": 7312,
+          "South": 7316
+        },
+        "Contents": [
+          {
+            "Text": "an ether warrior #7328",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7316,
+        "Name": "A Black Passage #7316",
+        "Connections": {
+          "North": 7315,
+          "East": 7309
+        },
+        "Contents": [
+          {
+            "Text": "an ether warrior #7328",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7317,
+        "Name": "Into the Earth #7317",
+        "Connections": {
+          "North": 7318
+        }
+      },
+      {
+        "Id": 7318,
+        "Name": "Deeper in the Earth #7318",
+        "Connections": {
+          "East": 7319,
+          "South": 7317,
+          "West": 7332
+        },
+        "Contents": [
+          {
+            "Text": "a small earth elemental #7300",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7319,
+        "Name": "Deeper in the Earth #7319",
+        "Connections": {
+          "North": 7320,
+          "West": 7318
+        },
+        "Contents": [
+          {
+            "Text": "a small earth elemental #7300",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7320,
+        "Name": "Deeper in the Earth #7320",
+        "Connections": {
+          "East": 7321,
+          "South": 7319
+        }
+      },
+      {
+        "Id": 7321,
+        "Name": "Deeper in the Earth #7321",
+        "Connections": {
+          "North": 7322,
+          "West": 7320
+        },
+        "Contents": [
+          {
+            "Text": "a large earth elemental #7301",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7322,
+        "Name": "Deeper in the Earth #7322",
+        "Connections": {
+          "South": 7321,
+          "Down": 7323
+        }
+      },
+      {
+        "Id": 7323,
+        "Name": "Deeper in the Earth #7323",
+        "Connections": {
+          "West": 7324,
+          "Up": 7322
+        },
+        "Contents": [
+          {
+            "Text": "a small earth golem #7302",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7324,
+        "Name": "Deeper in the Earth #7324",
+        "Connections": {
+          "North": 7325,
+          "East": 7323,
+          "South": {
+            "RoomId": 7326,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 7328
+        }
+      },
+      {
+        "Id": 7325,
+        "Name": "The Guardian\u0027s Chamber #7325",
+        "Connections": {
+          "North": 7333,
+          "South": 7324
+        },
+        "Contents": [
+          {
+            "Text": "the guardian of the earth #7304",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7326,
+        "Name": "Treasury #7326",
+        "Connections": {
+          "North": 7324,
+          "South": 7327
+        },
+        "Contents": [
+          {
+            "Text": "a large earth golem #7303",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7327,
+        "Name": "Shrine of the Earth #7327",
+        "Connections": {
+          "North": 7326
+        }
+      },
+      {
+        "Id": 7328,
+        "Name": "Deeper in the Earth #7328",
+        "Connections": {
+          "East": 7324,
+          "Up": 7329
+        },
+        "Contents": [
+          {
+            "Text": "a small earth golem #7302",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7329,
+        "Name": "Deeper in the Earth #7329",
+        "Connections": {
+          "South": 7330,
+          "Down": 7328
+        }
+      },
+      {
+        "Id": 7330,
+        "Name": "Deeper in the Earth #7330",
+        "Connections": {
+          "North": 7329,
+          "East": 7331
+        },
+        "Contents": [
+          {
+            "Text": "a large earth elemental #7301",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7331,
+        "Name": "Deeper in the Earth #7331",
+        "Connections": {
+          "South": 7332,
+          "West": 7330
+        }
+      },
+      {
+        "Id": 7332,
+        "Name": "Deeper in the Earth #7332",
+        "Connections": {
+          "North": 7331,
+          "East": 7318
+        },
+        "Contents": [
+          {
+            "Text": "a small earth elemental #7300",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7333,
+        "Name": "Essense Of the Earth #7333",
+        "Connections": {
+          "South": 7325,
+          "Up": 7335,
+          "Down": 7334
+        },
+        "Contents": [
+          {
+            "Text": "the essense of the earth #7305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7334,
+        "Name": "The Heart of the Earth #7334",
+        "Connections": {
+          "Up": 7333
+        },
+        "Contents": [
+          {
+            "Text": "the heart of the earth #7306",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7335,
+        "Name": "The Portal #7335",
+        "Connections": {
+          "North": 7306,
+          "Down": 7333
+        }
+      },
+      {
+        "Id": 7336,
+        "Name": "In the Air #7336",
+        "Connections": {
+          "East": 7337
+        }
+      },
+      {
+        "Id": 7337,
+        "Name": "In the Air #7337",
+        "Connections": {
+          "North": 7342,
+          "South": 7338,
+          "West": 7336
+        },
+        "Contents": [
+          {
+            "Text": "a small air elemental #7307",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7338,
+        "Name": "In the Air #7338",
+        "Connections": {
+          "North": 7337,
+          "East": 7339
+        },
+        "Contents": [
+          {
+            "Text": "a small air elemental #7307",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7339,
+        "Name": "In the Air #7339",
+        "Connections": {
+          "South": 7340,
+          "West": 7338
+        }
+      },
+      {
+        "Id": 7340,
+        "Name": "In the Air #7340",
+        "Connections": {
+          "North": 7339,
+          "South": 7341
+        }
+      },
+      {
+        "Id": 7341,
+        "Name": "In the Air #7341",
+        "Connections": {
+          "North": 7340
+        }
+      },
+      {
+        "Id": 7342,
+        "Name": "In the Air #7342",
+        "Connections": {
+          "East": 7343,
+          "South": 7337
+        },
+        "Contents": [
+          {
+            "Text": "a small air elemental #7307",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7343,
+        "Name": "In the Air #7343",
+        "Connections": {
+          "East": 7344,
+          "West": 7342
+        },
+        "Contents": [
+          {
+            "Text": "a large air elemental #7308",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7344,
+        "Name": "In the Air #7344",
+        "Connections": {
+          "South": {
+            "RoomId": 7345,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 7343,
+          "Up": 7347
+        },
+        "Contents": [
+          {
+            "Text": "a small translucent being #7309",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7345,
+        "Name": "Treasury #7345",
+        "Connections": {
+          "North": 7344,
+          "West": 7346
+        },
+        "Contents": [
+          {
+            "Text": "a large air elemental #7308",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7346,
+        "Name": "Shrine of Air #7346",
+        "Connections": {
+          "East": 7345
+        },
+        "Contents": [
+          {
+            "Text": "a small translucent being #7309",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7347,
+        "Name": "In the Air #7347",
+        "Connections": {
+          "West": 7348,
+          "Down": 7344
+        },
+        "Contents": [
+          {
+            "Text": "a large translucent being #7310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7348,
+        "Name": "In the Air #7348",
+        "Connections": {
+          "North": 7350,
+          "East": 7347,
+          "West": 7349
+        }
+      },
+      {
+        "Id": 7349,
+        "Name": "In the Air #7349",
+        "Connections": {
+          "North": 7351,
+          "East": 7348
+        },
+        "Contents": [
+          {
+            "Text": "a large translucent being #7310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7350,
+        "Name": "In the Air #7350",
+        "Connections": {
+          "South": 7348,
+          "West": 7351
+        }
+      },
+      {
+        "Id": 7351,
+        "Name": "In the Air #7351",
+        "Connections": {
+          "East": 7350,
+          "South": 7349,
+          "West": 7352
+        }
+      },
+      {
+        "Id": 7352,
+        "Name": "The Guardian\u0027s Chamber #7352",
+        "Connections": {
+          "East": 7351,
+          "South": 7353
+        },
+        "Contents": [
+          {
+            "Text": "the guardian of the air #7311",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7353,
+        "Name": "Essense of the Air #7353",
+        "Connections": {
+          "North": 7352,
+          "Up": 7354,
+          "Down": 7355
+        },
+        "Contents": [
+          {
+            "Text": "the essense of the air #7312",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7354,
+        "Name": "Heart of the Air #7354",
+        "Connections": {
+          "Down": 7353
+        },
+        "Contents": [
+          {
+            "Text": "the heart of the air #7313",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7355,
+        "Name": "The Portal #7355",
+        "Connections": {
+          "North": 7306,
+          "Up": 7353
+        }
+      },
+      {
+        "Id": 7356,
+        "Name": "On the Ocean #7356",
+        "Connections": {
+          "South": 7357
+        }
+      },
+      {
+        "Id": 7357,
+        "Name": "On the Ocean #7357",
+        "Connections": {
+          "North": 7356,
+          "South": 7358
+        }
+      },
+      {
+        "Id": 7358,
+        "Name": "On the Ocean #7358",
+        "Connections": {
+          "North": 7357,
+          "East": 7366,
+          "South": 7364,
+          "West": 7359
+        },
+        "Contents": [
+          {
+            "Text": "a small water elemental #7314",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7359,
+        "Name": "On the Ocean #7359",
+        "Connections": {
+          "East": 7358,
+          "South": 7360
+        }
+      },
+      {
+        "Id": 7360,
+        "Name": "On the Ocean #7360",
+        "Connections": {
+          "North": 7359,
+          "East": 7364,
+          "South": 7361
+        },
+        "Contents": [
+          {
+            "Text": "a small water elemental #7314",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7361,
+        "Name": "On the Ocean #7361",
+        "Connections": {
+          "North": 7360,
+          "East": 7365,
+          "Down": {
+            "RoomId": 7362,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 7362,
+        "Name": "Treasury #7362",
+        "Connections": {
+          "South": 7363,
+          "Up": 7361
+        },
+        "Contents": [
+          {
+            "Text": "a large water elemental #7315",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7363,
+        "Name": "Shrine of Water #7363",
+        "Connections": {
+          "North": 7362
+        }
+      },
+      {
+        "Id": 7364,
+        "Name": "On the Ocean #7364",
+        "Connections": {
+          "North": 7358,
+          "East": 7367,
+          "South": 7365,
+          "West": 7360
+        }
+      },
+      {
+        "Id": 7365,
+        "Name": "On the Ocean #7365",
+        "Connections": {
+          "North": 7364,
+          "East": 7368,
+          "West": 7361
+        }
+      },
+      {
+        "Id": 7366,
+        "Name": "On the Ocean #7366",
+        "Connections": {
+          "East": 7369,
+          "South": 7367,
+          "West": 7358
+        }
+      },
+      {
+        "Id": 7367,
+        "Name": "On the Ocean #7367",
+        "Connections": {
+          "North": 7366,
+          "East": 7370,
+          "South": 7368,
+          "West": 7364
+        },
+        "Contents": [
+          {
+            "Text": "a small water elemental #7314",
+            "Color": "green"
+          },
+          {
+            "Text": "a large water sprite #7317",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7368,
+        "Name": "On the Ocean #7368",
+        "Connections": {
+          "North": 7367,
+          "East": 7371,
+          "West": 7365
+        }
+      },
+      {
+        "Id": 7369,
+        "Name": "On the Ocean #7369",
+        "Connections": {
+          "South": 7370,
+          "West": 7366
+        }
+      },
+      {
+        "Id": 7370,
+        "Name": "The Waterfall #7370",
+        "Connections": {
+          "North": 7369,
+          "East": 7372,
+          "South": 7371,
+          "West": 7367
+        },
+        "Contents": [
+          {
+            "Text": "a large water elemental #7315",
+            "Color": "green"
+          },
+          {
+            "Text": "a small water sprite #7316",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7371,
+        "Name": "On the Ocean #7371",
+        "Connections": {
+          "North": 7370,
+          "West": 7368
+        }
+      },
+      {
+        "Id": 7372,
+        "Name": "Behind the Waterfall #7372",
+        "Connections": {
+          "South": 7373,
+          "West": 7370
+        },
+        "Contents": [
+          {
+            "Text": "a small water sprite #7316",
+            "Color": "green"
+          },
+          {
+            "Text": "a large water sprite #7317",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7373,
+        "Name": "The Guardian\u0027s Chamber #7373",
+        "Connections": {
+          "North": 7372,
+          "South": 7374
+        },
+        "Contents": [
+          {
+            "Text": "the guardian of water #7318",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7374,
+        "Name": "Essense of Water #7374",
+        "Connections": {
+          "North": 7373,
+          "East": 7375,
+          "West": 7376
+        },
+        "Contents": [
+          {
+            "Text": "the essense of water #7319",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7375,
+        "Name": "Heart of Water #7375",
+        "Connections": {
+          "West": 7374
+        },
+        "Contents": [
+          {
+            "Text": "the heart of water #7320",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7376,
+        "Name": "The Portal #7376",
+        "Connections": {
+          "East": 7374,
+          "South": 7306
+        }
+      },
+      {
+        "Id": 7377,
+        "Name": "In the Fire #7377",
+        "Connections": {
+          "West": 7378
+        },
+        "Contents": [
+          {
+            "Text": "the small fire elemental #7321",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7378,
+        "Name": "In the Fire #7378",
+        "Connections": {
+          "East": 7377,
+          "West": 7379
+        },
+        "Contents": [
+          {
+            "Text": "the small fire elemental #7321",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7379,
+        "Name": "The Ring of Fire #7379",
+        "Connections": {
+          "East": 7378,
+          "West": 7380
+        },
+        "Contents": [
+          {
+            "Text": "the small fire elemental #7321",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7380,
+        "Name": "The Ring of Fire #7380",
+        "Connections": {
+          "North": 7381
+        }
+      },
+      {
+        "Id": 7381,
+        "Name": "The Ring of Fire #7381",
+        "Connections": {
+          "West": 7382
+        },
+        "Contents": [
+          {
+            "Text": "the large fire elemental #7322",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7382,
+        "Name": "In the Fire #7382",
+        "Connections": {
+          "North": 7392,
+          "South": 7383
+        },
+        "Contents": [
+          {
+            "Text": "the large fire elemental #7322",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7383,
+        "Name": "In the Fire #7383",
+        "Connections": {
+          "North": 7382,
+          "West": 7384
+        }
+      },
+      {
+        "Id": 7384,
+        "Name": "In the Fire #7384",
+        "Connections": {
+          "East": 7383,
+          "South": 7385
+        },
+        "Contents": [
+          {
+            "Text": "a lava golem #7323",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7385,
+        "Name": "In the Fire #7385",
+        "Connections": {
+          "North": 7384,
+          "West": 7386
+        }
+      },
+      {
+        "Id": 7386,
+        "Name": "In the Fire #7386",
+        "Connections": {
+          "North": 7387,
+          "East": 7385
+        }
+      },
+      {
+        "Id": 7387,
+        "Name": "In the Fire #7387",
+        "Connections": {
+          "North": 7388,
+          "South": 7386
+        }
+      },
+      {
+        "Id": 7388,
+        "Name": "In the Fire #7388",
+        "Connections": {
+          "East": 7389,
+          "South": 7387
+        }
+      },
+      {
+        "Id": 7389,
+        "Name": "In the Fire #7389",
+        "Connections": {
+          "North": {
+            "RoomId": 7390,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 7388
+        }
+      },
+      {
+        "Id": 7390,
+        "Name": "Treasury #7390",
+        "Connections": {
+          "South": 7389,
+          "West": 7391
+        },
+        "Contents": [
+          {
+            "Text": "a large lava golem #7324",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7391,
+        "Name": "Shrine of Fire #7391",
+        "Connections": {
+          "East": 7390
+        }
+      },
+      {
+        "Id": 7392,
+        "Name": "In the Fire #7392",
+        "Connections": {
+          "East": 7393,
+          "South": 7382
+        }
+      },
+      {
+        "Id": 7393,
+        "Name": "In the Fire #7393",
+        "Connections": {
+          "North": 7394,
+          "West": 7392
+        },
+        "Contents": [
+          {
+            "Text": "a lava golem #7323",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7394,
+        "Name": "In the Fire #7394",
+        "Connections": {
+          "South": 7393,
+          "West": 7395
+        },
+        "Contents": [
+          {
+            "Text": "a large lava golem #7324",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7395,
+        "Name": "Guardian\u0027s Chamber #7395",
+        "Connections": {
+          "East": 7394,
+          "West": 7396
+        },
+        "Contents": [
+          {
+            "Text": "the guardian of fire #7325",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7396,
+        "Name": "Essense of Fire #7396",
+        "Connections": {
+          "North": 7398,
+          "East": 7395,
+          "West": 7397
+        },
+        "Contents": [
+          {
+            "Text": "the essense of fire #7326",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7397,
+        "Name": "Heart of Fire #7397",
+        "Connections": {
+          "East": 7396
+        },
+        "Contents": [
+          {
+            "Text": "the heart of fire #7327",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7398,
+        "Name": "The Portal #7398",
+        "Connections": {
+          "North": 7306,
+          "South": 7396
+        }
+      },
+      {
+        "Id": 7399,
+        "Name": "Heart of the Ether #7399",
+        "Connections": {
+          "East": 7314
+        },
+        "Contents": [
+          {
+            "Text": "the heart of ether #7331",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12879,
+        "FrameColor": "blue",
+        "Name": "To Ocean1 #12879",
+        "Color": "blue",
+        "Connections": {
+          "North": 7300,
+          "East": 12878,
+          "South": 12830
+        }
+      }
+    ]
+  }
+}

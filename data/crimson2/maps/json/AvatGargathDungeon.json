@@ -1,0 +1,240 @@
+{
+  "Area": {
+    "Name": "AvatGargathDungeon",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 15885,
+        "Name": "A dark stairway leading down #15885",
+        "Connections": {
+          "Up": 15947,
+          "Down": 15886
+        }
+      },
+      {
+        "Id": 15886,
+        "Name": "A dark stairway leading down #15886",
+        "Connections": {
+          "Up": 15885,
+          "Down": 15887
+        }
+      },
+      {
+        "Id": 15887,
+        "Name": "The entrance to the lower dungeon of Gargath\u0027s Keep. #15887",
+        "Connections": {
+          "East": 15888,
+          "Up": 15886
+        }
+      },
+      {
+        "Id": 15888,
+        "Name": "Dungeons of Gargath\u0027s Keep #15888",
+        "Connections": {
+          "North": 15889,
+          "South": 15895,
+          "West": 15887
+        }
+      },
+      {
+        "Id": 15889,
+        "Name": "Dungeons of Gargath\u0027s Keep #15889",
+        "Connections": {
+          "North": 15890,
+          "South": 15888
+        },
+        "Contents": [
+          {
+            "Text": "Baylee #15887",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15890,
+        "Name": "Dungeons of Gargath\u0027s Keep #15890",
+        "Connections": {
+          "North": 15893,
+          "East": 15891,
+          "South": 15889,
+          "West": 15892
+        },
+        "Contents": [
+          {
+            "Text": "Dungeon crawler #15888",
+            "Color": "red"
+          },
+          {
+            "Text": "Dungeon crawler #15888",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15891,
+        "Name": "Prison cell #15891",
+        "Connections": {
+          "West": 15890
+        },
+        "Contents": [
+          {
+            "Text": "Imprisoned Knight #15890",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15892,
+        "Name": "Prison cell #15892",
+        "Connections": {
+          "East": 15890
+        },
+        "Contents": [
+          {
+            "Text": "Blight Avatar of Destruction #15891",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15893,
+        "Name": "A musty laboratory #15893",
+        "Connections": {
+          "South": 15890
+        },
+        "Contents": [
+          {
+            "Text": "Feeble Scientist #15886",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15894,
+        "Name": "A storage chamber #15894",
+        "Connections": {
+          "South": 15893
+        },
+        "Contents": [
+          {
+            "Text": "Bonegrinder #15885",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15895,
+        "Name": "Dungeons of Gargath\u0027s Keep #15895",
+        "Connections": {
+          "North": 15888,
+          "South": 15896
+        }
+      },
+      {
+        "Id": 15896,
+        "Name": "Dungeons of Gargath\u0027s Keep #15896",
+        "Connections": {
+          "North": 15895,
+          "East": 15897,
+          "South": 15898,
+          "West": 15899
+        },
+        "Contents": [
+          {
+            "Text": "Dungeon crawler #15888",
+            "Color": "red"
+          },
+          {
+            "Text": "Dungeon crawler #15888",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15897,
+        "Name": "Prison cell #15897",
+        "Connections": {
+          "West": 15896
+        },
+        "Contents": [
+          {
+            "Text": "feeble prisoner #15889",
+            "Color": "green"
+          },
+          {
+            "Text": "feeble prisoner #15889",
+            "Color": "green"
+          },
+          {
+            "Text": "feeble prisoner #15889",
+            "Color": "green"
+          },
+          {
+            "Text": "feeble prisoner #15889",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15898,
+        "Name": "Prison cell #15898",
+        "Connections": {
+          "North": 15896
+        },
+        "Contents": [
+          {
+            "Text": "feeble prisoner #15889",
+            "Color": "green"
+          },
+          {
+            "Text": "feeble prisoner #15889",
+            "Color": "green"
+          },
+          {
+            "Text": "feeble prisoner #15889",
+            "Color": "green"
+          },
+          {
+            "Text": "feeble prisoner #15889",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15899,
+        "Name": "Prison cell #15899",
+        "Connections": {
+          "East": 15896
+        },
+        "Contents": [
+          {
+            "Text": "feeble prisoner #15889",
+            "Color": "green"
+          },
+          {
+            "Text": "feeble prisoner #15889",
+            "Color": "green"
+          },
+          {
+            "Text": "feeble prisoner #15889",
+            "Color": "green"
+          },
+          {
+            "Text": "feeble prisoner #15889",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15947,
+        "FrameColor": "blue",
+        "Name": "To AvatGargathKeep #15947",
+        "Color": "blue",
+        "Connections": {
+          "North": 15946,
+          "Down": 15885
+        }
+      }
+    ]
+  }
+}

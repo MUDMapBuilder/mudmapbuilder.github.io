@@ -1,0 +1,1493 @@
+{
+  "Area": {
+    "Name": "TeldescianSwamps",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 16900,
+        "Name": "Temple to the Eternal Lag #16900",
+        "Connections": {
+          "West": 16901,
+          "Up": 3014,
+          "Down": 8311
+        }
+      },
+      {
+        "Id": 16901,
+        "Name": "Inside a Small Shack #16901",
+        "Connections": {
+          "East": 16944
+        },
+        "Contents": [
+          {
+            "Text": "the swamp witch #16916",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16902,
+        "Name": "The Dragon\u0027s Hoard #16902",
+        "Connections": {
+          "South": 16927
+        }
+      },
+      {
+        "Id": 16903,
+        "Name": "On a Shallow River #16903",
+        "Connections": {
+          "North": 16904,
+          "East": 17018
+        },
+        "Contents": [
+          {
+            "Text": "A large green vine #16902",
+            "Color": "red"
+          },
+          {
+            "Text": "a creeping water spider #16910",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16904,
+        "Name": "On a Shallow River #16904",
+        "Connections": {
+          "North": 16905,
+          "South": 16903,
+          "West": 16908
+        },
+        "Contents": [
+          {
+            "Text": "A large green vine #16902",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16905,
+        "Name": "Before the Fisherman\u0027s Shack #16905",
+        "Connections": {
+          "North": 17012,
+          "East": 16906,
+          "South": 16904
+        },
+        "Contents": [
+          {
+            "Text": "A large green vine #16902",
+            "Color": "red"
+          },
+          {
+            "Text": "A large green vine #16902",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16906,
+        "Name": "The Fisherman\u0027s Shack #16906",
+        "Connections": {
+          "East": 16982,
+          "West": 16905,
+          "Down": {
+            "RoomId": 16929,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the fisherman #16928",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16907,
+        "Name": "On A Shallow River #16907",
+        "Connections": {
+          "North": 16911,
+          "South": 17012
+        },
+        "Contents": [
+          {
+            "Text": "A large green vine #16902",
+            "Color": "red"
+          },
+          {
+            "Text": "A large green vine #16902",
+            "Color": "red"
+          },
+          {
+            "Text": "A large green vine #16902",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16908,
+        "Name": "On a Small Animal Trail #16908",
+        "Connections": {
+          "East": 16904,
+          "West": 16912
+        },
+        "Contents": [
+          {
+            "Text": "a killer mosquito #16911",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16909,
+        "Name": "A Dead End #16909",
+        "Connections": {
+          "East": 16912
+        },
+        "Contents": [
+          {
+            "Text": "a killer mosquito #16911",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16910,
+        "Name": "The Marsh Forest #16910",
+        "Connections": {
+          "North": 16965,
+          "South": 16912
+        },
+        "Contents": [
+          {
+            "Text": "a killer mosquito #16911",
+            "Color": "red"
+          },
+          {
+            "Text": "a giant oak #16906",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16911,
+        "Name": "Edge of the Swamp #16911",
+        "Connections": {
+          "East": 16913,
+          "South": 16907,
+          "West": 16914
+        },
+        "Contents": [
+          {
+            "Text": "A large green vine #16902",
+            "Color": "red"
+          },
+          {
+            "Text": "a large green frog #16921",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16912,
+        "Name": "Fork in the Path #16912",
+        "Connections": {
+          "North": 16910,
+          "East": 16908,
+          "West": 16909
+        },
+        "Contents": [
+          {
+            "Text": "a green viper #16904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16913,
+        "Name": "The Teldescian Swamps #16913",
+        "Connections": {
+          "North": 16916,
+          "East": 16919,
+          "West": 16911
+        },
+        "Contents": [
+          {
+            "Text": "a black viper #16903",
+            "Color": "red"
+          },
+          {
+            "Text": "a green viper #16904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16914,
+        "Name": "The Teldescian Swamps #16914",
+        "Connections": {
+          "North": 16915,
+          "East": 16911,
+          "South": 16919,
+          "West": 16923
+        },
+        "Contents": [
+          {
+            "Text": "a large alligator #16900",
+            "Color": "red"
+          },
+          {
+            "Text": "A strange Agalaf #16913",
+            "Color": "green"
+          },
+          {
+            "Text": "the lich #16927",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16915,
+        "Name": "The Teldescian Swamps #16915",
+        "Connections": {
+          "North": 16923,
+          "South": 16914,
+          "West": 16920
+        },
+        "Contents": [
+          {
+            "Text": "a black viper #16903",
+            "Color": "red"
+          },
+          {
+            "Text": "a large green frog #16921",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16916,
+        "Name": "The Teldescian Swamps #16916",
+        "Connections": {
+          "North": 16919,
+          "East": 16918,
+          "South": 16913,
+          "West": 16917
+        },
+        "Contents": [
+          {
+            "Text": "a green viper #16904",
+            "Color": "green"
+          },
+          {
+            "Text": "a large green frog #16921",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16917,
+        "Name": "The Teldescian Swamps #16917",
+        "Connections": {
+          "North": 16924,
+          "East": 16916
+        },
+        "Contents": [
+          {
+            "Text": "a large green frog #16921",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16918,
+        "Name": "The Teldescian Swamps #16918",
+        "Connections": {
+          "North": 16925,
+          "South": 16923,
+          "West": 16916
+        },
+        "Contents": [
+          {
+            "Text": "a large alligator #16900",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16919,
+        "Name": "The Teldescian Swamps #16919",
+        "Connections": {
+          "North": 16914,
+          "South": 16916,
+          "West": 16913
+        },
+        "Contents": [
+          {
+            "Text": "a large alligator #16900",
+            "Color": "red"
+          },
+          {
+            "Text": "a serpent sentry #16908",
+            "Color": "green"
+          },
+          {
+            "Text": "a large green frog #16921",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16920,
+        "Name": "The Teldescian Swamps #16920",
+        "Connections": {
+          "East": 16963,
+          "South": 16964,
+          "Down": 16921
+        }
+      },
+      {
+        "Id": 16921,
+        "Name": "Underwater in Front of a Large Cave #16921",
+        "Connections": {
+          "East": 16922,
+          "Up": 16920
+        }
+      },
+      {
+        "Id": 16922,
+        "Name": "Entrance to the Cave #16922",
+        "Connections": {
+          "North": 17019,
+          "West": 16921
+        }
+      },
+      {
+        "Id": 16923,
+        "Name": "The Teldescian Swamps #16923",
+        "Connections": {
+          "North": 16918,
+          "East": 16914,
+          "South": 16915
+        },
+        "Contents": [
+          {
+            "Text": "a green viper #16904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16924,
+        "Name": "The Teldescian Swamps #16924",
+        "Connections": {
+          "North": 16928,
+          "East": 16925,
+          "South": 16917
+        },
+        "Contents": [
+          {
+            "Text": "a large alligator #16900",
+            "Color": "red"
+          },
+          {
+            "Text": "a red Arantan plant #16905",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16925,
+        "Name": "Before the Tunnel #16925",
+        "Connections": {
+          "North": 16926,
+          "South": 16918,
+          "West": 16924
+        },
+        "Contents": [
+          {
+            "Text": "a huge water snake #16907",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16926,
+        "Name": "Inside the Tunnel #16926",
+        "Connections": {
+          "North": 16927,
+          "South": 16925
+        }
+      },
+      {
+        "Id": 16927,
+        "Name": "Black Dragon\u0027s Lair #16927",
+        "Connections": {
+          "North": 16902,
+          "South": 16926
+        },
+        "Contents": [
+          {
+            "Text": "Mandrake #16930",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16928,
+        "Name": "The Teldescian Swamps #16928",
+        "Connections": {
+          "North": 16934,
+          "South": 16924
+        }
+      },
+      {
+        "Id": 16929,
+        "Name": "A Secret Escape Passage #16929",
+        "Connections": {
+          "West": 16930
+        }
+      },
+      {
+        "Id": 16930,
+        "Name": "Inside a Passage #16930",
+        "Connections": {
+          "East": 16929,
+          "South": 16932,
+          "West": 16931
+        }
+      },
+      {
+        "Id": 16931,
+        "Name": "A Dead End in the Passage #16931",
+        "Connections": {
+          "East": 16930
+        }
+      },
+      {
+        "Id": 16932,
+        "Name": "Inside a Passage #16932",
+        "Connections": {
+          "North": 16930,
+          "West": 16933
+        }
+      },
+      {
+        "Id": 16933,
+        "Name": "A Small Treasure Room #16933",
+        "Connections": {
+          "East": 16932,
+          "Up": 16909
+        }
+      },
+      {
+        "Id": 16934,
+        "Name": "The Teldescian Swamps #16934",
+        "Connections": {
+          "North": 16936,
+          "East": 16937,
+          "South": 16928,
+          "West": 16935
+        },
+        "Contents": [
+          {
+            "Text": "a red Arantan plant #16905",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16935,
+        "Name": "The Teldescian Swamps #16935",
+        "Connections": {
+          "East": 16934,
+          "South": 16948,
+          "West": 16938
+        }
+      },
+      {
+        "Id": 16936,
+        "Name": "The Teldescian Swamps #16936",
+        "Connections": {
+          "South": 16934,
+          "West": 16939
+        },
+        "Contents": [
+          {
+            "Text": "a serpent sentry #16908",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16937,
+        "Name": "The Teldescian Swamps #16937",
+        "Connections": {
+          "North": 16944,
+          "East": 16953,
+          "West": 16934
+        }
+      },
+      {
+        "Id": 16938,
+        "Name": "The Teldescian Swamps #16938",
+        "Connections": {
+          "North": 16940,
+          "East": 16935
+        },
+        "Contents": [
+          {
+            "Text": "a red Arantan plant #16905",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16939,
+        "Name": "The Teldescian Swamps #16939",
+        "Connections": {
+          "North": 16941,
+          "East": 16936
+        },
+        "Contents": [
+          {
+            "Text": "a huge water snake #16907",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16940,
+        "Name": "The Teldescian Swamps #16940",
+        "Connections": {
+          "North": 16943,
+          "South": 16938,
+          "West": 16942
+        },
+        "Contents": [
+          {
+            "Text": "a red Arantan plant #16905",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16941,
+        "Name": "The Teldescian Swamps #16941",
+        "Connections": {
+          "South": 16939,
+          "West": 16951
+        }
+      },
+      {
+        "Id": 16942,
+        "Name": "The Teldescian Swamps #16942",
+        "Connections": {
+          "North": 16950,
+          "East": 16940,
+          "South": 16945
+        }
+      },
+      {
+        "Id": 16943,
+        "Name": "The Teldescian Swamps #16943",
+        "Connections": {
+          "North": 16947,
+          "South": 16940
+        }
+      },
+      {
+        "Id": 16944,
+        "Name": "The Teldescian Swamps #16944",
+        "Connections": {
+          "North": 16945,
+          "East": 16951,
+          "South": 16937,
+          "West": 16901
+        },
+        "Contents": [
+          {
+            "Text": "a huge mother toad #16922",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16945,
+        "Name": "The Teldescian Swamps #16945",
+        "Connections": {
+          "North": 16942,
+          "South": 16944,
+          "West": 16946
+        },
+        "Contents": [
+          {
+            "Text": "a huge mother toad #16922",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16946,
+        "Name": "The Teldescian Swamps #16946",
+        "Connections": {
+          "North": 16949,
+          "East": 16945,
+          "South": 16952,
+          "West": 16957
+        },
+        "Contents": [
+          {
+            "Text": "A giant Ettin #16926",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16947,
+        "Name": "The Teldescian Swamps #16947",
+        "Connections": {
+          "North": 16956,
+          "East": 16948,
+          "South": 16943
+        }
+      },
+      {
+        "Id": 16948,
+        "Name": "The Teldescian Swamps #16948",
+        "Connections": {
+          "North": 16935,
+          "East": 16949,
+          "West": 16947
+        }
+      },
+      {
+        "Id": 16949,
+        "Name": "The Teldescian Swamps #16949",
+        "Connections": {
+          "North": 16953,
+          "South": 16946,
+          "West": 16948
+        }
+      },
+      {
+        "Id": 16950,
+        "Name": "The Teldescian Swamps #16950",
+        "Connections": {
+          "North": 16952,
+          "South": 16942,
+          "West": 16953
+        },
+        "Contents": [
+          {
+            "Text": "a large turtle #16923",
+            "Color": "green"
+          },
+          {
+            "Text": "the will\u0027o\u0027wisp #16925",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16951,
+        "Name": "The Teldescian Swamps #16951",
+        "Connections": {
+          "North": 16954,
+          "East": 16941,
+          "West": 16944
+        },
+        "Contents": [
+          {
+            "Text": "a huge water snake #16907",
+            "Color": "green"
+          },
+          {
+            "Text": "a large turtle #16923",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16952,
+        "Name": "The Teldescian Swamps #16952",
+        "Connections": {
+          "North": 16946,
+          "South": 16950,
+          "West": 16954
+        },
+        "Contents": [
+          {
+            "Text": "a red Arantan plant #16905",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16953,
+        "Name": "The Teldescian Swamps #16953",
+        "Connections": {
+          "East": 16950,
+          "South": 16949,
+          "West": 16937
+        }
+      },
+      {
+        "Id": 16954,
+        "Name": "The Teldescian Swamps #16954",
+        "Connections": {
+          "North": 16955,
+          "East": 16952,
+          "South": 16951
+        },
+        "Contents": [
+          {
+            "Text": "the will\u0027o\u0027wisp #16925",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16955,
+        "Name": "The Teldescian Swamps #16955",
+        "Connections": {
+          "North": 16958,
+          "East": 16956,
+          "South": 16954
+        },
+        "Contents": [
+          {
+            "Text": "a serpent sentry #16908",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16956,
+        "Name": "A Small Patch of Dry Land #16956",
+        "Connections": {
+          "East": 16957,
+          "South": 16947,
+          "West": 16955
+        },
+        "Contents": [
+          {
+            "Text": "an old forgotten priest #16915",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16957,
+        "Name": "The Teldescian Swamps #16957",
+        "Connections": {
+          "East": 16946,
+          "West": 16956
+        },
+        "Contents": [
+          {
+            "Text": "the will\u0027o\u0027wisp #16925",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16958,
+        "Name": "The Teldescian Swamps #16958",
+        "Connections": {
+          "East": 16960,
+          "South": 16955,
+          "West": 16959
+        }
+      },
+      {
+        "Id": 16959,
+        "Name": "The Teldescian Swamps #16959",
+        "Connections": {
+          "East": 16958,
+          "South": 16960,
+          "West": 16961,
+          "Up": 16962
+        }
+      },
+      {
+        "Id": 16960,
+        "Name": "The Teldescian Swamps #16960",
+        "Connections": {
+          "North": 16959,
+          "South": 16961,
+          "West": 16958
+        }
+      },
+      {
+        "Id": 16961,
+        "Name": "The Teldescian Swamps #16961",
+        "Connections": {
+          "North": 16960,
+          "East": 16959
+        }
+      },
+      {
+        "Id": 16962,
+        "Name": "The Teldescian Swamps #16962",
+        "Connections": {
+          "North": 16963,
+          "West": 16964
+        }
+      },
+      {
+        "Id": 16963,
+        "Name": "The Teldescian Swamps #16963",
+        "Connections": {
+          "South": 16962,
+          "West": 16920
+        }
+      },
+      {
+        "Id": 16964,
+        "Name": "The Teldescian Swamps #16964",
+        "Connections": {
+          "North": 16920,
+          "East": 16962,
+          "South": 16913
+        }
+      },
+      {
+        "Id": 16965,
+        "Name": "The Marsh Forest #16965",
+        "Connections": {
+          "South": 16910,
+          "West": 16967
+        },
+        "Contents": [
+          {
+            "Text": "a black Gorg #16901",
+            "Color": "green"
+          },
+          {
+            "Text": "a killer mosquito #16911",
+            "Color": "red"
+          },
+          {
+            "Text": "the Oraton #16912",
+            "Color": "green"
+          },
+          {
+            "Text": "a giant oak #16906",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16966,
+        "Name": "Base of a Tree #16966",
+        "Connections": {
+          "South": 16971,
+          "Up": 16972
+        }
+      },
+      {
+        "Id": 16967,
+        "Name": "The Marsh Forest #16967",
+        "Connections": {
+          "North": 16968,
+          "East": 16965,
+          "South": 16970
+        },
+        "Contents": [
+          {
+            "Text": "a black Gorg #16901",
+            "Color": "green"
+          },
+          {
+            "Text": "a giant oak #16906",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16968,
+        "Name": "The Marsh Forest #16968",
+        "Connections": {
+          "North": 16969,
+          "South": 16967
+        },
+        "Contents": [
+          {
+            "Text": "a giant oak #16906",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16969,
+        "Name": "The Marsh Forest #16969",
+        "Connections": {
+          "North": 16970,
+          "East": 16971,
+          "South": 16968
+        },
+        "Contents": [
+          {
+            "Text": "a black Gorg #16901",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16970,
+        "Name": "The Marsh Forest #16970",
+        "Connections": {
+          "North": 16967,
+          "South": 16969
+        },
+        "Contents": [
+          {
+            "Text": "a black Gorg #16901",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16971,
+        "Name": "The Marsh Forest #16971",
+        "Connections": {
+          "North": 16966,
+          "West": 16969
+        }
+      },
+      {
+        "Id": 16972,
+        "Name": "In a Tree #16972",
+        "Connections": {
+          "Up": 16974,
+          "Down": 16973
+        }
+      },
+      {
+        "Id": 16973,
+        "Name": "Death by jumping from a high place... most uncool! #16973",
+        "Connections": {
+          "Up": 16972,
+          "Down": 16900
+        }
+      },
+      {
+        "Id": 16974,
+        "Name": "Room of Queen Shanodin #16974",
+        "Connections": {
+          "North": 16978,
+          "East": 16977,
+          "West": 16976,
+          "Down": 16975
+        },
+        "Contents": [
+          {
+            "Text": "Queen Shanodin #16924",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16975,
+        "Name": "Shandolin\u0027s Treasure Room #16975",
+        "Connections": {
+          "Up": 16974
+        }
+      },
+      {
+        "Id": 16976,
+        "Name": "The West Balcony of the Tree #16976",
+        "Connections": {
+          "East": 16974
+        }
+      },
+      {
+        "Id": 16977,
+        "Name": "The East Balcony #16977",
+        "Connections": {
+          "West": 16974,
+          "Down": 16966
+        }
+      },
+      {
+        "Id": 16978,
+        "Name": "On a Bridge #16978",
+        "Connections": {
+          "North": 16979,
+          "South": 16974
+        }
+      },
+      {
+        "Id": 16979,
+        "Name": "On a Bridge #16979",
+        "Connections": {
+          "North": 16980,
+          "South": 16978
+        }
+      },
+      {
+        "Id": 16980,
+        "Name": "In a Foggy Marsh #16980",
+        "Connections": {
+          "North": 16965,
+          "East": 16965,
+          "South": 16965,
+          "West": 16965
+        }
+      },
+      {
+        "Id": 16981,
+        "Name": "In a foggy marsh #16981",
+        "Connections": {}
+      },
+      {
+        "Id": 16982,
+        "Name": "Behind the Fisherman\u0027s Shack #16982",
+        "Connections": {
+          "North": 16983,
+          "West": 16906
+        },
+        "Contents": [
+          {
+            "Text": "a black viper #16903",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16983,
+        "Name": "Following a Thin Trail #16983",
+        "Connections": {
+          "North": 16984,
+          "South": 16982
+        }
+      },
+      {
+        "Id": 16984,
+        "Name": "On a Dark Trail Through the Vegetation #16984",
+        "Connections": {
+          "East": 16985,
+          "South": 16983,
+          "West": 16994
+        }
+      },
+      {
+        "Id": 16985,
+        "Name": "At the Base of a Tree #16985",
+        "Connections": {
+          "North": 16992,
+          "East": 16990,
+          "West": 16984,
+          "Up": 16987
+        }
+      },
+      {
+        "Id": 16986,
+        "Name": "Beside a Small Stream #16986",
+        "Connections": {
+          "North": 16991
+        }
+      },
+      {
+        "Id": 16987,
+        "Name": "Up in a Tree #16987",
+        "Connections": {
+          "West": 16988,
+          "Down": 16985
+        }
+      },
+      {
+        "Id": 16988,
+        "Name": "On a Branch #16988",
+        "Connections": {
+          "East": 16987,
+          "West": 16989
+        },
+        "Contents": [
+          {
+            "Text": "Stenlisk #16932",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16989,
+        "Name": "At the Base of a Tree #16989",
+        "Connections": {
+          "North": 16992,
+          "East": 16990,
+          "West": 16984
+        }
+      },
+      {
+        "Id": 16990,
+        "Name": "Beside a Pond #16990",
+        "Connections": {
+          "South": 16991,
+          "West": 16985
+        },
+        "Contents": [
+          {
+            "Text": "the whirlpool of darkwater #16929",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16991,
+        "Name": "Beside a Small Stream #16991",
+        "Connections": {
+          "North": 16990,
+          "South": 16986
+        }
+      },
+      {
+        "Id": 16992,
+        "Name": "On a Trail #16992",
+        "Connections": {
+          "North": 16993,
+          "South": 16985
+        }
+      },
+      {
+        "Id": 16993,
+        "Name": "On a Trail #16993",
+        "Connections": {
+          "North": 17001,
+          "South": 16992
+        }
+      },
+      {
+        "Id": 16994,
+        "Name": "Lookout Point #16994",
+        "Connections": {
+          "East": 16984,
+          "West": 16995
+        }
+      },
+      {
+        "Id": 16995,
+        "Name": "A Heavily Trodden Path #16995",
+        "Connections": {
+          "North": 16996,
+          "East": 16994,
+          "West": 17002
+        }
+      },
+      {
+        "Id": 16996,
+        "Name": "A Small Encampment #16996",
+        "Connections": {
+          "North": 16997,
+          "South": 16995,
+          "West": 16998
+        }
+      },
+      {
+        "Id": 16997,
+        "Name": "A Small Encampment #16997",
+        "Connections": {
+          "South": 16996,
+          "West": 16999
+        },
+        "Contents": [
+          {
+            "Text": "a swamp troll #16919",
+            "Color": "green"
+          },
+          {
+            "Text": "a swamp troll #16919",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16998,
+        "Name": "A Small Encampment #16998",
+        "Connections": {
+          "North": 16999,
+          "East": 16996
+        },
+        "Contents": [
+          {
+            "Text": "a swamp troll #16919",
+            "Color": "green"
+          },
+          {
+            "Text": "a swamp troll #16919",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16999,
+        "Name": "A Small Encampment #16999",
+        "Connections": {
+          "East": 16997,
+          "South": 16998
+        },
+        "Contents": [
+          {
+            "Text": "a swamp troll #16919",
+            "Color": "green"
+          },
+          {
+            "Text": "a swamp troll #16919",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17000,
+        "Name": "Lair of Nephestus #17000",
+        "Connections": {
+          "North": 17011
+        },
+        "Contents": [
+          {
+            "Text": "Nephestus, Avatar of Pain #16933",
+            "Color": "red"
+          },
+          {
+            "Text": "a demon of corruption #16918",
+            "Color": "red"
+          },
+          {
+            "Text": "a demon of corruption #16918",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 17001,
+        "Name": "On a Trail by the Swamp #17001",
+        "Connections": {
+          "North": 17003,
+          "South": 16993
+        }
+      },
+      {
+        "Id": 17002,
+        "Name": "A Heavily Trodden Path #17002",
+        "Connections": {
+          "East": 16995,
+          "West": 17006
+        }
+      },
+      {
+        "Id": 17003,
+        "Name": "On a Trail by the Swamp #17003",
+        "Connections": {
+          "North": 17004,
+          "South": 17001
+        }
+      },
+      {
+        "Id": 17004,
+        "Name": "On a Trail by the Swamp #17004",
+        "Connections": {
+          "North": 17005,
+          "South": 17003
+        }
+      },
+      {
+        "Id": 17005,
+        "Name": "On a Trail by the Swamp #17005",
+        "Connections": {
+          "North": 24385,
+          "South": 17004
+        }
+      },
+      {
+        "Id": 17006,
+        "Name": "A Heavily Trodden Path #17006",
+        "Connections": {
+          "East": 17002,
+          "South": 17007
+        },
+        "Contents": [
+          {
+            "Text": "the mimic #16934",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17007,
+        "Name": "A Heavily Trodden Path #17007",
+        "Connections": {
+          "North": 17006,
+          "West": 17008
+        }
+      },
+      {
+        "Id": 17008,
+        "Name": "A Heavily Trodden Path #17008",
+        "Connections": {
+          "East": 17007,
+          "West": 17009
+        }
+      },
+      {
+        "Id": 17009,
+        "Name": "A Heavily Trodden Path #17009",
+        "Connections": {
+          "North": 17010,
+          "East": 17008,
+          "South": 17011,
+          "West": 17013
+        }
+      },
+      {
+        "Id": 17010,
+        "Name": "A Small Shack #17010",
+        "Connections": {
+          "South": 17009
+        }
+      },
+      {
+        "Id": 17011,
+        "Name": "A Small Hollow #17011",
+        "Connections": {
+          "North": 17009,
+          "South": 17000
+        },
+        "Contents": [
+          {
+            "Text": "a demon of corruption #16918",
+            "Color": "red"
+          },
+          {
+            "Text": "a demon of corruption #16918",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 17012,
+        "Name": "On A Shallow River #17012",
+        "Connections": {
+          "North": 16907,
+          "South": 16905
+        },
+        "Contents": [
+          {
+            "Text": "a creeping water spider #16910",
+            "Color": "red"
+          },
+          {
+            "Text": "a creeping water spider #16910",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 17013,
+        "Name": "A Large Clearing #17013",
+        "Connections": {
+          "North": 17014,
+          "East": 17009,
+          "West": 17016
+        }
+      },
+      {
+        "Id": 17014,
+        "Name": "A Large Clearing #17014",
+        "Connections": {
+          "South": 17013,
+          "West": 17015
+        }
+      },
+      {
+        "Id": 17015,
+        "Name": "A Large Clearing #17015",
+        "Connections": {
+          "East": 17014,
+          "South": 17016
+        }
+      },
+      {
+        "Id": 17016,
+        "Name": "A Large Clearing #17016",
+        "Connections": {
+          "North": 17015,
+          "East": 17013
+        }
+      },
+      {
+        "Id": 17017,
+        "Name": "A Large Stream #17017",
+        "Connections": {
+          "North": 8506,
+          "South": 17018
+        }
+      },
+      {
+        "Id": 17018,
+        "Name": "On a Shallow River #17018",
+        "Connections": {
+          "North": 17017,
+          "West": 16903
+        }
+      },
+      {
+        "Id": 17019,
+        "Name": "The Dragons Lair #17019",
+        "Connections": {
+          "South": 16922
+        }
+      },
+      {
+        "Id": 3014,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3014",
+        "Color": "blue",
+        "Connections": {
+          "North": 3005,
+          "East": 3015,
+          "South": 3025,
+          "West": 3013,
+          "Up": 3073,
+          "Down": 3074
+        }
+      },
+      {
+        "Id": 8311,
+        "FrameColor": "blue",
+        "Name": "To Space #8311",
+        "Color": "blue",
+        "Connections": {
+          "North": 8312
+        }
+      },
+      {
+        "Id": 24385,
+        "FrameColor": "blue",
+        "Name": "To Magetower #24385",
+        "Color": "blue",
+        "Connections": {
+          "North": 24386,
+          "East": 24387,
+          "South": 24389,
+          "West": 24388,
+          "Up": 24391,
+          "Down": 24381
+        }
+      },
+      {
+        "Id": 8506,
+        "FrameColor": "blue",
+        "Name": "To QuelSithForest #8506",
+        "Color": "blue",
+        "Connections": {
+          "East": 8505,
+          "South": 17017
+        }
+      }
+    ]
+  }
+}

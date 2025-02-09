@@ -1,0 +1,507 @@
+{
+  "Area": {
+    "Name": "GnomeVillage",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 8350,
+        "Name": "\u0060 #8350",
+        "Connections": {
+          "East": 8256
+        }
+      },
+      {
+        "Id": 8351,
+        "Name": "Serene Forest #8351",
+        "Connections": {
+          "East": 3410,
+          "West": 8352
+        }
+      },
+      {
+        "Id": 8352,
+        "Name": "Serene Forest #8352",
+        "Connections": {
+          "North": 8381,
+          "East": 8351,
+          "West": 8353
+        }
+      },
+      {
+        "Id": 8353,
+        "Name": "Serene Forest #8353",
+        "Connections": {
+          "East": 8352,
+          "West": 8354
+        }
+      },
+      {
+        "Id": 8354,
+        "Name": "The Hollowed Oak #8354",
+        "Connections": {
+          "East": 8353,
+          "West": 8355
+        },
+        "Contents": [
+          {
+            "Text": "A Slithering Slime #3147",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome guard #8353",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome guard #8353",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8355,
+        "Name": "The Village Courtyard #8355",
+        "Connections": {
+          "North": 8359,
+          "East": 8354,
+          "South": 8356,
+          "West": 8358
+        }
+      },
+      {
+        "Id": 8356,
+        "Name": "The Village Courtyard #8356",
+        "Connections": {
+          "North": 8355,
+          "South": 8379,
+          "West": 8357
+        }
+      },
+      {
+        "Id": 8357,
+        "Name": "The Village Courtyard #8357",
+        "Connections": {
+          "North": 8358,
+          "East": 8356,
+          "South": 8377,
+          "West": 8363
+        }
+      },
+      {
+        "Id": 8358,
+        "Name": "The Village Courtyard #8358",
+        "Connections": {
+          "North": 8360,
+          "East": 8355,
+          "South": 8357,
+          "West": 8361
+        },
+        "Contents": [
+          {
+            "Text": "the gnome guard #8353",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome guard #8353",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8359,
+        "Name": "The Village Courtyard #8359",
+        "Connections": {
+          "North": 8366,
+          "South": 8355,
+          "West": 8360
+        }
+      },
+      {
+        "Id": 8360,
+        "Name": "The Village Courtyard #8360",
+        "Connections": {
+          "North": 8368,
+          "East": 8359,
+          "South": 8358,
+          "West": 8362
+        }
+      },
+      {
+        "Id": 8361,
+        "Name": "The Village Courtyard #8361",
+        "Connections": {
+          "North": 8362,
+          "East": 8358,
+          "South": 8363,
+          "West": 8372
+        }
+      },
+      {
+        "Id": 8362,
+        "Name": "The Village Courtyard #8362",
+        "Connections": {
+          "North": 8370,
+          "East": 8360,
+          "South": 8361,
+          "West": 8365
+        }
+      },
+      {
+        "Id": 8363,
+        "Name": "The Village Courtyard #8363",
+        "Connections": {
+          "North": 8361,
+          "East": 8357,
+          "South": 8376,
+          "West": 8364
+        }
+      },
+      {
+        "Id": 8364,
+        "Name": "The Outhouse #8364",
+        "Connections": {
+          "East": 8363
+        }
+      },
+      {
+        "Id": 8365,
+        "Name": "An Outhouse #8365",
+        "Connections": {
+          "East": 8362
+        }
+      },
+      {
+        "Id": 8366,
+        "Name": "Gnomish House #8366",
+        "Connections": {
+          "North": 8367,
+          "South": 8359
+        },
+        "Contents": [
+          {
+            "Text": "the gnome laborer #8350",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome woman #8351",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8367,
+        "Name": "Gnomish House #8367",
+        "Connections": {
+          "South": 8366
+        },
+        "Contents": [
+          {
+            "Text": "the gnome child #8352",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome infant #8355",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8368,
+        "Name": "Gnomish House #8368",
+        "Connections": {
+          "North": 8369,
+          "South": 8360
+        },
+        "Contents": [
+          {
+            "Text": "the gnome woman #8351",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8369,
+        "Name": "Gnomish House #8369",
+        "Connections": {
+          "South": 8368
+        },
+        "Contents": [
+          {
+            "Text": "the gnome laborer #8350",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome child #8352",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome infant #8355",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8370,
+        "Name": "Gnomish Barracks #8370",
+        "Connections": {
+          "North": 8371,
+          "South": 8362
+        },
+        "Contents": [
+          {
+            "Text": "the gnome guard #8353",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome guard #8353",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome guard #8353",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8371,
+        "Name": "Gnomish Barracks #8371",
+        "Connections": {
+          "South": 8370
+        },
+        "Contents": [
+          {
+            "Text": "the gnome guard #8353",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome guard #8353",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome guard #8353",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8372,
+        "Name": "Royal Tree #8372",
+        "Connections": {
+          "East": 8361,
+          "West": 8373
+        },
+        "Contents": [
+          {
+            "Text": "the gnome guard #8353",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome guard #8353",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8373,
+        "Name": "Royal Tree #8373",
+        "Connections": {
+          "North": 8374,
+          "East": 8372,
+          "South": 8375,
+          "Up": 8383
+        }
+      },
+      {
+        "Id": 8374,
+        "Name": "Grenlitstone\u0027s Throne Room #8374",
+        "Connections": {
+          "South": 8373
+        },
+        "Contents": [
+          {
+            "Text": "Grenlitstone #8354",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8375,
+        "Name": "Egbenchad\u0027s Chamber #8375",
+        "Connections": {
+          "North": 8373
+        },
+        "Contents": [
+          {
+            "Text": "Egbenchad, Gnome hero #8358",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8376,
+        "Name": "Green Leaf Cafe #8376",
+        "Connections": {
+          "North": 8363,
+          "West": 8384
+        },
+        "Contents": [
+          {
+            "Text": "the gnome innkeeper #8357",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8377,
+        "Name": "Gnomish House #8377",
+        "Connections": {
+          "North": 8357,
+          "South": 8378
+        },
+        "Contents": [
+          {
+            "Text": "the gnome woman #8351",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome child #8352",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome infant #8355",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8378,
+        "Name": "Gnomish House #8378",
+        "Connections": {
+          "North": 8377
+        },
+        "Contents": [
+          {
+            "Text": "the gnome laborer #8350",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8379,
+        "Name": "Gnomish Hatter\u0027s House #8379",
+        "Connections": {
+          "North": 8356,
+          "South": 8380
+        }
+      },
+      {
+        "Id": 8380,
+        "Name": "Gnomish Hatter\u0027s House #8380",
+        "Connections": {
+          "North": 8379
+        },
+        "Contents": [
+          {
+            "Text": "the gnome laborer #8350",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome woman #8351",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome child #8352",
+            "Color": "green"
+          },
+          {
+            "Text": "the gnome infant #8355",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8381,
+        "Name": "Serene Forest #8381",
+        "Connections": {
+          "North": 8382,
+          "South": 8352
+        }
+      },
+      {
+        "Id": 8382,
+        "Name": "Serene Forest #8382",
+        "Connections": {
+          "North": 7735,
+          "South": 8381
+        }
+      },
+      {
+        "Id": 8383,
+        "Name": "Secret Room #8383",
+        "Connections": {
+          "Down": 8373
+        },
+        "Contents": [
+          {
+            "Text": "Bendershank the Ancient #8360",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8384,
+        "Name": "Off-Duty Hangout #8384",
+        "Connections": {
+          "East": 8376
+        },
+        "Contents": [
+          {
+            "Text": "an off-duty gnome guard #8361",
+            "Color": "green"
+          },
+          {
+            "Text": "an off-duty gnome guard #8361",
+            "Color": "green"
+          },
+          {
+            "Text": "an off-duty gnome guard #8361",
+            "Color": "green"
+          },
+          {
+            "Text": "an off-duty gnome guard #8361",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8256,
+        "FrameColor": "blue",
+        "Name": "To Space #8256",
+        "Color": "blue",
+        "Connections": {
+          "North": 8248
+        }
+      },
+      {
+        "Id": 3410,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3410",
+        "Color": "blue",
+        "Connections": {
+          "North": 14369,
+          "South": 3069,
+          "West": 8351
+        }
+      },
+      {
+        "Id": 7735,
+        "FrameColor": "blue",
+        "Name": "To CityofMirielle #7735",
+        "Color": "blue",
+        "Connections": {
+          "North": 7734,
+          "South": 8382
+        }
+      }
+    ]
+  }
+}

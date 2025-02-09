@@ -1,0 +1,500 @@
+{
+  "Area": {
+    "Name": "HelmsDeep",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 23800,
+        "Name": "Helms Deep Pass #23800",
+        "Connections": {
+          "North": 23801,
+          "West": 17658
+        }
+      },
+      {
+        "Id": 23801,
+        "Name": "Helms Deep Pass #23801",
+        "Connections": {
+          "North": 23802,
+          "South": 23800
+        }
+      },
+      {
+        "Id": 23802,
+        "Name": "Helms Deep Pass #23802",
+        "Connections": {
+          "North": 23803,
+          "South": 23801
+        },
+        "Contents": [
+          {
+            "Text": "Uruk-hai Orc #23800",
+            "Color": "green"
+          },
+          {
+            "Text": "Uruk-hai Orc #23800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23803,
+        "Name": "Fortress gate #23803",
+        "Connections": {
+          "North": {
+            "RoomId": 23818,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 23807,
+          "South": 23802,
+          "West": 23804
+        },
+        "Contents": [
+          {
+            "Text": "Uruk-hai battle master #23801",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23804,
+        "Name": "Fortress walls #23804",
+        "Connections": {
+          "East": 23803,
+          "West": 23805
+        },
+        "Contents": [
+          {
+            "Text": "Aragorn #23803",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23805,
+        "Name": "Fortress walls #23805",
+        "Connections": {
+          "East": 23804,
+          "West": 23806
+        },
+        "Contents": [
+          {
+            "Text": "Uruk-hai Orc #23800",
+            "Color": "green"
+          },
+          {
+            "Text": "Uruk-hai Orc #23800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23806,
+        "Name": "Fortress walls #23806",
+        "Connections": {
+          "East": 23805
+        },
+        "Contents": [
+          {
+            "Text": "Uruk-hai Orc #23800",
+            "Color": "green"
+          },
+          {
+            "Text": "Uruk-hai Orc #23800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23807,
+        "Name": "Fortress walls #23807",
+        "Connections": {
+          "East": 23808,
+          "West": 23803
+        },
+        "Contents": [
+          {
+            "Text": "Gimli #23802",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23808,
+        "Name": "Fortress walls #23808",
+        "Connections": {
+          "East": 23809,
+          "West": 23807
+        },
+        "Contents": [
+          {
+            "Text": "Uruk-hai Orc #23800",
+            "Color": "green"
+          },
+          {
+            "Text": "Uruk-hai Orc #23800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23809,
+        "Name": "Fortress walls #23809",
+        "Connections": {
+          "West": 23808
+        },
+        "Contents": [
+          {
+            "Text": "Uruk-hai Orc #23800",
+            "Color": "green"
+          },
+          {
+            "Text": "Uruk-hai Orc #23800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23810,
+        "Name": "Falling to your Death #23810",
+        "Connections": {}
+      },
+      {
+        "Id": 23811,
+        "Name": "Atop the fortress wall #23811",
+        "Connections": {
+          "East": 23812,
+          "West": 23815,
+          "Down": 23818
+        },
+        "Contents": [
+          {
+            "Text": "Legolas #23804",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23812,
+        "Name": "Atop the fortress wall #23812",
+        "Connections": {
+          "East": 23813,
+          "West": 23811
+        },
+        "Contents": [
+          {
+            "Text": "A Elven archer #23807",
+            "Color": "green"
+          },
+          {
+            "Text": "A Elven archer #23807",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23813,
+        "Name": "Atop the fortress wall #23813",
+        "Connections": {
+          "East": 23814,
+          "West": 23812
+        },
+        "Contents": [
+          {
+            "Text": "A Elven archer #23807",
+            "Color": "green"
+          },
+          {
+            "Text": "A Elven archer #23807",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23814,
+        "Name": "Atop the fortress wall #23814",
+        "Connections": {
+          "West": 23813
+        },
+        "Contents": [
+          {
+            "Text": "A Elven archer #23807",
+            "Color": "green"
+          },
+          {
+            "Text": "A Elven archer #23807",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23815,
+        "Name": "Atop the fortress wall #23815",
+        "Connections": {
+          "East": 23811,
+          "West": 23816
+        },
+        "Contents": [
+          {
+            "Text": "A Elven archer #23807",
+            "Color": "green"
+          },
+          {
+            "Text": "A Elven archer #23807",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23816,
+        "Name": "Atop the fortress wall #23816",
+        "Connections": {
+          "East": 23815,
+          "West": 23817
+        },
+        "Contents": [
+          {
+            "Text": "A Elven archer #23807",
+            "Color": "green"
+          },
+          {
+            "Text": "A Elven archer #23807",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23817,
+        "Name": "Atop the fortress wall #23817",
+        "Connections": {
+          "East": 23816
+        },
+        "Contents": [
+          {
+            "Text": "A Elven archer #23807",
+            "Color": "green"
+          },
+          {
+            "Text": "A Elven archer #23807",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23818,
+        "Name": "Inside the fortress #23818",
+        "Connections": {
+          "North": 23827,
+          "East": 23819,
+          "South": 23803,
+          "West": 23823,
+          "Up": 23811
+        },
+        "Contents": [
+          {
+            "Text": "Gandolf the White #23811",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23819,
+        "Name": "Inside the fortress #23819",
+        "Connections": {
+          "East": 23820,
+          "West": 23818
+        }
+      },
+      {
+        "Id": 23820,
+        "Name": "Inside the fortress #23820",
+        "Connections": {
+          "East": 23821,
+          "West": 23819
+        }
+      },
+      {
+        "Id": 23821,
+        "Name": "Inside the fortress #23821",
+        "Connections": {
+          "East": 23822,
+          "West": 23820
+        }
+      },
+      {
+        "Id": 23822,
+        "Name": "Inside the fortress #23822",
+        "Connections": {
+          "West": 23821,
+          "Down": 23818
+        }
+      },
+      {
+        "Id": 23823,
+        "Name": "Inside the fortress #23823",
+        "Connections": {
+          "East": 23818,
+          "West": 23824
+        }
+      },
+      {
+        "Id": 23824,
+        "Name": "Inside the fortress #23824",
+        "Connections": {
+          "East": 23823,
+          "West": 23825
+        }
+      },
+      {
+        "Id": 23825,
+        "Name": "Inside the fortress #23825",
+        "Connections": {
+          "East": 23824,
+          "West": 23826
+        }
+      },
+      {
+        "Id": 23826,
+        "Name": "Inside the fortress #23826",
+        "Connections": {
+          "East": 23825
+        }
+      },
+      {
+        "Id": 23827,
+        "Name": "The throne room #23827",
+        "Connections": {
+          "North": 23828,
+          "South": 23818
+        },
+        "Contents": [
+          {
+            "Text": "King Theoden #23805",
+            "Color": "green"
+          },
+          {
+            "Text": "The king\u0027s guard #23806",
+            "Color": "red"
+          },
+          {
+            "Text": "The king\u0027s guard #23806",
+            "Color": "red"
+          },
+          {
+            "Text": "The king\u0027s guard #23806",
+            "Color": "red"
+          },
+          {
+            "Text": "The king\u0027s guard #23806",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 23828,
+        "Name": "A stone passage #23828",
+        "Connections": {
+          "North": 23829,
+          "South": 23827
+        },
+        "Contents": [
+          {
+            "Text": "A peasant woman #23808",
+            "Color": "green"
+          },
+          {
+            "Text": "A peasant child #23809",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23829,
+        "Name": "A stone passage #23829",
+        "Connections": {
+          "South": 23828,
+          "West": 23830
+        }
+      },
+      {
+        "Id": 23830,
+        "Name": "A stone passage #23830",
+        "Connections": {
+          "North": 23831,
+          "East": 23829
+        },
+        "Contents": [
+          {
+            "Text": "A peasant woman #23808",
+            "Color": "green"
+          },
+          {
+            "Text": "A peasant child #23809",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23831,
+        "Name": "A stone passage #23831",
+        "Connections": {
+          "North": 23832,
+          "South": 23830
+        }
+      },
+      {
+        "Id": 23832,
+        "Name": "A stone passage #23832",
+        "Connections": {
+          "East": 23833,
+          "South": 23831
+        },
+        "Contents": [
+          {
+            "Text": "A peasant woman #23808",
+            "Color": "green"
+          },
+          {
+            "Text": "A peasant child #23809",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23833,
+        "Name": "A stone passage #23833",
+        "Connections": {
+          "West": 23832,
+          "Down": 23834
+        }
+      },
+      {
+        "Id": 23834,
+        "Name": "The secret passage out #23834",
+        "Connections": {
+          "Up": 23833
+        },
+        "Contents": [
+          {
+            "Text": "Lady Eowyn #23810",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 17658,
+        "FrameColor": "blue",
+        "Name": "To Halfling #17658",
+        "Color": "blue",
+        "Connections": {
+          "North": 17657,
+          "East": 23800,
+          "South": 17659
+        }
+      }
+    ]
+  }
+}

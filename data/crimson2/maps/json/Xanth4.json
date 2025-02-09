@@ -1,0 +1,170 @@
+{
+  "Area": {
+    "Name": "Xanth4",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 800,
+        "Name": "THE RULES #800",
+        "Connections": {
+          "North": {
+            "RoomId": 803,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 801,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 3073
+        }
+      },
+      {
+        "Id": 801,
+        "Name": "Mortal Quest Room #1 #801",
+        "Connections": {
+          "East": 802,
+          "West": 800
+        }
+      },
+      {
+        "Id": 802,
+        "Name": "Mortal Quest Room #2 #802",
+        "Connections": {
+          "East": 804,
+          "West": 801
+        }
+      },
+      {
+        "Id": 803,
+        "Name": "The Gas Chamber #803",
+        "Connections": {
+          "North": {
+            "RoomId": 807,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 800
+        }
+      },
+      {
+        "Id": 804,
+        "Name": "Mortal Quest Room #3 #804",
+        "Connections": {
+          "East": 805,
+          "West": 802
+        }
+      },
+      {
+        "Id": 805,
+        "Name": "Mortal Quest Room #4 #805",
+        "Connections": {
+          "East": 806,
+          "West": 804,
+          "Down": 806
+        }
+      },
+      {
+        "Id": 806,
+        "Name": "Mortal Quest Room #5 #806",
+        "Connections": {
+          "West": 805
+        }
+      },
+      {
+        "Id": 807,
+        "Name": "Avatar Quest Room #2 #807",
+        "Connections": {
+          "North": {
+            "RoomId": 808,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 803
+        }
+      },
+      {
+        "Id": 808,
+        "Name": "Avatar Quest Room #3 #808",
+        "Connections": {
+          "North": 809,
+          "South": 807
+        }
+      },
+      {
+        "Id": 809,
+        "Name": "Avatar Quest Room #4 #809",
+        "Connections": {
+          "North": 810,
+          "South": 808
+        }
+      },
+      {
+        "Id": 810,
+        "Name": "Avatar Quest Room #5 #810",
+        "Connections": {
+          "North": 811,
+          "South": 809
+        }
+      },
+      {
+        "Id": 811,
+        "Name": "Avatar Quest Room #6 #811",
+        "Connections": {
+          "North": 812,
+          "South": 810
+        }
+      },
+      {
+        "Id": 812,
+        "Name": "Avatar Quest Room #7 #812",
+        "Connections": {
+          "North": 813,
+          "South": 811
+        }
+      },
+      {
+        "Id": 813,
+        "Name": "Avatar Quest Room #8 #813",
+        "Connections": {
+          "North": 814,
+          "South": 812
+        }
+      },
+      {
+        "Id": 814,
+        "Name": "Avatar Quest Room #9 #814",
+        "Connections": {
+          "North": 815,
+          "South": 813
+        }
+      },
+      {
+        "Id": 815,
+        "Name": "Avatar Quest Room #10 #815",
+        "Connections": {
+          "South": 814
+        }
+      },
+      {
+        "Id": 3073,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3073",
+        "Color": "blue",
+        "Connections": {
+          "Up": 800,
+          "Down": 3014
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1178 @@
+{
+  "Area": {
+    "Name": "TempleOfSalvation",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 7100,
+        "Name": "The Entrance to the Temple of Salvation #7100",
+        "Connections": {
+          "Up": 7101
+        }
+      },
+      {
+        "Id": 7101,
+        "Name": "At the Gates of the Temple of Salvation #7101",
+        "Connections": {
+          "North": {
+            "RoomId": 7102,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 7100
+        },
+        "Contents": [
+          {
+            "Text": "A Guardian #7104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7102,
+        "Name": "The Foyer of the Temple of Salvation #7102",
+        "Connections": {
+          "North": 7103,
+          "East": 7104,
+          "South": 7101,
+          "West": 7105,
+          "Up": 7185
+        },
+        "Contents": [
+          {
+            "Text": "A Minister #7108",
+            "Color": "green"
+          },
+          {
+            "Text": "A Minister #7108",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7103,
+        "Name": "Inside the Temple of Salvation #7103",
+        "Connections": {
+          "South": 7102,
+          "Down": 7113
+        }
+      },
+      {
+        "Id": 7104,
+        "Name": "Inside the Temple of Salvation #7104",
+        "Connections": {
+          "East": 7107,
+          "West": 7102
+        },
+        "Contents": [
+          {
+            "Text": "A Minister #7108",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7105,
+        "Name": "The Hall of the Cardinals #7105",
+        "Connections": {
+          "East": 7102,
+          "West": 7121
+        },
+        "Contents": [
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          },
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          },
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7106,
+        "Name": "Inside the Temple of Salvation #7106",
+        "Connections": {
+          "East": 7106,
+          "West": 7104
+        }
+      },
+      {
+        "Id": 7107,
+        "Name": "Inside the Temple of Salvation #7107",
+        "Connections": {
+          "North": 7108,
+          "East": 7135,
+          "West": 7104
+        },
+        "Contents": [
+          {
+            "Text": "A Minister #7108",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7108,
+        "Name": "The Hall of the High Priest Kaczy #7108",
+        "Connections": {
+          "North": 7109,
+          "South": 7107
+        }
+      },
+      {
+        "Id": 7109,
+        "Name": "The Hall of the High Priest Kaczy #7109",
+        "Connections": {
+          "North": 7110,
+          "South": 7108
+        }
+      },
+      {
+        "Id": 7110,
+        "Name": "The Hall of the High Priest Kaczy #7110",
+        "Connections": {
+          "East": 7111,
+          "South": 7109
+        }
+      },
+      {
+        "Id": 7111,
+        "Name": "Room of the Guardian #7111",
+        "Connections": {
+          "North": {
+            "RoomId": 7112,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 7110
+        },
+        "Contents": [
+          {
+            "Text": "A Guardian #7104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7112,
+        "Name": "The Chambers of the High Priest Kaczy #7112",
+        "Connections": {
+          "North": 7144,
+          "South": 7111
+        },
+        "Contents": [
+          {
+            "Text": "The High Priest Kaczy #7100",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7113,
+        "Name": "The Basement of the Temple of Salvation #7113",
+        "Connections": {
+          "North": 7114,
+          "East": 7118,
+          "South": 7116,
+          "West": 7117,
+          "Up": 7103
+        }
+      },
+      {
+        "Id": 7114,
+        "Name": "The Basement of the Temple of Salvation #7114",
+        "Connections": {
+          "South": 7113,
+          "Down": 7115
+        }
+      },
+      {
+        "Id": 7115,
+        "Name": "Pit of the Guardians #7115",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7116,
+        "Name": "The Basement of the Temple of Salvation #7116",
+        "Connections": {
+          "North": 7113,
+          "Down": 7134
+        }
+      },
+      {
+        "Id": 7117,
+        "Name": "The Basement of the Temple of Salvation #7117",
+        "Connections": {
+          "East": 7113,
+          "Down": 7120
+        }
+      },
+      {
+        "Id": 7118,
+        "Name": "The Basement of the Temple of Salvation #7118",
+        "Connections": {
+          "West": 7113,
+          "Down": 7119
+        }
+      },
+      {
+        "Id": 7119,
+        "Name": "Pit of the Guardians #7119",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7120,
+        "Name": "Pit of the Guardians #7120",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7121,
+        "Name": "The Hall of the Cardinals #7121",
+        "Connections": {
+          "North": 7133,
+          "East": 7105,
+          "West": 7122
+        },
+        "Contents": [
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          },
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          },
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7122,
+        "Name": "The Hall of the Cardinals #7122",
+        "Connections": {
+          "North": 7125,
+          "East": 7121,
+          "West": 7123
+        },
+        "Contents": [
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          },
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          },
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7123,
+        "Name": "The Hall of the Cardinals #7123",
+        "Connections": {
+          "East": 7122,
+          "West": {
+            "RoomId": 7124,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          },
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          },
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7124,
+        "Name": "The Room of Gutin, The Head Cardinal #7124",
+        "Connections": {
+          "East": 7123
+        },
+        "Contents": [
+          {
+            "Text": "Gutin the Head Cardinal #7101",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7125,
+        "Name": "The Cardinal\u0027s Private Courtyard #7125",
+        "Connections": {
+          "North": 7126,
+          "South": 7122
+        }
+      },
+      {
+        "Id": 7126,
+        "Name": "A gravel path #7126",
+        "Connections": {
+          "North": 7127,
+          "South": 7125
+        }
+      },
+      {
+        "Id": 7127,
+        "Name": "Cardinals Graveyard #7127",
+        "Connections": {
+          "North": 7128,
+          "East": 7129,
+          "South": 7126,
+          "West": 7131
+        },
+        "Contents": [
+          {
+            "Text": "A Wandering Spirit #7107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7128,
+        "Name": "Cardinals Graveyard #7128",
+        "Connections": {
+          "East": 7130,
+          "South": 7127,
+          "West": 7132
+        }
+      },
+      {
+        "Id": 7129,
+        "Name": "Cardinals Graveyard #7129",
+        "Connections": {
+          "North": 7130,
+          "West": 7127
+        }
+      },
+      {
+        "Id": 7130,
+        "Name": "Cardinals Graveyard #7130",
+        "Connections": {
+          "South": 7129,
+          "West": 7128
+        },
+        "Contents": [
+          {
+            "Text": "A Wandering Spirit #7107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7131,
+        "Name": "Cardinals Graveyard #7131",
+        "Connections": {
+          "North": 7132,
+          "East": 7127
+        },
+        "Contents": [
+          {
+            "Text": "A Wandering Spirit #7107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7132,
+        "Name": "Cardinals Graveyard #7132",
+        "Connections": {
+          "East": 7128,
+          "South": 7131
+        },
+        "Contents": [
+          {
+            "Text": "A Wandering Spirit #7107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7133,
+        "Name": "The Cardinal\u0027s Private Church #7133",
+        "Connections": {
+          "South": 7121
+        },
+        "Contents": [
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          },
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          },
+          {
+            "Text": "A Cardinal #7102",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7134,
+        "Name": "Pit of the Guardians #7134",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          },
+          {
+            "Text": "An Adolescent Guardian #7103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7135,
+        "Name": "Inside the Temple of Salvation #7135",
+        "Connections": {
+          "East": 7136,
+          "West": 7107
+        },
+        "Contents": [
+          {
+            "Text": "A Minister #7108",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7136,
+        "Name": "Inside the Temple of Salvation #7136",
+        "Connections": {
+          "North": 7137,
+          "East": 7138,
+          "West": 7135
+        },
+        "Contents": [
+          {
+            "Text": "A Minister #7108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7137,
+        "Name": "Dawn\u0027s Room #7137",
+        "Connections": {
+          "South": 7136
+        },
+        "Contents": [
+          {
+            "Text": "Dawn #7105",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7138,
+        "Name": "Inside the Temple of Salvation #7138",
+        "Connections": {
+          "North": 7139,
+          "South": 7161,
+          "West": 7136,
+          "Up": 7151
+        },
+        "Contents": [
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          },
+          {
+            "Text": "A Minister #7108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7139,
+        "Name": "The Temple Courtyard #7139",
+        "Connections": {
+          "North": 7142,
+          "East": 7140,
+          "South": 7138
+        },
+        "Contents": [
+          {
+            "Text": "A Minister #7108",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7140,
+        "Name": "The Temple Courtyard #7140",
+        "Connections": {
+          "West": 7139,
+          "Down": 7141
+        },
+        "Contents": [
+          {
+            "Text": "A Minister #7108",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7141,
+        "Name": "The Bottom of the Well #7141",
+        "Connections": {}
+      },
+      {
+        "Id": 7142,
+        "Name": "The Temple Courtyard #7142",
+        "Connections": {
+          "North": 7143,
+          "South": 7139
+        },
+        "Contents": [
+          {
+            "Text": "A Minister #7108",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7143,
+        "Name": "A gravel path #7143",
+        "Connections": {
+          "North": 7145,
+          "South": 7142
+        }
+      },
+      {
+        "Id": 7144,
+        "Name": "The High Priest Graveyard #7144",
+        "Connections": {
+          "South": 7112
+        },
+        "Contents": [
+          {
+            "Text": "A Wandering Spirit #7107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7145,
+        "Name": "The Temple Graveyard #7145",
+        "Connections": {
+          "North": 7146,
+          "East": 7148,
+          "South": 7143,
+          "West": 7150
+        },
+        "Contents": [
+          {
+            "Text": "A Wandering Spirit #7107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7146,
+        "Name": "The Temple Graveyard #7146",
+        "Connections": {
+          "East": 7147,
+          "South": 7145,
+          "West": 7149
+        },
+        "Contents": [
+          {
+            "Text": "A Wandering Spirit #7107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7147,
+        "Name": "The Temple Graveyard #7147",
+        "Connections": {
+          "South": 7148,
+          "West": 7146
+        },
+        "Contents": [
+          {
+            "Text": "A Wandering Spirit #7107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7148,
+        "Name": "The Temple Graveyard #7148",
+        "Connections": {
+          "North": 7147,
+          "West": 7145
+        },
+        "Contents": [
+          {
+            "Text": "A Wandering Spirit #7107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7149,
+        "Name": "The Temple Graveyard #7149",
+        "Connections": {
+          "East": 7146,
+          "South": 7150
+        },
+        "Contents": [
+          {
+            "Text": "A Wandering Spirit #7107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7150,
+        "Name": "The Temple Graveyard #7150",
+        "Connections": {
+          "North": 7149,
+          "East": 7145
+        },
+        "Contents": [
+          {
+            "Text": "A Wandering Spirit #7107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7151,
+        "Name": "The Sleeping Quarters #7151",
+        "Connections": {
+          "North": 7152,
+          "East": 7154,
+          "South": 7153,
+          "West": 7155,
+          "Up": 7160,
+          "Down": 7138
+        },
+        "Contents": [
+          {
+            "Text": "A Minister #7108",
+            "Color": "green"
+          },
+          {
+            "Text": "A Minister #7108",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7152,
+        "Name": "The Sleeping Quarters #7152",
+        "Connections": {
+          "East": 7158,
+          "South": 7151,
+          "West": 7157
+        },
+        "Contents": [
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7153,
+        "Name": "The Sleeping Quarters #7153",
+        "Connections": {
+          "North": 7151,
+          "East": 7159,
+          "West": 7156
+        },
+        "Contents": [
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7154,
+        "Name": "The Sleeping Quarters #7154",
+        "Connections": {
+          "North": 7158,
+          "South": 7159,
+          "West": 7151
+        },
+        "Contents": [
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7155,
+        "Name": "The Sleeping Quarters #7155",
+        "Connections": {
+          "North": 7157,
+          "East": 7151,
+          "South": 7156
+        },
+        "Contents": [
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7156,
+        "Name": "The Sleeping Quarters #7156",
+        "Connections": {
+          "North": 7155,
+          "East": 7153
+        },
+        "Contents": [
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7157,
+        "Name": "The Sleeping Quarters #7157",
+        "Connections": {
+          "East": 7152,
+          "South": 7155
+        }
+      },
+      {
+        "Id": 7158,
+        "Name": "The Sleeping Quarters #7158",
+        "Connections": {
+          "South": 7154,
+          "West": 7152
+        },
+        "Contents": [
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7159,
+        "Name": "The Sleeping Quarters #7159",
+        "Connections": {
+          "North": 7154,
+          "West": 7153
+        },
+        "Contents": [
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          },
+          {
+            "Text": "A Priest #7106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7160,
+        "Name": "The Sleeping Quarters #7160",
+        "Connections": {
+          "Down": 7151
+        }
+      },
+      {
+        "Id": 7161,
+        "Name": "Inside the Temple of Salvation #7161",
+        "Connections": {
+          "North": 7138,
+          "South": 7162
+        }
+      },
+      {
+        "Id": 7162,
+        "Name": "Inside the Temple of Salvation #7162",
+        "Connections": {
+          "North": 7161,
+          "South": 7163
+        }
+      },
+      {
+        "Id": 7163,
+        "Name": "Before the Chapel #7163",
+        "Connections": {
+          "North": 7162,
+          "South": {
+            "RoomId": 7164,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Chapel Guardian #7110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7164,
+        "Name": "Entrance to the Chapel #7164",
+        "Connections": {
+          "North": {
+            "RoomId": 7163,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 7165
+        }
+      },
+      {
+        "Id": 7165,
+        "Name": "Center Aisle #7165",
+        "Connections": {
+          "North": 7173,
+          "East": 7166,
+          "South": 7177,
+          "West": 7164
+        }
+      },
+      {
+        "Id": 7166,
+        "Name": "Center Aisle #7166",
+        "Connections": {
+          "North": 7174,
+          "East": 7167,
+          "South": 7178,
+          "West": 7165
+        }
+      },
+      {
+        "Id": 7167,
+        "Name": "Center Aisle #7167",
+        "Connections": {
+          "North": 7175,
+          "East": 7168,
+          "South": 7179,
+          "West": 7166
+        }
+      },
+      {
+        "Id": 7168,
+        "Name": "Center Aisle #7168",
+        "Connections": {
+          "North": 7176,
+          "East": 7169,
+          "South": 7180,
+          "West": 7167
+        }
+      },
+      {
+        "Id": 7169,
+        "Name": "The Altar of the Temple of Salvation #7169",
+        "Connections": {
+          "East": 7170,
+          "West": 7168
+        }
+      },
+      {
+        "Id": 7170,
+        "Name": "The High Priest Kaczy\u0027s Chair #7170",
+        "Connections": {
+          "North": 7171,
+          "South": 7172,
+          "West": 7169
+        }
+      },
+      {
+        "Id": 7171,
+        "Name": "Gutin the Head Cardinal\u0027s Chair #7171",
+        "Connections": {
+          "South": 7170
+        }
+      },
+      {
+        "Id": 7172,
+        "Name": "Dawn\u0027s Chair #7172",
+        "Connections": {
+          "North": 7170
+        }
+      },
+      {
+        "Id": 7173,
+        "Name": "Among the pews #7173",
+        "Connections": {
+          "North": 7181,
+          "South": 7165
+        }
+      },
+      {
+        "Id": 7174,
+        "Name": "Among the pews #7174",
+        "Connections": {
+          "South": 7166
+        }
+      },
+      {
+        "Id": 7175,
+        "Name": "Among the pews #7175",
+        "Connections": {
+          "South": 7167
+        }
+      },
+      {
+        "Id": 7176,
+        "Name": "Among the pews #7176",
+        "Connections": {
+          "North": 7182,
+          "South": 7168
+        }
+      },
+      {
+        "Id": 7177,
+        "Name": "Among the pews #7177",
+        "Connections": {
+          "North": 7165
+        }
+      },
+      {
+        "Id": 7178,
+        "Name": "Among the pews #7178",
+        "Connections": {
+          "North": 7166,
+          "South": 7183
+        }
+      },
+      {
+        "Id": 7179,
+        "Name": "Among the pews #7179",
+        "Connections": {
+          "North": 7167,
+          "South": 7184
+        }
+      },
+      {
+        "Id": 7180,
+        "Name": "Among the pews #7180",
+        "Connections": {
+          "North": 7168
+        }
+      },
+      {
+        "Id": 7181,
+        "Name": "Confessional #7181",
+        "Connections": {
+          "South": 7173
+        }
+      },
+      {
+        "Id": 7182,
+        "Name": "Confessional #7182",
+        "Connections": {
+          "South": 7176
+        }
+      },
+      {
+        "Id": 7183,
+        "Name": "Confessional #7183",
+        "Connections": {
+          "North": 7178
+        }
+      },
+      {
+        "Id": 7184,
+        "Name": "Confessional #7184",
+        "Connections": {
+          "North": 7179
+        }
+      },
+      {
+        "Id": 7185,
+        "Name": "The Bell Tower #7185",
+        "Connections": {
+          "Down": 7102
+        },
+        "Contents": [
+          {
+            "Text": "A Hunchback #7109",
+            "Color": "green"
+          }
+        ]
+      }
+    ]
+  }
+}

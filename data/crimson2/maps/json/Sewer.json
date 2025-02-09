@@ -1,0 +1,919 @@
+{
+  "Area": {
+    "Name": "Sewer",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 7000,
+        "Name": "Entry to the Midgaard Sewer System. #7000",
+        "Connections": {
+          "North": 7006,
+          "East": 7003,
+          "West": 7001,
+          "Up": 3030
+        }
+      },
+      {
+        "Id": 7001,
+        "Name": "In the sewer. #7001",
+        "Connections": {
+          "East": 7000,
+          "West": 7002
+        }
+      },
+      {
+        "Id": 7002,
+        "Name": "In the sewer. #7002",
+        "Connections": {
+          "North": 7004,
+          "East": 7001
+        },
+        "Contents": [
+          {
+            "Text": "a sewer rat #7002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7003,
+        "Name": "In the sewer. #7003",
+        "Connections": {
+          "North": 7007,
+          "West": 7000
+        },
+        "Contents": [
+          {
+            "Text": "The slithering snake #7006",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7004,
+        "Name": "In the sewer. #7004",
+        "Connections": {
+          "North": 7016,
+          "East": 7005,
+          "South": 7002
+        }
+      },
+      {
+        "Id": 7005,
+        "Name": "In the sewer. #7005",
+        "Connections": {
+          "North": 7017,
+          "East": 7006,
+          "West": 7004
+        }
+      },
+      {
+        "Id": 7006,
+        "Name": "In the sewer. #7006",
+        "Connections": {
+          "East": 7007,
+          "South": 7000,
+          "West": 7005
+        },
+        "Contents": [
+          {
+            "Text": "a sewer rat #7002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7007,
+        "Name": "In the sewer. #7007",
+        "Connections": {
+          "North": 7019,
+          "East": 7008,
+          "South": 7003,
+          "West": 7006
+        },
+        "Contents": [
+          {
+            "Text": "a sewer lizard #7003",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7008,
+        "Name": "In the sewer. #7008",
+        "Connections": {
+          "North": 7020,
+          "East": 7009,
+          "West": 7007
+        }
+      },
+      {
+        "Id": 7009,
+        "Name": "In the sewer. #7009",
+        "Connections": {
+          "West": 7008
+        }
+      },
+      {
+        "Id": 7010,
+        "Name": "In the sewer. #7010",
+        "Connections": {
+          "East": 7012
+        }
+      },
+      {
+        "Id": 7011,
+        "Name": "In the sewer. #7011",
+        "Connections": {
+          "North": 7033,
+          "East": 7013,
+          "South": 7012
+        },
+        "Contents": [
+          {
+            "Text": "a sewer rat #7002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7012,
+        "Name": "In the sewer. #7012",
+        "Connections": {
+          "North": 7011,
+          "West": 7010
+        }
+      },
+      {
+        "Id": 7013,
+        "Name": "In the sewer. #7013",
+        "Connections": {
+          "North": 7014,
+          "East": 7015,
+          "West": 7011
+        },
+        "Contents": [
+          {
+            "Text": "a sewer lizard #7003",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7014,
+        "Name": "In the sewer. #7014",
+        "Connections": {
+          "East": 7029,
+          "South": 7013
+        },
+        "Contents": [
+          {
+            "Text": "The slithering snake #7006",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7015,
+        "Name": "In the sewer. #7015",
+        "Connections": {
+          "East": 7016,
+          "West": 7013
+        },
+        "Contents": [
+          {
+            "Text": "a sewer rat #7002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7016,
+        "Name": "In the sewer. #7016",
+        "Connections": {
+          "South": 7004,
+          "West": 7015
+        }
+      },
+      {
+        "Id": 7017,
+        "Name": "In the sewer. #7017",
+        "Connections": {
+          "East": 7018,
+          "South": 7005
+        }
+      },
+      {
+        "Id": 7018,
+        "Name": "In the sewer. #7018",
+        "Connections": {
+          "North": 7021,
+          "East": 7019,
+          "West": 7017
+        }
+      },
+      {
+        "Id": 7019,
+        "Name": "In the sewer. #7019",
+        "Connections": {
+          "South": 7007,
+          "West": 7018
+        },
+        "Contents": [
+          {
+            "Text": "a sewer rat #7002",
+            "Color": "red"
+          },
+          {
+            "Text": "The slithering snake #7006",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7020,
+        "Name": "In the sewer. #7020",
+        "Connections": {
+          "North": 7023,
+          "South": 7008
+        }
+      },
+      {
+        "Id": 7021,
+        "Name": "In the sewer. #7021",
+        "Connections": {
+          "North": 7029,
+          "South": 7018,
+          "West": 7035
+        },
+        "Contents": [
+          {
+            "Text": "a sewer lizard #7003",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7022,
+        "Name": "In the sewer. #7022",
+        "Connections": {
+          "North": 7026,
+          "East": 7023
+        }
+      },
+      {
+        "Id": 7023,
+        "Name": "In the sewer. #7023",
+        "Connections": {
+          "East": 7024,
+          "South": 7020,
+          "West": 7022
+        }
+      },
+      {
+        "Id": 7024,
+        "Name": "In the sewer. #7024",
+        "Connections": {
+          "East": 7025,
+          "West": 7023
+        },
+        "Contents": [
+          {
+            "Text": "a sewer rat #7002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7025,
+        "Name": "In the sewer. #7025",
+        "Connections": {
+          "West": 7024
+        }
+      },
+      {
+        "Id": 7026,
+        "Name": "In the sewer. #7026",
+        "Connections": {
+          "North": 7027,
+          "South": 7022
+        }
+      },
+      {
+        "Id": 7027,
+        "Name": "In the sewer. #7027",
+        "Connections": {
+          "South": 7026,
+          "West": 7028
+        },
+        "Contents": [
+          {
+            "Text": "a sewer lizard #7003",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7028,
+        "Name": "In the sewer. #7028",
+        "Connections": {
+          "North": 7030,
+          "East": 7027,
+          "West": 7029
+        },
+        "Contents": [
+          {
+            "Text": "a sewer rat #7002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7029,
+        "Name": "In the sewer. #7029",
+        "Connections": {
+          "East": 7028,
+          "South": 7021,
+          "West": 7014
+        },
+        "Contents": [
+          {
+            "Text": "Herald \u0027the mouse-killer\u0027 Ettin #7000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7030,
+        "Name": "In the sewer. #7030",
+        "Connections": {
+          "South": 7028,
+          "West": 7031
+        },
+        "Contents": [
+          {
+            "Text": "a sewer rat #7002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7031,
+        "Name": "In the sewer. #7031",
+        "Connections": {
+          "East": 7030,
+          "West": 7032
+        },
+        "Contents": [
+          {
+            "Text": "The slithering snake #7006",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7032,
+        "Name": "In the sewer. #7032",
+        "Connections": {
+          "North": 7034,
+          "East": 7031,
+          "West": 7033
+        }
+      },
+      {
+        "Id": 7033,
+        "Name": "In the sewer. #7033",
+        "Connections": {
+          "East": 7032,
+          "South": 7011
+        }
+      },
+      {
+        "Id": 7034,
+        "Name": "In the sewer. #7034",
+        "Connections": {
+          "South": 7032
+        },
+        "Contents": [
+          {
+            "Text": "a sewer rat #7002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7035,
+        "Name": "In the sewer. #7035",
+        "Connections": {
+          "East": 7021,
+          "West": 7036
+        }
+      },
+      {
+        "Id": 7036,
+        "Name": "In the sewer. #7036",
+        "Connections": {
+          "East": 7035,
+          "West": 7037
+        }
+      },
+      {
+        "Id": 7037,
+        "Name": "A damp tunnel. #7037",
+        "Connections": {
+          "North": 7038,
+          "East": 7036,
+          "West": 7051
+        }
+      },
+      {
+        "Id": 7038,
+        "Name": "A damp tunnel. #7038",
+        "Connections": {
+          "North": 7044,
+          "South": 7037
+        },
+        "Contents": [
+          {
+            "Text": "a sewer rat #7002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7039,
+        "Name": "A damp tunnel. #7039",
+        "Connections": {
+          "North": 7040
+        },
+        "Contents": [
+          {
+            "Text": "a shadowy Morkoth #7004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7040,
+        "Name": "A damp tunnel. #7040",
+        "Connections": {
+          "North": 7042,
+          "East": 7041,
+          "South": 7039
+        }
+      },
+      {
+        "Id": 7041,
+        "Name": "A damp tunnel. #7041",
+        "Connections": {
+          "West": 7040
+        }
+      },
+      {
+        "Id": 7042,
+        "Name": "A damp tunnel. #7042",
+        "Connections": {
+          "South": 7040,
+          "West": 7043
+        }
+      },
+      {
+        "Id": 7043,
+        "Name": "A damp tunnel. #7043",
+        "Connections": {
+          "East": 7042,
+          "West": 7044
+        }
+      },
+      {
+        "Id": 7044,
+        "Name": "A damp tunnel. #7044",
+        "Connections": {
+          "East": 7043,
+          "South": 7038,
+          "West": 7045
+        },
+        "Contents": [
+          {
+            "Text": "a shadowy Morkoth #7004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7045,
+        "Name": "A damp tunnel. #7045",
+        "Connections": {
+          "North": 7047,
+          "East": 7044,
+          "West": 7046
+        }
+      },
+      {
+        "Id": 7046,
+        "Name": "A damp tunnel. #7046",
+        "Connections": {
+          "East": 7045
+        }
+      },
+      {
+        "Id": 7047,
+        "Name": "A damp tunnel. #7047",
+        "Connections": {
+          "North": 7086,
+          "South": 7045,
+          "West": 7048
+        }
+      },
+      {
+        "Id": 7048,
+        "Name": "A damp tunnel. #7048",
+        "Connections": {
+          "East": 7047,
+          "West": 7049
+        }
+      },
+      {
+        "Id": 7049,
+        "Name": "A damp tunnel. #7049",
+        "Connections": {
+          "East": 7048,
+          "West": 7050
+        }
+      },
+      {
+        "Id": 7050,
+        "Name": "A damp tunnel. #7050",
+        "Connections": {
+          "East": 7049
+        },
+        "Contents": [
+          {
+            "Text": "the homonculus #7005",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7051,
+        "Name": "A damp tunnel. #7051",
+        "Connections": {
+          "East": 7037,
+          "South": 7062
+        }
+      },
+      {
+        "Id": 7052,
+        "Name": "A damp tunnel. #7052",
+        "Connections": {
+          "South": 7054,
+          "West": 7062
+        },
+        "Contents": [
+          {
+            "Text": "a sewer rat #7002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7053,
+        "Name": "A damp tunnel. #7053",
+        "Connections": {
+          "West": 7054
+        },
+        "Contents": [
+          {
+            "Text": "a shadowy Morkoth #7004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7054,
+        "Name": "A damp tunnel. #7054",
+        "Connections": {
+          "North": 7052,
+          "East": 7053
+        }
+      },
+      {
+        "Id": 7055,
+        "Name": "A damp tunnel. #7055",
+        "Connections": {
+          "West": 7059
+        }
+      },
+      {
+        "Id": 7056,
+        "Name": "A damp tunnel. #7056",
+        "Connections": {
+          "West": 7057
+        }
+      },
+      {
+        "Id": 7057,
+        "Name": "A damp tunnel. #7057",
+        "Connections": {
+          "East": 7056,
+          "West": 7058
+        }
+      },
+      {
+        "Id": 7058,
+        "Name": "A damp tunnel. #7058",
+        "Connections": {
+          "North": 7059,
+          "East": 7057,
+          "South": 7072
+        }
+      },
+      {
+        "Id": 7059,
+        "Name": "A damp tunnel. #7059",
+        "Connections": {
+          "East": 7055,
+          "South": 7058,
+          "West": 7060
+        }
+      },
+      {
+        "Id": 7060,
+        "Name": "A damp tunnel. #7060",
+        "Connections": {
+          "North": 7061,
+          "East": 7059
+        }
+      },
+      {
+        "Id": 7061,
+        "Name": "A damp tunnel. #7061",
+        "Connections": {
+          "North": 7063,
+          "South": 7060
+        },
+        "Contents": [
+          {
+            "Text": "a shadowy Morkoth #7004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7062,
+        "Name": "A damp tunnel. #7062",
+        "Connections": {
+          "North": 7051,
+          "East": 7052,
+          "West": 7063
+        }
+      },
+      {
+        "Id": 7063,
+        "Name": "A damp tunnel. #7063",
+        "Connections": {
+          "East": 7062,
+          "South": 7061,
+          "West": 7064
+        }
+      },
+      {
+        "Id": 7064,
+        "Name": "A damp tunnel. #7064",
+        "Connections": {
+          "East": 7063,
+          "West": 7065
+        }
+      },
+      {
+        "Id": 7065,
+        "Name": "A damp tunnel. #7065",
+        "Connections": {
+          "East": 7064,
+          "West": 7066
+        }
+      },
+      {
+        "Id": 7066,
+        "Name": "A damp tunnel. #7066",
+        "Connections": {
+          "East": 7065,
+          "South": 7067
+        }
+      },
+      {
+        "Id": 7067,
+        "Name": "A damp tunnel. #7067",
+        "Connections": {
+          "North": 7066,
+          "South": 7068,
+          "West": 7074
+        },
+        "Contents": [
+          {
+            "Text": "a shadowy Morkoth #7004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7068,
+        "Name": "A damp tunnel. #7068",
+        "Connections": {
+          "North": 7067,
+          "South": 7069
+        }
+      },
+      {
+        "Id": 7069,
+        "Name": "A damp tunnel. #7069",
+        "Connections": {
+          "North": 7068,
+          "East": 7070
+        }
+      },
+      {
+        "Id": 7070,
+        "Name": "A damp tunnel. #7070",
+        "Connections": {
+          "South": 7071,
+          "West": 7069
+        }
+      },
+      {
+        "Id": 7071,
+        "Name": "A damp tunnel. #7071",
+        "Connections": {
+          "North": 7070,
+          "East": 7072,
+          "South": 7073
+        }
+      },
+      {
+        "Id": 7072,
+        "Name": "A damp tunnel. #7072",
+        "Connections": {
+          "North": 7058,
+          "West": 7071
+        }
+      },
+      {
+        "Id": 7073,
+        "Name": "A damp tunnel. #7073",
+        "Connections": {
+          "North": 7071
+        }
+      },
+      {
+        "Id": 7074,
+        "Name": "A damp tunnel. #7074",
+        "Connections": {
+          "East": 7067,
+          "West": 7075
+        },
+        "Contents": [
+          {
+            "Text": "a shadowy Morkoth #7004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7075,
+        "Name": "A damp tunnel. #7075",
+        "Connections": {
+          "East": 7074,
+          "West": 7076
+        }
+      },
+      {
+        "Id": 7076,
+        "Name": "An underground pool. #7076",
+        "Connections": {
+          "East": 7075,
+          "South": 7079,
+          "West": 7077
+        }
+      },
+      {
+        "Id": 7077,
+        "Name": "An underground pool. #7077",
+        "Connections": {
+          "East": 7076,
+          "South": 7078
+        }
+      },
+      {
+        "Id": 7078,
+        "Name": "An underground pool. #7078",
+        "Connections": {
+          "North": 7077,
+          "East": 7079,
+          "South": 7081,
+          "West": 7082
+        },
+        "Contents": [
+          {
+            "Text": "the evil chr-eff\u0027n #7001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7079,
+        "Name": "An underground pool. #7079",
+        "Connections": {
+          "North": 7076,
+          "South": 7080,
+          "West": 7078
+        }
+      },
+      {
+        "Id": 7080,
+        "Name": "An underground pool. #7080",
+        "Connections": {
+          "North": 7079,
+          "West": 7081
+        }
+      },
+      {
+        "Id": 7081,
+        "Name": "An underground pool. #7081",
+        "Connections": {
+          "North": 7078,
+          "East": 7080
+        }
+      },
+      {
+        "Id": 7082,
+        "Name": "A damp tunnel. #7082",
+        "Connections": {
+          "East": 7078,
+          "West": 7083
+        }
+      },
+      {
+        "Id": 7083,
+        "Name": "A damp tunnel. #7083",
+        "Connections": {
+          "East": 7082,
+          "Up": 7084
+        }
+      },
+      {
+        "Id": 7084,
+        "Name": "A damp tunnel. #7084",
+        "Connections": {
+          "East": 6022,
+          "Down": 7083
+        }
+      },
+      {
+        "Id": 7085,
+        "Name": "Top of the steps. #7085",
+        "Connections": {
+          "North": 2400,
+          "South": 7047
+        }
+      },
+      {
+        "Id": 7086,
+        "Name": "A damp tunnel. #7086",
+        "Connections": {
+          "North": 7085,
+          "South": 7047
+        }
+      },
+      {
+        "Id": 3030,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3030",
+        "Color": "blue",
+        "Connections": {
+          "North": 3025,
+          "Down": 7000
+        }
+      },
+      {
+        "Id": 6022,
+        "FrameColor": "blue",
+        "Name": "To HaonDorLight #6022",
+        "Color": "blue",
+        "Connections": {
+          "East": 6021,
+          "West": 7084
+        }
+      },
+      {
+        "Id": 2400,
+        "FrameColor": "blue",
+        "Name": "To TheAbyss #2400",
+        "Color": "blue",
+        "Connections": {
+          "North": 2401,
+          "South": 7085
+        }
+      }
+    ]
+  }
+}

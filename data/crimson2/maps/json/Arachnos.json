@@ -1,0 +1,639 @@
+{
+  "Area": {
+    "Name": "Arachnos",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 6200,
+        "Name": "On the spider web #6200",
+        "Connections": {
+          "North": 6203,
+          "South": 6134
+        }
+      },
+      {
+        "Id": 6201,
+        "Name": "On the spider web #6201",
+        "Connections": {}
+      },
+      {
+        "Id": 6202,
+        "Name": "On the spider web #6202",
+        "Connections": {}
+      },
+      {
+        "Id": 6203,
+        "Name": "On the spider web #6203",
+        "Connections": {
+          "North": 6301,
+          "South": 6200
+        }
+      },
+      {
+        "Id": 6301,
+        "Name": "Webbed Entrance #6301",
+        "Connections": {
+          "North": 6302,
+          "South": 6203
+        },
+        "Contents": [
+          {
+            "Text": "the young spider #6301",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6302,
+        "Name": "Webby Passage #6302",
+        "Connections": {
+          "North": 6304,
+          "East": 6305,
+          "South": 6301,
+          "West": 6303
+        }
+      },
+      {
+        "Id": 6303,
+        "Name": "Wasp Hive #6303",
+        "Connections": {
+          "East": 6302
+        },
+        "Contents": [
+          {
+            "Text": "the Queen Wasp #6305",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 6304,
+        "Name": "Webby Passage #6304",
+        "Connections": {
+          "East": 6305,
+          "South": 6302
+        },
+        "Contents": [
+          {
+            "Text": "the young spider #6301",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6305,
+        "Name": "Beneath the Busy Path #6305",
+        "Connections": {
+          "West": 6304,
+          "Up": 6306
+        }
+      },
+      {
+        "Id": 6306,
+        "Name": "On the Busy Path #6306",
+        "Connections": {
+          "South": 6307,
+          "Down": 6305
+        },
+        "Contents": [
+          {
+            "Text": "the young spider #6301",
+            "Color": "green"
+          },
+          {
+            "Text": "the young spider #6301",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6307,
+        "Name": "On the Busy Path #6307",
+        "Connections": {
+          "North": 6306,
+          "East": 6308
+        }
+      },
+      {
+        "Id": 6308,
+        "Name": "On the Busy Path #6308",
+        "Connections": {
+          "North": 24380,
+          "East": 6306,
+          "South": 6305,
+          "West": 6309
+        },
+        "Contents": [
+          {
+            "Text": "the slave of Arachnos #6308",
+            "Color": "green"
+          },
+          {
+            "Text": "the slave of Arachnos #6308",
+            "Color": "green"
+          },
+          {
+            "Text": "the slave of Arachnos #6308",
+            "Color": "green"
+          },
+          {
+            "Text": "the slave of Arachnos #6308",
+            "Color": "green"
+          },
+          {
+            "Text": "the slave of Arachnos #6308",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6309,
+        "Name": "A Split in the Path #6309",
+        "Connections": {
+          "North": 6310,
+          "East": 6308,
+          "South": 6320
+        }
+      },
+      {
+        "Id": 6310,
+        "Name": "Fuzzy Tree Limb #6310",
+        "Connections": {
+          "South": 6309,
+          "West": 6311
+        }
+      },
+      {
+        "Id": 6311,
+        "Name": "Tree Trunk #6311",
+        "Connections": {
+          "East": 6310,
+          "South": 6312
+        }
+      },
+      {
+        "Id": 6312,
+        "Name": "Tree Lair Entrance #6312",
+        "Connections": {
+          "North": 6311,
+          "West": 6313
+        }
+      },
+      {
+        "Id": 6313,
+        "Name": "Wolf Spider Lair #6313",
+        "Connections": {
+          "East": 6312
+        },
+        "Contents": [
+          {
+            "Text": "the Wolf Spider #6303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 6320,
+        "Name": "The Webless Path #6320",
+        "Connections": {
+          "North": 6309,
+          "West": 6321
+        }
+      },
+      {
+        "Id": 6321,
+        "Name": "Above the Ravine #6321",
+        "Connections": {
+          "East": 6320,
+          "South": 6323,
+          "Down": 6322
+        },
+        "Contents": [
+          {
+            "Text": "the drone spider #6306",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6322,
+        "Name": "The Rainbow Web #6322",
+        "Connections": {
+          "Up": 6321
+        }
+      },
+      {
+        "Id": 6323,
+        "Name": "The Web Forest #6323",
+        "Connections": {
+          "North": 6321,
+          "Down": 6324
+        }
+      },
+      {
+        "Id": 6324,
+        "Name": "The Slave Pit #6324",
+        "Connections": {
+          "North": 6325,
+          "Up": 6323
+        }
+      },
+      {
+        "Id": 6325,
+        "Name": "The Tether Path #6325",
+        "Connections": {
+          "East": 6326,
+          "West": 6324
+        }
+      },
+      {
+        "Id": 6326,
+        "Name": "A Road Crossing #6326",
+        "Connections": {
+          "West": 6325,
+          "Up": 6327
+        }
+      },
+      {
+        "Id": 6327,
+        "Name": "A Leader Strand #6327",
+        "Connections": {
+          "North": 6328,
+          "Down": 6326
+        },
+        "Contents": [
+          {
+            "Text": "the quasit #6309",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6328,
+        "Name": "The Entrance of the Ethereal Web #6328",
+        "Connections": {
+          "South": 6331
+        }
+      },
+      {
+        "Id": 6330,
+        "Name": "The Young Wormkin\u0027s Crib #6330",
+        "Connections": {
+          "Up": 6331
+        },
+        "Contents": [
+          {
+            "Text": "the drone spider #6306",
+            "Color": "green"
+          },
+          {
+            "Text": "the young dragon wormkin #6316",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6331,
+        "Name": "The Base of the Web #6331",
+        "Connections": {
+          "North": 6330,
+          "East": 6332,
+          "South": 6333,
+          "West": 6334
+        },
+        "Contents": [
+          {
+            "Text": "the drone spider #6306",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6332,
+        "Name": "Through the Trees #6332",
+        "Connections": {
+          "East": 6331,
+          "South": 6335,
+          "West": 6333
+        },
+        "Contents": [
+          {
+            "Text": "the orc #6304",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6333,
+        "Name": "Above the Clouds #6333",
+        "Connections": {
+          "East": 6331,
+          "South": 6334,
+          "West": 6335
+        },
+        "Contents": [
+          {
+            "Text": "the ethereal spider #6307",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6334,
+        "Name": "On A Cloud #6334",
+        "Connections": {
+          "Down": 6331
+        }
+      },
+      {
+        "Id": 6335,
+        "Name": "A Link in the Ethereal Web #6335",
+        "Connections": {
+          "East": 6336,
+          "West": 6331
+        },
+        "Contents": [
+          {
+            "Text": "the ethereal spider #6307",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6336,
+        "Name": "The Tenuous Strand #6336",
+        "Connections": {
+          "South": 6340,
+          "West": 6341,
+          "Down": 6331
+        }
+      },
+      {
+        "Id": 6340,
+        "Name": "The Elder Wormkin\u0027s Room #6340",
+        "Connections": {
+          "Down": 6331
+        },
+        "Contents": [
+          {
+            "Text": "the elder dragon wormkin #6317",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6341,
+        "Name": "Another Tree Limb #6341",
+        "Connections": {
+          "East": 6342,
+          "South": 6334,
+          "West": 6345
+        }
+      },
+      {
+        "Id": 6342,
+        "Name": "The Bird Spider\u0027s Lair #6342",
+        "Connections": {
+          "Down": 6331
+        },
+        "Contents": [
+          {
+            "Text": "the Bird Spider #6310",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 6345,
+        "Name": "A Link in the Ethereal Web #6345",
+        "Connections": {
+          "South": 6350,
+          "West": 6346,
+          "Up": 6345
+        }
+      },
+      {
+        "Id": 6346,
+        "Name": "The Quiet Tree Top #6346",
+        "Connections": {
+          "West": 6347,
+          "Down": 6132
+        }
+      },
+      {
+        "Id": 6347,
+        "Name": "On The Web #6347",
+        "Connections": {
+          "East": 6346,
+          "South": 6355,
+          "Down": 6331
+        }
+      },
+      {
+        "Id": 6350,
+        "Name": "The Ki-Rin Chamber #6350",
+        "Connections": {
+          "North": 6347
+        },
+        "Contents": [
+          {
+            "Text": "the Ki-Rin #6315",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6355,
+        "Name": "A Link in the Ethereal Web #6355",
+        "Connections": {
+          "North": 6360,
+          "South": 6365
+        }
+      },
+      {
+        "Id": 6360,
+        "Name": "Yevaud\u0027s Lair #6360",
+        "Connections": {
+          "South": 6355
+        },
+        "Contents": [
+          {
+            "Text": "Yevaud #6302",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6365,
+        "Name": "A Link in the Ethereal Web #6365",
+        "Connections": {
+          "North": 6371,
+          "East": 6331,
+          "South": 6366,
+          "Down": 6390
+        }
+      },
+      {
+        "Id": 6366,
+        "Name": "Entrance to the Donjonkeep #6366",
+        "Connections": {
+          "North": 6367
+        }
+      },
+      {
+        "Id": 6367,
+        "Name": "The Guardian\u0027s Room #6367",
+        "Connections": {
+          "North": 6368
+        },
+        "Contents": [
+          {
+            "Text": "The guardian #6313",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 6368,
+        "Name": "Realm of the Hopeless #6368",
+        "Connections": {
+          "North": 6369
+        }
+      },
+      {
+        "Id": 6369,
+        "Name": "Realm of the Hopeless #6369",
+        "Connections": {
+          "North": 6368,
+          "South": 6370
+        }
+      },
+      {
+        "Id": 6370,
+        "Name": "The Donjonkeep #6370",
+        "Connections": {
+          "East": 6371
+        },
+        "Contents": [
+          {
+            "Text": "the Donjonkeeper #6312",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6371,
+        "Name": "The Single Spider Line #6371",
+        "Connections": {
+          "North": 6331,
+          "South": 6372
+        }
+      },
+      {
+        "Id": 6372,
+        "Name": "The Single Spider Line #6372",
+        "Connections": {
+          "North": 6371,
+          "South": 6373
+        }
+      },
+      {
+        "Id": 6373,
+        "Name": "The Hermit\u0027s Corner #6373",
+        "Connections": {
+          "North": 6372,
+          "South": 6380
+        },
+        "Contents": [
+          {
+            "Text": "the Hermit #6311",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6380,
+        "Name": "Mahatma\u0027s Inescapable Trap #6380",
+        "Connections": {}
+      },
+      {
+        "Id": 6390,
+        "Name": "The Entrance to the Arachnos\u0027 Lair #6390",
+        "Connections": {
+          "East": 6391
+        }
+      },
+      {
+        "Id": 6391,
+        "Name": "The Sticky Chamber #6391",
+        "Connections": {
+          "East": 6392,
+          "Down": 6331
+        }
+      },
+      {
+        "Id": 6392,
+        "Name": "The Great Door #6392",
+        "Connections": {
+          "North": {
+            "RoomId": 6399,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 6391
+        }
+      },
+      {
+        "Id": 6399,
+        "Name": "The Lair of Arachnos #6399",
+        "Connections": {
+          "South": {
+            "RoomId": 6392,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Arachnos #6314",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 6134,
+        "FrameColor": "blue",
+        "Name": "To HaonDorDark #6134",
+        "Color": "blue",
+        "Connections": {
+          "North": 6200,
+          "East": 6133
+        }
+      },
+      {
+        "Id": 24380,
+        "FrameColor": "blue",
+        "Name": "To Magetower #24380",
+        "Color": "blue",
+        "Connections": {
+          "North": 24381,
+          "South": 6308
+        }
+      },
+      {
+        "Id": 6132,
+        "FrameColor": "blue",
+        "Name": "To HaonDorDark #6132",
+        "Color": "blue",
+        "Connections": {
+          "West": 6133,
+          "Down": 6130
+        }
+      }
+    ]
+  }
+}

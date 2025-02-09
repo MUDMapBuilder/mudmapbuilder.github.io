@@ -1,0 +1,250 @@
+{
+  "Area": {
+    "Name": "RoyalAcademy",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 100,
+        "Name": "The Royal Academy of Midgaard #100",
+        "Connections": {
+          "North": 111,
+          "South": 3008
+        }
+      },
+      {
+        "Id": 101,
+        "Name": "Using Scrolls 101 #101",
+        "Connections": {
+          "North": 102,
+          "South": 112
+        }
+      },
+      {
+        "Id": 102,
+        "Name": "Using Potions 101 #102",
+        "Connections": {
+          "North": 103,
+          "South": 101
+        }
+      },
+      {
+        "Id": 103,
+        "Name": "Using Wands and Staffs 101 #103",
+        "Connections": {
+          "North": 104,
+          "South": 102
+        }
+      },
+      {
+        "Id": 104,
+        "Name": "Casting Spells 101 #104",
+        "Connections": {
+          "North": 105,
+          "South": 103
+        }
+      },
+      {
+        "Id": 105,
+        "Name": "Using Abilities 101 #105",
+        "Connections": {
+          "North": 106,
+          "South": 104
+        }
+      },
+      {
+        "Id": 106,
+        "Name": "Using Skills 101 #106",
+        "Connections": {
+          "North": 107,
+          "South": 105
+        }
+      },
+      {
+        "Id": 107,
+        "Name": "Using Social Commands 101 #107",
+        "Connections": {
+          "North": 108,
+          "South": 106
+        }
+      },
+      {
+        "Id": 108,
+        "Name": "Using Help Files 101 #108",
+        "Connections": {
+          "North": 109,
+          "South": 107
+        }
+      },
+      {
+        "Id": 109,
+        "Name": "Using Help Files 102 #109",
+        "Connections": {
+          "North": 110,
+          "South": 108
+        }
+      },
+      {
+        "Id": 110,
+        "Name": "Using Help Files 103 #110",
+        "Connections": {
+          "North": 113,
+          "South": 109
+        }
+      },
+      {
+        "Id": 111,
+        "Name": "Mud Basics 101 #111",
+        "Connections": {
+          "North": 112,
+          "South": 100
+        }
+      },
+      {
+        "Id": 112,
+        "Name": "Finding Exits and Looking in Directions 101 #112",
+        "Connections": {
+          "North": 101,
+          "South": 111
+        }
+      },
+      {
+        "Id": 113,
+        "Name": "Your Actions 101 #113",
+        "Connections": {
+          "North": 114,
+          "South": 110
+        }
+      },
+      {
+        "Id": 114,
+        "Name": "People on the Mud 101 #114",
+        "Connections": {
+          "North": 115,
+          "South": 113
+        }
+      },
+      {
+        "Id": 115,
+        "Name": "A Few Secrets 101 #115",
+        "Connections": {
+          "North": 116,
+          "South": 114
+        }
+      },
+      {
+        "Id": 116,
+        "Name": "A Few Secrets 102 #116",
+        "Connections": {
+          "North": 119,
+          "South": 115
+        }
+      },
+      {
+        "Id": 117,
+        "Name": "A Few Secrets 103 #117",
+        "Connections": {
+          "North": 118,
+          "South": 116
+        }
+      },
+      {
+        "Id": 118,
+        "Name": "What the Future Will Bring 101 #118",
+        "Connections": {
+          "North": 119,
+          "South": 117
+        }
+      },
+      {
+        "Id": 119,
+        "Name": "The Courtyard #119",
+        "Connections": {
+          "North": 122,
+          "East": 120,
+          "South": 116,
+          "West": 121
+        }
+      },
+      {
+        "Id": 120,
+        "Name": "The Room of the Beast #120",
+        "Connections": {
+          "West": 119
+        },
+        "Contents": [
+          {
+            "Text": "The Royal Academy Pet Mob #100",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 121,
+        "Name": "The Room of the Beast #121",
+        "Connections": {
+          "East": 119
+        },
+        "Contents": [
+          {
+            "Text": "The Royal Academy Pet Mob #100",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 122,
+        "Name": "The Room of the Beast #122",
+        "Connections": {
+          "North": 123,
+          "South": 119
+        },
+        "Contents": [
+          {
+            "Text": "The Royal Academy Pet Mob #100",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 123,
+        "Name": "Royal Academy Graduation #123",
+        "Connections": {
+          "North": 124,
+          "South": 122
+        }
+      },
+      {
+        "Id": 124,
+        "Name": "Return to Midgaard  #124",
+        "Connections": {
+          "South": 123,
+          "Down": 3005
+        }
+      },
+      {
+        "Id": 3008,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3008",
+        "Color": "blue",
+        "Connections": {
+          "North": 100,
+          "Up": 3000,
+          "Down": 3006
+        }
+      },
+      {
+        "Id": 3005,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3005",
+        "Color": "blue",
+        "Connections": {
+          "North": 3001,
+          "East": 3006,
+          "South": 3014,
+          "West": 3004,
+          "Up": 3084
+        }
+      }
+    ]
+  }
+}

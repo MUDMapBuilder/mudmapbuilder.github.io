@@ -1,0 +1,1123 @@
+{
+  "Area": {
+    "Name": "Tuscany3",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 21300,
+        "Name": "Chamber of the Weapons Master #21300",
+        "Connections": {
+          "West": 21299
+        }
+      },
+      {
+        "Id": 21301,
+        "Name": "Top of the Silver Staircase #21301",
+        "Connections": {
+          "North": 21298,
+          "Down": 21292
+        }
+      },
+      {
+        "Id": 21302,
+        "Name": "Chamber of the Cavalier Lord #21302",
+        "Connections": {
+          "South": {
+            "RoomId": 21305,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Sir Ludwig Von Henrics, the Blue Knight #21302",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21303,
+        "Name": "Chamber of the Cavalier/Archmage #21303",
+        "Connections": {
+          "East": {
+            "RoomId": 21304,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Sir Grendall Von Dennal, the Cavalier/Sorcerer #21304",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21304,
+        "Name": "Top of the Topaz Staircase #21304",
+        "Connections": {
+          "South": {
+            "RoomId": 21307,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 21303,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 21295
+        },
+        "Contents": [
+          {
+            "Text": "the Ivory Golem #21303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21305,
+        "Name": "Pearl Hall Before an Ivory Door #21305",
+        "Connections": {
+          "North": {
+            "RoomId": 21302,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 21308
+        },
+        "Contents": [
+          {
+            "Text": "Sir Abelson, the Chambers Guard #21301",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21306,
+        "Name": "Top of the Pearl Staircase #21306",
+        "Connections": {
+          "South": 21309,
+          "Down": 21297
+        }
+      },
+      {
+        "Id": 21307,
+        "Name": "Base of the Lapis Stairwell #21307",
+        "Connections": {
+          "North": {
+            "RoomId": 21304,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 21316
+        }
+      },
+      {
+        "Id": 21308,
+        "Name": "Turn in the Pearl Hall #21308",
+        "Connections": {
+          "North": 21305,
+          "East": 21309
+        }
+      },
+      {
+        "Id": 21309,
+        "Name": "Bend in the Pearl Hall by a Diamond Door #21309",
+        "Connections": {
+          "North": 21306,
+          "East": {
+            "RoomId": 21310,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 21308
+        }
+      },
+      {
+        "Id": 21310,
+        "Name": "Treasure Room #21310",
+        "Connections": {
+          "West": {
+            "RoomId": 21309,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 21311,
+        "Name": "Turn in the Lapis Hall #21311",
+        "Connections": {
+          "East": 21312,
+          "South": 21314
+        },
+        "Contents": [
+          {
+            "Text": "a Chevalier #21305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21312,
+        "Name": "Lapis Hall #21312",
+        "Connections": {
+          "East": 21313,
+          "West": 21311
+        }
+      },
+      {
+        "Id": 21313,
+        "Name": "Beginning of the Lapis Hall #21313",
+        "Connections": {
+          "South": 21316,
+          "West": 21312
+        }
+      },
+      {
+        "Id": 21314,
+        "Name": "Lapis Hall #21314",
+        "Connections": {
+          "North": 21311,
+          "South": 21317
+        }
+      },
+      {
+        "Id": 21315,
+        "Name": "Treasure Room #21315",
+        "Connections": {
+          "South": {
+            "RoomId": 21318,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 21316,
+        "Name": "Top of the Lapis Stairwell #21316",
+        "Connections": {
+          "North": 21313,
+          "Down": 21307
+        }
+      },
+      {
+        "Id": 21317,
+        "Name": "Bend in the Lapis Hall #21317",
+        "Connections": {
+          "North": 21314,
+          "East": 21318
+        }
+      },
+      {
+        "Id": 21318,
+        "Name": "Before Crystal and Diamond Doors #21318",
+        "Connections": {
+          "North": {
+            "RoomId": 21315,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 21319,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 21317
+        }
+      },
+      {
+        "Id": 21319,
+        "Name": "Chamber of the Lord of Mounts #21319",
+        "Connections": {
+          "West": {
+            "RoomId": 21318,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 21320
+        },
+        "Contents": [
+          {
+            "Text": "Sir Endar Marrot, the Lord of Mounts #21306",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21320,
+        "Name": "Top of the Stairs Below a Trapdoor #21320",
+        "Connections": {
+          "Up": 21323,
+          "Down": 21319
+        }
+      },
+      {
+        "Id": 21321,
+        "Name": "Lair of Lucifanticus #21321",
+        "Connections": {
+          "East": {
+            "RoomId": 21322,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 21380,
+          "West": 21324,
+          "Down": 21230
+        },
+        "Contents": [
+          {
+            "Text": "The Ancient Wyrm of Luck, Lucifanticus #21300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21322,
+        "Name": "White Onyx Hall #21322",
+        "Connections": {
+          "East": 21323,
+          "West": {
+            "RoomId": 21321,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 21323,
+        "Name": "Above the Trapdoor in a White Onyx Hall #21323",
+        "Connections": {
+          "West": 21322,
+          "Down": 21320
+        }
+      },
+      {
+        "Id": 21324,
+        "Name": "Shifting Halls #21324",
+        "Connections": {
+          "North": 21326,
+          "East": 21325,
+          "South": 21352,
+          "West": 21358
+        }
+      },
+      {
+        "Id": 21325,
+        "Name": "Shifting Halls #21325",
+        "Connections": {
+          "North": 21326,
+          "East": 21325,
+          "South": 21327,
+          "West": 21324
+        }
+      },
+      {
+        "Id": 21326,
+        "Name": "Shifting Halls #21326",
+        "Connections": {
+          "North": 21327,
+          "East": 21359,
+          "South": 21326,
+          "West": 21324
+        }
+      },
+      {
+        "Id": 21327,
+        "Name": "Shifting Halls #21327",
+        "Connections": {
+          "North": 21328,
+          "East": 21360,
+          "South": 21327,
+          "West": 21325
+        }
+      },
+      {
+        "Id": 21328,
+        "Name": "Halls of Evil #21328",
+        "Connections": {
+          "North": 21325,
+          "East": 21329,
+          "South": 21328,
+          "West": 21361
+        }
+      },
+      {
+        "Id": 21329,
+        "Name": "Halls of Evil #21329",
+        "Connections": {
+          "North": 21362,
+          "East": 21329,
+          "South": 21364,
+          "West": 21330
+        }
+      },
+      {
+        "Id": 21330,
+        "Name": "Halls of Evil #21330",
+        "Connections": {
+          "North": 21331,
+          "East": 21328,
+          "South": 21330,
+          "West": 21330
+        }
+      },
+      {
+        "Id": 21331,
+        "Name": "Halls of Evil #21331",
+        "Connections": {
+          "North": 21333,
+          "East": 21337,
+          "South": 21332,
+          "West": 21363
+        }
+      },
+      {
+        "Id": 21332,
+        "Name": "Halls of Evil #21332",
+        "Connections": {
+          "North": 21332,
+          "East": 21331,
+          "West": 21330
+        }
+      },
+      {
+        "Id": 21333,
+        "Name": "Halls of Greater Evil #21333",
+        "Connections": {
+          "North": 21333,
+          "East": 21334,
+          "South": 21328,
+          "West": 21365
+        }
+      },
+      {
+        "Id": 21334,
+        "Name": "Halls of Greater Evil #21334",
+        "Connections": {
+          "North": 21334,
+          "East": 21333,
+          "South": 21335,
+          "West": 21333
+        }
+      },
+      {
+        "Id": 21335,
+        "Name": "Halls of Greater Evil #21335",
+        "Connections": {
+          "North": 21334,
+          "East": 21336,
+          "South": 21334,
+          "West": 21366
+        }
+      },
+      {
+        "Id": 21336,
+        "Name": "Halls of Greater Evil #21336",
+        "Connections": {
+          "North": 21333,
+          "East": 21333,
+          "South": 21334,
+          "West": 21331
+        }
+      },
+      {
+        "Id": 21337,
+        "Name": "Halls of Good #21337",
+        "Connections": {
+          "North": 21328,
+          "East": 21338,
+          "South": 21337,
+          "West": 21324
+        }
+      },
+      {
+        "Id": 21338,
+        "Name": "Halls of Good #21338",
+        "Connections": {
+          "North": 21339,
+          "East": 21367,
+          "South": 21337,
+          "West": 21338
+        }
+      },
+      {
+        "Id": 21339,
+        "Name": "Halls of Good #21339",
+        "Connections": {
+          "North": 21337,
+          "East": 21340,
+          "South": 21338
+        }
+      },
+      {
+        "Id": 21340,
+        "Name": "Halls of Good #21340",
+        "Connections": {
+          "North": 21341,
+          "East": 21337,
+          "South": 21337,
+          "West": 21337
+        }
+      },
+      {
+        "Id": 21341,
+        "Name": "Halls of Supreme Good #21341",
+        "Connections": {
+          "North": 21342,
+          "East": 21341,
+          "South": 21337,
+          "West": 21343
+        },
+        "Contents": [
+          {
+            "Text": "the water elemental #21307",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21342,
+        "Name": "Halls of Supreme Good #21342",
+        "Connections": {
+          "North": 21342,
+          "East": 21344,
+          "South": 21343,
+          "West": 21341
+        }
+      },
+      {
+        "Id": 21343,
+        "Name": "Halls of Supreme Good #21343",
+        "Connections": {
+          "North": 21342,
+          "East": 21341,
+          "South": 21343,
+          "West": 21344
+        },
+        "Contents": [
+          {
+            "Text": "fire elemental #21308",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21344,
+        "Name": "Halls of Supreme Good #21344",
+        "Connections": {
+          "North": 21341,
+          "East": 21345,
+          "South": 21344,
+          "West": 21343
+        },
+        "Contents": [
+          {
+            "Text": "the earth elemental #21309",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21345,
+        "Name": "Halls of Supreme Good #21345",
+        "Connections": {
+          "North": 21345,
+          "East": 21346,
+          "South": 21344,
+          "West": 21342
+        }
+      },
+      {
+        "Id": 21346,
+        "Name": "Halls of Supreme Good #21346",
+        "Connections": {
+          "North": 21343,
+          "East": 21341,
+          "South": 21369,
+          "West": 21342
+        }
+      },
+      {
+        "Id": 21347,
+        "Name": "Entrance to the Halls of the Gods #21347",
+        "Connections": {
+          "North": 21348
+        }
+      },
+      {
+        "Id": 21348,
+        "Name": "Halls of the Heros #21348",
+        "Connections": {
+          "North": 21349,
+          "East": 21357,
+          "South": 21347,
+          "West": 21356
+        }
+      },
+      {
+        "Id": 21349,
+        "Name": "Halls of the Heros #21349",
+        "Connections": {
+          "East": 21350,
+          "South": 21348,
+          "West": 21354
+        }
+      },
+      {
+        "Id": 21350,
+        "Name": "Halls of the Heros #21350",
+        "Connections": {
+          "North": 21351,
+          "East": 21355,
+          "West": 21349
+        }
+      },
+      {
+        "Id": 21351,
+        "Name": "Staircase of the Kalevala #21351",
+        "Connections": {
+          "South": {
+            "RoomId": 21350,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 21352
+        }
+      },
+      {
+        "Id": 21352,
+        "Name": "Top of the Staircase of the Kalevala #21352",
+        "Connections": {
+          "North": 21324,
+          "Down": 21351
+        }
+      },
+      {
+        "Id": 21353,
+        "Name": "Land of Summoned Monsters #21353",
+        "Connections": {}
+      },
+      {
+        "Id": 21354,
+        "Name": "Chamber of Ilmarinen #21354",
+        "Connections": {
+          "East": 21349
+        },
+        "Contents": [
+          {
+            "Text": "Ilmarinen #21317",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21355,
+        "Name": "Chamber of Lemminkainen #21355",
+        "Connections": {
+          "West": 21350
+        },
+        "Contents": [
+          {
+            "Text": "Tiera, Lemminkainen\u0027s Shield Man #21318",
+            "Color": "green"
+          },
+          {
+            "Text": "Lemminkainen, Hero of the Kalevala #21316",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21356,
+        "Name": "Chamber of Vainamoinen #21356",
+        "Connections": {
+          "East": 21348
+        },
+        "Contents": [
+          {
+            "Text": "Vainamoinen, Hero of the Kalevala #21314",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21357,
+        "Name": "Chamber of Kullervo #21357",
+        "Connections": {
+          "West": 21348
+        },
+        "Contents": [
+          {
+            "Text": "Kullervo, Hero of the Kalevala #21315",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21358,
+        "Name": "Ilmatar\u0027s Plane #21358",
+        "Connections": {
+          "East": 21324
+        },
+        "Contents": [
+          {
+            "Text": "Ilmatar, Goddess of Mothers #21319",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21359,
+        "Name": "The Forest of Mielikki #21359",
+        "Connections": {
+          "West": 21326
+        },
+        "Contents": [
+          {
+            "Text": "Mielikki, the Goddess of Nature #21320",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21360,
+        "Name": "ZZZzzzzzzzzz....... #21360",
+        "Connections": {
+          "West": 21327
+        },
+        "Contents": [
+          {
+            "Text": "Untamo, God of Sleep and Dreams #21310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21361,
+        "Name": "Home of the Plague #21361",
+        "Connections": {
+          "East": 21328
+        },
+        "Contents": [
+          {
+            "Text": "Kiputytto, Goddess of Sickness #21321",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21362,
+        "Name": "The Plane of Pain #21362",
+        "Connections": {
+          "South": 21329
+        },
+        "Contents": [
+          {
+            "Text": "Loviatar, Goddess of Hurt #21322",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21363,
+        "Name": "Death\u0027s Door #21363",
+        "Connections": {
+          "East": 21331
+        },
+        "Contents": [
+          {
+            "Text": "Surma, Demigod of Death #21323",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21364,
+        "Name": "Chamber of the Old Crone #21364",
+        "Connections": {
+          "North": 21329
+        },
+        "Contents": [
+          {
+            "Text": "Louhi, Old Crone of Pohjola #21324",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21365,
+        "Name": "Plane of Pure Evil #21365",
+        "Connections": {
+          "East": 21333
+        },
+        "Contents": [
+          {
+            "Text": "Hiisi, God of Evil #21325",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21366,
+        "Name": "The Underworld #21366",
+        "Connections": {
+          "East": 21335
+        },
+        "Contents": [
+          {
+            "Text": "Tuonetar, Goddess of the Underworld #21327",
+            "Color": "red"
+          },
+          {
+            "Text": "Tuoni, God of the Underworld #21326",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21367,
+        "Name": "Plane of Oceans #21367",
+        "Connections": {
+          "West": 21338
+        },
+        "Contents": [
+          {
+            "Text": "Ahto, God of Seas and Waters #21328",
+            "Color": "green"
+          },
+          {
+            "Text": "Water Dwarf, Shield Man for Ahto #21329",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21368,
+        "Name": "Halls of Good #21368",
+        "Connections": {
+          "North": 21337,
+          "East": 21337,
+          "South": 21337,
+          "West": 21337
+        }
+      },
+      {
+        "Id": 21369,
+        "Name": "Plane of Sky and Air #21369",
+        "Connections": {
+          "North": 21346
+        },
+        "Contents": [
+          {
+            "Text": "Ukko, Supreme God of the Kalevala #21330",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21370,
+        "Name": "Under the River\u0027s Surface #21370",
+        "Connections": {
+          "East": 21371,
+          "Up": 21109
+        }
+      },
+      {
+        "Id": 21371,
+        "Name": "Murky Water #21371",
+        "Connections": {
+          "South": 21373,
+          "West": 21370
+        }
+      },
+      {
+        "Id": 21372,
+        "Name": "Magical Cell #21372",
+        "Connections": {
+          "South": {
+            "RoomId": 21246,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Slatag #21311",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21373,
+        "Name": "Lighter Water #21373",
+        "Connections": {
+          "North": 21371,
+          "East": 21374
+        }
+      },
+      {
+        "Id": 21374,
+        "Name": "On a Ledge #21374",
+        "Connections": {
+          "North": {
+            "RoomId": 21372,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 21373
+        },
+        "Contents": [
+          {
+            "Text": "an Ancient Mithril Golem #21312",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21375,
+        "Name": "Crashing Through the Forest #21375",
+        "Connections": {
+          "North": 21158,
+          "South": 21376
+        }
+      },
+      {
+        "Id": 21376,
+        "Name": "Hidden Pit #21376",
+        "Connections": {
+          "North": 21375,
+          "Down": 21377
+        }
+      },
+      {
+        "Id": 21377,
+        "Name": "Deep Underground #21377",
+        "Connections": {
+          "East": 21378,
+          "Up": 21109
+        }
+      },
+      {
+        "Id": 21378,
+        "Name": "Ichzentenopheous\u0027s Dwelling #21378",
+        "Connections": {
+          "East": {
+            "RoomId": 21379,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 21377
+        },
+        "Contents": [
+          {
+            "Text": "Ichzentenopheous, the Mental Mystic #21313",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21379,
+        "Name": "Artifact Room #21379",
+        "Connections": {
+          "West": {
+            "RoomId": 21378,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 21380,
+        "Name": "Flying over Tuscany #21380",
+        "Connections": {
+          "Up": 21321,
+          "Down": 21161
+        }
+      },
+      {
+        "Id": 21381,
+        "Name": "A secret, hidden cabin #21381",
+        "Connections": {}
+      },
+      {
+        "Id": 21299,
+        "FrameColor": "blue",
+        "Name": "To Tuscany2 #21299",
+        "Color": "blue",
+        "Connections": {
+          "North": {
+            "RoomId": 21296,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 21300
+        }
+      },
+      {
+        "Id": 21298,
+        "FrameColor": "blue",
+        "Name": "To Tuscany2 #21298",
+        "Color": "blue",
+        "Connections": {
+          "North": {
+            "RoomId": 21295,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 21301
+        }
+      },
+      {
+        "Id": 21292,
+        "FrameColor": "blue",
+        "Name": "To Tuscany2 #21292",
+        "Color": "blue",
+        "Connections": {
+          "Up": 21301,
+          "Down": 21283
+        }
+      },
+      {
+        "Id": 21295,
+        "FrameColor": "blue",
+        "Name": "To Tuscany2 #21295",
+        "Color": "blue",
+        "Connections": {
+          "South": {
+            "RoomId": 21298,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 21304
+        }
+      },
+      {
+        "Id": 21297,
+        "FrameColor": "blue",
+        "Name": "To Tuscany2 #21297",
+        "Color": "blue",
+        "Connections": {
+          "West": {
+            "RoomId": 21296,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 21306
+        }
+      },
+      {
+        "Id": 21230,
+        "FrameColor": "blue",
+        "Name": "To Tuscany2 #21230",
+        "Color": "blue",
+        "Connections": {
+          "North": 21247,
+          "East": 21231,
+          "South": 21247,
+          "West": {
+            "RoomId": 21229,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 21109,
+        "FrameColor": "blue",
+        "Name": "To Tuscany1 #21109",
+        "Color": "blue",
+        "Connections": {
+          "East": 21110,
+          "West": 21108
+        }
+      },
+      {
+        "Id": 21246,
+        "FrameColor": "blue",
+        "Name": "To Tuscany2 #21246",
+        "Color": "blue",
+        "Connections": {
+          "North": {
+            "RoomId": 21372,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 21158,
+        "FrameColor": "blue",
+        "Name": "To Tuscany1 #21158",
+        "Color": "blue",
+        "Connections": {
+          "North": 21149,
+          "East": 21152,
+          "South": 21375,
+          "West": 21151
+        }
+      },
+      {
+        "Id": 21161,
+        "FrameColor": "blue",
+        "Name": "To Tuscany1 #21161",
+        "Color": "blue",
+        "Connections": {
+          "Up": 21380,
+          "Down": 21160
+        }
+      }
+    ]
+  }
+}

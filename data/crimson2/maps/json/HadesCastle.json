@@ -1,0 +1,614 @@
+{
+  "Area": {
+    "Name": "HadesCastle",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 1750,
+        "Name": "On the River Styx #1750",
+        "Connections": {
+          "South": 3943,
+          "West": 1751
+        },
+        "Contents": [
+          {
+            "Text": "Azrael, The Angel of Death #1767",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1751,
+        "Name": "The Great Gate #1751",
+        "Connections": {
+          "East": 1750,
+          "West": {
+            "RoomId": 1752,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Cerberus #1750",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1752,
+        "Name": "A Dark Passageway #1752",
+        "Connections": {
+          "West": 1753
+        },
+        "Contents": [
+          {
+            "Text": "Lost Soul #1751",
+            "Color": "green"
+          },
+          {
+            "Text": "Lost Soul #1751",
+            "Color": "green"
+          },
+          {
+            "Text": "Lost Soul #1751",
+            "Color": "green"
+          },
+          {
+            "Text": "Tormented Spirit #1752",
+            "Color": "green"
+          },
+          {
+            "Text": "Tormented Spirit #1752",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1753,
+        "Name": "A Dark Passageway #1753",
+        "Connections": {
+          "North": 1754,
+          "East": 1752,
+          "South": 1756,
+          "West": 1755,
+          "Down": 1760
+        },
+        "Contents": [
+          {
+            "Text": "Tormented Spirit #1752",
+            "Color": "green"
+          },
+          {
+            "Text": "Tormented Spirit #1752",
+            "Color": "green"
+          },
+          {
+            "Text": "Tormented Spirit #1752",
+            "Color": "green"
+          },
+          {
+            "Text": "Lost Soul #1751",
+            "Color": "green"
+          },
+          {
+            "Text": "Lost Soul #1751",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1754,
+        "Name": "Pathway to the Castle #1754",
+        "Connections": {
+          "North": 1757,
+          "South": 1753
+        }
+      },
+      {
+        "Id": 1755,
+        "Name": "The Torture Room #1755",
+        "Connections": {
+          "East": 1753
+        },
+        "Contents": [
+          {
+            "Text": "Torture Master #1754",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1756,
+        "Name": "Hall of the Titans #1756",
+        "Connections": {
+          "North": 1753
+        },
+        "Contents": [
+          {
+            "Text": "Hyperion #1753",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1757,
+        "Name": "Pathway to the Castle #1757",
+        "Connections": {
+          "North": 1759,
+          "East": 1758,
+          "South": 1754,
+          "West": 1758
+        }
+      },
+      {
+        "Id": 1758,
+        "Name": "Fire Lake #1758",
+        "Connections": {}
+      },
+      {
+        "Id": 1759,
+        "Name": "Castle Entrance #1759",
+        "Connections": {
+          "North": {
+            "RoomId": 1761,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 1757
+        },
+        "Contents": [
+          {
+            "Text": "A Harpy #1756",
+            "Color": "red"
+          },
+          {
+            "Text": "A Harpy #1756",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1760,
+        "Name": "Despair #1760",
+        "Connections": {
+          "Up": 1753
+        },
+        "Contents": [
+          {
+            "Text": "The Pain Elemental #1755",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1761,
+        "Name": "The Black Hall #1761",
+        "Connections": {
+          "North": 1762,
+          "South": {
+            "RoomId": 1759,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A Wraith #1757",
+            "Color": "green"
+          },
+          {
+            "Text": "A Wraith #1757",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1762,
+        "Name": "The Black Hall #1762",
+        "Connections": {
+          "North": 1765,
+          "East": 1763,
+          "South": 1761,
+          "West": 1764
+        },
+        "Contents": [
+          {
+            "Text": "A Wraith #1757",
+            "Color": "green"
+          },
+          {
+            "Text": "A Wraith #1757",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1763,
+        "Name": "Castle Armoury #1763",
+        "Connections": {
+          "West": 1762
+        }
+      },
+      {
+        "Id": 1764,
+        "Name": "Medusa\u0027s Lair #1764",
+        "Connections": {
+          "East": 1762
+        },
+        "Contents": [
+          {
+            "Text": "Medusa #1758",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1765,
+        "Name": "Bottom of the Black Stairway #1765",
+        "Connections": {
+          "South": 1762,
+          "Up": 1766
+        },
+        "Contents": [
+          {
+            "Text": "A Wraith #1757",
+            "Color": "green"
+          },
+          {
+            "Text": "A Wraith #1757",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1766,
+        "Name": "Middle of the Black Staircase #1766",
+        "Connections": {
+          "Up": 1767,
+          "Down": 1765
+        }
+      },
+      {
+        "Id": 1767,
+        "Name": "Top of the Black Staircase #1767",
+        "Connections": {
+          "North": 1768,
+          "East": 1769,
+          "South": 1770,
+          "West": 1771,
+          "Down": 1766
+        }
+      },
+      {
+        "Id": 1768,
+        "Name": "The Pleasure Room #1768",
+        "Connections": {
+          "South": 1767
+        },
+        "Contents": [
+          {
+            "Text": "Queen Cleavage #1759",
+            "Color": "green"
+          },
+          {
+            "Text": "Guido #1760",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1769,
+        "Name": "The Spikes #1769",
+        "Connections": {}
+      },
+      {
+        "Id": 1770,
+        "Name": "Lair of the Zombie Master #1770",
+        "Connections": {
+          "North": 1767
+        },
+        "Contents": [
+          {
+            "Text": "The Zombie Master #1761",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1771,
+        "Name": "The Glowing Corridor #1771",
+        "Connections": {
+          "East": 1767,
+          "West": 1772
+        }
+      },
+      {
+        "Id": 1772,
+        "Name": "Before the Swirling Black Portal #1772",
+        "Connections": {
+          "East": 1771,
+          "West": 1773
+        }
+      },
+      {
+        "Id": 1773,
+        "Name": "The Dining Room #1773",
+        "Connections": {
+          "West": 1774
+        }
+      },
+      {
+        "Id": 1774,
+        "Name": "The Great Hallway #1774",
+        "Connections": {
+          "East": 1773,
+          "West": 1775
+        }
+      },
+      {
+        "Id": 1775,
+        "Name": "The Great Hallway #1775",
+        "Connections": {
+          "East": 1774,
+          "West": 1776
+        }
+      },
+      {
+        "Id": 1776,
+        "Name": "Before the Giant Glowing Black Doors #1776",
+        "Connections": {
+          "North": 1777,
+          "East": 1775,
+          "West": 1778
+        }
+      },
+      {
+        "Id": 1777,
+        "Name": "Hades\u0027 Bedroom #1777",
+        "Connections": {
+          "South": 1776,
+          "Down": 1779
+        }
+      },
+      {
+        "Id": 1778,
+        "Name": "The Pit #1778",
+        "Connections": {}
+      },
+      {
+        "Id": 1779,
+        "Name": "Trap Door Under the Bed #1779",
+        "Connections": {
+          "North": 1780,
+          "Up": 1777
+        }
+      },
+      {
+        "Id": 1780,
+        "Name": "Dark Corridor #1780",
+        "Connections": {
+          "North": 1781,
+          "South": 1779
+        }
+      },
+      {
+        "Id": 1781,
+        "Name": "A Golden, Glowing Room #1781",
+        "Connections": {
+          "North": 1784,
+          "East": 1783,
+          "South": 1780,
+          "West": 1782
+        }
+      },
+      {
+        "Id": 1782,
+        "Name": "Corner of the Golden Room #1782",
+        "Connections": {
+          "North": 1786,
+          "East": 1781
+        }
+      },
+      {
+        "Id": 1783,
+        "Name": "Corner of the Golden Room #1783",
+        "Connections": {
+          "North": 1787,
+          "West": 1781
+        }
+      },
+      {
+        "Id": 1784,
+        "Name": "Center of the Golden Room #1784",
+        "Connections": {
+          "North": 1789,
+          "East": 1787,
+          "South": 1781,
+          "West": 1786,
+          "Down": 1785
+        },
+        "Contents": [
+          {
+            "Text": "The Great Gold Beast #1762",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1785,
+        "Name": "Hidden Shrine #1785",
+        "Connections": {}
+      },
+      {
+        "Id": 1786,
+        "Name": "Western Wall of the Golden Room #1786",
+        "Connections": {
+          "North": 1788,
+          "East": 1784,
+          "South": 1782
+        }
+      },
+      {
+        "Id": 1787,
+        "Name": "Eastern Wall of the Golden Room #1787",
+        "Connections": {
+          "North": 1790,
+          "South": 1783,
+          "West": 1784
+        }
+      },
+      {
+        "Id": 1788,
+        "Name": "Corner of the Golden Room #1788",
+        "Connections": {
+          "East": 1789,
+          "South": 1786
+        }
+      },
+      {
+        "Id": 1789,
+        "Name": "Before the Silver Door #1789",
+        "Connections": {
+          "North": 1791,
+          "East": 1790,
+          "South": 1784,
+          "West": 1788
+        }
+      },
+      {
+        "Id": 1790,
+        "Name": "Corner of the Golden Room #1790",
+        "Connections": {
+          "South": 1787,
+          "West": 1789
+        }
+      },
+      {
+        "Id": 1791,
+        "Name": "Beginning of the End #1791",
+        "Connections": {
+          "East": 1792,
+          "South": 1789
+        }
+      },
+      {
+        "Id": 1792,
+        "Name": "Hallway of Fallen Souls #1792",
+        "Connections": {
+          "East": 1793,
+          "West": 1791
+        }
+      },
+      {
+        "Id": 1793,
+        "Name": "At the Door of Fallen Souls #1793",
+        "Connections": {
+          "North": 1794,
+          "East": 1795,
+          "West": 1792
+        }
+      },
+      {
+        "Id": 1794,
+        "Name": "Room of Unending Pain #1794",
+        "Connections": {
+          "South": 1793
+        },
+        "Contents": [
+          {
+            "Text": "A Torturing Daemon #1763",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1795,
+        "Name": "Hades\u0027 Worship Room #1795",
+        "Connections": {
+          "West": 1793,
+          "Up": 1796
+        },
+        "Contents": [
+          {
+            "Text": "a sacrificial lamb #1764",
+            "Color": "green"
+          },
+          {
+            "Text": "a sacrificial lamb #1764",
+            "Color": "green"
+          },
+          {
+            "Text": "a sacrificial lamb #1764",
+            "Color": "green"
+          },
+          {
+            "Text": "a sacrificial lamb #1764",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1796,
+        "Name": "Crossroads of Fate #1796",
+        "Connections": {
+          "East": 1750,
+          "West": 1797,
+          "Up": 1798,
+          "Down": 1799
+        }
+      },
+      {
+        "Id": 1797,
+        "Name": "Room of Traitors #1797",
+        "Connections": {
+          "East": 1796
+        },
+        "Contents": [
+          {
+            "Text": "Satan #1766",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1798,
+        "Name": "Room of Darkness #1798",
+        "Connections": {
+          "Down": 1796
+        },
+        "Contents": [
+          {
+            "Text": "Hades #1765",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1799,
+        "Name": "Death #1799",
+        "Connections": {}
+      },
+      {
+        "Id": 3943,
+        "FrameColor": "blue",
+        "Name": "To Volcano #3943",
+        "Color": "blue",
+        "Connections": {
+          "North": 1750,
+          "East": 3900,
+          "South": 3982,
+          "West": 3944,
+          "Up": 3943,
+          "Down": 3916
+        }
+      }
+    ]
+  }
+}

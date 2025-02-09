@@ -1,0 +1,1123 @@
+{
+  "Area": {
+    "Name": "TheAbyss",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 2400,
+        "Name": "Bottom of the steps. #2400",
+        "Connections": {
+          "North": 2401,
+          "South": 7085
+        }
+      },
+      {
+        "Id": 2401,
+        "Name": "The entrance to the Abyss #2401",
+        "Connections": {
+          "South": 2400,
+          "Down": 2402
+        }
+      },
+      {
+        "Id": 2402,
+        "Name": "Before the rope bridge. #2402",
+        "Connections": {
+          "North": 2403,
+          "Up": 2401
+        }
+      },
+      {
+        "Id": 2403,
+        "Name": "A large bridge made of rope. #2403",
+        "Connections": {
+          "North": 2404,
+          "South": 2402
+        },
+        "Contents": [
+          {
+            "Text": "a lost soul #2403",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2404,
+        "Name": "A large bridge made of rope. #2404",
+        "Connections": {
+          "North": 2406,
+          "East": 2405,
+          "South": 2403
+        }
+      },
+      {
+        "Id": 2405,
+        "Name": "In the Abyss. #2405",
+        "Connections": {}
+      },
+      {
+        "Id": 2406,
+        "Name": "A large bridge made of rope. #2406",
+        "Connections": {
+          "North": 2407,
+          "South": 2404
+        }
+      },
+      {
+        "Id": 2407,
+        "Name": "At the gates. #2407",
+        "Connections": {
+          "North": 2408,
+          "South": 2406
+        },
+        "Contents": [
+          {
+            "Text": "the Gate Guard #2401",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2408,
+        "Name": "The dark island in the Abyss. #2408",
+        "Connections": {
+          "North": {
+            "RoomId": 2474,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 2415,
+          "South": 2407,
+          "West": 2409
+        }
+      },
+      {
+        "Id": 2409,
+        "Name": "On the ledge. #2409",
+        "Connections": {
+          "East": 2408,
+          "West": 2410
+        }
+      },
+      {
+        "Id": 2410,
+        "Name": "On the ledge. #2410",
+        "Connections": {
+          "East": 2409,
+          "West": 2413,
+          "Down": 2411
+        }
+      },
+      {
+        "Id": 2411,
+        "Name": "A lower ledge. #2411",
+        "Connections": {
+          "North": 2412
+        },
+        "Contents": [
+          {
+            "Text": "a gargoyle #2409",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2412,
+        "Name": "A small tunnel. #2412",
+        "Connections": {
+          "North": 2423,
+          "South": 2425
+        }
+      },
+      {
+        "Id": 2413,
+        "Name": "On the ledge. #2413",
+        "Connections": {
+          "North": 2414,
+          "East": 2410
+        },
+        "Contents": [
+          {
+            "Text": "the walking corpse #2420",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2414,
+        "Name": "The end of the ledge. #2414",
+        "Connections": {
+          "North": 2478,
+          "South": 2413,
+          "West": 2468
+        },
+        "Contents": [
+          {
+            "Text": "the walking corpse #2420",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2415,
+        "Name": "The dead forest. #2415",
+        "Connections": {
+          "North": 2429,
+          "East": 2416,
+          "South": 2431,
+          "West": 2408
+        },
+        "Contents": [
+          {
+            "Text": "a black vulture #2413",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2416,
+        "Name": "Deep in the forest. #2416",
+        "Connections": {
+          "North": 2417,
+          "West": 2415
+        },
+        "Contents": [
+          {
+            "Text": "a black vulture #2413",
+            "Color": "green"
+          },
+          {
+            "Text": "a black vulture #2413",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2417,
+        "Name": "Deep in the forest. #2417",
+        "Connections": {
+          "North": 2418,
+          "South": 2416,
+          "West": 2430
+        }
+      },
+      {
+        "Id": 2418,
+        "Name": "A clearing in the forest. #2418",
+        "Connections": {
+          "South": 2417,
+          "West": 2488
+        }
+      },
+      {
+        "Id": 2419,
+        "Name": "At the base of the dark mountain. #2419",
+        "Connections": {
+          "East": 2492,
+          "Up": 2420
+        },
+        "Contents": [
+          {
+            "Text": "the morg #2418",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2420,
+        "Name": "The side of the dark mountain. #2420",
+        "Connections": {
+          "East": 2441,
+          "Up": 2421,
+          "Down": 2419
+        }
+      },
+      {
+        "Id": 2421,
+        "Name": "Near the top of the mountain. #2421",
+        "Connections": {
+          "West": 2422,
+          "Up": 2443,
+          "Down": 2420
+        },
+        "Contents": [
+          {
+            "Text": "a hooded gargoyle #2411",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2422,
+        "Name": "Inside the cave. #2422",
+        "Connections": {
+          "East": 2421,
+          "Down": 2428
+        }
+      },
+      {
+        "Id": 2423,
+        "Name": "A small tunnel. #2423",
+        "Connections": {
+          "East": 2424,
+          "South": 2412
+        }
+      },
+      {
+        "Id": 2424,
+        "Name": "A small tunnel. #2424",
+        "Connections": {
+          "North": 2426,
+          "West": 2423
+        }
+      },
+      {
+        "Id": 2425,
+        "Name": "The lower ledge. #2425",
+        "Connections": {
+          "North": 2412
+        }
+      },
+      {
+        "Id": 2426,
+        "Name": "A small tunnel. #2426",
+        "Connections": {
+          "North": 2427,
+          "South": 2424
+        }
+      },
+      {
+        "Id": 2427,
+        "Name": "A small tunnel. #2427",
+        "Connections": {
+          "East": 2438,
+          "South": 2426
+        }
+      },
+      {
+        "Id": 2428,
+        "Name": "The tunnel to the center of the mountain. #2428",
+        "Connections": {
+          "Up": 2422,
+          "Down": 2432
+        },
+        "Contents": [
+          {
+            "Text": "a dopelganger #2408",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2429,
+        "Name": "The dead forest. #2429",
+        "Connections": {
+          "East": 2430,
+          "South": 2415
+        }
+      },
+      {
+        "Id": 2430,
+        "Name": "The dead forest. #2430",
+        "Connections": {
+          "East": 2417,
+          "West": 2429
+        },
+        "Contents": [
+          {
+            "Text": "a black vulture #2413",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2431,
+        "Name": "The dead forest. #2431",
+        "Connections": {
+          "North": 2415
+        }
+      },
+      {
+        "Id": 2432,
+        "Name": "The end of the tunnel. #2432",
+        "Connections": {
+          "East": 2433,
+          "Up": 2428
+        }
+      },
+      {
+        "Id": 2433,
+        "Name": "A very dark room. #2433",
+        "Connections": {
+          "South": 2434
+        }
+      },
+      {
+        "Id": 2434,
+        "Name": "The halls of Agony. #2434",
+        "Connections": {
+          "North": 2433,
+          "West": 2435
+        },
+        "Contents": [
+          {
+            "Text": "the weresnake #2416",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2435,
+        "Name": "The halls of Agony. #2435",
+        "Connections": {
+          "East": 2434,
+          "West": 2436
+        }
+      },
+      {
+        "Id": 2436,
+        "Name": "Agony\u0027s Antechamber. #2436",
+        "Connections": {
+          "North": 2437,
+          "East": 2435,
+          "Down": {
+            "RoomId": 2448,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Agony #2405",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2437,
+        "Name": "Agony\u0027s secret tunnel. #2437",
+        "Connections": {
+          "East": 2444,
+          "South": 2436
+        }
+      },
+      {
+        "Id": 2438,
+        "Name": "The burnt room. #2438",
+        "Connections": {
+          "West": 2427,
+          "Down": 2439
+        }
+      },
+      {
+        "Id": 2439,
+        "Name": "The burnt room. #2439",
+        "Connections": {
+          "West": 2440,
+          "Up": 2438
+        }
+      },
+      {
+        "Id": 2440,
+        "Name": "The dragon\u0027s lair. #2440",
+        "Connections": {
+          "East": 2439
+        },
+        "Contents": [
+          {
+            "Text": "The Abyss dragon #2414",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2441,
+        "Name": "The side of the dark mountain. #2441",
+        "Connections": {
+          "East": 2442,
+          "West": 2420
+        }
+      },
+      {
+        "Id": 2442,
+        "Name": "The top of the Dark Mountain. #2442",
+        "Connections": {
+          "West": 2441,
+          "Down": 2445
+        }
+      },
+      {
+        "Id": 2443,
+        "Name": "at the Dark Mountain in the Abyss. #2443",
+        "Connections": {}
+      },
+      {
+        "Id": 2444,
+        "Name": "The end of the tunnel. #2444",
+        "Connections": {
+          "East": 2433,
+          "Up": 2428
+        }
+      },
+      {
+        "Id": 2445,
+        "Name": "The side of the Dark Mountain. #2445",
+        "Connections": {
+          "Up": 2442,
+          "Down": 2446
+        }
+      },
+      {
+        "Id": 2446,
+        "Name": "Near the bottom of the Dark Mountain. #2446",
+        "Connections": {
+          "West": 2447,
+          "Up": 2445
+        },
+        "Contents": [
+          {
+            "Text": "the morg #2418",
+            "Color": "green"
+          },
+          {
+            "Text": "the morg #2418",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2447,
+        "Name": "Through the avalanch. #2447",
+        "Connections": {
+          "North": 2452,
+          "East": 2446
+        }
+      },
+      {
+        "Id": 2448,
+        "Name": "Under the grating. #2448",
+        "Connections": {
+          "South": 2449,
+          "Up": 2436
+        }
+      },
+      {
+        "Id": 2449,
+        "Name": "A dark tunnel. #2449",
+        "Connections": {
+          "North": 2448,
+          "West": 2450
+        }
+      },
+      {
+        "Id": 2450,
+        "Name": "At the cage door. #2450",
+        "Connections": {
+          "East": 2449,
+          "South": {
+            "RoomId": 2451,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the weresnake #2416",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2451,
+        "Name": "Misery\u0027s cage. #2451",
+        "Connections": {
+          "North": 2450
+        },
+        "Contents": [
+          {
+            "Text": "Misery #2402",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2452,
+        "Name": "Before the glass woods. #2452",
+        "Connections": {
+          "North": 2453,
+          "South": 2447
+        }
+      },
+      {
+        "Id": 2453,
+        "Name": "In the woods. #2453",
+        "Connections": {
+          "North": 2454,
+          "South": 2452
+        }
+      },
+      {
+        "Id": 2454,
+        "Name": "In the woods. #2454",
+        "Connections": {
+          "East": 2455,
+          "South": 2453
+        },
+        "Contents": [
+          {
+            "Text": "a black bat #2410",
+            "Color": "green"
+          },
+          {
+            "Text": "a black bat #2410",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2455,
+        "Name": "In the woods. #2455",
+        "Connections": {
+          "North": 2456,
+          "West": 2454
+        }
+      },
+      {
+        "Id": 2456,
+        "Name": "In the woods. #2456",
+        "Connections": {
+          "North": 2454,
+          "South": 2455,
+          "West": 2457
+        },
+        "Contents": [
+          {
+            "Text": "the morg #2418",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2457,
+        "Name": "In the woods. #2457",
+        "Connections": {
+          "North": 2458,
+          "East": 2456
+        },
+        "Contents": [
+          {
+            "Text": "the walking corpse #2420",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2458,
+        "Name": "In the woods. #2458",
+        "Connections": {
+          "North": 2459,
+          "East": 2460,
+          "South": 2457
+        },
+        "Contents": [
+          {
+            "Text": "the geek #2407",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2459,
+        "Name": "In the woods. #2459",
+        "Connections": {
+          "North": 2453
+        }
+      },
+      {
+        "Id": 2460,
+        "Name": "In the woods. #2460",
+        "Connections": {
+          "East": 2461,
+          "West": 2458
+        },
+        "Contents": [
+          {
+            "Text": "a black vulture #2413",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2461,
+        "Name": "In the woods. #2461",
+        "Connections": {
+          "North": 2456,
+          "South": 2462,
+          "West": 2460
+        },
+        "Contents": [
+          {
+            "Text": "a black bat #2410",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2462,
+        "Name": "In the woods. #2462",
+        "Connections": {
+          "North": 2461,
+          "South": 2463
+        },
+        "Contents": [
+          {
+            "Text": "a black bat #2410",
+            "Color": "green"
+          },
+          {
+            "Text": "a black bat #2410",
+            "Color": "green"
+          },
+          {
+            "Text": "a black bat #2410",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2463,
+        "Name": "In the woods. #2463",
+        "Connections": {
+          "North": 2462,
+          "East": 2465,
+          "South": 2464
+        },
+        "Contents": [
+          {
+            "Text": "a black bat #2410",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2464,
+        "Name": "In the woods. #2464",
+        "Connections": {
+          "North": 2463,
+          "South": 2460
+        },
+        "Contents": [
+          {
+            "Text": "a black bat #2410",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2465,
+        "Name": "In the woods. #2465",
+        "Connections": {
+          "North": 2466,
+          "West": 2463
+        },
+        "Contents": [
+          {
+            "Text": "a black bat #2410",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2466,
+        "Name": "In the woods. #2466",
+        "Connections": {
+          "North": 2467,
+          "South": 2465,
+          "West": 2462
+        }
+      },
+      {
+        "Id": 2467,
+        "Name": "The end of the woods. #2467",
+        "Connections": {
+          "South": 2466,
+          "Up": 2471
+        },
+        "Contents": [
+          {
+            "Text": "the geek #2407",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2468,
+        "Name": "The dock of the dead. #2468",
+        "Connections": {
+          "East": 2414,
+          "West": 2469
+        }
+      },
+      {
+        "Id": 2469,
+        "Name": "On the Abyss. #2469",
+        "Connections": {
+          "West": 2470
+        }
+      },
+      {
+        "Id": 2470,
+        "Name": "The dock of the dead. #2470",
+        "Connections": {
+          "North": 2480,
+          "East": 2479
+        }
+      },
+      {
+        "Id": 2471,
+        "Name": "The ice mountain. #2471",
+        "Connections": {
+          "Up": 2472,
+          "Down": 2467
+        }
+      },
+      {
+        "Id": 2472,
+        "Name": "The ice mountain. #2472",
+        "Connections": {
+          "Down": 2471
+        }
+      },
+      {
+        "Id": 2473,
+        "Name": "The top of the ice mountain. #2473",
+        "Connections": {
+          "East": 2477,
+          "Down": 2472
+        },
+        "Contents": [
+          {
+            "Text": "the ice gargoyle #2415",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2474,
+        "Name": "A small path. #2474",
+        "Connections": {
+          "North": 2475,
+          "South": {
+            "RoomId": 2408,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 2475,
+        "Name": "Ladondra\u0027s alter. #2475",
+        "Connections": {
+          "North": 2476,
+          "South": 2474
+        }
+      },
+      {
+        "Id": 2476,
+        "Name": "Ladondra\u0027s room. #2476",
+        "Connections": {
+          "Down": 2475
+        },
+        "Contents": [
+          {
+            "Text": "Ladondra #2417",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2477,
+        "Name": "Inside the ice mountain. #2477",
+        "Connections": {
+          "North": 2471
+        },
+        "Contents": [
+          {
+            "Text": "Lankoon #2400",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2478,
+        "Name": "In the Abyss. #2478",
+        "Connections": {}
+      },
+      {
+        "Id": 2479,
+        "Name": "On the Abyss #2479",
+        "Connections": {
+          "East": 2468
+        }
+      },
+      {
+        "Id": 2480,
+        "Name": "The black path. #2480",
+        "Connections": {
+          "North": 2481,
+          "South": 2470
+        }
+      },
+      {
+        "Id": 2481,
+        "Name": "The end of the path. #2481",
+        "Connections": {
+          "South": 2480,
+          "West": 2482
+        }
+      },
+      {
+        "Id": 2482,
+        "Name": "The black hall. #2482",
+        "Connections": {
+          "East": 2481,
+          "West": 2483
+        },
+        "Contents": [
+          {
+            "Text": "a three headed dog #2404",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2483,
+        "Name": "The storage room. #2483",
+        "Connections": {
+          "East": 2482,
+          "Up": 2484
+        },
+        "Contents": [
+          {
+            "Text": "a three headed dog #2404",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2484,
+        "Name": "Flagg\u0027s foyer. #2484",
+        "Connections": {
+          "North": 2485,
+          "East": 2486,
+          "West": 2487,
+          "Down": 2483
+        }
+      },
+      {
+        "Id": 2485,
+        "Name": "Flagg\u0027s room. #2485",
+        "Connections": {
+          "South": 2484
+        },
+        "Contents": [
+          {
+            "Text": "Flagg #2406",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2486,
+        "Name": "A black room. #2486",
+        "Connections": {
+          "West": 2484
+        },
+        "Contents": [
+          {
+            "Text": "a three headed dog #2404",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2487,
+        "Name": "A black room. #2487",
+        "Connections": {
+          "East": 2484
+        },
+        "Contents": [
+          {
+            "Text": "a three headed dog #2404",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2488,
+        "Name": "The dead forest. #2488",
+        "Connections": {
+          "East": 2418,
+          "South": 2489
+        }
+      },
+      {
+        "Id": 2489,
+        "Name": "The dead forest. #2489",
+        "Connections": {
+          "North": 2415,
+          "East": 2493,
+          "South": 2490,
+          "West": 2491
+        },
+        "Contents": [
+          {
+            "Text": "a black vulture #2413",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2490,
+        "Name": "The dead forest. #2490",
+        "Connections": {
+          "North": 2492,
+          "South": 2492
+        },
+        "Contents": [
+          {
+            "Text": "a weasel #2422",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2491,
+        "Name": "The dead forest. #2491",
+        "Connections": {
+          "North": 2488,
+          "South": 2496,
+          "West": 2492
+        },
+        "Contents": [
+          {
+            "Text": "a two headed dog #2412",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2492,
+        "Name": "The dead forest. #2492",
+        "Connections": {
+          "North": 2419,
+          "East": 2494
+        }
+      },
+      {
+        "Id": 2493,
+        "Name": "The dead forest. #2493",
+        "Connections": {
+          "East": 2495,
+          "South": 2494,
+          "West": 2488
+        },
+        "Contents": [
+          {
+            "Text": "a two headed dog #2412",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2494,
+        "Name": "The dead forest. #2494",
+        "Connections": {
+          "North": 2493,
+          "East": 2493,
+          "South": 2493,
+          "West": 2491
+        }
+      },
+      {
+        "Id": 2495,
+        "Name": "The dead forest. #2495",
+        "Connections": {
+          "West": 2493
+        },
+        "Contents": [
+          {
+            "Text": "a two headed dog #2412",
+            "Color": "red"
+          },
+          {
+            "Text": "a weasel #2422",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2496,
+        "Name": "A cave. #2496",
+        "Connections": {
+          "North": 2491,
+          "East": {
+            "RoomId": 2498,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 2497,
+        "Name": "A bad room. #2497",
+        "Connections": {}
+      },
+      {
+        "Id": 2498,
+        "Name": "Anrep\u0027s lair. #2498",
+        "Connections": {
+          "North": 2497,
+          "West": 2496
+        },
+        "Contents": [
+          {
+            "Text": "Anrep #2419",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2499,
+        "Name": "Perna\u0027s Bar #2499",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "the bartender #2421",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7085,
+        "FrameColor": "blue",
+        "Name": "To Sewer #7085",
+        "Color": "blue",
+        "Connections": {
+          "North": 2400,
+          "South": 7047
+        }
+      }
+    ]
+  }
+}

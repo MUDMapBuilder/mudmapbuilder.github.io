@@ -1,0 +1,1110 @@
+{
+  "Area": {
+    "Name": "Draconia",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 2200,
+        "Name": "The Beginning #2200",
+        "Connections": {}
+      },
+      {
+        "Id": 2201,
+        "Name": "The Tower Gates. #2201",
+        "Connections": {
+          "North": 2202,
+          "South": 2288
+        },
+        "Contents": [
+          {
+            "Text": "a draconian guard #2201",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2202,
+        "Name": "The Foyer. #2202",
+        "Connections": {
+          "North": 2203,
+          "South": 2201
+        },
+        "Contents": [
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian guard #2201",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2203,
+        "Name": "Hallway. #2203",
+        "Connections": {
+          "North": 2204,
+          "South": 2202
+        },
+        "Contents": [
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2204,
+        "Name": "Hallway. #2204",
+        "Connections": {
+          "North": 2207,
+          "East": 2205,
+          "South": 2203,
+          "West": 2206
+        },
+        "Contents": [
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2205,
+        "Name": "Nursery. #2205",
+        "Connections": {
+          "East": 2223,
+          "West": 2204
+        },
+        "Contents": [
+          {
+            "Text": "a draconian hatchling #2214",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian hatchling #2214",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian hatchling #2214",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian hatchling #2214",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian hatchling #2214",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian hatchling #2214",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2206,
+        "Name": "Storage room. #2206",
+        "Connections": {
+          "East": 2204,
+          "Down": 2208
+        }
+      },
+      {
+        "Id": 2207,
+        "Name": "End of the hallway. #2207",
+        "Connections": {
+          "South": 2204,
+          "Up": 2210
+        },
+        "Contents": [
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2208,
+        "Name": "Old basement. #2208",
+        "Connections": {
+          "South": 2209,
+          "Up": 2206
+        }
+      },
+      {
+        "Id": 2209,
+        "Name": "Old basement. #2209",
+        "Connections": {
+          "North": 2208,
+          "West": 2218
+        }
+      },
+      {
+        "Id": 2210,
+        "Name": "Top of the staircase. #2210",
+        "Connections": {
+          "South": 2211,
+          "Down": 2207
+        },
+        "Contents": [
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian guard #2201",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2211,
+        "Name": "the Court. #2211",
+        "Connections": {
+          "North": 2210,
+          "East": 2212,
+          "South": 2213
+        },
+        "Contents": [
+          {
+            "Text": "a draconian guard #2201",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2212,
+        "Name": "Hall O\u0027 Pleasure. #2212",
+        "Connections": {
+          "West": 2211
+        },
+        "Contents": [
+          {
+            "Text": "a draconian concubine #2205",
+            "Color": "red"
+          },
+          {
+            "Text": "a draconian concubine #2205",
+            "Color": "red"
+          },
+          {
+            "Text": "a draconian concubine #2205",
+            "Color": "red"
+          },
+          {
+            "Text": "a draconian concubine #2205",
+            "Color": "red"
+          },
+          {
+            "Text": "a draconian concubine #2205",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2213,
+        "Name": "The Court. #2213",
+        "Connections": {
+          "North": 2211,
+          "East": 2214,
+          "South": 2216,
+          "West": 2215
+        },
+        "Contents": [
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian guard #2201",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian bodyguard #2217",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2214,
+        "Name": "The library. #2214",
+        "Connections": {
+          "West": 2213
+        },
+        "Contents": [
+          {
+            "Text": "the draconian librarian #2206",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2215,
+        "Name": "The Sanctum. #2215",
+        "Connections": {
+          "East": 2213
+        },
+        "Contents": [
+          {
+            "Text": "the draconian cleric #2207",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2216,
+        "Name": "The court ends. #2216",
+        "Connections": {
+          "North": 2213,
+          "East": 2217
+        },
+        "Contents": [
+          {
+            "Text": "the draconian King #2202",
+            "Color": "green"
+          },
+          {
+            "Text": "the draconian fool #2204",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian bodyguard #2217",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian bodyguard #2217",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2217,
+        "Name": "The bedroom. #2217",
+        "Connections": {
+          "West": 2216
+        },
+        "Contents": [
+          {
+            "Text": "the draconian Queen #2203",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2218,
+        "Name": "Old basement. #2218",
+        "Connections": {
+          "East": 2209,
+          "West": 2219
+        }
+      },
+      {
+        "Id": 2219,
+        "Name": "In the old basement. #2219",
+        "Connections": {
+          "East": 2218,
+          "West": 2222
+        }
+      },
+      {
+        "Id": 2220,
+        "Name": "In a cave. #2220",
+        "Connections": {
+          "South": 2235
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2213",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2221,
+        "Name": "Inside a cave. #2221",
+        "Connections": {
+          "North": 2241
+        },
+        "Contents": [
+          {
+            "Text": "StormThunder #2218",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2222,
+        "Name": "End of the old basement. #2222",
+        "Connections": {
+          "East": 2219,
+          "West": 2232
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2211",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2223,
+        "Name": "Entrance to the Great Hall. #2223",
+        "Connections": {
+          "East": 2224,
+          "West": 2205
+        },
+        "Contents": [
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2224,
+        "Name": "The Great Hall. #2224",
+        "Connections": {
+          "North": 2225,
+          "East": 2229,
+          "West": 2223
+        },
+        "Contents": [
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian hatchling #2214",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2225,
+        "Name": "The small cave. #2225",
+        "Connections": {
+          "North": 2226,
+          "South": 2224
+        }
+      },
+      {
+        "Id": 2226,
+        "Name": "End of a small cave. #2226",
+        "Connections": {
+          "South": 2225,
+          "Down": 2227
+        },
+        "Contents": [
+          {
+            "Text": "a filthy rat #2216",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2227,
+        "Name": "Underground tunnel. #2227",
+        "Connections": {
+          "North": 2228,
+          "Up": 2226
+        },
+        "Contents": [
+          {
+            "Text": "a filthy rat #2216",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2228,
+        "Name": "Underground tunnel. #2228",
+        "Connections": {
+          "South": 2227
+        },
+        "Contents": [
+          {
+            "Text": "a human captive #2215",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2229,
+        "Name": "The Great Hall ends. #2229",
+        "Connections": {
+          "East": 2230,
+          "West": 2224
+        },
+        "Contents": [
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian guard #2201",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2230,
+        "Name": "Huge Dragon Temple. #2230",
+        "Connections": {
+          "West": 2229
+        },
+        "Contents": [
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian guard #2201",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2231,
+        "Name": "A vast cave. #2231",
+        "Connections": {
+          "South": 2243
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2213",
+            "Color": "red"
+          },
+          {
+            "Text": "a small priest #2209",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2232,
+        "Name": "Outside the tower. #2232",
+        "Connections": {
+          "East": 2222,
+          "Up": 2233
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2210",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2233,
+        "Name": "On the hillside. #2233",
+        "Connections": {
+          "West": 2234,
+          "Down": 2232
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2212",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2234,
+        "Name": "Along the side of the hill. #2234",
+        "Connections": {
+          "North": 2235,
+          "East": 2233,
+          "West": 2236
+        }
+      },
+      {
+        "Id": 2235,
+        "Name": "A cave opening. #2235",
+        "Connections": {
+          "North": 2220,
+          "South": 2234
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2212",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2236,
+        "Name": "Along the side of the hill. #2236",
+        "Connections": {
+          "East": 2234,
+          "South": 2237
+        }
+      },
+      {
+        "Id": 2237,
+        "Name": "Along the side of the hill. #2237",
+        "Connections": {
+          "North": 2236,
+          "South": 2238
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2210",
+            "Color": "red"
+          },
+          {
+            "Text": "a dragon-ogre #2211",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2238,
+        "Name": "Along the side of the hill. #2238",
+        "Connections": {
+          "North": 2237,
+          "East": 2244,
+          "South": 2239
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2211",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2239,
+        "Name": "At the foot of the mountain. #2239",
+        "Connections": {
+          "North": 2238,
+          "Up": 2240
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2211",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2240,
+        "Name": "On the mountainside. #2240",
+        "Connections": {
+          "West": 2241,
+          "Up": 2242,
+          "Down": 2239
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2210",
+            "Color": "red"
+          },
+          {
+            "Text": "a dragon-ogre #2212",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2241,
+        "Name": "A cave opening. #2241",
+        "Connections": {
+          "East": 2240,
+          "South": 2221
+        }
+      },
+      {
+        "Id": 2242,
+        "Name": "On the mountainside. #2242",
+        "Connections": {
+          "Up": 2243,
+          "Down": 2240
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2212",
+            "Color": "red"
+          },
+          {
+            "Text": "a dragon-ogre #2213",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2243,
+        "Name": "The top of the mountain. #2243",
+        "Connections": {
+          "North": 2231,
+          "Down": 2242
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2213",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2244,
+        "Name": "On the base of the hill. #2244",
+        "Connections": {
+          "East": 2254,
+          "West": 2238
+        }
+      },
+      {
+        "Id": 2245,
+        "Name": "Forest. #2245",
+        "Connections": {
+          "East": 2288,
+          "South": 2254
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2210",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2246,
+        "Name": "Forest. #2246",
+        "Connections": {
+          "East": 2247,
+          "West": 2288
+        }
+      },
+      {
+        "Id": 2247,
+        "Name": "Forest. #2247",
+        "Connections": {
+          "North": 2250,
+          "East": 2248,
+          "West": 2246
+        }
+      },
+      {
+        "Id": 2248,
+        "Name": "Forest. #2248",
+        "Connections": {
+          "South": 2258,
+          "West": 2247
+        }
+      },
+      {
+        "Id": 2249,
+        "Name": "Forest. #2249",
+        "Connections": {
+          "North": 2252
+        }
+      },
+      {
+        "Id": 2250,
+        "Name": "Forest. #2250",
+        "Connections": {
+          "North": 13900,
+          "East": 2251,
+          "South": 2247
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2211",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2251,
+        "Name": "Forest. #2251",
+        "Connections": {
+          "East": 2252,
+          "West": 2250
+        }
+      },
+      {
+        "Id": 2252,
+        "Name": "Forest. #2252",
+        "Connections": {
+          "North": 2253,
+          "East": 2282,
+          "South": 2249,
+          "West": 2251
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2210",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2253,
+        "Name": "Forest. #2253",
+        "Connections": {
+          "South": 2252
+        }
+      },
+      {
+        "Id": 2254,
+        "Name": "Forest. #2254",
+        "Connections": {
+          "North": 2245,
+          "South": 2262,
+          "West": 2244
+        }
+      },
+      {
+        "Id": 2255,
+        "Name": "Forest. #2255",
+        "Connections": {
+          "North": 2288,
+          "East": 2256
+        }
+      },
+      {
+        "Id": 2256,
+        "Name": "Forest. #2256",
+        "Connections": {
+          "West": 2255
+        }
+      },
+      {
+        "Id": 2257,
+        "Name": "Forest. #2257",
+        "Connections": {
+          "East": 2258,
+          "South": 2265
+        }
+      },
+      {
+        "Id": 2258,
+        "Name": "Forest. #2258",
+        "Connections": {
+          "North": 2248,
+          "South": 2266,
+          "West": 2257
+        }
+      },
+      {
+        "Id": 2259,
+        "Name": "Forest. #2259",
+        "Connections": {
+          "East": 2260,
+          "South": 2267
+        },
+        "Contents": [
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          },
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2260,
+        "Name": "Forest. #2260",
+        "Connections": {
+          "East": 2285,
+          "West": 2259
+        }
+      },
+      {
+        "Id": 2261,
+        "Name": "Forest. #2261",
+        "Connections": {
+          "East": 2262,
+          "South": 2268
+        }
+      },
+      {
+        "Id": 2262,
+        "Name": "Forest. #2262",
+        "Connections": {
+          "North": 2254,
+          "East": 2263,
+          "West": 2261
+        }
+      },
+      {
+        "Id": 2263,
+        "Name": "Forest. #2263",
+        "Connections": {
+          "East": 2264,
+          "South": 2270,
+          "West": 2262
+        },
+        "Contents": [
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          },
+          {
+            "Text": "a dragon-ogre #2210",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2264,
+        "Name": "Forest. #2264",
+        "Connections": {
+          "South": 2271,
+          "West": 2263
+        }
+      },
+      {
+        "Id": 2265,
+        "Name": "Forest. #2265",
+        "Connections": {
+          "North": 2257
+        }
+      },
+      {
+        "Id": 2266,
+        "Name": "Forest. #2266",
+        "Connections": {
+          "North": 2258,
+          "East": 2267,
+          "West": 2271
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2210",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2267,
+        "Name": "Forest. #2267",
+        "Connections": {
+          "North": 2259,
+          "West": 2266
+        }
+      },
+      {
+        "Id": 2268,
+        "Name": "Forest. #2268",
+        "Connections": {
+          "North": 2261,
+          "East": 2269
+        }
+      },
+      {
+        "Id": 2269,
+        "Name": "Forest. #2269",
+        "Connections": {
+          "South": 2273,
+          "West": 2268
+        }
+      },
+      {
+        "Id": 2270,
+        "Name": "Forest. #2270",
+        "Connections": {
+          "North": 2263,
+          "South": 2274
+        }
+      },
+      {
+        "Id": 2271,
+        "Name": "Forest. #2271",
+        "Connections": {
+          "North": 2264,
+          "East": 2266
+        }
+      },
+      {
+        "Id": 2272,
+        "Name": "Forest. #2272",
+        "Connections": {
+          "East": 2273,
+          "South": 2275
+        }
+      },
+      {
+        "Id": 2273,
+        "Name": "Forest. #2273",
+        "Connections": {
+          "North": 2269,
+          "East": 2274,
+          "South": 2276,
+          "West": 2272
+        }
+      },
+      {
+        "Id": 2274,
+        "Name": "Forest. #2274",
+        "Connections": {
+          "North": 2270,
+          "West": 2273
+        }
+      },
+      {
+        "Id": 2275,
+        "Name": "Forest. #2275",
+        "Connections": {
+          "North": 2272,
+          "East": 2276
+        }
+      },
+      {
+        "Id": 2276,
+        "Name": "Forest. #2276",
+        "Connections": {
+          "North": 2273,
+          "East": 2277,
+          "West": 2275
+        }
+      },
+      {
+        "Id": 2277,
+        "Name": "Forest. #2277",
+        "Connections": {
+          "South": 2278,
+          "West": 2276
+        }
+      },
+      {
+        "Id": 2278,
+        "Name": "Forest. #2278",
+        "Connections": {
+          "North": 2277,
+          "East": 2279
+        }
+      },
+      {
+        "Id": 2279,
+        "Name": "Forest. #2279",
+        "Connections": {
+          "South": 3506,
+          "West": 2278
+        }
+      },
+      {
+        "Id": 2280,
+        "Name": "On a beach. #2280",
+        "Connections": {
+          "South": 2281
+        },
+        "Contents": [
+          {
+            "Text": "a draconian citizen #2200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2281,
+        "Name": "On a beach. #2281",
+        "Connections": {
+          "North": 2280,
+          "South": 2282
+        }
+      },
+      {
+        "Id": 2282,
+        "Name": "On a beach. #2282",
+        "Connections": {
+          "North": 2281,
+          "East": 2283,
+          "West": 2252
+        }
+      },
+      {
+        "Id": 2283,
+        "Name": "On a beach. #2283",
+        "Connections": {
+          "South": 2284,
+          "West": 2282
+        }
+      },
+      {
+        "Id": 2284,
+        "Name": "On a beach. #2284",
+        "Connections": {
+          "North": 2283,
+          "South": 2285
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2210",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2285,
+        "Name": "On a beach. #2285",
+        "Connections": {
+          "North": 2284,
+          "East": 2286,
+          "West": 2260
+        }
+      },
+      {
+        "Id": 2286,
+        "Name": "On a beach. #2286",
+        "Connections": {
+          "South": 2287,
+          "West": 2285
+        }
+      },
+      {
+        "Id": 2287,
+        "Name": "On a beach. #2287",
+        "Connections": {
+          "North": 2286
+        },
+        "Contents": [
+          {
+            "Text": "a dragon-ogre #2210",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2288,
+        "Name": "On a beach. #2288",
+        "Connections": {
+          "North": 2201,
+          "East": 2246,
+          "South": 2255,
+          "West": 2245
+        }
+      },
+      {
+        "Id": 13900,
+        "FrameColor": "blue",
+        "Name": "To DragonRealm3 #13900",
+        "Color": "blue",
+        "Connections": {
+          "North": 13901,
+          "South": 2250
+        }
+      },
+      {
+        "Id": 3506,
+        "FrameColor": "blue",
+        "Name": "To TheRoads #3506",
+        "Color": "blue",
+        "Connections": {
+          "North": 2279,
+          "East": 4938,
+          "West": 3505
+        }
+      }
+    ]
+  }
+}

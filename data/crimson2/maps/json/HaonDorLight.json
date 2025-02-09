@@ -1,0 +1,354 @@
+{
+  "Area": {
+    "Name": "HaonDorLight",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 6000,
+        "Name": "The edge of the forest #6000",
+        "Connections": {
+          "East": 3052,
+          "West": 6001
+        }
+      },
+      {
+        "Id": 6001,
+        "Name": "A trail through the light forest #6001",
+        "Connections": {
+          "East": 6000,
+          "West": 6002
+        }
+      },
+      {
+        "Id": 6002,
+        "Name": "A trail through the light forest #6002",
+        "Connections": {
+          "East": 6001,
+          "South": 6011,
+          "West": 6003
+        }
+      },
+      {
+        "Id": 6003,
+        "Name": "A trail through the dense forest #6003",
+        "Connections": {
+          "East": 6002,
+          "West": 6004
+        }
+      },
+      {
+        "Id": 6004,
+        "Name": "A trail through the dense forest #6004",
+        "Connections": {
+          "East": 6003,
+          "South": 6005,
+          "West": 6100
+        }
+      },
+      {
+        "Id": 6005,
+        "Name": "A small path in the dense forest #6005",
+        "Connections": {
+          "North": 6004,
+          "South": 6006
+        }
+      },
+      {
+        "Id": 6006,
+        "Name": "A small path in the dense forest #6006",
+        "Connections": {
+          "North": 6005,
+          "East": 6007,
+          "South": 3035
+        }
+      },
+      {
+        "Id": 6007,
+        "Name": "An intersection in the dense forest #6007",
+        "Connections": {
+          "East": 6008,
+          "South": 6012,
+          "West": 6006
+        }
+      },
+      {
+        "Id": 6008,
+        "Name": "The forest clearing #6008",
+        "Connections": {
+          "North": 6011,
+          "East": 6009,
+          "West": 6007
+        }
+      },
+      {
+        "Id": 6009,
+        "Name": "Outside a small cabin in the forest #6009",
+        "Connections": {
+          "North": 6010,
+          "South": 6014,
+          "West": 6008
+        },
+        "Contents": [
+          {
+            "Text": "John the Lumberjack #6000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6010,
+        "Name": "Inside the cabin #6010",
+        "Connections": {
+          "South": 6009
+        }
+      },
+      {
+        "Id": 6011,
+        "Name": "A small path through the light forest #6011",
+        "Connections": {
+          "North": 6002,
+          "South": 6008
+        }
+      },
+      {
+        "Id": 6012,
+        "Name": "An intersection in the dense forest #6012",
+        "Connections": {
+          "North": 6007,
+          "East": 6013,
+          "South": 6021
+        },
+        "Contents": [
+          {
+            "Text": "the cute rabbit #6001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6013,
+        "Name": "A small path in the dense forest #6013",
+        "Connections": {
+          "East": 6014,
+          "West": 6012
+        }
+      },
+      {
+        "Id": 6014,
+        "Name": "The South Road. #6014",
+        "Connections": {
+          "North": 6009,
+          "East": 6015,
+          "South": 6023,
+          "West": 6013
+        },
+        "Contents": [
+          {
+            "Text": "the brown fox #6005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6015,
+        "Name": "The South Road. #6015",
+        "Connections": {
+          "East": 3703,
+          "West": 6014
+        },
+        "Contents": [
+          {
+            "Text": "the cute rabbit #6001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6016,
+        "Name": "End of a small path #6016",
+        "Connections": {
+          "East": 1400,
+          "South": 6017
+        }
+      },
+      {
+        "Id": 6017,
+        "Name": "A small path in the dense forest #6017",
+        "Connections": {
+          "North": 6016,
+          "West": 6018
+        },
+        "Contents": [
+          {
+            "Text": "the cute rabbit #6001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6018,
+        "Name": "The South Road. #6018",
+        "Connections": {
+          "North": 6023,
+          "East": 6017,
+          "South": 3705,
+          "West": 6019
+        }
+      },
+      {
+        "Id": 6019,
+        "Name": "A small path in the dense forest #6019",
+        "Connections": {
+          "North": 6020,
+          "East": 6018
+        },
+        "Contents": [
+          {
+            "Text": "the cute rabbit #6001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 6020,
+        "Name": "A small path in the dense forest #6020",
+        "Connections": {
+          "South": 6019,
+          "West": 6021
+        }
+      },
+      {
+        "Id": 6021,
+        "Name": "A small path in the dense forest #6021",
+        "Connections": {
+          "North": 6012,
+          "East": 6020,
+          "South": 8500,
+          "West": 6022
+        }
+      },
+      {
+        "Id": 6022,
+        "Name": "Inside the cave #6022",
+        "Connections": {
+          "East": 6021,
+          "West": 7084
+        },
+        "Contents": [
+          {
+            "Text": "the brown bear #6002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 6023,
+        "Name": "The South Road. #6023",
+        "Connections": {
+          "North": 6014,
+          "South": 6018,
+          "Up": 125
+        },
+        "Contents": [
+          {
+            "Text": "the fallow deer #6004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3052,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3052",
+        "Color": "blue",
+        "Connections": {
+          "North": 3600,
+          "East": 3040,
+          "South": 3700,
+          "West": 6000
+        }
+      },
+      {
+        "Id": 6100,
+        "FrameColor": "blue",
+        "Name": "To HaonDorDark #6100",
+        "Color": "blue",
+        "Connections": {
+          "East": 6004,
+          "West": 6101
+        }
+      },
+      {
+        "Id": 3035,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3035",
+        "Color": "blue",
+        "Connections": {
+          "North": 6006,
+          "West": 9300,
+          "Up": 3036
+        }
+      },
+      {
+        "Id": 3703,
+        "FrameColor": "blue",
+        "Name": "To TheRoads #3703",
+        "Color": "blue",
+        "Connections": {
+          "North": 3702,
+          "West": 6015
+        }
+      },
+      {
+        "Id": 1400,
+        "FrameColor": "blue",
+        "Name": "To GerinsHill #1400",
+        "Color": "blue",
+        "Connections": {
+          "East": 1401,
+          "West": 6016
+        }
+      },
+      {
+        "Id": 3705,
+        "FrameColor": "blue",
+        "Name": "To TheRoads #3705",
+        "Color": "blue",
+        "Connections": {
+          "North": 6018,
+          "South": 3709
+        }
+      },
+      {
+        "Id": 8500,
+        "FrameColor": "blue",
+        "Name": "To QuelSithForest #8500",
+        "Color": "blue",
+        "Connections": {
+          "North": 6021,
+          "South": 8501
+        }
+      },
+      {
+        "Id": 7084,
+        "FrameColor": "blue",
+        "Name": "To Sewer #7084",
+        "Color": "blue",
+        "Connections": {
+          "East": 6022,
+          "Down": 7083
+        }
+      },
+      {
+        "Id": 125,
+        "FrameColor": "blue",
+        "Name": "To Daydream #125",
+        "Color": "blue",
+        "Connections": {
+          "Up": 126,
+          "Down": 6023
+        }
+      }
+    ]
+  }
+}

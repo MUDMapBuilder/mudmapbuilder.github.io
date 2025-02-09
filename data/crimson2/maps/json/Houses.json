@@ -1,0 +1,91 @@
+{
+  "Area": {
+    "Name": "Houses",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 3750,
+        "Name": "House #3750",
+        "Connections": {}
+      },
+      {
+        "Id": 3751,
+        "Name": "Arzaq\u0027s House #3751",
+        "Connections": {
+          "East": {
+            "RoomId": 3131,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 3752,
+        "Name": "Onslaught\u0027s House #3752",
+        "Connections": {
+          "West": 3131
+        }
+      },
+      {
+        "Id": 3753,
+        "Name": "Cyclone\u0027s House #3753",
+        "Connections": {
+          "West": {
+            "RoomId": 3124,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 3754,
+        "Name": "Chobbie\u0027s House #3754",
+        "Connections": {
+          "South": {
+            "RoomId": 3133,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 3131,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3131",
+        "Color": "blue",
+        "Connections": {
+          "North": 3101,
+          "East": 3752,
+          "South": 3111,
+          "West": 3751
+        }
+      },
+      {
+        "Id": 3124,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3124",
+        "Color": "blue",
+        "Connections": {
+          "West": 3123
+        }
+      },
+      {
+        "Id": 3133,
+        "FrameColor": "blue",
+        "Name": "To Midgaard #3133",
+        "Color": "blue",
+        "Connections": {
+          "North": 3754,
+          "East": 3119,
+          "South": 3120
+        }
+      }
+    ]
+  }
+}
