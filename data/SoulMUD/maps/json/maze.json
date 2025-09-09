@@ -1,0 +1,1060 @@
+{
+  "Area": {
+    "Name": "maze",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 46439,
+        "Name": "A Dead End #46439",
+        "Connections": {
+          "East": 46440
+        }
+      },
+      {
+        "Id": 46440,
+        "Name": "In the Tunnels #46440",
+        "Connections": {
+          "East": 46441,
+          "South": 46443,
+          "West": 46439
+        }
+      },
+      {
+        "Id": 46441,
+        "Name": "In the Tunnels #46441",
+        "Connections": {
+          "East": 46442,
+          "West": 46440
+        }
+      },
+      {
+        "Id": 46442,
+        "Name": "In the Tunnels #46442",
+        "Connections": {
+          "South": 46445,
+          "West": 46441
+        },
+        "Contents": [
+          {
+            "Text": "a denizen of the maze #46490",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46443,
+        "Name": "Before the Lair #46443",
+        "Connections": {
+          "North": 46440,
+          "South": 46448,
+          "West": 46444
+        }
+      },
+      {
+        "Id": 46444,
+        "Name": "The Lair of the White Wyrm #46444",
+        "Connections": {
+          "East": 46443
+        },
+        "Contents": [
+          {
+            "Text": "the White Wyrm #46444",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 46445,
+        "Name": "In the Tunnels #46445",
+        "Connections": {
+          "North": 46442,
+          "West": 46446
+        }
+      },
+      {
+        "Id": 46446,
+        "Name": "In the Tunnels #46446",
+        "Connections": {
+          "East": 46445,
+          "South": 46447
+        }
+      },
+      {
+        "Id": 46447,
+        "Name": "In the Tunnels #46447",
+        "Connections": {
+          "North": 46446,
+          "East": 46451,
+          "South": 46450,
+          "West": 46448
+        },
+        "Contents": [
+          {
+            "Text": "a lost adventurer #46480",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46448,
+        "Name": "In the Tunnels #46448",
+        "Connections": {
+          "North": 46443,
+          "East": 46447,
+          "South": 46449
+        }
+      },
+      {
+        "Id": 46449,
+        "Name": "A Dead End #46449",
+        "Connections": {
+          "North": 46448
+        },
+        "Contents": [
+          {
+            "Text": "a wyrm spawn #46500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46450,
+        "Name": "In the Tunnels #46450",
+        "Connections": {
+          "North": 46447,
+          "South": 46465
+        }
+      },
+      {
+        "Id": 46451,
+        "Name": "In the Tunnels #46451",
+        "Connections": {
+          "East": 46452,
+          "South": 46510,
+          "West": 46447
+        }
+      },
+      {
+        "Id": 46452,
+        "Name": "The Crossing amidst the Tunnels #46452",
+        "Connections": {
+          "North": 46453,
+          "East": 46456,
+          "South": 46511,
+          "West": 46451
+        }
+      },
+      {
+        "Id": 46453,
+        "Name": "In the Tunnels #46453",
+        "Connections": {
+          "North": 46454,
+          "South": 46452
+        },
+        "Contents": [
+          {
+            "Text": "a lost adventurer #46480",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46454,
+        "Name": "The Demolished Room #46454",
+        "Connections": {
+          "East": 46455,
+          "South": 46453
+        }
+      },
+      {
+        "Id": 46455,
+        "Name": "The Smuggler\u0027s Gold Cache #46455",
+        "Connections": {
+          "West": 46454
+        },
+        "Contents": [
+          {
+            "Text": "the Gold Smuggler #46455",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 46456,
+        "Name": "In the Tunnels #46456",
+        "Connections": {
+          "North": 46458,
+          "East": 46457,
+          "West": 46452
+        },
+        "Contents": [
+          {
+            "Text": "a dangerous spirit #46470",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46457,
+        "Name": "In the Tunnels #46457",
+        "Connections": {
+          "North": 46459,
+          "South": 46473,
+          "West": 46456
+        }
+      },
+      {
+        "Id": 46458,
+        "Name": "In the Tunnels #46458",
+        "Connections": {
+          "East": 46459,
+          "South": 46456
+        }
+      },
+      {
+        "Id": 46459,
+        "Name": "In the Tunnels #46459",
+        "Connections": {
+          "North": 46460,
+          "South": 46457,
+          "West": 46458
+        }
+      },
+      {
+        "Id": 46460,
+        "Name": "In the Tunnels #46460",
+        "Connections": {
+          "East": 46461,
+          "South": 46459
+        },
+        "Contents": [
+          {
+            "Text": "a wyrm spawn #46500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46461,
+        "Name": "In the Tunnels #46461",
+        "Connections": {
+          "East": 46463,
+          "South": 46462,
+          "West": 46460
+        }
+      },
+      {
+        "Id": 46462,
+        "Name": "In the Tunnels #46462",
+        "Connections": {
+          "North": 46461
+        }
+      },
+      {
+        "Id": 46463,
+        "Name": "In the Tunnels #46463",
+        "Connections": {
+          "East": 46464,
+          "West": 46461
+        }
+      },
+      {
+        "Id": 46464,
+        "Name": "In the Tunnels #46464",
+        "Connections": {
+          "South": 46466,
+          "West": 46463
+        }
+      },
+      {
+        "Id": 46465,
+        "Name": "The Crossing amidst the Tunnels #46465",
+        "Connections": {
+          "North": 46450,
+          "East": 46499,
+          "West": 46523
+        },
+        "Contents": [
+          {
+            "Text": "a denizen of the maze #46490",
+            "Color": "green"
+          },
+          {
+            "Text": "a lost adventurer #46480",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46466,
+        "Name": "In the Tunnels #46466",
+        "Connections": {
+          "North": 46464,
+          "West": 46467
+        },
+        "Contents": [
+          {
+            "Text": "a denizen of the maze #46490",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46467,
+        "Name": "In the Tunnels #46467",
+        "Connections": {
+          "East": 46466,
+          "South": 46468
+        }
+      },
+      {
+        "Id": 46468,
+        "Name": "In the Tunnels #46468",
+        "Connections": {
+          "North": 46467,
+          "East": 46469
+        }
+      },
+      {
+        "Id": 46469,
+        "Name": "In the Tunnels #46469",
+        "Connections": {
+          "South": 46470,
+          "West": 46468
+        }
+      },
+      {
+        "Id": 46470,
+        "Name": "In the Tunnels #46470",
+        "Connections": {
+          "North": 46469,
+          "South": 46474,
+          "West": 46471
+        },
+        "Contents": [
+          {
+            "Text": "a dangerous spirit #46470",
+            "Color": "green"
+          },
+          {
+            "Text": "a lost adventurer #46480",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46471,
+        "Name": "In the Tunnels #46471",
+        "Connections": {
+          "East": 46470,
+          "West": 46472
+        }
+      },
+      {
+        "Id": 46472,
+        "Name": "In the Tunnels #46472",
+        "Connections": {
+          "East": 46471,
+          "South": 46484,
+          "West": 46473
+        },
+        "Contents": [
+          {
+            "Text": "a dangerous spirit #46470",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46473,
+        "Name": "In the Tunnels #46473",
+        "Connections": {
+          "North": 46457,
+          "East": 46472
+        }
+      },
+      {
+        "Id": 46474,
+        "Name": "In the Tunnels #46474",
+        "Connections": {
+          "North": 46470,
+          "South": 46475,
+          "West": 46477
+        }
+      },
+      {
+        "Id": 46475,
+        "Name": "In the Tunnels #46475",
+        "Connections": {
+          "North": 46474,
+          "South": 46476,
+          "West": 46478
+        }
+      },
+      {
+        "Id": 46476,
+        "Name": "In the Tunnels #46476",
+        "Connections": {
+          "North": 46475,
+          "West": 46480
+        }
+      },
+      {
+        "Id": 46477,
+        "Name": "In the Tunnels #46477",
+        "Connections": {
+          "East": 46474,
+          "South": 46478
+        }
+      },
+      {
+        "Id": 46478,
+        "Name": "In the Tunnels #46478",
+        "Connections": {
+          "North": 46477,
+          "East": 46475,
+          "West": 46479
+        }
+      },
+      {
+        "Id": 46479,
+        "Name": "In the Tunnels #46479",
+        "Connections": {
+          "East": 46478,
+          "West": 46482
+        }
+      },
+      {
+        "Id": 46480,
+        "Name": "In the Tunnels #46480",
+        "Connections": {
+          "East": 46476,
+          "South": 46490,
+          "West": 46481
+        },
+        "Contents": [
+          {
+            "Text": "a wyrm spawn #46500",
+            "Color": "green"
+          },
+          {
+            "Text": "a lost adventurer #46480",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46481,
+        "Name": "A Dead End #46481",
+        "Connections": {
+          "East": 46480
+        }
+      },
+      {
+        "Id": 46482,
+        "Name": "Lost in the Tunnels #46482",
+        "Connections": {
+          "North": 46483,
+          "East": 46479,
+          "South": 46485
+        }
+      },
+      {
+        "Id": 46483,
+        "Name": "In the Tunnels #46483",
+        "Connections": {
+          "East": 46484,
+          "South": 46482
+        }
+      },
+      {
+        "Id": 46484,
+        "Name": "In the Tunnels #46484",
+        "Connections": {
+          "North": 46472,
+          "West": 46483
+        }
+      },
+      {
+        "Id": 46485,
+        "Name": "In the Tunnels #46485",
+        "Connections": {
+          "North": 46482,
+          "West": 46486
+        },
+        "Contents": [
+          {
+            "Text": "a lost adventurer #46480",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46486,
+        "Name": "In the Tunnels #46486",
+        "Connections": {
+          "East": 46485,
+          "South": 46487,
+          "West": 46517
+        },
+        "Contents": [
+          {
+            "Text": "a wyrm spawn #46500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46487,
+        "Name": "In the Tunnels #46487",
+        "Connections": {
+          "North": 46486,
+          "East": 46488,
+          "West": 46509
+        }
+      },
+      {
+        "Id": 46488,
+        "Name": "In the Tunnels #46488",
+        "Connections": {
+          "East": 46489,
+          "West": 46487
+        }
+      },
+      {
+        "Id": 46489,
+        "Name": "The Crossing amidst the Tunnels #46489",
+        "Connections": {
+          "East": 46490,
+          "South": 46496,
+          "West": 46488
+        }
+      },
+      {
+        "Id": 46490,
+        "Name": "The Crossing amidst the Tunnels #46490",
+        "Connections": {
+          "North": 46480,
+          "East": 46491,
+          "West": 46489
+        },
+        "Contents": [
+          {
+            "Text": "a denizen of the maze #46490",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46491,
+        "Name": "In the Tunnels #46491",
+        "Connections": {
+          "South": 46492,
+          "West": 46490
+        },
+        "Contents": [
+          {
+            "Text": "a dangerous spirit #46470",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46492,
+        "Name": "In the Tunnels #46492",
+        "Connections": {
+          "North": 46491,
+          "West": 46493
+        }
+      },
+      {
+        "Id": 46493,
+        "Name": "In the Tunnels #46493",
+        "Connections": {
+          "East": 46492,
+          "South": 46494
+        },
+        "Contents": [
+          {
+            "Text": "a denizen of the maze #46490",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46494,
+        "Name": "In the Tunnels #46494",
+        "Connections": {
+          "North": 46493,
+          "East": 46495
+        }
+      },
+      {
+        "Id": 46495,
+        "Name": "Darkness #46495",
+        "Connections": {
+          "West": 46494
+        },
+        "Contents": [
+          {
+            "Text": "the Shroud of Darkness #46495",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 46496,
+        "Name": "In the Tunnels #46496",
+        "Connections": {
+          "North": 46489,
+          "South": 46497
+        }
+      },
+      {
+        "Id": 46497,
+        "Name": "In the Tunnels #46497",
+        "Connections": {
+          "North": 46496,
+          "West": 46498
+        }
+      },
+      {
+        "Id": 46498,
+        "Name": "In the Tunnels #46498",
+        "Connections": {
+          "North": 46500,
+          "East": 46497
+        },
+        "Contents": [
+          {
+            "Text": "a dangerous spirit #46470",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46499,
+        "Name": "In the Tunnels #46499",
+        "Connections": {
+          "North": 46510,
+          "West": 46465
+        }
+      },
+      {
+        "Id": 46500,
+        "Name": "In the Tunnels #46500",
+        "Connections": {
+          "South": 46498,
+          "West": 46501
+        },
+        "Contents": [
+          {
+            "Text": "a wyrm spawn #46500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46501,
+        "Name": "In the Tunnels #46501",
+        "Connections": {
+          "East": 46500,
+          "South": 46503,
+          "West": 46502
+        }
+      },
+      {
+        "Id": 46502,
+        "Name": "In the Tunnels #46502",
+        "Connections": {
+          "North": 46509,
+          "East": 46501,
+          "South": 46507
+        },
+        "Contents": [
+          {
+            "Text": "a lost adventurer #46480",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46503,
+        "Name": "In the Tunnels #46503",
+        "Connections": {
+          "North": 46501,
+          "South": 46504
+        }
+      },
+      {
+        "Id": 46504,
+        "Name": "In the Tunnels #46504",
+        "Connections": {
+          "North": 46503,
+          "East": 46505
+        },
+        "Contents": [
+          {
+            "Text": "a dangerous spirit #46470",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46505,
+        "Name": "In the Tunnels #46505",
+        "Connections": {
+          "East": 46506,
+          "West": 46504
+        }
+      },
+      {
+        "Id": 46506,
+        "Name": "The Empty Room #46506",
+        "Connections": {
+          "West": 46505
+        },
+        "Contents": [
+          {
+            "Text": "a Gelatinous Cube #46506",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46507,
+        "Name": "In the Tunnels #46507",
+        "Connections": {
+          "North": 46502,
+          "West": 46508
+        }
+      },
+      {
+        "Id": 46508,
+        "Name": "A Dead End #46508",
+        "Connections": {
+          "East": 46507
+        }
+      },
+      {
+        "Id": 46509,
+        "Name": "The Crossing amidst the Tunnels #46509",
+        "Connections": {
+          "East": 46487,
+          "South": 46502
+        }
+      },
+      {
+        "Id": 46510,
+        "Name": "In the Tunnels #46510",
+        "Connections": {
+          "North": 46451,
+          "South": 46499
+        }
+      },
+      {
+        "Id": 46511,
+        "Name": "In the Tunnels #46511",
+        "Connections": {
+          "North": 46452,
+          "East": 46512,
+          "South": 46513
+        }
+      },
+      {
+        "Id": 46512,
+        "Name": "A Dead End #46512",
+        "Connections": {
+          "West": 46511
+        }
+      },
+      {
+        "Id": 46513,
+        "Name": "In the Tunnels #46513",
+        "Connections": {
+          "North": 46511,
+          "East": 46514
+        }
+      },
+      {
+        "Id": 46514,
+        "Name": "In the Tunnels #46514",
+        "Connections": {
+          "South": 46515,
+          "West": 46513
+        },
+        "Contents": [
+          {
+            "Text": "a lost adventurer #46480",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46515,
+        "Name": "In the Tunnels #46515",
+        "Connections": {
+          "North": 46514,
+          "West": 46516
+        }
+      },
+      {
+        "Id": 46516,
+        "Name": "Lost in the Tunnels #46516",
+        "Connections": {
+          "East": 46515,
+          "South": 46517,
+          "West": 46518
+        },
+        "Contents": [
+          {
+            "Text": "a denizen of the maze #46490",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46517,
+        "Name": "In the Tunnels #46517",
+        "Connections": {
+          "North": 46516,
+          "East": 46486
+        },
+        "Contents": [
+          {
+            "Text": "a wyrm spawn #46500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46518,
+        "Name": "In the Tunnels #46518",
+        "Connections": {
+          "East": 46516,
+          "South": 46519
+        }
+      },
+      {
+        "Id": 46519,
+        "Name": "In the Tunnels #46519",
+        "Connections": {
+          "North": 46518,
+          "West": 46520
+        },
+        "Contents": [
+          {
+            "Text": "a wyrm spawn #46500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46520,
+        "Name": "In the Tunnels #46520",
+        "Connections": {
+          "North": 46521,
+          "East": 46519
+        },
+        "Contents": [
+          {
+            "Text": "a lost adventurer #46480",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46521,
+        "Name": "In the Tunnels #46521",
+        "Connections": {
+          "South": 46520,
+          "West": 46522
+        }
+      },
+      {
+        "Id": 46522,
+        "Name": "In the Tunnels #46522",
+        "Connections": {
+          "North": 46523,
+          "East": 46521,
+          "South": 46524
+        },
+        "Contents": [
+          {
+            "Text": "a denizen of the maze #46490",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46523,
+        "Name": "In the Tunnels #46523",
+        "Connections": {
+          "East": 46465,
+          "South": 46522
+        }
+      },
+      {
+        "Id": 46524,
+        "Name": "In the Tunnels #46524",
+        "Connections": {
+          "North": 46522,
+          "South": 46525
+        }
+      },
+      {
+        "Id": 46525,
+        "Name": "In the Tunnels #46525",
+        "Connections": {
+          "North": 46524,
+          "East": 46526,
+          "West": 46530
+        },
+        "Contents": [
+          {
+            "Text": "a denizen of the maze #46490",
+            "Color": "green"
+          },
+          {
+            "Text": "a dangerous spirit #46470",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46526,
+        "Name": "In the Tunnels #46526",
+        "Connections": {
+          "East": 46529,
+          "South": 46527,
+          "West": 46525
+        }
+      },
+      {
+        "Id": 46527,
+        "Name": "The Circular Room #46527",
+        "Connections": {
+          "North": 46526,
+          "East": 46528
+        },
+        "Contents": [
+          {
+            "Text": "a Glowing Sphere #46527",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46528,
+        "Name": "In the Tunnels #46528",
+        "Connections": {
+          "North": 46529,
+          "West": 46527
+        },
+        "Contents": [
+          {
+            "Text": "a wyrm spawn #46500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46529,
+        "Name": "In the Tunnels #46529",
+        "Connections": {
+          "South": 46528,
+          "West": 46526
+        }
+      },
+      {
+        "Id": 46530,
+        "Name": "Before the Lair #46530",
+        "Connections": {
+          "North": 46531,
+          "East": 46525
+        },
+        "Contents": [
+          {
+            "Text": "a dangerous spirit #46470",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46531,
+        "Name": "In the Tunnels #46531",
+        "Connections": {
+          "North": 46532,
+          "South": 46530,
+          "West": 46537
+        }
+      },
+      {
+        "Id": 46532,
+        "Name": "In the Tunnels #46532",
+        "Connections": {
+          "North": 46533,
+          "South": 46531,
+          "West": 46534
+        }
+      },
+      {
+        "Id": 46533,
+        "Name": "A Dead End #46533",
+        "Connections": {
+          "South": 46532
+        },
+        "Contents": [
+          {
+            "Text": "a wyrm spawn #46500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46534,
+        "Name": "In the Tunnels #46534",
+        "Connections": {
+          "East": 46532,
+          "West": 46535
+        }
+      },
+      {
+        "Id": 46535,
+        "Name": "In the Tunnels #46535",
+        "Connections": {
+          "East": 46534,
+          "South": 46536
+        },
+        "Contents": [
+          {
+            "Text": "a denizen of the maze #46490",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46536,
+        "Name": "In the Tunnels #46536",
+        "Connections": {
+          "North": 46535,
+          "East": 46537
+        },
+        "Contents": [
+          {
+            "Text": "a wyrm spawn #46500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46537,
+        "Name": "In the Tunnels #46537",
+        "Connections": {
+          "East": 46531,
+          "West": 46536
+        }
+      }
+    ]
+  }
+}

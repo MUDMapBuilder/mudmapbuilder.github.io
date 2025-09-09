@@ -1,0 +1,529 @@
+{
+  "Area": {
+    "Name": "ondonti_orcs",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 27000,
+        "Name": "The Logging Trail #27000",
+        "Connections": {
+          "East": 27001,
+          "South": 5837
+        }
+      },
+      {
+        "Id": 27001,
+        "Name": "The Logging Trail #27001",
+        "Connections": {
+          "East": 27002,
+          "West": 27000
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti lumberjack #27000",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27002,
+        "Name": "Intersection Of Trails #27002",
+        "Connections": {
+          "North": 27003,
+          "South": 27009,
+          "West": 27001
+        }
+      },
+      {
+        "Id": 27003,
+        "Name": "A Relatively New Trail #27003",
+        "Connections": {
+          "East": 27004,
+          "South": 27002
+        }
+      },
+      {
+        "Id": 27004,
+        "Name": "Fork In The Path #27004",
+        "Connections": {
+          "North": 27005,
+          "South": 27007,
+          "West": 27003
+        }
+      },
+      {
+        "Id": 27005,
+        "Name": "Northern Trail #27005",
+        "Connections": {
+          "East": 27006,
+          "South": 27004
+        }
+      },
+      {
+        "Id": 27006,
+        "Name": "The Wide Clearing #27006",
+        "Connections": {
+          "West": 27005
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti lumberjack #27011",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27007,
+        "Name": "Southern Trail #27007",
+        "Connections": {
+          "North": 27004,
+          "East": 27008
+        }
+      },
+      {
+        "Id": 27008,
+        "Name": "The Small Clearing #27008",
+        "Connections": {
+          "West": 27007
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti lumberjack #27012",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27009,
+        "Name": "The Watering Hole #27009",
+        "Connections": {
+          "North": 27002,
+          "East": 27012,
+          "South": 27011,
+          "West": 27010
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti lumberjack #27013",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27010,
+        "Name": "The Mess Hall #27010",
+        "Connections": {
+          "East": 27009
+        },
+        "Contents": [
+          {
+            "Text": "the lumberjack cook #27004",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27011,
+        "Name": "The Smith\u0027s Hearth #27011",
+        "Connections": {
+          "North": 27009
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti blacksmith #27005",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27012,
+        "Name": "East Of The Campsite #27012",
+        "Connections": {
+          "East": 27013,
+          "West": 27009
+        }
+      },
+      {
+        "Id": 27013,
+        "Name": "Between Trails #27013",
+        "Connections": {
+          "East": 27018,
+          "South": 27014,
+          "West": 27012
+        }
+      },
+      {
+        "Id": 27014,
+        "Name": "The Side Trail #27014",
+        "Connections": {
+          "North": 27013,
+          "East": 27015
+        }
+      },
+      {
+        "Id": 27015,
+        "Name": "Horse Hooves and Broken Limbs #27015",
+        "Connections": {
+          "East": 27016,
+          "West": 27014
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti toploader #27020",
+            "Color": "red"
+          },
+          {
+            "Text": "the clydesdale workhorse #27022",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27016,
+        "Name": "Turn In The Trail #27016",
+        "Connections": {
+          "South": 27017,
+          "West": 27015
+        }
+      },
+      {
+        "Id": 27017,
+        "Name": "The Patch Of Dogwood #27017",
+        "Connections": {
+          "North": 27016
+        },
+        "Contents": [
+          {
+            "Text": "a burly lumberjack #27001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27018,
+        "Name": "The Winding Logging Trails #27018",
+        "Connections": {
+          "North": 27019,
+          "West": 27013
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti lumberjack #27014",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27019,
+        "Name": "Mingling Trails #27019",
+        "Connections": {
+          "North": 27020,
+          "East": 27023,
+          "South": 27018
+        }
+      },
+      {
+        "Id": 27020,
+        "Name": "The Aroma Of Burning Elms #27020",
+        "Connections": {
+          "East": 27021,
+          "South": 27019
+        }
+      },
+      {
+        "Id": 27021,
+        "Name": "Outside The Cottage #27021",
+        "Connections": {
+          "North": 27022,
+          "West": 27020
+        }
+      },
+      {
+        "Id": 27022,
+        "Name": "The Captain\u0027s Office #27022",
+        "Connections": {
+          "South": 27021
+        },
+        "Contents": [
+          {
+            "Text": "the lumberjack captain #27002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27023,
+        "Name": "Deeper Into the Forest #27023",
+        "Connections": {
+          "East": 27024,
+          "West": 27019
+        }
+      },
+      {
+        "Id": 27024,
+        "Name": "The Frequent Sounds Of Axe Falls #27024",
+        "Connections": {
+          "North": 27025,
+          "South": 27033,
+          "West": 27023
+        }
+      },
+      {
+        "Id": 27025,
+        "Name": "The Hickory Lined Trail #27025",
+        "Connections": {
+          "East": 27026,
+          "South": 27024
+        }
+      },
+      {
+        "Id": 27026,
+        "Name": "The Base Of An Ancient Hickory #27026",
+        "Connections": {
+          "North": 27029,
+          "West": 27025,
+          "Up": 27027
+        }
+      },
+      {
+        "Id": 27027,
+        "Name": "Within The Branches  #27027",
+        "Connections": {
+          "Up": 27028,
+          "Down": 27026
+        }
+      },
+      {
+        "Id": 27028,
+        "Name": "Secluded Mass Of Arborean Wreaths #27028",
+        "Connections": {
+          "Down": 27027
+        },
+        "Contents": [
+          {
+            "Text": "the eurydicean dryad #27024",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27029,
+        "Name": "Deep Within The Euridycean Forest #27029",
+        "Connections": {
+          "North": 27030,
+          "South": 27026
+        }
+      },
+      {
+        "Id": 27030,
+        "Name": "Freshly Laid Timber #27030",
+        "Connections": {
+          "South": 27029,
+          "West": 27031
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti toploader #27018",
+            "Color": "red"
+          },
+          {
+            "Text": "the clydesdale workhorse #27021",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27031,
+        "Name": "Outside The Cottage #27031",
+        "Connections": {
+          "East": 27030,
+          "South": 27032
+        }
+      },
+      {
+        "Id": 27032,
+        "Name": "The Witch\u0027s Home #27032",
+        "Connections": {
+          "North": 27031
+        },
+        "Contents": [
+          {
+            "Text": "an old ondonti woman #27010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27033,
+        "Name": "The Frequently Travelled Path #27033",
+        "Connections": {
+          "North": 27024,
+          "East": 27035,
+          "West": 27034
+        }
+      },
+      {
+        "Id": 27034,
+        "Name": "Newly Cut Timber #27034",
+        "Connections": {
+          "East": 27033
+        },
+        "Contents": [
+          {
+            "Text": "the burly lumberjack #27015",
+            "Color": "red"
+          },
+          {
+            "Text": "the ondonti toploader #27019",
+            "Color": "red"
+          },
+          {
+            "Text": "the clydesdale workhorse #27009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27035,
+        "Name": "The Rutted Forest Trail #27035",
+        "Connections": {
+          "North": 27036,
+          "East": 27038,
+          "South": 27037,
+          "West": 27033
+        }
+      },
+      {
+        "Id": 27036,
+        "Name": "The Clearing Of Redwood #27036",
+        "Connections": {
+          "South": 27035
+        },
+        "Contents": [
+          {
+            "Text": "the burly lumberjack #27017",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27037,
+        "Name": "The Clearing Of Cypress #27037",
+        "Connections": {
+          "North": 27035
+        },
+        "Contents": [
+          {
+            "Text": "the burly lumberjack #27016",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27038,
+        "Name": "The Sounds Of Running Water #27038",
+        "Connections": {
+          "East": 27039,
+          "West": 27035
+        }
+      },
+      {
+        "Id": 27039,
+        "Name": "Above The River Bank #27039",
+        "Connections": {
+          "West": 27038
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti toploader #27003",
+            "Color": "red"
+          },
+          {
+            "Text": "the clydesdale workhorse #27023",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27040,
+        "Name": "The River\u0027s Edge #27040",
+        "Connections": {
+          "Up": 27039
+        }
+      },
+      {
+        "Id": 27041,
+        "Name": "The West River Bank #27041",
+        "Connections": {}
+      },
+      {
+        "Id": 27042,
+        "Name": "The West River Bank #27042",
+        "Connections": {}
+      },
+      {
+        "Id": 27043,
+        "Name": "The West River Bank #27043",
+        "Connections": {}
+      },
+      {
+        "Id": 27044,
+        "Name": "Dark Reservoir In The Cave #27044",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "the sargassian troll #27008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27045,
+        "Name": "The West River Bank #27045",
+        "Connections": {}
+      },
+      {
+        "Id": 27046,
+        "Name": "The Shallows Of The River #27046",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "the ondonti river driver #27006",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27047,
+        "Name": "The East River Bank #27047",
+        "Connections": {}
+      },
+      {
+        "Id": 27048,
+        "Name": "The East River Bank #27048",
+        "Connections": {}
+      },
+      {
+        "Id": 27049,
+        "Name": "The East River Bank #27049",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "the lumberjack spotter #27007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5837,
+        "FrameColor": "blue",
+        "Name": "To connect #5837",
+        "Color": "blue",
+        "Connections": {
+          "North": 27000,
+          "South": 5836
+        }
+      }
+    ]
+  }
+}

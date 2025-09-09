@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SoulMUD's Maps</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" />
+</head>
+<body>
+    <table id="table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Credits</th>
+                <th scope="col">Min Level</th>
+                <th scope="col">Max Level</th>
+                <th scope="col">Json</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+    <script>
+var data = [
+[["godsland", "data/SoulMUD/maps/png/godsland.png"], "", "", "", "data/SoulMUD/maps/json/godsland.json"],
+[["firenewt", "data/SoulMUD/maps/png/firenewt.png"], "", "", "", "data/SoulMUD/maps/json/firenewt.json"],
+[["lyrra", "data/SoulMUD/maps/png/lyrra.png"], "", "", "", "data/SoulMUD/maps/json/lyrra.json"],
+[["graveyard", "data/SoulMUD/maps/png/graveyard.png"], "", "", "", "data/SoulMUD/maps/json/graveyard.json"],
+[["park", "data/SoulMUD/maps/png/park.png"], "", "", "", "data/SoulMUD/maps/json/park.json"],
+[["lwair", "data/SoulMUD/maps/png/lwair.png"], "", "", "", "data/SoulMUD/maps/json/lwair.json"],
+[["heaven", "data/SoulMUD/maps/png/heaven.png"], "", "", "", "data/SoulMUD/maps/json/heaven.json"],
+[["sieged", "data/SoulMUD/maps/png/sieged.png"], "", "", "", "data/SoulMUD/maps/json/sieged.json"],
+[["sewer", "data/SoulMUD/maps/png/sewer.png"], "", "", "", "data/SoulMUD/maps/json/sewer.json"],
+[["shag", "data/SoulMUD/maps/png/shag.png"], "", "", "", "data/SoulMUD/maps/json/shag.json"],
+[["gnolled", "data/SoulMUD/maps/png/gnolled.png"], "", "", "", "data/SoulMUD/maps/json/gnolled.json"],
+[["jungle", "data/SoulMUD/maps/png/jungle.png"], "", "", "", "data/SoulMUD/maps/json/jungle.json"],
+[["connect", "data/SoulMUD/maps/png/connect.png"], "", "", "", "data/SoulMUD/maps/json/connect.json"],
+[["garden", "data/SoulMUD/maps/png/garden.png"], "", "", "", "data/SoulMUD/maps/json/garden.json"],
+[["island", "data/SoulMUD/maps/png/island.png"], "", "", "", "data/SoulMUD/maps/json/island.json"],
+[["bh", "data/SoulMUD/maps/png/bh.png"], "", "", "", "data/SoulMUD/maps/json/bh.json"],
+[["catacombs", "data/SoulMUD/maps/png/catacombs.png"], "", "", "", "data/SoulMUD/maps/json/catacombs.json"],
+[["duergar", "data/SoulMUD/maps/png/duergar.png"], "", "", "", "data/SoulMUD/maps/json/duergar.json"],
+[["goblin", "data/SoulMUD/maps/png/goblin.png"], "", "", "", "data/SoulMUD/maps/json/goblin.json"],
+[["nordik", "data/SoulMUD/maps/png/nordik.png"], "", "", "", "data/SoulMUD/maps/json/nordik.json"],
+[["kobold", "data/SoulMUD/maps/png/kobold.png"], "", "", "", "data/SoulMUD/maps/json/kobold.json"],
+[["fomorian", "data/SoulMUD/maps/png/fomorian.png"], "", "", "", "data/SoulMUD/maps/json/fomorian.json"],
+[["jahnesta", "data/SoulMUD/maps/png/jahnesta.png"], "", "", "", "data/SoulMUD/maps/json/jahnesta.json"],
+[["centaur", "data/SoulMUD/maps/png/centaur.png"], "", "", "", "data/SoulMUD/maps/json/centaur.json"],
+[["tiger", "data/SoulMUD/maps/png/tiger.png"], "", "", "", "data/SoulMUD/maps/json/tiger.json"],
+[["pyramid", "data/SoulMUD/maps/png/pyramid.png"], "", "", "", "data/SoulMUD/maps/json/pyramid.json"],
+[["anubistemple", "data/SoulMUD/maps/png/anubistemple.png"], "", "", "", "data/SoulMUD/maps/json/anubistemple.json"],
+[["canaan", "data/SoulMUD/maps/png/canaan.png"], "", "", "", "data/SoulMUD/maps/json/canaan.json"],
+[["assur", "data/SoulMUD/maps/png/assur.png"], "", "", "", "data/SoulMUD/maps/json/assur.json"],
+[["anubisunused", "data/SoulMUD/maps/png/anubisunused.png"], "", "", "", "data/SoulMUD/maps/json/anubisunused.json"],
+[["zap", "data/SoulMUD/maps/png/zap.png"], "", "", "", "data/SoulMUD/maps/json/zap.json"],
+[["ancients", "data/SoulMUD/maps/png/ancients.png"], "", "", "", "data/SoulMUD/maps/json/ancients.json"],
+[["giant", "data/SoulMUD/maps/png/giant.png"], "", "", "", "data/SoulMUD/maps/json/giant.json"],
+[["skrymir2", "data/SoulMUD/maps/png/skrymir2.png"], "", "", "", "data/SoulMUD/maps/json/skrymir2.json"],
+[["elemental", "data/SoulMUD/maps/png/elemental.png"], "", "", "", "data/SoulMUD/maps/json/elemental.json"],
+[["aqueduct", "data/SoulMUD/maps/png/aqueduct.png"], "", "", "", "data/SoulMUD/maps/json/aqueduct.json"],
+[["skrymir", "data/SoulMUD/maps/png/skrymir.png"], "", "", "", "data/SoulMUD/maps/json/skrymir.json"],
+[["arena", "data/SoulMUD/maps/png/arena.png"], "", "", "", "data/SoulMUD/maps/json/arena.json"],
+[["drexel", "data/SoulMUD/maps/png/drexel.png"], "", "", "", "data/SoulMUD/maps/json/drexel.json"],
+[["niobe", "data/SoulMUD/maps/png/niobe.png"], "", "", "", "data/SoulMUD/maps/json/niobe.json"],
+[["more_niobe", "data/SoulMUD/maps/png/more_niobe.png"], "", "", "", "data/SoulMUD/maps/json/more_niobe.json"],
+[["tupelo", "data/SoulMUD/maps/png/tupelo.png"], "", "", "", "data/SoulMUD/maps/json/tupelo.json"],
+[["gnomes", "data/SoulMUD/maps/png/gnomes.png"], "", "", "", "data/SoulMUD/maps/json/gnomes.json"],
+[["jurassic", "data/SoulMUD/maps/png/jurassic.png"], "", "", "", "data/SoulMUD/maps/json/jurassic.json"],
+[["potpourri", "data/SoulMUD/maps/png/potpourri.png"], "", "", "", "data/SoulMUD/maps/json/potpourri.json"],
+[["planarjunct", "data/SoulMUD/maps/png/planarjunct.png"], "", "", "", "data/SoulMUD/maps/json/planarjunct.json"],
+[["ether", "data/SoulMUD/maps/png/ether.png"], "", "", "", "data/SoulMUD/maps/json/ether.json"],
+[["black", "data/SoulMUD/maps/png/black.png"], "", "", "", "data/SoulMUD/maps/json/black.json"],
+[["red", "data/SoulMUD/maps/png/red.png"], "", "", "", "data/SoulMUD/maps/json/red.json"],
+[["whiter", "data/SoulMUD/maps/png/whiter.png"], "", "", "", "data/SoulMUD/maps/json/whiter.json"],
+[["blue", "data/SoulMUD/maps/png/blue.png"], "", "", "", "data/SoulMUD/maps/json/blue.json"],
+[["dark_tower", "data/SoulMUD/maps/png/dark_tower.png"], "", "", "", "data/SoulMUD/maps/json/dark_tower.json"],
+[["sobek", "data/SoulMUD/maps/png/sobek.png"], "", "", "", "data/SoulMUD/maps/json/sobek.json"],
+[["ondonti", "data/SoulMUD/maps/png/ondonti.png"], "", "", "", "data/SoulMUD/maps/json/ondonti.json"],
+[["fireplane", "data/SoulMUD/maps/png/fireplane.png"], "", "", "", "data/SoulMUD/maps/json/fireplane.json"],
+[["waterplane", "data/SoulMUD/maps/png/waterplane.png"], "", "", "", "data/SoulMUD/maps/json/waterplane.json"],
+[["earthplane", "data/SoulMUD/maps/png/earthplane.png"], "", "", "", "data/SoulMUD/maps/json/earthplane.json"],
+[["airplane", "data/SoulMUD/maps/png/airplane.png"], "", "", "", "data/SoulMUD/maps/json/airplane.json"],
+[["smokeplane", "data/SoulMUD/maps/png/smokeplane.png"], "", "", "", "data/SoulMUD/maps/json/smokeplane.json"],
+[["saltplane", "data/SoulMUD/maps/png/saltplane.png"], "", "", "", "data/SoulMUD/maps/json/saltplane.json"],
+[["magmaplane", "data/SoulMUD/maps/png/magmaplane.png"], "", "", "", "data/SoulMUD/maps/json/magmaplane.json"],
+[["etherplane", "data/SoulMUD/maps/png/etherplane.png"], "", "", "", "data/SoulMUD/maps/json/etherplane.json"],
+[["connectplane", "data/SoulMUD/maps/png/connectplane.png"], "", "", "", "data/SoulMUD/maps/json/connectplane.json"],
+[["nine_hells", "data/SoulMUD/maps/png/nine_hells.png"], "", "", "", "data/SoulMUD/maps/json/nine_hells.json"],
+[["ondonti_orcs", "data/SoulMUD/maps/png/ondonti_orcs.png"], "", "", "", "data/SoulMUD/maps/json/ondonti_orcs.json"],
+[["dogma", "data/SoulMUD/maps/png/dogma.png"], "", "", "", "data/SoulMUD/maps/json/dogma.json"],
+[["anqet", "data/SoulMUD/maps/png/anqet.png"], "", "", "", "data/SoulMUD/maps/json/anqet.json"],
+[["lycanthropia", "data/SoulMUD/maps/png/lycanthropia.png"], "", "", "", "data/SoulMUD/maps/json/lycanthropia.json"],
+[["blackisle", "data/SoulMUD/maps/png/blackisle.png"], "", "", "", "data/SoulMUD/maps/json/blackisle.json"],
+[["griffon", "data/SoulMUD/maps/png/griffon.png"], "", "", "", "data/SoulMUD/maps/json/griffon.json"],
+[["ss", "data/SoulMUD/maps/png/ss.png"], "", "", "", "data/SoulMUD/maps/json/ss.json"],
+[["abyss", "data/SoulMUD/maps/png/abyss.png"], "", "", "", "data/SoulMUD/maps/json/abyss.json"],
+[["tasloi", "data/SoulMUD/maps/png/tasloi.png"], "", "", "", "data/SoulMUD/maps/json/tasloi.json"],
+[["pangor", "data/SoulMUD/maps/png/pangor.png"], "", "", "", "data/SoulMUD/maps/json/pangor.json"],
+[["night", "data/SoulMUD/maps/png/night.png"], "", "", "", "data/SoulMUD/maps/json/night.json"],
+[["diancecht", "data/SoulMUD/maps/png/diancecht.png"], "", "", "", "data/SoulMUD/maps/json/diancecht.json"],
+[["akela", "data/SoulMUD/maps/png/akela.png"], "", "", "", "data/SoulMUD/maps/json/akela.json"],
+[["demonweb", "data/SoulMUD/maps/png/demonweb.png"], "", "", "", "data/SoulMUD/maps/json/demonweb.json"],
+[["hell", "data/SoulMUD/maps/png/hell.png"], "", "", "", "data/SoulMUD/maps/json/hell.json"],
+[["fof", "data/SoulMUD/maps/png/fof.png"], "", "", "", "data/SoulMUD/maps/json/fof.json"],
+[["ant", "data/SoulMUD/maps/png/ant.png"], "", "", "", "data/SoulMUD/maps/json/ant.json"],
+[["joj", "data/SoulMUD/maps/png/joj.png"], "", "", "", "data/SoulMUD/maps/json/joj.json"],
+[["happy", "data/SoulMUD/maps/png/happy.png"], "", "", "", "data/SoulMUD/maps/json/happy.json"],
+[["order", "data/SoulMUD/maps/png/order.png"], "", "", "", "data/SoulMUD/maps/json/order.json"],
+[["kells2", "data/SoulMUD/maps/png/kells2.png"], "", "", "", "data/SoulMUD/maps/json/kells2.json"],
+[["orcfort", "data/SoulMUD/maps/png/orcfort.png"], "", "", "", "data/SoulMUD/maps/json/orcfort.json"],
+[["semester", "data/SoulMUD/maps/png/semester.png"], "", "", "", "data/SoulMUD/maps/json/semester.json"],
+[["lostcross", "data/SoulMUD/maps/png/lostcross.png"], "", "", "", "data/SoulMUD/maps/json/lostcross.json"],
+[["ck", "data/SoulMUD/maps/png/ck.png"], "", "", "", "data/SoulMUD/maps/json/ck.json"],
+[["fairy", "data/SoulMUD/maps/png/fairy.png"], "", "", "", "data/SoulMUD/maps/json/fairy.json"],
+[["empty11", "data/SoulMUD/maps/png/empty11.png"], "", "", "", "data/SoulMUD/maps/json/empty11.json"],
+[["midgaard", "data/SoulMUD/maps/png/midgaard.png"], "", "", "", "data/SoulMUD/maps/json/midgaard.json"],
+[["maze", "data/SoulMUD/maps/png/maze.png"], "", "", "", "data/SoulMUD/maps/json/maze.json"],
+[["hellwell", "data/SoulMUD/maps/png/hellwell.png"], "", "", "", "data/SoulMUD/maps/json/hellwell.json"],
+[["desert", "data/SoulMUD/maps/png/desert.png"], "", "", "", "data/SoulMUD/maps/json/desert.json"],
+[["moontemple", "data/SoulMUD/maps/png/moontemple.png"], "", "", "", "data/SoulMUD/maps/json/moontemple.json"],
+[["barge", "data/SoulMUD/maps/png/barge.png"], "", "", "", "data/SoulMUD/maps/json/barge.json"],
+[["goldpav", "data/SoulMUD/maps/png/goldpav.png"], "", "", "", "data/SoulMUD/maps/json/goldpav.json"],
+[["argents", "data/SoulMUD/maps/png/argents.png"], "", "", "", "data/SoulMUD/maps/json/argents.json"],
+[["white", "data/SoulMUD/maps/png/white.png"], "", "", "", "data/SoulMUD/maps/json/white.json"],
+[["arbo", "data/SoulMUD/maps/png/arbo.png"], "", "", "", "data/SoulMUD/maps/json/arbo.json"],
+[["neptemple", "data/SoulMUD/maps/png/neptemple.png"], "", "", "", "data/SoulMUD/maps/json/neptemple.json"],
+[["nepheg", "data/SoulMUD/maps/png/nepheg.png"], "", "", "", "data/SoulMUD/maps/json/nepheg.json"],
+[["truffle", "data/SoulMUD/maps/png/truffle.png"], "", "", "", "data/SoulMUD/maps/json/truffle.json"],
+[["grog", "data/SoulMUD/maps/png/grog.png"], "", "", "", "data/SoulMUD/maps/json/grog.json"],
+[["cb", "data/SoulMUD/maps/png/cb.png"], "", "", "", "data/SoulMUD/maps/json/cb.json"],
+[["feyd", "data/SoulMUD/maps/png/feyd.png"], "", "", "", "data/SoulMUD/maps/json/feyd.json"],
+[["imps", "data/SoulMUD/maps/png/imps.png"], "", "", "", "data/SoulMUD/maps/json/imps.json"],
+[["neden", "data/SoulMUD/maps/png/neden.png"], "", "", "", "data/SoulMUD/maps/json/neden.json"],
+[["empty21", "data/SoulMUD/maps/png/empty21.png"], "", "", "", "data/SoulMUD/maps/json/empty21.json"],
+[["doorquest", "data/SoulMUD/maps/png/doorquest.png"], "", "", "", "data/SoulMUD/maps/json/doorquest.json"],
+[["guilds", "data/SoulMUD/maps/png/guilds.png"], "", "", "", "data/SoulMUD/maps/json/guilds.json"],
+[["newquick", "data/SoulMUD/maps/png/newquick.png"], "", "", "", "data/SoulMUD/maps/json/newquick.json"],
+[["dmountain", "data/SoulMUD/maps/png/dmountain.png"], "", "", "", "data/SoulMUD/maps/json/dmountain.json"],
+[["magicroom", "data/SoulMUD/maps/png/magicroom.png"], "", "", "", "data/SoulMUD/maps/json/magicroom.json"],
+[["mauselum", "data/SoulMUD/maps/png/mauselum.png"], "", "", "", "data/SoulMUD/maps/json/mauselum.json"],
+[["swamp", "data/SoulMUD/maps/png/swamp.png"], "", "", "", "data/SoulMUD/maps/json/swamp.json"],
+[["cazel", "data/SoulMUD/maps/png/cazel.png"], "", "", "", "data/SoulMUD/maps/json/cazel.json"],
+[["andiunused", "data/SoulMUD/maps/png/andiunused.png"], "", "", "", "data/SoulMUD/maps/json/andiunused.json"],
+[["eden", "data/SoulMUD/maps/png/eden.png"], "", "", "", "data/SoulMUD/maps/json/eden.json"],
+[["bonepit", "data/SoulMUD/maps/png/bonepit.png"], "", "", "", "data/SoulMUD/maps/json/bonepit.json"],
+[["mhorn", "data/SoulMUD/maps/png/mhorn.png"], "", "", "", "data/SoulMUD/maps/json/mhorn.json"],
+[["snaketemple", "data/SoulMUD/maps/png/snaketemple.png"], "", "", "", "data/SoulMUD/maps/json/snaketemple.json"],
+[["suntemple", "data/SoulMUD/maps/png/suntemple.png"], "", "", "", "data/SoulMUD/maps/json/suntemple.json"],
+[["haunted", "data/SoulMUD/maps/png/haunted.png"], "", "", "", "data/SoulMUD/maps/json/haunted.json"],
+[["shadis1", "data/SoulMUD/maps/png/shadis1.png"], "", "", "", "data/SoulMUD/maps/json/shadis1.json"],
+[["shadtemple", "data/SoulMUD/maps/png/shadtemple.png"], "", "", "", "data/SoulMUD/maps/json/shadtemple.json"],
+[["petsem", "data/SoulMUD/maps/png/petsem.png"], "", "", "", "data/SoulMUD/maps/json/petsem.json"],
+[["frost", "data/SoulMUD/maps/png/frost.png"], "", "", "", "data/SoulMUD/maps/json/frost.json"],
+[["gully", "data/SoulMUD/maps/png/gully.png"], "", "", "", "data/SoulMUD/maps/json/gully.json"],
+[["asylum", "data/SoulMUD/maps/png/asylum.png"], "", "", "", "data/SoulMUD/maps/json/asylum.json"],
+[["gromlin", "data/SoulMUD/maps/png/gromlin.png"], "", "", "", "data/SoulMUD/maps/json/gromlin.json"],
+[["detheren", "data/SoulMUD/maps/png/detheren.png"], "", "", "", "data/SoulMUD/maps/json/detheren.json"],
+[["shadis", "data/SoulMUD/maps/png/shadis.png"], "", "", "", "data/SoulMUD/maps/json/shadis.json"],
+[["pirate", "data/SoulMUD/maps/png/pirate.png"], "", "", "", "data/SoulMUD/maps/json/pirate.json"],
+];
+
+
+    $('#table').DataTable({
+		columnDefs: [
+			{
+				targets: 0,
+				render: function (data, type) {
+					return '<a href="' + data[1] + '">' + data[0] + '</a>';
+				}
+            },
+			{
+				targets: 4,
+				render: function (data, type) {
+					return '<a href="' + data + '">json</a>';
+				}
+            }
+		],
+        paging: false,
+        data: data
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,526 @@
+{
+  "Area": {
+    "Name": "magmaplane",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 25350,
+        "Name": "Behind The Lava Drip #25350",
+        "Connections": {
+          "Up": 25351
+        }
+      },
+      {
+        "Id": 25351,
+        "Name": "The Ancient Lava Flow #25351",
+        "Connections": {
+          "East": 25352,
+          "Down": 25350
+        }
+      },
+      {
+        "Id": 25352,
+        "Name": "Above The River Of Magma #25352",
+        "Connections": {
+          "West": 25351,
+          "Down": 25353
+        }
+      },
+      {
+        "Id": 25353,
+        "Name": "The River Of Magma #25353",
+        "Connections": {
+          "East": 25354,
+          "Up": 25352
+        },
+        "Contents": [
+          {
+            "Text": "the magma elemental #25351",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25354,
+        "Name": "The River Of Magma #25354",
+        "Connections": {
+          "East": 25355,
+          "West": 25353
+        }
+      },
+      {
+        "Id": 25355,
+        "Name": "The River Of Magma #25355",
+        "Connections": {
+          "North": 25356,
+          "West": 25354
+        }
+      },
+      {
+        "Id": 25356,
+        "Name": "The River Of Magma #25356",
+        "Connections": {
+          "North": 25357,
+          "South": 25355
+        },
+        "Contents": [
+          {
+            "Text": "the magma elemental #25351",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25357,
+        "Name": "The River Of Magma #25357",
+        "Connections": {
+          "North": 25358,
+          "South": 25356,
+          "West": 25370
+        }
+      },
+      {
+        "Id": 25358,
+        "Name": "The River Of Magma #25358",
+        "Connections": {
+          "East": 25359,
+          "South": 25357
+        }
+      },
+      {
+        "Id": 25359,
+        "Name": "The River Of Magma #25359",
+        "Connections": {
+          "East": 25360,
+          "West": 25358
+        },
+        "Contents": [
+          {
+            "Text": "the magma elemental #25352",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25360,
+        "Name": "The River Of Magma #25360",
+        "Connections": {
+          "East": 25361,
+          "South": 25377,
+          "West": 25359
+        }
+      },
+      {
+        "Id": 25361,
+        "Name": "The River Of Magma #25361",
+        "Connections": {
+          "North": 25378,
+          "East": 25362,
+          "West": 25360
+        }
+      },
+      {
+        "Id": 25362,
+        "Name": "The River Of Magma #25362",
+        "Connections": {
+          "North": 25363,
+          "West": 25361
+        },
+        "Contents": [
+          {
+            "Text": "the magma elemental #25352",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25363,
+        "Name": "The River Of Magma #25363",
+        "Connections": {
+          "North": 25364,
+          "South": 25362
+        }
+      },
+      {
+        "Id": 25364,
+        "Name": "The River Of Magma #25364",
+        "Connections": {
+          "East": 25365,
+          "South": 25363,
+          "West": 25381
+        },
+        "Contents": [
+          {
+            "Text": "the magma elemental #25353",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25365,
+        "Name": "The River Of Magma #25365",
+        "Connections": {
+          "North": 25379,
+          "East": 25366,
+          "West": 25364
+        }
+      },
+      {
+        "Id": 25366,
+        "Name": "The River Of Magma #25366",
+        "Connections": {
+          "South": 25367,
+          "West": 25365
+        }
+      },
+      {
+        "Id": 25367,
+        "Name": "The River Of Magma #25367",
+        "Connections": {
+          "North": 25366,
+          "East": 25368
+        },
+        "Contents": [
+          {
+            "Text": "the magma elemental #25353",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25368,
+        "Name": "The River Of Magma #25368",
+        "Connections": {
+          "East": 25369,
+          "West": 25367
+        }
+      },
+      {
+        "Id": 25369,
+        "Name": "The River Of Magma #25369",
+        "Connections": {
+          "West": 25368
+        }
+      },
+      {
+        "Id": 25370,
+        "Name": "Solid Ground #25370",
+        "Connections": {
+          "North": 25371,
+          "East": 25357
+        }
+      },
+      {
+        "Id": 25371,
+        "Name": "Solid Ground #25371",
+        "Connections": {
+          "North": 25372,
+          "South": 25370
+        }
+      },
+      {
+        "Id": 25372,
+        "Name": "The Glowing Pathway #25372",
+        "Connections": {
+          "South": 25371,
+          "West": 25373
+        }
+      },
+      {
+        "Id": 25373,
+        "Name": "The Glowing Pathway #25373",
+        "Connections": {
+          "East": 25372,
+          "South": 25375,
+          "West": 25374
+        }
+      },
+      {
+        "Id": 25374,
+        "Name": "The Glowing Pathway #25374",
+        "Connections": {
+          "East": 25373,
+          "South": 25376
+        }
+      },
+      {
+        "Id": 25375,
+        "Name": "Volcanic Antechamber #25375",
+        "Connections": {
+          "North": 25373
+        },
+        "Contents": [
+          {
+            "Text": "the vulcan priest #25357",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25376,
+        "Name": "Volcanic Antechamber #25376",
+        "Connections": {
+          "North": 25374
+        },
+        "Contents": [
+          {
+            "Text": "the vulcan priest #25358",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25377,
+        "Name": "Solid Stone Landing #25377",
+        "Connections": {
+          "North": 25360
+        },
+        "Contents": [
+          {
+            "Text": "a balrog demon #25361",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25378,
+        "Name": "Solid Stone Ledge #25378",
+        "Connections": {
+          "South": 25361
+        },
+        "Contents": [
+          {
+            "Text": "a magmaderm #25360",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25379,
+        "Name": "Magma Lit Cavern #25379",
+        "Connections": {
+          "North": 25380,
+          "South": 25365
+        },
+        "Contents": [
+          {
+            "Text": "the luminous eye #25359",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25380,
+        "Name": "The Circle Of Glowing Skulls #25380",
+        "Connections": {
+          "South": 25379
+        }
+      },
+      {
+        "Id": 25381,
+        "Name": "The River Of Magma #25381",
+        "Connections": {
+          "East": 25364,
+          "West": 25382
+        }
+      },
+      {
+        "Id": 25382,
+        "Name": "The River Of Magma #25382",
+        "Connections": {
+          "North": 25383,
+          "East": 25381
+        },
+        "Contents": [
+          {
+            "Text": "the magma elemental #25354",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25383,
+        "Name": "The River Of Magma #25383",
+        "Connections": {
+          "South": 25382,
+          "West": 25384
+        }
+      },
+      {
+        "Id": 25384,
+        "Name": "The River Of Magma #25384",
+        "Connections": {
+          "East": 25383,
+          "West": 25385
+        }
+      },
+      {
+        "Id": 25385,
+        "Name": "The Magma Pool #25385",
+        "Connections": {
+          "North": 25391,
+          "East": 25384,
+          "South": 25390,
+          "West": 25386
+        }
+      },
+      {
+        "Id": 25386,
+        "Name": "The Magma Pool #25386",
+        "Connections": {
+          "North": 25392,
+          "East": 25385,
+          "South": 25389,
+          "West": 25387
+        }
+      },
+      {
+        "Id": 25387,
+        "Name": "The Magma Pool #25387",
+        "Connections": {
+          "North": 25393,
+          "East": 25386,
+          "South": 25388
+        }
+      },
+      {
+        "Id": 25388,
+        "Name": "The Magma Pool #25388",
+        "Connections": {
+          "North": 25387,
+          "East": 25389,
+          "West": 25396
+        }
+      },
+      {
+        "Id": 25389,
+        "Name": "The Magma Pool #25389",
+        "Connections": {
+          "North": 25386,
+          "East": 25390,
+          "West": 25388
+        }
+      },
+      {
+        "Id": 25390,
+        "Name": "The Magma Pool #25390",
+        "Connections": {
+          "North": 25385,
+          "West": 25389
+        },
+        "Contents": [
+          {
+            "Text": "the magma shark #25356",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25391,
+        "Name": "The Magma Pool #25391",
+        "Connections": {
+          "South": 25385,
+          "West": 25392
+        }
+      },
+      {
+        "Id": 25392,
+        "Name": "The Magma Pool #25392",
+        "Connections": {
+          "East": 25391,
+          "South": 25386,
+          "West": 25393
+        }
+      },
+      {
+        "Id": 25393,
+        "Name": "The Magma Pool #25393",
+        "Connections": {
+          "East": 25392,
+          "South": 25387,
+          "West": 25394
+        },
+        "Contents": [
+          {
+            "Text": "the magma shark #25355",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25394,
+        "Name": "The Wide Floating Stone Disc #25394",
+        "Connections": {
+          "East": 25393,
+          "South": 25395
+        }
+      },
+      {
+        "Id": 25395,
+        "Name": "The Whirlpool Of Magma #25395",
+        "Connections": {
+          "North": 25394
+        },
+        "Contents": [
+          {
+            "Text": "the magma octopus #25362",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25396,
+        "Name": "Floating Discs Of Stone #25396",
+        "Connections": {
+          "East": 25388,
+          "West": 25397
+        }
+      },
+      {
+        "Id": 25397,
+        "Name": "Floating Discs Of Stone #25397",
+        "Connections": {
+          "North": 25398,
+          "East": 25396
+        }
+      },
+      {
+        "Id": 25398,
+        "Name": "Fiery Throne Of Magma #25398",
+        "Connections": {
+          "South": 25397
+        },
+        "Contents": [
+          {
+            "Text": "Abraxis, Lord of the Liquid Fire #25350",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25399,
+        "Name": "The Waveless Sea #25399",
+        "Connections": {
+          "South": 25043
+        },
+        "Contents": [
+          {
+            "Text": "the dharculus #25460",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25043,
+        "FrameColor": "blue",
+        "Name": "To ondonti #25043",
+        "Color": "blue",
+        "Connections": {
+          "North": 25399,
+          "West": 25473,
+          "Down": 77005
+        }
+      }
+    ]
+  }
+}

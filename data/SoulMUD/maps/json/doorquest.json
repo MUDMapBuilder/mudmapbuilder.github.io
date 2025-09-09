@@ -1,0 +1,189 @@
+{
+  "Area": {
+    "Name": "doorquest",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 68500,
+        "Name": "Among the Lower Branches #68500",
+        "Connections": {
+          "East": 68501,
+          "South": 68502,
+          "Up": 68503
+        },
+        "Contents": [
+          {
+            "Text": "the kobold ghost king #68501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 68501,
+        "Name": "A Bushy Branch #68501",
+        "Connections": {
+          "West": 68500
+        }
+      },
+      {
+        "Id": 68502,
+        "Name": "Under a Hornet Nest #68502",
+        "Connections": {
+          "North": 68500
+        },
+        "Contents": [
+          {
+            "Text": "a large swarm of hornets #68500",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 68503,
+        "Name": "Climbing the Trunk #68503",
+        "Connections": {
+          "North": 68505,
+          "West": 68504,
+          "Up": 68506
+        }
+      },
+      {
+        "Id": 68504,
+        "Name": "On a Large Limb #68504",
+        "Connections": {
+          "East": 68503
+        },
+        "Contents": [
+          {
+            "Text": "an ogre bandit #68502",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 68505,
+        "Name": "A Dead Branch #68505",
+        "Connections": {
+          "South": 68503
+        }
+      },
+      {
+        "Id": 68506,
+        "Name": "Higher in the Tree #68506",
+        "Connections": {
+          "North": 68508,
+          "South": 68507,
+          "Up": 68509
+        }
+      },
+      {
+        "Id": 68507,
+        "Name": "In Tangled Branches #68507",
+        "Connections": {
+          "North": 68506
+        }
+      },
+      {
+        "Id": 68508,
+        "Name": "A Large Nest #68508",
+        "Connections": {
+          "South": 68506
+        },
+        "Contents": [
+          {
+            "Text": "a red tree dragon #68503",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 68509,
+        "Name": "Outside a Knothole #68509",
+        "Connections": {
+          "East": 68510,
+          "West": 68511,
+          "Up": 68512
+        }
+      },
+      {
+        "Id": 68510,
+        "Name": "A Thin Branch #68510",
+        "Connections": {
+          "West": 68509
+        },
+        "Contents": [
+          {
+            "Text": "an ogre fighter #68504",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 68511,
+        "Name": "A Bare Limb #68511",
+        "Connections": {
+          "East": 68509
+        }
+      },
+      {
+        "Id": 68512,
+        "Name": "Nearing the Canopy #68512",
+        "Connections": {
+          "South": 68513,
+          "West": 68514,
+          "Up": 68515
+        }
+      },
+      {
+        "Id": 68513,
+        "Name": "On a Broken Dead Branch #68513",
+        "Connections": {
+          "North": 68512
+        },
+        "Contents": [
+          {
+            "Text": "an ogre champion #68505",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 68514,
+        "Name": "Under a Bushy Limb #68514",
+        "Connections": {
+          "East": 68512
+        }
+      },
+      {
+        "Id": 68515,
+        "Name": "Top of the Tree #68515",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "an ogre warlord #68506",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 68516,
+        "Name": "Before the Gates #68516",
+        "Connections": {
+          "Up": 68500,
+          "Down": 68119
+        }
+      },
+      {
+        "Id": 68119,
+        "FrameColor": "blue",
+        "Name": "To imps #68119",
+        "Color": "blue",
+        "Connections": {
+          "East": 68118,
+          "South": 68116,
+          "Up": 68500
+        }
+      }
+    ]
+  }
+}

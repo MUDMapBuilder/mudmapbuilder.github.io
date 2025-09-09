@@ -1,0 +1,514 @@
+{
+  "Area": {
+    "Name": "griffon",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 30101,
+        "Name": "Dirt Path #30101",
+        "Connections": {
+          "North": 30102,
+          "West": 30112
+        }
+      },
+      {
+        "Id": 30102,
+        "Name": "Light Forest #30102",
+        "Connections": {
+          "North": 30103,
+          "East": 30108,
+          "South": 30101,
+          "West": 30111
+        }
+      },
+      {
+        "Id": 30103,
+        "Name": "Meadow #30103",
+        "Connections": {
+          "North": 30104,
+          "East": 30105,
+          "South": 30102,
+          "West": 30110
+        }
+      },
+      {
+        "Id": 30104,
+        "Name": "Northern Meadow #30104",
+        "Connections": {
+          "South": 30103,
+          "West": 30109
+        }
+      },
+      {
+        "Id": 30105,
+        "Name": "Eastern Meadow #30105",
+        "Connections": {
+          "East": 30106,
+          "South": 30108,
+          "West": 30103
+        }
+      },
+      {
+        "Id": 30106,
+        "Name": "Tight Squeeze #30106",
+        "Connections": {
+          "East": 30107,
+          "West": 30105
+        }
+      },
+      {
+        "Id": 30107,
+        "Name": "Broken Set of Stairs #30107",
+        "Connections": {
+          "West": 30106
+        },
+        "Contents": [
+          {
+            "Text": "Bronin Boregutter #30312",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30108,
+        "Name": "Light Forest #30108",
+        "Connections": {
+          "North": 30105,
+          "West": 30102,
+          "Up": 30224
+        }
+      },
+      {
+        "Id": 30109,
+        "Name": "Rocky Path #30109",
+        "Connections": {
+          "North": 30143,
+          "East": 30104,
+          "West": 71001
+        }
+      },
+      {
+        "Id": 30110,
+        "Name": "Western Meadow #30110",
+        "Connections": {
+          "East": 30103,
+          "West": 30131
+        }
+      },
+      {
+        "Id": 30111,
+        "Name": "Forest Path #30111",
+        "Connections": {
+          "East": 30102,
+          "South": 30112,
+          "West": 30132
+        }
+      },
+      {
+        "Id": 30112,
+        "Name": "Giant Redwood Forest #30112",
+        "Connections": {
+          "North": 30111,
+          "East": 30101,
+          "South": 30113,
+          "West": 30133
+        }
+      },
+      {
+        "Id": 30113,
+        "Name": "Redwood Forest Floor #30113",
+        "Connections": {
+          "North": 30112,
+          "West": 30115,
+          "Up": 30114
+        }
+      },
+      {
+        "Id": 30114,
+        "Name": "Upper limbs of a Tree #30114",
+        "Connections": {
+          "West": 30116,
+          "Down": 30113
+        }
+      },
+      {
+        "Id": 30115,
+        "Name": "Redwood forest Floor #30115",
+        "Connections": {
+          "North": 30133,
+          "East": 30113,
+          "Up": 30116
+        }
+      },
+      {
+        "Id": 30116,
+        "Name": "Upper limbs of a Tree #30116",
+        "Connections": {
+          "East": 30114,
+          "South": 30117,
+          "Down": 30115
+        }
+      },
+      {
+        "Id": 30117,
+        "Name": "Long, bending Branch #30117",
+        "Connections": {
+          "North": 30116,
+          "East": 30119,
+          "West": 30118
+        }
+      },
+      {
+        "Id": 30118,
+        "Name": "Wood Elven Forest #30118",
+        "Connections": {
+          "North": 30137
+        },
+        "Contents": [
+          {
+            "Text": "a elven guard #30109",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30119,
+        "Name": "Small Ledge #30119",
+        "Connections": {
+          "South": 30120,
+          "West": 30117
+        }
+      },
+      {
+        "Id": 30120,
+        "Name": "Narrow Trail #30120",
+        "Connections": {
+          "North": 30119,
+          "South": 30121
+        }
+      },
+      {
+        "Id": 30121,
+        "Name": "Mountain Meadow #30121",
+        "Connections": {
+          "North": 30120,
+          "East": 30122
+        }
+      },
+      {
+        "Id": 30122,
+        "Name": "Trail in the Mountains #30122",
+        "Connections": {
+          "East": 30125,
+          "West": 30121,
+          "Up": 30123
+        }
+      },
+      {
+        "Id": 30123,
+        "Name": "Western Ledge #30123",
+        "Connections": {
+          "East": 30126,
+          "South": 30130,
+          "West": 30124,
+          "Down": 30122
+        }
+      },
+      {
+        "Id": 30124,
+        "Name": "Jump off Point #30124",
+        "Connections": {
+          "East": 30123
+        },
+        "Contents": [
+          {
+            "Text": "a mother griffon #30111",
+            "Color": "green"
+          },
+          {
+            "Text": "a baby griffon #30107",
+            "Color": "green"
+          },
+          {
+            "Text": "a baby griffon #30107",
+            "Color": "green"
+          },
+          {
+            "Text": "a baby griffon #30107",
+            "Color": "green"
+          },
+          {
+            "Text": "a baby griffon #30107",
+            "Color": "green"
+          },
+          {
+            "Text": "a baby griffon #30107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30125,
+        "Name": "Trail in the Mountains #30125",
+        "Connections": {
+          "East": 30225,
+          "West": 30122,
+          "Up": 30126
+        },
+        "Contents": [
+          {
+            "Text": "a galeb duhr #30112",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30126,
+        "Name": "Eastern Ledge #30126",
+        "Connections": {
+          "East": 30127,
+          "South": 30128,
+          "West": 30123,
+          "Down": 30125
+        }
+      },
+      {
+        "Id": 30127,
+        "Name": "Large Cave #30127",
+        "Connections": {
+          "West": 30126
+        },
+        "Contents": [
+          {
+            "Text": "a large griffon #30106",
+            "Color": "red"
+          },
+          {
+            "Text": "a large griffon #30106",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 30128,
+        "Name": "Cave Entrance #30128",
+        "Connections": {
+          "North": 30126,
+          "South": 30129
+        }
+      },
+      {
+        "Id": 30129,
+        "Name": "Huge Cave #30129",
+        "Connections": {
+          "North": 30128
+        },
+        "Contents": [
+          {
+            "Text": "the black griffon #30108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30130,
+        "Name": "Small Cave #30130",
+        "Connections": {
+          "North": 30123
+        },
+        "Contents": [
+          {
+            "Text": "a griffon #30105",
+            "Color": "red"
+          },
+          {
+            "Text": "a griffon #30105",
+            "Color": "red"
+          },
+          {
+            "Text": "a griffon #30105",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 30131,
+        "Name": "Dense Forest #30131",
+        "Connections": {
+          "East": 30110,
+          "South": 30132
+        }
+      },
+      {
+        "Id": 30132,
+        "Name": "Trail through the Forest #30132",
+        "Connections": {
+          "North": 30131,
+          "East": 30111,
+          "South": 30133,
+          "West": 30134
+        }
+      },
+      {
+        "Id": 30133,
+        "Name": "Redwood Forest #30133",
+        "Connections": {
+          "North": 30132,
+          "South": 30115,
+          "West": 30226
+        }
+      },
+      {
+        "Id": 30134,
+        "Name": "Sandy Bank #30134",
+        "Connections": {
+          "East": 30132,
+          "South": 30135,
+          "West": 30138
+        }
+      },
+      {
+        "Id": 30135,
+        "Name": "Forest Path #30135",
+        "Connections": {
+          "North": 30134,
+          "South": 30136,
+          "West": 66120
+        }
+      },
+      {
+        "Id": 30136,
+        "Name": "Redwood Forest #30136",
+        "Connections": {
+          "North": 30135,
+          "Up": 30137
+        }
+      },
+      {
+        "Id": 30137,
+        "Name": "Interconnecting Branches #30137",
+        "Connections": {
+          "South": 30118,
+          "Down": 30136
+        }
+      },
+      {
+        "Id": 30138,
+        "Name": "Calm Pool #30138",
+        "Connections": {
+          "North": 30142,
+          "East": 30134,
+          "West": 30139
+        }
+      },
+      {
+        "Id": 30139,
+        "Name": "Calm Pool #30139",
+        "Connections": {
+          "North": 30140,
+          "East": 30138
+        }
+      },
+      {
+        "Id": 30140,
+        "Name": "Calm Pool #30140",
+        "Connections": {
+          "East": 30142,
+          "South": 30139
+        },
+        "Contents": [
+          {
+            "Text": "a swimming griffon #30110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30141,
+        "Name": "The Waterfall #30141",
+        "Connections": {
+          "South": 30142
+        }
+      },
+      {
+        "Id": 30142,
+        "Name": "Rough Pool #30142",
+        "Connections": {
+          "North": 30141,
+          "South": 30138,
+          "West": 30140
+        }
+      },
+      {
+        "Id": 30143,
+        "Name": "Settlestone Outpost #30143",
+        "Connections": {
+          "North": 30301,
+          "South": 30109
+        }
+      },
+      {
+        "Id": 30144,
+        "Name": "Amidst Awesome Waterfall\u0027s Fury #30144",
+        "Connections": {}
+      },
+      {
+        "Id": 30224,
+        "FrameColor": "blue",
+        "Name": "To ss #30224",
+        "Color": "blue",
+        "Connections": {
+          "Down": 30108
+        }
+      },
+      {
+        "Id": 71001,
+        "FrameColor": "blue",
+        "Name": "To dmountain #71001",
+        "Color": "blue",
+        "Connections": {
+          "East": 30109,
+          "West": 71002
+        }
+      },
+      {
+        "Id": 30225,
+        "FrameColor": "blue",
+        "Name": "To ss #30225",
+        "Color": "blue",
+        "Connections": {
+          "West": 30125
+        }
+      },
+      {
+        "Id": 30226,
+        "FrameColor": "blue",
+        "Name": "To ss #30226",
+        "Color": "blue",
+        "Connections": {
+          "East": 30133
+        }
+      },
+      {
+        "Id": 66120,
+        "FrameColor": "blue",
+        "Name": "To feyd #66120",
+        "Color": "blue",
+        "Connections": {
+          "East": 30135,
+          "South": 66033
+        }
+      },
+      {
+        "Id": 30301,
+        "FrameColor": "blue",
+        "Name": "To ss #30301",
+        "Color": "blue",
+        "Connections": {
+          "North": 30302,
+          "South": 30143
+        }
+      }
+    ]
+  }
+}

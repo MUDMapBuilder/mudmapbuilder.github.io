@@ -1,0 +1,2158 @@
+{
+  "Area": {
+    "Name": "desert",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 56000,
+        "Name": "Isiel\u0027s Lab #56000",
+        "Connections": {}
+      },
+      {
+        "Id": 56001,
+        "Name": "Land\u0027s End #56001",
+        "Connections": {
+          "Down": 56002
+        }
+      },
+      {
+        "Id": 56002,
+        "Name": "Steep Path #56002",
+        "Connections": {
+          "Up": 56001,
+          "Down": 56003
+        }
+      },
+      {
+        "Id": 56003,
+        "Name": "Stone Ledge #56003",
+        "Connections": {
+          "East": 56014,
+          "West": 56005,
+          "Up": 56002,
+          "Down": 56004
+        }
+      },
+      {
+        "Id": 56004,
+        "Name": "Winding Mountain Pass #56004",
+        "Connections": {
+          "Up": 56003,
+          "Down": 56019
+        }
+      },
+      {
+        "Id": 56005,
+        "Name": "Narrow Ledge #56005",
+        "Connections": {
+          "East": 56003,
+          "West": 56006
+        }
+      },
+      {
+        "Id": 56006,
+        "Name": "Small Shelf #56006",
+        "Connections": {
+          "East": 56005,
+          "West": 56007,
+          "Up": 56008
+        }
+      },
+      {
+        "Id": 56007,
+        "Name": "Deadend Trail #56007",
+        "Connections": {
+          "East": 56006
+        }
+      },
+      {
+        "Id": 56008,
+        "Name": "Rocky Handhold #56008",
+        "Connections": {
+          "Up": 56009,
+          "Down": 56006
+        }
+      },
+      {
+        "Id": 56009,
+        "Name": "Tricky Climb #56009",
+        "Connections": {
+          "West": 56010,
+          "Up": 56011,
+          "Down": 56008
+        }
+      },
+      {
+        "Id": 56010,
+        "Name": "Loose Stone #56010",
+        "Connections": {
+          "East": 56009,
+          "Down": 56206
+        }
+      },
+      {
+        "Id": 56011,
+        "Name": "High Mountain Ledge #56011",
+        "Connections": {
+          "East": 56012,
+          "Down": 56009
+        }
+      },
+      {
+        "Id": 56012,
+        "Name": "Large Aerie #56012",
+        "Connections": {
+          "South": 56013,
+          "West": 56011
+        }
+      },
+      {
+        "Id": 56013,
+        "Name": "Inside the Nest #56013",
+        "Connections": {
+          "North": 56012
+        }
+      },
+      {
+        "Id": 56014,
+        "Name": "High Mountain Pass #56014",
+        "Connections": {
+          "East": 56015,
+          "West": 56003
+        }
+      },
+      {
+        "Id": 56015,
+        "Name": "On the Mountain Trail #56015",
+        "Connections": {
+          "East": 56016,
+          "West": 56014,
+          "Up": 56017
+        }
+      },
+      {
+        "Id": 56016,
+        "Name": "Turn in the trail #56016",
+        "Connections": {
+          "South": 56018,
+          "West": 56015
+        }
+      },
+      {
+        "Id": 56017,
+        "Name": "Mountain Plateau #56017",
+        "Connections": {
+          "Down": 56015
+        }
+      },
+      {
+        "Id": 56018,
+        "Name": "Ravine #56018",
+        "Connections": {
+          "North": 56016,
+          "South": 56020
+        }
+      },
+      {
+        "Id": 56019,
+        "Name": "Wind Swept Trail #56019",
+        "Connections": {
+          "Up": 56004,
+          "Down": 56049
+        }
+      },
+      {
+        "Id": 56020,
+        "Name": "Winding Pass #56020",
+        "Connections": {
+          "North": 56018,
+          "East": 56021
+        }
+      },
+      {
+        "Id": 56021,
+        "Name": "Shaded Pass #56021",
+        "Connections": {
+          "South": 56022,
+          "West": 56020
+        }
+      },
+      {
+        "Id": 56022,
+        "Name": "A Sandy Pass #56022",
+        "Connections": {
+          "East": 56023,
+          "West": 56021
+        }
+      },
+      {
+        "Id": 56023,
+        "Name": "A Sandy Pass #56023",
+        "Connections": {
+          "North": 56024,
+          "West": 56022
+        }
+      },
+      {
+        "Id": 56024,
+        "Name": "A Wind Swept Desert Plain #56024",
+        "Connections": {
+          "East": 56025,
+          "South": 56023
+        }
+      },
+      {
+        "Id": 56025,
+        "Name": "The Sandy Steppes #56025",
+        "Connections": {
+          "North": 56026,
+          "West": 56024
+        }
+      },
+      {
+        "Id": 56026,
+        "Name": "Climbing the Sandy Steppes #56026",
+        "Connections": {
+          "South": 56025,
+          "Up": 15250
+        }
+      },
+      {
+        "Id": 56027,
+        "Name": "The Shifting Sands #56027",
+        "Connections": {
+          "North": 56028,
+          "East": 56006
+        }
+      },
+      {
+        "Id": 56028,
+        "Name": "The Shifting Sands #56028",
+        "Connections": {
+          "North": 56040,
+          "South": 56027,
+          "West": 56029
+        }
+      },
+      {
+        "Id": 56029,
+        "Name": "A Sandy Footpath #56029",
+        "Connections": {
+          "East": 56028,
+          "West": 56030
+        }
+      },
+      {
+        "Id": 56030,
+        "Name": "A Sandy Footpath #56030",
+        "Connections": {
+          "East": 56029,
+          "West": 56031
+        }
+      },
+      {
+        "Id": 56031,
+        "Name": "A Sandy Footpath #56031",
+        "Connections": {
+          "East": 56030,
+          "South": 56032
+        }
+      },
+      {
+        "Id": 56032,
+        "Name": "A Sandy Footpath #56032",
+        "Connections": {
+          "North": 56031,
+          "South": 56033
+        }
+      },
+      {
+        "Id": 56033,
+        "Name": "A Sandstone Topped Roadway #56033",
+        "Connections": {
+          "North": 56032,
+          "West": 56034
+        }
+      },
+      {
+        "Id": 56034,
+        "Name": "A Sandstone Topped Roadway #56034",
+        "Connections": {
+          "East": 56033,
+          "West": 56035
+        }
+      },
+      {
+        "Id": 56035,
+        "Name": "A Sandstone Topped Roadway #56035",
+        "Connections": {
+          "North": 56036,
+          "East": 56034
+        }
+      },
+      {
+        "Id": 56036,
+        "Name": "A Sandstone Topped Roadway #56036",
+        "Connections": {
+          "South": 56035,
+          "West": 56037
+        }
+      },
+      {
+        "Id": 56037,
+        "Name": "A Roadway Topped With Sandstone #56037",
+        "Connections": {
+          "East": 56036,
+          "West": 56038
+        }
+      },
+      {
+        "Id": 56038,
+        "Name": "A Roadway Topped With Sandstone #56038",
+        "Connections": {
+          "East": 56037,
+          "South": 56039
+        }
+      },
+      {
+        "Id": 56039,
+        "Name": "Before The City Gates #56039",
+        "Connections": {
+          "North": 56038
+        }
+      },
+      {
+        "Id": 56040,
+        "Name": "The Shifting Sands #56040",
+        "Connections": {
+          "North": 56041,
+          "South": 56028
+        }
+      },
+      {
+        "Id": 56041,
+        "Name": "The Shifting Sands #56041",
+        "Connections": {
+          "South": 56040,
+          "West": 56042
+        }
+      },
+      {
+        "Id": 56042,
+        "Name": "The Shifting Sands #56042",
+        "Connections": {
+          "East": 56041,
+          "West": 56043
+        }
+      },
+      {
+        "Id": 56043,
+        "Name": "The Shifting Sands #56043",
+        "Connections": {
+          "North": 56064,
+          "East": 56042,
+          "West": 56044
+        }
+      },
+      {
+        "Id": 56044,
+        "Name": "The Shifting Sands #56044",
+        "Connections": {
+          "East": 56043,
+          "West": 56045
+        }
+      },
+      {
+        "Id": 56045,
+        "Name": "The Shifting Sands #56045",
+        "Connections": {
+          "North": 56051,
+          "East": 56044,
+          "West": 56046
+        }
+      },
+      {
+        "Id": 56046,
+        "Name": "A River\u0027s Exit From The Cave #56046",
+        "Connections": {
+          "East": 56045,
+          "West": 56047
+        }
+      },
+      {
+        "Id": 56047,
+        "Name": "Floating In The Sandy River #56047",
+        "Connections": {
+          "North": 56048,
+          "East": 56046
+        }
+      },
+      {
+        "Id": 56048,
+        "Name": "Floating In The Sandy River #56048",
+        "Connections": {
+          "South": 56047,
+          "West": 56049
+        }
+      },
+      {
+        "Id": 56049,
+        "Name": "Floating Along The Sandy River #56049",
+        "Connections": {
+          "East": 56048,
+          "West": 56050
+        }
+      },
+      {
+        "Id": 56050,
+        "Name": "Floating Along The Sandy River #56050",
+        "Connections": {
+          "North": 15009,
+          "East": 56049
+        }
+      },
+      {
+        "Id": 56051,
+        "Name": "A Rocky Desert Valley #56051",
+        "Connections": {
+          "North": 56052,
+          "South": 56045
+        }
+      },
+      {
+        "Id": 56052,
+        "Name": "A Rocky Desert Valley #56052",
+        "Connections": {
+          "North": 56053,
+          "South": 56051
+        }
+      },
+      {
+        "Id": 56053,
+        "Name": "A Rocky Desert Valley #56053",
+        "Connections": {
+          "South": 56052,
+          "West": 56054
+        }
+      },
+      {
+        "Id": 56054,
+        "Name": "A Dark Cave Opening #56054",
+        "Connections": {
+          "North": 56055,
+          "East": 56053
+        }
+      },
+      {
+        "Id": 56055,
+        "Name": "A Crystal Cavern #56055",
+        "Connections": {
+          "North": 56058,
+          "South": 56054,
+          "West": 56056
+        }
+      },
+      {
+        "Id": 56056,
+        "Name": "A Crystal Cavern #56056",
+        "Connections": {
+          "East": 56055,
+          "West": 56057
+        }
+      },
+      {
+        "Id": 56057,
+        "Name": "Sparkling Crystal Formations #56057",
+        "Connections": {
+          "East": 56056,
+          "West": 15018
+        }
+      },
+      {
+        "Id": 56058,
+        "Name": "A Crystal Cavern #56058",
+        "Connections": {
+          "East": 56059,
+          "South": 56055
+        }
+      },
+      {
+        "Id": 56059,
+        "Name": "A Sandy Cavern #56059",
+        "Connections": {
+          "East": 56060,
+          "West": 56058
+        }
+      },
+      {
+        "Id": 56060,
+        "Name": "A Sandy Cavern #56060",
+        "Connections": {
+          "East": 56061,
+          "West": 56059
+        }
+      },
+      {
+        "Id": 56061,
+        "Name": "A Sandy Cavern #56061",
+        "Connections": {
+          "East": 56062,
+          "West": 56060
+        }
+      },
+      {
+        "Id": 56062,
+        "Name": "The Dark and Sandy Shaft #56062",
+        "Connections": {
+          "West": 56061,
+          "Down": 56063
+        }
+      },
+      {
+        "Id": 56063,
+        "Name": "Descension Into The Sandy Shaft #56063",
+        "Connections": {
+          "Up": 56062
+        }
+      },
+      {
+        "Id": 56064,
+        "Name": "Opening of a Vast Desert Prairie #56064",
+        "Connections": {
+          "East": 56065,
+          "South": 56043
+        }
+      },
+      {
+        "Id": 56065,
+        "Name": "A Vast Desert Prairie #56065",
+        "Connections": {
+          "East": 56066,
+          "West": 56064
+        }
+      },
+      {
+        "Id": 56066,
+        "Name": "Travel Through the Desert Prairie #56066",
+        "Connections": {
+          "North": 56067,
+          "West": 56065
+        }
+      },
+      {
+        "Id": 56067,
+        "Name": "On Foot In the Desert Prairie #56067",
+        "Connections": {
+          "North": 56068,
+          "South": 56066
+        }
+      },
+      {
+        "Id": 56068,
+        "Name": "The Wide Desert Plains #56068",
+        "Connections": {
+          "East": 56069,
+          "South": 56067
+        }
+      },
+      {
+        "Id": 56069,
+        "Name": "The Wide Desert Plains #56069",
+        "Connections": {
+          "North": 56070,
+          "East": 56073,
+          "South": 56071,
+          "West": 56068
+        }
+      },
+      {
+        "Id": 56070,
+        "Name": "The Wide Desert Plains #56070",
+        "Connections": {
+          "East": 56071,
+          "South": 56069
+        }
+      },
+      {
+        "Id": 56071,
+        "Name": "The Wide Desert Plains #56071",
+        "Connections": {
+          "North": 56069,
+          "East": 56072
+        }
+      },
+      {
+        "Id": 56072,
+        "Name": "The Wide Desert Plains #56072",
+        "Connections": {
+          "East": 56077,
+          "South": 56073,
+          "West": 56070
+        }
+      },
+      {
+        "Id": 56073,
+        "Name": "The Wide Desert Plains #56073",
+        "Connections": {
+          "North": 56072,
+          "East": 56078,
+          "South": 56074,
+          "West": 56069
+        }
+      },
+      {
+        "Id": 56074,
+        "Name": "The Wide Desert Plains #56074",
+        "Connections": {
+          "North": 56073,
+          "East": 56079,
+          "South": 56075,
+          "West": 56071
+        }
+      },
+      {
+        "Id": 56075,
+        "Name": "The Wide Desert Plains #56075",
+        "Connections": {
+          "North": 56074,
+          "East": 56080
+        }
+      },
+      {
+        "Id": 56076,
+        "Name": "The Wide Desert Plains #56076",
+        "Connections": {
+          "East": 56081,
+          "South": 56077
+        }
+      },
+      {
+        "Id": 56077,
+        "Name": "The Wide Desert Plains #56077",
+        "Connections": {
+          "North": 56076,
+          "East": 56082,
+          "South": 56078,
+          "West": 56072
+        }
+      },
+      {
+        "Id": 56078,
+        "Name": "The Wide Desert Plains #56078",
+        "Connections": {
+          "North": 56077,
+          "East": 56083,
+          "South": 56079,
+          "West": 56073
+        }
+      },
+      {
+        "Id": 56079,
+        "Name": "The Wide Desert Plains #56079",
+        "Connections": {
+          "North": 56078,
+          "East": 56084,
+          "South": 56080,
+          "West": 56074
+        }
+      },
+      {
+        "Id": 56080,
+        "Name": "The Wide Desert Plains #56080",
+        "Connections": {
+          "North": 56079,
+          "West": 56075
+        }
+      },
+      {
+        "Id": 56081,
+        "Name": "The Wide Desert Plains #56081",
+        "Connections": {
+          "South": 56082,
+          "West": 56076
+        }
+      },
+      {
+        "Id": 56082,
+        "Name": "The Wide Desert Plains #56082",
+        "Connections": {
+          "North": 56081,
+          "South": 56083,
+          "West": 56077
+        }
+      },
+      {
+        "Id": 56083,
+        "Name": "The Wide Desert Plains #56083",
+        "Connections": {
+          "North": 56082,
+          "South": 56084,
+          "West": 56078
+        }
+      },
+      {
+        "Id": 56084,
+        "Name": "The Wide Desert Plains #56084",
+        "Connections": {
+          "North": 56083,
+          "East": 56085,
+          "West": 56079
+        }
+      },
+      {
+        "Id": 56085,
+        "Name": "Exiting the Wide Desert Plains #56085",
+        "Connections": {
+          "North": 56086,
+          "West": 56084
+        }
+      },
+      {
+        "Id": 56086,
+        "Name": "Hoofprints Through the Sands #56086",
+        "Connections": {
+          "North": 56087,
+          "South": 56085
+        }
+      },
+      {
+        "Id": 56087,
+        "Name": "Wandering Aimlessly Through the Desert #56087",
+        "Connections": {
+          "East": 56088,
+          "South": 56086
+        }
+      },
+      {
+        "Id": 56088,
+        "Name": "Wandering Aimlessly Through the Sands #56088",
+        "Connections": {
+          "North": 56089,
+          "West": 56087
+        }
+      },
+      {
+        "Id": 56089,
+        "Name": "Wandering Aimlessly Through the Desert #56089",
+        "Connections": {
+          "East": 56090,
+          "South": 56088
+        }
+      },
+      {
+        "Id": 56090,
+        "Name": "The Futility of Extensive Desert Travel #56090",
+        "Connections": {
+          "West": 56089
+        }
+      },
+      {
+        "Id": 56091,
+        "Name": "Drifting Sands #56091",
+        "Connections": {
+          "East": 56117,
+          "West": 56088
+        }
+      },
+      {
+        "Id": 56092,
+        "Name": "Midway up on a Tall Dune #56092",
+        "Connections": {
+          "North": 56086,
+          "East": 56093,
+          "South": 56096,
+          "West": 56090
+        }
+      },
+      {
+        "Id": 56093,
+        "Name": "Silent Sands #56093",
+        "Connections": {
+          "North": 56088,
+          "East": 56094,
+          "South": 56097,
+          "West": 56092
+        }
+      },
+      {
+        "Id": 56094,
+        "Name": "Blasted Dune #56094",
+        "Connections": {
+          "South": 56098,
+          "West": 56093
+        }
+      },
+      {
+        "Id": 56095,
+        "Name": "Dusty Sands #56095",
+        "Connections": {
+          "North": 56090,
+          "East": 56096,
+          "South": 56099
+        }
+      },
+      {
+        "Id": 56096,
+        "Name": "Ashen Sands #56096",
+        "Connections": {
+          "North": 56092,
+          "East": 56097,
+          "West": 56095
+        }
+      },
+      {
+        "Id": 56097,
+        "Name": "Blackened Dune #56097",
+        "Connections": {
+          "North": 56093,
+          "East": 56098,
+          "West": 56096
+        }
+      },
+      {
+        "Id": 56098,
+        "Name": "Desolate Sands #56098",
+        "Connections": {
+          "North": 56094,
+          "West": 56097
+        }
+      },
+      {
+        "Id": 56099,
+        "Name": "Shimmering Dune #56099",
+        "Connections": {
+          "North": 56095,
+          "East": 56100
+        }
+      },
+      {
+        "Id": 56100,
+        "Name": "nothing #56100",
+        "Connections": {}
+      },
+      {
+        "Id": 56101,
+        "Name": "nothing #56101",
+        "Connections": {}
+      },
+      {
+        "Id": 56102,
+        "Name": "nothing #56102",
+        "Connections": {}
+      },
+      {
+        "Id": 56103,
+        "Name": "nothing #56103",
+        "Connections": {}
+      },
+      {
+        "Id": 56104,
+        "Name": "nothing #56104",
+        "Connections": {}
+      },
+      {
+        "Id": 56105,
+        "Name": "nothing #56105",
+        "Connections": {}
+      },
+      {
+        "Id": 56106,
+        "Name": "nothing #56106",
+        "Connections": {}
+      },
+      {
+        "Id": 56107,
+        "Name": "nothing #56107",
+        "Connections": {}
+      },
+      {
+        "Id": 56108,
+        "Name": "nothing #56108",
+        "Connections": {}
+      },
+      {
+        "Id": 56109,
+        "Name": "nothing #56109",
+        "Connections": {}
+      },
+      {
+        "Id": 56110,
+        "Name": "nothing #56110",
+        "Connections": {}
+      },
+      {
+        "Id": 56111,
+        "Name": "nothing #56111",
+        "Connections": {}
+      },
+      {
+        "Id": 56112,
+        "Name": "nothing #56112",
+        "Connections": {}
+      },
+      {
+        "Id": 56113,
+        "Name": "nothing #56113",
+        "Connections": {}
+      },
+      {
+        "Id": 56114,
+        "Name": "nothing #56114",
+        "Connections": {}
+      },
+      {
+        "Id": 56115,
+        "Name": "nothing #56115",
+        "Connections": {}
+      },
+      {
+        "Id": 56116,
+        "Name": "nothing #56116",
+        "Connections": {}
+      },
+      {
+        "Id": 56117,
+        "Name": "nothing #56117",
+        "Connections": {}
+      },
+      {
+        "Id": 56118,
+        "Name": "nothing #56118",
+        "Connections": {}
+      },
+      {
+        "Id": 56119,
+        "Name": "nothing #56119",
+        "Connections": {}
+      },
+      {
+        "Id": 56120,
+        "Name": "nothing #56120",
+        "Connections": {}
+      },
+      {
+        "Id": 56121,
+        "Name": "nothing #56121",
+        "Connections": {}
+      },
+      {
+        "Id": 56122,
+        "Name": "nothing #56122",
+        "Connections": {}
+      },
+      {
+        "Id": 56123,
+        "Name": "nothing #56123",
+        "Connections": {}
+      },
+      {
+        "Id": 56124,
+        "Name": "The Gates of Omah #56124",
+        "Connections": {}
+      },
+      {
+        "Id": 56125,
+        "Name": "Sultan\u0027s Walk #56125",
+        "Connections": {
+          "North": 56124,
+          "East": 56132,
+          "South": 56134,
+          "West": 56126
+        }
+      },
+      {
+        "Id": 56126,
+        "Name": "Beggar\u0027s Row #56126",
+        "Connections": {
+          "North": 56210,
+          "East": 56125,
+          "South": 56131,
+          "West": 56127
+        }
+      },
+      {
+        "Id": 56127,
+        "Name": "Beggar\u0027s Row #56127",
+        "Connections": {
+          "North": 56128,
+          "East": 56126,
+          "South": 56211,
+          "West": 56129
+        }
+      },
+      {
+        "Id": 56128,
+        "Name": "Leper\u0027s Quarter #56128",
+        "Connections": {
+          "South": 56127
+        }
+      },
+      {
+        "Id": 56129,
+        "Name": "Dark Alley #56129",
+        "Connections": {
+          "East": 56127,
+          "South": 56130
+        }
+      },
+      {
+        "Id": 56130,
+        "Name": "Deadend Alley #56130",
+        "Connections": {
+          "North": 56129
+        }
+      },
+      {
+        "Id": 56131,
+        "Name": "Omah Inn #56131",
+        "Connections": {
+          "North": 56126
+        }
+      },
+      {
+        "Id": 56132,
+        "Name": "A Well Trampled Path #56132",
+        "Connections": {
+          "East": 56133,
+          "West": 56125
+        }
+      },
+      {
+        "Id": 56133,
+        "Name": "Camel Pen #56133",
+        "Connections": {
+          "West": 56132
+        }
+      },
+      {
+        "Id": 56134,
+        "Name": "Sultan\u0027s Walk #56134",
+        "Connections": {
+          "North": 56125,
+          "South": 56135
+        }
+      },
+      {
+        "Id": 56135,
+        "Name": "Sultan\u0027s Walk #56135",
+        "Connections": {
+          "North": 56134,
+          "East": 56141,
+          "South": 56156,
+          "West": 56136
+        }
+      },
+      {
+        "Id": 56136,
+        "Name": "Scimitar Street #56136",
+        "Connections": {
+          "North": 56209,
+          "East": 56135,
+          "South": 56140,
+          "West": 56137
+        }
+      },
+      {
+        "Id": 56137,
+        "Name": "Scimitar Street #56137",
+        "Connections": {
+          "North": 56158,
+          "East": 56136,
+          "South": 56139,
+          "West": 56138
+        }
+      },
+      {
+        "Id": 56138,
+        "Name": "SunShrine #56138",
+        "Connections": {
+          "East": 56137
+        }
+      },
+      {
+        "Id": 56139,
+        "Name": "nothing #56139",
+        "Connections": {}
+      },
+      {
+        "Id": 56140,
+        "Name": "House of Joy #56140",
+        "Connections": {
+          "North": 56136
+        }
+      },
+      {
+        "Id": 56141,
+        "Name": "Merchant\u0027s Way #56141",
+        "Connections": {
+          "North": 56142,
+          "East": 56143,
+          "West": 56135
+        }
+      },
+      {
+        "Id": 56142,
+        "Name": "Java Hut #56142",
+        "Connections": {
+          "South": 56141
+        }
+      },
+      {
+        "Id": 56143,
+        "Name": "Market of Omah #56143",
+        "Connections": {
+          "North": 56145,
+          "East": 56146,
+          "South": 56144,
+          "West": 56141
+        }
+      },
+      {
+        "Id": 56144,
+        "Name": "Silk Merchant\u0027s Tent #56144",
+        "Connections": {
+          "North": 56143
+        }
+      },
+      {
+        "Id": 56145,
+        "Name": "Carpet Dealer\u0027s Tent #56145",
+        "Connections": {
+          "South": 56143
+        }
+      },
+      {
+        "Id": 56146,
+        "Name": "In the Market of Omah #56146",
+        "Connections": {
+          "North": 56149,
+          "East": 56155,
+          "South": 56147,
+          "West": 56143
+        }
+      },
+      {
+        "Id": 56147,
+        "Name": "Omah Scribe #56147",
+        "Connections": {
+          "North": 56146,
+          "South": 56148
+        }
+      },
+      {
+        "Id": 56148,
+        "Name": "Omah Potions #56148",
+        "Connections": {
+          "North": 56147
+        }
+      },
+      {
+        "Id": 56149,
+        "Name": "In the Market of Omah #56149",
+        "Connections": {
+          "North": 56150,
+          "East": 56154,
+          "South": 56146,
+          "West": 56212
+        }
+      },
+      {
+        "Id": 56150,
+        "Name": "In the Market of Omah #56150",
+        "Connections": {
+          "North": 56152,
+          "East": 56153,
+          "South": 56149,
+          "West": 56151
+        }
+      },
+      {
+        "Id": 56151,
+        "Name": "Snake Charmer\u0027s Tent #56151",
+        "Connections": {
+          "East": 56150
+        }
+      },
+      {
+        "Id": 56152,
+        "Name": "Tanner\u0027s Booth #56152",
+        "Connections": {
+          "South": 56150
+        }
+      },
+      {
+        "Id": 56153,
+        "Name": "Dye Merchant\u0027s Tent #56153",
+        "Connections": {
+          "West": 56150
+        }
+      },
+      {
+        "Id": 56154,
+        "Name": "Basket Maker\u0027s Tent #56154",
+        "Connections": {
+          "West": 56149
+        }
+      },
+      {
+        "Id": 56155,
+        "Name": "Supply Tent #56155",
+        "Connections": {
+          "West": 56146
+        }
+      },
+      {
+        "Id": 56156,
+        "Name": "Sultan\u0027s Walk #56156",
+        "Connections": {
+          "North": 56135,
+          "South": 56157
+        }
+      },
+      {
+        "Id": 56157,
+        "Name": "Before the Palace Gates #56157",
+        "Connections": {
+          "North": 56156,
+          "South": 56159
+        }
+      },
+      {
+        "Id": 56158,
+        "Name": "The Gem Shop #56158",
+        "Connections": {
+          "South": 56137
+        }
+      },
+      {
+        "Id": 56159,
+        "Name": "Palace Gates #56159",
+        "Connections": {
+          "North": 56157,
+          "South": 56160
+        }
+      },
+      {
+        "Id": 56160,
+        "Name": "Golden Walkway #56160",
+        "Connections": {
+          "North": 56159,
+          "East": 56162,
+          "South": 56163,
+          "West": 56161
+        }
+      },
+      {
+        "Id": 56161,
+        "Name": "Palace Gardens #56161",
+        "Connections": {
+          "East": 56160
+        }
+      },
+      {
+        "Id": 56162,
+        "Name": "Palace Gardens #56162",
+        "Connections": {
+          "West": 56160
+        }
+      },
+      {
+        "Id": 56163,
+        "Name": "Palace Entry #56163",
+        "Connections": {
+          "North": 56160,
+          "South": 56164
+        }
+      },
+      {
+        "Id": 56164,
+        "Name": "Foyer #56164",
+        "Connections": {
+          "North": 56163,
+          "East": 56165,
+          "South": 56175,
+          "West": 56170
+        }
+      },
+      {
+        "Id": 56165,
+        "Name": "Eastern Corridor #56165",
+        "Connections": {
+          "East": 56166,
+          "West": 56164
+        }
+      },
+      {
+        "Id": 56166,
+        "Name": "Eastern Corridor #56166",
+        "Connections": {
+          "East": 56168,
+          "South": 56167,
+          "West": 56165
+        }
+      },
+      {
+        "Id": 56167,
+        "Name": "Guest Chamber #56167",
+        "Connections": {
+          "North": 56166
+        }
+      },
+      {
+        "Id": 56168,
+        "Name": "Below the Eastern Guard Tower #56168",
+        "Connections": {
+          "West": 56166,
+          "Up": 56169
+        }
+      },
+      {
+        "Id": 56169,
+        "Name": "Eastern Guard Tower #56169",
+        "Connections": {
+          "Down": 56168
+        }
+      },
+      {
+        "Id": 56170,
+        "Name": "Western Corridor #56170",
+        "Connections": {
+          "East": 56164,
+          "West": 56171
+        }
+      },
+      {
+        "Id": 56171,
+        "Name": "Western Corridor #56171",
+        "Connections": {
+          "East": 56170,
+          "West": 56172
+        }
+      },
+      {
+        "Id": 56172,
+        "Name": "Below the Western Guard Tower #56172",
+        "Connections": {
+          "East": 56171,
+          "South": 56174,
+          "Up": 56173
+        }
+      },
+      {
+        "Id": 56173,
+        "Name": "Western Guard Tower #56173",
+        "Connections": {
+          "Down": 56172
+        }
+      },
+      {
+        "Id": 56174,
+        "Name": "Dungeon Entrance #56174",
+        "Connections": {
+          "North": 56172
+        }
+      },
+      {
+        "Id": 56175,
+        "Name": "Reception Area #56175",
+        "Connections": {
+          "North": 56164,
+          "South": 56176
+        }
+      },
+      {
+        "Id": 56176,
+        "Name": "Audience Chamber #56176",
+        "Connections": {
+          "North": 56175,
+          "East": 56178,
+          "South": 56183,
+          "West": 56177
+        }
+      },
+      {
+        "Id": 56177,
+        "Name": "Palace Museum #56177",
+        "Connections": {
+          "East": 56176
+        }
+      },
+      {
+        "Id": 56178,
+        "Name": "Minstrels\u0027 Gallery #56178",
+        "Connections": {
+          "North": 56179,
+          "East": 56181,
+          "South": 56180,
+          "West": 56176
+        }
+      },
+      {
+        "Id": 56179,
+        "Name": "Around the Hooka #56179",
+        "Connections": {
+          "South": 56178
+        }
+      },
+      {
+        "Id": 56180,
+        "Name": "Feasting Hall #56180",
+        "Connections": {
+          "North": 56178
+        }
+      },
+      {
+        "Id": 56181,
+        "Name": "The Harem #56181",
+        "Connections": {
+          "East": 56182,
+          "West": 56178
+        }
+      },
+      {
+        "Id": 56182,
+        "Name": "Women\u0027s Chamber #56182",
+        "Connections": {
+          "West": 56181
+        }
+      },
+      {
+        "Id": 56183,
+        "Name": "Before the Throne #56183",
+        "Connections": {
+          "North": 56176,
+          "South": 56184
+        }
+      },
+      {
+        "Id": 56184,
+        "Name": "The Throne of Omah #56184",
+        "Connections": {
+          "North": 56183,
+          "East": 56195,
+          "South": 56194,
+          "West": 56185
+        }
+      },
+      {
+        "Id": 56185,
+        "Name": "Guild Row #56185",
+        "Connections": {
+          "North": 56186,
+          "East": 56184,
+          "South": 56190,
+          "West": 56187
+        }
+      },
+      {
+        "Id": 56186,
+        "Name": "Entrance to the Mage Guild #56186",
+        "Connections": {
+          "North": 56215,
+          "South": 56185
+        }
+      },
+      {
+        "Id": 56187,
+        "Name": "Guild Row #56187",
+        "Connections": {
+          "North": 56188,
+          "East": 56185,
+          "South": 56189,
+          "West": 56191
+        }
+      },
+      {
+        "Id": 56188,
+        "Name": "Entrance to the Thief Guild #56188",
+        "Connections": {
+          "North": 56218,
+          "South": 56187
+        }
+      },
+      {
+        "Id": 56189,
+        "Name": "Entrance to the Warrior Guild #56189",
+        "Connections": {
+          "North": 56187,
+          "South": 56219
+        }
+      },
+      {
+        "Id": 56190,
+        "Name": "Entrance to the Cleric Guild #56190",
+        "Connections": {
+          "North": 56185,
+          "South": 56217
+        }
+      },
+      {
+        "Id": 56191,
+        "Name": "Guild Row #56191",
+        "Connections": {
+          "North": 56192,
+          "East": 56187,
+          "South": 56193,
+          "West": 56213
+        }
+      },
+      {
+        "Id": 56192,
+        "Name": "Entrance to the Necromancer Guild #56192",
+        "Connections": {
+          "North": 56220,
+          "South": 56191
+        }
+      },
+      {
+        "Id": 56193,
+        "Name": "Entrance to the Priest Guild #56193",
+        "Connections": {
+          "North": 56191,
+          "South": 56221
+        }
+      },
+      {
+        "Id": 56194,
+        "Name": "Sultan\u0027s Chamber #56194",
+        "Connections": {
+          "North": 56184
+        }
+      },
+      {
+        "Id": 56195,
+        "Name": "Small Corridor #56195",
+        "Connections": {
+          "East": 56196,
+          "West": 56184
+        }
+      },
+      {
+        "Id": 56196,
+        "Name": "Dark Corridor #56196",
+        "Connections": {
+          "South": 56197,
+          "West": 56195
+        }
+      },
+      {
+        "Id": 56197,
+        "Name": "Below the Wizard\u0027s Tower #56197",
+        "Connections": {
+          "North": 56196,
+          "Up": 56198
+        }
+      },
+      {
+        "Id": 56198,
+        "Name": "Spiral Stairs #56198",
+        "Connections": {
+          "Up": 56199,
+          "Down": 56197
+        }
+      },
+      {
+        "Id": 56199,
+        "Name": "The Wizard\u0027s Tower #56199",
+        "Connections": {
+          "South": 56200,
+          "Down": 56198
+        }
+      },
+      {
+        "Id": 56200,
+        "Name": "Lazeran\u0027s Lab #56200",
+        "Connections": {
+          "North": 56199,
+          "West": 56201
+        }
+      },
+      {
+        "Id": 56201,
+        "Name": "Wizard\u0027s Chamber #56201",
+        "Connections": {
+          "East": 56200
+        }
+      },
+      {
+        "Id": 56202,
+        "Name": "Shear Mountain Wall #56202",
+        "Connections": {
+          "Down": 56203
+        }
+      },
+      {
+        "Id": 56203,
+        "Name": "Steep Mountain Face #56203",
+        "Connections": {
+          "Down": 56204
+        }
+      },
+      {
+        "Id": 56204,
+        "Name": "Above a Rock Ledge #56204",
+        "Connections": {
+          "Down": 56007
+        }
+      },
+      {
+        "Id": 56205,
+        "Name": "Falling Rock #56205",
+        "Connections": {
+          "Down": 56202
+        }
+      },
+      {
+        "Id": 56206,
+        "Name": "Below the Crumbling Shelf #56206",
+        "Connections": {
+          "Down": 56205
+        }
+      },
+      {
+        "Id": 56207,
+        "Name": "Merchant\u0027s Guild #56207",
+        "Connections": {
+          "West": 56139
+        }
+      },
+      {
+        "Id": 56208,
+        "Name": "Merchant\u0027s Guild #56208",
+        "Connections": {
+          "East": 56139
+        }
+      },
+      {
+        "Id": 56209,
+        "Name": "Citizenship Office #56209",
+        "Connections": {
+          "South": 56136
+        }
+      },
+      {
+        "Id": 56210,
+        "Name": "Bank of Omah #56210",
+        "Connections": {
+          "South": 56126
+        }
+      },
+      {
+        "Id": 56211,
+        "Name": "Soup Kitchen #56211",
+        "Connections": {
+          "North": 56127
+        }
+      },
+      {
+        "Id": 56212,
+        "Name": "Omah Meditation #56212",
+        "Connections": {
+          "East": 56149
+        }
+      },
+      {
+        "Id": 56213,
+        "Name": "Guide Row #56213",
+        "Connections": {
+          "North": 56216,
+          "East": 56191,
+          "South": 56214,
+          "West": 56225
+        }
+      },
+      {
+        "Id": 56214,
+        "Name": "Entrance to the Knights Guild #56214",
+        "Connections": {
+          "North": 56213,
+          "South": 56224
+        }
+      },
+      {
+        "Id": 56215,
+        "Name": "Guild of the Mage #56215",
+        "Connections": {
+          "South": 56186
+        }
+      },
+      {
+        "Id": 56216,
+        "Name": "Entrance to the Assassin Guild #56216",
+        "Connections": {
+          "North": 56222,
+          "South": 56213
+        }
+      },
+      {
+        "Id": 56217,
+        "Name": "Guild of the Cleric #56217",
+        "Connections": {
+          "North": 56190
+        }
+      },
+      {
+        "Id": 56218,
+        "Name": "Guild of the Thief #56218",
+        "Connections": {
+          "South": 56188
+        }
+      },
+      {
+        "Id": 56219,
+        "Name": "Guild of the Warrior #56219",
+        "Connections": {
+          "North": 56189
+        }
+      },
+      {
+        "Id": 56220,
+        "Name": "Guild of the Necromancer #56220",
+        "Connections": {
+          "South": 56192
+        }
+      },
+      {
+        "Id": 56221,
+        "Name": "Guild of the Priest #56221",
+        "Connections": {
+          "North": 56193
+        }
+      },
+      {
+        "Id": 56222,
+        "Name": "Guild of the Assassin #56222",
+        "Connections": {
+          "South": 56216
+        }
+      },
+      {
+        "Id": 56224,
+        "Name": "Guild of the Knight #56224",
+        "Connections": {
+          "North": 56214
+        }
+      },
+      {
+        "Id": 56225,
+        "Name": "Entrance to the avatar Guildhouse #56225",
+        "Connections": {
+          "East": 56213
+        }
+      },
+      {
+        "Id": 56230,
+        "Name": "Nearing the Tower #56230",
+        "Connections": {
+          "East": 56056,
+          "South": 56231
+        }
+      },
+      {
+        "Id": 56231,
+        "Name": "Along the Watch Tower #56231",
+        "Connections": {
+          "North": 56230,
+          "East": 56067,
+          "South": 56232,
+          "West": 56234
+        }
+      },
+      {
+        "Id": 56232,
+        "Name": "Nearing the Tower #56232",
+        "Connections": {
+          "North": 56231,
+          "East": 56068,
+          "South": 56233
+        }
+      },
+      {
+        "Id": 56233,
+        "Name": "Sea of Sand #56233",
+        "Connections": {
+          "North": 56232,
+          "East": 56080,
+          "South": 56238,
+          "West": 56243
+        }
+      },
+      {
+        "Id": 56234,
+        "Name": "First Floor Tower #56234",
+        "Connections": {
+          "East": 56231,
+          "Up": 56235
+        }
+      },
+      {
+        "Id": 56235,
+        "Name": "Second Floow Tower #56235",
+        "Connections": {
+          "Up": 56236,
+          "Down": 56234
+        }
+      },
+      {
+        "Id": 56236,
+        "Name": "Atop the Watch Tower #56236",
+        "Connections": {
+          "Down": 56235
+        }
+      },
+      {
+        "Id": 56237,
+        "Name": "Bedrock #56237",
+        "Connections": {
+          "North": 56080,
+          "East": 56103,
+          "South": 56239,
+          "West": 56238
+        }
+      },
+      {
+        "Id": 56238,
+        "Name": "Sandy Plateau #56238",
+        "Connections": {
+          "North": 56233,
+          "East": 56237,
+          "South": 56240,
+          "West": 56242
+        }
+      },
+      {
+        "Id": 56239,
+        "Name": "SandStone #56239",
+        "Connections": {
+          "North": 56237,
+          "East": 56104,
+          "West": 56240
+        }
+      },
+      {
+        "Id": 56240,
+        "Name": "Desolate Dune #56240",
+        "Connections": {
+          "North": 56238,
+          "East": 56239,
+          "West": 56241
+        }
+      },
+      {
+        "Id": 56241,
+        "Name": "Stone Sea #56241",
+        "Connections": {
+          "North": 56242,
+          "East": 56240,
+          "West": 56244
+        }
+      },
+      {
+        "Id": 56242,
+        "Name": "SandStone Pathway #56242",
+        "Connections": {
+          "North": 56243,
+          "East": 56238,
+          "South": 56241,
+          "West": 56245
+        }
+      },
+      {
+        "Id": 56243,
+        "Name": "Sandy Flats #56243",
+        "Connections": {
+          "East": 56233,
+          "South": 56242,
+          "West": 56246
+        }
+      },
+      {
+        "Id": 56244,
+        "Name": "Nearing the Temple #56244",
+        "Connections": {
+          "North": 56245,
+          "East": 56241
+        }
+      },
+      {
+        "Id": 56245,
+        "Name": "SandStone Pathway #56245",
+        "Connections": {
+          "North": 56246,
+          "East": 56242,
+          "South": 56244,
+          "West": 56247
+        }
+      },
+      {
+        "Id": 56246,
+        "Name": "Nearing the Temple #56246",
+        "Connections": {
+          "East": 56243,
+          "South": 56245
+        }
+      },
+      {
+        "Id": 56247,
+        "Name": "Before the SandStone Temple #56247",
+        "Connections": {
+          "East": 56245,
+          "West": 56248
+        }
+      },
+      {
+        "Id": 56248,
+        "Name": "Columns and Arches #56248",
+        "Connections": {
+          "North": 56250,
+          "East": 56247,
+          "South": 56251,
+          "West": 56249
+        }
+      },
+      {
+        "Id": 56249,
+        "Name": "The Temple of the Sands #56249",
+        "Connections": {
+          "North": 56255,
+          "East": 56248,
+          "South": 56252,
+          "West": 56258
+        }
+      },
+      {
+        "Id": 56250,
+        "Name": "At A Statue #56250",
+        "Connections": {
+          "South": 56248
+        }
+      },
+      {
+        "Id": 56251,
+        "Name": "At a Statue #56251",
+        "Connections": {
+          "North": 56248
+        }
+      },
+      {
+        "Id": 56252,
+        "Name": "Bright White Hallway #56252",
+        "Connections": {
+          "North": 56249,
+          "West": 56253
+        }
+      },
+      {
+        "Id": 56253,
+        "Name": "Entombed #56253",
+        "Connections": {
+          "East": 56252
+        }
+      },
+      {
+        "Id": 56255,
+        "Name": "Bright White Hallway #56255",
+        "Connections": {
+          "South": 56249,
+          "West": 56256
+        }
+      },
+      {
+        "Id": 56256,
+        "Name": "Blackstone Chamber #56256",
+        "Connections": {
+          "East": 56255
+        }
+      },
+      {
+        "Id": 56258,
+        "Name": "SandStone Hallway #56258",
+        "Connections": {
+          "East": 56249,
+          "West": 56259
+        }
+      },
+      {
+        "Id": 56259,
+        "Name": "The Temple of the Sands #56259",
+        "Connections": {
+          "North": 56260,
+          "East": 56258,
+          "South": 56262,
+          "West": 56266
+        }
+      },
+      {
+        "Id": 56260,
+        "Name": "A Darkened Corridor #56260",
+        "Connections": {
+          "East": 56261,
+          "South": 56259
+        }
+      },
+      {
+        "Id": 56261,
+        "Name": "A Musty Tomb #56261",
+        "Connections": {
+          "West": 56260,
+          "Down": 56265
+        }
+      },
+      {
+        "Id": 56262,
+        "Name": "A Darkened Corridor #56262",
+        "Connections": {
+          "North": 56259,
+          "East": 56263
+        }
+      },
+      {
+        "Id": 56263,
+        "Name": "Chamber of Damnation #56263",
+        "Connections": {
+          "West": 56262,
+          "Down": 56264
+        }
+      },
+      {
+        "Id": 56264,
+        "Name": "Pit of Sacrafice #56264",
+        "Connections": {
+          "Up": 56263
+        }
+      },
+      {
+        "Id": 56265,
+        "Name": "A Burial Chamber #56265",
+        "Connections": {
+          "Up": 56261
+        }
+      },
+      {
+        "Id": 56266,
+        "Name": "A Bloody Altar #56266",
+        "Connections": {
+          "East": 56259,
+          "Down": 56267
+        }
+      },
+      {
+        "Id": 56267,
+        "Name": "A Dark Stairwell #56267",
+        "Connections": {
+          "Up": 56266,
+          "Down": 56268
+        }
+      },
+      {
+        "Id": 56268,
+        "Name": "Chamber of Eternity #56268",
+        "Connections": {
+          "North": 56272,
+          "East": 56270,
+          "South": 56274,
+          "West": 56276,
+          "Up": 56267,
+          "Down": 56269
+        }
+      },
+      {
+        "Id": 56269,
+        "Name": "Chamber of Lost Souls #56269",
+        "Connections": {
+          "Up": 56268
+        }
+      },
+      {
+        "Id": 56270,
+        "Name": "Before the Tomb #56270",
+        "Connections": {
+          "East": 56271,
+          "West": 56268
+        }
+      },
+      {
+        "Id": 56271,
+        "Name": "Tomb of the Dead #56271",
+        "Connections": {
+          "West": 56270
+        }
+      },
+      {
+        "Id": 56272,
+        "Name": "Before the Tomb #56272",
+        "Connections": {
+          "North": 56273,
+          "South": 56268
+        }
+      },
+      {
+        "Id": 56273,
+        "Name": "A Titanic Tomb #56273",
+        "Connections": {
+          "South": 56272
+        }
+      },
+      {
+        "Id": 56274,
+        "Name": "Before the Tomb #56274",
+        "Connections": {
+          "North": 56268,
+          "South": 56275
+        }
+      },
+      {
+        "Id": 56275,
+        "Name": "Tomb of the Slayer #56275",
+        "Connections": {
+          "North": 56274
+        }
+      },
+      {
+        "Id": 56276,
+        "Name": "Before the Tomb #56276",
+        "Connections": {
+          "East": 56268,
+          "West": 56277
+        }
+      },
+      {
+        "Id": 56277,
+        "Name": "Tomb of the Forsaken #56277",
+        "Connections": {
+          "East": 56276
+        }
+      },
+      {
+        "Id": 15250,
+        "FrameColor": "blue",
+        "Name": "To anubistemple #15250",
+        "Color": "blue",
+        "Connections": {
+          "North": 15251,
+          "West": 15455
+        }
+      },
+      {
+        "Id": 15009,
+        "FrameColor": "blue",
+        "Name": "To pyramid #15009",
+        "Color": "blue",
+        "Connections": {
+          "North": 15022,
+          "East": 15008
+        }
+      },
+      {
+        "Id": 15018,
+        "FrameColor": "blue",
+        "Name": "To pyramid #15018",
+        "Color": "blue",
+        "Connections": {
+          "East": 15408,
+          "West": 15017
+        }
+      }
+    ]
+  }
+}

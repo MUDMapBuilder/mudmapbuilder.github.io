@@ -1,0 +1,1693 @@
+{
+  "Area": {
+    "Name": "canaan",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 15351,
+        "Name": "The Pirate\u0027s Tomb #15351",
+        "Connections": {}
+      },
+      {
+        "Id": 15352,
+        "Name": "A Dark and Sandy Cave #15352",
+        "Connections": {
+          "North": 15353,
+          "South": 43000
+        }
+      },
+      {
+        "Id": 15353,
+        "Name": "A Dark and Sandy Cave #15353",
+        "Connections": {
+          "North": 15354,
+          "East": 15355,
+          "South": 15352
+        }
+      },
+      {
+        "Id": 15354,
+        "Name": "A Sandy Dead End #15354",
+        "Connections": {
+          "South": 15353
+        }
+      },
+      {
+        "Id": 15355,
+        "Name": "A Dark and Sandy Cave #15355",
+        "Connections": {
+          "East": 15356,
+          "West": 15353
+        }
+      },
+      {
+        "Id": 15356,
+        "Name": "The Cave Opening #15356",
+        "Connections": {
+          "North": 15357,
+          "West": 15355
+        }
+      },
+      {
+        "Id": 15357,
+        "Name": "An Ocean of Sand #15357",
+        "Connections": {
+          "East": 15358,
+          "South": 15356,
+          "West": 15378
+        }
+      },
+      {
+        "Id": 15358,
+        "Name": "Hoofprints Through the Desert #15358",
+        "Connections": {
+          "North": 15359,
+          "West": 15357
+        },
+        "Contents": [
+          {
+            "Text": "a rugged dervish warrior #56004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15359,
+        "Name": "A Junction of Hoofprints #15359",
+        "Connections": {
+          "North": 15371,
+          "East": 15360,
+          "South": 15358
+        },
+        "Contents": [
+          {
+            "Text": "a prowling jaguar #56108",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15360,
+        "Name": "The Desert Valley #15360",
+        "Connections": {
+          "East": 15361,
+          "West": 15359
+        },
+        "Contents": [
+          {
+            "Text": "a hairy tarantula #56042",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15361,
+        "Name": "The Desert Canyon #15361",
+        "Connections": {
+          "North": 15370,
+          "South": 15362,
+          "West": 15360
+        }
+      },
+      {
+        "Id": 15362,
+        "Name": "Around the Desert Canyon #15362",
+        "Connections": {
+          "North": 15361,
+          "East": 15363
+        },
+        "Contents": [
+          {
+            "Text": "a camel #56110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15363,
+        "Name": "The Desert Canyon #15363",
+        "Connections": {
+          "East": 15364,
+          "West": 15362
+        }
+      },
+      {
+        "Id": 15364,
+        "Name": "Around the Desert Canyon #15364",
+        "Connections": {
+          "North": 15365,
+          "West": 15363,
+          "Up": 15460
+        },
+        "Contents": [
+          {
+            "Text": "a huge rock eating worm #56009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15365,
+        "Name": "The Desert Canyon #15365",
+        "Connections": {
+          "North": 15366,
+          "South": 15364
+        }
+      },
+      {
+        "Id": 15366,
+        "Name": "Around the Desert Canyon #15366",
+        "Connections": {
+          "North": 15367,
+          "South": 15365,
+          "West": 15368
+        },
+        "Contents": [
+          {
+            "Text": "a camel #56110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15367,
+        "Name": "A Shady Recess In the Canyon #15367",
+        "Connections": {
+          "South": 15366
+        },
+        "Contents": [
+          {
+            "Text": "a desert sidewinder #56011",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15368,
+        "Name": "The Desert Canyon #15368",
+        "Connections": {
+          "East": 15366,
+          "South": 15369,
+          "West": 15370
+        }
+      },
+      {
+        "Id": 15369,
+        "Name": "An Ancient Well #15369",
+        "Connections": {
+          "North": 15368
+        },
+        "Contents": [
+          {
+            "Text": "The Snake Charmer #56151",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15370,
+        "Name": "Around the Desert Canyon #15370",
+        "Connections": {
+          "East": 15368,
+          "South": 15361
+        },
+        "Contents": [
+          {
+            "Text": "a huge rock eating worm #56009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15371,
+        "Name": "A Windy Desert Plain #15371",
+        "Connections": {
+          "North": 15372,
+          "South": 15359
+        }
+      },
+      {
+        "Id": 15372,
+        "Name": "Around a Tall Dune of Sand #15372",
+        "Connections": {
+          "East": 15373,
+          "South": 15371
+        },
+        "Contents": [
+          {
+            "Text": "An Assurian Missionary #56007",
+            "Color": "green"
+          },
+          {
+            "Text": "The Dune Stalker #56002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15373,
+        "Name": "A Sandy Pass #15373",
+        "Connections": {
+          "East": 15374,
+          "West": 15372
+        },
+        "Contents": [
+          {
+            "Text": "a whirling dust devil #56013",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15374,
+        "Name": "A Sandy Pass #15374",
+        "Connections": {
+          "North": 15375,
+          "West": 15373
+        }
+      },
+      {
+        "Id": 15375,
+        "Name": "A Windy Desert Plain #15375",
+        "Connections": {
+          "East": 15376,
+          "South": 15374
+        },
+        "Contents": [
+          {
+            "Text": "a whirling dust devil #56013",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15376,
+        "Name": "Before the Desert Steppelands #15376",
+        "Connections": {
+          "North": 15377,
+          "West": 15375
+        }
+      },
+      {
+        "Id": 15377,
+        "Name": "Before the Sandy Steppes #15377",
+        "Connections": {
+          "South": 15376
+        },
+        "Contents": [
+          {
+            "Text": "the bullette #56016",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15378,
+        "Name": "The Shifting Sands #15378",
+        "Connections": {
+          "North": 15379,
+          "East": 15357
+        }
+      },
+      {
+        "Id": 15379,
+        "Name": "The Shifting Sands #15379",
+        "Connections": {
+          "North": 15391,
+          "South": 15378,
+          "West": 15380
+        },
+        "Contents": [
+          {
+            "Text": "a swarm of wasps #56008",
+            "Color": "red"
+          },
+          {
+            "Text": "a whirling dust devil #56013",
+            "Color": "red"
+          },
+          {
+            "Text": "a whirling dust devil #56013",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15380,
+        "Name": "A Sandy Footpath #15380",
+        "Connections": {
+          "East": 15379,
+          "West": 15381
+        }
+      },
+      {
+        "Id": 15381,
+        "Name": "A Sandy Footpath #15381",
+        "Connections": {
+          "East": 15380,
+          "West": 15382
+        }
+      },
+      {
+        "Id": 15382,
+        "Name": "A Sandy Footpath #15382",
+        "Connections": {
+          "East": 15381,
+          "South": 15383
+        }
+      },
+      {
+        "Id": 15383,
+        "Name": "A Sandy Footpath #15383",
+        "Connections": {
+          "North": 15382,
+          "South": 15384
+        },
+        "Contents": [
+          {
+            "Text": "a rugged dervish warrior #56004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15384,
+        "Name": "A Sandstone Roadway #15384",
+        "Connections": {
+          "North": 15383,
+          "West": 15385
+        },
+        "Contents": [
+          {
+            "Text": "a hairy tarantula #56042",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15385,
+        "Name": "A Sandstone Roadway #15385",
+        "Connections": {
+          "East": 15384,
+          "West": 15386
+        }
+      },
+      {
+        "Id": 15386,
+        "Name": "A Sandstone Roadway #15386",
+        "Connections": {
+          "North": 15387,
+          "East": 15385
+        }
+      },
+      {
+        "Id": 15387,
+        "Name": "A Sandstone Roadway #15387",
+        "Connections": {
+          "South": 15386,
+          "West": 15388
+        },
+        "Contents": [
+          {
+            "Text": "An Assurian Missionary #56007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15388,
+        "Name": "A Sandstone Roadway #15388",
+        "Connections": {
+          "East": 15387,
+          "West": 15389
+        },
+        "Contents": [
+          {
+            "Text": "a camel #56110",
+            "Color": "green"
+          },
+          {
+            "Text": "a camel #56110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15389,
+        "Name": "A Sandstone Roadway #15389",
+        "Connections": {
+          "East": 15388,
+          "South": 15390
+        }
+      },
+      {
+        "Id": 15390,
+        "Name": "Before the City Gates #15390",
+        "Connections": {
+          "North": 15389,
+          "West": 15657
+        },
+        "Contents": [
+          {
+            "Text": "An Elite Assurian Guardsman #56006",
+            "Color": "green"
+          },
+          {
+            "Text": "An Elite Assurian Guardsman #56006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15391,
+        "Name": "The Shifting Sands #15391",
+        "Connections": {
+          "North": 15392,
+          "South": 15379
+        },
+        "Contents": [
+          {
+            "Text": "a camel #56110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15392,
+        "Name": "The Sandy Wasteland #15392",
+        "Connections": {
+          "South": 15391,
+          "West": 15393
+        },
+        "Contents": [
+          {
+            "Text": "a rugged dervish warrior #56004",
+            "Color": "green"
+          },
+          {
+            "Text": "The Dune Stalker #56002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15393,
+        "Name": "The Sandy Wasteland #15393",
+        "Connections": {
+          "East": 15392,
+          "West": 15394
+        }
+      },
+      {
+        "Id": 15394,
+        "Name": "The Sandy Wasteland #15394",
+        "Connections": {
+          "North": 15415,
+          "East": 15393,
+          "West": 15395
+        },
+        "Contents": [
+          {
+            "Text": "a camel #56110",
+            "Color": "green"
+          },
+          {
+            "Text": "a whirling dust devil #56013",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15395,
+        "Name": "The Sandy Wasteland #15395",
+        "Connections": {
+          "East": 15394,
+          "West": 15396
+        }
+      },
+      {
+        "Id": 15396,
+        "Name": "A Sandy Riverbank #15396",
+        "Connections": {
+          "North": 15402,
+          "East": 15395,
+          "West": 15397
+        },
+        "Contents": [
+          {
+            "Text": "An Assurian Missionary #56007",
+            "Color": "green"
+          },
+          {
+            "Text": "a hairy tarantula #56042",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15397,
+        "Name": "A Sandy River #15397",
+        "Connections": {
+          "East": 15396,
+          "West": 15398
+        }
+      },
+      {
+        "Id": 15398,
+        "Name": "Floating In the Sandy River #15398",
+        "Connections": {
+          "North": 15399,
+          "East": 15397
+        },
+        "Contents": [
+          {
+            "Text": "a feasting crocodile #56012",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15399,
+        "Name": "Floating in the Sandy River #15399",
+        "Connections": {
+          "South": 15398,
+          "West": 15400
+        }
+      },
+      {
+        "Id": 15400,
+        "Name": "Swimming in the Sandy River #15400",
+        "Connections": {
+          "East": 15399,
+          "West": 15401
+        }
+      },
+      {
+        "Id": 15401,
+        "Name": "Swimming in the Sandy River #15401",
+        "Connections": {
+          "North": 15009,
+          "East": 15400
+        },
+        "Contents": [
+          {
+            "Text": "a feasting crocodile #56012",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15402,
+        "Name": "A Rocky Desert Valley #15402",
+        "Connections": {
+          "North": 15403,
+          "South": 15396
+        }
+      },
+      {
+        "Id": 15403,
+        "Name": "A Rocky Desert Valley #15403",
+        "Connections": {
+          "North": 15404,
+          "South": 15402
+        },
+        "Contents": [
+          {
+            "Text": "a rugged dervish warrior #56004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15404,
+        "Name": "A Rocky Desert Valley #15404",
+        "Connections": {
+          "South": 15403,
+          "West": 15405
+        }
+      },
+      {
+        "Id": 15405,
+        "Name": "The Cavern Opening #15405",
+        "Connections": {
+          "North": 15406,
+          "East": 15404
+        },
+        "Contents": [
+          {
+            "Text": "a hairy tarantula #56042",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15406,
+        "Name": "The Crystal Cavern #15406",
+        "Connections": {
+          "North": 15409,
+          "South": 15405,
+          "West": 15407
+        },
+        "Contents": [
+          {
+            "Text": "a stone giant #56010",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15407,
+        "Name": "The Crystal Cavern #15407",
+        "Connections": {
+          "East": 15406,
+          "West": 15408
+        },
+        "Contents": [
+          {
+            "Text": "a stone giant #56010",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15408,
+        "Name": "The Crystal Cavern #15408",
+        "Connections": {
+          "East": 15407,
+          "West": 15018
+        },
+        "Contents": [
+          {
+            "Text": "a dusty spelunker #56020",
+            "Color": "green"
+          },
+          {
+            "Text": "a stone giant #56010",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15409,
+        "Name": "The Crystal Cavern #15409",
+        "Connections": {
+          "East": 15410,
+          "South": 15406
+        },
+        "Contents": [
+          {
+            "Text": "The Dune Stalker #56002",
+            "Color": "red"
+          },
+          {
+            "Text": "a stone giant #56010",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15410,
+        "Name": "The Crystal Cavern #15410",
+        "Connections": {
+          "East": 15411,
+          "West": 15409
+        },
+        "Contents": [
+          {
+            "Text": "a stone giant #56010",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15411,
+        "Name": "The Crystal Cavern #15411",
+        "Connections": {
+          "East": 15412,
+          "West": 15410
+        },
+        "Contents": [
+          {
+            "Text": "a stone giant #56010",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15412,
+        "Name": "The Crystal Cavern #15412",
+        "Connections": {
+          "East": 15413,
+          "West": 15411
+        },
+        "Contents": [
+          {
+            "Text": "a stone giant #56010",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15413,
+        "Name": "The Sandgorgon\u0027s Lair #15413",
+        "Connections": {
+          "West": 15412,
+          "Down": 15414
+        },
+        "Contents": [
+          {
+            "Text": "the sandgorgon #56005",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15414,
+        "Name": "Below the Grate #15414",
+        "Connections": {
+          "Up": 15413
+        }
+      },
+      {
+        "Id": 15415,
+        "Name": "The Outskirts of the Desert Prairie #15415",
+        "Connections": {
+          "East": 15416,
+          "South": 15394
+        }
+      },
+      {
+        "Id": 15416,
+        "Name": "The Outskirts of the Desert Prairie #15416",
+        "Connections": {
+          "East": 15417,
+          "West": 15415
+        }
+      },
+      {
+        "Id": 15417,
+        "Name": "The Outskirts of the Desert Prairie #15417",
+        "Connections": {
+          "North": 15418,
+          "West": 15416
+        },
+        "Contents": [
+          {
+            "Text": "a hairy tarantula #56042",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15418,
+        "Name": "The Outskirts of the Desert Prairie #15418",
+        "Connections": {
+          "North": 15419,
+          "South": 15417
+        }
+      },
+      {
+        "Id": 15419,
+        "Name": "The Wide Desert Scrub #15419",
+        "Connections": {
+          "East": 15420,
+          "South": 15418
+        },
+        "Contents": [
+          {
+            "Text": "a camel #56110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15420,
+        "Name": "The Wide Desert Scrub #15420",
+        "Connections": {
+          "North": 15424,
+          "East": 15421,
+          "South": 15430,
+          "West": 15419
+        },
+        "Contents": [
+          {
+            "Text": "an elephant #56047",
+            "Color": "green"
+          },
+          {
+            "Text": "an elephant #56047",
+            "Color": "green"
+          },
+          {
+            "Text": "a rugged dervish warrior #56004",
+            "Color": "green"
+          },
+          {
+            "Text": "The Bull Elephant #15351",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15421,
+        "Name": "The Wide Desert Scrub #15421",
+        "Connections": {
+          "North": 15425,
+          "East": 15422,
+          "South": 15431,
+          "West": 15420
+        },
+        "Contents": [
+          {
+            "Text": "a whirling dust devil #56013",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15422,
+        "Name": "The Wide Desert Scrub #15422",
+        "Connections": {
+          "North": 15426,
+          "East": 15423,
+          "South": 15432,
+          "West": 15421
+        },
+        "Contents": [
+          {
+            "Text": "an elephant #56047",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15423,
+        "Name": "The Wide Desert Scrub #15423",
+        "Connections": {
+          "North": 15427,
+          "South": 15433,
+          "West": 15422
+        },
+        "Contents": [
+          {
+            "Text": "an elephant #56047",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15424,
+        "Name": "The Wide Desert Scrub #15424",
+        "Connections": {
+          "East": 15425,
+          "South": 15420
+        },
+        "Contents": [
+          {
+            "Text": "an elephant #56047",
+            "Color": "green"
+          },
+          {
+            "Text": "an elephant #56047",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15425,
+        "Name": "The Wide Desert Scrub #15425",
+        "Connections": {
+          "East": 15426,
+          "South": 15421,
+          "West": 15424
+        },
+        "Contents": [
+          {
+            "Text": "an elephant #56047",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15426,
+        "Name": "The Wide Desert Scrub #15426",
+        "Connections": {
+          "North": 15429,
+          "East": 15427,
+          "South": 15422,
+          "West": 15425
+        }
+      },
+      {
+        "Id": 15427,
+        "Name": "The Wide Desert Scrub #15427",
+        "Connections": {
+          "North": 15428,
+          "South": 15423,
+          "West": 15426
+        },
+        "Contents": [
+          {
+            "Text": "an elephant #56047",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15428,
+        "Name": "A Flattened Patch of Scrub #15428",
+        "Connections": {
+          "South": 15427
+        },
+        "Contents": [
+          {
+            "Text": "Skyljylfior, the brass dragon #56018",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15429,
+        "Name": "The Sandy Ruins of an Ancient Temple #15429",
+        "Connections": {
+          "South": 15426
+        },
+        "Contents": [
+          {
+            "Text": "The Lamia Noble #56113",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15430,
+        "Name": "The Wide Desert Scrub #15430",
+        "Connections": {
+          "North": 15420,
+          "East": 15431
+        }
+      },
+      {
+        "Id": 15431,
+        "Name": "The Wide Desert Scrub #15431",
+        "Connections": {
+          "North": 15421,
+          "East": 15432,
+          "South": 15435,
+          "West": 15430
+        },
+        "Contents": [
+          {
+            "Text": "an elephant #56047",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15432,
+        "Name": "The Wide Desert Scrub #15432",
+        "Connections": {
+          "North": 15422,
+          "East": 15433,
+          "South": 15436,
+          "West": 15431
+        }
+      },
+      {
+        "Id": 15433,
+        "Name": "The Wide Desert Scrub #15433",
+        "Connections": {
+          "North": 15423,
+          "East": 15434,
+          "West": 15432
+        },
+        "Contents": [
+          {
+            "Text": "an elephant #56047",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15434,
+        "Name": "Edge of the Wide Desert Scrub #15434",
+        "Connections": {
+          "North": 15437,
+          "West": 15433
+        }
+      },
+      {
+        "Id": 15435,
+        "Name": "A Flattened Terrace of Stone #15435",
+        "Connections": {
+          "North": 15431,
+          "East": 15436
+        },
+        "Contents": [
+          {
+            "Text": "Yadisalisk, the brown dragon #56014",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15436,
+        "Name": "The Wide Desert Scrub #15436",
+        "Connections": {
+          "North": 15432,
+          "West": 15435
+        }
+      },
+      {
+        "Id": 15437,
+        "Name": "Footprints Through the Sands #15437",
+        "Connections": {
+          "North": 15438,
+          "South": 15434
+        }
+      },
+      {
+        "Id": 15438,
+        "Name": "Wandering Aimlessly Through the Desert #15438",
+        "Connections": {
+          "East": 15439,
+          "South": 15437
+        },
+        "Contents": [
+          {
+            "Text": "a camel #56110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15439,
+        "Name": "Wandering Aimlessly Through the Desert #15439",
+        "Connections": {
+          "North": 15440,
+          "West": 15438
+        },
+        "Contents": [
+          {
+            "Text": "The Dune Stalker #56002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15440,
+        "Name": "Wandering Aimlessly Through the Desert #15440",
+        "Connections": {
+          "East": 15441,
+          "South": 15439
+        }
+      },
+      {
+        "Id": 15441,
+        "Name": "Wandering Aimlessly Through the Desert #15441",
+        "Connections": {
+          "East": 15442,
+          "West": 15440
+        },
+        "Contents": [
+          {
+            "Text": "a camel #56110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15442,
+        "Name": "The Futility of Extensive Desert Travel #15442",
+        "Connections": {
+          "East": 15438,
+          "West": 15441
+        },
+        "Contents": [
+          {
+            "Text": "An Assurian Missionary #56007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 15443,
+        "Name": "A Warm Sandy Shaft #15443",
+        "Connections": {
+          "Down": 15444
+        }
+      },
+      {
+        "Id": 15444,
+        "Name": "A Warm Sandy Shaft #15444",
+        "Connections": {
+          "Up": 15443,
+          "Down": 15445
+        }
+      },
+      {
+        "Id": 15445,
+        "Name": "The River of Lava #15445",
+        "Connections": {
+          "North": 15446,
+          "Up": 15444
+        }
+      },
+      {
+        "Id": 15446,
+        "Name": "The River of Lava #15446",
+        "Connections": {
+          "North": 15447,
+          "South": 15445
+        }
+      },
+      {
+        "Id": 15447,
+        "Name": "The River of Lava #15447",
+        "Connections": {
+          "North": 15448,
+          "South": 15446
+        },
+        "Contents": [
+          {
+            "Text": "The Efreeti Lord, Sesostris #56015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15448,
+        "Name": "The River of Lava #15448",
+        "Connections": {
+          "South": 15447,
+          "Up": 15449
+        }
+      },
+      {
+        "Id": 15449,
+        "Name": "Above the River of Lava #15449",
+        "Connections": {
+          "Up": 15450,
+          "Down": 15448
+        }
+      },
+      {
+        "Id": 15450,
+        "Name": "Flying Beside the High Desert Steppes #15450",
+        "Connections": {
+          "Up": 15451,
+          "Down": 15449
+        }
+      },
+      {
+        "Id": 15451,
+        "Name": "Flying Beside the High Desert Steppes #15451",
+        "Connections": {
+          "North": 15456,
+          "East": 15458,
+          "South": 15457,
+          "West": 15459,
+          "Up": 15452,
+          "Down": 15450
+        }
+      },
+      {
+        "Id": 15452,
+        "Name": "Flying Higher Beside the Desert Steppes #15452",
+        "Connections": {
+          "Up": 15453,
+          "Down": 15451
+        }
+      },
+      {
+        "Id": 15453,
+        "Name": "Ascending the Desert Steppes #15453",
+        "Connections": {
+          "Up": 15454,
+          "Down": 15452
+        }
+      },
+      {
+        "Id": 15454,
+        "Name": "High Above the Lava Flow #15454",
+        "Connections": {
+          "Up": 15455,
+          "Down": 15453
+        }
+      },
+      {
+        "Id": 15455,
+        "Name": "West of the Desert Steppe Terrace #15455",
+        "Connections": {
+          "East": 15250,
+          "Down": 15454
+        }
+      },
+      {
+        "Id": 15456,
+        "Name": "The Caverns of Despair #15456",
+        "Connections": {
+          "South": 15451
+        }
+      },
+      {
+        "Id": 15457,
+        "Name": "The Caverns of Despair #15457",
+        "Connections": {
+          "North": 15451
+        },
+        "Contents": [
+          {
+            "Text": "a mournful poltergeist #56017",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15458,
+        "Name": "The Lair of Myxylflyxm #15458",
+        "Connections": {
+          "West": 15451
+        },
+        "Contents": [
+          {
+            "Text": "Myxylflyxm, the yellow dragon #56003",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15459,
+        "Name": "The Caverns of Despair #15459",
+        "Connections": {
+          "East": 15451
+        },
+        "Contents": [
+          {
+            "Text": "a mournful poltergeist #56017",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15460,
+        "Name": "Scaling the Canyon Wall #15460",
+        "Connections": {
+          "Up": 15461,
+          "Down": 15364
+        }
+      },
+      {
+        "Id": 15461,
+        "Name": "Scaling the Canyon Wall #15461",
+        "Connections": {
+          "Up": 15462,
+          "Down": 15460
+        }
+      },
+      {
+        "Id": 15462,
+        "Name": "Scaling the Canyon Wall #15462",
+        "Connections": {
+          "Up": 15463,
+          "Down": 15461
+        }
+      },
+      {
+        "Id": 15463,
+        "Name": "Atop the Canyon Wall #15463",
+        "Connections": {
+          "East": 15464,
+          "Down": 15462
+        },
+        "Contents": [
+          {
+            "Text": "The Dune Stalker #56002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15464,
+        "Name": "Walking Above the Canyon #15464",
+        "Connections": {
+          "East": 15465,
+          "West": 15463
+        }
+      },
+      {
+        "Id": 15465,
+        "Name": "A Canyon Above the Desert #15465",
+        "Connections": {
+          "North": 15466,
+          "East": 15468,
+          "South": 15467,
+          "West": 15464
+        }
+      },
+      {
+        "Id": 15466,
+        "Name": "A Chalk Deposit #15466",
+        "Connections": {
+          "South": 15465
+        },
+        "Contents": [
+          {
+            "Text": "a black scorpion #48014",
+            "Color": "red"
+          },
+          {
+            "Text": "a black scorpion #48014",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15467,
+        "Name": "A Chalk Deposit #15467",
+        "Connections": {
+          "North": 15465
+        },
+        "Contents": [
+          {
+            "Text": "a black scorpion #48014",
+            "Color": "red"
+          },
+          {
+            "Text": "a black scorpion #48014",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15468,
+        "Name": "A Canyon Above the Desert #15468",
+        "Connections": {
+          "North": 15471,
+          "East": 15475,
+          "South": 15469,
+          "West": 15465
+        }
+      },
+      {
+        "Id": 15469,
+        "Name": "A Fissure of Limestone #15469",
+        "Connections": {
+          "North": 15468,
+          "East": 15476,
+          "South": 15470
+        }
+      },
+      {
+        "Id": 15470,
+        "Name": "The Limestone Quarry #15470",
+        "Connections": {
+          "North": 15469,
+          "East": 15477
+        }
+      },
+      {
+        "Id": 15471,
+        "Name": "A Fissure of Limestone #15471",
+        "Connections": {
+          "North": 15472,
+          "East": 15474,
+          "South": 15468
+        }
+      },
+      {
+        "Id": 15472,
+        "Name": "The Limestone Quarry #15472",
+        "Connections": {
+          "East": 15473,
+          "South": 15471
+        }
+      },
+      {
+        "Id": 15473,
+        "Name": "A Chalky Grave #15473",
+        "Connections": {
+          "East": 15479,
+          "South": 15474
+        },
+        "Contents": [
+          {
+            "Text": "a small black scorpion #48015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15474,
+        "Name": "Remnants of an Ancient Sea #15474",
+        "Connections": {
+          "North": 15473
+        }
+      },
+      {
+        "Id": 15475,
+        "Name": "A Canyon of Limestone #15475",
+        "Connections": {
+          "South": 15476,
+          "West": 15468
+        },
+        "Contents": [
+          {
+            "Text": "a black scorpion #48014",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15476,
+        "Name": "Stumbling Through the Limestone #15476",
+        "Connections": {
+          "North": 15475,
+          "South": 15477
+        },
+        "Contents": [
+          {
+            "Text": "a small black scorpion #48015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15477,
+        "Name": "A Deposit of Yellow Chalk #15477",
+        "Connections": {
+          "North": 15476,
+          "South": 15478
+        }
+      },
+      {
+        "Id": 15478,
+        "Name": "A Quarry of Yellow Chalk #15478",
+        "Connections": {
+          "East": 15484
+        },
+        "Contents": [
+          {
+            "Text": "a small black scorpion #48015",
+            "Color": "red"
+          },
+          {
+            "Text": "a small black scorpion #48015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15479,
+        "Name": "Deeper Within the Limestone #15479",
+        "Connections": {
+          "South": 15480,
+          "West": 15473
+        }
+      },
+      {
+        "Id": 15480,
+        "Name": "Fossilized Sea Creatures #15480",
+        "Connections": {
+          "North": 15479,
+          "South": 15481
+        },
+        "Contents": [
+          {
+            "Text": "a large scorpion #48016",
+            "Color": "red"
+          },
+          {
+            "Text": "a large scorpion #48016",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15481,
+        "Name": "A Chalky Patch of Scrub #15481",
+        "Connections": {
+          "North": 15480,
+          "South": 15482,
+          "West": 15475
+        }
+      },
+      {
+        "Id": 15482,
+        "Name": "Remains of the Plesiosaur #15482",
+        "Connections": {
+          "North": 15481,
+          "South": 15483,
+          "West": 15476
+        },
+        "Contents": [
+          {
+            "Text": "a large scorpion #48016",
+            "Color": "red"
+          },
+          {
+            "Text": "a large scorpion #48016",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15483,
+        "Name": "Deeper Within the Limestone #15483",
+        "Connections": {
+          "North": 15482,
+          "West": 15477
+        }
+      },
+      {
+        "Id": 15484,
+        "Name": "A Quarry of Yellow Chalk #15484",
+        "Connections": {
+          "East": 15485,
+          "West": 15478
+        }
+      },
+      {
+        "Id": 15485,
+        "Name": "Around the Chalk Quarry #15485",
+        "Connections": {
+          "North": 15486,
+          "West": 15484
+        }
+      },
+      {
+        "Id": 15486,
+        "Name": "Higher Within the Yellow Chalk #15486",
+        "Connections": {
+          "North": 15487,
+          "South": 15485
+        }
+      },
+      {
+        "Id": 15487,
+        "Name": "Climbing the Walls of Yellow Chalk #15487",
+        "Connections": {
+          "South": 15486,
+          "Up": 15488
+        },
+        "Contents": [
+          {
+            "Text": "a gargantuan black scorpion #48017",
+            "Color": "red"
+          },
+          {
+            "Text": "a gargantuan black scorpion #48017",
+            "Color": "red"
+          },
+          {
+            "Text": "a gargantuan black scorpion #48017",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15488,
+        "Name": "An Enormity of Debris #15488",
+        "Connections": {
+          "North": 15489,
+          "Down": 15487
+        },
+        "Contents": [
+          {
+            "Text": "a baby tarrasque #42888",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15489,
+        "Name": "Inside the Nest #15489",
+        "Connections": {
+          "South": 15488,
+          "Down": 15481
+        },
+        "Contents": [
+          {
+            "Text": "the mother tarrasque #77200",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 15553,
+        "Name": "I love Typos #15553",
+        "Connections": {}
+      },
+      {
+        "Id": 43000,
+        "FrameColor": "blue",
+        "Name": "To lostcross #43000",
+        "Color": "blue",
+        "Connections": {
+          "North": 15352,
+          "South": 43001
+        }
+      },
+      {
+        "Id": 15657,
+        "FrameColor": "blue",
+        "Name": "To assur #15657",
+        "Color": "blue",
+        "Connections": {
+          "East": 15390,
+          "West": 15658
+        }
+      },
+      {
+        "Id": 15009,
+        "FrameColor": "blue",
+        "Name": "To pyramid #15009",
+        "Color": "blue",
+        "Connections": {
+          "North": 15022,
+          "East": 15008
+        }
+      },
+      {
+        "Id": 15018,
+        "FrameColor": "blue",
+        "Name": "To pyramid #15018",
+        "Color": "blue",
+        "Connections": {
+          "East": 15408,
+          "West": 15017
+        }
+      },
+      {
+        "Id": 15250,
+        "FrameColor": "blue",
+        "Name": "To anubistemple #15250",
+        "Color": "blue",
+        "Connections": {
+          "North": 15251,
+          "West": 15455
+        }
+      }
+    ]
+  }
+}

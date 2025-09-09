@@ -1,0 +1,920 @@
+{
+  "Area": {
+    "Name": "swamp",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 75000,
+        "Name": "Entrance to a Swampy Marsh #75000",
+        "Connections": {
+          "North": 75001,
+          "East": 75006,
+          "West": 75089
+        },
+        "Contents": [
+          {
+            "Text": "a wild dog #75011",
+            "Color": "red"
+          },
+          {
+            "Text": "a novitiate cleric #75905",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75001,
+        "Name": "Climbing Vines #75001",
+        "Connections": {
+          "North": 75002,
+          "East": 75005,
+          "South": 75000,
+          "Up": 75051
+        }
+      },
+      {
+        "Id": 75002,
+        "Name": "Base of the Wide Vines #75002",
+        "Connections": {
+          "East": 75004,
+          "South": 75001,
+          "Up": 75046
+        }
+      },
+      {
+        "Id": 75003,
+        "Name": "A Clearing #75003",
+        "Connections": {
+          "West": 75004
+        }
+      },
+      {
+        "Id": 75004,
+        "Name": "Evidence of a Small Clearing #75004",
+        "Connections": {
+          "East": 75003,
+          "South": 75005,
+          "West": 75002
+        },
+        "Contents": [
+          {
+            "Text": "a toxic tree frog #75015",
+            "Color": "green"
+          },
+          {
+            "Text": "Swampy Pete #75032",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75005,
+        "Name": "A Shifty Surface #75005",
+        "Connections": {
+          "North": 75004,
+          "South": 75006,
+          "West": 75001
+        },
+        "Contents": [
+          {
+            "Text": "a wild dog #75011",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 75006,
+        "Name": "A Mired Swamp #75006",
+        "Connections": {
+          "North": 75005,
+          "East": 75009,
+          "South": 75007,
+          "West": 75000
+        },
+        "Contents": [
+          {
+            "Text": "a wild dog #75011",
+            "Color": "red"
+          },
+          {
+            "Text": "a toxic tree frog #75015",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75007,
+        "Name": "A Cluster of Briars #75007",
+        "Connections": {
+          "North": 75006,
+          "East": 75008
+        },
+        "Contents": [
+          {
+            "Text": "a rodent of unusual size #75012",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 75008,
+        "Name": "Within the Briars #75008",
+        "Connections": {
+          "North": 75009,
+          "East": 75012,
+          "West": 75007
+        }
+      },
+      {
+        "Id": 75009,
+        "Name": "A Shadowy Path #75009",
+        "Connections": {
+          "North": 75010,
+          "East": 75013,
+          "South": 75008,
+          "West": 75006
+        }
+      },
+      {
+        "Id": 75010,
+        "Name": "A Strange Smelling Area #75010",
+        "Connections": {
+          "East": 75014,
+          "South": 75009
+        },
+        "Contents": [
+          {
+            "Text": "a wild dog #75011",
+            "Color": "red"
+          },
+          {
+            "Text": "a rodent of unusual size #75012",
+            "Color": "red"
+          },
+          {
+            "Text": "Podarge #75025",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75011,
+        "Name": "A Thorny Tunnel #75011",
+        "Connections": {
+          "North": 75012,
+          "South": 57200
+        }
+      },
+      {
+        "Id": 75012,
+        "Name": "A Clever Thorny Opening #75012",
+        "Connections": {
+          "South": 75011,
+          "West": 75008
+        },
+        "Contents": [
+          {
+            "Text": "a changeling #75009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75013,
+        "Name": "A Gasseous Bubbling Mudpot #75013",
+        "Connections": {
+          "North": 75015,
+          "West": 75009,
+          "Up": 75049
+        },
+        "Contents": [
+          {
+            "Text": "a bogwhul #75007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75014,
+        "Name": "A Yellowed Bridge #75014",
+        "Connections": {
+          "North": 75015,
+          "East": 75019,
+          "South": 75013,
+          "West": 75010
+        },
+        "Contents": [
+          {
+            "Text": "the bridge guardian #75028",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75015,
+        "Name": "Stepping Stones #75015",
+        "Connections": {
+          "North": 75016,
+          "East": 75021,
+          "South": 75013
+        },
+        "Contents": [
+          {
+            "Text": "a fluke worm #75005",
+            "Color": "green"
+          },
+          {
+            "Text": "a bogwhul #75007",
+            "Color": "green"
+          },
+          {
+            "Text": "a bogwhul #75007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75016,
+        "Name": "Beside the Pool of Stench #75016",
+        "Connections": {
+          "East": 75022,
+          "South": 75015
+        },
+        "Contents": [
+          {
+            "Text": "a fluke worm #75005",
+            "Color": "green"
+          },
+          {
+            "Text": "a bogwhul #75007",
+            "Color": "green"
+          },
+          {
+            "Text": "a toxic tree frog #75015",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75017,
+        "Name": "As Vines Entangle #75017",
+        "Connections": {
+          "West": 75018
+        }
+      },
+      {
+        "Id": 75018,
+        "Name": "Within the Canopy #75018",
+        "Connections": {
+          "North": 75036,
+          "East": 75017
+        }
+      },
+      {
+        "Id": 75019,
+        "Name": "Before a Yellowed Bridge #75019",
+        "Connections": {
+          "North": 75021,
+          "West": 75014
+        },
+        "Contents": [
+          {
+            "Text": "an animated toadstool #75008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75020,
+        "Name": "An Observation Orb #75020",
+        "Connections": {
+          "East": 68000
+        }
+      },
+      {
+        "Id": 75021,
+        "Name": "Upon the Moistened Ground #75021",
+        "Connections": {
+          "North": 75022,
+          "East": 75034,
+          "South": 75019,
+          "West": 75015
+        },
+        "Contents": [
+          {
+            "Text": "a salamander #75014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75022,
+        "Name": "Upon the Green Peat #75022",
+        "Connections": {
+          "East": 75024,
+          "South": 75021,
+          "West": 75016
+        },
+        "Contents": [
+          {
+            "Text": "an animated toadstool #75008",
+            "Color": "green"
+          },
+          {
+            "Text": "a salamander #75014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75024,
+        "Name": "Beside a Large Willow #75024",
+        "Connections": {
+          "North": 75025,
+          "South": 75034,
+          "West": 75022
+        },
+        "Contents": [
+          {
+            "Text": "an animated toadstool #75008",
+            "Color": "green"
+          },
+          {
+            "Text": "a salamander #75014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75025,
+        "Name": "Before a Wide Cave Entrance #75025",
+        "Connections": {
+          "North": 75026,
+          "South": 75024
+        },
+        "Contents": [
+          {
+            "Text": "an animated toadstool #75008",
+            "Color": "green"
+          },
+          {
+            "Text": "a rodent of unusual size #75012",
+            "Color": "red"
+          },
+          {
+            "Text": "a salamander #75014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75026,
+        "Name": "A Cave-like Interior #75026",
+        "Connections": {
+          "East": 75027,
+          "South": 75025
+        },
+        "Contents": [
+          {
+            "Text": "the evil cypress tree #75004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75027,
+        "Name": "A Dark, Damp Log #75027",
+        "Connections": {
+          "West": 75026
+        },
+        "Contents": [
+          {
+            "Text": "an animated toadstool #75008",
+            "Color": "green"
+          },
+          {
+            "Text": "a salamander #75014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75028,
+        "Name": "A Floral Cluster #75028",
+        "Connections": {
+          "East": 75029,
+          "South": 75037
+        },
+        "Contents": [
+          {
+            "Text": "a little pixie #75017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75029,
+        "Name": "Windows to the Swamp Below #75029",
+        "Connections": {
+          "South": 75030,
+          "West": 75028
+        },
+        "Contents": [
+          {
+            "Text": "a little pixie #75017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75030,
+        "Name": "A Great Gap in the Canopy Structure #75030",
+        "Connections": {
+          "North": 75029,
+          "Down": 75041
+        },
+        "Contents": [
+          {
+            "Text": "a green tree snake #75034",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75031,
+        "Name": "Northeast Side of the Willow #75031",
+        "Connections": {
+          "South": 75038
+        },
+        "Contents": [
+          {
+            "Text": "a salamander #75014",
+            "Color": "green"
+          },
+          {
+            "Text": "Mokele Mbembe #75045",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75032,
+        "Name": "A Soft, Mossy Nest #75032",
+        "Connections": {
+          "North": 75037,
+          "West": 75033
+        },
+        "Contents": [
+          {
+            "Text": "a little pixie #75017",
+            "Color": "green"
+          },
+          {
+            "Text": "the Emperor of Pixies #75018",
+            "Color": "green"
+          },
+          {
+            "Text": "the Pixie Empress #75020",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75033,
+        "Name": "The Swaying Treetops #75033",
+        "Connections": {
+          "East": 75032,
+          "West": 75036
+        },
+        "Contents": [
+          {
+            "Text": "a cursed switch #75010",
+            "Color": "red"
+          },
+          {
+            "Text": "a little pixie #75017",
+            "Color": "green"
+          },
+          {
+            "Text": "a pixie guardian #75019",
+            "Color": "green"
+          },
+          {
+            "Text": "a pixie guardian #75019",
+            "Color": "green"
+          },
+          {
+            "Text": "the brownie huntsman #75022",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75034,
+        "Name": "The Southwest Side of the Willow #75034",
+        "Connections": {
+          "North": 75024,
+          "East": 75070,
+          "West": 75021
+        },
+        "Contents": [
+          {
+            "Text": "a toxic tree frog #75015",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75035,
+        "Name": "Wide, Weaving Vines #75035",
+        "Connections": {
+          "Up": 75047,
+          "Down": 75046
+        }
+      },
+      {
+        "Id": 75036,
+        "Name": "A Frenzy of Vines  #75036",
+        "Connections": {
+          "North": 75043,
+          "East": 75033,
+          "South": 75018,
+          "Down": 75042
+        }
+      },
+      {
+        "Id": 75037,
+        "Name": "Climbing Among the Thin Branches #75037",
+        "Connections": {
+          "North": 75028,
+          "South": 75032,
+          "Up": 75056,
+          "Down": 75039
+        },
+        "Contents": [
+          {
+            "Text": "a three-toed sloth #75016",
+            "Color": "green"
+          },
+          {
+            "Text": "a pixie guardian #75019",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75038,
+        "Name": "The Southeast Side of the Willow #75038",
+        "Connections": {
+          "North": 75031,
+          "South": 75070,
+          "Up": 75039
+        },
+        "Contents": [
+          {
+            "Text": "an animated toadstool #75008",
+            "Color": "green"
+          },
+          {
+            "Text": "a salamander #75014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75039,
+        "Name": "A Large Hole #75039",
+        "Connections": {
+          "West": 75045,
+          "Up": 75037,
+          "Down": 75038
+        },
+        "Contents": [
+          {
+            "Text": "a brownie #75021",
+            "Color": "green"
+          },
+          {
+            "Text": "the brownie huntsman #75022",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75040,
+        "Name": "In the Brambles #75040",
+        "Connections": {
+          "East": 75001,
+          "Up": 75050
+        }
+      },
+      {
+        "Id": 75041,
+        "Name": "Below the Canopy #75041",
+        "Connections": {
+          "Up": 75030,
+          "Down": 75048
+        }
+      },
+      {
+        "Id": 75042,
+        "Name": "A Severed Vine #75042",
+        "Connections": {
+          "Up": 75036,
+          "Down": 75050
+        },
+        "Contents": [
+          {
+            "Text": "Ocypete #75024",
+            "Color": "green"
+          },
+          {
+            "Text": "a green tree snake #75034",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75043,
+        "Name": "The Top of the Vine #75043",
+        "Connections": {
+          "South": 75036,
+          "Down": 75047
+        }
+      },
+      {
+        "Id": 75044,
+        "Name": "Inside the Willow Trunk #75044",
+        "Connections": {
+          "Up": 75055,
+          "Down": 75045
+        },
+        "Contents": [
+          {
+            "Text": "a brownie #75021",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75045,
+        "Name": "Within the Willow #75045",
+        "Connections": {
+          "East": 75039,
+          "Up": 75044
+        },
+        "Contents": [
+          {
+            "Text": "a brownie #75021",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75046,
+        "Name": "Climbing the Vine #75046",
+        "Connections": {
+          "Up": 75035,
+          "Down": 75002
+        },
+        "Contents": [
+          {
+            "Text": "Aiello #75013",
+            "Color": "green"
+          },
+          {
+            "Text": "a green tree snake #75034",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75047,
+        "Name": "Among the Vines #75047",
+        "Connections": {
+          "Up": 75043,
+          "Down": 75035
+        },
+        "Contents": [
+          {
+            "Text": "a green tree snake #75034",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75048,
+        "Name": "Above the Swamp #75048",
+        "Connections": {
+          "West": 75053,
+          "Up": 75041,
+          "Down": 75049
+        },
+        "Contents": [
+          {
+            "Text": "a banshee #75006",
+            "Color": "green"
+          },
+          {
+            "Text": "a chicken hawk #75033",
+            "Color": "green"
+          },
+          {
+            "Text": "a chicken hawk #75033",
+            "Color": "green"
+          },
+          {
+            "Text": "a chicken hawk #75033",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75049,
+        "Name": "A Cloud of Sulfer #75049",
+        "Connections": {
+          "Up": 75048,
+          "Down": 75013
+        }
+      },
+      {
+        "Id": 75050,
+        "Name": "Above the Ground #75050",
+        "Connections": {
+          "East": 75051,
+          "Up": 75042,
+          "Down": 75040
+        },
+        "Contents": [
+          {
+            "Text": "Celaeno #75023",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75051,
+        "Name": "An Array of Hefty Vines #75051",
+        "Connections": {
+          "East": 75052,
+          "West": 75050,
+          "Down": 75001
+        }
+      },
+      {
+        "Id": 75052,
+        "Name": "A Strong Vine #75052",
+        "Connections": {
+          "West": 75051,
+          "Up": 75053
+        }
+      },
+      {
+        "Id": 75053,
+        "Name": "Bog Air #75053",
+        "Connections": {
+          "East": 75048,
+          "Down": 75052
+        }
+      },
+      {
+        "Id": 75055,
+        "Name": "In the Boughs of the Tree #75055",
+        "Connections": {
+          "East": 75056,
+          "Down": 75044
+        },
+        "Contents": [
+          {
+            "Text": "a cursed switch #75010",
+            "Color": "red"
+          },
+          {
+            "Text": "a cursed switch #75010",
+            "Color": "red"
+          },
+          {
+            "Text": "the drunken brownie  #75026",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75056,
+        "Name": "A Dense Treetop #75056",
+        "Connections": {
+          "West": 75055,
+          "Down": 75037
+        },
+        "Contents": [
+          {
+            "Text": "a little pixie #75017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75057,
+        "Name": "A Stickerly Predicament #75057",
+        "Connections": {
+          "North": 75089
+        },
+        "Contents": [
+          {
+            "Text": "a small dryad #75000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75070,
+        "Name": "Soft, Comfortable Moss #75070",
+        "Connections": {
+          "North": 75038
+        }
+      },
+      {
+        "Id": 75087,
+        "Name": "An Overgrown Trail #75087",
+        "Connections": {
+          "East": 75089,
+          "West": 75087
+        },
+        "Contents": [
+          {
+            "Text": "a toxic tree frog #75015",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75089,
+        "Name": "Beside the Briars #75089",
+        "Connections": {
+          "East": 75000,
+          "South": 75057
+        },
+        "Contents": [
+          {
+            "Text": "a druid #75027",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75091,
+        "Name": "A Dimly-Lit Animal Trail #75091",
+        "Connections": {
+          "East": 75087,
+          "West": 42498
+        }
+      },
+      {
+        "Id": 75100,
+        "Name": "Outside an Iron Gate #75100",
+        "Connections": {
+          "East": 75101
+        }
+      },
+      {
+        "Id": 57200,
+        "FrameColor": "blue",
+        "Name": "To barge #57200",
+        "Color": "blue",
+        "Connections": {
+          "North": 75011,
+          "Down": 57201
+        }
+      },
+      {
+        "Id": 68000,
+        "FrameColor": "blue",
+        "Name": "To imps #68000",
+        "Color": "blue",
+        "Connections": {
+          "West": 75020
+        }
+      },
+      {
+        "Id": 42498,
+        "FrameColor": "blue",
+        "Name": "To happy #42498",
+        "Color": "blue",
+        "Connections": {
+          "East": 75091,
+          "West": 42431
+        }
+      },
+      {
+        "Id": 75101,
+        "FrameColor": "blue",
+        "Name": "To cazel #75101",
+        "Color": "blue",
+        "Connections": {
+          "East": 75102,
+          "West": 75100
+        }
+      }
+    ]
+  }
+}

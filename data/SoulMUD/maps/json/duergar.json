@@ -1,0 +1,1411 @@
+{
+  "Area": {
+    "Name": "duergar",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 9100,
+        "Name": "Bottom of the Hole #9100",
+        "Connections": {
+          "East": 9101,
+          "Up": 9053
+        }
+      },
+      {
+        "Id": 9101,
+        "Name": "Clawed Out Tunnel #9101",
+        "Connections": {
+          "East": 9102,
+          "West": 9100
+        }
+      },
+      {
+        "Id": 9102,
+        "Name": "Crystal Cavern #9102",
+        "Connections": {
+          "North": 9107,
+          "East": 9103,
+          "West": 9101
+        },
+        "Contents": [
+          {
+            "Text": "a crystal spider #1056",
+            "Color": "red"
+          },
+          {
+            "Text": "a crystal spider #1056",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9103,
+        "Name": "Crystal Cavern #9103",
+        "Connections": {
+          "North": 9106,
+          "East": 9104,
+          "West": 9102
+        },
+        "Contents": [
+          {
+            "Text": "a crystal spider #1056",
+            "Color": "red"
+          },
+          {
+            "Text": "a crystal spider #1056",
+            "Color": "red"
+          },
+          {
+            "Text": "a crystal spider #1056",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9104,
+        "Name": "Crystal Cavern #9104",
+        "Connections": {
+          "North": 9105,
+          "West": 9103
+        }
+      },
+      {
+        "Id": 9105,
+        "Name": "Crystal Cavern #9105",
+        "Connections": {
+          "North": 9110,
+          "South": 9104,
+          "West": 9106
+        }
+      },
+      {
+        "Id": 9106,
+        "Name": "Crystal Column #9106",
+        "Connections": {
+          "North": 9109,
+          "East": 9105,
+          "South": 9103,
+          "West": 9107
+        },
+        "Contents": [
+          {
+            "Text": "a crystal spider #1056",
+            "Color": "red"
+          },
+          {
+            "Text": "a crystal spider #1056",
+            "Color": "red"
+          },
+          {
+            "Text": "a demi-lich #40578",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9107,
+        "Name": "Crystal Cavern #9107",
+        "Connections": {
+          "North": 9108,
+          "East": 9106,
+          "South": 9102
+        }
+      },
+      {
+        "Id": 9108,
+        "Name": "Crystal Cavern #9108",
+        "Connections": {
+          "East": 9109,
+          "South": 9107
+        }
+      },
+      {
+        "Id": 9109,
+        "Name": "Crystal Cavern #9109",
+        "Connections": {
+          "North": 20600,
+          "East": 9110,
+          "South": 9106,
+          "West": 9108
+        }
+      },
+      {
+        "Id": 9110,
+        "Name": "Crystal Cavern #9110",
+        "Connections": {
+          "South": 9105,
+          "West": 9109
+        }
+      },
+      {
+        "Id": 9111,
+        "Name": "Tunnel #9111",
+        "Connections": {
+          "North": 9112
+        },
+        "Contents": [
+          {
+            "Text": "a pike-wielding duergar #9172",
+            "Color": "red"
+          },
+          {
+            "Text": "a pike-wielding duergar #9172",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar raid leader #9150",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar raider #9149",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar raider #9149",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9112,
+        "Name": "Four-Way Intersection #9112",
+        "Connections": {
+          "North": 9114,
+          "East": 9120,
+          "South": 9111,
+          "West": 9113
+        },
+        "Contents": [
+          {
+            "Text": "a cave rat #9157",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9113,
+        "Name": "Small Cave #9113",
+        "Connections": {
+          "North": 9170,
+          "East": 9112
+        },
+        "Contents": [
+          {
+            "Text": "a duergar footman #9180",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9114,
+        "Name": "Tunnel #9114",
+        "Connections": {
+          "North": 9115,
+          "South": 9112
+        }
+      },
+      {
+        "Id": 9115,
+        "Name": "Tunnel #9115",
+        "Connections": {
+          "North": 9116,
+          "East": 9174,
+          "South": 9114
+        },
+        "Contents": [
+          {
+            "Text": "a duergar footman #9180",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9116,
+        "Name": "Lighted Tunnel #9116",
+        "Connections": {
+          "East": 9135,
+          "South": 9115,
+          "West": 9117
+        }
+      },
+      {
+        "Id": 9117,
+        "Name": "Burning Cave #9117",
+        "Connections": {
+          "North": 9118,
+          "East": 9116,
+          "West": 9119
+        }
+      },
+      {
+        "Id": 9118,
+        "Name": "Burning Cave #9118",
+        "Connections": {
+          "South": 9117
+        },
+        "Contents": [
+          {
+            "Text": "a lavawight #9162",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9119,
+        "Name": "Burning Cave #9119",
+        "Connections": {
+          "East": 9117
+        }
+      },
+      {
+        "Id": 9120,
+        "Name": "Twisting Tunnel #9120",
+        "Connections": {
+          "East": 9121,
+          "West": 9112
+        },
+        "Contents": [
+          {
+            "Text": "a duergar footman #9161",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9121,
+        "Name": "Twisting Tunnel #9121",
+        "Connections": {
+          "South": 9122,
+          "West": 9120
+        }
+      },
+      {
+        "Id": 9122,
+        "Name": "Twisting Tunnel #9122",
+        "Connections": {
+          "North": 9121,
+          "East": 9123
+        },
+        "Contents": [
+          {
+            "Text": "a duergar footman #9161",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar footman #9161",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9123,
+        "Name": "Excavated Tunnel #9123",
+        "Connections": {
+          "South": 9124,
+          "West": 9122
+        }
+      },
+      {
+        "Id": 9124,
+        "Name": "Domed Cavern #9124",
+        "Connections": {
+          "North": 9123,
+          "East": 9127,
+          "South": 9125
+        },
+        "Contents": [
+          {
+            "Text": "a duergar guard #9179",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar guard #9179",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9125,
+        "Name": "Domed Cavern #9125",
+        "Connections": {
+          "North": 9124,
+          "East": 9126,
+          "South": 9192
+        },
+        "Contents": [
+          {
+            "Text": "a duergar footman #9161",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar guard #9160",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9126,
+        "Name": "Domed Cavern #9126",
+        "Connections": {
+          "North": 9127,
+          "East": 9128,
+          "West": 9125
+        },
+        "Contents": [
+          {
+            "Text": "a duergar guard #9179",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar guard #9179",
+            "Color": "red"
+          },
+          {
+            "Text": "a pike-wielding duergar #9172",
+            "Color": "red"
+          },
+          {
+            "Text": "the duergar Captain of Guards #9171",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9127,
+        "Name": "Domed Cavern #9127",
+        "Connections": {
+          "South": 9126,
+          "West": 9124,
+          "Up": 9180
+        },
+        "Contents": [
+          {
+            "Text": "Drukmir Bloodaxe #9173",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal duergar guard #9184",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9128,
+        "Name": "Worn Tunnel #9128",
+        "Connections": {
+          "East": 9129,
+          "West": 9126
+        }
+      },
+      {
+        "Id": 9129,
+        "Name": "Worn Tunnel #9129",
+        "Connections": {
+          "North": 9130,
+          "West": 9128
+        }
+      },
+      {
+        "Id": 9130,
+        "Name": "Worn Tunnel #9130",
+        "Connections": {
+          "North": 9131,
+          "East": 9132,
+          "South": 9129
+        }
+      },
+      {
+        "Id": 9131,
+        "Name": "Worn Tunnel #9131",
+        "Connections": {
+          "North": 9134,
+          "South": 9130
+        }
+      },
+      {
+        "Id": 9132,
+        "Name": "Barracade #9132",
+        "Connections": {
+          "East": 9133,
+          "West": 9130
+        },
+        "Contents": [
+          {
+            "Text": "a duergar guard #9179",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar footman #9180",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9133,
+        "Name": "Diamond Cave #9133",
+        "Connections": {
+          "West": 9132,
+          "Down": 9221
+        },
+        "Contents": [
+          {
+            "Text": "a xorn #9165",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9134,
+        "Name": "Barricade #9134",
+        "Connections": {
+          "North": 9142,
+          "South": 9131
+        },
+        "Contents": [
+          {
+            "Text": "a duergar footman #9180",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar guard #9179",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9135,
+        "Name": "Tunnel #9135",
+        "Connections": {
+          "East": 9136,
+          "West": 9116
+        },
+        "Contents": [
+          {
+            "Text": "a duergar footman #9161",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9136,
+        "Name": "Tunnel #9136",
+        "Connections": {
+          "South": 9137,
+          "West": 9135
+        }
+      },
+      {
+        "Id": 9137,
+        "Name": "Tunnel #9137",
+        "Connections": {
+          "North": 9136,
+          "East": 9138
+        },
+        "Contents": [
+          {
+            "Text": "a duergar footman #9161",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9138,
+        "Name": "Tunnel #9138",
+        "Connections": {
+          "East": 9139,
+          "West": 9137
+        },
+        "Contents": [
+          {
+            "Text": "a cave rat #9157",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9139,
+        "Name": "Barricade #9139",
+        "Connections": {
+          "East": 9140,
+          "West": 9138
+        },
+        "Contents": [
+          {
+            "Text": "a pike-wielding duergar #9172",
+            "Color": "red"
+          },
+          {
+            "Text": "a pike-wielding duergar #9172",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar footman #9180",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9140,
+        "Name": "Beach #9140",
+        "Connections": {
+          "East": 9145,
+          "South": 9141,
+          "West": 9139
+        }
+      },
+      {
+        "Id": 9141,
+        "Name": "Lake Cavern #9141",
+        "Connections": {
+          "North": 9140,
+          "East": 9142
+        },
+        "Contents": [
+          {
+            "Text": "a chaos hound #9166",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9142,
+        "Name": "Beach #9142",
+        "Connections": {
+          "North": 9145,
+          "East": 9143,
+          "South": 9134,
+          "West": 9141
+        }
+      },
+      {
+        "Id": 9143,
+        "Name": "Lake Shallows #9143",
+        "Connections": {
+          "North": 9144,
+          "West": 9142
+        }
+      },
+      {
+        "Id": 9144,
+        "Name": "Cavern Lake #9144",
+        "Connections": {
+          "North": 9208,
+          "South": 9143,
+          "West": 9145,
+          "Down": 9149
+        }
+      },
+      {
+        "Id": 9145,
+        "Name": "Lake Shallows #9145",
+        "Connections": {
+          "East": 9144,
+          "South": 9142,
+          "West": 9140
+        },
+        "Contents": [
+          {
+            "Text": "an escaped drow prisoner #9163",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9149,
+        "Name": "Under the Lake #9149",
+        "Connections": {
+          "East": 9150,
+          "Up": 9144
+        },
+        "Contents": [
+          {
+            "Text": "a giant pike #9159",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9150,
+        "Name": "Underwater Tunnel #9150",
+        "Connections": {
+          "East": 9151,
+          "West": 9149
+        }
+      },
+      {
+        "Id": 9151,
+        "Name": "Glowing Tunnel #9151",
+        "Connections": {
+          "West": 9150
+        },
+        "Contents": [
+          {
+            "Text": "The Ghost of King Einar #9158",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9152,
+        "Name": "Royal Barracks #9152",
+        "Connections": {
+          "West": 9189
+        },
+        "Contents": [
+          {
+            "Text": "a duergar guard #9179",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal duergar guard #9156",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal duergar guard #9156",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal duergar guard #9156",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9153,
+        "Name": "Tunnel #9153",
+        "Connections": {
+          "East": 9154
+        }
+      },
+      {
+        "Id": 9154,
+        "Name": "Tunnel #9154",
+        "Connections": {
+          "East": 9155,
+          "West": 9153
+        }
+      },
+      {
+        "Id": 9155,
+        "Name": "Tunnel #9155",
+        "Connections": {
+          "North": 9166,
+          "East": 9156,
+          "West": 9154
+        }
+      },
+      {
+        "Id": 9156,
+        "Name": "Tunnel #9156",
+        "Connections": {
+          "East": 9157,
+          "West": 9155
+        }
+      },
+      {
+        "Id": 9157,
+        "Name": "Tunnel #9157",
+        "Connections": {
+          "East": 9158,
+          "South": 9165,
+          "West": 9156
+        }
+      },
+      {
+        "Id": 9158,
+        "Name": "Tunnel #9158",
+        "Connections": {
+          "East": 9159,
+          "West": 9157
+        }
+      },
+      {
+        "Id": 9159,
+        "Name": "Tunnel #9159",
+        "Connections": {
+          "North": 9164,
+          "West": 9158,
+          "Up": 9160
+        }
+      },
+      {
+        "Id": 9160,
+        "Name": "Tunnel #9160",
+        "Connections": {
+          "Up": 9161,
+          "Down": 9159
+        }
+      },
+      {
+        "Id": 9161,
+        "Name": "Tunnel #9161",
+        "Connections": {
+          "Up": 9162,
+          "Down": 9160
+        }
+      },
+      {
+        "Id": 9162,
+        "Name": "Tunnel #9162",
+        "Connections": {
+          "Up": 9163,
+          "Down": 9161
+        }
+      },
+      {
+        "Id": 9163,
+        "Name": "Tunnel #9163",
+        "Connections": {
+          "Down": 9162
+        }
+      },
+      {
+        "Id": 9164,
+        "Name": "Small Alcove #9164",
+        "Connections": {
+          "South": 9159
+        }
+      },
+      {
+        "Id": 9165,
+        "Name": "Small Alcove #9165",
+        "Connections": {
+          "North": 9157
+        }
+      },
+      {
+        "Id": 9166,
+        "Name": "Small Alcove #9166",
+        "Connections": {
+          "South": 9155
+        }
+      },
+      {
+        "Id": 9170,
+        "Name": "Lower Circular Chamber #9170",
+        "Connections": {
+          "South": 9113,
+          "Up": 9171
+        },
+        "Contents": [
+          {
+            "Text": "a chained centaur ant #9182",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9171,
+        "Name": "Upper Circular Chamber #9171",
+        "Connections": {
+          "West": 9172,
+          "Down": 9170
+        }
+      },
+      {
+        "Id": 9172,
+        "Name": "Wide, Low Hall #9172",
+        "Connections": {
+          "East": 9171,
+          "West": 9173
+        },
+        "Contents": [
+          {
+            "Text": "a duergar footman #9161",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9173,
+        "Name": "Guard Post #9173",
+        "Connections": {
+          "East": 9172,
+          "Up": 42220
+        },
+        "Contents": [
+          {
+            "Text": "a duergar footman #9180",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar guard #9160",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9174,
+        "Name": "Grand Archway #9174",
+        "Connections": {
+          "South": 9175,
+          "West": 9115
+        },
+        "Contents": [
+          {
+            "Text": "a duergar acolyte #9174",
+            "Color": "green"
+          },
+          {
+            "Text": "a duergar acolyte #9174",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9175,
+        "Name": "Base of Stalagmite #9175",
+        "Connections": {
+          "North": 9174,
+          "Up": 9178
+        },
+        "Contents": [
+          {
+            "Text": "a duergar stonecaller #9175",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9176,
+        "Name": "Frustum Altar #9176",
+        "Connections": {
+          "North": 9179
+        },
+        "Contents": [
+          {
+            "Text": "Drugish Darkcaller #9178",
+            "Color": "red"
+          },
+          {
+            "Text": "a massive earth elemental #9176",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9177,
+        "Name": "Throne of the Duergar Ruler #9177",
+        "Connections": {
+          "South": 9183
+        },
+        "Contents": [
+          {
+            "Text": "Prince Asmundr #9190",
+            "Color": "red"
+          },
+          {
+            "Text": "an elite royal duergar guard #9187",
+            "Color": "red"
+          },
+          {
+            "Text": "an elite royal duergar guard #9187",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9178,
+        "Name": "Halfway Up the Altar #9178",
+        "Connections": {
+          "Up": 9179,
+          "Down": 9175
+        },
+        "Contents": [
+          {
+            "Text": "a duergar stonecaller #9175",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9179,
+        "Name": "Platform at the Top #9179",
+        "Connections": {
+          "South": 9176,
+          "Down": 9178
+        }
+      },
+      {
+        "Id": 9180,
+        "Name": "Royal Quarter #9180",
+        "Connections": {
+          "North": 9181,
+          "Down": 9127
+        }
+      },
+      {
+        "Id": 9181,
+        "Name": "Royal Quarter #9181",
+        "Connections": {
+          "North": 9182,
+          "East": 9185,
+          "South": 9180,
+          "West": 9186
+        },
+        "Contents": [
+          {
+            "Text": "a royal duergar guard #9184",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar guard #9160",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9182,
+        "Name": "Royal Quarter #9182",
+        "Connections": {
+          "North": 9183,
+          "East": 9187,
+          "South": 9181,
+          "West": 9188
+        },
+        "Contents": [
+          {
+            "Text": "a royal duergar guard #9184",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar guard #9160",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9183,
+        "Name": "Royal Quarter #9183",
+        "Connections": {
+          "North": 9177,
+          "East": 9189,
+          "South": 9182,
+          "West": 9190
+        },
+        "Contents": [
+          {
+            "Text": "an elite royal duergar guard #9187",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal duergar guard #9184",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9184,
+        "Name": "Royal Barracks #9184",
+        "Connections": {
+          "South": 9189
+        },
+        "Contents": [
+          {
+            "Text": "an elite royal duergar guard #9187",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal duergar guard #9184",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal duergar guard #9184",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9185,
+        "Name": "Gisli\u0027s Quarters #9185",
+        "Connections": {
+          "West": 9181
+        },
+        "Contents": [
+          {
+            "Text": "Gisli Longknife #9194",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal duergar guard #9184",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9186,
+        "Name": "Grimolfr\u0027s Quarters #9186",
+        "Connections": {
+          "East": 9181
+        },
+        "Contents": [
+          {
+            "Text": "Grimolfr the Wicked #9193",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar mage #9192",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar mage #9192",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9187,
+        "Name": "Ulfr\u0027s Quarters #9187",
+        "Connections": {
+          "West": 9182
+        },
+        "Contents": [
+          {
+            "Text": "Ulfr the Impaler #9191",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal duergar guard #9184",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9188,
+        "Name": "Drukmir\u0027s Quarters #9188",
+        "Connections": {
+          "East": 9182
+        }
+      },
+      {
+        "Id": 9189,
+        "Name": "Royal Barracks #9189",
+        "Connections": {
+          "North": 9184,
+          "East": 9152,
+          "South": 9191,
+          "West": 9183
+        },
+        "Contents": [
+          {
+            "Text": "a duergar footman #9180",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal duergar guard #9184",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9190,
+        "Name": "Baror\u0027s Quarters #9190",
+        "Connections": {
+          "East": 9183
+        },
+        "Contents": [
+          {
+            "Text": "Baror Blackblade #9189",
+            "Color": "red"
+          },
+          {
+            "Text": "an elite royal duergar guard #9187",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal duergar guard #9184",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9191,
+        "Name": "Royal Barracks #9191",
+        "Connections": {
+          "North": 9189
+        },
+        "Contents": [
+          {
+            "Text": "a duergar guard #9160",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar guard #9160",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9192,
+        "Name": "Path Through the Warrens #9192",
+        "Connections": {
+          "North": 9125,
+          "East": 9196,
+          "South": 9193,
+          "West": 9204
+        },
+        "Contents": [
+          {
+            "Text": "a duergar child #9196",
+            "Color": "red"
+          },
+          {
+            "Text": "a cave rat #9157",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9193,
+        "Name": "Path Through the Warrens #9193",
+        "Connections": {
+          "North": 9192,
+          "East": 9198,
+          "South": 9194,
+          "West": 9205
+        },
+        "Contents": [
+          {
+            "Text": "a duergar female #9185",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9194,
+        "Name": "Path Through the Warrens #9194",
+        "Connections": {
+          "North": 9193,
+          "East": 9200,
+          "South": 9195,
+          "West": 9206
+        },
+        "Contents": [
+          {
+            "Text": "a duergar child #9196",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar female #9185",
+            "Color": "green"
+          },
+          {
+            "Text": "a duergar female #9185",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9195,
+        "Name": "Path Through the Warrens #9195",
+        "Connections": {
+          "North": 9194,
+          "East": 9202,
+          "West": 9207
+        }
+      },
+      {
+        "Id": 9196,
+        "Name": "Warrens #9196",
+        "Connections": {
+          "East": 9197,
+          "South": 9198,
+          "West": 9192
+        },
+        "Contents": [
+          {
+            "Text": "a duergar female #9185",
+            "Color": "green"
+          },
+          {
+            "Text": "a duergar child #9196",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9197,
+        "Name": "Warrens #9197",
+        "Connections": {
+          "South": 9199,
+          "West": 9196
+        },
+        "Contents": [
+          {
+            "Text": "a duergar child #9196",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9198,
+        "Name": "Small Pool #9198",
+        "Connections": {
+          "North": 9196,
+          "East": 9199,
+          "South": 9200,
+          "West": 9193
+        },
+        "Contents": [
+          {
+            "Text": "a duergar child #9196",
+            "Color": "red"
+          },
+          {
+            "Text": "a cave rat #9157",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9199,
+        "Name": "Waterfall #9199",
+        "Connections": {
+          "North": 9197,
+          "South": 9201,
+          "West": 9198
+        },
+        "Contents": [
+          {
+            "Text": "a duergar child #9196",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar female #9185",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9200,
+        "Name": "Warrens #9200",
+        "Connections": {
+          "North": 9198,
+          "East": 9201,
+          "South": 9202,
+          "West": 9194
+        },
+        "Contents": [
+          {
+            "Text": "a duergar child #9196",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9053,
+        "FrameColor": "blue",
+        "Name": "To catacombs #9053",
+        "Color": "blue",
+        "Connections": {
+          "North": 9052,
+          "Down": 9100
+        }
+      },
+      {
+        "Id": 20600,
+        "FrameColor": "blue",
+        "Name": "To potpourri #20600",
+        "Color": "blue",
+        "Connections": {
+          "South": 9109,
+          "West": 20601
+        }
+      },
+      {
+        "Id": 9221,
+        "FrameColor": "blue",
+        "Name": "To goblin #9221",
+        "Color": "blue",
+        "Connections": {
+          "South": 9222,
+          "Up": 9133
+        }
+      },
+      {
+        "Id": 9208,
+        "FrameColor": "blue",
+        "Name": "To goblin #9208",
+        "Color": "blue",
+        "Connections": {
+          "North": 9209,
+          "South": 9144
+        }
+      },
+      {
+        "Id": 42220,
+        "FrameColor": "blue",
+        "Name": "To ant #42220",
+        "Color": "blue",
+        "Connections": {
+          "East": 42167,
+          "Down": 9173
+        }
+      },
+      {
+        "Id": 9204,
+        "FrameColor": "blue",
+        "Name": "To goblin #9204",
+        "Color": "blue",
+        "Connections": {
+          "East": 9192,
+          "South": 9205
+        }
+      },
+      {
+        "Id": 9205,
+        "FrameColor": "blue",
+        "Name": "To goblin #9205",
+        "Color": "blue",
+        "Connections": {
+          "North": 9204,
+          "East": 9193,
+          "South": 9206
+        }
+      },
+      {
+        "Id": 9206,
+        "FrameColor": "blue",
+        "Name": "To goblin #9206",
+        "Color": "blue",
+        "Connections": {
+          "North": 9205,
+          "East": 9194,
+          "South": 9207
+        }
+      },
+      {
+        "Id": 9202,
+        "FrameColor": "blue",
+        "Name": "To goblin #9202",
+        "Color": "blue",
+        "Connections": {
+          "North": 9200,
+          "East": 9203,
+          "West": 9195
+        }
+      },
+      {
+        "Id": 9207,
+        "FrameColor": "blue",
+        "Name": "To goblin #9207",
+        "Color": "blue",
+        "Connections": {
+          "North": 9206,
+          "East": 9195
+        }
+      },
+      {
+        "Id": 9201,
+        "FrameColor": "blue",
+        "Name": "To goblin #9201",
+        "Color": "blue",
+        "Connections": {
+          "North": 9199,
+          "South": 9203,
+          "West": 9200
+        }
+      }
+    ]
+  }
+}

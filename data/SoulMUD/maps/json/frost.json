@@ -1,0 +1,516 @@
+{
+  "Area": {
+    "Name": "frost",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 80444,
+        "Name": "Ice Cave Entrance #80444",
+        "Connections": {
+          "West": 48101,
+          "Down": 80445
+        }
+      },
+      {
+        "Id": 80445,
+        "Name": "Ice Cave #80445",
+        "Connections": {
+          "Up": 80444,
+          "Down": 80448
+        }
+      },
+      {
+        "Id": 80446,
+        "Name": "Ice Crevice #80446",
+        "Connections": {
+          "South": 80448
+        }
+      },
+      {
+        "Id": 80447,
+        "Name": "Ice Crevice #80447",
+        "Connections": {
+          "East": 80448
+        }
+      },
+      {
+        "Id": 80448,
+        "Name": "Base of the Ice Cave #80448",
+        "Connections": {
+          "North": 80446,
+          "East": 80452,
+          "South": 80450,
+          "West": 80447,
+          "Up": 80445
+        }
+      },
+      {
+        "Id": 80449,
+        "Name": "Ice Ledge #80449",
+        "Connections": {
+          "Down": 80450
+        },
+        "Contents": [
+          {
+            "Text": "An ice monster #80456",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80450,
+        "Name": "Ice Crevice #80450",
+        "Connections": {
+          "North": 80448,
+          "Up": 80449,
+          "Down": 80454
+        }
+      },
+      {
+        "Id": 80451,
+        "Name": "Ice Ledge #80451",
+        "Connections": {
+          "Down": 80452
+        },
+        "Contents": [
+          {
+            "Text": "An ice monster #80456",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80452,
+        "Name": "Ice Crevice #80452",
+        "Connections": {
+          "West": 80448,
+          "Up": 80451,
+          "Down": 80460
+        }
+      },
+      {
+        "Id": 80453,
+        "Name": "Ice Passageway #80453",
+        "Connections": {
+          "East": 80460,
+          "South": 80454,
+          "Down": 80466
+        }
+      },
+      {
+        "Id": 80454,
+        "Name": "Ice Corridor #80454",
+        "Connections": {
+          "North": 80453,
+          "East": 80456,
+          "South": 80455,
+          "Up": 80450
+        }
+      },
+      {
+        "Id": 80455,
+        "Name": "Ice Corridor #80455",
+        "Connections": {
+          "North": 80454,
+          "East": 80457
+        },
+        "Contents": [
+          {
+            "Text": "An ice gesper #80455",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80456,
+        "Name": "Ice Corridor #80456",
+        "Connections": {
+          "South": 80457,
+          "West": 80454
+        },
+        "Contents": [
+          {
+            "Text": "An ice gesper #80454",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80457,
+        "Name": "Ice Corridor #80457",
+        "Connections": {
+          "North": 80456,
+          "East": 80459,
+          "South": 80458,
+          "West": 80455
+        }
+      },
+      {
+        "Id": 80458,
+        "Name": "Small Ice Cavern #80458",
+        "Connections": {
+          "North": 80457
+        },
+        "Contents": [
+          {
+            "Text": "An ice wyrm #80451",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80459,
+        "Name": "Small Ice Cavern #80459",
+        "Connections": {
+          "West": 80457
+        },
+        "Contents": [
+          {
+            "Text": "An ice wyrm #80451",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80460,
+        "Name": "Intersection of Ice #80460",
+        "Connections": {
+          "North": 80461,
+          "East": 80462,
+          "West": 80453,
+          "Up": 80452
+        },
+        "Contents": [
+          {
+            "Text": "An ice gesper #80453",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80461,
+        "Name": "Ice Corridor #80461",
+        "Connections": {
+          "East": 80463,
+          "South": 80460
+        }
+      },
+      {
+        "Id": 80462,
+        "Name": "Ice Corridor #80462",
+        "Connections": {
+          "North": 80463,
+          "West": 80460
+        }
+      },
+      {
+        "Id": 80463,
+        "Name": "Ice Corridor #80463",
+        "Connections": {
+          "North": 80464,
+          "East": 80465,
+          "South": 80462,
+          "West": 80461
+        },
+        "Contents": [
+          {
+            "Text": "An ice gesper #80452",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80464,
+        "Name": "Small Ice Cavern #80464",
+        "Connections": {
+          "South": 80463
+        },
+        "Contents": [
+          {
+            "Text": "An ice wyrm #80451",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80465,
+        "Name": "Small Ice Cavern #80465",
+        "Connections": {
+          "West": 80463
+        },
+        "Contents": [
+          {
+            "Text": "An ice wyrm #80451",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80466,
+        "Name": "Ice Shaft #80466",
+        "Connections": {
+          "South": 80467,
+          "Up": 80453,
+          "Down": 80469
+        }
+      },
+      {
+        "Id": 80467,
+        "Name": "Southern Ice Grotto #80467",
+        "Connections": {
+          "North": 80466
+        },
+        "Contents": [
+          {
+            "Text": "A small frost dragon #80446",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80468,
+        "Name": "Western Ice Grotto #80468",
+        "Connections": {
+          "East": 80469
+        },
+        "Contents": [
+          {
+            "Text": "A small frost dragon #80446",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80469,
+        "Name": "Ice Shaft #80469",
+        "Connections": {
+          "West": 80468,
+          "Up": 80466,
+          "Down": 80470
+        }
+      },
+      {
+        "Id": 80470,
+        "Name": "Ice Shaft #80470",
+        "Connections": {
+          "North": 80471,
+          "East": 80472,
+          "South": 80473,
+          "West": 80474,
+          "Up": 80469,
+          "Down": 80475
+        }
+      },
+      {
+        "Id": 80471,
+        "Name": "Shrine of the Northern Wind #80471",
+        "Connections": {
+          "South": 80470
+        },
+        "Contents": [
+          {
+            "Text": "The North Wind #80447",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80472,
+        "Name": "Shrine of the Eastern Wind #80472",
+        "Connections": {
+          "West": 80470
+        },
+        "Contents": [
+          {
+            "Text": "The East Wind #80448",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80473,
+        "Name": "Shrine of the Southern Wind #80473",
+        "Connections": {
+          "North": 80470
+        },
+        "Contents": [
+          {
+            "Text": "The South Wind #80450",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80474,
+        "Name": "Shrine of the Western Wind #80474",
+        "Connections": {
+          "East": 80470
+        },
+        "Contents": [
+          {
+            "Text": "The West Wind #80449",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80475,
+        "Name": "Ice Shaft #80475",
+        "Connections": {
+          "East": 80476,
+          "Up": 80470,
+          "Down": 80478
+        }
+      },
+      {
+        "Id": 80476,
+        "Name": "Eastern Ice Grotto #80476",
+        "Connections": {
+          "West": 80475
+        },
+        "Contents": [
+          {
+            "Text": "A small frost dragon #80446",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80477,
+        "Name": "Northern Ice Grotto #80477",
+        "Connections": {
+          "South": 80478
+        },
+        "Contents": [
+          {
+            "Text": "A small frost dragon #80446",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80478,
+        "Name": "Bottom of the Ice Shaft #80478",
+        "Connections": {
+          "North": 80477,
+          "South": 80479,
+          "Up": 80475
+        },
+        "Contents": [
+          {
+            "Text": "A flying ice gesper #80457",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80479,
+        "Name": "Ice Fortress #80479",
+        "Connections": {
+          "North": 80478,
+          "East": 80481,
+          "South": 80483,
+          "West": 80480
+        }
+      },
+      {
+        "Id": 80480,
+        "Name": "Ice Fortress #80480",
+        "Connections": {
+          "East": 80479,
+          "South": 80482
+        },
+        "Contents": [
+          {
+            "Text": "A frost dragon #80445",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80481,
+        "Name": "Ice Fortress #80481",
+        "Connections": {
+          "South": 80484,
+          "West": 80479
+        },
+        "Contents": [
+          {
+            "Text": "A frost dragon #80445",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80482,
+        "Name": "Ice Fortress #80482",
+        "Connections": {
+          "North": 80480,
+          "East": 80483
+        },
+        "Contents": [
+          {
+            "Text": "A frost dragon #80445",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80483,
+        "Name": "Ice Fortress #80483",
+        "Connections": {
+          "North": 80479,
+          "East": 80484,
+          "South": 80485,
+          "West": 80482
+        }
+      },
+      {
+        "Id": 80484,
+        "Name": "Ice Fortress #80484",
+        "Connections": {
+          "North": 80481,
+          "West": 80483
+        },
+        "Contents": [
+          {
+            "Text": "A frost dragon #80445",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80485,
+        "Name": "Ice Fortress #80485",
+        "Connections": {
+          "North": 80483,
+          "Down": 80486
+        }
+      },
+      {
+        "Id": 80486,
+        "Name": "Heart of the Ice Fortress #80486",
+        "Connections": {
+          "Up": 80485
+        },
+        "Contents": [
+          {
+            "Text": "The Queen Frost Dragon #80444",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 48101,
+        "FrameColor": "blue",
+        "Name": "To hellwell #48101",
+        "Color": "blue",
+        "Connections": {
+          "North": 48102,
+          "East": 80444,
+          "West": 42850
+        }
+      }
+    ]
+  }
+}

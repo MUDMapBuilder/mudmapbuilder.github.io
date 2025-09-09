@@ -1,0 +1,508 @@
+{
+  "Area": {
+    "Name": "newquick",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 70100,
+        "Name": "Top of the Tree #70100",
+        "Connections": {
+          "Down": 70119
+        },
+        "Contents": [
+          {
+            "Text": "A quickling guard #70111",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 70101,
+        "Name": "Dark Forest Trail #70101",
+        "Connections": {
+          "North": 70119,
+          "East": 70102,
+          "West": 3015
+        },
+        "Contents": [
+          {
+            "Text": "A quickling commoner #70108",
+            "Color": "green"
+          },
+          {
+            "Text": "A quickling commoner #70108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 70102,
+        "Name": "Dark Forest Trail #70102",
+        "Connections": {
+          "East": 70103,
+          "West": 70101
+        }
+      },
+      {
+        "Id": 70103,
+        "Name": "Dark Forest Trail #70103",
+        "Connections": {
+          "South": 70104,
+          "West": 70102
+        }
+      },
+      {
+        "Id": 70104,
+        "Name": "Dark Forest Trail #70104",
+        "Connections": {
+          "North": 70103,
+          "East": 70105
+        },
+        "Contents": [
+          {
+            "Text": "a quickling guard #70105",
+            "Color": "red"
+          },
+          {
+            "Text": "a quickling guard #70105",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 70105,
+        "Name": "Dark Forest Trail #70105",
+        "Connections": {
+          "East": 70106,
+          "West": 70104
+        }
+      },
+      {
+        "Id": 70106,
+        "Name": "The Large Intersection #70106",
+        "Connections": {
+          "North": 70107,
+          "West": 70105
+        }
+      },
+      {
+        "Id": 70107,
+        "Name": "Evil Forest Path #70107",
+        "Connections": {
+          "North": 70108,
+          "South": 70106,
+          "West": 70125
+        },
+        "Contents": [
+          {
+            "Text": "a quickling guard #70105",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 70108,
+        "Name": "Evil Forest Path #70108",
+        "Connections": {
+          "North": 70109,
+          "East": 70127,
+          "South": 70107,
+          "West": 70126
+        },
+        "Contents": [
+          {
+            "Text": "a quickling guard #70104",
+            "Color": "green"
+          },
+          {
+            "Text": "a quickling guard #70104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 70109,
+        "Name": "Evil Forest Path #70109",
+        "Connections": {
+          "South": 70108,
+          "West": 70110
+        },
+        "Contents": [
+          {
+            "Text": "a quickling guard #70105",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 70110,
+        "Name": "Evil Forest Path #70110",
+        "Connections": {
+          "North": 70111,
+          "East": 70109
+        }
+      },
+      {
+        "Id": 70111,
+        "Name": "Evil Forest Path #70111",
+        "Connections": {
+          "North": 70112,
+          "South": 70110
+        }
+      },
+      {
+        "Id": 70112,
+        "Name": "The Dark Clearing #70112",
+        "Connections": {
+          "North": 70113,
+          "East": 70121,
+          "South": 70111,
+          "West": 70120
+        }
+      },
+      {
+        "Id": 70113,
+        "Name": "Evil Forest Path #70113",
+        "Connections": {
+          "South": 70112,
+          "West": 70114
+        },
+        "Contents": [
+          {
+            "Text": "a quickling commoner #70109",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 70114,
+        "Name": "Evil Forest Path #70114",
+        "Connections": {
+          "East": 70113,
+          "West": 70115
+        }
+      },
+      {
+        "Id": 70115,
+        "Name": "Evil Forest Path #70115",
+        "Connections": {
+          "North": 70123,
+          "East": 70114,
+          "West": 70116
+        }
+      },
+      {
+        "Id": 70116,
+        "Name": "Evil Forest Path #70116",
+        "Connections": {
+          "East": 70115,
+          "South": 70117
+        }
+      },
+      {
+        "Id": 70117,
+        "Name": "Evil Forest Path #70117",
+        "Connections": {
+          "North": 70116,
+          "South": 70118
+        },
+        "Contents": [
+          {
+            "Text": "a quickling commoner #70109",
+            "Color": "green"
+          },
+          {
+            "Text": "A quickling commoner #70108",
+            "Color": "green"
+          },
+          {
+            "Text": "A quickling commoner #70108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 70118,
+        "Name": "Evil Forest Path #70118",
+        "Connections": {
+          "North": 70117,
+          "South": 70119,
+          "West": 70128
+        },
+        "Contents": [
+          {
+            "Text": "a quickling guard #70105",
+            "Color": "red"
+          },
+          {
+            "Text": "a quickling guard #70105",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 70119,
+        "Name": "Evil Forest Path #70119",
+        "Connections": {
+          "North": 70118,
+          "South": 70101,
+          "Up": 70100
+        }
+      },
+      {
+        "Id": 70120,
+        "Name": "Sinister Trail #70120",
+        "Connections": {
+          "East": 70112,
+          "South": 70129
+        }
+      },
+      {
+        "Id": 70121,
+        "Name": "Sinister Trail #70121",
+        "Connections": {
+          "East": 70122,
+          "West": 70112
+        },
+        "Contents": [
+          {
+            "Text": "a quickling guard #70105",
+            "Color": "red"
+          },
+          {
+            "Text": "a quickling guard #70105",
+            "Color": "red"
+          },
+          {
+            "Text": "a quickling commoner #70107",
+            "Color": "green"
+          },
+          {
+            "Text": "a quickling commoner #70109",
+            "Color": "green"
+          },
+          {
+            "Text": "a quickling commoner #70109",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 70122,
+        "Name": "Sinister Trail #70122",
+        "Connections": {
+          "East": 70131,
+          "South": 70130,
+          "West": 70121
+        },
+        "Contents": [
+          {
+            "Text": "the quickling apprentice #70103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 70123,
+        "Name": "The Dark Path #70123",
+        "Connections": {
+          "North": 70124,
+          "South": 70115
+        },
+        "Contents": [
+          {
+            "Text": "The guardian statue #70114",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 70124,
+        "Name": "The Dark Path #70124",
+        "Connections": {
+          "South": 70123,
+          "West": 70132
+        },
+        "Contents": [
+          {
+            "Text": "a quickling princess #30210",
+            "Color": "green"
+          },
+          {
+            "Text": "a quickling noble #30212",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 70125,
+        "Name": "A Dirty Hut #70125",
+        "Connections": {
+          "East": 70107
+        },
+        "Contents": [
+          {
+            "Text": "a quickling baby #30203",
+            "Color": "red"
+          },
+          {
+            "Text": "a quickling baby #30203",
+            "Color": "red"
+          },
+          {
+            "Text": "a quickling baby #30203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 70126,
+        "Name": "Master\u0027s Abode #70126",
+        "Connections": {
+          "East": 70108
+        },
+        "Contents": [
+          {
+            "Text": "a quickling master #30214",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 70127,
+        "Name": "A Dirty Hut #70127",
+        "Connections": {
+          "West": 70108
+        }
+      },
+      {
+        "Id": 70128,
+        "Name": "Quickling Armour #70128",
+        "Connections": {
+          "East": 70118
+        },
+        "Contents": [
+          {
+            "Text": "a quickling guard #70105",
+            "Color": "red"
+          },
+          {
+            "Text": "a quickling guard #70105",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 70129,
+        "Name": "Quickling Raider Barracks #70129",
+        "Connections": {
+          "North": 70120
+        },
+        "Contents": [
+          {
+            "Text": "a quickling guard #70105",
+            "Color": "red"
+          },
+          {
+            "Text": "a quickling guard #70105",
+            "Color": "red"
+          },
+          {
+            "Text": "A quickling guard #70111",
+            "Color": "green"
+          },
+          {
+            "Text": "the quickling patrol leader #70106",
+            "Color": "green"
+          },
+          {
+            "Text": "the quickling patrol leader #70113",
+            "Color": "green"
+          },
+          {
+            "Text": "the quickling raider captain #30205",
+            "Color": "red"
+          },
+          {
+            "Text": "a quickling raider #30202",
+            "Color": "red"
+          },
+          {
+            "Text": "a quickling raider #30202",
+            "Color": "red"
+          },
+          {
+            "Text": "a quickling raider #30202",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 70130,
+        "Name": "A Small Hut #70130",
+        "Connections": {
+          "North": 70122
+        },
+        "Contents": [
+          {
+            "Text": "a quickling commoner #70109",
+            "Color": "green"
+          },
+          {
+            "Text": "a quickling commoner #70107",
+            "Color": "green"
+          },
+          {
+            "Text": "a quickling shaman #30213",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 70131,
+        "Name": "A Small Hut #70131",
+        "Connections": {
+          "West": 70122
+        },
+        "Contents": [
+          {
+            "Text": "the quickling wizard #70101",
+            "Color": "red"
+          },
+          {
+            "Text": "the quickling apprentice #70103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 70132,
+        "Name": "A Large Hut #70132",
+        "Connections": {
+          "East": 70124
+        },
+        "Contents": [
+          {
+            "Text": "Tephanis, King of the Quicklings #70100",
+            "Color": "red"
+          },
+          {
+            "Text": "Anaseris, Queen of the Quicklings #70102",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3015,
+        "FrameColor": "blue",
+        "Name": "To lyrra #3015",
+        "Color": "blue",
+        "Connections": {
+          "North": 3011,
+          "East": 70101,
+          "South": 80439
+        }
+      }
+    ]
+  }
+}

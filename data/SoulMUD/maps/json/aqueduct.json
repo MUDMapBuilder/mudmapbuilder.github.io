@@ -1,0 +1,447 @@
+{
+  "Area": {
+    "Name": "aqueduct",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 18261,
+        "Name": "Aqueduct Tunnel #18261",
+        "Connections": {
+          "South": 18262,
+          "West": 18264
+        }
+      },
+      {
+        "Id": 18262,
+        "Name": "Aqueduct Tunnel #18262",
+        "Connections": {
+          "North": 18261,
+          "South": 18263
+        },
+        "Contents": [
+          {
+            "Text": "an Aqueduct worker #18263",
+            "Color": "green"
+          },
+          {
+            "Text": "an Aqueduct worker #18262",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18263,
+        "Name": "Aqueduct Construction #18263",
+        "Connections": {
+          "North": 18262,
+          "South": 18265
+        },
+        "Contents": [
+          {
+            "Text": "Bob, The Aqueduct Foreman #18261",
+            "Color": "green"
+          },
+          {
+            "Text": "an Aqueduct worker #18263",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18264,
+        "Name": "Aqueduct Entrance #18264",
+        "Connections": {
+          "East": 18261,
+          "West": 4829
+        },
+        "Contents": [
+          {
+            "Text": "an Aqueduct worker #18263",
+            "Color": "green"
+          },
+          {
+            "Text": "an aqueduct guard #18265",
+            "Color": "green"
+          },
+          {
+            "Text": "an aqueduct guard #18265",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18265,
+        "Name": "Aqueduct Construction #18265",
+        "Connections": {
+          "North": 18263,
+          "East": 18266
+        },
+        "Contents": [
+          {
+            "Text": "an Aqueduct worker #18263",
+            "Color": "green"
+          },
+          {
+            "Text": "an Aqueduct worker #18262",
+            "Color": "green"
+          },
+          {
+            "Text": "an Aqueduct worker #18262",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18266,
+        "Name": "Aqueduct Construction #18266",
+        "Connections": {
+          "South": 18267,
+          "West": 18265
+        },
+        "Contents": [
+          {
+            "Text": "an Aqueduct worker #18262",
+            "Color": "green"
+          },
+          {
+            "Text": "the chief guard of the aqueduct #18266",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18267,
+        "Name": "Aqueduct Construction #18267",
+        "Connections": {
+          "North": 18266,
+          "South": 18268
+        },
+        "Contents": [
+          {
+            "Text": "an Aqueduct worker #18263",
+            "Color": "green"
+          },
+          {
+            "Text": "a water rat #18267",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18268,
+        "Name": "Northeast of a Great Boulder in the Aqueduct #18268",
+        "Connections": {
+          "North": 18267,
+          "West": 18269
+        },
+        "Contents": [
+          {
+            "Text": "an Aqueduct worker #18262",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18269,
+        "Name": "North of a Great Boulder in the Aqueduct #18269",
+        "Connections": {
+          "East": 18268,
+          "West": 18270
+        },
+        "Contents": [
+          {
+            "Text": "an aqueduct guard #18265",
+            "Color": "green"
+          },
+          {
+            "Text": "an aqueduct guard #18265",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18270,
+        "Name": "Northwest of a Great Boulder in the Aqueduct #18270",
+        "Connections": {
+          "East": 18269,
+          "South": 18271
+        },
+        "Contents": [
+          {
+            "Text": "a water rat #18267",
+            "Color": "red"
+          },
+          {
+            "Text": "a water rat #18267",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18271,
+        "Name": "Southwest of a Great Boulder in the Aqueduct #18271",
+        "Connections": {
+          "North": 18270,
+          "East": 18272
+        },
+        "Contents": [
+          {
+            "Text": "an aqueduct guard #18265",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18272,
+        "Name": "South of a Great Boulder in the Aqueduct #18272",
+        "Connections": {
+          "South": 18273,
+          "West": 18271
+        },
+        "Contents": [
+          {
+            "Text": "a water rat #18267",
+            "Color": "red"
+          },
+          {
+            "Text": "a water rat #18267",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18273,
+        "Name": "Base of a Small Waterfall in the Aqueduct #18273",
+        "Connections": {
+          "North": 18272,
+          "Up": 18274
+        },
+        "Contents": [
+          {
+            "Text": "an aqueduct guard #18265",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18274,
+        "Name": "Small Waterfall in the Aqueduct #18274",
+        "Connections": {
+          "South": 18275,
+          "Down": 18273
+        },
+        "Contents": [
+          {
+            "Text": "the lizard man of the aqueduct #18268",
+            "Color": "green"
+          },
+          {
+            "Text": "a water rat #18267",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18275,
+        "Name": "Rushing Water in the Aqueduct #18275",
+        "Connections": {
+          "North": 18274,
+          "South": 18276
+        }
+      },
+      {
+        "Id": 18276,
+        "Name": "Cracked Walkway in the Aqueduct #18276",
+        "Connections": {
+          "North": 18275,
+          "South": 18277
+        },
+        "Contents": [
+          {
+            "Text": "the lizard man of the aqueduct #18268",
+            "Color": "green"
+          },
+          {
+            "Text": "the lizard man of the aqueduct #18268",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18277,
+        "Name": "Below the Tupelo Fountain #18277",
+        "Connections": {
+          "North": 18276,
+          "South": 18278
+        },
+        "Contents": [
+          {
+            "Text": "the lizard man of the aqueduct #18268",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18278,
+        "Name": "Below the Tupelo Windmill #18278",
+        "Connections": {
+          "North": 18277,
+          "Up": 18279
+        }
+      },
+      {
+        "Id": 18279,
+        "Name": "Base of the Tupelo Windmill #18279",
+        "Connections": {
+          "North": 20063,
+          "Up": 18316,
+          "Down": 18278
+        },
+        "Contents": [
+          {
+            "Text": "a little old man #18264",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18282,
+        "Name": "Small Waterfall in the Aqueduct #18282",
+        "Connections": {}
+      },
+      {
+        "Id": 18292,
+        "Name": "Small Waterfall in the Aqueduct #18292",
+        "Connections": {}
+      },
+      {
+        "Id": 18294,
+        "Name": "Giant Mountain Dam #18294",
+        "Connections": {}
+      },
+      {
+        "Id": 18295,
+        "Name": "Below the Bal Harbor Idol #18295",
+        "Connections": {
+          "North": 18296,
+          "South": 18261
+        }
+      },
+      {
+        "Id": 18296,
+        "Name": "T-Junction in the Aqueduct #18296",
+        "Connections": {
+          "South": 18295
+        }
+      },
+      {
+        "Id": 18303,
+        "Name": "Small Waterfall in the Aqueduct #18303",
+        "Connections": {}
+      },
+      {
+        "Id": 18305,
+        "Name": "Aqueduct Under Goblin Mountain #18305",
+        "Connections": {
+          "East": 9812
+        }
+      },
+      {
+        "Id": 18310,
+        "Name": "Small Waterfall in the Aqueduct #18310",
+        "Connections": {}
+      },
+      {
+        "Id": 18315,
+        "Name": "Aqueduct Under Sun Temple #18315",
+        "Connections": {
+          "South": 80027
+        }
+      },
+      {
+        "Id": 18316,
+        "Name": "Top of the Tupelo Windmill #18316",
+        "Connections": {
+          "Down": 18279
+        }
+      },
+      {
+        "Id": 18317,
+        "Name": "Cave Passage #18317",
+        "Connections": {
+          "North": 18318,
+          "South": 18014
+        }
+      },
+      {
+        "Id": 18318,
+        "Name": "A Great Underground Waterfall #18318",
+        "Connections": {
+          "East": 1306,
+          "South": 18317
+        }
+      },
+      {
+        "Id": 4829,
+        "FrameColor": "blue",
+        "Name": "To sewer #4829",
+        "Color": "blue",
+        "Connections": {
+          "East": 18264,
+          "West": 4828
+        }
+      },
+      {
+        "Id": 20063,
+        "FrameColor": "blue",
+        "Name": "To tupelo #20063",
+        "Color": "blue",
+        "Connections": {
+          "North": 20062,
+          "East": 20065,
+          "South": 18279,
+          "West": 20064
+        }
+      },
+      {
+        "Id": 9812,
+        "FrameColor": "blue",
+        "Name": "To goblin #9812",
+        "Color": "blue",
+        "Connections": {
+          "East": 9813,
+          "West": 9811
+        }
+      },
+      {
+        "Id": 80027,
+        "FrameColor": "blue",
+        "Name": "To suntemple #80027",
+        "Color": "blue",
+        "Connections": {
+          "East": 80026,
+          "South": 80028
+        }
+      },
+      {
+        "Id": 18014,
+        "FrameColor": "blue",
+        "Name": "To giant #18014",
+        "Color": "blue",
+        "Connections": {
+          "North": 18317,
+          "South": 18013
+        }
+      },
+      {
+        "Id": 1306,
+        "FrameColor": "blue",
+        "Name": "To godsland #1306",
+        "Color": "blue",
+        "Connections": {
+          "West": 18318
+        }
+      }
+    ]
+  }
+}

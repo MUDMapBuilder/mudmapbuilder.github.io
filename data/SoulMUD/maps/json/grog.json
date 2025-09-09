@@ -1,0 +1,990 @@
+{
+  "Area": {
+    "Name": "grog",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 64000,
+        "Name": "Temple of the Damned #64000",
+        "Connections": {
+          "North": 64001,
+          "Down": 64002
+        }
+      },
+      {
+        "Id": 64001,
+        "Name": "Crying Room #64001",
+        "Connections": {
+          "South": 1303
+        }
+      },
+      {
+        "Id": 64002,
+        "Name": "Well of Souls #64002",
+        "Connections": {
+          "Up": 1303
+        }
+      },
+      {
+        "Id": 64005,
+        "Name": "A Calm Pool #64005",
+        "Connections": {
+          "South": 64006
+        },
+        "Contents": [
+          {
+            "Text": "a sheep #64012",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64006,
+        "Name": "Lush Follage #64006",
+        "Connections": {
+          "North": 64005,
+          "West": 64007
+        },
+        "Contents": [
+          {
+            "Text": "a burnflower #64014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64007,
+        "Name": "Dense Underbrush #64007",
+        "Connections": {
+          "East": 64006,
+          "South": 64008
+        },
+        "Contents": [
+          {
+            "Text": "a sandling #64009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64008,
+        "Name": "Overgrown Path #64008",
+        "Connections": {
+          "North": 64007,
+          "West": 64009
+        },
+        "Contents": [
+          {
+            "Text": "a sandling #64009",
+            "Color": "green"
+          },
+          {
+            "Text": "a sheep #64012",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64009,
+        "Name": "Wooden Dock #64009",
+        "Connections": {
+          "North": 64013
+        },
+        "Contents": [
+          {
+            "Text": "a drunken fisherman #12370",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64010,
+        "Name": "Beach Front #64010",
+        "Connections": {
+          "North": 64009,
+          "East": 64011
+        },
+        "Contents": [
+          {
+            "Text": "a sandling #64009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64011,
+        "Name": "Winding Sandy Trail #64011",
+        "Connections": {
+          "South": 64012,
+          "West": 64010
+        },
+        "Contents": [
+          {
+            "Text": "a sandling #64009",
+            "Color": "green"
+          },
+          {
+            "Text": "a sheep #64012",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64012,
+        "Name": "Rocky Trail #64012",
+        "Connections": {
+          "North": 64011
+        },
+        "Contents": [
+          {
+            "Text": "a sandling #64009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64013,
+        "Name": "Climbing the Plateau #64013",
+        "Connections": {
+          "South": 64009,
+          "West": 43024,
+          "Up": 64014
+        },
+        "Contents": [
+          {
+            "Text": "a sheep #64012",
+            "Color": "green"
+          },
+          {
+            "Text": "a sheep #64012",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64014,
+        "Name": "Small Plateau #64014",
+        "Connections": {
+          "North": 64015,
+          "Down": 64013
+        }
+      },
+      {
+        "Id": 64015,
+        "Name": "Holding Pen #64015",
+        "Connections": {
+          "East": 64017,
+          "South": 64014,
+          "West": 64016
+        },
+        "Contents": [
+          {
+            "Text": "a sandling #64009",
+            "Color": "green"
+          },
+          {
+            "Text": "a beefalo #64011",
+            "Color": "green"
+          },
+          {
+            "Text": "a beefalo #64011",
+            "Color": "green"
+          },
+          {
+            "Text": "a beefalo #64011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64016,
+        "Name": "Slaughtering Block #64016",
+        "Connections": {
+          "East": 64015
+        },
+        "Contents": [
+          {
+            "Text": "Belch the giant butcher #64027",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64017,
+        "Name": "Grazing Field #64017",
+        "Connections": {
+          "North": 64020,
+          "East": 64019,
+          "West": 64015
+        }
+      },
+      {
+        "Id": 64019,
+        "Name": "South East Field #64019",
+        "Connections": {
+          "North": 64021,
+          "West": 64017
+        },
+        "Contents": [
+          {
+            "Text": "a beefalo #64011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64020,
+        "Name": "North West Field #64020",
+        "Connections": {
+          "East": 64021,
+          "South": 64017
+        },
+        "Contents": [
+          {
+            "Text": "a beefalo #64011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64021,
+        "Name": "North East Field #64021",
+        "Connections": {
+          "North": 64022,
+          "South": 64019,
+          "West": 64020
+        },
+        "Contents": [
+          {
+            "Text": "a beefalo #64011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64022,
+        "Name": "Worn Path #64022",
+        "Connections": {
+          "North": 64023,
+          "South": 64021
+        }
+      },
+      {
+        "Id": 64023,
+        "Name": "Steep Climb #64023",
+        "Connections": {
+          "East": 64024,
+          "South": 64022
+        }
+      },
+      {
+        "Id": 64024,
+        "Name": "Overlook #64024",
+        "Connections": {
+          "North": 64025,
+          "West": 64023
+        },
+        "Contents": [
+          {
+            "Text": "a brambleweed bush #64013",
+            "Color": "red"
+          },
+          {
+            "Text": "a brambleweed bush #64013",
+            "Color": "red"
+          },
+          {
+            "Text": "a brambleweed bush #64013",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 64025,
+        "Name": "Snaking Path #64025",
+        "Connections": {
+          "North": 64026,
+          "South": 64024
+        }
+      },
+      {
+        "Id": 64026,
+        "Name": "Cave Entrance  #64026",
+        "Connections": {
+          "North": 64028,
+          "South": 64025,
+          "West": 64027
+        }
+      },
+      {
+        "Id": 64027,
+        "Name": "Small Cave #64027",
+        "Connections": {
+          "East": 64026
+        },
+        "Contents": [
+          {
+            "Text": "a beastheaded giant #64020",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64028,
+        "Name": "Edge of the Cliff #64028",
+        "Connections": {
+          "South": 64026,
+          "West": 64029
+        },
+        "Contents": [
+          {
+            "Text": "a darter #64015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 64029,
+        "Name": "Continuing Trail #64029",
+        "Connections": {
+          "East": 64028,
+          "West": 64030
+        }
+      },
+      {
+        "Id": 64030,
+        "Name": "Intersection #64030",
+        "Connections": {
+          "North": 64032,
+          "East": 64029,
+          "South": 64031,
+          "West": 64034,
+          "Up": 64073
+        },
+        "Contents": [
+          {
+            "Text": "a darter #64015",
+            "Color": "red"
+          },
+          {
+            "Text": "a giant megapede #64026",
+            "Color": "red"
+          },
+          {
+            "Text": "a lizard #64024",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64031,
+        "Name": "Dark Cave #64031",
+        "Connections": {
+          "North": 64030
+        },
+        "Contents": [
+          {
+            "Text": "a beastheaded giant #64020",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64032,
+        "Name": "Rickety Bridge #64032",
+        "Connections": {
+          "North": 64033,
+          "East": 64045,
+          "South": 64030
+        },
+        "Contents": [
+          {
+            "Text": "a magma golem #64017",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 64033,
+        "Name": "Shaman\u0027s Cave #64033",
+        "Connections": {
+          "South": 64032
+        },
+        "Contents": [
+          {
+            "Text": "Rog, the giant shaman #64033",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64034,
+        "Name": "Continuing Trail #64034",
+        "Connections": {
+          "East": 64030,
+          "West": 64035
+        }
+      },
+      {
+        "Id": 64035,
+        "Name": "Edge of the Cliff #64035",
+        "Connections": {
+          "East": 64034,
+          "South": 64036
+        },
+        "Contents": [
+          {
+            "Text": "a darter #64015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 64036,
+        "Name": "Back Side of the Mountain #64036",
+        "Connections": {
+          "North": 64035,
+          "South": 64037
+        }
+      },
+      {
+        "Id": 64037,
+        "Name": "Cave Entrance #64037",
+        "Connections": {
+          "North": 64036,
+          "East": 64038,
+          "South": 64040
+        },
+        "Contents": [
+          {
+            "Text": "a lizard #64024",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64038,
+        "Name": "Large Cave #64038",
+        "Connections": {
+          "South": 64039,
+          "West": 64037
+        },
+        "Contents": [
+          {
+            "Text": "a beastheaded giant #64020",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64039,
+        "Name": "Back of the Cave #64039",
+        "Connections": {
+          "North": 64038
+        }
+      },
+      {
+        "Id": 64040,
+        "Name": "Wide Tunnel #64040",
+        "Connections": {
+          "North": 64037,
+          "South": 64041
+        },
+        "Contents": [
+          {
+            "Text": "Astarte, the Midnight Huntress #15900",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 64041,
+        "Name": "Carved Tunnel #64041",
+        "Connections": {
+          "North": 64040,
+          "West": 64042
+        },
+        "Contents": [
+          {
+            "Text": "a slobbering drunk #64025",
+            "Color": "green"
+          },
+          {
+            "Text": "a lizard #64024",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64042,
+        "Name": "Sandy Clearing #64042",
+        "Connections": {
+          "East": 64041,
+          "South": 64043
+        },
+        "Contents": [
+          {
+            "Text": "a slobbering drunk #64025",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64043,
+        "Name": "Tavern Hall #64043",
+        "Connections": {
+          "North": 64042,
+          "East": 64044
+        }
+      },
+      {
+        "Id": 64044,
+        "Name": "Wooden Bar #64044",
+        "Connections": {
+          "West": 64043
+        },
+        "Contents": [
+          {
+            "Text": "a slobbering drunk #64025",
+            "Color": "green"
+          },
+          {
+            "Text": "a slobbering drunk #64025",
+            "Color": "green"
+          },
+          {
+            "Text": "Grog, the giant bartender #64044",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64045,
+        "Name": "Clinging to the Side #64045",
+        "Connections": {
+          "West": 64032,
+          "Down": 64046
+        }
+      },
+      {
+        "Id": 64046,
+        "Name": "Top of the Shaft #64046",
+        "Connections": {
+          "Up": 64045,
+          "Down": 64047
+        }
+      },
+      {
+        "Id": 64047,
+        "Name": "Falling through the Shaft #64047",
+        "Connections": {
+          "Up": 64046,
+          "Down": 64048
+        }
+      },
+      {
+        "Id": 64048,
+        "Name": "Nearing the Bottom #64048",
+        "Connections": {
+          "Up": 64047,
+          "Down": 64049
+        }
+      },
+      {
+        "Id": 64049,
+        "Name": "Bottom of the Shaft #64049",
+        "Connections": {
+          "North": 64078,
+          "East": 64050,
+          "South": 64079,
+          "West": 64080,
+          "Up": 64048
+        }
+      },
+      {
+        "Id": 64050,
+        "Name": "Small Alcove #64050",
+        "Connections": {
+          "West": 64049
+        },
+        "Contents": [
+          {
+            "Text": "a captured spirit #64023",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 64051,
+        "Name": "Steam Room #64051",
+        "Connections": {
+          "North": 64052
+        },
+        "Contents": [
+          {
+            "Text": "a cave fisher #64008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64052,
+        "Name": "Circular Tunnel #64052",
+        "Connections": {
+          "South": 64051,
+          "West": 64053
+        }
+      },
+      {
+        "Id": 64053,
+        "Name": "Circular Tunnel #64053",
+        "Connections": {
+          "East": 64052,
+          "West": 64055
+        }
+      },
+      {
+        "Id": 64054,
+        "Name": "Lava Bubble #64054",
+        "Connections": {
+          "West": 64058
+        },
+        "Contents": [
+          {
+            "Text": "a magman #64005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64055,
+        "Name": "Round Tunnel #64055",
+        "Connections": {
+          "East": 64053,
+          "South": 64056
+        },
+        "Contents": [
+          {
+            "Text": "a cave fisher #64008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64056,
+        "Name": "Bend in the Tunnel #64056",
+        "Connections": {
+          "North": 64055,
+          "West": 64057
+        }
+      },
+      {
+        "Id": 64057,
+        "Name": "Chamber of Lava #64057",
+        "Connections": {
+          "East": 64056,
+          "South": 64058
+        },
+        "Contents": [
+          {
+            "Text": "a magman #64005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64058,
+        "Name": "Circular Tunnel #64058",
+        "Connections": {
+          "North": 64057,
+          "East": 64054,
+          "South": 64059
+        },
+        "Contents": [
+          {
+            "Text": "a magman #64005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64059,
+        "Name": "Narrowing Tunnel #64059",
+        "Connections": {
+          "North": 64058,
+          "West": 64060
+        },
+        "Contents": [
+          {
+            "Text": "a magman #64005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64060,
+        "Name": "End of the Tunnel #64060",
+        "Connections": {
+          "East": 64059,
+          "South": 64065,
+          "West": 64062
+        }
+      },
+      {
+        "Id": 64061,
+        "Name": "Lava Chamber #64061",
+        "Connections": {
+          "East": 64081
+        }
+      },
+      {
+        "Id": 64062,
+        "Name": "Lava Chamber #64062",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "a darter #64015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 64063,
+        "Name": "Cavern #64063",
+        "Connections": {
+          "East": 64065,
+          "South": 64067,
+          "West": 64064
+        },
+        "Contents": [
+          {
+            "Text": "a harginn #64007",
+            "Color": "green"
+          },
+          {
+            "Text": "a tall harginn #64010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64064,
+        "Name": "Cavern #64064",
+        "Connections": {
+          "East": 64063,
+          "South": 64066
+        }
+      },
+      {
+        "Id": 64065,
+        "Name": "Cavern #64065",
+        "Connections": {
+          "South": 64068,
+          "West": 64063
+        }
+      },
+      {
+        "Id": 64066,
+        "Name": "Cavern #64066",
+        "Connections": {
+          "North": 64064,
+          "East": 64067,
+          "South": 64071
+        }
+      },
+      {
+        "Id": 64067,
+        "Name": "Center of the Cavern #64067",
+        "Connections": {
+          "North": 64063,
+          "East": 64068,
+          "South": 64070,
+          "West": 64066
+        }
+      },
+      {
+        "Id": 64068,
+        "Name": "Cavern #64068",
+        "Connections": {
+          "North": 64065,
+          "South": 64069,
+          "West": 64067
+        },
+        "Contents": [
+          {
+            "Text": "a harginn #64007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64069,
+        "Name": "Cavern #64069",
+        "Connections": {
+          "North": 64068,
+          "East": 64072,
+          "West": 64070
+        },
+        "Contents": [
+          {
+            "Text": "a harginn #64007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64070,
+        "Name": "Cavern #64070",
+        "Connections": {
+          "North": 64067,
+          "East": 64069,
+          "West": 64071
+        }
+      },
+      {
+        "Id": 64071,
+        "Name": "Cavern #64071",
+        "Connections": {
+          "North": 64066,
+          "East": 64070
+        },
+        "Contents": [
+          {
+            "Text": "a harginn #64007",
+            "Color": "green"
+          },
+          {
+            "Text": "a tall harginn #64010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 64072,
+        "Name": "Fissure #64072",
+        "Connections": {
+          "West": 64069
+        },
+        "Contents": [
+          {
+            "Text": "Jafar #64046",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 64073,
+        "Name": "Flying up the Volcano #64073",
+        "Connections": {
+          "Up": 64074,
+          "Down": 64030
+        }
+      },
+      {
+        "Id": 64074,
+        "Name": "Fluffy Clouds #64074",
+        "Connections": {
+          "Up": 64075,
+          "Down": 64073
+        }
+      },
+      {
+        "Id": 64075,
+        "Name": "High Above the Intersection #64075",
+        "Connections": {
+          "Up": 64076,
+          "Down": 64074
+        }
+      },
+      {
+        "Id": 64076,
+        "Name": "Rim of the Volcano #64076",
+        "Connections": {
+          "South": 64077,
+          "Down": 64075
+        }
+      },
+      {
+        "Id": 64077,
+        "Name": "Volcano Basin #64077",
+        "Connections": {
+          "North": 64076
+        },
+        "Contents": [
+          {
+            "Text": "Pzyruxal #64016",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 64078,
+        "Name": "Small Alcove #64078",
+        "Connections": {
+          "South": 64049
+        },
+        "Contents": [
+          {
+            "Text": "a captured spirit #64023",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 64079,
+        "Name": "Small Alcove #64079",
+        "Connections": {
+          "North": 64049
+        },
+        "Contents": [
+          {
+            "Text": "a captured spirit #64023",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 64080,
+        "Name": "Small Alcove #64080",
+        "Connections": {
+          "East": 64049
+        },
+        "Contents": [
+          {
+            "Text": "a captured spirit #64023",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 64081,
+        "Name": "Lava Chamber #64081",
+        "Connections": {}
+      },
+      {
+        "Id": 1303,
+        "FrameColor": "blue",
+        "Name": "To godsland #1303",
+        "Color": "blue",
+        "Connections": {
+          "North": 42069,
+          "East": 42068,
+          "South": 42064,
+          "West": 42067,
+          "Up": 42072,
+          "Down": 42071
+        }
+      },
+      {
+        "Id": 43024,
+        "FrameColor": "blue",
+        "Name": "To lostcross #43024",
+        "Color": "blue",
+        "Connections": {
+          "East": 64013,
+          "West": 43010
+        }
+      }
+    ]
+  }
+}

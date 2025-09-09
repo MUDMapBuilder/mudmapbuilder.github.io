@@ -1,0 +1,2532 @@
+{
+  "Area": {
+    "Name": "demonweb",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 40000,
+        "Name": "Opening in the Mountainside #40000",
+        "Connections": {
+          "West": 18010,
+          "Down": 40001
+        }
+      },
+      {
+        "Id": 40001,
+        "Name": "On the Rockslide #40001",
+        "Connections": {
+          "Up": 40000,
+          "Down": 40002
+        }
+      },
+      {
+        "Id": 40002,
+        "Name": "Groove in the Mountainside #40002",
+        "Connections": {
+          "East": 40003,
+          "Up": 40001
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40003,
+        "Name": "Large Rock on the Mountain #40003",
+        "Connections": {
+          "West": 40002,
+          "Down": 40004
+        }
+      },
+      {
+        "Id": 40004,
+        "Name": "Towards the Mountain Base #40004",
+        "Connections": {
+          "Up": 40003,
+          "Down": 40005
+        }
+      },
+      {
+        "Id": 40005,
+        "Name": "Bottom of the Rockslide #40005",
+        "Connections": {
+          "East": 40006,
+          "Up": 40004
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40006,
+        "Name": "On the Shore #40006",
+        "Connections": {
+          "East": 40007,
+          "West": 40005
+        },
+        "Contents": [
+          {
+            "Text": "a phase spider #40007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40007,
+        "Name": "In the Fog #40007",
+        "Connections": {
+          "East": 40008,
+          "West": 40006
+        }
+      },
+      {
+        "Id": 40008,
+        "Name": "Stumbling Through the Fog #40008",
+        "Connections": {
+          "North": 17072,
+          "South": 40009,
+          "West": 40007
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40009,
+        "Name": "Dense Fog #40009",
+        "Connections": {
+          "North": 40008,
+          "South": 40010
+        }
+      },
+      {
+        "Id": 40010,
+        "Name": "Monument in the Fens #40010",
+        "Connections": {
+          "North": 40009,
+          "Down": 40011
+        }
+      },
+      {
+        "Id": 40011,
+        "Name": "Below the Monument #40011",
+        "Connections": {
+          "East": 40012,
+          "Up": 40010
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          },
+          {
+            "Text": "a phase spider #40007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40012,
+        "Name": "A Portal Covered in Webs #40012",
+        "Connections": {
+          "South": 40013,
+          "West": 40011
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          },
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40013,
+        "Name": "Tunnel Entrance #40013",
+        "Connections": {
+          "North": 40012,
+          "South": 40014
+        }
+      },
+      {
+        "Id": 40014,
+        "Name": "Top of the Tunnel #40014",
+        "Connections": {
+          "North": 40013,
+          "Down": 40015
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40015,
+        "Name": "In the Tunnel #40015",
+        "Connections": {
+          "Up": 40014,
+          "Down": 40016
+        }
+      },
+      {
+        "Id": 40016,
+        "Name": "Sloping Tunnel #40016",
+        "Connections": {
+          "East": 40017,
+          "Up": 40015
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          },
+          {
+            "Text": "a phase spider #40007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40017,
+        "Name": "Glowing Moss #40017",
+        "Connections": {
+          "West": 40016,
+          "Down": 40018
+        }
+      },
+      {
+        "Id": 40018,
+        "Name": "Glowing Moss Covered Walls #40018",
+        "Connections": {
+          "Up": 40017,
+          "Down": 40019
+        }
+      },
+      {
+        "Id": 40019,
+        "Name": "Twist in the Tunnel #40019",
+        "Connections": {
+          "North": 40020,
+          "South": 40022,
+          "Up": 40018
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          },
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40020,
+        "Name": "Guards Secret Hideout #40020",
+        "Connections": {
+          "South": 40019,
+          "West": 40021
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          },
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          },
+          {
+            "Text": "an elite drider guard #40001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40021,
+        "Name": "Guards Secret Altar #40021",
+        "Connections": {
+          "East": 40020
+        },
+        "Contents": [
+          {
+            "Text": "the drow priestess #40020",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40022,
+        "Name": "Hand Holds in the Tunnel #40022",
+        "Connections": {
+          "North": 40019,
+          "Down": 40023
+        },
+        "Contents": [
+          {
+            "Text": "a saddled riding spider #40002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40023,
+        "Name": "The Sound of Rushing Water #40023",
+        "Connections": {
+          "East": 40024,
+          "Up": 40022
+        }
+      },
+      {
+        "Id": 40024,
+        "Name": "Steep Tunnel #40024",
+        "Connections": {
+          "West": 40023,
+          "Down": 40025
+        },
+        "Contents": [
+          {
+            "Text": "a phase spider #40007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40025,
+        "Name": "Opening in the Tunnel #40025",
+        "Connections": {
+          "East": 40026,
+          "Up": 40024
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40026,
+        "Name": "The Feeding Stream #40026",
+        "Connections": {
+          "East": 40029,
+          "South": 40027,
+          "West": 40025
+        },
+        "Contents": [
+          {
+            "Text": "a fishing landshark #40003",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40027,
+        "Name": "The Dug #40027",
+        "Connections": {
+          "North": 40026,
+          "East": 40028
+        },
+        "Contents": [
+          {
+            "Text": "a large burrowing bulette #40004",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40028,
+        "Name": "Landshark Nest #40028",
+        "Connections": {
+          "West": 40027
+        },
+        "Contents": [
+          {
+            "Text": "a young landshark #40005",
+            "Color": "green"
+          },
+          {
+            "Text": "a young landshark #40005",
+            "Color": "green"
+          },
+          {
+            "Text": "a young landshark #40005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40029,
+        "Name": "Further in the Tunnel #40029",
+        "Connections": {
+          "East": 40030,
+          "West": 40026
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          },
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          },
+          {
+            "Text": "a saddled riding spider #40002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40030,
+        "Name": "Mossy Cavern #40030",
+        "Connections": {
+          "East": 40031,
+          "West": 40029
+        }
+      },
+      {
+        "Id": 40031,
+        "Name": "Top of the Stone Ladder #40031",
+        "Connections": {
+          "West": 40030,
+          "Down": 40032
+        },
+        "Contents": [
+          {
+            "Text": "a stone golem guardian #40006",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40032,
+        "Name": "On the Stone Ladder #40032",
+        "Connections": {
+          "Up": 40031,
+          "Down": 40033
+        }
+      },
+      {
+        "Id": 40033,
+        "Name": "Bottom of the Stone Ladder #40033",
+        "Connections": {
+          "South": 40034,
+          "Up": 40032
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          },
+          {
+            "Text": "a phase spider #40007",
+            "Color": "red"
+          },
+          {
+            "Text": "a venomous spider #40008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40034,
+        "Name": "Sloping Tunnel #40034",
+        "Connections": {
+          "North": 40033,
+          "East": 40035
+        }
+      },
+      {
+        "Id": 40035,
+        "Name": "Steep Sloping Tunnel #40035",
+        "Connections": {
+          "West": 40034,
+          "Down": 40036
+        }
+      },
+      {
+        "Id": 40036,
+        "Name": "In a Sloping Tunnel #40036",
+        "Connections": {
+          "Up": 40035,
+          "Down": 40037
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          },
+          {
+            "Text": "a phase spider #40007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40037,
+        "Name": "Deep in a Tunnel #40037",
+        "Connections": {
+          "East": 40038,
+          "Up": 40036
+        },
+        "Contents": [
+          {
+            "Text": "a saddled riding spider #40002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40038,
+        "Name": "End of the Tunnel #40038",
+        "Connections": {
+          "East": 40039,
+          "West": 40037
+        }
+      },
+      {
+        "Id": 40039,
+        "Name": "Cobwebbed Tunnel #40039",
+        "Connections": {
+          "East": 40040,
+          "West": 40038,
+          "Down": 40041
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven scout #40000",
+            "Color": "red"
+          },
+          {
+            "Text": "a venomous spider #40008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40040,
+        "Name": "In A Cobwebbed Tunnel #40040",
+        "Connections": {
+          "East": 40042,
+          "West": 40039
+        },
+        "Contents": [
+          {
+            "Text": "a phase spider #40007",
+            "Color": "red"
+          },
+          {
+            "Text": "an elite drider guard #40001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40041,
+        "Name": "Lair of the Guardian #40041",
+        "Connections": {
+          "Up": 40039
+        },
+        "Contents": [
+          {
+            "Text": "the titan spider #40009",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40042,
+        "Name": "Entrance to the Plateau #40042",
+        "Connections": {
+          "East": 40043,
+          "West": 40040
+        },
+        "Contents": [
+          {
+            "Text": "an elite drider guard #40001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40043,
+        "Name": "Plateau Overlooking the DemonWeb #40043",
+        "Connections": {
+          "East": 40044,
+          "West": 40042
+        },
+        "Contents": [
+          {
+            "Text": "a saddled riding spider #40002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40044,
+        "Name": "Entrance to the DemonWeb #40044",
+        "Connections": {
+          "North": 40045,
+          "West": 40043,
+          "Down": 40071
+        },
+        "Contents": [
+          {
+            "Text": "the DemonWeb Gatekeeper #40010",
+            "Color": "green"
+          },
+          {
+            "Text": "a venomous spider #40008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40045,
+        "Name": "Hanging by a Web #40045",
+        "Connections": {
+          "East": 40046,
+          "South": 40044,
+          "Down": 40071
+        }
+      },
+      {
+        "Id": 40046,
+        "Name": "Swinging on the DemonWeb #40046",
+        "Connections": {
+          "North": 40047,
+          "East": 40051,
+          "South": 40050,
+          "West": 40045,
+          "Down": 40071
+        },
+        "Contents": [
+          {
+            "Text": "a skeletal spider #40011",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40047,
+        "Name": "Sticky Strands of Webbing #40047",
+        "Connections": {
+          "East": 40048,
+          "South": 40046,
+          "Down": 40071
+        }
+      },
+      {
+        "Id": 40048,
+        "Name": "On a thread #40048",
+        "Connections": {
+          "East": 40049,
+          "West": 40047,
+          "Down": 40071
+        }
+      },
+      {
+        "Id": 40049,
+        "Name": "Convergence of Webs #40049",
+        "Connections": {
+          "East": 40054,
+          "West": 40048,
+          "Down": 40071
+        }
+      },
+      {
+        "Id": 40050,
+        "Name": "Stuck on the Web #40050",
+        "Connections": {
+          "North": 40046,
+          "Down": 40071
+        }
+      },
+      {
+        "Id": 40051,
+        "Name": "Dangling by a Thread #40051",
+        "Connections": {
+          "East": 40052,
+          "South": 40053,
+          "West": 40046,
+          "Down": 40071
+        }
+      },
+      {
+        "Id": 40052,
+        "Name": "Lost in the Entanglement #40052",
+        "Connections": {
+          "South": 40056,
+          "West": 40051,
+          "Down": 40071
+        }
+      },
+      {
+        "Id": 40053,
+        "Name": "Walking on Spider\u0027s Rope #40053",
+        "Connections": {
+          "North": 40051,
+          "South": 40055,
+          "Down": 40071
+        },
+        "Contents": [
+          {
+            "Text": "a venomous spider #40008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40054,
+        "Name": "Lost Souls #40054",
+        "Connections": {
+          "East": 40055,
+          "South": 40058,
+          "West": 40049,
+          "Down": 40071
+        },
+        "Contents": [
+          {
+            "Text": "a skeletal spider #40011",
+            "Color": "red"
+          },
+          {
+            "Text": "the undead drider soulkeeper #40013",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40055,
+        "Name": "On the Web #40055",
+        "Connections": {
+          "North": 40053,
+          "West": 40054,
+          "Down": 40071
+        }
+      },
+      {
+        "Id": 40056,
+        "Name": "Maze of Webs #40056",
+        "Connections": {
+          "North": 40052,
+          "East": 40063,
+          "South": 40057,
+          "West": 40053,
+          "Down": 40071
+        }
+      },
+      {
+        "Id": 40057,
+        "Name": "Loose Webs #40057",
+        "Connections": {
+          "North": 40056,
+          "South": 40060,
+          "West": 40055,
+          "Down": 40071
+        }
+      },
+      {
+        "Id": 40058,
+        "Name": "Entangled in the Webs #40058",
+        "Connections": {
+          "North": 40054,
+          "East": 40059,
+          "Down": 40071
+        }
+      },
+      {
+        "Id": 40059,
+        "Name": "Looking into the Pit #40059",
+        "Connections": {
+          "East": 40060,
+          "West": 40058,
+          "Down": 40071
+        },
+        "Contents": [
+          {
+            "Text": "a skeletal spider #40011",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40060,
+        "Name": "On an Entangled Web #40060",
+        "Connections": {
+          "North": 40057,
+          "West": 40059,
+          "Down": 40071
+        },
+        "Contents": [
+          {
+            "Text": "a DemonWeb drow guard #40012",
+            "Color": "red"
+          },
+          {
+            "Text": "a DemonWeb drow guard #40012",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40061,
+        "Name": "Abode of the Demon #40061",
+        "Connections": {
+          "Up": 40062
+        },
+        "Contents": [
+          {
+            "Text": "the web spinner #40014",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40062,
+        "Name": "The Webs Center #40062",
+        "Connections": {
+          "North": 40063,
+          "East": 40067,
+          "Down": 40061
+        },
+        "Contents": [
+          {
+            "Text": "an elite drider guard #40001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40063,
+        "Name": "Loosened Cobwebs #40063",
+        "Connections": {
+          "South": 40062,
+          "West": 40056,
+          "Down": 40071
+        }
+      },
+      {
+        "Id": 40064,
+        "Name": "Tight Webbing #40064",
+        "Connections": {
+          "East": 40065,
+          "Down": 40071
+        },
+        "Contents": [
+          {
+            "Text": "a DemonWeb drow guard #40012",
+            "Color": "red"
+          },
+          {
+            "Text": "a DemonWeb drow guard #40012",
+            "Color": "red"
+          },
+          {
+            "Text": "a DemonWeb drow guard #40012",
+            "Color": "red"
+          },
+          {
+            "Text": "a DemonWeb drow guard #40012",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40065,
+        "Name": "The Weaved Web #40065",
+        "Connections": {
+          "East": 40069,
+          "South": 40066,
+          "West": 40064,
+          "Down": 40071
+        }
+      },
+      {
+        "Id": 40066,
+        "Name": "Stuck in the Webs #40066",
+        "Connections": {
+          "North": 40065,
+          "South": 40067,
+          "Down": 40071
+        },
+        "Contents": [
+          {
+            "Text": "a skeletal spider #40011",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40067,
+        "Name": "On Cobwebs #40067",
+        "Connections": {
+          "North": 40066,
+          "West": 40062,
+          "Down": 40071
+        },
+        "Contents": [
+          {
+            "Text": "an elite drider guard #40001",
+            "Color": "red"
+          },
+          {
+            "Text": "a venomous spider #40008",
+            "Color": "red"
+          },
+          {
+            "Text": "a DemonWeb drow guard #40012",
+            "Color": "red"
+          },
+          {
+            "Text": "a DemonWeb drow guard #40012",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40068,
+        "Name": "Cavern Wall #40068",
+        "Connections": {
+          "North": 40069,
+          "East": 40070
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40069,
+        "Name": "Shelf of Solid Ground #40069",
+        "Connections": {
+          "South": 40068,
+          "West": 40065
+        }
+      },
+      {
+        "Id": 40070,
+        "Name": "Start of the Citadels Path #40070",
+        "Connections": {
+          "East": 40077,
+          "West": 40068
+        },
+        "Contents": [
+          {
+            "Text": "a nightmare #40016",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40071,
+        "Name": "Flying Below the DemonWeb #40071",
+        "Connections": {
+          "Up": 40044,
+          "Down": 40072
+        }
+      },
+      {
+        "Id": 40072,
+        "Name": "Far, Far Above the Pit Floor #40072",
+        "Connections": {
+          "Up": 40071,
+          "Down": 40073
+        }
+      },
+      {
+        "Id": 40073,
+        "Name": "Far Above the Pit #40073",
+        "Connections": {
+          "Up": 40072,
+          "Down": 40074
+        }
+      },
+      {
+        "Id": 40074,
+        "Name": "Flying Above the Pit #40074",
+        "Connections": {
+          "Up": 40073,
+          "Down": 40075
+        }
+      },
+      {
+        "Id": 40075,
+        "Name": "The Pit #40075",
+        "Connections": {
+          "North": 40076,
+          "Up": 40074
+        },
+        "Contents": [
+          {
+            "Text": "a saddled riding spider #40002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40076,
+        "Name": "The Pit Fiend\u0027s Lair #40076",
+        "Connections": {
+          "South": 40075
+        },
+        "Contents": [
+          {
+            "Text": "the pit fiend #40015",
+            "Color": "red"
+          },
+          {
+            "Text": "the pit fiend #40015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40077,
+        "Name": "Bottom of the Citadels Path #40077",
+        "Connections": {
+          "East": 40078,
+          "West": 40070
+        }
+      },
+      {
+        "Id": 40078,
+        "Name": "Turn in the Path #40078",
+        "Connections": {
+          "South": 40079,
+          "West": 40077
+        }
+      },
+      {
+        "Id": 40079,
+        "Name": "Narrow Pass #40079",
+        "Connections": {
+          "North": 40078,
+          "South": 40080
+        }
+      },
+      {
+        "Id": 40080,
+        "Name": "Looking over the Gorge #40080",
+        "Connections": {
+          "North": 40079,
+          "East": 40081
+        }
+      },
+      {
+        "Id": 40081,
+        "Name": "Along the Citadel Path #40081",
+        "Connections": {
+          "East": 40082,
+          "West": 40080
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40082,
+        "Name": "Winding Along on the Path #40082",
+        "Connections": {
+          "North": 40083,
+          "West": 40081
+        }
+      },
+      {
+        "Id": 40083,
+        "Name": "Curve on the Citadel Path #40083",
+        "Connections": {
+          "East": 40084,
+          "South": 40082
+        }
+      },
+      {
+        "Id": 40084,
+        "Name": "Carving in the Rock Face #40084",
+        "Connections": {
+          "West": 40083,
+          "Up": 40085
+        }
+      },
+      {
+        "Id": 40085,
+        "Name": "On a Large Rock #40085",
+        "Connections": {
+          "East": 40086,
+          "Down": 40084
+        }
+      },
+      {
+        "Id": 40086,
+        "Name": "Below the Citadel #40086",
+        "Connections": {
+          "East": 40087,
+          "West": 40085
+        }
+      },
+      {
+        "Id": 40087,
+        "Name": "Gazing at the Citadel #40087",
+        "Connections": {
+          "South": 40088,
+          "West": 40086
+        }
+      },
+      {
+        "Id": 40088,
+        "Name": "Black Citadel Gate #40088",
+        "Connections": {
+          "North": 40087,
+          "East": 40089,
+          "South": 40090
+        }
+      },
+      {
+        "Id": 40089,
+        "Name": "Gatehouse #40089",
+        "Connections": {
+          "West": 40088
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40090,
+        "Name": "Entrance to the Citadel #40090",
+        "Connections": {
+          "North": 40088,
+          "Up": 40102
+        },
+        "Contents": [
+          {
+            "Text": "an elite drider guard #40001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40091,
+        "Name": "Crossfire #40091",
+        "Connections": {
+          "North": 40102,
+          "East": 40143,
+          "West": 40142,
+          "Up": 40122,
+          "Down": 40112
+        },
+        "Contents": [
+          {
+            "Text": "an elite army spider #40187",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40092,
+        "Name": "Southern Guard Quarters #40092",
+        "Connections": {
+          "North": 40094
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40093,
+        "Name": "Worn Hallway #40093",
+        "Connections": {
+          "East": 40102,
+          "West": 40094
+        }
+      },
+      {
+        "Id": 40094,
+        "Name": "Hallway Junction #40094",
+        "Connections": {
+          "North": 40106,
+          "East": 40093,
+          "South": 40092,
+          "West": 40095
+        }
+      },
+      {
+        "Id": 40095,
+        "Name": "Commander\u0027s Office #40095",
+        "Connections": {
+          "East": 40094
+        },
+        "Contents": [
+          {
+            "Text": "Soran the drow commander #40018",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40096,
+        "Name": "Bloody Hallway #40096",
+        "Connections": {
+          "East": 40097,
+          "West": 40102
+        }
+      },
+      {
+        "Id": 40097,
+        "Name": "End of the Hall #40097",
+        "Connections": {
+          "North": 40098,
+          "West": 40096
+        }
+      },
+      {
+        "Id": 40098,
+        "Name": "Room of Sacrifices #40098",
+        "Connections": {
+          "South": 40097,
+          "West": 40100,
+          "Down": 40101
+        },
+        "Contents": [
+          {
+            "Text": "the drow priestess #40020",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40100,
+        "Name": "Seating for the sacrifice #40100",
+        "Connections": {
+          "East": 40098
+        },
+        "Contents": [
+          {
+            "Text": "a small quasit #40019",
+            "Color": "green"
+          },
+          {
+            "Text": "a small quasit #40019",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40101,
+        "Name": "Sacrificial pit #40101",
+        "Connections": {
+          "Up": 40098
+        },
+        "Contents": [
+          {
+            "Text": "the soul drinker #40021",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40102,
+        "Name": "Top of the Entrance Stairs #40102",
+        "Connections": {
+          "East": 40096,
+          "South": 40091,
+          "West": 40093,
+          "Down": 40090
+        }
+      },
+      {
+        "Id": 40103,
+        "Name": "Eastern Alcove #40103",
+        "Connections": {
+          "North": 40143,
+          "South": 40181
+        },
+        "Contents": [
+          {
+            "Text": "an imprisoned efreeti #40022",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40104,
+        "Name": "Western Alcove #40104",
+        "Connections": {
+          "North": 40142,
+          "South": 40187
+        },
+        "Contents": [
+          {
+            "Text": "a captured djinni #40023",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40105,
+        "Name": "Officers Chambers #40105",
+        "Connections": {
+          "South": 40108
+        },
+        "Contents": [
+          {
+            "Text": "Lord Graz\u0027zt #40036",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40106,
+        "Name": "Northern Guard Quarters #40106",
+        "Connections": {
+          "South": 40094
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40107,
+        "Name": "Guest Room #40107",
+        "Connections": {
+          "East": 40108
+        },
+        "Contents": [
+          {
+            "Text": "Orcus #40032",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40108,
+        "Name": "Eastern Hallway Guest Chambers #40108",
+        "Connections": {
+          "North": 40105,
+          "East": 40109,
+          "South": 40125,
+          "West": 40107
+        }
+      },
+      {
+        "Id": 40109,
+        "Name": "Guest Room #40109",
+        "Connections": {
+          "West": 40108
+        },
+        "Contents": [
+          {
+            "Text": "a marilith demon #40034",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40110,
+        "Name": "Torture Chamber #40110",
+        "Connections": {
+          "South": 40112
+        },
+        "Contents": [
+          {
+            "Text": "the hooded figure #40028",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40111,
+        "Name": "Prison Cell #40111",
+        "Connections": {
+          "East": 40112
+        },
+        "Contents": [
+          {
+            "Text": "the pegasus #40024",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40112,
+        "Name": "Bottom of the Webbed Stair #40112",
+        "Connections": {
+          "North": 40110,
+          "East": 40199,
+          "South": 40114,
+          "West": 40111,
+          "Up": 40091
+        },
+        "Contents": [
+          {
+            "Text": "an elite drider guard #40001",
+            "Color": "red"
+          },
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          },
+          {
+            "Text": "a drow-elven citadel guardsman #40017",
+            "Color": "green"
+          },
+          {
+            "Text": "a yochlol #40039",
+            "Color": "red"
+          },
+          {
+            "Text": "a yochlol #40039",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40113,
+        "Name": "Prison Cell #40113",
+        "Connections": {
+          "East": 40114
+        },
+        "Contents": [
+          {
+            "Text": "the paladin of goodness #40025",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40114,
+        "Name": "The Jailers Hallway #40114",
+        "Connections": {
+          "North": 40112,
+          "East": 40198,
+          "South": 40116,
+          "West": 40113
+        }
+      },
+      {
+        "Id": 40115,
+        "Name": "Prison Cell #40115",
+        "Connections": {
+          "East": 40116
+        },
+        "Contents": [
+          {
+            "Text": "the hardened red sash patrol leader #40026",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40116,
+        "Name": "The Jailers Hallway #40116",
+        "Connections": {
+          "North": 40114,
+          "East": 40197,
+          "South": 40117,
+          "West": 40115
+        }
+      },
+      {
+        "Id": 40117,
+        "Name": "Chamber of the Jailer #40117",
+        "Connections": {
+          "North": 40116
+        },
+        "Contents": [
+          {
+            "Text": "the drow jailer #40027",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40118,
+        "Name": "Servants Quarters #40118",
+        "Connections": {
+          "East": 40119
+        },
+        "Contents": [
+          {
+            "Text": "a small quasit #40019",
+            "Color": "green"
+          },
+          {
+            "Text": "a small quasit #40019",
+            "Color": "green"
+          },
+          {
+            "Text": "a small quasit #40019",
+            "Color": "green"
+          },
+          {
+            "Text": "a yochlol #40039",
+            "Color": "red"
+          },
+          {
+            "Text": "a yochlol #40039",
+            "Color": "red"
+          },
+          {
+            "Text": "a yochlol #40039",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40119,
+        "Name": "Turn in Hall #40119",
+        "Connections": {
+          "East": 40120,
+          "South": 40129,
+          "West": 40118
+        }
+      },
+      {
+        "Id": 40120,
+        "Name": "Western hall #40120",
+        "Connections": {
+          "East": 40121,
+          "West": 40119
+        }
+      },
+      {
+        "Id": 40121,
+        "Name": "West Hallway #40121",
+        "Connections": {
+          "East": 40122,
+          "West": 40120
+        }
+      },
+      {
+        "Id": 40122,
+        "Name": "On the Webbed Spiral Stair #40122",
+        "Connections": {
+          "North": 40151,
+          "East": 40123,
+          "South": 40160,
+          "West": 40121,
+          "Up": 40131,
+          "Down": 40091
+        }
+      },
+      {
+        "Id": 40123,
+        "Name": "East Hallway #40123",
+        "Connections": {
+          "East": 40124,
+          "West": 40122
+        }
+      },
+      {
+        "Id": 40124,
+        "Name": "Eastern Hall #40124",
+        "Connections": {
+          "East": 40125,
+          "West": 40123
+        }
+      },
+      {
+        "Id": 40125,
+        "Name": "Turn in the Hall #40125",
+        "Connections": {
+          "North": 40108,
+          "East": 40126,
+          "West": 40124
+        }
+      },
+      {
+        "Id": 40126,
+        "Name": "Servants Quarters #40126",
+        "Connections": {
+          "West": 40125
+        },
+        "Contents": [
+          {
+            "Text": "a small quasit #40019",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40128,
+        "Name": "Officers Quarters #40128",
+        "Connections": {
+          "East": 40129
+        },
+        "Contents": [
+          {
+            "Text": "Demogorgon #40031",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40129,
+        "Name": "Western Hallway Guest Chambers #40129",
+        "Connections": {
+          "North": 40119,
+          "East": 40130,
+          "South": 40132,
+          "West": 40128
+        }
+      },
+      {
+        "Id": 40130,
+        "Name": "Guest Room #40130",
+        "Connections": {
+          "West": 40129
+        },
+        "Contents": [
+          {
+            "Text": "the Faceless Lord #40033",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40131,
+        "Name": "High on the Webbed Spiral Stair #40131",
+        "Connections": {
+          "West": 40141,
+          "Up": 40134,
+          "Down": 40122
+        },
+        "Contents": [
+          {
+            "Text": "a yochlol #40039",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40132,
+        "Name": "Guest Room #40132",
+        "Connections": {
+          "North": 40129
+        },
+        "Contents": [
+          {
+            "Text": "the Lord of Gnolls #40035",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40133,
+        "Name": "Mystical Light #40133",
+        "Connections": {
+          "Up": 40136,
+          "Down": 40141
+        }
+      },
+      {
+        "Id": 40134,
+        "Name": "Top of the Webbed Spiral Stair #40134",
+        "Connections": {
+          "South": 40137,
+          "Down": 40131
+        },
+        "Contents": [
+          {
+            "Text": "an elite drider guard #40001",
+            "Color": "red"
+          },
+          {
+            "Text": "a yochlol #40039",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40135,
+        "Name": "Darkened Room #40135",
+        "Connections": {
+          "East": 40136
+        },
+        "Contents": [
+          {
+            "Text": "a pseudo-dragon #40030",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40136,
+        "Name": "Mages Laboratory #40136",
+        "Connections": {
+          "West": 40135,
+          "Down": 40133
+        },
+        "Contents": [
+          {
+            "Text": "the mind flayer sorcerer #40029",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40137,
+        "Name": "Roofless Lair #40137",
+        "Connections": {
+          "North": 40134,
+          "East": 40138,
+          "Down": 40140
+        },
+        "Contents": [
+          {
+            "Text": "Lolth #40037",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40138,
+        "Name": "A Webbed Lined Chamber #40138",
+        "Connections": {
+          "East": 40145,
+          "West": 40137
+        }
+      },
+      {
+        "Id": 40139,
+        "Name": "The Chamber of Portals #40139",
+        "Connections": {
+          "North": 46495,
+          "East": 65053,
+          "South": 10012,
+          "West": 77097,
+          "Up": 80044,
+          "Down": 40031
+        }
+      },
+      {
+        "Id": 40140,
+        "Name": "Inside a large sack #40140",
+        "Connections": {
+          "Up": 40137
+        },
+        "Contents": [
+          {
+            "Text": "a royal spider child #40038",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal spider child #40038",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal spider child #40038",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal spider child #40038",
+            "Color": "red"
+          },
+          {
+            "Text": "a royal spider child #40038",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40141,
+        "Name": "Secret Stair #40141",
+        "Connections": {
+          "East": 40131,
+          "Up": 40133
+        },
+        "Contents": [
+          {
+            "Text": "a yochlol #40039",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40142,
+        "Name": "Western Junction #40142",
+        "Connections": {
+          "East": 40091,
+          "South": 40104
+        }
+      },
+      {
+        "Id": 40143,
+        "Name": "Eastern Junction #40143",
+        "Connections": {
+          "South": 40103,
+          "West": 40091
+        }
+      },
+      {
+        "Id": 40144,
+        "Name": "The Throne of Demogorgon #40144",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "King Demogorgon #68199",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40145,
+        "Name": "A Plateau of Black Ice #40145",
+        "Connections": {
+          "Down": 40144
+        },
+        "Contents": [
+          {
+            "Text": "Diablo #40145",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40146,
+        "Name": "A Huge Altar of Bones #40146",
+        "Connections": {}
+      },
+      {
+        "Id": 40147,
+        "Name": "The Throne of Graz\u0027zt #40147",
+        "Connections": {}
+      },
+      {
+        "Id": 40150,
+        "Name": "Hasting\u0027s Room of Mob Sodomy #40150",
+        "Connections": {}
+      },
+      {
+        "Id": 40151,
+        "Name": "Northern Hall #40151",
+        "Connections": {
+          "North": 40152,
+          "South": 40122
+        }
+      },
+      {
+        "Id": 40152,
+        "Name": "Northern Hallway #40152",
+        "Connections": {
+          "North": 40154,
+          "South": 40151
+        }
+      },
+      {
+        "Id": 40153,
+        "Name": "An Archway #40153",
+        "Connections": {
+          "North": 40154,
+          "South": 40152
+        }
+      },
+      {
+        "Id": 40154,
+        "Name": "Turn in the Hall #40154",
+        "Connections": {
+          "North": 40155,
+          "South": 40152,
+          "West": 40156
+        },
+        "Contents": [
+          {
+            "Text": "a small quasit #40019",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40155,
+        "Name": "Servants Quarters #40155",
+        "Connections": {
+          "South": 40154
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven warlock #40154",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40156,
+        "Name": "Northern Hallway Guest Chambers #40156",
+        "Connections": {
+          "North": 40157,
+          "East": 40154,
+          "South": 40158,
+          "West": 40159
+        },
+        "Contents": [
+          {
+            "Text": "a drow-elven child #40040",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40157,
+        "Name": "Guest Quarters #40157",
+        "Connections": {
+          "South": 40156
+        },
+        "Contents": [
+          {
+            "Text": "a babau tana\u0027ri  #40157",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40158,
+        "Name": "Demonic Quarters #40158",
+        "Connections": {
+          "North": 40156
+        },
+        "Contents": [
+          {
+            "Text": "the titanic lich, Lakan Scorche #40158",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40159,
+        "Name": "Officers Quarters #40159",
+        "Connections": {
+          "East": 40156
+        },
+        "Contents": [
+          {
+            "Text": "Asmodeus #40159",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40160,
+        "Name": "Southern Hall #40160",
+        "Connections": {
+          "North": 40122,
+          "South": 40161
+        }
+      },
+      {
+        "Id": 40161,
+        "Name": "Southern Hallway #40161",
+        "Connections": {
+          "North": 40160,
+          "South": 40163
+        }
+      },
+      {
+        "Id": 40162,
+        "Name": "An Archway #40162",
+        "Connections": {
+          "North": 40161,
+          "South": 40163
+        }
+      },
+      {
+        "Id": 40163,
+        "Name": "Turn in the Hall #40163",
+        "Connections": {
+          "North": 40161,
+          "East": 40165,
+          "South": 40164
+        }
+      },
+      {
+        "Id": 40164,
+        "Name": "Servants Quarters #40164",
+        "Connections": {
+          "North": 40163
+        },
+        "Contents": [
+          {
+            "Text": "a small quasit #40019",
+            "Color": "green"
+          },
+          {
+            "Text": "a squadron of drow warriors #40164",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40165,
+        "Name": "Southern Hallway Guest Chambers #40165",
+        "Connections": {
+          "North": 40168,
+          "East": 40166,
+          "South": 40167,
+          "West": 40163
+        }
+      },
+      {
+        "Id": 40166,
+        "Name": "Guest Room #40166",
+        "Connections": {
+          "West": 40165
+        },
+        "Contents": [
+          {
+            "Text": "Esjebrackus #40184",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40167,
+        "Name": "Guest Room #40167",
+        "Connections": {
+          "North": 40165
+        },
+        "Contents": [
+          {
+            "Text": "Glabrezu #40167",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40168,
+        "Name": "Officers Chambers #40168",
+        "Connections": {
+          "South": 40165
+        }
+      },
+      {
+        "Id": 40169,
+        "Name": "An Arched Hallway #40169",
+        "Connections": {
+          "North": 40170,
+          "South": 40102
+        }
+      },
+      {
+        "Id": 40170,
+        "Name": "An Archway #40170",
+        "Connections": {
+          "North": 40171,
+          "South": 40169
+        }
+      },
+      {
+        "Id": 40171,
+        "Name": "A Domed Cavern #40171",
+        "Connections": {
+          "East": 40172,
+          "South": 40170,
+          "West": 40176
+        }
+      },
+      {
+        "Id": 40172,
+        "Name": "A Vile Corridor #40172",
+        "Connections": {
+          "North": 40173,
+          "West": 40171
+        }
+      },
+      {
+        "Id": 40173,
+        "Name": "A Vile Corridor #40173",
+        "Connections": {
+          "South": 40172,
+          "West": 40174
+        }
+      },
+      {
+        "Id": 40174,
+        "Name": "A Domed Courtyard #40174",
+        "Connections": {
+          "North": 40178,
+          "East": 40173,
+          "South": 40177,
+          "West": 40175
+        }
+      },
+      {
+        "Id": 40175,
+        "Name": "A Vile Corridor #40175",
+        "Connections": {
+          "East": 40174,
+          "South": 40176
+        }
+      },
+      {
+        "Id": 40176,
+        "Name": "A Vile Corridor #40176",
+        "Connections": {
+          "North": 40175,
+          "East": 40171
+        }
+      },
+      {
+        "Id": 40177,
+        "Name": "A Guard Station #40177",
+        "Connections": {
+          "North": 40174
+        }
+      },
+      {
+        "Id": 40178,
+        "Name": "A Black Iron Gate #40178",
+        "Connections": {
+          "North": 40179,
+          "South": 40174
+        }
+      },
+      {
+        "Id": 40179,
+        "Name": "An Illuminated Cavern #40179",
+        "Connections": {
+          "South": 40178,
+          "West": 40186,
+          "Down": 40180
+        }
+      },
+      {
+        "Id": 40180,
+        "Name": "An Ichor Filled Cave #40180",
+        "Connections": {
+          "North": 40194,
+          "East": 40195,
+          "South": 40193,
+          "West": 40196,
+          "Up": 40179
+        }
+      },
+      {
+        "Id": 40181,
+        "Name": "Domed Gallery #40181",
+        "Connections": {
+          "North": 40103,
+          "East": 40182
+        },
+        "Contents": [
+          {
+            "Text": "a rogue spider #40181",
+            "Color": "red"
+          },
+          {
+            "Text": "a rogue spider #40181",
+            "Color": "red"
+          },
+          {
+            "Text": "a rogue spider #40181",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40182,
+        "Name": "Runed Gate #40182",
+        "Connections": {
+          "East": 40183,
+          "West": 40181
+        }
+      },
+      {
+        "Id": 40183,
+        "Name": "Courtyard of the Arcane Academy #40183",
+        "Connections": {
+          "North": 40184,
+          "East": 40192,
+          "South": 40185,
+          "West": 40182
+        },
+        "Contents": [
+          {
+            "Text": "a denizen of the demonweb #40183",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40184,
+        "Name": "An Arcane Library #40184",
+        "Connections": {
+          "South": 40183
+        },
+        "Contents": [
+          {
+            "Text": "a blood-elven wizard #40166",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40185,
+        "Name": "SpiderWebs and Pentagrams #40185",
+        "Connections": {
+          "North": 40183
+        },
+        "Contents": [
+          {
+            "Text": "a blue slaad #40185",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40186,
+        "Name": "A Partially Illuminated Cavern #40186",
+        "Connections": {
+          "East": 40179
+        }
+      },
+      {
+        "Id": 40187,
+        "Name": "Turn in the Vile Hall #40187",
+        "Connections": {
+          "North": 40104,
+          "West": 40188
+        },
+        "Contents": [
+          {
+            "Text": "a small quasit #40019",
+            "Color": "green"
+          },
+          {
+            "Text": "an elite army spider #40187",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40188,
+        "Name": "Vile Hallway Guest Chambers #40188",
+        "Connections": {
+          "North": 40189,
+          "East": 40187,
+          "South": 40190,
+          "West": 40191
+        }
+      },
+      {
+        "Id": 40189,
+        "Name": "Chamber of Evil #40189",
+        "Connections": {
+          "South": 40188
+        },
+        "Contents": [
+          {
+            "Text": "a Xiaochan Assassin #40189",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40190,
+        "Name": "A Vile Room #40190",
+        "Connections": {
+          "North": 40188
+        },
+        "Contents": [
+          {
+            "Text": "a baatezu hamatula #40190",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40191,
+        "Name": "A Vile Room #40191",
+        "Connections": {
+          "East": 40188
+        },
+        "Contents": [
+          {
+            "Text": "an undead beholder #40191",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40192,
+        "Name": "An Arcane Labratory #40192",
+        "Connections": {
+          "East": 40200,
+          "West": 40183
+        },
+        "Contents": [
+          {
+            "Text": "Demonica, the drow sorceress #40192",
+            "Color": "red"
+          },
+          {
+            "Text": "a denizen of the demonweb #40183",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40193,
+        "Name": "A Vile Chamber #40193",
+        "Connections": {
+          "North": 40180
+        }
+      },
+      {
+        "Id": 40194,
+        "Name": "Nest of the Queen #40194",
+        "Connections": {
+          "South": 40180
+        }
+      },
+      {
+        "Id": 40195,
+        "Name": "A Bile-filled Cavern #40195",
+        "Connections": {
+          "West": 40180
+        }
+      },
+      {
+        "Id": 40196,
+        "Name": "An Ichor-coated Cavern #40196",
+        "Connections": {
+          "East": 40180
+        }
+      },
+      {
+        "Id": 40197,
+        "Name": "A Prison Cell #40197",
+        "Connections": {
+          "West": 40116
+        },
+        "Contents": [
+          {
+            "Text": "a hive-mother beholder #40197",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 40198,
+        "Name": "A Prison Cell #40198",
+        "Connections": {
+          "West": 40114
+        },
+        "Contents": [
+          {
+            "Text": "an amethyst dragon #40198",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40199,
+        "Name": "A Prison Cell #40199",
+        "Connections": {
+          "West": 40112
+        },
+        "Contents": [
+          {
+            "Text": "a twilight aasimon #40199",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 40200,
+        "Name": "Chamber of Portals #40200",
+        "Connections": {
+          "North": 77095,
+          "East": 2930,
+          "South": 43071,
+          "West": 40061,
+          "Down": 66019
+        }
+      },
+      {
+        "Id": 18010,
+        "FrameColor": "blue",
+        "Name": "To giant #18010",
+        "Color": "blue",
+        "Connections": {
+          "East": 40000,
+          "Up": 18011,
+          "Down": 18009
+        }
+      },
+      {
+        "Id": 17072,
+        "FrameColor": "blue",
+        "Name": "To ancients #17072",
+        "Color": "blue",
+        "Connections": {
+          "South": 40008,
+          "Up": 17073
+        }
+      },
+      {
+        "Id": 46495,
+        "FrameColor": "blue",
+        "Name": "To maze #46495",
+        "Color": "blue",
+        "Connections": {
+          "West": 46494
+        }
+      },
+      {
+        "Id": 65053,
+        "FrameColor": "blue",
+        "Name": "To cb #65053",
+        "Color": "blue",
+        "Connections": {
+          "North": 65120,
+          "East": 65054,
+          "South": 65050,
+          "West": 65055
+        }
+      },
+      {
+        "Id": 10012,
+        "FrameColor": "blue",
+        "Name": "To nordik #10012",
+        "Color": "blue",
+        "Connections": {
+          "North": 10006
+        }
+      },
+      {
+        "Id": 77097,
+        "FrameColor": "blue",
+        "Name": "To mhorn #77097",
+        "Color": "blue",
+        "Connections": {
+          "East": 77112,
+          "South": 77095,
+          "Down": 77098
+        }
+      },
+      {
+        "Id": 80044,
+        "FrameColor": "blue",
+        "Name": "To suntemple #80044",
+        "Color": "blue",
+        "Connections": {
+          "North": 80046,
+          "East": 80045,
+          "South": 80041,
+          "West": 80043,
+          "Up": 80048
+        }
+      },
+      {
+        "Id": 77095,
+        "FrameColor": "blue",
+        "Name": "To mhorn #77095",
+        "Color": "blue",
+        "Connections": {
+          "North": 77097,
+          "South": 77096,
+          "West": 77111,
+          "Up": 77094
+        }
+      },
+      {
+        "Id": 2930,
+        "FrameColor": "blue",
+        "Name": "To firenewt #2930",
+        "Color": "blue",
+        "Connections": {
+          "East": 2931,
+          "Up": 2929
+        }
+      },
+      {
+        "Id": 43071,
+        "FrameColor": "blue",
+        "Name": "To lostcross #43071",
+        "Color": "blue",
+        "Connections": {
+          "North": 43073,
+          "East": 43072,
+          "South": 43075,
+          "West": 43074,
+          "Up": 43076,
+          "Down": 43069
+        }
+      },
+      {
+        "Id": 66019,
+        "FrameColor": "blue",
+        "Name": "To feyd #66019",
+        "Color": "blue",
+        "Connections": {
+          "South": 66016
+        }
+      }
+    ]
+  }
+}

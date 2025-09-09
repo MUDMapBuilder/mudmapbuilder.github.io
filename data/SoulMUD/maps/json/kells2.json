@@ -1,0 +1,190 @@
+{
+  "Area": {
+    "Name": "kells2",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 42715,
+        "Name": "Gate and Road #42715",
+        "Connections": {
+          "South": 42295
+        }
+      },
+      {
+        "Id": 42716,
+        "Name": "Sandy Prairie #42716",
+        "Connections": {
+          "West": 42717
+        }
+      },
+      {
+        "Id": 42717,
+        "Name": "Desert Prarie #42717",
+        "Connections": {
+          "North": 42718,
+          "East": 42716
+        }
+      },
+      {
+        "Id": 42718,
+        "Name": "Dune Path #42718",
+        "Connections": {
+          "South": 42717,
+          "West": 42719
+        }
+      },
+      {
+        "Id": 42719,
+        "Name": "Nearing the Camp #42719",
+        "Connections": {
+          "East": 42718,
+          "West": 42722
+        }
+      },
+      {
+        "Id": 42720,
+        "Name": "Wandering the Prarie #42720",
+        "Connections": {
+          "North": 42721,
+          "West": 42718
+        }
+      },
+      {
+        "Id": 42721,
+        "Name": "Wandering the Prarie #42721",
+        "Connections": {
+          "East": 42723,
+          "South": 42720
+        }
+      },
+      {
+        "Id": 42722,
+        "Name": "Outskirts of a Camp #42722",
+        "Connections": {
+          "North": 42727,
+          "East": 42719,
+          "South": 42726
+        }
+      },
+      {
+        "Id": 42723,
+        "Name": "Wandering the Prarie #42723",
+        "Connections": {
+          "East": 42724,
+          "West": 42721
+        }
+      },
+      {
+        "Id": 42724,
+        "Name": "Beside the WoodShoppe #42724",
+        "Connections": {
+          "South": 43026,
+          "West": 42723
+        }
+      },
+      {
+        "Id": 42725,
+        "Name": "A Dervish Seer\u0027s Tent #42725",
+        "Connections": {
+          "East": 56107
+        }
+      },
+      {
+        "Id": 42726,
+        "Name": "A Dervish Tent #42726",
+        "Connections": {
+          "North": 42722
+        }
+      },
+      {
+        "Id": 42727,
+        "Name": "A Dervish Tent #42727",
+        "Connections": {
+          "South": 42722
+        }
+      },
+      {
+        "Id": 42728,
+        "Name": "Lord\u0027s Hall #42728",
+        "Connections": {
+          "East": 56110
+        }
+      },
+      {
+        "Id": 42773,
+        "Name": "Lord\u0027s Barracks #42773",
+        "Connections": {
+          "Down": 42666
+        },
+        "Contents": [
+          {
+            "Text": "an orcish lord #42632",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42775,
+        "Name": "Lord\u0027s Barracks #42775",
+        "Connections": {
+          "Down": 42667
+        }
+      },
+      {
+        "Id": 42295,
+        "FrameColor": "blue",
+        "Name": "To joj #42295",
+        "Color": "blue",
+        "Connections": {
+          "South": 42292
+        }
+      },
+      {
+        "Id": 43026,
+        "FrameColor": "blue",
+        "Name": "To lostcross #43026",
+        "Color": "blue",
+        "Connections": {
+          "East": 43025,
+          "West": 43027
+        }
+      },
+      {
+        "Id": 56107,
+        "FrameColor": "blue",
+        "Name": "To desert #56107",
+        "Color": "blue",
+        "Connections": {}
+      },
+      {
+        "Id": 56110,
+        "FrameColor": "blue",
+        "Name": "To desert #56110",
+        "Color": "blue",
+        "Connections": {}
+      },
+      {
+        "Id": 42666,
+        "FrameColor": "blue",
+        "Name": "To happy #42666",
+        "Color": "blue",
+        "Connections": {
+          "North": 42665,
+          "West": 42667,
+          "Up": 42773
+        }
+      },
+      {
+        "Id": 42667,
+        "FrameColor": "blue",
+        "Name": "To happy #42667",
+        "Color": "blue",
+        "Connections": {
+          "North": 42668,
+          "East": 42666,
+          "Up": 42535
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,812 @@
+{
+  "Area": {
+    "Name": "jahnesta",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 12300,
+        "Name": "A Sign in the Road #12300",
+        "Connections": {
+          "North": 12368,
+          "South": 12301,
+          "West": 77000
+        }
+      },
+      {
+        "Id": 12301,
+        "Name": "A Dusty Road #12301",
+        "Connections": {
+          "North": 12300,
+          "South": 12302
+        }
+      },
+      {
+        "Id": 12302,
+        "Name": "The Road to Jahnesta #12302",
+        "Connections": {
+          "North": 12301,
+          "South": 12303
+        }
+      },
+      {
+        "Id": 12303,
+        "Name": "A Bend in the Road #12303",
+        "Connections": {
+          "North": 12302,
+          "East": 12304
+        }
+      },
+      {
+        "Id": 12304,
+        "Name": "Intersection #12304",
+        "Connections": {
+          "East": 12365,
+          "South": 12305,
+          "West": 12303
+        }
+      },
+      {
+        "Id": 12305,
+        "Name": "Pear Lane #12305",
+        "Connections": {
+          "North": 12304,
+          "East": 12306
+        }
+      },
+      {
+        "Id": 12306,
+        "Name": "Pear Lane and Oak Street Intersection #12306",
+        "Connections": {
+          "East": 12307,
+          "South": 12335,
+          "West": 12305
+        }
+      },
+      {
+        "Id": 12307,
+        "Name": "Pear Lane Before a Stone Cottage #12307",
+        "Connections": {
+          "East": 12309,
+          "South": 12308,
+          "West": 12306
+        }
+      },
+      {
+        "Id": 12308,
+        "Name": "ElSol\u0027s House of Alchemy #12308",
+        "Connections": {
+          "North": 12307
+        },
+        "Contents": [
+          {
+            "Text": "ElSol #12308",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12309,
+        "Name": "A Shady Bend #12309",
+        "Connections": {
+          "North": 12327,
+          "East": 12310,
+          "West": 12307
+        }
+      },
+      {
+        "Id": 12310,
+        "Name": "Redbear\u0027s Tavern and Brothel #12310",
+        "Connections": {
+          "North": 12316,
+          "East": 12311,
+          "South": 12313,
+          "West": 12309
+        }
+      },
+      {
+        "Id": 12311,
+        "Name": "The Bottom of an Oaken Stair #12311",
+        "Connections": {
+          "South": 12312,
+          "West": 12310,
+          "Up": 12319
+        },
+        "Contents": [
+          {
+            "Text": "RedBear #12311",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12312,
+        "Name": "A Great Dining Room #12312",
+        "Connections": {
+          "North": 12311,
+          "East": 12315,
+          "West": 12313
+        },
+        "Contents": [
+          {
+            "Text": "a patron #12319",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12313,
+        "Name": "A Dimly-Lit Corner of the Dining Room #12313",
+        "Connections": {
+          "North": 12310,
+          "East": 12312,
+          "South": 12314
+        }
+      },
+      {
+        "Id": 12314,
+        "Name": "The Casino #12314",
+        "Connections": {
+          "North": 12313
+        }
+      },
+      {
+        "Id": 12315,
+        "Name": "The Taproom #12315",
+        "Connections": {
+          "West": 12312
+        }
+      },
+      {
+        "Id": 12316,
+        "Name": "The Kitchen #12316",
+        "Connections": {
+          "East": 12317,
+          "South": 12310
+        }
+      },
+      {
+        "Id": 12317,
+        "Name": "The Kitchen #12317",
+        "Connections": {
+          "North": 12318,
+          "West": 12316
+        }
+      },
+      {
+        "Id": 12318,
+        "Name": "Servant\u0027s Quarters #12318",
+        "Connections": {
+          "South": 12317
+        }
+      },
+      {
+        "Id": 12319,
+        "Name": "The Top of an Oaken Stair #12319",
+        "Connections": {
+          "East": 12320,
+          "Down": 12311
+        },
+        "Contents": [
+          {
+            "Text": "a patron #12319",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12320,
+        "Name": "A Short Hallway #12320",
+        "Connections": {
+          "North": 12321,
+          "East": 12323,
+          "South": 12322,
+          "West": 12319
+        },
+        "Contents": [
+          {
+            "Text": "a patron #12319",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12321,
+        "Name": "Lady Genevive\u0027s Room #12321",
+        "Connections": {
+          "South": 12320
+        }
+      },
+      {
+        "Id": 12322,
+        "Name": "Lady Stephanie\u0027s Room #12322",
+        "Connections": {
+          "North": 12320
+        }
+      },
+      {
+        "Id": 12323,
+        "Name": "A Short Hallway #12323",
+        "Connections": {
+          "North": 12324,
+          "East": 12325,
+          "South": 12326,
+          "West": 12320
+        },
+        "Contents": [
+          {
+            "Text": "a patron #12319",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12324,
+        "Name": "Lady Caroline\u0027s Room #12324",
+        "Connections": {
+          "South": 12323
+        }
+      },
+      {
+        "Id": 12325,
+        "Name": "The Royal Guest Room #12325",
+        "Connections": {
+          "West": 12323
+        }
+      },
+      {
+        "Id": 12326,
+        "Name": "Lady Julia\u0027s Room #12326",
+        "Connections": {
+          "North": 12323
+        }
+      },
+      {
+        "Id": 12327,
+        "Name": "A Sassafras Grove #12327",
+        "Connections": {
+          "South": 12309,
+          "West": 12328
+        }
+      },
+      {
+        "Id": 12328,
+        "Name": "Before the Stables #12328",
+        "Connections": {
+          "North": 12329,
+          "East": 12327
+        }
+      },
+      {
+        "Id": 12329,
+        "Name": "Western End of the Stable #12329",
+        "Connections": {
+          "North": 12330,
+          "East": 12331,
+          "South": 12328
+        }
+      },
+      {
+        "Id": 12330,
+        "Name": "A Dirty Stall #12330",
+        "Connections": {
+          "South": 12329
+        },
+        "Contents": [
+          {
+            "Text": "Quickbeam #12330",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12331,
+        "Name": "Middle of the Stable #12331",
+        "Connections": {
+          "North": 12332,
+          "East": 12333,
+          "West": 12329
+        }
+      },
+      {
+        "Id": 12332,
+        "Name": "A Dreary Stall #12332",
+        "Connections": {
+          "South": 12331
+        },
+        "Contents": [
+          {
+            "Text": "Blackwind #12332",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12333,
+        "Name": "Eastern End of the Stables #12333",
+        "Connections": {
+          "North": 12334,
+          "West": 12331
+        }
+      },
+      {
+        "Id": 12334,
+        "Name": "A Dusty Stall #12334",
+        "Connections": {
+          "South": 12333
+        }
+      },
+      {
+        "Id": 12335,
+        "Name": "Oak Street #12335",
+        "Connections": {
+          "North": 12306,
+          "South": 12336
+        }
+      },
+      {
+        "Id": 12336,
+        "Name": "Oak Street at the Armory #12336",
+        "Connections": {
+          "North": 12335,
+          "South": 12339,
+          "West": 12337
+        }
+      },
+      {
+        "Id": 12337,
+        "Name": "Riko and BillyBob\u0027s Weapons and Armor #12337",
+        "Connections": {
+          "East": 12336,
+          "South": 12338
+        },
+        "Contents": [
+          {
+            "Text": "BillyBob the Blacksmith #12337",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12338,
+        "Name": "The Smithy #12338",
+        "Connections": {
+          "North": 12337
+        },
+        "Contents": [
+          {
+            "Text": "Riko the Armorer #12338",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12339,
+        "Name": "Oak Street at the Woodshop #12339",
+        "Connections": {
+          "North": 12336,
+          "East": 12341,
+          "South": 12340
+        }
+      },
+      {
+        "Id": 12340,
+        "Name": "Apple Lane and Oak Street Intersection #12340",
+        "Connections": {
+          "North": 12339,
+          "East": 12343,
+          "South": 12344
+        }
+      },
+      {
+        "Id": 12341,
+        "Name": "The Wood-Crafter\u0027s Shop #12341",
+        "Connections": {
+          "South": 12342,
+          "West": 12339
+        }
+      },
+      {
+        "Id": 12342,
+        "Name": "The Lumber Pile #12342",
+        "Connections": {
+          "North": 12341
+        },
+        "Contents": [
+          {
+            "Text": "Remus #12342",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12343,
+        "Name": "Apple Lane #12343",
+        "Connections": {
+          "East": 12345,
+          "West": 12340
+        }
+      },
+      {
+        "Id": 12344,
+        "Name": "A Pier Before the Docks #12344",
+        "Connections": {
+          "North": 12340
+        },
+        "Contents": [
+          {
+            "Text": "Redcross #12302",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12345,
+        "Name": "Apple Lane #12345",
+        "Connections": {
+          "East": 12346,
+          "West": 12343
+        }
+      },
+      {
+        "Id": 12346,
+        "Name": "Everspring Fountain #12346",
+        "Connections": {
+          "North": 12348,
+          "East": 12347,
+          "West": 12345
+        }
+      },
+      {
+        "Id": 12347,
+        "Name": "Apple Lane #12347",
+        "Connections": {
+          "East": 12349,
+          "West": 12346
+        }
+      },
+      {
+        "Id": 12348,
+        "Name": "Daerel\u0027s Supply Shop #12348",
+        "Connections": {
+          "South": 12346
+        },
+        "Contents": [
+          {
+            "Text": "Daerel #12348",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12349,
+        "Name": "Apple Lane at a Small Temple #12349",
+        "Connections": {
+          "North": 12361,
+          "East": 12360,
+          "South": 12350,
+          "West": 12347
+        }
+      },
+      {
+        "Id": 12350,
+        "Name": "A Humble Dining Room #12350",
+        "Connections": {
+          "North": 12349,
+          "East": 12351,
+          "West": 12357
+        }
+      },
+      {
+        "Id": 12351,
+        "Name": "The Sparring Chamber #12351",
+        "Connections": {
+          "South": 12352,
+          "West": 12350,
+          "Down": 12353
+        }
+      },
+      {
+        "Id": 12352,
+        "Name": "The Meditation Chamber #12352",
+        "Connections": {
+          "North": 12351,
+          "West": 12355
+        },
+        "Contents": [
+          {
+            "Text": "Giegen #12307",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12353,
+        "Name": "The Warlord\u0027s Sparring Chambers #12353",
+        "Connections": {
+          "North": 12354,
+          "Up": 12351
+        },
+        "Contents": [
+          {
+            "Text": "Moonglum, the leader of the Avengers #12353",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12354,
+        "Name": "The Scarlet Rogue\u0027s Guild #12354",
+        "Connections": {
+          "South": 12353
+        },
+        "Contents": [
+          {
+            "Text": "The guildmaster of Assassins, Hand #12303",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12355,
+        "Name": "The Master Avatar\u0027s Chambers #12355",
+        "Connections": {
+          "East": 12352,
+          "West": 12356,
+          "Down": 70001
+        }
+      },
+      {
+        "Id": 12356,
+        "Name": "The Kitchen #12356",
+        "Connections": {
+          "North": 12357,
+          "East": 12355
+        }
+      },
+      {
+        "Id": 12357,
+        "Name": "The Library #12357",
+        "Connections": {
+          "East": 12350,
+          "South": 12356,
+          "Down": 12358
+        }
+      },
+      {
+        "Id": 12358,
+        "Name": "A Shadowy Study #12358",
+        "Connections": {
+          "North": 12359,
+          "Up": 12357
+        },
+        "Contents": [
+          {
+            "Text": "The guildmaster of Sorcerers, Genesis #12358",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12359,
+        "Name": "The Guild of Healing #12359",
+        "Connections": {
+          "South": 12358
+        },
+        "Contents": [
+          {
+            "Text": "the guildmaster of the channelers, Covenant #12306",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12360,
+        "Name": "Apple Lane at the Merchant\u0027s Guild #12360",
+        "Connections": {
+          "North": 12362,
+          "East": 12364,
+          "West": 12349
+        }
+      },
+      {
+        "Id": 12361,
+        "Name": "Kensia\u0027s Scrolls and Parchments #12361",
+        "Connections": {
+          "South": 12349
+        },
+        "Contents": [
+          {
+            "Text": "Kensia #12309",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12362,
+        "Name": "Jahnesta Merchant\u0027s Guild #12362",
+        "Connections": {
+          "North": 12363,
+          "South": 12360
+        },
+        "Contents": [
+          {
+            "Text": "Strider #12305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12363,
+        "Name": "Jahnesta Goodwill and Trust #12363",
+        "Connections": {
+          "South": 12362
+        },
+        "Contents": [
+          {
+            "Text": "Liag #12304",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12364,
+        "Name": "The Eastern Egress #12364",
+        "Connections": {
+          "East": 12374,
+          "West": 12360
+        }
+      },
+      {
+        "Id": 12365,
+        "Name": "Before a Small Building #12365",
+        "Connections": {
+          "North": 12366,
+          "West": 12304
+        }
+      },
+      {
+        "Id": 12366,
+        "Name": "Sutekh\u0027s Hostlery Shop #12366",
+        "Connections": {
+          "East": 12367,
+          "South": 12365
+        },
+        "Contents": [
+          {
+            "Text": "Sutekh #12366",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12367,
+        "Name": "A Small Bedroom #12367",
+        "Connections": {
+          "West": 12366
+        }
+      },
+      {
+        "Id": 12368,
+        "Name": "By the Wayside #12368",
+        "Connections": {
+          "East": 18001,
+          "South": 12300
+        }
+      },
+      {
+        "Id": 12369,
+        "Name": "Kings Highway #12369",
+        "Connections": {
+          "East": 12300,
+          "West": 12370
+        }
+      },
+      {
+        "Id": 12370,
+        "Name": "Kings Bridge #12370",
+        "Connections": {
+          "East": 12369,
+          "West": 12371
+        }
+      },
+      {
+        "Id": 12371,
+        "Name": "Kings Highway #12371",
+        "Connections": {
+          "East": 12370,
+          "West": 12372
+        }
+      },
+      {
+        "Id": 12372,
+        "Name": "Kings Highway #12372",
+        "Connections": {
+          "East": 12371,
+          "South": 12373
+        }
+      },
+      {
+        "Id": 12373,
+        "Name": "Kings Highway #12373",
+        "Connections": {
+          "North": 12372
+        }
+      },
+      {
+        "Id": 12374,
+        "Name": "Eastern Trail #12374",
+        "Connections": {
+          "East": 12375,
+          "West": 12364
+        }
+      },
+      {
+        "Id": 12375,
+        "Name": "Grove of Oranges #12375",
+        "Connections": {
+          "South": 61010,
+          "West": 12374
+        }
+      },
+      {
+        "Id": 12376,
+        "Name": "A Dwarven Barge #12376",
+        "Connections": {}
+      },
+      {
+        "Id": 12377,
+        "Name": "Boating Transit #12377",
+        "Connections": {}
+      },
+      {
+        "Id": 12378,
+        "Name": "The Nautilus #12378",
+        "Connections": {}
+      },
+      {
+        "Id": 77000,
+        "FrameColor": "blue",
+        "Name": "To mhorn #77000",
+        "Color": "blue",
+        "Connections": {
+          "East": 12300,
+          "West": 77001
+        }
+      },
+      {
+        "Id": 70001,
+        "FrameColor": "blue",
+        "Name": "To guilds #70001",
+        "Color": "blue",
+        "Connections": {
+          "North": 70018,
+          "East": 70017,
+          "South": 70016,
+          "Up": 12355
+        }
+      },
+      {
+        "Id": 18001,
+        "FrameColor": "blue",
+        "Name": "To giant #18001",
+        "Color": "blue",
+        "Connections": {
+          "North": 18056,
+          "East": 18002,
+          "West": 12368
+        }
+      },
+      {
+        "Id": 61010,
+        "FrameColor": "blue",
+        "Name": "To arbo #61010",
+        "Color": "blue",
+        "Connections": {
+          "North": 12375,
+          "East": 61025,
+          "South": 61011
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,589 @@
+{
+  "Area": {
+    "Name": "bonepit",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 76300,
+        "Name": "Huge Set of Teeth #76300",
+        "Connections": {
+          "North": 76301,
+          "South": 76349
+        }
+      },
+      {
+        "Id": 76301,
+        "Name": "Inside the Mouth #76301",
+        "Connections": {
+          "North": 76324,
+          "East": 76302,
+          "South": 76300,
+          "West": 76304
+        }
+      },
+      {
+        "Id": 76302,
+        "Name": "Destroyed Jaw Bone #76302",
+        "Connections": {
+          "West": 76301,
+          "Up": 76306
+        }
+      },
+      {
+        "Id": 76303,
+        "Name": "Small Brain Cavity #76303",
+        "Connections": {
+          "East": 76306,
+          "West": 76305
+        },
+        "Contents": [
+          {
+            "Text": "a blind salamander #76307",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76304,
+        "Name": "Shattered Jaw Bone #76304",
+        "Connections": {
+          "East": 76301,
+          "Up": 76305
+        },
+        "Contents": [
+          {
+            "Text": "a skeletal carrion crow #76300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76305,
+        "Name": "Huge Eye Socket #76305",
+        "Connections": {
+          "East": 76303,
+          "South": 76309,
+          "Down": 76304
+        }
+      },
+      {
+        "Id": 76306,
+        "Name": "Shattered Eye Socket #76306",
+        "Connections": {
+          "South": 76307,
+          "West": 76303,
+          "Down": 76302
+        }
+      },
+      {
+        "Id": 76307,
+        "Name": "Left Nostril of the Skeletal Remains #76307",
+        "Connections": {
+          "North": 76306,
+          "West": 76308
+        }
+      },
+      {
+        "Id": 76308,
+        "Name": "Horn of the Beast #76308",
+        "Connections": {
+          "North": 76310,
+          "East": 76307,
+          "West": 76309
+        }
+      },
+      {
+        "Id": 76309,
+        "Name": "Right Nostril of the Skull #76309",
+        "Connections": {
+          "North": 76305,
+          "East": 76308
+        },
+        "Contents": [
+          {
+            "Text": "A scavenging jackal #76302",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76310,
+        "Name": "Top of the Skull #76310",
+        "Connections": {
+          "North": 76311,
+          "South": 76308
+        },
+        "Contents": [
+          {
+            "Text": "a skeletal carrion crow #76300",
+            "Color": "red"
+          },
+          {
+            "Text": "a skeletal carrion crow #76300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76311,
+        "Name": "Beginning of the Spine #76311",
+        "Connections": {
+          "North": 76312,
+          "South": 76310
+        }
+      },
+      {
+        "Id": 76312,
+        "Name": "Along the Vertebrae #76312",
+        "Connections": {
+          "North": 76328,
+          "East": 76314,
+          "South": 76311,
+          "West": 76315,
+          "Up": 76313
+        }
+      },
+      {
+        "Id": 76313,
+        "Name": "Top of the First Spike #76313",
+        "Connections": {
+          "Down": 76312
+        }
+      },
+      {
+        "Id": 76314,
+        "Name": "Left Shoulderblade #76314",
+        "Connections": {
+          "East": 76320,
+          "West": 76312,
+          "Up": 76317
+        }
+      },
+      {
+        "Id": 76315,
+        "Name": "Right Shoulderblade #76315",
+        "Connections": {
+          "East": 76312,
+          "West": 76316
+        }
+      },
+      {
+        "Id": 76316,
+        "Name": "Shattered Right Arm #76316",
+        "Connections": {
+          "North": 76318,
+          "East": 76315
+        },
+        "Contents": [
+          {
+            "Text": "a stuck jackal #76303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76317,
+        "Name": "On the Wing #76317",
+        "Connections": {
+          "Down": 76314
+        },
+        "Contents": [
+          {
+            "Text": "a large vulture #76301",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76318,
+        "Name": "A Hardened Tar Clearing #76318",
+        "Connections": {
+          "South": 76316,
+          "West": 76319
+        },
+        "Contents": [
+          {
+            "Text": "a stuck jackal #76303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76319,
+        "Name": "A Roughly Hewn Cavern #76319",
+        "Connections": {
+          "East": 76318
+        },
+        "Contents": [
+          {
+            "Text": "an acid slug #76309",
+            "Color": "red"
+          },
+          {
+            "Text": "an acid slug #76309",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76320,
+        "Name": "Left Arm of the Skeleton #76320",
+        "Connections": {
+          "East": 76321,
+          "West": 76314
+        }
+      },
+      {
+        "Id": 76321,
+        "Name": "Gigantic Elbow #76321",
+        "Connections": {
+          "West": 76320,
+          "Down": 76322
+        }
+      },
+      {
+        "Id": 76322,
+        "Name": "Half Submerged Forearm #76322",
+        "Connections": {
+          "Up": 76321,
+          "Down": 76323
+        }
+      },
+      {
+        "Id": 76323,
+        "Name": "Tar Submerged Forearm #76323",
+        "Connections": {
+          "Up": 76322,
+          "Down": 76345
+        },
+        "Contents": [
+          {
+            "Text": "a blind salamander #76307",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76324,
+        "Name": "Throat of the Beast #76324",
+        "Connections": {
+          "North": 76327,
+          "South": 76301,
+          "Down": 76325
+        }
+      },
+      {
+        "Id": 76325,
+        "Name": "Farther Inside the Throat #76325",
+        "Connections": {
+          "North": 76326,
+          "Up": 76324
+        }
+      },
+      {
+        "Id": 76326,
+        "Name": "Inside the Stomach #76326",
+        "Connections": {
+          "South": 76325
+        },
+        "Contents": [
+          {
+            "Text": "a blind salamander #76307",
+            "Color": "green"
+          },
+          {
+            "Text": "a blind salamander #76307",
+            "Color": "green"
+          },
+          {
+            "Text": "a blind salamander #76307",
+            "Color": "green"
+          },
+          {
+            "Text": "a large salamander #76308",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76327,
+        "Name": "Below the Spine #76327",
+        "Connections": {
+          "North": 76331,
+          "South": 76324
+        },
+        "Contents": [
+          {
+            "Text": "A scavenging jackal #76302",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76328,
+        "Name": "Farther Along the Spine #76328",
+        "Connections": {
+          "North": 76334,
+          "East": 76330,
+          "South": 76312,
+          "West": 76329
+        }
+      },
+      {
+        "Id": 76329,
+        "Name": "Right Side of the Ribcage #76329",
+        "Connections": {
+          "East": 76328
+        },
+        "Contents": [
+          {
+            "Text": "a stuck jackal #76303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76330,
+        "Name": "Left Section of the Ribcage #76330",
+        "Connections": {
+          "West": 76328
+        },
+        "Contents": [
+          {
+            "Text": "a skeletal carrion crow #76300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76331,
+        "Name": "Heart of the Beast #76331",
+        "Connections": {
+          "North": 76332,
+          "South": 76327
+        }
+      },
+      {
+        "Id": 76332,
+        "Name": "A Large Artery #76332",
+        "Connections": {
+          "South": 76331,
+          "Down": 76333
+        },
+        "Contents": [
+          {
+            "Text": "A scavenging jackal #76302",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76333,
+        "Name": "Center of the Heart #76333",
+        "Connections": {
+          "Up": 76332
+        },
+        "Contents": [
+          {
+            "Text": "a syntho demon #76304",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76334,
+        "Name": "Fossilized Pelvic Region #76334",
+        "Connections": {
+          "North": 76335,
+          "East": 76341,
+          "South": 76328,
+          "West": 76338
+        }
+      },
+      {
+        "Id": 76335,
+        "Name": "Beginning of the Tail #76335",
+        "Connections": {
+          "East": 76336,
+          "South": 76334
+        },
+        "Contents": [
+          {
+            "Text": "a skeletal carrion crow #76300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76336,
+        "Name": "Along the Tail #76336",
+        "Connections": {
+          "North": 76337,
+          "West": 76335
+        },
+        "Contents": [
+          {
+            "Text": "a skeletal carrion crow #76300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76337,
+        "Name": "End of the Tail #76337",
+        "Connections": {
+          "South": 76336
+        }
+      },
+      {
+        "Id": 76338,
+        "Name": "Destroyed Right Hip #76338",
+        "Connections": {
+          "East": 76334,
+          "Down": 76339
+        }
+      },
+      {
+        "Id": 76339,
+        "Name": "Remains of the Shattered Right Leg #76339",
+        "Connections": {
+          "West": 76340,
+          "Up": 76338
+        },
+        "Contents": [
+          {
+            "Text": "a stuck jackal #76303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76340,
+        "Name": "Huge Right Foot #76340",
+        "Connections": {
+          "East": 76339
+        },
+        "Contents": [
+          {
+            "Text": "a stuck jackal #76303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76341,
+        "Name": "Well Preserved Left Hip #76341",
+        "Connections": {
+          "West": 76334,
+          "Down": 76342
+        },
+        "Contents": [
+          {
+            "Text": "A scavenging jackal #76302",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76342,
+        "Name": "The Left Leg #76342",
+        "Connections": {
+          "North": 76343,
+          "East": 76348,
+          "Up": 76341
+        }
+      },
+      {
+        "Id": 76343,
+        "Name": "A Huge Egg #76343",
+        "Connections": {
+          "North": 76344,
+          "South": 76342
+        }
+      },
+      {
+        "Id": 76344,
+        "Name": "Inside the Egg #76344",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "a nasci demon #76305",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76345,
+        "Name": "The Submerged Wrist #76345",
+        "Connections": {
+          "East": 76346,
+          "Up": 76323
+        },
+        "Contents": [
+          {
+            "Text": "a blind salamander #76307",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76346,
+        "Name": "The Fossilized Hand #76346",
+        "Connections": {
+          "West": 76345,
+          "Up": 76347
+        },
+        "Contents": [
+          {
+            "Text": "a blind salamander #76307",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76347,
+        "Name": "Small Bluish Cavern #76347",
+        "Connections": {
+          "Down": 76346
+        },
+        "Contents": [
+          {
+            "Text": "a lazuli demon #76306",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76348,
+        "Name": "Huge Kneecap #76348",
+        "Connections": {
+          "West": 76342
+        },
+        "Contents": [
+          {
+            "Text": "A scavenging jackal #76302",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76349,
+        "Name": "Before a Tar Pit #76349",
+        "Connections": {
+          "North": 76300,
+          "South": 5712
+        }
+      },
+      {
+        "Id": 5712,
+        "FrameColor": "blue",
+        "Name": "To connect #5712",
+        "Color": "blue",
+        "Connections": {
+          "North": 76349,
+          "South": 5710
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "Area": {
+    "Name": "neptemple",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 61101,
+        "Name": "Path Through the Jungle #61101",
+        "Connections": {
+          "East": 61100,
+          "West": 61102
+        }
+      },
+      {
+        "Id": 61102,
+        "Name": "Before the Steps #61102",
+        "Connections": {
+          "East": 61101,
+          "Up": 61103
+        }
+      },
+      {
+        "Id": 61103,
+        "Name": "The Temple Atrium #61103",
+        "Connections": {
+          "North": 61104,
+          "Down": 61102
+        }
+      },
+      {
+        "Id": 61104,
+        "Name": "Temple Chamber #61104",
+        "Connections": {
+          "North": 61105,
+          "South": 61103
+        },
+        "Contents": [
+          {
+            "Text": "a temple monk #61105",
+            "Color": "green"
+          },
+          {
+            "Text": "a temple page #61108",
+            "Color": "green"
+          },
+          {
+            "Text": "a temple page #61108",
+            "Color": "green"
+          },
+          {
+            "Text": "a temple page #61108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61105,
+        "Name": "Among the Pews #61105",
+        "Connections": {
+          "North": 61106,
+          "East": 61126,
+          "South": 61104,
+          "West": 61127
+        },
+        "Contents": [
+          {
+            "Text": "a member of the temple #61107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61106,
+        "Name": "The Altar of the Temple #61106",
+        "Connections": {
+          "North": 61107,
+          "South": 61105
+        },
+        "Contents": [
+          {
+            "Text": "the temple priest #61106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61107,
+        "Name": "Temple Hallway #61107",
+        "Connections": {
+          "North": 61108,
+          "South": 61106
+        },
+        "Contents": [
+          {
+            "Text": "a friar #61103",
+            "Color": "green"
+          },
+          {
+            "Text": "a temple acolyte #61104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61108,
+        "Name": "Temple Hallway #61108",
+        "Connections": {
+          "North": 61109,
+          "East": 61116,
+          "South": 61107
+        },
+        "Contents": [
+          {
+            "Text": "a temple monk #61105",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61109,
+        "Name": "Temple Hallway #61109",
+        "Connections": {
+          "North": 61110,
+          "East": 61122,
+          "South": 61108
+        }
+      },
+      {
+        "Id": 61110,
+        "Name": "Rocky Passage #61110",
+        "Connections": {
+          "North": 61111,
+          "South": 61109
+        },
+        "Contents": [
+          {
+            "Text": "a temple monk #61105",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61111,
+        "Name": "Jagged Rock Passage #61111",
+        "Connections": {
+          "North": 61112,
+          "South": 61110
+        }
+      },
+      {
+        "Id": 61112,
+        "Name": "Before a Cave-In #61112",
+        "Connections": {
+          "South": 61111
+        },
+        "Contents": [
+          {
+            "Text": "a shadow spectre #61112",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61113,
+        "Name": "The Lair of the Yoggemth #61113",
+        "Connections": {
+          "Up": 61114
+        },
+        "Contents": [
+          {
+            "Text": "the Yoggemth #61113",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 61114,
+        "Name": "Gates of the Guardian #61114",
+        "Connections": {
+          "North": 61115,
+          "Down": 61113
+        }
+      },
+      {
+        "Id": 61115,
+        "Name": "Temple Cell #61115",
+        "Connections": {
+          "North": 61121,
+          "South": 61114
+        }
+      },
+      {
+        "Id": 61116,
+        "Name": "Granite Passage #61116",
+        "Connections": {
+          "East": 61117,
+          "West": 61108
+        }
+      },
+      {
+        "Id": 61117,
+        "Name": "Corner of the Granite Passage #61117",
+        "Connections": {
+          "North": 61118,
+          "West": 61116
+        },
+        "Contents": [
+          {
+            "Text": "a temple monk #61105",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61118,
+        "Name": "End of the Granite Passage #61118",
+        "Connections": {
+          "North": 61119,
+          "South": 61117
+        },
+        "Contents": [
+          {
+            "Text": "a temple acolyte #61104",
+            "Color": "green"
+          },
+          {
+            "Text": "a temple monk #61105",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61119,
+        "Name": "Along the Side of the Temple #61119",
+        "Connections": {
+          "North": 61120,
+          "South": 61118
+        }
+      },
+      {
+        "Id": 61120,
+        "Name": "Dense Jungle #61120",
+        "Connections": {
+          "South": 61119,
+          "West": 61121
+        },
+        "Contents": [
+          {
+            "Text": "an ugly baboon #61102",
+            "Color": "red"
+          },
+          {
+            "Text": "an ugly baboon #61102",
+            "Color": "red"
+          },
+          {
+            "Text": "an ugly baboon #61102",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 61121,
+        "Name": "Behind the Temple #61121",
+        "Connections": {
+          "East": 61120,
+          "South": 61115
+        }
+      },
+      {
+        "Id": 61122,
+        "Name": "A Craftsman\u0027s Workroom #61122",
+        "Connections": {
+          "West": 61109,
+          "Down": 61123
+        },
+        "Contents": [
+          {
+            "Text": "a retired smith #61122",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61123,
+        "Name": "Crudely Dug Tunnel #61123",
+        "Connections": {
+          "West": 61124,
+          "Up": 61122
+        }
+      },
+      {
+        "Id": 61124,
+        "Name": "Crudely Dug Tunnel #61124",
+        "Connections": {
+          "East": 61123,
+          "South": 1300
+        },
+        "Contents": [
+          {
+            "Text": "a temple monk #61105",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61125,
+        "Name": "The Altar of Nepheg #61125",
+        "Connections": {
+          "North": 61124
+        }
+      },
+      {
+        "Id": 61126,
+        "Name": "Eastern Temple Chamber #61126",
+        "Connections": {
+          "West": 61105
+        },
+        "Contents": [
+          {
+            "Text": "a temple acolyte #61104",
+            "Color": "green"
+          },
+          {
+            "Text": "a member of the temple #61107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61127,
+        "Name": "Western Temple Chamber #61127",
+        "Connections": {
+          "East": 61105
+        },
+        "Contents": [
+          {
+            "Text": "Nath #61128",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61100,
+        "FrameColor": "blue",
+        "Name": "To arbo #61100",
+        "Color": "blue",
+        "Connections": {
+          "South": 77045,
+          "West": 61101
+        }
+      },
+      {
+        "Id": 1300,
+        "FrameColor": "blue",
+        "Name": "To godsland #1300",
+        "Color": "blue",
+        "Connections": {
+          "South": 20058
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,987 @@
+{
+  "Area": {
+    "Name": "sobek",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 23000,
+        "Name": "Standing Before An Ancient Dock #23000",
+        "Connections": {
+          "East": 23001
+        },
+        "Contents": [
+          {
+            "Text": "Manous the boatkeeper #23000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23001,
+        "Name": "Northern Entrance #23001",
+        "Connections": {
+          "South": 23002,
+          "West": 23000
+        }
+      },
+      {
+        "Id": 23002,
+        "Name": "Along The Winding Path #23002",
+        "Connections": {
+          "North": 23001,
+          "East": 23003
+        }
+      },
+      {
+        "Id": 23003,
+        "Name": "Before The City #23003",
+        "Connections": {
+          "East": 23004,
+          "West": 23002
+        }
+      },
+      {
+        "Id": 23004,
+        "Name": "Within The City Of Ethelios #23004",
+        "Connections": {
+          "East": 23005,
+          "South": 23006,
+          "West": 23003
+        }
+      },
+      {
+        "Id": 23005,
+        "Name": "The Valiant Steed Inn #23005",
+        "Connections": {
+          "West": 23004
+        }
+      },
+      {
+        "Id": 23006,
+        "Name": "Within The City Of Ethelios #23006",
+        "Connections": {
+          "North": 23004,
+          "East": 23008,
+          "West": 23007
+        }
+      },
+      {
+        "Id": 23007,
+        "Name": "Hall Of The King #23007",
+        "Connections": {
+          "East": 23006
+        }
+      },
+      {
+        "Id": 23008,
+        "Name": "Path Of Haildor #23008",
+        "Connections": {
+          "East": 23011,
+          "South": 23009,
+          "West": 23006
+        }
+      },
+      {
+        "Id": 23009,
+        "Name": "Path of Haildor #23009",
+        "Connections": {
+          "North": 23008,
+          "East": 23012,
+          "South": 23010,
+          "West": 23029
+        }
+      },
+      {
+        "Id": 23010,
+        "Name": "Path of Haildor #23010",
+        "Connections": {
+          "North": 23009,
+          "South": 23014,
+          "West": 23015
+        }
+      },
+      {
+        "Id": 23011,
+        "Name": "Pathnior Way #23011",
+        "Connections": {
+          "North": 23021,
+          "East": 23019,
+          "South": 23012,
+          "West": 23008
+        }
+      },
+      {
+        "Id": 23012,
+        "Name": "Standing Before The Fountain Of Ethelios #23012",
+        "Connections": {
+          "North": 23011,
+          "East": 23016,
+          "South": 23013,
+          "West": 23009
+        }
+      },
+      {
+        "Id": 23013,
+        "Name": "Before The South Gate #23013",
+        "Connections": {
+          "North": 23012,
+          "South": 23018
+        }
+      },
+      {
+        "Id": 23014,
+        "Name": "The Iron Horse #23014",
+        "Connections": {
+          "North": 23010
+        }
+      },
+      {
+        "Id": 23015,
+        "Name": "Supply Depot #23015",
+        "Connections": {
+          "East": 23010,
+          "Up": 23028
+        }
+      },
+      {
+        "Id": 23016,
+        "Name": "Path Of Exodus #23016",
+        "Connections": {
+          "East": 23017,
+          "West": 23012
+        }
+      },
+      {
+        "Id": 23017,
+        "Name": "Western Gate of Ethelios #23017",
+        "Connections": {
+          "East": 23111,
+          "West": 23016
+        }
+      },
+      {
+        "Id": 23018,
+        "Name": "Southern Gate of Ethelios #23018",
+        "Connections": {
+          "North": 23013,
+          "South": 23030
+        }
+      },
+      {
+        "Id": 23019,
+        "Name": "Polaumy\u0027s House Of Potions #23019",
+        "Connections": {
+          "West": 23011
+        }
+      },
+      {
+        "Id": 23020,
+        "Name": "Meditation Chamber #23020",
+        "Connections": {}
+      },
+      {
+        "Id": 23021,
+        "Name": "A Turn In Pathnior Way #23021",
+        "Connections": {
+          "East": 23022,
+          "South": 23011
+        }
+      },
+      {
+        "Id": 23022,
+        "Name": "Pathnior Way #23022",
+        "Connections": {
+          "North": 23024,
+          "East": 23023,
+          "South": 23025,
+          "West": 23021
+        }
+      },
+      {
+        "Id": 23023,
+        "Name": "Knights Of Ethelios #23023",
+        "Connections": {
+          "West": 23022
+        }
+      },
+      {
+        "Id": 23024,
+        "Name": "The End Of Pathnior Way #23024",
+        "Connections": {
+          "East": 23026,
+          "South": 23022,
+          "West": 23027
+        }
+      },
+      {
+        "Id": 23025,
+        "Name": "Deilnai\u0027s Harmony #23025",
+        "Connections": {
+          "North": 23022
+        }
+      },
+      {
+        "Id": 23026,
+        "Name": "The Shadir Guild Of Thieves #23026",
+        "Connections": {
+          "West": 23024
+        }
+      },
+      {
+        "Id": 23027,
+        "Name": "Ethelios Arcana #23027",
+        "Connections": {
+          "East": 23024
+        }
+      },
+      {
+        "Id": 23028,
+        "Name": "Ethelios House Of Scrolls #23028",
+        "Connections": {
+          "Down": 23015
+        }
+      },
+      {
+        "Id": 23029,
+        "Name": "The Golden Shield #23029",
+        "Connections": {
+          "East": 23009
+        }
+      },
+      {
+        "Id": 23030,
+        "Name": "Beyond The South Gate #23030",
+        "Connections": {
+          "North": 23018,
+          "East": 23059,
+          "South": 23031
+        }
+      },
+      {
+        "Id": 23031,
+        "Name": "A Turn In The Path #23031",
+        "Connections": {
+          "North": 23030,
+          "East": 23032
+        }
+      },
+      {
+        "Id": 23032,
+        "Name": "The Southern Trail #23032",
+        "Connections": {
+          "South": 23033,
+          "West": 23031
+        }
+      },
+      {
+        "Id": 23033,
+        "Name": "The Southern Trail #23033",
+        "Connections": {
+          "North": 23032,
+          "East": 23034,
+          "South": 23036
+        }
+      },
+      {
+        "Id": 23034,
+        "Name": "A Worn Dirt Path #23034",
+        "Connections": {
+          "East": 23035,
+          "West": 23033
+        }
+      },
+      {
+        "Id": 23035,
+        "Name": "An Old Wooden Shack #23035",
+        "Connections": {
+          "West": 23034
+        }
+      },
+      {
+        "Id": 23036,
+        "Name": "The Southern Trail #23036",
+        "Connections": {
+          "North": 23033,
+          "South": 23037
+        }
+      },
+      {
+        "Id": 23037,
+        "Name": "A Turn In The Trail #23037",
+        "Connections": {
+          "North": 23036,
+          "West": 23038
+        }
+      },
+      {
+        "Id": 23038,
+        "Name": "An Ogre Encampment #23038",
+        "Connections": {
+          "East": 23037,
+          "South": 23039
+        }
+      },
+      {
+        "Id": 23039,
+        "Name": "A Split In The Trail #23039",
+        "Connections": {
+          "North": 23038,
+          "East": 23040,
+          "West": 23047
+        }
+      },
+      {
+        "Id": 23040,
+        "Name": "A Forest Trail #23040",
+        "Connections": {
+          "West": 23039
+        }
+      },
+      {
+        "Id": 23047,
+        "Name": "Chelias Trail #23047",
+        "Connections": {
+          "East": 23039,
+          "Up": 23048
+        }
+      },
+      {
+        "Id": 23048,
+        "Name": "Chelias Trail #23048",
+        "Connections": {
+          "West": 23049,
+          "Down": 23047
+        }
+      },
+      {
+        "Id": 23049,
+        "Name": "Chelias Trail #23049",
+        "Connections": {
+          "East": 23048
+        }
+      },
+      {
+        "Id": 23051,
+        "Name": "Standing Upon A Cliffside #23051",
+        "Connections": {
+          "South": 23052
+        }
+      },
+      {
+        "Id": 23052,
+        "Name": "Standing Upon A Cliffside #23052",
+        "Connections": {
+          "North": 23051,
+          "South": 23053
+        }
+      },
+      {
+        "Id": 23053,
+        "Name": "A Pool Upon The Cliffside #23053",
+        "Connections": {
+          "North": 23052,
+          "Down": 23054
+        }
+      },
+      {
+        "Id": 23054,
+        "Name": "The Shallows Of A Waterfall #23054",
+        "Connections": {
+          "East": 23055,
+          "Up": 23053
+        }
+      },
+      {
+        "Id": 23055,
+        "Name": "Standing Before A Waterfall #23055",
+        "Connections": {
+          "West": 23054
+        }
+      },
+      {
+        "Id": 23059,
+        "Name": "A Small Dirt Trail #23059",
+        "Connections": {
+          "East": 23060,
+          "West": 23030
+        }
+      },
+      {
+        "Id": 23060,
+        "Name": "A Small Dirt Trail #23060",
+        "Connections": {
+          "East": 23061,
+          "West": 23059
+        }
+      },
+      {
+        "Id": 23061,
+        "Name": "A Turn In The Trail #23061",
+        "Connections": {
+          "South": 23062,
+          "West": 23060
+        }
+      },
+      {
+        "Id": 23062,
+        "Name": "A Small Dusty Trail #23062",
+        "Connections": {
+          "North": 23061,
+          "South": 23063
+        }
+      },
+      {
+        "Id": 23063,
+        "Name": "A Grassy Field #23063",
+        "Connections": {
+          "North": 23062,
+          "East": 23064
+        }
+      },
+      {
+        "Id": 23064,
+        "Name": "Begining Of A Large Plain #23064",
+        "Connections": {
+          "East": 23065,
+          "West": 23063
+        }
+      },
+      {
+        "Id": 23065,
+        "Name": "The End Of The Dirt Trail #23065",
+        "Connections": {
+          "South": 23066,
+          "West": 23064
+        }
+      },
+      {
+        "Id": 23066,
+        "Name": "A Large Grassy Plain #23066",
+        "Connections": {
+          "North": 23065,
+          "East": 23067,
+          "South": 23069
+        }
+      },
+      {
+        "Id": 23067,
+        "Name": "A Large Grassy Plain #23067",
+        "Connections": {
+          "South": 23068,
+          "West": 23066
+        }
+      },
+      {
+        "Id": 23068,
+        "Name": "A Large Grassy Plain #23068",
+        "Connections": {
+          "North": 23067,
+          "South": 23070,
+          "West": 23069
+        }
+      },
+      {
+        "Id": 23069,
+        "Name": "A Large Grassy Plain #23069",
+        "Connections": {
+          "North": 23066,
+          "East": 23068
+        }
+      },
+      {
+        "Id": 23070,
+        "Name": "A Narrow Pathway #23070",
+        "Connections": {
+          "North": 23068,
+          "East": 23071
+        }
+      },
+      {
+        "Id": 23071,
+        "Name": "A Narrow Pathway #23071",
+        "Connections": {
+          "East": 23072,
+          "West": 23070
+        }
+      },
+      {
+        "Id": 23072,
+        "Name": "The Ceteyein Plains #23072",
+        "Connections": {
+          "East": 23075,
+          "South": 23073,
+          "West": 23071
+        }
+      },
+      {
+        "Id": 23073,
+        "Name": "The Ceteyein Plains #23073",
+        "Connections": {
+          "North": 23072,
+          "East": 23074,
+          "South": 23081
+        }
+      },
+      {
+        "Id": 23074,
+        "Name": "The Ceteyein Plains #23074",
+        "Connections": {
+          "North": 23075,
+          "West": 23073
+        }
+      },
+      {
+        "Id": 23075,
+        "Name": "The Ceteyein Plains #23075",
+        "Connections": {
+          "North": 23076,
+          "South": 23074,
+          "West": 23072
+        }
+      },
+      {
+        "Id": 23076,
+        "Name": "A Winding Trail #23076",
+        "Connections": {
+          "East": 23079,
+          "South": 23075
+        }
+      },
+      {
+        "Id": 23077,
+        "Name": "Before An Isolated Tent #23077",
+        "Connections": {
+          "East": 23078,
+          "West": 23083
+        }
+      },
+      {
+        "Id": 23078,
+        "Name": "A Half-Empty Tent #23078",
+        "Connections": {
+          "West": 23077
+        }
+      },
+      {
+        "Id": 23079,
+        "Name": "Before A Smoke-Filled Tent #23079",
+        "Connections": {
+          "East": 23080,
+          "West": 23076
+        }
+      },
+      {
+        "Id": 23080,
+        "Name": "The Shaman\u0027s Quarters #23080",
+        "Connections": {
+          "West": 23079
+        }
+      },
+      {
+        "Id": 23081,
+        "Name": "Standing Before The Ceteyein Temple #23081",
+        "Connections": {
+          "North": 23073,
+          "South": 23082,
+          "West": 23095
+        }
+      },
+      {
+        "Id": 23082,
+        "Name": "The Ceteyein Plains #23082",
+        "Connections": {
+          "North": 23081,
+          "East": 23083,
+          "South": 23085
+        }
+      },
+      {
+        "Id": 23083,
+        "Name": "The Ceteyein Plains #23083",
+        "Connections": {
+          "East": 23077,
+          "South": 23084,
+          "West": 23082
+        }
+      },
+      {
+        "Id": 23084,
+        "Name": "The Ceteyein Plains #23084",
+        "Connections": {
+          "North": 23083,
+          "South": 23086,
+          "West": 23085
+        }
+      },
+      {
+        "Id": 23085,
+        "Name": "The Ceteyein Plains #23085",
+        "Connections": {
+          "North": 23082,
+          "East": 23084,
+          "West": 23089
+        }
+      },
+      {
+        "Id": 23086,
+        "Name": "A Turn In The Path #23086",
+        "Connections": {
+          "North": 23084,
+          "East": 23087
+        }
+      },
+      {
+        "Id": 23087,
+        "Name": "Before A Cliff-Side Tent #23087",
+        "Connections": {
+          "East": 23088,
+          "West": 23086
+        }
+      },
+      {
+        "Id": 23088,
+        "Name": "The Chieftain\u0027s Tent #23088",
+        "Connections": {
+          "West": 23087
+        }
+      },
+      {
+        "Id": 23089,
+        "Name": "The Ceteyein Plains #23089",
+        "Connections": {
+          "East": 23085,
+          "West": 23090
+        }
+      },
+      {
+        "Id": 23090,
+        "Name": "Before The General\u0027s Quarters #23090",
+        "Connections": {
+          "East": 23089,
+          "South": 23091,
+          "West": 23092
+        }
+      },
+      {
+        "Id": 23091,
+        "Name": "The General\u0027s Quarters #23091",
+        "Connections": {
+          "North": 23090
+        }
+      },
+      {
+        "Id": 23092,
+        "Name": "A Winding Path #23092",
+        "Connections": {
+          "East": 23090,
+          "South": 23093
+        }
+      },
+      {
+        "Id": 23093,
+        "Name": "A Winding Path #23093",
+        "Connections": {
+          "North": 23092,
+          "East": 23094
+        }
+      },
+      {
+        "Id": 23094,
+        "Name": "The Champion\u0027s Tent #23094",
+        "Connections": {
+          "West": 23093
+        }
+      },
+      {
+        "Id": 23095,
+        "Name": "Ceteyein Temple Entrance #23095",
+        "Connections": {
+          "North": 23096,
+          "East": 23081,
+          "West": 23098
+        }
+      },
+      {
+        "Id": 23096,
+        "Name": "Ceteyein Temple #23096",
+        "Connections": {
+          "South": 23095,
+          "West": 23097
+        }
+      },
+      {
+        "Id": 23097,
+        "Name": "Ceteyein Temple #23097",
+        "Connections": {
+          "East": 23096,
+          "South": 23098
+        }
+      },
+      {
+        "Id": 23098,
+        "Name": "Ceteyein Temple #23098",
+        "Connections": {
+          "North": 23097,
+          "East": 23095,
+          "West": 23099
+        }
+      },
+      {
+        "Id": 23099,
+        "Name": "A Wide Hallway #23099",
+        "Connections": {
+          "East": 23098,
+          "West": 23100
+        }
+      },
+      {
+        "Id": 23100,
+        "Name": "Ceteyein Worship Chamber #23100",
+        "Connections": {
+          "East": 23099,
+          "South": 23102,
+          "West": 23101
+        }
+      },
+      {
+        "Id": 23101,
+        "Name": "Ceteyein Worship Chamber #23101",
+        "Connections": {
+          "East": 23100,
+          "South": 23103
+        }
+      },
+      {
+        "Id": 23102,
+        "Name": "Ceteyein Worship Chamber #23102",
+        "Connections": {
+          "North": 23100,
+          "West": 23103
+        }
+      },
+      {
+        "Id": 23103,
+        "Name": "Ceteyein Worship Chamber #23103",
+        "Connections": {
+          "North": 23101,
+          "East": 23102,
+          "South": 23104
+        }
+      },
+      {
+        "Id": 23104,
+        "Name": "The Protectorates Chamber #23104",
+        "Connections": {
+          "North": 23103
+        }
+      },
+      {
+        "Id": 23111,
+        "Name": "Outside The Western Gate #23111",
+        "Connections": {
+          "East": 23112,
+          "West": 23017
+        }
+      },
+      {
+        "Id": 23112,
+        "Name": "Before A Sea-Side Cliff #23112",
+        "Connections": {
+          "West": 23111,
+          "Down": 23113
+        }
+      },
+      {
+        "Id": 23113,
+        "Name": "A Treacherous Path #23113",
+        "Connections": {
+          "Up": 23112,
+          "Down": 23114
+        }
+      },
+      {
+        "Id": 23114,
+        "Name": "The Foot Of A Treacherous Trail #23114",
+        "Connections": {
+          "East": 23115,
+          "Up": 23113
+        }
+      },
+      {
+        "Id": 23115,
+        "Name": "Before A Strip Of Beach #23115",
+        "Connections": {
+          "East": 23116,
+          "West": 23114
+        }
+      },
+      {
+        "Id": 23116,
+        "Name": "Standing Upon The Beach #23116",
+        "Connections": {
+          "East": 23117,
+          "South": 23118,
+          "West": 23115
+        }
+      },
+      {
+        "Id": 23117,
+        "Name": "Standing Within The Shallows #23117",
+        "Connections": {
+          "West": 23116
+        }
+      },
+      {
+        "Id": 23118,
+        "Name": "Along The Eastern Shoreline #23118",
+        "Connections": {
+          "North": 23116,
+          "South": 23119
+        }
+      },
+      {
+        "Id": 23119,
+        "Name": "Along The Eastern Shoreline #23119",
+        "Connections": {
+          "North": 23118,
+          "East": 23121,
+          "South": 23127
+        }
+      },
+      {
+        "Id": 23120,
+        "Name": "Before A Deep Pool #23120",
+        "Connections": {
+          "East": 23128,
+          "Down": 23129
+        }
+      },
+      {
+        "Id": 23121,
+        "Name": "Before A Steep Drop Off #23121",
+        "Connections": {
+          "West": 23119,
+          "Down": 23122
+        }
+      },
+      {
+        "Id": 23122,
+        "Name": "Carapace Reef #23122",
+        "Connections": {
+          "East": 23123,
+          "Up": 23121
+        }
+      },
+      {
+        "Id": 23123,
+        "Name": "Carapace Reef #23123",
+        "Connections": {
+          "North": 23124,
+          "West": 23122
+        }
+      },
+      {
+        "Id": 23124,
+        "Name": "Carapace Reef #23124",
+        "Connections": {
+          "East": 23125,
+          "South": 23123
+        }
+      },
+      {
+        "Id": 23125,
+        "Name": "Carapace Reef #23125",
+        "Connections": {
+          "West": 23124,
+          "Down": 23126
+        }
+      },
+      {
+        "Id": 23126,
+        "Name": "A Small Underwater Cave #23126",
+        "Connections": {
+          "Up": 23125
+        }
+      },
+      {
+        "Id": 23127,
+        "Name": "Along The Eastern Shoreline #23127",
+        "Connections": {
+          "North": 23119,
+          "South": 23130,
+          "West": 23128
+        }
+      },
+      {
+        "Id": 23128,
+        "Name": "Within A Small Coastal Cave #23128",
+        "Connections": {
+          "East": 23127,
+          "West": 23120
+        }
+      },
+      {
+        "Id": 23129,
+        "Name": "A Dark Underwater Chamber #23129",
+        "Connections": {
+          "Up": 23120
+        }
+      },
+      {
+        "Id": 23130,
+        "Name": "Before A Sandy Peninsula #23130",
+        "Connections": {
+          "North": 23127,
+          "East": 23131,
+          "South": 23136
+        }
+      },
+      {
+        "Id": 23131,
+        "Name": "A Sandy Peninsula #23131",
+        "Connections": {
+          "East": 23132,
+          "West": 23130
+        }
+      },
+      {
+        "Id": 23132,
+        "Name": "Standing Before A Lighthouse #23132",
+        "Connections": {
+          "East": 23133,
+          "West": 23131
+        }
+      },
+      {
+        "Id": 23133,
+        "Name": "Within The Lighthouse #23133",
+        "Connections": {
+          "West": 23132,
+          "Up": 23134
+        }
+      },
+      {
+        "Id": 23134,
+        "Name": "A Spiral Staircase #23134",
+        "Connections": {
+          "Up": 23135,
+          "Down": 23133
+        }
+      },
+      {
+        "Id": 23135,
+        "Name": "Standing Atop An Ancient Lighthouse #23135",
+        "Connections": {
+          "Down": 23134
+        }
+      },
+      {
+        "Id": 23136,
+        "Name": "Along The Eastern Shoreline #23136",
+        "Connections": {
+          "North": 23130
+        }
+      }
+    ]
+  }
+}

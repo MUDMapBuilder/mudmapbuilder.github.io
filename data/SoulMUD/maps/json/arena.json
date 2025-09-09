@@ -1,0 +1,392 @@
+{
+  "Area": {
+    "Name": "arena",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 19000,
+        "Name": "Arena Entrance #19000",
+        "Connections": {
+          "East": 19001
+        },
+        "Contents": [
+          {
+            "Text": "the questmaster #19001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 19001,
+        "Name": "Inside the Archway #19001",
+        "Connections": {
+          "East": 19002,
+          "West": 19000
+        }
+      },
+      {
+        "Id": 19002,
+        "Name": "By a Stack of Hay #19002",
+        "Connections": {
+          "East": 19003,
+          "West": 19001,
+          "Down": 19008
+        }
+      },
+      {
+        "Id": 19003,
+        "Name": "By a Wall #19003",
+        "Connections": {
+          "North": 19020,
+          "West": 19002,
+          "Down": 19004
+        }
+      },
+      {
+        "Id": 19004,
+        "Name": "Beneath the Wall #19004",
+        "Connections": {
+          "East": 19005,
+          "Up": 19003
+        }
+      },
+      {
+        "Id": 19005,
+        "Name": "Entrance to the Concrete Maze #19005",
+        "Connections": {
+          "East": 19011,
+          "South": 19006,
+          "West": 19004
+        }
+      },
+      {
+        "Id": 19006,
+        "Name": "Tunnel Intersection #19006",
+        "Connections": {
+          "North": 19005,
+          "East": 19009,
+          "West": 19007
+        }
+      },
+      {
+        "Id": 19007,
+        "Name": "Beneath the Ground #19007",
+        "Connections": {
+          "East": 19006,
+          "West": 19045
+        }
+      },
+      {
+        "Id": 19008,
+        "Name": "Below the Hay #19008",
+        "Connections": {
+          "South": 19045,
+          "Up": 19002
+        }
+      },
+      {
+        "Id": 19009,
+        "Name": "Beneath the Ground #19009",
+        "Connections": {
+          "East": 19010,
+          "West": 19006
+        }
+      },
+      {
+        "Id": 19010,
+        "Name": "Beneath the Ground #19010",
+        "Connections": {
+          "West": 19009
+        }
+      },
+      {
+        "Id": 19011,
+        "Name": "Concrete Corridor #19011",
+        "Connections": {
+          "East": 19012,
+          "West": 19005
+        }
+      },
+      {
+        "Id": 19012,
+        "Name": "Corner of Concrete Corridor #19012",
+        "Connections": {
+          "North": 19013,
+          "West": 19011
+        }
+      },
+      {
+        "Id": 19013,
+        "Name": "Concrete Corridor #19013",
+        "Connections": {
+          "North": 19014,
+          "South": 19012
+        }
+      },
+      {
+        "Id": 19014,
+        "Name": "Tunnel Intersection #19014",
+        "Connections": {
+          "East": 19023,
+          "South": 19013,
+          "West": 19015
+        }
+      },
+      {
+        "Id": 19015,
+        "Name": "Tunnel Intersection #19015",
+        "Connections": {
+          "North": 19022,
+          "East": 19014,
+          "West": 19016
+        }
+      },
+      {
+        "Id": 19016,
+        "Name": "Concrete Corridor #19016",
+        "Connections": {
+          "East": 19015,
+          "West": 19017
+        }
+      },
+      {
+        "Id": 19017,
+        "Name": "Corner of Concrete Corridor #19017",
+        "Connections": {
+          "North": 19018,
+          "East": 19016
+        }
+      },
+      {
+        "Id": 19018,
+        "Name": "A Concrete Entranceway #19018",
+        "Connections": {
+          "East": 19021,
+          "South": 19017,
+          "West": 19019
+        }
+      },
+      {
+        "Id": 19019,
+        "Name": "Outskirts #19019",
+        "Connections": {
+          "East": 19018,
+          "South": 19020
+        }
+      },
+      {
+        "Id": 19020,
+        "Name": "Narrow Pathway #19020",
+        "Connections": {
+          "North": 19019,
+          "South": 19003,
+          "West": 19044
+        }
+      },
+      {
+        "Id": 19021,
+        "Name": "Tunnel Intersection #19021",
+        "Connections": {
+          "North": 19035,
+          "East": 19022,
+          "West": 19018
+        }
+      },
+      {
+        "Id": 19022,
+        "Name": "Corner of Concrete Corridor #19022",
+        "Connections": {
+          "South": 19015,
+          "West": 19021
+        }
+      },
+      {
+        "Id": 19023,
+        "Name": "Concrete Corridor #19023",
+        "Connections": {
+          "East": 19024,
+          "West": 19014
+        }
+      },
+      {
+        "Id": 19024,
+        "Name": "Tunnel Intersection #19024",
+        "Connections": {
+          "North": 19026,
+          "South": 19025,
+          "West": 19023
+        }
+      },
+      {
+        "Id": 19025,
+        "Name": "Beneath the Ground #19025",
+        "Connections": {
+          "North": 19024
+        }
+      },
+      {
+        "Id": 19026,
+        "Name": "Concrete Corridor #19026",
+        "Connections": {
+          "North": 19027,
+          "South": 19024
+        }
+      },
+      {
+        "Id": 19027,
+        "Name": "Concrete Corridor #19027",
+        "Connections": {
+          "South": 19026,
+          "West": 19028
+        }
+      },
+      {
+        "Id": 19028,
+        "Name": "Before the Manor #19028",
+        "Connections": {
+          "East": 19027,
+          "Up": 19029
+        }
+      },
+      {
+        "Id": 19029,
+        "Name": "Concrete Stairway #19029",
+        "Connections": {
+          "West": 19033,
+          "Up": 19030,
+          "Down": 19028
+        }
+      },
+      {
+        "Id": 19030,
+        "Name": "Concrete Stairway #19030",
+        "Connections": {
+          "West": 19031,
+          "Down": 19029
+        }
+      },
+      {
+        "Id": 19031,
+        "Name": "Second Floor #19031",
+        "Connections": {
+          "East": 19030,
+          "West": 19032,
+          "Down": 19033
+        }
+      },
+      {
+        "Id": 19032,
+        "Name": "Second Floor #19032",
+        "Connections": {
+          "East": 19031
+        }
+      },
+      {
+        "Id": 19033,
+        "Name": "Bottom Floor #19033",
+        "Connections": {
+          "East": 19029,
+          "West": 19034,
+          "Up": 19031
+        }
+      },
+      {
+        "Id": 19034,
+        "Name": "Bottom Floor #19034",
+        "Connections": {
+          "East": 19033,
+          "Up": 19036,
+          "Down": 19035
+        }
+      },
+      {
+        "Id": 19035,
+        "Name": "Concrete Stairway #19035",
+        "Connections": {
+          "South": 19021,
+          "Up": 19034
+        }
+      },
+      {
+        "Id": 19036,
+        "Name": "Before the Top #19036",
+        "Connections": {
+          "West": 19037,
+          "Down": 19024
+        }
+      },
+      {
+        "Id": 19037,
+        "Name": "Along the Rock #19037",
+        "Connections": {
+          "East": 19036,
+          "West": 19038
+        }
+      },
+      {
+        "Id": 19038,
+        "Name": "Before the Top #19038",
+        "Connections": {
+          "East": 19037,
+          "Down": 19039
+        }
+      },
+      {
+        "Id": 19039,
+        "Name": "Aside the Cliff Face #19039",
+        "Connections": {
+          "West": 19043,
+          "Up": 19038,
+          "Down": 19040
+        }
+      },
+      {
+        "Id": 19040,
+        "Name": "Aside the Cliff Face #19040",
+        "Connections": {
+          "Up": 19039,
+          "Down": 19041
+        }
+      },
+      {
+        "Id": 19041,
+        "Name": "Aside the Cliff Face #19041",
+        "Connections": {
+          "Up": 19040,
+          "Down": 19042
+        }
+      },
+      {
+        "Id": 19042,
+        "Name": "Before the Cliff #19042",
+        "Connections": {
+          "South": 19044,
+          "Up": 19041
+        }
+      },
+      {
+        "Id": 19043,
+        "Name": "Cave Nook #19043",
+        "Connections": {
+          "East": 19039
+        }
+      },
+      {
+        "Id": 19044,
+        "Name": "Along the Path #19044",
+        "Connections": {
+          "North": 19042,
+          "East": 19020
+        }
+      },
+      {
+        "Id": 19045,
+        "Name": "Beneath the Ground #19045",
+        "Connections": {
+          "North": 19008,
+          "East": 19007
+        }
+      }
+    ]
+  }
+}

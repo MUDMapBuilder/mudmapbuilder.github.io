@@ -1,0 +1,809 @@
+{
+  "Area": {
+    "Name": "arbo",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 61000,
+        "Name": "Virus\u0027 Office #61000",
+        "Connections": {
+          "North": 61010,
+          "West": 61043,
+          "Down": 61001
+        }
+      },
+      {
+        "Id": 61001,
+        "Name": "Falling #61001",
+        "Connections": {
+          "Down": 61002
+        }
+      },
+      {
+        "Id": 61002,
+        "Name": "Falling #61002",
+        "Connections": {
+          "Down": 61003
+        }
+      },
+      {
+        "Id": 61003,
+        "Name": "Falling #61003",
+        "Connections": {
+          "Down": 61004
+        }
+      },
+      {
+        "Id": 61004,
+        "Name": "Falling #61004",
+        "Connections": {
+          "Down": 61005
+        }
+      },
+      {
+        "Id": 61005,
+        "Name": "Falling #61005",
+        "Connections": {
+          "Down": 61006
+        }
+      },
+      {
+        "Id": 61006,
+        "Name": "Falling #61006",
+        "Connections": {
+          "Down": 61007
+        }
+      },
+      {
+        "Id": 61007,
+        "Name": "Falling #61007",
+        "Connections": {
+          "Down": 61008
+        }
+      },
+      {
+        "Id": 61008,
+        "Name": "Falling #61008",
+        "Connections": {
+          "Down": 61009
+        }
+      },
+      {
+        "Id": 61009,
+        "Name": "Falling #61009",
+        "Connections": {
+          "Down": 8057
+        }
+      },
+      {
+        "Id": 61010,
+        "Name": "Entrance to the Arboretum #61010",
+        "Connections": {
+          "North": 12375,
+          "East": 61025,
+          "South": 61011
+        },
+        "Contents": [
+          {
+            "Text": "a gardener #61015",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61011,
+        "Name": "Trail Intersection #61011",
+        "Connections": {
+          "North": 61010,
+          "East": 61012,
+          "West": 61027
+        },
+        "Contents": [
+          {
+            "Text": "vine tree #61016",
+            "Color": "green"
+          },
+          {
+            "Text": "vine tree #61016",
+            "Color": "green"
+          },
+          {
+            "Text": "a petunia flower #61019",
+            "Color": "green"
+          },
+          {
+            "Text": "a petunia flower #61019",
+            "Color": "green"
+          },
+          {
+            "Text": "a petunia flower #61019",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61012,
+        "Name": "The Rotten Log #61012",
+        "Connections": {
+          "East": 61015,
+          "West": 61011,
+          "Down": 61013
+        },
+        "Contents": [
+          {
+            "Text": "a gardener #61015",
+            "Color": "green"
+          },
+          {
+            "Text": "a gardener #61015",
+            "Color": "green"
+          },
+          {
+            "Text": "a petunia flower #61019",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61013,
+        "Name": "Halfway Down the Hole #61013",
+        "Connections": {
+          "Up": 61012,
+          "Down": 61014
+        }
+      },
+      {
+        "Id": 61014,
+        "Name": "Bottom of the Hole #61014",
+        "Connections": {
+          "South": 61050,
+          "Up": 61013
+        },
+        "Contents": [
+          {
+            "Text": "a mud snake #61014",
+            "Color": "red"
+          },
+          {
+            "Text": "a mud snake #61014",
+            "Color": "red"
+          },
+          {
+            "Text": "a mud snake #61014",
+            "Color": "red"
+          },
+          {
+            "Text": "a mud snake #61014",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 61015,
+        "Name": "Split in the Trail #61015",
+        "Connections": {
+          "North": 61025,
+          "East": 61016,
+          "South": 61018,
+          "West": 61012
+        },
+        "Contents": [
+          {
+            "Text": "an orchid flower #61020",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 61016,
+        "Name": "Cave Entrance #61016",
+        "Connections": {
+          "East": 61017,
+          "West": 61015
+        },
+        "Contents": [
+          {
+            "Text": "vine tree #61016",
+            "Color": "green"
+          },
+          {
+            "Text": "a petunia flower #61019",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61017,
+        "Name": "Lair of the Silver Serpent #61017",
+        "Connections": {
+          "West": 61016
+        },
+        "Contents": [
+          {
+            "Text": "the silver serpent #61017",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 61018,
+        "Name": "Grassy Field #61018",
+        "Connections": {
+          "North": 61015,
+          "South": 61019,
+          "Down": 61020
+        },
+        "Contents": [
+          {
+            "Text": "a petunia flower #61019",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61019,
+        "Name": "South-East End of the Arboretum #61019",
+        "Connections": {
+          "North": 61018
+        },
+        "Contents": [
+          {
+            "Text": "vine tree #61016",
+            "Color": "green"
+          },
+          {
+            "Text": "vine tree #61016",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61020,
+        "Name": "Inside of the Fountain #61020",
+        "Connections": {
+          "South": 61021,
+          "Up": 61018
+        }
+      },
+      {
+        "Id": 61021,
+        "Name": "Underwater Tunnel #61021",
+        "Connections": {
+          "North": 61020,
+          "South": 61022
+        }
+      },
+      {
+        "Id": 61022,
+        "Name": "Underwater Tunnel #61022",
+        "Connections": {
+          "North": 61021,
+          "South": 61023
+        }
+      },
+      {
+        "Id": 61023,
+        "Name": "Underground Lake #61023",
+        "Connections": {
+          "North": 61022,
+          "Down": 61024
+        }
+      },
+      {
+        "Id": 61024,
+        "Name": "Underwater Cave #61024",
+        "Connections": {
+          "Up": 61023
+        },
+        "Contents": [
+          {
+            "Text": "the Turtle Dragon #61025",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 61025,
+        "Name": "North-East End of the Arboretum #61025",
+        "Connections": {
+          "South": 61015,
+          "West": 61010
+        },
+        "Contents": [
+          {
+            "Text": "an easter lily plant #61021",
+            "Color": "green"
+          },
+          {
+            "Text": "an orchid flower #61020",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 61027,
+        "Name": "Flowery Trail #61027",
+        "Connections": {
+          "East": 61011,
+          "West": 61028
+        },
+        "Contents": [
+          {
+            "Text": "an easter lily plant #61021",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61028,
+        "Name": "Flowery Trail #61028",
+        "Connections": {
+          "East": 61027,
+          "West": 61029
+        },
+        "Contents": [
+          {
+            "Text": "an orchid flower #61020",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 61029,
+        "Name": "Trail Intersection #61029",
+        "Connections": {
+          "North": 61030,
+          "East": 61028,
+          "South": 61032
+        },
+        "Contents": [
+          {
+            "Text": "a gardener #61015",
+            "Color": "green"
+          },
+          {
+            "Text": "a gardener #61015",
+            "Color": "green"
+          },
+          {
+            "Text": "vine tree #61016",
+            "Color": "green"
+          },
+          {
+            "Text": "vine tree #61016",
+            "Color": "green"
+          },
+          {
+            "Text": "a petunia flower #61019",
+            "Color": "green"
+          },
+          {
+            "Text": "an easter lily plant #61021",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61030,
+        "Name": "Burned Field #61030",
+        "Connections": {
+          "North": 61042,
+          "South": 61029,
+          "West": 61031
+        },
+        "Contents": [
+          {
+            "Text": "an acid worm #61030",
+            "Color": "red"
+          },
+          {
+            "Text": "an acid worm #61030",
+            "Color": "red"
+          },
+          {
+            "Text": "an acid worm #61030",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 61031,
+        "Name": "North-West End of the Arboretum #61031",
+        "Connections": {
+          "East": 61030
+        },
+        "Contents": [
+          {
+            "Text": "an orchid flower #61020",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 61032,
+        "Name": "Flowery Trail #61032",
+        "Connections": {
+          "North": 61029,
+          "South": 61033
+        },
+        "Contents": [
+          {
+            "Text": "vine tree #61016",
+            "Color": "green"
+          },
+          {
+            "Text": "an orchid flower #61020",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 61033,
+        "Name": "Bend in the Trail #61033",
+        "Connections": {
+          "North": 61032,
+          "West": 61034
+        },
+        "Contents": [
+          {
+            "Text": "an easter lily plant #61021",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61034,
+        "Name": "Small Clearing #61034",
+        "Connections": {
+          "East": 61033,
+          "West": 61035
+        },
+        "Contents": [
+          {
+            "Text": "an ancient willow tree #61034",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 61035,
+        "Name": "Outside of the Greenhouse #61035",
+        "Connections": {
+          "East": 61034,
+          "South": 61036,
+          "West": 61037
+        },
+        "Contents": [
+          {
+            "Text": "a rose bush #61022",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 61036,
+        "Name": "Greenhouse #61036",
+        "Connections": {
+          "North": 61035
+        },
+        "Contents": [
+          {
+            "Text": "Phoom #61036",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61037,
+        "Name": "South-West End of the Arboretum #61037",
+        "Connections": {
+          "East": 61035,
+          "Down": 61038
+        }
+      },
+      {
+        "Id": 61038,
+        "Name": "Hidden Passage #61038",
+        "Connections": {
+          "South": 61039,
+          "Up": 61037,
+          "Down": 61044
+        }
+      },
+      {
+        "Id": 61039,
+        "Name": "Hidden Passage #61039",
+        "Connections": {
+          "North": 61038,
+          "South": 61040
+        }
+      },
+      {
+        "Id": 61040,
+        "Name": "Hidden Passage #61040",
+        "Connections": {
+          "North": 61039,
+          "South": 61041
+        }
+      },
+      {
+        "Id": 61041,
+        "Name": "Lair of the Phoenix #61041",
+        "Connections": {
+          "North": 61040
+        },
+        "Contents": [
+          {
+            "Text": "the Phoenix #61041",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61042,
+        "Name": "Witch Doctor\u0027s Hut #61042",
+        "Connections": {
+          "South": 61030
+        },
+        "Contents": [
+          {
+            "Text": "The Witch Doctor #61042",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61043,
+        "Name": "Virus\u0027 Mob Room #61043",
+        "Connections": {}
+      },
+      {
+        "Id": 61044,
+        "Name": "In the Midair #61044",
+        "Connections": {
+          "Up": 61038,
+          "Down": 46465
+        }
+      },
+      {
+        "Id": 61045,
+        "Name": "More than Halfway Down the Hole #61045",
+        "Connections": {
+          "Up": 61013,
+          "Down": 61014
+        }
+      },
+      {
+        "Id": 61046,
+        "Name": "Almost Halfway Down the Hole #61046",
+        "Connections": {
+          "Up": 61012,
+          "Down": 61013
+        }
+      },
+      {
+        "Id": 61047,
+        "Name": "Muddy Trail #61047",
+        "Connections": {
+          "South": 61010
+        }
+      },
+      {
+        "Id": 61050,
+        "Name": "Onyx Hallway #61050",
+        "Connections": {
+          "North": 61014,
+          "South": 61051
+        },
+        "Contents": [
+          {
+            "Text": "You #61050",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61051,
+        "Name": "Onyx Hallway #61051",
+        "Connections": {
+          "North": 61050,
+          "East": 61052,
+          "South": 61053
+        },
+        "Contents": [
+          {
+            "Text": "You #61050",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61052,
+        "Name": "Chamber of Rune #61052",
+        "Connections": {
+          "West": 61051
+        },
+        "Contents": [
+          {
+            "Text": "The Head Gardener #61061",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61053,
+        "Name": "Onyx Hallway #61053",
+        "Connections": {
+          "North": 61051,
+          "South": 61054
+        },
+        "Contents": [
+          {
+            "Text": "You #61050",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61054,
+        "Name": "Bend in the Onyx Hallway #61054",
+        "Connections": {
+          "North": 61053,
+          "East": 61055
+        },
+        "Contents": [
+          {
+            "Text": "You #61050",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61055,
+        "Name": "Onyx Hallway #61055",
+        "Connections": {
+          "North": 61056,
+          "East": 61057,
+          "West": 61054
+        }
+      },
+      {
+        "Id": 61056,
+        "Name": "Chamber of Oracle #61056",
+        "Connections": {
+          "South": 61055
+        }
+      },
+      {
+        "Id": 61057,
+        "Name": "Onyx Hallway #61057",
+        "Connections": {
+          "East": 61058,
+          "West": 61055
+        },
+        "Contents": [
+          {
+            "Text": "You #61050",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61058,
+        "Name": "Onyx Hallway #61058",
+        "Connections": {
+          "East": 61059,
+          "West": 61057
+        },
+        "Contents": [
+          {
+            "Text": "You #61050",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61059,
+        "Name": "End of the Onyx Hallway #61059",
+        "Connections": {
+          "North": 61060,
+          "West": 61058
+        }
+      },
+      {
+        "Id": 61060,
+        "Name": "Arboretum\u0027s Meeting Room #61060",
+        "Connections": {
+          "North": 61061,
+          "South": 61059
+        }
+      },
+      {
+        "Id": 61061,
+        "Name": "Head Gardener\u0027s Office #61061",
+        "Connections": {
+          "South": 61060,
+          "Down": 61041
+        }
+      },
+      {
+        "Id": 61098,
+        "Name": "A Wooden Dock #61098",
+        "Connections": {
+          "South": 61025
+        },
+        "Contents": [
+          {
+            "Text": "a weary elf fisher #77007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 61099,
+        "Name": "Foliage Lined Beach #61099",
+        "Connections": {
+          "West": 61025
+        }
+      },
+      {
+        "Id": 61100,
+        "Name": "Path Around the Great Mountain #61100",
+        "Connections": {
+          "South": 77045,
+          "West": 61101
+        }
+      },
+      {
+        "Id": 8057,
+        "FrameColor": "blue",
+        "Name": "To bh #8057",
+        "Color": "blue",
+        "Connections": {
+          "South": 8015
+        }
+      },
+      {
+        "Id": 12375,
+        "FrameColor": "blue",
+        "Name": "To jahnesta #12375",
+        "Color": "blue",
+        "Connections": {
+          "South": 61010,
+          "West": 12374
+        }
+      },
+      {
+        "Id": 46465,
+        "FrameColor": "blue",
+        "Name": "To maze #46465",
+        "Color": "blue",
+        "Connections": {
+          "North": 46450,
+          "East": 46499,
+          "West": 46523
+        }
+      },
+      {
+        "Id": 77045,
+        "FrameColor": "blue",
+        "Name": "To mhorn #77045",
+        "Color": "blue",
+        "Connections": {
+          "North": 77046,
+          "East": 77035
+        }
+      },
+      {
+        "Id": 61101,
+        "FrameColor": "blue",
+        "Name": "To neptemple #61101",
+        "Color": "blue",
+        "Connections": {
+          "East": 61100,
+          "West": 61102
+        }
+      }
+    ]
+  }
+}

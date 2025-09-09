@@ -1,0 +1,615 @@
+{
+  "Area": {
+    "Name": "suntemple",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 80000,
+        "Name": "Entrance to the Sun Temple #80000",
+        "Connections": {
+          "North": 5611,
+          "South": 80001
+        }
+      },
+      {
+        "Id": 80001,
+        "Name": "Inside the Sun Temple #80001",
+        "Connections": {
+          "North": 80000,
+          "South": 80002
+        }
+      },
+      {
+        "Id": 80002,
+        "Name": "Sun Temple Main Chamber #80002",
+        "Connections": {
+          "North": 80001,
+          "East": 80003,
+          "South": 80005,
+          "West": 80004
+        },
+        "Contents": [
+          {
+            "Text": "a sun monk #80000",
+            "Color": "green"
+          },
+          {
+            "Text": "a sun monk #80000",
+            "Color": "green"
+          },
+          {
+            "Text": "a sun monk #80000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80003,
+        "Name": "Side Chamber of Sun Temple #80003",
+        "Connections": {
+          "West": 80002
+        },
+        "Contents": [
+          {
+            "Text": "a sun monk #80000",
+            "Color": "green"
+          },
+          {
+            "Text": "a sun monk #80000",
+            "Color": "green"
+          },
+          {
+            "Text": "a priestess of the sun #80001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80004,
+        "Name": "Sunny Hallway #80004",
+        "Connections": {
+          "North": 80006,
+          "East": 80002,
+          "South": 80007,
+          "West": 80008
+        }
+      },
+      {
+        "Id": 80005,
+        "Name": "Sun Temple Main Worship Chamber #80005",
+        "Connections": {
+          "North": 80002,
+          "Down": 80022
+        },
+        "Contents": [
+          {
+            "Text": "a sun monk #80000",
+            "Color": "green"
+          },
+          {
+            "Text": "a priestess of the sun #80001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80006,
+        "Name": "Sun Priest\u0027s Office #80006",
+        "Connections": {
+          "South": 80004
+        },
+        "Contents": [
+          {
+            "Text": "the high priest of the sun #57002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80007,
+        "Name": "Scribes\u0027 Chamber #80007",
+        "Connections": {
+          "North": 80004
+        },
+        "Contents": [
+          {
+            "Text": "a sun monk #80000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80008,
+        "Name": "Sunny Passageway #80008",
+        "Connections": {
+          "North": 80013,
+          "East": 80004,
+          "South": 80009,
+          "West": 80010
+        }
+      },
+      {
+        "Id": 80009,
+        "Name": "Eating Area of Sun Temple #80009",
+        "Connections": {
+          "North": 80008
+        },
+        "Contents": [
+          {
+            "Text": "a sun monk #80000",
+            "Color": "green"
+          },
+          {
+            "Text": "a sun monk #80000",
+            "Color": "green"
+          },
+          {
+            "Text": "a priestess of the sun #80001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80010,
+        "Name": "Sun Priest Barracks #80010",
+        "Connections": {
+          "North": 80011,
+          "East": 80008,
+          "South": 80012
+        }
+      },
+      {
+        "Id": 80011,
+        "Name": "Northern Barracks of Sun Temple #80011",
+        "Connections": {
+          "South": 80010
+        },
+        "Contents": [
+          {
+            "Text": "a sun monk #80000",
+            "Color": "green"
+          },
+          {
+            "Text": "a priestess of the sun #80001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80012,
+        "Name": "Southern Sleeping Chamber #80012",
+        "Connections": {
+          "North": 80010,
+          "South": 80015
+        }
+      },
+      {
+        "Id": 80013,
+        "Name": "Base of Sun Temple Stairs #80013",
+        "Connections": {
+          "South": 80008,
+          "Up": 80014
+        },
+        "Contents": [
+          {
+            "Text": "a sun monk #80000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80014,
+        "Name": "Sun Temple Upper Chamber #80014",
+        "Connections": {
+          "Down": 80013
+        },
+        "Contents": [
+          {
+            "Text": "a sun monk #80000",
+            "Color": "green"
+          },
+          {
+            "Text": "a priestess of the sun #80001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80015,
+        "Name": "Hidden Stairway in Sun Temple #80015",
+        "Connections": {
+          "North": 80012,
+          "Up": 80016
+        }
+      },
+      {
+        "Id": 80016,
+        "Name": "A Small Landing #80016",
+        "Connections": {
+          "West": 80017,
+          "Up": 80019,
+          "Down": 80015
+        }
+      },
+      {
+        "Id": 80017,
+        "Name": "A Sunny Antechamber #80017",
+        "Connections": {
+          "North": 80018,
+          "East": 80016
+        },
+        "Contents": [
+          {
+            "Text": "a gold-robed apprentice #80002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80018,
+        "Name": "The Chamber of the Sun Master #80018",
+        "Connections": {
+          "South": 80017
+        },
+        "Contents": [
+          {
+            "Text": "the sun cat #80004",
+            "Color": "green"
+          },
+          {
+            "Text": "the master of the sun #80003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80019,
+        "Name": "Sandstone Temple Stairs #80019",
+        "Connections": {
+          "Up": 80020,
+          "Down": 80016
+        }
+      },
+      {
+        "Id": 80020,
+        "Name": "Top of Sun Temple Stairs #80020",
+        "Connections": {
+          "West": 80021,
+          "Down": 80019
+        },
+        "Contents": [
+          {
+            "Text": "a priestess of the sun #80001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80021,
+        "Name": "Chamber of the Sun #80021",
+        "Connections": {
+          "East": 80020
+        },
+        "Contents": [
+          {
+            "Text": "the Sun Avatar #14",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80022,
+        "Name": "Sandstone Tunnel #80022",
+        "Connections": {
+          "South": 80023,
+          "Up": 80005
+        }
+      },
+      {
+        "Id": 80023,
+        "Name": "Sandstone Tunnel Junction #80023",
+        "Connections": {
+          "North": 80022,
+          "East": 80024,
+          "South": 80030,
+          "West": 80026
+        }
+      },
+      {
+        "Id": 80024,
+        "Name": "Eastern Sandstone Tunnel #80024",
+        "Connections": {
+          "South": 80025,
+          "West": 80023
+        }
+      },
+      {
+        "Id": 80025,
+        "Name": "Very Hot Sandstone Room #80025",
+        "Connections": {
+          "North": 80024
+        },
+        "Contents": [
+          {
+            "Text": "a sun spot #15",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80026,
+        "Name": "Western Sandstone Passageway #80026",
+        "Connections": {
+          "East": 80023,
+          "West": 80027
+        }
+      },
+      {
+        "Id": 80027,
+        "Name": "Bend in Western Passageway #80027",
+        "Connections": {
+          "East": 80026,
+          "South": 80028
+        }
+      },
+      {
+        "Id": 80028,
+        "Name": "Sandstone Tunnel #80028",
+        "Connections": {
+          "North": 80027,
+          "West": 80029
+        },
+        "Contents": [
+          {
+            "Text": "a sun templar knight #80005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80029,
+        "Name": "Sun Templar\u0027s Chambers #80029",
+        "Connections": {
+          "East": 80028
+        },
+        "Contents": [
+          {
+            "Text": "a sun templar knight #80005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80030,
+        "Name": "Inside the Statue #80030",
+        "Connections": {
+          "North": 80023,
+          "Up": 80031
+        },
+        "Contents": [
+          {
+            "Text": "a sun templar knight #80005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80031,
+        "Name": "Hidden Worship Chamber #80031",
+        "Connections": {
+          "Down": 80030
+        },
+        "Contents": [
+          {
+            "Text": "the guardian statue #80006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80032,
+        "Name": "Beyond the Clouds #80032",
+        "Connections": {
+          "North": 80033,
+          "Down": 4250
+        }
+      },
+      {
+        "Id": 80033,
+        "Name": "Before the Palace #80033",
+        "Connections": {
+          "South": 80032,
+          "Up": 80034
+        }
+      },
+      {
+        "Id": 80034,
+        "Name": "On a Firey Stair #80034",
+        "Connections": {
+          "Up": 80035,
+          "Down": 80033
+        }
+      },
+      {
+        "Id": 80035,
+        "Name": "Before the Doors #80035",
+        "Connections": {
+          "North": 80036,
+          "Down": 80034
+        }
+      },
+      {
+        "Id": 80036,
+        "Name": "The Palace of the Solar Winds #80036",
+        "Connections": {
+          "South": 80035,
+          "Down": 80037
+        }
+      },
+      {
+        "Id": 80037,
+        "Name": "The Chamber of the Sun #80037",
+        "Connections": {
+          "North": 80041,
+          "East": 80039,
+          "West": 80038,
+          "Up": 80036
+        },
+        "Contents": [
+          {
+            "Text": "a knight of the sun #80032",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80038,
+        "Name": "The Chamber of the Sun #80038",
+        "Connections": {
+          "North": 80042,
+          "East": 80037
+        }
+      },
+      {
+        "Id": 80039,
+        "Name": "The Chamber of the Sun #80039",
+        "Connections": {
+          "North": 80040,
+          "West": 80037
+        }
+      },
+      {
+        "Id": 80040,
+        "Name": "The Chamber of the Sun #80040",
+        "Connections": {
+          "North": 80045,
+          "South": 80039,
+          "West": 80041
+        },
+        "Contents": [
+          {
+            "Text": "a knight of the sun #80032",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80041,
+        "Name": "The Eye of the Sun #80041",
+        "Connections": {
+          "North": 80044,
+          "East": 80040,
+          "South": 80037,
+          "West": 80042
+        },
+        "Contents": [
+          {
+            "Text": "a knight of the sun #80032",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80042,
+        "Name": "The Chamber of the Sun #80042",
+        "Connections": {
+          "North": 80043,
+          "East": 80041,
+          "South": 80038
+        },
+        "Contents": [
+          {
+            "Text": "a knight of the sun #80032",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80043,
+        "Name": "The Chamber of the Sun #80043",
+        "Connections": {
+          "East": 80044,
+          "South": 80042
+        }
+      },
+      {
+        "Id": 80044,
+        "Name": "Before the Portal #80044",
+        "Connections": {
+          "North": 80046,
+          "East": 80045,
+          "South": 80041,
+          "West": 80043,
+          "Up": 80048
+        },
+        "Contents": [
+          {
+            "Text": "a sun lord #80033",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80045,
+        "Name": "The Chamber of the Sun #80045",
+        "Connections": {
+          "South": 80040,
+          "West": 80044
+        }
+      },
+      {
+        "Id": 80046,
+        "Name": "The Battlefield of the Solar Champion #80046",
+        "Connections": {
+          "North": 80047,
+          "South": 80044
+        },
+        "Contents": [
+          {
+            "Text": "The Solar Champion #80034",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80047,
+        "Name": "The Domain of the Solar Champion #80047",
+        "Connections": {
+          "South": 80046
+        }
+      },
+      {
+        "Id": 80048,
+        "Name": "The Altar of Argent, God of the Sun #80048",
+        "Connections": {
+          "Down": 80044
+        }
+      },
+      {
+        "Id": 5611,
+        "FrameColor": "blue",
+        "Name": "To connect #5611",
+        "Color": "blue",
+        "Connections": {
+          "North": 5606,
+          "East": 5612,
+          "South": 80000,
+          "West": 5616
+        }
+      },
+      {
+        "Id": 4250,
+        "FrameColor": "blue",
+        "Name": "To heaven #4250",
+        "Color": "blue",
+        "Connections": {
+          "North": 4248,
+          "East": 4252,
+          "South": 4251,
+          "West": 4246,
+          "Up": 80032
+        }
+      }
+    ]
+  }
+}

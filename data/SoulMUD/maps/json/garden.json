@@ -1,0 +1,590 @@
+{
+  "Area": {
+    "Name": "garden",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 5901,
+        "Name": "Entrance to the Garden #5901",
+        "Connections": {
+          "North": 5902,
+          "South": 8052
+        }
+      },
+      {
+        "Id": 5902,
+        "Name": "Maze Junction #5902",
+        "Connections": {
+          "North": 5914,
+          "South": 5901,
+          "West": 5903
+        }
+      },
+      {
+        "Id": 5903,
+        "Name": "Maze Junction #5903",
+        "Connections": {
+          "North": 5913,
+          "East": 5902,
+          "West": 5904
+        }
+      },
+      {
+        "Id": 5904,
+        "Name": "Maze Junction #5904",
+        "Connections": {
+          "North": 5907,
+          "East": 5903,
+          "West": 5905
+        }
+      },
+      {
+        "Id": 5905,
+        "Name": "Heavily Traveled Path #5905",
+        "Connections": {
+          "North": 5906,
+          "East": 5904
+        }
+      },
+      {
+        "Id": 5906,
+        "Name": "Outside the Shack #5906",
+        "Connections": {
+          "South": 5905,
+          "West": 5953
+        }
+      },
+      {
+        "Id": 5907,
+        "Name": "Hedge Maze #5907",
+        "Connections": {
+          "East": 5908,
+          "South": 5904
+        }
+      },
+      {
+        "Id": 5908,
+        "Name": "Hedge Maze #5908",
+        "Connections": {
+          "East": 5909,
+          "West": 5907
+        }
+      },
+      {
+        "Id": 5909,
+        "Name": "Hedge Maze #5909",
+        "Connections": {
+          "South": 5910,
+          "West": 5908
+        }
+      },
+      {
+        "Id": 5910,
+        "Name": "Hedge Maze #5910",
+        "Connections": {
+          "North": 5909,
+          "East": 5911
+        }
+      },
+      {
+        "Id": 5911,
+        "Name": "Maze Junction #5911",
+        "Connections": {
+          "North": 5935,
+          "South": 5912,
+          "West": 5910
+        }
+      },
+      {
+        "Id": 5912,
+        "Name": "Maze by Fountain #5912",
+        "Connections": {
+          "North": 5911,
+          "East": 5931,
+          "South": 5913
+        }
+      },
+      {
+        "Id": 5913,
+        "Name": "Hedge Maze #5913",
+        "Connections": {
+          "North": 5912,
+          "South": 5903
+        }
+      },
+      {
+        "Id": 5914,
+        "Name": "Maze by Fountain #5914",
+        "Connections": {
+          "North": 5931,
+          "East": 5916,
+          "South": 5902
+        }
+      },
+      {
+        "Id": 5915,
+        "Name": "Dead End #5915",
+        "Connections": {
+          "North": 5916
+        }
+      },
+      {
+        "Id": 5916,
+        "Name": "Maze Junction #5916",
+        "Connections": {
+          "North": 5917,
+          "South": 5915,
+          "West": 5914
+        }
+      },
+      {
+        "Id": 5917,
+        "Name": "Maze Junction #5917",
+        "Connections": {
+          "East": 5922,
+          "South": 5916,
+          "West": 5918
+        }
+      },
+      {
+        "Id": 5918,
+        "Name": "Hedge Maze #5918",
+        "Connections": {
+          "North": 5919,
+          "East": 5917
+        }
+      },
+      {
+        "Id": 5919,
+        "Name": "Maze Junction #5919",
+        "Connections": {
+          "South": 5918,
+          "West": 5931
+        }
+      },
+      {
+        "Id": 5920,
+        "Name": "Hedge Maze #5920",
+        "Connections": {
+          "North": 5926,
+          "East": 5921
+        }
+      },
+      {
+        "Id": 5921,
+        "Name": "Hedge Maze #5921",
+        "Connections": {
+          "North": 5922,
+          "West": 5920
+        }
+      },
+      {
+        "Id": 5922,
+        "Name": "Maze Junction #5922",
+        "Connections": {
+          "North": 5923,
+          "South": 5921,
+          "West": 5917
+        }
+      },
+      {
+        "Id": 5923,
+        "Name": "Hedge Maze #5923",
+        "Connections": {
+          "East": 5924,
+          "South": 5922
+        }
+      },
+      {
+        "Id": 5924,
+        "Name": "The Wabe #5924",
+        "Connections": {
+          "South": 5925,
+          "West": 5923
+        }
+      },
+      {
+        "Id": 5925,
+        "Name": "Wabe by the Sundial #5925",
+        "Connections": {
+          "North": 5924
+        }
+      },
+      {
+        "Id": 5926,
+        "Name": "The Vineyard #5926",
+        "Connections": {
+          "East": 5927,
+          "South": 5920
+        }
+      },
+      {
+        "Id": 5927,
+        "Name": "The Vineyard #5927",
+        "Connections": {
+          "East": 5928,
+          "West": 5926
+        }
+      },
+      {
+        "Id": 5928,
+        "Name": "The Vineyard #5928",
+        "Connections": {
+          "East": 5929,
+          "West": 5927
+        },
+        "Contents": [
+          {
+            "Text": "the brown fox #1027",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5929,
+        "Name": "The Vineyard #5929",
+        "Connections": {
+          "East": 5930,
+          "West": 5928
+        }
+      },
+      {
+        "Id": 5930,
+        "Name": "Nest of the Tangle Vines #5930",
+        "Connections": {
+          "East": 3441,
+          "West": 5929
+        }
+      },
+      {
+        "Id": 5931,
+        "Name": "The Fountain #5931",
+        "Connections": {
+          "North": 5932,
+          "East": 5919,
+          "South": 5914,
+          "West": 5912
+        }
+      },
+      {
+        "Id": 5932,
+        "Name": "Entrance to the Gardens #5932",
+        "Connections": {
+          "East": 5939,
+          "South": 5931,
+          "West": 5933
+        }
+      },
+      {
+        "Id": 5933,
+        "Name": "Pebble Path #5933",
+        "Connections": {
+          "North": 5934,
+          "East": 5932
+        }
+      },
+      {
+        "Id": 5934,
+        "Name": "Garden Path #5934",
+        "Connections": {
+          "East": 5938,
+          "South": 5933,
+          "West": 5935
+        }
+      },
+      {
+        "Id": 5935,
+        "Name": "The Northwest Exit #5935",
+        "Connections": {
+          "East": 5934,
+          "South": 5911,
+          "West": 5936
+        }
+      },
+      {
+        "Id": 5936,
+        "Name": "The South Lawn #5936",
+        "Connections": {
+          "North": 5937,
+          "East": 5935
+        }
+      },
+      {
+        "Id": 5937,
+        "Name": "The North Lawn #5937",
+        "Connections": {
+          "South": 5936
+        }
+      },
+      {
+        "Id": 5938,
+        "Name": "The Rose Garden #5938",
+        "Connections": {
+          "West": 5934
+        }
+      },
+      {
+        "Id": 5939,
+        "Name": "The Pebble Path #5939",
+        "Connections": {
+          "North": 5940,
+          "West": 5932
+        }
+      },
+      {
+        "Id": 5940,
+        "Name": "The Pebble Path #5940",
+        "Connections": {
+          "North": 5941,
+          "South": 5939
+        }
+      },
+      {
+        "Id": 5941,
+        "Name": "Base of the Hill #5941",
+        "Connections": {
+          "North": 5942,
+          "South": 5940,
+          "West": 5955
+        }
+      },
+      {
+        "Id": 5942,
+        "Name": "The Pebble Path #5942",
+        "Connections": {
+          "North": 5943,
+          "East": 5945,
+          "South": 5941
+        }
+      },
+      {
+        "Id": 5943,
+        "Name": "Under the Cherry Tree #5943",
+        "Connections": {
+          "East": 5944,
+          "South": 5942,
+          "Up": 5956
+        }
+      },
+      {
+        "Id": 5944,
+        "Name": "Under the Lemon Tree #5944",
+        "Connections": {
+          "South": 5945,
+          "West": 5943,
+          "Up": 5957
+        }
+      },
+      {
+        "Id": 5945,
+        "Name": "Under the Apple Tree #5945",
+        "Connections": {
+          "North": 5944,
+          "West": 5942,
+          "Up": 5958
+        }
+      },
+      {
+        "Id": 5946,
+        "Name": "In the Gazebo #5946",
+        "Connections": {
+          "South": 5955
+        }
+      },
+      {
+        "Id": 5947,
+        "Name": "Outside the Cottage #5947",
+        "Connections": {
+          "North": 5948,
+          "East": 5955,
+          "South": 5954
+        }
+      },
+      {
+        "Id": 5948,
+        "Name": "Wandering Path #5948",
+        "Connections": {
+          "North": 5949,
+          "South": 5947
+        }
+      },
+      {
+        "Id": 5949,
+        "Name": "Bend in the Path #5949",
+        "Connections": {
+          "South": 5948,
+          "West": 5950
+        }
+      },
+      {
+        "Id": 5950,
+        "Name": "Dark Path #5950",
+        "Connections": {
+          "East": 5949,
+          "West": 5951
+        }
+      },
+      {
+        "Id": 5951,
+        "Name": "The Cave #5951",
+        "Connections": {
+          "East": 5950,
+          "West": 5952
+        }
+      },
+      {
+        "Id": 5952,
+        "Name": "The Dragon\u0027s Cave #5952",
+        "Connections": {
+          "East": 5951,
+          "West": 42800
+        }
+      },
+      {
+        "Id": 5953,
+        "Name": "The Gardener\u0027s Shed #5953",
+        "Connections": {
+          "East": 5906
+        }
+      },
+      {
+        "Id": 5954,
+        "Name": "The Cottage #5954",
+        "Connections": {
+          "North": 5947
+        }
+      },
+      {
+        "Id": 5955,
+        "Name": "Top of the Hill #5955",
+        "Connections": {
+          "North": 5946,
+          "East": 5941,
+          "West": 5947
+        }
+      },
+      {
+        "Id": 5956,
+        "Name": "Up in the Cherry Tree #5956",
+        "Connections": {
+          "Down": 5943
+        }
+      },
+      {
+        "Id": 5957,
+        "Name": "Up in the Lemon Tree #5957",
+        "Connections": {
+          "Down": 5944
+        }
+      },
+      {
+        "Id": 5958,
+        "Name": "Up in the Apple Tree #5958",
+        "Connections": {
+          "Down": 5945
+        }
+      },
+      {
+        "Id": 5959,
+        "Name": "East of Pond #5959",
+        "Connections": {
+          "West": 5960,
+          "Up": 5964
+        }
+      },
+      {
+        "Id": 5960,
+        "Name": "Shallow Pond #5960",
+        "Connections": {
+          "East": 5959,
+          "West": 5961
+        }
+      },
+      {
+        "Id": 5961,
+        "Name": "Shallow Pond #5961",
+        "Connections": {
+          "East": 5960,
+          "West": 5962,
+          "Down": 5965
+        }
+      },
+      {
+        "Id": 5962,
+        "Name": "West of Pond #5962",
+        "Connections": {
+          "East": 5961,
+          "West": 5973,
+          "Up": 5963
+        }
+      },
+      {
+        "Id": 5963,
+        "Name": "The Red Bridge #5963",
+        "Connections": {
+          "East": 5964,
+          "Down": 5962
+        }
+      },
+      {
+        "Id": 5964,
+        "Name": "The Red Bridge #5964",
+        "Connections": {
+          "West": 5963,
+          "Down": 5959
+        }
+      },
+      {
+        "Id": 5965,
+        "Name": "Murky Tunnel #5965",
+        "Connections": {
+          "Up": 5961,
+          "Down": 5966
+        }
+      },
+      {
+        "Id": 5966,
+        "Name": "Murky Cavern #5966",
+        "Connections": {
+          "Up": 5965
+        }
+      },
+      {
+        "Id": 5973,
+        "Name": "Messed up room #5973",
+        "Connections": {}
+      },
+      {
+        "Id": 8052,
+        "FrameColor": "blue",
+        "Name": "To bh #8052",
+        "Color": "blue",
+        "Connections": {
+          "North": 5901,
+          "West": 8020
+        }
+      },
+      {
+        "Id": 3441,
+        "FrameColor": "blue",
+        "Name": "To park #3441",
+        "Color": "blue",
+        "Connections": {
+          "East": 3442,
+          "South": 3440,
+          "West": 68331
+        }
+      },
+      {
+        "Id": 42800,
+        "FrameColor": "blue",
+        "Name": "To orcfort #42800",
+        "Color": "blue",
+        "Connections": {
+          "East": 5952,
+          "West": 42801
+        }
+      }
+    ]
+  }
+}

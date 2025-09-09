@@ -1,0 +1,269 @@
+{
+  "Area": {
+    "Name": "moontemple",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 57000,
+        "Name": "The Mob Testing Area #57000",
+        "Connections": {
+          "Down": 57001
+        }
+      },
+      {
+        "Id": 57001,
+        "Name": "The Testing Ground #57001",
+        "Connections": {}
+      },
+      {
+        "Id": 57002,
+        "Name": "The Rocky Cliff Wall #57002",
+        "Connections": {
+          "Up": 57003,
+          "Down": 30058
+        }
+      },
+      {
+        "Id": 57003,
+        "Name": "A Ledge on the Cliff #57003",
+        "Connections": {
+          "North": 57004,
+          "Down": 57002
+        }
+      },
+      {
+        "Id": 57004,
+        "Name": "A Small Tunnel #57004",
+        "Connections": {
+          "South": 57003,
+          "Up": 57005
+        }
+      },
+      {
+        "Id": 57005,
+        "Name": "A Carved Tunnel #57005",
+        "Connections": {
+          "North": 57006,
+          "Down": 57004
+        }
+      },
+      {
+        "Id": 57006,
+        "Name": "A Carved Tunnel #57006",
+        "Connections": {
+          "North": 57007,
+          "South": 57005
+        }
+      },
+      {
+        "Id": 57007,
+        "Name": "The Entrance to the Temple of the Moon #57007",
+        "Connections": {
+          "North": 57008,
+          "South": 57006
+        },
+        "Contents": [
+          {
+            "Text": "a acolyte of the moon #57003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 57008,
+        "Name": "The Chamber of the Silver Wolf #57008",
+        "Connections": {
+          "North": 57013,
+          "East": 57016,
+          "South": 57007,
+          "West": 57009
+        },
+        "Contents": [
+          {
+            "Text": "The Great Silver Wolf #57000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 57009,
+        "Name": "A Small Chamber #57009",
+        "Connections": {
+          "East": 57008
+        },
+        "Contents": [
+          {
+            "Text": "a acolyte of the moon #57003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 57010,
+        "Name": "The Main Worship Hall #57010",
+        "Connections": {
+          "North": 57011,
+          "East": 57013
+        },
+        "Contents": [
+          {
+            "Text": "a acolyte of the moon #57003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 57011,
+        "Name": "The Main Worship Hall #57011",
+        "Connections": {
+          "East": 57012,
+          "South": 57010
+        }
+      },
+      {
+        "Id": 57012,
+        "Name": "The Main Worship Hall #57012",
+        "Connections": {
+          "North": 57017,
+          "East": 57014,
+          "South": 57013,
+          "West": 57011
+        },
+        "Contents": [
+          {
+            "Text": "a acolyte of the moon #57003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 57013,
+        "Name": "The Main Worship Hall #57013",
+        "Connections": {
+          "North": 57012,
+          "East": 57015,
+          "South": 57008,
+          "West": 57010
+        }
+      },
+      {
+        "Id": 57014,
+        "Name": "The Main Worship Hall #57014",
+        "Connections": {
+          "South": 57015,
+          "West": 57012
+        }
+      },
+      {
+        "Id": 57015,
+        "Name": "The Main Worship Hall #57015",
+        "Connections": {
+          "North": 57014,
+          "West": 57013
+        }
+      },
+      {
+        "Id": 57016,
+        "Name": "A Small Chamber #57016",
+        "Connections": {
+          "West": 57008
+        },
+        "Contents": [
+          {
+            "Text": "a acolyte of the moon #57003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 57017,
+        "Name": "The Altar of the Moon #57017",
+        "Connections": {
+          "East": 57019,
+          "South": 57012,
+          "West": 57018,
+          "Up": 57020
+        },
+        "Contents": [
+          {
+            "Text": "the moon-speaker #57004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 57018,
+        "Name": "The Sun Chamber #57018",
+        "Connections": {
+          "East": 57017
+        },
+        "Contents": [
+          {
+            "Text": "the high priest of the sun #57002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 57019,
+        "Name": "The Moon Chamber #57019",
+        "Connections": {
+          "North": 57022,
+          "West": 57017
+        },
+        "Contents": [
+          {
+            "Text": "the high priestess of the moon #57001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 57020,
+        "Name": "A Small Spiral Stairwell #57020",
+        "Connections": {
+          "Up": 57021,
+          "Down": 57017
+        }
+      },
+      {
+        "Id": 57021,
+        "Name": "A Small Spiral Stairwell #57021",
+        "Connections": {
+          "Up": 57023,
+          "Down": 57020
+        }
+      },
+      {
+        "Id": 57022,
+        "Name": "The Sleeping Chambers #57022",
+        "Connections": {
+          "South": 57019
+        }
+      },
+      {
+        "Id": 57023,
+        "Name": "Chamber of the Moon #57023",
+        "Connections": {
+          "Down": 57021
+        },
+        "Contents": [
+          {
+            "Text": "the Avatar of the Moon #57006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30058,
+        "FrameColor": "blue",
+        "Name": "To blackisle #30058",
+        "Color": "blue",
+        "Connections": {
+          "West": 30056,
+          "Up": 57002
+        }
+      }
+    ]
+  }
+}

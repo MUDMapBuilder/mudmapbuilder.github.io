@@ -1,0 +1,636 @@
+{
+  "Area": {
+    "Name": "akela",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 36000,
+        "Name": "Arietan\u0027s Domicile #36000",
+        "Connections": {
+          "South": 36003
+        },
+        "Contents": [
+          {
+            "Text": "a Mongol General #36000",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 36001,
+        "Name": "Sepherina\u0027s Hut #36001",
+        "Connections": {
+          "North": 20024,
+          "South": 75236,
+          "West": 8143
+        }
+      },
+      {
+        "Id": 36003,
+        "Name": "Creature Creation and Containment Lab #36003",
+        "Connections": {
+          "North": 36000
+        }
+      },
+      {
+        "Id": 36008,
+        "Name": "Sandstone Staircase #36008",
+        "Connections": {
+          "North": 36054
+        }
+      },
+      {
+        "Id": 36009,
+        "Name": "SandStone Staircase #36009",
+        "Connections": {
+          "South": 36054
+        }
+      },
+      {
+        "Id": 36010,
+        "Name": "The Loft #36010",
+        "Connections": {
+          "West": 36017,
+          "Down": 36011
+        },
+        "Contents": [
+          {
+            "Text": "a furry rodent #36006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 36011,
+        "Name": "Inside the Hermits Cabin #36011",
+        "Connections": {
+          "East": 36014,
+          "South": 36015,
+          "Up": 36010
+        }
+      },
+      {
+        "Id": 36012,
+        "Name": "Berry Patch #36012",
+        "Connections": {
+          "West": 36013
+        },
+        "Contents": [
+          {
+            "Text": "a chipmunk #36004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 36013,
+        "Name": "Deer Trail #36013",
+        "Connections": {
+          "East": 36012,
+          "West": 36014
+        },
+        "Contents": [
+          {
+            "Text": "a dark-colored mink #36007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 36014,
+        "Name": "Before the Hermit\u0027s Cabin #36014",
+        "Connections": {
+          "East": 36013,
+          "South": 36016,
+          "West": 36011
+        },
+        "Contents": [
+          {
+            "Text": "a chipmunk #36004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 36015,
+        "Name": "Pantry #36015",
+        "Connections": {
+          "North": 36011
+        }
+      },
+      {
+        "Id": 36016,
+        "Name": "Meat Smoker #36016",
+        "Connections": {
+          "North": 36014
+        },
+        "Contents": [
+          {
+            "Text": "a sprite #36005",
+            "Color": "green"
+          },
+          {
+            "Text": "a sprite #36005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 36017,
+        "Name": "The Deck #36017",
+        "Connections": {
+          "East": 36010,
+          "Down": 36018
+        }
+      },
+      {
+        "Id": 36018,
+        "Name": "At the Cellar #36018",
+        "Connections": {
+          "Up": 36017,
+          "Down": 36019
+        }
+      },
+      {
+        "Id": 36019,
+        "Name": "Hermit\u0027s Cellar #36019",
+        "Connections": {
+          "North": 36020,
+          "Up": 36018
+        }
+      },
+      {
+        "Id": 36020,
+        "Name": "Tunnel #36020",
+        "Connections": {
+          "North": 36021,
+          "South": 36019
+        }
+      },
+      {
+        "Id": 36021,
+        "Name": "Tunnel #36021",
+        "Connections": {
+          "North": 36022,
+          "South": 36020
+        }
+      },
+      {
+        "Id": 36022,
+        "Name": "Tunnel Bend #36022",
+        "Connections": {
+          "East": 36023,
+          "South": 36021
+        }
+      },
+      {
+        "Id": 36023,
+        "Name": "Hermit\u0027s Home #36023",
+        "Connections": {
+          "East": 36024,
+          "West": 36022
+        }
+      },
+      {
+        "Id": 36024,
+        "Name": "Hermit\u0027s Underground Shelter #36024",
+        "Connections": {
+          "East": 36025,
+          "West": 36023
+        }
+      },
+      {
+        "Id": 36025,
+        "Name": "Worker Burial Chamber #36025",
+        "Connections": {
+          "North": 36026,
+          "West": 36024
+        }
+      },
+      {
+        "Id": 36026,
+        "Name": "Worker\u0027s Corridor #36026",
+        "Connections": {
+          "North": 36027,
+          "South": 36025
+        }
+      },
+      {
+        "Id": 36027,
+        "Name": "Guard Post #36027",
+        "Connections": {
+          "East": 36028,
+          "South": 36026
+        }
+      },
+      {
+        "Id": 36028,
+        "Name": "Corridor Hub #36028",
+        "Connections": {
+          "North": 36037,
+          "East": 36035,
+          "South": 36029,
+          "West": 36027
+        }
+      },
+      {
+        "Id": 36029,
+        "Name": "Chamber Foyer #36029",
+        "Connections": {
+          "North": 36028,
+          "South": 36030
+        }
+      },
+      {
+        "Id": 36030,
+        "Name": "Preparation Chamber #36030",
+        "Connections": {
+          "North": 36029,
+          "East": 36033,
+          "South": 36031
+        }
+      },
+      {
+        "Id": 36031,
+        "Name": "Preparation Chamber #36031",
+        "Connections": {
+          "North": 36030,
+          "East": 36032
+        }
+      },
+      {
+        "Id": 36032,
+        "Name": "Ceremonial Corridor #36032",
+        "Connections": {
+          "East": 36056,
+          "South": 36068,
+          "West": 36031
+        }
+      },
+      {
+        "Id": 36033,
+        "Name": "Acolyte Antechamber #36033",
+        "Connections": {
+          "West": 36030
+        }
+      },
+      {
+        "Id": 36034,
+        "Name": "Guard Post #36034",
+        "Connections": {
+          "North": 36035,
+          "East": 36047
+        }
+      },
+      {
+        "Id": 36035,
+        "Name": "To Sanctum #36035",
+        "Connections": {
+          "East": 36046,
+          "South": 36034,
+          "West": 36028
+        }
+      },
+      {
+        "Id": 36036,
+        "Name": "Bat Colony #36036",
+        "Connections": {
+          "East": 36038,
+          "West": 36037
+        },
+        "Contents": [
+          {
+            "Text": "a small bat #36001",
+            "Color": "green"
+          },
+          {
+            "Text": "a white grub #36003",
+            "Color": "green"
+          },
+          {
+            "Text": "a small bat #36001",
+            "Color": "green"
+          },
+          {
+            "Text": "a white grub #36003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 36037,
+        "Name": "Guard Post #36037",
+        "Connections": {
+          "East": 36036,
+          "South": 36028
+        }
+      },
+      {
+        "Id": 36038,
+        "Name": "Large Main Chamber #36038",
+        "Connections": {
+          "North": 36039,
+          "East": 36040,
+          "West": 36036
+        }
+      },
+      {
+        "Id": 36039,
+        "Name": "Buried Entrance #36039",
+        "Connections": {
+          "South": 36038
+        }
+      },
+      {
+        "Id": 36040,
+        "Name": "Ginseng Garden #36040",
+        "Connections": {
+          "East": 36041,
+          "West": 36038
+        }
+      },
+      {
+        "Id": 36041,
+        "Name": "Temple Entrance #36041",
+        "Connections": {
+          "East": 36042,
+          "West": 36040
+        }
+      },
+      {
+        "Id": 36042,
+        "Name": "Guard Post #36042",
+        "Connections": {
+          "South": 36043,
+          "West": 36041
+        }
+      },
+      {
+        "Id": 36043,
+        "Name": "Corridor #36043",
+        "Connections": {
+          "North": 36042,
+          "South": 36050,
+          "West": 36044
+        },
+        "Contents": [
+          {
+            "Text": "a large perenti #36009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 36044,
+        "Name": "Corridor #36044",
+        "Connections": {
+          "East": 36043,
+          "West": 36045
+        }
+      },
+      {
+        "Id": 36045,
+        "Name": "Corridor #36045",
+        "Connections": {
+          "East": 36044,
+          "West": 36046
+        }
+      },
+      {
+        "Id": 36046,
+        "Name": "Corridor #36046",
+        "Connections": {
+          "East": 36045,
+          "West": 36035
+        }
+      },
+      {
+        "Id": 36047,
+        "Name": "Corridor #36047",
+        "Connections": {
+          "East": 36048,
+          "West": 36034
+        }
+      },
+      {
+        "Id": 36048,
+        "Name": "Corridor #36048",
+        "Connections": {
+          "East": 36049,
+          "West": 36047
+        }
+      },
+      {
+        "Id": 36049,
+        "Name": "Corridor #36049",
+        "Connections": {
+          "East": 36050,
+          "West": 36048
+        },
+        "Contents": [
+          {
+            "Text": "a dark-colored mink #36007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 36050,
+        "Name": "Corridor #36050",
+        "Connections": {
+          "North": 36043,
+          "East": 36051,
+          "South": 36052,
+          "West": 36049
+        }
+      },
+      {
+        "Id": 36051,
+        "Name": "Treasure Room #36051",
+        "Connections": {
+          "West": 36050
+        },
+        "Contents": [
+          {
+            "Text": "an archeology professor #36010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 36052,
+        "Name": "Protim\u0027s Corridor #36052",
+        "Connections": {
+          "North": 36050,
+          "South": 36059,
+          "West": 36053
+        }
+      },
+      {
+        "Id": 36053,
+        "Name": "Protim\u0027s AnteChamber #36053",
+        "Connections": {
+          "East": 36052,
+          "West": 36054
+        },
+        "Contents": [
+          {
+            "Text": "a spitting cobra #36002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 36054,
+        "Name": "Burial Chamber Entrance #36054",
+        "Connections": {
+          "North": 36009,
+          "East": 36053,
+          "South": 36008,
+          "Up": 36055
+        }
+      },
+      {
+        "Id": 36055,
+        "Name": "Hidden Protim Sarcophagus #36055",
+        "Connections": {
+          "Down": 36054
+        }
+      },
+      {
+        "Id": 36056,
+        "Name": "Ceremonial Corridor #36056",
+        "Connections": {
+          "East": 36057,
+          "South": 36062,
+          "West": 36032
+        }
+      },
+      {
+        "Id": 36057,
+        "Name": "Ceremonial Corridor #36057",
+        "Connections": {
+          "East": 36058,
+          "South": 36061,
+          "West": 36056
+        }
+      },
+      {
+        "Id": 36058,
+        "Name": "Ceremonial Corridor #36058",
+        "Connections": {
+          "East": 36059,
+          "South": 36060,
+          "West": 36057
+        }
+      },
+      {
+        "Id": 36059,
+        "Name": "Guard Post #36059",
+        "Connections": {
+          "North": 36052,
+          "West": 36058
+        }
+      },
+      {
+        "Id": 36060,
+        "Name": "Storage Area #36060",
+        "Connections": {
+          "North": 36058
+        }
+      },
+      {
+        "Id": 36061,
+        "Name": "Acolyte Study #36061",
+        "Connections": {
+          "North": 36057,
+          "South": 36065
+        }
+      },
+      {
+        "Id": 36062,
+        "Name": "Acolyte Laboratory #36062",
+        "Connections": {
+          "North": 36056,
+          "South": 36064
+        }
+      },
+      {
+        "Id": 36063,
+        "Name": "Guard Post #36063",
+        "Connections": {
+          "North": 36068,
+          "East": 36064
+        }
+      },
+      {
+        "Id": 36064,
+        "Name": "Corridor #36064",
+        "Connections": {
+          "North": 36062,
+          "East": 36065,
+          "West": 36063
+        }
+      },
+      {
+        "Id": 36065,
+        "Name": "Corridor #36065",
+        "Connections": {
+          "North": 36061,
+          "East": 36066,
+          "West": 36064
+        }
+      },
+      {
+        "Id": 36066,
+        "Name": "Sacrificial Area #36066",
+        "Connections": {
+          "West": 36065,
+          "Up": 36067
+        }
+      },
+      {
+        "Id": 36067,
+        "Name": "Sentry\u0027s Hut #36067",
+        "Connections": {
+          "Down": 36066
+        }
+      },
+      {
+        "Id": 36068,
+        "Name": "Corridor #36068",
+        "Connections": {
+          "North": 36032,
+          "South": 36063
+        }
+      },
+      {
+        "Id": 20024,
+        "FrameColor": "blue",
+        "Name": "To tupelo #20024",
+        "Color": "blue",
+        "Connections": {
+          "East": 20023
+        }
+      },
+      {
+        "Id": 75236,
+        "FrameColor": "blue",
+        "Name": "To cazel #75236",
+        "Color": "blue",
+        "Connections": {
+          "North": 75104
+        }
+      },
+      {
+        "Id": 8143,
+        "FrameColor": "blue",
+        "Name": "To bh #8143",
+        "Color": "blue",
+        "Connections": {
+          "North": 8023
+        }
+      }
+    ]
+  }
+}

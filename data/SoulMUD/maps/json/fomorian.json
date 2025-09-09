@@ -1,0 +1,642 @@
+{
+  "Area": {
+    "Name": "fomorian",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 12100,
+        "Name": "Critter\u0027s Den #12100",
+        "Connections": {
+          "East": 8000,
+          "West": 20000
+        }
+      },
+      {
+        "Id": 12101,
+        "Name": "Cave Opening #12101",
+        "Connections": {
+          "East": 12201,
+          "West": 12102
+        }
+      },
+      {
+        "Id": 12102,
+        "Name": "A Tunnel #12102",
+        "Connections": {
+          "East": 12101,
+          "West": 12103
+        }
+      },
+      {
+        "Id": 12103,
+        "Name": "Further into the Mountain #12103",
+        "Connections": {
+          "East": 12102,
+          "West": 12104
+        }
+      },
+      {
+        "Id": 12104,
+        "Name": "A Fork in the Tunnel #12104",
+        "Connections": {
+          "East": 12103,
+          "West": 12108,
+          "Down": 12105
+        }
+      },
+      {
+        "Id": 12105,
+        "Name": "Along a Seldom Used Trail #12105",
+        "Connections": {
+          "Up": 12104,
+          "Down": 12106
+        }
+      },
+      {
+        "Id": 12106,
+        "Name": "Before the Gate #12106",
+        "Connections": {
+          "East": 12107,
+          "Up": 12105
+        },
+        "Contents": [
+          {
+            "Text": "The Gatekeeper #12105",
+            "Color": "green"
+          },
+          {
+            "Text": "The fomorian patrol leader #12106",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12107,
+        "Name": "The Guardhouse #12107",
+        "Connections": {
+          "West": 12106
+        },
+        "Contents": [
+          {
+            "Text": "A fomorian guard #12100",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian guard #12100",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian guard #12103",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian guard #12103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12108,
+        "Name": "Main Passage #12108",
+        "Connections": {
+          "East": 12104,
+          "West": 12109
+        }
+      },
+      {
+        "Id": 12109,
+        "Name": "Opening Into the Cave #12109",
+        "Connections": {
+          "East": 12108,
+          "West": 12110
+        },
+        "Contents": [
+          {
+            "Text": "a fomorian #12111",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12110,
+        "Name": "Main Path #12110",
+        "Connections": {
+          "North": 12116,
+          "East": 12109,
+          "South": 12117,
+          "West": 12111
+        },
+        "Contents": [
+          {
+            "Text": "a fomorian #12111",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12111,
+        "Name": "Main Path #12111",
+        "Connections": {
+          "North": 12122,
+          "East": 12110,
+          "South": 12124,
+          "West": 12112
+        },
+        "Contents": [
+          {
+            "Text": "A fomorian #12112",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12112,
+        "Name": "Center of the Village #12112",
+        "Connections": {
+          "North": 12125,
+          "East": 12111,
+          "South": 12127,
+          "West": 12113
+        },
+        "Contents": [
+          {
+            "Text": "a fomorian #12111",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian #12113",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian #12113",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12113,
+        "Name": "Main Path #12113",
+        "Connections": {
+          "North": 12128,
+          "East": 12112,
+          "South": 12131,
+          "West": 12114
+        },
+        "Contents": [
+          {
+            "Text": "A fomorian #12112",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian #12112",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12114,
+        "Name": "Main Path #12114",
+        "Connections": {
+          "North": 12132,
+          "East": 12113,
+          "South": 12136,
+          "West": 12115
+        }
+      },
+      {
+        "Id": 12115,
+        "Name": "Before the Temple #12115",
+        "Connections": {
+          "East": 12114,
+          "West": 12145
+        }
+      },
+      {
+        "Id": 12116,
+        "Name": "The Guardhouse #12116",
+        "Connections": {
+          "South": 12110
+        },
+        "Contents": [
+          {
+            "Text": "A fomorian guard #12100",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian guard #12100",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian guard #12101",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian guard #12101",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian guard #12101",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian guard #12101",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian guard #12103",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian guard #12103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12117,
+        "Name": "A Brothel #12117",
+        "Connections": {
+          "North": 12110,
+          "East": 12118,
+          "Up": 12121
+        }
+      },
+      {
+        "Id": 12118,
+        "Name": "Madam\u0027s Office #12118",
+        "Connections": {
+          "West": 12117
+        },
+        "Contents": [
+          {
+            "Text": "The Madam #12104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12119,
+        "Name": "Masha\u0027s Room #12119",
+        "Connections": {
+          "East": 12121
+        },
+        "Contents": [
+          {
+            "Text": "Masha #12109",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12120,
+        "Name": "Bronhilda\u0027s Room #12120",
+        "Connections": {
+          "West": 12121
+        },
+        "Contents": [
+          {
+            "Text": "Bronhilda #12110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12121,
+        "Name": "Balcony #12121",
+        "Connections": {
+          "East": 12120,
+          "South": 12111,
+          "West": 12119,
+          "Down": 12123
+        }
+      },
+      {
+        "Id": 12122,
+        "Name": "Shaman\u0027s Hut #12122",
+        "Connections": {
+          "South": 12111,
+          "Down": 12123
+        },
+        "Contents": [
+          {
+            "Text": "An evil shaman #12118",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12123,
+        "Name": "The Basement #12123",
+        "Connections": {
+          "Up": 12122
+        }
+      },
+      {
+        "Id": 12124,
+        "Name": "The Bloody Bucket #12124",
+        "Connections": {
+          "North": 12111
+        },
+        "Contents": [
+          {
+            "Text": "The fomorian bartender #12102",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12125,
+        "Name": "The Blacksmith Shop #12125",
+        "Connections": {
+          "East": 12126,
+          "South": 12112
+        },
+        "Contents": [
+          {
+            "Text": "The fomorian blacksmith #12108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12126,
+        "Name": "Quenching Room #12126",
+        "Connections": {
+          "West": 12125
+        }
+      },
+      {
+        "Id": 12127,
+        "Name": "The Gouged Eyeball #12127",
+        "Connections": {
+          "North": 12112
+        }
+      },
+      {
+        "Id": 12128,
+        "Name": "Entrance to the Spire #12128",
+        "Connections": {
+          "South": 12113,
+          "West": 12130,
+          "Up": 12129
+        },
+        "Contents": [
+          {
+            "Text": "A ruby golem #12119",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12129,
+        "Name": "The Construct #12129",
+        "Connections": {
+          "Down": 12128
+        },
+        "Contents": [
+          {
+            "Text": "A sapphire golem #12121",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12130,
+        "Name": "The Holding Chamber #12130",
+        "Connections": {
+          "East": 12128
+        }
+      },
+      {
+        "Id": 12131,
+        "Name": "The Open Air Market #12131",
+        "Connections": {
+          "North": 12113
+        },
+        "Contents": [
+          {
+            "Text": "a fomorian #12111",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian #12112",
+            "Color": "green"
+          },
+          {
+            "Text": "A fomorian #12113",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12132,
+        "Name": "The Stables #12132",
+        "Connections": {
+          "North": 12133,
+          "East": 12134,
+          "South": 12114,
+          "West": 12135
+        }
+      },
+      {
+        "Id": 12133,
+        "Name": "The Owlbear\u0027s Stall #12133",
+        "Connections": {
+          "South": 12132
+        },
+        "Contents": [
+          {
+            "Text": "An owlbear #12116",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12134,
+        "Name": "The Cryohydra\u0027s Stall #12134",
+        "Connections": {
+          "West": 12132
+        },
+        "Contents": [
+          {
+            "Text": "A cryohydra #12115",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12135,
+        "Name": "The Gorgon\u0027s Stall #12135",
+        "Connections": {
+          "North": 12114,
+          "East": 12138,
+          "West": 12137
+        },
+        "Contents": [
+          {
+            "Text": "A gorgon #12117",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12136,
+        "Name": "The Jail #12136",
+        "Connections": {
+          "North": 12114,
+          "East": 12138,
+          "West": 12137
+        },
+        "Contents": [
+          {
+            "Text": "The sergeant #12107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12137,
+        "Name": "Chief Constable\u0027s Office #12137",
+        "Connections": {
+          "East": 12136
+        },
+        "Contents": [
+          {
+            "Text": "The chief constable #12114",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12138,
+        "Name": "The Hallway #12138",
+        "Connections": {
+          "East": 12139,
+          "South": 12141,
+          "West": 12136
+        }
+      },
+      {
+        "Id": 12139,
+        "Name": "The Back Hallway #12139",
+        "Connections": {
+          "East": 12140,
+          "South": 12142,
+          "West": 12138
+        }
+      },
+      {
+        "Id": 12140,
+        "Name": "The End of the Hallway #12140",
+        "Connections": {
+          "East": 12143,
+          "South": 12144,
+          "West": 12139
+        }
+      },
+      {
+        "Id": 12141,
+        "Name": "An Unused Cell #12141",
+        "Connections": {
+          "North": 12138
+        }
+      },
+      {
+        "Id": 12142,
+        "Name": "A Dirty Cell #12142",
+        "Connections": {
+          "North": 12139
+        }
+      },
+      {
+        "Id": 12143,
+        "Name": "A Filthy Cell #12143",
+        "Connections": {
+          "West": 12140
+        }
+      },
+      {
+        "Id": 12144,
+        "Name": "A Grimy Cell #12144",
+        "Connections": {
+          "North": 12140
+        }
+      },
+      {
+        "Id": 12145,
+        "Name": "Temple Entrance #12145",
+        "Connections": {
+          "North": 12146,
+          "East": 12115
+        },
+        "Contents": [
+          {
+            "Text": "A fomorian acolyte #12120",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12146,
+        "Name": "Brecht\u0027s Throne Room #12146",
+        "Connections": {
+          "South": 12145
+        },
+        "Contents": [
+          {
+            "Text": "Brecht #12122",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12200,
+        "Name": "A Rock Covered Path #12200",
+        "Connections": {
+          "North": 75508,
+          "South": 12201
+        }
+      },
+      {
+        "Id": 12201,
+        "Name": "A Small Plateau #12201",
+        "Connections": {
+          "North": 12200,
+          "West": 12101
+        }
+      },
+      {
+        "Id": 8000,
+        "FrameColor": "blue",
+        "Name": "To bh #8000",
+        "Color": "blue",
+        "Connections": {
+          "North": 8150,
+          "East": 8001,
+          "South": 8149,
+          "West": 5802
+        }
+      },
+      {
+        "Id": 20000,
+        "FrameColor": "blue",
+        "Name": "To tupelo #20000",
+        "Color": "blue",
+        "Connections": {
+          "East": 20001,
+          "West": 20049
+        }
+      },
+      {
+        "Id": 75508,
+        "FrameColor": "blue",
+        "Name": "To cazel #75508",
+        "Color": "blue",
+        "Connections": {
+          "North": 75507,
+          "South": 12200
+        }
+      }
+    ]
+  }
+}

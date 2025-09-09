@@ -1,0 +1,669 @@
+{
+  "Area": {
+    "Name": "heaven",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 4211,
+        "Name": "Through the Skylight #4211",
+        "Connections": {
+          "Up": 4212,
+          "Down": 3010
+        }
+      },
+      {
+        "Id": 4212,
+        "Name": "Cloud Trapdoor #4212",
+        "Connections": {
+          "North": 4213,
+          "East": 4214,
+          "South": 4215,
+          "West": 4216,
+          "Down": 4211
+        }
+      },
+      {
+        "Id": 4213,
+        "Name": "Cumulo-Nimbus #4213",
+        "Connections": {
+          "North": 4219,
+          "East": 4217,
+          "West": 4218
+        },
+        "Contents": [
+          {
+            "Text": "an air elemental #4212",
+            "Color": "green"
+          },
+          {
+            "Text": "an air elemental #4212",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4214,
+        "Name": "Cumulus #4214",
+        "Connections": {
+          "North": 4217
+        },
+        "Contents": [
+          {
+            "Text": "a storm giant #9",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4215,
+        "Name": "Nimbus #4215",
+        "Connections": {
+          "North": 4212
+        }
+      },
+      {
+        "Id": 4216,
+        "Name": "Nimbus #4216",
+        "Connections": {
+          "North": 4218
+        },
+        "Contents": [
+          {
+            "Text": "a storm giant #9",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4217,
+        "Name": "Cumulus #4217",
+        "Connections": {
+          "South": 4214,
+          "West": 4213
+        }
+      },
+      {
+        "Id": 4218,
+        "Name": "Cirrus #4218",
+        "Connections": {
+          "East": 4213,
+          "South": 4216
+        }
+      },
+      {
+        "Id": 4219,
+        "Name": "A Path #4219",
+        "Connections": {
+          "North": 4220,
+          "East": 4228,
+          "South": 4213
+        }
+      },
+      {
+        "Id": 4220,
+        "Name": "A Path #4220",
+        "Connections": {
+          "North": 4221,
+          "South": 4219
+        }
+      },
+      {
+        "Id": 4221,
+        "Name": "The Archway #4221",
+        "Connections": {
+          "North": 4224,
+          "East": 4222,
+          "South": 4220,
+          "West": 4223
+        }
+      },
+      {
+        "Id": 4222,
+        "Name": "The Garden #4222",
+        "Connections": {
+          "West": 4221
+        },
+        "Contents": [
+          {
+            "Text": "a tall cloud giant #4209",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4223,
+        "Name": "The Garden #4223",
+        "Connections": {
+          "East": 4221
+        },
+        "Contents": [
+          {
+            "Text": "a tall cloud giant #4209",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4224,
+        "Name": "The Playroom #4224",
+        "Connections": {
+          "North": 4227,
+          "East": 4225,
+          "South": 4221
+        },
+        "Contents": [
+          {
+            "Text": "an air elemental #4212",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4225,
+        "Name": "The Nursery #4225",
+        "Connections": {
+          "North": 4226,
+          "West": 4224
+        },
+        "Contents": [
+          {
+            "Text": "the cloud giant nanny #4207",
+            "Color": "red"
+          },
+          {
+            "Text": "a cloud giant child #4208",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4226,
+        "Name": "The Lunchroom #4226",
+        "Connections": {
+          "South": 4225,
+          "West": 4227
+        },
+        "Contents": [
+          {
+            "Text": "a cloud giant child #4208",
+            "Color": "green"
+          },
+          {
+            "Text": "a cloud giant child #4208",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4227,
+        "Name": "The Naproom #4227",
+        "Connections": {
+          "East": 4226,
+          "South": 4224
+        },
+        "Contents": [
+          {
+            "Text": "a cloud giant child #4208",
+            "Color": "green"
+          },
+          {
+            "Text": "a cloud giant child #4208",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4228,
+        "Name": "A Gilded Path #4228",
+        "Connections": {
+          "East": 4229,
+          "West": 4219
+        }
+      },
+      {
+        "Id": 4229,
+        "Name": "The Rose Staircase #4229",
+        "Connections": {
+          "West": 4228,
+          "Up": 4230
+        },
+        "Contents": [
+          {
+            "Text": "a storm giant #9",
+            "Color": "red"
+          },
+          {
+            "Text": "an air elemental #4212",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4230,
+        "Name": "Cirrus #4230",
+        "Connections": {
+          "East": 4231,
+          "Down": 4229
+        }
+      },
+      {
+        "Id": 4231,
+        "Name": "Edge of the Chasm #4231",
+        "Connections": {
+          "East": 4232,
+          "West": 4230
+        },
+        "Contents": [
+          {
+            "Text": "a cloud giant bully #4213",
+            "Color": "green"
+          },
+          {
+            "Text": "a cloud giant bully #4213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4232,
+        "Name": "The Chasm #4232",
+        "Connections": {
+          "East": 4233,
+          "West": 4231,
+          "Down": 4259
+        },
+        "Contents": [
+          {
+            "Text": "an air elemental #4212",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4233,
+        "Name": "The Golden Cloud #4233",
+        "Connections": {
+          "North": 4234,
+          "East": 4235,
+          "South": 4236,
+          "West": 4232,
+          "Down": 4259
+        },
+        "Contents": [
+          {
+            "Text": "a cloud giant bully #4213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4234,
+        "Name": "The Northern Corridor #4234",
+        "Connections": {
+          "North": 4242,
+          "South": 4233,
+          "Down": 65161
+        }
+      },
+      {
+        "Id": 4235,
+        "Name": "The Eastern Corridor #4235",
+        "Connections": {
+          "East": 4245,
+          "West": 4233,
+          "Down": 4259
+        },
+        "Contents": [
+          {
+            "Text": "a cloud giant bully #4213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4236,
+        "Name": "Southern Cloud Cave #4236",
+        "Connections": {
+          "North": 4233,
+          "South": 4238,
+          "Down": 4259
+        },
+        "Contents": [
+          {
+            "Text": "a cloud giant bully #4213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4237,
+        "Name": "The Northern Corridor #4237",
+        "Connections": {
+          "North": 4240,
+          "South": 4234
+        }
+      },
+      {
+        "Id": 4238,
+        "Name": "The Wet Cloud #4238",
+        "Connections": {
+          "North": 4236,
+          "East": 4254,
+          "South": 4239,
+          "Down": 4259
+        },
+        "Contents": [
+          {
+            "Text": "a cloud giant bully #4213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4239,
+        "Name": "The Rain Cloud #4239",
+        "Connections": {
+          "North": 4238,
+          "Down": 4259
+        }
+      },
+      {
+        "Id": 4240,
+        "Name": "Upon the Great Silver Dragon #4240",
+        "Connections": {}
+      },
+      {
+        "Id": 4241,
+        "Name": "The Mirror Cloud #4241",
+        "Connections": {
+          "North": 4242
+        }
+      },
+      {
+        "Id": 4242,
+        "Name": "Mirror Cloud #4242",
+        "Connections": {
+          "South": 4234
+        }
+      },
+      {
+        "Id": 4243,
+        "Name": "The Mirror Cloud #4243",
+        "Connections": {
+          "North": 4244
+        }
+      },
+      {
+        "Id": 4244,
+        "Name": "The Northern Corridor #4244",
+        "Connections": {
+          "North": 4237
+        }
+      },
+      {
+        "Id": 4245,
+        "Name": "A Storm Front #4245",
+        "Connections": {
+          "East": 4246,
+          "West": 4235,
+          "Down": 4259
+        }
+      },
+      {
+        "Id": 4246,
+        "Name": "A Thunderhead #4246",
+        "Connections": {
+          "North": 4247,
+          "East": 4250,
+          "West": 4245,
+          "Down": 4259
+        }
+      },
+      {
+        "Id": 4247,
+        "Name": "A Thunderhead #4247",
+        "Connections": {
+          "South": 4246,
+          "Down": 4259
+        },
+        "Contents": [
+          {
+            "Text": "the Rain Master #4204",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4248,
+        "Name": "The Storeroom #4248",
+        "Connections": {
+          "East": 4249,
+          "South": 4250
+        }
+      },
+      {
+        "Id": 4249,
+        "Name": "The Hailroom #4249",
+        "Connections": {
+          "West": 4248
+        },
+        "Contents": [
+          {
+            "Text": "the Hail Master #4211",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4250,
+        "Name": "The Eye of the Storm #4250",
+        "Connections": {
+          "North": 4248,
+          "East": 4252,
+          "South": 4251,
+          "West": 4246,
+          "Up": 80032
+        }
+      },
+      {
+        "Id": 4251,
+        "Name": "The Throneroom #4251",
+        "Connections": {
+          "North": 4250
+        },
+        "Contents": [
+          {
+            "Text": "the Storm Giant King #4203",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4252,
+        "Name": "The Queen\u0027s Solar #4252",
+        "Connections": {
+          "East": 4253,
+          "West": 4250
+        },
+        "Contents": [
+          {
+            "Text": "the Queen of the Storm Giants #4205",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4253,
+        "Name": "The Maid\u0027s Chamber #4253",
+        "Connections": {
+          "West": 4252
+        },
+        "Contents": [
+          {
+            "Text": "the Queen\u0027s Maid #4206",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4254,
+        "Name": "The Damp Cloud #4254",
+        "Connections": {
+          "East": 4255,
+          "West": 4238,
+          "Down": 4259
+        }
+      },
+      {
+        "Id": 4255,
+        "Name": "The Silver Stair #4255",
+        "Connections": {
+          "West": 4254,
+          "Up": 4256,
+          "Down": 4259
+        }
+      },
+      {
+        "Id": 4256,
+        "Name": "The Silver Stair #4256",
+        "Connections": {
+          "Up": 4257,
+          "Down": 4255
+        }
+      },
+      {
+        "Id": 4257,
+        "Name": "The Angels\u0027 Gate #4257",
+        "Connections": {
+          "Down": 4256
+        },
+        "Contents": [
+          {
+            "Text": "the Guardian Angel #4201",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4258,
+        "Name": "Heaven #4258",
+        "Connections": {
+          "Down": 4257
+        }
+      },
+      {
+        "Id": 4259,
+        "Name": "In the Chasm #4259",
+        "Connections": {
+          "Up": 4232,
+          "Down": 4260
+        }
+      },
+      {
+        "Id": 4260,
+        "Name": "In the Chasm #4260",
+        "Connections": {
+          "Up": 4259,
+          "Down": 4261
+        }
+      },
+      {
+        "Id": 4261,
+        "Name": "Halfway Down the Chasm #4261",
+        "Connections": {
+          "Up": 4260,
+          "Down": 65136
+        }
+      },
+      {
+        "Id": 4262,
+        "Name": "More Than Halfway Down the Chasm #4262",
+        "Connections": {
+          "Up": 4261
+        }
+      },
+      {
+        "Id": 4263,
+        "Name": "The Chasm Floor #4263",
+        "Connections": {
+          "Up": 4262
+        }
+      },
+      {
+        "Id": 4264,
+        "Name": "Midair #4264",
+        "Connections": {
+          "Down": 4265
+        }
+      },
+      {
+        "Id": 4265,
+        "Name": "Midair #4265",
+        "Connections": {
+          "Down": 4266
+        }
+      },
+      {
+        "Id": 4266,
+        "Name": "Above the Roses #4266",
+        "Connections": {
+          "Up": 4265,
+          "Down": 5938
+        }
+      },
+      {
+        "Id": 4267,
+        "Name": "Atop the Golden Dragon #4267",
+        "Connections": {}
+      },
+      {
+        "Id": 3010,
+        "FrameColor": "blue",
+        "Name": "To lyrra #3010",
+        "Color": "blue",
+        "Connections": {
+          "North": 3008,
+          "South": 3011
+        }
+      },
+      {
+        "Id": 65161,
+        "FrameColor": "blue",
+        "Name": "To cb #65161",
+        "Color": "blue",
+        "Connections": {
+          "Up": 4234
+        }
+      },
+      {
+        "Id": 80032,
+        "FrameColor": "blue",
+        "Name": "To suntemple #80032",
+        "Color": "blue",
+        "Connections": {
+          "North": 80033,
+          "Down": 4250
+        }
+      },
+      {
+        "Id": 65136,
+        "FrameColor": "blue",
+        "Name": "To cb #65136",
+        "Color": "blue",
+        "Connections": {
+          "North": 65132,
+          "Down": 65140
+        }
+      },
+      {
+        "Id": 5938,
+        "FrameColor": "blue",
+        "Name": "To garden #5938",
+        "Color": "blue",
+        "Connections": {
+          "West": 5934
+        }
+      }
+    ]
+  }
+}

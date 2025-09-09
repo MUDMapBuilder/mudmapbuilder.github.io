@@ -1,0 +1,681 @@
+{
+  "Area": {
+    "Name": "jungle",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 5501,
+        "Name": "Cliffside #5501",
+        "Connections": {
+          "East": 5718,
+          "West": 20352
+        },
+        "Contents": [
+          {
+            "Text": "the jaguar #5523",
+            "Color": "red"
+          },
+          {
+            "Text": "the dryad #5522",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5502,
+        "Name": "Climbing the Great Tree #5502",
+        "Connections": {
+          "Up": 5503,
+          "Down": 5501
+        }
+      },
+      {
+        "Id": 5503,
+        "Name": "Trunk by Lowest Branch #5503",
+        "Connections": {
+          "South": 5504,
+          "West": 5507,
+          "Up": 5512,
+          "Down": 5502
+        }
+      },
+      {
+        "Id": 5504,
+        "Name": "A Sturdy Branch #5504",
+        "Connections": {
+          "North": 5503,
+          "South": 5505
+        }
+      },
+      {
+        "Id": 5505,
+        "Name": "Narrow Branch #5505",
+        "Connections": {
+          "North": 5504,
+          "South": 5506
+        }
+      },
+      {
+        "Id": 5506,
+        "Name": "End of Branch #5506",
+        "Connections": {
+          "North": 5505,
+          "Down": 5600
+        }
+      },
+      {
+        "Id": 5507,
+        "Name": "The Shelf Fungus #5507",
+        "Connections": {
+          "North": 5508,
+          "East": 5503
+        }
+      },
+      {
+        "Id": 5508,
+        "Name": "Northwest Shelf #5508",
+        "Connections": {
+          "East": 5509,
+          "South": 5507
+        }
+      },
+      {
+        "Id": 5509,
+        "Name": "End of the Shelf Fungus #5509",
+        "Connections": {
+          "South": 5510,
+          "West": 5508
+        }
+      },
+      {
+        "Id": 5510,
+        "Name": "Inside the Tree #5510",
+        "Connections": {
+          "North": 5509,
+          "Up": 5519,
+          "Down": 5511
+        }
+      },
+      {
+        "Id": 5511,
+        "Name": "The Tree Demon Lair #5511",
+        "Connections": {
+          "Up": 5510
+        }
+      },
+      {
+        "Id": 5512,
+        "Name": "Higher on the Trunk #5512",
+        "Connections": {
+          "East": 5513,
+          "Up": 5526,
+          "Down": 5503
+        }
+      },
+      {
+        "Id": 5513,
+        "Name": "On a Thick Branch #5513",
+        "Connections": {
+          "North": 5514,
+          "East": 5516,
+          "South": 5515,
+          "West": 5512
+        }
+      },
+      {
+        "Id": 5514,
+        "Name": "Among the Leaves #5514",
+        "Connections": {
+          "South": 5513
+        }
+      },
+      {
+        "Id": 5515,
+        "Name": "On a Dangerously Narrow Branch #5515",
+        "Connections": {
+          "North": 5513
+        }
+      },
+      {
+        "Id": 5516,
+        "Name": "Thick Branch #5516",
+        "Connections": {
+          "North": 5517,
+          "East": 5518,
+          "West": 5513
+        }
+      },
+      {
+        "Id": 5517,
+        "Name": "Among the Leaves #5517",
+        "Connections": {
+          "South": 5516
+        }
+      },
+      {
+        "Id": 5518,
+        "Name": "Among the Leaves #5518",
+        "Connections": {
+          "West": 5516
+        }
+      },
+      {
+        "Id": 5519,
+        "Name": "Attic in the Tree #5519",
+        "Connections": {
+          "West": 5520,
+          "Down": 5510
+        }
+      },
+      {
+        "Id": 5520,
+        "Name": "Higher Shelf Fungus #5520",
+        "Connections": {
+          "North": 5523,
+          "East": 5519,
+          "South": 5521,
+          "Up": 5522
+        }
+      },
+      {
+        "Id": 5521,
+        "Name": "South End of Shelf #5521",
+        "Connections": {
+          "North": 5520
+        }
+      },
+      {
+        "Id": 5522,
+        "Name": "Throne of the Demon King #5522",
+        "Connections": {
+          "Down": 5520
+        }
+      },
+      {
+        "Id": 5523,
+        "Name": "Wide Shelf #5523",
+        "Connections": {
+          "North": 5525,
+          "East": 5523,
+          "South": 5520
+        }
+      },
+      {
+        "Id": 5525,
+        "Name": "End of Rotten Branch #5525",
+        "Connections": {
+          "Down": 5546
+        }
+      },
+      {
+        "Id": 5526,
+        "Name": "High in the Great Tree #5526",
+        "Connections": {
+          "West": 5538,
+          "Up": 5527,
+          "Down": 5512
+        }
+      },
+      {
+        "Id": 5527,
+        "Name": "Clinging to the Trunk #5527",
+        "Connections": {
+          "West": 5530,
+          "Up": 5528,
+          "Down": 5526
+        }
+      },
+      {
+        "Id": 5528,
+        "Name": "The Canopy #5528",
+        "Connections": {
+          "Up": 5529,
+          "Down": 5527
+        }
+      },
+      {
+        "Id": 5529,
+        "Name": "Above the Jungle #5529",
+        "Connections": {
+          "Down": 5528
+        }
+      },
+      {
+        "Id": 5530,
+        "Name": "A Narrow Branch #5530",
+        "Connections": {
+          "East": 5527,
+          "West": 5531
+        }
+      },
+      {
+        "Id": 5531,
+        "Name": "New Growth #5531",
+        "Connections": {
+          "East": 5530,
+          "Down": 5532
+        }
+      },
+      {
+        "Id": 5532,
+        "Name": "New Growth #5532",
+        "Connections": {
+          "West": 5533
+        }
+      },
+      {
+        "Id": 5533,
+        "Name": "Narrow Limb #5533",
+        "Connections": {
+          "North": 5544,
+          "East": 5532,
+          "West": 5534
+        }
+      },
+      {
+        "Id": 5534,
+        "Name": "Top of the Tree #5534",
+        "Connections": {
+          "East": 5533,
+          "Down": 5535
+        }
+      },
+      {
+        "Id": 5535,
+        "Name": "Base of a Huge Branch #5535",
+        "Connections": {
+          "East": 5536,
+          "West": 5539,
+          "Up": 5534
+        }
+      },
+      {
+        "Id": 5536,
+        "Name": "Huge, Flat Branch #5536",
+        "Connections": {
+          "East": 5537,
+          "West": 5535
+        }
+      },
+      {
+        "Id": 5537,
+        "Name": "Huge, Flat Branch #5537",
+        "Connections": {
+          "East": 5538,
+          "West": 5536
+        }
+      },
+      {
+        "Id": 5538,
+        "Name": "Brightly Lit Branch #5538",
+        "Connections": {
+          "East": 5526,
+          "West": 5537
+        }
+      },
+      {
+        "Id": 5539,
+        "Name": "Hollow in Tree #5539",
+        "Connections": {
+          "East": 5535,
+          "South": 5540
+        }
+      },
+      {
+        "Id": 5540,
+        "Name": "Tunnel in the Tree #5540",
+        "Connections": {
+          "North": 5539,
+          "West": 5541
+        }
+      },
+      {
+        "Id": 5541,
+        "Name": "Turning Tunnel #5541",
+        "Connections": {
+          "North": 5542,
+          "East": 5540
+        }
+      },
+      {
+        "Id": 5542,
+        "Name": "The Large Hole #5542",
+        "Connections": {
+          "South": 5541,
+          "Down": 5543
+        }
+      },
+      {
+        "Id": 5543,
+        "Name": "Large Chamber #5543",
+        "Connections": {
+          "Up": 5542
+        }
+      },
+      {
+        "Id": 5544,
+        "Name": "Very Narrow Limb #5544",
+        "Connections": {
+          "South": 5533
+        }
+      },
+      {
+        "Id": 5545,
+        "Name": "New Growth #5545",
+        "Connections": {
+          "West": 5546
+        }
+      },
+      {
+        "Id": 5546,
+        "Name": "Healthy Branch #5546",
+        "Connections": {
+          "North": 5547,
+          "East": 5545,
+          "West": 5548
+        }
+      },
+      {
+        "Id": 5547,
+        "Name": "New Growth #5547",
+        "Connections": {
+          "South": 5546
+        }
+      },
+      {
+        "Id": 5548,
+        "Name": "East Side of Trunk #5548",
+        "Connections": {
+          "East": 5546,
+          "South": 5549
+        }
+      },
+      {
+        "Id": 5549,
+        "Name": "Hanging in the Vines #5549",
+        "Connections": {
+          "North": 5548,
+          "Up": 5554,
+          "Down": 5550
+        }
+      },
+      {
+        "Id": 5550,
+        "Name": "Hanging in the Vines #5550",
+        "Connections": {
+          "South": 5552,
+          "Up": 5549,
+          "Down": 5551
+        }
+      },
+      {
+        "Id": 5551,
+        "Name": "Far Above the Ground #5551",
+        "Connections": {
+          "Up": 5550,
+          "Down": 5702
+        }
+      },
+      {
+        "Id": 5552,
+        "Name": "Tangle of Vines #5552",
+        "Connections": {
+          "North": 5550,
+          "South": 5553
+        }
+      },
+      {
+        "Id": 5553,
+        "Name": "Vine Bridge above the River #5553",
+        "Connections": {
+          "North": 5552,
+          "South": 5561,
+          "Up": 4011,
+          "Down": 5703
+        }
+      },
+      {
+        "Id": 5554,
+        "Name": "Vines and Mosses #5554",
+        "Connections": {
+          "North": 5560,
+          "Up": 5555,
+          "Down": 5549
+        }
+      },
+      {
+        "Id": 5555,
+        "Name": "The Lower Canopy #5555",
+        "Connections": {
+          "West": 5556,
+          "Down": 5554
+        }
+      },
+      {
+        "Id": 5556,
+        "Name": "Long, Slender Branch #5556",
+        "Connections": {
+          "East": 5555,
+          "South": 5557
+        }
+      },
+      {
+        "Id": 5557,
+        "Name": "Long, Slender Branch #5557",
+        "Connections": {
+          "North": 5556,
+          "West": 5558
+        }
+      },
+      {
+        "Id": 5558,
+        "Name": "Webbed Branch #5558",
+        "Connections": {
+          "North": 5559,
+          "East": 5557
+        }
+      },
+      {
+        "Id": 5559,
+        "Name": "Tree Spider\u0027s Lair #5559",
+        "Connections": {
+          "South": 5558
+        }
+      },
+      {
+        "Id": 5560,
+        "Name": "Dryad\u0027s Chamber #5560",
+        "Connections": {
+          "South": 5554
+        }
+      },
+      {
+        "Id": 5561,
+        "Name": "In the Tangle #5561",
+        "Connections": {
+          "North": 5553,
+          "South": 5562
+        }
+      },
+      {
+        "Id": 5562,
+        "Name": "Vines at the Southern Tree #5562",
+        "Connections": {
+          "North": 5561,
+          "East": 5563,
+          "West": 5569
+        }
+      },
+      {
+        "Id": 5563,
+        "Name": "Northeast Mud-daub Platform #5563",
+        "Connections": {
+          "South": 5564,
+          "West": 5562,
+          "Up": 4015
+        }
+      },
+      {
+        "Id": 5564,
+        "Name": "Mud-daub Platform #5564",
+        "Connections": {
+          "North": 5563,
+          "East": 5567,
+          "Up": 4015
+        }
+      },
+      {
+        "Id": 5565,
+        "Name": "The High Balcony #5565",
+        "Connections": {
+          "North": 5566
+        }
+      },
+      {
+        "Id": 5566,
+        "Name": "The Withdrawing Room #5566",
+        "Connections": {
+          "South": 5565
+        }
+      },
+      {
+        "Id": 5567,
+        "Name": "Thick Branch #5567",
+        "Connections": {
+          "East": 5568,
+          "West": 5564
+        }
+      },
+      {
+        "Id": 5568,
+        "Name": "Bending branch #5568",
+        "Connections": {
+          "West": 5567
+        }
+      },
+      {
+        "Id": 5569,
+        "Name": "Northwest Mud Path #5569",
+        "Connections": {
+          "East": 5562,
+          "South": 5570
+        }
+      },
+      {
+        "Id": 5570,
+        "Name": "Mud-covered Branch #5570",
+        "Connections": {
+          "North": 5569,
+          "South": 5571,
+          "West": 5572,
+          "Up": 4015
+        }
+      },
+      {
+        "Id": 5571,
+        "Name": "End of the Mud Shelf #5571",
+        "Connections": {
+          "North": 5570,
+          "Up": 4015
+        }
+      },
+      {
+        "Id": 5572,
+        "Name": "Top of Hive #5572",
+        "Connections": {
+          "East": 5570,
+          "Down": 5573
+        }
+      },
+      {
+        "Id": 5573,
+        "Name": "The Hive #5573",
+        "Connections": {
+          "Up": 5572,
+          "Down": 5574
+        }
+      },
+      {
+        "Id": 5574,
+        "Name": "Larvae Chamber #5574",
+        "Connections": {
+          "Up": 5573
+        }
+      },
+      {
+        "Id": 5718,
+        "FrameColor": "blue",
+        "Name": "To connect #5718",
+        "Color": "blue",
+        "Connections": {
+          "North": 5719,
+          "East": 5724,
+          "West": 5501
+        }
+      },
+      {
+        "Id": 20352,
+        "FrameColor": "blue",
+        "Name": "To jurassic #20352",
+        "Color": "blue",
+        "Connections": {
+          "East": 5501,
+          "Down": 20353
+        }
+      },
+      {
+        "Id": 5600,
+        "FrameColor": "blue",
+        "Name": "To connect #5600",
+        "Color": "blue",
+        "Connections": {
+          "North": 5726,
+          "South": 5601
+        }
+      },
+      {
+        "Id": 5702,
+        "FrameColor": "blue",
+        "Name": "To connect #5702",
+        "Color": "blue",
+        "Connections": {
+          "North": 5708,
+          "East": 5707,
+          "West": 5728
+        }
+      },
+      {
+        "Id": 4011,
+        "FrameColor": "blue",
+        "Name": "To lwair #4011",
+        "Color": "blue",
+        "Connections": {
+          "East": 4012,
+          "West": 4010
+        }
+      },
+      {
+        "Id": 5703,
+        "FrameColor": "blue",
+        "Name": "To connect #5703",
+        "Color": "blue",
+        "Connections": {
+          "West": 5740
+        }
+      },
+      {
+        "Id": 4015,
+        "FrameColor": "blue",
+        "Name": "To lwair #4015",
+        "Color": "blue",
+        "Connections": {
+          "North": 4057,
+          "East": 4053,
+          "South": 4005,
+          "West": 4014,
+          "Down": 8015
+        }
+      }
+    ]
+  }
+}

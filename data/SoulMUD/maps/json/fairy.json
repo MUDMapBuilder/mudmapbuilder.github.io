@@ -1,0 +1,725 @@
+{
+  "Area": {
+    "Name": "fairy",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 46000,
+        "Name": "Down a Misty Path #46000",
+        "Connections": {
+          "South": 46001
+        }
+      },
+      {
+        "Id": 46001,
+        "Name": "Further Along a Misty Path #46001",
+        "Connections": {
+          "North": 46000,
+          "South": 46003
+        }
+      },
+      {
+        "Id": 46002,
+        "Name": "A Shrouded Enclave #46002",
+        "Connections": {
+          "East": 46003
+        },
+        "Contents": [
+          {
+            "Text": "A fluffy owl #46010",
+            "Color": "green"
+          },
+          {
+            "Text": "A fluffy owl #46010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46003,
+        "Name": "A Misty Path #46003",
+        "Connections": {
+          "North": 46001,
+          "South": 46004,
+          "West": 46002
+        }
+      },
+      {
+        "Id": 46004,
+        "Name": "A Misty Path #46004",
+        "Connections": {
+          "North": 46003,
+          "East": 46005,
+          "South": 46007
+        }
+      },
+      {
+        "Id": 46005,
+        "Name": "A Shrouded Enclave #46005",
+        "Connections": {
+          "West": 46004
+        }
+      },
+      {
+        "Id": 46006,
+        "Name": "Admist the Mist #46006",
+        "Connections": {
+          "East": 46007,
+          "South": 46009
+        },
+        "Contents": [
+          {
+            "Text": "A fluffy owl #46010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46007,
+        "Name": "Amidst the Mist #46007",
+        "Connections": {
+          "North": 46004,
+          "East": 46008,
+          "South": 46010,
+          "West": 46006
+        },
+        "Contents": [
+          {
+            "Text": "A fluffy owl #46010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46008,
+        "Name": "Admist the Mist #46008",
+        "Connections": {
+          "South": 46011,
+          "West": 46007
+        }
+      },
+      {
+        "Id": 46009,
+        "Name": "Deeper into the Mist #46009",
+        "Connections": {
+          "North": 46006,
+          "East": 46010,
+          "South": 46012
+        }
+      },
+      {
+        "Id": 46010,
+        "Name": "Deeper into the Mist #46010",
+        "Connections": {
+          "North": 46007,
+          "East": 46011,
+          "South": 46013,
+          "West": 46009
+        }
+      },
+      {
+        "Id": 46011,
+        "Name": "Deeper into the Mist #46011",
+        "Connections": {
+          "North": 46008,
+          "South": 46014,
+          "West": 46010
+        }
+      },
+      {
+        "Id": 46012,
+        "Name": "Darker Mist #46012",
+        "Connections": {
+          "North": 46009
+        },
+        "Contents": [
+          {
+            "Text": "A fluffy owl #46010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46013,
+        "Name": "A Misty Precipice #46013",
+        "Connections": {
+          "North": 46010
+        }
+      },
+      {
+        "Id": 46014,
+        "Name": "A Lightening in the Mist #46014",
+        "Connections": {
+          "North": 46011,
+          "East": 46015
+        }
+      },
+      {
+        "Id": 46015,
+        "Name": "Entrance to a Copse of Trees #46015",
+        "Connections": {
+          "East": 46016,
+          "West": 46014
+        }
+      },
+      {
+        "Id": 46016,
+        "Name": "In the Fairy Forest #46016",
+        "Connections": {
+          "East": 46017,
+          "South": 46018,
+          "West": 46015
+        },
+        "Contents": [
+          {
+            "Text": "A glowing fairy #46003",
+            "Color": "green"
+          },
+          {
+            "Text": "A fairy lad #46004",
+            "Color": "green"
+          },
+          {
+            "Text": "A fairy lad #46004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46017,
+        "Name": "A Well Kept Path #46017",
+        "Connections": {
+          "South": 46019,
+          "West": 46016
+        }
+      },
+      {
+        "Id": 46018,
+        "Name": "Amongst the Beech Trees #46018",
+        "Connections": {
+          "North": 46016,
+          "East": 46019,
+          "South": 46021,
+          "West": 46032
+        },
+        "Contents": [
+          {
+            "Text": "A glowing fairy #46003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46019,
+        "Name": "A Well Kept Path #46019",
+        "Connections": {
+          "North": 46017,
+          "South": 46022,
+          "West": 46018
+        }
+      },
+      {
+        "Id": 46020,
+        "Name": "End of a Well Kept Path #46020",
+        "Connections": {
+          "East": 46021,
+          "South": 46023
+        }
+      },
+      {
+        "Id": 46021,
+        "Name": "A Well Kept Path #46021",
+        "Connections": {
+          "North": 46018,
+          "East": 46022,
+          "West": 46020
+        },
+        "Contents": [
+          {
+            "Text": "A glowing fairy #46003",
+            "Color": "green"
+          },
+          {
+            "Text": "A fairy lad #46004",
+            "Color": "green"
+          },
+          {
+            "Text": "A fairy lad #46004",
+            "Color": "green"
+          },
+          {
+            "Text": "A fairy lad #46004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46022,
+        "Name": "Bend in the Well Kept Path #46022",
+        "Connections": {
+          "North": 46019,
+          "West": 46021
+        }
+      },
+      {
+        "Id": 46023,
+        "Name": "Northwest End of the Merry Glen #46023",
+        "Connections": {
+          "North": 46020,
+          "East": 46024,
+          "South": 46026
+        }
+      },
+      {
+        "Id": 46024,
+        "Name": "Northernmost Edge of the Merry Glen #46024",
+        "Connections": {
+          "East": 46025,
+          "South": 46027,
+          "West": 46023
+        },
+        "Contents": [
+          {
+            "Text": "A lightning bug #46009",
+            "Color": "green"
+          },
+          {
+            "Text": "A lightning bug #46009",
+            "Color": "green"
+          },
+          {
+            "Text": "A lightning bug #46009",
+            "Color": "green"
+          },
+          {
+            "Text": "a small fairy girl #46000",
+            "Color": "green"
+          },
+          {
+            "Text": "a tiny fairy boy #46001",
+            "Color": "green"
+          },
+          {
+            "Text": "a tiny fairy boy #46001",
+            "Color": "green"
+          },
+          {
+            "Text": "a tiny fairy boy #46001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46025,
+        "Name": "Northeast End of the Merry Glen #46025",
+        "Connections": {
+          "South": 46028,
+          "West": 46024
+        }
+      },
+      {
+        "Id": 46026,
+        "Name": "Along the Western Edge of the Merry Glen #46026",
+        "Connections": {
+          "North": 46023,
+          "East": 46027,
+          "South": 46029
+        },
+        "Contents": [
+          {
+            "Text": "A glowing fairy #46003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46027,
+        "Name": "The Merry Glen #46027",
+        "Connections": {
+          "North": 46024,
+          "East": 46028,
+          "South": 46030,
+          "West": 46026
+        },
+        "Contents": [
+          {
+            "Text": "A fairy youth #46007",
+            "Color": "green"
+          },
+          {
+            "Text": "A small stone #46013",
+            "Color": "green"
+          },
+          {
+            "Text": "An undulating flame #46015",
+            "Color": "green"
+          },
+          {
+            "Text": "A drop of dew #46014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46028,
+        "Name": "Along the Eastern Edge of the Merry Glen #46028",
+        "Connections": {
+          "North": 46025,
+          "South": 46031,
+          "West": 46027
+        }
+      },
+      {
+        "Id": 46029,
+        "Name": "Southwest Corner of the Merry Glen #46029",
+        "Connections": {
+          "North": 46026,
+          "East": 46030
+        },
+        "Contents": [
+          {
+            "Text": "A fairy lad #46004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46030,
+        "Name": "Southernmost Edge of the Merry Glen #46030",
+        "Connections": {
+          "North": 46027,
+          "East": 46031,
+          "South": 46036,
+          "West": 46029
+        },
+        "Contents": [
+          {
+            "Text": "a small fairy girl #46000",
+            "Color": "green"
+          },
+          {
+            "Text": "a small fairy girl #46000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46031,
+        "Name": "Southeast Corner of the Merry Glen #46031",
+        "Connections": {
+          "North": 46028,
+          "West": 46030
+        }
+      },
+      {
+        "Id": 46032,
+        "Name": "Inside the Beech Tree #46032",
+        "Connections": {
+          "East": 46018
+        }
+      },
+      {
+        "Id": 46033,
+        "Name": "A Fairy Kitchen #46033",
+        "Connections": {
+          "South": 46034
+        }
+      },
+      {
+        "Id": 46034,
+        "Name": "Inside a Fairy Cottage #46034",
+        "Connections": {
+          "North": 46033,
+          "East": 46035,
+          "South": 46037
+        },
+        "Contents": [
+          {
+            "Text": "a fairy baby #46002",
+            "Color": "green"
+          },
+          {
+            "Text": "a fairy baby #46002",
+            "Color": "green"
+          },
+          {
+            "Text": "a fairy baby #46002",
+            "Color": "green"
+          },
+          {
+            "Text": "a fairy baby #46002",
+            "Color": "green"
+          },
+          {
+            "Text": "a fairy baby #46002",
+            "Color": "green"
+          },
+          {
+            "Text": "A fairy lass #46005",
+            "Color": "green"
+          },
+          {
+            "Text": "A fairy lass #46005",
+            "Color": "green"
+          },
+          {
+            "Text": "a small fairy girl #46000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46035,
+        "Name": "In the Stump #46035",
+        "Connections": {
+          "East": 46036,
+          "West": 46034
+        },
+        "Contents": [
+          {
+            "Text": "A fairy youth #46007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46036,
+        "Name": "Under the Fairy Trees #46036",
+        "Connections": {
+          "North": 46030,
+          "South": 46039,
+          "West": 46035
+        },
+        "Contents": [
+          {
+            "Text": "A fairy youth #46007",
+            "Color": "green"
+          },
+          {
+            "Text": "A lightning bug #46009",
+            "Color": "green"
+          },
+          {
+            "Text": "A lightning bug #46009",
+            "Color": "green"
+          },
+          {
+            "Text": "A lightning bug #46009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46037,
+        "Name": "A Fairy Bedroom #46037",
+        "Connections": {
+          "North": 46034
+        }
+      },
+      {
+        "Id": 46038,
+        "Name": "Entrance to a Bright Cave #46038",
+        "Connections": {
+          "East": 46039,
+          "South": 46041
+        },
+        "Contents": [
+          {
+            "Text": "A red squirrel #46011",
+            "Color": "green"
+          },
+          {
+            "Text": "A red squirrel #46011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46039,
+        "Name": "Under the Fairy Trees #46039",
+        "Connections": {
+          "North": 46036,
+          "East": 46051,
+          "South": 46042,
+          "West": 46038
+        },
+        "Contents": [
+          {
+            "Text": "A silk worm #46008",
+            "Color": "green"
+          },
+          {
+            "Text": "A silk worm #46008",
+            "Color": "green"
+          },
+          {
+            "Text": "A silk worm #46008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46040,
+        "Name": "Tunnel in the Fairy Cave #46040",
+        "Connections": {
+          "East": 46041,
+          "South": 46043
+        },
+        "Contents": [
+          {
+            "Text": "A fairy maiden #46006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46041,
+        "Name": "Inside a Well-lit Cave #46041",
+        "Connections": {
+          "North": 46038,
+          "South": 46044,
+          "West": 46040
+        },
+        "Contents": [
+          {
+            "Text": "A fairy maiden #46006",
+            "Color": "green"
+          },
+          {
+            "Text": "A fairy lass #46005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46042,
+        "Name": "Edge of the Fairy Forest #46042",
+        "Connections": {
+          "North": 46039,
+          "South": 46049
+        }
+      },
+      {
+        "Id": 46043,
+        "Name": "Tunnel in the Fairy Cave #46043",
+        "Connections": {
+          "North": 46040,
+          "South": 46045
+        }
+      },
+      {
+        "Id": 46044,
+        "Name": "Back of the Fairy Cave #46044",
+        "Connections": {
+          "North": 46041
+        }
+      },
+      {
+        "Id": 46045,
+        "Name": "Bend in the Fairy Tunnel #46045",
+        "Connections": {
+          "North": 46043,
+          "East": 46046
+        },
+        "Contents": [
+          {
+            "Text": "A fairy maiden #46006",
+            "Color": "green"
+          },
+          {
+            "Text": "A fairy maiden #46006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46046,
+        "Name": "Large Dome in the Fairy Cave #46046",
+        "Connections": {
+          "East": 46047,
+          "West": 46045
+        },
+        "Contents": [
+          {
+            "Text": "A floating orb #46012",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46047,
+        "Name": "Tunnel in the Fairy Cave #46047",
+        "Connections": {
+          "East": 46048,
+          "West": 46046
+        }
+      },
+      {
+        "Id": 46048,
+        "Name": "Bend in the Fairy Tunnel #46048",
+        "Connections": {
+          "North": 46050,
+          "West": 46047
+        },
+        "Contents": [
+          {
+            "Text": "A fairy maiden #46006",
+            "Color": "green"
+          },
+          {
+            "Text": "A fairy lass #46005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46049,
+        "Name": "In the Underbrush #46049",
+        "Connections": {
+          "North": 46042,
+          "East": 46050
+        }
+      },
+      {
+        "Id": 46050,
+        "Name": "A Small Hole #46050",
+        "Connections": {
+          "South": 46048,
+          "West": 46049
+        },
+        "Contents": [
+          {
+            "Text": "A glowing fairy #46003",
+            "Color": "green"
+          },
+          {
+            "Text": "A fairy lass #46005",
+            "Color": "green"
+          },
+          {
+            "Text": "A fairy lad #46004",
+            "Color": "green"
+          },
+          {
+            "Text": "a tiny fairy boy #46001",
+            "Color": "green"
+          },
+          {
+            "Text": "a tiny fairy boy #46001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 46051,
+        "FrameColor": "blue",
+        "Name": "To empty11 #46051",
+        "Color": "blue",
+        "Connections": {
+          "South": 46052,
+          "West": 46039
+        }
+      }
+    ]
+  }
+}

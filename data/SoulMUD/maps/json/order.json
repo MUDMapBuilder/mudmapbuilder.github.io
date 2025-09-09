@@ -1,0 +1,214 @@
+{
+  "Area": {
+    "Name": "order",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 42700,
+        "Name": "The Silver Brick Road #42700",
+        "Connections": {
+          "North": 42701,
+          "South": 7204
+        }
+      },
+      {
+        "Id": 42701,
+        "Name": "Before the Order Temple #42701",
+        "Connections": {
+          "North": 42702,
+          "South": 42700
+        },
+        "Contents": [
+          {
+            "Text": "an order guard #42704",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42702,
+        "Name": "A Place of Order #42702",
+        "Connections": {
+          "North": 42703,
+          "South": 42701
+        }
+      },
+      {
+        "Id": 42703,
+        "Name": "Temple Balcony #42703",
+        "Connections": {
+          "East": 42704,
+          "South": 42702,
+          "West": 42705
+        }
+      },
+      {
+        "Id": 42704,
+        "Name": "Depths of the Shrine #42704",
+        "Connections": {
+          "North": 42708,
+          "East": 42711,
+          "South": 42703,
+          "West": 42713
+        }
+      },
+      {
+        "Id": 42705,
+        "Name": "Depths of the Shrine #42705",
+        "Connections": {
+          "North": 42708,
+          "East": 42713,
+          "South": 42703,
+          "West": 42706
+        },
+        "Contents": [
+          {
+            "Text": "an order guard #42704",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42706,
+        "Name": "Chamber of Order #42706",
+        "Connections": {
+          "East": 42705
+        },
+        "Contents": [
+          {
+            "Text": "the guardian of order #42706",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42707,
+        "Name": "Depths of the Shrine #42707",
+        "Connections": {
+          "East": 42708,
+          "South": 42705
+        }
+      },
+      {
+        "Id": 42708,
+        "Name": "Before the Shrine #42708",
+        "Connections": {
+          "North": 42712,
+          "East": 42704,
+          "South": 42713,
+          "West": 42705
+        },
+        "Contents": [
+          {
+            "Text": "an order monk #42708",
+            "Color": "green"
+          },
+          {
+            "Text": "an order monk #42708",
+            "Color": "green"
+          },
+          {
+            "Text": "an order monk #42708",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42709,
+        "Name": "Depths of the Shrine #42709",
+        "Connections": {
+          "South": 42704,
+          "West": 42708
+        }
+      },
+      {
+        "Id": 42710,
+        "Name": "Room with a View #42710",
+        "Connections": {
+          "South": 42712,
+          "Down": 74051
+        },
+        "Contents": [
+          {
+            "Text": "the grandmaster druid #42710",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42711,
+        "Name": "Chamber of Order #42711",
+        "Connections": {
+          "West": 42704
+        },
+        "Contents": [
+          {
+            "Text": "the guardian of order #42711",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42712,
+        "Name": "The Shrine of Order #42712",
+        "Connections": {
+          "North": 42710,
+          "South": 42708
+        },
+        "Contents": [
+          {
+            "Text": "an order guard #42704",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42713,
+        "Name": "The Fountain of Order #42713",
+        "Connections": {
+          "North": 42708,
+          "East": 42704,
+          "West": 42705
+        },
+        "Contents": [
+          {
+            "Text": "an orderly druid #42703",
+            "Color": "green"
+          },
+          {
+            "Text": "an orderly druid #42703",
+            "Color": "green"
+          },
+          {
+            "Text": "an orderly druid #42703",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7204,
+        "FrameColor": "blue",
+        "Name": "To island #7204",
+        "Color": "blue",
+        "Connections": {
+          "North": 42700,
+          "East": 42300,
+          "West": 7203,
+          "Down": 7205
+        }
+      },
+      {
+        "Id": 74051,
+        "FrameColor": "blue",
+        "Name": "To mauselum #74051",
+        "Color": "blue",
+        "Connections": {
+          "North": 74054,
+          "East": 74053,
+          "West": 74052,
+          "Up": 74075
+        }
+      }
+    ]
+  }
+}

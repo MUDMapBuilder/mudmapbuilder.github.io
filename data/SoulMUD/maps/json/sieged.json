@@ -1,0 +1,831 @@
+{
+  "Area": {
+    "Name": "sieged",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 4500,
+        "Name": "Overgrown Path #4500",
+        "Connections": {
+          "North": 4501
+        }
+      },
+      {
+        "Id": 4501,
+        "Name": "Forgotten Camp #4501",
+        "Connections": {
+          "South": 4500
+        }
+      },
+      {
+        "Id": 4600,
+        "Name": "Solid Oak Door #4600",
+        "Connections": {
+          "East": 4601,
+          "South": 4624,
+          "West": 4623
+        }
+      },
+      {
+        "Id": 4601,
+        "Name": "Stone Wall of Castle #4601",
+        "Connections": {
+          "East": 4602,
+          "West": 4600
+        }
+      },
+      {
+        "Id": 4602,
+        "Name": "Stone Wall of Castle #4602",
+        "Connections": {
+          "East": 4603,
+          "West": 4601
+        }
+      },
+      {
+        "Id": 4603,
+        "Name": "Below Guard Tower #4603",
+        "Connections": {
+          "North": 4604,
+          "West": 4602
+        }
+      },
+      {
+        "Id": 4604,
+        "Name": "Stone Wall of Castle #4604",
+        "Connections": {
+          "North": 4605,
+          "South": 4603
+        }
+      },
+      {
+        "Id": 4605,
+        "Name": "Stone Wall of Castle #4605",
+        "Connections": {
+          "North": 4606,
+          "South": 4604
+        }
+      },
+      {
+        "Id": 4606,
+        "Name": "Scaffolding #4606",
+        "Connections": {
+          "North": 4607,
+          "South": 4605,
+          "Up": 4691
+        }
+      },
+      {
+        "Id": 4607,
+        "Name": "Stone Wall of Castle #4607",
+        "Connections": {
+          "North": 4608,
+          "South": 4606
+        }
+      },
+      {
+        "Id": 4608,
+        "Name": "Stone Wall of Castle #4608",
+        "Connections": {
+          "North": 4609,
+          "South": 4607
+        }
+      },
+      {
+        "Id": 4609,
+        "Name": "Below Guard Tower #4609",
+        "Connections": {
+          "South": 4608,
+          "West": 4610
+        }
+      },
+      {
+        "Id": 4610,
+        "Name": "Stone Wall of Castle #4610",
+        "Connections": {
+          "East": 4609,
+          "West": 4611
+        }
+      },
+      {
+        "Id": 4611,
+        "Name": "Stone Wall of Castle #4611",
+        "Connections": {
+          "East": 4610,
+          "West": 4612
+        }
+      },
+      {
+        "Id": 4612,
+        "Name": "Back Door of Castle #4612",
+        "Connections": {
+          "East": 4611,
+          "South": 4629,
+          "West": 4613
+        }
+      },
+      {
+        "Id": 4613,
+        "Name": "Stone Wall of Castle #4613",
+        "Connections": {
+          "East": 4612,
+          "West": 4614
+        }
+      },
+      {
+        "Id": 4614,
+        "Name": "Stone Wall of Castle #4614",
+        "Connections": {
+          "East": 4613,
+          "West": 4615
+        }
+      },
+      {
+        "Id": 4615,
+        "Name": "Below Guard Tower #4615",
+        "Connections": {
+          "East": 4614,
+          "South": 4616
+        }
+      },
+      {
+        "Id": 4616,
+        "Name": "Stone Wall of Castle #4616",
+        "Connections": {
+          "North": 4615,
+          "South": 4617
+        }
+      },
+      {
+        "Id": 4617,
+        "Name": "Stone Wall of Castle #4617",
+        "Connections": {
+          "North": 4616,
+          "South": 4618
+        }
+      },
+      {
+        "Id": 4618,
+        "Name": "Stone Wall of Castle #4618",
+        "Connections": {
+          "North": 4617,
+          "South": 4619,
+          "Up": 4695
+        }
+      },
+      {
+        "Id": 4619,
+        "Name": "Stone Wall of Castle #4619",
+        "Connections": {
+          "North": 4618,
+          "South": 4620
+        }
+      },
+      {
+        "Id": 4620,
+        "Name": "Stone Wall of Castle #4620",
+        "Connections": {
+          "North": 4619,
+          "South": 4621
+        }
+      },
+      {
+        "Id": 4621,
+        "Name": "Below Guard Tower #4621",
+        "Connections": {
+          "North": 4620,
+          "East": 4622
+        }
+      },
+      {
+        "Id": 4622,
+        "Name": "Stone Wall of Castle #4622",
+        "Connections": {
+          "East": 4623,
+          "South": 4627,
+          "West": 4621
+        }
+      },
+      {
+        "Id": 4623,
+        "Name": "Stone Wall of Castle #4623",
+        "Connections": {
+          "East": 4600,
+          "West": 4622
+        }
+      },
+      {
+        "Id": 4624,
+        "Name": "On Drawbridge #4624",
+        "Connections": {
+          "North": 4600,
+          "South": 4625
+        }
+      },
+      {
+        "Id": 4625,
+        "Name": "Foot of Drawbridge #4625",
+        "Connections": {
+          "North": 4624,
+          "West": 4626
+        }
+      },
+      {
+        "Id": 4626,
+        "Name": "Standing Beside the Moat #4626",
+        "Connections": {
+          "North": 4627,
+          "East": 4625,
+          "South": 4628
+        }
+      },
+      {
+        "Id": 4627,
+        "Name": "In the Moat #4627",
+        "Connections": {
+          "North": 4622,
+          "South": 4626,
+          "West": 4674
+        }
+      },
+      {
+        "Id": 4628,
+        "Name": "At the Catapult #4628",
+        "Connections": {
+          "North": 4626,
+          "South": 9412
+        }
+      },
+      {
+        "Id": 4629,
+        "Name": "Path Intersection #4629",
+        "Connections": {
+          "North": 4612,
+          "East": 4630,
+          "West": 4644
+        }
+      },
+      {
+        "Id": 4630,
+        "Name": "Along Northern Wall #4630",
+        "Connections": {
+          "East": 4672,
+          "South": 4631,
+          "West": 4629
+        }
+      },
+      {
+        "Id": 4631,
+        "Name": "Armory #4631",
+        "Connections": {
+          "North": 4630,
+          "East": 4632
+        }
+      },
+      {
+        "Id": 4632,
+        "Name": "Along the Eastern Wall #4632",
+        "Connections": {
+          "North": 4672,
+          "South": 4633,
+          "West": 4631
+        }
+      },
+      {
+        "Id": 4633,
+        "Name": "Bottom of Stairs #4633",
+        "Connections": {
+          "North": 4632,
+          "South": 4634,
+          "Up": 4694
+        }
+      },
+      {
+        "Id": 4634,
+        "Name": "Along the Eastern Wall #4634",
+        "Connections": {
+          "North": 4633,
+          "South": 4635,
+          "West": 4658
+        }
+      },
+      {
+        "Id": 4635,
+        "Name": "Base of Southeast Guard Tower #4635",
+        "Connections": {
+          "North": 4634,
+          "West": 4636,
+          "Up": 4652
+        }
+      },
+      {
+        "Id": 4636,
+        "Name": "Along Southern Wall #4636",
+        "Connections": {
+          "North": 4658,
+          "East": 4635,
+          "West": 4637
+        }
+      },
+      {
+        "Id": 4637,
+        "Name": "Inside Main Door #4637",
+        "Connections": {
+          "North": 4646,
+          "East": 4636,
+          "West": 4638
+        }
+      },
+      {
+        "Id": 4638,
+        "Name": "Along Southern Wall #4638",
+        "Connections": {
+          "East": 4637,
+          "West": 4639,
+          "Down": 4675
+        }
+      },
+      {
+        "Id": 4639,
+        "Name": "Base of Southwest Guard Tower #4639",
+        "Connections": {
+          "North": 4640,
+          "East": 4638,
+          "Up": 4654
+        }
+      },
+      {
+        "Id": 4640,
+        "Name": "Along Western Wall #4640",
+        "Connections": {
+          "North": 4641,
+          "South": 4639
+        }
+      },
+      {
+        "Id": 4641,
+        "Name": "Courtyard Intersection #4641",
+        "Connections": {
+          "North": 4642,
+          "East": 4645,
+          "South": 4640
+        }
+      },
+      {
+        "Id": 4642,
+        "Name": "Along Western Wall #4642",
+        "Connections": {
+          "North": 4643,
+          "East": 4656,
+          "South": 4641
+        }
+      },
+      {
+        "Id": 4643,
+        "Name": "Base of Northwest Guard Tower #4643",
+        "Connections": {
+          "East": 4644,
+          "South": 4642,
+          "Up": 4648
+        }
+      },
+      {
+        "Id": 4644,
+        "Name": "Along the Northern Wall #4644",
+        "Connections": {
+          "East": 4629,
+          "West": 4643
+        }
+      },
+      {
+        "Id": 4645,
+        "Name": "Rubble Pile #4645",
+        "Connections": {
+          "East": 4647,
+          "South": 4659,
+          "West": 4641
+        }
+      },
+      {
+        "Id": 4646,
+        "Name": "North-South Path #4646",
+        "Connections": {
+          "North": 4647,
+          "South": 4637,
+          "West": 4659
+        }
+      },
+      {
+        "Id": 4647,
+        "Name": "Beside the Keep #4647",
+        "Connections": {
+          "East": 4660,
+          "South": 4646,
+          "West": 4645
+        }
+      },
+      {
+        "Id": 4648,
+        "Name": "Stairway of Tower #4648",
+        "Connections": {
+          "Up": 4649,
+          "Down": 4643
+        }
+      },
+      {
+        "Id": 4649,
+        "Name": "In Northwest Tower #4649",
+        "Connections": {
+          "Down": 4648
+        }
+      },
+      {
+        "Id": 4652,
+        "Name": "Stairway of Tower #4652",
+        "Connections": {
+          "Up": 4653,
+          "Down": 4635
+        }
+      },
+      {
+        "Id": 4653,
+        "Name": "In Southeast Tower #4653",
+        "Connections": {
+          "Down": 4652
+        }
+      },
+      {
+        "Id": 4654,
+        "Name": "Stairway of Tower #4654",
+        "Connections": {
+          "Up": 4655,
+          "Down": 4639
+        }
+      },
+      {
+        "Id": 4655,
+        "Name": "In Southwest Tower #4655",
+        "Connections": {
+          "Down": 4654
+        }
+      },
+      {
+        "Id": 4656,
+        "Name": "Dining Hall #4656",
+        "Connections": {
+          "West": 4642
+        }
+      },
+      {
+        "Id": 4658,
+        "Name": "King\u0027s Stables #4658",
+        "Connections": {
+          "East": 4634,
+          "South": 4636
+        }
+      },
+      {
+        "Id": 4659,
+        "Name": "The Infirmary #4659",
+        "Connections": {
+          "North": 4645,
+          "East": 4646
+        }
+      },
+      {
+        "Id": 4660,
+        "Name": "Entrance to Keep #4660",
+        "Connections": {
+          "North": 4661,
+          "West": 4647
+        }
+      },
+      {
+        "Id": 4661,
+        "Name": "Entryway #4661",
+        "Connections": {
+          "North": 4663,
+          "East": 4662,
+          "South": 4660,
+          "West": 4664
+        }
+      },
+      {
+        "Id": 4662,
+        "Name": "Ground Floor Stairs #4662",
+        "Connections": {
+          "West": 4661,
+          "Up": 4665,
+          "Down": 4681
+        }
+      },
+      {
+        "Id": 4663,
+        "Name": "Antechamber #4663",
+        "Connections": {
+          "South": 4661
+        }
+      },
+      {
+        "Id": 4664,
+        "Name": "Sanctuary #4664",
+        "Connections": {
+          "East": 4661
+        }
+      },
+      {
+        "Id": 4665,
+        "Name": "Second Floor Stairs #4665",
+        "Connections": {
+          "West": 4666,
+          "Up": 4676,
+          "Down": 4662
+        }
+      },
+      {
+        "Id": 4666,
+        "Name": "Second Floor Corridor #4666",
+        "Connections": {
+          "East": 4665,
+          "South": 4671,
+          "West": 4667
+        }
+      },
+      {
+        "Id": 4667,
+        "Name": "Turn in Corridor #4667",
+        "Connections": {
+          "North": 4668,
+          "East": 4666
+        }
+      },
+      {
+        "Id": 4668,
+        "Name": "End of Corridor #4668",
+        "Connections": {
+          "East": 4669,
+          "South": 4667
+        }
+      },
+      {
+        "Id": 4669,
+        "Name": "Entrance to Vault #4669",
+        "Connections": {
+          "East": 4670,
+          "West": 4668
+        }
+      },
+      {
+        "Id": 4670,
+        "Name": "King\u0027s Vault #4670",
+        "Connections": {
+          "West": 4669
+        }
+      },
+      {
+        "Id": 4671,
+        "Name": "King\u0027s Bedroom #4671",
+        "Connections": {
+          "North": 4666,
+          "East": 4673
+        }
+      },
+      {
+        "Id": 4672,
+        "Name": "Base of Northeast Guard Tower #4672",
+        "Connections": {
+          "South": 4632,
+          "West": 4630
+        }
+      },
+      {
+        "Id": 4673,
+        "Name": "Queen\u0027s Dressing Room #4673",
+        "Connections": {
+          "West": 4671,
+          "Up": 4678
+        }
+      },
+      {
+        "Id": 4674,
+        "Name": "Deep Moat #4674",
+        "Connections": {
+          "East": 4627,
+          "Down": 4675
+        }
+      },
+      {
+        "Id": 4675,
+        "Name": "Under the Moat #4675",
+        "Connections": {
+          "North": 4638,
+          "Up": 4674
+        }
+      },
+      {
+        "Id": 4676,
+        "Name": "Top of Stairs #4676",
+        "Connections": {
+          "West": 4677,
+          "Down": 4665
+        }
+      },
+      {
+        "Id": 4677,
+        "Name": "Hall Intersection #4677",
+        "Connections": {
+          "North": 4679,
+          "East": 4676,
+          "South": 4678,
+          "West": 4680
+        }
+      },
+      {
+        "Id": 4678,
+        "Name": "Queen\u0027s Room #4678",
+        "Connections": {
+          "North": 4677,
+          "Down": 4673
+        }
+      },
+      {
+        "Id": 4679,
+        "Name": "Black Knight\u0027s Room #4679",
+        "Connections": {
+          "South": 4677
+        }
+      },
+      {
+        "Id": 4680,
+        "Name": "King\u0027s Sanctuary #4680",
+        "Connections": {
+          "East": 4677
+        }
+      },
+      {
+        "Id": 4681,
+        "Name": "Stairway to Alchemy Labs #4681",
+        "Connections": {
+          "Up": 4662,
+          "Down": 4682
+        }
+      },
+      {
+        "Id": 4682,
+        "Name": "East Entrance to Labs #4682",
+        "Connections": {
+          "East": 4683,
+          "Up": 4681
+        }
+      },
+      {
+        "Id": 4683,
+        "Name": "Lab Corridor #4683",
+        "Connections": {
+          "North": 4685,
+          "East": 4689,
+          "South": 4686,
+          "West": 4682
+        }
+      },
+      {
+        "Id": 4684,
+        "Name": "Lab of Paracelsus #4684",
+        "Connections": {
+          "East": 4686
+        }
+      },
+      {
+        "Id": 4685,
+        "Name": "Geber\u0027s Laboratory #4685",
+        "Connections": {
+          "East": 4688,
+          "South": 4683,
+          "West": 4687
+        }
+      },
+      {
+        "Id": 4686,
+        "Name": "Lab of Altotus #4686",
+        "Connections": {
+          "North": 4683,
+          "East": 4690,
+          "West": 4684
+        }
+      },
+      {
+        "Id": 4687,
+        "Name": "Lab of Wei Po-Yang #4687",
+        "Connections": {
+          "East": 4685
+        }
+      },
+      {
+        "Id": 4688,
+        "Name": "Lab of Count Cagliostro #4688",
+        "Connections": {
+          "South": 4689,
+          "West": 4685
+        }
+      },
+      {
+        "Id": 4689,
+        "Name": "East End of Alchemy Lab #4689",
+        "Connections": {
+          "North": 4688,
+          "South": 4690,
+          "West": 4683
+        }
+      },
+      {
+        "Id": 4690,
+        "Name": "Lab of Hermes Trismegistus #4690",
+        "Connections": {
+          "North": 4689,
+          "West": 4686
+        }
+      },
+      {
+        "Id": 4691,
+        "Name": "On Scaffold #4691",
+        "Connections": {
+          "Up": 4692,
+          "Down": 4606
+        }
+      },
+      {
+        "Id": 4692,
+        "Name": "Top of Scaffold #4692",
+        "Connections": {
+          "West": 4693,
+          "Down": 4691
+        }
+      },
+      {
+        "Id": 4693,
+        "Name": "Top of Castle Wall #4693",
+        "Connections": {
+          "East": 4692,
+          "Down": 4694
+        }
+      },
+      {
+        "Id": 4694,
+        "Name": "On Stone Stairs #4694",
+        "Connections": {
+          "Up": 4693,
+          "Down": 4633
+        }
+      },
+      {
+        "Id": 4695,
+        "Name": "Halfway Up the Wall #4695",
+        "Connections": {
+          "Up": 4696,
+          "Down": 4618
+        }
+      },
+      {
+        "Id": 4696,
+        "Name": "Hanging on Top of Wall #4696",
+        "Connections": {
+          "East": 4697,
+          "Down": 4695
+        }
+      },
+      {
+        "Id": 4697,
+        "Name": "Small Platform on Wall #4697",
+        "Connections": {
+          "West": 4696,
+          "Down": 4698
+        }
+      },
+      {
+        "Id": 4698,
+        "Name": "Climbing Inside Wall #4698",
+        "Connections": {
+          "Up": 4697,
+          "Down": 4641
+        }
+      },
+      {
+        "Id": 4699,
+        "Name": "DON\u0027T ENTER THIS ROOM #4699",
+        "Connections": {
+          "Down": 4689
+        }
+      },
+      {
+        "Id": 9412,
+        "FrameColor": "blue",
+        "Name": "To goblin #9412",
+        "Color": "blue",
+        "Connections": {
+          "North": 4628,
+          "South": 9406
+        }
+      }
+    ]
+  }
+}

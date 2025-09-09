@@ -1,0 +1,529 @@
+{
+  "Area": {
+    "Name": "waterplane",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 25100,
+        "Name": "Elemental Spillover #25100",
+        "Connections": {
+          "Down": 25101
+        }
+      },
+      {
+        "Id": 25101,
+        "Name": "Descent Towards The Water #25101",
+        "Connections": {
+          "Down": 25102
+        }
+      },
+      {
+        "Id": 25102,
+        "Name": "Above The Water\u0027s Surface #25102",
+        "Connections": {
+          "Up": 25101,
+          "Down": 25103
+        }
+      },
+      {
+        "Id": 25103,
+        "Name": "The Water\u0027s Surface #25103",
+        "Connections": {
+          "East": 25104,
+          "Up": 25102,
+          "Down": 25111
+        }
+      },
+      {
+        "Id": 25104,
+        "Name": "The Water\u0027s Surface #25104",
+        "Connections": {
+          "East": 25105,
+          "West": 25103
+        },
+        "Contents": [
+          {
+            "Text": "the water elemental #25108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25105,
+        "Name": "The Water\u0027s Surface #25105",
+        "Connections": {
+          "East": 25106,
+          "West": 25104,
+          "Down": 25111
+        }
+      },
+      {
+        "Id": 25106,
+        "Name": "The Water\u0027s Surface #25106",
+        "Connections": {
+          "East": 25107,
+          "West": 25105,
+          "Down": 25111
+        }
+      },
+      {
+        "Id": 25107,
+        "Name": "The Water\u0027s Surface #25107",
+        "Connections": {
+          "East": 25108,
+          "West": 25106,
+          "Down": 25112
+        }
+      },
+      {
+        "Id": 25108,
+        "Name": "The Water\u0027s Surface #25108",
+        "Connections": {
+          "West": 25107,
+          "Down": 25112
+        },
+        "Contents": [
+          {
+            "Text": "the water elemental #25108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25109,
+        "Name": "Falling Towards The Water #25109",
+        "Connections": {
+          "Down": 25108
+        }
+      },
+      {
+        "Id": 25110,
+        "Name": "Falling Towards The Water #25110",
+        "Connections": {
+          "Down": 25109
+        }
+      },
+      {
+        "Id": 25111,
+        "Name": "Beneath The Surface #25111",
+        "Connections": {
+          "Up": 25103,
+          "Down": 25112
+        }
+      },
+      {
+        "Id": 25112,
+        "Name": "The Coral Reef #25112",
+        "Connections": {
+          "East": 25113,
+          "Up": 25111,
+          "Down": 25149
+        },
+        "Contents": [
+          {
+            "Text": "the tigershark #25106",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25113,
+        "Name": "Navigating The Reef\u0027s Currents #25113",
+        "Connections": {
+          "East": 25114,
+          "West": 25112
+        }
+      },
+      {
+        "Id": 25114,
+        "Name": "The Glowing Sea Anemone #25114",
+        "Connections": {
+          "East": 25115,
+          "West": 25113
+        }
+      },
+      {
+        "Id": 25115,
+        "Name": "Eyes From Within The Coral #25115",
+        "Connections": {
+          "North": 25116,
+          "South": 25128,
+          "West": 25114
+        },
+        "Contents": [
+          {
+            "Text": "the water elemental #25109",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25116,
+        "Name": "The Warm Tropical Current #25116",
+        "Connections": {
+          "East": 25117,
+          "South": 25115
+        }
+      },
+      {
+        "Id": 25117,
+        "Name": "The Warm Tropical Current #25117",
+        "Connections": {
+          "East": 25118,
+          "West": 25116
+        }
+      },
+      {
+        "Id": 25118,
+        "Name": "Around The Giant Sponge #25118",
+        "Connections": {
+          "North": 25119,
+          "South": 25125,
+          "West": 25117
+        }
+      },
+      {
+        "Id": 25119,
+        "Name": "Around The Giant Sponge #25119",
+        "Connections": {
+          "East": 25120,
+          "South": 25118
+        }
+      },
+      {
+        "Id": 25120,
+        "Name": "Around The Giant Sponge #25120",
+        "Connections": {
+          "East": 25121,
+          "West": 25119
+        },
+        "Contents": [
+          {
+            "Text": "the water elemental #25109",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25121,
+        "Name": "Around The Giant Sponge #25121",
+        "Connections": {
+          "South": 25122,
+          "West": 25120
+        }
+      },
+      {
+        "Id": 25122,
+        "Name": "Around The Giant Sponge #25122",
+        "Connections": {
+          "North": 25121,
+          "East": 25144,
+          "South": 25123
+        },
+        "Contents": [
+          {
+            "Text": "the tigershark #25106",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25123,
+        "Name": "Around The Giant Sponge #25123",
+        "Connections": {
+          "North": 25122,
+          "West": 25124
+        }
+      },
+      {
+        "Id": 25124,
+        "Name": "Around The Giant Sponge #25124",
+        "Connections": {
+          "East": 25123,
+          "West": 25125
+        }
+      },
+      {
+        "Id": 25125,
+        "Name": "Around The Giant Sponge #25125",
+        "Connections": {
+          "North": 25118,
+          "East": 25124,
+          "South": 25126
+        }
+      },
+      {
+        "Id": 25126,
+        "Name": "Swimming Through The Kelp #25126",
+        "Connections": {
+          "North": 25125,
+          "West": 25127
+        },
+        "Contents": [
+          {
+            "Text": "the water elemental #25111",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25127,
+        "Name": "Swimming Through The Kelp #25127",
+        "Connections": {
+          "East": 25126,
+          "West": 25128
+        },
+        "Contents": [
+          {
+            "Text": "The Aboleth #25101",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25128,
+        "Name": "The Warm Tropical Current #25128",
+        "Connections": {
+          "North": 25115,
+          "East": 25127,
+          "South": 25129
+        }
+      },
+      {
+        "Id": 25129,
+        "Name": "The Warm Tropical Current #25129",
+        "Connections": {
+          "North": 25128,
+          "South": 25135,
+          "West": 25130
+        }
+      },
+      {
+        "Id": 25130,
+        "Name": "Entrance To The Underwater Cave #25130",
+        "Connections": {
+          "East": 25129,
+          "West": 25131
+        }
+      },
+      {
+        "Id": 25131,
+        "Name": "The Underwater Cave #25131",
+        "Connections": {
+          "East": 25130,
+          "West": 25132
+        },
+        "Contents": [
+          {
+            "Text": "the water elemental #25111",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25132,
+        "Name": "The Underwater Cave #25132",
+        "Connections": {
+          "East": 25131,
+          "West": 25133
+        },
+        "Contents": [
+          {
+            "Text": "the tigershark #25107",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25133,
+        "Name": "Depths Of The Underwater Cave #25133",
+        "Connections": {
+          "North": 25134,
+          "East": 25132
+        }
+      },
+      {
+        "Id": 25134,
+        "Name": "Depths Of The Underwater Cave #25134",
+        "Connections": {
+          "North": 4845,
+          "South": 25133
+        },
+        "Contents": [
+          {
+            "Text": "Quezvxyllha, The Bronze Dragon #25103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25135,
+        "Name": "The Warm Tropical Current #25135",
+        "Connections": {
+          "North": 25129,
+          "East": 25136
+        }
+      },
+      {
+        "Id": 25136,
+        "Name": "The Warm Tropical Current #25136",
+        "Connections": {
+          "East": 25137,
+          "West": 25135
+        },
+        "Contents": [
+          {
+            "Text": "the water elemental #25110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25137,
+        "Name": "The Warm Tropical Current #25137",
+        "Connections": {
+          "East": 25138,
+          "West": 25136
+        }
+      },
+      {
+        "Id": 25138,
+        "Name": "The Warm Tropical Current #25138",
+        "Connections": {
+          "East": 25139,
+          "West": 25137
+        }
+      },
+      {
+        "Id": 25139,
+        "Name": "The Warm Tropical Current #25139",
+        "Connections": {
+          "East": 25140,
+          "West": 25138
+        },
+        "Contents": [
+          {
+            "Text": "the tigershark #25107",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25140,
+        "Name": "The Warm Tropical Current #25140",
+        "Connections": {
+          "North": 25141,
+          "West": 25139
+        }
+      },
+      {
+        "Id": 25141,
+        "Name": "The Warm Tropical Current #25141",
+        "Connections": {
+          "North": 25142,
+          "South": 25140,
+          "West": 25145
+        }
+      },
+      {
+        "Id": 25142,
+        "Name": "The Warm Tropical Current #25142",
+        "Connections": {
+          "North": 25143,
+          "South": 25141
+        },
+        "Contents": [
+          {
+            "Text": "the water elemental #25110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25143,
+        "Name": "The Warm Tropical Current #25143",
+        "Connections": {
+          "North": 25144,
+          "South": 25142
+        }
+      },
+      {
+        "Id": 25144,
+        "Name": "The Warm Tropical Current #25144",
+        "Connections": {
+          "South": 25143,
+          "West": 25122
+        }
+      },
+      {
+        "Id": 25145,
+        "Name": "The Coral Archway #25145",
+        "Connections": {
+          "East": 25141,
+          "West": 25146
+        }
+      },
+      {
+        "Id": 25146,
+        "Name": "The Coral Archway #25146",
+        "Connections": {
+          "North": 25147,
+          "East": 25145
+        }
+      },
+      {
+        "Id": 25147,
+        "Name": "The Hippocampi Stables #25147",
+        "Connections": {
+          "East": 25148,
+          "South": 25146
+        },
+        "Contents": [
+          {
+            "Text": "the hippocampus #25104",
+            "Color": "green"
+          },
+          {
+            "Text": "the hippocampus #25105",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25148,
+        "Name": "Throne Made Of Seashell #25148",
+        "Connections": {
+          "West": 25147
+        },
+        "Contents": [
+          {
+            "Text": "Aphrodite, Queen Of The Sea #25100",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25149,
+        "Name": "Over The Reef\u0027s Edge #25149",
+        "Connections": {
+          "Up": 25112
+        },
+        "Contents": [
+          {
+            "Text": "the giant clam #25102",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4845,
+        "FrameColor": "blue",
+        "Name": "To shag #4845",
+        "Color": "blue",
+        "Connections": {
+          "North": 4844
+        }
+      }
+    ]
+  }
+}

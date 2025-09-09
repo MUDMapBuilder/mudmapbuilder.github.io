@@ -1,0 +1,337 @@
+{
+  "Area": {
+    "Name": "semester",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 42900,
+        "Name": "Between the Saloon and the Cobbler Shop #42900",
+        "Connections": {
+          "North": 42911,
+          "South": 42901,
+          "West": 42922
+        }
+      },
+      {
+        "Id": 42901,
+        "Name": "The Cobblers Shop #42901",
+        "Connections": {
+          "North": 42900,
+          "South": 42902
+        }
+      },
+      {
+        "Id": 42902,
+        "Name": "The House of the Cobbler #42902",
+        "Connections": {
+          "North": 42901,
+          "Down": 42903
+        }
+      },
+      {
+        "Id": 42903,
+        "Name": "A Musty Cellar #42903",
+        "Connections": {
+          "North": 42904,
+          "Up": 42902
+        }
+      },
+      {
+        "Id": 42904,
+        "Name": "A Desecrated Tunnel #42904",
+        "Connections": {
+          "North": 42906,
+          "South": 42903,
+          "West": 42905
+        }
+      },
+      {
+        "Id": 42905,
+        "Name": "Before the Rift of Souls #42905",
+        "Connections": {
+          "East": 42904
+        }
+      },
+      {
+        "Id": 42906,
+        "Name": "Below the Saloon #42906",
+        "Connections": {
+          "South": 42904,
+          "Up": 42907
+        }
+      },
+      {
+        "Id": 42907,
+        "Name": "A Hole in the Floor #42907",
+        "Connections": {
+          "East": 42908,
+          "Down": 42906
+        }
+      },
+      {
+        "Id": 42908,
+        "Name": "Along the Bar #42908",
+        "Connections": {
+          "East": 42910,
+          "South": 42909,
+          "West": 42907
+        }
+      },
+      {
+        "Id": 42909,
+        "Name": "Along the Bar #42909",
+        "Connections": {
+          "North": 42908,
+          "East": 42911
+        }
+      },
+      {
+        "Id": 42910,
+        "Name": "The Center of the Saloon #42910",
+        "Connections": {
+          "North": 42914,
+          "East": 42913,
+          "South": 42911,
+          "West": 42908
+        }
+      },
+      {
+        "Id": 42911,
+        "Name": "The Semester Saloon #42911",
+        "Connections": {
+          "North": 42910,
+          "East": 42912,
+          "South": 42900,
+          "West": 42909
+        }
+      },
+      {
+        "Id": 42912,
+        "Name": "Before the Player Piano #42912",
+        "Connections": {
+          "North": 42913,
+          "West": 42911
+        }
+      },
+      {
+        "Id": 42913,
+        "Name": "Before the Stairs #42913",
+        "Connections": {
+          "South": 42912,
+          "West": 42910,
+          "Up": 42915
+        }
+      },
+      {
+        "Id": 42914,
+        "Name": "The Back Room #42914",
+        "Connections": {
+          "South": 42910
+        }
+      },
+      {
+        "Id": 42915,
+        "Name": "The Second Floor Balcony #42915",
+        "Connections": {
+          "South": 42916,
+          "Down": 42913
+        }
+      },
+      {
+        "Id": 42916,
+        "Name": "Down the Hall #42916",
+        "Connections": {
+          "North": 42915,
+          "South": 42918,
+          "West": 42917
+        }
+      },
+      {
+        "Id": 42917,
+        "Name": "The Blue Room  #42917",
+        "Connections": {
+          "East": 42916
+        }
+      },
+      {
+        "Id": 42918,
+        "Name": "Further Down the Hall #42918",
+        "Connections": {
+          "North": 42916,
+          "South": 42920,
+          "West": 42919
+        }
+      },
+      {
+        "Id": 42919,
+        "Name": "A Green Room  #42919",
+        "Connections": {
+          "East": 42918
+        }
+      },
+      {
+        "Id": 42920,
+        "Name": "The End of the Hall #42920",
+        "Connections": {
+          "North": 42918,
+          "East": 42921
+        }
+      },
+      {
+        "Id": 42921,
+        "Name": "The Casino #42921",
+        "Connections": {
+          "West": 42920
+        }
+      },
+      {
+        "Id": 42922,
+        "Name": "Between Two Rundown Houses #42922",
+        "Connections": {
+          "North": 42924,
+          "East": 42900,
+          "South": 42923,
+          "West": 42926
+        }
+      },
+      {
+        "Id": 42923,
+        "Name": "The Abode of the Harlots #42923",
+        "Connections": {
+          "North": 42922
+        }
+      },
+      {
+        "Id": 42924,
+        "Name": "The Coffin Makers Shoppe #42924",
+        "Connections": {
+          "South": 42922,
+          "Down": 42925
+        }
+      },
+      {
+        "Id": 42925,
+        "Name": "The Room of Writhe #42925",
+        "Connections": {
+          "Up": 42924
+        }
+      },
+      {
+        "Id": 42926,
+        "Name": "Between the Bank and the Grain Store #42926",
+        "Connections": {
+          "North": 42931,
+          "East": 42922,
+          "South": 42927,
+          "West": 42928
+        }
+      },
+      {
+        "Id": 42927,
+        "Name": "The Feed Store #42927",
+        "Connections": {
+          "North": 42926
+        },
+        "Contents": [
+          {
+            "Text": "the blacksmith Pantera #42927",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42928,
+        "Name": "A Dry Well #42928",
+        "Connections": {
+          "East": 42926,
+          "West": 42929
+        }
+      },
+      {
+        "Id": 42929,
+        "Name": "Road to Nowhere #42929",
+        "Connections": {
+          "East": 42928
+        }
+      },
+      {
+        "Id": 42930,
+        "Name": "An Ancient Dock #42930",
+        "Connections": {
+          "North": 42929
+        }
+      },
+      {
+        "Id": 42931,
+        "Name": "Banko De Semester #42931",
+        "Connections": {
+          "North": 42934,
+          "South": 42926,
+          "West": 42932,
+          "Up": 42937
+        }
+      },
+      {
+        "Id": 42932,
+        "Name": "A Counter #42932",
+        "Connections": {
+          "North": 42933,
+          "East": 42931
+        }
+      },
+      {
+        "Id": 42933,
+        "Name": "A Dark Room #42933",
+        "Connections": {
+          "South": 42932
+        }
+      },
+      {
+        "Id": 42934,
+        "Name": "Before An Ancient Vault #42934",
+        "Connections": {
+          "North": 42935,
+          "South": 42931
+        }
+      },
+      {
+        "Id": 42935,
+        "Name": "An Ancient Vault #42935",
+        "Connections": {
+          "North": 42936,
+          "South": 42934
+        }
+      },
+      {
+        "Id": 42936,
+        "Name": "The Counting Room #42936",
+        "Connections": {
+          "North": 43027,
+          "South": 42935
+        },
+        "Contents": [
+          {
+            "Text": "the stoned crow, Nola #42936",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42937,
+        "Name": "Climbing The Stairs #42937",
+        "Connections": {
+          "Down": 42931
+        }
+      },
+      {
+        "Id": 43027,
+        "FrameColor": "blue",
+        "Name": "To lostcross #43027",
+        "Color": "blue",
+        "Connections": {
+          "East": 43026
+        }
+      }
+    ]
+  }
+}

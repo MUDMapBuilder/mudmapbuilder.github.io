@@ -1,0 +1,422 @@
+{
+  "Area": {
+    "Name": "eden",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 76001,
+        "Name": "Gate of Eden #76001",
+        "Connections": {
+          "North": 76002
+        },
+        "Contents": [
+          {
+            "Text": "Uriel, guardian of Eden #76007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 76002,
+        "Name": "Entrance to Eden #76002",
+        "Connections": {
+          "North": 76040,
+          "East": 76010,
+          "South": 76001
+        },
+        "Contents": [
+          {
+            "Text": "a cherub guard #76002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76003,
+        "Name": "A Small Pool #76003",
+        "Connections": {
+          "West": 76011,
+          "Down": 76004
+        }
+      },
+      {
+        "Id": 76004,
+        "Name": "Below the Surface #76004",
+        "Connections": {
+          "North": 76035,
+          "Up": 76003,
+          "Down": 76020
+        }
+      },
+      {
+        "Id": 76005,
+        "Name": "The Tree of Life #76005",
+        "Connections": {
+          "South": 76007,
+          "Up": 76027
+        },
+        "Contents": [
+          {
+            "Text": "a cherub guard #76002",
+            "Color": "green"
+          },
+          {
+            "Text": "the seraph guard #76004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76006,
+        "Name": "Inside the Tree #76006",
+        "Connections": {
+          "South": 76029
+        },
+        "Contents": [
+          {
+            "Text": "the serpent of the tree #76003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76007,
+        "Name": "Before the Tree #76007",
+        "Connections": {
+          "North": 76005,
+          "East": 76008,
+          "West": 76023
+        }
+      },
+      {
+        "Id": 76008,
+        "Name": "Winding Garden Path #76008",
+        "Connections": {
+          "South": 76009,
+          "West": 76007
+        }
+      },
+      {
+        "Id": 76009,
+        "Name": "Large Turn in the Path #76009",
+        "Connections": {
+          "North": 76008,
+          "East": 76041,
+          "South": 76017
+        }
+      },
+      {
+        "Id": 76010,
+        "Name": "Winding Garden Path #76010",
+        "Connections": {
+          "North": 76011,
+          "West": 76002
+        },
+        "Contents": [
+          {
+            "Text": "a cherub guard #76002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76011,
+        "Name": "Path to the Tree #76011",
+        "Connections": {
+          "North": 76012,
+          "East": 76003,
+          "South": 76010
+        }
+      },
+      {
+        "Id": 76012,
+        "Name": "Along the Path #76012",
+        "Connections": {
+          "North": 76013,
+          "South": 76011,
+          "West": 76016
+        }
+      },
+      {
+        "Id": 76013,
+        "Name": "Before the Cherub\u0027s Barracks #76013",
+        "Connections": {
+          "North": 76014,
+          "South": 76012,
+          "West": 76015
+        },
+        "Contents": [
+          {
+            "Text": "a cherub guard #76002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76014,
+        "Name": "Cherubim Barracks #76014",
+        "Connections": {
+          "East": 76034,
+          "South": 76013
+        },
+        "Contents": [
+          {
+            "Text": "a lazy cherub guard #76001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76015,
+        "Name": "Small Pathway #76015",
+        "Connections": {
+          "East": 76013,
+          "South": 76016
+        }
+      },
+      {
+        "Id": 76016,
+        "Name": "Golden Trails #76016",
+        "Connections": {
+          "North": 76015,
+          "East": 76012,
+          "West": 76017
+        }
+      },
+      {
+        "Id": 76017,
+        "Name": "Golden Path #76017",
+        "Connections": {
+          "North": 76009,
+          "East": 76016,
+          "West": 76018
+        }
+      },
+      {
+        "Id": 76018,
+        "Name": "A Shady Alcove #76018",
+        "Connections": {
+          "East": 76017,
+          "South": 76033
+        }
+      },
+      {
+        "Id": 76020,
+        "Name": "Near the Bottom #76020",
+        "Connections": {
+          "Up": 76004,
+          "Down": 76021
+        },
+        "Contents": [
+          {
+            "Text": "a water undine #76006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76021,
+        "Name": "Bottom of the Pool #76021",
+        "Connections": {
+          "South": 76022,
+          "Up": 76020
+        },
+        "Contents": [
+          {
+            "Text": "a water undine #76006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76022,
+        "Name": "Small Underwater Cavern #76022",
+        "Connections": {
+          "North": 76021,
+          "Up": 76038
+        },
+        "Contents": [
+          {
+            "Text": "the pearl guardian #76008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76023,
+        "Name": "Continuing Along the Path #76023",
+        "Connections": {
+          "East": 76007,
+          "South": 76024
+        }
+      },
+      {
+        "Id": 76024,
+        "Name": "Nearing the End of the Path #76024",
+        "Connections": {
+          "North": 76023,
+          "West": 76025
+        }
+      },
+      {
+        "Id": 76025,
+        "Name": "End of Garden Path #76025",
+        "Connections": {
+          "East": 76024
+        }
+      },
+      {
+        "Id": 76027,
+        "Name": "Inside the Tree #76027",
+        "Connections": {
+          "North": 76029,
+          "Up": 76028,
+          "Down": 76005
+        }
+      },
+      {
+        "Id": 76028,
+        "Name": "Top of the Tree #76028",
+        "Connections": {
+          "Down": 76027
+        }
+      },
+      {
+        "Id": 76029,
+        "Name": "Amidst the Branches #76029",
+        "Connections": {
+          "North": 76006,
+          "East": 76030,
+          "South": 76027,
+          "Down": 76031
+        }
+      },
+      {
+        "Id": 76030,
+        "Name": "Large Branches #76030",
+        "Connections": {
+          "West": 76029
+        }
+      },
+      {
+        "Id": 76031,
+        "Name": "Inside the Trunk #76031",
+        "Connections": {
+          "Up": 76029,
+          "Down": 76032
+        }
+      },
+      {
+        "Id": 76032,
+        "Name": "Heart of the Tree #76032",
+        "Connections": {
+          "Up": 76031
+        },
+        "Contents": [
+          {
+            "Text": "the heart of the tree #76009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76033,
+        "Name": "Small Flower Garden #76033",
+        "Connections": {
+          "North": 76018,
+          "East": 76039
+        },
+        "Contents": [
+          {
+            "Text": "a cherub guard #76002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76034,
+        "Name": "Sleeping Quarters #76034",
+        "Connections": {
+          "West": 76014
+        },
+        "Contents": [
+          {
+            "Text": "a lazy cherub guard #76001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76035,
+        "Name": "Underwater Chamber #76035",
+        "Connections": {
+          "East": 76036,
+          "South": 76004
+        },
+        "Contents": [
+          {
+            "Text": "a water undine #76006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76036,
+        "Name": "Secret Underwater Room #76036",
+        "Connections": {
+          "West": 76035,
+          "Down": 76037
+        }
+      },
+      {
+        "Id": 76037,
+        "Name": "Prismatic Chamber #76037",
+        "Connections": {
+          "Up": 76036
+        },
+        "Contents": [
+          {
+            "Text": "a small undine #76005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76038,
+        "Name": "Air Filled Chamber #76038",
+        "Connections": {
+          "Down": 76022
+        }
+      },
+      {
+        "Id": 76039,
+        "Name": "Wildflower Patch #76039",
+        "Connections": {
+          "East": 76040,
+          "West": 76033
+        },
+        "Contents": [
+          {
+            "Text": "the seraph guard #76004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 76040,
+        "Name": "A Few Grapevines #76040",
+        "Connections": {
+          "South": 76002,
+          "West": 76039
+        }
+      },
+      {
+        "Id": 76041,
+        "Name": "Small Flower Bed #76041",
+        "Connections": {
+          "West": 76009
+        }
+      }
+    ]
+  }
+}

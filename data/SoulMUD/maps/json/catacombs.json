@@ -1,0 +1,692 @@
+{
+  "Area": {
+    "Name": "catacombs",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 9000,
+        "Name": "Catacomb Entrance #9000",
+        "Connections": {
+          "North": 9001,
+          "Up": 3427
+        },
+        "Contents": [
+          {
+            "Text": "a large skeleton #3417",
+            "Color": "red"
+          },
+          {
+            "Text": "a rotting zombie #3424",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9001,
+        "Name": "The Catacombs #9001",
+        "Connections": {
+          "North": 9002,
+          "South": 9000
+        },
+        "Contents": [
+          {
+            "Text": "a skeleton #1053",
+            "Color": "red"
+          },
+          {
+            "Text": "a skeleton #1053",
+            "Color": "red"
+          },
+          {
+            "Text": "a zombie #1052",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9002,
+        "Name": "The Catacombs #9002",
+        "Connections": {
+          "East": 9017,
+          "South": 9001,
+          "West": 9003
+        },
+        "Contents": [
+          {
+            "Text": "a large skeleton #3417",
+            "Color": "red"
+          },
+          {
+            "Text": "the ghost #8501",
+            "Color": "red"
+          },
+          {
+            "Text": "the ghost #8501",
+            "Color": "red"
+          },
+          {
+            "Text": "the ghost #8501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9003,
+        "Name": "The Catacombs #9003",
+        "Connections": {
+          "North": 9004,
+          "East": 9002,
+          "South": 9016
+        },
+        "Contents": [
+          {
+            "Text": "a skeleton #1053",
+            "Color": "red"
+          },
+          {
+            "Text": "a skeleton #1053",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9004,
+        "Name": "The Catacombs #9004",
+        "Connections": {
+          "North": 9005,
+          "South": 9003
+        }
+      },
+      {
+        "Id": 9005,
+        "Name": "The Catacombs #9005",
+        "Connections": {
+          "North": 9006,
+          "South": 9004
+        },
+        "Contents": [
+          {
+            "Text": "a ghoul #1054",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9006,
+        "Name": "The Catacombs #9006",
+        "Connections": {
+          "South": 9005,
+          "West": 9007
+        },
+        "Contents": [
+          {
+            "Text": "a large skeleton #3417",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9007,
+        "Name": "The Catacombs #9007",
+        "Connections": {
+          "East": 9006,
+          "South": 9008
+        }
+      },
+      {
+        "Id": 9008,
+        "Name": "The Catacombs #9008",
+        "Connections": {
+          "North": 9007,
+          "South": 9009
+        }
+      },
+      {
+        "Id": 9009,
+        "Name": "The Catacombs #9009",
+        "Connections": {
+          "North": 9008,
+          "West": 9010
+        },
+        "Contents": [
+          {
+            "Text": "a ghoul #1054",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9010,
+        "Name": "The Catacombs #9010",
+        "Connections": {
+          "East": 9009,
+          "West": 9011
+        }
+      },
+      {
+        "Id": 9011,
+        "Name": "The Catacombs #9011",
+        "Connections": {
+          "East": 9010,
+          "South": 9012
+        }
+      },
+      {
+        "Id": 9012,
+        "Name": "The Catacombs #9012",
+        "Connections": {
+          "North": 9011,
+          "South": 9013
+        }
+      },
+      {
+        "Id": 9013,
+        "Name": "The Catacombs #9013",
+        "Connections": {
+          "North": 9012,
+          "East": 9014
+        }
+      },
+      {
+        "Id": 9014,
+        "Name": "The Catacombs #9014",
+        "Connections": {
+          "East": 9015,
+          "South": 9050,
+          "West": 9013
+        },
+        "Contents": [
+          {
+            "Text": "a huge skeleton #3418",
+            "Color": "red"
+          },
+          {
+            "Text": "a greater skeleton #3419",
+            "Color": "red"
+          },
+          {
+            "Text": "a ghoul #1054",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9015,
+        "Name": "The Catacombs #9015",
+        "Connections": {
+          "East": 9016,
+          "West": 9014
+        }
+      },
+      {
+        "Id": 9016,
+        "Name": "The Catacombs #9016",
+        "Connections": {
+          "North": 9003,
+          "West": 9015
+        },
+        "Contents": [
+          {
+            "Text": "a huge skeleton #3418",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9017,
+        "Name": "The Catacombs #9017",
+        "Connections": {
+          "East": 9018,
+          "West": 9002
+        }
+      },
+      {
+        "Id": 9018,
+        "Name": "The Catacombs #9018",
+        "Connections": {
+          "North": 9019,
+          "South": 9037,
+          "West": 9017
+        },
+        "Contents": [
+          {
+            "Text": "a large skeleton #3417",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9019,
+        "Name": "The Catacombs #9019",
+        "Connections": {
+          "North": 9020,
+          "South": 9018
+        },
+        "Contents": [
+          {
+            "Text": "a huge skeleton #3418",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9020,
+        "Name": "The Catacombs #9020",
+        "Connections": {
+          "East": 9021,
+          "South": 9019
+        }
+      },
+      {
+        "Id": 9021,
+        "Name": "The Catacombs #9021",
+        "Connections": {
+          "East": 9022,
+          "West": 9020
+        }
+      },
+      {
+        "Id": 9022,
+        "Name": "The Catacombs #9022",
+        "Connections": {
+          "South": 9023,
+          "West": 9021
+        },
+        "Contents": [
+          {
+            "Text": "a huge skeleton #3418",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9023,
+        "Name": "The Catacombs #9023",
+        "Connections": {
+          "North": 9022,
+          "South": 9024
+        }
+      },
+      {
+        "Id": 9024,
+        "Name": "The Catacombs #9024",
+        "Connections": {
+          "North": 9023,
+          "East": 9027,
+          "West": 9025
+        }
+      },
+      {
+        "Id": 9025,
+        "Name": "The Catacombs #9025",
+        "Connections": {
+          "North": 9026,
+          "East": 9024
+        },
+        "Contents": [
+          {
+            "Text": "a huge skeleton #3418",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9026,
+        "Name": "The Catacombs #9026",
+        "Connections": {
+          "South": 9025
+        }
+      },
+      {
+        "Id": 9027,
+        "Name": "The Catacombs #9027",
+        "Connections": {
+          "East": 9028,
+          "West": 9024
+        }
+      },
+      {
+        "Id": 9028,
+        "Name": "The Catacombs #9028",
+        "Connections": {
+          "South": 9029,
+          "West": 9027
+        }
+      },
+      {
+        "Id": 9029,
+        "Name": "The Catacombs #9029",
+        "Connections": {
+          "North": 9028,
+          "South": 9030
+        }
+      },
+      {
+        "Id": 9030,
+        "Name": "The Catacombs #9030",
+        "Connections": {
+          "North": 9029,
+          "South": 9051,
+          "West": 9031
+        },
+        "Contents": [
+          {
+            "Text": "a huge skeleton #3418",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9031,
+        "Name": "The Catacombs #9031",
+        "Connections": {
+          "East": 9030,
+          "West": 9032
+        }
+      },
+      {
+        "Id": 9032,
+        "Name": "The Catacombs #9032",
+        "Connections": {
+          "North": 9033,
+          "East": 9031
+        },
+        "Contents": [
+          {
+            "Text": "a greater skeleton #3419",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9033,
+        "Name": "The Catacombs #9033",
+        "Connections": {
+          "South": 9032,
+          "West": 9034
+        }
+      },
+      {
+        "Id": 9034,
+        "Name": "The Catacombs #9034",
+        "Connections": {
+          "East": 9033,
+          "South": 9035
+        }
+      },
+      {
+        "Id": 9035,
+        "Name": "The Catacombs #9035",
+        "Connections": {
+          "North": 9034,
+          "South": 9038,
+          "West": 9036
+        },
+        "Contents": [
+          {
+            "Text": "a greater skeleton #3419",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9036,
+        "Name": "The Catacombs #9036",
+        "Connections": {
+          "North": 9037,
+          "East": 9035
+        }
+      },
+      {
+        "Id": 9037,
+        "Name": "The Catacombs #9037",
+        "Connections": {
+          "North": 9018,
+          "South": 9036
+        }
+      },
+      {
+        "Id": 9038,
+        "Name": "The Catacombs #9038",
+        "Connections": {
+          "North": 9035,
+          "West": 9039
+        }
+      },
+      {
+        "Id": 9039,
+        "Name": "The Catacombs #9039",
+        "Connections": {
+          "East": 9038,
+          "West": 9040
+        }
+      },
+      {
+        "Id": 9040,
+        "Name": "The Catacombs #9040",
+        "Connections": {
+          "North": 9054,
+          "East": 9039,
+          "South": 9041
+        }
+      },
+      {
+        "Id": 9041,
+        "Name": "The Catacombs #9041",
+        "Connections": {
+          "North": 9040,
+          "South": 9042
+        },
+        "Contents": [
+          {
+            "Text": "a greater skeleton #3419",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9042,
+        "Name": "The Catacombs #9042",
+        "Connections": {
+          "North": 9041,
+          "West": 9043
+        }
+      },
+      {
+        "Id": 9043,
+        "Name": "The Catacombs #9043",
+        "Connections": {
+          "East": 9042,
+          "West": 9044
+        }
+      },
+      {
+        "Id": 9044,
+        "Name": "The Catacombs #9044",
+        "Connections": {
+          "North": 9045,
+          "East": 9043
+        },
+        "Contents": [
+          {
+            "Text": "a greater skeleton #3419",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9045,
+        "Name": "The Catacombs #9045",
+        "Connections": {
+          "South": 9044,
+          "West": 9046
+        }
+      },
+      {
+        "Id": 9046,
+        "Name": "The Catacombs #9046",
+        "Connections": {
+          "East": 9045,
+          "West": 9047
+        }
+      },
+      {
+        "Id": 9047,
+        "Name": "The Catacombs #9047",
+        "Connections": {
+          "North": 9049,
+          "East": 9046,
+          "South": 9048
+        },
+        "Contents": [
+          {
+            "Text": "a greater skeleton #3419",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9048,
+        "Name": "The Catacombs #9048",
+        "Connections": {
+          "North": 9047
+        }
+      },
+      {
+        "Id": 9049,
+        "Name": "The Catacombs #9049",
+        "Connections": {
+          "North": 9050,
+          "South": 9047
+        }
+      },
+      {
+        "Id": 9050,
+        "Name": "The Catacombs #9050",
+        "Connections": {
+          "North": 9014,
+          "South": 9049
+        }
+      },
+      {
+        "Id": 9051,
+        "Name": "The Catacombs #9051",
+        "Connections": {
+          "North": 9030,
+          "South": 9052
+        }
+      },
+      {
+        "Id": 9052,
+        "Name": "The Catacombs #9052",
+        "Connections": {
+          "North": 9051,
+          "South": 9053
+        },
+        "Contents": [
+          {
+            "Text": "a ghoul #1054",
+            "Color": "red"
+          },
+          {
+            "Text": "a ghoul #1054",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9053,
+        "Name": "King\u0027s Chamber #9053",
+        "Connections": {
+          "North": 9052,
+          "Down": 9100
+        },
+        "Contents": [
+          {
+            "Text": "the Mummy King #1055",
+            "Color": "red"
+          },
+          {
+            "Text": "a zombie #1052",
+            "Color": "red"
+          },
+          {
+            "Text": "a zombie #1052",
+            "Color": "red"
+          },
+          {
+            "Text": "a zombie #1052",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9054,
+        "Name": "The Catacombs #9054",
+        "Connections": {
+          "North": 9055,
+          "South": 9040
+        }
+      },
+      {
+        "Id": 9055,
+        "Name": "The Catacombs #9055",
+        "Connections": {
+          "South": 9054
+        }
+      },
+      {
+        "Id": 9056,
+        "Name": "Bitter Retreat #9056",
+        "Connections": {
+          "North": 9057,
+          "South": 16028
+        }
+      },
+      {
+        "Id": 9057,
+        "Name": "Lair of the Windigo #9057",
+        "Connections": {
+          "South": 9056
+        },
+        "Contents": [
+          {
+            "Text": "the Windigo #8989",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3427,
+        "FrameColor": "blue",
+        "Name": "To graveyard #3427",
+        "Color": "blue",
+        "Connections": {
+          "South": 3424,
+          "Down": 9000
+        }
+      },
+      {
+        "Id": 9100,
+        "FrameColor": "blue",
+        "Name": "To duergar #9100",
+        "Color": "blue",
+        "Connections": {
+          "East": 9101,
+          "Up": 9053
+        }
+      },
+      {
+        "Id": 16028,
+        "FrameColor": "blue",
+        "Name": "To zap #16028",
+        "Color": "blue",
+        "Connections": {
+          "North": 9056,
+          "East": 16027,
+          "Up": 16029
+        }
+      }
+    ]
+  }
+}
