@@ -1,0 +1,1526 @@
+{
+  "Area": {
+    "Name": "Gromlin Tower",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 80650,
+        "Name": "Tower Entrance #80650",
+        "Connections": {
+          "North": 80651,
+          "South": {
+            "RoomId": 80722,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an orange and yellow colored key #80722",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A Murgo guard #80672",
+            "Color": "green"
+          },
+          {
+            "Text": "A Murgo guard #80672",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80651,
+        "Name": "First Floor #80651",
+        "Connections": {
+          "North": {
+            "RoomId": 80653,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 80655,
+          "South": 80650,
+          "West": {
+            "RoomId": 80652,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80652,
+        "Name": "Torak\u0027s Altar of Pain #80652",
+        "Connections": {
+          "East": {
+            "RoomId": 80651,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Gromlin Priest of pain #80670",
+            "Color": "green"
+          },
+          {
+            "Text": "The sacrifice #80671",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80653,
+        "Name": "Torak\u0027s Altar of Fire #80653",
+        "Connections": {
+          "South": {
+            "RoomId": 80651,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Gromlin priest of fire #80668",
+            "Color": "green"
+          },
+          {
+            "Text": "The sacrifice #80669",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80654,
+        "Name": "Torak\u0027s Altar of Blood #80654",
+        "Connections": {
+          "South": {
+            "RoomId": 80655,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Gromlin priest of blood #80666",
+            "Color": "green"
+          },
+          {
+            "Text": "The sacrifice #80667",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80655,
+        "Name": "First Floor #80655",
+        "Connections": {
+          "North": {
+            "RoomId": 80654,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 80656,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 80657,
+          "West": 80651
+        }
+      },
+      {
+        "Id": 80656,
+        "Name": "Torak\u0027s Altar of Death #80656",
+        "Connections": {
+          "West": {
+            "RoomId": 80655,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Gromlin priest of death #80664",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80657,
+        "Name": "First Floor Stairway #80657",
+        "Connections": {
+          "North": 80655,
+          "Up": 80658,
+          "Down": {
+            "RoomId": 80695,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "indianred"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 80658,
+        "Name": "Second Floor Entrance #80658",
+        "Connections": {
+          "North": 80659,
+          "Down": 80657
+        },
+        "Contents": [
+          {
+            "Text": "A Murgo guard #80673",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80659,
+        "Name": "Second Floor #80659",
+        "Connections": {
+          "North": {
+            "RoomId": 80660,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a black and purple key #80659",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "East": 80662,
+          "South": 80658
+        }
+      },
+      {
+        "Id": 80660,
+        "Name": "Gromlin Priest\u0027s Room #80660",
+        "Connections": {
+          "South": {
+            "RoomId": 80659,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a black and purple key #80659",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A young Gromlin priest #80663",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80661,
+        "Name": "Gromlin Priest\u0027s Room #80661",
+        "Connections": {
+          "South": {
+            "RoomId": 80662,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a black and purple key #80659",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A young Gromlin priest #80662",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80662,
+        "Name": "Second Floor #80662",
+        "Connections": {
+          "North": {
+            "RoomId": 80661,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a black and purple key #80659",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 80663,
+          "West": 80659
+        }
+      },
+      {
+        "Id": 80663,
+        "Name": "Second Floor Stairway #80663",
+        "Connections": {
+          "North": 80662,
+          "Up": 80664
+        }
+      },
+      {
+        "Id": 80664,
+        "Name": "Third Floor Entrance #80664",
+        "Connections": {
+          "North": 80665,
+          "Down": 80663
+        }
+      },
+      {
+        "Id": 80665,
+        "Name": "Third Floor #80665",
+        "Connections": {
+          "East": 80667,
+          "South": 80664,
+          "West": {
+            "RoomId": 80666,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a redish green key #80665",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The sacrifice #80665",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80666,
+        "Name": "Gromlin Priest\u0027s Room #80666",
+        "Connections": {
+          "East": {
+            "RoomId": 80665,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a redish green key #80665",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A female Gromlin priest #80661",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80667,
+        "Name": "Third Floor #80667",
+        "Connections": {
+          "East": {
+            "RoomId": 80668,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a redish green key #80665",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 80669,
+          "West": 80665
+        }
+      },
+      {
+        "Id": 80668,
+        "Name": "Gromlin Priest\u0027s Room #80668",
+        "Connections": {
+          "West": {
+            "RoomId": 80667,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a redish green key #80665",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A male Gromlin priest #80660",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80669,
+        "Name": "Third Floor Stairway #80669",
+        "Connections": {
+          "North": 80667,
+          "Up": 80670
+        }
+      },
+      {
+        "Id": 80670,
+        "Name": "Fourth Floor Entrance #80670",
+        "Connections": {
+          "North": 80671,
+          "Down": 80669
+        },
+        "Contents": [
+          {
+            "Text": "A Mallorean guard #80674",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80671,
+        "Name": "Fourth Floor #80671",
+        "Connections": {
+          "North": {
+            "RoomId": 80672,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a brownish grey key #80670",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "East": 80674,
+          "South": 80670
+        }
+      },
+      {
+        "Id": 80672,
+        "Name": "Gromlin Highpriest\u0027s Sanctuary #80672",
+        "Connections": {
+          "South": {
+            "RoomId": 80671,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a brownish grey key #80670",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A Murgo guard #80650",
+            "Color": "green"
+          },
+          {
+            "Text": "A Thull Gromlin Highpriest #80659",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80673,
+        "Name": "Gromlin Highpriest\u0027s Sanctuary #80673",
+        "Connections": {
+          "South": {
+            "RoomId": 80674,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a brownish grey key #80670",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Nadrak Gromlin Highpriest #80658",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80674,
+        "Name": "Fourth Floor #80674",
+        "Connections": {
+          "North": {
+            "RoomId": 80673,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a brownish grey key #80670",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 80675,
+          "West": 80671
+        }
+      },
+      {
+        "Id": 80675,
+        "Name": "Fourth Floor Stairway #80675",
+        "Connections": {
+          "North": 80674,
+          "Up": 80676
+        }
+      },
+      {
+        "Id": 80676,
+        "Name": "Fifth Floor Entrance #80676",
+        "Connections": {
+          "North": 80678,
+          "Down": 80675
+        }
+      },
+      {
+        "Id": 80677,
+        "Name": "Gromlin Highpriest\u0027s Sanctum #80677",
+        "Connections": {
+          "East": {
+            "RoomId": 80678,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a gold and silver colored key #80671",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Mallorean Gromlin Highpriest #80657",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80678,
+        "Name": "Fifth Floor #80678",
+        "Connections": {
+          "East": 80679,
+          "South": 80676,
+          "West": {
+            "RoomId": 80677,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a gold and silver colored key #80671",
+                "Color": "indianred"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 80679,
+        "Name": "Fifth Floor #80679",
+        "Connections": {
+          "East": {
+            "RoomId": 80680,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a gold and silver colored key #80671",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 80681,
+          "West": 80678
+        }
+      },
+      {
+        "Id": 80680,
+        "Name": "Gromlin Highpriest\u0027s Sanctum #80680",
+        "Connections": {
+          "West": {
+            "RoomId": 80679,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a gold and silver colored key #80671",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Murgo Gromlin Highpriest #80656",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80681,
+        "Name": "Fifth Floor Stairway #80681",
+        "Connections": {
+          "North": 80679,
+          "Up": 80682
+        }
+      },
+      {
+        "Id": 80682,
+        "Name": "Sixth Floor Entrance #80682",
+        "Connections": {
+          "North": 80683,
+          "Down": 80681
+        },
+        "Contents": [
+          {
+            "Text": "An elite Gromlin guard #80675",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80683,
+        "Name": "Sixth Floor #80683",
+        "Connections": {
+          "North": {
+            "RoomId": 80684,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a blue and white colored key #80672",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "East": 80686,
+          "South": 80682
+        }
+      },
+      {
+        "Id": 80684,
+        "Name": "Zandramas\u0027s Private Shrine #80684",
+        "Connections": {
+          "South": {
+            "RoomId": 80683,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a blue and white colored key #80672",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Zandramas #80655",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80685,
+        "Name": "Chamdar\u0027s Private Abode #80685",
+        "Connections": {
+          "South": {
+            "RoomId": 80686,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a blue and white colored key #80672",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Chamdar, the Gromlin High-Priest #80654",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80686,
+        "Name": "Sixth Floor #80686",
+        "Connections": {
+          "North": {
+            "RoomId": 80685,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a blue and white colored key #80672",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 80687,
+          "West": 80683
+        }
+      },
+      {
+        "Id": 80687,
+        "Name": "Sixth Floor Stairway #80687",
+        "Connections": {
+          "North": 80686,
+          "Up": 80688
+        }
+      },
+      {
+        "Id": 80688,
+        "Name": "Seventh Floor Entrance #80688",
+        "Connections": {
+          "North": 80690,
+          "Down": 80687
+        }
+      },
+      {
+        "Id": 80689,
+        "Name": "The Chambers of Urvon #80689",
+        "Connections": {
+          "East": {
+            "RoomId": 80690,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a maroon and cyan colored key #80682",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Urvon #80653",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80690,
+        "Name": "Seventh Floor #80690",
+        "Connections": {
+          "East": 80691,
+          "South": 80688,
+          "West": {
+            "RoomId": 80689,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a maroon and cyan colored key #80682",
+                "Color": "indianred"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 80691,
+        "Name": "Seventh Floor #80691",
+        "Connections": {
+          "East": {
+            "RoomId": 80692,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a maroon and cyan colored key #80682",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 80693,
+          "West": 80690
+        }
+      },
+      {
+        "Id": 80692,
+        "Name": "Ctuchik\u0027s Private Quarters #80692",
+        "Connections": {
+          "West": {
+            "RoomId": 80691,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a maroon and cyan colored key #80682",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Ctuchik #80652",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80693,
+        "Name": "Seventh Floor #80693",
+        "Connections": {
+          "North": 80691,
+          "Up": {
+            "RoomId": 80694,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80694,
+        "Name": "Top of the Gromlin Tower #80694",
+        "Connections": {
+          "Down": {
+            "RoomId": 80693,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Torak\u0027s last disciple, Zedar #80651",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80695,
+        "Name": "Dungeon Entrance #80695",
+        "Connections": {
+          "North": 80704,
+          "Up": {
+            "RoomId": 80657,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The dungeon master #80677",
+            "Color": "red"
+          },
+          {
+            "Text": "A Murgo dungeon guard #80768",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80696,
+        "Name": "Dungeon Cell #80696",
+        "Connections": {
+          "East": {
+            "RoomId": 80704,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80679",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80697,
+        "Name": "Dungeon Cell #80697",
+        "Connections": {
+          "East": {
+            "RoomId": 80703,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80680",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80698,
+        "Name": "Dungeon Cell #80698",
+        "Connections": {
+          "East": {
+            "RoomId": 80702,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80681",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80699,
+        "Name": "Dungeon Cell #80699",
+        "Connections": {
+          "East": {
+            "RoomId": 80701,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80682",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80700,
+        "Name": "Dungeon Cell #80700",
+        "Connections": {
+          "South": {
+            "RoomId": 80701,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80685",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80701,
+        "Name": "Dungeon West #80701",
+        "Connections": {
+          "North": {
+            "RoomId": 80700,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": {
+            "RoomId": 80708,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 80702,
+          "West": {
+            "RoomId": 80699,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 80702,
+        "Name": "Dungeon West #80702",
+        "Connections": {
+          "North": 80701,
+          "East": {
+            "RoomId": 80707,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 80703,
+          "West": {
+            "RoomId": 80698,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 80703,
+        "Name": "Dungeon West #80703",
+        "Connections": {
+          "North": 80702,
+          "East": {
+            "RoomId": 80706,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 80704,
+          "West": {
+            "RoomId": 80697,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 80704,
+        "Name": "Dungeon West #80704",
+        "Connections": {
+          "North": 80703,
+          "East": {
+            "RoomId": 80705,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 80695,
+          "West": {
+            "RoomId": 80696,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 80705,
+        "Name": "Dungeon Cell #80705",
+        "Connections": {
+          "West": {
+            "RoomId": 80704,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80769",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80706,
+        "Name": "Dungeon Cell #80706",
+        "Connections": {
+          "West": {
+            "RoomId": 80703,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80683",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80707,
+        "Name": "Dungeon Cell #80707",
+        "Connections": {
+          "West": {
+            "RoomId": 80702,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80684",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80708,
+        "Name": "Dungeon East #80708",
+        "Connections": {
+          "North": {
+            "RoomId": 80716,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 80717,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 80715,
+          "West": {
+            "RoomId": 80701,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A Thull dungeon guard #80678",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80709,
+        "Name": "Dungeon Cell #80709",
+        "Connections": {
+          "East": {
+            "RoomId": 80715,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80686",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80710,
+        "Name": "Dungeon Cell #80710",
+        "Connections": {
+          "East": {
+            "RoomId": 80714,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80687",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80711,
+        "Name": "Dungeon Cell #80711",
+        "Connections": {
+          "East": {
+            "RoomId": 80713,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80688",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80712,
+        "Name": "Dungeon Dead End #80712",
+        "Connections": {
+          "North": 80713
+        }
+      },
+      {
+        "Id": 80713,
+        "Name": "Dungeon East #80713",
+        "Connections": {
+          "North": 80714,
+          "East": {
+            "RoomId": 80720,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 80712,
+          "West": {
+            "RoomId": 80711,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 80714,
+        "Name": "Dungeon East #80714",
+        "Connections": {
+          "North": 80715,
+          "East": {
+            "RoomId": 80719,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 80713,
+          "West": {
+            "RoomId": 80710,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 80715,
+        "Name": "Dungeon East #80715",
+        "Connections": {
+          "North": 80708,
+          "East": {
+            "RoomId": 80718,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 80714,
+          "West": {
+            "RoomId": 80709,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dungeon key #80676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 80716,
+        "Name": "Dungeon Cell #80716",
+        "Connections": {
+          "South": {
+            "RoomId": 80708,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80689",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80717,
+        "Name": "Dungeon Cell #80717",
+        "Connections": {
+          "West": {
+            "RoomId": 80708,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80690",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80718,
+        "Name": "Dungeon Cell #80718",
+        "Connections": {
+          "West": {
+            "RoomId": 80715,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80691",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80719,
+        "Name": "Dungeon Cell #80719",
+        "Connections": {
+          "West": {
+            "RoomId": 80714,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80692",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80720,
+        "Name": "Dungeon Cell #80720",
+        "Connections": {
+          "West": {
+            "RoomId": 80713,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #80693",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80721,
+        "Name": "Torak\u0027s Citadel #80721",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "Torak #80676",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80722,
+        "Name": "Outside the Gates to the Gromlin Tower #80722",
+        "Connections": {
+          "North": {
+            "RoomId": 80650,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an orange and yellow colored key #80722",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 75500
+        },
+        "Contents": [
+          {
+            "Text": "A Murgo guard #80650",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 75500,
+        "FrameColor": "blue",
+        "Name": "To Thremiscyra #75500",
+        "Color": "blue",
+        "Connections": {
+          "North": 80722,
+          "South": 75501
+        }
+      }
+    ]
+  }
+}

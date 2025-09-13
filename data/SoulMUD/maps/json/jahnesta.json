@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "jahnesta",
+    "Name": "Jahnesta",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -89,7 +89,13 @@
         "Name": "A Shady Bend #12309",
         "Connections": {
           "North": 12327,
-          "East": 12310,
+          "East": {
+            "RoomId": 12310,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 12307
         }
       },
@@ -100,7 +106,13 @@
           "North": 12316,
           "East": 12311,
           "South": 12313,
-          "West": 12309
+          "West": {
+            "RoomId": 12309,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -168,7 +180,13 @@
         "Id": 12317,
         "Name": "The Kitchen #12317",
         "Connections": {
-          "North": 12318,
+          "North": {
+            "RoomId": 12318,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 12316
         }
       },
@@ -176,7 +194,13 @@
         "Id": 12318,
         "Name": "Servant\u0027s Quarters #12318",
         "Connections": {
-          "South": 12317
+          "South": {
+            "RoomId": 12317,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -197,9 +221,21 @@
         "Id": 12320,
         "Name": "A Short Hallway #12320",
         "Connections": {
-          "North": 12321,
+          "North": {
+            "RoomId": 12321,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 12323,
-          "South": 12322,
+          "South": {
+            "RoomId": 12322,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 12319
         },
         "Contents": [
@@ -213,23 +249,53 @@
         "Id": 12321,
         "Name": "Lady Genevive\u0027s Room #12321",
         "Connections": {
-          "South": 12320
+          "South": {
+            "RoomId": 12320,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 12322,
         "Name": "Lady Stephanie\u0027s Room #12322",
         "Connections": {
-          "North": 12320
+          "North": {
+            "RoomId": 12320,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 12323,
         "Name": "A Short Hallway #12323",
         "Connections": {
-          "North": 12324,
-          "East": 12325,
-          "South": 12326,
+          "North": {
+            "RoomId": 12324,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 12325,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 12326,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 12320
         },
         "Contents": [
@@ -243,21 +309,39 @@
         "Id": 12324,
         "Name": "Lady Caroline\u0027s Room #12324",
         "Connections": {
-          "South": 12323
+          "South": {
+            "RoomId": 12323,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 12325,
         "Name": "The Royal Guest Room #12325",
         "Connections": {
-          "West": 12323
+          "West": {
+            "RoomId": 12323,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 12326,
         "Name": "Lady Julia\u0027s Room #12326",
         "Connections": {
-          "North": 12323
+          "North": {
+            "RoomId": 12323,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -280,7 +364,13 @@
         "Id": 12329,
         "Name": "Western End of the Stable #12329",
         "Connections": {
-          "North": 12330,
+          "North": {
+            "RoomId": 12330,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 12331,
           "South": 12328
         }
@@ -289,7 +379,13 @@
         "Id": 12330,
         "Name": "A Dirty Stall #12330",
         "Connections": {
-          "South": 12329
+          "South": {
+            "RoomId": 12329,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -302,7 +398,13 @@
         "Id": 12331,
         "Name": "Middle of the Stable #12331",
         "Connections": {
-          "North": 12332,
+          "North": {
+            "RoomId": 12332,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 12333,
           "West": 12329
         }
@@ -311,7 +413,13 @@
         "Id": 12332,
         "Name": "A Dreary Stall #12332",
         "Connections": {
-          "South": 12331
+          "South": {
+            "RoomId": 12331,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -766,7 +874,7 @@
       {
         "Id": 77000,
         "FrameColor": "blue",
-        "Name": "To mhorn #77000",
+        "Name": "To Matterhorn #77000",
         "Color": "blue",
         "Connections": {
           "East": 12300,
@@ -776,7 +884,7 @@
       {
         "Id": 70001,
         "FrameColor": "blue",
-        "Name": "To guilds #70001",
+        "Name": "To Avatar Guilds #70001",
         "Color": "blue",
         "Connections": {
           "North": 70018,
@@ -788,7 +896,7 @@
       {
         "Id": 18001,
         "FrameColor": "blue",
-        "Name": "To giant #18001",
+        "Name": "To Giant Mountain #18001",
         "Color": "blue",
         "Connections": {
           "North": 18056,
@@ -799,7 +907,7 @@
       {
         "Id": 61010,
         "FrameColor": "blue",
-        "Name": "To arbo #61010",
+        "Name": "To Arboretum #61010",
         "Color": "blue",
         "Connections": {
           "North": 12375,

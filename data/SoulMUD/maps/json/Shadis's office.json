@@ -1,0 +1,62 @@
+{
+  "Area": {
+    "Name": "Shadis\u0027s office",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 80999,
+        "Name": "Shadis\u0027s Own Personal Hell. #80999",
+        "Connections": {
+          "Up": {
+            "RoomId": 20000,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 8000,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The being of ultimate rudeness #80999",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20000,
+        "FrameColor": "blue",
+        "Name": "To Tupelo #20000",
+        "Color": "blue",
+        "Connections": {
+          "East": 20001,
+          "West": {
+            "RoomId": 20049,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8000,
+        "FrameColor": "blue",
+        "Name": "To BalHarbor #8000",
+        "Color": "blue",
+        "Connections": {
+          "North": 8150,
+          "East": 8001,
+          "South": 8149,
+          "West": 5802
+        }
+      }
+    ]
+  }
+}

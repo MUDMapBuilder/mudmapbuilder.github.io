@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "catacombs",
+    "Name": "Catacombs",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -581,7 +581,13 @@
         "Name": "The Catacombs #9052",
         "Connections": {
           "North": 9051,
-          "South": 9053
+          "South": {
+            "RoomId": 9053,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -598,7 +604,13 @@
         "Id": 9053,
         "Name": "King\u0027s Chamber #9053",
         "Connections": {
-          "North": 9052,
+          "North": {
+            "RoomId": 9052,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Down": 9100
         },
         "Contents": [
@@ -659,17 +671,29 @@
       {
         "Id": 3427,
         "FrameColor": "blue",
-        "Name": "To graveyard #3427",
+        "Name": "To Graveyard #3427",
         "Color": "blue",
         "Connections": {
-          "South": 3424,
-          "Down": 9000
+          "South": {
+            "RoomId": 3424,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 9000,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 9100,
         "FrameColor": "blue",
-        "Name": "To duergar #9100",
+        "Name": "To Duergar #9100",
         "Color": "blue",
         "Connections": {
           "East": 9101,
@@ -679,7 +703,7 @@
       {
         "Id": 16028,
         "FrameColor": "blue",
-        "Name": "To zap #16028",
+        "Name": "To Snowy Woods #16028",
         "Color": "blue",
         "Connections": {
           "North": 9056,

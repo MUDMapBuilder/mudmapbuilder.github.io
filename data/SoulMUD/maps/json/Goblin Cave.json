@@ -1,0 +1,2821 @@
+{
+  "Area": {
+    "Name": "Goblin Cave",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 9201,
+        "Name": "Warrens #9201",
+        "Connections": {
+          "North": 9199,
+          "South": 9203,
+          "West": 9200
+        },
+        "Contents": [
+          {
+            "Text": "a duergar child #9196",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9202,
+        "Name": "Warrens #9202",
+        "Connections": {
+          "North": 9200,
+          "East": 9203,
+          "West": 9195
+        }
+      },
+      {
+        "Id": 9203,
+        "Name": "Warrens #9203",
+        "Connections": {
+          "North": 9201,
+          "West": 9202
+        },
+        "Contents": [
+          {
+            "Text": "a duergar female #9185",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9204,
+        "Name": "Warrens #9204",
+        "Connections": {
+          "East": 9192,
+          "South": 9205
+        },
+        "Contents": [
+          {
+            "Text": "a cave rat #9157",
+            "Color": "green"
+          },
+          {
+            "Text": "a duergar child #9196",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9205,
+        "Name": "Warrens #9205",
+        "Connections": {
+          "North": 9204,
+          "East": 9193,
+          "South": 9206
+        },
+        "Contents": [
+          {
+            "Text": "a duergar child #9196",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9206,
+        "Name": "Warrens #9206",
+        "Connections": {
+          "North": 9205,
+          "East": 9194,
+          "South": 9207
+        },
+        "Contents": [
+          {
+            "Text": "a cave rat #9157",
+            "Color": "green"
+          },
+          {
+            "Text": "a duergar child #9196",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9207,
+        "Name": "Warrens #9207",
+        "Connections": {
+          "North": 9206,
+          "East": 9195
+        },
+        "Contents": [
+          {
+            "Text": "a duergar female #9185",
+            "Color": "green"
+          },
+          {
+            "Text": "a duergar child #9196",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9208,
+        "Name": "Prison Beach #9208",
+        "Connections": {
+          "North": 9209,
+          "South": 9144
+        },
+        "Contents": [
+          {
+            "Text": "a duergar jailer #9181",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9209,
+        "Name": "Prison Tunnel #9209",
+        "Connections": {
+          "North": 9210,
+          "East": {
+            "RoomId": 9213,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dark mithril key #9200",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 9208,
+          "West": {
+            "RoomId": 9214,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dark mithril key #9200",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a duergar footman #9161",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9210,
+        "Name": "Prison Tunnel #9210",
+        "Connections": {
+          "North": 9211,
+          "East": {
+            "RoomId": 9215,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dark mithril key #9200",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 9209,
+          "West": {
+            "RoomId": 9216,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dark mithril key #9200",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a duergar guard #9160",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9211,
+        "Name": "Prison Tunnel #9211",
+        "Connections": {
+          "North": 9212,
+          "East": {
+            "RoomId": 9217,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dark mithril key #9200",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 9210,
+          "West": {
+            "RoomId": 9218,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dark mithril key #9200",
+                "Color": "indianred"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 9212,
+        "Name": "Prison Tunnel #9212",
+        "Connections": {
+          "East": {
+            "RoomId": 9219,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dark mithril key #9200",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 9211,
+          "West": {
+            "RoomId": 9220,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dark mithril key #9200",
+                "Color": "indianred"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 9213,
+        "Name": "Prison Cell #9213",
+        "Connections": {
+          "West": {
+            "RoomId": 9209,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dark mithril key #9200",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an athach berserker #9201",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9214,
+        "Name": "Prison Cell #9214",
+        "Connections": {
+          "East": {
+            "RoomId": 9209,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dark mithril key #9200",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an illithid prisoner #9197",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9215,
+        "Name": "Prison Cell #9215",
+        "Connections": {
+          "West": {
+            "RoomId": 9210,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an enraged cave troll #9198",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9216,
+        "Name": "Prison Cell #9216",
+        "Connections": {
+          "East": {
+            "RoomId": 9210,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an ogre mage #9200",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9217,
+        "Name": "Prison Cell #9217",
+        "Connections": {
+          "West": {
+            "RoomId": 9211,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dark mithril key #9200",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an azer warrior #9199",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9218,
+        "Name": "Prison Cell #9218",
+        "Connections": {
+          "East": {
+            "RoomId": 9211,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dark mithril key #9200",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Princess Arnora #9188",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9219,
+        "Name": "Prison Cell #9219",
+        "Connections": {
+          "West": {
+            "RoomId": 9212,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dark mithril key #9200",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an azer warrior #9199",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9220,
+        "Name": "Prison Cell #9220",
+        "Connections": {
+          "East": {
+            "RoomId": 9212,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a dark mithril key #9200",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Bolverkr the Butcher #9195",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9221,
+        "Name": "Mine Tunnel #9221",
+        "Connections": {
+          "South": 9222,
+          "Up": 9133
+        },
+        "Contents": [
+          {
+            "Text": "a duergar miner #9186",
+            "Color": "red"
+          },
+          {
+            "Text": "a cave rat #9157",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9222,
+        "Name": "Mine Shaft #9222",
+        "Connections": {
+          "North": 9221,
+          "Down": 9223
+        },
+        "Contents": [
+          {
+            "Text": "a duergar miner #9186",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9223,
+        "Name": "Mine Shaft #9223",
+        "Connections": {
+          "Up": 9222,
+          "Down": 9224
+        },
+        "Contents": [
+          {
+            "Text": "a duergar miner #9186",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9224,
+        "Name": "Upper Mine #9224",
+        "Connections": {
+          "North": 9225,
+          "East": 9227,
+          "South": 9226,
+          "West": 9228,
+          "Up": 9223
+        }
+      },
+      {
+        "Id": 9225,
+        "Name": "Upper Mine #9225",
+        "Connections": {
+          "North": 9229,
+          "East": 9248,
+          "South": 9224,
+          "West": 9251
+        },
+        "Contents": [
+          {
+            "Text": "a duergar miner #9186",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9226,
+        "Name": "Upper Mine #9226",
+        "Connections": {
+          "North": 9224,
+          "East": 9249,
+          "West": 9250
+        },
+        "Contents": [
+          {
+            "Text": "a duergar miner #9186",
+            "Color": "red"
+          },
+          {
+            "Text": "a cave rat #9157",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9227,
+        "Name": "Upper Mine #9227",
+        "Connections": {
+          "North": 9248,
+          "South": 9249,
+          "West": 9224
+        },
+        "Contents": [
+          {
+            "Text": "a duergar miner #9186",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9228,
+        "Name": "Upper Mine #9228",
+        "Connections": {
+          "North": 9251,
+          "East": 9224,
+          "South": 9250
+        },
+        "Contents": [
+          {
+            "Text": "a duergar miner #9186",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9229,
+        "Name": "Upper Mine Tunnel #9229",
+        "Connections": {
+          "North": 9230,
+          "South": 9225
+        },
+        "Contents": [
+          {
+            "Text": "a xorn #9165",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9230,
+        "Name": "Mithril Shaft #9230",
+        "Connections": {
+          "South": 9229,
+          "Down": 9231
+        }
+      },
+      {
+        "Id": 9231,
+        "Name": "Mithril Shaft #9231",
+        "Connections": {
+          "Up": 9230,
+          "Down": 9232
+        }
+      },
+      {
+        "Id": 9232,
+        "Name": "Blackened Shaft #9232",
+        "Connections": {
+          "Up": 9231,
+          "Down": 9233
+        }
+      },
+      {
+        "Id": 9233,
+        "Name": "Burning Shaft #9233",
+        "Connections": {
+          "Up": 9232,
+          "Down": 9234
+        }
+      },
+      {
+        "Id": 9234,
+        "Name": "Burning Shaft #9234",
+        "Connections": {
+          "Up": 9233,
+          "Down": 9235
+        }
+      },
+      {
+        "Id": 9235,
+        "Name": "Glowing Mine #9235",
+        "Connections": {
+          "North": 9236,
+          "East": 9238,
+          "South": 9237,
+          "West": 9239,
+          "Up": 9234
+        }
+      },
+      {
+        "Id": 9236,
+        "Name": "Glowing Mine #9236",
+        "Connections": {
+          "North": 9240,
+          "East": 9252,
+          "South": 9235,
+          "West": 9255
+        }
+      },
+      {
+        "Id": 9237,
+        "Name": "Glowing Mine #9237",
+        "Connections": {
+          "North": 9235,
+          "East": 9253,
+          "West": 9254
+        }
+      },
+      {
+        "Id": 9238,
+        "Name": "Glowing Mine #9238",
+        "Connections": {
+          "North": 9252,
+          "South": 9253,
+          "West": 9235
+        },
+        "Contents": [
+          {
+            "Text": "a lavawight #9170",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9239,
+        "Name": "Glowing Mine #9239",
+        "Connections": {
+          "North": 9255,
+          "East": 9235,
+          "South": 9254
+        },
+        "Contents": [
+          {
+            "Text": "a lavawight #9170",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9240,
+        "Name": "Blackened Tunnel #9240",
+        "Connections": {
+          "North": 9241,
+          "East": 9242,
+          "South": 9236
+        }
+      },
+      {
+        "Id": 9241,
+        "Name": "Blackened Tunnel #9241",
+        "Connections": {
+          "North": 9243,
+          "South": 9240
+        }
+      },
+      {
+        "Id": 9242,
+        "Name": "Scorched Rock #9242",
+        "Connections": {
+          "West": 9240
+        },
+        "Contents": [
+          {
+            "Text": "a phaethon #9167",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9243,
+        "Name": "Blackened Tunnel #9243",
+        "Connections": {
+          "East": 9245,
+          "South": 9241,
+          "West": 9244
+        }
+      },
+      {
+        "Id": 9244,
+        "Name": "Inferno #9244",
+        "Connections": {
+          "East": 9243
+        },
+        "Contents": [
+          {
+            "Text": "a shape of fire #9169",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9245,
+        "Name": "Blackened Tunnel #9245",
+        "Connections": {
+          "East": 9246,
+          "West": 9243
+        }
+      },
+      {
+        "Id": 9246,
+        "Name": "Blackened Tunnel #9246",
+        "Connections": {
+          "North": 9247,
+          "West": 9245
+        }
+      },
+      {
+        "Id": 9247,
+        "Name": "Blackened Cavern #9247",
+        "Connections": {
+          "South": 9246
+        },
+        "Contents": [
+          {
+            "Text": "a lava dragon #9164",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9248,
+        "Name": "Upper Mine #9248",
+        "Connections": {
+          "South": 9227,
+          "West": 9225
+        },
+        "Contents": [
+          {
+            "Text": "a duergar miner #9186",
+            "Color": "red"
+          },
+          {
+            "Text": "a duergar miner #9186",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9249,
+        "Name": "Upper Mine #9249",
+        "Connections": {
+          "North": 9227,
+          "West": 9226
+        },
+        "Contents": [
+          {
+            "Text": "a duergar miner #9186",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9250,
+        "Name": "Upper Mine #9250",
+        "Connections": {
+          "North": 9228,
+          "East": 9226
+        },
+        "Contents": [
+          {
+            "Text": "a duergar miner #9186",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9251,
+        "Name": "Upper Mine #9251",
+        "Connections": {
+          "East": 9225,
+          "South": 9228
+        },
+        "Contents": [
+          {
+            "Text": "a duergar miner #9186",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9252,
+        "Name": "Glowing Mine #9252",
+        "Connections": {
+          "South": 9238,
+          "West": 9236
+        },
+        "Contents": [
+          {
+            "Text": "a lavawight #9170",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9253,
+        "Name": "Glowing Mine #9253",
+        "Connections": {
+          "North": 9238,
+          "West": 9237
+        },
+        "Contents": [
+          {
+            "Text": "a lavawight #9170",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9254,
+        "Name": "Glowing Mine #9254",
+        "Connections": {
+          "North": 9239,
+          "East": 9237
+        },
+        "Contents": [
+          {
+            "Text": "a lavawight #9170",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9255,
+        "Name": "Glowing Mine #9255",
+        "Connections": {
+          "East": 9236,
+          "South": 9239
+        },
+        "Contents": [
+          {
+            "Text": "a lavawight #9170",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9300,
+        "Name": "Opening on the Mountain Side #9300",
+        "Connections": {
+          "Up": 9301
+        }
+      },
+      {
+        "Id": 9301,
+        "Name": "A Dark Mountain Path #9301",
+        "Connections": {
+          "Up": 9302,
+          "Down": 9300
+        }
+      },
+      {
+        "Id": 9302,
+        "Name": "A Dark Mountain Path #9302",
+        "Connections": {
+          "Up": 9303,
+          "Down": 9301
+        }
+      },
+      {
+        "Id": 9303,
+        "Name": "A Dark Mountain Path #9303",
+        "Connections": {
+          "Up": 9304,
+          "Down": 9302
+        }
+      },
+      {
+        "Id": 9304,
+        "Name": "Below a Small Plateau #9304",
+        "Connections": {
+          "Up": 9305,
+          "Down": 9303
+        }
+      },
+      {
+        "Id": 9305,
+        "Name": "A Lofty Mountain Plateau #9305",
+        "Connections": {
+          "North": 9306,
+          "Down": 9304
+        }
+      },
+      {
+        "Id": 9306,
+        "Name": "The Stone Gates #9306",
+        "Connections": {
+          "North": 9307,
+          "South": 9305
+        }
+      },
+      {
+        "Id": 9307,
+        "Name": "Inside the Gate #9307",
+        "Connections": {
+          "North": 9331,
+          "East": 9335,
+          "South": 9306,
+          "West": 9308
+        }
+      },
+      {
+        "Id": 9308,
+        "Name": "Southwest Corner of the Abbey #9308",
+        "Connections": {
+          "North": 9309,
+          "East": 9307
+        }
+      },
+      {
+        "Id": 9309,
+        "Name": "A Low Breeze Way #9309",
+        "Connections": {
+          "North": 9310,
+          "South": 9308
+        }
+      },
+      {
+        "Id": 9310,
+        "Name": "Entrace to the Cooking Pits #9310",
+        "Connections": {
+          "North": 9311,
+          "East": 9331,
+          "South": 9309,
+          "West": 9337
+        }
+      },
+      {
+        "Id": 9311,
+        "Name": "A Low Breeze Way #9311",
+        "Connections": {
+          "North": 9312,
+          "South": 9310
+        }
+      },
+      {
+        "Id": 9312,
+        "Name": "Northwest Corner of the Abbey #9312",
+        "Connections": {
+          "North": 9313,
+          "East": 9325,
+          "South": 9311
+        }
+      },
+      {
+        "Id": 9313,
+        "Name": "A Small Stone Walk #9313",
+        "Connections": {
+          "North": 9317,
+          "South": 9312,
+          "West": 9314
+        }
+      },
+      {
+        "Id": 9314,
+        "Name": "A Massive Altar #9314",
+        "Connections": {
+          "East": 9313,
+          "West": 9315
+        }
+      },
+      {
+        "Id": 9315,
+        "Name": "Behind the Altar #9315",
+        "Connections": {
+          "East": 9314,
+          "Down": 9316
+        }
+      },
+      {
+        "Id": 9316,
+        "Name": "The Sacrifical Pit #9316",
+        "Connections": {
+          "Up": 9315
+        }
+      },
+      {
+        "Id": 9317,
+        "Name": "Entrance to the Library #9317",
+        "Connections": {
+          "North": 9320,
+          "East": 9324,
+          "South": 9313,
+          "West": 9318
+        }
+      },
+      {
+        "Id": 9318,
+        "Name": "Western End of the Library #9318",
+        "Connections": {
+          "North": 9319,
+          "East": 9317
+        }
+      },
+      {
+        "Id": 9319,
+        "Name": "Western End of the Library #9319",
+        "Connections": {
+          "East": 9320,
+          "South": 9318
+        }
+      },
+      {
+        "Id": 9320,
+        "Name": "Among the Stacks #9320",
+        "Connections": {
+          "East": 9321,
+          "South": 9317,
+          "West": 9319
+        }
+      },
+      {
+        "Id": 9321,
+        "Name": "Among the Stacks #9321",
+        "Connections": {
+          "East": 9322,
+          "South": 9324,
+          "West": 9320
+        }
+      },
+      {
+        "Id": 9322,
+        "Name": "Eastern End of the Library #9322",
+        "Connections": {
+          "South": 9323,
+          "West": 9321
+        }
+      },
+      {
+        "Id": 9323,
+        "Name": "Eastern End of the Library #9323",
+        "Connections": {
+          "North": 9322,
+          "West": 9324
+        }
+      },
+      {
+        "Id": 9324,
+        "Name": "Among the Stacks #9324",
+        "Connections": {
+          "North": 9321,
+          "East": 9323,
+          "West": 9317
+        }
+      },
+      {
+        "Id": 9325,
+        "Name": "A Low Breeze Way #9325",
+        "Connections": {
+          "East": 9326,
+          "West": 9312
+        }
+      },
+      {
+        "Id": 9326,
+        "Name": "Before a Large Door #9326",
+        "Connections": {
+          "East": 9327,
+          "South": 9328,
+          "West": 9325
+        }
+      },
+      {
+        "Id": 9327,
+        "Name": "The Crimson Chamber #9327",
+        "Connections": {
+          "West": 9326
+        }
+      },
+      {
+        "Id": 9328,
+        "Name": "Before a Large Door #9328",
+        "Connections": {
+          "North": 9326,
+          "East": 9329,
+          "South": 9330
+        }
+      },
+      {
+        "Id": 9329,
+        "Name": "The Ochre Chamber #9329",
+        "Connections": {
+          "West": 9328
+        }
+      },
+      {
+        "Id": 9330,
+        "Name": "Before a Large Door #9330",
+        "Connections": {
+          "North": 9328,
+          "East": 9332,
+          "South": 9333,
+          "West": 9331
+        }
+      },
+      {
+        "Id": 9331,
+        "Name": "The Center of the Courtyard #9331",
+        "Connections": {
+          "East": 9330,
+          "South": 9307,
+          "West": 9310,
+          "Down": 9336
+        }
+      },
+      {
+        "Id": 9332,
+        "Name": "The Ivory Chamber #9332",
+        "Connections": {
+          "West": 9330
+        }
+      },
+      {
+        "Id": 9333,
+        "Name": "Before a Large Door #9333",
+        "Connections": {
+          "North": 9330,
+          "East": 9334,
+          "South": 9335
+        }
+      },
+      {
+        "Id": 9334,
+        "Name": "The Chamber of Darkness #9334",
+        "Connections": {
+          "West": 9333
+        }
+      },
+      {
+        "Id": 9335,
+        "Name": "Southeast Corner of the Abbey #9335",
+        "Connections": {
+          "North": 9333,
+          "West": 9307
+        }
+      },
+      {
+        "Id": 9336,
+        "Name": "Below the Well #9336",
+        "Connections": {
+          "Up": 9331
+        }
+      },
+      {
+        "Id": 9337,
+        "Name": "The Cooking Pits #9337",
+        "Connections": {
+          "East": 9310
+        }
+      },
+      {
+        "Id": 9338,
+        "Name": "A Small Sloping Trail #9338",
+        "Connections": {
+          "North": 9340,
+          "South": 5801
+        }
+      },
+      {
+        "Id": 9339,
+        "Name": "A Small Sloping Trail #9339",
+        "Connections": {
+          "North": 9340,
+          "South": 9338
+        }
+      },
+      {
+        "Id": 9340,
+        "Name": "The Drop #9340",
+        "Connections": {
+          "South": 9338,
+          "Down": 9341
+        }
+      },
+      {
+        "Id": 9341,
+        "Name": "An Even Trail #9341",
+        "Connections": {
+          "North": 9342,
+          "Up": 9340
+        }
+      },
+      {
+        "Id": 9342,
+        "Name": "Before the Stockade #9342",
+        "Connections": {
+          "North": 4901,
+          "South": 9341
+        }
+      },
+      {
+        "Id": 9400,
+        "Name": "A Unused Road #9400",
+        "Connections": {
+          "North": 9401
+        }
+      },
+      {
+        "Id": 9401,
+        "Name": "A Unused Road #9401",
+        "Connections": {
+          "North": 9402,
+          "South": 9400
+        }
+      },
+      {
+        "Id": 9402,
+        "Name": "A Barren Plain #9402",
+        "Connections": {
+          "North": 9403,
+          "South": 9401
+        }
+      },
+      {
+        "Id": 9403,
+        "Name": "Before an Encampment #9403",
+        "Connections": {
+          "North": 9404,
+          "South": 9402
+        }
+      },
+      {
+        "Id": 9404,
+        "Name": "Ragged Tents #9404",
+        "Connections": {
+          "North": 9406,
+          "East": 9405,
+          "South": 9403
+        }
+      },
+      {
+        "Id": 9405,
+        "Name": "Ragged Tents #9405",
+        "Connections": {
+          "West": 9404
+        }
+      },
+      {
+        "Id": 9406,
+        "Name": "A Burned Out Fire Pit #9406",
+        "Connections": {
+          "North": 9412,
+          "East": 9407,
+          "South": 9404,
+          "West": 9411
+        }
+      },
+      {
+        "Id": 9407,
+        "Name": "Ragged Tents #9407",
+        "Connections": {
+          "South": 9408,
+          "West": 9406
+        }
+      },
+      {
+        "Id": 9408,
+        "Name": "The Commanders Tent #9408",
+        "Connections": {
+          "North": 9407,
+          "Down": {
+            "RoomId": 9409,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 9409,
+        "Name": "A Guarded Tunnel #9409",
+        "Connections": {
+          "South": 9410,
+          "Up": {
+            "RoomId": 9408,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 9410,
+        "Name": "A Large Chamber #9410",
+        "Connections": {
+          "North": 9409
+        }
+      },
+      {
+        "Id": 9411,
+        "Name": "Ragged Tents #9411",
+        "Connections": {
+          "East": 9406
+        }
+      },
+      {
+        "Id": 9412,
+        "Name": "The Wooden Barricade #9412",
+        "Connections": {
+          "North": 4628,
+          "South": 9406
+        }
+      },
+      {
+        "Id": 9500,
+        "Name": "Mountain Pass #9500",
+        "Connections": {
+          "West": 9501,
+          "Up": 9690
+        }
+      },
+      {
+        "Id": 9501,
+        "Name": "Mountain Pass #9501",
+        "Connections": {
+          "East": 9500,
+          "West": 9502,
+          "Up": 9690
+        }
+      },
+      {
+        "Id": 9502,
+        "Name": "Eastern Beach #9502",
+        "Connections": {
+          "North": 9503,
+          "East": 9501,
+          "South": 9510,
+          "West": 9518,
+          "Up": 9690
+        }
+      },
+      {
+        "Id": 9503,
+        "Name": "Northern Beach #9503",
+        "Connections": {
+          "South": 9502,
+          "West": 9515,
+          "Up": 9690
+        }
+      },
+      {
+        "Id": 9510,
+        "Name": "Southern Beach #9510",
+        "Connections": {
+          "North": 9502,
+          "West": 9521,
+          "Up": 9690
+        }
+      },
+      {
+        "Id": 9515,
+        "Name": "Lake Shallows #9515",
+        "Connections": {
+          "East": 9503,
+          "South": 9516,
+          "Up": 9690
+        }
+      },
+      {
+        "Id": 9516,
+        "Name": "On the Lake #9516",
+        "Connections": {
+          "North": 9515,
+          "East": 9518,
+          "South": 9521,
+          "Up": 9690,
+          "Down": 9522
+        }
+      },
+      {
+        "Id": 9518,
+        "Name": "Lake Shallows #9518",
+        "Connections": {
+          "East": 9502,
+          "West": 9516,
+          "Up": 9690
+        }
+      },
+      {
+        "Id": 9521,
+        "Name": "Lake Shallows #9521",
+        "Connections": {
+          "North": 9516,
+          "South": 9510,
+          "Up": 9690
+        }
+      },
+      {
+        "Id": 9522,
+        "Name": "Under the Lake #9522",
+        "Connections": {
+          "South": 9523,
+          "West": 9524,
+          "Up": 9516
+        }
+      },
+      {
+        "Id": 9523,
+        "Name": "Under a Rock Shelf #9523",
+        "Connections": {
+          "North": 9522,
+          "West": 9525
+        }
+      },
+      {
+        "Id": 9524,
+        "Name": "Under a Rock Shelf #9524",
+        "Connections": {
+          "East": 9522,
+          "South": 9525
+        }
+      },
+      {
+        "Id": 9525,
+        "Name": "Underwater Cave #9525",
+        "Connections": {
+          "North": 9524,
+          "East": 9523,
+          "South": 9526
+        }
+      },
+      {
+        "Id": 9526,
+        "Name": "Underwater Tunnel #9526",
+        "Connections": {
+          "North": 9525,
+          "South": 9527
+        }
+      },
+      {
+        "Id": 9527,
+        "Name": "Underwater Tunnel #9527",
+        "Connections": {
+          "North": 9526,
+          "West": 9528
+        }
+      },
+      {
+        "Id": 9528,
+        "Name": "Underwater Tunnel #9528",
+        "Connections": {
+          "North": 9529,
+          "East": 9529
+        }
+      },
+      {
+        "Id": 9529,
+        "Name": "Underwater Tunnel #9529",
+        "Connections": {
+          "South": 9528,
+          "West": 9530
+        }
+      },
+      {
+        "Id": 9530,
+        "Name": "Intersection #9530",
+        "Connections": {
+          "East": 9529,
+          "West": 9544
+        }
+      },
+      {
+        "Id": 9544,
+        "Name": "Messed up room #9544",
+        "Connections": {}
+      },
+      {
+        "Id": 9690,
+        "Name": "Messed Up room #9690",
+        "Connections": {}
+      },
+      {
+        "Id": 9800,
+        "Name": "The Trading Post #9800",
+        "Connections": {
+          "East": 9801,
+          "West": 3006
+        },
+        "Contents": [
+          {
+            "Text": "the hobgoblin trader #9808",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9801,
+        "Name": "Entrance to the Mountain #9801",
+        "Connections": {
+          "North": 9862,
+          "East": 9802,
+          "West": 9800
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          },
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          },
+          {
+            "Text": "a hobgoblin guard #9802",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9802,
+        "Name": "Wide Tunnel #9802",
+        "Connections": {
+          "East": 9803,
+          "West": 9801
+        },
+        "Contents": [
+          {
+            "Text": "a hobgoblin guard #9802",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9803,
+        "Name": "The Large Cavern #9803",
+        "Connections": {
+          "North": 9804,
+          "East": 9808,
+          "South": 9806,
+          "West": 9802
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          },
+          {
+            "Text": "a hobgoblin guard #9802",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9804,
+        "Name": "Goblin Mess Hall #9804",
+        "Connections": {
+          "North": 9805,
+          "South": 9803
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          },
+          {
+            "Text": "a hobgoblin guard #9802",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9805,
+        "Name": "Kitchen #9805",
+        "Connections": {
+          "South": 9804
+        },
+        "Contents": [
+          {
+            "Text": "the goblin cook #9805",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9806,
+        "Name": "Narrow Tunnel #9806",
+        "Connections": {
+          "North": 9803,
+          "South": 9807
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9807,
+        "Name": "Goblin Barracks #9807",
+        "Connections": {
+          "North": 9806
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          },
+          {
+            "Text": "a hobgoblin guard #9802",
+            "Color": "green"
+          },
+          {
+            "Text": "a hobgoblin guard #9802",
+            "Color": "green"
+          },
+          {
+            "Text": "a hobgoblin guard #9802",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9808,
+        "Name": "Wide Tunnel #9808",
+        "Connections": {
+          "East": 9809,
+          "West": 9803
+        }
+      },
+      {
+        "Id": 9809,
+        "Name": "Tunnel Intersection #9809",
+        "Connections": {
+          "North": 9810,
+          "East": 9817,
+          "South": 9815,
+          "West": 9808
+        }
+      },
+      {
+        "Id": 9810,
+        "Name": "Narrow Tunnel #9810",
+        "Connections": {
+          "North": 9811,
+          "South": 9809
+        }
+      },
+      {
+        "Id": 9811,
+        "Name": "Humid Tunnel #9811",
+        "Connections": {
+          "East": 9812,
+          "South": 9810
+        }
+      },
+      {
+        "Id": 9812,
+        "Name": "Underground Beach #9812",
+        "Connections": {
+          "East": 9813,
+          "West": 9811
+        }
+      },
+      {
+        "Id": 9813,
+        "Name": "Lake surface #9813",
+        "Connections": {
+          "West": 9812,
+          "Down": 9814
+        },
+        "Contents": [
+          {
+            "Text": "an eel #9806",
+            "Color": "red"
+          },
+          {
+            "Text": "an eel #9806",
+            "Color": "red"
+          },
+          {
+            "Text": "an eel #9806",
+            "Color": "red"
+          },
+          {
+            "Text": "an eel #9806",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9814,
+        "Name": "15\u0027 under the lake surface #9814",
+        "Connections": {
+          "North": 9867,
+          "Up": 9813
+        },
+        "Contents": [
+          {
+            "Text": "an eel #9806",
+            "Color": "red"
+          },
+          {
+            "Text": "an eel #9806",
+            "Color": "red"
+          },
+          {
+            "Text": "an eel #9806",
+            "Color": "red"
+          },
+          {
+            "Text": "an eel #9806",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9815,
+        "Name": "Narrow Tunnel #9815",
+        "Connections": {
+          "North": 9809,
+          "South": 9816
+        }
+      },
+      {
+        "Id": 9816,
+        "Name": "Goblin Temple #9816",
+        "Connections": {
+          "North": 9815
+        },
+        "Contents": [
+          {
+            "Text": "the hobgoblin priest #9804",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9817,
+        "Name": "Tunnel #9817",
+        "Connections": {
+          "East": 9818,
+          "West": 9809
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9818,
+        "Name": "Tunnel #9818",
+        "Connections": {
+          "East": 9819,
+          "West": 9817
+        }
+      },
+      {
+        "Id": 9819,
+        "Name": "Tunnel Intersection #9819",
+        "Connections": {
+          "East": 9837,
+          "South": 9820,
+          "West": 9818
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          },
+          {
+            "Text": "a hobgoblin guard #9802",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9820,
+        "Name": "Small Tunnel #9820",
+        "Connections": {
+          "North": 9819,
+          "South": 9831
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9821,
+        "Name": "Goblin Residence #9821",
+        "Connections": {
+          "West": 9831
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9822,
+        "Name": "Goblin Residence #9822",
+        "Connections": {
+          "West": 9832
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9823,
+        "Name": "Goblin Residence #9823",
+        "Connections": {
+          "West": 9833
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9824,
+        "Name": "Goblin Residence #9824",
+        "Connections": {
+          "West": 9834
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9825,
+        "Name": "Goblin Residence #9825",
+        "Connections": {
+          "West": 9835
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9826,
+        "Name": "Goblin Residence #9826",
+        "Connections": {
+          "East": 9835
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9827,
+        "Name": "Goblin Residence #9827",
+        "Connections": {
+          "East": 9834
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9828,
+        "Name": "Goblin Residence #9828",
+        "Connections": {
+          "East": 9833
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9829,
+        "Name": "Goblin Residence #9829",
+        "Connections": {
+          "East": 9832
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9830,
+        "Name": "Goblin Residence #9830",
+        "Connections": {
+          "East": 9831
+        },
+        "Contents": [
+          {
+            "Text": "a goblin #9800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9831,
+        "Name": "Small Tunnel #9831",
+        "Connections": {
+          "North": 9820,
+          "East": 9821,
+          "South": 9832,
+          "West": 9830
+        }
+      },
+      {
+        "Id": 9832,
+        "Name": "Small Tunnel #9832",
+        "Connections": {
+          "North": 9831,
+          "East": 9822,
+          "South": 9833,
+          "West": 9829
+        }
+      },
+      {
+        "Id": 9833,
+        "Name": "Small Tunnel #9833",
+        "Connections": {
+          "North": 9832,
+          "East": 9823,
+          "South": 9834,
+          "West": 9828
+        }
+      },
+      {
+        "Id": 9834,
+        "Name": "Small Tunnel #9834",
+        "Connections": {
+          "North": 9833,
+          "East": 9824,
+          "South": 9835,
+          "West": 9827
+        }
+      },
+      {
+        "Id": 9835,
+        "Name": "Small Tunnel #9835",
+        "Connections": {
+          "North": 9834,
+          "East": 9825,
+          "South": 9836,
+          "West": 9826
+        }
+      },
+      {
+        "Id": 9836,
+        "Name": "Landlord\u0027s Cave #9836",
+        "Connections": {
+          "North": 9835
+        },
+        "Contents": [
+          {
+            "Text": "the hobgoblin landlord #9803",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9837,
+        "Name": "Tunnel Intersection #9837",
+        "Connections": {
+          "North": 9838,
+          "East": 9868,
+          "West": 9819
+        }
+      },
+      {
+        "Id": 9838,
+        "Name": "Entrance to Mine #9838",
+        "Connections": {
+          "North": 9839,
+          "South": 9837
+        }
+      },
+      {
+        "Id": 9839,
+        "Name": "South end of Catwalk #9839",
+        "Connections": {
+          "North": 9841,
+          "South": 9838
+        }
+      },
+      {
+        "Id": 9840,
+        "Name": "Catwalk and Cavern #9840",
+        "Connections": {
+          "North": 9861,
+          "East": 9843,
+          "South": 9841
+        }
+      },
+      {
+        "Id": 9841,
+        "Name": "Catwalk Intersection #9841",
+        "Connections": {
+          "North": 9840,
+          "East": 9842,
+          "South": 9839
+        }
+      },
+      {
+        "Id": 9842,
+        "Name": "Hanging Catwalk #9842",
+        "Connections": {
+          "North": 9843,
+          "East": 9844,
+          "South": 9843,
+          "West": 9841
+        }
+      },
+      {
+        "Id": 9843,
+        "Name": "Hanging off the Catwalk! #9843",
+        "Connections": {
+          "Up": 9842,
+          "Down": 9847
+        }
+      },
+      {
+        "Id": 9844,
+        "Name": "Catwalk Intersection #9844",
+        "Connections": {
+          "North": 9846,
+          "East": 9843,
+          "South": 9845,
+          "West": 9842
+        },
+        "Contents": [
+          {
+            "Text": "the hobgoblin overseer #9807",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9845,
+        "Name": "South Catwalk #9845",
+        "Connections": {
+          "North": 9844
+        }
+      },
+      {
+        "Id": 9846,
+        "Name": "North Catwalk #9846",
+        "Connections": {
+          "East": 9843,
+          "South": 9844,
+          "West": 9843
+        }
+      },
+      {
+        "Id": 9847,
+        "Name": "Above the Mine Floor #9847",
+        "Connections": {
+          "Up": 9842,
+          "Down": 9848
+        }
+      },
+      {
+        "Id": 9848,
+        "Name": "Above Mine Floor #9848",
+        "Connections": {
+          "Down": 9849
+        }
+      },
+      {
+        "Id": 9849,
+        "Name": "Middle of fine floor #9849",
+        "Connections": {
+          "North": 9851,
+          "East": 9854,
+          "South": 9856,
+          "West": 9853,
+          "Up": 9848
+        },
+        "Contents": [
+          {
+            "Text": "a goblin miner #9801",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9850,
+        "Name": "North West Cavern #9850",
+        "Connections": {
+          "North": 9858,
+          "East": 9851,
+          "South": 9853
+        },
+        "Contents": [
+          {
+            "Text": "a goblin miner #9801",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9851,
+        "Name": "North Cavern Floor #9851",
+        "Connections": {
+          "East": 9852,
+          "South": 9849,
+          "West": 9850
+        },
+        "Contents": [
+          {
+            "Text": "a goblin miner #9801",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9852,
+        "Name": "North East Cavern Floor #9852",
+        "Connections": {
+          "South": 9854,
+          "West": 9851
+        },
+        "Contents": [
+          {
+            "Text": "a goblin miner #9801",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9853,
+        "Name": "West Cavern Floor #9853",
+        "Connections": {
+          "North": 9850,
+          "East": 9849,
+          "South": 9855
+        },
+        "Contents": [
+          {
+            "Text": "a goblin miner #9801",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9854,
+        "Name": "East Cavern Floor #9854",
+        "Connections": {
+          "North": 9852,
+          "South": 9857,
+          "West": 9849
+        },
+        "Contents": [
+          {
+            "Text": "a goblin miner #9801",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9855,
+        "Name": "South West Cavern Floor #9855",
+        "Connections": {
+          "North": 9853,
+          "East": 9856,
+          "Down": 80110
+        },
+        "Contents": [
+          {
+            "Text": "a goblin miner #9801",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9856,
+        "Name": "South Cavern Floor #9856",
+        "Connections": {
+          "North": 9849,
+          "East": 9857,
+          "West": 9855
+        },
+        "Contents": [
+          {
+            "Text": "a goblin miner #9801",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9857,
+        "Name": "South East Cavern Floor #9857",
+        "Connections": {
+          "North": 9854,
+          "West": 9856
+        },
+        "Contents": [
+          {
+            "Text": "a goblin miner #9801",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9858,
+        "Name": "Mine Tunnel #9858",
+        "Connections": {
+          "North": 9859,
+          "South": 9850
+        },
+        "Contents": [
+          {
+            "Text": "a goblin miner #9801",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9859,
+        "Name": "Mine Tunnel #9859",
+        "Connections": {
+          "South": 9858,
+          "Up": 9860
+        },
+        "Contents": [
+          {
+            "Text": "a goblin miner #9801",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9860,
+        "Name": "Mine Tunnel #9860",
+        "Connections": {
+          "South": 9861,
+          "Down": 9859
+        }
+      },
+      {
+        "Id": 9861,
+        "Name": "Mine Tunnel #9861",
+        "Connections": {
+          "North": 9860,
+          "South": 9840
+        }
+      },
+      {
+        "Id": 9862,
+        "Name": "Narrow Path #9862",
+        "Connections": {
+          "North": 9863,
+          "South": 9801
+        }
+      },
+      {
+        "Id": 9863,
+        "Name": "Bend in Path #9863",
+        "Connections": {
+          "North": 66020,
+          "East": 9864,
+          "South": 9862
+        }
+      },
+      {
+        "Id": 9864,
+        "Name": "Narrow path #9864",
+        "Connections": {
+          "East": 9865,
+          "West": 9863
+        }
+      },
+      {
+        "Id": 9865,
+        "Name": "Narrow Path #9865",
+        "Connections": {
+          "East": 9866,
+          "West": 9864
+        }
+      },
+      {
+        "Id": 9866,
+        "Name": "The Pool #9866",
+        "Connections": {
+          "West": 9865,
+          "Down": 9867
+        }
+      },
+      {
+        "Id": 9867,
+        "Name": "Under the pool #9867",
+        "Connections": {
+          "South": 9814,
+          "Up": 9866
+        }
+      },
+      {
+        "Id": 9868,
+        "Name": "An Uneven Tunnel #9868",
+        "Connections": {
+          "East": 9869,
+          "West": 9837
+        },
+        "Contents": [
+          {
+            "Text": "a hobgoblin guard #9802",
+            "Color": "green"
+          },
+          {
+            "Text": "a hobgoblin guard #9802",
+            "Color": "green"
+          },
+          {
+            "Text": "a hobgoblin guard #9802",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9869,
+        "Name": "Cave Opening #9869",
+        "Connections": {
+          "East": 9870,
+          "West": 9868
+        }
+      },
+      {
+        "Id": 9870,
+        "Name": "Intersection of Trails #9870",
+        "Connections": {
+          "North": 9871,
+          "East": 9872,
+          "South": 30552,
+          "West": 9869
+        }
+      },
+      {
+        "Id": 9871,
+        "Name": "A Worn Path #9871",
+        "Connections": {
+          "North": 66034,
+          "South": 9870
+        }
+      },
+      {
+        "Id": 9872,
+        "Name": "A Wide Path #9872",
+        "Connections": {
+          "East": 9873,
+          "West": 9870
+        }
+      },
+      {
+        "Id": 9873,
+        "Name": "A Wide Path #9873",
+        "Connections": {
+          "North": 42061,
+          "East": 9874,
+          "West": 9872
+        }
+      },
+      {
+        "Id": 9874,
+        "Name": "Intersection of Trails #9874",
+        "Connections": {
+          "East": 9875,
+          "West": 9873
+        }
+      },
+      {
+        "Id": 9875,
+        "Name": "At A Boulder #9875",
+        "Connections": {
+          "South": 9876,
+          "West": 9874
+        }
+      },
+      {
+        "Id": 9876,
+        "Name": "Palm Lined Path #9876",
+        "Connections": {
+          "North": 9875,
+          "East": 9877
+        },
+        "Contents": [
+          {
+            "Text": "an obsidian statue #57400",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9877,
+        "Name": "Palms and Shells #9877",
+        "Connections": {
+          "North": 9891,
+          "East": 9878,
+          "West": 9876
+        }
+      },
+      {
+        "Id": 9878,
+        "Name": "Sandy Palm Way #9878",
+        "Connections": {
+          "South": 9879,
+          "West": 9877
+        }
+      },
+      {
+        "Id": 9879,
+        "Name": "Along A Sandy Beach #9879",
+        "Connections": {
+          "North": 9878,
+          "East": 9880,
+          "South": 9991
+        }
+      },
+      {
+        "Id": 9880,
+        "Name": "A Wooden Dock #9880",
+        "Connections": {
+          "North": 9892,
+          "South": 9893,
+          "West": 9879
+        },
+        "Contents": [
+          {
+            "Text": "Jessie #9880",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9881,
+        "Name": "Before the Palms #9881",
+        "Connections": {
+          "North": 9876,
+          "West": 9882
+        }
+      },
+      {
+        "Id": 9882,
+        "Name": "A Dirt Trail #9882",
+        "Connections": {
+          "East": 9881,
+          "South": 9883
+        }
+      },
+      {
+        "Id": 9883,
+        "Name": "A Dirt Trail #9883",
+        "Connections": {
+          "North": 9882,
+          "South": 9884
+        }
+      },
+      {
+        "Id": 9884,
+        "Name": "Rocky Road #9884",
+        "Connections": {
+          "East": 42177,
+          "South": 9885
+        }
+      },
+      {
+        "Id": 9885,
+        "Name": "A Dark Path #9885",
+        "Connections": {
+          "North": 9884,
+          "South": 30001
+        }
+      },
+      {
+        "Id": 9891,
+        "Name": "A Bamboo Hut #9891",
+        "Connections": {
+          "South": 9877
+        },
+        "Contents": [
+          {
+            "Text": "the Dreamwraith #30500",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9892,
+        "Name": "A Wooden Dock #9892",
+        "Connections": {
+          "South": 9880
+        },
+        "Contents": [
+          {
+            "Text": "a jovial fisherman #9892",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9893,
+        "Name": "A Wooden Dock #9893",
+        "Connections": {
+          "North": 9880
+        },
+        "Contents": [
+          {
+            "Text": "A lazy fisherman #9893",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9894,
+        "Name": "A Dwarvish Longboat #9894",
+        "Connections": {}
+      },
+      {
+        "Id": 9199,
+        "FrameColor": "blue",
+        "Name": "To Duergar #9199",
+        "Color": "blue",
+        "Connections": {
+          "North": 9197,
+          "South": 9201,
+          "West": 9198
+        }
+      },
+      {
+        "Id": 9200,
+        "FrameColor": "blue",
+        "Name": "To Duergar #9200",
+        "Color": "blue",
+        "Connections": {
+          "North": 9198,
+          "East": 9201,
+          "South": 9202,
+          "West": 9194
+        }
+      },
+      {
+        "Id": 9195,
+        "FrameColor": "blue",
+        "Name": "To Duergar #9195",
+        "Color": "blue",
+        "Connections": {
+          "North": 9194,
+          "East": 9202,
+          "West": 9207
+        }
+      },
+      {
+        "Id": 9192,
+        "FrameColor": "blue",
+        "Name": "To Duergar #9192",
+        "Color": "blue",
+        "Connections": {
+          "North": {
+            "RoomId": 9125,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 9196,
+          "South": 9193,
+          "West": 9204
+        }
+      },
+      {
+        "Id": 9193,
+        "FrameColor": "blue",
+        "Name": "To Duergar #9193",
+        "Color": "blue",
+        "Connections": {
+          "North": 9192,
+          "East": 9198,
+          "South": 9194,
+          "West": 9205
+        }
+      },
+      {
+        "Id": 9194,
+        "FrameColor": "blue",
+        "Name": "To Duergar #9194",
+        "Color": "blue",
+        "Connections": {
+          "North": 9193,
+          "East": 9200,
+          "South": 9195,
+          "West": 9206
+        }
+      },
+      {
+        "Id": 9144,
+        "FrameColor": "blue",
+        "Name": "To Duergar #9144",
+        "Color": "blue",
+        "Connections": {
+          "North": 9208,
+          "South": 9143,
+          "West": 9145,
+          "Down": 9149
+        }
+      },
+      {
+        "Id": 9133,
+        "FrameColor": "blue",
+        "Name": "To Duergar #9133",
+        "Color": "blue",
+        "Connections": {
+          "West": 9132,
+          "Down": 9221
+        }
+      },
+      {
+        "Id": 5801,
+        "FrameColor": "blue",
+        "Name": "To Connecting roads #5801",
+        "Color": "blue",
+        "Connections": {
+          "North": 9338,
+          "East": 5802,
+          "West": 5727
+        }
+      },
+      {
+        "Id": 4901,
+        "FrameColor": "blue",
+        "Name": "To Gnolls #4901",
+        "Color": "blue",
+        "Connections": {
+          "North": {
+            "RoomId": 4902,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 9342
+        }
+      },
+      {
+        "Id": 4628,
+        "FrameColor": "blue",
+        "Name": "To Sieged Castle #4628",
+        "Color": "blue",
+        "Connections": {
+          "North": 4626,
+          "South": 9412
+        }
+      },
+      {
+        "Id": 3006,
+        "FrameColor": "blue",
+        "Name": "To Lyrran Temples #3006",
+        "Color": "blue",
+        "Connections": {
+          "East": 9800,
+          "South": 3007,
+          "West": 3005
+        }
+      },
+      {
+        "Id": 80110,
+        "FrameColor": "blue",
+        "Name": "To Haunted Mines #80110",
+        "Color": "blue",
+        "Connections": {
+          "East": 80109,
+          "Up": 9855
+        }
+      },
+      {
+        "Id": 66020,
+        "FrameColor": "blue",
+        "Name": "To Trogs Bar #66020",
+        "Color": "blue",
+        "Connections": {
+          "North": 66021,
+          "South": 9863
+        }
+      },
+      {
+        "Id": 30552,
+        "FrameColor": "blue",
+        "Name": "To Tasloi Tree #30552",
+        "Color": "blue",
+        "Connections": {
+          "North": 9870,
+          "South": {
+            "RoomId": 30545,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 66034,
+        "FrameColor": "blue",
+        "Name": "To Trogs Bar #66034",
+        "Color": "blue",
+        "Connections": {
+          "North": 66033,
+          "South": 9871
+        }
+      },
+      {
+        "Id": 42061,
+        "FrameColor": "blue",
+        "Name": "To Forest of Fear #42061",
+        "Color": "blue",
+        "Connections": {
+          "North": 42064,
+          "East": 42062,
+          "South": 9873,
+          "West": 42063
+        }
+      },
+      {
+        "Id": 9991,
+        "FrameColor": "blue",
+        "Name": "To Nordik Area #9991",
+        "Color": "blue",
+        "Connections": {
+          "North": 9879,
+          "South": 42190
+        }
+      },
+      {
+        "Id": 42177,
+        "FrameColor": "blue",
+        "Name": "To Ants #42177",
+        "Color": "blue",
+        "Connections": {
+          "East": 42178,
+          "West": 9884
+        }
+      },
+      {
+        "Id": 30001,
+        "FrameColor": "blue",
+        "Name": "To Werearea #30001",
+        "Color": "blue",
+        "Connections": {
+          "North": 9885,
+          "South": {
+            "RoomId": 30002,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      }
+    ]
+  }
+}

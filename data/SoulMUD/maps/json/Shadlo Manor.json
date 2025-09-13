@@ -1,0 +1,2423 @@
+{
+  "Area": {
+    "Name": "Shadlo Manor",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 80201,
+        "Name": "Driveway Enterance #80201",
+        "Connections": {
+          "North": 80375,
+          "South": 80202,
+          "West": 80206,
+          "Down": 80218
+        }
+      },
+      {
+        "Id": 80202,
+        "Name": "Small Cobblestone Path #80202",
+        "Connections": {
+          "North": 80201,
+          "South": 80203
+        }
+      },
+      {
+        "Id": 80203,
+        "Name": "Cobblestone Steps #80203",
+        "Connections": {
+          "North": 80202,
+          "South": 80204,
+          "West": 80215
+        }
+      },
+      {
+        "Id": 80204,
+        "Name": "Grass Patio #80204",
+        "Connections": {
+          "North": 80203,
+          "South": 80205,
+          "West": {
+            "RoomId": 80327,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80205,
+        "Name": "Stone Balcony #80205",
+        "Connections": {
+          "North": 80204
+        },
+        "Contents": [
+          {
+            "Text": "Lorac Black #80216",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80206,
+        "Name": "Dirt Driveway #80206",
+        "Connections": {
+          "East": 80201,
+          "West": 80207
+        }
+      },
+      {
+        "Id": 80207,
+        "Name": "Stone Driveway #80207",
+        "Connections": {
+          "North": 80208,
+          "East": 80206,
+          "West": 80210
+        }
+      },
+      {
+        "Id": 80208,
+        "Name": "Under the Maple Tree #80208",
+        "Connections": {
+          "South": 80207
+        }
+      },
+      {
+        "Id": 80209,
+        "Name": "The Well #80209",
+        "Connections": {
+          "South": 80210,
+          "Down": {
+            "RoomId": 80216,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80210,
+        "Name": "Center of the Stone Driveway #80210",
+        "Connections": {
+          "North": 80209,
+          "East": 80207,
+          "South": 80213,
+          "West": 80211
+        }
+      },
+      {
+        "Id": 80211,
+        "Name": "Stone Driveway #80211",
+        "Connections": {
+          "East": 80210,
+          "West": 80217
+        }
+      },
+      {
+        "Id": 80212,
+        "Name": "West End of the Porch #80212",
+        "Connections": {
+          "East": 80213,
+          "West": 80217
+        }
+      },
+      {
+        "Id": 80213,
+        "Name": "Porch Entranceway #80213",
+        "Connections": {
+          "North": 80210,
+          "East": 80214,
+          "South": {
+            "RoomId": 80306,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 80212
+        }
+      },
+      {
+        "Id": 80214,
+        "Name": "Center Porch #80214",
+        "Connections": {
+          "East": 80215,
+          "West": 80213
+        }
+      },
+      {
+        "Id": 80215,
+        "Name": "East End of the Porch #80215",
+        "Connections": {
+          "East": 80203,
+          "South": {
+            "RoomId": 80320,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "West": 80214
+        }
+      },
+      {
+        "Id": 80216,
+        "Name": "Under the Murky Water #80216",
+        "Connections": {
+          "Up": {
+            "RoomId": 80209,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80217,
+        "Name": "End of the Driveway #80217",
+        "Connections": {
+          "East": 80211,
+          "West": {
+            "RoomId": 80246,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 80212
+        }
+      },
+      {
+        "Id": 80218,
+        "Name": "Dirt Road by a Stream #80218",
+        "Connections": {
+          "East": 80219,
+          "Up": 80201,
+          "Down": 80222
+        }
+      },
+      {
+        "Id": 80219,
+        "Name": "Worn Dirt Path #80219",
+        "Connections": {
+          "North": {
+            "RoomId": 80220,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 80221,
+          "West": 80218
+        }
+      },
+      {
+        "Id": 80220,
+        "Name": "Old Rickety Shack #80220",
+        "Connections": {
+          "South": {
+            "RoomId": 80219,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80221,
+        "Name": "Between the Barn and the Stable #80221",
+        "Connections": {
+          "East": {
+            "RoomId": 80265,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 80261,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 80219,
+          "Up": 80230
+        }
+      },
+      {
+        "Id": 80222,
+        "Name": "Dirt Road #80222",
+        "Connections": {
+          "East": 80223,
+          "South": {
+            "RoomId": 80222,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "West": 80233,
+          "Up": 80218
+        }
+      },
+      {
+        "Id": 80223,
+        "Name": "Dirt Road\u0027s End #80223",
+        "Connections": {
+          "North": 80225,
+          "East": {
+            "RoomId": 80226,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 80222
+        }
+      },
+      {
+        "Id": 80224,
+        "Name": "Overgrown Path #80224",
+        "Connections": {
+          "East": {
+            "RoomId": 80258,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 80225
+        }
+      },
+      {
+        "Id": 80225,
+        "Name": "Overgrown Path #80225",
+        "Connections": {
+          "North": 80224,
+          "East": {
+            "RoomId": 80257,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 80223
+        }
+      },
+      {
+        "Id": 80226,
+        "Name": "Barnyard Southwest #80226",
+        "Connections": {
+          "North": 80229,
+          "East": 80227,
+          "West": {
+            "RoomId": 80223,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80227,
+        "Name": "Barnyard Southeast #80227",
+        "Connections": {
+          "North": 80228,
+          "West": 80226
+        }
+      },
+      {
+        "Id": 80228,
+        "Name": "Barnyard Northeast #80228",
+        "Connections": {
+          "East": 80232,
+          "South": 80227,
+          "West": 80229
+        }
+      },
+      {
+        "Id": 80229,
+        "Name": "Barnyard Northwest #80229",
+        "Connections": {
+          "East": 80228,
+          "South": 80226,
+          "West": {
+            "RoomId": 80259,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80230,
+        "Name": "Steep Rocky Path #80230",
+        "Connections": {
+          "East": 80231,
+          "Down": 80221
+        }
+      },
+      {
+        "Id": 80231,
+        "Name": "Wide Dirt Path #80231",
+        "Connections": {
+          "North": 80378,
+          "South": {
+            "RoomId": 80286,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 80230
+        }
+      },
+      {
+        "Id": 80232,
+        "Name": "Barnyard East #80232",
+        "Connections": {
+          "East": {
+            "RoomId": 80279,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 80228,
+          "Up": 80234
+        }
+      },
+      {
+        "Id": 80233,
+        "Name": "Dog House #80233",
+        "Connections": {
+          "East": 80222
+        }
+      },
+      {
+        "Id": 80234,
+        "Name": "Top of the Silo #80234",
+        "Connections": {
+          "North": 80232,
+          "Down": 80235
+        }
+      },
+      {
+        "Id": 80235,
+        "Name": "Fifth Level #80235",
+        "Connections": {
+          "Up": 80234,
+          "Down": 80236
+        }
+      },
+      {
+        "Id": 80236,
+        "Name": "Fourth Level #80236",
+        "Connections": {
+          "Up": 80235,
+          "Down": 80237
+        }
+      },
+      {
+        "Id": 80237,
+        "Name": "Third Level #80237",
+        "Connections": {
+          "Up": 80236,
+          "Down": 80238
+        }
+      },
+      {
+        "Id": 80238,
+        "Name": "Second Level #80238",
+        "Connections": {
+          "Up": 80237,
+          "Down": 80239
+        }
+      },
+      {
+        "Id": 80239,
+        "Name": "First Level #80239",
+        "Connections": {
+          "Up": 80238,
+          "Down": 80240
+        }
+      },
+      {
+        "Id": 80240,
+        "Name": "Bottom of the Silo #80240",
+        "Connections": {
+          "Up": 80239
+        }
+      },
+      {
+        "Id": 80241,
+        "Name": "Cluttered Stable Corner #80241",
+        "Connections": {
+          "North": 80243
+        }
+      },
+      {
+        "Id": 80242,
+        "Name": "Repair Area #80242",
+        "Connections": {
+          "North": 80244
+        }
+      },
+      {
+        "Id": 80243,
+        "Name": "Rear of the South Stable #80243",
+        "Connections": {
+          "North": 80245,
+          "East": 80244,
+          "South": 80241
+        }
+      },
+      {
+        "Id": 80244,
+        "Name": "Southern Stable Entrance #80244",
+        "Connections": {
+          "North": 80246,
+          "East": {
+            "RoomId": 80217,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 80242,
+          "West": 80243
+        }
+      },
+      {
+        "Id": 80245,
+        "Name": "Rear of the North Stable #80245",
+        "Connections": {
+          "North": 80247,
+          "East": 80246,
+          "South": 80243
+        }
+      },
+      {
+        "Id": 80246,
+        "Name": "Northern Stable Entrance #80246",
+        "Connections": {
+          "North": 80248,
+          "East": {
+            "RoomId": 80217,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 80244,
+          "West": 80245
+        }
+      },
+      {
+        "Id": 80247,
+        "Name": "Wood Pile #80247",
+        "Connections": {
+          "South": 80245
+        }
+      },
+      {
+        "Id": 80248,
+        "Name": "Dusty Stairway #80248",
+        "Connections": {
+          "South": 80246,
+          "Up": 80250
+        }
+      },
+      {
+        "Id": 80249,
+        "Name": "Upper Stable Exit #80249",
+        "Connections": {
+          "East": 80250,
+          "South": 80251
+        }
+      },
+      {
+        "Id": 80250,
+        "Name": "Upstairs Stable #80250",
+        "Connections": {
+          "South": 80252,
+          "West": 80249,
+          "Down": 80248
+        }
+      },
+      {
+        "Id": 80251,
+        "Name": "Lost in the Clutter #80251",
+        "Connections": {
+          "North": 80249,
+          "East": 80252,
+          "South": 80253
+        }
+      },
+      {
+        "Id": 80252,
+        "Name": "North Window #80252",
+        "Connections": {
+          "North": 80250,
+          "South": 80254,
+          "West": 80251,
+          "Down": 80217
+        }
+      },
+      {
+        "Id": 80253,
+        "Name": "Stable Clutter #80253",
+        "Connections": {
+          "North": 80251,
+          "East": 80254,
+          "South": {
+            "RoomId": 80255,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80254,
+        "Name": "South Window #80254",
+        "Connections": {
+          "North": 80252,
+          "South": 80256,
+          "West": 80253,
+          "Down": 80217
+        }
+      },
+      {
+        "Id": 80255,
+        "Name": "Secret Room #80255",
+        "Connections": {
+          "North": {
+            "RoomId": 80253,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80256,
+        "Name": "Stable Storage Room #80256",
+        "Connections": {
+          "North": 80254
+        }
+      },
+      {
+        "Id": 80257,
+        "Name": "Butchering Room #80257",
+        "Connections": {
+          "North": 80258,
+          "East": {
+            "RoomId": 80259,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 80225,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80258,
+        "Name": "Meat Locker #80258",
+        "Connections": {
+          "South": 80257,
+          "West": {
+            "RoomId": 80224,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80259,
+        "Name": "Staging Area #80259",
+        "Connections": {
+          "North": 80260,
+          "East": {
+            "RoomId": 80229,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 80257,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80260,
+        "Name": "Back Staging Area #80260",
+        "Connections": {
+          "South": 80259
+        }
+      },
+      {
+        "Id": 80261,
+        "Name": "Grain Barn #80261",
+        "Connections": {
+          "North": {
+            "RoomId": 80221,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 80262,
+          "West": {
+            "RoomId": 80263,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 80260,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80262,
+        "Name": "Back Grain Barn #80262",
+        "Connections": {
+          "North": 80261
+        }
+      },
+      {
+        "Id": 80263,
+        "Name": "Barn Rooftop #80263",
+        "Connections": {
+          "East": {
+            "RoomId": 80261,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 80264
+        }
+      },
+      {
+        "Id": 80264,
+        "Name": "Barn Rooftop #80264",
+        "Connections": {
+          "North": 80263
+        }
+      },
+      {
+        "Id": 80265,
+        "Name": "First Floor Stable Entrance #80265",
+        "Connections": {
+          "East": 80268,
+          "South": {
+            "RoomId": 80270,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 80221,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80266,
+        "Name": "Stable Stalls #80266",
+        "Connections": {
+          "East": 80267
+        }
+      },
+      {
+        "Id": 80267,
+        "Name": "Stable Stalls #80267",
+        "Connections": {
+          "East": 80271,
+          "West": 80266
+        }
+      },
+      {
+        "Id": 80268,
+        "Name": "First Floor Stable #80268",
+        "Connections": {
+          "East": 80272,
+          "South": {
+            "RoomId": 80269,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 80265
+        }
+      },
+      {
+        "Id": 80269,
+        "Name": "Hay Chute #80269",
+        "Connections": {
+          "North": {
+            "RoomId": 80268,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": {
+            "RoomId": 80288,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 80282
+        }
+      },
+      {
+        "Id": 80270,
+        "Name": "Stable\u0027s Tool Closet #80270",
+        "Connections": {
+          "North": {
+            "RoomId": 80265,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80271,
+        "Name": "Stable Stalls #80271",
+        "Connections": {
+          "East": 80274,
+          "West": 80267
+        }
+      },
+      {
+        "Id": 80272,
+        "Name": "First Floor Stable #80272",
+        "Connections": {
+          "East": {
+            "RoomId": 80275,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 80273,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 80268
+        }
+      },
+      {
+        "Id": 80273,
+        "Name": "Chicken Coop #80273",
+        "Connections": {
+          "North": {
+            "RoomId": 80272,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80274,
+        "Name": "Stable Stalls #80274",
+        "Connections": {
+          "South": 80275,
+          "West": 80271
+        }
+      },
+      {
+        "Id": 80275,
+        "Name": "Stable Stalls #80275",
+        "Connections": {
+          "North": 80274,
+          "East": {
+            "RoomId": 80277,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 80276,
+          "West": {
+            "RoomId": 80272,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80276,
+        "Name": "Stable Shoeing Stall #80276",
+        "Connections": {
+          "North": 80275
+        }
+      },
+      {
+        "Id": 80277,
+        "Name": "Outside the First Floor Stable #80277",
+        "Connections": {
+          "West": {
+            "RoomId": 80275,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 80278
+        }
+      },
+      {
+        "Id": 80278,
+        "Name": "Outside the Stable Basement #80278",
+        "Connections": {
+          "South": {
+            "RoomId": 80279,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 80280,
+          "Up": 80277
+        }
+      },
+      {
+        "Id": 80279,
+        "Name": "Between Barnyards #80279",
+        "Connections": {
+          "North": {
+            "RoomId": 80278,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 80279,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 80232,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80280,
+        "Name": "Stable Basement #80280",
+        "Connections": {
+          "East": 80278,
+          "West": 80281
+        }
+      },
+      {
+        "Id": 80281,
+        "Name": "Stable Basement #80281",
+        "Connections": {
+          "East": 80280,
+          "West": 80282
+        }
+      },
+      {
+        "Id": 80282,
+        "Name": "Stable Basement #80282",
+        "Connections": {
+          "East": 80281
+        },
+        "Contents": [
+          {
+            "Text": "Ishmar #80218",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80283,
+        "Name": "Second Floor Stable Room #80283",
+        "Connections": {
+          "East": {
+            "RoomId": 80286,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80284,
+        "Name": "Second Floor Stable Room #80284",
+        "Connections": {
+          "East": {
+            "RoomId": 80287,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80285,
+        "Name": "Second Floor Stable Room #80285",
+        "Connections": {
+          "East": {
+            "RoomId": 80288,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80286,
+        "Name": "Second Floor Stable Entrance #80286",
+        "Connections": {
+          "North": {
+            "RoomId": 80231,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 80289,
+          "South": 80287,
+          "West": {
+            "RoomId": 80283,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 80295
+        }
+      },
+      {
+        "Id": 80287,
+        "Name": "Second Floor Stable #80287",
+        "Connections": {
+          "North": 80286,
+          "East": 80290,
+          "South": 80288,
+          "West": {
+            "RoomId": 80284,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 80296
+        }
+      },
+      {
+        "Id": 80288,
+        "Name": "Second Floor Stable #80288",
+        "Connections": {
+          "North": 80287,
+          "East": 80291,
+          "West": {
+            "RoomId": 80285,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 80297,
+          "Down": {
+            "RoomId": 80269,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80289,
+        "Name": "Second Floor Stable #80289",
+        "Connections": {
+          "East": 80292,
+          "South": 80290,
+          "West": 80286,
+          "Up": 80298
+        }
+      },
+      {
+        "Id": 80290,
+        "Name": "Second Floor Stable #80290",
+        "Connections": {
+          "North": 80289,
+          "East": 80293,
+          "South": 80291,
+          "West": 80287,
+          "Up": 80299
+        }
+      },
+      {
+        "Id": 80291,
+        "Name": "Second Floor Stable #80291",
+        "Connections": {
+          "North": 80290,
+          "East": 80294,
+          "West": 80288,
+          "Up": 80300
+        }
+      },
+      {
+        "Id": 80292,
+        "Name": "Second Floor Stable #80292",
+        "Connections": {
+          "South": 80293,
+          "West": 80289
+        }
+      },
+      {
+        "Id": 80293,
+        "Name": "Second Floor Stable #80293",
+        "Connections": {
+          "North": 80292,
+          "South": 80294,
+          "West": 80290
+        }
+      },
+      {
+        "Id": 80294,
+        "Name": "Second Floor Stable #80294",
+        "Connections": {
+          "North": 80293,
+          "West": 80291
+        }
+      },
+      {
+        "Id": 80295,
+        "Name": "Stable Loft #80295",
+        "Connections": {
+          "South": 80296,
+          "Down": 80286
+        }
+      },
+      {
+        "Id": 80296,
+        "Name": "Stable Loft #80296",
+        "Connections": {
+          "North": 80295,
+          "South": 80297,
+          "Down": 80287
+        }
+      },
+      {
+        "Id": 80297,
+        "Name": "Stable Loft #80297",
+        "Connections": {
+          "North": 80296,
+          "Down": 80288
+        }
+      },
+      {
+        "Id": 80298,
+        "Name": "Stable Loft #80298",
+        "Connections": {
+          "South": 80299,
+          "Down": 80289
+        }
+      },
+      {
+        "Id": 80299,
+        "Name": "Stable Loft #80299",
+        "Connections": {
+          "North": 80298,
+          "South": 80300,
+          "Down": 80290
+        }
+      },
+      {
+        "Id": 80300,
+        "Name": "Stable Loft #80300",
+        "Connections": {
+          "North": 80299,
+          "Down": 80291
+        }
+      },
+      {
+        "Id": 80301,
+        "Name": "Dining Room #80301",
+        "Connections": {
+          "South": 80303
+        }
+      },
+      {
+        "Id": 80302,
+        "Name": "Western Kitchen #80302",
+        "Connections": {
+          "East": 80304
+        }
+      },
+      {
+        "Id": 80303,
+        "Name": "Dining Room Hallway #80303",
+        "Connections": {
+          "North": 80301,
+          "East": 80307,
+          "South": 80304
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80304,
+        "Name": "Eastern Kitchen #80304",
+        "Connections": {
+          "North": 80303,
+          "West": 80302
+        }
+      },
+      {
+        "Id": 80305,
+        "Name": "Base of the Stairs #80305",
+        "Connections": {
+          "East": 80306,
+          "Up": 80348
+        }
+      },
+      {
+        "Id": 80306,
+        "Name": "Entrance Hallway #80306",
+        "Connections": {
+          "North": {
+            "RoomId": 80213,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 80328,
+          "West": 80305
+        }
+      },
+      {
+        "Id": 80307,
+        "Name": "West Hallway #80307",
+        "Connections": {
+          "East": 80328,
+          "West": 80303,
+          "Down": {
+            "RoomId": 80332,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80308,
+        "Name": "Main Bathroom #80308",
+        "Connections": {
+          "North": {
+            "RoomId": 80328,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80309,
+        "Name": "Northwest Common Room #80309",
+        "Connections": {
+          "East": 80312,
+          "South": 80310
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80310,
+        "Name": "Center Common Room #80310",
+        "Connections": {
+          "North": 80309,
+          "East": 80313,
+          "South": 80311,
+          "West": 80328
+        }
+      },
+      {
+        "Id": 80311,
+        "Name": "Southwest Common Room #80311",
+        "Connections": {
+          "North": 80310,
+          "East": 80314
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          },
+          {
+            "Text": "Thomas of the Mask #80222",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80312,
+        "Name": "Northeast Common Room #80312",
+        "Connections": {
+          "South": 80313,
+          "West": 80309
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80313,
+        "Name": "The Fireplace #80313",
+        "Connections": {
+          "North": 80312,
+          "South": 80314,
+          "West": 80310
+        },
+        "Contents": [
+          {
+            "Text": "Elton Last #80219",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80314,
+        "Name": "Southeast Common Room #80314",
+        "Connections": {
+          "North": 80313,
+          "East": {
+            "RoomId": 80317,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 80311
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80315,
+        "Name": "Living Room Northwest #80315",
+        "Connections": {
+          "East": 80320,
+          "South": 80316
+        },
+        "Contents": [
+          {
+            "Text": "Valla Rain #80220",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80316,
+        "Name": "Living Room West #80316",
+        "Connections": {
+          "North": 80315,
+          "East": 80321,
+          "South": 80317
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80317,
+        "Name": "Living Room Entrance #80317",
+        "Connections": {
+          "North": 80316,
+          "East": 80322,
+          "West": {
+            "RoomId": 80314,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80318,
+        "Name": "Servants\u0027 Bathroom #80318",
+        "Connections": {
+          "East": {
+            "RoomId": 80323,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 80319,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80319,
+        "Name": "Shower Stall #80319",
+        "Connections": {
+          "North": {
+            "RoomId": 80318,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80320,
+        "Name": "Living Room North #80320",
+        "Connections": {
+          "North": {
+            "RoomId": 80215,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "East": 80324,
+          "South": 80321,
+          "West": 80315
+        }
+      },
+      {
+        "Id": 80321,
+        "Name": "Living Room #80321",
+        "Connections": {
+          "North": 80320,
+          "East": 80325,
+          "South": 80322,
+          "West": 80316
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80322,
+        "Name": "Living Room South #80322",
+        "Connections": {
+          "North": 80321,
+          "East": 80326,
+          "South": {
+            "RoomId": 80323,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 80317
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80323,
+        "Name": "Backroom #80323",
+        "Connections": {
+          "North": {
+            "RoomId": 80322,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 80327,
+          "West": {
+            "RoomId": 80318,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80324,
+        "Name": "Living Room Northeast #80324",
+        "Connections": {
+          "South": 80325,
+          "West": 80320
+        },
+        "Contents": [
+          {
+            "Text": "Lady Mist #80221",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80325,
+        "Name": "Living Room East #80325",
+        "Connections": {
+          "North": 80324,
+          "South": 80326,
+          "West": 80321
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80326,
+        "Name": "Living Room Southeast #80326",
+        "Connections": {
+          "North": 80325,
+          "West": 80322
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80327,
+        "Name": "Back Entrance #80327",
+        "Connections": {
+          "East": {
+            "RoomId": 80204,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "West": 80323
+        }
+      },
+      {
+        "Id": 80328,
+        "Name": "Main Hallway #80328",
+        "Connections": {
+          "North": 80306,
+          "East": 80310,
+          "South": {
+            "RoomId": 80308,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 80307
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80329,
+        "Name": "Basement #80329",
+        "Connections": {
+          "East": 80332,
+          "South": 80330
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80330,
+        "Name": "Basement #80330",
+        "Connections": {
+          "North": 80329,
+          "South": 80331
+        }
+      },
+      {
+        "Id": 80331,
+        "Name": "Basement #80331",
+        "Connections": {
+          "North": 80330,
+          "East": 80334
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80332,
+        "Name": "Basement Stairway #80332",
+        "Connections": {
+          "East": 80335,
+          "West": 80329,
+          "Up": {
+            "RoomId": 80307,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80333,
+        "Name": "Basement #80333",
+        "Connections": {
+          "South": 80334
+        }
+      },
+      {
+        "Id": 80334,
+        "Name": "Basement #80334",
+        "Connections": {
+          "North": 80333,
+          "East": 80337,
+          "West": 80331
+        }
+      },
+      {
+        "Id": 80335,
+        "Name": "Basement #80335",
+        "Connections": {
+          "East": 80338,
+          "South": 80336,
+          "West": 80332
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80336,
+        "Name": "Basement #80336",
+        "Connections": {
+          "North": 80335,
+          "East": 80339,
+          "South": 80337
+        }
+      },
+      {
+        "Id": 80337,
+        "Name": "Basement #80337",
+        "Connections": {
+          "North": 80336,
+          "East": 80340,
+          "West": 80334
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80338,
+        "Name": "Basement #80338",
+        "Connections": {
+          "South": 80339,
+          "West": 80335
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80339,
+        "Name": "Basement #80339",
+        "Connections": {
+          "North": 80338,
+          "South": 80340,
+          "West": 80336
+        }
+      },
+      {
+        "Id": 80340,
+        "Name": "Basement #80340",
+        "Connections": {
+          "North": 80339,
+          "East": {
+            "RoomId": 80343,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 80337
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80341,
+        "Name": "Back Basement #80341",
+        "Connections": {
+          "East": 80342,
+          "South": 80343
+        }
+      },
+      {
+        "Id": 80342,
+        "Name": "Back Basement #80342",
+        "Connections": {
+          "South": 80344,
+          "West": 80341
+        },
+        "Contents": [
+          {
+            "Text": "Damean Dementi #80201",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80343,
+        "Name": "Back Basement #80343",
+        "Connections": {
+          "North": 80341,
+          "East": 80344,
+          "West": {
+            "RoomId": 80340,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80344,
+        "Name": "Back Basement #80344",
+        "Connections": {
+          "North": 80342,
+          "West": 80343
+        }
+      },
+      {
+        "Id": 80345,
+        "Name": "Guest Bedroom #80345",
+        "Connections": {
+          "South": 80346
+        },
+        "Contents": [
+          {
+            "Text": "Keila McKeena #80205",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80346,
+        "Name": "Guest Bedroom #80346",
+        "Connections": {
+          "North": 80345,
+          "East": {
+            "RoomId": 80348,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The ghost of the chambermaid #80210",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80347,
+        "Name": "Spare Room #80347",
+        "Connections": {
+          "East": {
+            "RoomId": 80349,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Zakin Xavier #80206",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80348,
+        "Name": "Top of the Stairs #80348",
+        "Connections": {
+          "East": 80351,
+          "South": 80349,
+          "West": {
+            "RoomId": 80346,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 80305
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80349,
+        "Name": "Upstairs Hallway #80349",
+        "Connections": {
+          "North": 80348,
+          "East": 80352,
+          "West": {
+            "RoomId": 80347,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80350,
+        "Name": "Shadis\u0027 Sanctuary #80350",
+        "Connections": {
+          "South": {
+            "RoomId": 80351,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The master vampire #80204",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80351,
+        "Name": "Upstairs Hallway #80351",
+        "Connections": {
+          "North": {
+            "RoomId": 80350,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 80354,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 80352,
+          "West": 80348
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80352,
+        "Name": "Upstairs Hallway #80352",
+        "Connections": {
+          "North": 80351,
+          "West": 80349,
+          "Up": {
+            "RoomId": 80368,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80353,
+        "Name": "Master Bedroom #80353",
+        "Connections": {
+          "East": 80356,
+          "South": 80354
+        },
+        "Contents": [
+          {
+            "Text": "The ghost of the mother #80208",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80354,
+        "Name": "Master Bedroom #80354",
+        "Connections": {
+          "North": 80353,
+          "East": 80357,
+          "South": 80355,
+          "West": {
+            "RoomId": 80351,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80355,
+        "Name": "Master Bedroom #80355",
+        "Connections": {
+          "North": 80354,
+          "East": 80358
+        },
+        "Contents": [
+          {
+            "Text": "The ghost of the handmaid #80209",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80356,
+        "Name": "Master Bedroom #80356",
+        "Connections": {
+          "South": 80357,
+          "West": 80353
+        },
+        "Contents": [
+          {
+            "Text": "The ghost of the father #80207",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80357,
+        "Name": "Master Bedroom #80357",
+        "Connections": {
+          "North": 80356,
+          "East": {
+            "RoomId": 80360,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 80358,
+          "West": 80354
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80358,
+        "Name": "Master Bedroom #80358",
+        "Connections": {
+          "North": 80357,
+          "West": 80355
+        },
+        "Contents": [
+          {
+            "Text": "Deameter, the drow seductress #80200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80359,
+        "Name": "Master Closet #80359",
+        "Connections": {
+          "South": {
+            "RoomId": 80360,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a mutant moth #80212",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80360,
+        "Name": "Master Hallway #80360",
+        "Connections": {
+          "North": {
+            "RoomId": 80359,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 80363,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 80361,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 80357,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80361,
+        "Name": "Master Bathroom #80361",
+        "Connections": {
+          "North": {
+            "RoomId": 80360,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a serpent snake #80211",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80362,
+        "Name": "Back Storage Room #80362",
+        "Connections": {
+          "South": 80363
+        },
+        "Contents": [
+          {
+            "Text": "A baby Algersloth #80214",
+            "Color": "green"
+          },
+          {
+            "Text": "A baby Algersloth #80214",
+            "Color": "green"
+          },
+          {
+            "Text": "A baby Algersloth #80214",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80363,
+        "Name": "Back Storage Room #80363",
+        "Connections": {
+          "North": 80362,
+          "South": 80364,
+          "West": {
+            "RoomId": 80360,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80364,
+        "Name": "Back Storage Room #80364",
+        "Connections": {
+          "North": 80363
+        },
+        "Contents": [
+          {
+            "Text": "An Algersloth #80213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80365,
+        "Name": "Attic #80365",
+        "Connections": {
+          "East": 80367,
+          "South": 80366
+        }
+      },
+      {
+        "Id": 80366,
+        "Name": "Attic #80366",
+        "Connections": {
+          "North": 80365
+        },
+        "Contents": [
+          {
+            "Text": "Ishtar #80217",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 80367,
+        "Name": "Attic #80367",
+        "Connections": {
+          "East": 80369,
+          "South": 80368,
+          "West": 80365
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80368,
+        "Name": "Attic #80368",
+        "Connections": {
+          "North": 80367,
+          "East": 80370,
+          "Down": {
+            "RoomId": 80352,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 80369,
+        "Name": "Attic #80369",
+        "Connections": {
+          "East": 80371,
+          "South": 80370,
+          "West": 80367
+        },
+        "Contents": [
+          {
+            "Text": "A dark monk #80215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 80370,
+        "Name": "Attic #80370",
+        "Connections": {
+          "North": 80369,
+          "West": 80368
+        }
+      },
+      {
+        "Id": 80371,
+        "Name": "Attic #80371",
+        "Connections": {
+          "South": 80372,
+          "West": 80369
+        }
+      },
+      {
+        "Id": 80372,
+        "Name": "Attic #80372",
+        "Connections": {
+          "North": 80371
+        }
+      },
+      {
+        "Id": 80373,
+        "Name": "Old Stone Roadway #80373",
+        "Connections": {
+          "East": 80374,
+          "West": 80373
+        }
+      },
+      {
+        "Id": 80374,
+        "Name": "Old Stone Roadway #80374",
+        "Connections": {
+          "East": 80375,
+          "West": 80373
+        }
+      },
+      {
+        "Id": 80375,
+        "Name": "Old Stone Roadway #80375",
+        "Connections": {
+          "North": {
+            "RoomId": 80375,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "East": 80376,
+          "South": 80201,
+          "West": 80374
+        }
+      },
+      {
+        "Id": 80376,
+        "Name": "Old Stone Roadway #80376",
+        "Connections": {
+          "North": 80400,
+          "West": 80375,
+          "Up": 80377
+        }
+      },
+      {
+        "Id": 80377,
+        "Name": "Old Stone Roadway #80377",
+        "Connections": {
+          "East": 80378,
+          "Down": 80376
+        }
+      },
+      {
+        "Id": 80378,
+        "Name": "Old Stone Roadway #80378",
+        "Connections": {
+          "South": 80231,
+          "West": 80377,
+          "Down": 80379
+        }
+      },
+      {
+        "Id": 80379,
+        "Name": "Old Stone Roadway #80379",
+        "Connections": {
+          "Up": 80378,
+          "Down": 80380
+        }
+      },
+      {
+        "Id": 80380,
+        "Name": "Old Stone Roadway #80380",
+        "Connections": {
+          "East": 80381,
+          "Up": 80379
+        }
+      },
+      {
+        "Id": 80381,
+        "Name": "Old Stone Roadway #80381",
+        "Connections": {
+          "South": {
+            "RoomId": 80381,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "West": 80380,
+          "Down": 80382
+        }
+      },
+      {
+        "Id": 80382,
+        "Name": "Old Stone Roadway #80382",
+        "Connections": {
+          "East": 80383,
+          "Up": 80381
+        }
+      },
+      {
+        "Id": 80383,
+        "Name": "Old Stone Roadway #80383",
+        "Connections": {
+          "East": 80384,
+          "West": 80382
+        }
+      },
+      {
+        "Id": 80384,
+        "Name": "Old Stone Roadway #80384",
+        "Connections": {
+          "East": 80385,
+          "West": 80383
+        }
+      },
+      {
+        "Id": 80385,
+        "Name": "Old Stone Roadway #80385",
+        "Connections": {
+          "West": 80384
+        }
+      },
+      {
+        "Id": 80400,
+        "FrameColor": "blue",
+        "Name": "To Shadis Temple #80400",
+        "Color": "blue",
+        "Connections": {
+          "North": {
+            "RoomId": 80408,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": {
+            "RoomId": 3421,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      }
+    ]
+  }
+}

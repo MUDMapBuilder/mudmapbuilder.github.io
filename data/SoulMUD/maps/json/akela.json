@@ -1,13 +1,19 @@
 {
   "Area": {
-    "Name": "akela",
+    "Name": "Akela",
     "BackgroundColor": "white",
     "Rooms": [
       {
         "Id": 36000,
         "Name": "Arietan\u0027s Domicile #36000",
         "Connections": {
-          "South": 36003
+          "South": {
+            "RoomId": 36003,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -29,7 +35,13 @@
         "Id": 36003,
         "Name": "Creature Creation and Containment Lab #36003",
         "Connections": {
-          "North": 36000
+          "North": {
+            "RoomId": 36000,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -73,7 +85,13 @@
         "Id": 36012,
         "Name": "Berry Patch #36012",
         "Connections": {
-          "West": 36013
+          "West": {
+            "RoomId": 36013,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -86,7 +104,13 @@
         "Id": 36013,
         "Name": "Deer Trail #36013",
         "Connections": {
-          "East": 36012,
+          "East": {
+            "RoomId": 36012,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 36014
         },
         "Contents": [
@@ -148,15 +172,33 @@
         "Name": "At the Cellar #36018",
         "Connections": {
           "Up": 36017,
-          "Down": 36019
+          "Down": {
+            "RoomId": 36019,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 36019,
         "Name": "Hermit\u0027s Cellar #36019",
         "Connections": {
-          "North": 36020,
-          "Up": 36018
+          "North": {
+            "RoomId": 36020,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": {
+            "RoomId": 36018,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -164,7 +206,13 @@
         "Name": "Tunnel #36020",
         "Connections": {
           "North": 36021,
-          "South": 36019
+          "South": {
+            "RoomId": 36019,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -195,7 +243,13 @@
         "Id": 36024,
         "Name": "Hermit\u0027s Underground Shelter #36024",
         "Connections": {
-          "East": 36025,
+          "East": {
+            "RoomId": 36025,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 36023
         }
       },
@@ -204,7 +258,13 @@
         "Name": "Worker Burial Chamber #36025",
         "Connections": {
           "North": 36026,
-          "West": 36024
+          "West": {
+            "RoomId": 36024,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -439,7 +499,13 @@
         "Name": "Corridor #36050",
         "Connections": {
           "North": 36043,
-          "East": 36051,
+          "East": {
+            "RoomId": 36051,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 36052,
           "West": 36049
         }
@@ -448,7 +514,13 @@
         "Id": 36051,
         "Name": "Treasure Room #36051",
         "Connections": {
-          "West": 36050
+          "West": {
+            "RoomId": 36050,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -463,14 +535,26 @@
         "Connections": {
           "North": 36050,
           "South": 36059,
-          "West": 36053
+          "West": {
+            "RoomId": 36053,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 36053,
         "Name": "Protim\u0027s AnteChamber #36053",
         "Connections": {
-          "East": 36052,
+          "East": {
+            "RoomId": 36052,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 36054
         },
         "Contents": [
@@ -487,14 +571,26 @@
           "North": 36009,
           "East": 36053,
           "South": 36008,
-          "Up": 36055
+          "Up": {
+            "RoomId": 36055,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 36055,
         "Name": "Hidden Protim Sarcophagus #36055",
         "Connections": {
-          "Down": 36054
+          "Down": {
+            "RoomId": 36054,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -586,14 +682,26 @@
         "Name": "Sacrificial Area #36066",
         "Connections": {
           "West": 36065,
-          "Up": 36067
+          "Up": {
+            "RoomId": 36067,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 36067,
         "Name": "Sentry\u0027s Hut #36067",
         "Connections": {
-          "Down": 36066
+          "Down": {
+            "RoomId": 36066,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -607,7 +715,7 @@
       {
         "Id": 20024,
         "FrameColor": "blue",
-        "Name": "To tupelo #20024",
+        "Name": "To Tupelo #20024",
         "Color": "blue",
         "Connections": {
           "East": 20023
@@ -616,7 +724,7 @@
       {
         "Id": 75236,
         "FrameColor": "blue",
-        "Name": "To cazel #75236",
+        "Name": "To Thremiscyra #75236",
         "Color": "blue",
         "Connections": {
           "North": 75104
@@ -625,7 +733,7 @@
       {
         "Id": 8143,
         "FrameColor": "blue",
-        "Name": "To bh #8143",
+        "Name": "To BalHarbor #8143",
         "Color": "blue",
         "Connections": {
           "North": 8023

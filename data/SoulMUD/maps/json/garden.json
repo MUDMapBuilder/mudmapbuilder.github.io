@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "garden",
+    "Name": "Garden",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -51,7 +51,13 @@
         "Name": "Outside the Shack #5906",
         "Connections": {
           "South": 5905,
-          "West": 5953
+          "West": {
+            "RoomId": 5953,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -557,7 +563,7 @@
       {
         "Id": 8052,
         "FrameColor": "blue",
-        "Name": "To bh #8052",
+        "Name": "To BalHarbor #8052",
         "Color": "blue",
         "Connections": {
           "North": 5901,
@@ -567,7 +573,7 @@
       {
         "Id": 3441,
         "FrameColor": "blue",
-        "Name": "To park #3441",
+        "Name": "To Park #3441",
         "Color": "blue",
         "Connections": {
           "East": 3442,
@@ -578,7 +584,7 @@
       {
         "Id": 42800,
         "FrameColor": "blue",
-        "Name": "To orcfort #42800",
+        "Name": "To Orcs #42800",
         "Color": "blue",
         "Connections": {
           "East": 5952,

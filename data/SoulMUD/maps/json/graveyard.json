@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "graveyard",
+    "Name": "Graveyard",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -27,7 +27,13 @@
         "Name": "Graveyard Entrance #3413",
         "Connections": {
           "North": 3412,
-          "East": 3414,
+          "East": {
+            "RoomId": 3414,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 3410
         }
       },
@@ -38,7 +44,13 @@
           "North": 3423,
           "East": 3415,
           "South": 3419,
-          "West": 3413
+          "West": {
+            "RoomId": 3413,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -81,7 +93,13 @@
         "Name": "Graveyard #3417",
         "Connections": {
           "North": 3416,
-          "East": 3011,
+          "East": {
+            "RoomId": 3011,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 3422,
           "West": 3418
         },
@@ -135,9 +153,21 @@
         "Connections": {
           "North": 3418,
           "East": 3422,
-          "South": 20020,
+          "South": {
+            "RoomId": 20020,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 3420,
-          "Down": 80400
+          "Down": {
+            "RoomId": 80400,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -167,7 +197,13 @@
         "Id": 3424,
         "Name": "Graveyard #3424",
         "Connections": {
-          "North": 3427,
+          "North": {
+            "RoomId": 3427,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 3425,
           "South": 3415,
           "West": 3423
@@ -209,8 +245,20 @@
         "Id": 3427,
         "Name": "Monument #3427",
         "Connections": {
-          "South": 3424,
-          "Down": 9000
+          "South": {
+            "RoomId": 3424,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 9000,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -235,7 +283,7 @@
       {
         "Id": 3004,
         "FrameColor": "blue",
-        "Name": "To lyrra #3004",
+        "Name": "To Lyrran Temples #3004",
         "Color": "blue",
         "Connections": {
           "North": 3431,
@@ -247,7 +295,7 @@
       {
         "Id": 3016,
         "FrameColor": "blue",
-        "Name": "To lyrra #3016",
+        "Name": "To Lyrran Temples #3016",
         "Color": "blue",
         "Connections": {
           "North": 3003,
@@ -257,7 +305,7 @@
       {
         "Id": 3012,
         "FrameColor": "blue",
-        "Name": "To lyrra #3012",
+        "Name": "To Lyrran Temples #3012",
         "Color": "blue",
         "Connections": {
           "East": 3013,
@@ -267,7 +315,7 @@
       {
         "Id": 20100,
         "FrameColor": "blue",
-        "Name": "To gnomes #20100",
+        "Name": "To Gnomes #20100",
         "Color": "blue",
         "Connections": {
           "East": 3412,
@@ -277,7 +325,7 @@
       {
         "Id": 3410,
         "FrameColor": "blue",
-        "Name": "To lyrra #3410",
+        "Name": "To Lyrran Temples #3410",
         "Color": "blue",
         "Connections": {
           "North": 3413,
@@ -287,38 +335,68 @@
       {
         "Id": 3011,
         "FrameColor": "blue",
-        "Name": "To lyrra #3011",
+        "Name": "To Lyrran Temples #3011",
         "Color": "blue",
         "Connections": {
-          "North": 3010,
+          "North": {
+            "RoomId": 3010,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 3015,
-          "West": 3417
+          "West": {
+            "RoomId": 3417,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 20020,
         "FrameColor": "blue",
-        "Name": "To tupelo #20020",
+        "Name": "To Tupelo #20020",
         "Color": "blue",
         "Connections": {
-          "North": 3421,
+          "North": {
+            "RoomId": 3421,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 20048
         }
       },
       {
         "Id": 80400,
         "FrameColor": "blue",
-        "Name": "To shadtemple #80400",
+        "Name": "To Shadis Temple #80400",
         "Color": "blue",
         "Connections": {
-          "North": 80408,
-          "Up": 3421
+          "North": {
+            "RoomId": 80408,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": {
+            "RoomId": 3421,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 9000,
         "FrameColor": "blue",
-        "Name": "To catacombs #9000",
+        "Name": "To Catacombs #9000",
         "Color": "blue",
         "Connections": {
           "North": 9001,

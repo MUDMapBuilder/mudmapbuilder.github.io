@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "canaan",
+    "Name": "Canaan",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -13,7 +13,13 @@
         "Name": "A Dark and Sandy Cave #15352",
         "Connections": {
           "North": 15353,
-          "South": 43000
+          "South": {
+            "RoomId": 43000,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -737,7 +743,18 @@
         "Id": 15412,
         "Name": "The Crystal Cavern #15412",
         "Connections": {
-          "East": 15413,
+          "East": {
+            "RoomId": 15413,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key of crystalline halite #15408",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 15411
         },
         "Contents": [
@@ -751,8 +768,20 @@
         "Id": 15413,
         "Name": "The Sandgorgon\u0027s Lair #15413",
         "Connections": {
-          "West": 15412,
-          "Down": 15414
+          "West": {
+            "RoomId": 15412,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 15414,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -765,7 +794,13 @@
         "Id": 15414,
         "Name": "Below the Grate #15414",
         "Connections": {
-          "Up": 15413
+          "Up": {
+            "RoomId": 15413,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -932,7 +967,13 @@
         "Id": 15426,
         "Name": "The Wide Desert Scrub #15426",
         "Connections": {
-          "North": 15429,
+          "North": {
+            "RoomId": 15429,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 15427,
           "South": 15422,
           "West": 15425
@@ -970,7 +1011,13 @@
         "Id": 15429,
         "Name": "The Sandy Ruins of an Ancient Temple #15429",
         "Connections": {
-          "South": 15426
+          "South": {
+            "RoomId": 15426,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1641,17 +1688,23 @@
       {
         "Id": 43000,
         "FrameColor": "blue",
-        "Name": "To lostcross #43000",
+        "Name": "To Lost Cross #43000",
         "Color": "blue",
         "Connections": {
-          "North": 15352,
+          "North": {
+            "RoomId": 15352,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 43001
         }
       },
       {
         "Id": 15657,
         "FrameColor": "blue",
-        "Name": "To assur #15657",
+        "Name": "To Assur #15657",
         "Color": "blue",
         "Connections": {
           "East": 15390,
@@ -1661,7 +1714,7 @@
       {
         "Id": 15009,
         "FrameColor": "blue",
-        "Name": "To pyramid #15009",
+        "Name": "To Pharaoh #15009",
         "Color": "blue",
         "Connections": {
           "North": 15022,
@@ -1671,7 +1724,7 @@
       {
         "Id": 15018,
         "FrameColor": "blue",
-        "Name": "To pyramid #15018",
+        "Name": "To Pharaoh #15018",
         "Color": "blue",
         "Connections": {
           "East": 15408,
@@ -1681,7 +1734,7 @@
       {
         "Id": 15250,
         "FrameColor": "blue",
-        "Name": "To anubistemple #15250",
+        "Name": "To Temple of Anubis #15250",
         "Color": "blue",
         "Connections": {
           "North": 15251,

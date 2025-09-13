@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "asylum",
+    "Name": "Asylum",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -40,7 +40,13 @@
         "Id": 80543,
         "Name": "Asylum Entrance #80543",
         "Connections": {
-          "East": 80553,
+          "East": {
+            "RoomId": 80553,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 80542
         },
         "Contents": [
@@ -54,8 +60,20 @@
         "Id": 80544,
         "Name": "Library Backroom #80544",
         "Connections": {
-          "East": 80551,
-          "South": 80545
+          "East": {
+            "RoomId": 80551,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 80545,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -68,8 +86,20 @@
         "Id": 80545,
         "Name": "Library #80545",
         "Connections": {
-          "North": 80544,
-          "East": 80552
+          "North": {
+            "RoomId": 80544,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 80552,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -104,21 +134,39 @@
         "Name": "Waiting Room #80547",
         "Connections": {
           "North": 80546,
-          "East": 80554
+          "East": {
+            "RoomId": 80554,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 80548,
         "Name": "Lightly Padded Room #80548",
         "Connections": {
-          "East": 80555
+          "East": {
+            "RoomId": 80555,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 80549,
         "Name": "An Armored Cell #80549",
         "Connections": {
-          "East": 80556
+          "East": {
+            "RoomId": 80556,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -135,7 +183,13 @@
         "Connections": {
           "North": 80550,
           "South": 80552,
-          "West": 80544
+          "West": {
+            "RoomId": 80544,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -150,7 +204,13 @@
         "Connections": {
           "North": 80551,
           "South": 80553,
-          "West": 80545
+          "West": {
+            "RoomId": 80545,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -166,7 +226,13 @@
           "North": 80552,
           "East": 80585,
           "South": 80554,
-          "West": 80543,
+          "West": {
+            "RoomId": 80543,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Up": 80604
         },
         "Contents": [
@@ -186,7 +252,13 @@
         "Connections": {
           "North": 80553,
           "South": 80555,
-          "West": 80547
+          "West": {
+            "RoomId": 80547,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -201,7 +273,13 @@
         "Connections": {
           "North": 80554,
           "South": 80556,
-          "West": 80548
+          "West": {
+            "RoomId": 80548,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -220,7 +298,13 @@
         "Connections": {
           "North": 80555,
           "East": 80560,
-          "West": 80549
+          "West": {
+            "RoomId": 80549,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -282,7 +366,13 @@
         "Name": "Hallway #80561",
         "Connections": {
           "East": 80562,
-          "South": 80563,
+          "South": {
+            "RoomId": 80563,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 80560
         },
         "Contents": [
@@ -310,7 +400,13 @@
         "Id": 80563,
         "Name": "Cove Outside the Window #80563",
         "Connections": {
-          "North": 80561,
+          "North": {
+            "RoomId": 80561,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 80564
         }
       },
@@ -332,7 +428,13 @@
         "Name": "Dining Room South #80565",
         "Connections": {
           "North": 80566,
-          "South": 80585
+          "South": {
+            "RoomId": 80585,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -345,7 +447,13 @@
         "Id": 80566,
         "Name": "Dining Room North #80566",
         "Connections": {
-          "East": 80567,
+          "East": {
+            "RoomId": 80567,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 80565
         }
       },
@@ -353,9 +461,27 @@
         "Id": 80567,
         "Name": "Kitchen #80567",
         "Connections": {
-          "East": 80569,
-          "South": 80568,
-          "West": 80566
+          "East": {
+            "RoomId": 80569,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 80568,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 80566,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -368,8 +494,20 @@
         "Id": 80568,
         "Name": "Pantry #80568",
         "Connections": {
-          "North": 80567,
-          "Down": 80586
+          "North": {
+            "RoomId": 80567,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 80586,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -396,7 +534,13 @@
         "Connections": {
           "North": 80559,
           "South": 80570,
-          "West": 80567
+          "West": {
+            "RoomId": 80567,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -430,7 +574,13 @@
           "North": 80570,
           "East": 80580,
           "South": 80572,
-          "West": 80585
+          "West": {
+            "RoomId": 80585,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -463,7 +613,13 @@
         "Name": "Hallway #80573",
         "Connections": {
           "North": 80572,
-          "East": 80579,
+          "East": {
+            "RoomId": 80579,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 80562
         }
       },
@@ -501,7 +657,13 @@
         "Id": 80577,
         "Name": "Top of the Padded Stairway #80577",
         "Connections": {
-          "Up": 80578,
+          "Up": {
+            "RoomId": 80578,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Down": 80576
         }
       },
@@ -509,7 +671,13 @@
         "Id": 80578,
         "Name": "Padded Cell with Chains #80578",
         "Connections": {
-          "Down": 80577
+          "Down": {
+            "RoomId": 80577,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -526,14 +694,26 @@
         "Id": 80579,
         "Name": "A Lone Cell #80579",
         "Connections": {
-          "West": 80573
+          "West": {
+            "RoomId": 80573,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 80580,
         "Name": "Side Hallway #80580",
         "Connections": {
-          "North": 80581,
+          "North": {
+            "RoomId": 80581,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 80582,
           "West": 80571
         }
@@ -542,7 +722,13 @@
         "Id": 80581,
         "Name": "Above the Garden #80581",
         "Connections": {
-          "South": 80580,
+          "South": {
+            "RoomId": 80580,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Down": 80592
         }
       },
@@ -550,8 +736,20 @@
         "Id": 80582,
         "Name": "Servant\u0027s Quarters Entrance #80582",
         "Connections": {
-          "North": 80583,
-          "East": 80584,
+          "North": {
+            "RoomId": 80583,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 80584,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 80580
         }
       },
@@ -559,22 +757,46 @@
         "Id": 80583,
         "Name": "Servant\u0027s Room #80583",
         "Connections": {
-          "South": 80582
+          "South": {
+            "RoomId": 80582,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 80584,
         "Name": "Servant\u0027s Room #80584",
         "Connections": {
-          "West": 80582
+          "West": {
+            "RoomId": 80582,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 80585,
         "Name": "Center Hallway #80585",
         "Connections": {
-          "North": 80565,
-          "East": 80571,
+          "North": {
+            "RoomId": 80565,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 80571,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 80553
         }
       },
@@ -582,8 +804,20 @@
         "Id": 80586,
         "Name": "Wine Cellar #80586",
         "Connections": {
-          "South": 80587,
-          "Up": 80568
+          "South": {
+            "RoomId": 80587,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": {
+            "RoomId": 80568,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -604,8 +838,20 @@
         "Id": 80587,
         "Name": "Root Cellar #80587",
         "Connections": {
-          "North": 80586,
-          "West": 80588
+          "North": {
+            "RoomId": 80586,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 80588,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -618,7 +864,13 @@
         "Id": 80588,
         "Name": "Dirt Hole #80588",
         "Connections": {
-          "East": 80587,
+          "East": {
+            "RoomId": 80587,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 80589
         },
         "Contents": [
@@ -832,7 +1084,13 @@
         "Id": 80602,
         "Name": "Wooden Cell #80602",
         "Connections": {
-          "East": 80603
+          "East": {
+            "RoomId": 80603,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -846,7 +1104,13 @@
         "Name": "Hallway\u0027s End #80603",
         "Connections": {
           "East": 80605,
-          "West": 80602
+          "West": {
+            "RoomId": 80602,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -876,7 +1140,13 @@
         "Id": 80606,
         "Name": "Round Padded Cell #80606",
         "Connections": {
-          "South": 80607
+          "South": {
+            "RoomId": 80607,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -889,9 +1159,21 @@
         "Id": 80607,
         "Name": "Upstairs Hallway #80607",
         "Connections": {
-          "North": 80606,
+          "North": {
+            "RoomId": 80606,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 80610,
-          "South": 80608,
+          "South": {
+            "RoomId": 80608,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 80605
         }
       },
@@ -899,7 +1181,13 @@
         "Id": 80608,
         "Name": "Round Padded Cell #80608",
         "Connections": {
-          "North": 80607
+          "North": {
+            "RoomId": 80607,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -912,7 +1200,13 @@
         "Id": 80609,
         "Name": "Round Padded Cell #80609",
         "Connections": {
-          "South": 80610
+          "South": {
+            "RoomId": 80610,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -925,9 +1219,21 @@
         "Id": 80610,
         "Name": "Upstairs Hallway #80610",
         "Connections": {
-          "North": 80609,
+          "North": {
+            "RoomId": 80609,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 80612,
-          "South": 80611,
+          "South": {
+            "RoomId": 80611,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 80607
         },
         "Contents": [
@@ -941,7 +1247,13 @@
         "Id": 80611,
         "Name": "Round Padded Cell #80611",
         "Connections": {
-          "North": 80610
+          "North": {
+            "RoomId": 80610,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -967,7 +1279,13 @@
         "Name": "Upstairs Hallway #80613",
         "Connections": {
           "North": 80612,
-          "East": 80614,
+          "East": {
+            "RoomId": 80614,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 80615
         }
       },
@@ -975,7 +1293,13 @@
         "Id": 80614,
         "Name": "Elegant Cell #80614",
         "Connections": {
-          "West": 80613
+          "West": {
+            "RoomId": 80613,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1005,15 +1329,33 @@
         "Name": "Dead End #80617",
         "Connections": {
           "East": 80616,
-          "South": 80618,
-          "West": 80619
+          "South": {
+            "RoomId": 80618,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 80619,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 80618,
         "Name": "Reinforced Metal Cell #80618",
         "Connections": {
-          "North": 80617
+          "North": {
+            "RoomId": 80617,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1026,7 +1368,13 @@
         "Id": 80619,
         "Name": "Metal Cell #80619",
         "Connections": {
-          "East": 80617
+          "East": {
+            "RoomId": 80617,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1038,7 +1386,7 @@
       {
         "Id": 57300,
         "FrameColor": "blue",
-        "Name": "To goldpav #57300",
+        "Name": "To Golden Pavilion #57300",
         "Color": "blue",
         "Connections": {
           "North": 57301,
@@ -1048,7 +1396,7 @@
       {
         "Id": 57309,
         "FrameColor": "blue",
-        "Name": "To goldpav #57309",
+        "Name": "To Golden Pavilion #57309",
         "Color": "blue",
         "Connections": {
           "East": 80541,

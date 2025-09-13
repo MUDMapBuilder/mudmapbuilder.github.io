@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "abyss",
+    "Name": "Abyss",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -443,14 +443,26 @@
         "Connections": {
           "North": 30434,
           "South": 30442,
-          "West": 30441
+          "West": {
+            "RoomId": 30441,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 30441,
         "Name": "A Chamber of Black Crystal #30441",
         "Connections": {
-          "East": 30440
+          "East": {
+            "RoomId": 30440,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {

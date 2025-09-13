@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "niobe",
+    "Name": "Niobe",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -206,7 +206,13 @@
         "Id": 19100,
         "Name": "Hillside Above The Sea #19100",
         "Connections": {
-          "North": 19103,
+          "North": {
+            "RoomId": 19103,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 19099,
           "West": 19101
         },
@@ -236,14 +242,26 @@
         "Name": "The Niobian Lighthouse #19102",
         "Connections": {
           "North": 19101,
-          "South": 19115
+          "South": {
+            "RoomId": 19115,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 19103,
         "Name": "Pathway Around The City #19103",
         "Connections": {
-          "South": 19100,
+          "South": {
+            "RoomId": 19100,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 19104
         },
         "Contents": [
@@ -380,7 +398,13 @@
         "Id": 19115,
         "Name": "Inside The Lighthouse #19115",
         "Connections": {
-          "North": 19102,
+          "North": {
+            "RoomId": 19102,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19116
         }
       },
@@ -404,7 +428,13 @@
         "Id": 19118,
         "Name": "Second Floor Corridor #19118",
         "Connections": {
-          "South": 19119,
+          "South": {
+            "RoomId": 19119,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 19117,
           "Up": 19120
         }
@@ -413,7 +443,13 @@
         "Id": 19119,
         "Name": "The Navigator\u0027s Quarters #19119",
         "Connections": {
-          "North": 19118
+          "North": {
+            "RoomId": 19118,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -434,7 +470,13 @@
         "Id": 19121,
         "Name": "Third Floor Staircase #19121",
         "Connections": {
-          "East": 19122,
+          "East": {
+            "RoomId": 19122,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19120,
           "Up": 19123
         }
@@ -443,7 +485,13 @@
         "Id": 19122,
         "Name": "The Captain\u0027s Quarters #19122",
         "Connections": {
-          "West": 19121
+          "West": {
+            "RoomId": 19121,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -456,7 +504,13 @@
         "Id": 19123,
         "Name": "A Painted Hallway #19123",
         "Connections": {
-          "North": 19124,
+          "North": {
+            "RoomId": 19124,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 19125,
           "Down": 19121
         }
@@ -465,7 +519,13 @@
         "Id": 19124,
         "Name": "The Admiral\u0027s Suite #19124",
         "Connections": {
-          "South": 19123
+          "South": {
+            "RoomId": 19123,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -511,14 +571,26 @@
         "Name": "Below The Crow\u0027s Nest #19129",
         "Connections": {
           "West": 19128,
-          "Up": 19130
+          "Up": {
+            "RoomId": 19130,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 19130,
         "Name": "The Top Of The Lighthouse #19130",
         "Connections": {
-          "Down": 19129
+          "Down": {
+            "RoomId": 19129,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1136,14 +1208,26 @@
         "Connections": {
           "North": 19190,
           "East": 19186,
-          "West": 19188
+          "West": {
+            "RoomId": 19188,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 19188,
         "Name": "The Niobian Residence #19188",
         "Connections": {
-          "East": 19187
+          "East": {
+            "RoomId": 19187,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1156,7 +1240,13 @@
         "Id": 19189,
         "Name": "The Niobian Residence #19189",
         "Connections": {
-          "East": 19190
+          "East": {
+            "RoomId": 19190,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1164,9 +1254,21 @@
         "Name": "South Halibut Avenue #19190",
         "Connections": {
           "North": 19191,
-          "East": 19206,
+          "East": {
+            "RoomId": 19206,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19187,
-          "West": 19189
+          "West": {
+            "RoomId": 19189,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1174,9 +1276,21 @@
         "Name": "South Halibut Avenue #19191",
         "Connections": {
           "North": 19192,
-          "East": 19207,
+          "East": {
+            "RoomId": 19207,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19190,
-          "West": 19202
+          "West": {
+            "RoomId": 19202,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1186,7 +1300,13 @@
           "North": 19193,
           "East": 19208,
           "South": 19191,
-          "West": 19203
+          "West": {
+            "RoomId": 19203,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1194,9 +1314,21 @@
         "Name": "North Halibut Avenue #19193",
         "Connections": {
           "North": 19194,
-          "East": 19209,
+          "East": {
+            "RoomId": 19209,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19192,
-          "West": 19204
+          "West": {
+            "RoomId": 19204,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1204,9 +1336,21 @@
         "Name": "North Halibut Avenue #19194",
         "Connections": {
           "North": 19195,
-          "East": 19210,
+          "East": {
+            "RoomId": 19210,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19193,
-          "West": 19205
+          "West": {
+            "RoomId": 19205,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1277,7 +1421,13 @@
         "Id": 19202,
         "Name": "The Niobian Residence #19202",
         "Connections": {
-          "East": 19191
+          "East": {
+            "RoomId": 19191,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1290,7 +1440,13 @@
         "Id": 19203,
         "Name": "The Niobian Residence #19203",
         "Connections": {
-          "East": 19192
+          "East": {
+            "RoomId": 19192,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1303,7 +1459,13 @@
         "Id": 19204,
         "Name": "The Niobian Residence #19204",
         "Connections": {
-          "East": 19193
+          "East": {
+            "RoomId": 19193,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1316,7 +1478,13 @@
         "Id": 19205,
         "Name": "The Niobian Residence #19205",
         "Connections": {
-          "East": 19194
+          "East": {
+            "RoomId": 19194,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1333,7 +1501,13 @@
         "Id": 19206,
         "Name": "The Niobian Residence #19206",
         "Connections": {
-          "West": 19190
+          "West": {
+            "RoomId": 19190,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1346,7 +1520,13 @@
         "Id": 19207,
         "Name": "The Niobian Residence #19207",
         "Connections": {
-          "West": 19191
+          "West": {
+            "RoomId": 19191,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1373,7 +1553,13 @@
         "Id": 19209,
         "Name": "The Niobian Residence #19209",
         "Connections": {
-          "West": 19193
+          "West": {
+            "RoomId": 19193,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1386,7 +1572,13 @@
         "Id": 19210,
         "Name": "The Niobian Residence #19210",
         "Connections": {
-          "West": 19194
+          "West": {
+            "RoomId": 19194,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1448,7 +1640,13 @@
         "Name": "South St. Elmo\u0027s Avenue #19215",
         "Connections": {
           "North": 19216,
-          "East": 19227,
+          "East": {
+            "RoomId": 19227,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19183
         },
         "Contents": [
@@ -1463,7 +1661,13 @@
         "Name": "South St. Elmo\u0027s Avenue #19216",
         "Connections": {
           "North": 19213,
-          "East": 19228,
+          "East": {
+            "RoomId": 19228,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19215
         }
       },
@@ -1472,7 +1676,13 @@
         "Name": "North St. Elmo\u0027s Avenue #19217",
         "Connections": {
           "North": 19218,
-          "East": 19229,
+          "East": {
+            "RoomId": 19229,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19213
         }
       },
@@ -1481,7 +1691,13 @@
         "Name": "North St. Elmo\u0027s Avenue #19218",
         "Connections": {
           "North": 19199,
-          "East": 19230,
+          "East": {
+            "RoomId": 19230,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19217
         }
       },
@@ -1490,7 +1706,13 @@
         "Name": "South Baleen Lane #19219",
         "Connections": {
           "North": 19220,
-          "East": 19226,
+          "East": {
+            "RoomId": 19226,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19185
         }
       },
@@ -1499,7 +1721,13 @@
         "Name": "South Baleen Lane #19220",
         "Connections": {
           "North": 19211,
-          "East": 19225,
+          "East": {
+            "RoomId": 19225,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19219
         }
       },
@@ -1508,7 +1736,13 @@
         "Name": "North Baleen Lane #19221",
         "Connections": {
           "North": 19222,
-          "East": 19224,
+          "East": {
+            "RoomId": 19224,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19211
         }
       },
@@ -1517,7 +1751,13 @@
         "Name": "North Baleen Lane #19222",
         "Connections": {
           "North": 19197,
-          "East": 19223,
+          "East": {
+            "RoomId": 19223,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19221
         },
         "Contents": [
@@ -1531,7 +1771,13 @@
         "Id": 19223,
         "Name": "The Niobian Residence #19223",
         "Connections": {
-          "West": 19222
+          "West": {
+            "RoomId": 19222,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1544,7 +1790,13 @@
         "Id": 19224,
         "Name": "The Niobian Residence #19224",
         "Connections": {
-          "West": 19221
+          "West": {
+            "RoomId": 19221,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1557,7 +1809,13 @@
         "Id": 19225,
         "Name": "The Niobian Residence #19225",
         "Connections": {
-          "West": 19220
+          "West": {
+            "RoomId": 19220,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1570,7 +1828,13 @@
         "Id": 19226,
         "Name": "The Niobian Residence #19226",
         "Connections": {
-          "West": 19219
+          "West": {
+            "RoomId": 19219,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1583,7 +1847,13 @@
         "Id": 19227,
         "Name": "The Niobian Residence #19227",
         "Connections": {
-          "West": 19215
+          "West": {
+            "RoomId": 19215,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1596,7 +1866,13 @@
         "Id": 19228,
         "Name": "The Niobian Residence #19228",
         "Connections": {
-          "West": 19216
+          "West": {
+            "RoomId": 19216,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1609,7 +1885,13 @@
         "Id": 19229,
         "Name": "The Niobian Residence #19229",
         "Connections": {
-          "West": 19217
+          "West": {
+            "RoomId": 19217,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1622,7 +1904,13 @@
         "Id": 19230,
         "Name": "The Niobian Residence #19230",
         "Connections": {
-          "West": 19218
+          "West": {
+            "RoomId": 19218,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1659,7 +1947,13 @@
         "Id": 19234,
         "Name": "Eastern End of Collegeview #19234",
         "Connections": {
-          "East": 19235,
+          "East": {
+            "RoomId": 19235,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 19233
         }
       },
@@ -1668,7 +1962,13 @@
         "Name": "The Royal Grounds #19235",
         "Connections": {
           "East": 19236,
-          "West": 19234
+          "West": {
+            "RoomId": 19234,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1716,7 +2016,18 @@
         "Id": 19241,
         "Name": "Outside the King\u0027s Palace #19241",
         "Connections": {
-          "North": 19284,
+          "North": {
+            "RoomId": 19284,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a niobian key ring #19115",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 19240
         },
         "Contents": [
@@ -1742,7 +2053,13 @@
         "Id": 19243,
         "Name": "The Niobian Senate #19243",
         "Connections": {
-          "North": 19244,
+          "North": {
+            "RoomId": 19244,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19242
         }
       },
@@ -1751,7 +2068,13 @@
         "Name": "The Hall of Senators #19244",
         "Connections": {
           "East": 19245,
-          "South": 19243,
+          "South": {
+            "RoomId": 19243,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 19258
         }
       },
@@ -1769,7 +2092,13 @@
         "Connections": {
           "North": 19247,
           "South": 19245,
-          "West": 19260
+          "West": {
+            "RoomId": 19260,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1777,7 +2106,13 @@
         "Name": "The Hall of Senators #19247",
         "Connections": {
           "North": 19249,
-          "East": 19248,
+          "East": {
+            "RoomId": 19248,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19246
         }
       },
@@ -1785,7 +2120,13 @@
         "Id": 19248,
         "Name": "The Niobian Tax Collector\u0027s Office #19248",
         "Connections": {
-          "West": 19247
+          "West": {
+            "RoomId": 19247,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1807,7 +2148,13 @@
         "Name": "The Hall of Senators #19250",
         "Connections": {
           "East": 19249,
-          "South": 19261,
+          "South": {
+            "RoomId": 19261,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 19251
         }
       },
@@ -1815,7 +2162,13 @@
         "Id": 19251,
         "Name": "The Hall of Senators #19251",
         "Connections": {
-          "North": 19252,
+          "North": {
+            "RoomId": 19252,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 19250,
           "West": 19253
         }
@@ -1824,7 +2177,13 @@
         "Id": 19252,
         "Name": "Justice Of The Peace #19252",
         "Connections": {
-          "South": 19251
+          "South": {
+            "RoomId": 19251,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1847,7 +2206,13 @@
         "Name": "The Hall of Senators #19254",
         "Connections": {
           "North": 19253,
-          "East": 19262,
+          "East": {
+            "RoomId": 19262,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19255
         }
       },
@@ -1857,14 +2222,26 @@
         "Connections": {
           "North": 19254,
           "South": 19257,
-          "West": 19256
+          "West": {
+            "RoomId": 19256,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 19256,
         "Name": "The Receptionist #19256",
         "Connections": {
-          "East": 19255
+          "East": {
+            "RoomId": 19255,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1885,7 +2262,13 @@
         "Id": 19258,
         "Name": "The Hall of Senators #19258",
         "Connections": {
-          "North": 19259,
+          "North": {
+            "RoomId": 19259,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 19244,
           "West": 19257
         }
@@ -1894,7 +2277,13 @@
         "Id": 19259,
         "Name": "The Senatorial Chambers #19259",
         "Connections": {
-          "South": 19258
+          "South": {
+            "RoomId": 19258,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1920,7 +2309,13 @@
         "Id": 19261,
         "Name": "The Senatorial Chambers #19261",
         "Connections": {
-          "North": 19250
+          "North": {
+            "RoomId": 19250,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1933,7 +2328,13 @@
         "Id": 19262,
         "Name": "The Senatorial Chambers #19262",
         "Connections": {
-          "West": 19254
+          "West": {
+            "RoomId": 19254,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1956,7 +2357,13 @@
         "Name": "Outside The Niobian Senate #19264",
         "Connections": {
           "East": 19265,
-          "South": 19280,
+          "South": {
+            "RoomId": 19280,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 19263
         }
       },
@@ -1965,7 +2372,13 @@
         "Name": "Outside The Niobian Senate #19265",
         "Connections": {
           "East": 19266,
-          "South": 19281,
+          "South": {
+            "RoomId": 19281,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 19264
         }
       },
@@ -1982,7 +2395,13 @@
         "Name": "Outside The Niobian Senate #19267",
         "Connections": {
           "North": 19266,
-          "East": 19268,
+          "East": {
+            "RoomId": 19268,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19269
         }
       },
@@ -1990,7 +2409,13 @@
         "Id": 19268,
         "Name": "Office of The Guard Captain #19268",
         "Connections": {
-          "West": 19267
+          "West": {
+            "RoomId": 19267,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2004,7 +2429,13 @@
         "Name": "Outside The Niobian Senate #19269",
         "Connections": {
           "North": 19267,
-          "East": 19270,
+          "East": {
+            "RoomId": 19270,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19271
         }
       },
@@ -2012,7 +2443,13 @@
         "Id": 19270,
         "Name": "The Senatorial Majority Leader #19270",
         "Connections": {
-          "West": 19269
+          "West": {
+            "RoomId": 19269,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2041,7 +2478,13 @@
         "Id": 19273,
         "Name": "Outside The Niobian Senate #19273",
         "Connections": {
-          "North": 19283,
+          "North": {
+            "RoomId": 19283,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 19271,
           "West": 19274
         }
@@ -2050,7 +2493,13 @@
         "Id": 19274,
         "Name": "Outside The Niobian Senate #19274",
         "Connections": {
-          "North": 19282,
+          "North": {
+            "RoomId": 19282,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 19273,
           "West": 19275
         }
@@ -2083,14 +2532,26 @@
         "Connections": {
           "North": 19279,
           "South": 19275,
-          "West": 19278
+          "West": {
+            "RoomId": 19278,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 19278,
         "Name": "The Office of The Chairman #19278",
         "Connections": {
-          "East": 19277
+          "East": {
+            "RoomId": 19277,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2111,7 +2572,13 @@
         "Id": 19280,
         "Name": "The Niobian Senate #19280",
         "Connections": {
-          "North": 19264,
+          "North": {
+            "RoomId": 19264,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 19281,
           "South": 19282
         }
@@ -2120,7 +2587,13 @@
         "Id": 19281,
         "Name": "The Niobian Senate #19281",
         "Connections": {
-          "North": 19265,
+          "North": {
+            "RoomId": 19265,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19283,
           "West": 19280
         }
@@ -2131,7 +2604,13 @@
         "Connections": {
           "North": 19280,
           "East": 19283,
-          "South": 19274
+          "South": {
+            "RoomId": 19274,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2145,7 +2624,13 @@
         "Name": "The Niobian Senate #19283",
         "Connections": {
           "North": 19281,
-          "South": 19273,
+          "South": {
+            "RoomId": 19273,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 19282
         }
       },
@@ -2155,7 +2640,13 @@
         "Connections": {
           "North": 19306,
           "East": 19285,
-          "South": 19241,
+          "South": {
+            "RoomId": 19241,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 19305
         }
       },
@@ -2231,7 +2722,13 @@
         "Id": 19292,
         "Name": "Inside From The Terrace #19292",
         "Connections": {
-          "North": 19293,
+          "North": {
+            "RoomId": 19293,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 19291
         },
         "Contents": [
@@ -2245,7 +2742,13 @@
         "Id": 19293,
         "Name": "The Palace Terrace #19293",
         "Connections": {
-          "South": 19292,
+          "South": {
+            "RoomId": 19292,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 19294
         }
       },
@@ -2279,14 +2782,26 @@
         "Name": "The Palace Terrace #19297",
         "Connections": {
           "East": 19296,
-          "South": 19298
+          "South": {
+            "RoomId": 19298,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 19298,
         "Name": "Inside From The Terrace #19298",
         "Connections": {
-          "North": 19297,
+          "North": {
+            "RoomId": 19297,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 19299
         },
         "Contents": [
@@ -2368,7 +2883,13 @@
         "Id": 19306,
         "Name": "A Grand Staircase #19306",
         "Connections": {
-          "North": 19308,
+          "North": {
+            "RoomId": 19308,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19284,
           "Up": 19312
         }
@@ -2385,7 +2906,13 @@
         "Name": "The Palace Kitchens #19308",
         "Connections": {
           "East": 19309,
-          "South": 19306,
+          "South": {
+            "RoomId": 19306,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 19307
         },
         "Contents": [
@@ -2428,7 +2955,13 @@
         "Name": "Top Of The Staircase #19312",
         "Connections": {
           "North": 19316,
-          "East": 19313,
+          "East": {
+            "RoomId": 19313,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19314,
           "Down": 19306
         }
@@ -2437,7 +2970,13 @@
         "Id": 19313,
         "Name": "The Duchess\u0027 Chambers #19313",
         "Connections": {
-          "West": 19312
+          "West": {
+            "RoomId": 19312,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2451,7 +2990,13 @@
         "Name": "End Of The Hallway #19314",
         "Connections": {
           "North": 19312,
-          "East": 19315
+          "East": {
+            "RoomId": 19315,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2464,7 +3009,13 @@
         "Id": 19315,
         "Name": "The Duke\u0027s Chambers #19315",
         "Connections": {
-          "West": 19314
+          "West": {
+            "RoomId": 19314,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2524,16 +3075,34 @@
         "Name": "The Eastern Upper Hallway #19320",
         "Connections": {
           "North": 19319,
-          "East": 19322,
+          "East": {
+            "RoomId": 19322,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19324,
-          "West": 19321
+          "West": {
+            "RoomId": 19321,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 19321,
         "Name": "The Royal Dinner Guest\u0027s Chambers #19321",
         "Connections": {
-          "East": 19320
+          "East": {
+            "RoomId": 19320,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2546,7 +3115,13 @@
         "Id": 19322,
         "Name": "The Royal Physician\u0027s Quarters #19322",
         "Connections": {
-          "West": 19320
+          "West": {
+            "RoomId": 19320,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2559,7 +3134,13 @@
         "Id": 19323,
         "Name": "The Anubian Bishop\u0027s Chambers #19323",
         "Connections": {
-          "East": 19324
+          "East": {
+            "RoomId": 19324,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2573,7 +3154,13 @@
         "Name": "End Of The Hallway #19324",
         "Connections": {
           "North": 19320,
-          "West": 19323
+          "West": {
+            "RoomId": 19323,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2587,16 +3174,39 @@
         "Name": "Western Upper Palace Hallway #19325",
         "Connections": {
           "North": 19328,
-          "East": 19326,
+          "East": {
+            "RoomId": 19326,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a pink feldspar key #19116",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 19316,
-          "West": 19327
+          "West": {
+            "RoomId": 19327,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 19326,
         "Name": "The Niobian General\u0027s Quarters #19326",
         "Connections": {
-          "West": 19325
+          "West": {
+            "RoomId": 19325,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2609,7 +3219,13 @@
         "Id": 19327,
         "Name": "The Seravian Ambassador\u0027s Chambers #19327",
         "Connections": {
-          "East": 19325
+          "East": {
+            "RoomId": 19325,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2622,7 +3238,13 @@
         "Id": 19328,
         "Name": "End Of The Hallway #19328",
         "Connections": {
-          "East": 19329,
+          "East": {
+            "RoomId": 19329,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19325
         },
         "Contents": [
@@ -2636,7 +3258,13 @@
         "Id": 19329,
         "Name": "The Royal Huntsman\u0027s Chambers #19329",
         "Connections": {
-          "West": 19328
+          "West": {
+            "RoomId": 19328,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2650,16 +3278,34 @@
         "Name": "The Eastern Upper Hallway #19330",
         "Connections": {
           "North": 19333,
-          "East": 19332,
+          "East": {
+            "RoomId": 19332,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 19319,
-          "West": 19331
+          "West": {
+            "RoomId": 19331,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 19331,
         "Name": "Chambers Of The Niobian Princess #19331",
         "Connections": {
-          "East": 19330
+          "East": {
+            "RoomId": 19330,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2672,8 +3318,25 @@
         "Id": 19332,
         "Name": "Chambers Of The Niobian Prince #19332",
         "Connections": {
-          "West": 19330,
-          "Up": 19335
+          "West": {
+            "RoomId": 19330,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": {
+            "RoomId": 19335,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small, thin dirk #19113",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -2687,7 +3350,13 @@
         "Name": "End Of The Hallway #19333",
         "Connections": {
           "South": 19330,
-          "West": 19334
+          "West": {
+            "RoomId": 19334,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2700,7 +3369,13 @@
         "Id": 19334,
         "Name": "Chambers Of The Green Knight #19334",
         "Connections": {
-          "East": 19333
+          "East": {
+            "RoomId": 19333,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2714,15 +3389,38 @@
         "Name": "Uppermost Palace Corridor #19335",
         "Connections": {
           "East": 19336,
-          "Down": 19332
+          "Down": {
+            "RoomId": 19332,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 19336,
         "Name": "Uppermost Palace Corridor #19336",
         "Connections": {
-          "North": 19337,
-          "South": 19338,
+          "North": {
+            "RoomId": 19337,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a long fishbone #19114",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 19338,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 19335
         }
       },
@@ -2730,7 +3428,13 @@
         "Id": 19337,
         "Name": "Chambers Of The Niobian King #19337",
         "Connections": {
-          "South": 19336
+          "South": {
+            "RoomId": 19336,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2743,7 +3447,13 @@
         "Id": 19338,
         "Name": "Chambers Of The Niobian Queen #19338",
         "Connections": {
-          "North": 19336
+          "North": {
+            "RoomId": 19336,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2864,14 +3574,26 @@
         "Name": "The Order Of The Seventh Circle #19352",
         "Connections": {
           "North": 19344,
-          "South": 19353
+          "South": {
+            "RoomId": 19353,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 19353,
         "Name": "Temple Of The Seventh Circle #19353",
         "Connections": {
-          "North": 19352,
+          "North": {
+            "RoomId": 19352,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 19365,
           "West": 19354
         },
@@ -3378,7 +4100,7 @@
       {
         "Id": 19537,
         "FrameColor": "blue",
-        "Name": "To more_niobe #19537",
+        "Name": "To Niobe II #19537",
         "Color": "blue",
         "Connections": {
           "North": 19536,
@@ -3388,17 +4110,23 @@
       {
         "Id": 19489,
         "FrameColor": "blue",
-        "Name": "To more_niobe #19489",
+        "Name": "To Niobe II #19489",
         "Color": "blue",
         "Connections": {
           "East": 19490,
-          "West": 19388
+          "West": {
+            "RoomId": 19388,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 19406,
         "FrameColor": "blue",
-        "Name": "To more_niobe #19406",
+        "Name": "To Niobe II #19406",
         "Color": "blue",
         "Connections": {
           "North": 19388,
@@ -3409,7 +4137,7 @@
       {
         "Id": 19408,
         "FrameColor": "blue",
-        "Name": "To more_niobe #19408",
+        "Name": "To Niobe II #19408",
         "Color": "blue",
         "Connections": {
           "East": 19388
@@ -3418,7 +4146,7 @@
       {
         "Id": 19409,
         "FrameColor": "blue",
-        "Name": "To more_niobe #19409",
+        "Name": "To Niobe II #19409",
         "Color": "blue",
         "Connections": {
           "East": 19392,
@@ -3428,7 +4156,7 @@
       {
         "Id": 19401,
         "FrameColor": "blue",
-        "Name": "To more_niobe #19401",
+        "Name": "To Niobe II #19401",
         "Color": "blue",
         "Connections": {
           "East": 19395
@@ -3437,7 +4165,7 @@
       {
         "Id": 19404,
         "FrameColor": "blue",
-        "Name": "To more_niobe #19404",
+        "Name": "To Niobe II #19404",
         "Color": "blue",
         "Connections": {
           "East": 19405,
@@ -3447,7 +4175,7 @@
       {
         "Id": 19400,
         "FrameColor": "blue",
-        "Name": "To more_niobe #19400",
+        "Name": "To Niobe II #19400",
         "Color": "blue",
         "Connections": {
           "North": 19399
@@ -3456,7 +4184,7 @@
       {
         "Id": 19402,
         "FrameColor": "blue",
-        "Name": "To more_niobe #19402",
+        "Name": "To Niobe II #19402",
         "Color": "blue",
         "Connections": {
           "East": 19399,

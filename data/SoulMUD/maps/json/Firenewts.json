@@ -1,0 +1,1183 @@
+{
+  "Area": {
+    "Name": "Firenewts",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 2900,
+        "Name": "Obsidian hills #2900",
+        "Connections": {
+          "North": 7203,
+          "South": 2901
+        }
+      },
+      {
+        "Id": 2901,
+        "Name": "Obsidian Hills #2901",
+        "Connections": {
+          "North": 2900,
+          "South": 2902
+        }
+      },
+      {
+        "Id": 2902,
+        "Name": "Obsidian Hills #2902",
+        "Connections": {
+          "North": 2901,
+          "East": 2903
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt worker #2904",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2903,
+        "Name": "Mountain Side #2903",
+        "Connections": {
+          "South": 2904,
+          "West": 2902
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt worker #2904",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2904,
+        "Name": "Mountain Side #2904",
+        "Connections": {
+          "North": 2903,
+          "South": 2905
+        }
+      },
+      {
+        "Id": 2905,
+        "Name": "Mountain Top #2905",
+        "Connections": {
+          "North": 2904,
+          "South": 2906
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt worker #2904",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt worker #2904",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt worker #2904",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2906,
+        "Name": "Entrance to the Mountain #2906",
+        "Connections": {
+          "North": 2905,
+          "Down": 2910
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt worker #2906",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt worker #2904",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2907,
+        "Name": "Mountain Top #2907",
+        "Connections": {
+          "West": 2906
+        }
+      },
+      {
+        "Id": 2908,
+        "Name": "Mountain Top #2908",
+        "Connections": {
+          "East": 2906
+        }
+      },
+      {
+        "Id": 2909,
+        "Name": "Mountain Top #2909",
+        "Connections": {
+          "North": 2906
+        }
+      },
+      {
+        "Id": 2910,
+        "Name": "Inside the Mountain #2910",
+        "Connections": {
+          "East": 2911,
+          "West": 2912,
+          "Up": 2906,
+          "Down": 2913
+        }
+      },
+      {
+        "Id": 2911,
+        "Name": "Guard Room #2911",
+        "Connections": {
+          "West": 2910
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt guard #2905",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt guard #2905",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt guard #2905",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2912,
+        "Name": "Guard Room #2912",
+        "Connections": {
+          "East": 2910
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt guard #2905",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt guard #2905",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt guard #2905",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2913,
+        "Name": "Inside the Mountain #2913",
+        "Connections": {
+          "North": 2914,
+          "South": 2915,
+          "Up": 2910,
+          "Down": 2916
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt worker #2906",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2914,
+        "Name": "Store Room #2914",
+        "Connections": {
+          "South": 2913
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt worker #2906",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt worker #2906",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt worker #2906",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt worker #2906",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2915,
+        "Name": "Workers\u0027 Quarters #2915",
+        "Connections": {
+          "North": 2913
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt worker #2906",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt worker #2906",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt worker #2906",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt worker #2906",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2916,
+        "Name": "Bottom of the Mountain #2916",
+        "Connections": {
+          "North": 2917,
+          "Up": 2913
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt worker #2904",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt guard #2907",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt guard #2907",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2917,
+        "Name": "The Tunnel #2917",
+        "Connections": {
+          "North": 2918,
+          "South": 2916
+        }
+      },
+      {
+        "Id": 2918,
+        "Name": "Bend in the Tunnel #2918",
+        "Connections": {
+          "East": 2919,
+          "South": 2917
+        },
+        "Contents": [
+          {
+            "Text": "a female firenewt #2908",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt guard #2907",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2919,
+        "Name": "The Tunnel #2919",
+        "Connections": {
+          "North": 2921,
+          "East": 2920,
+          "West": 2918
+        }
+      },
+      {
+        "Id": 2920,
+        "Name": "Firenewt House #2920",
+        "Connections": {
+          "West": 2919
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt youth #2909",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt youth #2909",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt youth #2909",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt youth #2909",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt youth #2909",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt youth #2909",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt youth #2909",
+            "Color": "green"
+          },
+          {
+            "Text": "a female firenewt #2908",
+            "Color": "green"
+          },
+          {
+            "Text": "a female firenewt #2908",
+            "Color": "green"
+          },
+          {
+            "Text": "a female firenewt #2908",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt guard #2907",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2921,
+        "Name": "The Tunnel #2921",
+        "Connections": {
+          "North": 2923,
+          "South": 2919,
+          "West": 2922
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt guard #2907",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2922,
+        "Name": "Firenewt House #2922",
+        "Connections": {
+          "East": 2921
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt youth #2909",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt youth #2909",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt youth #2909",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt youth #2909",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt youth #2909",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt youth #2909",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt youth #2909",
+            "Color": "green"
+          },
+          {
+            "Text": "a female firenewt #2908",
+            "Color": "green"
+          },
+          {
+            "Text": "a female firenewt #2908",
+            "Color": "green"
+          },
+          {
+            "Text": "a female firenewt #2908",
+            "Color": "green"
+          },
+          {
+            "Text": "a firenewt guard #2907",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2923,
+        "Name": "The Tunnel #2923",
+        "Connections": {
+          "North": 2932,
+          "East": 2927,
+          "South": 2921,
+          "West": 2924
+        },
+        "Contents": [
+          {
+            "Text": "a female firenewt #2908",
+            "Color": "green"
+          },
+          {
+            "Text": "a female firenewt #2908",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2924,
+        "Name": "Entrance to the Firenewt Town Hall #2924",
+        "Connections": {
+          "East": 2923,
+          "West": {
+            "RoomId": 2925,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt sergeant #2910",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt sergeant #2910",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2925,
+        "Name": "The Waiting Room #2925",
+        "Connections": {
+          "East": {
+            "RoomId": 2924,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 2926
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt general #2911",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt general #2911",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2926,
+        "Name": "The Leader\u0027s Office #2926",
+        "Connections": {
+          "East": 2925
+        },
+        "Contents": [
+          {
+            "Text": "the firenewt leader #2912",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2927,
+        "Name": "Outside the Temple #2927",
+        "Connections": {
+          "East": 2928,
+          "West": 2923
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt sergeant #2910",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt sergeant #2910",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2928,
+        "Name": "Entrance to the Temple #2928",
+        "Connections": {
+          "East": {
+            "RoomId": 2929,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 2927
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt general #2911",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt general #2911",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2929,
+        "Name": "Inside the Temple #2929",
+        "Connections": {
+          "West": {
+            "RoomId": 2928,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 2930,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt priest #2913",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2930,
+        "Name": "The Chamber of Flames #2930",
+        "Connections": {
+          "East": 2931,
+          "Up": {
+            "RoomId": 2929,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a fire lizard #2914",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2931,
+        "Name": "The Egg Room #2931",
+        "Connections": {
+          "West": 2930
+        },
+        "Contents": [
+          {
+            "Text": "a fire lizard #2914",
+            "Color": "red"
+          },
+          {
+            "Text": "a fire lizard #2914",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2932,
+        "Name": "Wide Tunnel #2932",
+        "Connections": {
+          "North": 2933,
+          "South": 2923
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt raider #2915",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2933,
+        "Name": "T-Junction #2933",
+        "Connections": {
+          "East": 2934,
+          "South": 2932,
+          "West": 2935
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt raider #2915",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2934,
+        "Name": "Strider Stables #2934",
+        "Connections": {
+          "West": 2933
+        },
+        "Contents": [
+          {
+            "Text": "a giant strider #2916",
+            "Color": "green"
+          },
+          {
+            "Text": "a giant strider #2916",
+            "Color": "green"
+          },
+          {
+            "Text": "a giant strider #2916",
+            "Color": "green"
+          },
+          {
+            "Text": "a giant strider #2916",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2935,
+        "Name": "Firenewt Raiders\u0027 Cavern #2935",
+        "Connections": {
+          "East": 2933,
+          "South": 2936
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt raider #2915",
+            "Color": "red"
+          },
+          {
+            "Text": "a firenewt raider #2915",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2936,
+        "Name": "A Volcanic Tube #2936",
+        "Connections": {
+          "North": 2935,
+          "South": 2937
+        }
+      },
+      {
+        "Id": 2937,
+        "Name": "A Twisting Tunnel #2937",
+        "Connections": {
+          "North": 2936,
+          "South": {
+            "RoomId": 2938,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a firenewt commander #2917",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2938,
+        "Name": "A Volcanic Tunnel #2938",
+        "Connections": {
+          "North": {
+            "RoomId": 2937,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 2939
+        }
+      },
+      {
+        "Id": 2939,
+        "Name": "Descending Tunnel #2939",
+        "Connections": {
+          "East": 2955,
+          "West": 2953,
+          "Up": 2938,
+          "Down": 2940
+        }
+      },
+      {
+        "Id": 2940,
+        "Name": "A Vertical Lava Chute #2940",
+        "Connections": {
+          "East": 2956,
+          "West": 2954,
+          "Up": 2939,
+          "Down": 2941
+        }
+      },
+      {
+        "Id": 2941,
+        "Name": "Bottom of the Tube #2941",
+        "Connections": {
+          "East": 2942,
+          "South": 2943,
+          "West": 2962,
+          "Up": 2940
+        }
+      },
+      {
+        "Id": 2942,
+        "Name": "Cavern of Fire #2942",
+        "Connections": {
+          "West": 2941
+        },
+        "Contents": [
+          {
+            "Text": "A Seraphim of flame #2922",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2943,
+        "Name": "A Lava Tube #2943",
+        "Connections": {
+          "North": 2941,
+          "West": 2944
+        },
+        "Contents": [
+          {
+            "Text": "An angel of fire and flame #2923",
+            "Color": "green"
+          },
+          {
+            "Text": "An angel of fire and flame #2923",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2944,
+        "Name": "A Lava Tube #2944",
+        "Connections": {
+          "East": 2943,
+          "West": 2945
+        },
+        "Contents": [
+          {
+            "Text": "An angel of fire and flame #2923",
+            "Color": "green"
+          },
+          {
+            "Text": "A Djinn of fire #2924",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2945,
+        "Name": "Lair of Flames #2945",
+        "Connections": {
+          "East": 2944,
+          "Down": 2946
+        },
+        "Contents": [
+          {
+            "Text": "An angel of fire and flame #2923",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2946,
+        "Name": "A Descending Tunnel #2946",
+        "Connections": {
+          "East": {
+            "RoomId": 2957,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 2947,
+          "West": {
+            "RoomId": 2963,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 2945
+        }
+      },
+      {
+        "Id": 2947,
+        "Name": "A Descending Tunnel #2947",
+        "Connections": {
+          "North": 2946,
+          "South": 2948
+        },
+        "Contents": [
+          {
+            "Text": "A Djinn of fire #2924",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2948,
+        "Name": "A Burning Cavern #2948",
+        "Connections": {
+          "North": 2947,
+          "East": 2969,
+          "West": 2949
+        },
+        "Contents": [
+          {
+            "Text": "A Djinn of fire #2924",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2949,
+        "Name": "Fire God\u0027s Lair #2949",
+        "Connections": {
+          "North": 2952,
+          "East": 2948,
+          "South": 2950,
+          "West": 2951
+        },
+        "Contents": [
+          {
+            "Text": "The God of Fire #2918",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2950,
+        "Name": "Bottom of Open Lava Tube #2950",
+        "Connections": {
+          "North": 2949
+        },
+        "Contents": [
+          {
+            "Text": "Molten lava #2925",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2951,
+        "Name": "Bottom of Open Lava Tube #2951",
+        "Connections": {
+          "East": 2949
+        },
+        "Contents": [
+          {
+            "Text": "Molten lava #2925",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2952,
+        "Name": "Bottom of Open Lava Tube #2952",
+        "Connections": {
+          "South": 2949
+        },
+        "Contents": [
+          {
+            "Text": "Molten lava #2925",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2953,
+        "Name": "Cavern of Fire #2953",
+        "Connections": {
+          "East": 2939
+        },
+        "Contents": [
+          {
+            "Text": "A Cherubim of flame #2920",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2954,
+        "Name": "Cavern of Fire #2954",
+        "Connections": {
+          "East": 2940
+        },
+        "Contents": [
+          {
+            "Text": "A Nephilim of flame #2921",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2955,
+        "Name": "Cavern of Fire #2955",
+        "Connections": {
+          "West": 2939
+        },
+        "Contents": [
+          {
+            "Text": "A Cherubim of flame #2920",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2956,
+        "Name": "Cavern of Fire #2956",
+        "Connections": {
+          "West": 2940
+        },
+        "Contents": [
+          {
+            "Text": "A Nephilim of flame #2921",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2957,
+        "Name": "A Lateral Tunnel #2957",
+        "Connections": {
+          "West": {
+            "RoomId": 2946,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 2958
+        }
+      },
+      {
+        "Id": 2958,
+        "Name": "A Burning Tunnel #2958",
+        "Connections": {
+          "East": 2973,
+          "Up": 2957
+        }
+      },
+      {
+        "Id": 2959,
+        "Name": "Bottom of Open Lava Tube #2959",
+        "Connections": {
+          "South": 2973
+        },
+        "Contents": [
+          {
+            "Text": "An angel of fire and flame #2923",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2960,
+        "Name": "Bottom of Open Lava Tube #2960",
+        "Connections": {
+          "West": 2973
+        },
+        "Contents": [
+          {
+            "Text": "An angel of fire and flame #2923",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2961,
+        "Name": "Bottom of Open Lava Tube #2961",
+        "Connections": {
+          "North": 2973
+        },
+        "Contents": [
+          {
+            "Text": "An angel of fire and flame #2923",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2962,
+        "Name": "Cavern of Fire #2962",
+        "Connections": {
+          "East": 2941
+        },
+        "Contents": [
+          {
+            "Text": "A Seraphim of flame #2922",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2963,
+        "Name": "A Lateral Tunnel #2963",
+        "Connections": {
+          "East": {
+            "RoomId": 2946,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 2964
+        }
+      },
+      {
+        "Id": 2964,
+        "Name": "A Burning Tunnel #2964",
+        "Connections": {
+          "West": 2967,
+          "Up": 2963
+        }
+      },
+      {
+        "Id": 2965,
+        "Name": "Bottom of Open Lava Tube #2965",
+        "Connections": {
+          "South": 2967
+        },
+        "Contents": [
+          {
+            "Text": "An angel of fire and flame #2923",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2966,
+        "Name": "Bottom of Open Lava Tube #2966",
+        "Connections": {
+          "East": 2967
+        },
+        "Contents": [
+          {
+            "Text": "An angel of fire and flame #2923",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2967,
+        "Name": "A Fire Shrine #2967",
+        "Connections": {
+          "North": 2965,
+          "East": 2964,
+          "South": 2968,
+          "West": 2966
+        }
+      },
+      {
+        "Id": 2968,
+        "Name": "Bottom of Open Lava Tube #2968",
+        "Connections": {
+          "North": 2967
+        }
+      },
+      {
+        "Id": 2969,
+        "Name": "Fire Goddess\u0027s Lair #2969",
+        "Connections": {
+          "North": 2970,
+          "East": 2971,
+          "South": 2972,
+          "West": 2948
+        },
+        "Contents": [
+          {
+            "Text": "The Goddess of Fire #2919",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2970,
+        "Name": "Bottom of Open Lava Tube #2970",
+        "Connections": {
+          "South": 2969
+        },
+        "Contents": [
+          {
+            "Text": "Molten lava #2925",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2971,
+        "Name": "Bottom of Open Lava Tube #2971",
+        "Connections": {
+          "West": 2969
+        },
+        "Contents": [
+          {
+            "Text": "Molten lava #2925",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2972,
+        "Name": "Bottom of Open Lava Tube #2972",
+        "Connections": {
+          "North": 2969
+        },
+        "Contents": [
+          {
+            "Text": "Molten lava #2925",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2973,
+        "Name": "A Fire Shrine #2973",
+        "Connections": {
+          "North": 2959,
+          "East": 2960,
+          "South": 2961,
+          "West": 2958
+        }
+      },
+      {
+        "Id": 7203,
+        "FrameColor": "blue",
+        "Name": "To Island #7203",
+        "Color": "blue",
+        "Connections": {
+          "East": 7204,
+          "South": 2900,
+          "West": 19083
+        }
+      }
+    ]
+  }
+}

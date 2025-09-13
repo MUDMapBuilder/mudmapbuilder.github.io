@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "imps",
+    "Name": "Imps",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -22,7 +22,13 @@
         "Name": "Before a Red Door #68002",
         "Connections": {
           "North": 68001,
-          "East": 68003,
+          "East": {
+            "RoomId": 68003,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 68004
         }
       },
@@ -39,14 +45,26 @@
         "Connections": {
           "North": 68002,
           "South": 68006,
-          "West": 68005
+          "West": {
+            "RoomId": 68005,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 68005,
         "Name": "A Black Room #68005",
         "Connections": {
-          "East": 68004
+          "East": {
+            "RoomId": 68004,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -86,7 +104,13 @@
         "Name": "Start of the Back Hall #68010",
         "Connections": {
           "North": 68009,
-          "East": 68011
+          "East": {
+            "RoomId": 68011,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -94,7 +118,13 @@
         "Name": "End of the Entrance Hall #68011",
         "Connections": {
           "South": 68012,
-          "West": 68010
+          "West": {
+            "RoomId": 68010,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -168,22 +198,56 @@
         "Name": "The Throneroom #68020",
         "Connections": {
           "North": 68019,
-          "East": 68021,
-          "West": 68022
+          "East": {
+            "RoomId": 68021,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a test dagger #68000",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 68022,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a test dagger #68000",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
         "Id": 68021,
         "Name": "The King\u0027s Room #68021",
         "Connections": {
-          "West": 68020
+          "West": {
+            "RoomId": 68020,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 68022,
         "Name": "The Queen\u0027s Room #68022",
         "Connections": {
-          "East": 68020
+          "East": {
+            "RoomId": 68020,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -248,15 +312,38 @@
         "Name": "End of the Western Wing #68030",
         "Connections": {
           "North": 68026,
-          "East": 68031
+          "East": {
+            "RoomId": 68031,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a test dagger #68000",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
         "Id": 68031,
         "Name": "The General\u0027s Secret Warroom #68031",
         "Connections": {
-          "East": 68032,
-          "West": 68030
+          "East": {
+            "RoomId": 68032,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 68030,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -264,7 +351,18 @@
         "Name": "End of the Central Hall #68032",
         "Connections": {
           "North": 68033,
-          "West": 68031
+          "West": {
+            "RoomId": 68031,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a test dagger #68000",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -319,7 +417,18 @@
         "Id": 68039,
         "Name": "Before a Small Door #68039",
         "Connections": {
-          "East": 68040,
+          "East": {
+            "RoomId": 68040,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a test dagger #68000",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 68038
         }
       },
@@ -327,7 +436,13 @@
         "Id": 68040,
         "Name": "A Royal Bedroom #68040",
         "Connections": {
-          "West": 68039
+          "West": {
+            "RoomId": 68039,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -559,7 +674,13 @@
         "Name": "The Imp Elders Hut #68111",
         "Connections": {
           "North": 68108,
-          "Down": 68112
+          "Down": {
+            "RoomId": 68112,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -572,7 +693,13 @@
         "Id": 68112,
         "Name": "The Secret War Room of the Imp Royal Guard #68112",
         "Connections": {
-          "Up": 68111
+          "Up": {
+            "RoomId": 68111,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -680,7 +807,18 @@
         "Connections": {
           "East": 68118,
           "South": 68116,
-          "Up": 68500
+          "Up": {
+            "RoomId": 68500,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the entrance key to the great tree #68501",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -778,7 +916,13 @@
         "Id": 68127,
         "Name": "End of the Eastern Road #68127",
         "Connections": {
-          "North": 68128,
+          "North": {
+            "RoomId": 68128,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "South": 68129,
           "West": 68124
         },
@@ -895,7 +1039,13 @@
         "Name": "Entrance to the Imp Graveyard #68136",
         "Connections": {
           "North": 68144,
-          "East": 68152,
+          "East": {
+            "RoomId": 68152,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 68148,
           "West": 68137
         }
@@ -1100,7 +1250,18 @@
         "Name": "A Shadowy Grove  #68152",
         "Connections": {
           "East": 68113,
-          "West": 68136
+          "West": {
+            "RoomId": 68136,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a vine-covered key #68107",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -1142,7 +1303,13 @@
         "Id": 68157,
         "Name": "Before a Small Cell #68157",
         "Connections": {
-          "North": 68158,
+          "North": {
+            "RoomId": 68158,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "East": 68159,
           "West": 68156
         }
@@ -1151,7 +1318,13 @@
         "Id": 68158,
         "Name": "A Small Cell #68158",
         "Connections": {
-          "South": 68157
+          "South": {
+            "RoomId": 68157,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1167,7 +1340,13 @@
         "Name": "Before a Dark Cell #68160",
         "Connections": {
           "North": 68159,
-          "East": 68161,
+          "East": {
+            "RoomId": 68161,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "South": 68162
         }
       },
@@ -1175,7 +1354,13 @@
         "Id": 68161,
         "Name": "A Dark Cell #68161",
         "Connections": {
-          "West": 68160
+          "West": {
+            "RoomId": 68160,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1192,7 +1377,13 @@
         "Name": "Before a Glowing Cell #68163",
         "Connections": {
           "North": 68162,
-          "East": 68164,
+          "East": {
+            "RoomId": 68164,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "South": 68165
         }
       },
@@ -1200,7 +1391,13 @@
         "Id": 68164,
         "Name": "A Glowing Cell #68164",
         "Connections": {
-          "West": 68163
+          "West": {
+            "RoomId": 68163,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1216,7 +1413,13 @@
         "Name": "Before a Large Cell #68166",
         "Connections": {
           "East": 68165,
-          "South": 68167,
+          "South": {
+            "RoomId": 68167,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 68168
         }
       },
@@ -1224,7 +1427,13 @@
         "Id": 68167,
         "Name": "A Large Cell #68167",
         "Connections": {
-          "North": 68166
+          "North": {
+            "RoomId": 68166,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1241,7 +1450,13 @@
         "Name": "Before an Enchanted Cell #68169",
         "Connections": {
           "East": 68168,
-          "South": 68170,
+          "South": {
+            "RoomId": 68170,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 68171
         }
       },
@@ -1249,7 +1464,13 @@
         "Id": 68170,
         "Name": "An Enchanted Cell #68170",
         "Connections": {
-          "North": 68169
+          "North": {
+            "RoomId": 68169,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1266,14 +1487,26 @@
         "Connections": {
           "North": 68174,
           "South": 68171,
-          "West": 68173
+          "West": {
+            "RoomId": 68173,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 68173,
         "Name": "An Iron Cell #68173",
         "Connections": {
-          "East": 68172
+          "East": {
+            "RoomId": 68172,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1291,14 +1524,26 @@
         "Connections": {
           "North": 68177,
           "South": 68174,
-          "West": 68176
+          "West": {
+            "RoomId": 68176,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 68176,
         "Name": "A Smelly Cell #68176",
         "Connections": {
-          "East": 68175
+          "East": {
+            "RoomId": 68175,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1313,7 +1558,13 @@
         "Id": 68178,
         "Name": "Before a Damp Cell #68178",
         "Connections": {
-          "North": 68179,
+          "North": {
+            "RoomId": 68179,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "East": 68156,
           "West": 68177
         }
@@ -1322,7 +1573,13 @@
         "Id": 68179,
         "Name": "A Damp Cell #68179",
         "Connections": {
-          "South": 68178,
+          "South": {
+            "RoomId": 68178,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Down": 68180
         }
       },
@@ -1336,7 +1593,7 @@
       {
         "Id": 75020,
         "FrameColor": "blue",
-        "Name": "To swamp #75020",
+        "Name": "To Balward #75020",
         "Color": "blue",
         "Connections": {
           "East": 68000
@@ -1345,7 +1602,7 @@
       {
         "Id": 3442,
         "FrameColor": "blue",
-        "Name": "To lwair #3442",
+        "Name": "To Above BH #3442",
         "Color": "blue",
         "Connections": {
           "North": 68100,
@@ -1357,7 +1614,7 @@
       {
         "Id": 5710,
         "FrameColor": "blue",
-        "Name": "To connect #5710",
+        "Name": "To Connecting roads #5710",
         "Color": "blue",
         "Connections": {
           "North": 5712,
@@ -1367,18 +1624,51 @@
       {
         "Id": 68500,
         "FrameColor": "blue",
-        "Name": "To doorquest #68500",
+        "Name": "To Dio\u0027s Qwest Zone #68500",
         "Color": "blue",
         "Connections": {
-          "East": 68501,
-          "South": 68502,
-          "Up": 68503
+          "East": {
+            "RoomId": 68501,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a sturdy iron key #68500",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 68502,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a sturdy iron key #68500",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "Up": {
+            "RoomId": 68503,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a key carved from maple #68503",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
         "Id": 68271,
         "FrameColor": "blue",
-        "Name": "To empty21 #68271",
+        "Name": "To Merryville Pond #68271",
         "Color": "blue",
         "Connections": {
           "North": 68126,

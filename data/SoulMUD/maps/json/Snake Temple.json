@@ -1,0 +1,1059 @@
+{
+  "Area": {
+    "Name": "Snake Temple",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 78001,
+        "Name": "A Small Dark Room #78001",
+        "Connections": {
+          "West": {
+            "RoomId": 8115,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": {
+            "RoomId": 8115,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 78002
+        }
+      },
+      {
+        "Id": 78002,
+        "Name": "Under the Grate #78002",
+        "Connections": {
+          "North": 78003,
+          "Up": 78001
+        }
+      },
+      {
+        "Id": 78003,
+        "Name": "Partial Barricade #78003",
+        "Connections": {
+          "South": 78002,
+          "Down": 78004
+        }
+      },
+      {
+        "Id": 78004,
+        "Name": "Desolate Hallway #78004",
+        "Connections": {
+          "East": 78005,
+          "Up": 78003
+        },
+        "Contents": [
+          {
+            "Text": "a leper #56001",
+            "Color": "red"
+          },
+          {
+            "Text": "a leper #56001",
+            "Color": "red"
+          },
+          {
+            "Text": "a leper #56001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78005,
+        "Name": "Eastern Hall #78005",
+        "Connections": {
+          "East": 78006,
+          "West": 78004
+        }
+      },
+      {
+        "Id": 78006,
+        "Name": "Turn in the Hallway #78006",
+        "Connections": {
+          "North": 78007,
+          "West": 78005
+        }
+      },
+      {
+        "Id": 78007,
+        "Name": "Dreary Hallway #78007",
+        "Connections": {
+          "North": 78008,
+          "South": 78006
+        }
+      },
+      {
+        "Id": 78008,
+        "Name": "End of the Hall #78008",
+        "Connections": {
+          "South": 78007,
+          "West": 78009
+        },
+        "Contents": [
+          {
+            "Text": "a shade #48217",
+            "Color": "red"
+          },
+          {
+            "Text": "a shade #48217",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78009,
+        "Name": "Dark Passageway #78009",
+        "Connections": {
+          "East": 78008,
+          "West": 78010
+        }
+      },
+      {
+        "Id": 78010,
+        "Name": "Bend in the Passageway #78010",
+        "Connections": {
+          "North": 78011,
+          "East": 78009
+        }
+      },
+      {
+        "Id": 78011,
+        "Name": "End of the Passage #78011",
+        "Connections": {
+          "North": 78012,
+          "South": 78010
+        }
+      },
+      {
+        "Id": 78012,
+        "Name": "Intersection #78012",
+        "Connections": {
+          "East": 78030,
+          "South": 78011,
+          "West": 78013
+        },
+        "Contents": [
+          {
+            "Text": "a shade #48217",
+            "Color": "red"
+          },
+          {
+            "Text": "a blood monk #77203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78013,
+        "Name": "Somber Corridor #78013",
+        "Connections": {
+          "East": 78012,
+          "West": 78014
+        }
+      },
+      {
+        "Id": 78014,
+        "Name": "Western Corridor #78014",
+        "Connections": {
+          "North": 78022,
+          "East": 78013,
+          "South": 78015
+        },
+        "Contents": [
+          {
+            "Text": "a cambion demon #48207",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78015,
+        "Name": "Corridor #78015",
+        "Connections": {
+          "North": 78014,
+          "South": 78016
+        },
+        "Contents": [
+          {
+            "Text": "a blood monk #77203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78016,
+        "Name": "Narrow Corridor #78016",
+        "Connections": {
+          "North": 78015,
+          "West": 78017
+        }
+      },
+      {
+        "Id": 78017,
+        "Name": "Broken-Down Corridor #78017",
+        "Connections": {
+          "East": 78016,
+          "West": 78018
+        },
+        "Contents": [
+          {
+            "Text": "a demented priest #48211",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78018,
+        "Name": "Remnants of the Marble Corridor #78018",
+        "Connections": {
+          "North": 78019,
+          "East": 78017,
+          "South": 78020
+        },
+        "Contents": [
+          {
+            "Text": "a blood monk #77203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78019,
+        "Name": "Marble Room #78019",
+        "Connections": {
+          "South": 78018
+        },
+        "Contents": [
+          {
+            "Text": "a marble snake totem #78002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78020,
+        "Name": "Corridor #78020",
+        "Connections": {
+          "North": 78018,
+          "South": 78021
+        }
+      },
+      {
+        "Id": 78021,
+        "Name": "Corridors End #78021",
+        "Connections": {
+          "North": 78020
+        },
+        "Contents": [
+          {
+            "Text": "Selin the sapphire savant #78006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 78022,
+        "Name": "Large Entryway #78022",
+        "Connections": {
+          "North": 78023,
+          "South": 78014
+        }
+      },
+      {
+        "Id": 78023,
+        "Name": "Split in the Hall #78023",
+        "Connections": {
+          "East": 78024,
+          "South": 78022,
+          "West": 78027
+        }
+      },
+      {
+        "Id": 78024,
+        "Name": "East Hall #78024",
+        "Connections": {
+          "East": 78025,
+          "West": 78023
+        },
+        "Contents": [
+          {
+            "Text": "a blood monk #77203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78025,
+        "Name": "Eastern Bend #78025",
+        "Connections": {
+          "North": 78026,
+          "West": 78024
+        }
+      },
+      {
+        "Id": 78026,
+        "Name": "Dead End #78026",
+        "Connections": {
+          "South": 78025
+        },
+        "Contents": [
+          {
+            "Text": "Rex the estranged priest #64022",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78027,
+        "Name": "Along the Hall #78027",
+        "Connections": {
+          "East": 78023,
+          "West": 78028
+        }
+      },
+      {
+        "Id": 78028,
+        "Name": "Western End #78028",
+        "Connections": {
+          "North": 78029,
+          "East": 78027
+        }
+      },
+      {
+        "Id": 78029,
+        "Name": "Guards Quarters #78029",
+        "Connections": {
+          "South": 78028
+        },
+        "Contents": [
+          {
+            "Text": "Otto the killer of giants #64021",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 78030,
+        "Name": "Corridor #78030",
+        "Connections": {
+          "East": 78031,
+          "West": 78012
+        }
+      },
+      {
+        "Id": 78031,
+        "Name": "Split in the Corridor #78031",
+        "Connections": {
+          "North": 78032,
+          "East": 78039,
+          "West": 78030,
+          "Down": 78051
+        }
+      },
+      {
+        "Id": 78032,
+        "Name": "Tunnel #78032",
+        "Connections": {
+          "North": 78033,
+          "South": 78031
+        }
+      },
+      {
+        "Id": 78033,
+        "Name": "Four-Way Intersection #78033",
+        "Connections": {
+          "North": 78035,
+          "East": 78037,
+          "South": 78032,
+          "West": 78034
+        }
+      },
+      {
+        "Id": 78034,
+        "Name": "Crimson Chamber #78034",
+        "Connections": {
+          "East": 78033
+        }
+      },
+      {
+        "Id": 78035,
+        "Name": "Vermillion Chamber #78035",
+        "Connections": {
+          "South": 78033
+        },
+        "Contents": [
+          {
+            "Text": "a greater demon #66012",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78036,
+        "Name": "East Ruby Hallway #78036",
+        "Connections": {
+          "East": 78037,
+          "West": 78033
+        }
+      },
+      {
+        "Id": 78037,
+        "Name": "Turn in the Ruby #78037",
+        "Connections": {
+          "North": 78038,
+          "West": 78033
+        }
+      },
+      {
+        "Id": 78038,
+        "Name": "Ruby Alcove #78038",
+        "Connections": {
+          "South": 78037
+        },
+        "Contents": [
+          {
+            "Text": "a knight of ruby #78001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78039,
+        "Name": "Corridor #78039",
+        "Connections": {
+          "East": 78040,
+          "West": 78031
+        }
+      },
+      {
+        "Id": 78040,
+        "Name": "Eastern Corridor #78040",
+        "Connections": {
+          "South": 78041,
+          "West": 78039
+        }
+      },
+      {
+        "Id": 78041,
+        "Name": "Turn in the Hallway #78041",
+        "Connections": {
+          "North": 78040,
+          "East": 78042
+        },
+        "Contents": [
+          {
+            "Text": "a red-tailed boa constrictor #71717",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78042,
+        "Name": "Well-Lit Hallway #78042",
+        "Connections": {
+          "East": 78043,
+          "West": 78041
+        }
+      },
+      {
+        "Id": 78043,
+        "Name": "Before the Snake Pit #78043",
+        "Connections": {
+          "East": 78047,
+          "South": 78044,
+          "West": 78042,
+          "Down": 78054
+        }
+      },
+      {
+        "Id": 78044,
+        "Name": "Near the Pit #78044",
+        "Connections": {
+          "North": 78043,
+          "South": 78045
+        }
+      },
+      {
+        "Id": 78045,
+        "Name": "Slimey Tunnel #78045",
+        "Connections": {
+          "North": 78044,
+          "South": 78046
+        }
+      },
+      {
+        "Id": 78046,
+        "Name": "Corroded Tunnel #78046",
+        "Connections": {
+          "North": 78045
+        },
+        "Contents": [
+          {
+            "Text": "a coral snake #78015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78047,
+        "Name": "Turn in the Hallway #78047",
+        "Connections": {
+          "North": 78048,
+          "West": 78043
+        }
+      },
+      {
+        "Id": 78048,
+        "Name": "Unkept Hallway #78048",
+        "Connections": {
+          "North": 78049,
+          "South": 78047
+        }
+      },
+      {
+        "Id": 78049,
+        "Name": "Opposite of the Snake #78049",
+        "Connections": {
+          "East": 78050,
+          "South": 78048
+        }
+      },
+      {
+        "Id": 78050,
+        "Name": "Snake Head #78050",
+        "Connections": {
+          "West": 78049,
+          "Down": 78057
+        },
+        "Contents": [
+          {
+            "Text": "a fire giant #64018",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78051,
+        "Name": "Far Above #78051",
+        "Connections": {
+          "Up": 78031,
+          "Down": 78052
+        }
+      },
+      {
+        "Id": 78052,
+        "Name": "Directly Above #78052",
+        "Connections": {
+          "Up": 78051,
+          "Down": 78053
+        }
+      },
+      {
+        "Id": 78053,
+        "Name": "Alligator Trap #78053",
+        "Connections": {
+          "Up": 78052
+        },
+        "Contents": [
+          {
+            "Text": "Ailictis the insane albino alligator #78005",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78054,
+        "Name": "Near the Top #78054",
+        "Connections": {
+          "Up": 78043,
+          "Down": 78055
+        }
+      },
+      {
+        "Id": 78055,
+        "Name": "Near the Bottom #78055",
+        "Connections": {
+          "Up": 78054,
+          "Down": 78056
+        }
+      },
+      {
+        "Id": 78056,
+        "Name": "The Snake Pit #78056",
+        "Connections": {
+          "Up": 78055
+        },
+        "Contents": [
+          {
+            "Text": "an annoyed rattlesnake #78008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78057,
+        "Name": "In the Pharynx #78057",
+        "Connections": {
+          "Up": 78050,
+          "Down": 78058
+        }
+      },
+      {
+        "Id": 78058,
+        "Name": "In the Throat #78058",
+        "Connections": {
+          "Up": 78057,
+          "Down": 78059
+        }
+      },
+      {
+        "Id": 78059,
+        "Name": "Near the Ground #78059",
+        "Connections": {
+          "Up": 78058,
+          "Down": 78060
+        }
+      },
+      {
+        "Id": 78060,
+        "Name": "Nearing the Tip #78060",
+        "Connections": {
+          "East": 78061,
+          "West": 78085,
+          "Up": 78059
+        }
+      },
+      {
+        "Id": 78061,
+        "Name": "Northern Black Hall #78061",
+        "Connections": {
+          "South": 78062,
+          "West": 78060
+        },
+        "Contents": [
+          {
+            "Text": "a fire giant #64018",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78062,
+        "Name": "Along the Black Hall #78062",
+        "Connections": {
+          "North": 78061,
+          "South": 78063
+        }
+      },
+      {
+        "Id": 78063,
+        "Name": "Grey Intersection #78063",
+        "Connections": {
+          "North": 78062,
+          "East": 78068,
+          "South": 78072,
+          "West": 78064
+        },
+        "Contents": [
+          {
+            "Text": "an enraged fire giant #64019",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78064,
+        "Name": "Along the White Hall #78064",
+        "Connections": {
+          "East": 78063,
+          "West": 78065
+        }
+      },
+      {
+        "Id": 78065,
+        "Name": "Western White Hall #78065",
+        "Connections": {
+          "North": 78066,
+          "East": 78064
+        }
+      },
+      {
+        "Id": 78066,
+        "Name": "Further Along the White Wall #78066",
+        "Connections": {
+          "East": 78067,
+          "South": 78065
+        },
+        "Contents": [
+          {
+            "Text": "a giant asp #78007",
+            "Color": "red"
+          },
+          {
+            "Text": "a giant asp #78007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78067,
+        "Name": "Immense Room #78067",
+        "Connections": {
+          "West": {
+            "RoomId": 78066,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the fire giant king Paine #64006",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78068,
+        "Name": "Along the White Hall #78068",
+        "Connections": {
+          "East": 78069,
+          "West": 78063
+        }
+      },
+      {
+        "Id": 78069,
+        "Name": "Eastern White Hall #78069",
+        "Connections": {
+          "South": 78070,
+          "West": 78068
+        },
+        "Contents": [
+          {
+            "Text": "a roaming fire giant #78019",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 78070,
+        "Name": "The White Wall #78070",
+        "Connections": {
+          "North": 78069,
+          "West": 78071
+        }
+      },
+      {
+        "Id": 78071,
+        "Name": "Dark Room #78071",
+        "Connections": {
+          "East": 78070
+        },
+        "Contents": [
+          {
+            "Text": "an albino anaconda #78003",
+            "Color": "red"
+          },
+          {
+            "Text": "The infernal Nightterror #71500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 78072,
+        "Name": "Along the Black Hall #78072",
+        "Connections": {
+          "North": 78063,
+          "South": 78081,
+          "West": 78073
+        }
+      },
+      {
+        "Id": 78073,
+        "Name": "Along the Crimson Wall #78073",
+        "Connections": {
+          "East": 78072,
+          "West": 78074
+        },
+        "Contents": [
+          {
+            "Text": "a fire giant #64018",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78074,
+        "Name": "Turn in the Crimson Wall #78074",
+        "Connections": {
+          "East": 78073,
+          "South": 78075
+        }
+      },
+      {
+        "Id": 78075,
+        "Name": "Crimson Hall #78075",
+        "Connections": {
+          "North": 78074,
+          "East": {
+            "RoomId": 78076,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 78077
+        }
+      },
+      {
+        "Id": 78076,
+        "Name": "The Jailers #78076",
+        "Connections": {
+          "West": {
+            "RoomId": 78075,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a fat fire giant #78016",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78077,
+        "Name": "Before the Cells #78077",
+        "Connections": {
+          "North": 78075,
+          "East": {
+            "RoomId": 78079,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jade key #6012",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 78080,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jade key #6012",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 78078,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jade key #6012",
+                "Color": "indianred"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 78078,
+        "Name": "Western Cell #78078",
+        "Connections": {
+          "East": {
+            "RoomId": 78077,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jade key #6012",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Bethan the blue nun #78009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 78079,
+        "Name": "Eastern Cell #78079",
+        "Connections": {
+          "West": {
+            "RoomId": 78077,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jade key #6012",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Grechin the green nun #78011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 78080,
+        "Name": "Southern Cell #78080",
+        "Connections": {
+          "North": {
+            "RoomId": 78077,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jade key #6012",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Reahin the red nun #78010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 78081,
+        "Name": "Southern Black Hall #78081",
+        "Connections": {
+          "North": 78072,
+          "East": 78082
+        },
+        "Contents": [
+          {
+            "Text": "a fire giant #64018",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78082,
+        "Name": "Onyx Hallway #78082",
+        "Connections": {
+          "West": 78081,
+          "Down": 78083
+        }
+      },
+      {
+        "Id": 78083,
+        "Name": "Down a Deep Pit #78083",
+        "Connections": {
+          "Up": 78082
+        },
+        "Contents": [
+          {
+            "Text": "an umber hulk #78017",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78084,
+        "Name": "Altar of the Serpent #78084",
+        "Connections": {
+          "North": 78086
+        },
+        "Contents": [
+          {
+            "Text": "The Serpent Priest #78012",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78085,
+        "Name": "Serpent Filled Chamber #78085",
+        "Connections": {
+          "East": 78060,
+          "West": 78086
+        },
+        "Contents": [
+          {
+            "Text": "a kingsnake #78018",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 78086,
+        "Name": "Slithering Serenade #78086",
+        "Connections": {
+          "East": 78085,
+          "South": 78084
+        }
+      },
+      {
+        "Id": 8115,
+        "FrameColor": "blue",
+        "Name": "To BalHarbor #8115",
+        "Color": "blue",
+        "Connections": {
+          "East": {
+            "RoomId": 78001,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a snake shaped key #46216",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 8114,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 78001,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a snake shaped key #46216",
+                "Color": "indianred"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

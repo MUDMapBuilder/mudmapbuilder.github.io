@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "fomorian",
+    "Name": "Fomorian",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -137,7 +137,13 @@
         "Id": 12111,
         "Name": "Main Path #12111",
         "Connections": {
-          "North": 12122,
+          "North": {
+            "RoomId": 12122,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 12110,
           "South": 12124,
           "West": 12112
@@ -208,7 +214,13 @@
         "Name": "Before the Temple #12115",
         "Connections": {
           "East": 12114,
-          "West": 12145
+          "West": {
+            "RoomId": 12145,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -257,7 +269,13 @@
         "Name": "A Brothel #12117",
         "Connections": {
           "North": 12110,
-          "East": 12118,
+          "East": {
+            "RoomId": 12118,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Up": 12121
         }
       },
@@ -265,7 +283,13 @@
         "Id": 12118,
         "Name": "Madam\u0027s Office #12118",
         "Connections": {
-          "West": 12117
+          "West": {
+            "RoomId": 12117,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -278,7 +302,13 @@
         "Id": 12119,
         "Name": "Masha\u0027s Room #12119",
         "Connections": {
-          "East": 12121
+          "East": {
+            "RoomId": 12121,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -291,7 +321,13 @@
         "Id": 12120,
         "Name": "Bronhilda\u0027s Room #12120",
         "Connections": {
-          "West": 12121
+          "West": {
+            "RoomId": 12121,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -304,10 +340,28 @@
         "Id": 12121,
         "Name": "Balcony #12121",
         "Connections": {
-          "East": 12120,
+          "East": {
+            "RoomId": 12120,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 12111,
-          "West": 12119,
-          "Down": 12123
+          "West": {
+            "RoomId": 12119,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 12123,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -315,7 +369,13 @@
         "Name": "Shaman\u0027s Hut #12122",
         "Connections": {
           "South": 12111,
-          "Down": 12123
+          "Down": {
+            "RoomId": 12123,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -328,7 +388,13 @@
         "Id": 12123,
         "Name": "The Basement #12123",
         "Connections": {
-          "Up": 12122
+          "Up": {
+            "RoomId": 12122,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -378,7 +444,13 @@
         "Connections": {
           "South": 12113,
           "West": 12130,
-          "Up": 12129
+          "Up": {
+            "RoomId": 12129,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -391,7 +463,13 @@
         "Id": 12129,
         "Name": "The Construct #12129",
         "Connections": {
-          "Down": 12128
+          "Down": {
+            "RoomId": 12128,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -432,17 +510,41 @@
         "Id": 12132,
         "Name": "The Stables #12132",
         "Connections": {
-          "North": 12133,
-          "East": 12134,
+          "North": {
+            "RoomId": 12133,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 12134,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 12114,
-          "West": 12135
+          "West": {
+            "RoomId": 12135,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 12133,
         "Name": "The Owlbear\u0027s Stall #12133",
         "Connections": {
-          "South": 12132
+          "South": {
+            "RoomId": 12132,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -455,7 +557,13 @@
         "Id": 12134,
         "Name": "The Cryohydra\u0027s Stall #12134",
         "Connections": {
-          "West": 12132
+          "West": {
+            "RoomId": 12132,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -470,7 +578,13 @@
         "Connections": {
           "North": 12114,
           "East": 12138,
-          "West": 12137
+          "West": {
+            "RoomId": 12137,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -485,7 +599,13 @@
         "Connections": {
           "North": 12114,
           "East": 12138,
-          "West": 12137
+          "West": {
+            "RoomId": 12137,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -498,7 +618,13 @@
         "Id": 12137,
         "Name": "Chief Constable\u0027s Office #12137",
         "Connections": {
-          "East": 12136
+          "East": {
+            "RoomId": 12136,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -521,7 +647,13 @@
         "Name": "The Back Hallway #12139",
         "Connections": {
           "East": 12140,
-          "South": 12142,
+          "South": {
+            "RoomId": 12142,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 12138
         }
       },
@@ -529,8 +661,20 @@
         "Id": 12140,
         "Name": "The End of the Hallway #12140",
         "Connections": {
-          "East": 12143,
-          "South": 12144,
+          "East": {
+            "RoomId": 12143,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 12144,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 12139
         }
       },
@@ -545,29 +689,59 @@
         "Id": 12142,
         "Name": "A Dirty Cell #12142",
         "Connections": {
-          "North": 12139
+          "North": {
+            "RoomId": 12139,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 12143,
         "Name": "A Filthy Cell #12143",
         "Connections": {
-          "West": 12140
+          "West": {
+            "RoomId": 12140,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 12144,
         "Name": "A Grimy Cell #12144",
         "Connections": {
-          "North": 12140
+          "North": {
+            "RoomId": 12140,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 12145,
         "Name": "Temple Entrance #12145",
         "Connections": {
-          "North": 12146,
-          "East": 12115
+          "North": {
+            "RoomId": 12146,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 12115,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -580,7 +754,13 @@
         "Id": 12146,
         "Name": "Brecht\u0027s Throne Room #12146",
         "Connections": {
-          "South": 12145
+          "South": {
+            "RoomId": 12145,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -608,7 +788,7 @@
       {
         "Id": 8000,
         "FrameColor": "blue",
-        "Name": "To bh #8000",
+        "Name": "To BalHarbor #8000",
         "Color": "blue",
         "Connections": {
           "North": 8150,
@@ -620,17 +800,23 @@
       {
         "Id": 20000,
         "FrameColor": "blue",
-        "Name": "To tupelo #20000",
+        "Name": "To Tupelo #20000",
         "Color": "blue",
         "Connections": {
           "East": 20001,
-          "West": 20049
+          "West": {
+            "RoomId": 20049,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 75508,
         "FrameColor": "blue",
-        "Name": "To cazel #75508",
+        "Name": "To Thremiscyra #75508",
         "Color": "blue",
         "Connections": {
           "North": 75507,

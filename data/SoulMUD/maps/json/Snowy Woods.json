@@ -1,0 +1,679 @@
+{
+  "Area": {
+    "Name": "Snowy Woods",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 16000,
+        "Name": "Zapatorium #16000",
+        "Connections": {
+          "North": {
+            "RoomId": 16001,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "East": 1016,
+          "South": 16999,
+          "West": 16998
+        }
+      },
+      {
+        "Id": 16001,
+        "Name": "Inside the Wardrobe #16001",
+        "Connections": {
+          "North": {
+            "RoomId": 16002,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 16000,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 16002,
+        "Name": "Entrance to the Snowy Woods #16002",
+        "Connections": {
+          "South": 68409,
+          "West": 16003
+        },
+        "Contents": [
+          {
+            "Text": "the eskimo fisher #9010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16003,
+        "Name": "Southern Edge of the Snowy Woods #16003",
+        "Connections": {
+          "North": 16008,
+          "East": 16002,
+          "West": 16004
+        }
+      },
+      {
+        "Id": 16004,
+        "Name": "Path in the Snowy Woods #16004",
+        "Connections": {
+          "North": 16005,
+          "East": 16003
+        }
+      },
+      {
+        "Id": 16005,
+        "Name": "Western Edge of the Snowy Woods #16005",
+        "Connections": {
+          "South": 16004,
+          "West": 16006
+        }
+      },
+      {
+        "Id": 16006,
+        "Name": "West of the Snowy Woods #16006",
+        "Connections": {
+          "East": 16005,
+          "Down": {
+            "RoomId": 16007,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 16007,
+        "Name": "House of Mr. Tumnus #16007",
+        "Connections": {
+          "Up": {
+            "RoomId": 16006,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 16008,
+        "Name": "Within the Snowy Woods #16008",
+        "Connections": {
+          "North": 16010,
+          "East": 16009,
+          "South": 16003
+        }
+      },
+      {
+        "Id": 16009,
+        "Name": "Deep Inside the Snowy Woods #16009",
+        "Connections": {
+          "North": 16011,
+          "West": 16008
+        }
+      },
+      {
+        "Id": 16010,
+        "Name": "Heart of the Snowy Woods #16010",
+        "Connections": {
+          "North": 16013,
+          "East": 16011,
+          "South": 16008
+        }
+      },
+      {
+        "Id": 16011,
+        "Name": "Eastern Edge of the Snowy Woods #16011",
+        "Connections": {
+          "North": 16014,
+          "South": 16009,
+          "West": 16010
+        }
+      },
+      {
+        "Id": 16012,
+        "Name": "A Frozen Pool #16012",
+        "Connections": {
+          "South": 16022
+        }
+      },
+      {
+        "Id": 16013,
+        "Name": "A Small Clearing in the Snowy Woods #16013",
+        "Connections": {
+          "North": 16017,
+          "East": 16014,
+          "South": 16010
+        }
+      },
+      {
+        "Id": 16014,
+        "Name": "Trail out of the Snowy Woods #16014",
+        "Connections": {
+          "East": 16015,
+          "South": 16011,
+          "West": 16013
+        }
+      },
+      {
+        "Id": 16015,
+        "Name": "Along the Trail #16015",
+        "Connections": {
+          "East": 16016,
+          "West": 16014
+        }
+      },
+      {
+        "Id": 16016,
+        "Name": "Top of a Steep Hill #16016",
+        "Connections": {
+          "West": 16015,
+          "Down": 16020
+        },
+        "Contents": [
+          {
+            "Text": "a white dragon #9006",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16017,
+        "Name": "Northern Edge of the Snowy Woods #16017",
+        "Connections": {
+          "North": 31141,
+          "South": 16013
+        }
+      },
+      {
+        "Id": 16018,
+        "Name": "On a Large Frozen River #16018",
+        "Connections": {
+          "North": 16022,
+          "South": 16019
+        },
+        "Contents": [
+          {
+            "Text": "a white dragon #9006",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 16019,
+        "Name": "River Crossing #16019",
+        "Connections": {
+          "North": 16018,
+          "East": 16024
+        }
+      },
+      {
+        "Id": 16020,
+        "Name": "On a Steep Hill #16020",
+        "Connections": {
+          "Up": 16016,
+          "Down": 16021
+        }
+      },
+      {
+        "Id": 16021,
+        "Name": "A Narrow Valley #16021",
+        "Connections": {
+          "East": 16022,
+          "Up": 16020
+        }
+      },
+      {
+        "Id": 16022,
+        "Name": "On a Dam #16022",
+        "Connections": {
+          "North": 16012,
+          "East": {
+            "RoomId": 16023,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 16018,
+          "West": 16021
+        }
+      },
+      {
+        "Id": 16023,
+        "Name": "House of Mr. Beaver #16023",
+        "Connections": {
+          "West": {
+            "RoomId": 16022,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 16024,
+        "Name": "On a Small River #16024",
+        "Connections": {
+          "East": 16025,
+          "West": 16019
+        }
+      },
+      {
+        "Id": 16025,
+        "Name": "A Small Valley #16025",
+        "Connections": {
+          "West": 16024,
+          "Up": 16026
+        },
+        "Contents": [
+          {
+            "Text": "the frost giantess #9019",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16026,
+        "Name": "The Side of a Hill #16026",
+        "Connections": {
+          "Up": 16027,
+          "Down": 16025
+        }
+      },
+      {
+        "Id": 16027,
+        "Name": "Between Two Hills #16027",
+        "Connections": {
+          "East": 16030,
+          "West": 16028,
+          "Down": 16026
+        }
+      },
+      {
+        "Id": 16028,
+        "Name": "Base of the Western Hill #16028",
+        "Connections": {
+          "North": 9056,
+          "East": 16027,
+          "Up": 16029
+        }
+      },
+      {
+        "Id": 16029,
+        "Name": "Top of the Western Hill #16029",
+        "Connections": {
+          "Down": 16028
+        },
+        "Contents": [
+          {
+            "Text": "the frost giant #9018",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 16030,
+        "Name": "Base of the Eastern Hill #16030",
+        "Connections": {
+          "West": 16027,
+          "Up": 16031
+        }
+      },
+      {
+        "Id": 16031,
+        "Name": "Top of the Eastern Hill #16031",
+        "Connections": {
+          "North": 42856,
+          "Down": 16030
+        }
+      },
+      {
+        "Id": 16032,
+        "Name": "Before the White Witch\u0027s Castle #16032",
+        "Connections": {
+          "North": 16033,
+          "South": 16027
+        }
+      },
+      {
+        "Id": 16033,
+        "Name": "Entrance to the Courtyard #16033",
+        "Connections": {
+          "North": 16034,
+          "South": 16032
+        }
+      },
+      {
+        "Id": 16034,
+        "Name": "Southern Edge of the Courtyard #16034",
+        "Connections": {
+          "North": 16041,
+          "East": 16037,
+          "South": 16033,
+          "West": 16035
+        }
+      },
+      {
+        "Id": 16035,
+        "Name": "Southern Edge of the Courtyard #16035",
+        "Connections": {
+          "North": 16040,
+          "East": 16034,
+          "West": 16036
+        }
+      },
+      {
+        "Id": 16036,
+        "Name": "Southwest Corner of the Courtyard #16036",
+        "Connections": {
+          "North": 16039,
+          "East": 16035
+        }
+      },
+      {
+        "Id": 16037,
+        "Name": "Southern Edge of the Courtyard #16037",
+        "Connections": {
+          "North": 16042,
+          "East": 16038,
+          "West": 16034
+        }
+      },
+      {
+        "Id": 16038,
+        "Name": "Southeast Corner of the Courtyard #16038",
+        "Connections": {
+          "North": 16043,
+          "West": 16037
+        }
+      },
+      {
+        "Id": 16039,
+        "Name": "Western Edge of the Courtyard #16039",
+        "Connections": {
+          "North": 16044,
+          "East": 16040,
+          "South": 16036
+        }
+      },
+      {
+        "Id": 16040,
+        "Name": "Inside the Courtyard #16040",
+        "Connections": {
+          "North": 16045,
+          "East": 16041,
+          "South": 16035,
+          "West": 16039
+        }
+      },
+      {
+        "Id": 16041,
+        "Name": "Inside the Courtyard #16041",
+        "Connections": {
+          "North": 16046,
+          "East": 16042,
+          "South": 16034,
+          "West": 16040
+        }
+      },
+      {
+        "Id": 16042,
+        "Name": "Inside the Courtyard #16042",
+        "Connections": {
+          "North": 16047,
+          "East": 16043,
+          "South": 16037,
+          "West": 16041
+        }
+      },
+      {
+        "Id": 16043,
+        "Name": "Eastern Edge of the Courtyard #16043",
+        "Connections": {
+          "North": 16048,
+          "South": 16038,
+          "West": 16042
+        }
+      },
+      {
+        "Id": 16044,
+        "Name": "Western Edge of the Courtyard #16044",
+        "Connections": {
+          "North": 16049,
+          "East": 16045,
+          "South": 16039
+        }
+      },
+      {
+        "Id": 16045,
+        "Name": "Inside the Courtyard #16045",
+        "Connections": {
+          "North": 16050,
+          "East": 16046,
+          "South": 16040,
+          "West": 16044
+        }
+      },
+      {
+        "Id": 16046,
+        "Name": "Center of the Courtyard #16046",
+        "Connections": {
+          "North": 16051,
+          "East": 16047,
+          "South": 16041,
+          "West": 16045
+        }
+      },
+      {
+        "Id": 16047,
+        "Name": "Inside the Courtyard #16047",
+        "Connections": {
+          "North": 16052,
+          "East": 16048,
+          "South": 16042,
+          "West": 16046
+        }
+      },
+      {
+        "Id": 16048,
+        "Name": "Eastern Edge of the Courtyard #16048",
+        "Connections": {
+          "North": 16053,
+          "South": 16043,
+          "West": 16047
+        }
+      },
+      {
+        "Id": 16049,
+        "Name": "Western Edge of the Courtyard #16049",
+        "Connections": {
+          "North": 16054,
+          "East": 16050,
+          "South": 16044
+        }
+      },
+      {
+        "Id": 16050,
+        "Name": "Inside the Courtyard #16050",
+        "Connections": {
+          "North": 16055,
+          "East": 16051,
+          "South": 16045,
+          "West": 16049
+        }
+      },
+      {
+        "Id": 16051,
+        "Name": "Inside the Courtyard #16051",
+        "Connections": {
+          "North": 16056,
+          "East": 16052,
+          "South": 16046,
+          "West": 16050
+        }
+      },
+      {
+        "Id": 16052,
+        "Name": "Inside the Courtyard #16052",
+        "Connections": {
+          "North": 16057,
+          "East": 16053,
+          "South": 16047,
+          "West": 16051
+        }
+      },
+      {
+        "Id": 16053,
+        "Name": "Eastern Edge of the Courtyard #16053",
+        "Connections": {
+          "North": 16058,
+          "South": 16048,
+          "West": 16052
+        }
+      },
+      {
+        "Id": 16054,
+        "Name": "Northwest Corner of the Courtyard #16054",
+        "Connections": {
+          "East": 16055,
+          "South": 16059
+        }
+      },
+      {
+        "Id": 16055,
+        "Name": "Northern Edge of the Courtyard #16055",
+        "Connections": {
+          "East": 16056,
+          "South": 16050,
+          "West": 16054
+        }
+      },
+      {
+        "Id": 16056,
+        "Name": "Northern Edge of the Courtyard #16056",
+        "Connections": {
+          "North": 16059,
+          "East": 16057,
+          "South": 16051,
+          "West": 16055
+        }
+      },
+      {
+        "Id": 16057,
+        "Name": "Northern Edge of the Courtyard #16057",
+        "Connections": {
+          "East": 16058,
+          "South": 16052,
+          "West": 16056
+        }
+      },
+      {
+        "Id": 16058,
+        "Name": "Northeast Corner of the Courtyard #16058",
+        "Connections": {
+          "South": 16053,
+          "West": 16057
+        }
+      },
+      {
+        "Id": 16059,
+        "Name": "Stairs to the Castle Entrance #16059",
+        "Connections": {
+          "North": 16054,
+          "South": 16056,
+          "Up": 16060
+        }
+      },
+      {
+        "Id": 16060,
+        "Name": "Front Door of the Castle #16060",
+        "Connections": {
+          "Down": 16059
+        }
+      },
+      {
+        "Id": 16996,
+        "Name": "The Polar Storm #16996",
+        "Connections": {}
+      },
+      {
+        "Id": 16997,
+        "Name": "Zap\u0027s Top Secret Maximum-Security Creation Lab #16997",
+        "Connections": {}
+      },
+      {
+        "Id": 16998,
+        "Name": "Zap\u0027s Game Room #16998",
+        "Connections": {
+          "East": 16000
+        }
+      },
+      {
+        "Id": 16999,
+        "Name": "BATMAN #16999",
+        "Connections": {
+          "North": 16000
+        }
+      },
+      {
+        "Id": 1016,
+        "FrameColor": "blue",
+        "Name": "To Godsland #1016",
+        "Color": "blue",
+        "Connections": {}
+      },
+      {
+        "Id": 68409,
+        "FrameColor": "blue",
+        "Name": "To Merryville Pond #68409",
+        "Color": "blue",
+        "Connections": {
+          "North": 16002,
+          "West": 68410
+        }
+      },
+      {
+        "Id": 31141,
+        "FrameColor": "blue",
+        "Name": "To Pangor Keep #31141",
+        "Color": "blue",
+        "Connections": {
+          "North": 31140,
+          "South": 16017
+        }
+      },
+      {
+        "Id": 9056,
+        "FrameColor": "blue",
+        "Name": "To Catacombs #9056",
+        "Color": "blue",
+        "Connections": {
+          "North": 9057,
+          "South": 16028
+        }
+      },
+      {
+        "Id": 42856,
+        "FrameColor": "blue",
+        "Name": "To Orcs #42856",
+        "Color": "blue",
+        "Connections": {
+          "South": 16031,
+          "Down": 42853
+        }
+      }
+    ]
+  }
+}

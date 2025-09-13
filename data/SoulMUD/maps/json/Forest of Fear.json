@@ -1,0 +1,1032 @@
+{
+  "Area": {
+    "Name": "Forest of Fear",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 42000,
+        "Name": "Abode of the Wild-Mage #42000",
+        "Connections": {
+          "North": 999,
+          "East": 42420,
+          "South": 998,
+          "West": 42,
+          "Up": 42059,
+          "Down": 20042
+        }
+      },
+      {
+        "Id": 42001,
+        "Name": "Timely Path #42001",
+        "Connections": {
+          "North": 42002,
+          "East": 42026,
+          "South": 42025
+        },
+        "Contents": [
+          {
+            "Text": "a pesky gadfly #42005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42002,
+        "Name": "Worn Path #42002",
+        "Connections": {
+          "North": 42003,
+          "South": 42001
+        },
+        "Contents": [
+          {
+            "Text": "Will O\u0027 the Wisp #42009",
+            "Color": "green"
+          },
+          {
+            "Text": "Will O\u0027 the Wisp #42009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42003,
+        "Name": "Bend in Path #42003",
+        "Connections": {
+          "East": 42004,
+          "South": 42002,
+          "West": 42045
+        },
+        "Contents": [
+          {
+            "Text": "a treant #42002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42004,
+        "Name": "By a Pond #42004",
+        "Connections": {
+          "North": 42006,
+          "West": 42003,
+          "Down": 42005
+        },
+        "Contents": [
+          {
+            "Text": "Will O\u0027 the Wisp #42009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42005,
+        "Name": "Beneath the Water #42005",
+        "Connections": {
+          "West": 42055,
+          "Up": 42004
+        }
+      },
+      {
+        "Id": 42006,
+        "Name": "Under an Elm #42006",
+        "Connections": {
+          "South": 42004,
+          "West": 42007
+        },
+        "Contents": [
+          {
+            "Text": "a treant #42002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42007,
+        "Name": "Beside a Black Oak Tree #42007",
+        "Connections": {
+          "North": 42009,
+          "East": 42006,
+          "West": 42008
+        },
+        "Contents": [
+          {
+            "Text": "a grell philosopher #42014",
+            "Color": "green"
+          },
+          {
+            "Text": "Will O\u0027 the Wisp #42009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42008,
+        "Name": "Fall of the Hounds #42008",
+        "Connections": {
+          "North": 42020,
+          "East": 42007
+        }
+      },
+      {
+        "Id": 42009,
+        "Name": "Before the Great Oak #42009",
+        "Connections": {
+          "North": 42010,
+          "South": 42007
+        },
+        "Contents": [
+          {
+            "Text": "a grell philosopher #42014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42010,
+        "Name": "Inside the Oak #42010",
+        "Connections": {
+          "South": 42009,
+          "Up": 42011
+        }
+      },
+      {
+        "Id": 42011,
+        "Name": "Climbing in the Tree #42011",
+        "Connections": {
+          "Up": 42012,
+          "Down": 42010
+        }
+      },
+      {
+        "Id": 42012,
+        "Name": "Nest of Wyverns #42012",
+        "Connections": {
+          "Down": 42011
+        },
+        "Contents": [
+          {
+            "Text": "a baby wyvern #42011",
+            "Color": "red"
+          },
+          {
+            "Text": "a baby wyvern #42011",
+            "Color": "red"
+          },
+          {
+            "Text": "a baby wyvern #42011",
+            "Color": "red"
+          },
+          {
+            "Text": "a baby wyvern #42011",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42013,
+        "Name": "Falling #42013",
+        "Connections": {
+          "Down": 42019
+        }
+      },
+      {
+        "Id": 42014,
+        "Name": "On a Ledge #42014",
+        "Connections": {
+          "Down": 42019
+        }
+      },
+      {
+        "Id": 42015,
+        "Name": "Purgatory #42015",
+        "Connections": {
+          "North": 42016,
+          "South": 42042
+        }
+      },
+      {
+        "Id": 42016,
+        "Name": "Oblivion #42016",
+        "Connections": {
+          "North": 42017,
+          "South": 42015
+        }
+      },
+      {
+        "Id": 42017,
+        "Name": "Lair of the Dracolich #42017",
+        "Connections": {
+          "South": 42016
+        },
+        "Contents": [
+          {
+            "Text": "the dracolich XerXes #42001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42019,
+        "Name": "Falling Further #42019",
+        "Connections": {
+          "Down": 42021
+        }
+      },
+      {
+        "Id": 42020,
+        "Name": "Mushroom Glade #42020",
+        "Connections": {
+          "South": 42008,
+          "Up": 42053
+        },
+        "Contents": [
+          {
+            "Text": "an overgrown hound #42003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42021,
+        "Name": "Falling Faster #42021",
+        "Connections": {
+          "Down": 42024
+        }
+      },
+      {
+        "Id": 42023,
+        "Name": "Ice Cold Pool #42023",
+        "Connections": {
+          "East": 42028
+        }
+      },
+      {
+        "Id": 42024,
+        "Name": "Falling Faster Further #42024",
+        "Connections": {
+          "Down": 42023
+        }
+      },
+      {
+        "Id": 42025,
+        "Name": "Below a Fern #42025",
+        "Connections": {
+          "North": 42001,
+          "West": 42027
+        },
+        "Contents": [
+          {
+            "Text": "a treant #42002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42026,
+        "Name": "Intersection of Trails #42026",
+        "Connections": {
+          "North": 42030,
+          "East": 42032,
+          "South": 42029,
+          "West": 42001
+        }
+      },
+      {
+        "Id": 42027,
+        "Name": "Weeping Willow #42027",
+        "Connections": {
+          "East": 42025,
+          "West": 42028
+        }
+      },
+      {
+        "Id": 42028,
+        "Name": "Winding Path #42028",
+        "Connections": {
+          "East": 42027,
+          "South": 42054,
+          "West": 42023
+        },
+        "Contents": [
+          {
+            "Text": "a treant #42002",
+            "Color": "green"
+          },
+          {
+            "Text": "a pesky gadfly #42005",
+            "Color": "green"
+          },
+          {
+            "Text": "a pesky gadfly #42005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42029,
+        "Name": "Broken Trail #42029",
+        "Connections": {
+          "North": 42026,
+          "South": 42031
+        }
+      },
+      {
+        "Id": 42030,
+        "Name": "Brazen Statue #42030",
+        "Connections": {
+          "South": 42026
+        },
+        "Contents": [
+          {
+            "Text": "A statue of ruby #42006",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42031,
+        "Name": "Circle of Skulls #42031",
+        "Connections": {
+          "North": 42029
+        },
+        "Contents": [
+          {
+            "Text": "a sandshark #42004",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42032,
+        "Name": "Cove by a Clearing #42032",
+        "Connections": {
+          "East": 42033,
+          "West": 42026
+        },
+        "Contents": [
+          {
+            "Text": "a treant #42002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42033,
+        "Name": "Clearing Before a Cave #42033",
+        "Connections": {
+          "East": 42035,
+          "South": 42034,
+          "West": 42032
+        },
+        "Contents": [
+          {
+            "Text": "a pesky gadfly #42005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42034,
+        "Name": "Beaten Path #42034",
+        "Connections": {
+          "North": 42033
+        },
+        "Contents": [
+          {
+            "Text": "a blood elf scout #42010",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42035,
+        "Name": "Cave Entrance #42035",
+        "Connections": {
+          "North": 42036,
+          "West": 42033
+        }
+      },
+      {
+        "Id": 42036,
+        "Name": "Ancient Altar #42036",
+        "Connections": {
+          "North": {
+            "RoomId": 42037,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a platinum key #6002",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 42035
+        },
+        "Contents": [
+          {
+            "Text": "a quasi-elemental #42013",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42037,
+        "Name": "Before a Raging River #42037",
+        "Connections": {
+          "East": 42038
+        },
+        "Contents": [
+          {
+            "Text": "a wave spider #42015",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42038,
+        "Name": "Rapids #42038",
+        "Connections": {
+          "East": 42039
+        }
+      },
+      {
+        "Id": 42039,
+        "Name": "Waterfall #42039",
+        "Connections": {
+          "West": 42038,
+          "Down": 42040
+        }
+      },
+      {
+        "Id": 42040,
+        "Name": "Platonic View #42040",
+        "Connections": {
+          "Down": 42041
+        }
+      },
+      {
+        "Id": 42041,
+        "Name": "Flipping #42041",
+        "Connections": {
+          "Down": 42042
+        }
+      },
+      {
+        "Id": 42042,
+        "Name": "Floating #42042",
+        "Connections": {
+          "North": 42015,
+          "Down": 42043
+        },
+        "Contents": [
+          {
+            "Text": "a pesky gadfly #42005",
+            "Color": "green"
+          },
+          {
+            "Text": "a pesky gadfly #42005",
+            "Color": "green"
+          },
+          {
+            "Text": "a pesky gadfly #42005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42043,
+        "Name": "Flying #42043",
+        "Connections": {
+          "Down": 42044
+        }
+      },
+      {
+        "Id": 42044,
+        "Name": "Flying Faster #42044",
+        "Connections": {
+          "Down": 42013
+        }
+      },
+      {
+        "Id": 42045,
+        "Name": "Twisted Tree #42045",
+        "Connections": {
+          "East": 42003,
+          "South": 42057,
+          "Up": 42046
+        }
+      },
+      {
+        "Id": 42046,
+        "Name": "Up a Birch Tree #42046",
+        "Connections": {
+          "South": 42047,
+          "West": 42048,
+          "Up": 42049,
+          "Down": 42045
+        },
+        "Contents": [
+          {
+            "Text": "a grell philosopher #42014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42047,
+        "Name": "Crushed Branch #42047",
+        "Connections": {
+          "North": 42046
+        },
+        "Contents": [
+          {
+            "Text": "a wolverine #42016",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42048,
+        "Name": "Clinging to a Limb #42048",
+        "Connections": {
+          "East": 42046
+        },
+        "Contents": [
+          {
+            "Text": "a wolverine #42016",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42049,
+        "Name": "Higher in the Tree #42049",
+        "Connections": {
+          "North": 42050,
+          "Down": 42046
+        }
+      },
+      {
+        "Id": 42050,
+        "Name": "Twisted Branch #42050",
+        "Connections": {
+          "South": 42049,
+          "West": 42051
+        },
+        "Contents": [
+          {
+            "Text": "a grell philosopher #42014",
+            "Color": "green"
+          },
+          {
+            "Text": "a grell philosopher #42014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42051,
+        "Name": "Jumble of Branches #42051",
+        "Connections": {
+          "North": 42053,
+          "East": 42050,
+          "West": 42052
+        }
+      },
+      {
+        "Id": 42052,
+        "Name": "Broken Branch #42052",
+        "Connections": {
+          "East": 42051
+        },
+        "Contents": [
+          {
+            "Text": "a wolverine #42016",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42053,
+        "Name": "Eaten Leaves #42053",
+        "Connections": {
+          "South": 42051,
+          "Down": 42020
+        }
+      },
+      {
+        "Id": 42054,
+        "Name": "On a Trail #42054",
+        "Connections": {
+          "North": 42028,
+          "South": 18056
+        }
+      },
+      {
+        "Id": 42055,
+        "Name": "Underwater Crevice #42055",
+        "Connections": {
+          "East": 42005,
+          "West": 42056
+        },
+        "Contents": [
+          {
+            "Text": "an eye of the deep #42007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42056,
+        "Name": "Murky Depths #42056",
+        "Connections": {
+          "East": 42055
+        },
+        "Contents": [
+          {
+            "Text": "a naga #42008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42057,
+        "Name": "Bloody Glade #42057",
+        "Connections": {
+          "North": 42045,
+          "Up": 42058
+        },
+        "Contents": [
+          {
+            "Text": "a treant #42002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42058,
+        "Name": "Wyverns\u0027 Perch #42058",
+        "Connections": {
+          "Down": 42057
+        },
+        "Contents": [
+          {
+            "Text": "a large wyvern #42012",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42059,
+        "Name": "Libido #42059",
+        "Connections": {
+          "North": 77144,
+          "East": 56048,
+          "South": 42650,
+          "West": 42263,
+          "Down": 42000
+        }
+      },
+      {
+        "Id": 42061,
+        "Name": "At a Statue #42061",
+        "Connections": {
+          "North": 42064,
+          "East": 42062,
+          "South": 9873,
+          "West": 42063
+        }
+      },
+      {
+        "Id": 42062,
+        "Name": "The Green Room #42062",
+        "Connections": {
+          "West": 42061
+        },
+        "Contents": [
+          {
+            "Text": "a follower of chaos #1303",
+            "Color": "green"
+          },
+          {
+            "Text": "a follower of chaos #1303",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42063,
+        "Name": "The Black Room #42063",
+        "Connections": {
+          "East": 42061
+        },
+        "Contents": [
+          {
+            "Text": "a follower of chaos #1303",
+            "Color": "green"
+          },
+          {
+            "Text": "a follower of chaos #1303",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42064,
+        "Name": "A Chaos Spring #42064",
+        "Connections": {
+          "North": 1303,
+          "East": 42066,
+          "South": 42061,
+          "West": 42074
+        }
+      },
+      {
+        "Id": 42065,
+        "Name": "Chaos #42065",
+        "Connections": {
+          "Down": {
+            "RoomId": 42073,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the Avatar of Chaos #42065",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42066,
+        "Name": "Sacred Chamber #42066",
+        "Connections": {
+          "West": 42064
+        },
+        "Contents": [
+          {
+            "Text": "a chaos monk #1309",
+            "Color": "green"
+          },
+          {
+            "Text": "a chaos monk #1309",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42067,
+        "Name": "The Silver Room #42067",
+        "Connections": {
+          "East": 1303
+        },
+        "Contents": [
+          {
+            "Text": "a priest of chaos #1310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42068,
+        "Name": "The Blue Room #42068",
+        "Connections": {
+          "West": 1303
+        },
+        "Contents": [
+          {
+            "Text": "a priest of chaos #1310",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42069,
+        "Name": "Room With a View #42069",
+        "Connections": {
+          "South": 1303
+        },
+        "Contents": [
+          {
+            "Text": "a chaos crone #1308",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42071,
+        "Name": "Well of Chaos #42071",
+        "Connections": {
+          "Up": 1303
+        },
+        "Contents": [
+          {
+            "Text": "The high mage of Kyuss #1307",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42072,
+        "Name": "Atop the Balcony #42072",
+        "Connections": {
+          "Down": 1303
+        },
+        "Contents": [
+          {
+            "Text": "a chaos bard #1306",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42073,
+        "Name": "Within the Chaos Field #42073",
+        "Connections": {
+          "Up": {
+            "RoomId": 42065,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an astral dreadnaught #1305",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42074,
+        "Name": "Confessional Booth #42074",
+        "Connections": {
+          "East": 42064
+        },
+        "Contents": [
+          {
+            "Text": "a chaos mage #1304",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42084,
+        "Name": "Killing Grounds #42084",
+        "Connections": {
+          "North": 42000,
+          "East": 54
+        }
+      },
+      {
+        "Id": 42100,
+        "Name": "none #42100",
+        "Connections": {}
+      },
+      {
+        "Id": 999,
+        "FrameColor": "blue",
+        "Name": "To Godsland #999",
+        "Color": "blue",
+        "Connections": {}
+      },
+      {
+        "Id": 42420,
+        "FrameColor": "blue",
+        "Name": "To Happy Hunting #42420",
+        "Color": "blue",
+        "Connections": {
+          "South": 42442,
+          "West": 42000
+        }
+      },
+      {
+        "Id": 998,
+        "FrameColor": "blue",
+        "Name": "To Godsland #998",
+        "Color": "blue",
+        "Connections": {}
+      },
+      {
+        "Id": 42,
+        "FrameColor": "blue",
+        "Name": "To Godsland #42",
+        "Color": "blue",
+        "Connections": {
+          "North": 44,
+          "East": 42000,
+          "South": 54,
+          "West": 66,
+          "Up": 45,
+          "Down": 20042
+        }
+      },
+      {
+        "Id": 20042,
+        "FrameColor": "blue",
+        "Name": "To Tupelo #20042",
+        "Color": "blue",
+        "Connections": {
+          "South": 20041
+        }
+      },
+      {
+        "Id": 18056,
+        "FrameColor": "blue",
+        "Name": "To Giant Mountain #18056",
+        "Color": "blue",
+        "Connections": {
+          "North": 42054,
+          "South": 18001
+        }
+      },
+      {
+        "Id": 77144,
+        "FrameColor": "blue",
+        "Name": "To Matterhorn #77144",
+        "Color": "blue",
+        "Connections": {
+          "North": 77145,
+          "West": 77033
+        }
+      },
+      {
+        "Id": 56048,
+        "FrameColor": "blue",
+        "Name": "To Desert #56048",
+        "Color": "blue",
+        "Connections": {
+          "South": 56047,
+          "West": 56049
+        }
+      },
+      {
+        "Id": 42650,
+        "FrameColor": "blue",
+        "Name": "To Happy Hunting #42650",
+        "Color": "blue",
+        "Connections": {
+          "North": 42651,
+          "East": 42659,
+          "South": 42669,
+          "West": 42647
+        }
+      },
+      {
+        "Id": 42263,
+        "FrameColor": "blue",
+        "Name": "To Jumanji #42263",
+        "Color": "blue",
+        "Connections": {
+          "South": 42243,
+          "West": 42252
+        }
+      },
+      {
+        "Id": 9873,
+        "FrameColor": "blue",
+        "Name": "To Goblin Cave #9873",
+        "Color": "blue",
+        "Connections": {
+          "North": 42061,
+          "East": 9874,
+          "West": 9872
+        }
+      },
+      {
+        "Id": 1303,
+        "FrameColor": "blue",
+        "Name": "To Godsland #1303",
+        "Color": "blue",
+        "Connections": {
+          "North": 42069,
+          "East": 42068,
+          "South": 42064,
+          "West": 42067,
+          "Up": 42072,
+          "Down": 42071
+        }
+      },
+      {
+        "Id": 54,
+        "FrameColor": "blue",
+        "Name": "To Godsland #54",
+        "Color": "blue",
+        "Connections": {
+          "North": 42,
+          "East": 42442,
+          "South": 54,
+          "West": 54,
+          "Up": 54,
+          "Down": 54
+        }
+      }
+    ]
+  }
+}

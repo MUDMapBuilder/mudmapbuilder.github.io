@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "skrymir2",
+    "Name": "Skrymir2",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -128,7 +128,13 @@
         "Id": 18119,
         "Name": "Inside A Huge Metal Tank Of Water #18119",
         "Connections": {
-          "North": 18120,
+          "North": {
+            "RoomId": 18120,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Up": 18108
         }
       },
@@ -152,7 +158,13 @@
         "Id": 18122,
         "Name": "The Short Path #18122",
         "Connections": {
-          "East": 18132,
+          "East": {
+            "RoomId": 18132,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 18121
         }
       },
@@ -199,7 +211,13 @@
         "Id": 18128,
         "Name": "The Long Haul #18128",
         "Connections": {
-          "East": 18132,
+          "East": {
+            "RoomId": 18132,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 18127
         }
       },
@@ -222,7 +240,13 @@
         "Id": 18131,
         "Name": "The Middle Road #18131",
         "Connections": {
-          "East": 18132,
+          "East": {
+            "RoomId": 18132,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 18130
         }
       },

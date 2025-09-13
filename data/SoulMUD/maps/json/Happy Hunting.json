@@ -1,0 +1,2437 @@
+{
+  "Area": {
+    "Name": "Happy Hunting",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 42310,
+        "Name": "A Green Grass Field #42310",
+        "Connections": {
+          "North": 42646,
+          "South": 42311
+        }
+      },
+      {
+        "Id": 42311,
+        "Name": "A Serene Grass Field #42311",
+        "Connections": {
+          "North": 42310,
+          "South": 42312
+        }
+      },
+      {
+        "Id": 42312,
+        "Name": "Below the Guard Tower #42312",
+        "Connections": {
+          "North": 42311,
+          "East": 42313
+        },
+        "Contents": [
+          {
+            "Text": "an orcish warrior #42615",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42313,
+        "Name": "A Dirt Road  #42313",
+        "Connections": {
+          "East": 42314,
+          "West": 42312
+        },
+        "Contents": [
+          {
+            "Text": "a warrior orc #42616",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42314,
+        "Name": "A Dirt Path #42314",
+        "Connections": {
+          "East": 42315,
+          "West": 42313
+        }
+      },
+      {
+        "Id": 42315,
+        "Name": "Corner of Fort #42315",
+        "Connections": {
+          "North": 42316,
+          "West": 42314
+        },
+        "Contents": [
+          {
+            "Text": "a warrior orc #42616",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42316,
+        "Name": "A Dirt Road #42316",
+        "Connections": {
+          "North": 42317,
+          "South": 42315
+        },
+        "Contents": [
+          {
+            "Text": "a grunt orc #42601",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42317,
+        "Name": "A Dirt Road  #42317",
+        "Connections": {
+          "North": 42318,
+          "South": 42316
+        },
+        "Contents": [
+          {
+            "Text": "a warrior orc #42616",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42318,
+        "Name": "Split in the Dirt Path #42318",
+        "Connections": {
+          "North": 42319,
+          "East": 42324,
+          "South": 42317
+        },
+        "Contents": [
+          {
+            "Text": "a grunt orc #42601",
+            "Color": "green"
+          },
+          {
+            "Text": "a laughing hyena #42606",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42319,
+        "Name": "Corner of the Fort #42319",
+        "Connections": {
+          "South": 42318,
+          "West": 42320
+        },
+        "Contents": [
+          {
+            "Text": "a warrior orc #42616",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42320,
+        "Name": "A Dirt Road #42320",
+        "Connections": {
+          "East": 42319,
+          "West": 42321
+        }
+      },
+      {
+        "Id": 42321,
+        "Name": "A Dirt Road #42321",
+        "Connections": {
+          "East": 42320,
+          "West": 42322
+        }
+      },
+      {
+        "Id": 42322,
+        "Name": "Corner of the Fort #42322",
+        "Connections": {
+          "East": 42321,
+          "South": 42323
+        },
+        "Contents": [
+          {
+            "Text": "an orcish warrior #42615",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42323,
+        "Name": "A Dirt Road #42323",
+        "Connections": {
+          "North": 42322,
+          "South": 42646
+        }
+      },
+      {
+        "Id": 42324,
+        "Name": "Between the Fields #42324",
+        "Connections": {
+          "East": 42325,
+          "West": 42318
+        },
+        "Contents": [
+          {
+            "Text": "an orcish grunt #42600",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42325,
+        "Name": "A Dirt Path #42325",
+        "Connections": {
+          "East": 42326,
+          "West": 42324
+        }
+      },
+      {
+        "Id": 42326,
+        "Name": "A Dirt Road  #42326",
+        "Connections": {
+          "North": 42327,
+          "East": 42328,
+          "West": 42325
+        },
+        "Contents": [
+          {
+            "Text": "a grunt orc #42601",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42327,
+        "Name": "The Waystation #42327",
+        "Connections": {
+          "South": 42326
+        },
+        "Contents": [
+          {
+            "Text": "an orcish hurler #42617",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42328,
+        "Name": "A Dirt Pathway #42328",
+        "Connections": {
+          "East": 42329,
+          "West": 42326
+        },
+        "Contents": [
+          {
+            "Text": "an orcish grunt #42600",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42329,
+        "Name": "A Dirt Pathway #42329",
+        "Connections": {
+          "East": {
+            "RoomId": 12018,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 42330,
+          "West": 42328
+        }
+      },
+      {
+        "Id": 42330,
+        "Name": "Where the Red Fern Grows #42330",
+        "Connections": {
+          "North": 42329
+        },
+        "Contents": [
+          {
+            "Text": "a warrior orc #42616",
+            "Color": "green"
+          },
+          {
+            "Text": "a warrior orc #42616",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42331,
+        "Name": "A Flowery Trail #42331",
+        "Connections": {
+          "North": 42333,
+          "East": 42332,
+          "West": 42329
+        }
+      },
+      {
+        "Id": 42332,
+        "Name": "A Wooden Pavillion #42332",
+        "Connections": {
+          "West": 42331
+        }
+      },
+      {
+        "Id": 42333,
+        "Name": "A Flowery Trail #42333",
+        "Connections": {
+          "North": 42334,
+          "South": 42331,
+          "West": 42335
+        }
+      },
+      {
+        "Id": 42334,
+        "Name": "A Small Dirt Road #42334",
+        "Connections": {
+          "South": 42333
+        }
+      },
+      {
+        "Id": 42335,
+        "Name": "A Bed of Roses #42335",
+        "Connections": {
+          "East": 42333
+        }
+      },
+      {
+        "Id": 42420,
+        "Name": "The Difference Between Two Stars #42420",
+        "Connections": {
+          "South": 42442,
+          "West": 42000
+        }
+      },
+      {
+        "Id": 42421,
+        "Name": "Limestone Corridor #42421",
+        "Connections": {
+          "East": 42423,
+          "West": 42698
+        }
+      },
+      {
+        "Id": 42422,
+        "Name": "Craggy Cave #42422",
+        "Connections": {
+          "East": 42425,
+          "West": 42424
+        }
+      },
+      {
+        "Id": 42423,
+        "Name": "Limestone Corridor #42423",
+        "Connections": {
+          "West": 42698,
+          "Up": {
+            "RoomId": 42424,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 42424,
+        "Name": "Back of the Craggy Cave #42424",
+        "Connections": {
+          "East": 42422,
+          "Down": {
+            "RoomId": 42423,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 42425,
+        "Name": "Rocky Cavern #42425",
+        "Connections": {
+          "East": 42431,
+          "South": 42426,
+          "West": 42422
+        },
+        "Contents": [
+          {
+            "Text": "an orcish warrior #42615",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42426,
+        "Name": "Rock Pile Road #42426",
+        "Connections": {
+          "North": 42425,
+          "South": 42427
+        }
+      },
+      {
+        "Id": 42427,
+        "Name": "Rocky Trailway #42427",
+        "Connections": {
+          "North": 42426,
+          "South": 42428
+        }
+      },
+      {
+        "Id": 42428,
+        "Name": "Rocky Trail #42428",
+        "Connections": {
+          "North": 42427,
+          "West": 42429
+        },
+        "Contents": [
+          {
+            "Text": "an orcish elite #42619",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42429,
+        "Name": "Rocky Bottleneck #42429",
+        "Connections": {
+          "East": 42428,
+          "South": 42430
+        }
+      },
+      {
+        "Id": 42430,
+        "Name": "Bend in Rocky Trail #42430",
+        "Connections": {
+          "North": 42429,
+          "West": 42499
+        },
+        "Contents": [
+          {
+            "Text": "an orcish elite #42619",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42431,
+        "Name": "Rocky Road #42431",
+        "Connections": {
+          "East": 42498,
+          "West": 42425
+        }
+      },
+      {
+        "Id": 42432,
+        "Name": "Rocky Coast #42432",
+        "Connections": {
+          "East": 42499,
+          "West": 42508
+        },
+        "Contents": [
+          {
+            "Text": "an orcish elite #42619",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42442,
+        "Name": "Between Chaos \u0026 Order #42442",
+        "Connections": {
+          "North": 42420,
+          "West": 54
+        }
+      },
+      {
+        "Id": 42497,
+        "Name": "A Long Wooden Pier #42497",
+        "Connections": {
+          "South": 42524
+        },
+        "Contents": [
+          {
+            "Text": "an amazon fisher #42497",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42498,
+        "Name": "Between the Fields #42498",
+        "Connections": {
+          "East": 75091,
+          "West": 42431
+        }
+      },
+      {
+        "Id": 42499,
+        "Name": "Craggy Seaboard #42499",
+        "Connections": {
+          "East": 42430,
+          "West": 42432
+        }
+      },
+      {
+        "Id": 42500,
+        "Name": "A Sparkling Cavern #42500",
+        "Connections": {
+          "North": 42676,
+          "South": 42501
+        }
+      },
+      {
+        "Id": 42501,
+        "Name": "Before the Glimmering Cavern #42501",
+        "Connections": {
+          "North": 42500,
+          "South": 42502
+        },
+        "Contents": [
+          {
+            "Text": "an orcish elite #42620",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42502,
+        "Name": "Rocky Coastline #42502",
+        "Connections": {
+          "North": 42501,
+          "East": 42507,
+          "West": 42506
+        }
+      },
+      {
+        "Id": 42503,
+        "Name": "Custom\u0027s Booth #42503",
+        "Connections": {
+          "West": {
+            "RoomId": 42518,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a currupt guard #42503",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42504,
+        "Name": "Deep Blue Sea #42504",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "a school of hammerhead sharks #42524",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42505,
+        "Name": "Deep Deep Sea #42505",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "a giant kalamari #40522",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42506,
+        "Name": "A Campsite #42506",
+        "Connections": {
+          "East": 42502
+        },
+        "Contents": [
+          {
+            "Text": "an orcish magi #42607",
+            "Color": "red"
+          },
+          {
+            "Text": "an orcish elite #42620",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42507,
+        "Name": "Rocky CoastLand #42507",
+        "Connections": {
+          "East": 42508,
+          "West": 42502
+        }
+      },
+      {
+        "Id": 42508,
+        "Name": "Before the Great Bridge #42508",
+        "Connections": {
+          "East": 42432,
+          "South": 42509,
+          "West": 42507
+        },
+        "Contents": [
+          {
+            "Text": "a laughing hyena #42637",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42509,
+        "Name": "The Great Bridge #42509",
+        "Connections": {
+          "North": 42508,
+          "South": 42510
+        }
+      },
+      {
+        "Id": 42510,
+        "Name": "The Great Bridge #42510",
+        "Connections": {
+          "North": 42509,
+          "South": 42511
+        }
+      },
+      {
+        "Id": 42511,
+        "Name": "The Great Bridge #42511",
+        "Connections": {
+          "North": 42510,
+          "South": 42512
+        }
+      },
+      {
+        "Id": 42512,
+        "Name": "The Great Bridge #42512",
+        "Connections": {
+          "North": 42511,
+          "South": 42513
+        },
+        "Contents": [
+          {
+            "Text": "an aged silver-back gorilla #42635",
+            "Color": "green"
+          },
+          {
+            "Text": "an orcish warrior #42633",
+            "Color": "red"
+          },
+          {
+            "Text": "an orcish warrior #42633",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42513,
+        "Name": "The Great Bridge #42513",
+        "Connections": {
+          "North": 42512,
+          "South": 42514
+        }
+      },
+      {
+        "Id": 42514,
+        "Name": "The Great Bridge #42514",
+        "Connections": {
+          "North": 42513,
+          "South": 42515
+        }
+      },
+      {
+        "Id": 42515,
+        "Name": "The Great Bridge #42515",
+        "Connections": {
+          "North": 42514,
+          "South": 42516
+        }
+      },
+      {
+        "Id": 42516,
+        "Name": "The Great Bridge #42516",
+        "Connections": {
+          "North": 42515,
+          "South": 42517
+        }
+      },
+      {
+        "Id": 42517,
+        "Name": "The Great Bridge #42517",
+        "Connections": {
+          "North": 42516,
+          "South": 42518
+        }
+      },
+      {
+        "Id": 42518,
+        "Name": "The Great Bridge #42518",
+        "Connections": {
+          "North": 42517,
+          "East": {
+            "RoomId": 42503,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 42519
+        }
+      },
+      {
+        "Id": 42519,
+        "Name": "Before the Great Bridge #42519",
+        "Connections": {
+          "North": 42518,
+          "South": 42520
+        },
+        "Contents": [
+          {
+            "Text": "a wandering pilgrim #42520",
+            "Color": "green"
+          },
+          {
+            "Text": "a wandering pilgrim #42520",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42520,
+        "Name": "Sandy Pathway #42520",
+        "Connections": {
+          "North": 42519,
+          "East": 42530,
+          "West": 42522
+        }
+      },
+      {
+        "Id": 42521,
+        "Name": "setr name The Great Bridge #42521",
+        "Connections": {
+          "North": 42520,
+          "East": 42530,
+          "West": 42522
+        }
+      },
+      {
+        "Id": 42522,
+        "Name": "Sandy Path #42522",
+        "Connections": {
+          "North": 42523,
+          "East": 42520
+        }
+      },
+      {
+        "Id": 42523,
+        "Name": "Rocky Path #42523",
+        "Connections": {
+          "South": 42522,
+          "Down": 42524
+        }
+      },
+      {
+        "Id": 42524,
+        "Name": "Rocky Beach #42524",
+        "Connections": {
+          "North": 42497,
+          "East": 42525,
+          "West": 81000,
+          "Up": 42523
+        },
+        "Contents": [
+          {
+            "Text": "a ghost #81015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42525,
+        "Name": "Under the Bridge #42525",
+        "Connections": {
+          "South": 42526,
+          "West": 42524
+        },
+        "Contents": [
+          {
+            "Text": "a ghost #81015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42526,
+        "Name": "Mouth of the Cave #42526",
+        "Connections": {
+          "North": 42525,
+          "South": 42527
+        }
+      },
+      {
+        "Id": 42527,
+        "Name": "Inside the Cave #42527",
+        "Connections": {
+          "North": 42526,
+          "South": 42528
+        }
+      },
+      {
+        "Id": 42528,
+        "Name": "Within the Heart of the Cave #42528",
+        "Connections": {
+          "North": 42527,
+          "South": 42529
+        }
+      },
+      {
+        "Id": 42529,
+        "Name": "At the Back of the Wide Cave #42529",
+        "Connections": {
+          "North": 42528,
+          "South": 68200
+        }
+      },
+      {
+        "Id": 42530,
+        "Name": "Along the Dusty Trail #42530",
+        "Connections": {
+          "East": 42531,
+          "West": 42520
+        },
+        "Contents": [
+          {
+            "Text": "a wandering pilgrim #42520",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42531,
+        "Name": "Bend in the Path #42531",
+        "Connections": {
+          "South": 42532,
+          "West": 42530
+        }
+      },
+      {
+        "Id": 42532,
+        "Name": "Fence and Road #42532",
+        "Connections": {
+          "North": 42531,
+          "East": 42533
+        }
+      },
+      {
+        "Id": 42533,
+        "Name": "Dusty Pathway #42533",
+        "Connections": {
+          "East": 42534,
+          "West": 42532
+        },
+        "Contents": [
+          {
+            "Text": "a wandering pilgrim #42520",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42534,
+        "Name": "Before the Gates #42534",
+        "Connections": {
+          "South": 75233,
+          "West": 42533
+        }
+      },
+      {
+        "Id": 42535,
+        "Name": "Captain\u0027s Barrack\u0027s #42535",
+        "Connections": {
+          "Down": {
+            "RoomId": 42667,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small lead key #42668",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an elite war pig #42625",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42536,
+        "Name": "A Trashfilled Hallway #42536",
+        "Connections": {
+          "South": 42537,
+          "Down": 42657
+        },
+        "Contents": [
+          {
+            "Text": "a war pig #42626",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42537,
+        "Name": "Hall of the Ancient Orcs #42537",
+        "Connections": {
+          "North": 42536,
+          "South": 42538,
+          "Up": {
+            "RoomId": 42539,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a sliver of green glass #42537",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an elite war pig #42625",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42538,
+        "Name": "A Refusefilled Hallway #42538",
+        "Connections": {
+          "North": 42537,
+          "Down": 42665
+        },
+        "Contents": [
+          {
+            "Text": "a war pig #42626",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42539,
+        "Name": "Chamber of Vile Vah #42539",
+        "Connections": {
+          "Down": {
+            "RoomId": 42537,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Vah the Vile #42631",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42540,
+        "Name": "Chamber of the Tribe #42540",
+        "Connections": {
+          "West": 42671
+        },
+        "Contents": [
+          {
+            "Text": "an orcish priest #42630",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42541,
+        "Name": "Beside the Wall #42541",
+        "Connections": {
+          "North": 20049,
+          "South": 42542
+        },
+        "Contents": [
+          {
+            "Text": "A lightning bug #46009",
+            "Color": "green"
+          },
+          {
+            "Text": "A red squirrel #46011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42542,
+        "Name": "A Dirt Trailway #42542",
+        "Connections": {
+          "North": 42541,
+          "South": 42543
+        },
+        "Contents": [
+          {
+            "Text": "a small green iguana #42612",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42543,
+        "Name": "Green Heron Pond #42543",
+        "Connections": {
+          "North": 42542,
+          "South": 42607
+        },
+        "Contents": [
+          {
+            "Text": "A red squirrel #46011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42544,
+        "Name": "Depths of the Pond #42544",
+        "Connections": {
+          "Up": 42543
+        }
+      },
+      {
+        "Id": 42545,
+        "Name": "Depths of a Pond #42545",
+        "Connections": {
+          "North": 42544,
+          "South": 75100,
+          "Up": 42606
+        }
+      },
+      {
+        "Id": 42600,
+        "Name": "A Sandy Path #42600",
+        "Connections": {
+          "North": 20050,
+          "South": 42601
+        }
+      },
+      {
+        "Id": 42601,
+        "Name": "A Twisted Path #42601",
+        "Connections": {
+          "North": 42600,
+          "South": 42602
+        },
+        "Contents": [
+          {
+            "Text": "a small green iguana #42612",
+            "Color": "green"
+          },
+          {
+            "Text": "A lightning bug #46009",
+            "Color": "green"
+          },
+          {
+            "Text": "A lightning bug #46009",
+            "Color": "green"
+          },
+          {
+            "Text": "A lightning bug #46009",
+            "Color": "green"
+          },
+          {
+            "Text": "A red squirrel #46011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42602,
+        "Name": "Along a Twisted Path #42602",
+        "Connections": {
+          "North": 42601,
+          "East": 42603,
+          "South": 42634,
+          "West": 42604
+        },
+        "Contents": [
+          {
+            "Text": "an orcish grunt #42600",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42603,
+        "Name": "Scarlet Begonias #42603",
+        "Connections": {
+          "East": 42607,
+          "West": 42602
+        },
+        "Contents": [
+          {
+            "Text": "A red squirrel #46011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42604,
+        "Name": "Under the Grove of Pines #42604",
+        "Connections": {
+          "North": 42605,
+          "East": 42602,
+          "South": 42606
+        }
+      },
+      {
+        "Id": 42605,
+        "Name": "A Ramshackle Building #42605",
+        "Connections": {
+          "North": {
+            "RoomId": 42642,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 42604
+        },
+        "Contents": [
+          {
+            "Text": "an angry boar #42602",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42606,
+        "Name": "Blue Herons Pond #42606",
+        "Connections": {
+          "North": 42604,
+          "South": 42639
+        }
+      },
+      {
+        "Id": 42607,
+        "Name": "Evergreen Terrace #42607",
+        "Connections": {
+          "North": 42543,
+          "South": 42608,
+          "West": 42603
+        },
+        "Contents": [
+          {
+            "Text": "an orcish grunt #42600",
+            "Color": "green"
+          },
+          {
+            "Text": "a grunt orc #42601",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42608,
+        "Name": "A Patch of Mushrooms #42608",
+        "Connections": {
+          "North": 42607,
+          "South": 42609
+        },
+        "Contents": [
+          {
+            "Text": "a small green iguana #42612",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42609,
+        "Name": "Within the Weeds #42609",
+        "Connections": {
+          "North": 42608,
+          "East": 42610,
+          "South": 42618
+        },
+        "Contents": [
+          {
+            "Text": "an orcish grunt #42600",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42610,
+        "Name": "Open Grassland #42610",
+        "Connections": {
+          "North": 42611,
+          "East": 42612,
+          "West": 42609
+        },
+        "Contents": [
+          {
+            "Text": "a grunt orc #42601",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42611,
+        "Name": "Beneath the Midday Sun #42611",
+        "Connections": {
+          "South": 42610
+        },
+        "Contents": [
+          {
+            "Text": "Lucky the Leprechaun #42613",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42612,
+        "Name": "Middle of Nowhere #42612",
+        "Connections": {
+          "South": 42613,
+          "West": 42610
+        },
+        "Contents": [
+          {
+            "Text": "an aged silverback gorilla #42605",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42613,
+        "Name": "Into the Great Wide Open #42613",
+        "Connections": {
+          "North": 42612,
+          "East": 42614
+        }
+      },
+      {
+        "Id": 42614,
+        "Name": "On the Range #42614",
+        "Connections": {
+          "South": 42615,
+          "West": 42613
+        }
+      },
+      {
+        "Id": 42615,
+        "Name": "Field of Screams #42615",
+        "Connections": {
+          "North": 42614,
+          "East": 42617,
+          "West": 42616
+        }
+      },
+      {
+        "Id": 42616,
+        "Name": "Great Plains #42616",
+        "Connections": {
+          "East": 42615
+        },
+        "Contents": [
+          {
+            "Text": "a blood-elven spell filcher #42614",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42617,
+        "Name": "A Sea of Green Grass #42617",
+        "Connections": {
+          "South": 42633,
+          "West": 42615
+        }
+      },
+      {
+        "Id": 42618,
+        "Name": "Within the Tall Weeds #42618",
+        "Connections": {
+          "North": 42609,
+          "South": 42620
+        },
+        "Contents": [
+          {
+            "Text": "an aged silverback gorilla #42605",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42619,
+        "Name": "Within the Tall Reeds #42619",
+        "Connections": {
+          "West": 42618
+        }
+      },
+      {
+        "Id": 42620,
+        "Name": "Before the Tall Reeds #42620",
+        "Connections": {
+          "North": 42618,
+          "East": 42621,
+          "South": 42677
+        }
+      },
+      {
+        "Id": 42621,
+        "Name": "A Wide Field #42621",
+        "Connections": {
+          "East": 42622,
+          "West": 42620
+        }
+      },
+      {
+        "Id": 42622,
+        "Name": "Before the Black Oak #42622",
+        "Connections": {
+          "North": 42623,
+          "East": 42626,
+          "South": 42624,
+          "West": 42621
+        }
+      },
+      {
+        "Id": 42623,
+        "Name": "Foot of the Great Black Oak #42623",
+        "Connections": {
+          "South": 42622,
+          "Up": 42628
+        }
+      },
+      {
+        "Id": 42624,
+        "Name": "A Moss Covered Lagoon #42624",
+        "Connections": {
+          "North": 42622,
+          "East": 42678,
+          "South": 42683,
+          "West": 42625
+        }
+      },
+      {
+        "Id": 42625,
+        "Name": "A Moss-Covered Lagoon #42625",
+        "Connections": {
+          "East": 42624,
+          "South": 42680,
+          "West": 42677
+        }
+      },
+      {
+        "Id": 42626,
+        "Name": "Along a Trail #42626",
+        "Connections": {
+          "East": 42627,
+          "West": 42622
+        }
+      },
+      {
+        "Id": 42627,
+        "Name": "Bridge and River #42627",
+        "Connections": {
+          "East": 42632,
+          "West": 42626
+        },
+        "Contents": [
+          {
+            "Text": "a wandering bard #42611",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42628,
+        "Name": "Within the Great Black Oak #42628",
+        "Connections": {
+          "Up": 42629,
+          "Down": 42623
+        }
+      },
+      {
+        "Id": 42629,
+        "Name": "Further up the Great Black Oak #42629",
+        "Connections": {
+          "Up": 42630,
+          "Down": 42628
+        }
+      },
+      {
+        "Id": 42630,
+        "Name": "Top of the Great Black Oak #42630",
+        "Connections": {
+          "Down": 42629
+        },
+        "Contents": [
+          {
+            "Text": "a large raptor #42610",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42631,
+        "Name": "Along a Trail #42631",
+        "Connections": {
+          "East": 42694,
+          "West": 42632
+        },
+        "Contents": [
+          {
+            "Text": "an orcish warrior #42615",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42632,
+        "Name": "Along a Trail #42632",
+        "Connections": {
+          "East": 42631,
+          "West": 42627
+        }
+      },
+      {
+        "Id": 42633,
+        "Name": "Amidst the Plains #42633",
+        "Connections": {
+          "North": 42617,
+          "East": 42643
+        },
+        "Contents": [
+          {
+            "Text": "an orcish warrior #42615",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42634,
+        "Name": "A Serene Grove #42634",
+        "Connections": {
+          "North": 42602,
+          "West": 42635
+        },
+        "Contents": [
+          {
+            "Text": "a grunt orc #42601",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42635,
+        "Name": "A Seaside Pathway #42635",
+        "Connections": {
+          "East": 42634,
+          "West": 42636
+        },
+        "Contents": [
+          {
+            "Text": "an orcish grunt #42600",
+            "Color": "green"
+          },
+          {
+            "Text": "an aged silverback gorilla #42605",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42636,
+        "Name": "Along the Beach #42636",
+        "Connections": {
+          "East": 42635,
+          "South": 42637
+        }
+      },
+      {
+        "Id": 42637,
+        "Name": "Along the Beach #42637",
+        "Connections": {
+          "North": 42636,
+          "East": 42638
+        }
+      },
+      {
+        "Id": 42638,
+        "Name": "Before A Deep Dark Cave #42638",
+        "Connections": {
+          "South": 42675,
+          "West": 42637
+        },
+        "Contents": [
+          {
+            "Text": "a laughing hyena #42606",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42639,
+        "Name": "Atop A Large Pond #42639",
+        "Connections": {
+          "North": 42606,
+          "West": 42640
+        },
+        "Contents": [
+          {
+            "Text": "an orcish grunt #42600",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42640,
+        "Name": "Seaside Approach #42640",
+        "Connections": {
+          "East": 42639
+        },
+        "Contents": [
+          {
+            "Text": "an orcish scout #42603",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42641,
+        "Name": "Damp Basement #42641",
+        "Connections": {
+          "Up": {
+            "RoomId": 42642,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an orcish shaman #42604",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42642,
+        "Name": "Inside the Ramshackle Cabin #42642",
+        "Connections": {
+          "South": {
+            "RoomId": 42605,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 42641,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a grunt orc #42601",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42643,
+        "Name": "Wandering the Plains #42643",
+        "Connections": {
+          "North": 42643,
+          "East": 42643,
+          "South": 42644,
+          "West": 42633
+        }
+      },
+      {
+        "Id": 42644,
+        "Name": "Wandering the Plains #42644",
+        "Connections": {
+          "North": 42643,
+          "East": 42645,
+          "South": 42644,
+          "West": 42644
+        },
+        "Contents": [
+          {
+            "Text": "an orcish warrior #42615",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42645,
+        "Name": "A Smoke-Filled Field #42645",
+        "Connections": {
+          "East": 42646,
+          "West": 42644
+        }
+      },
+      {
+        "Id": 42646,
+        "Name": "Before the Fortress #42646",
+        "Connections": {
+          "North": 42323,
+          "East": {
+            "RoomId": 42647,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 42310,
+          "West": 42645
+        },
+        "Contents": [
+          {
+            "Text": "an orcish warrior #42615",
+            "Color": "red"
+          },
+          {
+            "Text": "an orcish warrior #42615",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42647,
+        "Name": "Beneath the Ramparts #42647",
+        "Connections": {
+          "North": {
+            "RoomId": 42648,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 42650,
+          "South": {
+            "RoomId": 42649,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 42646,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 42648,
+        "Name": "A Guard Post #42648",
+        "Connections": {
+          "South": {
+            "RoomId": 42647,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an orc scout #42618",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42649,
+        "Name": "A Garbage Filled Guard Post #42649",
+        "Connections": {
+          "North": {
+            "RoomId": 42647,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an orc scout #42618",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42650,
+        "Name": "Within the Fort #42650",
+        "Connections": {
+          "North": 42651,
+          "East": 42659,
+          "South": 42669,
+          "West": 42647
+        }
+      },
+      {
+        "Id": 42651,
+        "Name": "Within the Fort #42651",
+        "Connections": {
+          "North": 42654,
+          "East": 42658,
+          "South": 42650,
+          "West": 42652
+        }
+      },
+      {
+        "Id": 42652,
+        "Name": "Within the Fort #42652",
+        "Connections": {
+          "North": 42653,
+          "East": 42651
+        },
+        "Contents": [
+          {
+            "Text": "an elite orc warrior #42621",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42653,
+        "Name": "Within the Fort #42653",
+        "Connections": {
+          "East": 42654,
+          "South": 42652
+        }
+      },
+      {
+        "Id": 42654,
+        "Name": "Within the Fort #42654",
+        "Connections": {
+          "East": 42655,
+          "South": 42651,
+          "West": 42653,
+          "Up": 42661
+        },
+        "Contents": [
+          {
+            "Text": "an orcish bitch #42622",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42655,
+        "Name": "Within the Fort #42655",
+        "Connections": {
+          "East": 42656,
+          "South": 42658,
+          "West": 42654
+        }
+      },
+      {
+        "Id": 42656,
+        "Name": "Within the Fort #42656",
+        "Connections": {
+          "South": 42657,
+          "West": 42655,
+          "Up": 42664
+        },
+        "Contents": [
+          {
+            "Text": "an orcish hurler #42628",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42657,
+        "Name": "Within the Fort #42657",
+        "Connections": {
+          "North": 42656,
+          "South": 42660,
+          "West": 42658,
+          "Up": 42536
+        },
+        "Contents": [
+          {
+            "Text": "an elite orc warrior #42621",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42658,
+        "Name": "Within the Fort #42658",
+        "Connections": {
+          "North": 42655,
+          "East": 42657,
+          "South": 42659,
+          "West": 42651
+        }
+      },
+      {
+        "Id": 42659,
+        "Name": "The Firepit #42659",
+        "Connections": {
+          "North": 42658,
+          "East": 42660,
+          "South": 42668,
+          "West": 42650
+        },
+        "Contents": [
+          {
+            "Text": "Lor Nak the fifth #42623",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42660,
+        "Name": "Within the Fort #42660",
+        "Connections": {
+          "North": 42657,
+          "South": 42665,
+          "West": 42659
+        },
+        "Contents": [
+          {
+            "Text": "an orcish bitch #42622",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42661,
+        "Name": "An Orcish Barracks #42661",
+        "Connections": {
+          "East": 42662,
+          "Down": 42654
+        },
+        "Contents": [
+          {
+            "Text": "an orcish trooper #42629",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42662,
+        "Name": "An Orcish Barracks #42662",
+        "Connections": {
+          "East": 42663,
+          "West": 42661
+        },
+        "Contents": [
+          {
+            "Text": "an orcish bitch #42622",
+            "Color": "red"
+          },
+          {
+            "Text": "an orcish trooper #42629",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42663,
+        "Name": "An Orcish Barracks #42663",
+        "Connections": {
+          "East": 42664,
+          "West": 42662
+        }
+      },
+      {
+        "Id": 42664,
+        "Name": "An Orcish Barracks #42664",
+        "Connections": {
+          "West": 42663,
+          "Down": 42656
+        },
+        "Contents": [
+          {
+            "Text": "an orcish bitch #42622",
+            "Color": "red"
+          },
+          {
+            "Text": "an orcish trooper #42629",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42665,
+        "Name": "The Weapons Rack #42665",
+        "Connections": {
+          "North": 42660,
+          "South": 42666,
+          "West": 42668,
+          "Up": 42538
+        },
+        "Contents": [
+          {
+            "Text": "an elite orc warrior #42621",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42666,
+        "Name": "Under the Barracks #42666",
+        "Connections": {
+          "North": 42665,
+          "West": 42667,
+          "Up": {
+            "RoomId": 42773,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a melted glass key #42667",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an orcish captain #42627",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42667,
+        "Name": "The Anvil #42667",
+        "Connections": {
+          "North": 42668,
+          "East": 42666,
+          "Up": {
+            "RoomId": 42535,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small lead key #42668",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the orcish smith, Cerfufa #42624",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42668,
+        "Name": "Within the Fort #42668",
+        "Connections": {
+          "North": 42659,
+          "East": 42665,
+          "South": 42667,
+          "West": 42669
+        },
+        "Contents": [
+          {
+            "Text": "an elite orc warrior #42621",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42669,
+        "Name": "A Tight Corner #42669",
+        "Connections": {
+          "North": 42650,
+          "East": 42668,
+          "West": 42670
+        }
+      },
+      {
+        "Id": 42670,
+        "Name": "Within the Fort #42670",
+        "Connections": {
+          "East": 42669,
+          "South": 42671
+        }
+      },
+      {
+        "Id": 42671,
+        "Name": "Within the Fort #42671",
+        "Connections": {
+          "North": 42670,
+          "East": 42540,
+          "Up": 42672
+        },
+        "Contents": [
+          {
+            "Text": "an elite orc warrior #42621",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42672,
+        "Name": "Guard Tower #42672",
+        "Connections": {
+          "Down": 42671
+        },
+        "Contents": [
+          {
+            "Text": "an orcish trooper #42629",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42673,
+        "Name": "The Platform #42673",
+        "Connections": {
+          "North": 42674,
+          "East": 42690
+        }
+      },
+      {
+        "Id": 42674,
+        "Name": "The Platform #42674",
+        "Connections": {
+          "Down": 42660
+        }
+      },
+      {
+        "Id": 42675,
+        "Name": "A Cliffside Cavern #42675",
+        "Connections": {
+          "North": 42638,
+          "South": 42676
+        },
+        "Contents": [
+          {
+            "Text": "an orcish scout #42603",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42676,
+        "Name": "A Jewel-Filled Cavern #42676",
+        "Connections": {
+          "North": 42675,
+          "South": 42500
+        }
+      },
+      {
+        "Id": 42677,
+        "Name": "A Lagoon #42677",
+        "Connections": {
+          "North": 42620,
+          "East": 42625
+        },
+        "Contents": [
+          {
+            "Text": "a swamp troll #42608",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42678,
+        "Name": "A Lagoon #42678",
+        "Connections": {
+          "South": 42679,
+          "West": 42624
+        },
+        "Contents": [
+          {
+            "Text": "a swamp troll #42608",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42679,
+        "Name": "A Driftwood Covered Lagoon #42679",
+        "Connections": {
+          "North": 42678,
+          "West": 42683
+        }
+      },
+      {
+        "Id": 42680,
+        "Name": "Swampside #42680",
+        "Connections": {
+          "North": 42625,
+          "East": 42683,
+          "South": 42684
+        }
+      },
+      {
+        "Id": 42681,
+        "Name": "A Water Filled Cave #42681",
+        "Connections": {
+          "North": 42689,
+          "South": 42682
+        }
+      },
+      {
+        "Id": 42682,
+        "Name": "A Damp Cave #42682",
+        "Connections": {
+          "North": 42681,
+          "Down": 80540
+        }
+      },
+      {
+        "Id": 42683,
+        "Name": "A Rundown Shack #42683",
+        "Connections": {
+          "North": 42624,
+          "East": 42679,
+          "South": 42687,
+          "West": 42680
+        }
+      },
+      {
+        "Id": 42684,
+        "Name": "Swampy Waters #42684",
+        "Connections": {
+          "North": 42680,
+          "East": 42687,
+          "South": 42685
+        }
+      },
+      {
+        "Id": 42685,
+        "Name": "A Fallen Tree #42685",
+        "Connections": {
+          "North": 42684,
+          "West": 42686
+        },
+        "Contents": [
+          {
+            "Text": "a swamp troll #42608",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42686,
+        "Name": "A Fallen Tree #42686",
+        "Connections": {
+          "East": 42685
+        },
+        "Contents": [
+          {
+            "Text": "a swamp elemental #42609",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42687,
+        "Name": "Murky Waters #42687",
+        "Connections": {
+          "North": 42683,
+          "East": 42688,
+          "West": 42684
+        }
+      },
+      {
+        "Id": 42688,
+        "Name": "A Circle of Stones #42688",
+        "Connections": {
+          "South": 42689,
+          "West": 42687
+        },
+        "Contents": [
+          {
+            "Text": "a swamp troll #42608",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42689,
+        "Name": "Murky Waters #42689",
+        "Connections": {
+          "North": 42688,
+          "South": 42681
+        }
+      },
+      {
+        "Id": 42690,
+        "Name": "The Orc Court #42690",
+        "Connections": {
+          "West": 42673
+        }
+      },
+      {
+        "Id": 42691,
+        "Name": "Murky Waters #42691",
+        "Connections": {}
+      },
+      {
+        "Id": 42692,
+        "Name": "Swampside #42692",
+        "Connections": {
+          "North": 42678,
+          "West": 42683
+        }
+      },
+      {
+        "Id": 42693,
+        "Name": "Swampside #42693",
+        "Connections": {
+          "West": 42692
+        }
+      },
+      {
+        "Id": 42694,
+        "Name": "A Dark Cave #42694",
+        "Connections": {
+          "West": 42631,
+          "Down": 42695
+        }
+      },
+      {
+        "Id": 42695,
+        "Name": "Limestone Corridor #42695",
+        "Connections": {
+          "East": 42698,
+          "Up": 42694
+        }
+      },
+      {
+        "Id": 42696,
+        "Name": "A Deep Dark Chasm #42696",
+        "Connections": {
+          "North": 42695,
+          "South": 42697
+        }
+      },
+      {
+        "Id": 42697,
+        "Name": "A Deep Dark Chasm #42697",
+        "Connections": {
+          "North": 42696
+        }
+      },
+      {
+        "Id": 42698,
+        "Name": "Limestone Corridor #42698",
+        "Connections": {
+          "North": 15941,
+          "East": 42423,
+          "West": 42695
+        }
+      },
+      {
+        "Id": 42699,
+        "Name": "An Ancient Shrine #42699",
+        "Connections": {
+          "South": 42698
+        }
+      },
+      {
+        "Id": 12018,
+        "FrameColor": "blue",
+        "Name": "To Kobolds #12018",
+        "Color": "blue",
+        "Connections": {
+          "East": 12017,
+          "West": {
+            "RoomId": 42329,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 42000,
+        "FrameColor": "blue",
+        "Name": "To Forest of Fear #42000",
+        "Color": "blue",
+        "Connections": {
+          "North": 999,
+          "East": 42420,
+          "South": 998,
+          "West": 42,
+          "Up": 42059,
+          "Down": 20042
+        }
+      },
+      {
+        "Id": 54,
+        "FrameColor": "blue",
+        "Name": "To Godsland #54",
+        "Color": "blue",
+        "Connections": {
+          "North": 42,
+          "East": 42442,
+          "South": 54,
+          "West": 54,
+          "Up": 54,
+          "Down": 54
+        }
+      },
+      {
+        "Id": 75091,
+        "FrameColor": "blue",
+        "Name": "To Balward #75091",
+        "Color": "blue",
+        "Connections": {
+          "East": 75087,
+          "West": 42498
+        }
+      },
+      {
+        "Id": 81000,
+        "FrameColor": "blue",
+        "Name": "To Pirate Cove #81000",
+        "Color": "blue",
+        "Connections": {
+          "East": 42524,
+          "West": 81001
+        }
+      },
+      {
+        "Id": 68200,
+        "FrameColor": "blue",
+        "Name": "To Olthoi #68200",
+        "Color": "blue",
+        "Connections": {
+          "North": 42529,
+          "Down": 68201
+        }
+      },
+      {
+        "Id": 75233,
+        "FrameColor": "blue",
+        "Name": "To Thremiscyra #75233",
+        "Color": "blue",
+        "Connections": {
+          "North": 42534,
+          "South": 75220
+        }
+      },
+      {
+        "Id": 20049,
+        "FrameColor": "blue",
+        "Name": "To Tupelo #20049",
+        "Color": "blue",
+        "Connections": {
+          "North": 20070,
+          "East": {
+            "RoomId": 20000,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 42541,
+          "West": 20050
+        }
+      },
+      {
+        "Id": 75100,
+        "FrameColor": "blue",
+        "Name": "To Balward #75100",
+        "Color": "blue",
+        "Connections": {
+          "East": 75101
+        }
+      },
+      {
+        "Id": 20050,
+        "FrameColor": "blue",
+        "Name": "To Tupelo #20050",
+        "Color": "blue",
+        "Connections": {
+          "North": 20056,
+          "East": 20049,
+          "South": 42600,
+          "West": 20051
+        }
+      },
+      {
+        "Id": 42773,
+        "FrameColor": "blue",
+        "Name": "To Assorted Kyuss #42773",
+        "Color": "blue",
+        "Connections": {
+          "Down": {
+            "RoomId": 42666,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a melted glass key #42667",
+                "Color": "indianred"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 80540,
+        "FrameColor": "blue",
+        "Name": "To Gullys #80540",
+        "Color": "blue",
+        "Connections": {
+          "Up": 42682,
+          "Down": 80538
+        }
+      },
+      {
+        "Id": 15941,
+        "FrameColor": "blue",
+        "Name": "To Waterway #15941",
+        "Color": "blue",
+        "Connections": {
+          "South": 42698
+        }
+      }
+    ]
+  }
+}

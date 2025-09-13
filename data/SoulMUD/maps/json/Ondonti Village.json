@@ -1,0 +1,806 @@
+{
+  "Area": {
+    "Name": "Ondonti Village",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 25000,
+        "Name": "The Ondonti Plains #25000",
+        "Connections": {
+          "North": 25001,
+          "South": 5818
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti plainsman #25008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25001,
+        "Name": "The Ondonti Plains #25001",
+        "Connections": {
+          "North": 25002,
+          "South": 25000
+        }
+      },
+      {
+        "Id": 25002,
+        "Name": "The Ondonti Plains #25002",
+        "Connections": {
+          "North": 25003,
+          "East": 25009,
+          "South": 25001,
+          "West": 25011
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti mercenary #25017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25003,
+        "Name": "The Ondonti Plains #25003",
+        "Connections": {
+          "North": 25004,
+          "South": 25002
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti plainsman #25009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25004,
+        "Name": "The Ondonti Plains #25004",
+        "Connections": {
+          "East": {
+            "RoomId": 25015,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 25003,
+          "West": 25005
+        }
+      },
+      {
+        "Id": 25005,
+        "Name": "The Ondonti Plains #25005",
+        "Connections": {
+          "East": 25004,
+          "West": 25006
+        }
+      },
+      {
+        "Id": 25006,
+        "Name": "The Ondonti Village #25006",
+        "Connections": {
+          "North": 25026,
+          "East": 25005,
+          "West": 25007
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti plainsman #25009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25007,
+        "Name": "The Ondonti Plains #25007",
+        "Connections": {
+          "North": 25033,
+          "East": 25006,
+          "West": 25008
+        }
+      },
+      {
+        "Id": 25008,
+        "Name": "The Ondonti Plains #25008",
+        "Connections": {
+          "East": 25007,
+          "West": 43018
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti plainsman #25008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25009,
+        "Name": "The Grassy Path #25009",
+        "Connections": {
+          "East": {
+            "RoomId": 25010,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 25002
+        }
+      },
+      {
+        "Id": 25010,
+        "Name": "The Ondonti Herbalist #25010",
+        "Connections": {
+          "West": {
+            "RoomId": 25009,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti herbalist #25000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25011,
+        "Name": "Outside A Large Tent #25011",
+        "Connections": {
+          "East": 25002,
+          "South": {
+            "RoomId": 25012,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 25013
+        }
+      },
+      {
+        "Id": 25012,
+        "Name": "The Ondonti Mystic #25012",
+        "Connections": {
+          "North": {
+            "RoomId": 25011,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti mystic #25001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25013,
+        "Name": "Before The Trading Post #25013",
+        "Connections": {
+          "North": {
+            "RoomId": 25014,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 25011
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti plainsman #25010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25014,
+        "Name": "The Trading Post #25014",
+        "Connections": {
+          "South": {
+            "RoomId": 25013,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti trader #25002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25015,
+        "Name": "The Wealthy Ondonti\u0027s Home #25015",
+        "Connections": {
+          "West": {
+            "RoomId": 25004,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 25016
+        },
+        "Contents": [
+          {
+            "Text": "the wealthy ondonti #25012",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25016,
+        "Name": "Upstairs Hallway #25016",
+        "Connections": {
+          "East": 25017,
+          "West": 25018,
+          "Down": 25015
+        }
+      },
+      {
+        "Id": 25017,
+        "Name": "Upstairs Hallway #25017",
+        "Connections": {
+          "North": 25024,
+          "West": 25016
+        }
+      },
+      {
+        "Id": 25018,
+        "Name": "Upstairs Hallway #25018",
+        "Connections": {
+          "North": 25020,
+          "East": 25016,
+          "West": {
+            "RoomId": 25019,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 25019,
+        "Name": "Upstairs Bedroom #25019",
+        "Connections": {
+          "East": {
+            "RoomId": 25018,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the wealthy ondonti #25013",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25020,
+        "Name": "Upstairs Hallway #25020",
+        "Connections": {
+          "East": 25022,
+          "South": 25018,
+          "West": {
+            "RoomId": 25021,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 25021,
+        "Name": "Upstairs Bedroom #25021",
+        "Connections": {
+          "East": {
+            "RoomId": 25020,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the wealthy ondonti #25014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25022,
+        "Name": "Upstairs Hallway #25022",
+        "Connections": {
+          "North": {
+            "RoomId": 25023,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 25024,
+          "West": 25020
+        }
+      },
+      {
+        "Id": 25023,
+        "Name": "Upstairs Bedroom #25023",
+        "Connections": {
+          "South": {
+            "RoomId": 25022,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the wealthy ondonti #25015",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25024,
+        "Name": "Upstairs Hallway #25024",
+        "Connections": {
+          "East": {
+            "RoomId": 25025,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 25017,
+          "West": 25022
+        }
+      },
+      {
+        "Id": 25025,
+        "Name": "Upstairs Bedroom #25025",
+        "Connections": {
+          "West": {
+            "RoomId": 25024,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the wealthy ondonti #25016",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25026,
+        "Name": "Cart Tracks #25026",
+        "Connections": {
+          "North": 25027,
+          "South": 25006
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti plainsman #25010",
+            "Color": "green"
+          },
+          {
+            "Text": "the ondonti mercenary #25018",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25027,
+        "Name": "Cart Tracks #25027",
+        "Connections": {
+          "North": 25028,
+          "East": {
+            "RoomId": 25031,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 25026,
+          "West": {
+            "RoomId": 25032,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 25028,
+        "Name": "End Of The Tracks #25028",
+        "Connections": {
+          "East": {
+            "RoomId": 25029,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 25027,
+          "West": {
+            "RoomId": 25030,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 25029,
+        "Name": "The Plainsman\u0027s Home #25029",
+        "Connections": {
+          "West": {
+            "RoomId": 25028,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti plainsman #25005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25030,
+        "Name": "The Ondonti Mill #25030",
+        "Connections": {
+          "North": {
+            "RoomId": 25040,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 25028,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the guard dog #25011",
+            "Color": "red"
+          },
+          {
+            "Text": "the guard dog #25011",
+            "Color": "red"
+          },
+          {
+            "Text": "the guard dog #25011",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25031,
+        "Name": "The Plainsman\u0027s Home #25031",
+        "Connections": {
+          "West": {
+            "RoomId": 25027,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti plainsman #25006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25032,
+        "Name": "The Plainsman\u0027s Home #25032",
+        "Connections": {
+          "East": {
+            "RoomId": 25027,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti plainsman #25007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25033,
+        "Name": "Outside The Sage\u0027s Home #25033",
+        "Connections": {
+          "South": 25007,
+          "West": {
+            "RoomId": 25034,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 25034,
+        "Name": "Inside The Sage\u0027s Home #25034",
+        "Connections": {
+          "North": 25035,
+          "East": {
+            "RoomId": 25033,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 25039,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 25035,
+        "Name": "Inside The Sage\u0027s Home #25035",
+        "Connections": {
+          "North": {
+            "RoomId": 25036,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 25034
+        }
+      },
+      {
+        "Id": 25036,
+        "Name": "The Chamber Of Enlightenment #25036",
+        "Connections": {
+          "South": {
+            "RoomId": 25035,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 25037
+        }
+      },
+      {
+        "Id": 25037,
+        "Name": "The Chamber Of Tranquility #25037",
+        "Connections": {
+          "East": 25036,
+          "South": {
+            "RoomId": 25038,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 25038,
+        "Name": "The Chamber Of Rest #25038",
+        "Connections": {
+          "North": {
+            "RoomId": 25037,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 25039,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti sage #25003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25039,
+        "Name": "The Chamber Of Patience #25039",
+        "Connections": {
+          "North": {
+            "RoomId": 25038,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 25034,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 25040,
+        "Name": "Stacks Of Lumber #25040",
+        "Connections": {
+          "East": 25041,
+          "South": {
+            "RoomId": 25030,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 25042
+        },
+        "Contents": [
+          {
+            "Text": "the ondonti miller #25004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25041,
+        "Name": "The Saw Mill #25041",
+        "Connections": {
+          "West": 25040
+        }
+      },
+      {
+        "Id": 25042,
+        "Name": "The Saw Mill #25042",
+        "Connections": {
+          "East": 25040
+        }
+      },
+      {
+        "Id": 25043,
+        "Name": "The Waveless Sea #25043",
+        "Connections": {
+          "North": 25399,
+          "West": 25473,
+          "Down": 77005
+        }
+      },
+      {
+        "Id": 25044,
+        "Name": "The Border Ethereal #25044",
+        "Connections": {
+          "West": 25499,
+          "Down": 25110
+        },
+        "Contents": [
+          {
+            "Text": "the phase spider #25457",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5818,
+        "FrameColor": "blue",
+        "Name": "To Connecting roads #5818",
+        "Color": "blue",
+        "Connections": {
+          "North": 25000,
+          "South": 5817
+        }
+      },
+      {
+        "Id": 43018,
+        "FrameColor": "blue",
+        "Name": "To Lost Cross #43018",
+        "Color": "blue",
+        "Connections": {
+          "North": 43019,
+          "East": 25008,
+          "West": 43014
+        }
+      },
+      {
+        "Id": 25399,
+        "FrameColor": "blue",
+        "Name": "To Plane of Magma #25399",
+        "Color": "blue",
+        "Connections": {
+          "South": 25043
+        }
+      },
+      {
+        "Id": 25473,
+        "FrameColor": "blue",
+        "Name": "To Ether Plane #25473",
+        "Color": "blue",
+        "Connections": {
+          "North": 25474,
+          "East": 25043,
+          "South": 25472
+        }
+      },
+      {
+        "Id": 77005,
+        "FrameColor": "blue",
+        "Name": "To Matterhorn #77005",
+        "Color": "blue",
+        "Connections": {
+          "East": 77004,
+          "South": 77145,
+          "West": 77006
+        }
+      },
+      {
+        "Id": 25499,
+        "FrameColor": "blue",
+        "Name": "To Ether Plane #25499",
+        "Color": "blue",
+        "Connections": {
+          "North": 25464,
+          "East": 25044,
+          "West": 25498,
+          "Down": 43056
+        }
+      },
+      {
+        "Id": 25110,
+        "FrameColor": "blue",
+        "Name": "To Plane of Water #25110",
+        "Color": "blue",
+        "Connections": {
+          "Down": 25109
+        }
+      }
+    ]
+  }
+}

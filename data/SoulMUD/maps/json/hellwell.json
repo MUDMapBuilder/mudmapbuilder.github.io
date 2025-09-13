@@ -1,13 +1,19 @@
 {
   "Area": {
-    "Name": "hellwell",
+    "Name": "Hellwell",
     "BackgroundColor": "white",
     "Rooms": [
       {
         "Id": 48000,
         "Name": "The Chamber of Elemental Fire #48000",
         "Connections": {
-          "Down": 48185
+          "Down": {
+            "RoomId": 48185,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -20,7 +26,13 @@
         "Id": 48001,
         "Name": "The Chamber of Elemental Water #48001",
         "Connections": {
-          "Down": 48196
+          "Down": {
+            "RoomId": 48196,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -33,7 +45,13 @@
         "Id": 48002,
         "Name": "The Chamber of Elemental Air #48002",
         "Connections": {
-          "Down": 48200
+          "Down": {
+            "RoomId": 48200,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -46,7 +64,13 @@
         "Id": 48003,
         "Name": "The Chamber of Elemental Earth #48003",
         "Connections": {
-          "Down": 48181
+          "Down": {
+            "RoomId": 48181,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -59,21 +83,39 @@
         "Id": 48004,
         "Name": "Sadda\u0027s Guest Chamber #48004",
         "Connections": {
-          "South": 48003
+          "South": {
+            "RoomId": 48003,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 48005,
         "Name": "Sadda\u0027s Guest Chamber #48005",
         "Connections": {
-          "West": 48003
+          "West": {
+            "RoomId": 48003,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 48006,
         "Name": "Sadda\u0027s Guest Chamber #48006",
         "Connections": {
-          "East": 48003
+          "East": {
+            "RoomId": 48003,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -156,7 +198,13 @@
         "Id": 48105,
         "Name": "Outside a Small Hut #48105",
         "Connections": {
-          "East": 48106,
+          "East": {
+            "RoomId": 48106,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 48104,
           "Up": 48107
         },
@@ -171,7 +219,13 @@
         "Id": 48106,
         "Name": "Inside the Hut of a Madman! #48106",
         "Connections": {
-          "West": 48105
+          "West": {
+            "RoomId": 48105,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -246,7 +300,13 @@
         "Id": 48114,
         "Name": "Door Before Hellwell #48114",
         "Connections": {
-          "North": 48115,
+          "North": {
+            "RoomId": 48115,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "Down": 48113
         }
       },
@@ -255,7 +315,13 @@
         "Name": "Entrance to Hellwell #48115",
         "Connections": {
           "North": 48116,
-          "South": 48114
+          "South": {
+            "RoomId": 48114,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -337,7 +403,13 @@
           "South": 48178,
           "West": 48188,
           "Up": 48172,
-          "Down": 48224
+          "Down": {
+            "RoomId": 48224,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -369,7 +441,13 @@
           "North": 48125,
           "East": 48117,
           "South": 48123,
-          "West": 48201
+          "West": {
+            "RoomId": 48201,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -384,7 +462,13 @@
         "Id": 48126,
         "Name": "On a Wide Ledge #48126",
         "Connections": {
-          "North": 48202,
+          "North": {
+            "RoomId": 48202,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "East": 48127,
           "South": 48117,
           "West": 48125
@@ -403,7 +487,13 @@
         "Name": "High up in the Darkness #48128",
         "Connections": {
           "North": 48127,
-          "East": 48203,
+          "East": {
+            "RoomId": 48203,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "South": 48129,
           "West": 48117
         }
@@ -427,7 +517,13 @@
         "Connections": {
           "North": 48119,
           "East": 48129,
-          "South": 48204,
+          "South": {
+            "RoomId": 48204,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 48132
         }
       },
@@ -446,7 +542,13 @@
         "Connections": {
           "North": 48119,
           "East": 48132,
-          "South": 48205,
+          "South": {
+            "RoomId": 48205,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 48134
         }
       },
@@ -465,7 +567,13 @@
           "North": 48136,
           "East": 48119,
           "South": 48134,
-          "West": 48206
+          "West": {
+            "RoomId": 48206,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -484,7 +592,13 @@
           "North": 48138,
           "East": 48119,
           "South": 48136,
-          "West": 48207
+          "West": {
+            "RoomId": 48207,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -499,7 +613,13 @@
         "Id": 48139,
         "Name": "Continuing into the Darkness #48139",
         "Connections": {
-          "North": 48208,
+          "North": {
+            "RoomId": 48208,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "East": 48140,
           "South": 48119,
           "West": 48138
@@ -518,7 +638,13 @@
         "Id": 48141,
         "Name": "Ledge Near a Cell #48141",
         "Connections": {
-          "North": 48209,
+          "North": {
+            "RoomId": 48209,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "East": 48142,
           "South": 48119,
           "West": 48140
@@ -537,7 +663,13 @@
         "Name": "Hanging Halfway within the Cavern #48143",
         "Connections": {
           "North": 48142,
-          "East": 48210,
+          "East": {
+            "RoomId": 48210,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "South": 48144,
           "West": 48119
         }
@@ -556,7 +688,13 @@
         "Name": "By a Granite Intrusion #48145",
         "Connections": {
           "North": 48144,
-          "East": 48211,
+          "East": {
+            "RoomId": 48211,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "South": 48146,
           "West": 48119
         }
@@ -583,7 +721,13 @@
         "Connections": {
           "North": 48121,
           "East": 48146,
-          "South": 48212,
+          "South": {
+            "RoomId": 48212,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 48149
         }
       },
@@ -602,7 +746,13 @@
         "Connections": {
           "North": 48121,
           "East": 48149,
-          "South": 48213,
+          "South": {
+            "RoomId": 48213,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 48151
         }
       },
@@ -621,7 +771,13 @@
         "Connections": {
           "North": 48121,
           "East": 48151,
-          "South": 48214,
+          "South": {
+            "RoomId": 48214,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 48153
         }
       },
@@ -640,7 +796,13 @@
           "North": 48155,
           "East": 48121,
           "South": 48153,
-          "West": 48215
+          "West": {
+            "RoomId": 48215,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -659,7 +821,13 @@
           "North": 48157,
           "East": 48121,
           "South": 48155,
-          "West": 48216
+          "West": {
+            "RoomId": 48216,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -678,7 +846,13 @@
           "North": 48159,
           "East": 48121,
           "South": 48157,
-          "West": 48217
+          "West": {
+            "RoomId": 48217,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -693,7 +867,13 @@
         "Id": 48160,
         "Name": "Continuing Into the Dark #48160",
         "Connections": {
-          "North": 48218,
+          "North": {
+            "RoomId": 48218,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "East": 48161,
           "South": 48121,
           "West": 48159
@@ -712,7 +892,13 @@
         "Id": 48162,
         "Name": "Scrambling for Footing #48162",
         "Connections": {
-          "North": 48219,
+          "North": {
+            "RoomId": 48219,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "East": 48163,
           "South": 48121,
           "West": 48161
@@ -722,7 +908,13 @@
         "Id": 48163,
         "Name": "On A Slanting Path #48163",
         "Connections": {
-          "North": 48219,
+          "North": {
+            "RoomId": 48219,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "East": 48164,
           "South": 48121,
           "West": 48162
@@ -732,7 +924,13 @@
         "Id": 48164,
         "Name": "Descending Through the Dust #48164",
         "Connections": {
-          "North": 48220,
+          "North": {
+            "RoomId": 48220,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "East": 48165,
           "South": 48121,
           "West": 48163
@@ -751,7 +949,13 @@
         "Name": "Near the Mountain Heart #48166",
         "Connections": {
           "North": 48165,
-          "East": 48221,
+          "East": {
+            "RoomId": 48221,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "South": 48167,
           "West": 48121
         }
@@ -770,7 +974,13 @@
         "Name": "Outside a Cell #48168",
         "Connections": {
           "North": 48167,
-          "East": 48222,
+          "East": {
+            "RoomId": 48222,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "South": 48169,
           "West": 48121
         }
@@ -789,7 +999,13 @@
         "Name": "Near a Bend #48170",
         "Connections": {
           "North": 48169,
-          "East": 48223,
+          "East": {
+            "RoomId": 48223,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "South": 48171,
           "West": 48121
         }
@@ -894,7 +1110,13 @@
         "Connections": {
           "North": 48182,
           "East": 48186,
-          "South": 48003,
+          "South": {
+            "RoomId": 48003,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Up": 48172
         }
       },
@@ -934,7 +1156,13 @@
         "Connections": {
           "East": 48190,
           "South": 48184,
-          "West": 48000,
+          "West": {
+            "RoomId": 48000,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Up": 48172
         }
       },
@@ -1049,7 +1277,13 @@
         "Name": "Southeaster Corner of the Cavern #48196",
         "Connections": {
           "North": 48197,
-          "East": 48001,
+          "East": {
+            "RoomId": 48001,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 48191,
           "Up": 48172
         }
@@ -1088,7 +1322,13 @@
         "Id": 48200,
         "Name": "Northeastern Corner of the Cavern #48200",
         "Connections": {
-          "North": 48002,
+          "North": {
+            "RoomId": 48002,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 48199,
           "West": 48195,
           "Up": 48172
@@ -1098,7 +1338,13 @@
         "Id": 48201,
         "Name": "Strange Cell #48201",
         "Connections": {
-          "East": 48124
+          "East": {
+            "RoomId": 48124,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1111,7 +1357,13 @@
         "Id": 48202,
         "Name": "Strange Cell #48202",
         "Connections": {
-          "South": 48126
+          "South": {
+            "RoomId": 48126,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1124,7 +1376,13 @@
         "Id": 48203,
         "Name": "Strange Cell #48203",
         "Connections": {
-          "West": 48128
+          "West": {
+            "RoomId": 48128,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1137,7 +1395,13 @@
         "Id": 48204,
         "Name": "Strange Cell #48204",
         "Connections": {
-          "North": 48131
+          "North": {
+            "RoomId": 48131,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1150,7 +1414,13 @@
         "Id": 48205,
         "Name": "Strange Cell #48205",
         "Connections": {
-          "North": 48133
+          "North": {
+            "RoomId": 48133,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1163,7 +1433,13 @@
         "Id": 48206,
         "Name": "Strange Cell #48206",
         "Connections": {
-          "East": 48135
+          "East": {
+            "RoomId": 48135,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1176,7 +1452,13 @@
         "Id": 48207,
         "Name": "Strange Cell #48207",
         "Connections": {
-          "East": 48137
+          "East": {
+            "RoomId": 48137,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1189,7 +1471,13 @@
         "Id": 48208,
         "Name": "Strange Cell #48208",
         "Connections": {
-          "South": 48139
+          "South": {
+            "RoomId": 48139,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1202,7 +1490,13 @@
         "Id": 48209,
         "Name": "Strange Cell #48209",
         "Connections": {
-          "South": 48141
+          "South": {
+            "RoomId": 48141,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1215,7 +1509,13 @@
         "Id": 48210,
         "Name": "Strange Cell #48210",
         "Connections": {
-          "West": 48143
+          "West": {
+            "RoomId": 48143,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1228,7 +1528,13 @@
         "Id": 48211,
         "Name": "Strange Cell #48211",
         "Connections": {
-          "West": 48145
+          "West": {
+            "RoomId": 48145,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1241,7 +1547,13 @@
         "Id": 48212,
         "Name": "Strange Cell #48212",
         "Connections": {
-          "North": 48148
+          "North": {
+            "RoomId": 48148,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1254,7 +1566,13 @@
         "Id": 48213,
         "Name": "Strange Cell #48213",
         "Connections": {
-          "North": 48150
+          "North": {
+            "RoomId": 48150,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1267,7 +1585,13 @@
         "Id": 48214,
         "Name": "Strange Cell #48214",
         "Connections": {
-          "North": 48152
+          "North": {
+            "RoomId": 48152,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1280,7 +1604,13 @@
         "Id": 48215,
         "Name": "Strange Cell #48215",
         "Connections": {
-          "East": 48154
+          "East": {
+            "RoomId": 48154,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1293,7 +1623,13 @@
         "Id": 48216,
         "Name": "Strange Cell #48216",
         "Connections": {
-          "East": 48156
+          "East": {
+            "RoomId": 48156,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1306,7 +1642,13 @@
         "Id": 48217,
         "Name": "Strange Cell #48217",
         "Connections": {
-          "East": 48158
+          "East": {
+            "RoomId": 48158,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1319,7 +1661,13 @@
         "Id": 48218,
         "Name": "Strange Cell #48218",
         "Connections": {
-          "South": 48160
+          "South": {
+            "RoomId": 48160,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1332,14 +1680,26 @@
         "Id": 48219,
         "Name": "Strange Cell #48219",
         "Connections": {
-          "South": 48162
+          "South": {
+            "RoomId": 48162,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 48220,
         "Name": "Strange Cell #48220",
         "Connections": {
-          "South": 48164
+          "South": {
+            "RoomId": 48164,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1352,7 +1712,13 @@
         "Id": 48221,
         "Name": "Strange Cell #48221",
         "Connections": {
-          "West": 48166
+          "West": {
+            "RoomId": 48166,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1365,7 +1731,13 @@
         "Id": 48222,
         "Name": "Strange Cell #48222",
         "Connections": {
-          "West": 48168
+          "West": {
+            "RoomId": 48168,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1378,7 +1750,13 @@
         "Id": 48223,
         "Name": "Strange Cell #48223",
         "Connections": {
-          "West": 48170
+          "West": {
+            "RoomId": 48170,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1391,7 +1769,13 @@
         "Id": 48224,
         "Name": "Strange Cell #48224",
         "Connections": {
-          "Up": 48122
+          "Up": {
+            "RoomId": 48122,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1403,7 +1787,7 @@
       {
         "Id": 10050,
         "FrameColor": "blue",
-        "Name": "To nordik #10050",
+        "Name": "To Nordik Area #10050",
         "Color": "blue",
         "Connections": {
           "North": 10048,
@@ -1413,7 +1797,7 @@
       {
         "Id": 80444,
         "FrameColor": "blue",
-        "Name": "To frost #80444",
+        "Name": "To Ice Cave #80444",
         "Color": "blue",
         "Connections": {
           "West": 48101,
@@ -1423,7 +1807,7 @@
       {
         "Id": 42850,
         "FrameColor": "blue",
-        "Name": "To orcfort #42850",
+        "Name": "To Orcs #42850",
         "Color": "blue",
         "Connections": {
           "North": 42851,

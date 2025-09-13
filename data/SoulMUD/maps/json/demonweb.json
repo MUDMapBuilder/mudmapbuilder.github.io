@@ -1,13 +1,19 @@
 {
   "Area": {
-    "Name": "demonweb",
+    "Name": "DemonWeb",
     "BackgroundColor": "white",
     "Rooms": [
       {
         "Id": 40000,
         "Name": "Opening in the Mountainside #40000",
         "Connections": {
-          "West": 18010,
+          "West": {
+            "RoomId": 18010,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Down": 40001
         }
       },
@@ -113,15 +119,33 @@
         "Name": "Monument in the Fens #40010",
         "Connections": {
           "North": 40009,
-          "Down": 40011
+          "Down": {
+            "RoomId": 40011,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 40011,
         "Name": "Below the Monument #40011",
         "Connections": {
-          "East": 40012,
-          "Up": 40010
+          "East": {
+            "RoomId": 40012,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": {
+            "RoomId": 40010,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -139,7 +163,13 @@
         "Name": "A Portal Covered in Webs #40012",
         "Connections": {
           "South": 40013,
-          "West": 40011
+          "West": {
+            "RoomId": 40011,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -220,7 +250,13 @@
         "Id": 40019,
         "Name": "Twist in the Tunnel #40019",
         "Connections": {
-          "North": 40020,
+          "North": {
+            "RoomId": 40020,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 40022,
           "Up": 40018
         },
@@ -239,8 +275,20 @@
         "Id": 40020,
         "Name": "Guards Secret Hideout #40020",
         "Connections": {
-          "South": 40019,
-          "West": 40021
+          "South": {
+            "RoomId": 40019,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 40021,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -261,7 +309,13 @@
         "Id": 40021,
         "Name": "Guards Secret Altar #40021",
         "Connections": {
-          "East": 40020
+          "East": {
+            "RoomId": 40020,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -506,7 +560,13 @@
         "Connections": {
           "East": 40040,
           "West": 40038,
-          "Down": 40041
+          "Down": {
+            "RoomId": 40041,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -541,7 +601,13 @@
         "Id": 40041,
         "Name": "Lair of the Guardian #40041",
         "Connections": {
-          "Up": 40039
+          "Up": {
+            "RoomId": 40039,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1107,7 +1173,18 @@
         "Connections": {
           "North": 40087,
           "East": 40089,
-          "South": 40090
+          "South": {
+            "RoomId": 40090,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the demonweb citadel gate key #40044",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -1135,7 +1212,18 @@
         "Id": 40090,
         "Name": "Entrance to the Citadel #40090",
         "Connections": {
-          "North": 40088,
+          "North": {
+            "RoomId": 40088,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "the demonweb citadel gate key #40044",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Up": 40102
         },
         "Contents": [
@@ -1236,7 +1324,13 @@
         "Connections": {
           "South": 40097,
           "West": 40100,
-          "Down": 40101
+          "Down": {
+            "RoomId": 40101,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1266,7 +1360,13 @@
         "Id": 40101,
         "Name": "Sacrificial pit #40101",
         "Connections": {
-          "Up": 40098
+          "Up": {
+            "RoomId": 40098,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1400,7 +1500,13 @@
         "Id": 40111,
         "Name": "Prison Cell #40111",
         "Connections": {
-          "East": 40112
+          "East": {
+            "RoomId": 40112,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1414,9 +1520,31 @@
         "Name": "Bottom of the Webbed Stair #40112",
         "Connections": {
           "North": 40110,
-          "East": 40199,
+          "East": {
+            "RoomId": 40199,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jailers key chain #6003",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 40114,
-          "West": 40111,
+          "West": {
+            "RoomId": 40111,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jailers key chain #6003",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Up": 40091
         },
         "Contents": [
@@ -1450,7 +1578,18 @@
         "Id": 40113,
         "Name": "Prison Cell #40113",
         "Connections": {
-          "East": 40114
+          "East": {
+            "RoomId": 40114,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jailers key chain #6003",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -1464,16 +1603,49 @@
         "Name": "The Jailers Hallway #40114",
         "Connections": {
           "North": 40112,
-          "East": 40198,
+          "East": {
+            "RoomId": 40198,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jailers key chain #6003",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 40116,
-          "West": 40113
+          "West": {
+            "RoomId": 40113,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jailers key chain #6003",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
         "Id": 40115,
         "Name": "Prison Cell #40115",
         "Connections": {
-          "East": 40116
+          "East": {
+            "RoomId": 40116,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jailers key chain #6003",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -1487,9 +1659,31 @@
         "Name": "The Jailers Hallway #40116",
         "Connections": {
           "North": 40114,
-          "East": 40197,
+          "East": {
+            "RoomId": 40197,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jailers key chain #6003",
+                "Color": "indianred"
+              }
+            ]
+          },
           "South": 40117,
-          "West": 40115
+          "West": {
+            "RoomId": 40115,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a jailers key chain #6003",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -1653,7 +1847,13 @@
         "Id": 40131,
         "Name": "High on the Webbed Spiral Stair #40131",
         "Connections": {
-          "West": 40141,
+          "West": {
+            "RoomId": 40141,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Up": 40134,
           "Down": 40122
         },
@@ -1707,7 +1907,13 @@
         "Id": 40135,
         "Name": "Darkened Room #40135",
         "Connections": {
-          "East": 40136
+          "East": {
+            "RoomId": 40136,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1720,7 +1926,13 @@
         "Id": 40136,
         "Name": "Mages Laboratory #40136",
         "Connections": {
-          "West": 40135,
+          "West": {
+            "RoomId": 40135,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Down": 40133
         },
         "Contents": [
@@ -1735,7 +1947,18 @@
         "Name": "Roofless Lair #40137",
         "Connections": {
           "North": 40134,
-          "East": 40138,
+          "East": {
+            "RoomId": 40138,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a spider-shaped key #6009",
+                "Color": "indianred"
+              }
+            ]
+          },
           "Down": 40140
         },
         "Contents": [
@@ -1749,8 +1972,30 @@
         "Id": 40138,
         "Name": "A Webbed Lined Chamber #40138",
         "Connections": {
-          "East": 40145,
-          "West": 40137
+          "East": {
+            "RoomId": 40145,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a spider-shaped key #6009",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 40137,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a spider-shaped key #6009",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -1798,7 +2043,13 @@
         "Id": 40141,
         "Name": "Secret Stair #40141",
         "Connections": {
-          "East": 40131,
+          "East": {
+            "RoomId": 40131,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Up": 40133
         },
         "Contents": [
@@ -1839,7 +2090,13 @@
         "Id": 40145,
         "Name": "A Plateau of Black Ice #40145",
         "Connections": {
-          "Down": 40144
+          "Down": {
+            "RoomId": 40144,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2191,7 +2448,13 @@
         "Id": 40182,
         "Name": "Runed Gate #40182",
         "Connections": {
-          "East": 40183,
+          "East": {
+            "RoomId": 40183,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 40181
         }
       },
@@ -2202,7 +2465,13 @@
           "North": 40184,
           "East": 40192,
           "South": 40185,
-          "West": 40182
+          "West": {
+            "RoomId": 40182,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2315,7 +2584,18 @@
         "Id": 40192,
         "Name": "An Arcane Labratory #40192",
         "Connections": {
-          "East": 40200,
+          "East": {
+            "RoomId": 40200,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an onyx key #6006",
+                "Color": "indianred"
+              }
+            ]
+          },
           "West": 40183
         },
         "Contents": [
@@ -2361,7 +2641,13 @@
         "Id": 40197,
         "Name": "A Prison Cell #40197",
         "Connections": {
-          "West": 40116
+          "West": {
+            "RoomId": 40116,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2374,7 +2660,13 @@
         "Id": 40198,
         "Name": "A Prison Cell #40198",
         "Connections": {
-          "West": 40114
+          "West": {
+            "RoomId": 40114,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2387,7 +2679,13 @@
         "Id": 40199,
         "Name": "A Prison Cell #40199",
         "Connections": {
-          "West": 40112
+          "West": {
+            "RoomId": 40112,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -2410,10 +2708,16 @@
       {
         "Id": 18010,
         "FrameColor": "blue",
-        "Name": "To giant #18010",
+        "Name": "To Giant Mountain #18010",
         "Color": "blue",
         "Connections": {
-          "East": 40000,
+          "East": {
+            "RoomId": 40000,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Up": 18011,
           "Down": 18009
         }
@@ -2421,7 +2725,7 @@
       {
         "Id": 17072,
         "FrameColor": "blue",
-        "Name": "To ancients #17072",
+        "Name": "To FF7 #17072",
         "Color": "blue",
         "Connections": {
           "South": 40008,
@@ -2431,7 +2735,7 @@
       {
         "Id": 46495,
         "FrameColor": "blue",
-        "Name": "To maze #46495",
+        "Name": "To Maze #46495",
         "Color": "blue",
         "Connections": {
           "West": 46494
@@ -2440,19 +2744,31 @@
       {
         "Id": 65053,
         "FrameColor": "blue",
-        "Name": "To cb #65053",
+        "Name": "To Castle Black #65053",
         "Color": "blue",
         "Connections": {
           "North": 65120,
-          "East": 65054,
+          "East": {
+            "RoomId": 65054,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 65050,
-          "West": 65055
+          "West": {
+            "RoomId": 65055,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 10012,
         "FrameColor": "blue",
-        "Name": "To nordik #10012",
+        "Name": "To Nordik Area #10012",
         "Color": "blue",
         "Connections": {
           "North": 10006
@@ -2461,21 +2777,38 @@
       {
         "Id": 77097,
         "FrameColor": "blue",
-        "Name": "To mhorn #77097",
+        "Name": "To Matterhorn #77097",
         "Color": "blue",
         "Connections": {
           "East": 77112,
           "South": 77095,
-          "Down": 77098
+          "Down": {
+            "RoomId": 77098,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 80044,
         "FrameColor": "blue",
-        "Name": "To suntemple #80044",
+        "Name": "To Sun Temple #80044",
         "Color": "blue",
         "Connections": {
-          "North": 80046,
+          "North": {
+            "RoomId": 80046,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a solar key #80046",
+                "Color": "indianred"
+              }
+            ]
+          },
           "East": 80045,
           "South": 80041,
           "West": 80043,
@@ -2485,7 +2818,7 @@
       {
         "Id": 77095,
         "FrameColor": "blue",
-        "Name": "To mhorn #77095",
+        "Name": "To Matterhorn #77095",
         "Color": "blue",
         "Connections": {
           "North": 77097,
@@ -2497,17 +2830,23 @@
       {
         "Id": 2930,
         "FrameColor": "blue",
-        "Name": "To firenewt #2930",
+        "Name": "To Firenewts #2930",
         "Color": "blue",
         "Connections": {
           "East": 2931,
-          "Up": 2929
+          "Up": {
+            "RoomId": 2929,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 43071,
         "FrameColor": "blue",
-        "Name": "To lostcross #43071",
+        "Name": "To Lost Cross #43071",
         "Color": "blue",
         "Connections": {
           "North": 43073,
@@ -2521,10 +2860,16 @@
       {
         "Id": 66019,
         "FrameColor": "blue",
-        "Name": "To feyd #66019",
+        "Name": "To Trogs Bar #66019",
         "Color": "blue",
         "Connections": {
-          "South": 66016
+          "South": {
+            "RoomId": 66016,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       }
     ]

@@ -1,0 +1,739 @@
+{
+  "Area": {
+    "Name": "Tasloi Tree",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 30500,
+        "Name": "Stairway to Heaven #30500",
+        "Connections": {}
+      },
+      {
+        "Id": 30501,
+        "Name": "Before a Treetop Village. #30501",
+        "Connections": {
+          "East": 30512,
+          "West": 57301,
+          "Up": 30502
+        },
+        "Contents": [
+          {
+            "Text": "a tasloi sentry #30552",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30502,
+        "Name": "Standing Before Miles of Walkway. #30502",
+        "Connections": {
+          "East": 30503,
+          "Down": 30501
+        }
+      },
+      {
+        "Id": 30503,
+        "Name": "Entering the Treetop Village #30503",
+        "Connections": {
+          "North": 30504,
+          "East": 30505,
+          "West": 30502
+        },
+        "Contents": [
+          {
+            "Text": "a trained wasp guard #30549",
+            "Color": "red"
+          },
+          {
+            "Text": "a trained wasp guard #30549",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 30504,
+        "Name": "Inside a Wide Hut #30504",
+        "Connections": {
+          "South": 30503
+        },
+        "Contents": [
+          {
+            "Text": "a lost tasloi youth #30503",
+            "Color": "green"
+          },
+          {
+            "Text": "a lost tasloi youth #30503",
+            "Color": "green"
+          },
+          {
+            "Text": "a lost tasloi youth #30503",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi male #30501",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi male #30501",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi female #30502",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi female #30502",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30505,
+        "Name": "Through the Treetop Village #30505",
+        "Connections": {
+          "East": 30506,
+          "West": 30503
+        }
+      },
+      {
+        "Id": 30506,
+        "Name": "Before a Rope Ladder #30506",
+        "Connections": {
+          "West": 30505,
+          "Up": 30507
+        }
+      },
+      {
+        "Id": 30507,
+        "Name": "Atop a Sturdy Platform #30507",
+        "Connections": {
+          "North": 30508,
+          "Down": 30506
+        }
+      },
+      {
+        "Id": 30508,
+        "Name": "A Turn on the Walkway #30508",
+        "Connections": {
+          "East": 30509,
+          "South": 30507
+        },
+        "Contents": [
+          {
+            "Text": "a tasloi female #30502",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30509,
+        "Name": "A Turn on the Walkway #30509",
+        "Connections": {
+          "South": 30510,
+          "West": 30508
+        }
+      },
+      {
+        "Id": 30510,
+        "Name": "A Three Way Fork #30510",
+        "Connections": {
+          "North": 30509,
+          "East": 30511,
+          "South": 30526
+        },
+        "Contents": [
+          {
+            "Text": "a lost tasloi youth #30503",
+            "Color": "green"
+          },
+          {
+            "Text": "a lost tasloi youth #30503",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi male #30501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30511,
+        "Name": "Before a Small Rope Ladder #30511",
+        "Connections": {
+          "West": 30510,
+          "Down": 30536
+        },
+        "Contents": [
+          {
+            "Text": "a tasloi female #30502",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30512,
+        "Name": "Beneath a Wooden Walkway #30512",
+        "Connections": {
+          "East": 30513,
+          "West": 30501
+        }
+      },
+      {
+        "Id": 30513,
+        "Name": "Venturing Through the Jungle #30513",
+        "Connections": {
+          "East": 30514,
+          "South": 30515,
+          "West": 30512
+        },
+        "Contents": [
+          {
+            "Text": "a trained wasp guard #30549",
+            "Color": "red"
+          },
+          {
+            "Text": "a trained wasp guard #30549",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 30514,
+        "Name": "Before an Ancient Tree #30514",
+        "Connections": {
+          "West": 30513
+        },
+        "Contents": [
+          {
+            "Text": "a lost tasloi youth #30503",
+            "Color": "green"
+          },
+          {
+            "Text": "a lost tasloi youth #30503",
+            "Color": "green"
+          },
+          {
+            "Text": "a lost tasloi youth #30503",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi male #30501",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi female #30502",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30515,
+        "Name": "Along a Closed Path #30515",
+        "Connections": {
+          "North": 30513,
+          "South": 30516
+        }
+      },
+      {
+        "Id": 30516,
+        "Name": "Before a Sharp Turn #30516",
+        "Connections": {
+          "North": 30515,
+          "East": 30517
+        }
+      },
+      {
+        "Id": 30517,
+        "Name": "Through the Deep Jungle #30517",
+        "Connections": {
+          "South": 30518,
+          "West": 30516
+        }
+      },
+      {
+        "Id": 30518,
+        "Name": "Through the Deep Jungle #30518",
+        "Connections": {
+          "North": 30517,
+          "East": 30519
+        }
+      },
+      {
+        "Id": 30519,
+        "Name": "Before a Small Ladder #30519",
+        "Connections": {
+          "South": 30527,
+          "West": 30518,
+          "Up": 30520
+        }
+      },
+      {
+        "Id": 30520,
+        "Name": "Through the Village #30520",
+        "Connections": {
+          "North": 30522,
+          "East": 30521,
+          "Down": 30519
+        },
+        "Contents": [
+          {
+            "Text": "a trained wasp guard #30549",
+            "Color": "red"
+          },
+          {
+            "Text": "a trained wasp guard #30549",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 30521,
+        "Name": "Inside the Trainers Hut #30521",
+        "Connections": {
+          "West": 30520
+        }
+      },
+      {
+        "Id": 30522,
+        "Name": "Along a Damaged Walkway #30522",
+        "Connections": {
+          "North": 30525,
+          "East": 30523,
+          "South": 30520
+        }
+      },
+      {
+        "Id": 30523,
+        "Name": "Before the Shamans Hut #30523",
+        "Connections": {
+          "North": 30524,
+          "West": 30522
+        },
+        "Contents": [
+          {
+            "Text": "a trained wasp guard #30549",
+            "Color": "red"
+          },
+          {
+            "Text": "a trained wasp guard #30549",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 30524,
+        "Name": "Inside the Shamans Hut #30524",
+        "Connections": {
+          "South": 30523
+        },
+        "Contents": [
+          {
+            "Text": "the Tasloi shaman #30524",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30525,
+        "Name": "Atop a Ancient Platform #30525",
+        "Connections": {
+          "South": 30522,
+          "Up": 30526
+        },
+        "Contents": [
+          {
+            "Text": "a lost tasloi youth #30503",
+            "Color": "green"
+          },
+          {
+            "Text": "a lost tasloi youth #30503",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30526,
+        "Name": "A Platform in the Trees #30526",
+        "Connections": {
+          "North": 30510,
+          "Down": 30525
+        }
+      },
+      {
+        "Id": 30527,
+        "Name": "Deep into the Jungle #30527",
+        "Connections": {
+          "North": 30519,
+          "East": 30528
+        }
+      },
+      {
+        "Id": 30528,
+        "Name": "Deep into the Jungle #30528",
+        "Connections": {
+          "West": 30527,
+          "Up": 30529
+        },
+        "Contents": [
+          {
+            "Text": "a trained wasp guard #30549",
+            "Color": "red"
+          },
+          {
+            "Text": "a trained wasp guard #30549",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 30529,
+        "Name": "A Peaceful Platform #30529",
+        "Connections": {
+          "East": 30530,
+          "Down": 30528
+        },
+        "Contents": [
+          {
+            "Text": "a tasloi male #30501",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi female #30502",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30530,
+        "Name": "A Broken Walkway #30530",
+        "Connections": {
+          "North": 30531,
+          "West": 30529
+        }
+      },
+      {
+        "Id": 30531,
+        "Name": "A Muddy Pathway #30531",
+        "Connections": {
+          "North": 30532,
+          "South": 30530
+        }
+      },
+      {
+        "Id": 30532,
+        "Name": "A Muddy Platform #30532",
+        "Connections": {
+          "East": 30533,
+          "South": 30531
+        }
+      },
+      {
+        "Id": 30533,
+        "Name": "A Bent Walkway #30533",
+        "Connections": {
+          "North": 30534,
+          "West": 30532
+        },
+        "Contents": [
+          {
+            "Text": "a tasloi female #30502",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi female #30502",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi male #30501",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi male #30501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30534,
+        "Name": "A Damp Platform #30534",
+        "Connections": {
+          "South": 30533,
+          "Up": 30535
+        }
+      },
+      {
+        "Id": 30535,
+        "Name": "A Wide Platform #30535",
+        "Connections": {
+          "North": 30536,
+          "Down": 30534
+        }
+      },
+      {
+        "Id": 30536,
+        "Name": "Before a Set of Walkways #30536",
+        "Connections": {
+          "East": 30537,
+          "South": 30535,
+          "Up": 30511
+        },
+        "Contents": [
+          {
+            "Text": "a tasloi female #30502",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi female #30502",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi male #30501",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi male #30501",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi patrol leader #30553",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi guard #30554",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi guard #30554",
+            "Color": "green"
+          },
+          {
+            "Text": "a tasloi guard #30554",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30537,
+        "Name": "A Sagging Walkway #30537",
+        "Connections": {
+          "East": 30538,
+          "West": 30536
+        }
+      },
+      {
+        "Id": 30538,
+        "Name": "An Intersection of Walkways #30538",
+        "Connections": {
+          "East": 30539,
+          "West": 30537,
+          "Down": 30547
+        }
+      },
+      {
+        "Id": 30539,
+        "Name": "An Open Platform in the Trees #30539",
+        "Connections": {
+          "West": 30538,
+          "Up": 30540
+        },
+        "Contents": [
+          {
+            "Text": "a trained spider guard #30550",
+            "Color": "red"
+          },
+          {
+            "Text": "a trained spider guard #30550",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 30540,
+        "Name": "A Platform of Logs #30540",
+        "Connections": {
+          "East": 30541,
+          "Down": 30539
+        }
+      },
+      {
+        "Id": 30541,
+        "Name": "A Turn in the Walkway #30541",
+        "Connections": {
+          "South": 30542,
+          "West": 30540
+        }
+      },
+      {
+        "Id": 30542,
+        "Name": "Along the Walkway #30542",
+        "Connections": {
+          "North": 30541,
+          "South": 30543
+        }
+      },
+      {
+        "Id": 30543,
+        "Name": "Before the Chieftains Hut #30543",
+        "Connections": {
+          "North": 30542,
+          "East": 30544
+        },
+        "Contents": [
+          {
+            "Text": "a trained spider guard #30550",
+            "Color": "red"
+          },
+          {
+            "Text": "a trained spider guard #30550",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 30544,
+        "Name": "Inside the Chieftains Hut #30544",
+        "Connections": {
+          "West": 30543
+        },
+        "Contents": [
+          {
+            "Text": "the Tasloi Chieftain #30544",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 30545,
+        "Name": "An Opening in the Vegetation #30545",
+        "Connections": {
+          "North": {
+            "RoomId": 30552,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 30546
+        },
+        "Contents": [
+          {
+            "Text": "a trained spider guard #30550",
+            "Color": "red"
+          },
+          {
+            "Text": "a tasloi sentry #30552",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30546,
+        "Name": "Walking into the Deep Jungle #30546",
+        "Connections": {
+          "North": 30545
+        }
+      },
+      {
+        "Id": 30547,
+        "Name": "Deep into the Dark Jungle #30547",
+        "Connections": {
+          "South": 30548,
+          "Up": 30538
+        }
+      },
+      {
+        "Id": 30548,
+        "Name": "Deep into the Dark Jungle #30548",
+        "Connections": {
+          "North": 30547,
+          "East": 30549
+        }
+      },
+      {
+        "Id": 30549,
+        "Name": "Deep into the Dark Jungle #30549",
+        "Connections": {
+          "West": 30548,
+          "Up": 30550
+        }
+      },
+      {
+        "Id": 30550,
+        "Name": "Before the Warleaders Hut #30550",
+        "Connections": {
+          "East": 30551,
+          "Down": 30549
+        },
+        "Contents": [
+          {
+            "Text": "a trained spider guard #30550",
+            "Color": "red"
+          },
+          {
+            "Text": "a trained spider guard #30550",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 30551,
+        "Name": "Inside the Warleaders Hut #30551",
+        "Connections": {
+          "West": 30550
+        },
+        "Contents": [
+          {
+            "Text": "the Tasloi warleader #30551",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 30552,
+        "Name": "Dense Vegetation #30552",
+        "Connections": {
+          "North": 9870,
+          "South": {
+            "RoomId": 30545,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a trained spider guard #30550",
+            "Color": "red"
+          },
+          {
+            "Text": "a trained spider guard #30550",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 57301,
+        "FrameColor": "blue",
+        "Name": "To Golden Pavilion #57301",
+        "Color": "blue",
+        "Connections": {
+          "East": 30501,
+          "South": 57300
+        }
+      },
+      {
+        "Id": 9870,
+        "FrameColor": "blue",
+        "Name": "To Goblin Cave #9870",
+        "Color": "blue",
+        "Connections": {
+          "North": 9871,
+          "East": 9872,
+          "South": 30552,
+          "West": 9869
+        }
+      }
+    ]
+  }
+}

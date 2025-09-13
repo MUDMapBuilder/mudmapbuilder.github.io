@@ -1,0 +1,1799 @@
+{
+  "Area": {
+    "Name": "Castle Black",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 65000,
+        "Name": "GraceLand #65000",
+        "Connections": {
+          "East": 1304,
+          "South": 65001,
+          "West": 65003,
+          "Down": 8000
+        }
+      },
+      {
+        "Id": 65001,
+        "Name": "Rehearsal Studio #65001",
+        "Connections": {
+          "North": 65000
+        }
+      },
+      {
+        "Id": 65003,
+        "Name": "Jaxx\u0027s Loft #65003",
+        "Connections": {
+          "North": 65004,
+          "East": 65000,
+          "South": 65006,
+          "West": 65005
+        }
+      },
+      {
+        "Id": 65004,
+        "Name": "Jaxx\u0027s Waterbed #65004",
+        "Connections": {
+          "South": 65005,
+          "West": 65005
+        }
+      },
+      {
+        "Id": 65005,
+        "Name": "Jaxx\u0027s Loft #65005",
+        "Connections": {
+          "North": 65003,
+          "East": 65005,
+          "South": 65005,
+          "West": 65005
+        }
+      },
+      {
+        "Id": 65006,
+        "Name": "Jaxx\u0027s Kitchen #65006",
+        "Connections": {
+          "North": 65005,
+          "West": 65005
+        }
+      },
+      {
+        "Id": 65050,
+        "Name": "Courtyard of Castle Black #65050",
+        "Connections": {
+          "North": 65053,
+          "East": 65051,
+          "South": 65114,
+          "West": 65052,
+          "Up": 65079
+        }
+      },
+      {
+        "Id": 65051,
+        "Name": "Courtyard of Castle Black #65051",
+        "Connections": {
+          "North": 65110,
+          "West": 65050,
+          "Up": 65080
+        },
+        "Contents": [
+          {
+            "Text": "a castle guard #65009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65052,
+        "Name": "Courtyard of Castle Black #65052",
+        "Connections": {
+          "East": 65050,
+          "Up": 65088
+        },
+        "Contents": [
+          {
+            "Text": "a castle guard #65009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65053,
+        "Name": "Great Hall #65053",
+        "Connections": {
+          "North": 65120,
+          "East": {
+            "RoomId": 65054,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 65050,
+          "West": {
+            "RoomId": 65055,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Lady Lysanna #65037",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65054,
+        "Name": "Narrow Hall #65054",
+        "Connections": {
+          "North": {
+            "RoomId": 65100,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 65053,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a castle guard #65009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65055,
+        "Name": "The Parlor #65055",
+        "Connections": {
+          "North": 65096,
+          "East": {
+            "RoomId": 65053,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a cloaked lord #65023",
+            "Color": "green"
+          },
+          {
+            "Text": "a blue-robed lady #65019",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65056,
+        "Name": "Banquet Hall Entry #65056",
+        "Connections": {
+          "North": 65059,
+          "East": 65057,
+          "West": 65058,
+          "Down": 65120
+        },
+        "Contents": [
+          {
+            "Text": "a green-robed lord #65020",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65057,
+        "Name": "Marble Spiral Stairway #65057",
+        "Connections": {
+          "North": 65060,
+          "West": 65056,
+          "Up": 65087
+        }
+      },
+      {
+        "Id": 65058,
+        "Name": "Marble Spiral Stairway #65058",
+        "Connections": {
+          "North": 65061,
+          "East": 65056,
+          "Up": 65081
+        }
+      },
+      {
+        "Id": 65059,
+        "Name": "Banquet Hall #65059",
+        "Connections": {
+          "North": 65063,
+          "East": 65060,
+          "South": 65056,
+          "West": 65061
+        },
+        "Contents": [
+          {
+            "Text": "a cloaked lady #65024",
+            "Color": "green"
+          },
+          {
+            "Text": "a red-robed Lord #65003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65060,
+        "Name": "Banquet Hall #65060",
+        "Connections": {
+          "North": 65064,
+          "South": 65057,
+          "West": 65059
+        },
+        "Contents": [
+          {
+            "Text": "a cloaked lady #65024",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65061,
+        "Name": "Banquet Hall #65061",
+        "Connections": {
+          "North": 65062,
+          "East": 65059,
+          "South": 65058
+        },
+        "Contents": [
+          {
+            "Text": "a cloaked lord #65023",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65062,
+        "Name": "Banquet Hall #65062",
+        "Connections": {
+          "North": 65066,
+          "East": 65063,
+          "South": 65061,
+          "West": {
+            "RoomId": 65124,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a green-robed lady #65021",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65063,
+        "Name": "Stage #65063",
+        "Connections": {
+          "North": 65065,
+          "East": 65064,
+          "South": 65059,
+          "West": 65062
+        },
+        "Contents": [
+          {
+            "Text": "a drummer bard #65025",
+            "Color": "green"
+          },
+          {
+            "Text": "a sitarist bard #65026",
+            "Color": "green"
+          },
+          {
+            "Text": "a singing bard #65027",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65064,
+        "Name": "Banquet Hall #65064",
+        "Connections": {
+          "North": 65067,
+          "East": {
+            "RoomId": 65123,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 65060,
+          "West": 65063
+        },
+        "Contents": [
+          {
+            "Text": "a red-robed Lady #65004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65065,
+        "Name": "Banquet Hall #65065",
+        "Connections": {
+          "East": 65067,
+          "South": 65063,
+          "West": 65066
+        },
+        "Contents": [
+          {
+            "Text": "a red-robed Lord #65003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65066,
+        "Name": "Banquet Hall #65066",
+        "Connections": {
+          "North": 65101,
+          "East": 65065,
+          "South": 65062
+        },
+        "Contents": [
+          {
+            "Text": "a servant #65022",
+            "Color": "green"
+          },
+          {
+            "Text": "a cloaked lady #65024",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65067,
+        "Name": "Banquet Hall #65067",
+        "Connections": {
+          "North": 65102,
+          "South": 65064,
+          "West": 65065
+        },
+        "Contents": [
+          {
+            "Text": "a servant #65022",
+            "Color": "green"
+          },
+          {
+            "Text": "a cloaked lord #65023",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65068,
+        "Name": "West Tower Stairs #65068",
+        "Connections": {
+          "West": 65070,
+          "Up": 65069,
+          "Down": 65096
+        }
+      },
+      {
+        "Id": 65069,
+        "Name": "Dining Tower #65069",
+        "Connections": {
+          "Down": 65068
+        },
+        "Contents": [
+          {
+            "Text": "a cloaked lord #65023",
+            "Color": "green"
+          },
+          {
+            "Text": "a blue-robed lord #65018",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65070,
+        "Name": "West Wing #65070",
+        "Connections": {
+          "East": 65068,
+          "South": {
+            "RoomId": 65071,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 65127
+        }
+      },
+      {
+        "Id": 65071,
+        "Name": "Guest Room #65071",
+        "Connections": {
+          "North": {
+            "RoomId": 65070,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a cloaked lady #65024",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65072,
+        "Name": "Guest Room #65072",
+        "Connections": {
+          "North": {
+            "RoomId": 65127,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 65073,
+        "Name": "Guest Room #65073",
+        "Connections": {
+          "North": {
+            "RoomId": 65128,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a red-robed Lady #65004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65074,
+        "Name": "East Tower Stairs #65074",
+        "Connections": {
+          "East": 65125,
+          "Up": 65075,
+          "Down": 65100
+        }
+      },
+      {
+        "Id": 65075,
+        "Name": "Commander\u0027s Tower #65075",
+        "Connections": {
+          "Down": 65074
+        },
+        "Contents": [
+          {
+            "Text": "Lord Morrigan #65034",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65076,
+        "Name": "Commander\u0027s Quarters #65076",
+        "Connections": {
+          "North": {
+            "RoomId": 65125,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the Dragoon Commander #65035",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65077,
+        "Name": "Guard\u0027s Quarters #65077",
+        "Connections": {
+          "South": 65126
+        }
+      },
+      {
+        "Id": 65078,
+        "Name": "East Wing #65078",
+        "Connections": {
+          "East": {
+            "RoomId": 65093,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a crystal key #6001",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "West": 65126
+        },
+        "Contents": [
+          {
+            "Text": "a castle guard #65009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65079,
+        "Name": "Flying over the Courtyard #65079",
+        "Connections": {
+          "East": 65080,
+          "South": 65140,
+          "West": 65088,
+          "Up": 65132,
+          "Down": 65050
+        }
+      },
+      {
+        "Id": 65080,
+        "Name": "Flying over the Courtyard #65080",
+        "Connections": {
+          "North": 65097,
+          "West": 65079,
+          "Up": 65132,
+          "Down": 65051
+        },
+        "Contents": [
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65081,
+        "Name": "Banquet Hall Balcony #65081",
+        "Connections": {
+          "North": 65082,
+          "Down": 65058
+        }
+      },
+      {
+        "Id": 65082,
+        "Name": "Banquet Hall Balcony #65082",
+        "Connections": {
+          "North": 65083,
+          "South": 65081,
+          "West": {
+            "RoomId": 65121,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 65083,
+        "Name": "Banquet Hall Balcony #65083",
+        "Connections": {
+          "East": 65084,
+          "South": 65082
+        }
+      },
+      {
+        "Id": 65084,
+        "Name": "Banquet Hall Balcony #65084",
+        "Connections": {
+          "East": 65085,
+          "West": 65083
+        }
+      },
+      {
+        "Id": 65085,
+        "Name": "Banquet Hall Balcony #65085",
+        "Connections": {
+          "South": 65086,
+          "West": 65084
+        }
+      },
+      {
+        "Id": 65086,
+        "Name": "Banquet Hall Balcony #65086",
+        "Connections": {
+          "North": 65085,
+          "South": 65087
+        }
+      },
+      {
+        "Id": 65087,
+        "Name": "Banquet Hall Balcony #65087",
+        "Connections": {
+          "North": 65086,
+          "Down": 65057
+        }
+      },
+      {
+        "Id": 65088,
+        "Name": "Flying over the Courtyard #65088",
+        "Connections": {
+          "North": 65121,
+          "East": 65079,
+          "Up": 65132,
+          "Down": 65052
+        },
+        "Contents": [
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65089,
+        "Name": "Library #65089",
+        "Connections": {
+          "Up": 65092
+        }
+      },
+      {
+        "Id": 65090,
+        "Name": "Servants Quarters #65090",
+        "Connections": {
+          "South": 65101
+        }
+      },
+      {
+        "Id": 65091,
+        "Name": "Wine Cellar #65091",
+        "Connections": {
+          "South": 65102,
+          "West": {
+            "RoomId": 65107,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 65092,
+        "Name": "Library Entrance #65092",
+        "Connections": {
+          "East": 65128,
+          "Down": 65089
+        },
+        "Contents": [
+          {
+            "Text": "the librarian #65028",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65093,
+        "Name": "The High Tower #65093",
+        "Connections": {
+          "West": {
+            "RoomId": 65078,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "Up": 65095,
+          "Down": 65094
+        }
+      },
+      {
+        "Id": 65094,
+        "Name": "Workshop #65094",
+        "Connections": {
+          "Up": 65093
+        },
+        "Contents": [
+          {
+            "Text": "a Phantom Dragoon #65031",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65095,
+        "Name": "High Tower Stairs #65095",
+        "Connections": {
+          "Up": 65112,
+          "Down": 65093
+        }
+      },
+      {
+        "Id": 65096,
+        "Name": "West Tower #65096",
+        "Connections": {
+          "South": 65055,
+          "Up": 65068
+        },
+        "Contents": [
+          {
+            "Text": "a castle guard #65009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65097,
+        "Name": "Roof of the East Wing #65097",
+        "Connections": {
+          "North": 65111,
+          "South": 65080,
+          "Up": 65132
+        },
+        "Contents": [
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65098,
+        "Name": "Phantom Dragoon Headquarters #65098",
+        "Connections": {
+          "North": {
+            "RoomId": 65103,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 65100,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 65099,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the Dragoon Receptionist #65032",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65099,
+        "Name": "Dragoon Office #65099",
+        "Connections": {
+          "East": {
+            "RoomId": 65098,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a Phantom Dragoon #65031",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65100,
+        "Name": "Phantom Dragoon Hall #65100",
+        "Connections": {
+          "South": {
+            "RoomId": 65054,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 65098,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 65074
+        }
+      },
+      {
+        "Id": 65101,
+        "Name": "Kitchen #65101",
+        "Connections": {
+          "North": {
+            "RoomId": 65090,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "East": 65102,
+          "South": {
+            "RoomId": 65066,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a servant #65022",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65102,
+        "Name": "Pantry #65102",
+        "Connections": {
+          "North": 65091,
+          "South": {
+            "RoomId": 65067,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 65101
+        },
+        "Contents": [
+          {
+            "Text": "a servant #65022",
+            "Color": "green"
+          },
+          {
+            "Text": "a servant #65022",
+            "Color": "green"
+          },
+          {
+            "Text": "a servant #65022",
+            "Color": "green"
+          },
+          {
+            "Text": "the head waiter #65033",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65103,
+        "Name": "Wide Hallway #65103",
+        "Connections": {
+          "North": {
+            "RoomId": 65106,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 65104,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 65098,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 65105,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 65107
+        }
+      },
+      {
+        "Id": 65104,
+        "Name": "Armory #65104",
+        "Connections": {
+          "West": {
+            "RoomId": 65103,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a Phantom Dragoon #65031",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65105,
+        "Name": "Barracks #65105",
+        "Connections": {
+          "East": 65103
+        },
+        "Contents": [
+          {
+            "Text": "a Phantom Dragoon #65031",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65106,
+        "Name": "Flagstone Commons #65106",
+        "Connections": {
+          "East": 65110,
+          "South": 65103,
+          "West": 65108,
+          "Up": 65131
+        },
+        "Contents": [
+          {
+            "Text": "a Phantom Dragoon #65036",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65107,
+        "Name": "Secret Passage #65107",
+        "Connections": {
+          "East": {
+            "RoomId": 65091,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 65103
+        }
+      },
+      {
+        "Id": 65108,
+        "Name": "Stable #65108",
+        "Connections": {
+          "East": 65106,
+          "South": 65109
+        },
+        "Contents": [
+          {
+            "Text": "a saddled pegasus #65030",
+            "Color": "green"
+          },
+          {
+            "Text": "a Phantom Dragoon #65031",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65109,
+        "Name": "Stableyard #65109",
+        "Connections": {
+          "North": 65108,
+          "Up": 65129
+        },
+        "Contents": [
+          {
+            "Text": "a saddled pegasus #65030",
+            "Color": "green"
+          },
+          {
+            "Text": "a saddled pegasus #65030",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65110,
+        "Name": "Smithy #65110",
+        "Connections": {
+          "South": 65051,
+          "West": 65106
+        },
+        "Contents": [
+          {
+            "Text": "the blacksmith #65029",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65111,
+        "Name": "Roof of the Smithy #65111",
+        "Connections": {
+          "South": 65097,
+          "West": 65131,
+          "Up": 65132
+        }
+      },
+      {
+        "Id": 65112,
+        "Name": "High Tower Stairs #65112",
+        "Connections": {
+          "Up": 65115,
+          "Down": 65115
+        }
+      },
+      {
+        "Id": 65113,
+        "Name": "Window Room #65113",
+        "Connections": {
+          "North": 25565,
+          "East": 25217,
+          "South": 46444,
+          "West": 30304,
+          "Up": 21010,
+          "Down": 65112
+        }
+      },
+      {
+        "Id": 65114,
+        "Name": "Teleport Ring #65114",
+        "Connections": {
+          "North": 65050,
+          "East": 65051,
+          "West": 65052
+        },
+        "Contents": [
+          {
+            "Text": "a castle guard #65009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65115,
+        "Name": "High Tower Stairs #65115",
+        "Connections": {
+          "Up": 65116,
+          "Down": 65117
+        },
+        "Contents": [
+          {
+            "Text": "a mist golem #65016",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65116,
+        "Name": "High Tower Stairs #65116",
+        "Connections": {
+          "Up": 65112,
+          "Down": 65122
+        }
+      },
+      {
+        "Id": 65117,
+        "Name": "Isolation #65117",
+        "Connections": {
+          "Down": 65118
+        }
+      },
+      {
+        "Id": 65118,
+        "Name": "Isolation #65118",
+        "Connections": {
+          "Down": 65119
+        }
+      },
+      {
+        "Id": 65119,
+        "Name": "Isolation #65119",
+        "Connections": {
+          "Down": 65093
+        }
+      },
+      {
+        "Id": 65120,
+        "Name": "Obsidian Stairway #65120",
+        "Connections": {
+          "South": 65053,
+          "Up": 65056
+        }
+      },
+      {
+        "Id": 65121,
+        "Name": "Roof of the West Wing #65121",
+        "Connections": {
+          "North": 65129,
+          "East": {
+            "RoomId": 65082,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 65088,
+          "Up": 65132
+        },
+        "Contents": [
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65122,
+        "Name": "High Tower Stairs #65122",
+        "Connections": {
+          "Up": 65113,
+          "Down": 65117
+        }
+      },
+      {
+        "Id": 65123,
+        "Name": "Small Alcove #65123",
+        "Connections": {
+          "West": {
+            "RoomId": 65064,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 65124,
+        "Name": "Small Alcove #65124",
+        "Connections": {
+          "East": {
+            "RoomId": 65062,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a cloaked lady #65024",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65125,
+        "Name": "East Wing #65125",
+        "Connections": {
+          "East": 65126,
+          "South": {
+            "RoomId": 65076,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 65074
+        }
+      },
+      {
+        "Id": 65126,
+        "Name": "East Wing #65126",
+        "Connections": {
+          "North": {
+            "RoomId": 65077,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "East": 65078,
+          "West": 65125
+        }
+      },
+      {
+        "Id": 65127,
+        "Name": "West Wing #65127",
+        "Connections": {
+          "East": 65070,
+          "South": {
+            "RoomId": 65072,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 65128
+        }
+      },
+      {
+        "Id": 65128,
+        "Name": "West Wing #65128",
+        "Connections": {
+          "East": 65127,
+          "South": {
+            "RoomId": 65073,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 65092
+        }
+      },
+      {
+        "Id": 65129,
+        "Name": "Flying over the Stableyard #65129",
+        "Connections": {
+          "East": 65131,
+          "South": 65121,
+          "Up": 65132,
+          "Down": 65109
+        }
+      },
+      {
+        "Id": 65130,
+        "Name": "spare #65130",
+        "Connections": {}
+      },
+      {
+        "Id": 65131,
+        "Name": "Flying over the Commons #65131",
+        "Connections": {
+          "East": 65111,
+          "West": 65129,
+          "Up": 65132,
+          "Down": 65106
+        }
+      },
+      {
+        "Id": 65132,
+        "Name": "Above Castle Black #65132",
+        "Connections": {
+          "North": 65134,
+          "East": 65135,
+          "South": 65136,
+          "West": 65137,
+          "Down": 65133
+        },
+        "Contents": [
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          },
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65133,
+        "Name": "Roof of the Dome #65133",
+        "Connections": {
+          "North": 65131,
+          "East": 65097,
+          "South": 65079,
+          "West": 65121,
+          "Up": 65132
+        },
+        "Contents": [
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          },
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65134,
+        "Name": "Above the North Wall #65134",
+        "Connections": {
+          "South": 65132,
+          "Down": 65138
+        },
+        "Contents": [
+          {
+            "Text": "an onyx eagle #65017",
+            "Color": "green"
+          },
+          {
+            "Text": "an onyx eagle #65017",
+            "Color": "green"
+          },
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65135,
+        "Name": "Above the East Wall #65135",
+        "Connections": {
+          "West": 65132,
+          "Down": 65139
+        },
+        "Contents": [
+          {
+            "Text": "an onyx bull #65007",
+            "Color": "green"
+          },
+          {
+            "Text": "an onyx bear #65008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 65136,
+        "Name": "Above the South Wall #65136",
+        "Connections": {
+          "North": 65132,
+          "Down": 65140
+        }
+      },
+      {
+        "Id": 65137,
+        "Name": "Above the West Wall #65137",
+        "Connections": {
+          "East": 65132,
+          "Down": 65141
+        },
+        "Contents": [
+          {
+            "Text": "an onyx panther #65005",
+            "Color": "green"
+          },
+          {
+            "Text": "an onyx centaur #65006",
+            "Color": "green"
+          },
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65138,
+        "Name": "Flying Beside a Wall #65138",
+        "Connections": {
+          "Up": 65134,
+          "Down": 65142
+        }
+      },
+      {
+        "Id": 65139,
+        "Name": "Flying Beside a Wall #65139",
+        "Connections": {
+          "Up": 65135,
+          "Down": 65143
+        }
+      },
+      {
+        "Id": 65140,
+        "Name": "Flying Beside a Wall #65140",
+        "Connections": {
+          "North": 65079,
+          "Up": 65136,
+          "Down": 65144
+        },
+        "Contents": [
+          {
+            "Text": "a serpent\u0027s tail #65000",
+            "Color": "green"
+          },
+          {
+            "Text": "a serpent\u0027s head #65001",
+            "Color": "green"
+          },
+          {
+            "Text": "a serpent\u0027s head #65001",
+            "Color": "green"
+          },
+          {
+            "Text": "a serpent\u0027s head #65001",
+            "Color": "green"
+          },
+          {
+            "Text": "a serpent\u0027s head #65001",
+            "Color": "green"
+          },
+          {
+            "Text": "a serpent\u0027s head #65001",
+            "Color": "green"
+          },
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          },
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65141,
+        "Name": "Flying Beside a Wall #65141",
+        "Connections": {
+          "Up": 65137,
+          "Down": 65145
+        }
+      },
+      {
+        "Id": 65142,
+        "Name": "Base of the Wall #65142",
+        "Connections": {
+          "South": 65146,
+          "Up": 65138,
+          "Down": 65147
+        }
+      },
+      {
+        "Id": 65143,
+        "Name": "Base of the Wall #65143",
+        "Connections": {
+          "West": 65146,
+          "Up": 65139,
+          "Down": 65147
+        },
+        "Contents": [
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65144,
+        "Name": "Base of the Wall #65144",
+        "Connections": {
+          "North": 65146,
+          "Up": 65140,
+          "Down": 65147
+        },
+        "Contents": [
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65145,
+        "Name": "Base of the Wall #65145",
+        "Connections": {
+          "East": 65146,
+          "Up": 65141,
+          "Down": 65147
+        }
+      },
+      {
+        "Id": 65146,
+        "Name": "Flying Under the Castle #65146",
+        "Connections": {
+          "North": 65142,
+          "East": 65143,
+          "South": 65144,
+          "West": 65145,
+          "Down": 65147
+        },
+        "Contents": [
+          {
+            "Text": "a young firedrake #65002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65147,
+        "Name": "Air Below the Castle #65147",
+        "Connections": {
+          "Up": 65146,
+          "Down": 65151
+        }
+      },
+      {
+        "Id": 65148,
+        "Name": "spare #65148",
+        "Connections": {}
+      },
+      {
+        "Id": 65149,
+        "Name": "spare #65149",
+        "Connections": {}
+      },
+      {
+        "Id": 65150,
+        "Name": "spare #65150",
+        "Connections": {}
+      },
+      {
+        "Id": 65151,
+        "Name": "Mouth of a Cloud Tunnel #65151",
+        "Connections": {
+          "Up": 65147,
+          "Down": 65152
+        }
+      },
+      {
+        "Id": 65152,
+        "Name": "Rift in the Clouds #65152",
+        "Connections": {
+          "South": 65153,
+          "Up": 65151,
+          "Down": 65154
+        }
+      },
+      {
+        "Id": 65153,
+        "Name": "Chamber of the South Wind #65153",
+        "Connections": {
+          "North": 65152,
+          "Down": 65154
+        },
+        "Contents": [
+          {
+            "Text": "the south-wind spirit #65013",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65154,
+        "Name": "Rift in the Clouds #65154",
+        "Connections": {
+          "East": 65155,
+          "Up": 65152,
+          "Down": 65156
+        }
+      },
+      {
+        "Id": 65155,
+        "Name": "Chamber of the East Wind #65155",
+        "Connections": {
+          "West": 65154,
+          "Down": 65156
+        },
+        "Contents": [
+          {
+            "Text": "the east-wind spirit #65015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65156,
+        "Name": "Rift in the Clouds #65156",
+        "Connections": {
+          "West": 65157,
+          "Up": 65154,
+          "Down": 65158
+        }
+      },
+      {
+        "Id": 65157,
+        "Name": "Chamber of the West Wind #65157",
+        "Connections": {
+          "East": 65156,
+          "Down": 65158
+        },
+        "Contents": [
+          {
+            "Text": "the west-wind spirit #65011",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65158,
+        "Name": "Rift in the Clouds #65158",
+        "Connections": {
+          "North": 65159,
+          "Up": 65156,
+          "Down": 65160
+        }
+      },
+      {
+        "Id": 65159,
+        "Name": "Chamber of the North Wind #65159",
+        "Connections": {
+          "South": 65158,
+          "Down": 65160
+        },
+        "Contents": [
+          {
+            "Text": "the north-wind spirit #65012",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65160,
+        "Name": "Bottom of the Rift #65160",
+        "Connections": {
+          "Up": 65158,
+          "Down": 4074
+        },
+        "Contents": [
+          {
+            "Text": "the Rogue of Storms #65039",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 65161,
+        "Name": "Inside a Gray Cloud #65161",
+        "Connections": {
+          "Up": {
+            "RoomId": 4234,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the cloud guardian #57100",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1304,
+        "FrameColor": "blue",
+        "Name": "To Godsland #1304",
+        "Color": "blue",
+        "Connections": {
+          "East": 15263,
+          "South": 15258,
+          "West": 15260
+        }
+      },
+      {
+        "Id": 8000,
+        "FrameColor": "blue",
+        "Name": "To BalHarbor #8000",
+        "Color": "blue",
+        "Connections": {
+          "North": 8150,
+          "East": 8001,
+          "South": 8149,
+          "West": 5802
+        }
+      },
+      {
+        "Id": 25565,
+        "FrameColor": "blue",
+        "Name": "To Nine Hells #25565",
+        "Color": "blue",
+        "Connections": {
+          "North": 25566,
+          "East": {
+            "RoomId": 25564,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a Gehennan Portcullis key #25565",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 25567,
+          "West": 25568
+        }
+      },
+      {
+        "Id": 25217,
+        "FrameColor": "blue",
+        "Name": "To Plane of Air #25217",
+        "Color": "blue",
+        "Connections": {
+          "North": 25239,
+          "East": 25219,
+          "South": 25215,
+          "West": 25218,
+          "Down": 25522
+        }
+      },
+      {
+        "Id": 46444,
+        "FrameColor": "blue",
+        "Name": "To Maze #46444",
+        "Color": "blue",
+        "Connections": {
+          "East": 46443
+        }
+      },
+      {
+        "Id": 30304,
+        "FrameColor": "blue",
+        "Name": "To Settlestone #30304",
+        "Color": "blue",
+        "Connections": {
+          "North": 30316,
+          "East": 30310,
+          "South": 30303,
+          "West": 30317,
+          "Down": 70003
+        }
+      },
+      {
+        "Id": 21010,
+        "FrameColor": "blue",
+        "Name": "To Planar Junction #21010",
+        "Color": "blue",
+        "Connections": {
+          "North": 21011,
+          "East": 21028,
+          "South": 21009,
+          "West": 21044,
+          "Up": 21081,
+          "Down": 21068
+        }
+      },
+      {
+        "Id": 4074,
+        "FrameColor": "blue",
+        "Name": "To Above BH #4074",
+        "Color": "blue",
+        "Connections": {
+          "Down": 4073
+        }
+      },
+      {
+        "Id": 4234,
+        "FrameColor": "blue",
+        "Name": "To Clouds #4234",
+        "Color": "blue",
+        "Connections": {
+          "North": 4242,
+          "South": 4233,
+          "Down": 65161
+        }
+      }
+    ]
+  }
+}

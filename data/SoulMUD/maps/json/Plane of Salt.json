@@ -1,0 +1,494 @@
+{
+  "Area": {
+    "Name": "Plane of Salt",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 25300,
+        "Name": "The Edge of a Salty Wasteland #25300",
+        "Connections": {
+          "South": 25301
+        }
+      },
+      {
+        "Id": 25301,
+        "Name": "Canyon of Salt #25301",
+        "Connections": {
+          "North": 25300,
+          "West": 25302
+        }
+      },
+      {
+        "Id": 25302,
+        "Name": "Canyon of Salt #25302",
+        "Connections": {
+          "East": 25301,
+          "South": 25305,
+          "West": 25303
+        },
+        "Contents": [
+          {
+            "Text": "the salt elemental #25300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25303,
+        "Name": "Canyon of Salt #25303",
+        "Connections": {
+          "North": 25304,
+          "East": 25302
+        }
+      },
+      {
+        "Id": 25304,
+        "Name": "Canyon of Salt #25304",
+        "Connections": {
+          "South": 25303
+        }
+      },
+      {
+        "Id": 25305,
+        "Name": "Atop The Salt Formation #25305",
+        "Connections": {
+          "North": 25302,
+          "Down": 25306
+        }
+      },
+      {
+        "Id": 25306,
+        "Name": "Base of The Salt Formation #25306",
+        "Connections": {
+          "West": 25307,
+          "Up": 25305
+        }
+      },
+      {
+        "Id": 25307,
+        "Name": "Wasteland of Salt #25307",
+        "Connections": {
+          "East": 25306,
+          "West": 25308
+        }
+      },
+      {
+        "Id": 25308,
+        "Name": "Crumbling Bridge of Salt #25308",
+        "Connections": {
+          "East": 25307,
+          "Up": 25328,
+          "Down": 25309
+        }
+      },
+      {
+        "Id": 25309,
+        "Name": "The Bridge of Salt #25309",
+        "Connections": {
+          "East": 25310,
+          "Up": 25308
+        }
+      },
+      {
+        "Id": 25310,
+        "Name": "The Lower Salt Plains #25310",
+        "Connections": {
+          "East": 25311,
+          "West": 25309
+        }
+      },
+      {
+        "Id": 25311,
+        "Name": "The Lower Salt Plains #25311",
+        "Connections": {
+          "South": 25312,
+          "West": 25310
+        },
+        "Contents": [
+          {
+            "Text": "the salt elemental #25302",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25312,
+        "Name": "The Lower Salt Plains #25312",
+        "Connections": {
+          "North": 25311,
+          "South": 25313
+        }
+      },
+      {
+        "Id": 25313,
+        "Name": "The Salty Crevice\u0027s Edge #25313",
+        "Connections": {
+          "North": 25312,
+          "East": 25315,
+          "West": 25314
+        }
+      },
+      {
+        "Id": 25314,
+        "Name": "The Salty Crevice\u0027s Edge #25314",
+        "Connections": {
+          "East": 25313
+        },
+        "Contents": [
+          {
+            "Text": "the thunderherder cow #25306",
+            "Color": "green"
+          },
+          {
+            "Text": "the thunderherder bull #25307",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25315,
+        "Name": "The Salty Crevice\u0027s Edge #25315",
+        "Connections": {
+          "East": 25316,
+          "West": 25313
+        }
+      },
+      {
+        "Id": 25316,
+        "Name": "The Salty Crevice\u0027s Edge #25316",
+        "Connections": {
+          "North": 25317,
+          "West": 25315
+        }
+      },
+      {
+        "Id": 25317,
+        "Name": "Valley of Glistening Salt #25317",
+        "Connections": {
+          "North": 25318,
+          "South": 25316
+        }
+      },
+      {
+        "Id": 25318,
+        "Name": "Valley of Glistening Salt #25318",
+        "Connections": {
+          "East": 25319,
+          "South": 25317
+        }
+      },
+      {
+        "Id": 25319,
+        "Name": "The Twisting Canyons of Salt #25319",
+        "Connections": {
+          "North": 25323,
+          "East": 25320,
+          "West": 25318
+        },
+        "Contents": [
+          {
+            "Text": "the salt elemental #25301",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25320,
+        "Name": "The Twisting Canyons of Salt #25320",
+        "Connections": {
+          "South": 25321,
+          "West": 25319
+        }
+      },
+      {
+        "Id": 25321,
+        "Name": "The Twisting Canyons of Salt #25321",
+        "Connections": {
+          "North": 25320,
+          "West": 25322
+        }
+      },
+      {
+        "Id": 25322,
+        "Name": "The Salty Canyon\u0027s End #25322",
+        "Connections": {
+          "East": 25321
+        },
+        "Contents": [
+          {
+            "Text": "Vsyvyxyryll, The Copper Dragon #25311",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25323,
+        "Name": "The Twisting Canyons of Salt #25323",
+        "Connections": {
+          "East": 25324,
+          "South": 25319
+        }
+      },
+      {
+        "Id": 25324,
+        "Name": "The Twisting Canyons of Salt #25324",
+        "Connections": {
+          "East": 25325,
+          "West": 25323
+        }
+      },
+      {
+        "Id": 25325,
+        "Name": "The Twisting Canyons of Salt #25325",
+        "Connections": {
+          "North": 25326,
+          "West": 25324
+        }
+      },
+      {
+        "Id": 25326,
+        "Name": "The Twisting Canyons of Salt #25326",
+        "Connections": {
+          "South": 25325,
+          "West": 25327
+        }
+      },
+      {
+        "Id": 25327,
+        "Name": "The Salty Canyon\u0027s End #25327",
+        "Connections": {
+          "East": 25326
+        },
+        "Contents": [
+          {
+            "Text": "the haloyle #25308",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25328,
+        "Name": "Ruins of The Salty Bridge #25328",
+        "Connections": {
+          "North": 25329,
+          "Down": 25308
+        }
+      },
+      {
+        "Id": 25329,
+        "Name": "Remains of An Ancient Ocean Reef #25329",
+        "Connections": {
+          "South": 25328,
+          "West": 25330
+        }
+      },
+      {
+        "Id": 25330,
+        "Name": "Remains of An Ancient Ocean Reef #25330",
+        "Connections": {
+          "East": 25329,
+          "South": 25333,
+          "West": 25331
+        }
+      },
+      {
+        "Id": 25331,
+        "Name": "Remains of An Ancient Ocean Reef #25331",
+        "Connections": {
+          "East": 25330,
+          "South": 25335,
+          "West": 25332
+        }
+      },
+      {
+        "Id": 25332,
+        "Name": "Remains of An Ancient Ocean Reef #25332",
+        "Connections": {
+          "North": 25339,
+          "East": 25331,
+          "South": 25337
+        },
+        "Contents": [
+          {
+            "Text": "the salt elemental #25303",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25333,
+        "Name": "The Dark and Salty Tunnel #25333",
+        "Connections": {
+          "North": 25330,
+          "South": 25334
+        },
+        "Contents": [
+          {
+            "Text": "the salt elemental #25304",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25334,
+        "Name": "The Dark and Salty Tunnel #25334",
+        "Connections": {
+          "North": 25333
+        },
+        "Contents": [
+          {
+            "Text": "the living fossil #25313",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25335,
+        "Name": "The Dark and Salty Tunnel #25335",
+        "Connections": {
+          "North": 25331,
+          "South": 25336
+        }
+      },
+      {
+        "Id": 25336,
+        "Name": "The Dark and Salty Tunnel #25336",
+        "Connections": {
+          "North": 25335
+        },
+        "Contents": [
+          {
+            "Text": "the living fossil #25312",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25337,
+        "Name": "The Peninsula of Salt #25337",
+        "Connections": {
+          "North": 25332,
+          "West": 25338
+        }
+      },
+      {
+        "Id": 25338,
+        "Name": "Edge of A Once-Proud Salt Sea #25338",
+        "Connections": {
+          "East": 25337
+        },
+        "Contents": [
+          {
+            "Text": "the guardian of elemental salt #25310",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25339,
+        "Name": "Basin of An Ancient Ocean Reef #25339",
+        "Connections": {
+          "South": 25332,
+          "Up": 25340
+        }
+      },
+      {
+        "Id": 25340,
+        "Name": "Salt Encrusted Fossils #25340",
+        "Connections": {
+          "East": 25341,
+          "Down": 25339
+        }
+      },
+      {
+        "Id": 25341,
+        "Name": "Salt Encrusted Fossils #25341",
+        "Connections": {
+          "East": 25342,
+          "West": 25340
+        }
+      },
+      {
+        "Id": 25342,
+        "Name": "Salt Encrusted Fossils #25342",
+        "Connections": {
+          "East": 25346,
+          "South": 25343,
+          "West": 25341
+        },
+        "Contents": [
+          {
+            "Text": "the salt elemental #25305",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25343,
+        "Name": "Fossils Frozen In Salt #25343",
+        "Connections": {
+          "North": 25342,
+          "West": 25344
+        }
+      },
+      {
+        "Id": 25344,
+        "Name": "Deep In The Salty Wasteland #25344",
+        "Connections": {
+          "East": 25343,
+          "West": 25345
+        }
+      },
+      {
+        "Id": 25345,
+        "Name": "Surrounded By Fossils #25345",
+        "Connections": {
+          "East": 25344
+        },
+        "Contents": [
+          {
+            "Text": "the haloyle #25309",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25346,
+        "Name": "Salt Encrusted Fossils #25346",
+        "Connections": {
+          "West": 25342,
+          "Down": 25347
+        }
+      },
+      {
+        "Id": 25347,
+        "Name": "The Small Canyon Of Salt #25347",
+        "Connections": {
+          "South": 25348,
+          "Up": 25346
+        }
+      },
+      {
+        "Id": 25348,
+        "Name": "The Small Canyon Of Salt #25348",
+        "Connections": {
+          "North": 25347,
+          "West": 25349
+        }
+      },
+      {
+        "Id": 25349,
+        "Name": "The Salty Box Canyon #25349",
+        "Connections": {
+          "East": 25348
+        },
+        "Contents": [
+          {
+            "Text": "The Ultrodaemon #25314",
+            "Color": "red"
+          }
+        ]
+      }
+    ]
+  }
+}

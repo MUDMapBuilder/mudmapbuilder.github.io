@@ -1,0 +1,925 @@
+{
+  "Area": {
+    "Name": "Giant Mountain",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 18000,
+        "Name": "The Middle of Nowhere #18000",
+        "Connections": {}
+      },
+      {
+        "Id": 18001,
+        "Name": "Path through the Valley #18001",
+        "Connections": {
+          "North": 18056,
+          "East": 18002,
+          "West": 12368
+        },
+        "Contents": [
+          {
+            "Text": "a small blue bird #18017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18002,
+        "Name": "Path Leading to the Mountains #18002",
+        "Connections": {
+          "East": 18003,
+          "West": 18001
+        },
+        "Contents": [
+          {
+            "Text": "a small red bird #18015",
+            "Color": "green"
+          },
+          {
+            "Text": "a small blue bird #18017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18003,
+        "Name": "Nearing the Mountain #18003",
+        "Connections": {
+          "East": 18004,
+          "West": 18002
+        },
+        "Contents": [
+          {
+            "Text": "a small red bird #18015",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18004,
+        "Name": "Base of the Mountain #18004",
+        "Connections": {
+          "East": 18005,
+          "South": 18006,
+          "West": 18003
+        },
+        "Contents": [
+          {
+            "Text": "a small blue bird #18017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18005,
+        "Name": "Climbing the Mountain #18005",
+        "Connections": {
+          "West": 18004,
+          "Up": 18007
+        },
+        "Contents": [
+          {
+            "Text": "a cloud of insects #18014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18006,
+        "Name": "Around the Mountain #18006",
+        "Connections": {
+          "North": 18004,
+          "South": 18055
+        },
+        "Contents": [
+          {
+            "Text": "a small red bird #18015",
+            "Color": "green"
+          },
+          {
+            "Text": "a small blue bird #18017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18007,
+        "Name": "Climbing the Mountain #18007",
+        "Connections": {
+          "Up": 18008,
+          "Down": 18005
+        },
+        "Contents": [
+          {
+            "Text": "a cloud of insects #18014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18008,
+        "Name": "Climbing the Mountain #18008",
+        "Connections": {
+          "South": 18009,
+          "Down": 18007
+        }
+      },
+      {
+        "Id": 18009,
+        "Name": "Shelf #18009",
+        "Connections": {
+          "North": 18008,
+          "Up": 18010
+        }
+      },
+      {
+        "Id": 18010,
+        "Name": "Climbing the Mountain #18010",
+        "Connections": {
+          "East": {
+            "RoomId": 40000,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 18011,
+          "Down": 18009
+        }
+      },
+      {
+        "Id": 18011,
+        "Name": "Climbing the Mountain #18011",
+        "Connections": {
+          "South": 18012,
+          "Down": 18010
+        },
+        "Contents": [
+          {
+            "Text": "a small red bird #18015",
+            "Color": "green"
+          },
+          {
+            "Text": "a small blue bird #18017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18012,
+        "Name": "Mountain Shelf #18012",
+        "Connections": {
+          "North": 18011,
+          "Up": 18013
+        }
+      },
+      {
+        "Id": 18013,
+        "Name": "Further up the Mountain #18013",
+        "Connections": {
+          "North": {
+            "RoomId": 18014,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 18015,
+          "Down": 18012
+        }
+      },
+      {
+        "Id": 18014,
+        "Name": "Cave #18014",
+        "Connections": {
+          "North": 18317,
+          "South": {
+            "RoomId": 18013,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a strange greenish monster #18008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18015,
+        "Name": "Further Up the Mountain #18015",
+        "Connections": {
+          "South": 18016,
+          "Down": 18013
+        }
+      },
+      {
+        "Id": 18016,
+        "Name": "High Shelf #18016",
+        "Connections": {
+          "North": 18015,
+          "Up": 18017
+        }
+      },
+      {
+        "Id": 18017,
+        "Name": "Just Below the Summit #18017",
+        "Connections": {
+          "Up": 18018,
+          "Down": 18016
+        }
+      },
+      {
+        "Id": 18018,
+        "Name": "Mountain Summit #18018",
+        "Connections": {
+          "East": 18043,
+          "West": 18019,
+          "Down": 18017
+        }
+      },
+      {
+        "Id": 18019,
+        "Name": "Entrance to the Giant Village #18019",
+        "Connections": {
+          "North": 18020,
+          "East": 18018,
+          "West": 18022
+        },
+        "Contents": [
+          {
+            "Text": "a mountain giant #18006",
+            "Color": "green"
+          },
+          {
+            "Text": "a mountain giant #18006",
+            "Color": "green"
+          },
+          {
+            "Text": "a female mountain giant #18007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18020,
+        "Name": "Eastern Village #18020",
+        "Connections": {
+          "South": 18019,
+          "West": 18021
+        },
+        "Contents": [
+          {
+            "Text": "a mountain giant #18006",
+            "Color": "green"
+          },
+          {
+            "Text": "a female mountain giant #18007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18021,
+        "Name": "Western Village #18021",
+        "Connections": {
+          "East": 18020,
+          "South": 18022
+        },
+        "Contents": [
+          {
+            "Text": "a mountain giant #18006",
+            "Color": "green"
+          },
+          {
+            "Text": "a female mountain giant #18007",
+            "Color": "green"
+          },
+          {
+            "Text": "a mountain giant child #18020",
+            "Color": "green"
+          },
+          {
+            "Text": "a mountain giant child #18020",
+            "Color": "green"
+          },
+          {
+            "Text": "a mountain giant child #18020",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18022,
+        "Name": "Eastern Village Path #18022",
+        "Connections": {
+          "North": 18021,
+          "East": 18019,
+          "West": 18023
+        },
+        "Contents": [
+          {
+            "Text": "a mountain giant #18006",
+            "Color": "green"
+          },
+          {
+            "Text": "a female mountain giant #18007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18023,
+        "Name": "Western Village Path #18023",
+        "Connections": {
+          "East": 18022,
+          "South": 18024
+        },
+        "Contents": [
+          {
+            "Text": "a female mountain giant #18007",
+            "Color": "green"
+          },
+          {
+            "Text": "a cloud of insects #18014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18024,
+        "Name": "East of Fire Circle #18024",
+        "Connections": {
+          "North": 18023,
+          "West": 18025
+        },
+        "Contents": [
+          {
+            "Text": "a mountain giant #18006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18025,
+        "Name": "Fire Circle #18025",
+        "Connections": {
+          "North": 18028,
+          "East": 18024,
+          "South": 18026,
+          "West": 18027
+        },
+        "Contents": [
+          {
+            "Text": "Senavian the Shaman #18004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18026,
+        "Name": "South of Fire Circle #18026",
+        "Connections": {
+          "North": 18025
+        },
+        "Contents": [
+          {
+            "Text": "a mountain giant #18006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18027,
+        "Name": "West of Fire Circle #18027",
+        "Connections": {
+          "East": 18025
+        },
+        "Contents": [
+          {
+            "Text": "a short giant #18005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18028,
+        "Name": "North of Fire Circle #18028",
+        "Connections": {
+          "North": 18029,
+          "South": 18025
+        }
+      },
+      {
+        "Id": 18029,
+        "Name": "Edge of the Mountain #18029",
+        "Connections": {
+          "North": 18034,
+          "East": 18030,
+          "South": 18028
+        },
+        "Contents": [
+          {
+            "Text": "a small red bird #18015",
+            "Color": "green"
+          },
+          {
+            "Text": "a small black bird #18016",
+            "Color": "green"
+          },
+          {
+            "Text": "a small blue bird #18017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18030,
+        "Name": "Granite Path #18030",
+        "Connections": {
+          "North": 18031,
+          "West": 18029
+        },
+        "Contents": [
+          {
+            "Text": "a small black bird #18016",
+            "Color": "green"
+          },
+          {
+            "Text": "a small black bird #18016",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18031,
+        "Name": "Before a Huge Stone Building #18031",
+        "Connections": {
+          "East": {
+            "RoomId": 18032,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "South": 18030
+        }
+      },
+      {
+        "Id": 18032,
+        "Name": "Foyer of the Storm Giant #18032",
+        "Connections": {
+          "East": 18033,
+          "West": {
+            "RoomId": 18031,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a giant guard #18019",
+            "Color": "green"
+          },
+          {
+            "Text": "a giant guard #18019",
+            "Color": "green"
+          },
+          {
+            "Text": "a giant guard #18019",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18033,
+        "Name": "Storm Giant Home #18033",
+        "Connections": {
+          "South": {
+            "RoomId": 18020,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 18032
+        },
+        "Contents": [
+          {
+            "Text": "Alelth the Storm Giant #18001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18034,
+        "Name": "Mountain Cliff #18034",
+        "Connections": {
+          "South": 18029,
+          "Down": 18035
+        }
+      },
+      {
+        "Id": 18035,
+        "Name": "Way Above the Valley Floor #18035",
+        "Connections": {
+          "Up": 18034,
+          "Down": 18036
+        },
+        "Contents": [
+          {
+            "Text": "a shadow #18024",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18036,
+        "Name": "High Above the Valley Floor #18036",
+        "Connections": {
+          "Up": 18035,
+          "Down": 18037
+        },
+        "Contents": [
+          {
+            "Text": "a small black bird #18016",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18037,
+        "Name": "Far Above the Valley Floor #18037",
+        "Connections": {
+          "Up": 18036,
+          "Down": 18038
+        }
+      },
+      {
+        "Id": 18038,
+        "Name": "Halfway between Mountaintop and Valley Floor #18038",
+        "Connections": {
+          "Up": 18037,
+          "Down": 18039
+        },
+        "Contents": [
+          {
+            "Text": "a small black bird #18016",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18039,
+        "Name": "Crevice Above the Valley Floor #18039",
+        "Connections": {
+          "East": {
+            "RoomId": 18057,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "Up": 18038,
+          "Down": 18040
+        },
+        "Contents": [
+          {
+            "Text": "a small yellow bird #18021",
+            "Color": "green"
+          },
+          {
+            "Text": "a small yellow bird #18021",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18040,
+        "Name": "Slightly Above the Valley Floor #18040",
+        "Connections": {
+          "Up": 18039,
+          "Down": 18041
+        }
+      },
+      {
+        "Id": 18041,
+        "Name": "Near the Ground #18041",
+        "Connections": {
+          "Up": 18040,
+          "Down": 18042
+        },
+        "Contents": [
+          {
+            "Text": "a small yellow bird #18021",
+            "Color": "green"
+          },
+          {
+            "Text": "a small yellow bird #18021",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18042,
+        "Name": "Immediately Above the Ground #18042",
+        "Connections": {
+          "Up": 18041,
+          "Down": 18004
+        }
+      },
+      {
+        "Id": 18043,
+        "Name": "Above the Waterfall #18043",
+        "Connections": {
+          "West": 18018,
+          "Down": 18044
+        }
+      },
+      {
+        "Id": 18044,
+        "Name": "Top of the Waterfall #18044",
+        "Connections": {
+          "Up": 18043,
+          "Down": 18045
+        },
+        "Contents": [
+          {
+            "Text": "a shadow #18022",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18045,
+        "Name": "Below the Top of the Waterfall #18045",
+        "Connections": {
+          "Up": 18044,
+          "Down": 18046
+        }
+      },
+      {
+        "Id": 18046,
+        "Name": "Above Mid Waterfall #18046",
+        "Connections": {
+          "Down": 18047
+        },
+        "Contents": [
+          {
+            "Text": "a large Roc #18003",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18047,
+        "Name": "Mid Waterfall #18047",
+        "Connections": {
+          "Up": 18046,
+          "Down": 18048
+        },
+        "Contents": [
+          {
+            "Text": "a small Roc #18002",
+            "Color": "red"
+          },
+          {
+            "Text": "a small Roc #18002",
+            "Color": "red"
+          },
+          {
+            "Text": "a small Roc #18002",
+            "Color": "red"
+          },
+          {
+            "Text": "a small Roc #18002",
+            "Color": "red"
+          },
+          {
+            "Text": "a small Roc #18002",
+            "Color": "red"
+          },
+          {
+            "Text": "a small Roc #18002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 18048,
+        "Name": "Below Mid Waterfall #18048",
+        "Connections": {
+          "Up": 18047,
+          "Down": 18049
+        }
+      },
+      {
+        "Id": 18049,
+        "Name": "Above the Bottom of the Waterfall #18049",
+        "Connections": {
+          "Up": 18048,
+          "Down": 18050
+        },
+        "Contents": [
+          {
+            "Text": "a small yellow bird #18021",
+            "Color": "green"
+          },
+          {
+            "Text": "a small yellow bird #18021",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18050,
+        "Name": "Bottom of the Waterfall #18050",
+        "Connections": {
+          "West": 18051,
+          "Up": 18049
+        }
+      },
+      {
+        "Id": 18051,
+        "Name": "Mist Before the Waterfall #18051",
+        "Connections": {
+          "East": 18050,
+          "South": 18052
+        },
+        "Contents": [
+          {
+            "Text": "a furry animal #18018",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18052,
+        "Name": "Approaching the Waterfall #18052",
+        "Connections": {
+          "North": 18051,
+          "West": 18053
+        },
+        "Contents": [
+          {
+            "Text": "a small strange rock #18009",
+            "Color": "green"
+          },
+          {
+            "Text": "a strange round rock #18010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18053,
+        "Name": "Path South of the Mountain #18053",
+        "Connections": {
+          "East": 18052,
+          "West": 18054
+        },
+        "Contents": [
+          {
+            "Text": "a small strange rock #18009",
+            "Color": "green"
+          },
+          {
+            "Text": "a small strange rock #18009",
+            "Color": "green"
+          },
+          {
+            "Text": "a small strange rock #18009",
+            "Color": "green"
+          },
+          {
+            "Text": "a strange round rock #18010",
+            "Color": "green"
+          },
+          {
+            "Text": "a strange round rock #18010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18054,
+        "Name": "Path South of the Mountain #18054",
+        "Connections": {
+          "East": 18053,
+          "West": 18055
+        },
+        "Contents": [
+          {
+            "Text": "a small strange rock #18009",
+            "Color": "green"
+          },
+          {
+            "Text": "a small red bird #18015",
+            "Color": "green"
+          },
+          {
+            "Text": "a strange round rock #18010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 18055,
+        "Name": "South of the Mountain #18055",
+        "Connections": {
+          "North": 18006,
+          "East": 18054,
+          "West": {
+            "RoomId": 12333,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 18056,
+        "Name": "Entering the Valley #18056",
+        "Connections": {
+          "North": 42054,
+          "South": 18001
+        }
+      },
+      {
+        "Id": 18057,
+        "Name": "Golden Dragon Lair #18057",
+        "Connections": {
+          "West": {
+            "RoomId": 18039,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 12368,
+        "FrameColor": "blue",
+        "Name": "To Jahnesta #12368",
+        "Color": "blue",
+        "Connections": {
+          "East": 18001,
+          "South": 12300
+        }
+      },
+      {
+        "Id": 40000,
+        "FrameColor": "blue",
+        "Name": "To DemonWeb #40000",
+        "Color": "blue",
+        "Connections": {
+          "West": {
+            "RoomId": 18010,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 40001
+        }
+      },
+      {
+        "Id": 18317,
+        "FrameColor": "blue",
+        "Name": "To Aqueduct #18317",
+        "Color": "blue",
+        "Connections": {
+          "North": 18318,
+          "South": 18014
+        }
+      },
+      {
+        "Id": 12333,
+        "FrameColor": "blue",
+        "Name": "To Jahnesta #12333",
+        "Color": "blue",
+        "Connections": {
+          "North": 12334,
+          "West": 12331
+        }
+      },
+      {
+        "Id": 42054,
+        "FrameColor": "blue",
+        "Name": "To Forest of Fear #42054",
+        "Color": "blue",
+        "Connections": {
+          "North": 42028,
+          "South": 18056
+        }
+      }
+    ]
+  }
+}

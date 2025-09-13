@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "tupelo",
+    "Name": "Tupelo",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -8,7 +8,13 @@
         "Name": "Western Wall #20000",
         "Connections": {
           "East": 20001,
-          "West": 20049
+          "West": {
+            "RoomId": 20049,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -286,7 +292,18 @@
         "Id": 20018,
         "Name": "Bar of the Nasty Unicorn #20018",
         "Connections": {
-          "South": 20019,
+          "South": {
+            "RoomId": 20019,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a humongous silver sword #20018",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
           "West": 20016
         },
         "Contents": [
@@ -300,7 +317,18 @@
         "Id": 20019,
         "Name": "Supply Closet #20019",
         "Connections": {
-          "North": 20018
+          "North": {
+            "RoomId": 20018,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a humongous silver sword #20018",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -317,7 +345,13 @@
         "Id": 20020,
         "Name": "A Dark Path #20020",
         "Connections": {
-          "North": 3421,
+          "North": {
+            "RoomId": 3421,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 20048
         }
       },
@@ -551,14 +585,26 @@
         "Name": "Entrance to the Library #20035",
         "Connections": {
           "East": 20026,
-          "South": 20036
+          "South": {
+            "RoomId": 20036,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 20036,
         "Name": "Front Desk of the Library #20036",
         "Connections": {
-          "North": 20035,
+          "North": {
+            "RoomId": 20035,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 20038,
           "West": 20037
         }
@@ -699,7 +745,13 @@
         "Id": 20046,
         "Name": "Northern Wall #20046",
         "Connections": {
-          "North": 20047,
+          "North": {
+            "RoomId": 20047,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 20045
         },
         "Contents": [
@@ -722,7 +774,13 @@
         "Name": "Northern Path #20047",
         "Connections": {
           "North": 20048,
-          "South": 20046,
+          "South": {
+            "RoomId": 20046,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 20096
         }
       },
@@ -740,7 +798,13 @@
         "Name": "Outside the Western Wall #20049",
         "Connections": {
           "North": 20070,
-          "East": 20000,
+          "East": {
+            "RoomId": 20000,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 42541,
           "West": 20050
         },
@@ -875,7 +939,13 @@
         "Id": 20059,
         "Name": "Eastern Wall #20059",
         "Connections": {
-          "East": 57308,
+          "East": {
+            "RoomId": 57308,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 20040
         },
         "Contents": [
@@ -938,7 +1008,13 @@
         "Connections": {
           "North": 20062,
           "East": 20065,
-          "South": 18279,
+          "South": {
+            "RoomId": 18279,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 20064
         },
         "Contents": [
@@ -998,7 +1074,13 @@
         "Name": "Tupelo Town Dump #20069",
         "Connections": {
           "South": 20068,
-          "Down": 80501
+          "Down": {
+            "RoomId": 80501,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1146,7 +1228,7 @@
       {
         "Id": 41,
         "FrameColor": "blue",
-        "Name": "To godsland #41",
+        "Name": "To Godsland #41",
         "Color": "blue",
         "Connections": {
           "South": 20015
@@ -1155,20 +1237,32 @@
       {
         "Id": 3421,
         "FrameColor": "blue",
-        "Name": "To graveyard #3421",
+        "Name": "To Graveyard #3421",
         "Color": "blue",
         "Connections": {
           "North": 3418,
           "East": 3422,
-          "South": 20020,
+          "South": {
+            "RoomId": 20020,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 3420,
-          "Down": 80400
+          "Down": {
+            "RoomId": 80400,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 70025,
         "FrameColor": "blue",
-        "Name": "To guilds #70025",
+        "Name": "To Avatar Guilds #70025",
         "Color": "blue",
         "Connections": {
           "South": 20027,
@@ -1178,7 +1272,7 @@
       {
         "Id": 70026,
         "FrameColor": "blue",
-        "Name": "To guilds #70026",
+        "Name": "To Avatar Guilds #70026",
         "Color": "blue",
         "Connections": {
           "South": 20028
@@ -1187,7 +1281,7 @@
       {
         "Id": 1302,
         "FrameColor": "blue",
-        "Name": "To godsland #1302",
+        "Name": "To Godsland #1302",
         "Color": "blue",
         "Connections": {
           "Up": 20032
@@ -1196,7 +1290,7 @@
       {
         "Id": 1301,
         "FrameColor": "blue",
-        "Name": "To godsland #1301",
+        "Name": "To Godsland #1301",
         "Color": "blue",
         "Connections": {
           "North": 20033
@@ -1205,7 +1299,7 @@
       {
         "Id": 3409,
         "FrameColor": "blue",
-        "Name": "To lyrra #3409",
+        "Name": "To Lyrran Temples #3409",
         "Color": "blue",
         "Connections": {
           "North": 3410,
@@ -1215,7 +1309,7 @@
       {
         "Id": 42541,
         "FrameColor": "blue",
-        "Name": "To happy #42541",
+        "Name": "To Happy Hunting #42541",
         "Color": "blue",
         "Connections": {
           "North": 20049,
@@ -1225,7 +1319,7 @@
       {
         "Id": 42600,
         "FrameColor": "blue",
-        "Name": "To happy #42600",
+        "Name": "To Happy Hunting #42600",
         "Color": "blue",
         "Connections": {
           "North": 20050,
@@ -1235,7 +1329,7 @@
       {
         "Id": 8090,
         "FrameColor": "blue",
-        "Name": "To bh #8090",
+        "Name": "To BalHarbor #8090",
         "Color": "blue",
         "Connections": {
           "East": 20054,
@@ -1246,18 +1340,24 @@
       {
         "Id": 8043,
         "FrameColor": "blue",
-        "Name": "To bh #8043",
+        "Name": "To BalHarbor #8043",
         "Color": "blue",
         "Connections": {
           "North": 20055,
-          "East": 8062,
+          "East": {
+            "RoomId": 8062,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 8071
         }
       },
       {
         "Id": 1300,
         "FrameColor": "blue",
-        "Name": "To godsland #1300",
+        "Name": "To Godsland #1300",
         "Color": "blue",
         "Connections": {
           "South": 20058
@@ -1266,40 +1366,64 @@
       {
         "Id": 57308,
         "FrameColor": "blue",
-        "Name": "To goldpav #57308",
+        "Name": "To Golden Pavilion #57308",
         "Color": "blue",
         "Connections": {
           "North": 80414,
           "East": 57309,
-          "West": 20059
+          "West": {
+            "RoomId": 20059,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 18279,
         "FrameColor": "blue",
-        "Name": "To aqueduct #18279",
+        "Name": "To Aqueduct #18279",
         "Color": "blue",
         "Connections": {
-          "North": 20063,
+          "North": {
+            "RoomId": 20063,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Up": 18316,
-          "Down": 18278
+          "Down": {
+            "RoomId": 18278,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 80501,
         "FrameColor": "blue",
-        "Name": "To gully #80501",
+        "Name": "To Gullys #80501",
         "Color": "blue",
         "Connections": {
           "North": 80502,
           "East": 80505,
-          "Up": 20069
+          "Up": {
+            "RoomId": 20069,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 46054,
         "FrameColor": "blue",
-        "Name": "To empty11 #46054",
+        "Name": "To Assorted Faries #46054",
         "Color": "blue",
         "Connections": {
           "North": 46053,

@@ -1,0 +1,442 @@
+{
+  "Area": {
+    "Name": "Pirate Cove",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 81000,
+        "Name": "On the Shore #81000",
+        "Connections": {
+          "East": 42524,
+          "West": 81001
+        }
+      },
+      {
+        "Id": 81001,
+        "Name": "Along the Shore #81001",
+        "Connections": {
+          "East": 81000,
+          "West": 81003
+        },
+        "Contents": [
+          {
+            "Text": "a ghost #81015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 81002,
+        "Name": "Swimming in the sea #81002",
+        "Connections": {
+          "North": 81001
+        }
+      },
+      {
+        "Id": 81003,
+        "Name": "On a Sandy Beach #81003",
+        "Connections": {
+          "East": 81001,
+          "West": 81004
+        },
+        "Contents": [
+          {
+            "Text": "a swashbuckler #81006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 81004,
+        "Name": "Near a Point #81004",
+        "Connections": {
+          "East": 81003,
+          "West": 81005
+        },
+        "Contents": [
+          {
+            "Text": "a ghost #81015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 81005,
+        "Name": "Point Lorelei #81005",
+        "Connections": {
+          "East": 81004,
+          "West": 81006,
+          "Down": 81007
+        }
+      },
+      {
+        "Id": 81006,
+        "Name": "Jungle Cul-de-sac #81006",
+        "Connections": {
+          "East": 81005,
+          "Down": {
+            "RoomId": 8092,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a smuggler #8073",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 81007,
+        "Name": "Among the Rocks #81007",
+        "Connections": {
+          "West": 81013,
+          "Up": 81005,
+          "Down": 81008
+        }
+      },
+      {
+        "Id": 81008,
+        "Name": "Beneath the Waves #81008",
+        "Connections": {
+          "Up": 81007,
+          "Down": 81009
+        },
+        "Contents": [
+          {
+            "Text": "a hammerhead shark #81001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 81009,
+        "Name": "A Dark Abyss #81009",
+        "Connections": {
+          "Up": 81008,
+          "Down": 81010
+        },
+        "Contents": [
+          {
+            "Text": "a hammerhead shark #81001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 81010,
+        "Name": "Davey Jones\u0027 Locker #81010",
+        "Connections": {
+          "South": 81011,
+          "Up": 81009
+        },
+        "Contents": [
+          {
+            "Text": "a hammerhead shark #81001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 81011,
+        "Name": "Beside the Wreck #81011",
+        "Connections": {
+          "North": 81010,
+          "South": 81012
+        },
+        "Contents": [
+          {
+            "Text": "a hammerhead shark #81001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 81012,
+        "Name": "In the Hull #81012",
+        "Connections": {
+          "North": 81011
+        },
+        "Contents": [
+          {
+            "Text": "the cobalt sea serpent #81000",
+            "Color": "red"
+          },
+          {
+            "Text": "a hammerhead shark #81001",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 81013,
+        "Name": "In a Dark Hollow #81013",
+        "Connections": {
+          "East": 81007,
+          "Down": 81014
+        }
+      },
+      {
+        "Id": 81014,
+        "Name": "Damp Grotto #81014",
+        "Connections": {
+          "North": 81015
+        }
+      },
+      {
+        "Id": 81015,
+        "Name": "A Lair #81015",
+        "Connections": {
+          "North": 81017,
+          "South": 81014
+        },
+        "Contents": [
+          {
+            "Text": "the siren maiden #81002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 81017,
+        "Name": "Mouth of a Cave #81017",
+        "Connections": {
+          "North": 81018,
+          "South": 81015
+        }
+      },
+      {
+        "Id": 81018,
+        "Name": "Jungle Path #81018",
+        "Connections": {
+          "North": 81019,
+          "South": 81017
+        },
+        "Contents": [
+          {
+            "Text": "a laboring buccaneer #81004",
+            "Color": "green"
+          },
+          {
+            "Text": "a drunken buccaneer #81008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 81019,
+        "Name": "Lagoon Beside a Ship #81019",
+        "Connections": {
+          "East": 81025,
+          "South": 81018,
+          "West": 81020
+        }
+      },
+      {
+        "Id": 81020,
+        "Name": "Gang Plank #81020",
+        "Connections": {
+          "East": 81019,
+          "West": 81021
+        },
+        "Contents": [
+          {
+            "Text": "a laboring buccaneer #81004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 81021,
+        "Name": "Amidships #81021",
+        "Connections": {
+          "North": 81022,
+          "East": 81020,
+          "South": 81023,
+          "Down": {
+            "RoomId": 81024,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a ancient crystalline bayonet #81021",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a laboring buccaneer #81004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 81022,
+        "Name": "Fore Deck #81022",
+        "Connections": {
+          "South": 81021
+        },
+        "Contents": [
+          {
+            "Text": "a half-orc #81003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 81023,
+        "Name": "Aft Deck #81023",
+        "Connections": {
+          "North": 81021
+        },
+        "Contents": [
+          {
+            "Text": "the sash lieutenant #81010",
+            "Color": "green"
+          },
+          {
+            "Text": "the first mate #81009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 81024,
+        "Name": "Ship\u0027s Hold #81024",
+        "Connections": {
+          "Up": {
+            "RoomId": 81021,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a ancient crystalline bayonet #81021",
+                "Color": "indianred"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 81025,
+        "Name": "A Small Clearing #81025",
+        "Connections": {
+          "North": 81026,
+          "East": {
+            "RoomId": 81027,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 81019
+        },
+        "Contents": [
+          {
+            "Text": "a buccaneer #81007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 81026,
+        "Name": "A Makeshift Hut #81026",
+        "Connections": {
+          "South": 81025
+        },
+        "Contents": [
+          {
+            "Text": "a buccaneer #81005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 81027,
+        "Name": "Inside a Large Hut #81027",
+        "Connections": {
+          "West": {
+            "RoomId": 81025,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the captain #81011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 81028,
+        "Name": "Pantry hut #81028",
+        "Connections": {
+          "North": 81025
+        }
+      },
+      {
+        "Id": 81030,
+        "Name": "Western Dock #81030",
+        "Connections": {
+          "East": 8043,
+          "Down": 81000
+        }
+      },
+      {
+        "Id": 42524,
+        "FrameColor": "blue",
+        "Name": "To Happy Hunting #42524",
+        "Color": "blue",
+        "Connections": {
+          "North": 42497,
+          "East": 42525,
+          "West": 81000,
+          "Up": 42523
+        }
+      },
+      {
+        "Id": 8092,
+        "FrameColor": "blue",
+        "Name": "To BalHarbor #8092",
+        "Color": "blue",
+        "Connections": {
+          "Up": {
+            "RoomId": 81006,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 8093
+        }
+      },
+      {
+        "Id": 8043,
+        "FrameColor": "blue",
+        "Name": "To BalHarbor #8043",
+        "Color": "blue",
+        "Connections": {
+          "North": 20055,
+          "East": {
+            "RoomId": 8062,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 8071
+        }
+      }
+    ]
+  }
+}

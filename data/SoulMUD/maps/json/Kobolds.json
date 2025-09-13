@@ -1,0 +1,907 @@
+{
+  "Area": {
+    "Name": "Kobolds",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 12000,
+        "Name": "A Side Trail #12000",
+        "Connections": {
+          "North": 57309,
+          "South": 12001
+        }
+      },
+      {
+        "Id": 12001,
+        "Name": "A Dirt Trail #12001",
+        "Connections": {
+          "North": 12000,
+          "South": 12002
+        },
+        "Contents": [
+          {
+            "Text": "a kobold #12000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12002,
+        "Name": "A Dirt Trail #12002",
+        "Connections": {
+          "North": 12001,
+          "South": 12003
+        },
+        "Contents": [
+          {
+            "Text": "a kobold runt #12001",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold bitch #12002",
+            "Color": "green"
+          },
+          {
+            "Text": "a chicken #19079",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12003,
+        "Name": "Before a Shoddy Gate #12003",
+        "Connections": {
+          "North": 12002,
+          "South": {
+            "RoomId": 12004,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 12004,
+        "Name": "Faded Footpath #12004",
+        "Connections": {
+          "North": {
+            "RoomId": 12003,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 12006,
+          "South": 12007,
+          "West": 12005
+        },
+        "Contents": [
+          {
+            "Text": "a kobold #12000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12005,
+        "Name": "Blue Mushroom Garden #12005",
+        "Connections": {
+          "East": 12004
+        },
+        "Contents": [
+          {
+            "Text": "a kobold #12000",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold runt #12001",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold tender #12004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12006,
+        "Name": "Inside a Small Hut #12006",
+        "Connections": {
+          "West": 12004
+        },
+        "Contents": [
+          {
+            "Text": "a kobold runt #12001",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold bitch #12002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12007,
+        "Name": "Faded Footpath #12007",
+        "Connections": {
+          "North": 12004,
+          "South": 12010,
+          "West": 12008
+        },
+        "Contents": [
+          {
+            "Text": "a kobold runt #12001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12008,
+        "Name": "Inside a Large Hut #12008",
+        "Connections": {
+          "East": 12007,
+          "West": 12009
+        },
+        "Contents": [
+          {
+            "Text": "a kobold bitch #12002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12009,
+        "Name": "Inside a Large Hut #12009",
+        "Connections": {
+          "East": 12008
+        },
+        "Contents": [
+          {
+            "Text": "a kobold runt #12001",
+            "Color": "green"
+          },
+          {
+            "Text": "a rather large kobold #12008",
+            "Color": "green"
+          },
+          {
+            "Text": "a rather large kobold #12008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12010,
+        "Name": "Faded Footpath #12010",
+        "Connections": {
+          "North": 12007,
+          "East": 12012,
+          "South": 12013,
+          "West": 12011
+        },
+        "Contents": [
+          {
+            "Text": "a kobold #12000",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold bitch #12002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12011,
+        "Name": "Green Mushroom Field #12011",
+        "Connections": {
+          "East": 12010
+        },
+        "Contents": [
+          {
+            "Text": "a kobold #12000",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold runt #12001",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold bitch #12002",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold tender #12004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12012,
+        "Name": "The Shamaness\u0027 Hut #12012",
+        "Connections": {
+          "West": 12010
+        },
+        "Contents": [
+          {
+            "Text": "the kobold shamaness #12003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12013,
+        "Name": "Faded Footpath #12013",
+        "Connections": {
+          "North": 12010,
+          "East": 12015,
+          "South": 12017,
+          "West": 12014
+        },
+        "Contents": [
+          {
+            "Text": "a kobold runt #12001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12014,
+        "Name": "Merchant Shop #12014",
+        "Connections": {
+          "East": 12013,
+          "West": 12024
+        },
+        "Contents": [
+          {
+            "Text": "a kobold runt #12001",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold merchant #12005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12015,
+        "Name": "Faded Trailway #12015",
+        "Connections": {
+          "East": 12036,
+          "South": 12016,
+          "West": 12013
+        },
+        "Contents": [
+          {
+            "Text": "a kobold #12000",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold #12000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12016,
+        "Name": "Chieftain\u0027s Hut #12016",
+        "Connections": {
+          "North": 12015,
+          "Down": {
+            "RoomId": 12035,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #12017",
+                "Color": "indianred"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a kobold bitch #12002",
+            "Color": "green"
+          },
+          {
+            "Text": "a rather large kobold #12008",
+            "Color": "green"
+          },
+          {
+            "Text": "a burly kobold guard #12009",
+            "Color": "green"
+          },
+          {
+            "Text": "a burly kobold guard #12009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12017,
+        "Name": "Faded Footpath #12017",
+        "Connections": {
+          "North": 12013,
+          "South": 12019,
+          "West": 12018
+        }
+      },
+      {
+        "Id": 12018,
+        "Name": "Faded Trail #12018",
+        "Connections": {
+          "East": 12017,
+          "West": {
+            "RoomId": 42329,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a kobold #12000",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold bitch #12002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12019,
+        "Name": "Faded Footpath #12019",
+        "Connections": {
+          "North": 12017,
+          "East": 12020,
+          "South": 12022,
+          "West": 12021
+        },
+        "Contents": [
+          {
+            "Text": "a rather large kobold #12008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12020,
+        "Name": "Black Mushroom Garden #12020",
+        "Connections": {
+          "West": 12019
+        },
+        "Contents": [
+          {
+            "Text": "a kobold #12000",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold bitch #12002",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold tender #12004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12021,
+        "Name": "Red Mushroom Grove #12021",
+        "Connections": {
+          "East": 12019
+        },
+        "Contents": [
+          {
+            "Text": "a kobold #12000",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold runt #12001",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold tender #12004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12022,
+        "Name": "Faded Footpath #12022",
+        "Connections": {
+          "North": 12019,
+          "East": {
+            "RoomId": 12023,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 12025,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a rather large kobold #12008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12023,
+        "Name": "Sage\u0027s Hut #12023",
+        "Connections": {
+          "West": {
+            "RoomId": 12022,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the ancient kobold sage #12007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12024,
+        "Name": "Armory and Forge #12024",
+        "Connections": {
+          "East": 12014
+        },
+        "Contents": [
+          {
+            "Text": "a kobold runt #12001",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold bitch #12002",
+            "Color": "green"
+          },
+          {
+            "Text": "the kobold smith #12006",
+            "Color": "green"
+          },
+          {
+            "Text": "a rather large kobold #12008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12025,
+        "Name": "The Kobold Cemetary #12025",
+        "Connections": {
+          "North": {
+            "RoomId": 12022,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 12026,
+          "South": 12028,
+          "West": 12027
+        },
+        "Contents": [
+          {
+            "Text": "a kobold zombie #12033",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12026,
+        "Name": "The Kobold Cemetary #12026",
+        "Connections": {
+          "South": 12029,
+          "West": 12025
+        },
+        "Contents": [
+          {
+            "Text": "a kobold zombie #12033",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12027,
+        "Name": "The Kobold Cemetary #12027",
+        "Connections": {
+          "East": 12025,
+          "South": 12030
+        },
+        "Contents": [
+          {
+            "Text": "a kobold zombie #12033",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12028,
+        "Name": "The Kobold Cemetary #12028",
+        "Connections": {
+          "North": 12025,
+          "East": 12029,
+          "South": 12031,
+          "West": 12030
+        },
+        "Contents": [
+          {
+            "Text": "a kobold zombie #12033",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12029,
+        "Name": "The Kobold Cemetary #12029",
+        "Connections": {
+          "North": 12026,
+          "West": 12028
+        },
+        "Contents": [
+          {
+            "Text": "a kobold zombie #12033",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12030,
+        "Name": "The Kobold\u0027s Cemetary #12030",
+        "Connections": {
+          "North": 12027,
+          "East": 12028,
+          "South": 12032
+        },
+        "Contents": [
+          {
+            "Text": "a kobold zombie #12033",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12031,
+        "Name": "The Kobold Cemetary #12031",
+        "Connections": {
+          "North": 12028,
+          "West": 12032
+        }
+      },
+      {
+        "Id": 12032,
+        "Name": "The Kobold\u0027s Cemetary #12032",
+        "Connections": {
+          "North": 12030,
+          "East": 12031,
+          "South": 12033
+        },
+        "Contents": [
+          {
+            "Text": "a kobold zombie #12033",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12033,
+        "Name": "The Kobold\u0027s Cemetary #12033",
+        "Connections": {
+          "North": 12032,
+          "South": 12034
+        }
+      },
+      {
+        "Id": 12034,
+        "Name": "The Kobold Ghost King\u0027s Tomb #12034",
+        "Connections": {
+          "North": 12033
+        },
+        "Contents": [
+          {
+            "Text": "the kobold ghost king #12034",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12035,
+        "Name": "Private Chamber #12035",
+        "Connections": {
+          "Up": {
+            "RoomId": 12016,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the kobold chieftain #12016",
+            "Color": "green"
+          },
+          {
+            "Text": "the kobold mistress #12017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12036,
+        "Name": "Before the Strip Mine #12036",
+        "Connections": {
+          "East": 12037,
+          "West": 12015
+        },
+        "Contents": [
+          {
+            "Text": "a rather large kobold #12008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12037,
+        "Name": "Strip Pit Intersection #12037",
+        "Connections": {
+          "North": 12042,
+          "East": 12041,
+          "South": 12038,
+          "West": 12036
+        },
+        "Contents": [
+          {
+            "Text": "a kobold #12000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12038,
+        "Name": "Animal House #12038",
+        "Connections": {
+          "North": 12037,
+          "South": {
+            "RoomId": 12039,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 12039,
+        "Name": "War Weasel Pen #12039",
+        "Connections": {
+          "North": {
+            "RoomId": 12038,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 12040
+        },
+        "Contents": [
+          {
+            "Text": "a war weasel #12015",
+            "Color": "red"
+          },
+          {
+            "Text": "a war weasel #12015",
+            "Color": "red"
+          },
+          {
+            "Text": "a war weasel #12015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12040,
+        "Name": "War Weasel Pen #12040",
+        "Connections": {
+          "North": 12039
+        },
+        "Contents": [
+          {
+            "Text": "a war weasel #12015",
+            "Color": "red"
+          },
+          {
+            "Text": "a war weasel #12015",
+            "Color": "red"
+          },
+          {
+            "Text": "a war weasel #12015",
+            "Color": "red"
+          },
+          {
+            "Text": "a war weasel #12015",
+            "Color": "red"
+          },
+          {
+            "Text": "a war weasel #12015",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12041,
+        "Name": "A Rocky Tunnel #12041",
+        "Connections": {
+          "West": 12037
+        },
+        "Contents": [
+          {
+            "Text": "a kobold miner #12014",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold miner #12014",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold miner #12014",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold miner #12014",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold miner #12014",
+            "Color": "green"
+          },
+          {
+            "Text": "a kobold miner #12014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12042,
+        "Name": "Pit Storage #12042",
+        "Connections": {
+          "North": {
+            "RoomId": 12044,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 12045,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 12037,
+          "West": {
+            "RoomId": 12046,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 12044,
+        "Name": "Bunkhouse #12044",
+        "Connections": {
+          "South": {
+            "RoomId": 12042,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a kobold guard #12010",
+            "Color": "red"
+          },
+          {
+            "Text": "a kobold guard #12010",
+            "Color": "red"
+          },
+          {
+            "Text": "a kobold guard #12011",
+            "Color": "red"
+          },
+          {
+            "Text": "a kobold guard #12011",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12045,
+        "Name": "Overseer\u0027s Quarters #12045",
+        "Connections": {
+          "West": {
+            "RoomId": 12042,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the kobold overseer #12013",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12046,
+        "Name": "Foremans Quarter\u0027s #12046",
+        "Connections": {
+          "East": {
+            "RoomId": 12042,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the kobold foreman #12012",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 57309,
+        "FrameColor": "blue",
+        "Name": "To Golden Pavilion #57309",
+        "Color": "blue",
+        "Connections": {
+          "East": 80541,
+          "South": 12000,
+          "West": 57308
+        }
+      },
+      {
+        "Id": 42329,
+        "FrameColor": "blue",
+        "Name": "To Happy Hunting #42329",
+        "Color": "blue",
+        "Connections": {
+          "East": {
+            "RoomId": 12018,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 42330,
+          "West": 42328
+        }
+      }
+    ]
+  }
+}

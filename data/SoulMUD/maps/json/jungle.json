@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "jungle",
+    "Name": "Jungle",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -83,7 +83,13 @@
         "Id": 5509,
         "Name": "End of the Shelf Fungus #5509",
         "Connections": {
-          "South": 5510,
+          "South": {
+            "RoomId": 5510,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 5508
         }
       },
@@ -91,9 +97,21 @@
         "Id": 5510,
         "Name": "Inside the Tree #5510",
         "Connections": {
-          "North": 5509,
+          "North": {
+            "RoomId": 5509,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Up": 5519,
-          "Down": 5511
+          "Down": {
+            "RoomId": 5511,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -438,7 +456,13 @@
         "Id": 5554,
         "Name": "Vines and Mosses #5554",
         "Connections": {
-          "North": 5560,
+          "North": {
+            "RoomId": 5560,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Up": 5555,
           "Down": 5549
         }
@@ -605,7 +629,7 @@
       {
         "Id": 5718,
         "FrameColor": "blue",
-        "Name": "To connect #5718",
+        "Name": "To Connecting roads #5718",
         "Color": "blue",
         "Connections": {
           "North": 5719,
@@ -616,7 +640,7 @@
       {
         "Id": 20352,
         "FrameColor": "blue",
-        "Name": "To jurassic #20352",
+        "Name": "To Jurrassic #20352",
         "Color": "blue",
         "Connections": {
           "East": 5501,
@@ -626,7 +650,7 @@
       {
         "Id": 5600,
         "FrameColor": "blue",
-        "Name": "To connect #5600",
+        "Name": "To Connecting roads #5600",
         "Color": "blue",
         "Connections": {
           "North": 5726,
@@ -636,7 +660,7 @@
       {
         "Id": 5702,
         "FrameColor": "blue",
-        "Name": "To connect #5702",
+        "Name": "To Connecting roads #5702",
         "Color": "blue",
         "Connections": {
           "North": 5708,
@@ -647,7 +671,7 @@
       {
         "Id": 4011,
         "FrameColor": "blue",
-        "Name": "To lwair #4011",
+        "Name": "To Above BH #4011",
         "Color": "blue",
         "Connections": {
           "East": 4012,
@@ -657,7 +681,7 @@
       {
         "Id": 5703,
         "FrameColor": "blue",
-        "Name": "To connect #5703",
+        "Name": "To Connecting roads #5703",
         "Color": "blue",
         "Connections": {
           "West": 5740
@@ -666,7 +690,7 @@
       {
         "Id": 4015,
         "FrameColor": "blue",
-        "Name": "To lwair #4015",
+        "Name": "To Above BH #4015",
         "Color": "blue",
         "Connections": {
           "North": 4057,

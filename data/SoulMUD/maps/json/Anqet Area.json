@@ -1,0 +1,3698 @@
+{
+  "Area": {
+    "Name": "Anqet Area",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 29000,
+        "Name": "Temple of The Gazelle #29000",
+        "Connections": {
+          "East": 29998,
+          "South": 8061,
+          "West": 29999,
+          "Up": 29001,
+          "Down": 29100
+        }
+      },
+      {
+        "Id": 29001,
+        "Name": "Warm Tropical Water #29001",
+        "Connections": {
+          "East": 29002
+        }
+      },
+      {
+        "Id": 29002,
+        "Name": "Crystal Clear Water #29002",
+        "Connections": {
+          "East": 29003,
+          "West": 29001
+        }
+      },
+      {
+        "Id": 29003,
+        "Name": "The Warm Tropical Current #29003",
+        "Connections": {
+          "East": 29004,
+          "West": 29002
+        }
+      },
+      {
+        "Id": 29004,
+        "Name": "Ten feet below the surface #29004",
+        "Connections": {
+          "East": 29005,
+          "West": 29003
+        }
+      },
+      {
+        "Id": 29005,
+        "Name": "Entering the Reef #29005",
+        "Connections": {
+          "North": {
+            "RoomId": 29011,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 29006,
+          "West": 29004
+        }
+      },
+      {
+        "Id": 29006,
+        "Name": "Floating Below the Reef #29006",
+        "Connections": {
+          "East": 29007,
+          "West": 29005
+        }
+      },
+      {
+        "Id": 29007,
+        "Name": "A Few Feet Below the Reef #29007",
+        "Connections": {
+          "East": 29008,
+          "West": 29006
+        }
+      },
+      {
+        "Id": 29008,
+        "Name": "A Cool Current #29008",
+        "Connections": {
+          "East": 29009,
+          "West": 29007
+        }
+      },
+      {
+        "Id": 29009,
+        "Name": "A Sponge Bed #29009",
+        "Connections": {
+          "East": 29010,
+          "West": 29008
+        }
+      },
+      {
+        "Id": 29010,
+        "Name": "Edge of the Drop off #29010",
+        "Connections": {
+          "West": 29009
+        }
+      },
+      {
+        "Id": 29011,
+        "Name": "The Great Barrier Reef #29011",
+        "Connections": {
+          "North": 29012,
+          "South": {
+            "RoomId": 29005,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29012,
+        "Name": "Spiny Red Coral Bed #29012",
+        "Connections": {
+          "North": 29013,
+          "South": 29011
+        }
+      },
+      {
+        "Id": 29013,
+        "Name": "Spiny Yellow Coral #29013",
+        "Connections": {
+          "South": 29012,
+          "Up": 29014
+        }
+      },
+      {
+        "Id": 29014,
+        "Name": "A Foot Above the Coral #29014",
+        "Connections": {
+          "Up": 29015,
+          "Down": 29013
+        }
+      },
+      {
+        "Id": 29015,
+        "Name": "Entrance to the Coral Cavern #29015",
+        "Connections": {
+          "East": 29016,
+          "Up": 29020,
+          "Down": 29014
+        }
+      },
+      {
+        "Id": 29016,
+        "Name": "Inside the Coral Cavern #29016",
+        "Connections": {
+          "East": 29017,
+          "West": 29015
+        }
+      },
+      {
+        "Id": 29017,
+        "Name": "Instersection in the Coral Cavern #29017",
+        "Connections": {
+          "East": 29018,
+          "South": 29019,
+          "West": 29016
+        }
+      },
+      {
+        "Id": 29018,
+        "Name": "Fragile White Coral #29018",
+        "Connections": {
+          "West": 29017
+        }
+      },
+      {
+        "Id": 29019,
+        "Name": "Dying Coral #29019",
+        "Connections": {
+          "North": 29017
+        }
+      },
+      {
+        "Id": 29020,
+        "Name": "Porous Sea Rods #29020",
+        "Connections": {
+          "East": 29021,
+          "Up": 29025,
+          "Down": 29015
+        }
+      },
+      {
+        "Id": 29021,
+        "Name": "Grooved Brain Coral #29021",
+        "Connections": {
+          "East": 29022,
+          "West": 29020
+        }
+      },
+      {
+        "Id": 29022,
+        "Name": "Veek koraal #29022",
+        "Connections": {
+          "North": 29024,
+          "East": 29023,
+          "West": 29021
+        }
+      },
+      {
+        "Id": 29023,
+        "Name": "Common Sea Fan #29023",
+        "Connections": {
+          "West": 29022
+        }
+      },
+      {
+        "Id": 29024,
+        "Name": "A Large Clam #29024",
+        "Connections": {
+          "South": 29022
+        }
+      },
+      {
+        "Id": 29025,
+        "Name": "Path around the Pond #29025",
+        "Connections": {
+          "West": 29026,
+          "Down": 29020
+        }
+      },
+      {
+        "Id": 29026,
+        "Name": "A Patch of Cattails #29026",
+        "Connections": {
+          "East": 29025
+        }
+      },
+      {
+        "Id": 29027,
+        "Name": "Path around a Pond #29027",
+        "Connections": {
+          "East": 29028,
+          "South": 29026
+        }
+      },
+      {
+        "Id": 29028,
+        "Name": "A Muddy Path #29028",
+        "Connections": {
+          "East": 29029,
+          "West": 29027
+        }
+      },
+      {
+        "Id": 29029,
+        "Name": "The Waters Edge #29029",
+        "Connections": {
+          "South": 29030,
+          "West": 29028
+        }
+      },
+      {
+        "Id": 29030,
+        "Name": "The Backside of a Pond #29030",
+        "Connections": {
+          "North": 29029,
+          "South": 29031
+        }
+      },
+      {
+        "Id": 29031,
+        "Name": "A thicket of Cattails #29031",
+        "Connections": {
+          "North": 29030,
+          "South": 29032
+        }
+      },
+      {
+        "Id": 29032,
+        "Name": "Turn in the Path #29032",
+        "Connections": {
+          "North": 29031,
+          "East": 29033
+        }
+      },
+      {
+        "Id": 29033,
+        "Name": "Inside a small Gazebo #29033",
+        "Connections": {
+          "East": 29034,
+          "West": 29032
+        }
+      },
+      {
+        "Id": 29034,
+        "Name": "A Landscaped Trail #29034",
+        "Connections": {
+          "East": 29035,
+          "West": 29033
+        }
+      },
+      {
+        "Id": 29035,
+        "Name": "An Orchid Garden #29035",
+        "Connections": {
+          "South": 29036,
+          "West": 29034
+        }
+      },
+      {
+        "Id": 29036,
+        "Name": "A Rose Garden #29036",
+        "Connections": {
+          "North": 29035,
+          "East": 29037
+        }
+      },
+      {
+        "Id": 29037,
+        "Name": "A Tulip Garden #29037",
+        "Connections": {
+          "East": 29038,
+          "West": 29036
+        }
+      },
+      {
+        "Id": 29038,
+        "Name": "A Butterfly Garden #29038",
+        "Connections": {
+          "North": 29039,
+          "East": 29040,
+          "South": 29041,
+          "West": 29037
+        }
+      },
+      {
+        "Id": 29039,
+        "Name": "The Gardener\u0027s Hut #29039",
+        "Connections": {
+          "South": 29038
+        }
+      },
+      {
+        "Id": 29040,
+        "Name": "A Natural Spring #29040",
+        "Connections": {
+          "East": 29038
+        }
+      },
+      {
+        "Id": 29041,
+        "Name": "Large Wooden Doors #29041",
+        "Connections": {
+          "North": 29040,
+          "East": 29042
+        }
+      },
+      {
+        "Id": 29042,
+        "Name": "Bottom of the Stairs #29042",
+        "Connections": {
+          "West": 29041,
+          "Up": 29043
+        }
+      },
+      {
+        "Id": 29043,
+        "Name": "The next Step #29043",
+        "Connections": {
+          "Up": 29044,
+          "Down": 29042
+        }
+      },
+      {
+        "Id": 29044,
+        "Name": "On the Third Step #29044",
+        "Connections": {
+          "Up": 29045,
+          "Down": 29043
+        }
+      },
+      {
+        "Id": 29045,
+        "Name": "Top Of the Stairs #29045",
+        "Connections": {
+          "East": 29046,
+          "Down": 29044
+        }
+      },
+      {
+        "Id": 29046,
+        "Name": "w #29046",
+        "Connections": {
+          "West": 29045
+        }
+      },
+      {
+        "Id": 29051,
+        "Name": "\u003C---End of Reef Area---\u003E #29051",
+        "Connections": {}
+      },
+      {
+        "Id": 29053,
+        "Name": "At a Large Stone Fountain #29053",
+        "Connections": {
+          "South": 29054
+        }
+      },
+      {
+        "Id": 29054,
+        "Name": "Birdfeeders and Ponds #29054",
+        "Connections": {
+          "North": 29053,
+          "South": {
+            "RoomId": 29055,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29055,
+        "Name": "The Gardener\u0027s Supply Shack #29055",
+        "Connections": {
+          "North": {
+            "RoomId": 29054,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 29056,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29056,
+        "Name": "Behind the Shack #29056",
+        "Connections": {
+          "North": {
+            "RoomId": 29055,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29057,
+        "Name": "The Statue Garden #29057",
+        "Connections": {
+          "East": 29058,
+          "West": 29209
+        }
+      },
+      {
+        "Id": 29058,
+        "Name": "A Pile of Clay Pots #29058",
+        "Connections": {
+          "South": 29059,
+          "West": 29057
+        }
+      },
+      {
+        "Id": 29059,
+        "Name": "The Wildflower Garden #29059",
+        "Connections": {
+          "North": 29058,
+          "South": 29060
+        }
+      },
+      {
+        "Id": 29060,
+        "Name": "The Water Garden #29060",
+        "Connections": {
+          "North": 29059,
+          "South": 29061
+        }
+      },
+      {
+        "Id": 29061,
+        "Name": "The Rock Garden #29061",
+        "Connections": {
+          "North": 29060,
+          "South": 29062
+        }
+      },
+      {
+        "Id": 29062,
+        "Name": "An Old Outhouse #29062",
+        "Connections": {
+          "North": 29061
+        }
+      },
+      {
+        "Id": 29063,
+        "Name": "\u003C---Uncharted Anqet thru 29093---\u003E #29063",
+        "Connections": {
+          "North": 29062
+        }
+      },
+      {
+        "Id": 29092,
+        "Name": "nothingness #29092",
+        "Connections": {}
+      },
+      {
+        "Id": 29100,
+        "Name": "A Lush Jungle Path #29100",
+        "Connections": {
+          "East": 29101
+        },
+        "Contents": [
+          {
+            "Text": "a bearded pig #29100",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 29101,
+        "Name": "A Lush Jungle Path #29101",
+        "Connections": {
+          "East": 29102,
+          "West": 29100
+        },
+        "Contents": [
+          {
+            "Text": "a slow loris #29101",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29102,
+        "Name": "A Lush Path #29102",
+        "Connections": {
+          "East": 29103,
+          "West": 29101
+        },
+        "Contents": [
+          {
+            "Text": "an indian cobra #29102",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 29103,
+        "Name": "The Rain Forest #29103",
+        "Connections": {
+          "East": 29104,
+          "West": 29102
+        },
+        "Contents": [
+          {
+            "Text": "an arboreal lizard #29103",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 29104,
+        "Name": "A Tree Lined Path #29104",
+        "Connections": {
+          "South": 29105,
+          "West": 29103
+        },
+        "Contents": [
+          {
+            "Text": "a common tree shrew #29104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29105,
+        "Name": "A Path Through The Trees #29105",
+        "Connections": {
+          "North": 29104,
+          "South": 29106
+        },
+        "Contents": [
+          {
+            "Text": "a brazillian tapir #29105",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29106,
+        "Name": "An Enormous Teak Tree #29106",
+        "Connections": {
+          "North": 29105,
+          "East": 29114,
+          "Up": 29107
+        },
+        "Contents": [
+          {
+            "Text": "a bengal tiger #29106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29107,
+        "Name": "Climbing into a Teak Tree #29107",
+        "Connections": {
+          "East": 29109,
+          "West": 29108,
+          "Up": 29110,
+          "Down": 29106
+        },
+        "Contents": [
+          {
+            "Text": "A few hundred red ants #29107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29108,
+        "Name": "A Thick Brown Branch #29108",
+        "Connections": {
+          "East": 29107
+        },
+        "Contents": [
+          {
+            "Text": "a toco toucan #29108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29109,
+        "Name": "A Thick Brown Branch #29109",
+        "Connections": {
+          "West": 29107
+        },
+        "Contents": [
+          {
+            "Text": "a spider monkey #29109",
+            "Color": "green"
+          },
+          {
+            "Text": "a spider monkey #29109",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29110,
+        "Name": "Climbing Higher Up The Tree #29110",
+        "Connections": {
+          "East": {
+            "RoomId": 29111,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 29112,
+          "Up": {
+            "RoomId": 29113,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 29107
+        }
+      },
+      {
+        "Id": 29111,
+        "Name": "A Short Branch #29111",
+        "Connections": {
+          "West": {
+            "RoomId": 29110,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a black and purple monarch #29111",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29112,
+        "Name": "A Leaf Covered Branch #29112",
+        "Connections": {
+          "East": 29110
+        }
+      },
+      {
+        "Id": 29113,
+        "Name": "Top of a Teak Tree #29113",
+        "Connections": {
+          "Down": {
+            "RoomId": 29110,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a leaf mimic #29113",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29114,
+        "Name": "Under a Teak Branch #29114",
+        "Connections": {
+          "East": 29115,
+          "West": 29106
+        },
+        "Contents": [
+          {
+            "Text": "a mish-rat-kangaroo #29114",
+            "Color": "green"
+          },
+          {
+            "Text": "a mish-rat-kangaroo #29114",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29115,
+        "Name": "A Maintained Dirt Path #29115",
+        "Connections": {
+          "East": 29116,
+          "West": 29114
+        }
+      },
+      {
+        "Id": 29116,
+        "Name": "Base of a Trebol Tree #29116",
+        "Connections": {
+          "East": 29129,
+          "West": 29115,
+          "Up": 29117
+        },
+        "Contents": [
+          {
+            "Text": "a petrified branch #29116",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 29117,
+        "Name": "Climbing up the Trebol Tree #29117",
+        "Connections": {
+          "East": 29121,
+          "Up": 29113,
+          "Down": 29116
+        }
+      },
+      {
+        "Id": 29118,
+        "Name": "Tangled Trebol Branches #29118",
+        "Connections": {
+          "East": 29123,
+          "West": 29125,
+          "Up": 29119,
+          "Down": 29117
+        }
+      },
+      {
+        "Id": 29119,
+        "Name": "Cobwebs #29119",
+        "Connections": {
+          "East": {
+            "RoomId": 29127,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 29128,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 29120,
+          "Down": 29118
+        },
+        "Contents": [
+          {
+            "Text": "a large woodspider #29119",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29120,
+        "Name": "In the Canopy #29120",
+        "Connections": {
+          "Down": 29119
+        },
+        "Contents": [
+          {
+            "Text": "a large luna moth #29120",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29121,
+        "Name": "Out on a Branch #29121",
+        "Connections": {
+          "East": {
+            "RoomId": 29122,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 29117
+        },
+        "Contents": [
+          {
+            "Text": "A large black bird #29121",
+            "Color": "green"
+          },
+          {
+            "Text": "A large black bird #29121",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29122,
+        "Name": "End of the Branch #29122",
+        "Connections": {
+          "West": {
+            "RoomId": 29121,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a bloated deer tick #29122",
+            "Color": "green"
+          },
+          {
+            "Text": "a bloated deer tick #29122",
+            "Color": "green"
+          },
+          {
+            "Text": "a bloated deer tick #29122",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29123,
+        "Name": "Tangled branches #29123",
+        "Connections": {
+          "East": {
+            "RoomId": 29124,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 29118
+        }
+      },
+      {
+        "Id": 29124,
+        "Name": "Leaf Covered Branches #29124",
+        "Connections": {
+          "West": {
+            "RoomId": 29123,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29125,
+        "Name": "Tangled branches #29125",
+        "Connections": {
+          "East": 29118,
+          "West": {
+            "RoomId": 29126,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29126,
+        "Name": "Leaf Covered Branches #29126",
+        "Connections": {
+          "East": {
+            "RoomId": 29125,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A large black bird #29121",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29127,
+        "Name": "A Massive Spider Web #29127",
+        "Connections": {
+          "West": {
+            "RoomId": 29119,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an enormous black widow #29127",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29128,
+        "Name": "Cobweb Covered Branches #29128",
+        "Connections": {
+          "East": {
+            "RoomId": 29119,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a small brown spider #29128",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29129,
+        "Name": "A Well Manicured Dirt Path #29129",
+        "Connections": {
+          "East": 29130,
+          "West": 29116
+        }
+      },
+      {
+        "Id": 29130,
+        "Name": "A Well Manicured Dirt Path #29130",
+        "Connections": {
+          "East": 29131,
+          "West": 29129
+        }
+      },
+      {
+        "Id": 29131,
+        "Name": "Turn in the Dirt Path #29131",
+        "Connections": {
+          "South": 29132,
+          "West": 29130
+        }
+      },
+      {
+        "Id": 29132,
+        "Name": "Thick Lush Grasses #29132",
+        "Connections": {
+          "North": 29131,
+          "South": 29133
+        },
+        "Contents": [
+          {
+            "Text": "a grass snake #29132",
+            "Color": "green"
+          },
+          {
+            "Text": "a grass snake #29132",
+            "Color": "green"
+          },
+          {
+            "Text": "a grass snake #29132",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29133,
+        "Name": "A Thicket of Cattails #29133",
+        "Connections": {
+          "North": 29132,
+          "East": 29134
+        }
+      },
+      {
+        "Id": 29134,
+        "Name": "Edge of the Marshlands #29134",
+        "Connections": {
+          "South": 29135,
+          "West": 29133
+        },
+        "Contents": [
+          {
+            "Text": "a large dragonfly #29134",
+            "Color": "green"
+          },
+          {
+            "Text": "a large dragonfly #29134",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29135,
+        "Name": "Knee Deep in Murky Water #29135",
+        "Connections": {
+          "North": 29134,
+          "South": 29136
+        },
+        "Contents": [
+          {
+            "Text": "a parapetenia dovii #29135",
+            "Color": "green"
+          },
+          {
+            "Text": "a parapetenia dovii #29135",
+            "Color": "green"
+          },
+          {
+            "Text": "a parapetenia dovii #29135",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29136,
+        "Name": "Standing in Murky Water #29136",
+        "Connections": {
+          "North": 29135,
+          "East": 29137
+        }
+      },
+      {
+        "Id": 29137,
+        "Name": "A Shallow Pool #29137",
+        "Connections": {
+          "West": 29136,
+          "Down": 29138
+        },
+        "Contents": [
+          {
+            "Text": "a school of minnows #29137",
+            "Color": "green"
+          },
+          {
+            "Text": "a school of minnows #29137",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29138,
+        "Name": "Diving into the Murky Water #29138",
+        "Connections": {
+          "Up": 29137,
+          "Down": 29139
+        }
+      },
+      {
+        "Id": 29139,
+        "Name": "Deeper into the Murky Marsh #29139",
+        "Connections": {
+          "Up": 29138,
+          "Down": 29140
+        }
+      },
+      {
+        "Id": 29140,
+        "Name": "Bottom of the Marsh #29140",
+        "Connections": {
+          "North": 29141,
+          "Up": 29139
+        },
+        "Contents": [
+          {
+            "Text": "a female platypus #29110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29141,
+        "Name": "A Maze of Thick Roots #29141",
+        "Connections": {
+          "North": 29142,
+          "South": 29140
+        },
+        "Contents": [
+          {
+            "Text": "thick black roots #29141",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 29142,
+        "Name": "Under a Lily Pad #29142",
+        "Connections": {
+          "East": 29143,
+          "South": 29141
+        },
+        "Contents": [
+          {
+            "Text": "a large water strider #29142",
+            "Color": "green"
+          },
+          {
+            "Text": "a large water strider #29142",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29143,
+        "Name": "Just below the Surface #29143",
+        "Connections": {
+          "East": 29144,
+          "West": 29142
+        },
+        "Contents": [
+          {
+            "Text": "a school of minnows #29137",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29144,
+        "Name": "The Sandy Beach of a Small Isle #29144",
+        "Connections": {
+          "West": 29143,
+          "Up": 29145
+        }
+      },
+      {
+        "Id": 29145,
+        "Name": "A Small Isle in the Middle of the Marsh #29145",
+        "Connections": {
+          "East": 29146,
+          "Down": 29144
+        },
+        "Contents": [
+          {
+            "Text": "a common tree shrew #29104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29146,
+        "Name": "A Lush Island Path #29146",
+        "Connections": {
+          "East": 29147,
+          "West": 29145
+        }
+      },
+      {
+        "Id": 29147,
+        "Name": "Base of a Bocote Tree #29147",
+        "Connections": {
+          "East": 29156,
+          "West": 29146,
+          "Up": 29148
+        }
+      },
+      {
+        "Id": 29148,
+        "Name": "Climbing a Bocote Tree #29148",
+        "Connections": {
+          "East": 29150,
+          "West": 29149,
+          "Up": 29151,
+          "Down": 29147
+        },
+        "Contents": [
+          {
+            "Text": "leaf collecting ants #29149",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29149,
+        "Name": "A Small Curled Branch #29149",
+        "Connections": {
+          "East": 29148
+        },
+        "Contents": [
+          {
+            "Text": "leaf collecting ants #29149",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29150,
+        "Name": "A Golden Brown Branch #29150",
+        "Connections": {
+          "West": 29148
+        }
+      },
+      {
+        "Id": 29151,
+        "Name": "Higher in The Bocote Tree #29151",
+        "Connections": {
+          "East": 29154,
+          "West": {
+            "RoomId": 29152,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 29155,
+          "Down": 29148
+        },
+        "Contents": [
+          {
+            "Text": "a red shanked douc languar #29153",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29152,
+        "Name": "A Thick Knobby Branch #29152",
+        "Connections": {
+          "East": {
+            "RoomId": 29151,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 29153
+        }
+      },
+      {
+        "Id": 29153,
+        "Name": "End of a Knobby Branch #29153",
+        "Connections": {
+          "East": {
+            "RoomId": 29152,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a red shanked douc languar #29153",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29154,
+        "Name": "A Dead Branch #29154",
+        "Connections": {
+          "West": 29151
+        },
+        "Contents": [
+          {
+            "Text": "a pair of jambu fruit doves #29154",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29155,
+        "Name": "Top of The Bocote Tree #29155",
+        "Connections": {
+          "Down": 29151
+        },
+        "Contents": [
+          {
+            "Text": "a female crested guan #29155",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29156,
+        "Name": "A Lush Island Path #29156",
+        "Connections": {
+          "East": 29157,
+          "West": 29147
+        }
+      },
+      {
+        "Id": 29157,
+        "Name": "A Lush Island Path #29157",
+        "Connections": {
+          "West": 29156,
+          "Down": 29158
+        },
+        "Contents": [
+          {
+            "Text": "a swarm of flies #29157",
+            "Color": "red"
+          },
+          {
+            "Text": "a swarm of flies #29157",
+            "Color": "red"
+          },
+          {
+            "Text": "a young blue heron #29185",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29158,
+        "Name": "Under the Surface of The Marsh #29158",
+        "Connections": {
+          "South": 29159,
+          "Up": 29157
+        },
+        "Contents": [
+          {
+            "Text": "a pair of water striders #29158",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29159,
+        "Name": "Diving Deeper into the Murky Water #29159",
+        "Connections": {
+          "North": 29158,
+          "West": 29160,
+          "Down": 29169
+        },
+        "Contents": [
+          {
+            "Text": "a bed of kelp #29159",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 29160,
+        "Name": "Entering an Underwater Cave #29160",
+        "Connections": {
+          "East": 29159,
+          "West": 29161
+        },
+        "Contents": [
+          {
+            "Text": "a patch of algae #29163",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29161,
+        "Name": "Water Filled Cavern #29161",
+        "Connections": {
+          "East": 29160,
+          "West": 29162
+        }
+      },
+      {
+        "Id": 29162,
+        "Name": "A Dark Underwater Passage #29162",
+        "Connections": {
+          "North": 29163,
+          "East": 29161,
+          "South": 29165
+        }
+      },
+      {
+        "Id": 29163,
+        "Name": "Algae Covered Passage #29163",
+        "Connections": {
+          "East": 29164,
+          "South": 29162
+        },
+        "Contents": [
+          {
+            "Text": "a patch of algae #29163",
+            "Color": "green"
+          },
+          {
+            "Text": "a patch of algae #29163",
+            "Color": "green"
+          },
+          {
+            "Text": "a patch of algae #29163",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29164,
+        "Name": "An Air Bubble #29164",
+        "Connections": {
+          "West": 29163
+        }
+      },
+      {
+        "Id": 29165,
+        "Name": "Swimming through Cloudy Water #29165",
+        "Connections": {
+          "North": 29162,
+          "South": 29167,
+          "West": 29166
+        },
+        "Contents": [
+          {
+            "Text": "a patch of phaeophyta #29164",
+            "Color": "green"
+          },
+          {
+            "Text": "A group of young crocodiles #29165",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29166,
+        "Name": "A Crocodile Den #29166",
+        "Connections": {
+          "East": 29165
+        },
+        "Contents": [
+          {
+            "Text": "the mother crocodile #29166",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29167,
+        "Name": "Murky Passage #29167",
+        "Connections": {
+          "North": 29165,
+          "East": 29168
+        },
+        "Contents": [
+          {
+            "Text": "a patch of rhodophyta #29167",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29168,
+        "Name": "End of the Cavern #29168",
+        "Connections": {
+          "West": 29167
+        },
+        "Contents": [
+          {
+            "Text": "a patch of chlorophyta #29168",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29169,
+        "Name": "A dusty cloud of mud Particles #29169",
+        "Connections": {
+          "South": 29170,
+          "Up": 29159
+        }
+      },
+      {
+        "Id": 29170,
+        "Name": "The Marsh Floor #29170",
+        "Connections": {
+          "North": 29169,
+          "East": 29171
+        },
+        "Contents": [
+          {
+            "Text": "a cloud of particles #29170",
+            "Color": "green"
+          },
+          {
+            "Text": "a cloud of particles #29170",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29171,
+        "Name": "Along the Bottom of the Marsh #29171",
+        "Connections": {
+          "North": 29175,
+          "East": 29172,
+          "West": 29170
+        },
+        "Contents": [
+          {
+            "Text": "a fresh water crab #29171",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29172,
+        "Name": "A Tree Stump #29172",
+        "Connections": {
+          "North": 29174,
+          "East": 29173,
+          "West": 29171
+        },
+        "Contents": [
+          {
+            "Text": "a school of blind fish #29172",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29173,
+        "Name": "A Pile of Dead Tree Limbs #29173",
+        "Connections": {
+          "North": 29177,
+          "West": 29172,
+          "Down": 29176
+        },
+        "Contents": [
+          {
+            "Text": "eight large tentacles #29173",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 29174,
+        "Name": "Cloudy Water #29174",
+        "Connections": {
+          "South": 29172,
+          "West": 29175
+        }
+      },
+      {
+        "Id": 29175,
+        "Name": "Cloudy Water #29175",
+        "Connections": {
+          "East": 29174,
+          "South": 29171
+        }
+      },
+      {
+        "Id": 29176,
+        "Name": "Under the Pile of Limbs #29176",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "An enormous freshwater octopus #29176",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 29177,
+        "Name": "Swimming towards the Surface #29177",
+        "Connections": {
+          "South": 29173,
+          "Up": 29178
+        },
+        "Contents": [
+          {
+            "Text": "a water moccasin #29177",
+            "Color": "green"
+          },
+          {
+            "Text": "a water moccasin #29177",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29178,
+        "Name": "Instersection in the Marsh #29178",
+        "Connections": {
+          "East": 29181,
+          "West": 29179,
+          "Up": 29184,
+          "Down": 29177
+        }
+      },
+      {
+        "Id": 29179,
+        "Name": "A few feet below the Surface #29179",
+        "Connections": {
+          "North": 29180,
+          "East": 29178
+        }
+      },
+      {
+        "Id": 29180,
+        "Name": "Beneath a Patch of Algae #29180",
+        "Connections": {
+          "South": 29179
+        },
+        "Contents": [
+          {
+            "Text": "a patch of algae #29163",
+            "Color": "green"
+          },
+          {
+            "Text": "a patch of phaeophyta #29164",
+            "Color": "green"
+          },
+          {
+            "Text": "a patch of rhodophyta #29167",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29181,
+        "Name": "Swimming around Spotted Roots #29181",
+        "Connections": {
+          "South": 29182,
+          "West": 29178
+        },
+        "Contents": [
+          {
+            "Text": "thick black roots #29141",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 29182,
+        "Name": "Long Stringy Spotted Roots #29182",
+        "Connections": {
+          "North": 29181,
+          "East": {
+            "RoomId": 29183,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a black water bug #29182",
+            "Color": "green"
+          },
+          {
+            "Text": "a black water bug #29182",
+            "Color": "green"
+          },
+          {
+            "Text": "a black water bug #29182",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29183,
+        "Name": "Behind the Spotted Roots #29183",
+        "Connections": {
+          "West": {
+            "RoomId": 29182,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a water moccasin #29177",
+            "Color": "green"
+          },
+          {
+            "Text": "an arboreal lizard #29103",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 29184,
+        "Name": "Just below the Surface #29184",
+        "Connections": {
+          "Up": 29185,
+          "Down": 29178
+        }
+      },
+      {
+        "Id": 29185,
+        "Name": "Climbing out of the Marsh #29185",
+        "Connections": {
+          "East": 29186,
+          "Down": 29184
+        },
+        "Contents": [
+          {
+            "Text": "a young blue heron #29185",
+            "Color": "green"
+          },
+          {
+            "Text": "a young blue heron #29185",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29186,
+        "Name": "Edge of the Marsh #29186",
+        "Connections": {
+          "West": 29185
+        },
+        "Contents": [
+          {
+            "Text": "a swarm of fireflys #29186",
+            "Color": "green"
+          },
+          {
+            "Text": "a swarm of fireflys #29186",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29187,
+        "Name": "Walking Through The Zebra Grass #29187",
+        "Connections": {
+          "East": 29188,
+          "West": 29186
+        },
+        "Contents": [
+          {
+            "Text": "an enourmous patch of zebra grass #29187",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29188,
+        "Name": "A Tiny Path Through the Zebra Grass #29188",
+        "Connections": {
+          "North": 29189,
+          "West": 29187
+        }
+      },
+      {
+        "Id": 29189,
+        "Name": "A Turn in the Path #29189",
+        "Connections": {
+          "East": 29190,
+          "South": 29188
+        }
+      },
+      {
+        "Id": 29190,
+        "Name": "Exiting the Tall Grass #29190",
+        "Connections": {
+          "East": 29191,
+          "West": 29189
+        }
+      },
+      {
+        "Id": 29191,
+        "Name": "A Small Dirt Path #29191",
+        "Connections": {
+          "South": 29192,
+          "West": 29190
+        }
+      },
+      {
+        "Id": 29192,
+        "Name": "Approaching a small Hill #29192",
+        "Connections": {
+          "North": 29191,
+          "East": 29193
+        }
+      },
+      {
+        "Id": 29193,
+        "Name": "The Base of a small Hill #29193",
+        "Connections": {
+          "West": 29192,
+          "Up": 29194
+        }
+      },
+      {
+        "Id": 29194,
+        "Name": "A Large Berry Bush #29194",
+        "Connections": {
+          "East": 29195,
+          "Down": 29193
+        }
+      },
+      {
+        "Id": 29195,
+        "Name": "Base of An Idigblu Tree #29195",
+        "Connections": {
+          "West": 29194,
+          "Up": 29197,
+          "Down": 29196
+        }
+      },
+      {
+        "Id": 29196,
+        "Name": "Descending down the Small Hill #29196",
+        "Connections": {
+          "East": 29202,
+          "Up": 29195
+        }
+      },
+      {
+        "Id": 29197,
+        "Name": "A Hole in the Tree #29197",
+        "Connections": {
+          "North": {
+            "RoomId": 29201,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 29199,
+          "West": 29198,
+          "Up": {
+            "RoomId": 29200,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 29195
+        }
+      },
+      {
+        "Id": 29198,
+        "Name": "Standing on a Sturdy Limb #29198",
+        "Connections": {
+          "East": 29197
+        }
+      },
+      {
+        "Id": 29199,
+        "Name": "A small Branch #29199",
+        "Connections": {
+          "West": 29197
+        }
+      },
+      {
+        "Id": 29200,
+        "Name": "Top of the Idigblu Tree #29200",
+        "Connections": {
+          "Down": {
+            "RoomId": 29197,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29201,
+        "Name": "An Owl\u0027s Nest #29201",
+        "Connections": {
+          "South": {
+            "RoomId": 29197,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29202,
+        "Name": "A Well-Manicure Dirt Trail #29202",
+        "Connections": {
+          "East": 29203,
+          "West": 29196
+        }
+      },
+      {
+        "Id": 29203,
+        "Name": "An Intersection In the Dirt Trail #29203",
+        "Connections": {
+          "North": 29224,
+          "East": 29225,
+          "South": 29204,
+          "West": 29202
+        }
+      },
+      {
+        "Id": 29204,
+        "Name": "A Trail Leading to The Conservation Cabin #29204",
+        "Connections": {
+          "North": 29203,
+          "South": 29205
+        }
+      },
+      {
+        "Id": 29205,
+        "Name": "A Narrow Landscaped Trail Leading South #29205",
+        "Connections": {
+          "North": 29204,
+          "South": {
+            "RoomId": 29206,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29206,
+        "Name": "A Small Iron Gate #29206",
+        "Connections": {
+          "North": 29205,
+          "South": {
+            "RoomId": 29207,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an iron key in the shape of a tree #29206",
+                "Color": "indianred"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 29207,
+        "Name": "A Trail Through A Small Garden #29207",
+        "Connections": {
+          "North": {
+            "RoomId": 29206,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
+          "East": 29208
+        }
+      },
+      {
+        "Id": 29208,
+        "Name": "A Row of Rare Tropical Hybrids #29208",
+        "Connections": {
+          "South": 29209,
+          "West": 29207
+        }
+      },
+      {
+        "Id": 29209,
+        "Name": "A Rickety Olde Teakwood Door #29209",
+        "Connections": {
+          "North": 29208,
+          "East": 29057,
+          "South": {
+            "RoomId": 29210,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29210,
+        "Name": "Inside The Conservation Cabin #29210",
+        "Connections": {
+          "North": {
+            "RoomId": 29209,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 29211,
+          "South": 29213,
+          "West": 29212
+        }
+      },
+      {
+        "Id": 29211,
+        "Name": "The Secretaries Office #29211",
+        "Connections": {
+          "West": 29210
+        }
+      },
+      {
+        "Id": 29212,
+        "Name": "Nature Observation Room #29212",
+        "Connections": {
+          "East": 29210
+        }
+      },
+      {
+        "Id": 29213,
+        "Name": "Bulletain Board Lined Hall #29213",
+        "Connections": {
+          "North": 29210,
+          "East": 29214,
+          "South": 29216,
+          "West": 29215
+        }
+      },
+      {
+        "Id": 29214,
+        "Name": "A Storage Closet #29214",
+        "Connections": {
+          "West": 29213
+        }
+      },
+      {
+        "Id": 29215,
+        "Name": "A Supplies Closet #29215",
+        "Connections": {
+          "East": 29213
+        }
+      },
+      {
+        "Id": 29216,
+        "Name": "A Small Wooden Ladder #29216",
+        "Connections": {
+          "North": 29213,
+          "East": 29221,
+          "South": 29219,
+          "West": 29220,
+          "Up": 29217
+        }
+      },
+      {
+        "Id": 29217,
+        "Name": "A Small Wooden Ladder #29217",
+        "Connections": {
+          "Up": 29218,
+          "Down": 29216
+        }
+      },
+      {
+        "Id": 29218,
+        "Name": "The Conservation Deck #29218",
+        "Connections": {
+          "Down": 29217
+        }
+      },
+      {
+        "Id": 29219,
+        "Name": "Conservation Management Office #29219",
+        "Connections": {
+          "North": 29216,
+          "East": 29222
+        }
+      },
+      {
+        "Id": 29220,
+        "Name": "Complaints Department #29220",
+        "Connections": {
+          "East": 29216
+        }
+      },
+      {
+        "Id": 29221,
+        "Name": "Fines Department #29221",
+        "Connections": {
+          "West": 29216
+        }
+      },
+      {
+        "Id": 29222,
+        "Name": "A Supplies Closet #29222",
+        "Connections": {
+          "West": 29219
+        }
+      },
+      {
+        "Id": 29224,
+        "Name": "An unfinished Trail #29224",
+        "Connections": {
+          "South": 29203
+        }
+      },
+      {
+        "Id": 29225,
+        "Name": "A Branch laying across the Trail #29225",
+        "Connections": {
+          "East": 29226,
+          "West": 29203
+        }
+      },
+      {
+        "Id": 29226,
+        "Name": "Tall Tropical Hardwoods #29226",
+        "Connections": {
+          "East": 29227,
+          "West": 29225
+        }
+      },
+      {
+        "Id": 29227,
+        "Name": "An enourmous Cocobolo Tree #29227",
+        "Connections": {
+          "South": 29228,
+          "West": 29226
+        }
+      },
+      {
+        "Id": 29228,
+        "Name": "A Tall Madero Tree #29228",
+        "Connections": {
+          "North": 29227,
+          "East": 29229
+        }
+      },
+      {
+        "Id": 29229,
+        "Name": "Branches Dangling over the path #29229",
+        "Connections": {
+          "East": 29230,
+          "West": 29228
+        }
+      },
+      {
+        "Id": 29230,
+        "Name": "A dark path through the trees #29230",
+        "Connections": {
+          "South": 29231,
+          "West": 29229
+        }
+      },
+      {
+        "Id": 29231,
+        "Name": "Winding through the tall hardwoods #29231",
+        "Connections": {
+          "North": 29230,
+          "East": 29232
+        }
+      },
+      {
+        "Id": 29232,
+        "Name": "Thick grapevine-like Branches #29232",
+        "Connections": {
+          "East": 29233,
+          "West": 29231
+        }
+      },
+      {
+        "Id": 29233,
+        "Name": "An opening In the Trees #29233",
+        "Connections": {
+          "East": 29234,
+          "West": 29232
+        }
+      },
+      {
+        "Id": 29234,
+        "Name": "An open field in the middle of the forest #29234",
+        "Connections": {
+          "North": 29235,
+          "South": 29236,
+          "West": 29233
+        }
+      },
+      {
+        "Id": 29235,
+        "Name": "Rows of Hardwood Seedlings #29235",
+        "Connections": {
+          "South": 29234
+        }
+      },
+      {
+        "Id": 29236,
+        "Name": "Northern Banks of the Itaquai River #29236",
+        "Connections": {
+          "North": 29234,
+          "East": 29237
+        }
+      },
+      {
+        "Id": 29237,
+        "Name": "Along the Bank of the Itaquai #29237",
+        "Connections": {
+          "East": 29238,
+          "West": 29236
+        }
+      },
+      {
+        "Id": 29238,
+        "Name": "A Large Tree Laying Across the Itaquai #29238",
+        "Connections": {
+          "South": 29239,
+          "West": 29237
+        }
+      },
+      {
+        "Id": 29239,
+        "Name": "Standing upon a Large Downed Tree #29239",
+        "Connections": {
+          "North": 29238,
+          "South": 29240
+        }
+      },
+      {
+        "Id": 29240,
+        "Name": "Southern Banks of the Itaquai River #29240",
+        "Connections": {
+          "North": 29239,
+          "East": 29241
+        }
+      },
+      {
+        "Id": 29241,
+        "Name": "A Patch of Tall Grass Along the River Bank #29241",
+        "Connections": {
+          "East": 29242,
+          "West": 29240
+        }
+      },
+      {
+        "Id": 29242,
+        "Name": "Erodded Dirt and Plants #29242",
+        "Connections": {
+          "East": 29243,
+          "West": 29241
+        }
+      },
+      {
+        "Id": 29243,
+        "Name": "Nearing the Mouth of the River #29243",
+        "Connections": {
+          "East": 29244,
+          "West": 29242
+        }
+      },
+      {
+        "Id": 29244,
+        "Name": "A small path leading down to the River #29244",
+        "Connections": {
+          "West": 29243,
+          "Down": 29245
+        }
+      },
+      {
+        "Id": 29245,
+        "Name": "Dirt Steps leading into the River #29245",
+        "Connections": {
+          "East": 29246,
+          "Up": 29244
+        }
+      },
+      {
+        "Id": 29246,
+        "Name": "At the Waters Edge #29246",
+        "Connections": {
+          "East": 29247,
+          "West": 29245
+        }
+      },
+      {
+        "Id": 29247,
+        "Name": "Mouth of the Itaquai River #29247",
+        "Connections": {
+          "East": 29248,
+          "West": 29246
+        }
+      },
+      {
+        "Id": 29248,
+        "Name": "Leaving the Dusty Banks of the River #29248",
+        "Connections": {
+          "South": 29249,
+          "West": 29247
+        }
+      },
+      {
+        "Id": 29249,
+        "Name": "Floating down Stream #29249",
+        "Connections": {
+          "East": 29250
+        }
+      },
+      {
+        "Id": 29250,
+        "Name": "A Large Sand Bar #29250",
+        "Connections": {
+          "East": 29251
+        }
+      },
+      {
+        "Id": 29251,
+        "Name": "An Archway made from Tangled Branches #29251",
+        "Connections": {
+          "East": 29252
+        }
+      },
+      {
+        "Id": 29252,
+        "Name": "Shadows on the Water #29252",
+        "Connections": {
+          "North": 29253
+        }
+      },
+      {
+        "Id": 29253,
+        "Name": "Bend in the Itaquai #29253",
+        "Connections": {
+          "East": 29254
+        }
+      },
+      {
+        "Id": 29254,
+        "Name": "Floating in the Current #29254",
+        "Connections": {
+          "East": 29255
+        }
+      },
+      {
+        "Id": 29255,
+        "Name": "Further Down Stream #29255",
+        "Connections": {
+          "East": 29256
+        }
+      },
+      {
+        "Id": 29256,
+        "Name": "Entering Rough Waters #29256",
+        "Connections": {
+          "South": 29257
+        }
+      },
+      {
+        "Id": 29257,
+        "Name": "Riding the Rapids #29257",
+        "Connections": {
+          "South": 29258
+        }
+      },
+      {
+        "Id": 29258,
+        "Name": "Navigating Through the Rapids #29258",
+        "Connections": {
+          "South": 29259
+        }
+      },
+      {
+        "Id": 29259,
+        "Name": "Intersection in the River #29259",
+        "Connections": {
+          "East": 29260,
+          "South": 29266,
+          "West": 29281
+        }
+      },
+      {
+        "Id": 29260,
+        "Name": "Eastern Current #29260",
+        "Connections": {
+          "East": 29261,
+          "West": 29259
+        }
+      },
+      {
+        "Id": 29261,
+        "Name": "Anaconda Nest #29261",
+        "Connections": {
+          "East": 29262,
+          "West": 29260
+        }
+      },
+      {
+        "Id": 29262,
+        "Name": "An Enourmous Whirlpool #29262",
+        "Connections": {
+          "Down": 29263
+        }
+      },
+      {
+        "Id": 29263,
+        "Name": "Decending into the Eye of the Whirlpool #29263",
+        "Connections": {
+          "Down": 29264
+        }
+      },
+      {
+        "Id": 29264,
+        "Name": "Deeper beneath the icy cold waters #29264",
+        "Connections": {
+          "Down": 29265
+        }
+      },
+      {
+        "Id": 29265,
+        "Name": "Underwater Grave #29265",
+        "Connections": {}
+      },
+      {
+        "Id": 29266,
+        "Name": "Continuing along the River #29266",
+        "Connections": {
+          "South": 29267
+        }
+      },
+      {
+        "Id": 29267,
+        "Name": "A Shallow Pool #29267",
+        "Connections": {
+          "South": 29268
+        }
+      },
+      {
+        "Id": 29268,
+        "Name": "Turn in the River #29268",
+        "Connections": {
+          "South": 29269
+        }
+      },
+      {
+        "Id": 29269,
+        "Name": "Branches Protruding from the Water #29269",
+        "Connections": {
+          "East": 29270
+        }
+      },
+      {
+        "Id": 29270,
+        "Name": "Entering an Archway of Trees #29270",
+        "Connections": {
+          "East": 29271
+        }
+      },
+      {
+        "Id": 29271,
+        "Name": "Shadows casted upong the Water Surface #29271",
+        "Connections": {}
+      },
+      {
+        "Id": 29275,
+        "Name": "A Massiver Sandbar #29275",
+        "Connections": {
+          "East": 29277,
+          "West": 29276
+        }
+      },
+      {
+        "Id": 29276,
+        "Name": "Shallow Water #29276",
+        "Connections": {
+          "East": 29275
+        }
+      },
+      {
+        "Id": 29277,
+        "Name": "Shallow Water #29277",
+        "Connections": {
+          "South": 29278,
+          "West": 29275
+        }
+      },
+      {
+        "Id": 29278,
+        "Name": "Along the shore #29278",
+        "Connections": {
+          "North": 29277,
+          "East": 29279
+        }
+      },
+      {
+        "Id": 29279,
+        "Name": "Along the Dirt Banks #29279",
+        "Connections": {
+          "East": 29280,
+          "West": 29278
+        }
+      },
+      {
+        "Id": 29280,
+        "Name": "Steps carved into the Dirt #29280",
+        "Connections": {
+          "West": 29279,
+          "Up": 29287
+        }
+      },
+      {
+        "Id": 29281,
+        "Name": "Western Current #29281",
+        "Connections": {
+          "East": 29259,
+          "West": 29282
+        }
+      },
+      {
+        "Id": 29282,
+        "Name": "Swirling Water #29282",
+        "Connections": {
+          "West": 29283,
+          "Down": 29283
+        }
+      },
+      {
+        "Id": 29283,
+        "Name": "An Enourmous Swirling Whirlpool #29283",
+        "Connections": {
+          "Down": 29284
+        }
+      },
+      {
+        "Id": 29284,
+        "Name": "Decending into the Eye of the Whirlpool #29284",
+        "Connections": {
+          "Down": 29285
+        }
+      },
+      {
+        "Id": 29285,
+        "Name": "Deeper beneath the icy cold waters #29285",
+        "Connections": {
+          "Down": 29286
+        }
+      },
+      {
+        "Id": 29286,
+        "Name": "Underwater Grave #29286",
+        "Connections": {}
+      },
+      {
+        "Id": 29287,
+        "Name": "A Well Traveled Path #29287",
+        "Connections": {
+          "East": 29288,
+          "Down": 29280
+        }
+      },
+      {
+        "Id": 29288,
+        "Name": "A Worn Path #29288",
+        "Connections": {
+          "East": 29289,
+          "West": 29287
+        }
+      },
+      {
+        "Id": 29289,
+        "Name": "Entering the Jungle #29289",
+        "Connections": {
+          "South": 29290,
+          "West": 29288
+        }
+      },
+      {
+        "Id": 29290,
+        "Name": "A Path through the Jungle #29290",
+        "Connections": {
+          "North": 29289,
+          "East": 29291
+        }
+      },
+      {
+        "Id": 29291,
+        "Name": "Beside a Large Hardwood Tree #29291",
+        "Connections": {
+          "East": 29292,
+          "West": 29290
+        }
+      },
+      {
+        "Id": 29292,
+        "Name": "Crossing the River Bed #29292",
+        "Connections": {
+          "South": 29293,
+          "West": 29291
+        }
+      },
+      {
+        "Id": 29293,
+        "Name": "A Damp Path #29293",
+        "Connections": {
+          "North": 29292,
+          "South": 29294
+        }
+      },
+      {
+        "Id": 29294,
+        "Name": "Nearing the Tribal Village #29294",
+        "Connections": {
+          "North": 29293,
+          "South": 29295
+        }
+      },
+      {
+        "Id": 29295,
+        "Name": "A Worn Path #29295",
+        "Connections": {
+          "North": 29294,
+          "South": 29296
+        }
+      },
+      {
+        "Id": 29296,
+        "Name": "Edge of the Jungle #29296",
+        "Connections": {
+          "North": 29295,
+          "South": 29297
+        }
+      },
+      {
+        "Id": 29297,
+        "Name": "START OF THE VILLAGE #29297",
+        "Connections": {
+          "North": 29296
+        }
+      },
+      {
+        "Id": 29350,
+        "Name": "\u003C---End of Village---\u003E #29350",
+        "Connections": {}
+      },
+      {
+        "Id": 29351,
+        "Name": "\u003C---Anqkor and Gazelle Temple thru 29899---\u003E #29351",
+        "Connections": {}
+      },
+      {
+        "Id": 29900,
+        "Name": "Entrance to Dogma Adventurer\u0027s School #29900",
+        "Connections": {
+          "North": 29901
+        }
+      },
+      {
+        "Id": 29901,
+        "Name": "A Room in Adventurer\u0027s School #29901",
+        "Connections": {
+          "North": 29904,
+          "East": 29902,
+          "West": 29903
+        }
+      },
+      {
+        "Id": 29902,
+        "Name": "Renting and Vault Classroom #29902",
+        "Connections": {
+          "West": 29901
+        }
+      },
+      {
+        "Id": 29903,
+        "Name": "Consider Classroom #29903",
+        "Connections": {
+          "East": 29901
+        },
+        "Contents": [
+          {
+            "Text": "a royal dwarven spy #29903",
+            "Color": "green"
+          },
+          {
+            "Text": "a soul damned for eternity #29900",
+            "Color": "green"
+          },
+          {
+            "Text": "a small brown rat #29902",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29904,
+        "Name": "A Long Hallway in Adventurer\u0027s School #29904",
+        "Connections": {
+          "North": 29907,
+          "East": {
+            "RoomId": 29905,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 29901,
+          "Down": {
+            "RoomId": 29906,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a rusted skeleton key #29904",
+                "Color": "indianred"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 29905,
+        "Name": "Events, Astrological Signs, and Emotions Classroom #29905",
+        "Connections": {
+          "West": {
+            "RoomId": 29904,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29906,
+        "Name": "Fog and Dark Rooms Classroom #29906",
+        "Connections": {
+          "Up": {
+            "RoomId": 29904,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a rusted skeleton key #29904",
+                "Color": "indianred"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 29907,
+        "Name": "Adventurer\u0027s School Hallway #29907",
+        "Connections": {
+          "North": 29910,
+          "East": 29909,
+          "South": 29904,
+          "West": 29908
+        }
+      },
+      {
+        "Id": 29908,
+        "Name": "Astral Body Classroom #29908",
+        "Connections": {
+          "East": 29907
+        }
+      },
+      {
+        "Id": 29909,
+        "Name": "Socials Classroom #29909",
+        "Connections": {
+          "West": 29907
+        }
+      },
+      {
+        "Id": 29910,
+        "Name": "Adventurer\u0027s hallway #29910",
+        "Connections": {
+          "North": {
+            "RoomId": 29913,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 29911,
+          "South": 29907,
+          "West": 29912
+        }
+      },
+      {
+        "Id": 29911,
+        "Name": "Vendors Classroom #29911",
+        "Connections": {
+          "West": 29910
+        }
+      },
+      {
+        "Id": 29912,
+        "Name": "Equipement Classroom #29912",
+        "Connections": {
+          "East": 29910
+        }
+      },
+      {
+        "Id": 29913,
+        "Name": "Adventurer\u0027s Hallway #29913",
+        "Connections": {
+          "North": 29919,
+          "East": {
+            "RoomId": 29914,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 29910,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 29915,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": {
+            "RoomId": 29918,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small glass key #29913",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": {
+            "RoomId": 29917,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29914,
+        "Name": "Title, Godtitle, and Who List Classroom #29914",
+        "Connections": {
+          "West": {
+            "RoomId": 29913,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29915,
+        "Name": "Score, Stats, and Bonus Classroom #29915",
+        "Connections": {
+          "East": {
+            "RoomId": 29913,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29916,
+        "Name": "Auto Quest and Quest Classroom #29916",
+        "Connections": {
+          "North": {
+            "RoomId": 29913,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29917,
+        "Name": "Forge, Inscribe Brew and Jewelcraft Classroom #29917",
+        "Connections": {
+          "Up": {
+            "RoomId": 29913,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29918,
+        "Name": "Karma Loss, Resurrect, and Reroll Classroom #29918",
+        "Connections": {
+          "Down": {
+            "RoomId": 29913,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a small glass key #29913",
+                "Color": "indianred"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 29919,
+        "Name": "Adventurer\u0027s Hall #29919",
+        "Connections": {
+          "North": 29922,
+          "East": 29921,
+          "South": 29913,
+          "West": 29920
+        }
+      },
+      {
+        "Id": 29920,
+        "Name": "Boat and Citizenship Classroom #29920",
+        "Connections": {
+          "East": 29919
+        }
+      },
+      {
+        "Id": 29921,
+        "Name": "Meditation and Relaxation Classroom #29921",
+        "Connections": {
+          "West": 29919
+        }
+      },
+      {
+        "Id": 29922,
+        "Name": "Adventurer\u0027s Hall #29922",
+        "Connections": {
+          "North": 29925,
+          "East": 29924,
+          "South": 29919,
+          "West": 29923
+        }
+      },
+      {
+        "Id": 29923,
+        "Name": "Holy EQ and Sacrifice Classroom #29923",
+        "Connections": {
+          "East": 29922
+        }
+      },
+      {
+        "Id": 29924,
+        "Name": "Ingame Aliases Classroom #29924",
+        "Connections": {
+          "West": 29922
+        }
+      },
+      {
+        "Id": 29925,
+        "Name": "Turn in the Hall #29925",
+        "Connections": {
+          "East": 29926,
+          "South": 29922
+        }
+      },
+      {
+        "Id": 29926,
+        "Name": "Adventurer\u0027s School Hallway #29926",
+        "Connections": {
+          "North": 29931,
+          "East": {
+            "RoomId": 29927,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 29925
+        }
+      },
+      {
+        "Id": 29927,
+        "Name": "Administration Office #29927",
+        "Connections": {
+          "North": {
+            "RoomId": 29928,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 29930,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 29929,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": {
+            "RoomId": 29926,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a skater boy #29927",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29928,
+        "Name": "Nurse\u0027s Office #29928",
+        "Connections": {
+          "South": {
+            "RoomId": 29927,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the school nurse #29928",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29929,
+        "Name": "Secretary\u0027s Office #29929",
+        "Connections": {
+          "North": {
+            "RoomId": 29927,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 29941,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the school secretary #29929",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29930,
+        "Name": "Principal\u0027s Office #29930",
+        "Connections": {
+          "West": {
+            "RoomId": 29927,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the school principal #29930",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29931,
+        "Name": "School Hallway #29931",
+        "Connections": {
+          "North": 29934,
+          "East": 29933,
+          "South": 29926,
+          "West": 29932
+        }
+      },
+      {
+        "Id": 29932,
+        "Name": "The Cafeteria #29932",
+        "Connections": {
+          "East": 29931
+        },
+        "Contents": [
+          {
+            "Text": "Thelma, the lunch lady #29932",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29933,
+        "Name": "The School Library #29933",
+        "Connections": {
+          "West": 29931,
+          "Up": {
+            "RoomId": 29946,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The School Librarian #29933",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29934,
+        "Name": "Before the Girl\u0027s Bathroom #29934",
+        "Connections": {
+          "North": 29938,
+          "East": {
+            "RoomId": 29935,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 29931,
+          "West": 29936
+        }
+      },
+      {
+        "Id": 29935,
+        "Name": "The School Janitor\u0027s Closet #29935",
+        "Connections": {
+          "West": {
+            "RoomId": 29934,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 29948,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29936,
+        "Name": "Girl\u0027s Restroom #29936",
+        "Connections": {
+          "North": {
+            "RoomId": 29937,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 29934
+        }
+      },
+      {
+        "Id": 29937,
+        "Name": "Inside a Stall #29937",
+        "Connections": {
+          "South": {
+            "RoomId": 29936,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a short blonde haired school girl #29937",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29938,
+        "Name": "Before the Boy\u0027s Bathroom #29938",
+        "Connections": {
+          "North": 29942,
+          "East": 29939,
+          "South": 29934
+        }
+      },
+      {
+        "Id": 29939,
+        "Name": "Boy\u0027s Restroom #29939",
+        "Connections": {
+          "North": {
+            "RoomId": 29940,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 29938
+        }
+      },
+      {
+        "Id": 29940,
+        "Name": "Inside a Stall #29940",
+        "Connections": {
+          "South": {
+            "RoomId": 29939,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a young boy wearing yellow shorts #29940",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29941,
+        "Name": "The Counselor\u0027s Office #29941",
+        "Connections": {
+          "West": {
+            "RoomId": 29929,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the school counselor #29941",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29942,
+        "Name": "The Adventurer\u0027s Hall #29942",
+        "Connections": {
+          "North": 29945,
+          "East": 29944,
+          "South": 29938,
+          "West": 29943
+        }
+      },
+      {
+        "Id": 29943,
+        "Name": "The Gymnasium #29943",
+        "Connections": {
+          "East": 29942
+        }
+      },
+      {
+        "Id": 29944,
+        "Name": "The Music Room #29944",
+        "Connections": {
+          "West": 29942
+        }
+      },
+      {
+        "Id": 29945,
+        "Name": "The Adventurer\u0027s Hallway #29945",
+        "Connections": {
+          "North": 29955,
+          "South": 29942,
+          "West": 29949
+        }
+      },
+      {
+        "Id": 29946,
+        "Name": "Climbing a Rickety Old Ladder #29946",
+        "Connections": {
+          "East": {
+            "RoomId": 29947,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a library membership card #29946",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "Down": {
+            "RoomId": 29933,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29947,
+        "Name": "Behind The Bookcases #29947",
+        "Connections": {
+          "West": {
+            "RoomId": 29946,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a library membership card #29946",
+                "Color": "indianred"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 29948,
+        "Name": "Inside the Mop Bucket #29948",
+        "Connections": {
+          "Up": {
+            "RoomId": 29935,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29949,
+        "Name": "The School Auditorium #29949",
+        "Connections": {
+          "North": 29950,
+          "East": 29945
+        }
+      },
+      {
+        "Id": 29950,
+        "Name": "Center Stage #29950",
+        "Connections": {
+          "North": {
+            "RoomId": 29953,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 29951,
+          "South": 29949,
+          "West": 29952,
+          "Down": 29954
+        }
+      },
+      {
+        "Id": 29951,
+        "Name": "Stage Right #29951",
+        "Connections": {
+          "West": 29950
+        }
+      },
+      {
+        "Id": 29952,
+        "Name": "Stage Left #29952",
+        "Connections": {
+          "East": 29950
+        }
+      },
+      {
+        "Id": 29953,
+        "Name": "Backstage #29953",
+        "Connections": {
+          "South": {
+            "RoomId": 29950,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29954,
+        "Name": "The Pit #29954",
+        "Connections": {
+          "Up": 29950
+        }
+      },
+      {
+        "Id": 29955,
+        "Name": "Hallway leading to the Playground #29955",
+        "Connections": {
+          "North": 29956
+        }
+      },
+      {
+        "Id": 29956,
+        "Name": "Approaching a set of Glass Doors #29956",
+        "Connections": {
+          "North": 29957
+        }
+      },
+      {
+        "Id": 29957,
+        "Name": "A set of Glass Doors #29957",
+        "Connections": {
+          "North": {
+            "RoomId": 29958,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 29958,
+        "Name": "A Gravel Path to the Playground #29958",
+        "Connections": {
+          "North": 29959
+        }
+      },
+      {
+        "Id": 29959,
+        "Name": "A Patch of Grass #29959",
+        "Connections": {
+          "South": 29958,
+          "West": 29960
+        }
+      },
+      {
+        "Id": 29960,
+        "Name": "Along the Gravel Path #29960",
+        "Connections": {
+          "North": 29961,
+          "East": 29959
+        },
+        "Contents": [
+          {
+            "Text": "a bee #1011",
+            "Color": "red"
+          },
+          {
+            "Text": "a yellow daisy #29960",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29961,
+        "Name": "A Gravel Path #29961",
+        "Connections": {
+          "East": 29963,
+          "South": 29960,
+          "West": 29962
+        },
+        "Contents": [
+          {
+            "Text": "a kobold runt #12001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29962,
+        "Name": "The Monkey Bars #29962",
+        "Connections": {
+          "East": 29961
+        },
+        "Contents": [
+          {
+            "Text": "a tiny fairy boy #46001",
+            "Color": "green"
+          },
+          {
+            "Text": "a small fairy girl #46000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29963,
+        "Name": "A Large Metal Slide #29963",
+        "Connections": {
+          "North": 29966,
+          "East": 29964,
+          "West": 29961
+        }
+      },
+      {
+        "Id": 29964,
+        "Name": "A Small Log Cabin #29964",
+        "Connections": {
+          "North": 29967,
+          "East": 29969,
+          "West": 29963
+        }
+      },
+      {
+        "Id": 29965,
+        "Name": "Bottom of the Slide #29965",
+        "Connections": {
+          "East": 29964
+        }
+      },
+      {
+        "Id": 29966,
+        "Name": "Top of the Slide #29966",
+        "Connections": {
+          "South": 29963,
+          "Down": 29965
+        },
+        "Contents": [
+          {
+            "Text": "a short blond haired boy #29966",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 29967,
+        "Name": "Inside the Cabin #29967",
+        "Connections": {
+          "East": 29968,
+          "South": 29964
+        }
+      },
+      {
+        "Id": 29968,
+        "Name": "Another Room in the Cabin #29968",
+        "Connections": {
+          "West": 29967
+        }
+      },
+      {
+        "Id": 29969,
+        "Name": "In Front of the Log Cabin #29969",
+        "Connections": {
+          "East": 29970,
+          "West": 29964
+        }
+      },
+      {
+        "Id": 29970,
+        "Name": "Gravel Path to the Fort #29970",
+        "Connections": {
+          "West": 29969,
+          "Up": 29971
+        }
+      },
+      {
+        "Id": 29971,
+        "Name": "The Fort #29971",
+        "Connections": {
+          "East": 29972,
+          "Down": 29970
+        }
+      },
+      {
+        "Id": 29972,
+        "Name": "The Main Floor of the Fort #29972",
+        "Connections": {
+          "West": 29971,
+          "Up": 29974,
+          "Down": 29973
+        }
+      },
+      {
+        "Id": 29973,
+        "Name": "Beneath the Fort #29973",
+        "Connections": {
+          "Up": 29972
+        }
+      },
+      {
+        "Id": 29974,
+        "Name": "The Lookout Post #29974",
+        "Connections": {
+          "Down": 29972
+        }
+      },
+      {
+        "Id": 29975,
+        "Name": "\u003C---Uncharted Anqet thru 29997---\u003E #29975",
+        "Connections": {}
+      },
+      {
+        "Id": 29998,
+        "Name": "A Statue of A Gazelle #29998",
+        "Connections": {}
+      },
+      {
+        "Id": 29999,
+        "Name": "Grazing Grounds of the Gazelle Goddess #29999",
+        "Connections": {
+          "North": 25838,
+          "East": 29000,
+          "South": 20022,
+          "West": 40145,
+          "Up": 29900
+        }
+      },
+      {
+        "Id": 8061,
+        "FrameColor": "blue",
+        "Name": "To BalHarbor #8061",
+        "Color": "blue",
+        "Connections": {
+          "East": 8042
+        }
+      },
+      {
+        "Id": 25838,
+        "FrameColor": "blue",
+        "Name": "To Nine Hells #25838",
+        "Color": "blue",
+        "Connections": {
+          "West": 25837,
+          "Down": 1300
+        }
+      },
+      {
+        "Id": 20022,
+        "FrameColor": "blue",
+        "Name": "To Tupelo #20022",
+        "Color": "blue",
+        "Connections": {
+          "North": 20043,
+          "East": 20040,
+          "South": 20097,
+          "West": 20021
+        }
+      },
+      {
+        "Id": 40145,
+        "FrameColor": "blue",
+        "Name": "To DemonWeb #40145",
+        "Color": "blue",
+        "Connections": {
+          "Down": {
+            "RoomId": 40144,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      }
+    ]
+  }
+}

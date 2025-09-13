@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "arena",
+    "Name": "Arena",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -30,7 +30,13 @@
         "Connections": {
           "East": 19003,
           "West": 19001,
-          "Down": 19008
+          "Down": {
+            "RoomId": 19008,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -81,7 +87,13 @@
         "Name": "Below the Hay #19008",
         "Connections": {
           "South": 19045,
-          "Up": 19002
+          "Up": {
+            "RoomId": 19002,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -180,7 +192,13 @@
         "Connections": {
           "North": 19019,
           "South": 19003,
-          "West": 19044
+          "West": {
+            "RoomId": 19044,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -245,7 +263,13 @@
         "Name": "Before the Manor #19028",
         "Connections": {
           "East": 19027,
-          "Up": 19029
+          "Up": {
+            "RoomId": 19029,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -254,7 +278,13 @@
         "Connections": {
           "West": 19033,
           "Up": 19030,
-          "Down": 19028
+          "Down": {
+            "RoomId": 19028,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -296,7 +326,13 @@
         "Connections": {
           "East": 19033,
           "Up": 19036,
-          "Down": 19035
+          "Down": {
+            "RoomId": 19035,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -304,7 +340,13 @@
         "Name": "Concrete Stairway #19035",
         "Connections": {
           "South": 19021,
-          "Up": 19034
+          "Up": {
+            "RoomId": 19034,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -312,7 +354,13 @@
         "Name": "Before the Top #19036",
         "Connections": {
           "West": 19037,
-          "Down": 19024
+          "Down": {
+            "RoomId": 19024,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -376,7 +424,13 @@
         "Name": "Along the Path #19044",
         "Connections": {
           "North": 19042,
-          "East": 19020
+          "East": {
+            "RoomId": 19020,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {

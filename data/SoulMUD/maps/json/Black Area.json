@@ -1,0 +1,1694 @@
+{
+  "Area": {
+    "Name": "Black Area",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 21500,
+        "Name": "A Trail Covered In Fog #21500",
+        "Connections": {
+          "East": 21501,
+          "South": 5839
+        }
+      },
+      {
+        "Id": 21501,
+        "Name": "A Crater In the Mist #21501",
+        "Connections": {
+          "East": 21502,
+          "West": 21500
+        }
+      },
+      {
+        "Id": 21502,
+        "Name": "The Black Barricade #21502",
+        "Connections": {
+          "East": {
+            "RoomId": 21503,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 21501
+        },
+        "Contents": [
+          {
+            "Text": "a guard in black armor #21500",
+            "Color": "red"
+          },
+          {
+            "Text": "a guard in black armor #21500",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21503,
+        "Name": "A Trench Lined with Stone #21503",
+        "Connections": {
+          "East": 21504,
+          "West": {
+            "RoomId": 21502,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21504,
+        "Name": "A Trench Lined With Stone #21504",
+        "Connections": {
+          "East": 21505,
+          "West": 21503
+        }
+      },
+      {
+        "Id": 21505,
+        "Name": "A Trench Lined With Stone #21505",
+        "Connections": {
+          "East": 21506,
+          "West": 21504
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21506,
+        "Name": "A Trench Lined With Stone #21506",
+        "Connections": {
+          "East": 21507,
+          "West": 21505
+        }
+      },
+      {
+        "Id": 21507,
+        "Name": "A Trench Lined With Stone #21507",
+        "Connections": {
+          "East": 21508,
+          "West": 21506
+        }
+      },
+      {
+        "Id": 21508,
+        "Name": "Passing The Guard Station #21508",
+        "Connections": {
+          "North": 21510,
+          "East": 21509,
+          "West": 21507
+        }
+      },
+      {
+        "Id": 21509,
+        "Name": "The Main Eastern Trench #21509",
+        "Connections": {
+          "North": 21511,
+          "South": 21540,
+          "West": 21508
+        },
+        "Contents": [
+          {
+            "Text": "the black knight #21503",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21510,
+        "Name": "The Guard Station #21510",
+        "Connections": {
+          "South": 21508
+        },
+        "Contents": [
+          {
+            "Text": "a guard in black armor  #21513",
+            "Color": "red"
+          },
+          {
+            "Text": "a guard in black armor  #21513",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21511,
+        "Name": "A Chalk Lined Trench #21511",
+        "Connections": {
+          "North": 21512,
+          "South": 21509
+        }
+      },
+      {
+        "Id": 21512,
+        "Name": "A Chalk Lined Trench #21512",
+        "Connections": {
+          "North": {
+            "RoomId": 21522,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 21511,
+          "West": 21513
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21513,
+        "Name": "A Chalk Lined Trench #21513",
+        "Connections": {
+          "North": {
+            "RoomId": 21521,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 21512,
+          "West": 21514
+        }
+      },
+      {
+        "Id": 21514,
+        "Name": "A Chalk Lined Trench #21514",
+        "Connections": {
+          "North": {
+            "RoomId": 21520,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 21513,
+          "South": 21535,
+          "West": 21515
+        }
+      },
+      {
+        "Id": 21515,
+        "Name": "A Chalk Lined Trench #21515",
+        "Connections": {
+          "North": {
+            "RoomId": 21519,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 21514,
+          "West": 21516
+        }
+      },
+      {
+        "Id": 21516,
+        "Name": "A Chalk Lined Trench #21516",
+        "Connections": {
+          "North": {
+            "RoomId": 21518,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 21515
+        }
+      },
+      {
+        "Id": 21517,
+        "Name": "A Trench Around The Barracks #21517",
+        "Connections": {
+          "North": 21523,
+          "South": 21532
+        }
+      },
+      {
+        "Id": 21518,
+        "Name": "The Pawn\u0027s Quarters #21518",
+        "Connections": {
+          "South": {
+            "RoomId": 21516,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an elite black pawn #21514",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21519,
+        "Name": "A Pawn\u0027s Quarters #21519",
+        "Connections": {
+          "South": {
+            "RoomId": 21515,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an elite black pawn #21612",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21520,
+        "Name": "A Pawn\u0027s Quarters #21520",
+        "Connections": {
+          "South": {
+            "RoomId": 21514,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an elite black pawn #21613",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21521,
+        "Name": "A Pawn\u0027s Quarters #21521",
+        "Connections": {
+          "South": {
+            "RoomId": 21513,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an elite black pawn #21614",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21522,
+        "Name": "A Pawn\u0027s Quarters #21522",
+        "Connections": {
+          "South": {
+            "RoomId": 21512,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an elite black pawn #21615",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21523,
+        "Name": "West Of The Northwest Tower #21523",
+        "Connections": {
+          "East": 21524,
+          "South": 21517
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21524,
+        "Name": "Below The Northwest tower #21524",
+        "Connections": {
+          "East": 21526,
+          "West": 21523,
+          "Up": 21525
+        },
+        "Contents": [
+          {
+            "Text": "the black knight #21617",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21525,
+        "Name": "Atop The Northwest Tower #21525",
+        "Connections": {
+          "Down": 21524
+        },
+        "Contents": [
+          {
+            "Text": "a black archer #21508",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21526,
+        "Name": "The Northern Trench #21526",
+        "Connections": {
+          "East": 21527,
+          "West": 21524
+        }
+      },
+      {
+        "Id": 21527,
+        "Name": "The Northern Trench #21527",
+        "Connections": {
+          "East": 21528,
+          "West": 21526
+        }
+      },
+      {
+        "Id": 21528,
+        "Name": "The Northern Trench #21528",
+        "Connections": {
+          "East": 21529,
+          "West": 21527
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21529,
+        "Name": "South Of The Northern Tower #21529",
+        "Connections": {
+          "North": 21530,
+          "West": 21528
+        }
+      },
+      {
+        "Id": 21530,
+        "Name": "Below The Northern Tower #21530",
+        "Connections": {
+          "East": 21582,
+          "South": 21529,
+          "Up": 21531
+        },
+        "Contents": [
+          {
+            "Text": "the black knight #21618",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21531,
+        "Name": "Atop The Northern Tower #21531",
+        "Connections": {
+          "Down": 21530
+        }
+      },
+      {
+        "Id": 21532,
+        "Name": "A Trench Around The Barracks #21532",
+        "Connections": {
+          "North": 21517,
+          "West": 21533
+        }
+      },
+      {
+        "Id": 21533,
+        "Name": "Below The Western Tower #21533",
+        "Connections": {
+          "East": 21532,
+          "Up": 21534
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          },
+          {
+            "Text": "the black knight #21619",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21534,
+        "Name": "Atop the Western Tower #21534",
+        "Connections": {
+          "Down": 21533
+        },
+        "Contents": [
+          {
+            "Text": "a black archer #21520",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21535,
+        "Name": "A Secluded Trench #21535",
+        "Connections": {
+          "North": 21514,
+          "West": {
+            "RoomId": 21536,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 21536,
+        "Name": "The Black Archers #21536",
+        "Connections": {
+          "East": {
+            "RoomId": 21535,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 21507,
+          "West": 21537
+        },
+        "Contents": [
+          {
+            "Text": "a black archer #21521",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21537,
+        "Name": "The Black Archers #21537",
+        "Connections": {
+          "East": 21536,
+          "South": 21506,
+          "West": 21538
+        },
+        "Contents": [
+          {
+            "Text": "a black archer #21522",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21538,
+        "Name": "The Black Archers #21538",
+        "Connections": {
+          "East": 21537,
+          "South": 21505,
+          "West": 21539
+        },
+        "Contents": [
+          {
+            "Text": "a black archer #21523",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21539,
+        "Name": "The Black Archers #21539",
+        "Connections": {
+          "East": 21538,
+          "South": 21504
+        },
+        "Contents": [
+          {
+            "Text": "a black archer #21524",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21540,
+        "Name": "A Lime Slickened Trench #21540",
+        "Connections": {
+          "North": 21509,
+          "South": 21541
+        }
+      },
+      {
+        "Id": 21541,
+        "Name": "A Turn In The Trench #21541",
+        "Connections": {
+          "North": 21540,
+          "East": 21542
+        }
+      },
+      {
+        "Id": 21542,
+        "Name": "Along The Southern Trench #21542",
+        "Connections": {
+          "East": 21543,
+          "West": 21541
+        }
+      },
+      {
+        "Id": 21543,
+        "Name": "Death In The Trenches #21543",
+        "Connections": {
+          "East": 21544,
+          "West": 21542,
+          "Down": {
+            "RoomId": 21545,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21544,
+        "Name": "The Guard Station #21544",
+        "Connections": {
+          "North": 21562,
+          "East": {
+            "RoomId": 21612,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 21543
+        },
+        "Contents": [
+          {
+            "Text": "a guard in black armor #21512",
+            "Color": "red"
+          },
+          {
+            "Text": "a guard in black armor #21512",
+            "Color": "red"
+          },
+          {
+            "Text": "an elite black pawn #21515",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21545,
+        "Name": "Below The Manhole #21545",
+        "Connections": {
+          "North": 21610,
+          "West": 21546,
+          "Up": {
+            "RoomId": 21543,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21546,
+        "Name": "Wading Through The Canals #21546",
+        "Connections": {
+          "East": 21545,
+          "South": 21581,
+          "West": 21547
+        }
+      },
+      {
+        "Id": 21547,
+        "Name": "The Darkness Of The Canals #21547",
+        "Connections": {
+          "East": 21546,
+          "West": 21548
+        }
+      },
+      {
+        "Id": 21548,
+        "Name": "Wandering Through The Canals #21548",
+        "Connections": {
+          "East": 21547,
+          "West": 21549
+        }
+      },
+      {
+        "Id": 21549,
+        "Name": "Lost In the Canals #21549",
+        "Connections": {
+          "East": 21548,
+          "Up": {
+            "RoomId": 21550,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          },
+          {
+            "Text": "an elite black pawn #21515",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21550,
+        "Name": "A Secluded Hallway #21550",
+        "Connections": {
+          "North": 21551,
+          "Down": {
+            "RoomId": 21549,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 21551,
+        "Name": "A Secluded Hallway #21551",
+        "Connections": {
+          "South": 21550,
+          "West": {
+            "RoomId": 21552,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the black knight #21621",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21552,
+        "Name": "The Black Archers #21552",
+        "Connections": {
+          "North": 21506,
+          "East": {
+            "RoomId": 21551,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 21553
+        },
+        "Contents": [
+          {
+            "Text": "a black archer #21525",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21553,
+        "Name": "The Black Archers #21553",
+        "Connections": {
+          "North": 21505,
+          "East": 21552,
+          "West": 21554
+        },
+        "Contents": [
+          {
+            "Text": "a black archer #21526",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21554,
+        "Name": "The Black Archers #21554",
+        "Connections": {
+          "North": 21504,
+          "East": 21553,
+          "West": 21555
+        },
+        "Contents": [
+          {
+            "Text": "a black archer #21527",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21555,
+        "Name": "The Black Archers #21555",
+        "Connections": {
+          "North": 21503,
+          "East": 21554,
+          "Down": {
+            "RoomId": 21556,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a black archer #21518",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21556,
+        "Name": "A Dark Stairwell #21556",
+        "Connections": {
+          "East": 21557,
+          "Up": {
+            "RoomId": 21555,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21557,
+        "Name": "A Dark Hallway #21557",
+        "Connections": {
+          "East": 21558,
+          "West": 21556
+        }
+      },
+      {
+        "Id": 21558,
+        "Name": "A Very Dark Stairwell #21558",
+        "Connections": {
+          "West": 21557,
+          "Down": 21559
+        }
+      },
+      {
+        "Id": 21559,
+        "Name": "The Ancient Canal #21559",
+        "Connections": {
+          "West": 21560,
+          "Up": 21558
+        }
+      },
+      {
+        "Id": 21560,
+        "Name": "The Ancient Canal #21560",
+        "Connections": {
+          "East": 21559,
+          "West": 21561
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21561,
+        "Name": "Rubble Littered With Bones #21561",
+        "Connections": {
+          "East": 21560
+        }
+      },
+      {
+        "Id": 21562,
+        "Name": "Between Trenches #21562",
+        "Connections": {
+          "North": 21563,
+          "South": 21544
+        },
+        "Contents": [
+          {
+            "Text": "an elite black pawn #21616",
+            "Color": "red"
+          },
+          {
+            "Text": "the black knight #21622",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21563,
+        "Name": "Below The Central Tower #21563",
+        "Connections": {
+          "East": 21566,
+          "South": 21562,
+          "Up": 21564
+        }
+      },
+      {
+        "Id": 21564,
+        "Name": "Climbing The Tower #21564",
+        "Connections": {
+          "Up": 21565,
+          "Down": 21563
+        }
+      },
+      {
+        "Id": 21565,
+        "Name": "Atop The Central Tower #21565",
+        "Connections": {
+          "Down": 21564
+        },
+        "Contents": [
+          {
+            "Text": "a black archer #21518",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21566,
+        "Name": "East Of The Central Tower #21566",
+        "Connections": {
+          "North": 21597,
+          "East": 21567,
+          "West": 21563
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21567,
+        "Name": "West Of The Eastern Tower #21567",
+        "Connections": {
+          "East": 21568,
+          "West": 21566
+        }
+      },
+      {
+        "Id": 21568,
+        "Name": "Below The Eastern Tower #21568",
+        "Connections": {
+          "South": 21570,
+          "West": 21567,
+          "Up": 21569
+        }
+      },
+      {
+        "Id": 21569,
+        "Name": "Atop The Eastern Tower #21569",
+        "Connections": {
+          "Down": 21568
+        },
+        "Contents": [
+          {
+            "Text": "a black archer #21518",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21570,
+        "Name": "South Of The Eastern Tower #21570",
+        "Connections": {
+          "North": 21568,
+          "South": 21571
+        }
+      },
+      {
+        "Id": 21571,
+        "Name": "Along The Eastern Wall #21571",
+        "Connections": {
+          "North": 21570,
+          "South": 21572
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21572,
+        "Name": "Looking Through the Arrow Slit #21572",
+        "Connections": {
+          "North": 21571,
+          "Down": {
+            "RoomId": 21573,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "an elite black pawn #21509",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21573,
+        "Name": "Below The Manhole #21573",
+        "Connections": {
+          "West": 21574,
+          "Up": {
+            "RoomId": 21572,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21574,
+        "Name": "Ancient Burial Grounds #21574",
+        "Connections": {
+          "East": 21573,
+          "South": 21575,
+          "West": 21576
+        }
+      },
+      {
+        "Id": 21575,
+        "Name": "An Ancient Tomb #21575",
+        "Connections": {
+          "North": 21574
+        }
+      },
+      {
+        "Id": 21576,
+        "Name": "A Solid Stone Door #21576",
+        "Connections": {
+          "North": {
+            "RoomId": 21577,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 21574,
+          "West": 21578
+        },
+        "Contents": [
+          {
+            "Text": "a guard in black armor #21511",
+            "Color": "red"
+          },
+          {
+            "Text": "a guard in black armor #21511",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21577,
+        "Name": "A Secret Meeting Room #21577",
+        "Connections": {
+          "South": {
+            "RoomId": 21576,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Black Commander #21510",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21578,
+        "Name": "Ancient Burial Grounds #21578",
+        "Connections": {
+          "East": 21576,
+          "South": 21579,
+          "West": 21580
+        }
+      },
+      {
+        "Id": 21579,
+        "Name": "A Musty Tomb #21579",
+        "Connections": {
+          "North": 21578
+        }
+      },
+      {
+        "Id": 21580,
+        "Name": "Within The Darkness Of The Canals #21580",
+        "Connections": {
+          "East": 21578,
+          "West": 21581
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          },
+          {
+            "Text": "an elite black pawn #21509",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21581,
+        "Name": "Wandering Through The Canals #21581",
+        "Connections": {
+          "North": 21546,
+          "East": 21580
+        }
+      },
+      {
+        "Id": 21582,
+        "Name": "The Northern Trench #21582",
+        "Connections": {
+          "East": 21583,
+          "West": 21530
+        }
+      },
+      {
+        "Id": 21583,
+        "Name": "The Northern Trench #21583",
+        "Connections": {
+          "East": 21584,
+          "West": 21582
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21584,
+        "Name": "The Northern Trench #21584",
+        "Connections": {
+          "East": 21585,
+          "South": 21599,
+          "West": 21583
+        },
+        "Contents": [
+          {
+            "Text": "an elite black pawn #21509",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21585,
+        "Name": "The Northern Trench #21585",
+        "Connections": {
+          "East": 21586,
+          "West": 21584
+        }
+      },
+      {
+        "Id": 21586,
+        "Name": "West Of The Northeast Tower #21586",
+        "Connections": {
+          "East": 21587,
+          "West": 21585
+        }
+      },
+      {
+        "Id": 21587,
+        "Name": "Below The Northeast Tower #21587",
+        "Connections": {
+          "South": 21589,
+          "West": 21586,
+          "Up": 21588
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          },
+          {
+            "Text": "the black knight #21623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21588,
+        "Name": "Atop The Northeast Tower #21588",
+        "Connections": {
+          "Down": 21587
+        },
+        "Contents": [
+          {
+            "Text": "a black archer #21518",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21589,
+        "Name": "South Of The Northeastern Tower #21589",
+        "Connections": {
+          "North": 21587,
+          "South": 21590
+        }
+      },
+      {
+        "Id": 21590,
+        "Name": "Along The Eastern Wall #21590",
+        "Connections": {
+          "North": 21589,
+          "South": 21591
+        }
+      },
+      {
+        "Id": 21591,
+        "Name": "North Of The Eastern Barricade #21591",
+        "Connections": {
+          "North": 21590,
+          "South": 21592,
+          "West": 21593
+        },
+        "Contents": [
+          {
+            "Text": "an elite black pawn #21509",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21592,
+        "Name": "The Eastern Barricade #21592",
+        "Connections": {
+          "North": 21591,
+          "East": {
+            "RoomId": 21616,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a monstrous black automaton #21505",
+            "Color": "red"
+          },
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21593,
+        "Name": "Wandering The Trenches #21593",
+        "Connections": {
+          "East": 21591,
+          "West": 21594
+        }
+      },
+      {
+        "Id": 21594,
+        "Name": "Intersection Of Trenches #21594",
+        "Connections": {
+          "East": 21593,
+          "South": 21597,
+          "West": 21595
+        }
+      },
+      {
+        "Id": 21595,
+        "Name": "Between Two Alcoves #21595",
+        "Connections": {
+          "North": 21598,
+          "East": 21594,
+          "South": 21596
+        }
+      },
+      {
+        "Id": 21596,
+        "Name": "Crates and Barrels #21596",
+        "Connections": {
+          "North": 21595
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21597,
+        "Name": "A Crumbling Trench #21597",
+        "Connections": {
+          "North": 21594,
+          "South": 21566
+        }
+      },
+      {
+        "Id": 21598,
+        "Name": "Sawdust and Dynamite #21598",
+        "Connections": {
+          "South": 21595
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21599,
+        "Name": "A Stone Lined Trench #21599",
+        "Connections": {
+          "North": 21584,
+          "East": 21600,
+          "West": 21604,
+          "Down": {
+            "RoomId": 21607,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the black knight #21517",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21600,
+        "Name": "An Ornate Archway #21600",
+        "Connections": {
+          "East": 21601,
+          "West": 21599
+        }
+      },
+      {
+        "Id": 21601,
+        "Name": "Standing Before The Idol #21601",
+        "Connections": {
+          "South": {
+            "RoomId": 21602,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 21600
+        },
+        "Contents": [
+          {
+            "Text": "a guard in black armor #21512",
+            "Color": "red"
+          },
+          {
+            "Text": "a guard in black armor #21512",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21602,
+        "Name": "A Temple Made Of Cloth #21602",
+        "Connections": {
+          "North": {
+            "RoomId": 21601,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 21603
+        }
+      },
+      {
+        "Id": 21603,
+        "Name": "The Bishop\u0027s Quarters #21603",
+        "Connections": {
+          "East": 21602
+        },
+        "Contents": [
+          {
+            "Text": "the black bishop #21504",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21604,
+        "Name": "An Ornate Archway #21604",
+        "Connections": {
+          "East": 21599,
+          "West": 21605
+        }
+      },
+      {
+        "Id": 21605,
+        "Name": "Before A Regal Tent #21605",
+        "Connections": {
+          "East": 21604,
+          "South": {
+            "RoomId": 21606,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a guard in black armor #21519",
+            "Color": "red"
+          },
+          {
+            "Text": "a guard in black armor #21519",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21606,
+        "Name": "The Black Queen\u0027s Quarters #21606",
+        "Connections": {
+          "North": {
+            "RoomId": 21605,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the black queen #21506",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21607,
+        "Name": "Below The Manhole #21607",
+        "Connections": {
+          "South": 21608,
+          "Up": {
+            "RoomId": 21599,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a soldier dressed in black #21501",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21608,
+        "Name": "The Confines Of The Canals #21608",
+        "Connections": {
+          "North": 21607,
+          "South": 21609
+        }
+      },
+      {
+        "Id": 21609,
+        "Name": "The Darkness Of The Canals #21609",
+        "Connections": {
+          "North": 21608,
+          "South": 21610
+        }
+      },
+      {
+        "Id": 21610,
+        "Name": "The Canals Below The Trenches #21610",
+        "Connections": {
+          "North": 21609,
+          "East": 15923,
+          "South": 21545,
+          "West": {
+            "RoomId": 21611,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 21611,
+        "Name": "Bats and Rats #21611",
+        "Connections": {
+          "East": {
+            "RoomId": 21610,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the white spy #21611",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21612,
+        "Name": "The Officers\u0027 Quarters #21612",
+        "Connections": {
+          "East": 21613,
+          "West": {
+            "RoomId": 21544,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "the black knight #21620",
+            "Color": "red"
+          },
+          {
+            "Text": "the black knight #21620",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21613,
+        "Name": "The Officers\u0027 Quarters #21613",
+        "Connections": {
+          "North": 21614,
+          "West": 21612
+        }
+      },
+      {
+        "Id": 21614,
+        "Name": "The Officers\u0027 Quarters #21614",
+        "Connections": {
+          "South": 21613,
+          "West": 21615
+        },
+        "Contents": [
+          {
+            "Text": "the black knight #21516",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21615,
+        "Name": "The War Room #21615",
+        "Connections": {
+          "East": 21614
+        },
+        "Contents": [
+          {
+            "Text": "the black king #21507",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21616,
+        "Name": "Upwards To the Battle #21616",
+        "Connections": {
+          "West": {
+            "RoomId": 21592,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 21617
+        },
+        "Contents": [
+          {
+            "Text": "a guard in black armor #21511",
+            "Color": "red"
+          },
+          {
+            "Text": "a guard in black armor #21511",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 21617,
+        "Name": "Above The Trenches Of Black #21617",
+        "Connections": {
+          "East": 21618,
+          "Down": 21616
+        }
+      },
+      {
+        "Id": 21618,
+        "Name": "The Battle Field #21618",
+        "Connections": {
+          "East": 21619,
+          "West": 21617
+        }
+      },
+      {
+        "Id": 21619,
+        "Name": "The Eye Of The Battle #21619",
+        "Connections": {
+          "North": 21625,
+          "East": 21751,
+          "South": 21876,
+          "West": 21618
+        }
+      },
+      {
+        "Id": 5839,
+        "FrameColor": "blue",
+        "Name": "To Connecting roads #5839",
+        "Color": "blue",
+        "Connections": {
+          "North": 21500,
+          "West": 5838
+        }
+      },
+      {
+        "Id": 15923,
+        "FrameColor": "blue",
+        "Name": "To Waterway #15923",
+        "Color": "blue",
+        "Connections": {
+          "East": 15922,
+          "West": 21610
+        }
+      },
+      {
+        "Id": 21625,
+        "FrameColor": "blue",
+        "Name": "To Red Area #21625",
+        "Color": "blue",
+        "Connections": {
+          "North": 21626,
+          "South": 21619,
+          "Up": 21691
+        }
+      },
+      {
+        "Id": 21751,
+        "FrameColor": "blue",
+        "Name": "To White Area #21751",
+        "Color": "blue",
+        "Connections": {
+          "East": 21752,
+          "West": 21619
+        }
+      },
+      {
+        "Id": 21876,
+        "FrameColor": "blue",
+        "Name": "To Blue Area #21876",
+        "Color": "blue",
+        "Connections": {
+          "North": 21619,
+          "South": 21877
+        }
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "bonepit",
+    "Name": "Bonepit",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -497,7 +497,13 @@
         "Id": 76343,
         "Name": "A Huge Egg #76343",
         "Connections": {
-          "North": 76344,
+          "North": {
+            "RoomId": 76344,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 76342
         }
       },
@@ -571,16 +577,28 @@
         "Name": "Before a Tar Pit #76349",
         "Connections": {
           "North": 76300,
-          "South": 5712
+          "South": {
+            "RoomId": 5712,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 5712,
         "FrameColor": "blue",
-        "Name": "To connect #5712",
+        "Name": "To Connecting roads #5712",
         "Color": "blue",
         "Connections": {
-          "North": 76349,
+          "North": {
+            "RoomId": 76349,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 5710
         }
       }

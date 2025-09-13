@@ -1,13 +1,24 @@
 {
   "Area": {
-    "Name": "eden",
+    "Name": "Eden",
     "BackgroundColor": "white",
     "Rooms": [
       {
         "Id": 76001,
         "Name": "Gate of Eden #76001",
         "Connections": {
-          "North": 76002
+          "North": {
+            "RoomId": 76002,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a elvish snakeskin coat #4219",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -22,7 +33,13 @@
         "Connections": {
           "North": 76040,
           "East": 76010,
-          "South": 76001
+          "South": {
+            "RoomId": 76001,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -36,7 +53,13 @@
         "Name": "A Small Pool #76003",
         "Connections": {
           "West": 76011,
-          "Down": 76004
+          "Down": {
+            "RoomId": 76004,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -70,7 +93,13 @@
         "Id": 76006,
         "Name": "Inside the Tree #76006",
         "Connections": {
-          "South": 76029
+          "South": {
+            "RoomId": 76029,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -218,7 +247,13 @@
         "Id": 76021,
         "Name": "Bottom of the Pool #76021",
         "Connections": {
-          "South": 76022,
+          "South": {
+            "RoomId": 76022,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "Up": 76020
         },
         "Contents": [
@@ -232,7 +267,13 @@
         "Id": 76022,
         "Name": "Small Underwater Cavern #76022",
         "Connections": {
-          "North": 76021,
+          "North": {
+            "RoomId": 76021,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "Up": 76038
         },
         "Contents": [
@@ -285,7 +326,13 @@
         "Id": 76029,
         "Name": "Amidst the Branches #76029",
         "Connections": {
-          "North": 76006,
+          "North": {
+            "RoomId": 76006,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "East": 76030,
           "South": 76027,
           "Down": 76031
@@ -303,14 +350,26 @@
         "Name": "Inside the Trunk #76031",
         "Connections": {
           "Up": 76029,
-          "Down": 76032
+          "Down": {
+            "RoomId": 76032,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 76032,
         "Name": "Heart of the Tree #76032",
         "Connections": {
-          "Up": 76031
+          "Up": {
+            "RoomId": 76031,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -350,7 +409,13 @@
         "Id": 76035,
         "Name": "Underwater Chamber #76035",
         "Connections": {
-          "East": 76036,
+          "East": {
+            "RoomId": 76036,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 76004
         },
         "Contents": [
@@ -364,15 +429,33 @@
         "Id": 76036,
         "Name": "Secret Underwater Room #76036",
         "Connections": {
-          "West": 76035,
-          "Down": 76037
+          "West": {
+            "RoomId": 76035,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 76037,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 76037,
         "Name": "Prismatic Chamber #76037",
         "Connections": {
-          "Up": 76036
+          "Up": {
+            "RoomId": 76036,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {

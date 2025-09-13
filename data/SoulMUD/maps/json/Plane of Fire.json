@@ -1,0 +1,589 @@
+{
+  "Area": {
+    "Name": "Plane of Fire",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 25050,
+        "Name": "The Valley Of Flame #25050",
+        "Connections": {
+          "North": 25051
+        },
+        "Contents": [
+          {
+            "Text": "a fire sprite #25057",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25051,
+        "Name": "The Valley Of Flame #25051",
+        "Connections": {
+          "East": 25052,
+          "South": 25050
+        }
+      },
+      {
+        "Id": 25052,
+        "Name": "The Valley Of Flame #25052",
+        "Connections": {
+          "East": 25053,
+          "West": 25051
+        },
+        "Contents": [
+          {
+            "Text": "a fire sprite #25057",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25053,
+        "Name": "The Valley Of Flame #25053",
+        "Connections": {
+          "North": 25054,
+          "West": 25052
+        }
+      },
+      {
+        "Id": 25054,
+        "Name": "The Valley Of Flame #25054",
+        "Connections": {
+          "East": 25055,
+          "South": 25053
+        },
+        "Contents": [
+          {
+            "Text": "a fire sprite #25058",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25055,
+        "Name": "The Valley Of Flame #25055",
+        "Connections": {
+          "North": 25056,
+          "West": 25054
+        }
+      },
+      {
+        "Id": 25056,
+        "Name": "The Valley Of Flame #25056",
+        "Connections": {
+          "North": 25057,
+          "South": 25055
+        },
+        "Contents": [
+          {
+            "Text": "a fire sprite #25058",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25057,
+        "Name": "The Valley Of Flame #25057",
+        "Connections": {
+          "North": 25058,
+          "South": 25056
+        }
+      },
+      {
+        "Id": 25058,
+        "Name": "The Valley Of Flame #25058",
+        "Connections": {
+          "East": 25059,
+          "South": 25057
+        },
+        "Contents": [
+          {
+            "Text": "a fire sprite #25059",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25059,
+        "Name": "The Valley Of Flame #25059",
+        "Connections": {
+          "East": 25060,
+          "West": 25058
+        },
+        "Contents": [
+          {
+            "Text": "a fire sprite #25059",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25060,
+        "Name": "Archway Of Burning Sulphur #25060",
+        "Connections": {
+          "East": 25061,
+          "West": 25059
+        }
+      },
+      {
+        "Id": 25061,
+        "Name": "The Lake Of Fire #25061",
+        "Connections": {
+          "North": 25062,
+          "South": 25068,
+          "West": 25060
+        },
+        "Contents": [
+          {
+            "Text": "the fire lizard #25061",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25062,
+        "Name": "The Lake Of Fire #25062",
+        "Connections": {
+          "East": 25063,
+          "South": 25061
+        }
+      },
+      {
+        "Id": 25063,
+        "Name": "The Lake Of Fire #25063",
+        "Connections": {
+          "North": 25069,
+          "East": 25064,
+          "West": 25062
+        },
+        "Contents": [
+          {
+            "Text": "the fire lizard #25062",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25064,
+        "Name": "The Lake Of Fire #25064",
+        "Connections": {
+          "South": 25065,
+          "West": 25063
+        }
+      },
+      {
+        "Id": 25065,
+        "Name": "The Lake Of Fire #25065",
+        "Connections": {
+          "North": 25064,
+          "East": 25079,
+          "South": 25066
+        },
+        "Contents": [
+          {
+            "Text": "the fire lizard #25062",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25066,
+        "Name": "The Lake Of Fire #25066",
+        "Connections": {
+          "North": 25065,
+          "West": 25067
+        }
+      },
+      {
+        "Id": 25067,
+        "Name": "The Lake Of Fire #25067",
+        "Connections": {
+          "East": 25066,
+          "South": 25075,
+          "West": 25068
+        },
+        "Contents": [
+          {
+            "Text": "the fire lizard #25061",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25068,
+        "Name": "The Lake Of Fire #25068",
+        "Connections": {
+          "North": 25061,
+          "East": 25067
+        }
+      },
+      {
+        "Id": 25069,
+        "Name": "Bed Of Coals #25069",
+        "Connections": {
+          "North": 25072,
+          "East": 25070,
+          "South": 25063
+        }
+      },
+      {
+        "Id": 25070,
+        "Name": "The Steaming Pile Of Bones #25070",
+        "Connections": {
+          "North": 25071,
+          "West": 25069
+        },
+        "Contents": [
+          {
+            "Text": "the fire lizard #25063",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25071,
+        "Name": "Throne Of Charred Bone #25071",
+        "Connections": {
+          "South": 25070,
+          "Up": 25250
+        },
+        "Contents": [
+          {
+            "Text": "Pyrkagia, Lord Of The Flame #25050",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25072,
+        "Name": "Bed Of Coals #25072",
+        "Connections": {
+          "South": 25069,
+          "West": 25073
+        }
+      },
+      {
+        "Id": 25073,
+        "Name": "Souls Burnt Into Stone #25073",
+        "Connections": {
+          "East": 25072,
+          "South": 25074
+        },
+        "Contents": [
+          {
+            "Text": "the fire lizard #25063",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25074,
+        "Name": "The Gates Of Hell #25074",
+        "Connections": {
+          "North": 25073
+        },
+        "Contents": [
+          {
+            "Text": "the keeper of the flame #25056",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25075,
+        "Name": "Reservoir Of Flames #25075",
+        "Connections": {
+          "North": 25067,
+          "South": 25078,
+          "West": 25076
+        }
+      },
+      {
+        "Id": 25076,
+        "Name": "Reservoir Of Flames #25076",
+        "Connections": {
+          "East": 25075,
+          "South": 25077
+        },
+        "Contents": [
+          {
+            "Text": "the fire lizard #25064",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25077,
+        "Name": "Reservoir Of Flames #25077",
+        "Connections": {
+          "North": 25076,
+          "East": 25078
+        }
+      },
+      {
+        "Id": 25078,
+        "Name": "Reservoir Of Flames #25078",
+        "Connections": {
+          "North": 25075,
+          "West": 25077
+        },
+        "Contents": [
+          {
+            "Text": "the fire lizard #25064",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25079,
+        "Name": "Smoldering Pile Of Pumice #25079",
+        "Connections": {
+          "West": 25065,
+          "Up": 25080
+        }
+      },
+      {
+        "Id": 25080,
+        "Name": "Molten Pumice #25080",
+        "Connections": {
+          "East": 25081,
+          "South": 25087,
+          "Down": 25079
+        }
+      },
+      {
+        "Id": 25081,
+        "Name": "Molten Pumice #25081",
+        "Connections": {
+          "West": 25080,
+          "Up": 25082
+        }
+      },
+      {
+        "Id": 25082,
+        "Name": "Above The Flaming Landscape #25082",
+        "Connections": {
+          "South": 25083,
+          "Down": 25081
+        },
+        "Contents": [
+          {
+            "Text": "a fire sprite #25060",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25083,
+        "Name": "Smoldering Temple Ruins #25083",
+        "Connections": {
+          "North": 25082,
+          "South": 25084
+        }
+      },
+      {
+        "Id": 25084,
+        "Name": "Smoldering Temple Ruins #25084",
+        "Connections": {
+          "North": 25083,
+          "East": 25085,
+          "West": 25086
+        }
+      },
+      {
+        "Id": 25085,
+        "Name": "Steaming Footprints  #25085",
+        "Connections": {
+          "West": 25084,
+          "Up": 20441
+        },
+        "Contents": [
+          {
+            "Text": "a barbazu demon #25054",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25086,
+        "Name": "The Altar Of Flame #25086",
+        "Connections": {
+          "East": 25084
+        },
+        "Contents": [
+          {
+            "Text": "the paladin of flame #25051",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25087,
+        "Name": "Ignited Methane Clouds #25087",
+        "Connections": {
+          "North": 25080,
+          "South": 25088
+        }
+      },
+      {
+        "Id": 25088,
+        "Name": "Ignited Methane Clouds #25088",
+        "Connections": {
+          "North": 25087,
+          "East": 25089
+        }
+      },
+      {
+        "Id": 25089,
+        "Name": "Ignited Methane Clouds #25089",
+        "Connections": {
+          "East": 25090,
+          "South": 25092,
+          "West": 25088
+        }
+      },
+      {
+        "Id": 25090,
+        "Name": "Ignited Methane Clouds #25090",
+        "Connections": {
+          "South": 25091,
+          "West": 25089
+        }
+      },
+      {
+        "Id": 25091,
+        "Name": "The Lava Drip #25091",
+        "Connections": {
+          "North": 25090,
+          "Up": 25350
+        },
+        "Contents": [
+          {
+            "Text": "the spirit of the flame #25053",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25092,
+        "Name": "Slab Of Volcanic Rock #25092",
+        "Connections": {
+          "North": 25089,
+          "West": 25093
+        },
+        "Contents": [
+          {
+            "Text": "a fire sprite #25060",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25093,
+        "Name": "Slab Of Volcanic Rock #25093",
+        "Connections": {
+          "East": 25092,
+          "West": 25094
+        },
+        "Contents": [
+          {
+            "Text": "a fire sprite #25060",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25094,
+        "Name": "Slab Of Volcanic Rock #25094",
+        "Connections": {
+          "North": 25095,
+          "East": 25093,
+          "South": 25096
+        },
+        "Contents": [
+          {
+            "Text": "a fire sprite #25060",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25095,
+        "Name": "Liquid Veins Of Gold #25095",
+        "Connections": {
+          "South": 25094
+        },
+        "Contents": [
+          {
+            "Text": "Hysxyruzlla, the Gold Dragon #25052",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 25096,
+        "Name": "Bursting Pockets Of Flame #25096",
+        "Connections": {
+          "North": 25094,
+          "East": 25097
+        }
+      },
+      {
+        "Id": 25097,
+        "Name": "Bursting Pockets Of Flame #25097",
+        "Connections": {
+          "East": 25098,
+          "West": 25096
+        }
+      },
+      {
+        "Id": 25098,
+        "Name": "Bursting Pockets Of Flame #25098",
+        "Connections": {
+          "West": 25097
+        },
+        "Contents": [
+          {
+            "Text": "a barbazu demon #25055",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 25099,
+        "Name": "UNUSED #25099",
+        "Connections": {}
+      },
+      {
+        "Id": 25250,
+        "FrameColor": "blue",
+        "Name": "To Plane of Smoke #25250",
+        "Color": "blue",
+        "Connections": {
+          "North": 25253,
+          "East": 25251,
+          "Down": 25071
+        }
+      },
+      {
+        "Id": 20441,
+        "FrameColor": "blue",
+        "Name": "To Jurrassic #20441",
+        "Color": "blue",
+        "Connections": {
+          "Down": 20440
+        }
+      },
+      {
+        "Id": 25350,
+        "FrameColor": "blue",
+        "Name": "To Plane of Magma #25350",
+        "Color": "blue",
+        "Connections": {
+          "Up": 25351
+        }
+      }
+    ]
+  }
+}

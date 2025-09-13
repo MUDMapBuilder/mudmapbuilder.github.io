@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "drexel",
+    "Name": "Drexel",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -356,14 +356,26 @@
         "Name": "Before a Grand House #19072",
         "Connections": {
           "North": 19053,
-          "South": 19073
+          "South": {
+            "RoomId": 19073,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 19073,
         "Name": "House of the Paladin #19073",
         "Connections": {
-          "North": 19072
+          "North": {
+            "RoomId": 19072,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -550,7 +562,7 @@
       {
         "Id": 7050,
         "FrameColor": "blue",
-        "Name": "To island #7050",
+        "Name": "To Island #7050",
         "Color": "blue",
         "Connections": {
           "East": 19050,
@@ -560,7 +572,7 @@
       {
         "Id": 70002,
         "FrameColor": "blue",
-        "Name": "To guilds #70002",
+        "Name": "To Avatar Guilds #70002",
         "Color": "blue",
         "Connections": {
           "East": 70014,
@@ -573,7 +585,7 @@
       {
         "Id": 7203,
         "FrameColor": "blue",
-        "Name": "To island #7203",
+        "Name": "To Island #7203",
         "Color": "blue",
         "Connections": {
           "East": 7204,

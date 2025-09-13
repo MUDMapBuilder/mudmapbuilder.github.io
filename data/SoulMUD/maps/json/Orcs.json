@@ -1,0 +1,861 @@
+{
+  "Area": {
+    "Name": "Orcs",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 42800,
+        "Name": "A Dank Cave #42800",
+        "Connections": {
+          "East": 5952,
+          "West": 42801
+        }
+      },
+      {
+        "Id": 42801,
+        "Name": "Bend in a Cave #42801",
+        "Connections": {
+          "North": 42802,
+          "East": 5812
+        }
+      },
+      {
+        "Id": 42802,
+        "Name": "Mouth of a Cave #42802",
+        "Connections": {
+          "North": 42803,
+          "South": 42801
+        }
+      },
+      {
+        "Id": 42803,
+        "Name": "Before a Large Door #42803",
+        "Connections": {
+          "North": {
+            "RoomId": 42804,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a lockpick #42803",
+                "Color": "indianred"
+              }
+            ]
+          },
+          "South": 42802
+        },
+        "Contents": [
+          {
+            "Text": "a quartz golem #42800",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42804,
+        "Name": "Entering the Maze #42804",
+        "Connections": {
+          "East": 42805,
+          "South": {
+            "RoomId": 42803,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 42805,
+        "Name": "The Maze #42805",
+        "Connections": {
+          "East": 42806,
+          "West": 42804
+        }
+      },
+      {
+        "Id": 42806,
+        "Name": "The Maze #42806",
+        "Connections": {
+          "North": 42807,
+          "West": 42805
+        }
+      },
+      {
+        "Id": 42807,
+        "Name": "The Maze #42807",
+        "Connections": {
+          "North": 42822,
+          "South": 42806,
+          "West": 42808
+        },
+        "Contents": [
+          {
+            "Text": "a nimble brownie #42807",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42808,
+        "Name": "The Maze #42808",
+        "Connections": {
+          "North": 42810,
+          "East": 42807,
+          "West": 42809
+        }
+      },
+      {
+        "Id": 42809,
+        "Name": "The Maze #42809",
+        "Connections": {
+          "East": 42808,
+          "West": 42811
+        }
+      },
+      {
+        "Id": 42810,
+        "Name": "The Maze #42810",
+        "Connections": {
+          "South": 42808
+        }
+      },
+      {
+        "Id": 42811,
+        "Name": "The Maze #42811",
+        "Connections": {
+          "North": 42816,
+          "East": 42809,
+          "South": 42812
+        }
+      },
+      {
+        "Id": 42812,
+        "Name": "The Maze #42812",
+        "Connections": {
+          "North": 42811,
+          "East": 42813,
+          "South": 42814,
+          "West": 42815
+        }
+      },
+      {
+        "Id": 42813,
+        "Name": "The Maze #42813",
+        "Connections": {
+          "West": 42812
+        }
+      },
+      {
+        "Id": 42814,
+        "Name": "The Maze #42814",
+        "Connections": {
+          "North": 42812
+        },
+        "Contents": [
+          {
+            "Text": "a juju zombie #42814",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42815,
+        "Name": "The Maze #42815",
+        "Connections": {
+          "East": 42812
+        },
+        "Contents": [
+          {
+            "Text": "a black widow spider #42815",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42816,
+        "Name": "The Maze #42816",
+        "Connections": {
+          "North": 42817,
+          "South": 42811
+        }
+      },
+      {
+        "Id": 42817,
+        "Name": "The Maze #42817",
+        "Connections": {
+          "East": 42818,
+          "South": 42816
+        }
+      },
+      {
+        "Id": 42818,
+        "Name": "The Maze #42818",
+        "Connections": {
+          "North": 42819,
+          "East": 42821,
+          "West": 42817
+        },
+        "Contents": [
+          {
+            "Text": "a hooded cobra #42818",
+            "Color": "green"
+          },
+          {
+            "Text": "a hooded cobra #42818",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42819,
+        "Name": "The Maze #42819",
+        "Connections": {
+          "East": 42826,
+          "South": 42818,
+          "West": 42820
+        }
+      },
+      {
+        "Id": 42820,
+        "Name": "The Maze #42820",
+        "Connections": {
+          "North": 42824,
+          "East": 42819
+        }
+      },
+      {
+        "Id": 42821,
+        "Name": "The Maze #42821",
+        "Connections": {
+          "East": 42823,
+          "South": 42822,
+          "West": 42818
+        }
+      },
+      {
+        "Id": 42822,
+        "Name": "The Maze #42822",
+        "Connections": {
+          "North": 42821,
+          "South": 42807
+        }
+      },
+      {
+        "Id": 42823,
+        "Name": "The Maze #42823",
+        "Connections": {
+          "West": 42821
+        }
+      },
+      {
+        "Id": 42824,
+        "Name": "The Maze #42824",
+        "Connections": {
+          "North": 42825,
+          "South": 42820
+        },
+        "Contents": [
+          {
+            "Text": "a decaying mummy #42824",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42825,
+        "Name": "The Maze #42825",
+        "Connections": {
+          "East": 42830,
+          "South": 42824
+        },
+        "Contents": [
+          {
+            "Text": "an earthern elemental #42825",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42826,
+        "Name": "The Maze #42826",
+        "Connections": {
+          "North": 42831,
+          "East": 42828,
+          "South": 42827,
+          "West": 42819
+        }
+      },
+      {
+        "Id": 42827,
+        "Name": "The Maze #42827",
+        "Connections": {
+          "North": 42826,
+          "South": 42842
+        }
+      },
+      {
+        "Id": 42828,
+        "Name": "The Maze #42828",
+        "Connections": {
+          "North": 42829,
+          "West": 42826
+        }
+      },
+      {
+        "Id": 42829,
+        "Name": "The Maze #42829",
+        "Connections": {
+          "North": 42833,
+          "South": 42828
+        }
+      },
+      {
+        "Id": 42830,
+        "Name": "The Maze #42830",
+        "Connections": {
+          "West": 42825
+        }
+      },
+      {
+        "Id": 42831,
+        "Name": "The Maze #42831",
+        "Connections": {
+          "South": 42826,
+          "West": 42832
+        }
+      },
+      {
+        "Id": 42832,
+        "Name": "The Maze #42832",
+        "Connections": {
+          "East": 42831
+        },
+        "Contents": [
+          {
+            "Text": "a water elemental #42831",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42833,
+        "Name": "The Maze #42833",
+        "Connections": {
+          "North": 42836,
+          "East": 42834,
+          "South": 42829,
+          "West": 42835
+        },
+        "Contents": [
+          {
+            "Text": "a small air elemental #42833",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42834,
+        "Name": "The Maze #42834",
+        "Connections": {
+          "West": 42833
+        }
+      },
+      {
+        "Id": 42835,
+        "Name": "The Maze #42835",
+        "Connections": {
+          "East": 42833
+        }
+      },
+      {
+        "Id": 42836,
+        "Name": "The Maze #42836",
+        "Connections": {
+          "East": 42837,
+          "South": 42833,
+          "West": 42838
+        },
+        "Contents": [
+          {
+            "Text": "a fire elemental #42836",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42837,
+        "Name": "The Maze #42837",
+        "Connections": {
+          "West": 42836
+        }
+      },
+      {
+        "Id": 42838,
+        "Name": "The Maze #42838",
+        "Connections": {
+          "East": 42836,
+          "West": 42839
+        }
+      },
+      {
+        "Id": 42839,
+        "Name": "An Illuminated Hallway #42839",
+        "Connections": {
+          "North": 42843,
+          "East": 42838
+        }
+      },
+      {
+        "Id": 42840,
+        "Name": "The Long Hallway #42840",
+        "Connections": {
+          "North": 42841,
+          "South": 42839
+        }
+      },
+      {
+        "Id": 42841,
+        "Name": "A Granite Hallway #42841",
+        "Connections": {
+          "North": 42843,
+          "South": 42839
+        }
+      },
+      {
+        "Id": 42842,
+        "Name": "The Fountain of the Maze #42842",
+        "Connections": {
+          "North": 42827
+        },
+        "Contents": [
+          {
+            "Text": "a Chimera #42842",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42843,
+        "Name": "A Granite Hallway #42843",
+        "Connections": {
+          "North": 42845,
+          "South": 42839
+        },
+        "Contents": [
+          {
+            "Text": "a huge solifugid #42843",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42844,
+        "Name": "A Rope Bridge #42844",
+        "Connections": {
+          "North": 42845,
+          "South": 42843
+        }
+      },
+      {
+        "Id": 42845,
+        "Name": "A Granite Hall #42845",
+        "Connections": {
+          "North": 42849,
+          "South": 42843,
+          "West": 42847
+        }
+      },
+      {
+        "Id": 42846,
+        "Name": "Cliffside #42846",
+        "Connections": {
+          "East": 42845,
+          "West": 42847
+        }
+      },
+      {
+        "Id": 42847,
+        "Name": "A Granite Hall #42847",
+        "Connections": {
+          "East": 42845,
+          "West": 42848
+        },
+        "Contents": [
+          {
+            "Text": "a daemonic mane #42847",
+            "Color": "red"
+          },
+          {
+            "Text": "a daemonic mane #42847",
+            "Color": "red"
+          },
+          {
+            "Text": "a daemonic mane #42847",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42848,
+        "Name": "An Illuminated Cavern #42848",
+        "Connections": {
+          "East": 42847
+        }
+      },
+      {
+        "Id": 42849,
+        "Name": "A Rancid Cavern #42849",
+        "Connections": {
+          "South": 42845
+        },
+        "Contents": [
+          {
+            "Text": "a bone golem #42849",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42850,
+        "Name": "A Descending Cavern #42850",
+        "Connections": {
+          "North": 42851,
+          "East": 48101
+        }
+      },
+      {
+        "Id": 42851,
+        "Name": "An Ice-Filled Cavern #42851",
+        "Connections": {
+          "North": 42852,
+          "South": 42850
+        }
+      },
+      {
+        "Id": 42852,
+        "Name": "High in the Mountains #42852",
+        "Connections": {
+          "South": 42851,
+          "West": 42853
+        },
+        "Contents": [
+          {
+            "Text": "an ice dragonette #42852",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42853,
+        "Name": "Stone Ridge Lookout #42853",
+        "Connections": {
+          "East": 42852,
+          "South": 42856,
+          "West": 42854
+        }
+      },
+      {
+        "Id": 42854,
+        "Name": "South End of the Rope Bridge #42854",
+        "Connections": {
+          "North": 42855,
+          "East": 42853
+        }
+      },
+      {
+        "Id": 42855,
+        "Name": "Rope Bridge #42855",
+        "Connections": {
+          "North": 42857,
+          "South": 42854
+        }
+      },
+      {
+        "Id": 42856,
+        "Name": "Rangers\u0027 Station #42856",
+        "Connections": {
+          "South": 16031,
+          "Down": 42853
+        },
+        "Contents": [
+          {
+            "Text": "a polar bear cub #42856",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42857,
+        "Name": "Center of the Rope Bridge #42857",
+        "Connections": {
+          "North": 42858,
+          "South": 42855
+        }
+      },
+      {
+        "Id": 42858,
+        "Name": "Rope Bridge #42858",
+        "Connections": {
+          "North": 42859,
+          "South": 42857
+        },
+        "Contents": [
+          {
+            "Text": "a white wolf #42858",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42859,
+        "Name": "North End of the Rope Bridge #42859",
+        "Connections": {
+          "North": 42860,
+          "South": 42858
+        }
+      },
+      {
+        "Id": 42860,
+        "Name": "Steep Mountain Trail #42860",
+        "Connections": {
+          "East": 42861,
+          "South": 42859
+        }
+      },
+      {
+        "Id": 42861,
+        "Name": "Bend in the Mountain Path #42861",
+        "Connections": {
+          "North": 42862,
+          "West": 42860
+        },
+        "Contents": [
+          {
+            "Text": "a saint bernard #42861",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42862,
+        "Name": "Edge of the Great Glacier #42862",
+        "Connections": {
+          "North": 42863,
+          "South": 42861
+        }
+      },
+      {
+        "Id": 42863,
+        "Name": "The Great Glacier #42863",
+        "Connections": {
+          "North": 42863,
+          "East": 42863,
+          "South": 42862,
+          "West": 42864
+        },
+        "Contents": [
+          {
+            "Text": "Korain the barbarian #40580",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 42864,
+        "Name": "The Great Glacier #42864",
+        "Connections": {
+          "North": 42864,
+          "East": 42863,
+          "South": 42864,
+          "West": 42865
+        }
+      },
+      {
+        "Id": 42865,
+        "Name": "The Great Glacier #42865",
+        "Connections": {
+          "North": 42866,
+          "East": 42864,
+          "South": 42865,
+          "West": 42865
+        }
+      },
+      {
+        "Id": 42866,
+        "Name": "The Great Glacier #42866",
+        "Connections": {
+          "North": 42866,
+          "East": 42867,
+          "South": 42865,
+          "West": 42868
+        }
+      },
+      {
+        "Id": 42867,
+        "Name": "The Great Glacier #42867",
+        "Connections": {
+          "North": 42871,
+          "East": 42867,
+          "West": 42866
+        }
+      },
+      {
+        "Id": 42868,
+        "Name": "The Great Glacier #42868",
+        "Connections": {
+          "North": 42868,
+          "East": 42866,
+          "South": 42869
+        }
+      },
+      {
+        "Id": 42869,
+        "Name": "The Great Glacier #42869",
+        "Connections": {
+          "North": 42868,
+          "South": 42869,
+          "West": 42870
+        }
+      },
+      {
+        "Id": 42870,
+        "Name": "The Great Glacier #42870",
+        "Connections": {
+          "North": 42874,
+          "East": 42869,
+          "South": 42870,
+          "West": 42870
+        }
+      },
+      {
+        "Id": 42871,
+        "Name": "The Great Glacier #42871",
+        "Connections": {
+          "East": 42871,
+          "South": 42867,
+          "West": 42872
+        }
+      },
+      {
+        "Id": 42872,
+        "Name": "Entrance to a Large Cavern #42872",
+        "Connections": {
+          "North": 42873,
+          "East": 42871,
+          "South": 42878,
+          "West": 42879
+        }
+      },
+      {
+        "Id": 42873,
+        "Name": "The Lair #42873",
+        "Connections": {
+          "South": 42872
+        },
+        "Contents": [
+          {
+            "Text": "the Ice Witch #9002",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42874,
+        "Name": "The Great Glacier #42874",
+        "Connections": {
+          "North": 42874,
+          "South": 42870,
+          "West": 42875
+        },
+        "Contents": [
+          {
+            "Text": "Slithermorph #40529",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42875,
+        "Name": "The Great Glacier #42875",
+        "Connections": {
+          "East": 42874,
+          "South": 42875,
+          "West": 42876
+        }
+      },
+      {
+        "Id": 42876,
+        "Name": "The Great Glacier #42876",
+        "Connections": {
+          "East": 42875,
+          "South": 42876,
+          "West": 42876
+        }
+      },
+      {
+        "Id": 42878,
+        "Name": "Lost in the Glacier #42878",
+        "Connections": {
+          "North": 42872
+        },
+        "Contents": [
+          {
+            "Text": "the Luck Dragon #40582",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 42879,
+        "Name": "Small Mountain Trail #42879",
+        "Connections": {
+          "East": 42872
+        }
+      },
+      {
+        "Id": 5952,
+        "FrameColor": "blue",
+        "Name": "To Garden #5952",
+        "Color": "blue",
+        "Connections": {
+          "East": 5951,
+          "West": 42800
+        }
+      },
+      {
+        "Id": 5812,
+        "FrameColor": "blue",
+        "Name": "To Connecting roads #5812",
+        "Color": "blue",
+        "Connections": {
+          "East": 5813,
+          "South": 5811,
+          "West": 42801
+        }
+      },
+      {
+        "Id": 48101,
+        "FrameColor": "blue",
+        "Name": "To Hellwell #48101",
+        "Color": "blue",
+        "Connections": {
+          "North": 48102,
+          "East": 80444,
+          "West": 42850
+        }
+      },
+      {
+        "Id": 16031,
+        "FrameColor": "blue",
+        "Name": "To Snowy Woods #16031",
+        "Color": "blue",
+        "Connections": {
+          "North": 42856,
+          "Down": 16030
+        }
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "semester",
+    "Name": "Semester",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -298,7 +298,13 @@
         "Id": 42935,
         "Name": "An Ancient Vault #42935",
         "Connections": {
-          "North": 42936,
+          "North": {
+            "RoomId": 42936,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 42934
         }
       },
@@ -306,8 +312,20 @@
         "Id": 42936,
         "Name": "The Counting Room #42936",
         "Connections": {
-          "North": 43027,
-          "South": 42935
+          "North": {
+            "RoomId": 43027,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 42935,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -326,10 +344,16 @@
       {
         "Id": 43027,
         "FrameColor": "blue",
-        "Name": "To lostcross #43027",
+        "Name": "To Lost Cross #43027",
         "Color": "blue",
         "Connections": {
-          "East": 43026
+          "East": {
+            "RoomId": 43026,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       }
     ]

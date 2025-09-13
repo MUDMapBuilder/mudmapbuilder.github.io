@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "assur",
+    "Name": "Assur",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -953,7 +953,18 @@
         "Name": "Before the Sultan\u0027s Palace #15730",
         "Connections": {
           "East": 15729,
-          "West": 15731
+          "West": {
+            "RoomId": 15731,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "a rose quartz key #15730",
+                "Color": "indianred"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -971,7 +982,13 @@
         "Name": "The Palace Foyer #15731",
         "Connections": {
           "North": 15732,
-          "East": 15730,
+          "East": {
+            "RoomId": 15730,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 15746,
           "West": 15747
         },
@@ -1167,7 +1184,18 @@
           "North": 15749,
           "East": 15731,
           "South": 15748,
-          "West": 15750
+          "West": {
+            "RoomId": 15750,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": [
+              {
+                "Text": "an ornate golden key #15739",
+                "Color": "indianred"
+              }
+            ]
+          }
         }
       },
       {
@@ -1200,7 +1228,13 @@
         "Id": 15750,
         "Name": "Throneroom of Ra\u0027al Hashad Quadim, The Assurian Sultan #15750",
         "Connections": {
-          "East": 15747
+          "East": {
+            "RoomId": 15747,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -1243,7 +1277,7 @@
       {
         "Id": 15390,
         "FrameColor": "blue",
-        "Name": "To canaan #15390",
+        "Name": "To Canaan #15390",
         "Color": "blue",
         "Connections": {
           "North": 15389,
@@ -1253,7 +1287,7 @@
       {
         "Id": 70008,
         "FrameColor": "blue",
-        "Name": "To guilds #70008",
+        "Name": "To Avatar Guilds #70008",
         "Color": "blue",
         "Connections": {
           "North": 70000,

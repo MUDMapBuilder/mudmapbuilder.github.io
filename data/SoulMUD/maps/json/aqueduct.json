@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "aqueduct",
+    "Name": "Aqueduct",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -286,16 +286,34 @@
         "Name": "Below the Tupelo Windmill #18278",
         "Connections": {
           "North": 18277,
-          "Up": 18279
+          "Up": {
+            "RoomId": 18279,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 18279,
         "Name": "Base of the Tupelo Windmill #18279",
         "Connections": {
-          "North": 20063,
+          "North": {
+            "RoomId": 20063,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Up": 18316,
-          "Down": 18278
+          "Down": {
+            "RoomId": 18278,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -384,7 +402,7 @@
       {
         "Id": 4829,
         "FrameColor": "blue",
-        "Name": "To sewer #4829",
+        "Name": "To Sewers #4829",
         "Color": "blue",
         "Connections": {
           "East": 18264,
@@ -394,19 +412,25 @@
       {
         "Id": 20063,
         "FrameColor": "blue",
-        "Name": "To tupelo #20063",
+        "Name": "To Tupelo #20063",
         "Color": "blue",
         "Connections": {
           "North": 20062,
           "East": 20065,
-          "South": 18279,
+          "South": {
+            "RoomId": 18279,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 20064
         }
       },
       {
         "Id": 9812,
         "FrameColor": "blue",
-        "Name": "To goblin #9812",
+        "Name": "To Goblin Cave #9812",
         "Color": "blue",
         "Connections": {
           "East": 9813,
@@ -416,7 +440,7 @@
       {
         "Id": 80027,
         "FrameColor": "blue",
-        "Name": "To suntemple #80027",
+        "Name": "To Sun Temple #80027",
         "Color": "blue",
         "Connections": {
           "East": 80026,
@@ -426,17 +450,23 @@
       {
         "Id": 18014,
         "FrameColor": "blue",
-        "Name": "To giant #18014",
+        "Name": "To Giant Mountain #18014",
         "Color": "blue",
         "Connections": {
           "North": 18317,
-          "South": 18013
+          "South": {
+            "RoomId": 18013,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 1306,
         "FrameColor": "blue",
-        "Name": "To godsland #1306",
+        "Name": "To Godsland #1306",
         "Color": "blue",
         "Connections": {
           "West": 18318

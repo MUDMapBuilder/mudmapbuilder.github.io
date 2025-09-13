@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "desert",
+    "Name": "Desert",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -1153,7 +1153,13 @@
           "North": 56150,
           "East": 56154,
           "South": 56146,
-          "West": 56212
+          "West": {
+            "RoomId": 56212,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1287,7 +1293,13 @@
         "Name": "Eastern Corridor #56166",
         "Connections": {
           "East": 56168,
-          "South": 56167,
+          "South": {
+            "RoomId": 56167,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 56165
         }
       },
@@ -1295,7 +1307,13 @@
         "Id": 56167,
         "Name": "Guest Chamber #56167",
         "Connections": {
-          "North": 56166
+          "North": {
+            "RoomId": 56166,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1405,7 +1423,13 @@
         "Id": 56181,
         "Name": "The Harem #56181",
         "Connections": {
-          "East": 56182,
+          "East": {
+            "RoomId": 56182,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 56178
         }
       },
@@ -1413,7 +1437,13 @@
         "Id": 56182,
         "Name": "Women\u0027s Chamber #56182",
         "Connections": {
-          "West": 56181
+          "West": {
+            "RoomId": 56181,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1430,7 +1460,13 @@
         "Connections": {
           "North": 56183,
           "East": 56195,
-          "South": 56194,
+          "South": {
+            "RoomId": 56194,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 56185
         }
       },
@@ -1438,9 +1474,21 @@
         "Id": 56185,
         "Name": "Guild Row #56185",
         "Connections": {
-          "North": 56186,
+          "North": {
+            "RoomId": 56186,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 56184,
-          "South": 56190,
+          "South": {
+            "RoomId": 56190,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 56187
         }
       },
@@ -1449,16 +1497,34 @@
         "Name": "Entrance to the Mage Guild #56186",
         "Connections": {
           "North": 56215,
-          "South": 56185
+          "South": {
+            "RoomId": 56185,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 56187,
         "Name": "Guild Row #56187",
         "Connections": {
-          "North": 56188,
+          "North": {
+            "RoomId": 56188,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 56185,
-          "South": 56189,
+          "South": {
+            "RoomId": 56189,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 56191
         }
       },
@@ -1467,14 +1533,26 @@
         "Name": "Entrance to the Thief Guild #56188",
         "Connections": {
           "North": 56218,
-          "South": 56187
+          "South": {
+            "RoomId": 56187,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 56189,
         "Name": "Entrance to the Warrior Guild #56189",
         "Connections": {
-          "North": 56187,
+          "North": {
+            "RoomId": 56187,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 56219
         }
       },
@@ -1482,7 +1560,13 @@
         "Id": 56190,
         "Name": "Entrance to the Cleric Guild #56190",
         "Connections": {
-          "North": 56185,
+          "North": {
+            "RoomId": 56185,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 56217
         }
       },
@@ -1490,9 +1574,21 @@
         "Id": 56191,
         "Name": "Guild Row #56191",
         "Connections": {
-          "North": 56192,
+          "North": {
+            "RoomId": 56192,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "East": 56187,
-          "South": 56193,
+          "South": {
+            "RoomId": 56193,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "West": 56213
         }
       },
@@ -1501,14 +1597,26 @@
         "Name": "Entrance to the Necromancer Guild #56192",
         "Connections": {
           "North": 56220,
-          "South": 56191
+          "South": {
+            "RoomId": 56191,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 56193,
         "Name": "Entrance to the Priest Guild #56193",
         "Connections": {
-          "North": 56191,
+          "North": {
+            "RoomId": 56191,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 56221
         }
       },
@@ -1516,7 +1624,13 @@
         "Id": 56194,
         "Name": "Sultan\u0027s Chamber #56194",
         "Connections": {
-          "North": 56184
+          "North": {
+            "RoomId": 56184,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1613,14 +1727,26 @@
         "Id": 56207,
         "Name": "Merchant\u0027s Guild #56207",
         "Connections": {
-          "West": 56139
+          "West": {
+            "RoomId": 56139,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 56208,
         "Name": "Merchant\u0027s Guild #56208",
         "Connections": {
-          "East": 56139
+          "East": {
+            "RoomId": 56139,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1648,7 +1774,13 @@
         "Id": 56212,
         "Name": "Omah Meditation #56212",
         "Connections": {
-          "East": 56149
+          "East": {
+            "RoomId": 56149,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1755,7 +1887,13 @@
           "North": 56230,
           "East": 56067,
           "South": 56232,
-          "West": 56234
+          "West": {
+            "RoomId": 56234,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1781,7 +1919,13 @@
         "Id": 56234,
         "Name": "First Floor Tower #56234",
         "Connections": {
-          "East": 56231,
+          "East": {
+            "RoomId": 56231,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Up": 56235
         }
       },
@@ -1939,14 +2083,26 @@
         "Name": "Bright White Hallway #56252",
         "Connections": {
           "North": 56249,
-          "West": 56253
+          "West": {
+            "RoomId": 56253,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 56253,
         "Name": "Entombed #56253",
         "Connections": {
-          "East": 56252
+          "East": {
+            "RoomId": 56252,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1954,14 +2110,26 @@
         "Name": "Bright White Hallway #56255",
         "Connections": {
           "South": 56249,
-          "West": 56256
+          "West": {
+            "RoomId": 56256,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 56256,
         "Name": "Blackstone Chamber #56256",
         "Connections": {
-          "East": 56255
+          "East": {
+            "RoomId": 56255,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -1986,7 +2154,13 @@
         "Id": 56260,
         "Name": "A Darkened Corridor #56260",
         "Connections": {
-          "East": 56261,
+          "East": {
+            "RoomId": 56261,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 56259
         }
       },
@@ -1994,8 +2168,20 @@
         "Id": 56261,
         "Name": "A Musty Tomb #56261",
         "Connections": {
-          "West": 56260,
-          "Down": 56265
+          "West": {
+            "RoomId": 56260,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 56265,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -2003,29 +2189,59 @@
         "Name": "A Darkened Corridor #56262",
         "Connections": {
           "North": 56259,
-          "East": 56263
+          "East": {
+            "RoomId": 56263,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 56263,
         "Name": "Chamber of Damnation #56263",
         "Connections": {
-          "West": 56262,
-          "Down": 56264
+          "West": {
+            "RoomId": 56262,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": {
+            "RoomId": 56264,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 56264,
         "Name": "Pit of Sacrafice #56264",
         "Connections": {
-          "Up": 56263
+          "Up": {
+            "RoomId": 56263,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 56265,
         "Name": "A Burial Chamber #56265",
         "Connections": {
-          "Up": 56261
+          "Up": {
+            "RoomId": 56261,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -2033,14 +2249,26 @@
         "Name": "A Bloody Altar #56266",
         "Connections": {
           "East": 56259,
-          "Down": 56267
+          "Down": {
+            "RoomId": 56267,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
         "Id": 56267,
         "Name": "A Dark Stairwell #56267",
         "Connections": {
-          "Up": 56266,
+          "Up": {
+            "RoomId": 56266,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "Down": 56268
         }
       },
@@ -2067,7 +2295,13 @@
         "Id": 56270,
         "Name": "Before the Tomb #56270",
         "Connections": {
-          "East": 56271,
+          "East": {
+            "RoomId": 56271,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "West": 56268
         }
       },
@@ -2082,7 +2316,13 @@
         "Id": 56272,
         "Name": "Before the Tomb #56272",
         "Connections": {
-          "North": 56273,
+          "North": {
+            "RoomId": 56273,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          },
           "South": 56268
         }
       },
@@ -2098,7 +2338,13 @@
         "Name": "Before the Tomb #56274",
         "Connections": {
           "North": 56268,
-          "South": 56275
+          "South": {
+            "RoomId": 56275,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -2113,7 +2359,13 @@
         "Name": "Before the Tomb #56276",
         "Connections": {
           "East": 56268,
-          "West": 56277
+          "West": {
+            "RoomId": 56277,
+            "Color": "indianred",
+            "IsDoor": true,
+            "DoorColor": "indianred",
+            "DoorSigns": []
+          }
         }
       },
       {
@@ -2126,7 +2378,7 @@
       {
         "Id": 15250,
         "FrameColor": "blue",
-        "Name": "To anubistemple #15250",
+        "Name": "To Temple of Anubis #15250",
         "Color": "blue",
         "Connections": {
           "North": 15251,
@@ -2136,7 +2388,7 @@
       {
         "Id": 15009,
         "FrameColor": "blue",
-        "Name": "To pyramid #15009",
+        "Name": "To Pharaoh #15009",
         "Color": "blue",
         "Connections": {
           "North": 15022,
@@ -2146,7 +2398,7 @@
       {
         "Id": 15018,
         "FrameColor": "blue",
-        "Name": "To pyramid #15018",
+        "Name": "To Pharaoh #15018",
         "Color": "blue",
         "Connections": {
           "East": 15408,

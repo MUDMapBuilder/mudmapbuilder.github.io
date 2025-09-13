@@ -1,6 +1,6 @@
 {
   "Area": {
-    "Name": "midgaard",
+    "Name": "Midgaard",
     "BackgroundColor": "white",
     "Rooms": [
       {
@@ -48,7 +48,13 @@
         "Id": 46204,
         "Name": "Remains of the General Store #46204",
         "Connections": {
-          "North": 46238,
+          "North": {
+            "RoomId": 46238,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 46207
         },
         "Contents": [
@@ -116,7 +122,13 @@
         "Id": 46210,
         "Name": "The Magic Shop #46210",
         "Connections": {
-          "North": 46234,
+          "North": {
+            "RoomId": 46234,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 46203
         },
         "Contents": [
@@ -143,7 +155,13 @@
         "Id": 46212,
         "Name": "Remains of the Bakery #46212",
         "Connections": {
-          "North": 46236,
+          "North": {
+            "RoomId": 46236,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 46205
         },
         "Contents": [
@@ -198,7 +216,18 @@
         "Name": "Remains of a Reception #46216",
         "Connections": {
           "East": 46214,
-          "West": 78001
+          "West": {
+            "RoomId": 78001,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a snake shaped key #46216",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
         },
         "Contents": [
           {
@@ -271,7 +300,13 @@
         "Id": 46223,
         "Name": "Remains of the Weapon Shop #46223",
         "Connections": {
-          "North": 46239,
+          "North": {
+            "RoomId": 46239,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "South": 46208
         },
         "Contents": [
@@ -380,7 +415,13 @@
         "Id": 46234,
         "Name": "A Dusty Closet #46234",
         "Connections": {
-          "South": 46210
+          "South": {
+            "RoomId": 46210,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -404,7 +445,13 @@
         "Id": 46236,
         "Name": "A Dirty Closet #46236",
         "Connections": {
-          "South": 46212
+          "South": {
+            "RoomId": 46212,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -428,7 +475,13 @@
         "Id": 46238,
         "Name": "A Cluttered Closet #46238",
         "Connections": {
-          "South": 46204
+          "South": {
+            "RoomId": 46204,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -445,7 +498,13 @@
         "Id": 46239,
         "Name": "An Oily Closet #46239",
         "Connections": {
-          "South": 46223
+          "South": {
+            "RoomId": 46223,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
         },
         "Contents": [
           {
@@ -461,11 +520,23 @@
       {
         "Id": 78001,
         "FrameColor": "blue",
-        "Name": "To snaketemple #78001",
+        "Name": "To Snake Temple #78001",
         "Color": "blue",
         "Connections": {
-          "West": 8115,
-          "Up": 8115,
+          "West": {
+            "RoomId": 8115,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": {
+            "RoomId": 8115,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
           "Down": 78002
         }
       }
