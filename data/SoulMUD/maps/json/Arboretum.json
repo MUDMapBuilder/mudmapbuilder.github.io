@@ -7,27 +7,9 @@
         "Id": 61000,
         "Name": "Virus\u0027 Office #61000",
         "Connections": {
-          "North": {
-            "RoomId": 61010,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "West": {
-            "RoomId": 61043,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "Down": {
-            "RoomId": 61001,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 61010,
+          "West": 61043,
+          "Down": 61001
         }
       },
       {
@@ -285,13 +267,7 @@
         "Id": 61020,
         "Name": "Inside of the Fountain #61020",
         "Connections": {
-          "South": {
-            "RoomId": 61021,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "South": 61021,
           "Up": 61018
         }
       },
@@ -299,13 +275,7 @@
         "Id": 61021,
         "Name": "Underwater Tunnel #61021",
         "Connections": {
-          "North": {
-            "RoomId": 61020,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 61020,
           "South": 61022
         }
       },
@@ -429,13 +399,7 @@
         "Id": 61030,
         "Name": "Burned Field #61030",
         "Connections": {
-          "North": {
-            "RoomId": 61042,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 61042,
           "South": 61029,
           "West": 61031
         },
@@ -524,13 +488,7 @@
         "Name": "Outside of the Greenhouse #61035",
         "Connections": {
           "East": 61034,
-          "South": {
-            "RoomId": 61036,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "South": 61036,
           "West": 61037
         },
         "Contents": [
@@ -544,13 +502,7 @@
         "Id": 61036,
         "Name": "Greenhouse #61036",
         "Connections": {
-          "North": {
-            "RoomId": 61035,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 61035
         },
         "Contents": [
           {
@@ -631,13 +583,7 @@
         "Id": 61042,
         "Name": "Witch Doctor\u0027s Hut #61042",
         "Connections": {
-          "South": {
-            "RoomId": 61030,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 61030
         },
         "Contents": [
           {
@@ -707,13 +653,7 @@
         "Name": "Onyx Hallway #61051",
         "Connections": {
           "North": 61050,
-          "East": {
-            "RoomId": 61052,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 61052,
           "South": 61053
         },
         "Contents": [
@@ -727,13 +667,7 @@
         "Id": 61052,
         "Name": "Chamber of Rune #61052",
         "Connections": {
-          "West": {
-            "RoomId": 61051,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 61051
         },
         "Contents": [
           {
@@ -774,13 +708,7 @@
         "Id": 61055,
         "Name": "Onyx Hallway #61055",
         "Connections": {
-          "North": {
-            "RoomId": 61056,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 61056,
           "East": 61057,
           "West": 61054
         }
@@ -789,13 +717,7 @@
         "Id": 61056,
         "Name": "Chamber of Oracle #61056",
         "Connections": {
-          "South": {
-            "RoomId": 61055,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 61055
         }
       },
       {
@@ -839,33 +761,15 @@
         "Name": "Arboretum\u0027s Meeting Room #61060",
         "Connections": {
           "North": 61061,
-          "South": {
-            "RoomId": 61059,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 61059
         }
       },
       {
         "Id": 61061,
         "Name": "Head Gardener\u0027s Office #61061",
         "Connections": {
-          "South": {
-            "RoomId": 61060,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "Down": {
-            "RoomId": 61041,
-            "Color": "indianred",
-            "IsDoor": true,
-            "DoorColor": "indianred",
-            "DoorSigns": []
-          }
+          "South": 61060,
+          "Down": 61041
         }
       },
       {

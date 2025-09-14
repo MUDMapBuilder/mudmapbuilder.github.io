@@ -581,13 +581,7 @@
         "Name": "The Catacombs #9052",
         "Connections": {
           "North": 9051,
-          "South": {
-            "RoomId": 9053,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 9053
         },
         "Contents": [
           {
@@ -604,13 +598,7 @@
         "Id": 9053,
         "Name": "King\u0027s Chamber #9053",
         "Connections": {
-          "North": {
-            "RoomId": 9052,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 9052,
           "Down": 9100
         },
         "Contents": [
@@ -674,20 +662,8 @@
         "Name": "To Graveyard #3427",
         "Color": "blue",
         "Connections": {
-          "South": {
-            "RoomId": 3424,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "Down": {
-            "RoomId": 9000,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 3424,
+          "Down": 9000
         }
       },
       {

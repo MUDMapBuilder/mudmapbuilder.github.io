@@ -36,13 +36,7 @@
         "Name": "A Small Tunnel #57004",
         "Connections": {
           "South": 57003,
-          "Up": {
-            "RoomId": 57005,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Up": 57005
         }
       },
       {
@@ -50,26 +44,14 @@
         "Name": "A Carved Tunnel #57005",
         "Connections": {
           "North": 57006,
-          "Down": {
-            "RoomId": 57004,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Down": 57004
         }
       },
       {
         "Id": 57006,
         "Name": "A Carved Tunnel #57006",
         "Connections": {
-          "North": {
-            "RoomId": 57007,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 57007,
           "South": 57005
         }
       },
@@ -77,20 +59,8 @@
         "Id": 57007,
         "Name": "The Entrance to the Temple of the Moon #57007",
         "Connections": {
-          "North": {
-            "RoomId": 57008,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "South": {
-            "RoomId": 57006,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 57008,
+          "South": 57006
         },
         "Contents": [
           {
@@ -103,34 +73,10 @@
         "Id": 57008,
         "Name": "The Chamber of the Silver Wolf #57008",
         "Connections": {
-          "North": {
-            "RoomId": 57013,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "East": {
-            "RoomId": 57016,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "South": {
-            "RoomId": 57007,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "West": {
-            "RoomId": 57009,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 57013,
+          "East": 57016,
+          "South": 57007,
+          "West": 57009
         },
         "Contents": [
           {
@@ -143,13 +89,7 @@
         "Id": 57009,
         "Name": "A Small Chamber #57009",
         "Connections": {
-          "East": {
-            "RoomId": 57008,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 57008
         },
         "Contents": [
           {
@@ -202,13 +142,7 @@
         "Connections": {
           "North": 57012,
           "East": 57015,
-          "South": {
-            "RoomId": 57008,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "South": 57008,
           "West": 57010
         }
       },
@@ -232,13 +166,7 @@
         "Id": 57016,
         "Name": "A Small Chamber #57016",
         "Connections": {
-          "West": {
-            "RoomId": 57008,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 57008
         },
         "Contents": [
           {
@@ -251,28 +179,10 @@
         "Id": 57017,
         "Name": "The Altar of the Moon #57017",
         "Connections": {
-          "East": {
-            "RoomId": 57019,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 57019,
           "South": 57012,
-          "West": {
-            "RoomId": 57018,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "Up": {
-            "RoomId": 57020,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 57018,
+          "Up": 57020
         },
         "Contents": [
           {
@@ -285,13 +195,7 @@
         "Id": 57018,
         "Name": "The Sun Chamber #57018",
         "Connections": {
-          "East": {
-            "RoomId": 57017,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 57017
         },
         "Contents": [
           {
@@ -305,13 +209,7 @@
         "Name": "The Moon Chamber #57019",
         "Connections": {
           "North": 57022,
-          "West": {
-            "RoomId": 57017,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 57017
         },
         "Contents": [
           {
@@ -325,26 +223,14 @@
         "Name": "A Small Spiral Stairwell #57020",
         "Connections": {
           "Up": 57021,
-          "Down": {
-            "RoomId": 57017,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Down": 57017
         }
       },
       {
         "Id": 57021,
         "Name": "A Small Spiral Stairwell #57021",
         "Connections": {
-          "Up": {
-            "RoomId": 57023,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "Up": 57023,
           "Down": 57020
         }
       },
@@ -359,13 +245,7 @@
         "Id": 57023,
         "Name": "Chamber of the Moon #57023",
         "Connections": {
-          "Down": {
-            "RoomId": 57021,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Down": 57021
         },
         "Contents": [
           {

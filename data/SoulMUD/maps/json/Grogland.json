@@ -165,13 +165,7 @@
         "Id": 64014,
         "Name": "Small Plateau #64014",
         "Connections": {
-          "North": {
-            "RoomId": 64015,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 64015,
           "Down": 64013
         }
       },
@@ -179,27 +173,9 @@
         "Id": 64015,
         "Name": "Holding Pen #64015",
         "Connections": {
-          "East": {
-            "RoomId": 64017,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "South": {
-            "RoomId": 64014,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "West": {
-            "RoomId": 64016,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 64017,
+          "South": 64014,
+          "West": 64016
         },
         "Contents": [
           {
@@ -224,13 +200,7 @@
         "Id": 64016,
         "Name": "Slaughtering Block #64016",
         "Connections": {
-          "East": {
-            "RoomId": 64015,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 64015
         },
         "Contents": [
           {
@@ -245,13 +215,7 @@
         "Connections": {
           "North": 64020,
           "East": 64019,
-          "West": {
-            "RoomId": 64015,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 64015
         }
       },
       {
@@ -349,26 +313,14 @@
         "Connections": {
           "North": 64028,
           "South": 64025,
-          "West": {
-            "RoomId": 64027,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 64027
         }
       },
       {
         "Id": 64027,
         "Name": "Small Cave #64027",
         "Connections": {
-          "East": {
-            "RoomId": 64026,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 64026
         },
         "Contents": [
           {
@@ -405,13 +357,7 @@
         "Connections": {
           "North": 64032,
           "East": 64029,
-          "South": {
-            "RoomId": 64031,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "South": 64031,
           "West": 64034,
           "Up": 64073
         },
@@ -434,13 +380,7 @@
         "Id": 64031,
         "Name": "Dark Cave #64031",
         "Connections": {
-          "North": {
-            "RoomId": 64030,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 64030
         },
         "Contents": [
           {
@@ -512,13 +452,7 @@
         "Name": "Cave Entrance #64037",
         "Connections": {
           "North": 64036,
-          "East": {
-            "RoomId": 64038,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 64038,
           "South": 64040
         },
         "Contents": [
@@ -533,13 +467,7 @@
         "Name": "Large Cave #64038",
         "Connections": {
           "South": 64039,
-          "West": {
-            "RoomId": 64037,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 64037
         },
         "Contents": [
           {

@@ -25,26 +25,14 @@
         "Name": "North Wall of the Ruined Village #62002",
         "Connections": {
           "North": 62001,
-          "South": {
-            "RoomId": 62003,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 62003
         }
       },
       {
         "Id": 62003,
         "Name": "Road Through the Ruined Village #62003",
         "Connections": {
-          "North": {
-            "RoomId": 62002,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 62002,
           "East": 62007,
           "South": 62004,
           "West": 62006
@@ -289,13 +277,7 @@
         "Id": 62021,
         "Name": "The Barricade #62021",
         "Connections": {
-          "East": {
-            "RoomId": 62022,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 62022,
           "West": 62020
         },
         "Contents": [
@@ -309,20 +291,8 @@
         "Id": 62022,
         "Name": "Eastern Gate of Barovia #62022",
         "Connections": {
-          "East": {
-            "RoomId": 62044,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "West": {
-            "RoomId": 62021,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 62044,
+          "West": 62021
         }
       },
       {
@@ -347,13 +317,7 @@
         "Id": 62024,
         "Name": "Victory Lane #62024",
         "Connections": {
-          "North": {
-            "RoomId": 62029,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 62029,
           "East": 62025,
           "South": 62018,
           "West": 62023
@@ -422,53 +386,23 @@
         "Id": 62029,
         "Name": "Foyer in the Mayor\u0027s House #62029",
         "Connections": {
-          "East": {
-            "RoomId": 62031,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "South": {
-            "RoomId": 62024,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "West": {
-            "RoomId": 62030,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 62031,
+          "South": 62024,
+          "West": 62030
         }
       },
       {
         "Id": 62030,
         "Name": "Mayor\u0027s Bedroom #62030",
         "Connections": {
-          "East": {
-            "RoomId": 62029,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 62029
         }
       },
       {
         "Id": 62031,
         "Name": "Mayor\u0027s Office #62031",
         "Connections": {
-          "West": {
-            "RoomId": 62029,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62029
         },
         "Contents": [
           {
@@ -589,27 +523,9 @@
         "Id": 62040,
         "Name": "Guest Living Room #62040",
         "Connections": {
-          "North": {
-            "RoomId": 62041,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "East": {
-            "RoomId": 62042,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "South": {
-            "RoomId": 62043,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 62041,
+          "East": 62042,
+          "South": 62043,
           "West": 62039
         },
         "Contents": [
@@ -623,39 +539,21 @@
         "Id": 62041,
         "Name": "Guest Room #62041",
         "Connections": {
-          "South": {
-            "RoomId": 62040,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 62040
         }
       },
       {
         "Id": 62042,
         "Name": "Guest Room #62042",
         "Connections": {
-          "West": {
-            "RoomId": 62040,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62040
         }
       },
       {
         "Id": 62043,
         "Name": "Guest Room #62043",
         "Connections": {
-          "North": {
-            "RoomId": 62040,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 62040
         }
       },
       {
@@ -663,13 +561,7 @@
         "Name": "Path Into the Forest #62044",
         "Connections": {
           "East": 62045,
-          "West": {
-            "RoomId": 62022,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62022
         }
       },
       {
@@ -691,13 +583,7 @@
         "Id": 62046,
         "Name": "Gate to the Graveyard #62046",
         "Connections": {
-          "North": {
-            "RoomId": 62047,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 62047,
           "South": 62045
         },
         "Contents": [
@@ -712,13 +598,7 @@
         "Name": "Barovian Graveyard #62047",
         "Connections": {
           "North": 62050,
-          "South": {
-            "RoomId": 62046,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "South": 62046,
           "West": 62048
         },
         "Contents": [
@@ -849,13 +729,7 @@
         "Id": 62058,
         "Name": "Entrance to the Temple #62058",
         "Connections": {
-          "North": {
-            "RoomId": 62059,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 62059,
           "South": 62057
         }
       },
@@ -865,13 +739,7 @@
         "Connections": {
           "North": 62060,
           "East": 62062,
-          "South": {
-            "RoomId": 62058,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 62058
         },
         "Contents": [
           {
@@ -908,13 +776,7 @@
         "Connections": {
           "East": 62065,
           "South": 62063,
-          "West": {
-            "RoomId": 62059,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62059
         }
       },
       {
@@ -960,13 +822,7 @@
         "Id": 62066,
         "Name": "Door to the High Priest\u0027s Chamber #62066",
         "Connections": {
-          "North": {
-            "RoomId": 62073,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 62073,
           "East": 62070,
           "West": 62061
         }
@@ -996,13 +852,7 @@
         "Id": 62069,
         "Name": "The High Paladin\u0027s Room #62069",
         "Connections": {
-          "South": {
-            "RoomId": 62070,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 62070
         },
         "Contents": [
           {
@@ -1015,20 +865,8 @@
         "Id": 62070,
         "Name": "End of the Hallway #62070",
         "Connections": {
-          "North": {
-            "RoomId": 62069,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "East": {
-            "RoomId": 62108,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 62069,
+          "East": 62108,
           "West": 62066
         },
         "Contents": [
@@ -1064,13 +902,7 @@
         "Id": 62073,
         "Name": "High Priest\u0027s Chamber #62073",
         "Connections": {
-          "South": {
-            "RoomId": 62066,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 62066
         },
         "Contents": [
           {
@@ -1492,13 +1324,7 @@
         "Id": 62108,
         "Name": "The Wereraven\u0027s Chamber #62108",
         "Connections": {
-          "West": {
-            "RoomId": 62070,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62070
         },
         "Contents": [
           {
@@ -1511,13 +1337,7 @@
         "Id": 62109,
         "Name": "The Castle Gate #62109",
         "Connections": {
-          "North": {
-            "RoomId": 62110,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 62110,
           "South": 62107
         }
       },
@@ -1526,26 +1346,14 @@
         "Name": "The Livery #62110",
         "Connections": {
           "North": 62111,
-          "South": {
-            "RoomId": 62109,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 62109
         }
       },
       {
         "Id": 62111,
         "Name": "The Courtyard #62111",
         "Connections": {
-          "North": {
-            "RoomId": 62112,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 62112,
           "South": 62110
         }
       },
@@ -1554,13 +1362,7 @@
         "Name": "The Castle Foyer #62112",
         "Connections": {
           "North": 62115,
-          "South": {
-            "RoomId": 62111,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 62111
         }
       },
       {
@@ -1747,13 +1549,7 @@
         "Id": 62132,
         "Name": "Door to the Chapel #62132",
         "Connections": {
-          "North": {
-            "RoomId": 62133,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 62133,
           "South": 62131
         }
       },
@@ -1762,13 +1558,7 @@
         "Name": "Chapel Foyer #62133",
         "Connections": {
           "North": 62138,
-          "South": {
-            "RoomId": 62132,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 62132
         }
       },
       {
@@ -1810,21 +1600,9 @@
         "Name": "The Chapel #62138",
         "Connections": {
           "North": 62141,
-          "East": {
-            "RoomId": 62140,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 62140,
           "South": 62133,
-          "West": {
-            "RoomId": 62139,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62139
         },
         "Contents": [
           {
@@ -1837,13 +1615,7 @@
         "Id": 62139,
         "Name": "A Tiny Hallway #62139",
         "Connections": {
-          "East": {
-            "RoomId": 62138,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 62138,
           "South": 62134
         },
         "Contents": [
@@ -1858,13 +1630,7 @@
         "Name": "A Small Hallway #62140",
         "Connections": {
           "South": 62135,
-          "West": {
-            "RoomId": 62138,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62138
         },
         "Contents": [
           {
@@ -1898,13 +1664,7 @@
         "Id": 62143,
         "Name": "Tomb Entrance #62143",
         "Connections": {
-          "East": {
-            "RoomId": 62149,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 62149,
           "Up": 62134
         },
         "Contents": [
@@ -1919,33 +1679,15 @@
         "Name": "Markov Family Crypt #62144",
         "Connections": {
           "North": 62148,
-          "East": {
-            "RoomId": 62151,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "West": {
-            "RoomId": 62150,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 62151,
+          "West": 62150
         }
       },
       {
         "Id": 62145,
         "Name": "Tomb Entrance #62145",
         "Connections": {
-          "West": {
-            "RoomId": 62149,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "West": 62149,
           "Up": 62135
         },
         "Contents": [
@@ -1959,13 +1701,7 @@
         "Id": 62146,
         "Name": "The Chamber of Blood #62146",
         "Connections": {
-          "North": {
-            "RoomId": 62149,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 62149,
           "South": 62147
         },
         "Contents": [
@@ -2005,27 +1741,9 @@
         "Id": 62149,
         "Name": "Descecrated Graves #62149",
         "Connections": {
-          "East": {
-            "RoomId": 62145,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "South": {
-            "RoomId": 62146,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "West": {
-            "RoomId": 62143,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 62145,
+          "South": 62146,
+          "West": 62143
         },
         "Contents": [
           {
@@ -2038,13 +1756,7 @@
         "Id": 62150,
         "Name": "Tomb Entrance #62150",
         "Connections": {
-          "East": {
-            "RoomId": 62144,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 62144,
           "Up": 62116
         },
         "Contents": [
@@ -2058,13 +1770,7 @@
         "Id": 62151,
         "Name": "Tomb Entrance #62151",
         "Connections": {
-          "West": {
-            "RoomId": 62144,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "West": 62144,
           "Up": 62117
         },
         "Contents": [
@@ -2107,20 +1813,8 @@
         "Name": "Hallway #62155",
         "Connections": {
           "East": 62177,
-          "South": {
-            "RoomId": 62178,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "West": {
-            "RoomId": 62191,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 62178,
+          "West": 62191
         }
       },
       {
@@ -2143,13 +1837,7 @@
         "Id": 62158,
         "Name": "Large bedroom #62158",
         "Connections": {
-          "West": {
-            "RoomId": 62169,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62169
         },
         "Contents": [
           {
@@ -2162,13 +1850,7 @@
         "Id": 62159,
         "Name": "Large bedroom #62159",
         "Connections": {
-          "West": {
-            "RoomId": 62167,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62167
         },
         "Contents": [
           {
@@ -2181,20 +1863,8 @@
         "Id": 62160,
         "Name": "Hallway #62160",
         "Connections": {
-          "East": {
-            "RoomId": 62161,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "South": {
-            "RoomId": 62162,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 62161,
+          "South": 62162,
           "West": 62177
         }
       },
@@ -2202,13 +1872,7 @@
         "Id": 62161,
         "Name": "Guest Room #62161",
         "Connections": {
-          "West": {
-            "RoomId": 62160,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62160
         },
         "Contents": [
           {
@@ -2221,13 +1885,7 @@
         "Id": 62162,
         "Name": "Bed Room #62162",
         "Connections": {
-          "North": {
-            "RoomId": 62160,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 62160
         },
         "Contents": [
           {
@@ -2275,13 +1933,7 @@
         "Name": "West Wing #62167",
         "Connections": {
           "North": 62169,
-          "East": {
-            "RoomId": 62159,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 62159,
           "South": 62157
         }
       },
@@ -2289,13 +1941,7 @@
         "Id": 62168,
         "Name": "Bedroom #62168",
         "Connections": {
-          "East": {
-            "RoomId": 62201,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 62201
         },
         "Contents": [
           {
@@ -2308,13 +1954,7 @@
         "Id": 62169,
         "Name": "West Wing #62169",
         "Connections": {
-          "East": {
-            "RoomId": 62158,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 62158,
           "South": 62167
         }
       },
@@ -2337,26 +1977,14 @@
         "Connections": {
           "North": 62163,
           "South": 62173,
-          "West": {
-            "RoomId": 62172,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62172
         }
       },
       {
         "Id": 62172,
         "Name": "Pierre\u0027s Bedroom #62172",
         "Connections": {
-          "East": {
-            "RoomId": 62171,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 62171
         },
         "Contents": [
           {
@@ -2371,26 +1999,14 @@
         "Connections": {
           "North": 62171,
           "East": 62175,
-          "West": {
-            "RoomId": 62174,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62174
         }
       },
       {
         "Id": 62174,
         "Name": "Maid\u0027s Bedroom #62174",
         "Connections": {
-          "East": {
-            "RoomId": 62173,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 62173
         },
         "Contents": [
           {
@@ -2418,13 +2034,7 @@
         "Connections": {
           "North": 62201,
           "South": 62188,
-          "West": {
-            "RoomId": 62187,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62187
         }
       },
       {
@@ -2446,13 +2056,7 @@
         "Id": 62178,
         "Name": "Musci Room #62178",
         "Connections": {
-          "North": {
-            "RoomId": 62155,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 62155
         },
         "Contents": [
           {
@@ -2551,13 +2155,7 @@
         "Id": 62187,
         "Name": "Altar Room #62187",
         "Connections": {
-          "East": {
-            "RoomId": 62176,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 62176
         },
         "Contents": [
           {
@@ -2572,26 +2170,14 @@
         "Connections": {
           "North": 62176,
           "East": 62194,
-          "West": {
-            "RoomId": 62193,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62193
         }
       },
       {
         "Id": 62189,
         "Name": "Child\u0027s Room #62189",
         "Connections": {
-          "West": {
-            "RoomId": 62198,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62198
         },
         "Contents": [
           {
@@ -2604,13 +2190,7 @@
         "Id": 62190,
         "Name": "Child\u0027s Room #62190",
         "Connections": {
-          "East": {
-            "RoomId": 62198,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 62198
         },
         "Contents": [
           {
@@ -2623,13 +2203,7 @@
         "Id": 62191,
         "Name": "Bed Room #62191",
         "Connections": {
-          "East": {
-            "RoomId": 62155,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 62155
         },
         "Contents": [
           {
@@ -2650,13 +2224,7 @@
         "Id": 62193,
         "Name": "Small Bedroom #62193",
         "Connections": {
-          "East": {
-            "RoomId": 62188,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 62188
         },
         "Contents": [
           {
@@ -2693,13 +2261,7 @@
         "Name": "Hallway Intersection #62197",
         "Connections": {
           "East": 62196,
-          "South": {
-            "RoomId": 62198,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "South": 62198,
           "West": 62194
         }
       },
@@ -2707,27 +2269,9 @@
         "Id": 62198,
         "Name": "Small Hallway #62198",
         "Connections": {
-          "North": {
-            "RoomId": 62197,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "East": {
-            "RoomId": 62189,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "West": {
-            "RoomId": 62190,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 62197,
+          "East": 62189,
+          "West": 62190
         }
       },
       {
@@ -2753,13 +2297,7 @@
         "Connections": {
           "East": 62180,
           "South": 62176,
-          "West": {
-            "RoomId": 62168,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 62168
         }
       },
       {

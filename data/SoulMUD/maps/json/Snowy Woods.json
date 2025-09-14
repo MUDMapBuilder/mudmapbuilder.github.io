@@ -7,13 +7,7 @@
         "Id": 16000,
         "Name": "Zapatorium #16000",
         "Connections": {
-          "North": {
-            "RoomId": 16001,
-            "Color": "indianred",
-            "IsDoor": true,
-            "DoorColor": "indianred",
-            "DoorSigns": []
-          },
+          "North": 16001,
           "East": 1016,
           "South": 16999,
           "West": 16998
@@ -23,20 +17,8 @@
         "Id": 16001,
         "Name": "Inside the Wardrobe #16001",
         "Connections": {
-          "North": {
-            "RoomId": 16002,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "South": {
-            "RoomId": 16000,
-            "Color": "indianred",
-            "IsDoor": true,
-            "DoorColor": "indianred",
-            "DoorSigns": []
-          }
+          "North": 16002,
+          "South": 16000
         }
       },
       {
@@ -83,26 +65,14 @@
         "Name": "West of the Snowy Woods #16006",
         "Connections": {
           "East": 16005,
-          "Down": {
-            "RoomId": 16007,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Down": 16007
         }
       },
       {
         "Id": 16007,
         "Name": "House of Mr. Tumnus #16007",
         "Connections": {
-          "Up": {
-            "RoomId": 16006,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Up": 16006
         }
       },
       {
@@ -238,13 +208,7 @@
         "Name": "On a Dam #16022",
         "Connections": {
           "North": 16012,
-          "East": {
-            "RoomId": 16023,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 16023,
           "South": 16018,
           "West": 16021
         }
@@ -253,13 +217,7 @@
         "Id": 16023,
         "Name": "House of Mr. Beaver #16023",
         "Connections": {
-          "West": {
-            "RoomId": 16022,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 16022
         }
       },
       {

@@ -8,26 +8,14 @@
         "Name": "Entrance to the Sun Temple #80000",
         "Connections": {
           "North": 5611,
-          "South": {
-            "RoomId": 80001,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 80001
         }
       },
       {
         "Id": 80001,
         "Name": "Inside the Sun Temple #80001",
         "Connections": {
-          "North": {
-            "RoomId": 80000,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 80000,
           "South": 80002
         }
       },
@@ -59,13 +47,7 @@
         "Id": 80003,
         "Name": "Side Chamber of Sun Temple #80003",
         "Connections": {
-          "West": {
-            "RoomId": 80002,
-            "Color": "indianred",
-            "IsDoor": true,
-            "DoorColor": "indianred",
-            "DoorSigns": []
-          }
+          "West": 80002
         },
         "Contents": [
           {
@@ -97,13 +79,7 @@
         "Name": "Sun Temple Main Worship Chamber #80005",
         "Connections": {
           "North": 80002,
-          "Down": {
-            "RoomId": 80022,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Down": 80022
         },
         "Contents": [
           {
@@ -204,13 +180,7 @@
         "Name": "Southern Sleeping Chamber #80012",
         "Connections": {
           "North": 80010,
-          "South": {
-            "RoomId": 80015,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 80015
         }
       },
       {
@@ -248,13 +218,7 @@
         "Id": 80015,
         "Name": "Hidden Stairway in Sun Temple #80015",
         "Connections": {
-          "North": {
-            "RoomId": 80012,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 80012,
           "Up": 80016
         }
       },
@@ -344,13 +308,7 @@
         "Id": 80020,
         "Name": "Top of Sun Temple Stairs #80020",
         "Connections": {
-          "West": {
-            "RoomId": 80021,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "West": 80021,
           "Down": 80019
         },
         "Contents": [
@@ -364,13 +322,7 @@
         "Id": 80021,
         "Name": "Chamber of the Sun #80021",
         "Connections": {
-          "East": {
-            "RoomId": 80020,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 80020
         },
         "Contents": [
           {
@@ -384,13 +336,7 @@
         "Name": "Sandstone Tunnel #80022",
         "Connections": {
           "South": 80023,
-          "Up": {
-            "RoomId": 80005,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Up": 80005
         }
       },
       {
@@ -456,13 +402,7 @@
         "Name": "Sandstone Tunnel #80028",
         "Connections": {
           "North": 80027,
-          "West": {
-            "RoomId": 80029,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 80029
         },
         "Contents": [
           {
@@ -475,13 +415,7 @@
         "Id": 80029,
         "Name": "Sun Templar\u0027s Chambers #80029",
         "Connections": {
-          "East": {
-            "RoomId": 80028,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 80028
         },
         "Contents": [
           {
@@ -494,13 +428,7 @@
         "Id": 80030,
         "Name": "Inside the Statue #80030",
         "Connections": {
-          "North": {
-            "RoomId": 80023,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 80023,
           "Up": 80031
         },
         "Contents": [
@@ -551,13 +479,7 @@
         "Id": 80035,
         "Name": "Before the Doors #80035",
         "Connections": {
-          "North": {
-            "RoomId": 80036,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 80036,
           "Down": 80034
         }
       },
@@ -565,13 +487,7 @@
         "Id": 80036,
         "Name": "The Palace of the Solar Winds #80036",
         "Connections": {
-          "South": {
-            "RoomId": 80035,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "South": 80035,
           "Down": 80037
         }
       },

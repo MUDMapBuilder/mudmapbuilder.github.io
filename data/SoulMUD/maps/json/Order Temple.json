@@ -15,13 +15,7 @@
         "Id": 42701,
         "Name": "Before the Order Temple #42701",
         "Connections": {
-          "North": {
-            "RoomId": 42702,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 42702,
           "South": 42700
         },
         "Contents": [
@@ -36,13 +30,7 @@
         "Name": "A Place of Order #42702",
         "Connections": {
           "North": 42703,
-          "South": {
-            "RoomId": 42701,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 42701
         }
       },
       {
@@ -59,13 +47,7 @@
         "Name": "Depths of the Shrine #42704",
         "Connections": {
           "North": 42708,
-          "East": {
-            "RoomId": 42711,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 42711,
           "South": 42703,
           "West": 42713
         }
@@ -77,13 +59,7 @@
           "North": 42708,
           "East": 42713,
           "South": 42703,
-          "West": {
-            "RoomId": 42706,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 42706
         },
         "Contents": [
           {
@@ -96,13 +72,7 @@
         "Id": 42706,
         "Name": "Chamber of Order #42706",
         "Connections": {
-          "East": {
-            "RoomId": 42705,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 42705
         },
         "Contents": [
           {
@@ -180,13 +150,7 @@
         "Id": 42711,
         "Name": "Chamber of Order #42711",
         "Connections": {
-          "West": {
-            "RoomId": 42704,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 42704
         },
         "Contents": [
           {
@@ -251,20 +215,8 @@
         "Color": "blue",
         "Connections": {
           "North": 74054,
-          "East": {
-            "RoomId": 74053,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "West": {
-            "RoomId": 74052,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 74053,
+          "West": 74052,
           "Up": 74075
         }
       }

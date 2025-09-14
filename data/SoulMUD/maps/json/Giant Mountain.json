@@ -136,13 +136,7 @@
         "Id": 18010,
         "Name": "Climbing the Mountain #18010",
         "Connections": {
-          "East": {
-            "RoomId": 40000,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 40000,
           "Up": 18011,
           "Down": 18009
         }
@@ -177,13 +171,7 @@
         "Id": 18013,
         "Name": "Further up the Mountain #18013",
         "Connections": {
-          "North": {
-            "RoomId": 18014,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 18014,
           "Up": 18015,
           "Down": 18012
         }
@@ -193,13 +181,7 @@
         "Name": "Cave #18014",
         "Connections": {
           "North": 18317,
-          "South": {
-            "RoomId": 18013,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 18013
         },
         "Contents": [
           {
@@ -458,13 +440,7 @@
         "Id": 18031,
         "Name": "Before a Huge Stone Building #18031",
         "Connections": {
-          "East": {
-            "RoomId": 18032,
-            "Color": "indianred",
-            "IsDoor": true,
-            "DoorColor": "indianred",
-            "DoorSigns": []
-          },
+          "East": 18032,
           "South": 18030
         }
       },
@@ -473,13 +449,7 @@
         "Name": "Foyer of the Storm Giant #18032",
         "Connections": {
           "East": 18033,
-          "West": {
-            "RoomId": 18031,
-            "Color": "indianred",
-            "IsDoor": true,
-            "DoorColor": "indianred",
-            "DoorSigns": []
-          }
+          "West": 18031
         },
         "Contents": [
           {
@@ -500,13 +470,7 @@
         "Id": 18033,
         "Name": "Storm Giant Home #18033",
         "Connections": {
-          "South": {
-            "RoomId": 18020,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "South": 18020,
           "West": 18032
         },
         "Contents": [
@@ -834,13 +798,7 @@
         "Connections": {
           "North": 18006,
           "East": 18054,
-          "West": {
-            "RoomId": 12333,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 12333
         }
       },
       {
@@ -880,13 +838,7 @@
         "Name": "To DemonWeb #40000",
         "Color": "blue",
         "Connections": {
-          "West": {
-            "RoomId": 18010,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "West": 18010,
           "Down": 40001
         }
       },

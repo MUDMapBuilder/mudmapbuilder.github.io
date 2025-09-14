@@ -23,13 +23,7 @@
         "Id": 61103,
         "Name": "The Temple Atrium #61103",
         "Connections": {
-          "North": {
-            "RoomId": 61104,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 61104,
           "Down": 61102
         }
       },
@@ -38,13 +32,7 @@
         "Name": "Temple Chamber #61104",
         "Connections": {
           "North": 61105,
-          "South": {
-            "RoomId": 61103,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 61103
         },
         "Contents": [
           {
@@ -213,13 +201,7 @@
         "Id": 61114,
         "Name": "Gates of the Guardian #61114",
         "Connections": {
-          "North": {
-            "RoomId": 61115,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 61115,
           "Down": 61113
         }
       },
@@ -227,20 +209,8 @@
         "Id": 61115,
         "Name": "Temple Cell #61115",
         "Connections": {
-          "North": {
-            "RoomId": 61121,
-            "Color": "indianred",
-            "IsDoor": true,
-            "DoorColor": "indianred",
-            "DoorSigns": []
-          },
-          "South": {
-            "RoomId": 61114,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 61121,
+          "South": 61114
         }
       },
       {
@@ -275,13 +245,7 @@
         "Id": 61118,
         "Name": "End of the Granite Passage #61118",
         "Connections": {
-          "North": {
-            "RoomId": 61119,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 61119,
           "South": 61117
         },
         "Contents": [
@@ -300,13 +264,7 @@
         "Name": "Along the Side of the Temple #61119",
         "Connections": {
           "North": 61120,
-          "South": {
-            "RoomId": 61118,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 61118
         }
       },
       {
@@ -336,13 +294,7 @@
         "Name": "Behind the Temple #61121",
         "Connections": {
           "East": 61120,
-          "South": {
-            "RoomId": 61115,
-            "Color": "indianred",
-            "IsDoor": true,
-            "DoorColor": "indianred",
-            "DoorSigns": []
-          }
+          "South": 61115
         }
       },
       {
@@ -356,13 +308,7 @@
             "DoorColor": "cornflowerblue",
             "DoorSigns": []
           },
-          "Down": {
-            "RoomId": 61123,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Down": 61123
         },
         "Contents": [
           {
@@ -376,13 +322,7 @@
         "Name": "Crudely Dug Tunnel #61123",
         "Connections": {
           "West": 61124,
-          "Up": {
-            "RoomId": 61122,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Up": 61122
         }
       },
       {

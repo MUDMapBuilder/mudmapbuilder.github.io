@@ -7,13 +7,7 @@
         "Id": 36000,
         "Name": "Arietan\u0027s Domicile #36000",
         "Connections": {
-          "South": {
-            "RoomId": 36003,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 36003
         },
         "Contents": [
           {
@@ -35,13 +29,7 @@
         "Id": 36003,
         "Name": "Creature Creation and Containment Lab #36003",
         "Connections": {
-          "North": {
-            "RoomId": 36000,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 36000
         }
       },
       {
@@ -85,13 +73,7 @@
         "Id": 36012,
         "Name": "Berry Patch #36012",
         "Connections": {
-          "West": {
-            "RoomId": 36013,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 36013
         },
         "Contents": [
           {
@@ -104,13 +86,7 @@
         "Id": 36013,
         "Name": "Deer Trail #36013",
         "Connections": {
-          "East": {
-            "RoomId": 36012,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 36012,
           "West": 36014
         },
         "Contents": [
@@ -172,33 +148,15 @@
         "Name": "At the Cellar #36018",
         "Connections": {
           "Up": 36017,
-          "Down": {
-            "RoomId": 36019,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Down": 36019
         }
       },
       {
         "Id": 36019,
         "Name": "Hermit\u0027s Cellar #36019",
         "Connections": {
-          "North": {
-            "RoomId": 36020,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "Up": {
-            "RoomId": 36018,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 36020,
+          "Up": 36018
         }
       },
       {
@@ -206,13 +164,7 @@
         "Name": "Tunnel #36020",
         "Connections": {
           "North": 36021,
-          "South": {
-            "RoomId": 36019,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 36019
         }
       },
       {
@@ -243,13 +195,7 @@
         "Id": 36024,
         "Name": "Hermit\u0027s Underground Shelter #36024",
         "Connections": {
-          "East": {
-            "RoomId": 36025,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 36025,
           "West": 36023
         }
       },
@@ -258,13 +204,7 @@
         "Name": "Worker Burial Chamber #36025",
         "Connections": {
           "North": 36026,
-          "West": {
-            "RoomId": 36024,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 36024
         }
       },
       {
@@ -499,13 +439,7 @@
         "Name": "Corridor #36050",
         "Connections": {
           "North": 36043,
-          "East": {
-            "RoomId": 36051,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 36051,
           "South": 36052,
           "West": 36049
         }
@@ -514,13 +448,7 @@
         "Id": 36051,
         "Name": "Treasure Room #36051",
         "Connections": {
-          "West": {
-            "RoomId": 36050,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 36050
         },
         "Contents": [
           {
@@ -535,13 +463,7 @@
         "Connections": {
           "North": 36050,
           "South": 36059,
-          "West": {
-            "RoomId": 36053,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 36053
         }
       },
       {
@@ -571,26 +493,14 @@
           "North": 36009,
           "East": 36053,
           "South": 36008,
-          "Up": {
-            "RoomId": 36055,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Up": 36055
         }
       },
       {
         "Id": 36055,
         "Name": "Hidden Protim Sarcophagus #36055",
         "Connections": {
-          "Down": {
-            "RoomId": 36054,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Down": 36054
         }
       },
       {
@@ -682,26 +592,14 @@
         "Name": "Sacrificial Area #36066",
         "Connections": {
           "West": 36065,
-          "Up": {
-            "RoomId": 36067,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Up": 36067
         }
       },
       {
         "Id": 36067,
         "Name": "Sentry\u0027s Hut #36067",
         "Connections": {
-          "Down": {
-            "RoomId": 36066,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Down": 36066
         }
       },
       {

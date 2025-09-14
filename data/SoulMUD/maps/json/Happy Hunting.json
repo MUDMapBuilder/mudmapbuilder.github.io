@@ -1113,13 +1113,7 @@
         "Id": 42605,
         "Name": "A Ramshackle Building #42605",
         "Connections": {
-          "North": {
-            "RoomId": 42642,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 42642,
           "South": 42604
         },
         "Contents": [
@@ -1528,13 +1522,7 @@
         "Id": 42641,
         "Name": "Damp Basement #42641",
         "Connections": {
-          "Up": {
-            "RoomId": 42642,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Up": 42642
         },
         "Contents": [
           {
@@ -1547,20 +1535,8 @@
         "Id": 42642,
         "Name": "Inside the Ramshackle Cabin #42642",
         "Connections": {
-          "South": {
-            "RoomId": 42605,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "Down": {
-            "RoomId": 42641,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 42605,
+          "Down": 42641
         },
         "Contents": [
           {
@@ -1608,13 +1584,7 @@
         "Name": "Before the Fortress #42646",
         "Connections": {
           "North": 42323,
-          "East": {
-            "RoomId": 42647,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 42647,
           "South": 42310,
           "West": 42645
         },
@@ -1633,41 +1603,17 @@
         "Id": 42647,
         "Name": "Beneath the Ramparts #42647",
         "Connections": {
-          "North": {
-            "RoomId": 42648,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 42648,
           "East": 42650,
-          "South": {
-            "RoomId": 42649,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "West": {
-            "RoomId": 42646,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 42649,
+          "West": 42646
         }
       },
       {
         "Id": 42648,
         "Name": "A Guard Post #42648",
         "Connections": {
-          "South": {
-            "RoomId": 42647,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 42647
         },
         "Contents": [
           {
@@ -1680,13 +1626,7 @@
         "Id": 42649,
         "Name": "A Garbage Filled Guard Post #42649",
         "Connections": {
-          "North": {
-            "RoomId": 42647,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 42647
         },
         "Contents": [
           {
@@ -2277,13 +2217,7 @@
         "Color": "blue",
         "Connections": {
           "East": 12017,
-          "West": {
-            "RoomId": 42329,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 42329
         }
       },
       {
@@ -2361,13 +2295,7 @@
         "Color": "blue",
         "Connections": {
           "North": 20070,
-          "East": {
-            "RoomId": 20000,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 20000,
           "South": 42541,
           "West": 20050
         }

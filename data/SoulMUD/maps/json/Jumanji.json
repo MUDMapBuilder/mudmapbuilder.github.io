@@ -493,13 +493,7 @@
         "Id": 42277,
         "Name": "An Abandoned Refuge #42277",
         "Connections": {
-          "South": {
-            "RoomId": 42278,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "South": 42278,
           "West": 42276
         }
       },
@@ -507,33 +501,15 @@
         "Id": 42278,
         "Name": "The Back Room #42278",
         "Connections": {
-          "North": {
-            "RoomId": 42277,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "Down": {
-            "RoomId": 42279,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 42277,
+          "Down": 42279
         }
       },
       {
         "Id": 42279,
         "Name": "The Cooler #42279",
         "Connections": {
-          "Up": {
-            "RoomId": 42278,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Up": 42278
         },
         "Contents": [
           {

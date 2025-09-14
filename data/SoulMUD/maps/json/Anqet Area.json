@@ -49,13 +49,7 @@
         "Id": 29005,
         "Name": "Entering the Reef #29005",
         "Connections": {
-          "North": {
-            "RoomId": 29011,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 29011,
           "East": 29006,
           "West": 29004
         }
@@ -104,13 +98,7 @@
         "Name": "The Great Barrier Reef #29011",
         "Connections": {
           "North": 29012,
-          "South": {
-            "RoomId": 29005,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 29005
         }
       },
       {
@@ -408,46 +396,22 @@
         "Name": "Birdfeeders and Ponds #29054",
         "Connections": {
           "North": 29053,
-          "South": {
-            "RoomId": 29055,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 29055
         }
       },
       {
         "Id": 29055,
         "Name": "The Gardener\u0027s Supply Shack #29055",
         "Connections": {
-          "North": {
-            "RoomId": 29054,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "South": {
-            "RoomId": 29056,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 29054,
+          "South": 29056
         }
       },
       {
         "Id": 29056,
         "Name": "Behind the Shack #29056",
         "Connections": {
-          "North": {
-            "RoomId": 29055,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 29055
         }
       },
       {
@@ -657,21 +621,9 @@
         "Id": 29110,
         "Name": "Climbing Higher Up The Tree #29110",
         "Connections": {
-          "East": {
-            "RoomId": 29111,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 29111,
           "West": 29112,
-          "Up": {
-            "RoomId": 29113,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "Up": 29113,
           "Down": 29107
         }
       },
@@ -679,13 +631,7 @@
         "Id": 29111,
         "Name": "A Short Branch #29111",
         "Connections": {
-          "West": {
-            "RoomId": 29110,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 29110
         },
         "Contents": [
           {
@@ -705,13 +651,7 @@
         "Id": 29113,
         "Name": "Top of a Teak Tree #29113",
         "Connections": {
-          "Down": {
-            "RoomId": 29110,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Down": 29110
         },
         "Contents": [
           {
@@ -825,13 +765,7 @@
         "Id": 29121,
         "Name": "Out on a Branch #29121",
         "Connections": {
-          "East": {
-            "RoomId": 29122,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 29122,
           "West": 29117
         },
         "Contents": [
@@ -849,13 +783,7 @@
         "Id": 29122,
         "Name": "End of the Branch #29122",
         "Connections": {
-          "West": {
-            "RoomId": 29121,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 29121
         },
         "Contents": [
           {
@@ -1246,13 +1174,7 @@
         "Name": "Higher in The Bocote Tree #29151",
         "Connections": {
           "East": 29154,
-          "West": {
-            "RoomId": 29152,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "West": 29152,
           "Up": 29155,
           "Down": 29148
         },
@@ -1267,13 +1189,7 @@
         "Id": 29152,
         "Name": "A Thick Knobby Branch #29152",
         "Connections": {
-          "East": {
-            "RoomId": 29151,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 29151,
           "West": 29153
         }
       },
@@ -1281,13 +1197,7 @@
         "Id": 29153,
         "Name": "End of a Knobby Branch #29153",
         "Connections": {
-          "East": {
-            "RoomId": 29152,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 29152
         },
         "Contents": [
           {
@@ -1674,13 +1584,7 @@
         "Name": "Long Stringy Spotted Roots #29182",
         "Connections": {
           "North": 29181,
-          "East": {
-            "RoomId": 29183,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 29183
         },
         "Contents": [
           {
@@ -1701,13 +1605,7 @@
         "Id": 29183,
         "Name": "Behind the Spotted Roots #29183",
         "Connections": {
-          "West": {
-            "RoomId": 29182,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 29182
         },
         "Contents": [
           {
@@ -1854,22 +1752,10 @@
         "Id": 29197,
         "Name": "A Hole in the Tree #29197",
         "Connections": {
-          "North": {
-            "RoomId": 29201,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 29201,
           "East": 29199,
           "West": 29198,
-          "Up": {
-            "RoomId": 29200,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "Up": 29200,
           "Down": 29195
         }
       },
@@ -1891,26 +1777,14 @@
         "Id": 29200,
         "Name": "Top of the Idigblu Tree #29200",
         "Connections": {
-          "Down": {
-            "RoomId": 29197,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Down": 29197
         }
       },
       {
         "Id": 29201,
         "Name": "An Owl\u0027s Nest #29201",
         "Connections": {
-          "South": {
-            "RoomId": 29197,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 29197
         }
       },
       {
@@ -1944,13 +1818,7 @@
         "Name": "A Narrow Landscaped Trail Leading South #29205",
         "Connections": {
           "North": 29204,
-          "South": {
-            "RoomId": 29206,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 29206
         }
       },
       {
@@ -2000,26 +1868,14 @@
         "Connections": {
           "North": 29208,
           "East": 29057,
-          "South": {
-            "RoomId": 29210,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 29210
         }
       },
       {
         "Id": 29210,
         "Name": "Inside The Conservation Cabin #29210",
         "Connections": {
-          "North": {
-            "RoomId": 29209,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 29209,
           "East": 29211,
           "South": 29213,
           "West": 29212
@@ -2713,13 +2569,7 @@
         "Name": "A Long Hallway in Adventurer\u0027s School #29904",
         "Connections": {
           "North": 29907,
-          "East": {
-            "RoomId": 29905,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 29905,
           "South": 29901,
           "Down": {
             "RoomId": 29906,
@@ -2739,13 +2589,7 @@
         "Id": 29905,
         "Name": "Events, Astrological Signs, and Emotions Classroom #29905",
         "Connections": {
-          "West": {
-            "RoomId": 29904,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 29904
         }
       },
       {
@@ -2794,13 +2638,7 @@
         "Id": 29910,
         "Name": "Adventurer\u0027s hallway #29910",
         "Connections": {
-          "North": {
-            "RoomId": 29913,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 29913,
           "East": 29911,
           "South": 29907,
           "West": 29912
@@ -2825,98 +2663,39 @@
         "Name": "Adventurer\u0027s Hallway #29913",
         "Connections": {
           "North": 29919,
-          "East": {
-            "RoomId": 29914,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "South": {
-            "RoomId": 29910,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "West": {
-            "RoomId": 29915,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "Up": {
-            "RoomId": 29918,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": [
-              {
-                "Text": "a small glass key #29913",
-                "Color": "cornflowerblue"
-              }
-            ]
-          },
-          "Down": {
-            "RoomId": 29917,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 29914,
+          "South": 29910,
+          "West": 29915,
+          "Up": 29918,
+          "Down": 29917
         }
       },
       {
         "Id": 29914,
         "Name": "Title, Godtitle, and Who List Classroom #29914",
         "Connections": {
-          "West": {
-            "RoomId": 29913,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 29913
         }
       },
       {
         "Id": 29915,
         "Name": "Score, Stats, and Bonus Classroom #29915",
         "Connections": {
-          "East": {
-            "RoomId": 29913,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "East": 29913
         }
       },
       {
         "Id": 29916,
         "Name": "Auto Quest and Quest Classroom #29916",
         "Connections": {
-          "North": {
-            "RoomId": 29913,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 29913
         }
       },
       {
         "Id": 29917,
         "Name": "Forge, Inscribe Brew and Jewelcraft Classroom #29917",
         "Connections": {
-          "Up": {
-            "RoomId": 29913,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Up": 29913
         }
       },
       {
@@ -2998,13 +2777,7 @@
         "Name": "Adventurer\u0027s School Hallway #29926",
         "Connections": {
           "North": 29931,
-          "East": {
-            "RoomId": 29927,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 29927,
           "West": 29925
         }
       },
@@ -3012,34 +2785,10 @@
         "Id": 29927,
         "Name": "Administration Office #29927",
         "Connections": {
-          "North": {
-            "RoomId": 29928,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "East": {
-            "RoomId": 29930,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "South": {
-            "RoomId": 29929,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "West": {
-            "RoomId": 29926,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 29928,
+          "East": 29930,
+          "South": 29929,
+          "West": 29926
         },
         "Contents": [
           {
@@ -3052,13 +2801,7 @@
         "Id": 29928,
         "Name": "Nurse\u0027s Office #29928",
         "Connections": {
-          "South": {
-            "RoomId": 29927,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 29927
         },
         "Contents": [
           {
@@ -3071,20 +2814,8 @@
         "Id": 29929,
         "Name": "Secretary\u0027s Office #29929",
         "Connections": {
-          "North": {
-            "RoomId": 29927,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "East": {
-            "RoomId": 29941,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 29927,
+          "East": 29941
         },
         "Contents": [
           {
@@ -3097,13 +2828,7 @@
         "Id": 29930,
         "Name": "Principal\u0027s Office #29930",
         "Connections": {
-          "West": {
-            "RoomId": 29927,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 29927
         },
         "Contents": [
           {
@@ -3140,13 +2865,7 @@
         "Name": "The School Library #29933",
         "Connections": {
           "West": 29931,
-          "Up": {
-            "RoomId": 29946,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Up": 29946
         },
         "Contents": [
           {
@@ -3160,13 +2879,7 @@
         "Name": "Before the Girl\u0027s Bathroom #29934",
         "Connections": {
           "North": 29938,
-          "East": {
-            "RoomId": 29935,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "East": 29935,
           "South": 29931,
           "West": 29936
         }
@@ -3175,33 +2888,15 @@
         "Id": 29935,
         "Name": "The School Janitor\u0027s Closet #29935",
         "Connections": {
-          "West": {
-            "RoomId": 29934,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
-          "Down": {
-            "RoomId": 29948,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 29934,
+          "Down": 29948
         }
       },
       {
         "Id": 29936,
         "Name": "Girl\u0027s Restroom #29936",
         "Connections": {
-          "North": {
-            "RoomId": 29937,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 29937,
           "East": 29934
         }
       },
@@ -3209,13 +2904,7 @@
         "Id": 29937,
         "Name": "Inside a Stall #29937",
         "Connections": {
-          "South": {
-            "RoomId": 29936,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 29936
         },
         "Contents": [
           {
@@ -3237,13 +2926,7 @@
         "Id": 29939,
         "Name": "Boy\u0027s Restroom #29939",
         "Connections": {
-          "North": {
-            "RoomId": 29940,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 29940,
           "West": 29938
         }
       },
@@ -3251,13 +2934,7 @@
         "Id": 29940,
         "Name": "Inside a Stall #29940",
         "Connections": {
-          "South": {
-            "RoomId": 29939,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 29939
         },
         "Contents": [
           {
@@ -3270,13 +2947,7 @@
         "Id": 29941,
         "Name": "The Counselor\u0027s Office #29941",
         "Connections": {
-          "West": {
-            "RoomId": 29929,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "West": 29929
         },
         "Contents": [
           {
@@ -3334,13 +3005,7 @@
               }
             ]
           },
-          "Down": {
-            "RoomId": 29933,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Down": 29933
         }
       },
       {
@@ -3365,13 +3030,7 @@
         "Id": 29948,
         "Name": "Inside the Mop Bucket #29948",
         "Connections": {
-          "Up": {
-            "RoomId": 29935,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "Up": 29935
         }
       },
       {
@@ -3386,13 +3045,7 @@
         "Id": 29950,
         "Name": "Center Stage #29950",
         "Connections": {
-          "North": {
-            "RoomId": 29953,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          },
+          "North": 29953,
           "East": 29951,
           "South": 29949,
           "West": 29952,
@@ -3417,13 +3070,7 @@
         "Id": 29953,
         "Name": "Backstage #29953",
         "Connections": {
-          "South": {
-            "RoomId": 29950,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "South": 29950
         }
       },
       {
@@ -3451,13 +3098,7 @@
         "Id": 29957,
         "Name": "A set of Glass Doors #29957",
         "Connections": {
-          "North": {
-            "RoomId": 29958,
-            "Color": "cornflowerblue",
-            "IsDoor": true,
-            "DoorColor": "cornflowerblue",
-            "DoorSigns": []
-          }
+          "North": 29958
         }
       },
       {
