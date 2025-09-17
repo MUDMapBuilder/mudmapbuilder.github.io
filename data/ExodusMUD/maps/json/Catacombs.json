@@ -1,0 +1,806 @@
+{
+  "Area": {
+    "Name": "Catacombs",
+    "MinimumLevel": "1",
+    "MaximumLevel": "10",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 22800,
+        "Name": "A Set of Stone Steps #22800",
+        "Connections": {
+          "South": 22801,
+          "Down": 22814
+        }
+      },
+      {
+        "Id": 22801,
+        "Name": "A Stone Door #22801",
+        "Connections": {
+          "North": 22800,
+          "South": 22806,
+          "West": 22802
+        }
+      },
+      {
+        "Id": 22802,
+        "Name": "Slow Moving River #22802",
+        "Connections": {
+          "East": 22801,
+          "South": 22805,
+          "West": 22803
+        },
+        "Contents": [
+          {
+            "Text": "A fat mutant #22904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22803,
+        "Name": "Grate in the Wall #22803",
+        "Connections": {
+          "East": 22802,
+          "South": 22804,
+          "West": 22878
+        },
+        "Contents": [
+          {
+            "Text": "A gigantic rat #22900",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22804,
+        "Name": "Shanty Town #22804",
+        "Connections": {
+          "North": 22803,
+          "East": 22805,
+          "South": 22810
+        },
+        "Contents": [
+          {
+            "Text": "A three eyed mutant #22901",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22805,
+        "Name": "Bridge Over Nasty Waters #22805",
+        "Connections": {
+          "North": 22802,
+          "East": 22806,
+          "South": 22809,
+          "West": 22804
+        },
+        "Contents": [
+          {
+            "Text": "A three eyed mutant #22901",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22806,
+        "Name": "Shanty Town #22806",
+        "Connections": {
+          "North": 22801,
+          "East": 22807,
+          "South": 22808,
+          "West": 22805
+        }
+      },
+      {
+        "Id": 22807,
+        "Name": "The Bosss Office #22807",
+        "Connections": {
+          "West": 22806
+        },
+        "Contents": [
+          {
+            "Text": "Boss Carver #22903",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22808,
+        "Name": "Shanty Town #22808",
+        "Connections": {
+          "North": 22806,
+          "South": 22813,
+          "West": 22809
+        },
+        "Contents": [
+          {
+            "Text": "A three eyed mutant #22901",
+            "Color": "green"
+          },
+          {
+            "Text": "A fat mutant #22904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22809,
+        "Name": "Ancient Sewer #22809",
+        "Connections": {
+          "North": 22805,
+          "East": 22808,
+          "South": 22812,
+          "West": 22810,
+          "Up": 22877
+        }
+      },
+      {
+        "Id": 22810,
+        "Name": "Shanty Town #22810",
+        "Connections": {
+          "North": 22804,
+          "East": 22809,
+          "South": 22811
+        },
+        "Contents": [
+          {
+            "Text": "A fat mutant #22904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22811,
+        "Name": "Shanty Town #22811",
+        "Connections": {
+          "North": 22810,
+          "East": 22812
+        },
+        "Contents": [
+          {
+            "Text": "A gigantic rat #22900",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22812,
+        "Name": "Shanty Town #22812",
+        "Connections": {
+          "North": 22809,
+          "East": 22813,
+          "West": 22811
+        },
+        "Contents": [
+          {
+            "Text": "A three eyed mutant #22901",
+            "Color": "green"
+          },
+          {
+            "Text": "A fat mutant #22904",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22813,
+        "Name": "Shanty Town #22813",
+        "Connections": {
+          "North": 22808,
+          "West": 22812
+        },
+        "Contents": [
+          {
+            "Text": "A gigantic rat #22900",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22814,
+        "Name": "A Set of Stone Steps #22814",
+        "Connections": {
+          "Up": 22800,
+          "Down": 22815
+        }
+      },
+      {
+        "Id": 22815,
+        "Name": "Glittering Cave #22815",
+        "Connections": {
+          "South": 22816,
+          "Up": 22814
+        },
+        "Contents": [
+          {
+            "Text": "An ugly guard #22925",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22816,
+        "Name": "Glittering Cave #22816",
+        "Connections": {
+          "North": 22815,
+          "South": 22817
+        },
+        "Contents": [
+          {
+            "Text": "An ugly guard #22925",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22817,
+        "Name": "Glittering Cave #22817",
+        "Connections": {
+          "North": 22816,
+          "South": 22820
+        },
+        "Contents": [
+          {
+            "Text": "An ugly guard #22925",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22818,
+        "Name": "Guard House #22818",
+        "Connections": {
+          "East": 22819
+        },
+        "Contents": [
+          {
+            "Text": "A sleepy guard #22905",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22819,
+        "Name": "In Front of the Guard House #22819",
+        "Connections": {
+          "East": 22820,
+          "West": 22818
+        },
+        "Contents": [
+          {
+            "Text": "An ugly guard #22925",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22820,
+        "Name": "Glittering Cave #22820",
+        "Connections": {
+          "North": 22817,
+          "East": 22821,
+          "South": 22823,
+          "West": 22819
+        },
+        "Contents": [
+          {
+            "Text": "An ugly guard #22925",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22821,
+        "Name": "Glittering Cave #22821",
+        "Connections": {
+          "East": 22822,
+          "West": 22820
+        },
+        "Contents": [
+          {
+            "Text": "An ugly guard #22925",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22822,
+        "Name": "A Locked Trapped Door #22822",
+        "Connections": {
+          "West": 22821,
+          "Down": {
+            "RoomId": 22853,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a trap door key #22929",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The trap door guard #22924",
+            "Color": "green"
+          },
+          {
+            "Text": "An ugly guard #22925",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22823,
+        "Name": "On the Porch #22823",
+        "Connections": {
+          "North": 22820,
+          "South": 22825
+        },
+        "Contents": [
+          {
+            "Text": "An ugly guard #22925",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22825,
+        "Name": "Mayors House #22825",
+        "Connections": {
+          "North": 22823,
+          "East": 22826,
+          "South": 22834
+        }
+      },
+      {
+        "Id": 22826,
+        "Name": "Mayors Office #22826",
+        "Connections": {
+          "West": 22825
+        },
+        "Contents": [
+          {
+            "Text": "the mayor of Shanty Town #22907",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22829,
+        "Name": " #22829",
+        "Connections": {}
+      },
+      {
+        "Id": 22834,
+        "Name": "Mayors Bedroom #22834",
+        "Connections": {
+          "North": 22825
+        },
+        "Contents": [
+          {
+            "Text": "Meena #22906",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22835,
+        "Name": "Glowing Cave #22835",
+        "Connections": {
+          "South": 22836,
+          "West": 22838,
+          "Up": 22853
+        }
+      },
+      {
+        "Id": 22836,
+        "Name": "Glowing Cave #22836",
+        "Connections": {
+          "North": 22835,
+          "West": 22839
+        }
+      },
+      {
+        "Id": 22837,
+        "Name": "Glowing Cave #22837",
+        "Connections": {
+          "South": 22838,
+          "West": 22841
+        }
+      },
+      {
+        "Id": 22838,
+        "Name": "Glowing Cave #22838",
+        "Connections": {
+          "North": 22837,
+          "East": 22835,
+          "South": 22839,
+          "West": 22842
+        }
+      },
+      {
+        "Id": 22839,
+        "Name": "Glowing Cave #22839",
+        "Connections": {
+          "North": 22838,
+          "East": 22836,
+          "South": 22840,
+          "West": 22843
+        }
+      },
+      {
+        "Id": 22840,
+        "Name": "Glowing Cave #22840",
+        "Connections": {
+          "North": 22839,
+          "West": 22844
+        }
+      },
+      {
+        "Id": 22841,
+        "Name": "Glowing Cave #22841",
+        "Connections": {
+          "East": 22837,
+          "South": 22842,
+          "West": 22845
+        }
+      },
+      {
+        "Id": 22842,
+        "Name": "Glowing Cave #22842",
+        "Connections": {
+          "North": 22841,
+          "East": 22838,
+          "South": 22843,
+          "West": 22846
+        }
+      },
+      {
+        "Id": 22843,
+        "Name": "Glowing Cave #22843",
+        "Connections": {
+          "North": 22842,
+          "East": 22839,
+          "South": 22844,
+          "West": 22847
+        }
+      },
+      {
+        "Id": 22844,
+        "Name": "Glowing Cave #22844",
+        "Connections": {
+          "North": 22843,
+          "East": 22840,
+          "West": 22848
+        }
+      },
+      {
+        "Id": 22845,
+        "Name": "Glowing Cave #22845",
+        "Connections": {
+          "East": 22841,
+          "South": 22846
+        }
+      },
+      {
+        "Id": 22846,
+        "Name": "Glowing Cave #22846",
+        "Connections": {
+          "North": 22845,
+          "East": 22842,
+          "South": 22847,
+          "West": 22849
+        }
+      },
+      {
+        "Id": 22847,
+        "Name": "Glowing Cave #22847",
+        "Connections": {
+          "North": 22846,
+          "East": 22843,
+          "South": 22848,
+          "West": 22850
+        }
+      },
+      {
+        "Id": 22848,
+        "Name": "Glowing Cave #22848",
+        "Connections": {
+          "North": 22847,
+          "East": 22844
+        }
+      },
+      {
+        "Id": 22849,
+        "Name": "Glowing Cave #22849",
+        "Connections": {
+          "East": 22846,
+          "South": 22850,
+          "West": 22851
+        }
+      },
+      {
+        "Id": 22850,
+        "Name": "Glowing Cave #22850",
+        "Connections": {
+          "North": 22849,
+          "East": 22847
+        }
+      },
+      {
+        "Id": 22851,
+        "Name": "Glowing Cave #22851",
+        "Connections": {
+          "East": 22849,
+          "Down": 22852
+        }
+      },
+      {
+        "Id": 22852,
+        "Name": "Radioactive Cesspool #22852",
+        "Connections": {
+          "Up": 22851,
+          "Down": 22863
+        }
+      },
+      {
+        "Id": 22853,
+        "Name": "Glowing Cave #22853",
+        "Connections": {
+          "Up": {
+            "RoomId": 22822,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 22835
+        }
+      },
+      {
+        "Id": 22854,
+        "Name": "Radioactive Cesspool #22854",
+        "Connections": {
+          "East": 22855,
+          "Down": 22868
+        }
+      },
+      {
+        "Id": 22855,
+        "Name": "Radioactive Cesspool #22855",
+        "Connections": {
+          "East": 22856,
+          "West": 22854
+        }
+      },
+      {
+        "Id": 22856,
+        "Name": "Radioactive Cesspool #22856",
+        "Connections": {
+          "South": 22857,
+          "West": 22855
+        }
+      },
+      {
+        "Id": 22857,
+        "Name": "Radioactive Cesspool #22857",
+        "Connections": {
+          "North": 22856,
+          "East": 22858,
+          "South": 22859
+        }
+      },
+      {
+        "Id": 22858,
+        "Name": "Radioactive Cesspool #22858",
+        "Connections": {
+          "South": 22860,
+          "West": 22857
+        }
+      },
+      {
+        "Id": 22859,
+        "Name": "Radioactive Cesspool #22859",
+        "Connections": {
+          "North": 22857,
+          "East": 22860,
+          "South": 22862
+        }
+      },
+      {
+        "Id": 22860,
+        "Name": "Radioactive Cesspool #22860",
+        "Connections": {
+          "North": 22858,
+          "East": 22861,
+          "South": 22863,
+          "West": 22859
+        }
+      },
+      {
+        "Id": 22861,
+        "Name": "Radioactive Cesspool #22861",
+        "Connections": {
+          "South": 22864,
+          "West": 22860
+        },
+        "Contents": [
+          {
+            "Text": "Living ooze #22919",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22862,
+        "Name": "Radioactive Cesspool #22862",
+        "Connections": {
+          "North": 22859,
+          "East": 22863,
+          "South": 22865
+        }
+      },
+      {
+        "Id": 22863,
+        "Name": "Radioactive Cesspool #22863",
+        "Connections": {
+          "North": 22860,
+          "East": 22864,
+          "South": 22866,
+          "West": 22862,
+          "Up": 22852
+        }
+      },
+      {
+        "Id": 22864,
+        "Name": "Radioactive Cesspool #22864",
+        "Connections": {
+          "North": 22861,
+          "South": 22867,
+          "West": 22863
+        }
+      },
+      {
+        "Id": 22865,
+        "Name": "Radioactive Cesspool #22865",
+        "Connections": {
+          "North": 22862,
+          "East": 22866
+        }
+      },
+      {
+        "Id": 22866,
+        "Name": "Radioactive Cesspool #22866",
+        "Connections": {
+          "North": 22863,
+          "East": 22867,
+          "West": 22865
+        }
+      },
+      {
+        "Id": 22867,
+        "Name": "Radioactive Cesspool #22867",
+        "Connections": {
+          "North": 22864,
+          "West": 22866
+        }
+      },
+      {
+        "Id": 22868,
+        "Name": "A Watery Cave #22868",
+        "Connections": {
+          "South": 22869,
+          "Up": 22854
+        }
+      },
+      {
+        "Id": 22869,
+        "Name": "A Watery Cave #22869",
+        "Connections": {
+          "North": 22868,
+          "South": 22870
+        }
+      },
+      {
+        "Id": 22870,
+        "Name": "A Watery Cave #22870",
+        "Connections": {
+          "North": 22869,
+          "South": 22871
+        }
+      },
+      {
+        "Id": 22871,
+        "Name": "A Watery Cave #22871",
+        "Connections": {
+          "North": 22870,
+          "South": 22872
+        }
+      },
+      {
+        "Id": 22872,
+        "Name": "A Watery Cave #22872",
+        "Connections": {
+          "North": 22871,
+          "Up": 22873
+        }
+      },
+      {
+        "Id": 22873,
+        "Name": "A Watery Cave #22873",
+        "Connections": {
+          "Up": 22874,
+          "Down": 22872
+        }
+      },
+      {
+        "Id": 22874,
+        "Name": "A Watery Cave #22874",
+        "Connections": {
+          "Up": 22875,
+          "Down": 22873
+        }
+      },
+      {
+        "Id": 22875,
+        "Name": "A Watery Cave #22875",
+        "Connections": {
+          "Up": 22876,
+          "Down": 22874
+        }
+      },
+      {
+        "Id": 22876,
+        "Name": "A Watery Cave #22876",
+        "Connections": {
+          "Down": 22875
+        }
+      },
+      {
+        "Id": 22877,
+        "Name": "A Strange Circular Room #22877",
+        "Connections": {
+          "North": 5035,
+          "Down": 22809
+        }
+      },
+      {
+        "Id": 22878,
+        "Name": "A Large Pool of Disgusting Water #22878",
+        "Connections": {
+          "East": 22803,
+          "South": 22879
+        },
+        "Contents": [
+          {
+            "Text": "A mutant wader #22902",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22879,
+        "Name": "Mushroom Growing Room #22879",
+        "Connections": {
+          "North": 22878
+        }
+      },
+      {
+        "Id": 5035,
+        "FrameColor": "blue",
+        "Name": "To Thesdens Eastern Sewers #5035",
+        "Color": "blue",
+        "Connections": {
+          "East": 5036,
+          "South": 22877,
+          "West": 5034
+        }
+      }
+    ]
+  }
+}

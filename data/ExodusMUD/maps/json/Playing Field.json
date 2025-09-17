@@ -1,0 +1,140 @@
+{
+  "Area": {
+    "Name": "Playing Field",
+    "MinimumLevel": "92",
+    "MaximumLevel": "100",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 27200,
+        "Name": "In the hands of the Referee #27200",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "The ball #27201",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27201,
+        "Name": "Blue Team Goal #27201",
+        "Connections": {
+          "East": 27203
+        }
+      },
+      {
+        "Id": 27202,
+        "Name": "Blue Team Backfield #27202",
+        "Connections": {
+          "East": 27205,
+          "South": 27203
+        }
+      },
+      {
+        "Id": 27203,
+        "Name": "Blue Team Backfield #27203",
+        "Connections": {
+          "North": 27202,
+          "East": 27206,
+          "South": 27204,
+          "West": 27201
+        }
+      },
+      {
+        "Id": 27204,
+        "Name": "Blue Team Backfield #27204",
+        "Connections": {
+          "North": 27203,
+          "East": 27207
+        }
+      },
+      {
+        "Id": 27205,
+        "Name": "Midfield #27205",
+        "Connections": {
+          "East": 27208,
+          "South": 27206,
+          "West": 27202
+        }
+      },
+      {
+        "Id": 27206,
+        "Name": "Center of the Playing Field #27206",
+        "Connections": {
+          "North": 27205,
+          "East": 27209,
+          "South": 27207,
+          "West": 27203
+        }
+      },
+      {
+        "Id": 27207,
+        "Name": "Midfield #27207",
+        "Connections": {
+          "North": 27206,
+          "East": 27210,
+          "West": 27204
+        }
+      },
+      {
+        "Id": 27208,
+        "Name": "Red Team Backfield #27208",
+        "Connections": {
+          "South": 27209,
+          "West": 27205
+        }
+      },
+      {
+        "Id": 27209,
+        "Name": "Red Team Backfield #27209",
+        "Connections": {
+          "North": 27208,
+          "East": 27211,
+          "South": 27210,
+          "West": 27206
+        }
+      },
+      {
+        "Id": 27210,
+        "Name": "Red Team Backfield #27210",
+        "Connections": {
+          "North": 27209,
+          "West": 27207
+        }
+      },
+      {
+        "Id": 27211,
+        "Name": "Red Team Goal #27211",
+        "Connections": {
+          "West": 27209
+        }
+      },
+      {
+        "Id": 27212,
+        "Name": "Soccer Team SignUp Room #27212",
+        "Connections": {
+          "North": 4064
+        },
+        "Contents": [
+          {
+            "Text": "The referee #27200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4064,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4064",
+        "Color": "blue",
+        "Connections": {
+          "North": 4150,
+          "East": 4065,
+          "South": 27212,
+          "West": 4063
+        }
+      }
+    ]
+  }
+}

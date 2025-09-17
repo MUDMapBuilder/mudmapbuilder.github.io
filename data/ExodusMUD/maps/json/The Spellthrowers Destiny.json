@@ -1,0 +1,626 @@
+{
+  "Area": {
+    "Name": "The Spellthrowers Destiny",
+    "MinimumLevel": "20",
+    "MaximumLevel": "50",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 12212,
+        "Name": "An Innocuous Little Cave #12212",
+        "Connections": {
+          "East": 20470,
+          "West": 12213
+        },
+        "Contents": [
+          {
+            "Text": "The Guardian #12212",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12213,
+        "Name": "Inside the Secret Passage #12213",
+        "Connections": {
+          "North": 12214,
+          "East": 12212
+        }
+      },
+      {
+        "Id": 12214,
+        "Name": "The Passageway #12214",
+        "Connections": {
+          "North": 12215,
+          "South": 12213
+        }
+      },
+      {
+        "Id": 12215,
+        "Name": "The Passageway #12215",
+        "Connections": {
+          "North": 12216,
+          "South": 12214
+        }
+      },
+      {
+        "Id": 12216,
+        "Name": "A Bend In the Passageway #12216",
+        "Connections": {
+          "East": 12217,
+          "South": 12215
+        }
+      },
+      {
+        "Id": 12217,
+        "Name": "The End of the Passageway #12217",
+        "Connections": {
+          "North": 12218,
+          "West": 12216
+        }
+      },
+      {
+        "Id": 12218,
+        "Name": "The Entrance to the Giant Cave #12218",
+        "Connections": {
+          "North": 12219,
+          "South": 12217
+        }
+      },
+      {
+        "Id": 12219,
+        "Name": "The Giant Cave Complex #12219",
+        "Connections": {
+          "North": 12228,
+          "East": 12227,
+          "South": 12218,
+          "West": 12226
+        },
+        "Contents": [
+          {
+            "Text": "A crewman #12214",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12220,
+        "Name": "The Southeastern Corner of the Complex #12220",
+        "Connections": {
+          "North": 12221,
+          "West": 12227
+        }
+      },
+      {
+        "Id": 12221,
+        "Name": "The Eastern Side of the Complex #12221",
+        "Connections": {
+          "North": 12222,
+          "South": 12220
+        },
+        "Contents": [
+          {
+            "Text": "A crewman #12214",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12222,
+        "Name": "The Northeastern Corner of the Complex #12222",
+        "Connections": {
+          "South": 12221,
+          "West": 12223
+        }
+      },
+      {
+        "Id": 12223,
+        "Name": "The Northern Side of the Complex #12223",
+        "Connections": {
+          "East": 12222,
+          "South": 12228,
+          "West": 12224
+        },
+        "Contents": [
+          {
+            "Text": "A crewman #12214",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12224,
+        "Name": "The Northwest Corner of the Complex #12224",
+        "Connections": {
+          "East": 12223,
+          "South": 12225
+        }
+      },
+      {
+        "Id": 12225,
+        "Name": "The Western Side of the Complex #12225",
+        "Connections": {
+          "North": 12224,
+          "South": 12226
+        },
+        "Contents": [
+          {
+            "Text": "A crewman #12214",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12226,
+        "Name": "The Southwestern Corner of the Complex #12226",
+        "Connections": {
+          "North": 12225,
+          "East": 12219
+        }
+      },
+      {
+        "Id": 12227,
+        "Name": "The Southern Side of the Complex #12227",
+        "Connections": {
+          "East": 12220,
+          "West": 12219,
+          "Up": 12262
+        }
+      },
+      {
+        "Id": 12228,
+        "Name": "At the Boarding Ramp of the Spellthrowers Destiny #12228",
+        "Connections": {
+          "North": 12223,
+          "East": 12229,
+          "South": 12219,
+          "West": 12225
+        }
+      },
+      {
+        "Id": 12229,
+        "Name": "Main Deck of the Destiny #12229",
+        "Connections": {
+          "North": 12231,
+          "South": 12230,
+          "West": 12228,
+          "Up": 12232,
+          "Down": 12235
+        },
+        "Contents": [
+          {
+            "Text": "A guard #12226",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12230,
+        "Name": "The Quarterdeck of the Destiny #12230",
+        "Connections": {
+          "North": 12229
+        },
+        "Contents": [
+          {
+            "Text": "A busy worker #12213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12231,
+        "Name": "On the Forecastle #12231",
+        "Connections": {
+          "South": 12229
+        },
+        "Contents": [
+          {
+            "Text": "Warin #12223",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12232,
+        "Name": "Up the Mainmast #12232",
+        "Connections": {
+          "Up": 12233,
+          "Down": 12229
+        }
+      },
+      {
+        "Id": 12233,
+        "Name": "Up the Mainmast #12233",
+        "Connections": {
+          "Up": 12234,
+          "Down": 12232
+        }
+      },
+      {
+        "Id": 12234,
+        "Name": "In the Crows Nest #12234",
+        "Connections": {
+          "Down": 12233
+        },
+        "Contents": [
+          {
+            "Text": "Warin #12223",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12235,
+        "Name": "The First Deck of the Destiny #12235",
+        "Connections": {
+          "North": 12248,
+          "South": 12236,
+          "Up": 12229,
+          "Down": 12252
+        },
+        "Contents": [
+          {
+            "Text": "A ships cat #12224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12236,
+        "Name": "In the corridor #12236",
+        "Connections": {
+          "North": 12235,
+          "East": 12238,
+          "South": 12239,
+          "West": 12237
+        }
+      },
+      {
+        "Id": 12237,
+        "Name": "The First Mates Cabin #12237",
+        "Connections": {
+          "East": 12236
+        },
+        "Contents": [
+          {
+            "Text": "Korshaf #12218",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12238,
+        "Name": "Guest Quarters on the Destiny #12238",
+        "Connections": {
+          "West": 12236
+        }
+      },
+      {
+        "Id": 12239,
+        "Name": "In the corridor #12239",
+        "Connections": {
+          "North": 12236,
+          "East": 12240,
+          "South": 12242,
+          "West": 12241
+        }
+      },
+      {
+        "Id": 12240,
+        "Name": "The Navigators Cabin #12240",
+        "Connections": {
+          "West": 12239
+        },
+        "Contents": [
+          {
+            "Text": "Sheifflem #12220",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12241,
+        "Name": "Jarek Dragonsbanes Personal Quarters #12241",
+        "Connections": {
+          "East": 12239
+        },
+        "Contents": [
+          {
+            "Text": "Jarek Dragonsbane #12216",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12242,
+        "Name": "End of the corridor #12242",
+        "Connections": {
+          "North": 12239,
+          "East": 12243,
+          "South": 12245,
+          "West": 12244
+        },
+        "Contents": [
+          {
+            "Text": "A guard #12226",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12243,
+        "Name": "Officers Quarters #12243",
+        "Connections": {
+          "West": 12242
+        },
+        "Contents": [
+          {
+            "Text": "Pythagas #12221",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12244,
+        "Name": "Arcanus Quarters #12244",
+        "Connections": {
+          "East": 12242
+        },
+        "Contents": [
+          {
+            "Text": "Arcanus Kalembreth #12219",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12245,
+        "Name": "The Captains Cabin #12245",
+        "Connections": {
+          "North": 12242,
+          "South": 12246
+        },
+        "Contents": [
+          {
+            "Text": "Marcus Thalominus #12215",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12246,
+        "Name": "Secret Room #12246",
+        "Connections": {
+          "North": 12245
+        }
+      },
+      {
+        "Id": 12248,
+        "Name": "End of the corridor #12248",
+        "Connections": {
+          "North": 12250,
+          "East": 12251,
+          "South": 12235,
+          "West": 12249
+        },
+        "Contents": [
+          {
+            "Text": "A busy worker #12213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12249,
+        "Name": "The Wardroom (Captains Mess) #12249",
+        "Connections": {
+          "East": 12248
+        }
+      },
+      {
+        "Id": 12250,
+        "Name": "First Deck Armory #12250",
+        "Connections": {
+          "South": 12248
+        },
+        "Contents": [
+          {
+            "Text": "A guard #12226",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12251,
+        "Name": "Guest Quarters on the Destiny #12251",
+        "Connections": {
+          "West": 12248
+        }
+      },
+      {
+        "Id": 12252,
+        "Name": "The Second Deck of the Destiny #12252",
+        "Connections": {
+          "North": 12253,
+          "South": 12257,
+          "Up": 12235,
+          "Down": 12262
+        }
+      },
+      {
+        "Id": 12253,
+        "Name": "In the corridor #12253",
+        "Connections": {
+          "North": 12256,
+          "East": 12255,
+          "South": 12252,
+          "West": 12254
+        }
+      },
+      {
+        "Id": 12254,
+        "Name": "Crew Quarters #12254",
+        "Connections": {
+          "East": 12253
+        }
+      },
+      {
+        "Id": 12255,
+        "Name": "Crew Quarters #12255",
+        "Connections": {
+          "West": 12253
+        },
+        "Contents": [
+          {
+            "Text": "A busy worker #12213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12256,
+        "Name": "Second Deck Armory #12256",
+        "Connections": {
+          "South": 12253,
+          "Up": 12250
+        },
+        "Contents": [
+          {
+            "Text": "A guard #12226",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12257,
+        "Name": "In the corridor #12257",
+        "Connections": {
+          "North": 12252,
+          "East": 12258,
+          "South": 12260,
+          "West": 12259
+        }
+      },
+      {
+        "Id": 12258,
+        "Name": "Crew Quarters #12258",
+        "Connections": {
+          "West": 12257
+        }
+      },
+      {
+        "Id": 12259,
+        "Name": "Crew Quarters #12259",
+        "Connections": {
+          "East": 12257
+        }
+      },
+      {
+        "Id": 12260,
+        "Name": "Ships Mess #12260",
+        "Connections": {
+          "North": 12257,
+          "South": 12261
+        }
+      },
+      {
+        "Id": 12261,
+        "Name": "Galley #12261",
+        "Connections": {
+          "North": 12260
+        },
+        "Contents": [
+          {
+            "Text": "The ships cat #12225",
+            "Color": "green"
+          },
+          {
+            "Text": "The Ships Cook #12227",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12262,
+        "Name": "The Ships Hold #12262",
+        "Connections": {
+          "North": 12263,
+          "East": 12267,
+          "South": 12227,
+          "West": 12266,
+          "Up": 12252
+        },
+        "Contents": [
+          {
+            "Text": "A guard #12226",
+            "Color": "green"
+          },
+          {
+            "Text": "A ships cat #12224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12263,
+        "Name": "Main Hold #12263",
+        "Connections": {
+          "East": 12264,
+          "South": 12262,
+          "West": 12265
+        },
+        "Contents": [
+          {
+            "Text": "A busy worker #12213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 12264,
+        "Name": "Main Hold #12264",
+        "Connections": {
+          "West": 12263
+        }
+      },
+      {
+        "Id": 12265,
+        "Name": "Main Hold #12265",
+        "Connections": {
+          "East": 12263
+        }
+      },
+      {
+        "Id": 12266,
+        "Name": "Ammunition Locker #12266",
+        "Connections": {
+          "East": 12262
+        }
+      },
+      {
+        "Id": 12267,
+        "Name": "Powder Room #12267",
+        "Connections": {
+          "West": 12262
+        },
+        "Contents": [
+          {
+            "Text": "A busy worker #12213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 20470,
+        "FrameColor": "blue",
+        "Name": "To The town of Ebon Downs #20470",
+        "Color": "blue",
+        "Connections": {
+          "East": 33621,
+          "South": 33720,
+          "West": 12212
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1079 @@
+{
+  "Area": {
+    "Name": "Crimson Courts",
+    "MinimumLevel": "1",
+    "MaximumLevel": "90",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 601,
+        "Name": "The Crimson Courtroom #601",
+        "Connections": {
+          "North": 603,
+          "East": {
+            "RoomId": 602,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "Bailiffs key #666",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 606,
+          "West": {
+            "RoomId": 666,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "Bailiffs key #666",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Red the bailiff #601",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 602,
+        "Name": "Sequester Room #602",
+        "Connections": {
+          "West": {
+            "RoomId": 601,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 603,
+        "Name": "Hallway #603",
+        "Connections": {
+          "North": 604,
+          "South": 601
+        }
+      },
+      {
+        "Id": 604,
+        "Name": "Hallway #604",
+        "Connections": {
+          "North": 605,
+          "East": 612,
+          "South": 603,
+          "West": 611
+        }
+      },
+      {
+        "Id": 605,
+        "Name": "Hallway #605",
+        "Connections": {
+          "North": {
+            "RoomId": 631,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a large gavel #633",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 604
+        }
+      },
+      {
+        "Id": 606,
+        "Name": "Outside the Courtroom Doors #606",
+        "Connections": {
+          "North": 601,
+          "East": 608,
+          "South": 609,
+          "West": {
+            "RoomId": 607,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a Bar Exam diploma #608",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 607,
+        "Name": "Vestibule of the Barrister #607",
+        "Connections": {
+          "North": {
+            "RoomId": 666,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a Bar Exam diploma #608",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": {
+            "RoomId": 606,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a Bar Exam diploma #608",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 608,
+        "Name": "Snack Room #608",
+        "Connections": {
+          "West": 606
+        },
+        "Contents": [
+          {
+            "Text": "Spink the vendor #608",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 609,
+        "Name": "Hallway #609",
+        "Connections": {
+          "North": 606,
+          "South": 610
+        }
+      },
+      {
+        "Id": 610,
+        "Name": "Third Floor Hallway #610",
+        "Connections": {
+          "North": 609
+        }
+      },
+      {
+        "Id": 611,
+        "Name": "Conference Room #611",
+        "Connections": {
+          "East": 604
+        }
+      },
+      {
+        "Id": 612,
+        "Name": "Law Library #612",
+        "Connections": {
+          "West": 604
+        }
+      },
+      {
+        "Id": 613,
+        "Name": "The Lift #613",
+        "Connections": {}
+      },
+      {
+        "Id": 614,
+        "Name": "Second Floor #614",
+        "Connections": {
+          "North": 649
+        }
+      },
+      {
+        "Id": 615,
+        "Name": "Main Lobby #615",
+        "Connections": {
+          "North": 617
+        }
+      },
+      {
+        "Id": 616,
+        "Name": "The Gaol #616",
+        "Connections": {
+          "North": {
+            "RoomId": 619,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "gaol entry key #628",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The gate guard #616",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 617,
+        "Name": "Center of the Main Lobby #617",
+        "Connections": {
+          "North": 641,
+          "East": 643,
+          "South": 615,
+          "West": 642
+        }
+      },
+      {
+        "Id": 618,
+        "Name": "Antechamber #618",
+        "Connections": {
+          "North": 620,
+          "East": 627,
+          "South": {
+            "RoomId": 619,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "gaol entry key #628",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 621
+        }
+      },
+      {
+        "Id": 619,
+        "Name": "The Guard Room #619",
+        "Connections": {
+          "North": {
+            "RoomId": 618,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "gaol entry key #628",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 616,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "gaol entry key #628",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The gaol warden #619",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 620,
+        "Name": "Dark Corridor #620",
+        "Connections": {
+          "North": 628,
+          "East": {
+            "RoomId": 633,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "Master Gaol Key #625",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 618,
+          "West": {
+            "RoomId": 632,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "Master Gaol Key #625",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 621,
+        "Name": "A Small Passage #621",
+        "Connections": {
+          "East": 618,
+          "South": 622
+        },
+        "Contents": [
+          {
+            "Text": "A lift guard #623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 622,
+        "Name": "A Small Passage #622",
+        "Connections": {
+          "North": 621,
+          "South": 623
+        },
+        "Contents": [
+          {
+            "Text": "A lift guard #623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 623,
+        "Name": "The Workings of the Lift #623",
+        "Connections": {
+          "North": 622,
+          "East": 624
+        },
+        "Contents": [
+          {
+            "Text": "A lift guard #623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 624,
+        "Name": "Under the Lift #624",
+        "Connections": {
+          "East": 625,
+          "West": 623
+        },
+        "Contents": [
+          {
+            "Text": "The Liftmaster #624",
+            "Color": "red"
+          },
+          {
+            "Text": "A prisoner #627",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 625,
+        "Name": "The Workings of the Lift #625",
+        "Connections": {
+          "North": 626,
+          "West": 624
+        },
+        "Contents": [
+          {
+            "Text": "A lift guard #623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 626,
+        "Name": "A Small Passage #626",
+        "Connections": {
+          "North": 627,
+          "South": 625
+        },
+        "Contents": [
+          {
+            "Text": "A lift guard #623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 627,
+        "Name": "A Small Passage #627",
+        "Connections": {
+          "South": 626,
+          "West": 618
+        },
+        "Contents": [
+          {
+            "Text": "A lift guard #623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 628,
+        "Name": "Dark Corridor #628",
+        "Connections": {
+          "North": 629,
+          "East": {
+            "RoomId": 635,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "Master Gaol Key #625",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 620,
+          "West": {
+            "RoomId": 634,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "Master Gaol Key #625",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 629,
+        "Name": "Dark Corridor #629",
+        "Connections": {
+          "North": 630,
+          "East": {
+            "RoomId": 637,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "Master Gaol Key #625",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 628,
+          "West": {
+            "RoomId": 636,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "Master Gaol Key #625",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 630,
+        "Name": "Dark Corridor #630",
+        "Connections": {
+          "North": 640,
+          "East": {
+            "RoomId": 639,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "Master Gaol Key #625",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 629,
+          "West": {
+            "RoomId": 638,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "Master Gaol Key #625",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 631,
+        "Name": "The Chamber of the Judge #631",
+        "Connections": {
+          "South": {
+            "RoomId": 605,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 632,
+        "Name": "Gaol Cell #632",
+        "Connections": {
+          "East": {
+            "RoomId": 620,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A prisoner #626",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 633,
+        "Name": "Gaol Cell #633",
+        "Connections": {
+          "West": {
+            "RoomId": 620,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 634,
+        "Name": "Gaol Cell #634",
+        "Connections": {
+          "East": {
+            "RoomId": 628,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A prisoner #626",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 635,
+        "Name": "Gaol Cell #635",
+        "Connections": {
+          "West": {
+            "RoomId": 628,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 636,
+        "Name": "Gaol Cell #636",
+        "Connections": {
+          "East": {
+            "RoomId": 629,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 637,
+        "Name": "Gaol Cell #637",
+        "Connections": {
+          "West": {
+            "RoomId": 629,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A prisoner #626",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 638,
+        "Name": "Gaol Cell #638",
+        "Connections": {
+          "East": {
+            "RoomId": 630,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 668
+        },
+        "Contents": [
+          {
+            "Text": "A prisoner #626",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 639,
+        "Name": "Gaol Cell #639",
+        "Connections": {
+          "West": {
+            "RoomId": 630,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 640,
+        "Name": "Guard Room #640",
+        "Connections": {
+          "South": 630
+        },
+        "Contents": [
+          {
+            "Text": "A gaol guard #625",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 641,
+        "Name": "Main Lobby #641",
+        "Connections": {
+          "North": 644,
+          "South": 617
+        }
+      },
+      {
+        "Id": 642,
+        "Name": "Entrance of the Courts Building #642",
+        "Connections": {
+          "East": 617,
+          "West": 4003
+        }
+      },
+      {
+        "Id": 643,
+        "Name": "Entrance of the Courts Building #643",
+        "Connections": {
+          "South": 665,
+          "West": 617
+        }
+      },
+      {
+        "Id": 644,
+        "Name": "The Hall of Barristers #644",
+        "Connections": {
+          "North": 645,
+          "South": 641
+        }
+      },
+      {
+        "Id": 645,
+        "Name": "The Hall of Barristers #645",
+        "Connections": {
+          "North": 646,
+          "South": 644
+        }
+      },
+      {
+        "Id": 646,
+        "Name": "The Hall of Barristers #646",
+        "Connections": {
+          "North": 647,
+          "South": 645
+        }
+      },
+      {
+        "Id": 647,
+        "Name": "The Hall of Barristers #647",
+        "Connections": {
+          "North": 648,
+          "South": 646
+        }
+      },
+      {
+        "Id": 648,
+        "Name": "The Hall of Barristers #648",
+        "Connections": {
+          "South": 647
+        }
+      },
+      {
+        "Id": 649,
+        "Name": "Registration #649",
+        "Connections": {
+          "North": 650,
+          "South": 614
+        },
+        "Contents": [
+          {
+            "Text": "The registrar #663",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 650,
+        "Name": "Reception Area #650",
+        "Connections": {
+          "North": {
+            "RoomId": 651,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "Law School Registration #676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 649
+        },
+        "Contents": [
+          {
+            "Text": "The Dean of Exodus Law School #664",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 651,
+        "Name": "Law School of Exodus #651",
+        "Connections": {
+          "North": 652,
+          "South": 650
+        }
+      },
+      {
+        "Id": 652,
+        "Name": "Law School Hallway #652",
+        "Connections": {
+          "North": 653,
+          "East": 658,
+          "South": 651,
+          "West": 657
+        }
+      },
+      {
+        "Id": 653,
+        "Name": "Law School Hallway #653",
+        "Connections": {
+          "North": 654,
+          "East": 660,
+          "South": 652,
+          "West": 659
+        }
+      },
+      {
+        "Id": 654,
+        "Name": "Law School Hallway #654",
+        "Connections": {
+          "North": 655,
+          "East": 662,
+          "South": 653,
+          "West": 661
+        }
+      },
+      {
+        "Id": 655,
+        "Name": "Law School Hallway #655",
+        "Connections": {
+          "North": 656,
+          "South": 654
+        }
+      },
+      {
+        "Id": 656,
+        "Name": "Exam Room #656",
+        "Connections": {
+          "South": 655
+        }
+      },
+      {
+        "Id": 657,
+        "Name": "Classroom #657",
+        "Connections": {
+          "East": 652
+        },
+        "Contents": [
+          {
+            "Text": "The professor #657",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 658,
+        "Name": "Classroom #658",
+        "Connections": {
+          "West": 652
+        },
+        "Contents": [
+          {
+            "Text": "The professor #658",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 659,
+        "Name": "Classroom #659",
+        "Connections": {
+          "East": 653
+        },
+        "Contents": [
+          {
+            "Text": "The professor #659",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 660,
+        "Name": "Classroom #660",
+        "Connections": {
+          "West": 653
+        },
+        "Contents": [
+          {
+            "Text": "The professor #660",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 661,
+        "Name": "Classroom #661",
+        "Connections": {
+          "East": 654
+        },
+        "Contents": [
+          {
+            "Text": "The professor #661",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 662,
+        "Name": "Classroom #662",
+        "Connections": {
+          "West": 654
+        },
+        "Contents": [
+          {
+            "Text": "The professor #662",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 665,
+        "Name": "Pathway to the Courts Building #665",
+        "Connections": {
+          "North": 643,
+          "South": 4005
+        }
+      },
+      {
+        "Id": 666,
+        "Name": "THE HOLDING CELL #666",
+        "Connections": {
+          "East": {
+            "RoomId": 601,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 607,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a Bar Exam diploma #608",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 667,
+        "Name": "End of the Pipe #667",
+        "Connections": {
+          "East": 678,
+          "West": 4019
+        }
+      },
+      {
+        "Id": 668,
+        "Name": "An Escape Tunnel #668",
+        "Connections": {
+          "North": 669,
+          "South": 670,
+          "West": 671
+        }
+      },
+      {
+        "Id": 669,
+        "Name": "An Escape Tunnel #669",
+        "Connections": {
+          "North": 673,
+          "South": 668
+        }
+      },
+      {
+        "Id": 670,
+        "Name": "An Escape Tunnel #670",
+        "Connections": {
+          "North": 668,
+          "South": 679
+        }
+      },
+      {
+        "Id": 671,
+        "Name": "An Escape Tunnel #671",
+        "Connections": {
+          "East": 668,
+          "West": 672
+        }
+      },
+      {
+        "Id": 672,
+        "Name": "Flooded Tunnel #672",
+        "Connections": {
+          "East": 671
+        }
+      },
+      {
+        "Id": 673,
+        "Name": "An Old Passage #673",
+        "Connections": {
+          "East": 674,
+          "South": 669,
+          "West": 675
+        }
+      },
+      {
+        "Id": 674,
+        "Name": "An Old Passage #674",
+        "Connections": {
+          "West": 673
+        }
+      },
+      {
+        "Id": 675,
+        "Name": "An Old Passage #675",
+        "Connections": {
+          "East": 673
+        }
+      },
+      {
+        "Id": 677,
+        "Name": "In the Old Sewer Pipe #677",
+        "Connections": {
+          "West": 678
+        }
+      },
+      {
+        "Id": 678,
+        "Name": "In the Old Sewer Pipe #678",
+        "Connections": {
+          "East": 677,
+          "West": 667
+        }
+      },
+      {
+        "Id": 679,
+        "Name": "Dead End #679",
+        "Connections": {
+          "North": 670
+        }
+      },
+      {
+        "Id": 4003,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4003",
+        "Color": "blue",
+        "Connections": {
+          "North": 4002,
+          "East": 642,
+          "South": 4004
+        }
+      },
+      {
+        "Id": 4005,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4005",
+        "Color": "blue",
+        "Connections": {
+          "North": 665,
+          "East": 4043,
+          "South": 4006,
+          "West": 4004
+        }
+      },
+      {
+        "Id": 4019,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4019",
+        "Color": "blue",
+        "Connections": {
+          "South": 4020,
+          "West": 4018,
+          "Up": 4012
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,954 @@
+{
+  "Area": {
+    "Name": "Argent Stronghold",
+    "MinimumLevel": "55",
+    "MaximumLevel": "91",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 7251,
+        "Name": "A forest clearing #7251",
+        "Connections": {
+          "North": 7252,
+          "South": 13172
+        }
+      },
+      {
+        "Id": 7252,
+        "Name": "The Brass Gate #7252",
+        "Connections": {
+          "North": 7253,
+          "South": 7251
+        }
+      },
+      {
+        "Id": 7253,
+        "Name": "Knights Training Grounds #7253",
+        "Connections": {
+          "East": 7254,
+          "South": 7252
+        },
+        "Contents": [
+          {
+            "Text": "a champion of the Argent Lance order #7251",
+            "Color": "green"
+          },
+          {
+            "Text": "a champion of the Argent Lance order #7251",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7254,
+        "Name": "Knights Combat Grounds #7254",
+        "Connections": {
+          "East": 7255,
+          "West": 7253
+        },
+        "Contents": [
+          {
+            "Text": "a cavalier of the Argent Lance order #7252",
+            "Color": "green"
+          },
+          {
+            "Text": "a cavalier of the Argent Lance order #7252",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7255,
+        "Name": "A Medics Booth #7255",
+        "Connections": {
+          "East": 7256,
+          "West": 7254
+        },
+        "Contents": [
+          {
+            "Text": "a knighttemplar of the Argent Lance #7253",
+            "Color": "green"
+          },
+          {
+            "Text": "a knighttemplar of the Argent Lance #7253",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7256,
+        "Name": "Knights Combat Grounds #7256",
+        "Connections": {
+          "East": 7257,
+          "West": 7255
+        },
+        "Contents": [
+          {
+            "Text": "a knighttemplar of the Argent Lance #7253",
+            "Color": "green"
+          },
+          {
+            "Text": "a knighttemplar of the Argent Lance #7253",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7257,
+        "Name": "Knights Shrine #7257",
+        "Connections": {
+          "North": 7258,
+          "West": 7256
+        },
+        "Contents": [
+          {
+            "Text": "a tenantmaster liege of the Argent Lance order #7254",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7258,
+        "Name": "Echelon Portal of Ascendance #7258",
+        "Connections": {
+          "North": 7259,
+          "South": 7257
+        }
+      },
+      {
+        "Id": 7259,
+        "Name": "Paladins Training Grounds #7259",
+        "Connections": {
+          "South": 7258,
+          "West": 7260
+        },
+        "Contents": [
+          {
+            "Text": "a competent challengerknight #7255",
+            "Color": "green"
+          },
+          {
+            "Text": "a competent challengerknight #7255",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7260,
+        "Name": "Paladins Training Grounds #7260",
+        "Connections": {
+          "East": 7259,
+          "West": 7261
+        },
+        "Contents": [
+          {
+            "Text": "A grand knight of the Argent Lance #7257",
+            "Color": "green"
+          },
+          {
+            "Text": "A grand knight of the Argent Lance #7257",
+            "Color": "green"
+          },
+          {
+            "Text": "A leaderpaladin of the Argent Lance #7256",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7261,
+        "Name": "Paladins Combat Grounds #7261",
+        "Connections": {
+          "East": 7260,
+          "West": 7262
+        },
+        "Contents": [
+          {
+            "Text": "A grand knight of the Argent Lance #7257",
+            "Color": "green"
+          },
+          {
+            "Text": "A grand knight of the Argent Lance #7257",
+            "Color": "green"
+          },
+          {
+            "Text": "the Grand Master Paladin Xorkd #7287",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7262,
+        "Name": "A Church #7262",
+        "Connections": {
+          "North": 7263,
+          "East": 7261
+        },
+        "Contents": [
+          {
+            "Text": "a supremezealot of the order of the Argent Lance #7258",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7263,
+        "Name": "Echelon Portal of Ascendance #7263",
+        "Connections": {
+          "North": 7264,
+          "South": 7262
+        }
+      },
+      {
+        "Id": 7264,
+        "Name": "Ascendants Training Grounds #7264",
+        "Connections": {
+          "East": 7265,
+          "South": 7263
+        },
+        "Contents": [
+          {
+            "Text": "A low ascendant of the Allied Order #7259",
+            "Color": "green"
+          },
+          {
+            "Text": "A low ascendant of the Allied Order #7259",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7265,
+        "Name": "Ascendants Combat Arena #7265",
+        "Connections": {
+          "East": 7266,
+          "West": 7264
+        },
+        "Contents": [
+          {
+            "Text": "A grand ascendant of the Allied Order #7260",
+            "Color": "green"
+          },
+          {
+            "Text": "A low ascendant of the Allied Order #7259",
+            "Color": "green"
+          },
+          {
+            "Text": "A low ascendant of the Allied Order #7259",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7266,
+        "Name": "Ascendants Worship Temple #7266",
+        "Connections": {
+          "North": 7267,
+          "West": 7265
+        },
+        "Contents": [
+          {
+            "Text": "A grand ascendant of the Allied Order #7260",
+            "Color": "green"
+          },
+          {
+            "Text": "a pure ascendant of the Allied Order #7261",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7267,
+        "Name": "Echelon Portal of Ascendance #7267",
+        "Connections": {
+          "North": 7268,
+          "South": 7266
+        }
+      },
+      {
+        "Id": 7268,
+        "Name": "Holy Ground #7268",
+        "Connections": {
+          "South": 7267,
+          "West": 7269
+        },
+        "Contents": [
+          {
+            "Text": "A servantangel of the Allied Order #7262",
+            "Color": "green"
+          },
+          {
+            "Text": "A servantangel of the Allied Order #7262",
+            "Color": "green"
+          },
+          {
+            "Text": "A servantangel of the Allied Order #7262",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7269,
+        "Name": "The Cloud Shrine #7269",
+        "Connections": {
+          "East": 7268,
+          "West": 7270
+        },
+        "Contents": [
+          {
+            "Text": "A gallantangel of the Allied Order #7263",
+            "Color": "green"
+          },
+          {
+            "Text": "A gallantangel of the Allied Order #7263",
+            "Color": "green"
+          },
+          {
+            "Text": "A servantangel of the Allied Order #7262",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7270,
+        "Name": "Angels Testing Grounds #7270",
+        "Connections": {
+          "East": 7269,
+          "West": 7271
+        },
+        "Contents": [
+          {
+            "Text": "An archangel of the Allied Order #7264",
+            "Color": "green"
+          },
+          {
+            "Text": "An archangel of the Allied Order #7264",
+            "Color": "green"
+          },
+          {
+            "Text": "An archangel of the Allied Order #7264",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7271,
+        "Name": "Angels Testing Grounds #7271",
+        "Connections": {
+          "North": 7272,
+          "East": 7270
+        },
+        "Contents": [
+          {
+            "Text": "a seraph of the Allied Order #7265",
+            "Color": "green"
+          },
+          {
+            "Text": "a seraph of the Allied Order #7265",
+            "Color": "green"
+          },
+          {
+            "Text": "a seraph of the Allied Order #7265",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7272,
+        "Name": "Echelon Portal of Ascendance #7272",
+        "Connections": {
+          "North": 7273,
+          "South": 7271
+        }
+      },
+      {
+        "Id": 7273,
+        "Name": "Council Chambers #7273",
+        "Connections": {
+          "East": 7274,
+          "South": 7272
+        },
+        "Contents": [
+          {
+            "Text": "a grand seraph of the Allied Order #7266",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7274,
+        "Name": "Council Chambers #7274",
+        "Connections": {
+          "East": 7275,
+          "West": 7273
+        },
+        "Contents": [
+          {
+            "Text": "the high lord of the Allied Order #7267",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7275,
+        "Name": "Council Chambers #7275",
+        "Connections": {
+          "East": 7276,
+          "West": 7274
+        },
+        "Contents": [
+          {
+            "Text": "the lordmaster of Law #7268",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7276,
+        "Name": "The Throne #7276",
+        "Connections": {
+          "West": 7275,
+          "Up": 7277
+        }
+      },
+      {
+        "Id": 7277,
+        "Name": "Transcendance #7277",
+        "Connections": {
+          "Down": 7276
+        },
+        "Contents": [
+          {
+            "Text": "the ascendant highlord of Law #7269",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7278,
+        "Name": "The Mica Gate #7278",
+        "Connections": {
+          "South": 7279
+        }
+      },
+      {
+        "Id": 7279,
+        "Name": "Knights Training Grounds #7279",
+        "Connections": {
+          "North": 7278,
+          "West": 7280
+        },
+        "Contents": [
+          {
+            "Text": "A Knight of the Shadow Order #7285",
+            "Color": "green"
+          },
+          {
+            "Text": "A Knight of the Shadow Order #7285",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7280,
+        "Name": "Knights Combat Grounds #7280",
+        "Connections": {
+          "East": 7279,
+          "West": 7281
+        },
+        "Contents": [
+          {
+            "Text": "A Knight of the Shadow Order #7285",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7281,
+        "Name": "A Medics Booth #7281",
+        "Connections": {
+          "East": 7280,
+          "West": 7282
+        },
+        "Contents": [
+          {
+            "Text": "a Death Knight #7286",
+            "Color": "green"
+          },
+          {
+            "Text": "A Knight of the Shadow Order #7285",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7282,
+        "Name": "Knights Combat Grounds #7282",
+        "Connections": {
+          "East": 7281,
+          "West": 7283
+        },
+        "Contents": [
+          {
+            "Text": "A Knight of the Shadow Order #7285",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7283,
+        "Name": "Knights Shrine #7283",
+        "Connections": {
+          "East": 7282,
+          "South": 7284
+        },
+        "Contents": [
+          {
+            "Text": "A Knight of the Shadow Order #7285",
+            "Color": "green"
+          },
+          {
+            "Text": "A Knight of the Shadow Order #7285",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7284,
+        "Name": "Spiral Portal of Ascendance #7284",
+        "Connections": {
+          "North": 7283,
+          "South": 7285
+        }
+      },
+      {
+        "Id": 7285,
+        "Name": "Deviants Training Grounds #7285",
+        "Connections": {
+          "North": 7284,
+          "West": 7286
+        },
+        "Contents": [
+          {
+            "Text": "DeviantMinion of the Coven #7270",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7286,
+        "Name": "Deviants Training Grounds #7286",
+        "Connections": {
+          "East": 7285,
+          "West": 7287
+        },
+        "Contents": [
+          {
+            "Text": "LeaderMinion of the Coven #7271",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7287,
+        "Name": "Deviants Combat Grounds #7287",
+        "Connections": {
+          "East": 7286,
+          "West": 7288
+        },
+        "Contents": [
+          {
+            "Text": "DeviantMinion of the Coven #7272",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7288,
+        "Name": "An Altar #7288",
+        "Connections": {
+          "East": 7287,
+          "South": 7289
+        },
+        "Contents": [
+          {
+            "Text": "Lord Minion Supreme #7273",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7289,
+        "Name": "Spiral Portal of Ascendance #7289",
+        "Connections": {
+          "North": 7288,
+          "South": 7290
+        }
+      },
+      {
+        "Id": 7290,
+        "Name": "Minions Training Grounds #7290",
+        "Connections": {
+          "North": 7289,
+          "West": 7291
+        },
+        "Contents": [
+          {
+            "Text": "low Mephisto #7274",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7291,
+        "Name": "Minions Combat Arena #7291",
+        "Connections": {
+          "East": 7290,
+          "West": 7292
+        },
+        "Contents": [
+          {
+            "Text": "Deviant Minion of Mephistos #7275",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7292,
+        "Name": "Minions Worship Temple #7292",
+        "Connections": {
+          "East": 7291,
+          "South": 7293
+        },
+        "Contents": [
+          {
+            "Text": "Pure Mephisto #7276",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7293,
+        "Name": "Spiral Portal of Ascendance #7293",
+        "Connections": {
+          "North": 7292,
+          "South": 7294
+        }
+      },
+      {
+        "Id": 7294,
+        "Name": "Unholy Ground #7294",
+        "Connections": {
+          "North": 7293,
+          "West": 7295
+        },
+        "Contents": [
+          {
+            "Text": "ServantDevil #7277",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7295,
+        "Name": "The Cloud Shrine #7295",
+        "Connections": {
+          "East": 7294,
+          "West": 7296
+        },
+        "Contents": [
+          {
+            "Text": "Deviant Mephisto of Devils #7278",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7296,
+        "Name": "Devils Testing Grounds #7296",
+        "Connections": {
+          "East": 7295,
+          "West": 7297
+        },
+        "Contents": [
+          {
+            "Text": "Archdevil #7279",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7297,
+        "Name": "Devils Testing Grounds #7297",
+        "Connections": {
+          "East": 7296,
+          "South": 7298
+        },
+        "Contents": [
+          {
+            "Text": "Manipulatii #7280",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7298,
+        "Name": "Spiral Portal of Ascendance #7298",
+        "Connections": {
+          "North": 7297,
+          "South": 7299
+        }
+      },
+      {
+        "Id": 7299,
+        "Name": "Council Chambers #7299",
+        "Connections": {
+          "North": 7298,
+          "West": 7300
+        },
+        "Contents": [
+          {
+            "Text": "Deviant Manipulatii of Rulers #7281",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7300,
+        "Name": "Council Chambers #7300",
+        "Connections": {
+          "East": 7299,
+          "West": 7301
+        },
+        "Contents": [
+          {
+            "Text": "High Lord of Chaos #7282",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7301,
+        "Name": "Council Chambers #7301",
+        "Connections": {
+          "East": 7300,
+          "West": 7302
+        },
+        "Contents": [
+          {
+            "Text": "Lord Master of Chaos #7283",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7302,
+        "Name": "The Throne #7302",
+        "Connections": {
+          "East": 7301,
+          "Down": 7303
+        },
+        "Contents": [
+          {
+            "Text": "Lord Master of Chaos #7284",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7303,
+        "Name": "Decadence #7303",
+        "Connections": {
+          "Up": 7302,
+          "Down": 7304
+        },
+        "Contents": [
+          {
+            "Text": "a demonic aura #7288",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7304,
+        "Name": "The First Circle #7304",
+        "Connections": {
+          "Up": 7303,
+          "Down": 7305
+        },
+        "Contents": [
+          {
+            "Text": "a Nalaxin Demon #7289",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7305,
+        "Name": "The Second Circle #7305",
+        "Connections": {
+          "Up": 7304,
+          "Down": 7306
+        },
+        "Contents": [
+          {
+            "Text": "Thurg #7290",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7306,
+        "Name": "The Third Circle #7306",
+        "Connections": {
+          "Up": 7305,
+          "Down": 7307
+        },
+        "Contents": [
+          {
+            "Text": "a criminal #7291",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7307,
+        "Name": "The Fourth Circle #7307",
+        "Connections": {
+          "Up": 7306,
+          "Down": 7308
+        },
+        "Contents": [
+          {
+            "Text": "An embodiment of evil #7292",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7308,
+        "Name": "The Fifth Circle #7308",
+        "Connections": {
+          "Up": 7307,
+          "Down": 7309
+        },
+        "Contents": [
+          {
+            "Text": "Arax #7293",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7309,
+        "Name": "The Sixth Circle #7309",
+        "Connections": {
+          "Up": 7308,
+          "Down": 7310
+        },
+        "Contents": [
+          {
+            "Text": "Damiel the antipaladin #7294",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7310,
+        "Name": "The Seventh Circle #7310",
+        "Connections": {
+          "Up": 7309,
+          "Down": 7311
+        },
+        "Contents": [
+          {
+            "Text": "Azathoth #7295",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7311,
+        "Name": "The Eighth Circle #7311",
+        "Connections": {
+          "Up": 7310,
+          "Down": 7312
+        },
+        "Contents": [
+          {
+            "Text": "The necromancer #7296",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7312,
+        "Name": "The Ninth Circle #7312",
+        "Connections": {
+          "North": 7313,
+          "East": 7314,
+          "South": 7315,
+          "West": 7316,
+          "Up": 7311
+        },
+        "Contents": [
+          {
+            "Text": "Nazar the dracolich #7297",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7313,
+        "Name": "The Ninth Circle #7313",
+        "Connections": {
+          "North": 7315,
+          "East": 7314,
+          "South": 7312,
+          "West": 7316
+        }
+      },
+      {
+        "Id": 7314,
+        "Name": "The Ninth Circle #7314",
+        "Connections": {
+          "North": 7313,
+          "East": 7316,
+          "South": 7315,
+          "West": 7312
+        }
+      },
+      {
+        "Id": 7315,
+        "Name": "The Ninth Circle #7315",
+        "Connections": {
+          "North": 7312,
+          "East": 7314,
+          "South": 7313,
+          "West": 7316
+        }
+      },
+      {
+        "Id": 7316,
+        "Name": "The Ninth Circle #7316",
+        "Connections": {
+          "North": 7313,
+          "East": 7312,
+          "South": 7315,
+          "West": 7314
+        }
+      },
+      {
+        "Id": 13172,
+        "FrameColor": "blue",
+        "Name": "To The Forest Fierense #13172",
+        "Color": "blue",
+        "Connections": {
+          "North": 7251,
+          "South": 13180,
+          "West": 13171
+        }
+      }
+    ]
+  }
+}

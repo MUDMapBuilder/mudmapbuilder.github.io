@@ -1,0 +1,28 @@
+{
+  "Area": {
+    "Name": "player",
+    "MinimumLevel": "1",
+    "MaximumLevel": "10",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 501,
+        "Name": "Sleeping Chambers #501",
+        "Connections": {
+          "East": 26806
+        }
+      },
+      {
+        "Id": 26806,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26806",
+        "Color": "blue",
+        "Connections": {
+          "East": 26807,
+          "South": 26803,
+          "West": 501
+        }
+      }
+    ]
+  }
+}

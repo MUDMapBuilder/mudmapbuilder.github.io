@@ -1,0 +1,2266 @@
+{
+  "Area": {
+    "Name": "Burning Chambers",
+    "MinimumLevel": "50",
+    "MaximumLevel": "60",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 5300,
+        "Name": "Path to Castle of Chambers #5300",
+        "Connections": {
+          "North": 5301
+        },
+        "Contents": [
+          {
+            "Text": "The StoryKeeper #5310",
+            "Color": "green"
+          },
+          {
+            "Text": "A group of children #5311",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5301,
+        "Name": "Entrance to the Castle of Chambers #5301",
+        "Connections": {
+          "North": 5302,
+          "South": 5300
+        },
+        "Contents": [
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          },
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          },
+          {
+            "Text": "The flaming commander #5305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5302,
+        "Name": "Main Hallway #5302",
+        "Connections": {
+          "North": 5303,
+          "East": 5318,
+          "South": 5301,
+          "West": 5304
+        },
+        "Contents": [
+          {
+            "Text": "The flaming warrior #5304",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5303,
+        "Name": "Main Hallway #5303",
+        "Connections": {
+          "North": 5335,
+          "South": 5302
+        }
+      },
+      {
+        "Id": 5304,
+        "Name": "Main Hallway #5304",
+        "Connections": {
+          "East": 5302,
+          "West": 5305
+        },
+        "Contents": [
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5305,
+        "Name": "Western Tower #5305",
+        "Connections": {
+          "North": 5306,
+          "East": 5304,
+          "West": 5308
+        },
+        "Contents": [
+          {
+            "Text": "The flaming commander #5305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5306,
+        "Name": "Western Tower #5306",
+        "Connections": {
+          "South": 5305,
+          "West": 5307
+        },
+        "Contents": [
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5307,
+        "Name": "Western Tower #5307",
+        "Connections": {
+          "East": 5306,
+          "South": 5308,
+          "Up": 5309
+        }
+      },
+      {
+        "Id": 5308,
+        "Name": "Western Tower #5308",
+        "Connections": {
+          "North": 5307,
+          "East": 5305
+        },
+        "Contents": [
+          {
+            "Text": "The flaming warrior #5304",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5309,
+        "Name": "Second Floor of Western Tower #5309",
+        "Connections": {
+          "East": 5312,
+          "South": 5310,
+          "Down": 5307
+        },
+        "Contents": [
+          {
+            "Text": "The flaming commander #5305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5310,
+        "Name": "Second Floor of Western Tower #5310",
+        "Connections": {
+          "North": 5309,
+          "East": 5311,
+          "West": 5396
+        }
+      },
+      {
+        "Id": 5311,
+        "Name": "Second Floor of Western Tower #5311",
+        "Connections": {
+          "North": 5312,
+          "West": 5310,
+          "Up": 5313
+        },
+        "Contents": [
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          },
+          {
+            "Text": "The flaming warrior #5304",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5312,
+        "Name": "Second Floor of Western Tower #5312",
+        "Connections": {
+          "South": 5311,
+          "West": 5309
+        },
+        "Contents": [
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5313,
+        "Name": "Third Floor of Western Tower #5313",
+        "Connections": {
+          "North": 5314,
+          "West": 5315,
+          "Down": 5311
+        },
+        "Contents": [
+          {
+            "Text": "The flaming warrior #5304",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5314,
+        "Name": "Third Floor of Western Tower #5314",
+        "Connections": {
+          "East": 5395,
+          "South": 5313,
+          "West": 5316
+        },
+        "Contents": [
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          },
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          },
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5315,
+        "Name": "Third Floor of Western Tower #5315",
+        "Connections": {
+          "North": 5316,
+          "East": 5313
+        }
+      },
+      {
+        "Id": 5316,
+        "Name": "Third Floor of Western Tower #5316",
+        "Connections": {
+          "East": 5314,
+          "South": 5315,
+          "Up": 5317
+        },
+        "Contents": [
+          {
+            "Text": "The flaming commander #5305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5317,
+        "Name": "Roof of the Western Tower #5317",
+        "Connections": {
+          "East": 5334,
+          "Down": 5316
+        }
+      },
+      {
+        "Id": 5318,
+        "Name": "Main Hallway #5318",
+        "Connections": {
+          "East": 5319,
+          "West": 5302
+        },
+        "Contents": [
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          },
+          {
+            "Text": "The flaming commander #5305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5319,
+        "Name": "Eastern Tower #5319",
+        "Connections": {
+          "North": 5321,
+          "East": 5320,
+          "West": 5318
+        },
+        "Contents": [
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5320,
+        "Name": "Eastern Tower #5320",
+        "Connections": {
+          "North": 5322,
+          "West": 5319
+        },
+        "Contents": [
+          {
+            "Text": "The flaming warrior #5304",
+            "Color": "green"
+          },
+          {
+            "Text": "The flaming commander #5305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5321,
+        "Name": "Eastern Tower #5321",
+        "Connections": {
+          "East": 5322,
+          "South": 5319
+        }
+      },
+      {
+        "Id": 5322,
+        "Name": "Eastern Tower #5322",
+        "Connections": {
+          "South": 5320,
+          "West": 5321,
+          "Up": 5323
+        },
+        "Contents": [
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5323,
+        "Name": "Second Floor of the Eastern Tower #5323",
+        "Connections": {
+          "South": 5325,
+          "West": 5324,
+          "Down": 5322
+        },
+        "Contents": [
+          {
+            "Text": "The flaming commander #5305",
+            "Color": "green"
+          },
+          {
+            "Text": "the Flaming Commander #5348",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5324,
+        "Name": "Second Floor of the Eastern Tower #5324",
+        "Connections": {
+          "East": 5323,
+          "South": 5326
+        },
+        "Contents": [
+          {
+            "Text": "The flaming warrior #5304",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5325,
+        "Name": "Second Floor of the Eastern Tower #5325",
+        "Connections": {
+          "North": 5323,
+          "East": 5397,
+          "West": 5326
+        },
+        "Contents": [
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5326,
+        "Name": "Second Floor of the Eastern Tower #5326",
+        "Connections": {
+          "North": 5324,
+          "East": 5325,
+          "Up": {
+            "RoomId": 5327,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 5327,
+        "Name": "Third Floor of the Eastern Tower #5327",
+        "Connections": {
+          "North": 5330,
+          "East": 5328,
+          "Down": {
+            "RoomId": 5326,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 5328,
+        "Name": "Third Floor of the Eastern Tower #5328",
+        "Connections": {
+          "North": 5329,
+          "East": 5394,
+          "West": 5327
+        }
+      },
+      {
+        "Id": 5329,
+        "Name": "Third Floor of the Eastern Tower #5329",
+        "Connections": {
+          "South": 5328,
+          "West": 5330
+        }
+      },
+      {
+        "Id": 5330,
+        "Name": "Third Floor of the Eastern Tower #5330",
+        "Connections": {
+          "East": 5329,
+          "South": 5327,
+          "Up": 5331
+        }
+      },
+      {
+        "Id": 5331,
+        "Name": "The Roof of the Eastern Tower #5331",
+        "Connections": {
+          "West": 5332,
+          "Down": 5330
+        }
+      },
+      {
+        "Id": 5332,
+        "Name": "Above the Castle #5332",
+        "Connections": {
+          "East": 5331,
+          "West": 5333
+        }
+      },
+      {
+        "Id": 5333,
+        "Name": "Above the Castle #5333",
+        "Connections": {
+          "East": 5332,
+          "West": 5334
+        },
+        "Contents": [
+          {
+            "Text": "A phoenix #5307",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5334,
+        "Name": "Above the Castle #5334",
+        "Connections": {
+          "East": 5333,
+          "West": 5317
+        }
+      },
+      {
+        "Id": 5335,
+        "Name": "Main Hallway Intersection #5335",
+        "Connections": {
+          "North": 5336,
+          "East": 5337,
+          "South": 5303,
+          "West": 5338
+        },
+        "Contents": [
+          {
+            "Text": "The flaming commander #5305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5336,
+        "Name": "Main Hallway #5336",
+        "Connections": {
+          "North": 5339,
+          "South": 5335
+        },
+        "Contents": [
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5337,
+        "Name": "Chambers Weapon Shop #5337",
+        "Connections": {
+          "West": 5335
+        },
+        "Contents": [
+          {
+            "Text": "An enslaved shopkeeper #5302",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5338,
+        "Name": "Chambers Armor Shop #5338",
+        "Connections": {
+          "East": 5335
+        },
+        "Contents": [
+          {
+            "Text": "Hightower the Traitor #5303",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5339,
+        "Name": "Royal Intersection #5339",
+        "Connections": {
+          "North": 5340,
+          "East": 5342,
+          "South": 5336,
+          "West": 5341
+        },
+        "Contents": [
+          {
+            "Text": "Lt. Hades #5306",
+            "Color": "green"
+          },
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5340,
+        "Name": "Main Hallway #5340",
+        "Connections": {
+          "North": 5390,
+          "South": 5339
+        },
+        "Contents": [
+          {
+            "Text": "The flaming warrior #5304",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5341,
+        "Name": "Royal Hall #5341",
+        "Connections": {
+          "East": 5339,
+          "West": {
+            "RoomId": 5370,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the prison key #5309",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 5342,
+        "Name": "Royal Hall #5342",
+        "Connections": {
+          "East": 5343,
+          "West": 5339
+        },
+        "Contents": [
+          {
+            "Text": "The flaming warrior #5304",
+            "Color": "green"
+          },
+          {
+            "Text": "The flaming commander #5305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5343,
+        "Name": "Royal Tower #5343",
+        "Connections": {
+          "North": 5346,
+          "East": 5344,
+          "West": 5342
+        },
+        "Contents": [
+          {
+            "Text": "a small fire #5342",
+            "Color": "green"
+          },
+          {
+            "Text": "A raging fire #5343",
+            "Color": "green"
+          },
+          {
+            "Text": "A raging fire #5343",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5344,
+        "Name": "Royal Tower #5344",
+        "Connections": {
+          "North": 5345,
+          "West": 5343
+        }
+      },
+      {
+        "Id": 5345,
+        "Name": "Royal Tower #5345",
+        "Connections": {
+          "South": 5344,
+          "West": 5346,
+          "Up": 5382
+        },
+        "Contents": [
+          {
+            "Text": "a small fire #5342",
+            "Color": "green"
+          },
+          {
+            "Text": "a small fire #5342",
+            "Color": "green"
+          },
+          {
+            "Text": "A raging fire #5343",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5346,
+        "Name": "Royal Tower #5346",
+        "Connections": {
+          "East": 5345,
+          "South": 5343,
+          "West": {
+            "RoomId": 5400,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 5347,
+        "Name": "Dark Passage #5347",
+        "Connections": {
+          "Down": 5348
+        }
+      },
+      {
+        "Id": 5348,
+        "Name": "Entrance to Hidden Caverns #5348",
+        "Connections": {
+          "Up": 5347,
+          "Down": 5401
+        }
+      },
+      {
+        "Id": 5349,
+        "Name": "Hidden Caverns #5349",
+        "Connections": {
+          "East": 5452,
+          "South": 5368,
+          "West": 5350,
+          "Down": 5446
+        },
+        "Contents": [
+          {
+            "Text": "An Elite Chamber Guard #5334",
+            "Color": "green"
+          },
+          {
+            "Text": "A citizen of Chamber #5340",
+            "Color": "green"
+          },
+          {
+            "Text": "A citizen of Chamber #5340",
+            "Color": "green"
+          },
+          {
+            "Text": "A Chamber Guard #5333",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5350,
+        "Name": "Hidden Caverns #5350",
+        "Connections": {
+          "North": 5355,
+          "East": 5349,
+          "West": 5351
+        },
+        "Contents": [
+          {
+            "Text": "A Chamber Guard #5333",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5351,
+        "Name": "Hidden Caverns #5351",
+        "Connections": {
+          "North": 5356,
+          "East": 5350,
+          "South": 5453,
+          "West": 5352
+        },
+        "Contents": [
+          {
+            "Text": "A citizen of Chamber #5340",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5352,
+        "Name": "Hidden Caverns #5352",
+        "Connections": {
+          "East": 5351,
+          "South": 5357,
+          "West": 5353
+        }
+      },
+      {
+        "Id": 5353,
+        "Name": "Kings War Room #5353",
+        "Connections": {
+          "North": 5354,
+          "East": 5352,
+          "West": 5454
+        }
+      },
+      {
+        "Id": 5354,
+        "Name": "Kings Bedroom #5354",
+        "Connections": {
+          "South": 5353
+        },
+        "Contents": [
+          {
+            "Text": "The Queen #5320",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5355,
+        "Name": "Guard Barracks #5355",
+        "Connections": {
+          "South": 5350
+        },
+        "Contents": [
+          {
+            "Text": "A nurse #5336",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5356,
+        "Name": "Princess Alurias Bedroom #5356",
+        "Connections": {
+          "South": 5351
+        },
+        "Contents": [
+          {
+            "Text": "Princess Aluria #5323",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5357,
+        "Name": "Hidden Caverns #5357",
+        "Connections": {
+          "North": 5352
+        },
+        "Contents": [
+          {
+            "Text": "An Elite Chamber Guard #5334",
+            "Color": "green"
+          },
+          {
+            "Text": "A citizen of Chamber #5340",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5358,
+        "Name": "Secret Passage #5358",
+        "Connections": {}
+      },
+      {
+        "Id": 5359,
+        "Name": "Hidden Caverns #5359",
+        "Connections": {
+          "East": 5361,
+          "West": 5360
+        },
+        "Contents": [
+          {
+            "Text": "A citizen of Chamber #5339",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5360,
+        "Name": "Hidden Caverns #5360",
+        "Connections": {
+          "North": 5455,
+          "East": 5359,
+          "West": 5369
+        },
+        "Contents": [
+          {
+            "Text": "An Elite Chamber Guard #5334",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5361,
+        "Name": "Hidden Caverns #5361",
+        "Connections": {
+          "East": 5447,
+          "South": 5362,
+          "West": 5359
+        }
+      },
+      {
+        "Id": 5362,
+        "Name": "Throne Room Entrance #5362",
+        "Connections": {
+          "North": 5361,
+          "South": 5363
+        },
+        "Contents": [
+          {
+            "Text": "A Chamber Guard #5333",
+            "Color": "green"
+          },
+          {
+            "Text": "A Chamber Guard #5333",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5363,
+        "Name": "New Throne Room #5363",
+        "Connections": {
+          "North": 5362,
+          "East": 5364,
+          "West": 5365
+        },
+        "Contents": [
+          {
+            "Text": "An Elite Chamber Guard #5334",
+            "Color": "green"
+          },
+          {
+            "Text": "An Elite Chamber Guard #5334",
+            "Color": "green"
+          },
+          {
+            "Text": "A silly jester #5349",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5364,
+        "Name": "Treasury #5364",
+        "Connections": {
+          "West": 5363
+        }
+      },
+      {
+        "Id": 5365,
+        "Name": "Treasury #5365",
+        "Connections": {
+          "East": 5363
+        }
+      },
+      {
+        "Id": 5366,
+        "Name": "Hidden Caverns #5366",
+        "Connections": {
+          "North": 5368,
+          "East": 5451,
+          "South": 5367
+        },
+        "Contents": [
+          {
+            "Text": "A Chamber Guard #5333",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5367,
+        "Name": "Hidden Cave #5367",
+        "Connections": {
+          "North": 5366,
+          "East": 5448,
+          "West": 5447
+        }
+      },
+      {
+        "Id": 5368,
+        "Name": "Hidden Caverns #5368",
+        "Connections": {
+          "North": 5349,
+          "South": 5366,
+          "West": 5450
+        },
+        "Contents": [
+          {
+            "Text": "A citizen of Chamber #5339",
+            "Color": "green"
+          },
+          {
+            "Text": "A Chamber Guard #5333",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5369,
+        "Name": "Freezes Armor and Weapon Factory #5369",
+        "Connections": {
+          "East": 5360
+        },
+        "Contents": [
+          {
+            "Text": "Freeze the Shopkeeper #5301",
+            "Color": "green"
+          },
+          {
+            "Text": "A citizen of Chamber #5339",
+            "Color": "green"
+          },
+          {
+            "Text": "A Chamber Guard #5333",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5370,
+        "Name": "Prison Tower #5370",
+        "Connections": {
+          "North": 5371,
+          "East": {
+            "RoomId": 5341,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 5373
+        },
+        "Contents": [
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          },
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          },
+          {
+            "Text": "The flaming commander #5305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5371,
+        "Name": "Prison Tower #5371",
+        "Connections": {
+          "South": 5370,
+          "West": 5372
+        },
+        "Contents": [
+          {
+            "Text": "The Flaming Commander #5350",
+            "Color": "green"
+          },
+          {
+            "Text": "the flaming warrior #5351",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5372,
+        "Name": "Prison Tower #5372",
+        "Connections": {
+          "East": 5371,
+          "South": 5373,
+          "Up": 5374
+        },
+        "Contents": [
+          {
+            "Text": "The flaming warrior #5304",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5373,
+        "Name": "Prison Tower #5373",
+        "Connections": {
+          "North": 5372,
+          "East": 5370
+        }
+      },
+      {
+        "Id": 5374,
+        "Name": "Second Floor of the Prison Tower #5374",
+        "Connections": {
+          "East": 5375,
+          "South": {
+            "RoomId": 5376,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the prison key #5309",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Up": 5378,
+          "Down": 5372
+        },
+        "Contents": [
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          },
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5375,
+        "Name": "Second Floor of the Prison Tower #5375",
+        "Connections": {
+          "South": {
+            "RoomId": 5377,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the prison key #5309",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 5374
+        },
+        "Contents": [
+          {
+            "Text": "The prison guard #5345",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5376,
+        "Name": "Prison Cell #5376 #5376",
+        "Connections": {
+          "North": {
+            "RoomId": 5374,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A prisoner #5346",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5377,
+        "Name": "Prison Cell #5377 #5377",
+        "Connections": {
+          "North": {
+            "RoomId": 5375,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 5378,
+        "Name": "Prison Tower #5378",
+        "Connections": {
+          "East": 5379,
+          "South": {
+            "RoomId": 5380,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a set of cell keys #5310",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 5374
+        },
+        "Contents": [
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          },
+          {
+            "Text": "A flaming hound #5300",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5379,
+        "Name": "Prison Tower #5379",
+        "Connections": {
+          "South": {
+            "RoomId": 5381,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a set of cell keys #5310",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 5378
+        },
+        "Contents": [
+          {
+            "Text": "The prison guard #5345",
+            "Color": "green"
+          },
+          {
+            "Text": "The prison guard #5345",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5380,
+        "Name": "Prison Cell #5380 #5380",
+        "Connections": {
+          "North": {
+            "RoomId": 5378,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the prison key #5309",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A sick prisoner #5344",
+            "Color": "green"
+          },
+          {
+            "Text": "A sick prisoner #5344",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5381,
+        "Name": "Prison Cell #5381 #5381",
+        "Connections": {
+          "North": {
+            "RoomId": 5379,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the prison key #5309",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A prisoner #5346",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5382,
+        "Name": "Second Floor of the Royal Tower #5382",
+        "Connections": {
+          "South": 5383,
+          "West": 5384,
+          "Up": 5386,
+          "Down": 5345
+        },
+        "Contents": [
+          {
+            "Text": "A raging fire #5343",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5383,
+        "Name": "Second Floor of the Royal Tower #5383",
+        "Connections": {
+          "North": 5382,
+          "West": 5385
+        },
+        "Contents": [
+          {
+            "Text": "a small fire #5342",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5384,
+        "Name": "Second Floor of the Royal Tower #5384",
+        "Connections": {
+          "East": 5382,
+          "South": 5385
+        },
+        "Contents": [
+          {
+            "Text": "a small fire #5342",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5385,
+        "Name": "Second Floor of the Royal Tower #5385",
+        "Connections": {
+          "North": 5384,
+          "East": 5383
+        }
+      },
+      {
+        "Id": 5386,
+        "Name": "Third Floor of the Royal Tower #5386",
+        "Connections": {
+          "South": 5387,
+          "West": 5388,
+          "Down": 5382
+        }
+      },
+      {
+        "Id": 5387,
+        "Name": "Third Floor of the Royal Tower #5387",
+        "Connections": {
+          "North": 5386,
+          "West": 5389
+        },
+        "Contents": [
+          {
+            "Text": "a small fire #5342",
+            "Color": "green"
+          },
+          {
+            "Text": "a small fire #5342",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5388,
+        "Name": "Third Floor of the Royal Tower #5388",
+        "Connections": {
+          "East": 5386,
+          "South": 5389,
+          "West": 5398
+        },
+        "Contents": [
+          {
+            "Text": "a small fire #5342",
+            "Color": "green"
+          },
+          {
+            "Text": "a small fire #5342",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5389,
+        "Name": "Third Floor of the Royal Tower #5389",
+        "Connections": {
+          "North": 5388,
+          "East": 5387
+        },
+        "Contents": [
+          {
+            "Text": "A raging fire #5343",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5390,
+        "Name": "Royal Parlor #5390",
+        "Connections": {
+          "North": 5393,
+          "East": 5392,
+          "South": 5340,
+          "West": 5391
+        },
+        "Contents": [
+          {
+            "Text": "The flaming commander #5305",
+            "Color": "green"
+          },
+          {
+            "Text": "The flaming commander #5305",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5391,
+        "Name": "Royal Barber Shop #5391",
+        "Connections": {
+          "East": 5390
+        }
+      },
+      {
+        "Id": 5392,
+        "Name": "Money Office #5392",
+        "Connections": {
+          "West": 5390
+        },
+        "Contents": [
+          {
+            "Text": "Potty the Treasurer #5324",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5393,
+        "Name": "Throne Room #5393",
+        "Connections": {
+          "South": 5390
+        },
+        "Contents": [
+          {
+            "Text": "The Fire Ruler #5315",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5394,
+        "Name": "Servants Quarters #5394",
+        "Connections": {
+          "West": 5328
+        },
+        "Contents": [
+          {
+            "Text": "Teliz the thief #5325",
+            "Color": "green"
+          },
+          {
+            "Text": "Sonia #5326",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5395,
+        "Name": "Lt. Chivalrys Room #5395",
+        "Connections": {
+          "West": 5314
+        }
+      },
+      {
+        "Id": 5396,
+        "Name": "Janitors Closet #5396",
+        "Connections": {
+          "East": 5310
+        }
+      },
+      {
+        "Id": 5397,
+        "Name": "Spare Bedroom #5397",
+        "Connections": {
+          "West": 5325
+        }
+      },
+      {
+        "Id": 5398,
+        "Name": "Kings Bathroom #5398",
+        "Connections": {
+          "North": 5399,
+          "East": 5388
+        },
+        "Contents": [
+          {
+            "Text": "A raging fire #5343",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5399,
+        "Name": "In the Shower #5399",
+        "Connections": {
+          "South": 5398
+        }
+      },
+      {
+        "Id": 5400,
+        "Name": "The Bathmaids Room #5400",
+        "Connections": {
+          "East": {
+            "RoomId": 5346,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 5401,
+        "Name": "Dark Caves #5401",
+        "Connections": {
+          "South": 5432,
+          "West": 5402,
+          "Up": 5348
+        }
+      },
+      {
+        "Id": 5402,
+        "Name": "Dark Caves #5402",
+        "Connections": {
+          "East": 5401,
+          "South": 5440,
+          "West": 5403
+        },
+        "Contents": [
+          {
+            "Text": "A cave bat #5313",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5403,
+        "Name": "Dark Caves #5403",
+        "Connections": {
+          "North": 5404,
+          "East": 5402,
+          "South": 5406,
+          "West": 5405
+        }
+      },
+      {
+        "Id": 5404,
+        "Name": "Dark Caves #5404",
+        "Connections": {
+          "North": 5407,
+          "South": 5403
+        }
+      },
+      {
+        "Id": 5405,
+        "Name": "Dead End #5405",
+        "Connections": {
+          "East": 5403
+        }
+      },
+      {
+        "Id": 5406,
+        "Name": "Underground Lake #5406",
+        "Connections": {
+          "North": 5403,
+          "Down": 5408
+        }
+      },
+      {
+        "Id": 5407,
+        "Name": "A New Tunnel #5407",
+        "Connections": {
+          "South": 5404
+        }
+      },
+      {
+        "Id": 5408,
+        "Name": "Underground River #5408",
+        "Connections": {
+          "North": 5409,
+          "East": 5442,
+          "Up": 5406
+        },
+        "Contents": [
+          {
+            "Text": "A dark fish #5327",
+            "Color": "red"
+          },
+          {
+            "Text": "A sea snake #5338",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5409,
+        "Name": "Underground River #5409",
+        "Connections": {
+          "North": 5410,
+          "South": 5408
+        }
+      },
+      {
+        "Id": 5410,
+        "Name": "Underground River #5410",
+        "Connections": {
+          "South": 5409,
+          "Down": 5411
+        },
+        "Contents": [
+          {
+            "Text": "A dark fish #5327",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5411,
+        "Name": "Underground River #5411",
+        "Connections": {
+          "North": 5412,
+          "South": 5416,
+          "Up": 5410
+        }
+      },
+      {
+        "Id": 5412,
+        "Name": "Underground River #5412",
+        "Connections": {
+          "North": 5413,
+          "South": 5411
+        },
+        "Contents": [
+          {
+            "Text": "A sea snake #5338",
+            "Color": "green"
+          },
+          {
+            "Text": "An electric eel #5337",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5413,
+        "Name": "Underground River #5413",
+        "Connections": {
+          "South": 5412,
+          "Down": 5414
+        },
+        "Contents": [
+          {
+            "Text": "A dark fish #5327",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5414,
+        "Name": "Underground River #5414",
+        "Connections": {
+          "Up": 5413,
+          "Down": 5415
+        },
+        "Contents": [
+          {
+            "Text": "An electric eel #5337",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5415,
+        "Name": "Underground River #5415",
+        "Connections": {
+          "North": 5420,
+          "Up": 5414
+        },
+        "Contents": [
+          {
+            "Text": "A dark fish #5327",
+            "Color": "red"
+          },
+          {
+            "Text": "An electric eel #5337",
+            "Color": "green"
+          },
+          {
+            "Text": "An electric eel #5337",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5416,
+        "Name": "Underground River #5416",
+        "Connections": {
+          "North": 5411,
+          "South": 5417
+        },
+        "Contents": [
+          {
+            "Text": "A dark fish #5327",
+            "Color": "red"
+          },
+          {
+            "Text": "A dark fish #5327",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5417,
+        "Name": "Underground River #5417",
+        "Connections": {
+          "North": 5416,
+          "Up": 5418
+        }
+      },
+      {
+        "Id": 5418,
+        "Name": "Underground River #5418",
+        "Connections": {
+          "East": 5419,
+          "West": 5423,
+          "Down": 5417
+        },
+        "Contents": [
+          {
+            "Text": "A dark fish #5327",
+            "Color": "red"
+          },
+          {
+            "Text": "A sea snake #5338",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5419,
+        "Name": "Underground River #5419",
+        "Connections": {
+          "East": 5421,
+          "West": 5418
+        }
+      },
+      {
+        "Id": 5420,
+        "Name": "Underground River #5420",
+        "Connections": {
+          "North": 5444,
+          "South": 5415
+        },
+        "Contents": [
+          {
+            "Text": "A sea snake #5338",
+            "Color": "green"
+          },
+          {
+            "Text": "A sea snake #5338",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5421,
+        "Name": "Underground River #5421",
+        "Connections": {
+          "South": 5422,
+          "West": 5419
+        },
+        "Contents": [
+          {
+            "Text": "A dark fish #5327",
+            "Color": "red"
+          },
+          {
+            "Text": "A dark fish #5327",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5422,
+        "Name": "Underground River #5422",
+        "Connections": {
+          "North": 5421
+        },
+        "Contents": [
+          {
+            "Text": "A underwater plant #5328",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5423,
+        "Name": "Underground River #5423",
+        "Connections": {
+          "East": 5418,
+          "West": 5424
+        }
+      },
+      {
+        "Id": 5424,
+        "Name": "Underground River #5424",
+        "Connections": {
+          "North": 5425,
+          "East": 5423
+        },
+        "Contents": [
+          {
+            "Text": "A dark fish #5331",
+            "Color": "red"
+          },
+          {
+            "Text": "A dark fish #5331",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5425,
+        "Name": "Underground River #5425",
+        "Connections": {
+          "South": 5424,
+          "West": 5426
+        },
+        "Contents": [
+          {
+            "Text": "A sea snake #5338",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5426,
+        "Name": "Dark Lair #5426",
+        "Connections": {
+          "North": 5427,
+          "East": 5425,
+          "South": 5428,
+          "West": 5429
+        }
+      },
+      {
+        "Id": 5427,
+        "Name": "Dark Lair #5427",
+        "Connections": {
+          "South": 5426,
+          "West": 5430
+        },
+        "Contents": [
+          {
+            "Text": "A dark fish #5331",
+            "Color": "red"
+          },
+          {
+            "Text": "A dark fish #5331",
+            "Color": "red"
+          },
+          {
+            "Text": "A dark fish #5331",
+            "Color": "red"
+          },
+          {
+            "Text": "A dark fish #5331",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5428,
+        "Name": "Dark Lair #5428",
+        "Connections": {
+          "North": 5426,
+          "West": 5431
+        }
+      },
+      {
+        "Id": 5429,
+        "Name": "Dark Lair #5429",
+        "Connections": {
+          "North": 5430,
+          "East": 5426,
+          "South": 5431
+        }
+      },
+      {
+        "Id": 5430,
+        "Name": "Dark Lair #5430",
+        "Connections": {
+          "East": 5427,
+          "South": 5429
+        }
+      },
+      {
+        "Id": 5431,
+        "Name": "Dark Lair #5431",
+        "Connections": {
+          "North": 5429,
+          "East": 5428
+        }
+      },
+      {
+        "Id": 5432,
+        "Name": "Dark Caves #5432",
+        "Connections": {
+          "North": 5401,
+          "East": 5433,
+          "South": 5435,
+          "West": 5434
+        },
+        "Contents": [
+          {
+            "Text": "A cave bat #5313",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5433,
+        "Name": "Dead End #5433",
+        "Connections": {
+          "West": 5432
+        }
+      },
+      {
+        "Id": 5434,
+        "Name": "Dead End #5434",
+        "Connections": {
+          "East": 5432
+        }
+      },
+      {
+        "Id": 5435,
+        "Name": "Dark Caves #5435",
+        "Connections": {
+          "North": 5432,
+          "South": 5436
+        },
+        "Contents": [
+          {
+            "Text": "A cave bat #5313",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5436,
+        "Name": "Dark Caves #5436",
+        "Connections": {
+          "North": 5435,
+          "East": 5437
+        }
+      },
+      {
+        "Id": 5437,
+        "Name": "Dark Caves #5437",
+        "Connections": {
+          "South": 5438,
+          "West": 5436
+        },
+        "Contents": [
+          {
+            "Text": "A cave bat #5313",
+            "Color": "green"
+          },
+          {
+            "Text": "A cave bat #5313",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5438,
+        "Name": "Dark Caves #5438",
+        "Connections": {
+          "North": 5437,
+          "East": 5439
+        }
+      },
+      {
+        "Id": 5439,
+        "Name": "Death Lair #5439",
+        "Connections": {
+          "West": 5438
+        },
+        "Contents": [
+          {
+            "Text": "The flesh monster #5347",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5440,
+        "Name": "Dark Caves #5440",
+        "Connections": {
+          "North": 5402,
+          "South": 5441
+        }
+      },
+      {
+        "Id": 5441,
+        "Name": "Dead End #5441",
+        "Connections": {
+          "North": 5440
+        },
+        "Contents": [
+          {
+            "Text": "A hideous creature #5332",
+            "Color": "red"
+          },
+          {
+            "Text": "A hideous creature #5332",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5442,
+        "Name": "Underground River #5442",
+        "Connections": {
+          "East": 5443,
+          "West": 5408
+        }
+      },
+      {
+        "Id": 5443,
+        "Name": "Underground River #5443",
+        "Connections": {
+          "West": 5442
+        },
+        "Contents": [
+          {
+            "Text": "A dark fish #5327",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5444,
+        "Name": "Underground River #5444",
+        "Connections": {
+          "East": 5445,
+          "South": 5420,
+          "Up": 5446
+        },
+        "Contents": [
+          {
+            "Text": "A dark fish #5327",
+            "Color": "red"
+          },
+          {
+            "Text": "A dark fish #5327",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5445,
+        "Name": "Underground River #5445",
+        "Connections": {
+          "West": 5444
+        }
+      },
+      {
+        "Id": 5446,
+        "Name": "Stone Stairway #5446",
+        "Connections": {
+          "Up": 5349,
+          "Down": 5444
+        }
+      },
+      {
+        "Id": 5447,
+        "Name": "Hidden Cave #5447",
+        "Connections": {
+          "East": 5367,
+          "West": 5361
+        },
+        "Contents": [
+          {
+            "Text": "An Elite Chamber Guard #5334",
+            "Color": "green"
+          },
+          {
+            "Text": "A Chamber Guard #5333",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5448,
+        "Name": "Hertz RentaDragon #5448",
+        "Connections": {
+          "West": 5367
+        },
+        "Contents": [
+          {
+            "Text": "A stable keeper #5309",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5449,
+        "Name": "STABLE ROOM DONT CHANGE #5449",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "A yellow dragon #5308",
+            "Color": "green"
+          },
+          {
+            "Text": "A red dragon #5352",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5450,
+        "Name": "Lt. Chivalrys Cave #5450",
+        "Connections": {
+          "East": 5368
+        }
+      },
+      {
+        "Id": 5451,
+        "Name": "Hidden Cave #5451",
+        "Connections": {
+          "East": 5458,
+          "West": 5366
+        },
+        "Contents": [
+          {
+            "Text": "A citizen of Chamber #5339",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5452,
+        "Name": "An Unfinished Shop #5452",
+        "Connections": {
+          "West": 5349
+        },
+        "Contents": [
+          {
+            "Text": "A citizen of Chamber #5339",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5453,
+        "Name": "Hidden Caverns #5453",
+        "Connections": {
+          "North": 5351,
+          "East": 5456,
+          "South": 5455
+        },
+        "Contents": [
+          {
+            "Text": "A Chamber Guard #5333",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5454,
+        "Name": "Kings War Room #5454",
+        "Connections": {
+          "East": 5353
+        },
+        "Contents": [
+          {
+            "Text": "The King #5321",
+            "Color": "green"
+          },
+          {
+            "Text": "Lt. Chivalry #5322",
+            "Color": "green"
+          },
+          {
+            "Text": "The Kings guard #5356",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5455,
+        "Name": "Hidden Caverns #5455",
+        "Connections": {
+          "North": 5453,
+          "South": 5360,
+          "Up": 5457
+        }
+      },
+      {
+        "Id": 5456,
+        "Name": "The Light Shop #5456",
+        "Connections": {
+          "West": 5453
+        },
+        "Contents": [
+          {
+            "Text": "Brighty the lightman #5319",
+            "Color": "green"
+          },
+          {
+            "Text": "A citizen of Chamber #5340",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5457,
+        "Name": "Unused Cavern #5457",
+        "Connections": {
+          "Down": 5455
+        },
+        "Contents": [
+          {
+            "Text": "A worker #5335",
+            "Color": "green"
+          },
+          {
+            "Text": "A citizen of Chamber #5340",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5458,
+        "Name": "Garden Cavern #5458",
+        "Connections": {
+          "North": 5459,
+          "East": 5460,
+          "West": 5451
+        }
+      },
+      {
+        "Id": 5459,
+        "Name": "Garden Cavern #5459",
+        "Connections": {
+          "East": 5461,
+          "South": 5458
+        },
+        "Contents": [
+          {
+            "Text": "A gardener #5318",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5460,
+        "Name": "Garden Cavern #5460",
+        "Connections": {
+          "North": 5461,
+          "West": 5458
+        }
+      },
+      {
+        "Id": 5461,
+        "Name": "Garden Cavern #5461",
+        "Connections": {
+          "South": 5460,
+          "West": 5459
+        },
+        "Contents": [
+          {
+            "Text": "The talking watermelon #5317",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5462,
+        "Name": "Secret Passage #5462",
+        "Connections": {}
+      }
+    ]
+  }
+}

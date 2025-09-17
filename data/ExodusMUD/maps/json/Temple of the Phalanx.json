@@ -1,0 +1,2434 @@
+{
+  "Area": {
+    "Name": "Temple of the Phalanx",
+    "MinimumLevel": "90",
+    "MaximumLevel": "91",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 9935,
+        "Name": "Entering the Temple of the Phalanx #9935",
+        "Connections": {
+          "East": 9936,
+          "Up": 6923
+        }
+      },
+      {
+        "Id": 9936,
+        "Name": "A Silent Hallway #9936",
+        "Connections": {
+          "North": 9937,
+          "South": 9938,
+          "West": 9935
+        },
+        "Contents": [
+          {
+            "Text": "A limestone guardian #9936",
+            "Color": "green"
+          },
+          {
+            "Text": "A limestone guardian #9935",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9937,
+        "Name": "A Cramped Chamber #9937",
+        "Connections": {
+          "East": 9939,
+          "South": 9936
+        }
+      },
+      {
+        "Id": 9938,
+        "Name": "A Heated Chamber #9938",
+        "Connections": {
+          "North": 9936,
+          "East": 9946
+        },
+        "Contents": [
+          {
+            "Text": "A tangle of snakes #9942",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9939,
+        "Name": "A Stone Passage #9939",
+        "Connections": {
+          "North": 9940,
+          "East": 9941,
+          "West": 9937
+        },
+        "Contents": [
+          {
+            "Text": "A tangle of snakes #9937",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9940,
+        "Name": "A Forest of Pillars #9940",
+        "Connections": {
+          "South": 9939
+        },
+        "Contents": [
+          {
+            "Text": "An explorer #9938",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9941,
+        "Name": "The Golden Desert Mosaic #9941",
+        "Connections": {
+          "South": 9942,
+          "West": 9939
+        },
+        "Contents": [
+          {
+            "Text": "the ancient stone wall #9940",
+            "Color": "green"
+          },
+          {
+            "Text": "A digging dwarf #9939",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9942,
+        "Name": "A Hallway That Smells Like Rot #9942",
+        "Connections": {
+          "North": 9941,
+          "East": 9944,
+          "South": 9945,
+          "West": 9943
+        },
+        "Contents": [
+          {
+            "Text": "A swarm of black flies #9944",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9943,
+        "Name": "The Air Shaft #9943",
+        "Connections": {
+          "East": 9942
+        }
+      },
+      {
+        "Id": 9944,
+        "Name": "A Vandalized Chamber #9944",
+        "Connections": {
+          "West": 9942
+        }
+      },
+      {
+        "Id": 9945,
+        "Name": "Corridor of Vases #9945",
+        "Connections": {
+          "North": 9942,
+          "West": 9946
+        },
+        "Contents": [
+          {
+            "Text": "A grave robber #9943",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9946,
+        "Name": "A White Chamber #9946",
+        "Connections": {
+          "East": 9945,
+          "South": 9947,
+          "West": 9938
+        }
+      },
+      {
+        "Id": 9947,
+        "Name": "Under the Surface #9947",
+        "Connections": {
+          "North": 9946
+        }
+      },
+      {
+        "Id": 9948,
+        "Name": "A Dead End #9948",
+        "Connections": {
+          "West": 9950
+        }
+      },
+      {
+        "Id": 9949,
+        "Name": " #9949",
+        "Connections": {}
+      },
+      {
+        "Id": 9950,
+        "Name": "Lost Among the Mirrors #9950",
+        "Connections": {
+          "North": 9951,
+          "East": 9948,
+          "South": 9953,
+          "West": 9957
+        },
+        "Contents": [
+          {
+            "Text": "An illusion #9945",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9951,
+        "Name": "Lost Among the Mirrors #9951",
+        "Connections": {
+          "North": 9952,
+          "South": 9950,
+          "West": 9958
+        },
+        "Contents": [
+          {
+            "Text": "A reflection #9947",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9952,
+        "Name": "Lost Among the Mirrors #9952",
+        "Connections": {
+          "South": 9951,
+          "West": 9959
+        }
+      },
+      {
+        "Id": 9953,
+        "Name": "Lost Among the Mirrors #9953",
+        "Connections": {
+          "North": 9950,
+          "South": 9954,
+          "West": 9956
+        },
+        "Contents": [
+          {
+            "Text": "A reflection #9948",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9954,
+        "Name": "Lost Among the Mirrors #9954",
+        "Connections": {
+          "North": 9953,
+          "West": 9955
+        }
+      },
+      {
+        "Id": 9955,
+        "Name": "Lost Among the Mirrors #9955",
+        "Connections": {
+          "North": 9956,
+          "East": 9954,
+          "West": 9960
+        },
+        "Contents": [
+          {
+            "Text": "A reflection #9947",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9956,
+        "Name": "Lost Among the Mirrors #9956",
+        "Connections": {
+          "North": 9957,
+          "East": 9953,
+          "South": 9955
+        }
+      },
+      {
+        "Id": 9957,
+        "Name": "Lost Among the Mirrors #9957",
+        "Connections": {
+          "North": 9958,
+          "East": 9950,
+          "South": 9956,
+          "West": 9962,
+          "Up": 9943
+        },
+        "Contents": [
+          {
+            "Text": "A reflection #9947",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9958,
+        "Name": "Lost Among the Mirrors #9958",
+        "Connections": {
+          "East": 9951,
+          "South": 9957,
+          "West": 9963
+        }
+      },
+      {
+        "Id": 9959,
+        "Name": "Lost Among the Mirrors #9959",
+        "Connections": {
+          "East": 9952,
+          "West": 9964
+        },
+        "Contents": [
+          {
+            "Text": "An illusion #9946",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9960,
+        "Name": "Lost Among the Mirrors #9960",
+        "Connections": {
+          "North": 9961,
+          "East": 9955,
+          "South": 9968
+        }
+      },
+      {
+        "Id": 9961,
+        "Name": "Lost Among the Mirrors #9961",
+        "Connections": {
+          "North": 9962,
+          "South": 9960,
+          "West": 9965
+        },
+        "Contents": [
+          {
+            "Text": "A reflection #9947",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9962,
+        "Name": "Lost Among the Mirrors #9962",
+        "Connections": {
+          "North": 9963,
+          "East": 9957,
+          "South": 9961,
+          "West": 9971
+        }
+      },
+      {
+        "Id": 9963,
+        "Name": "Lost Among the Mirrors #9963",
+        "Connections": {
+          "North": 9964,
+          "East": 9958,
+          "South": 9962
+        },
+        "Contents": [
+          {
+            "Text": "A reflection #9948",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9964,
+        "Name": "Lost Among the Mirrors #9964",
+        "Connections": {
+          "East": 9959,
+          "South": 9963
+        },
+        "Contents": [
+          {
+            "Text": "A reflection #9948",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9965,
+        "Name": "A Short Passage #9965",
+        "Connections": {
+          "East": 9961,
+          "South": 9966
+        },
+        "Contents": [
+          {
+            "Text": "Bringar the dwarf #9952",
+            "Color": "green"
+          },
+          {
+            "Text": "Smarg the underling #9954",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9966,
+        "Name": "Altar of Sun Worship #9966",
+        "Connections": {
+          "North": 9965
+        }
+      },
+      {
+        "Id": 9967,
+        "Name": "A Burial Chamber #9967",
+        "Connections": {
+          "West": {
+            "RoomId": 9970,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 9968,
+        "Name": "A Long Passage #9968",
+        "Connections": {
+          "North": 9960,
+          "South": 9969
+        }
+      },
+      {
+        "Id": 9969,
+        "Name": "A Long Passage #9969",
+        "Connections": {
+          "North": 9968,
+          "South": 9970
+        }
+      },
+      {
+        "Id": 9970,
+        "Name": "The End of the Passage #9970",
+        "Connections": {
+          "North": 9969,
+          "East": {
+            "RoomId": 9967,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A limestone guardian #9953",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9971,
+        "Name": "A Silent Alcove #9971",
+        "Connections": {
+          "East": 9962
+        },
+        "Contents": [
+          {
+            "Text": "A ranger #9951",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9972,
+        "Name": "PET STORAGE #9972",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "An animated mushroom #9950",
+            "Color": "green"
+          },
+          {
+            "Text": "A cave stalker #9949",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9973,
+        "Name": "A Sloping Passage #9973",
+        "Connections": {
+          "East": 9974
+        }
+      },
+      {
+        "Id": 9974,
+        "Name": "A Sloping Passage #9974",
+        "Connections": {
+          "West": 9973,
+          "Down": 9975
+        }
+      },
+      {
+        "Id": 9975,
+        "Name": "A Sloping Passage #9975",
+        "Connections": {
+          "East": 9976,
+          "Up": 9974
+        }
+      },
+      {
+        "Id": 9976,
+        "Name": "A Sloping Passage #9976",
+        "Connections": {
+          "West": 9975,
+          "Down": 9977
+        }
+      },
+      {
+        "Id": 9977,
+        "Name": "A Sloping Passage #9977",
+        "Connections": {
+          "East": 9978,
+          "Up": 9976
+        }
+      },
+      {
+        "Id": 9978,
+        "Name": "A Sloping Passage #9978",
+        "Connections": {
+          "East": 9979,
+          "West": 9977
+        }
+      },
+      {
+        "Id": 9979,
+        "Name": "A Sloping Passage #9979",
+        "Connections": {
+          "West": 9978,
+          "Down": 9980
+        },
+        "Contents": [
+          {
+            "Text": "A twoheaded snake #9956",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9980,
+        "Name": "A Sloping Passage #9980",
+        "Connections": {
+          "East": 9981,
+          "Up": 9979
+        },
+        "Contents": [
+          {
+            "Text": "A twoheaded snake #9956",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9981,
+        "Name": "A Sloping Passage #9981",
+        "Connections": {
+          "East": 9982,
+          "West": 9980
+        }
+      },
+      {
+        "Id": 9982,
+        "Name": "A Sloping Passage #9982",
+        "Connections": {
+          "South": 9983,
+          "West": 9981
+        }
+      },
+      {
+        "Id": 9983,
+        "Name": "The End of the Passage #9983",
+        "Connections": {
+          "North": 9982
+        }
+      },
+      {
+        "Id": 9984,
+        "Name": "The Darkness #9984",
+        "Connections": {
+          "West": 9985
+        }
+      },
+      {
+        "Id": 9985,
+        "Name": "The Darkness #9985",
+        "Connections": {
+          "North": 9986,
+          "East": 9984,
+          "South": 9988,
+          "West": 9992
+        },
+        "Contents": [
+          {
+            "Text": "Living darkness #9957",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9986,
+        "Name": "The Darkness #9986",
+        "Connections": {
+          "North": 9987,
+          "South": 9985
+        }
+      },
+      {
+        "Id": 9987,
+        "Name": "The Darkness #9987",
+        "Connections": {
+          "South": 9986,
+          "West": 9994
+        },
+        "Contents": [
+          {
+            "Text": "Living darkness #9957",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9988,
+        "Name": "The Darkness #9988",
+        "Connections": {
+          "North": 9985,
+          "South": 9989,
+          "West": 9990
+        }
+      },
+      {
+        "Id": 9989,
+        "Name": "The Darkness #9989",
+        "Connections": {
+          "North": 9988
+        },
+        "Contents": [
+          {
+            "Text": "Greater darkness #9958",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9990,
+        "Name": "The Darkness #9990",
+        "Connections": {
+          "North": 9992,
+          "East": 9988,
+          "South": 9991,
+          "West": 9996
+        },
+        "Contents": [
+          {
+            "Text": "Living darkness #9957",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9991,
+        "Name": "The Darkness #9991",
+        "Connections": {
+          "North": 9990,
+          "South": 9994,
+          "West": 9995
+        }
+      },
+      {
+        "Id": 9992,
+        "Name": "The Darkness #9992",
+        "Connections": {
+          "North": 9993,
+          "East": 9985,
+          "South": 9990,
+          "Up": 9957
+        },
+        "Contents": [
+          {
+            "Text": "Living darkness #9957",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9993,
+        "Name": "The Darkness #9993",
+        "Connections": {
+          "North": 9994,
+          "South": 9992,
+          "West": 9997
+        }
+      },
+      {
+        "Id": 9994,
+        "Name": "The Darkness #9994",
+        "Connections": {
+          "North": 9991,
+          "East": 9987,
+          "South": 9993,
+          "West": 9998
+        },
+        "Contents": [
+          {
+            "Text": "Living darkness #9957",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9995,
+        "Name": "The Darkness #9995",
+        "Connections": {
+          "North": 9996,
+          "East": 9991
+        },
+        "Contents": [
+          {
+            "Text": "Living darkness #9957",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9996,
+        "Name": "The Darkness #9996",
+        "Connections": {
+          "East": 9990,
+          "South": 9995
+        }
+      },
+      {
+        "Id": 9997,
+        "Name": "The Darkness #9997",
+        "Connections": {
+          "East": 9993,
+          "South": 9999
+        },
+        "Contents": [
+          {
+            "Text": "Living darkness #9957",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9998,
+        "Name": "The Darkness #9998",
+        "Connections": {
+          "East": 9994
+        },
+        "Contents": [
+          {
+            "Text": "Greater darkness #9958",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9999,
+        "Name": "The Darkness #9999",
+        "Connections": {
+          "North": 9997,
+          "West": 10000
+        }
+      },
+      {
+        "Id": 10000,
+        "Name": "The Darkness #10000",
+        "Connections": {
+          "North": 10001,
+          "East": 9999
+        },
+        "Contents": [
+          {
+            "Text": "Greater darkness #9958",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10001,
+        "Name": "A Brightly Lit Chamber #10001",
+        "Connections": {
+          "South": 10000,
+          "Down": 10002
+        }
+      },
+      {
+        "Id": 10002,
+        "Name": "A Sloping Passage #10002",
+        "Connections": {
+          "East": 10003,
+          "Up": 10001
+        }
+      },
+      {
+        "Id": 10003,
+        "Name": "A Sloping Passage #10003",
+        "Connections": {
+          "East": 10004,
+          "West": 10002
+        },
+        "Contents": [
+          {
+            "Text": "A twoheaded snake #9959",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10004,
+        "Name": "A Sloping Passage #10004",
+        "Connections": {
+          "West": 10003,
+          "Down": 10005
+        }
+      },
+      {
+        "Id": 10005,
+        "Name": "A Sloping Passage #10005",
+        "Connections": {
+          "East": 10006,
+          "Up": 10004
+        }
+      },
+      {
+        "Id": 10006,
+        "Name": "A Sloping Passage #10006",
+        "Connections": {
+          "East": 10007,
+          "West": 10005
+        },
+        "Contents": [
+          {
+            "Text": "A twoheaded snake #9959",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10007,
+        "Name": "A Sloping Passage #10007",
+        "Connections": {
+          "West": 10006,
+          "Down": 10008
+        }
+      },
+      {
+        "Id": 10008,
+        "Name": "The Cold Halls #10008",
+        "Connections": {
+          "West": 10009,
+          "Up": 10007
+        }
+      },
+      {
+        "Id": 10009,
+        "Name": "Skidding Along the Icy Floor #10009",
+        "Connections": {
+          "North": 10012,
+          "East": 10008,
+          "South": 10010,
+          "West": 10020
+        }
+      },
+      {
+        "Id": 10010,
+        "Name": "Skidding Along the Icy Floor #10010",
+        "Connections": {
+          "North": 10009,
+          "South": 10011,
+          "West": 10019
+        }
+      },
+      {
+        "Id": 10011,
+        "Name": "A Patch of Snow #10011",
+        "Connections": {
+          "North": 10010,
+          "East": 10043,
+          "South": 10017,
+          "West": 10018
+        },
+        "Contents": [
+          {
+            "Text": "An ice devil #10101",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10012,
+        "Name": "Skidding Along the Icy Floor #10012",
+        "Connections": {
+          "East": 10016,
+          "South": 10009,
+          "West": 10021
+        }
+      },
+      {
+        "Id": 10013,
+        "Name": "Skidding Along the Icy Floor #10013",
+        "Connections": {
+          "North": 10014,
+          "West": 10022
+        },
+        "Contents": [
+          {
+            "Text": "An ice devil #10101",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10014,
+        "Name": "Skidding Along the Icy Floor #10014",
+        "Connections": {
+          "North": 10015,
+          "South": 10013,
+          "West": 10023
+        }
+      },
+      {
+        "Id": 10015,
+        "Name": "A Patch of Snow #10015",
+        "Connections": {
+          "North": 10017,
+          "East": 10044,
+          "South": 10014,
+          "West": 10025
+        }
+      },
+      {
+        "Id": 10016,
+        "Name": "A Cold Corner #10016",
+        "Connections": {
+          "West": 10012
+        },
+        "Contents": [
+          {
+            "Text": "A snow wyrm #10103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10017,
+        "Name": "Skidding Along the Icy Floor #10017",
+        "Connections": {
+          "North": 10011,
+          "East": 10045,
+          "South": 10015,
+          "West": 10026
+        }
+      },
+      {
+        "Id": 10018,
+        "Name": "Skidding Along the Icy Floor #10018",
+        "Connections": {
+          "North": 10019,
+          "East": 10011,
+          "South": 10026,
+          "West": 10027
+        }
+      },
+      {
+        "Id": 10019,
+        "Name": "Skidding Along the Icy Floor #10019",
+        "Connections": {
+          "North": 10020,
+          "East": 10010,
+          "South": 10018,
+          "West": 10028
+        }
+      },
+      {
+        "Id": 10020,
+        "Name": "A Patch of Snow #10020",
+        "Connections": {
+          "North": 10021,
+          "East": 10009,
+          "South": 10019,
+          "West": 10029
+        },
+        "Contents": [
+          {
+            "Text": "An ice devil #10101",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10021,
+        "Name": "Skidding Along the Icy Floor #10021",
+        "Connections": {
+          "North": 10022,
+          "East": 10012,
+          "South": 10020
+        }
+      },
+      {
+        "Id": 10022,
+        "Name": "Skidding Along the Icy Floor #10022",
+        "Connections": {
+          "North": 10023,
+          "East": 10013,
+          "South": 10021,
+          "West": 10031
+        }
+      },
+      {
+        "Id": 10023,
+        "Name": "A Patch of Snow #10023",
+        "Connections": {
+          "North": 10025,
+          "East": 10014,
+          "South": 10022,
+          "West": 10032
+        }
+      },
+      {
+        "Id": 10024,
+        "Name": " #10024",
+        "Connections": {}
+      },
+      {
+        "Id": 10025,
+        "Name": "Skidding Along the Icy Floor #10025",
+        "Connections": {
+          "North": 10026,
+          "East": 10015,
+          "South": 10023,
+          "West": 10033
+        }
+      },
+      {
+        "Id": 10026,
+        "Name": "Skidding Along the Icy Floor #10026",
+        "Connections": {
+          "North": 10018,
+          "East": 10017,
+          "South": 10025,
+          "West": 10034
+        }
+      },
+      {
+        "Id": 10027,
+        "Name": "Skidding Along the Icy Floor #10027",
+        "Connections": {
+          "North": 10028,
+          "East": 10018,
+          "South": 10034,
+          "West": 10035
+        }
+      },
+      {
+        "Id": 10028,
+        "Name": "Skidding Along the Icy Floor #10028",
+        "Connections": {
+          "North": 10029,
+          "East": 10019,
+          "South": 10027,
+          "West": 10036
+        }
+      },
+      {
+        "Id": 10029,
+        "Name": "A Patch of Snow #10029",
+        "Connections": {
+          "North": 10030,
+          "East": 10020,
+          "South": 10028,
+          "West": 10037
+        }
+      },
+      {
+        "Id": 10030,
+        "Name": "Skidding Along the Icy Floor #10030",
+        "Connections": {
+          "North": 10031,
+          "South": 10029,
+          "West": 10038
+        }
+      },
+      {
+        "Id": 10031,
+        "Name": "Skidding Along the Icy Floor #10031",
+        "Connections": {
+          "North": 10032,
+          "East": 10022,
+          "South": 10030,
+          "West": 10039
+        }
+      },
+      {
+        "Id": 10032,
+        "Name": "Skidding Along the Icy Floor #10032",
+        "Connections": {
+          "North": 10033,
+          "East": 10023,
+          "South": 10031,
+          "West": 10040
+        }
+      },
+      {
+        "Id": 10033,
+        "Name": "A Patch of Snow #10033",
+        "Connections": {
+          "North": 10034,
+          "East": 10025,
+          "South": 10032,
+          "West": 10041
+        }
+      },
+      {
+        "Id": 10034,
+        "Name": "Skidding Along the Icy Floor #10034",
+        "Connections": {
+          "North": 10027,
+          "East": 10026,
+          "South": 10033,
+          "West": 10042
+        }
+      },
+      {
+        "Id": 10035,
+        "Name": "Skidding Along the Icy Floor #10035",
+        "Connections": {
+          "North": 10036,
+          "East": 10027,
+          "South": 10042,
+          "West": 10043
+        }
+      },
+      {
+        "Id": 10036,
+        "Name": "A Patch of Snow #10036",
+        "Connections": {
+          "North": 10037,
+          "East": 10028,
+          "South": 10035,
+          "West": 10044
+        }
+      },
+      {
+        "Id": 10037,
+        "Name": "Skidding Along the Icy Floor #10037",
+        "Connections": {
+          "North": 10038,
+          "East": 10029,
+          "South": 10036,
+          "West": 10045
+        }
+      },
+      {
+        "Id": 10038,
+        "Name": "Skidding Along the Icy Floor #10038",
+        "Connections": {
+          "North": 10039,
+          "East": 10030,
+          "South": 10037,
+          "West": 10046
+        }
+      },
+      {
+        "Id": 10039,
+        "Name": "A Patch of Snow #10039",
+        "Connections": {
+          "North": 10040,
+          "East": 10031,
+          "South": 10038,
+          "West": 10047
+        }
+      },
+      {
+        "Id": 10040,
+        "Name": "Skidding Along the Icy Floor #10040",
+        "Connections": {
+          "North": 10041,
+          "East": 10032,
+          "South": 10039,
+          "West": 10048
+        }
+      },
+      {
+        "Id": 10041,
+        "Name": "Skidding Along the Icy Floor #10041",
+        "Connections": {
+          "North": 10042,
+          "East": 10033,
+          "South": 10040,
+          "West": 10049
+        }
+      },
+      {
+        "Id": 10042,
+        "Name": "A Patch of Snow #10042",
+        "Connections": {
+          "North": 10035,
+          "East": 10034,
+          "South": 10041,
+          "West": 10050
+        }
+      },
+      {
+        "Id": 10043,
+        "Name": "A Patch of Snow #10043",
+        "Connections": {
+          "North": 10044,
+          "East": 10035,
+          "South": 10050,
+          "West": 10011
+        },
+        "Contents": [
+          {
+            "Text": "An ice devil #10101",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10044,
+        "Name": "Skidding Along the Icy Floor #10044",
+        "Connections": {
+          "North": 10045,
+          "East": 10036,
+          "South": 10043,
+          "West": 10015
+        }
+      },
+      {
+        "Id": 10045,
+        "Name": "Skidding Along the Icy Floor #10045",
+        "Connections": {
+          "North": 10046,
+          "East": 10037,
+          "South": 10044,
+          "West": 10017
+        }
+      },
+      {
+        "Id": 10046,
+        "Name": "A Patch of Snow #10046",
+        "Connections": {
+          "North": 10047,
+          "East": 10038,
+          "South": 10045
+        }
+      },
+      {
+        "Id": 10047,
+        "Name": "Skidding Along the Icy Floor #10047",
+        "Connections": {
+          "East": 10039,
+          "South": 10046,
+          "West": 10051
+        }
+      },
+      {
+        "Id": 10048,
+        "Name": "A Patch of Snow #10048",
+        "Connections": {
+          "North": 10049,
+          "East": 10040
+        },
+        "Contents": [
+          {
+            "Text": "An ice devil #10101",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10049,
+        "Name": "Skidding Along the Icy Floor #10049",
+        "Connections": {
+          "North": 10050,
+          "East": 10041,
+          "South": 10048,
+          "West": 10015
+        }
+      },
+      {
+        "Id": 10050,
+        "Name": "A Patch of Snow #10050",
+        "Connections": {
+          "North": 10043,
+          "East": 10042,
+          "South": 10049,
+          "West": 10017
+        },
+        "Contents": [
+          {
+            "Text": "An ice devil #10101",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10051,
+        "Name": "Skidding Along the Icy Floor #10051",
+        "Connections": {
+          "East": 10047,
+          "West": {
+            "RoomId": 10052,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a golden key #10104",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 10052,
+        "Name": "An Ice Garden #10052",
+        "Connections": {
+          "East": {
+            "RoomId": 10051,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a golden key #10104",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 10053
+        },
+        "Contents": [
+          {
+            "Text": "The ice golem #10102",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10053,
+        "Name": "The Surface of a Waterfilled Cavern #10053",
+        "Connections": {
+          "East": 10054,
+          "South": 10055,
+          "Up": 10052
+        }
+      },
+      {
+        "Id": 10054,
+        "Name": "The Surface of a Waterfilled Cavern #10054",
+        "Connections": {
+          "South": 10056,
+          "West": 10053
+        },
+        "Contents": [
+          {
+            "Text": "A bluestriped shark #10104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10055,
+        "Name": "The Surface of a Waterfilled Cavern #10055",
+        "Connections": {
+          "North": 10053,
+          "East": 10056
+        },
+        "Contents": [
+          {
+            "Text": "A bluestriped shark #10104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10056,
+        "Name": "The Surface of a Waterfilled Cavern #10056",
+        "Connections": {
+          "North": 10054,
+          "West": 10055,
+          "Down": 10057
+        }
+      },
+      {
+        "Id": 10057,
+        "Name": "Swimming Through an Underwater Cavern #10057",
+        "Connections": {
+          "East": 10059,
+          "South": 10058,
+          "Up": 10056
+        }
+      },
+      {
+        "Id": 10058,
+        "Name": "Swimming Through an Underwater Cavern #10058",
+        "Connections": {
+          "North": 10057,
+          "East": 10060
+        },
+        "Contents": [
+          {
+            "Text": "A \u0022miler\u0022 eel #10105",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10059,
+        "Name": "Swimming Through an Underwater Cavern #10059",
+        "Connections": {
+          "South": 10060,
+          "West": 10057
+        },
+        "Contents": [
+          {
+            "Text": "A \u0022miler\u0022 eel #10105",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10060,
+        "Name": "Swimming Through an Underwater Cavern #10060",
+        "Connections": {
+          "North": 10059,
+          "West": 10058,
+          "Down": 10061
+        }
+      },
+      {
+        "Id": 10061,
+        "Name": "Swimming Through an Underwater Cavern #10061",
+        "Connections": {
+          "East": 10063,
+          "South": 10062,
+          "Up": 10060
+        }
+      },
+      {
+        "Id": 10062,
+        "Name": "Swimming Through an Underwater Cavern #10062",
+        "Connections": {
+          "North": 10061,
+          "East": 10064
+        }
+      },
+      {
+        "Id": 10063,
+        "Name": "Swimming Through an Underwater Cavern #10063",
+        "Connections": {
+          "North": 10065,
+          "South": 10064,
+          "West": 10061
+        },
+        "Contents": [
+          {
+            "Text": "A whirler #10106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10064,
+        "Name": "Swimming Through an Underwater Cavern #10064",
+        "Connections": {
+          "North": 10063,
+          "West": 10062
+        }
+      },
+      {
+        "Id": 10065,
+        "Name": "A Smaller Cave #10065",
+        "Connections": {
+          "South": 10063
+        },
+        "Contents": [
+          {
+            "Text": "An ancient canthi #10107",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10066,
+        "Name": "A Dead End #10066",
+        "Connections": {
+          "South": 10067
+        }
+      },
+      {
+        "Id": 10067,
+        "Name": "A White Corridor #10067",
+        "Connections": {
+          "North": 10066,
+          "East": 10069,
+          "South": {
+            "RoomId": 10068,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a silver key #10113",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 10071
+        }
+      },
+      {
+        "Id": 10068,
+        "Name": "Chamber of Preparation #10068",
+        "Connections": {
+          "North": {
+            "RoomId": 10067,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a silver key #10113",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 10080
+        },
+        "Contents": [
+          {
+            "Text": "A phalanx acolyte #9965",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10069,
+        "Name": "A White Corridor #10069",
+        "Connections": {
+          "East": 10070,
+          "West": 10067
+        },
+        "Contents": [
+          {
+            "Text": "The phalanx ceremony master #9964",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10070,
+        "Name": "The Altar of the Wind #10070",
+        "Connections": {
+          "West": 10069,
+          "Up": 9943
+        }
+      },
+      {
+        "Id": 10071,
+        "Name": "A White Corridor #10071",
+        "Connections": {
+          "North": 10072,
+          "East": 10067
+        }
+      },
+      {
+        "Id": 10072,
+        "Name": "A White Corridor #10072",
+        "Connections": {
+          "North": 10073,
+          "South": 10071,
+          "West": 10074
+        }
+      },
+      {
+        "Id": 10073,
+        "Name": "A White Corridor #10073",
+        "Connections": {
+          "East": 10075,
+          "South": 10072
+        }
+      },
+      {
+        "Id": 10074,
+        "Name": "Chamber of Ancient Technology #10074",
+        "Connections": {
+          "East": 10072
+        },
+        "Contents": [
+          {
+            "Text": "A phalanx scientist #9961",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10075,
+        "Name": "A White Corridor #10075",
+        "Connections": {
+          "North": 10076,
+          "East": 10077,
+          "West": 10073
+        }
+      },
+      {
+        "Id": 10076,
+        "Name": "A Resting Chamber #10076",
+        "Connections": {
+          "South": 10075
+        }
+      },
+      {
+        "Id": 10077,
+        "Name": "A White Corridor #10077",
+        "Connections": {
+          "South": 10078,
+          "West": 10075
+        }
+      },
+      {
+        "Id": 10078,
+        "Name": "A White Corridor #10078",
+        "Connections": {
+          "North": 10077,
+          "East": 10079
+        }
+      },
+      {
+        "Id": 10079,
+        "Name": "The Training Chamber #10079",
+        "Connections": {
+          "West": 10078
+        },
+        "Contents": [
+          {
+            "Text": "The phalanx axe master #9962",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10080,
+        "Name": "The Training Halls of the Phalanx #10080",
+        "Connections": {
+          "North": 10082
+        }
+      },
+      {
+        "Id": 10081,
+        "Name": " #10081",
+        "Connections": {}
+      },
+      {
+        "Id": 10082,
+        "Name": "The Training Halls of the Phalanx #10082",
+        "Connections": {
+          "North": 10088,
+          "East": 10085,
+          "South": 10080,
+          "West": 10083
+        }
+      },
+      {
+        "Id": 10083,
+        "Name": "The Training Halls of the Phalanx #10083",
+        "Connections": {
+          "North": 10087,
+          "East": 10082,
+          "South": 10095,
+          "West": 10084
+        },
+        "Contents": [
+          {
+            "Text": "A fistfighting phalanx titan #9967",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10084,
+        "Name": "The Training Halls of the Phalanx #10084",
+        "Connections": {
+          "North": 10091,
+          "East": 10083,
+          "West": 10086
+        }
+      },
+      {
+        "Id": 10085,
+        "Name": "The Training Halls of the Phalanx #10085",
+        "Connections": {
+          "North": 10089,
+          "East": 10086,
+          "South": 10093,
+          "West": 10082
+        }
+      },
+      {
+        "Id": 10086,
+        "Name": "The Training Halls of the Phalanx #10086",
+        "Connections": {
+          "North": 10090,
+          "East": 10084,
+          "West": 10085
+        }
+      },
+      {
+        "Id": 10087,
+        "Name": "The Training Halls of the Phalanx #10087",
+        "Connections": {
+          "North": 10095,
+          "East": 10088,
+          "South": 10083,
+          "West": 10091
+        }
+      },
+      {
+        "Id": 10088,
+        "Name": "The Training Halls of the Phalanx #10088",
+        "Connections": {
+          "North": 10094,
+          "East": 10089,
+          "South": 10082,
+          "West": 10087
+        },
+        "Contents": [
+          {
+            "Text": "A phalanx swordfighter #9966",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10089,
+        "Name": "The Training Halls of the Phalanx #10089",
+        "Connections": {
+          "North": 10093,
+          "East": 10090,
+          "South": 10085,
+          "West": 10088
+        },
+        "Contents": [
+          {
+            "Text": "A fistfighting phalanx titan #9967",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10090,
+        "Name": "The Training Halls of the Phalanx #10090",
+        "Connections": {
+          "North": 10092,
+          "East": 10091,
+          "South": 10086,
+          "West": 10089
+        },
+        "Contents": [
+          {
+            "Text": "A phalanx swordfighter #9966",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10091,
+        "Name": "The Training Halls of the Phalanx #10091",
+        "Connections": {
+          "East": 10087,
+          "South": 10084,
+          "West": 10090
+        },
+        "Contents": [
+          {
+            "Text": "A phalanx swordfighter #9966",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10092,
+        "Name": "The Training Halls of the Phalanx #10092",
+        "Connections": {
+          "North": 10096,
+          "South": 10090,
+          "West": 10093
+        }
+      },
+      {
+        "Id": 10093,
+        "Name": "The Training Halls of the Phalanx #10093",
+        "Connections": {
+          "North": 10085,
+          "East": 10092,
+          "South": 10089,
+          "West": 10094
+        },
+        "Contents": [
+          {
+            "Text": "A phalanx swordfighter #9966",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10094,
+        "Name": "The Training Halls of the Phalanx #10094",
+        "Connections": {
+          "North": 10098,
+          "East": 10093,
+          "South": 10088,
+          "West": 10095
+        }
+      },
+      {
+        "Id": 10095,
+        "Name": "The Training Halls of the Phalanx #10095",
+        "Connections": {
+          "North": 10083,
+          "East": 10094,
+          "South": 10087,
+          "West": {
+            "RoomId": 10097,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the weaponmasters key #9979",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A fistfighting phalanx titan #9967",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10096,
+        "Name": "A Quiet Chamber #10096",
+        "Connections": {
+          "South": 10092
+        }
+      },
+      {
+        "Id": 10097,
+        "Name": "Chamber of the Weaponmaster #10097",
+        "Connections": {
+          "East": {
+            "RoomId": 10095,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the weaponmasters key #9979",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 10099
+        },
+        "Contents": [
+          {
+            "Text": "The phalanx weaponmaster #9968",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10098,
+        "Name": "Below the Air Shaft #10098",
+        "Connections": {
+          "South": 10094
+        }
+      },
+      {
+        "Id": 10099,
+        "Name": "Temple of the Phalanx #10099",
+        "Connections": {
+          "North": {
+            "RoomId": 10102,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the bronze key #9983",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": {
+            "RoomId": 10109,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a silver key #9989",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 10119,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a gold key #10003",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 10100,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 10100,
+        "Name": "An Antechamber #10100",
+        "Connections": {
+          "East": {
+            "RoomId": 10099,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 10101
+        }
+      },
+      {
+        "Id": 10101,
+        "Name": "The Silent Chamber #10101",
+        "Connections": {
+          "East": 10100
+        },
+        "Contents": [
+          {
+            "Text": "The meditating phalanx #9969",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10102,
+        "Name": "A Dark Corridor #10102",
+        "Connections": {
+          "North": 10103,
+          "South": {
+            "RoomId": 10099,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the bronze key #9983",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A guardian golem #9971",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10103,
+        "Name": "A Dark Corridor #10103",
+        "Connections": {
+          "North": 10105,
+          "South": 10102
+        }
+      },
+      {
+        "Id": 10104,
+        "Name": "Lair of the Worm #10104",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "An earthgrind worm #9975",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10105,
+        "Name": "A Dark Corridor #10105",
+        "Connections": {
+          "North": 10106,
+          "South": 10103
+        }
+      },
+      {
+        "Id": 10106,
+        "Name": "A Fork in the Corridor #10106",
+        "Connections": {
+          "East": 10108,
+          "South": 10105,
+          "West": 10107
+        }
+      },
+      {
+        "Id": 10107,
+        "Name": "A Chamber Smelling of Forest #10107",
+        "Connections": {
+          "East": 10106
+        },
+        "Contents": [
+          {
+            "Text": "A greenskinned phalanx #9973",
+            "Color": "green"
+          },
+          {
+            "Text": "A grey wolf #9974",
+            "Color": "green"
+          },
+          {
+            "Text": "A grey wolf #9974",
+            "Color": "green"
+          },
+          {
+            "Text": "A grey wolf #9974",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10108,
+        "Name": "Room of Prophecy #10108",
+        "Connections": {
+          "West": 10106
+        },
+        "Contents": [
+          {
+            "Text": "A sneaky thief #9972",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10109,
+        "Name": "A Hallway #10109",
+        "Connections": {
+          "East": 10110,
+          "West": {
+            "RoomId": 10099,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a silver key #9989",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 10110,
+        "Name": "A Intersection #10110",
+        "Connections": {
+          "North": 10111,
+          "East": 10112,
+          "South": 10115,
+          "West": 10109
+        },
+        "Contents": [
+          {
+            "Text": "An animated wall #9977",
+            "Color": "red"
+          },
+          {
+            "Text": "A limestone golem #9976",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10111,
+        "Name": "A Niche in the Wall #10111",
+        "Connections": {
+          "South": 10110
+        },
+        "Contents": [
+          {
+            "Text": "A thrower #9978",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10112,
+        "Name": "A Passage in the Temple #10112",
+        "Connections": {
+          "East": 10113,
+          "West": 10110
+        }
+      },
+      {
+        "Id": 10113,
+        "Name": "A Turn in the Corridor #10113",
+        "Connections": {
+          "South": 10114,
+          "West": 10112
+        }
+      },
+      {
+        "Id": 10114,
+        "Name": "Chamber of Prayers #10114",
+        "Connections": {
+          "North": 10113
+        },
+        "Contents": [
+          {
+            "Text": "A praying phalanx woman #9980",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10115,
+        "Name": "Room of Levers #10115",
+        "Connections": {
+          "North": 10110,
+          "South": 10116
+        }
+      },
+      {
+        "Id": 10116,
+        "Name": "The Chamber of Tablets #10116",
+        "Connections": {
+          "North": 10115,
+          "East": 10117
+        }
+      },
+      {
+        "Id": 10117,
+        "Name": "Room of the Stars #10117",
+        "Connections": {
+          "West": 10116
+        },
+        "Contents": [
+          {
+            "Text": "Gustaf the master thief #9981",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10118,
+        "Name": "The Room of Fire #10118",
+        "Connections": {
+          "West": 10117
+        },
+        "Contents": [
+          {
+            "Text": "Firlis a warrior of the Phoenix Order #9988",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10119,
+        "Name": "The Endless Halls #10119",
+        "Connections": {
+          "North": {
+            "RoomId": 10099,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a gold key #10003",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 10121,
+          "South": 10123,
+          "West": 10120
+        },
+        "Contents": [
+          {
+            "Text": "A sword golem #9982",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10120,
+        "Name": "The Endless Halls #10120",
+        "Connections": {
+          "East": 10119,
+          "South": 10124
+        },
+        "Contents": [
+          {
+            "Text": "A sword golem #9982",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10121,
+        "Name": "The Endless Halls #10121",
+        "Connections": {
+          "South": 10122,
+          "West": 10119
+        }
+      },
+      {
+        "Id": 10122,
+        "Name": "The Endless Halls #10122",
+        "Connections": {
+          "North": 10121,
+          "West": 10123
+        },
+        "Contents": [
+          {
+            "Text": "A sword golem #9982",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10123,
+        "Name": "The Endless Halls #10123",
+        "Connections": {
+          "North": 10119,
+          "East": 10122,
+          "South": 10126,
+          "West": 10124
+        }
+      },
+      {
+        "Id": 10124,
+        "Name": "The Endless Halls #10124",
+        "Connections": {
+          "North": 10120,
+          "East": 10123,
+          "South": 10125
+        }
+      },
+      {
+        "Id": 10125,
+        "Name": "The Endless Halls #10125",
+        "Connections": {
+          "North": 10124,
+          "East": 10126
+        },
+        "Contents": [
+          {
+            "Text": "A sword golem #9982",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10126,
+        "Name": "The Endless Halls #10126",
+        "Connections": {
+          "North": 10123,
+          "South": 10127,
+          "West": 10125
+        },
+        "Contents": [
+          {
+            "Text": "A sword golem #9982",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10127,
+        "Name": "An Ominous Passage #10127",
+        "Connections": {
+          "North": 10126,
+          "South": 10128
+        }
+      },
+      {
+        "Id": 10128,
+        "Name": "An Ominous Passage #10128",
+        "Connections": {
+          "North": 10127,
+          "East": {
+            "RoomId": 10131,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 10129
+        }
+      },
+      {
+        "Id": 10129,
+        "Name": "An Ominous Passage #10129",
+        "Connections": {
+          "North": 10128,
+          "South": 10130
+        }
+      },
+      {
+        "Id": 10130,
+        "Name": "Resting Chambers #10130",
+        "Connections": {
+          "North": 10129,
+          "West": 10134
+        }
+      },
+      {
+        "Id": 10131,
+        "Name": "A Tunnel #10131",
+        "Connections": {
+          "West": {
+            "RoomId": 10128,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 10132
+        }
+      },
+      {
+        "Id": 10132,
+        "Name": "The End of the Tunnel #10132",
+        "Connections": {
+          "East": {
+            "RoomId": 10133,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10008",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Up": 10131
+        },
+        "Contents": [
+          {
+            "Text": "A limestone golem #9983",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10133,
+        "Name": "A Padded Cell #10133",
+        "Connections": {
+          "West": {
+            "RoomId": 10132,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #10008",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a talking balloon #9985",
+            "Color": "green"
+          },
+          {
+            "Text": "A crazy dwarf #9984",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10134,
+        "Name": "The Chambers of Ethos #10134",
+        "Connections": {
+          "East": 10130,
+          "South": 10135
+        },
+        "Contents": [
+          {
+            "Text": "Ethos #9990",
+            "Color": "green"
+          },
+          {
+            "Text": "Pathos #9991",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10135,
+        "Name": "Pathoss Chambers #10135",
+        "Connections": {
+          "North": 10134,
+          "West": 10136
+        }
+      },
+      {
+        "Id": 10136,
+        "Name": "The End of the Journey #10136",
+        "Connections": {
+          "East": 10135
+        }
+      },
+      {
+        "Id": 6923,
+        "FrameColor": "blue",
+        "Name": "To 0oWarpedoLandso0 #6923",
+        "Color": "blue",
+        "Connections": {
+          "West": 6922,
+          "Down": 9935
+        }
+      }
+    ]
+  }
+}

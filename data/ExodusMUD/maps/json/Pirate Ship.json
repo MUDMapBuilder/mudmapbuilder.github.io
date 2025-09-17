@@ -1,0 +1,1246 @@
+{
+  "Area": {
+    "Name": "Pirate Ship",
+    "MinimumLevel": "40",
+    "MaximumLevel": "70",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 28005,
+        "Name": "Plankway to the Royal Eagle #28005",
+        "Connections": {
+          "Up": 28021
+        },
+        "Contents": [
+          {
+            "Text": "The buccaneer #28010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28006,
+        "Name": "Southwest Corner of Aft Deck #28006",
+        "Connections": {
+          "North": 28011,
+          "East": 28007
+        },
+        "Contents": [
+          {
+            "Text": "The angry pirate #28007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 28007,
+        "Name": "Aft Deck South #28007",
+        "Connections": {
+          "North": 28012,
+          "East": 28008,
+          "West": 28006
+        },
+        "Contents": [
+          {
+            "Text": "A sailor #28012",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28008,
+        "Name": "Aft Deck South #28008",
+        "Connections": {
+          "North": 28013,
+          "East": 28009,
+          "West": 28007
+        },
+        "Contents": [
+          {
+            "Text": "The drunk pirate #28008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 28009,
+        "Name": "Aft Deck South #28009",
+        "Connections": {
+          "North": 28014,
+          "East": 28010,
+          "West": 28008
+        },
+        "Contents": [
+          {
+            "Text": "The angry pirate #28007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 28010,
+        "Name": "Southeast Corner of Aft Deck #28010",
+        "Connections": {
+          "North": 28015,
+          "West": 28009
+        },
+        "Contents": [
+          {
+            "Text": "The angry pirate #28007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 28011,
+        "Name": "Aft Deck  Port Side #28011",
+        "Connections": {
+          "East": 28012,
+          "South": 28006,
+          "Down": 28016
+        }
+      },
+      {
+        "Id": 28012,
+        "Name": "Aft Deck #28012",
+        "Connections": {
+          "East": 28013,
+          "South": 28007,
+          "West": 28011
+        },
+        "Contents": [
+          {
+            "Text": "The angry pirate #28007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 28013,
+        "Name": "Center Aft Deck #28013",
+        "Connections": {
+          "East": 28014,
+          "South": 28008,
+          "West": 28012
+        },
+        "Contents": [
+          {
+            "Text": "The Captain #28000",
+            "Color": "green"
+          },
+          {
+            "Text": "The buccaneer #28010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28014,
+        "Name": "Aft Deck #28014",
+        "Connections": {
+          "East": 28015,
+          "South": 28009,
+          "West": 28013
+        }
+      },
+      {
+        "Id": 28015,
+        "Name": "Aft Deck  Starboard Side #28015",
+        "Connections": {
+          "South": 28010,
+          "West": 28014,
+          "Down": 28020
+        },
+        "Contents": [
+          {
+            "Text": "The angry pirate #28007",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 28016,
+        "Name": "Main Deck of the Royal Eagle  Port #28016",
+        "Connections": {
+          "North": 28021,
+          "East": 28017,
+          "Up": 28011
+        },
+        "Contents": [
+          {
+            "Text": "The pirate #28006",
+            "Color": "green"
+          },
+          {
+            "Text": "A sailor #28012",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28017,
+        "Name": "Main Deck of the Royal Eagle #28017",
+        "Connections": {
+          "North": 28022,
+          "East": 28018,
+          "South": {
+            "RoomId": 28074,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the pirate captains amulet #28000",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 28016
+        }
+      },
+      {
+        "Id": 28018,
+        "Name": "Main Deck of the Royal Eagle #28018",
+        "Connections": {
+          "North": 28023,
+          "East": 28019,
+          "South": 28084,
+          "West": 28017,
+          "Down": {
+            "RoomId": 28069,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a long wooden key #28001",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The swashbuckler #28009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28019,
+        "Name": "Main Deck of the Royal Eagle #28019",
+        "Connections": {
+          "North": 28024,
+          "East": 28020,
+          "West": 28018
+        },
+        "Contents": [
+          {
+            "Text": "The midshipman #28011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28020,
+        "Name": "Main Deck of the Royal Eagle  Starboard #28020",
+        "Connections": {
+          "North": 28025,
+          "West": 28019,
+          "Up": 28015
+        }
+      },
+      {
+        "Id": 28021,
+        "Name": "Entrance to the Royal Eagle  Main Deck #28021",
+        "Connections": {
+          "North": 28026,
+          "East": 28022,
+          "South": 28016,
+          "Down": 28005
+        },
+        "Contents": [
+          {
+            "Text": "The swashbuckler #28009",
+            "Color": "green"
+          },
+          {
+            "Text": "The midshipman #28011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28022,
+        "Name": "Main Deck #28022",
+        "Connections": {
+          "North": 28027,
+          "East": 28023,
+          "South": 28017,
+          "West": 28021
+        },
+        "Contents": [
+          {
+            "Text": "A sailor #28012",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28023,
+        "Name": "Main Deck #28023",
+        "Connections": {
+          "North": 28028,
+          "East": 28024,
+          "South": 28018,
+          "West": 28022
+        },
+        "Contents": [
+          {
+            "Text": "The drunk pirate #28008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 28024,
+        "Name": "Main Deck #28024",
+        "Connections": {
+          "North": 28029,
+          "East": 28025,
+          "South": 28019,
+          "West": 28023
+        }
+      },
+      {
+        "Id": 28025,
+        "Name": "Main Deck  Starboard #28025",
+        "Connections": {
+          "North": 28030,
+          "South": 28020,
+          "West": 28024
+        },
+        "Contents": [
+          {
+            "Text": "The pirate #28006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28026,
+        "Name": "Main Deck  Port #28026",
+        "Connections": {
+          "North": 28031,
+          "East": 28027,
+          "South": 28021
+        }
+      },
+      {
+        "Id": 28027,
+        "Name": "Main Deck #28027",
+        "Connections": {
+          "North": 28032,
+          "East": 28028,
+          "South": 28022,
+          "West": 28026
+        }
+      },
+      {
+        "Id": 28028,
+        "Name": "Main Deck #28028",
+        "Connections": {
+          "North": 28033,
+          "East": 28029,
+          "South": 28023,
+          "West": 28027
+        },
+        "Contents": [
+          {
+            "Text": "The pirate #28006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28029,
+        "Name": "Main Deck #28029",
+        "Connections": {
+          "North": 28034,
+          "East": 28030,
+          "South": 28024,
+          "West": 28028
+        }
+      },
+      {
+        "Id": 28030,
+        "Name": "Main Deck  Starboard #28030",
+        "Connections": {
+          "North": 28035,
+          "South": 28025,
+          "West": 28029
+        }
+      },
+      {
+        "Id": 28031,
+        "Name": "Main Deck  Port #28031",
+        "Connections": {
+          "North": 28036,
+          "East": 28032,
+          "South": 28026
+        }
+      },
+      {
+        "Id": 28032,
+        "Name": "Main Deck #28032",
+        "Connections": {
+          "North": 28037,
+          "East": 28033,
+          "South": 28027,
+          "West": 28031
+        }
+      },
+      {
+        "Id": 28033,
+        "Name": "Base of the Mast #28033",
+        "Connections": {
+          "North": 28038,
+          "East": 28034,
+          "South": 28028,
+          "West": 28032,
+          "Up": 28078
+        },
+        "Contents": [
+          {
+            "Text": "The swashbuckler #28009",
+            "Color": "green"
+          },
+          {
+            "Text": "The midshipman #28011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28034,
+        "Name": "Main Deck #28034",
+        "Connections": {
+          "North": 28039,
+          "East": 28035,
+          "South": 28029,
+          "West": 28033
+        },
+        "Contents": [
+          {
+            "Text": "The drunk pirate #28008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 28035,
+        "Name": "Main Deck  Starboard #28035",
+        "Connections": {
+          "North": 28040,
+          "South": 28030,
+          "West": 28034
+        }
+      },
+      {
+        "Id": 28036,
+        "Name": "Main Deck  Port #28036",
+        "Connections": {
+          "North": 28041,
+          "East": 28037,
+          "South": 28031
+        },
+        "Contents": [
+          {
+            "Text": "The pirate #28006",
+            "Color": "green"
+          },
+          {
+            "Text": "The pirate #28006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28037,
+        "Name": "Main Deck #28037",
+        "Connections": {
+          "North": 28042,
+          "East": 28038,
+          "South": 28032,
+          "West": 28036
+        },
+        "Contents": [
+          {
+            "Text": "The pirate #28006",
+            "Color": "green"
+          },
+          {
+            "Text": "The drunk pirate #28008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 28038,
+        "Name": "Main Deck #28038",
+        "Connections": {
+          "North": 28043,
+          "East": 28039,
+          "South": 28033,
+          "West": 28037
+        }
+      },
+      {
+        "Id": 28039,
+        "Name": "Main Deck #28039",
+        "Connections": {
+          "North": 28044,
+          "East": 28040,
+          "South": 28034,
+          "West": 28038
+        },
+        "Contents": [
+          {
+            "Text": "The midshipman #28011",
+            "Color": "green"
+          },
+          {
+            "Text": "The midshipman #28011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28040,
+        "Name": "Main Deck  Starboard #28040",
+        "Connections": {
+          "North": 28045,
+          "South": 28035,
+          "West": 28039
+        }
+      },
+      {
+        "Id": 28041,
+        "Name": "Main Deck  Port #28041",
+        "Connections": {
+          "East": 28042,
+          "South": 28036
+        }
+      },
+      {
+        "Id": 28042,
+        "Name": "Main Deck #28042",
+        "Connections": {
+          "North": 28046,
+          "East": 28043,
+          "South": 28037,
+          "West": 28041
+        },
+        "Contents": [
+          {
+            "Text": "The midshipman #28011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28043,
+        "Name": "Main Deck #28043",
+        "Connections": {
+          "North": 28047,
+          "East": 28044,
+          "South": 28038,
+          "West": 28042
+        }
+      },
+      {
+        "Id": 28044,
+        "Name": "Main Deck #28044",
+        "Connections": {
+          "North": 28048,
+          "East": 28045,
+          "South": 28039,
+          "West": 28043
+        }
+      },
+      {
+        "Id": 28045,
+        "Name": "Main Deck  Starboard #28045",
+        "Connections": {
+          "South": 28040,
+          "West": 28044
+        },
+        "Contents": [
+          {
+            "Text": "The pirate #28006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28046,
+        "Name": "Bow of the Royal Eagle #28046",
+        "Connections": {
+          "North": 28049,
+          "East": 28047,
+          "South": 28042
+        }
+      },
+      {
+        "Id": 28047,
+        "Name": "Bow of the Royal Eagle #28047",
+        "Connections": {
+          "North": 28050,
+          "East": 28048,
+          "South": 28043,
+          "West": 28046,
+          "Down": {
+            "RoomId": 28053,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small wooden key #28002",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The pirate #28006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28048,
+        "Name": "Bow of the Royal Eagle #28048",
+        "Connections": {
+          "North": 28051,
+          "South": 28044,
+          "West": 28047
+        },
+        "Contents": [
+          {
+            "Text": "The drunk pirate #28008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 28049,
+        "Name": "Bow of the Royal Eagle #28049",
+        "Connections": {
+          "East": 28050,
+          "South": 28046
+        },
+        "Contents": [
+          {
+            "Text": "The midshipman #28011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28050,
+        "Name": "Bow of the Royal Eagle #28050",
+        "Connections": {
+          "North": 28052,
+          "East": 28051,
+          "South": 28047,
+          "West": 28049
+        },
+        "Contents": [
+          {
+            "Text": "The swashbuckler #28009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28051,
+        "Name": "Bow of the Royal Eagle #28051",
+        "Connections": {
+          "South": 28048,
+          "West": 28050
+        },
+        "Contents": [
+          {
+            "Text": "The midshipman #28011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28052,
+        "Name": "Tip of the Royal Eagle #28052",
+        "Connections": {
+          "South": 28050
+        },
+        "Contents": [
+          {
+            "Text": "The pirate #28006",
+            "Color": "green"
+          },
+          {
+            "Text": "The pirate #28006",
+            "Color": "green"
+          },
+          {
+            "Text": "The midshipman #28011",
+            "Color": "green"
+          },
+          {
+            "Text": "The midshipman #28011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28053,
+        "Name": "Stairs to the Main Deck #28053",
+        "Connections": {
+          "South": 28054,
+          "Up": {
+            "RoomId": 28047,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small wooden key #28002",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The buccaneer #28010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28054,
+        "Name": "Below Deck #28054",
+        "Connections": {
+          "North": 28053,
+          "South": 28057
+        },
+        "Contents": [
+          {
+            "Text": "The buccaneer #28010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28056,
+        "Name": "Sleeping Quarters #28056",
+        "Connections": {
+          "East": {
+            "RoomId": 28057,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small wooden key #28002",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 28059
+        }
+      },
+      {
+        "Id": 28057,
+        "Name": "An Intersection Below Deck #28057",
+        "Connections": {
+          "North": 28054,
+          "East": {
+            "RoomId": 28058,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small wooden key #28002",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 28060,
+          "West": {
+            "RoomId": 28056,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small wooden key #28002",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 28058,
+        "Name": "Sleeping Quarters #28058",
+        "Connections": {
+          "South": 28061,
+          "West": {
+            "RoomId": 28057,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small wooden key #28002",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A sleepy pirate #28005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28059,
+        "Name": "Sleeping Quarters #28059",
+        "Connections": {
+          "North": 28056,
+          "South": 28062
+        },
+        "Contents": [
+          {
+            "Text": "A sleepy pirate #28005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28060,
+        "Name": "Below Deck #28060",
+        "Connections": {
+          "North": 28057,
+          "South": 28063
+        },
+        "Contents": [
+          {
+            "Text": "The buccaneer #28010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28061,
+        "Name": "Sleeping Quarters #28061",
+        "Connections": {
+          "North": 28058,
+          "South": 28064
+        },
+        "Contents": [
+          {
+            "Text": "A sleepy pirate #28005",
+            "Color": "green"
+          },
+          {
+            "Text": "A sleepy pirate #28005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28062,
+        "Name": "Sleeping Quarters #28062",
+        "Connections": {
+          "North": 28059,
+          "South": 28065
+        },
+        "Contents": [
+          {
+            "Text": "A sleepy pirate #28005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28063,
+        "Name": "The Kitchen #28063",
+        "Connections": {
+          "North": 28060
+        },
+        "Contents": [
+          {
+            "Text": "The ships cook #28003",
+            "Color": "green"
+          },
+          {
+            "Text": "A seafaring rat #28013",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28064,
+        "Name": "Sleeping Quarters #28064",
+        "Connections": {
+          "North": 28061,
+          "South": 28067
+        }
+      },
+      {
+        "Id": 28065,
+        "Name": "Storeroom #28065",
+        "Connections": {
+          "North": 28062,
+          "East": 28066
+        },
+        "Contents": [
+          {
+            "Text": "A seafaring rat #28013",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28066,
+        "Name": "Storeroom #28066",
+        "Connections": {
+          "West": 28065
+        },
+        "Contents": [
+          {
+            "Text": "A seafaring rat #28013",
+            "Color": "green"
+          },
+          {
+            "Text": "A seafaring rat #28013",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28067,
+        "Name": "Sleeping Quarters #28067",
+        "Connections": {
+          "North": 28064
+        },
+        "Contents": [
+          {
+            "Text": "A sleepy pirate #28005",
+            "Color": "green"
+          },
+          {
+            "Text": "A sleepy pirate #28005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28068,
+        "Name": "Below Deck  Port #28068",
+        "Connections": {
+          "East": 28069,
+          "South": {
+            "RoomId": 28071,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skull key #28003",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A seafaring rat #28013",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28069,
+        "Name": "Below Deck #28069",
+        "Connections": {
+          "East": 28070,
+          "South": {
+            "RoomId": 28072,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skull key #28003",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 28068,
+          "Up": {
+            "RoomId": 28018,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a long wooden key #28001",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 28070,
+        "Name": "Below Deck  Starboard #28070",
+        "Connections": {
+          "South": {
+            "RoomId": 28073,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skull key #28003",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 28069
+        }
+      },
+      {
+        "Id": 28071,
+        "Name": "First Mates Quarters #28071",
+        "Connections": {
+          "North": {
+            "RoomId": 28068,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skull key #28003",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The first mate #28002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28072,
+        "Name": "Captains Quarters #28072",
+        "Connections": {
+          "North": {
+            "RoomId": 28069,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skull key #28003",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 28073,
+        "Name": "Navigators Quarters #28073",
+        "Connections": {
+          "North": {
+            "RoomId": 28070,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a skull key #28003",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The navigator #28001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28074,
+        "Name": "Hidden Room #28074",
+        "Connections": {
+          "North": {
+            "RoomId": 28017,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the pirate captains amulet #28000",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 28075
+        }
+      },
+      {
+        "Id": 28075,
+        "Name": "Hidden Room #28075",
+        "Connections": {
+          "East": 28076,
+          "West": 28074
+        }
+      },
+      {
+        "Id": 28076,
+        "Name": "Treasure Room #28076",
+        "Connections": {
+          "West": 28075
+        },
+        "Contents": [
+          {
+            "Text": "The hired assassin guard #28004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28077,
+        "Name": "Out on the Mast #28077",
+        "Connections": {
+          "East": 28078
+        }
+      },
+      {
+        "Id": 28078,
+        "Name": "The Mast #28078",
+        "Connections": {
+          "East": 28079,
+          "West": 28077,
+          "Up": 28081,
+          "Down": 28033
+        }
+      },
+      {
+        "Id": 28079,
+        "Name": "Out on the Mast #28079",
+        "Connections": {
+          "West": 28078
+        },
+        "Contents": [
+          {
+            "Text": "The swashbuckler #28009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28080,
+        "Name": "Out on the Mast #28080",
+        "Connections": {
+          "East": 28081
+        },
+        "Contents": [
+          {
+            "Text": "The swashbuckler #28009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28081,
+        "Name": "The Mast #28081",
+        "Connections": {
+          "East": 28082,
+          "West": 28080,
+          "Up": 28083,
+          "Down": 28078
+        },
+        "Contents": [
+          {
+            "Text": "The buccaneer #28010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28082,
+        "Name": "Out on the Mast #28082",
+        "Connections": {
+          "West": 28081
+        }
+      },
+      {
+        "Id": 28083,
+        "Name": "Crows Nest #28083",
+        "Connections": {
+          "Down": 28081
+        },
+        "Contents": [
+          {
+            "Text": "The lookout #28014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28084,
+        "Name": "Seashells Galore #28084",
+        "Connections": {
+          "North": 28018
+        },
+        "Contents": [
+          {
+            "Text": "She #28015",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 28085,
+        "Name": "Inside a crate #28085",
+        "Connections": {}
+      },
+      {
+        "Id": 28086,
+        "Name": "Inside the wooden boat #28086",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "The pirate #28016",
+            "Color": "green"
+          }
+        ]
+      }
+    ]
+  }
+}

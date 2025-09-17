@@ -1,0 +1,2400 @@
+{
+  "Area": {
+    "Name": "Stillwater",
+    "MinimumLevel": "80",
+    "MaximumLevel": "91",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 9200,
+        "Name": "On a Windy Hill #9200",
+        "Connections": {
+          "North": 9228,
+          "Down": 9201
+        }
+      },
+      {
+        "Id": 9201,
+        "Name": "A Widening Trail #9201",
+        "Connections": {
+          "South": 9202,
+          "Up": 9200
+        }
+      },
+      {
+        "Id": 9202,
+        "Name": "Entering the Village #9202",
+        "Connections": {
+          "North": 9201,
+          "East": 9203,
+          "South": 9204
+        }
+      },
+      {
+        "Id": 9203,
+        "Name": "A Rickety Shed #9203",
+        "Connections": {
+          "West": 9202
+        },
+        "Contents": [
+          {
+            "Text": "An undead man #9373",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9204,
+        "Name": "A Narrow Street #9204",
+        "Connections": {
+          "North": 9202,
+          "East": 9205,
+          "South": 9210,
+          "West": 9209
+        }
+      },
+      {
+        "Id": 9205,
+        "Name": "The Sleeping Lamb Inn #9205",
+        "Connections": {
+          "West": 9204,
+          "Up": 9206
+        },
+        "Contents": [
+          {
+            "Text": "The innkeeper #9200",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9206,
+        "Name": "The Sleeping Lamb Inn  Second Floor #9206",
+        "Connections": {
+          "West": 9207,
+          "Down": 9205
+        }
+      },
+      {
+        "Id": 9207,
+        "Name": "On a Balcony #9207",
+        "Connections": {
+          "East": 9206
+        }
+      },
+      {
+        "Id": 9208,
+        "Name": "A Single Room #9208",
+        "Connections": {
+          "West": {
+            "RoomId": 9206,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the key to the single room #9368",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 9209,
+        "Name": "A Deserted Home #9209",
+        "Connections": {
+          "East": 9204
+        }
+      },
+      {
+        "Id": 9210,
+        "Name": "A Silent Street #9210",
+        "Connections": {
+          "North": 9204,
+          "East": 9212,
+          "South": 9213,
+          "West": 9211
+        }
+      },
+      {
+        "Id": 9211,
+        "Name": "The Bakery #9211",
+        "Connections": {
+          "East": 9210
+        },
+        "Contents": [
+          {
+            "Text": "A baker #9273",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9212,
+        "Name": "A Deep Alley #9212",
+        "Connections": {
+          "East": 9218,
+          "West": 9210
+        }
+      },
+      {
+        "Id": 9213,
+        "Name": "Square of the Star #9213",
+        "Connections": {
+          "North": 9210,
+          "East": 9215,
+          "South": 9216,
+          "West": 9214
+        }
+      },
+      {
+        "Id": 9214,
+        "Name": "The Village Tavern #9214",
+        "Connections": {
+          "East": 9213
+        }
+      },
+      {
+        "Id": 9215,
+        "Name": "A Quiet Abode #9215",
+        "Connections": {
+          "West": 9213
+        },
+        "Contents": [
+          {
+            "Text": "The boy #9201",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9216,
+        "Name": "Base of the Windmill Hill #9216",
+        "Connections": {
+          "North": 9213,
+          "Up": 9217
+        }
+      },
+      {
+        "Id": 9217,
+        "Name": "Windmill Hill #9217",
+        "Connections": {
+          "Down": 9216
+        }
+      },
+      {
+        "Id": 9218,
+        "Name": "A Path Leading Out of the Village #9218",
+        "Connections": {
+          "East": 9220,
+          "South": 9219,
+          "West": 9212
+        }
+      },
+      {
+        "Id": 9219,
+        "Name": "The Well #9219",
+        "Connections": {
+          "North": 9218
+        }
+      },
+      {
+        "Id": 9220,
+        "Name": "A Sandy Slope #9220",
+        "Connections": {
+          "West": 9218,
+          "Down": 9221
+        }
+      },
+      {
+        "Id": 9221,
+        "Name": "On the Lakeshore #9221",
+        "Connections": {
+          "North": 9222,
+          "East": 9227,
+          "Up": 9220
+        }
+      },
+      {
+        "Id": 9222,
+        "Name": "On the Lakeshore #9222",
+        "Connections": {
+          "East": 9223,
+          "South": 9221
+        }
+      },
+      {
+        "Id": 9223,
+        "Name": "Underlight Lake #9223",
+        "Connections": {
+          "East": 9224,
+          "South": 9227,
+          "West": 9222
+        }
+      },
+      {
+        "Id": 9224,
+        "Name": "Underlight Lake #9224",
+        "Connections": {
+          "South": 9226,
+          "West": 9223
+        }
+      },
+      {
+        "Id": 9226,
+        "Name": "Underlight Lake #9226",
+        "Connections": {
+          "North": 9224,
+          "West": 9227
+        }
+      },
+      {
+        "Id": 9227,
+        "Name": "Underlight Lake #9227",
+        "Connections": {
+          "North": 9223,
+          "East": 9226,
+          "West": 9221
+        }
+      },
+      {
+        "Id": 9228,
+        "Name": "Climbing a Hill #9228",
+        "Connections": {
+          "South": 9200,
+          "Down": 9229
+        }
+      },
+      {
+        "Id": 9229,
+        "Name": "On a Shore #9229",
+        "Connections": {
+          "North": 9230,
+          "Up": 9228
+        }
+      },
+      {
+        "Id": 9230,
+        "Name": "A Solitary Wharf #9230",
+        "Connections": {
+          "North": 31002,
+          "East": 31103,
+          "South": 9229,
+          "West": 31101
+        }
+      },
+      {
+        "Id": 9231,
+        "Name": "Falling #9231",
+        "Connections": {}
+      },
+      {
+        "Id": 9232,
+        "Name": "The Bottom of the Well #9232",
+        "Connections": {}
+      },
+      {
+        "Id": 9233,
+        "Name": "The Apex of the Underground Tower #9233",
+        "Connections": {
+          "North": 9234,
+          "West": 9235
+        }
+      },
+      {
+        "Id": 9234,
+        "Name": "The Apex of the Underground Tower #9234",
+        "Connections": {
+          "South": 9233,
+          "West": 9236
+        }
+      },
+      {
+        "Id": 9235,
+        "Name": "The Apex of the Underground Tower #9235",
+        "Connections": {
+          "North": 9236,
+          "East": 9233,
+          "Down": 9237
+        },
+        "Contents": [
+          {
+            "Text": "A gargoyle #9202",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9236,
+        "Name": "The Apex of the Underground Tower #9236",
+        "Connections": {
+          "East": 9234,
+          "South": 9235
+        }
+      },
+      {
+        "Id": 9237,
+        "Name": "The Stairwell #9237",
+        "Connections": {
+          "North": 9238,
+          "Up": 9235
+        }
+      },
+      {
+        "Id": 9238,
+        "Name": "The Pantry #9238",
+        "Connections": {
+          "East": 9239,
+          "South": 9237
+        }
+      },
+      {
+        "Id": 9239,
+        "Name": "The Kitchen #9239",
+        "Connections": {
+          "South": 9240,
+          "West": 9238
+        },
+        "Contents": [
+          {
+            "Text": "A kitchen helper #9203",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9240,
+        "Name": "The Kitchen #9240",
+        "Connections": {
+          "North": 9239,
+          "East": 9241,
+          "South": 9242
+        },
+        "Contents": [
+          {
+            "Text": "A girl #9205",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9241,
+        "Name": "A Balcony Near the Top #9241",
+        "Connections": {
+          "West": 9240
+        },
+        "Contents": [
+          {
+            "Text": "The wincher #9204",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9242,
+        "Name": "The Kitchen #9242",
+        "Connections": {
+          "North": 9240,
+          "West": 9243
+        },
+        "Contents": [
+          {
+            "Text": "The busy baker #9206",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9243,
+        "Name": "The Dish Room #9243",
+        "Connections": {
+          "East": 9242,
+          "West": 9244
+        },
+        "Contents": [
+          {
+            "Text": "A cat #9209",
+            "Color": "green"
+          },
+          {
+            "Text": "A mouse #9210",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9244,
+        "Name": "The Room of the Machine #9244",
+        "Connections": {
+          "North": 9245,
+          "East": 9243
+        }
+      },
+      {
+        "Id": 9245,
+        "Name": "The Sleeping Quarters #9245",
+        "Connections": {
+          "North": 9246,
+          "South": 9244
+        }
+      },
+      {
+        "Id": 9246,
+        "Name": "A Stairwell #9246",
+        "Connections": {
+          "South": 9245,
+          "Down": 9247
+        }
+      },
+      {
+        "Id": 9247,
+        "Name": "A Dusty Stairwell #9247",
+        "Connections": {
+          "East": 9248,
+          "Up": 9246
+        }
+      },
+      {
+        "Id": 9248,
+        "Name": "The Heart of the Library #9248",
+        "Connections": {
+          "North": 9249,
+          "South": 9253,
+          "West": 9247
+        }
+      },
+      {
+        "Id": 9249,
+        "Name": "The Library #9249",
+        "Connections": {
+          "East": 9251,
+          "South": 9248
+        },
+        "Contents": [
+          {
+            "Text": "The ghostly librarian #9212",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9250,
+        "Name": "The Painted Room #9250",
+        "Connections": {
+          "South": 9247
+        },
+        "Contents": [
+          {
+            "Text": "Blixfog #9211",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9251,
+        "Name": "The Depository #9251",
+        "Connections": {
+          "West": 9249
+        }
+      },
+      {
+        "Id": 9252,
+        "Name": "The Forgotten Study #9252",
+        "Connections": {
+          "North": 9251
+        },
+        "Contents": [
+          {
+            "Text": "A skeletal scholar #9214",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9253,
+        "Name": "The Heart of the Library #9253",
+        "Connections": {
+          "North": 9248,
+          "South": 9255
+        }
+      },
+      {
+        "Id": 9254,
+        "Name": "The Secret Retreat #9254",
+        "Connections": {
+          "West": 9253
+        }
+      },
+      {
+        "Id": 9255,
+        "Name": "The Library #9255",
+        "Connections": {
+          "North": 9253,
+          "East": 9256,
+          "West": 9257
+        }
+      },
+      {
+        "Id": 9256,
+        "Name": "The Meeting Room #9256",
+        "Connections": {
+          "West": 9255
+        },
+        "Contents": [
+          {
+            "Text": "A phantom delegate #9216",
+            "Color": "red"
+          },
+          {
+            "Text": "A growling delegate #9217",
+            "Color": "red"
+          },
+          {
+            "Text": "A drooling phantom #9218",
+            "Color": "red"
+          },
+          {
+            "Text": "A fuming delegate #9219",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9257,
+        "Name": "The Library #9257",
+        "Connections": {
+          "North": 9258,
+          "East": 9255
+        },
+        "Contents": [
+          {
+            "Text": "A poltergeist #9224",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9258,
+        "Name": "A Corridor #9258",
+        "Connections": {
+          "South": 9257,
+          "West": 9259
+        }
+      },
+      {
+        "Id": 9259,
+        "Name": "The Bend in the Corridor #9259",
+        "Connections": {
+          "North": 9261,
+          "East": 9258,
+          "South": 9260
+        }
+      },
+      {
+        "Id": 9260,
+        "Name": "Room of Book Binding #9260",
+        "Connections": {
+          "North": 9259
+        },
+        "Contents": [
+          {
+            "Text": "Oddus the book binder #9215",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9261,
+        "Name": "A Dark Corridor #9261",
+        "Connections": {
+          "North": 9262,
+          "South": 9259
+        }
+      },
+      {
+        "Id": 9262,
+        "Name": "Another Stairwell #9262",
+        "Connections": {
+          "South": 9261,
+          "Down": 9268
+        },
+        "Contents": [
+          {
+            "Text": "An imp #9225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9263,
+        "Name": "A Fairytale  By Galadriel #9263",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "King Kingston #9220",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9264,
+        "Name": "And the journey started... #9264",
+        "Connections": {
+          "East": 9265
+        },
+        "Contents": [
+          {
+            "Text": "An elderly woman #9223",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9265,
+        "Name": "Finally at the Tower #9265",
+        "Connections": {
+          "East": 9266,
+          "West": 9264
+        },
+        "Contents": [
+          {
+            "Text": "Zephyrus the Dragon #9221",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9266,
+        "Name": "Inside the Tower #9266",
+        "Connections": {
+          "West": 9265,
+          "Up": 9267
+        }
+      },
+      {
+        "Id": 9267,
+        "Name": "The Highest Room in the Tallest Tower #9267",
+        "Connections": {
+          "Down": 9266
+        },
+        "Contents": [
+          {
+            "Text": "Princess Daffodil #9222",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9268,
+        "Name": "Another Stairwell #9268",
+        "Connections": {
+          "South": 9269,
+          "Up": 9262
+        }
+      },
+      {
+        "Id": 9269,
+        "Name": "A Chamber of Relative Silence #9269",
+        "Connections": {
+          "North": 9268,
+          "East": 9270
+        }
+      },
+      {
+        "Id": 9270,
+        "Name": "The Laboratory #9270",
+        "Connections": {
+          "North": {
+            "RoomId": 9274,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a golden key #9252",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 9272,
+          "South": 9271,
+          "West": 9269
+        }
+      },
+      {
+        "Id": 9271,
+        "Name": "The Laboratory #9271",
+        "Connections": {
+          "North": 9270,
+          "East": 9273
+        }
+      },
+      {
+        "Id": 9272,
+        "Name": "The Laboratory #9272",
+        "Connections": {
+          "South": 9273,
+          "West": 9270
+        },
+        "Contents": [
+          {
+            "Text": "Gastrul the chemist #9227",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9273,
+        "Name": "The Laboratory #9273",
+        "Connections": {
+          "North": 9272,
+          "West": 9271
+        }
+      },
+      {
+        "Id": 9274,
+        "Name": "A Storage Room #9274",
+        "Connections": {
+          "East": 9275,
+          "South": {
+            "RoomId": 9270,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "\u0022Lardy\u0022 #9228",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9275,
+        "Name": "A Damp Corridor #9275",
+        "Connections": {
+          "East": 9276,
+          "West": 9274
+        }
+      },
+      {
+        "Id": 9276,
+        "Name": "Chamber of Bottles #9276",
+        "Connections": {
+          "South": 9277,
+          "West": 9275
+        },
+        "Contents": [
+          {
+            "Text": "A cleaning woman #9229",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9277,
+        "Name": "A Bare Chamber #9277",
+        "Connections": {
+          "North": 9286,
+          "South": 9286
+        }
+      },
+      {
+        "Id": 9278,
+        "Name": "A Windy Corridor #9278",
+        "Connections": {
+          "North": 9287,
+          "South": 9279
+        }
+      },
+      {
+        "Id": 9279,
+        "Name": "Chamber of Pills #9279",
+        "Connections": {
+          "North": 9278,
+          "West": 9280
+        },
+        "Contents": [
+          {
+            "Text": "The canthi mage #9230",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9280,
+        "Name": "A Corridor #9280",
+        "Connections": {
+          "East": 9279,
+          "West": 9281
+        }
+      },
+      {
+        "Id": 9281,
+        "Name": "The Laboratory of Meat #9281",
+        "Connections": {
+          "East": 9280,
+          "West": 9282
+        },
+        "Contents": [
+          {
+            "Text": "The engineer of flesh #9231",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9282,
+        "Name": "The Laboratory of Meat #9282",
+        "Connections": {
+          "North": 9283,
+          "East": 9281
+        }
+      },
+      {
+        "Id": 9283,
+        "Name": "The Ruined Stairwell #9283",
+        "Connections": {
+          "South": 9282
+        }
+      },
+      {
+        "Id": 9284,
+        "Name": "Inside the Sphere #9284",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "A naked elf man #9226",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9285,
+        "Name": "Boiling Green Slime #9285",
+        "Connections": {
+          "Up": 9271
+        }
+      },
+      {
+        "Id": 9286,
+        "Name": "A Bare Chamber #9286",
+        "Connections": {
+          "North": 9277,
+          "South": 9277
+        }
+      },
+      {
+        "Id": 9287,
+        "Name": "A Bare Chamber #9287",
+        "Connections": {
+          "North": 9276,
+          "South": 9278
+        }
+      },
+      {
+        "Id": 9288,
+        "Name": "The Ruined Stairwell #9288",
+        "Connections": {
+          "East": 9290,
+          "South": 9289
+        }
+      },
+      {
+        "Id": 9289,
+        "Name": "The Office of the Shadow Mage #9289",
+        "Connections": {
+          "North": 9288
+        },
+        "Contents": [
+          {
+            "Text": "The shadow mage #9233",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9290,
+        "Name": "A Corridor of the Mage Quarters #9290",
+        "Connections": {
+          "East": 9292,
+          "South": 9291,
+          "West": 9288
+        }
+      },
+      {
+        "Id": 9291,
+        "Name": "The Office of the Illusionist #9291",
+        "Connections": {
+          "North": 9290
+        },
+        "Contents": [
+          {
+            "Text": "The illusionist #9235",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9292,
+        "Name": "A Corridor of the Mage Quarters #9292",
+        "Connections": {
+          "East": {
+            "RoomId": 9294,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a lock pick #9287",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 9293,
+          "West": 9290
+        },
+        "Contents": [
+          {
+            "Text": "A thief of the hand #9242",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9293,
+        "Name": "The Office of the Elementalist #9293",
+        "Connections": {
+          "North": 9292
+        },
+        "Contents": [
+          {
+            "Text": "The dwarven elementalist #9236",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9294,
+        "Name": "The Hall of Statues #9294",
+        "Connections": {
+          "North": 9296,
+          "South": 9295,
+          "West": {
+            "RoomId": 9292,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 9295,
+        "Name": "The Office of the Necromancer #9295",
+        "Connections": {
+          "North": 9294
+        },
+        "Contents": [
+          {
+            "Text": "The necromancer #9237",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9296,
+        "Name": "The Hall of Statues #9296",
+        "Connections": {
+          "North": 9298,
+          "South": 9294
+        },
+        "Contents": [
+          {
+            "Text": "The quartz guardian #9241",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9297,
+        "Name": " #9297",
+        "Connections": {}
+      },
+      {
+        "Id": 9298,
+        "Name": "The Hall of Statues #9298",
+        "Connections": {
+          "South": 9296,
+          "West": {
+            "RoomId": 9299,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a dark green key #9375",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 9299,
+        "Name": "A Corridor in the Mage Quarters #9299",
+        "Connections": {
+          "East": {
+            "RoomId": 9298,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 9301
+        }
+      },
+      {
+        "Id": 9300,
+        "Name": "A Secluded Forest Meadow #9300",
+        "Connections": {
+          "North": 9299
+        }
+      },
+      {
+        "Id": 9301,
+        "Name": "A Corridor in the Mage Quarters #9301",
+        "Connections": {
+          "East": 9299,
+          "South": 9302,
+          "West": 9303
+        }
+      },
+      {
+        "Id": 9302,
+        "Name": "The Office of the Enchanter #9302",
+        "Connections": {
+          "North": 9301
+        },
+        "Contents": [
+          {
+            "Text": "The enchanter #9238",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9303,
+        "Name": "The Office of the Summoner #9303",
+        "Connections": {
+          "East": 9301,
+          "South": 9304
+        },
+        "Contents": [
+          {
+            "Text": "The summoner #9239",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9304,
+        "Name": "An Empty Room #9304",
+        "Connections": {
+          "North": 9303,
+          "Down": 9305
+        }
+      },
+      {
+        "Id": 9305,
+        "Name": "A Narrow Corridor #9305",
+        "Connections": {
+          "North": 9306,
+          "East": 9307
+        }
+      },
+      {
+        "Id": 9306,
+        "Name": "The Guard Room #9306",
+        "Connections": {
+          "South": 9305
+        },
+        "Contents": [
+          {
+            "Text": "An undead guard #9244",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9307,
+        "Name": "A Narrow Corridor #9307",
+        "Connections": {
+          "North": {
+            "RoomId": 9308,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #9292",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 9309,
+          "West": 9305
+        },
+        "Contents": [
+          {
+            "Text": "An undead guard #9245",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9308,
+        "Name": "Cell of the Crazy Monk #9308",
+        "Connections": {
+          "South": {
+            "RoomId": 9307,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The delusional monk #9243",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9309,
+        "Name": "A Narrow Corridor #9309",
+        "Connections": {
+          "North": {
+            "RoomId": 9310,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #9292",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 9311,
+          "West": 9307
+        }
+      },
+      {
+        "Id": 9310,
+        "Name": "Room of the Dying Priest #9310",
+        "Connections": {
+          "South": {
+            "RoomId": 9309,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #9292",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The dying priest #9247",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9311,
+        "Name": "A Bend in the Corridor #9311",
+        "Connections": {
+          "North": {
+            "RoomId": 9312,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 9313,
+          "West": 9309
+        },
+        "Contents": [
+          {
+            "Text": "The paladins hand #9248",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9312,
+        "Name": "Cell of the Paladin #9312",
+        "Connections": {
+          "South": {
+            "RoomId": 9311,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The aged paladin #9249",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9313,
+        "Name": "A Bend in the Corridor #9313",
+        "Connections": {
+          "North": 9311,
+          "South": {
+            "RoomId": 9314,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 9315
+        }
+      },
+      {
+        "Id": 9314,
+        "Name": "Cell of the Thief #9314",
+        "Connections": {
+          "North": {
+            "RoomId": 9313,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The elven girl #9250",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9315,
+        "Name": "A Narrow Corridor #9315",
+        "Connections": {
+          "East": 9313,
+          "South": {
+            "RoomId": 9317,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 9316
+        },
+        "Contents": [
+          {
+            "Text": "An undead guard #9246",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9316,
+        "Name": "A Narrow Corridor #9316",
+        "Connections": {
+          "East": 9315,
+          "South": {
+            "RoomId": 9318,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 9319
+        }
+      },
+      {
+        "Id": 9317,
+        "Name": "Cell of the Mage #9317",
+        "Connections": {
+          "North": {
+            "RoomId": 9315,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Efraim Otraphius #9251",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9318,
+        "Name": "Cell of the Berserker #9318",
+        "Connections": {
+          "North": {
+            "RoomId": 9316,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Vroath Berserker #9252",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9319,
+        "Name": "A Bend in the Corridor #9319",
+        "Connections": {
+          "East": 9316,
+          "South": 9320
+        }
+      },
+      {
+        "Id": 9320,
+        "Name": "The Guard Room #9320",
+        "Connections": {
+          "North": 9319,
+          "Down": 9321
+        },
+        "Contents": [
+          {
+            "Text": "An undead guard #9244",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9321,
+        "Name": "Descending the Stairs #9321",
+        "Connections": {
+          "East": 9322
+        }
+      },
+      {
+        "Id": 9322,
+        "Name": "Descending the Stairs #9322",
+        "Connections": {
+          "East": 9323,
+          "West": 9321
+        }
+      },
+      {
+        "Id": 9323,
+        "Name": "The Bottom of the Tower #9323",
+        "Connections": {
+          "North": 9328,
+          "East": 9324,
+          "West": 9322
+        },
+        "Contents": [
+          {
+            "Text": "A lich soldier #9255",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9324,
+        "Name": "The Bottom of the Tower #9324",
+        "Connections": {
+          "North": 9325,
+          "West": 9323
+        },
+        "Contents": [
+          {
+            "Text": "A kalian soldier #9256",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9325,
+        "Name": "The Eastern Training Halls #9325",
+        "Connections": {
+          "North": 9326,
+          "South": 9324,
+          "West": 9328
+        },
+        "Contents": [
+          {
+            "Text": "A scared villager #9258",
+            "Color": "green"
+          },
+          {
+            "Text": "A lich soldier #9255",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9326,
+        "Name": "The Eastern Training Halls #9326",
+        "Connections": {
+          "North": 9327,
+          "South": 9325,
+          "West": 9331
+        },
+        "Contents": [
+          {
+            "Text": "A kalian soldier #9256",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9327,
+        "Name": "The Commanders Office #9327",
+        "Connections": {
+          "South": 9326
+        }
+      },
+      {
+        "Id": 9328,
+        "Name": "The Training Halls  Above the Pit #9328",
+        "Connections": {
+          "North": 9331,
+          "East": 9325,
+          "South": 9323,
+          "West": 9329
+        },
+        "Contents": [
+          {
+            "Text": "A kalian soldier #9256",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9329,
+        "Name": "The Training Halls  Above the Pit #9329",
+        "Connections": {
+          "North": 9332,
+          "East": 9328,
+          "West": 9330
+        },
+        "Contents": [
+          {
+            "Text": "A scared villager #9258",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9330,
+        "Name": "The Western Training Halls #9330",
+        "Connections": {
+          "North": 9333,
+          "East": 9329
+        },
+        "Contents": [
+          {
+            "Text": "A lich soldier #9255",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9331,
+        "Name": "The Training Halls  Above the Pit #9331",
+        "Connections": {
+          "East": 9326,
+          "South": 9328,
+          "West": 9332
+        },
+        "Contents": [
+          {
+            "Text": "A scared villager #9258",
+            "Color": "green"
+          },
+          {
+            "Text": "A kalian soldier #9256",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9332,
+        "Name": "The Training Halls  Above the Pit #9332",
+        "Connections": {
+          "East": 9331,
+          "South": 9329,
+          "West": 9333
+        },
+        "Contents": [
+          {
+            "Text": "A scared villager #9258",
+            "Color": "green"
+          },
+          {
+            "Text": "A lich soldier #9255",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9333,
+        "Name": "The Western Training Halls #9333",
+        "Connections": {
+          "North": 9334,
+          "East": 9332,
+          "South": 9330
+        },
+        "Contents": [
+          {
+            "Text": "Commander Ktraj #9257",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9334,
+        "Name": "The Anteroom #9334",
+        "Connections": {
+          "East": 9335,
+          "South": 9333
+        }
+      },
+      {
+        "Id": 9335,
+        "Name": "Just Inside the Gate #9335",
+        "Connections": {
+          "North": 9342,
+          "East": 9336,
+          "West": 9334
+        }
+      },
+      {
+        "Id": 9336,
+        "Name": "Just Inside the Gate #9336",
+        "Connections": {
+          "North": 9341,
+          "West": 9335
+        },
+        "Contents": [
+          {
+            "Text": "A lich gate guard #9259",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9337,
+        "Name": "The Pit #9337",
+        "Connections": {
+          "North": 9340,
+          "East": 9338
+        },
+        "Contents": [
+          {
+            "Text": "Ondska the undead minotaur #9253",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9338,
+        "Name": "The Pit #9338",
+        "Connections": {
+          "North": 9339,
+          "West": 9337
+        }
+      },
+      {
+        "Id": 9339,
+        "Name": "The Pit #9339",
+        "Connections": {
+          "South": 9338,
+          "West": 9340
+        },
+        "Contents": [
+          {
+            "Text": "Smidig the thief #9254",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9340,
+        "Name": "The Pit #9340",
+        "Connections": {
+          "East": 9339,
+          "South": 9337
+        }
+      },
+      {
+        "Id": 9341,
+        "Name": "Outside the Gate #9341",
+        "Connections": {
+          "North": 9353,
+          "East": 9344,
+          "South": 9336,
+          "West": 9342
+        }
+      },
+      {
+        "Id": 9342,
+        "Name": "Outside the Gate #9342",
+        "Connections": {
+          "North": 9351,
+          "East": 9341,
+          "South": 9335,
+          "West": {
+            "RoomId": 9343,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 9343,
+        "Name": "The Guard House #9343",
+        "Connections": {
+          "East": {
+            "RoomId": 9342,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A skeletal guard #9260",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9344,
+        "Name": "A Narrow Tunnel #9344",
+        "Connections": {
+          "East": 9345,
+          "West": 9341
+        }
+      },
+      {
+        "Id": 9345,
+        "Name": "A Narrow Tunnel #9345",
+        "Connections": {
+          "South": 9346,
+          "West": 9344
+        },
+        "Contents": [
+          {
+            "Text": "A vroath slave #9263",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9346,
+        "Name": "A Narrow Tunnel #9346",
+        "Connections": {
+          "North": 9345,
+          "South": 9347
+        },
+        "Contents": [
+          {
+            "Text": "A busy slave #9271",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9347,
+        "Name": "A Fork in the Tunnel #9347",
+        "Connections": {
+          "North": 9346,
+          "East": 9350,
+          "South": 9348
+        }
+      },
+      {
+        "Id": 9348,
+        "Name": "Far Below the Winch #9348",
+        "Connections": {
+          "North": 9347
+        },
+        "Contents": [
+          {
+            "Text": "A villager working the winch #9261",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9349,
+        "Name": "Close to the Mouth of the Cavern #9349",
+        "Connections": {
+          "North": 9361,
+          "East": 9362,
+          "West": 9359
+        },
+        "Contents": [
+          {
+            "Text": "A zombie foot soldier #9269",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9350,
+        "Name": "By the Basin #9350",
+        "Connections": {
+          "West": 9347
+        }
+      },
+      {
+        "Id": 9351,
+        "Name": "By the Cavern Wall #9351",
+        "Connections": {
+          "North": 9352,
+          "East": 9353,
+          "South": 9342
+        },
+        "Contents": [
+          {
+            "Text": "A busy slave #9271",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9352,
+        "Name": "By the Cavern Wall #9352",
+        "Connections": {
+          "East": 9354,
+          "South": 9351
+        },
+        "Contents": [
+          {
+            "Text": "A busy slave #9271",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9353,
+        "Name": "A Cavern #9353",
+        "Connections": {
+          "North": 9354,
+          "South": 9341,
+          "West": 9351
+        },
+        "Contents": [
+          {
+            "Text": "The slave overseer #9262",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9354,
+        "Name": "A Cavern #9354",
+        "Connections": {
+          "North": 9355,
+          "East": 9356,
+          "South": 9353,
+          "West": 9352
+        },
+        "Contents": [
+          {
+            "Text": "A dying slave #9270",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9355,
+        "Name": "By the Cavern Wall #9355",
+        "Connections": {
+          "East": 9357,
+          "South": 9354
+        },
+        "Contents": [
+          {
+            "Text": "A vroath slave #9263",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9356,
+        "Name": "A Gently Sloping Tunnel #9356",
+        "Connections": {
+          "North": 9357,
+          "West": 9354,
+          "Down": 9359
+        }
+      },
+      {
+        "Id": 9357,
+        "Name": "A Gently Sloping Tunnel #9357",
+        "Connections": {
+          "South": 9356,
+          "West": 9355,
+          "Down": 9358
+        }
+      },
+      {
+        "Id": 9358,
+        "Name": "At the Mouth of a Gigantic Cavern #9358",
+        "Connections": {
+          "East": 9361,
+          "South": 9359,
+          "Up": 9357
+        }
+      },
+      {
+        "Id": 9359,
+        "Name": "At the Mouth of a Gigantic Cavern #9359",
+        "Connections": {
+          "North": 9358,
+          "East": 9349,
+          "Up": 9356
+        }
+      },
+      {
+        "Id": 9360,
+        "Name": "The Second Floor of the Guard House #9360",
+        "Connections": {
+          "Down": 9343
+        }
+      },
+      {
+        "Id": 9361,
+        "Name": "Close to the Mouth of the Cavern #9361",
+        "Connections": {
+          "East": 9363,
+          "South": 9349,
+          "West": 9358
+        }
+      },
+      {
+        "Id": 9362,
+        "Name": "The Cavern Under the Lake #9362",
+        "Connections": {
+          "North": 9363,
+          "East": 9369,
+          "West": 9349
+        }
+      },
+      {
+        "Id": 9363,
+        "Name": "In Front of the Heavy Iron Door #9363",
+        "Connections": {
+          "North": {
+            "RoomId": 9364,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an iron key #9334",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 9368,
+          "South": 9362,
+          "West": 9361
+        },
+        "Contents": [
+          {
+            "Text": "A vroath zombie #9364",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9364,
+        "Name": "The Slave Pen #9364",
+        "Connections": {
+          "North": 9366,
+          "South": {
+            "RoomId": 9363,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 9365
+        },
+        "Contents": [
+          {
+            "Text": "A panicky slave #9365",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9365,
+        "Name": "The Slave Pen #9365",
+        "Connections": {
+          "North": 9367,
+          "East": 9364
+        },
+        "Contents": [
+          {
+            "Text": "A panicky slave #9365",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9366,
+        "Name": "The Slave Pen #9366",
+        "Connections": {
+          "South": 9364,
+          "West": 9367
+        },
+        "Contents": [
+          {
+            "Text": "A elven slave #9367",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9367,
+        "Name": "The Slave Pen #9367",
+        "Connections": {
+          "East": 9366,
+          "South": 9365
+        },
+        "Contents": [
+          {
+            "Text": "A vroath slave #9366",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9368,
+        "Name": "By the Watchfire #9368",
+        "Connections": {
+          "East": 9377,
+          "South": 9369,
+          "West": 9363
+        },
+        "Contents": [
+          {
+            "Text": "An elite lich soldier #9368",
+            "Color": "red"
+          },
+          {
+            "Text": "A captain of the undead army #9369",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9369,
+        "Name": "The Cavern Under the Lake #9369",
+        "Connections": {
+          "North": 9368,
+          "East": 9376,
+          "South": 9370,
+          "West": 9362
+        }
+      },
+      {
+        "Id": 9370,
+        "Name": "A Bottleneck in the Cavern #9370",
+        "Connections": {
+          "North": 9369,
+          "East": 9375,
+          "South": 9371
+        },
+        "Contents": [
+          {
+            "Text": "A cavalry rider #9266",
+            "Color": "green"
+          },
+          {
+            "Text": "A zombie foot soldier #9269",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9371,
+        "Name": "The Enclosure #9371",
+        "Connections": {
+          "North": 9370,
+          "South": 9372,
+          "West": 9374
+        },
+        "Contents": [
+          {
+            "Text": "A skeletal warhorse #9267",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9372,
+        "Name": "The Enclosure #9372",
+        "Connections": {
+          "North": 9371,
+          "West": 9373
+        },
+        "Contents": [
+          {
+            "Text": "A skeletal warhorse #9267",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9373,
+        "Name": "The Enclosure #9373",
+        "Connections": {
+          "North": 9374,
+          "East": 9372
+        },
+        "Contents": [
+          {
+            "Text": "A skeletal warhorse #9267",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9374,
+        "Name": "The Enclosure #9374",
+        "Connections": {
+          "East": 9371,
+          "South": 9373
+        },
+        "Contents": [
+          {
+            "Text": "A skeletal warhorse #9267",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9375,
+        "Name": "By the Pentagram #9375",
+        "Connections": {
+          "North": 9376,
+          "West": 9370
+        },
+        "Contents": [
+          {
+            "Text": "A Carnifexan necromancer #9265",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9376,
+        "Name": "The Cavern Under the Lake #9376",
+        "Connections": {
+          "North": 9377,
+          "East": 9378,
+          "South": 9375,
+          "West": 9369
+        },
+        "Contents": [
+          {
+            "Text": "A zombie foot soldier #9269",
+            "Color": "red"
+          },
+          {
+            "Text": "A kalian scout #9264",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9377,
+        "Name": "The Cavern Under the Lake #9377",
+        "Connections": {
+          "North": 9381,
+          "East": 9379,
+          "South": 9376,
+          "West": 9368
+        }
+      },
+      {
+        "Id": 9378,
+        "Name": "By the Watchfire #9378",
+        "Connections": {
+          "North": 9379,
+          "West": 9376
+        },
+        "Contents": [
+          {
+            "Text": "An elite lich soldier #9368",
+            "Color": "red"
+          },
+          {
+            "Text": "A captain of the undead army #9369",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9379,
+        "Name": "The Cavern Under the Lake #9379",
+        "Connections": {
+          "North": 9382,
+          "East": 9384,
+          "South": 9378,
+          "West": 9377
+        },
+        "Contents": [
+          {
+            "Text": "A zombie foot soldier #9269",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9380,
+        "Name": " #9380",
+        "Connections": {}
+      },
+      {
+        "Id": 9381,
+        "Name": "The Cavern Under the Lake #9381",
+        "Connections": {
+          "North": 9393,
+          "East": 9382,
+          "South": 9377
+        },
+        "Contents": [
+          {
+            "Text": "A zombie foot soldier #9269",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9382,
+        "Name": "By the Watchfire #9382",
+        "Connections": {
+          "South": 9379,
+          "West": 9381
+        },
+        "Contents": [
+          {
+            "Text": "An elite lich soldier #9368",
+            "Color": "red"
+          },
+          {
+            "Text": "A captain of the undead army #9369",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9383,
+        "Name": "The Construction of the Catapult #9383",
+        "Connections": {
+          "North": 9384
+        },
+        "Contents": [
+          {
+            "Text": "A dwarven engineer #9268",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9384,
+        "Name": "The Cavern Under the Lake #9384",
+        "Connections": {
+          "East": 9385,
+          "South": 9383,
+          "West": 9379
+        },
+        "Contents": [
+          {
+            "Text": "Tricero #9274",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 9385,
+        "Name": "By the Watchfire #9385",
+        "Connections": {
+          "East": 9386,
+          "West": 9384
+        },
+        "Contents": [
+          {
+            "Text": "An elite lich soldier #9368",
+            "Color": "red"
+          },
+          {
+            "Text": "A captain of the undead army #9369",
+            "Color": "red"
+          },
+          {
+            "Text": "A zombie foot soldier #9269",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9386,
+        "Name": "A Secluded Cave #9386",
+        "Connections": {
+          "West": 9385
+        }
+      },
+      {
+        "Id": 9387,
+        "Name": "The Entrance to the Tent #9387",
+        "Connections": {
+          "East": 9388
+        }
+      },
+      {
+        "Id": 9388,
+        "Name": "The Tent of Carnifex #9388",
+        "Connections": {
+          "North": 9389,
+          "East": 9391,
+          "West": 9387
+        }
+      },
+      {
+        "Id": 9389,
+        "Name": "The Tent of Carnifex #9389",
+        "Connections": {
+          "East": 9392,
+          "South": 9388
+        }
+      },
+      {
+        "Id": 9390,
+        "Name": " #9390",
+        "Connections": {}
+      },
+      {
+        "Id": 9391,
+        "Name": "The Tent of Carnifex #9391",
+        "Connections": {
+          "North": 9392,
+          "West": 9388
+        }
+      },
+      {
+        "Id": 9392,
+        "Name": "The Tent of Carnifex #9392",
+        "Connections": {
+          "South": 9391,
+          "West": 9389
+        },
+        "Contents": [
+          {
+            "Text": "Carnifex #9272",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 9393,
+        "Name": "Towards the Surface #9393",
+        "Connections": {
+          "South": 9381,
+          "Up": 9394
+        }
+      },
+      {
+        "Id": 9394,
+        "Name": "Towards the Surface #9394",
+        "Connections": {
+          "Up": 9395,
+          "Down": 9393
+        }
+      },
+      {
+        "Id": 9395,
+        "Name": "Towards the Surface #9395",
+        "Connections": {
+          "Up": 9396,
+          "Down": 9394
+        }
+      },
+      {
+        "Id": 9396,
+        "Name": "Just Below the Lake #9396",
+        "Connections": {
+          "Up": 9397,
+          "Down": 9395
+        }
+      },
+      {
+        "Id": 9397,
+        "Name": "Weightless #9397",
+        "Connections": {}
+      },
+      {
+        "Id": 31002,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #31002",
+        "Color": "blue",
+        "Connections": {
+          "North": 30902,
+          "East": 31003,
+          "South": 9230,
+          "West": 31001
+        }
+      },
+      {
+        "Id": 31103,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #31103",
+        "Color": "blue",
+        "Connections": {
+          "North": 31003,
+          "West": 9230
+        }
+      },
+      {
+        "Id": 31101,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #31101",
+        "Color": "blue",
+        "Connections": {
+          "North": 31001,
+          "East": 9230,
+          "West": 31200
+        }
+      }
+    ]
+  }
+}

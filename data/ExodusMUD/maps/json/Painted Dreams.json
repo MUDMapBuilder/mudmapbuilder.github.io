@@ -1,0 +1,48 @@
+{
+  "Area": {
+    "Name": "Painted Dreams",
+    "MinimumLevel": "35",
+    "MaximumLevel": "80",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 7500,
+        "Name": "A Commencement #7500",
+        "Connections": {
+          "North": 7501
+        }
+      },
+      {
+        "Id": 7501,
+        "Name": "Path of Enlightenment #7501",
+        "Connections": {
+          "North": 7502,
+          "South": 7500
+        }
+      },
+      {
+        "Id": 7502,
+        "Name": "Path of Enlightenment #7502",
+        "Connections": {
+          "North": 7503,
+          "South": 7501
+        }
+      },
+      {
+        "Id": 7503,
+        "Name": "Path of Enlightenment #7503",
+        "Connections": {
+          "North": 7504,
+          "South": 7502
+        }
+      },
+      {
+        "Id": 7504,
+        "Name": "Divergence #7504",
+        "Connections": {
+          "South": 7503
+        }
+      }
+    ]
+  }
+}

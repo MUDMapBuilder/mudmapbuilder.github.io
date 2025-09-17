@@ -1,0 +1,704 @@
+{
+  "Area": {
+    "Name": "Sarrendale Farm",
+    "MinimumLevel": "5",
+    "MaximumLevel": "12",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 3400,
+        "Name": "A Well Travelled Dirt Road #3400",
+        "Connections": {
+          "North": 21237,
+          "East": 21258,
+          "South": 3401,
+          "West": 21256
+        }
+      },
+      {
+        "Id": 3401,
+        "Name": "A Well Travelled Dirt Road #3401",
+        "Connections": {
+          "North": 3400,
+          "East": 21278,
+          "South": 3402
+        }
+      },
+      {
+        "Id": 3402,
+        "Name": "A Well Travelled Dirt Road #3402",
+        "Connections": {
+          "North": 3401,
+          "East": 21298,
+          "South": 3403
+        },
+        "Contents": [
+          {
+            "Text": "a cow #3400",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3403,
+        "Name": "Before the Farmhouse #3403",
+        "Connections": {
+          "North": 3402,
+          "East": 21318,
+          "South": 3406,
+          "West": 3404
+        }
+      },
+      {
+        "Id": 3404,
+        "Name": "A Small Path Crossing the Farmyard #3404",
+        "Connections": {
+          "East": 3403,
+          "South": 3408,
+          "West": 3405
+        },
+        "Contents": [
+          {
+            "Text": "A hen #3401",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3405,
+        "Name": "In Front of the Barn #3405",
+        "Connections": {
+          "East": 3404,
+          "South": 3409
+        }
+      },
+      {
+        "Id": 3406,
+        "Name": "Inside the Farmhouse #3406",
+        "Connections": {
+          "North": 3403,
+          "East": 3407
+        }
+      },
+      {
+        "Id": 3407,
+        "Name": "Inside the Farmhouse #3407",
+        "Connections": {
+          "West": 3406,
+          "Up": 26873
+        }
+      },
+      {
+        "Id": 3408,
+        "Name": "A Small Path #3408",
+        "Connections": {
+          "North": 3404,
+          "South": 3411
+        },
+        "Contents": [
+          {
+            "Text": "A mangy sheep dog #3407",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3409,
+        "Name": "A Wooden Barn #3409",
+        "Connections": {
+          "North": 3405,
+          "South": 3416,
+          "West": 3410
+        }
+      },
+      {
+        "Id": 3410,
+        "Name": "Inside a Barn #3410",
+        "Connections": {
+          "East": 3409
+        }
+      },
+      {
+        "Id": 3411,
+        "Name": "A Dirt Path #3411",
+        "Connections": {
+          "North": 3408,
+          "East": 3412,
+          "South": 3420,
+          "West": 3416
+        },
+        "Contents": [
+          {
+            "Text": "Farmer Sarren #3422",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3412,
+        "Name": "A Vegetable Patch #3412",
+        "Connections": {
+          "East": 3413,
+          "South": 3415,
+          "West": 3411
+        }
+      },
+      {
+        "Id": 3413,
+        "Name": "A Watermelon Patch #3413",
+        "Connections": {
+          "South": 3414,
+          "West": 3412
+        },
+        "Contents": [
+          {
+            "Text": "A bumblebee #3414",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3414,
+        "Name": "A Strawberry Field #3414",
+        "Connections": {
+          "North": 3413,
+          "West": 3415
+        }
+      },
+      {
+        "Id": 3415,
+        "Name": "A Vegetable Patch #3415",
+        "Connections": {
+          "North": 3412,
+          "East": 3414,
+          "West": 3420
+        },
+        "Contents": [
+          {
+            "Text": "Farmer Glyna #3421",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3416,
+        "Name": "A Grassy Field #3416",
+        "Connections": {
+          "North": 3409,
+          "East": 3411,
+          "South": 3419,
+          "West": 3417
+        },
+        "Contents": [
+          {
+            "Text": "a white lamb #3405",
+            "Color": "green"
+          },
+          {
+            "Text": "A cow #3410",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3417,
+        "Name": "A Grassy Field #3417",
+        "Connections": {
+          "East": 3416,
+          "South": 3418,
+          "West": 3421
+        },
+        "Contents": [
+          {
+            "Text": "a white lamb #3405",
+            "Color": "green"
+          },
+          {
+            "Text": "A cow #3410",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3418,
+        "Name": "A Grassy Field #3418",
+        "Connections": {
+          "North": 3417,
+          "East": 3419,
+          "South": 3432
+        },
+        "Contents": [
+          {
+            "Text": "a white lamb #3405",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3419,
+        "Name": "A Grassy Field #3419",
+        "Connections": {
+          "North": 3416,
+          "East": 3420,
+          "South": 3433,
+          "West": 3418
+        },
+        "Contents": [
+          {
+            "Text": "A cow #3410",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3420,
+        "Name": "A Dirt Path #3420",
+        "Connections": {
+          "North": 3411,
+          "East": 3415,
+          "South": 3434,
+          "West": 3419
+        }
+      },
+      {
+        "Id": 3421,
+        "Name": "A Stable #3421",
+        "Connections": {
+          "East": 3417,
+          "South": 3424,
+          "West": 3422
+        }
+      },
+      {
+        "Id": 3422,
+        "Name": "A Stable #3422",
+        "Connections": {
+          "East": 3421,
+          "South": 3423
+        },
+        "Contents": [
+          {
+            "Text": "Davinne #3420",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3423,
+        "Name": "A Fenced Pasture #3423",
+        "Connections": {
+          "North": 3422,
+          "East": 3424,
+          "South": 3427,
+          "West": 3425
+        },
+        "Contents": [
+          {
+            "Text": "A foal #3415",
+            "Color": "green"
+          },
+          {
+            "Text": "A mare #3416",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3424,
+        "Name": "A Fenced Pasture #3424",
+        "Connections": {
+          "North": 3421,
+          "South": 3428,
+          "West": 3423
+        }
+      },
+      {
+        "Id": 3425,
+        "Name": "A Fenced Pasture #3425",
+        "Connections": {
+          "East": 3423,
+          "South": 3426
+        },
+        "Contents": [
+          {
+            "Text": "A mustang #3419",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3426,
+        "Name": "A Fenced Pasture #3426",
+        "Connections": {
+          "North": 3425,
+          "East": 3427,
+          "South": 3429
+        },
+        "Contents": [
+          {
+            "Text": "A foal #3415",
+            "Color": "green"
+          },
+          {
+            "Text": "A mare #3416",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3427,
+        "Name": "A Fenced Pasture #3427",
+        "Connections": {
+          "North": 3423,
+          "East": 3428,
+          "South": 3430,
+          "West": 3426
+        },
+        "Contents": [
+          {
+            "Text": "A mustang #3419",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3428,
+        "Name": "A Fenced Pasture #3428",
+        "Connections": {
+          "North": 3424,
+          "South": 3431,
+          "West": 3427
+        },
+        "Contents": [
+          {
+            "Text": "A palomino #3418",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3429,
+        "Name": "A Fenced Pasture #3429",
+        "Connections": {
+          "North": 3426,
+          "East": 3430
+        }
+      },
+      {
+        "Id": 3430,
+        "Name": "A Fenced Pasture #3430",
+        "Connections": {
+          "North": 3427,
+          "East": 3431,
+          "West": 3429
+        },
+        "Contents": [
+          {
+            "Text": "A colt #3417",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3431,
+        "Name": "A Fenced Pasture #3431",
+        "Connections": {
+          "North": 3428,
+          "West": 3430
+        },
+        "Contents": [
+          {
+            "Text": "A colt #3417",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3432,
+        "Name": "A Grassy Field #3432",
+        "Connections": {
+          "North": 3418,
+          "East": 3433,
+          "South": 21335
+        },
+        "Contents": [
+          {
+            "Text": "a black ram #3406",
+            "Color": "green"
+          },
+          {
+            "Text": "a white lamb #3405",
+            "Color": "green"
+          },
+          {
+            "Text": "A cow #3408",
+            "Color": "green"
+          },
+          {
+            "Text": "A calf #3409",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3433,
+        "Name": "A Grassy Field #3433",
+        "Connections": {
+          "North": 3419,
+          "East": 3434,
+          "South": 21336,
+          "West": 3432
+        },
+        "Contents": [
+          {
+            "Text": "A cow #3408",
+            "Color": "green"
+          },
+          {
+            "Text": "A calf #3409",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3434,
+        "Name": "A Dirt Path #3434",
+        "Connections": {
+          "North": 3420,
+          "East": 3435,
+          "South": 3437,
+          "West": 3433
+        },
+        "Contents": [
+          {
+            "Text": "A rooster #3413",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3435,
+        "Name": "Inside a Chicken Coop #3435",
+        "Connections": {
+          "East": 3436,
+          "West": 3434
+        },
+        "Contents": [
+          {
+            "Text": "A hen #3423",
+            "Color": "green"
+          },
+          {
+            "Text": "A hen #3424",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3436,
+        "Name": "Inside a Chicken Coop #3436",
+        "Connections": {
+          "West": 3435
+        },
+        "Contents": [
+          {
+            "Text": "A hen #3424",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3437,
+        "Name": "A Dirt Path #3437",
+        "Connections": {
+          "North": 3434,
+          "East": 3438,
+          "South": 21357,
+          "West": 21336
+        }
+      },
+      {
+        "Id": 3438,
+        "Name": "A Dirt Path #3438",
+        "Connections": {
+          "East": 3440,
+          "South": 3439,
+          "West": 3437
+        }
+      },
+      {
+        "Id": 3439,
+        "Name": "End of a Dirt Path #3439",
+        "Connections": {
+          "North": 3438,
+          "East": 3441,
+          "South": 3442
+        },
+        "Contents": [
+          {
+            "Text": "A scrawny goat #3411",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3440,
+        "Name": "In a Pig Sty #3440",
+        "Connections": {
+          "West": 3438
+        },
+        "Contents": [
+          {
+            "Text": "A tiny piglet #3403",
+            "Color": "green"
+          },
+          {
+            "Text": "A pig #3404",
+            "Color": "green"
+          },
+          {
+            "Text": "An old sow #3402",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3441,
+        "Name": "Sheep Pen #3441",
+        "Connections": {
+          "West": 3439
+        }
+      },
+      {
+        "Id": 3442,
+        "Name": "Goat Pen #3442",
+        "Connections": {
+          "North": 3439
+        },
+        "Contents": [
+          {
+            "Text": "An old billy goat #3412",
+            "Color": "green"
+          },
+          {
+            "Text": "A scrawny goat #3411",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21237,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21237",
+        "Color": "blue",
+        "Connections": {
+          "North": 21217,
+          "East": 21238,
+          "South": 3400,
+          "West": 21236
+        }
+      },
+      {
+        "Id": 21258,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21258",
+        "Color": "blue",
+        "Connections": {
+          "North": 21238,
+          "East": 21259,
+          "South": 21278,
+          "West": 3400
+        }
+      },
+      {
+        "Id": 21256,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21256",
+        "Color": "blue",
+        "Connections": {
+          "North": 21236,
+          "East": 3400,
+          "West": 21255
+        }
+      },
+      {
+        "Id": 21278,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21278",
+        "Color": "blue",
+        "Connections": {
+          "North": 21258,
+          "East": 21279,
+          "South": 21298
+        }
+      },
+      {
+        "Id": 21298,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21298",
+        "Color": "blue",
+        "Connections": {
+          "North": 21278,
+          "East": 21299,
+          "South": 21318
+        }
+      },
+      {
+        "Id": 21318,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21318",
+        "Color": "blue",
+        "Connections": {
+          "North": 21298,
+          "East": 21319,
+          "South": 21338
+        }
+      },
+      {
+        "Id": 26873,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26873",
+        "Color": "blue",
+        "Connections": {
+          "East": 26627,
+          "Down": 3407
+        }
+      },
+      {
+        "Id": 21335,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21335",
+        "Color": "blue",
+        "Connections": {
+          "North": 3432,
+          "East": 21336,
+          "South": 21355
+        }
+      },
+      {
+        "Id": 21336,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21336",
+        "Color": "blue",
+        "Connections": {
+          "North": 3433,
+          "East": 3437,
+          "South": 21356,
+          "West": 21335
+        }
+      },
+      {
+        "Id": 21357,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21357",
+        "Color": "blue",
+        "Connections": {
+          "North": 3437,
+          "East": 21358,
+          "South": 21052,
+          "West": 21356
+        }
+      }
+    ]
+  }
+}

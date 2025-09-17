@@ -1,0 +1,727 @@
+{
+  "Area": {
+    "Name": "Drow City",
+    "MinimumLevel": "20",
+    "MaximumLevel": "40",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 5100,
+        "Name": "City Entrance #5100",
+        "Connections": {
+          "North": 5155,
+          "West": 5101,
+          "Up": 13565
+        },
+        "Contents": [
+          {
+            "Text": "the drow scout #5111",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5101,
+        "Name": "City street #5101",
+        "Connections": {
+          "North": 5123,
+          "East": 5100,
+          "South": 5102,
+          "West": 5122
+        },
+        "Contents": [
+          {
+            "Text": "The weapons master #5106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5102,
+        "Name": "City street #5102",
+        "Connections": {
+          "North": 5101,
+          "West": 5103
+        }
+      },
+      {
+        "Id": 5103,
+        "Name": "City street #5103",
+        "Connections": {
+          "East": 5102,
+          "South": 5104,
+          "West": 5106
+        },
+        "Contents": [
+          {
+            "Text": "The goblin streetslave #5114",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5104,
+        "Name": "The Third House of Drow City #5104",
+        "Connections": {
+          "North": 5103,
+          "South": 5105
+        },
+        "Contents": [
+          {
+            "Text": "A drow noble #5102",
+            "Color": "green"
+          },
+          {
+            "Text": "the drow mage noble #5103",
+            "Color": "green"
+          },
+          {
+            "Text": "A drow noble #5104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5105,
+        "Name": "Throne Room #5105",
+        "Connections": {
+          "North": 5104
+        },
+        "Contents": [
+          {
+            "Text": "A drow high priestess #5107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5106,
+        "Name": "City street #5106",
+        "Connections": {
+          "North": 5118,
+          "East": 5103,
+          "West": 5107
+        },
+        "Contents": [
+          {
+            "Text": "the drow scout #5111",
+            "Color": "green"
+          },
+          {
+            "Text": "the drow guard #5110",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5107,
+        "Name": "City street #5107",
+        "Connections": {
+          "North": 5110,
+          "East": 5106,
+          "South": 5108
+        }
+      },
+      {
+        "Id": 5108,
+        "Name": "The Second House of Drow City #5108",
+        "Connections": {
+          "North": 5107,
+          "West": 5109
+        },
+        "Contents": [
+          {
+            "Text": "A drow noble #5102",
+            "Color": "green"
+          },
+          {
+            "Text": "the drow mage noble #5103",
+            "Color": "green"
+          },
+          {
+            "Text": "A drow noble #5104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5109,
+        "Name": "Throne Room #5109",
+        "Connections": {
+          "East": 5108
+        },
+        "Contents": [
+          {
+            "Text": "A drow high priestess #5107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5110,
+        "Name": "Main Gate #5110",
+        "Connections": {
+          "North": 5114,
+          "South": 5107,
+          "West": 5111
+        }
+      },
+      {
+        "Id": 5111,
+        "Name": "First House #5111",
+        "Connections": {
+          "North": 5152,
+          "East": 5110,
+          "West": 5112
+        },
+        "Contents": [
+          {
+            "Text": "A drow noble #5102",
+            "Color": "green"
+          },
+          {
+            "Text": "the drow mage noble #5103",
+            "Color": "green"
+          },
+          {
+            "Text": "A drow noble #5104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5112,
+        "Name": "Throne Room #5112",
+        "Connections": {
+          "North": 5113,
+          "East": 5111
+        }
+      },
+      {
+        "Id": 5113,
+        "Name": "Main Chamber #5113",
+        "Connections": {
+          "North": 5151,
+          "South": 5112
+        },
+        "Contents": [
+          {
+            "Text": "the matron mother #5108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5114,
+        "Name": "City street #5114",
+        "Connections": {
+          "North": 5115,
+          "East": 5117,
+          "South": 5110,
+          "West": 5153
+        }
+      },
+      {
+        "Id": 5115,
+        "Name": "City street #5115",
+        "Connections": {
+          "South": 5114,
+          "West": 5116
+        },
+        "Contents": [
+          {
+            "Text": "a gang of dark elf children #5120",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5116,
+        "Name": "Cleric Academy #5116",
+        "Connections": {
+          "East": 5115
+        },
+        "Contents": [
+          {
+            "Text": "A cleric teacher #5139",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5117,
+        "Name": "City street #5117",
+        "Connections": {
+          "North": 5119,
+          "East": 5121,
+          "West": 5114
+        }
+      },
+      {
+        "Id": 5118,
+        "Name": "Warriors Academy #5118",
+        "Connections": {
+          "South": 5106
+        },
+        "Contents": [
+          {
+            "Text": "The drow master #5121",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5119,
+        "Name": "Entrance to the Temple of Lloth #5119",
+        "Connections": {
+          "South": 5117,
+          "Down": 5126
+        }
+      },
+      {
+        "Id": 5120,
+        "Name": "Mages Academy #5120",
+        "Connections": {
+          "South": 5121
+        },
+        "Contents": [
+          {
+            "Text": "A drow teacher #5105",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5121,
+        "Name": "City street #5121",
+        "Connections": {
+          "North": 5120,
+          "East": 5123,
+          "South": 5122,
+          "West": 5117
+        }
+      },
+      {
+        "Id": 5122,
+        "Name": "Slave Market #5122",
+        "Connections": {
+          "North": 5121,
+          "East": 5101,
+          "West": {
+            "RoomId": 5156,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "small wooden key #5137",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The drow slavemaster #5138",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5123,
+        "Name": "City street #5123",
+        "Connections": {
+          "North": 5124,
+          "South": 5101,
+          "West": 5121
+        },
+        "Contents": [
+          {
+            "Text": "the drow scout #5111",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5124,
+        "Name": "The Fourth House of Drow City #5124",
+        "Connections": {
+          "East": 5125,
+          "South": 5123
+        },
+        "Contents": [
+          {
+            "Text": "A drow noble #5102",
+            "Color": "green"
+          },
+          {
+            "Text": "the drow mage noble #5103",
+            "Color": "green"
+          },
+          {
+            "Text": "A drow noble #5104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5125,
+        "Name": "A small altar room #5125",
+        "Connections": {
+          "West": 5124
+        },
+        "Contents": [
+          {
+            "Text": "A drow high priestess #5107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5126,
+        "Name": "Entrance Way #5126",
+        "Connections": {
+          "North": 5127,
+          "Up": 5119
+        }
+      },
+      {
+        "Id": 5127,
+        "Name": "Hallway #5127",
+        "Connections": {
+          "North": 5135,
+          "East": 5128,
+          "South": 5126,
+          "West": 5131
+        }
+      },
+      {
+        "Id": 5128,
+        "Name": "Long Hallway #5128",
+        "Connections": {
+          "East": 5129,
+          "West": 5127
+        }
+      },
+      {
+        "Id": 5129,
+        "Name": "Long Hallway #5129",
+        "Connections": {
+          "North": 5150,
+          "East": 5130,
+          "West": 5128
+        }
+      },
+      {
+        "Id": 5130,
+        "Name": "Long Hallway #5130",
+        "Connections": {
+          "East": 5134,
+          "West": 5129
+        }
+      },
+      {
+        "Id": 5131,
+        "Name": "Long Hallway #5131",
+        "Connections": {
+          "East": 5127,
+          "West": 5132
+        }
+      },
+      {
+        "Id": 5132,
+        "Name": "Long Hallway #5132",
+        "Connections": {
+          "East": 5131,
+          "South": 5133,
+          "West": 5134
+        }
+      },
+      {
+        "Id": 5133,
+        "Name": "Warriors Barracks #5133",
+        "Connections": {
+          "North": 5132
+        },
+        "Contents": [
+          {
+            "Text": "the drow commoner #5101",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5134,
+        "Name": "Long Hallway #5134",
+        "Connections": {
+          "East": 5132,
+          "West": 5130
+        }
+      },
+      {
+        "Id": 5135,
+        "Name": "Grand Stairway #5135",
+        "Connections": {
+          "South": 5127,
+          "Up": 5136
+        }
+      },
+      {
+        "Id": 5136,
+        "Name": "Grand Hallway #5136",
+        "Connections": {
+          "North": 5138,
+          "East": 5137,
+          "Down": 5135
+        }
+      },
+      {
+        "Id": 5137,
+        "Name": "Mages Barracks #5137",
+        "Connections": {
+          "West": 5136
+        },
+        "Contents": [
+          {
+            "Text": "a sleeping dark elf mage #5116",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5138,
+        "Name": "Grand Hallway #5138",
+        "Connections": {
+          "South": 5136,
+          "West": 5139,
+          "Down": 5140
+        }
+      },
+      {
+        "Id": 5139,
+        "Name": "Clerics Barracks #5139",
+        "Connections": {
+          "East": 5138
+        },
+        "Contents": [
+          {
+            "Text": "a halfclad priestess #5117",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5140,
+        "Name": "Grand Stairway #5140",
+        "Connections": {
+          "North": 5141,
+          "Up": 5138
+        }
+      },
+      {
+        "Id": 5141,
+        "Name": "Main Chamber #5141",
+        "Connections": {
+          "East": 5142,
+          "South": 5140,
+          "West": 5144
+        }
+      },
+      {
+        "Id": 5142,
+        "Name": "Eastern side of Chamber #5142",
+        "Connections": {
+          "North": 5145,
+          "East": 5146,
+          "South": 5141
+        }
+      },
+      {
+        "Id": 5143,
+        "Name": "Sacrificial Pit #5143",
+        "Connections": {}
+      },
+      {
+        "Id": 5144,
+        "Name": "Western side of Chamber #5144",
+        "Connections": {
+          "North": 5145,
+          "South": 5141
+        }
+      },
+      {
+        "Id": 5145,
+        "Name": "The Altar #5145",
+        "Connections": {
+          "North": 5148,
+          "East": 5142,
+          "West": 5144,
+          "Down": 5143
+        }
+      },
+      {
+        "Id": 5146,
+        "Name": "Slave Cells #5146",
+        "Connections": {
+          "North": 5147,
+          "West": 5142
+        }
+      },
+      {
+        "Id": 5147,
+        "Name": "Slave Pen #5147",
+        "Connections": {
+          "South": 5146
+        },
+        "Contents": [
+          {
+            "Text": "a human slave #5118",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5148,
+        "Name": "Dais #5148",
+        "Connections": {
+          "South": 5145,
+          "West": 5149
+        },
+        "Contents": [
+          {
+            "Text": "the yochlol #5109",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5149,
+        "Name": "The Treasury #5149",
+        "Connections": {
+          "East": 5148
+        }
+      },
+      {
+        "Id": 5150,
+        "Name": "Weaponsmasters Chamber #5150",
+        "Connections": {
+          "South": 5129
+        },
+        "Contents": [
+          {
+            "Text": "The weapons master #5106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5151,
+        "Name": "A Small Enclosure #5151",
+        "Connections": {
+          "South": 5113
+        },
+        "Contents": [
+          {
+            "Text": "A disheveled human child #5112",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5152,
+        "Name": "Drilling Grounds of the First House #5152",
+        "Connections": {
+          "South": 5111
+        },
+        "Contents": [
+          {
+            "Text": "a dark elf soldier #5115",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5153,
+        "Name": "City Street #5153",
+        "Connections": {
+          "East": 5114
+        }
+      },
+      {
+        "Id": 5154,
+        "Name": "A Hiding Place #5154",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "a young dark elf #5119",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5155,
+        "Name": "The Drow City Guard House #5155",
+        "Connections": {
+          "South": 5100
+        },
+        "Contents": [
+          {
+            "Text": "the drow guard #5110",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5156,
+        "Name": "Slave Pen #5156",
+        "Connections": {
+          "East": {
+            "RoomId": 5122,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "small wooden key #5137",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A litan slave #5100",
+            "Color": "green"
+          },
+          {
+            "Text": "A dwarven slave #5135",
+            "Color": "green"
+          },
+          {
+            "Text": "A kalian slave #5136",
+            "Color": "green"
+          },
+          {
+            "Text": "A human slave #5137",
+            "Color": "green"
+          },
+          {
+            "Text": "A crazed maniacal slave #5141",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 13565,
+        "FrameColor": "blue",
+        "Name": "To The Macocaap Outlands #13565",
+        "Color": "blue",
+        "Connections": {
+          "South": 13562,
+          "West": 13564,
+          "Down": 5100
+        }
+      }
+    ]
+  }
+}

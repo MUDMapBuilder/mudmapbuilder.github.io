@@ -1,0 +1,1095 @@
+{
+  "Area": {
+    "Name": "Shattered Domain of Eyunel",
+    "MinimumLevel": "75",
+    "MaximumLevel": "91",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 11358,
+        "Name": "The Fields of Death #11358",
+        "Connections": {
+          "North": 11359,
+          "East": 12928,
+          "South": 12937,
+          "West": 12926
+        },
+        "Contents": [
+          {
+            "Text": "A medium warhorse #11504",
+            "Color": "green"
+          },
+          {
+            "Text": "a squire #11505",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11359,
+        "Name": "The Path of Death #11359",
+        "Connections": {
+          "North": 11361,
+          "East": 12918,
+          "South": 11358,
+          "West": 12916
+        }
+      },
+      {
+        "Id": 11360,
+        "Name": "The Path of Death #11360",
+        "Connections": {}
+      },
+      {
+        "Id": 11361,
+        "Name": "The Path of Death #11361",
+        "Connections": {
+          "North": 11368,
+          "South": 11359,
+          "West": 11362
+        },
+        "Contents": [
+          {
+            "Text": "A Vroath ground sentinel #11380",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11362,
+        "Name": "A Small Path #11362",
+        "Connections": {
+          "East": 11361,
+          "South": 12916
+        },
+        "Contents": [
+          {
+            "Text": "A hysterical woman #11500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11363,
+        "Name": "The Old Farm Fields #11363",
+        "Connections": {
+          "East": 11365,
+          "South": 11364
+        }
+      },
+      {
+        "Id": 11364,
+        "Name": "The New Field #11364",
+        "Connections": {
+          "North": 11363
+        }
+      },
+      {
+        "Id": 11365,
+        "Name": "End of Small Path #11365",
+        "Connections": {
+          "East": 11366,
+          "West": 11363
+        }
+      },
+      {
+        "Id": 11366,
+        "Name": "The Kitchen #11366",
+        "Connections": {
+          "South": 11367,
+          "West": 11365
+        }
+      },
+      {
+        "Id": 11367,
+        "Name": "The Bedroom #11367",
+        "Connections": {
+          "North": 11366
+        },
+        "Contents": [
+          {
+            "Text": "Grimond #11357",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11368,
+        "Name": "The Path of Death #11368",
+        "Connections": {
+          "North": 11369,
+          "South": 11361
+        }
+      },
+      {
+        "Id": 11369,
+        "Name": "The Path of Death #11369",
+        "Connections": {
+          "North": 11371,
+          "South": 11368,
+          "West": 11370
+        },
+        "Contents": [
+          {
+            "Text": "A dying citizen #11378",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11370,
+        "Name": "A Ghost Haunt #11370",
+        "Connections": {
+          "East": 11369
+        },
+        "Contents": [
+          {
+            "Text": "a ghost #11358",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11371,
+        "Name": "The Path of Death #11371",
+        "Connections": {
+          "North": 11372,
+          "South": 11369
+        },
+        "Contents": [
+          {
+            "Text": "A dying citizen #11378",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11372,
+        "Name": "The Path of Death #11372",
+        "Connections": {
+          "North": 11387,
+          "East": 11373,
+          "South": 11371
+        }
+      },
+      {
+        "Id": 11373,
+        "Name": "A Steep Hill #11373",
+        "Connections": {
+          "West": 11372,
+          "Up": 11374
+        },
+        "Contents": [
+          {
+            "Text": "A lost little girl #11501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11374,
+        "Name": "A Steep Hill #11374",
+        "Connections": {
+          "Up": 11375,
+          "Down": 11373
+        }
+      },
+      {
+        "Id": 11375,
+        "Name": "A Steep Hill #11375",
+        "Connections": {
+          "Up": 11376,
+          "Down": 11374
+        }
+      },
+      {
+        "Id": 11376,
+        "Name": "Top of Hill #11376",
+        "Connections": {
+          "East": 11377,
+          "Down": 11375
+        }
+      },
+      {
+        "Id": 11377,
+        "Name": "Rope Bridge #11377",
+        "Connections": {
+          "East": 11378,
+          "West": 11376
+        },
+        "Contents": [
+          {
+            "Text": "a wither geist #11361",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11378,
+        "Name": "Rope Bridge #11378",
+        "Connections": {
+          "East": 11379,
+          "West": 11377
+        }
+      },
+      {
+        "Id": 11379,
+        "Name": "Top of an old slope #11379",
+        "Connections": {
+          "West": 11378,
+          "Down": 11380
+        }
+      },
+      {
+        "Id": 11380,
+        "Name": "Top of an old slope #11380",
+        "Connections": {
+          "Up": 11379,
+          "Down": 11381
+        }
+      },
+      {
+        "Id": 11381,
+        "Name": "Old Slope #11381",
+        "Connections": {
+          "Up": 11380,
+          "Down": 11382
+        }
+      },
+      {
+        "Id": 11382,
+        "Name": "Bottom of the slope #11382",
+        "Connections": {
+          "South": 11383,
+          "Up": 11381
+        }
+      },
+      {
+        "Id": 11383,
+        "Name": "Entrance Foyer #11383",
+        "Connections": {
+          "North": 11382,
+          "East": 11384,
+          "South": 11385
+        }
+      },
+      {
+        "Id": 11384,
+        "Name": "Small Room #11384",
+        "Connections": {
+          "West": 11383
+        },
+        "Contents": [
+          {
+            "Text": "a hellhound #11359",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11385,
+        "Name": "A Bedroom #11385",
+        "Connections": {
+          "North": 11383,
+          "West": 11386
+        }
+      },
+      {
+        "Id": 11386,
+        "Name": "The Closet #11386",
+        "Connections": {
+          "East": 11385
+        },
+        "Contents": [
+          {
+            "Text": "A guard #11360",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11387,
+        "Name": "The Path of Death #11387",
+        "Connections": {
+          "North": 11388,
+          "South": 11372,
+          "West": {
+            "RoomId": 25206,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Naslanders room #25070",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A haggard warrior #11377",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11388,
+        "Name": "Outside the Castle #11388",
+        "Connections": {
+          "North": 11389,
+          "South": 11387
+        },
+        "Contents": [
+          {
+            "Text": "A crippled defender #11379",
+            "Color": "red"
+          },
+          {
+            "Text": "A winged hardragn #11383",
+            "Color": "green"
+          },
+          {
+            "Text": "One of the Vroath heavy cavalry troops #11382",
+            "Color": "green"
+          },
+          {
+            "Text": "One of the Vroath heavy cavalry troops #11382",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11389,
+        "Name": "In the Castle Foyer #11389",
+        "Connections": {
+          "East": 11390,
+          "South": 11388,
+          "West": 11399
+        },
+        "Contents": [
+          {
+            "Text": "Goltar #11362",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11390,
+        "Name": "A Hallway #11390",
+        "Connections": {
+          "East": 11391,
+          "West": 11389
+        }
+      },
+      {
+        "Id": 11391,
+        "Name": "A Corner #11391",
+        "Connections": {
+          "North": 11392,
+          "West": 11390
+        },
+        "Contents": [
+          {
+            "Text": "A crippled defender #11379",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11392,
+        "Name": "A Hallway #11392",
+        "Connections": {
+          "North": 11394,
+          "East": 11393,
+          "South": 11391,
+          "West": 11401
+        },
+        "Contents": [
+          {
+            "Text": "A Vroath ground sentinel #11380",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11393,
+        "Name": "A Guard Room #11393",
+        "Connections": {
+          "West": 11392
+        },
+        "Contents": [
+          {
+            "Text": "a guard #11363",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11394,
+        "Name": "A Hallway #11394",
+        "Connections": {
+          "South": 11392,
+          "West": 11395
+        },
+        "Contents": [
+          {
+            "Text": "A Vroath ground sentinel #11380",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11395,
+        "Name": "A Hallway #11395",
+        "Connections": {
+          "North": 11405,
+          "East": 11394,
+          "West": 11396
+        }
+      },
+      {
+        "Id": 11396,
+        "Name": "A Hallway #11396",
+        "Connections": {
+          "North": 11404,
+          "East": 11395,
+          "West": 11397
+        }
+      },
+      {
+        "Id": 11397,
+        "Name": "A Hallway #11397",
+        "Connections": {
+          "East": 11396,
+          "South": 11398
+        },
+        "Contents": [
+          {
+            "Text": "A Vroath ground sentinel #11380",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11398,
+        "Name": "A Hallway #11398",
+        "Connections": {
+          "North": 11397,
+          "South": 11399
+        },
+        "Contents": [
+          {
+            "Text": "An ugly vroath warrior #11391",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11399,
+        "Name": "The Hallway #11399",
+        "Connections": {
+          "North": 11398,
+          "East": 11389,
+          "West": 11400
+        },
+        "Contents": [
+          {
+            "Text": "A Vroath ground sentinel #11380",
+            "Color": "red"
+          },
+          {
+            "Text": "A Vroath ground sentinel #11380",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11400,
+        "Name": "The Small Library #11400",
+        "Connections": {
+          "East": 11399,
+          "Down": 11416
+        }
+      },
+      {
+        "Id": 11401,
+        "Name": "The Gardens #11401",
+        "Connections": {
+          "East": 11392,
+          "West": 11402
+        },
+        "Contents": [
+          {
+            "Text": "Bespin #11364",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11402,
+        "Name": "Tree Garden #11402",
+        "Connections": {
+          "East": 11401,
+          "Up": 11403
+        }
+      },
+      {
+        "Id": 11403,
+        "Name": "In The Tree #11403",
+        "Connections": {
+          "Up": 11421,
+          "Down": 11402
+        }
+      },
+      {
+        "Id": 11404,
+        "Name": "A Waiting Hall #11404",
+        "Connections": {
+          "North": 11406,
+          "East": 11405,
+          "South": 11396
+        },
+        "Contents": [
+          {
+            "Text": "The infamous Vroath stratagem general Xorkf #11385",
+            "Color": "red"
+          },
+          {
+            "Text": "A Vroath ground sentinel #11380",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11405,
+        "Name": "A Waiting Hall #11405",
+        "Connections": {
+          "North": 11407,
+          "South": 11395,
+          "West": 11404
+        },
+        "Contents": [
+          {
+            "Text": "a guard #11363",
+            "Color": "green"
+          },
+          {
+            "Text": "A lifedefender guard #11387",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11406,
+        "Name": "Hall of Exits #11406",
+        "Connections": {
+          "North": 11410,
+          "East": 11407,
+          "South": 11404,
+          "West": 11408
+        }
+      },
+      {
+        "Id": 11407,
+        "Name": "Entrance to the Lords Quarters #11407",
+        "Connections": {
+          "North": 11413,
+          "East": 11414,
+          "South": 11405,
+          "West": 11406
+        },
+        "Contents": [
+          {
+            "Text": "A shadowwranshe guard #11388",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11408,
+        "Name": "Prison Guard Room #11408",
+        "Connections": {
+          "East": 11406,
+          "West": 11409
+        },
+        "Contents": [
+          {
+            "Text": "a guard #11363",
+            "Color": "green"
+          },
+          {
+            "Text": "A Vroath tactical war engineer #11384",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11409,
+        "Name": "A Prison Cell #11409",
+        "Connections": {
+          "East": 11408
+        },
+        "Contents": [
+          {
+            "Text": "a prisoner #11365",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11410,
+        "Name": "A Guest Hall #11410",
+        "Connections": {
+          "North": 11411,
+          "East": 11413,
+          "South": 11406
+        },
+        "Contents": [
+          {
+            "Text": "a guard #11363",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11411,
+        "Name": "A Guest Room #11411",
+        "Connections": {
+          "South": 11410
+        }
+      },
+      {
+        "Id": 11412,
+        "Name": "The Royal Guest Room #11412",
+        "Connections": {
+          "South": 11413
+        },
+        "Contents": [
+          {
+            "Text": "MastRahn Avatar of NeShajh #11390",
+            "Color": "red"
+          },
+          {
+            "Text": "The Vroath high commandershaman #11386",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11413,
+        "Name": "A Royal Hall #11413",
+        "Connections": {
+          "North": 11412,
+          "South": 11407,
+          "West": 11410
+        },
+        "Contents": [
+          {
+            "Text": "A lifedefender guard #11387",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11414,
+        "Name": "The Royal Hall of the Lords #11414",
+        "Connections": {
+          "East": 11415,
+          "West": 11407
+        },
+        "Contents": [
+          {
+            "Text": "The Lightchilde #11389",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11415,
+        "Name": "The Throne Room #11415",
+        "Connections": {
+          "West": 11414
+        },
+        "Contents": [
+          {
+            "Text": "Lord Eyunel #11366",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11416,
+        "Name": "Under Illusion #11416",
+        "Connections": {
+          "South": 11417,
+          "Up": 11400
+        }
+      },
+      {
+        "Id": 11417,
+        "Name": "Down a stone hallway #11417",
+        "Connections": {
+          "North": 11416,
+          "West": 11418
+        }
+      },
+      {
+        "Id": 11418,
+        "Name": "Down a stone hallway #11418",
+        "Connections": {
+          "East": 11417,
+          "West": 11419
+        }
+      },
+      {
+        "Id": 11419,
+        "Name": "The end of a stone hallway #11419",
+        "Connections": {
+          "East": 11418,
+          "West": {
+            "RoomId": 11420,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a jail key #11426",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The Vroath Captain #11503",
+            "Color": "red"
+          },
+          {
+            "Text": "A Vroath sentry #11502",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11420,
+        "Name": "A Stone Cell #11420",
+        "Connections": {
+          "East": {
+            "RoomId": 11419,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a jail key #11426",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Carlysle #11368",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11421,
+        "Name": "Upper Branches #11421",
+        "Connections": {
+          "Up": 11422,
+          "Down": 11403
+        }
+      },
+      {
+        "Id": 11422,
+        "Name": "Upon a cloud stairway #11422",
+        "Connections": {
+          "Up": 11423,
+          "Down": 11421
+        }
+      },
+      {
+        "Id": 11423,
+        "Name": "Entrance to a Celestial Domain #11423",
+        "Connections": {
+          "North": 11424,
+          "Down": 11422
+        }
+      },
+      {
+        "Id": 11424,
+        "Name": "Approaching Infinity #11424",
+        "Connections": {
+          "North": 11425,
+          "South": 11423
+        },
+        "Contents": [
+          {
+            "Text": "Bluesilver #11369",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11425,
+        "Name": "The Foyer of Faith #11425",
+        "Connections": {
+          "North": 11430,
+          "East": 11426,
+          "South": 11424,
+          "West": 11427
+        }
+      },
+      {
+        "Id": 11426,
+        "Name": "The Room of Life #11426",
+        "Connections": {
+          "West": 11425
+        }
+      },
+      {
+        "Id": 11427,
+        "Name": "The Hall of Suns #11427",
+        "Connections": {
+          "East": 11425,
+          "West": 11428
+        }
+      },
+      {
+        "Id": 11428,
+        "Name": "A small cottage #11428",
+        "Connections": {
+          "East": 11427,
+          "South": 11429
+        },
+        "Contents": [
+          {
+            "Text": "Leinenna #11370",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11429,
+        "Name": "The Pond #11429",
+        "Connections": {
+          "North": 11428
+        }
+      },
+      {
+        "Id": 11430,
+        "Name": "The Trophy Room #11430",
+        "Connections": {
+          "North": 11431,
+          "South": 11425
+        }
+      },
+      {
+        "Id": 11431,
+        "Name": "The Gate of Time #11431",
+        "Connections": {
+          "East": 11432,
+          "South": 11430
+        }
+      },
+      {
+        "Id": 11432,
+        "Name": "The Past #11432",
+        "Connections": {
+          "East": 11433,
+          "West": 11431
+        }
+      },
+      {
+        "Id": 11433,
+        "Name": "Here and Now #11433",
+        "Connections": {
+          "East": 11434,
+          "West": 11432
+        }
+      },
+      {
+        "Id": 11434,
+        "Name": "The Future #11434",
+        "Connections": {
+          "East": 11435,
+          "West": 11433
+        }
+      },
+      {
+        "Id": 11435,
+        "Name": "Vision #11435",
+        "Connections": {
+          "East": 11436,
+          "South": 11439,
+          "West": 11434
+        }
+      },
+      {
+        "Id": 11436,
+        "Name": "Rapture #11436",
+        "Connections": {
+          "East": 11437,
+          "West": 11435
+        }
+      },
+      {
+        "Id": 11437,
+        "Name": "Smell #11437",
+        "Connections": {
+          "South": 11438,
+          "West": 11436
+        }
+      },
+      {
+        "Id": 11438,
+        "Name": "Taste #11438",
+        "Connections": {
+          "North": 11437
+        }
+      },
+      {
+        "Id": 11439,
+        "Name": "Touch #11439",
+        "Connections": {
+          "North": 11435,
+          "South": 11441
+        }
+      },
+      {
+        "Id": 11441,
+        "Name": "Labratory #11441",
+        "Connections": {
+          "North": 11439,
+          "Up": 11450
+        },
+        "Contents": [
+          {
+            "Text": "Kilvenal #11372",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11450,
+        "Name": "On a Balcony #11450",
+        "Connections": {
+          "Up": 11452,
+          "Down": 11441
+        }
+      },
+      {
+        "Id": 11452,
+        "Name": "The Top of the Realms #11452",
+        "Connections": {
+          "Down": 11450
+        },
+        "Contents": [
+          {
+            "Text": "Anouen Forudal #11375",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11453,
+        "Name": "Inside a Siege Machine #11453",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "A Vroath sieger #11381",
+            "Color": "green"
+          },
+          {
+            "Text": "A Vroath tactical war engineer #11384",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 12928,
+        "FrameColor": "blue",
+        "Name": "To The Forest Fierense #12928",
+        "Color": "blue",
+        "Connections": {
+          "North": 12918,
+          "East": 12929,
+          "South": 12938,
+          "West": 11358
+        }
+      },
+      {
+        "Id": 12937,
+        "FrameColor": "blue",
+        "Name": "To The Forest Fierense #12937",
+        "Color": "blue",
+        "Connections": {
+          "North": 11358,
+          "East": 12938,
+          "South": 12947,
+          "West": 12936
+        }
+      },
+      {
+        "Id": 12926,
+        "FrameColor": "blue",
+        "Name": "To The Forest Fierense #12926",
+        "Color": "blue",
+        "Connections": {
+          "North": 12916,
+          "East": 11358,
+          "South": 12936
+        }
+      },
+      {
+        "Id": 12918,
+        "FrameColor": "blue",
+        "Name": "To The Forest Fierense #12918",
+        "Color": "blue",
+        "Connections": {
+          "North": 25018,
+          "East": 12919,
+          "South": 12928,
+          "West": 11359
+        }
+      },
+      {
+        "Id": 12916,
+        "FrameColor": "blue",
+        "Name": "To The Forest Fierense #12916",
+        "Color": "blue",
+        "Connections": {
+          "North": 11362,
+          "East": 11359,
+          "South": 12926
+        }
+      },
+      {
+        "Id": 25206,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25206",
+        "Color": "blue",
+        "Connections": {
+          "North": 25328,
+          "East": {
+            "RoomId": 11387,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Naslanders room #25070",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 25840,
+          "West": 25228
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "Area": {
+    "Name": "Guttersnipes Fort",
+    "MinimumLevel": "9",
+    "MaximumLevel": "45",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 2984,
+        "Name": "Back room of the florist #2984",
+        "Connections": {
+          "North": 4144
+        },
+        "Contents": [
+          {
+            "Text": "Sophie #2984",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2985,
+        "Name": "Center of the Fort #2985",
+        "Connections": {
+          "North": 2991,
+          "East": 2986,
+          "West": 2987
+        }
+      },
+      {
+        "Id": 2986,
+        "Name": "Meeting room #2986",
+        "Connections": {
+          "West": 2985
+        }
+      },
+      {
+        "Id": 2987,
+        "Name": "Playroom #2987",
+        "Connections": {
+          "East": 2985,
+          "South": 2989,
+          "Up": 2988
+        }
+      },
+      {
+        "Id": 2988,
+        "Name": "Thesden Lookout #2988",
+        "Connections": {
+          "South": 2992,
+          "Down": 2987
+        }
+      },
+      {
+        "Id": 2989,
+        "Name": "The Bunks #2989",
+        "Connections": {
+          "North": 2987,
+          "West": 2990
+        }
+      },
+      {
+        "Id": 2990,
+        "Name": "Ungdars Goodies #2990",
+        "Connections": {
+          "East": 2989
+        },
+        "Contents": [
+          {
+            "Text": "Ungdar a young Vroath child #2986",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 2991,
+        "Name": "Entrance to the Clubhouse #2991",
+        "Connections": {
+          "South": 2985
+        }
+      },
+      {
+        "Id": 2992,
+        "Name": "Wirts Shady Shop #2992",
+        "Connections": {
+          "North": 2988
+        },
+        "Contents": [
+          {
+            "Text": "Wirt the stolen goods merchant #2985",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 3000,
+        "Name": "The Testing Zone #3000",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "Habib #3000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4144,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4144",
+        "Color": "blue",
+        "Connections": {
+          "East": 4072,
+          "South": 2984
+        }
+      }
+    ]
+  }
+}

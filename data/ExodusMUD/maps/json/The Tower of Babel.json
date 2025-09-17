@@ -1,0 +1,658 @@
+{
+  "Area": {
+    "Name": "The Tower of Babel",
+    "MinimumLevel": "1",
+    "MaximumLevel": "10",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 8200,
+        "Name": "The Tower of Babel   Entrance Foyer #8200",
+        "Connections": {
+          "North": 8201
+        },
+        "Contents": [
+          {
+            "Text": "A Holy Priest #8203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8201,
+        "Name": "The Tower of Babel   Pilgrims Alcove #8201",
+        "Connections": {
+          "North": 8205,
+          "East": 8203,
+          "South": 8200,
+          "West": 8202
+        },
+        "Contents": [
+          {
+            "Text": "A Holy Priest #8203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8202,
+        "Name": "The Tower of Babel   Pilgrims Alcove #8202",
+        "Connections": {
+          "North": 8204,
+          "East": 8201
+        }
+      },
+      {
+        "Id": 8203,
+        "Name": "The Tower of Babel   Pilgrims Alcove #8203",
+        "Connections": {
+          "North": 8206,
+          "West": 8201
+        }
+      },
+      {
+        "Id": 8204,
+        "Name": "The Tower of Babel   Pilgrims Alcove #8204",
+        "Connections": {
+          "North": 8207,
+          "East": 8205,
+          "South": 8202
+        },
+        "Contents": [
+          {
+            "Text": "A Holy Priest #8203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8205,
+        "Name": "The Tower of Babel   Pilgrims Alcove #8205",
+        "Connections": {
+          "North": 8208,
+          "East": 8206,
+          "South": 8201,
+          "West": 8204
+        },
+        "Contents": [
+          {
+            "Text": "A Holy Priest #8203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8206,
+        "Name": "The Tower of Babel   Pilgrims Alcove #8206",
+        "Connections": {
+          "North": 8209,
+          "South": 8203,
+          "West": 8205
+        },
+        "Contents": [
+          {
+            "Text": "A Holy Priest #8203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8207,
+        "Name": "The Tower of Babel   Pilgrims Alcove #8207",
+        "Connections": {
+          "East": 8208,
+          "South": 8204
+        },
+        "Contents": [
+          {
+            "Text": "The Saint of Babel #8201",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 8208,
+        "Name": "The Tower of Babel   Pilgrims Alcove #8208",
+        "Connections": {
+          "North": 8210,
+          "East": 8209,
+          "South": 8205,
+          "West": 8207
+        },
+        "Contents": [
+          {
+            "Text": "A Holy Priest #8203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8209,
+        "Name": "The Tower of Babel   Pilgrims Alcove #8209",
+        "Connections": {
+          "South": 8206,
+          "West": 8208
+        }
+      },
+      {
+        "Id": 8210,
+        "Name": "The Tower of Babel   Before the Altar #8210",
+        "Connections": {
+          "North": 8211,
+          "South": 8208
+        },
+        "Contents": [
+          {
+            "Text": "A Holy Priest #8203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8211,
+        "Name": "The Tower of Babel   Shrine of the Adherent Lamb #8211",
+        "Connections": {
+          "North": 8212,
+          "South": 8210
+        },
+        "Contents": [
+          {
+            "Text": "A Holy Priest #8203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8212,
+        "Name": "The Tower of Babel   Before the Grand Staircase #8212",
+        "Connections": {
+          "South": 8211,
+          "Up": {
+            "RoomId": 8213,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "A Key to  The Tower of Babel  Level II #8202",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A Holy Priest #8203",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 8213,
+        "Name": "The Tower of Babel   Ascending the Tower #8213",
+        "Connections": {
+          "Up": 8214,
+          "Down": {
+            "RoomId": 8212,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8214,
+        "Name": "The Tower of Babel   Ascending the Tower #8214",
+        "Connections": {
+          "Up": 8215,
+          "Down": 8213
+        }
+      },
+      {
+        "Id": 8215,
+        "Name": "The Tower of Babel   Ascending the Tower #8215",
+        "Connections": {
+          "Up": 8216,
+          "Down": 8214
+        }
+      },
+      {
+        "Id": 8216,
+        "Name": "The Tower of Babel   Chamber of the Supplicant #8216",
+        "Connections": {
+          "North": 8219,
+          "East": 8217,
+          "Down": 8215
+        }
+      },
+      {
+        "Id": 8217,
+        "Name": "The Tower of Babel   Chamber of the Supplicant #8217",
+        "Connections": {
+          "North": 8218,
+          "West": 8216
+        }
+      },
+      {
+        "Id": 8218,
+        "Name": "The Tower of Babel   Chamber of the Supplicant #8218",
+        "Connections": {
+          "South": 8217,
+          "West": 8219,
+          "Up": {
+            "RoomId": 8220,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8219,
+        "Name": "The Tower of Babel   Chamber of the Supplicant #8219",
+        "Connections": {
+          "East": 8218,
+          "South": 8216
+        }
+      },
+      {
+        "Id": 8220,
+        "Name": "The Tower of Babel   Ascending the Tower #8220",
+        "Connections": {
+          "Up": 8221,
+          "Down": {
+            "RoomId": 8218,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 8221,
+        "Name": "The Tower of Babel   Ascending the Tower #8221",
+        "Connections": {
+          "Up": 8222,
+          "Down": 8220
+        }
+      },
+      {
+        "Id": 8222,
+        "Name": "The Tower of Babel   Ascending the Tower #8222",
+        "Connections": {
+          "Up": 8223,
+          "Down": 8221
+        }
+      },
+      {
+        "Id": 8223,
+        "Name": "The Tower of Babel   Antechamber of the Ordained #8223",
+        "Connections": {
+          "North": 8226,
+          "East": 8225,
+          "South": 8228,
+          "West": 8224,
+          "Down": 8222
+        }
+      },
+      {
+        "Id": 8224,
+        "Name": "The Tower of Babel   Antechamber of the Ordained #8224",
+        "Connections": {
+          "East": 8223,
+          "South": 8227
+        }
+      },
+      {
+        "Id": 8225,
+        "Name": "The Tower of Babel   Antechamber of the Ordained #8225",
+        "Connections": {
+          "South": 8229,
+          "West": 8223
+        }
+      },
+      {
+        "Id": 8226,
+        "Name": "The Tower of Babel   Antechamber of the Ordained #8226",
+        "Connections": {
+          "South": 8223
+        }
+      },
+      {
+        "Id": 8227,
+        "Name": "The Tower of Babel   Antechamber of the Ordained #8227",
+        "Connections": {
+          "North": 8224,
+          "East": 8228
+        }
+      },
+      {
+        "Id": 8228,
+        "Name": "The Tower of Babel   Antechamber of the Ordained #8228",
+        "Connections": {
+          "North": 8223,
+          "East": 8229,
+          "West": 8227,
+          "Up": 8230
+        }
+      },
+      {
+        "Id": 8229,
+        "Name": "The Tower of Babel   Antechamber of the Ordained #8229",
+        "Connections": {
+          "North": 8225,
+          "West": 8228
+        }
+      },
+      {
+        "Id": 8230,
+        "Name": "The Tower of Babel   Ascending the Tower #8230",
+        "Connections": {
+          "Up": 8231,
+          "Down": 8228
+        }
+      },
+      {
+        "Id": 8231,
+        "Name": "The Tower of Babel   Ascending the Tower #8231",
+        "Connections": {
+          "Up": 8232,
+          "Down": 8230
+        }
+      },
+      {
+        "Id": 8232,
+        "Name": "The Tower of Babel   Before the Chamber of the Holy #8232",
+        "Connections": {
+          "North": 8233,
+          "Down": 8231
+        }
+      },
+      {
+        "Id": 8233,
+        "Name": "The Tower of Babel   The Chamber of the Holy Trinity #8233",
+        "Connections": {
+          "North": 8236,
+          "East": 8234,
+          "South": 8232,
+          "West": 8235,
+          "Up": 8252
+        }
+      },
+      {
+        "Id": 8234,
+        "Name": "The Tower of Babel   Mosque of Suleyman #8234",
+        "Connections": {
+          "East": 8242,
+          "West": 8233
+        }
+      },
+      {
+        "Id": 8235,
+        "Name": "The Tower of Babel   Temple of Malachi #8235",
+        "Connections": {
+          "East": 8233,
+          "West": 8237
+        }
+      },
+      {
+        "Id": 8236,
+        "Name": "The Tower of Babel   Church of Zechariah #8236",
+        "Connections": {
+          "North": 8247,
+          "South": 8233
+        }
+      },
+      {
+        "Id": 8237,
+        "Name": "The Tower of Babel   Temple of Malachi #8237",
+        "Connections": {
+          "East": 8235,
+          "West": 8238
+        }
+      },
+      {
+        "Id": 8238,
+        "Name": "The Tower of Babel   Temple of Malachi #8238",
+        "Connections": {
+          "North": 8241,
+          "East": 8237,
+          "South": 8240,
+          "West": 8239
+        }
+      },
+      {
+        "Id": 8239,
+        "Name": "The Tower of Babel   Temple of Malachi #8239",
+        "Connections": {
+          "East": 8238
+        }
+      },
+      {
+        "Id": 8240,
+        "Name": "The Tower of Babel   Temple of Malachi #8240",
+        "Connections": {
+          "North": 8238
+        }
+      },
+      {
+        "Id": 8241,
+        "Name": "The Tower of Babel   Temple of Malachi #8241",
+        "Connections": {
+          "South": 8238
+        }
+      },
+      {
+        "Id": 8242,
+        "Name": "The Tower of Babel   Mosque of Suleyman #8242",
+        "Connections": {
+          "East": 8243,
+          "West": 8234
+        }
+      },
+      {
+        "Id": 8243,
+        "Name": "The Tower of Babel   Mosque of Suleyman #8243",
+        "Connections": {
+          "North": 8244,
+          "East": 8245,
+          "South": 8246,
+          "West": 8242
+        }
+      },
+      {
+        "Id": 8244,
+        "Name": "The Tower of Babel   Mosque of Suleyman #8244",
+        "Connections": {
+          "South": 8243
+        }
+      },
+      {
+        "Id": 8245,
+        "Name": "The Tower of Babel   Mosque of Suleyman #8245",
+        "Connections": {
+          "West": 8243
+        }
+      },
+      {
+        "Id": 8246,
+        "Name": "The Tower of Babel   Mosque of Suleyman #8246",
+        "Connections": {
+          "North": 8243
+        }
+      },
+      {
+        "Id": 8247,
+        "Name": "The Tower of Babel   Church of Zechariah #8247",
+        "Connections": {
+          "North": 8248,
+          "South": 8236
+        }
+      },
+      {
+        "Id": 8248,
+        "Name": "The Tower of Babel   Church of Zechariah #8248",
+        "Connections": {
+          "North": 8249,
+          "East": 8250,
+          "South": 8247,
+          "West": 8251
+        }
+      },
+      {
+        "Id": 8249,
+        "Name": "The Tower of Babel   Church of Zechariah #8249",
+        "Connections": {
+          "South": 8248
+        }
+      },
+      {
+        "Id": 8250,
+        "Name": "The Tower of Babel   Church of Zechariah #8250",
+        "Connections": {
+          "West": 8248
+        }
+      },
+      {
+        "Id": 8251,
+        "Name": "The Tower of Babel   Church of Zechariah #8251",
+        "Connections": {
+          "East": 8248
+        }
+      },
+      {
+        "Id": 8252,
+        "Name": "The Tower of Babel   Vault of Christ #8252",
+        "Connections": {
+          "North": 8253,
+          "Down": 8233
+        }
+      },
+      {
+        "Id": 8253,
+        "Name": "The Tower of Babel   Enclave of Islam #8253",
+        "Connections": {
+          "North": 8254,
+          "South": 8252
+        }
+      },
+      {
+        "Id": 8254,
+        "Name": "The Tower of Babel   Hall of Judaica #8254",
+        "Connections": {
+          "South": 8253,
+          "Up": 8255
+        }
+      },
+      {
+        "Id": 8255,
+        "Name": "The Tower of Babel   Tower Battlements #8255",
+        "Connections": {
+          "North": 8259,
+          "East": 8257,
+          "South": 8262,
+          "West": 8256,
+          "Down": 8254
+        }
+      },
+      {
+        "Id": 8256,
+        "Name": "The Tower of Babel   Tower Battlements #8256",
+        "Connections": {
+          "North": 8258,
+          "East": 8255,
+          "South": 8261
+        }
+      },
+      {
+        "Id": 8257,
+        "Name": "The Tower of Babel   Tower Battlements #8257",
+        "Connections": {
+          "North": 8260,
+          "South": 8263,
+          "West": 8255
+        }
+      },
+      {
+        "Id": 8258,
+        "Name": "The Tower of Babel   Tower Battlements #8258",
+        "Connections": {
+          "East": 8259,
+          "South": 8256
+        }
+      },
+      {
+        "Id": 8259,
+        "Name": "The Tower of Babel   Tower Battlements #8259",
+        "Connections": {
+          "East": 8260,
+          "South": 8255,
+          "West": 8258
+        }
+      },
+      {
+        "Id": 8260,
+        "Name": "The Tower of Babel   Tower Battlements #8260",
+        "Connections": {
+          "South": 8257,
+          "West": 8259
+        }
+      },
+      {
+        "Id": 8261,
+        "Name": "The Tower of Babel   Tower Battlements #8261",
+        "Connections": {
+          "North": 8256,
+          "East": 8262
+        }
+      },
+      {
+        "Id": 8262,
+        "Name": "The Tower of Babel   Tower Battlements #8262",
+        "Connections": {
+          "North": 8255,
+          "East": 8263,
+          "West": 8261
+        }
+      },
+      {
+        "Id": 8263,
+        "Name": "The Tower of Babel   Tower Battlements #8263",
+        "Connections": {
+          "North": 8257,
+          "West": 8262
+        }
+      },
+      {
+        "Id": 8264,
+        "Name": "The Tower of Babel   On the Approach to Heaven #8264",
+        "Connections": {
+          "Up": 8265
+        }
+      },
+      {
+        "Id": 8265,
+        "Name": "The Tower of Babel   On the Approach to Heaven #8265",
+        "Connections": {
+          "Up": 8266,
+          "Down": 8264
+        }
+      },
+      {
+        "Id": 8266,
+        "Name": "The Tower of Babel   On the Approach to Heaven #8266",
+        "Connections": {
+          "Down": 8265
+        }
+      },
+      {
+        "Id": 8267,
+        "Name": "Inside The Golden Statue #8267",
+        "Connections": {}
+      }
+    ]
+  }
+}

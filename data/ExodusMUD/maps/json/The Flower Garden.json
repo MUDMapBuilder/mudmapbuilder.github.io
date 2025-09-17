@@ -1,0 +1,759 @@
+{
+  "Area": {
+    "Name": "The Flower Garden",
+    "MinimumLevel": "35",
+    "MaximumLevel": "50",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 27001,
+        "Name": "Path of the Trees #27001",
+        "Connections": {
+          "North": 27002,
+          "South": 21062
+        },
+        "Contents": [
+          {
+            "Text": "Tree Surgeon #27009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27002,
+        "Name": "Path of the Trees #27002",
+        "Connections": {
+          "North": 27003,
+          "South": 27001
+        },
+        "Contents": [
+          {
+            "Text": "Tree Surgeon #27009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27003,
+        "Name": "Path of the Trees #27003",
+        "Connections": {
+          "North": 27004,
+          "South": 27002
+        },
+        "Contents": [
+          {
+            "Text": "Tree Surgeon #27009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27004,
+        "Name": "Path of the Trees #27004",
+        "Connections": {
+          "North": 27005,
+          "South": 27003
+        }
+      },
+      {
+        "Id": 27005,
+        "Name": "Path of the Trees #27005",
+        "Connections": {
+          "North": 27006,
+          "East": 27013,
+          "South": 27004,
+          "West": 27017
+        }
+      },
+      {
+        "Id": 27006,
+        "Name": "Fountain of the White Lady #27006",
+        "Connections": {
+          "North": 27007,
+          "East": 27014,
+          "South": 27005,
+          "West": 27018
+        }
+      },
+      {
+        "Id": 27007,
+        "Name": "Fountain of the White Lady #27007",
+        "Connections": {
+          "North": 27008,
+          "East": 27015,
+          "South": 27006,
+          "West": 27019
+        }
+      },
+      {
+        "Id": 27008,
+        "Name": "Path of the Rose #27008",
+        "Connections": {
+          "North": 27009,
+          "East": 27016,
+          "South": 27007,
+          "West": 27020
+        },
+        "Contents": [
+          {
+            "Text": "Rose Tender #27007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27009,
+        "Name": "Path of the Rose #27009",
+        "Connections": {
+          "North": 27010,
+          "South": 27008
+        },
+        "Contents": [
+          {
+            "Text": "Rose Tender #27007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27010,
+        "Name": "Path of the Rose #27010",
+        "Connections": {
+          "North": 27011,
+          "South": 27009
+        },
+        "Contents": [
+          {
+            "Text": "Rose Tender #27007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27011,
+        "Name": "Path of the Rose #27011",
+        "Connections": {
+          "North": 27012,
+          "South": 27010
+        },
+        "Contents": [
+          {
+            "Text": "Rose Tender #27007",
+            "Color": "green"
+          },
+          {
+            "Text": "DogRose Plant #27008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 27012,
+        "Name": "Path of the Rose #27012",
+        "Connections": {
+          "South": 27011
+        },
+        "Contents": [
+          {
+            "Text": "Rose Tender #27007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27013,
+        "Name": "A Lovely Trellis #27013",
+        "Connections": {
+          "North": 27014,
+          "East": 27021,
+          "West": 27005
+        }
+      },
+      {
+        "Id": 27014,
+        "Name": "A Garden Bench #27014",
+        "Connections": {
+          "North": 27015,
+          "South": 27013,
+          "West": 27006
+        }
+      },
+      {
+        "Id": 27015,
+        "Name": "A Garden Bench #27015",
+        "Connections": {
+          "North": 27016,
+          "South": 27014,
+          "West": 27007
+        }
+      },
+      {
+        "Id": 27016,
+        "Name": "A Lovely Trellis #27016",
+        "Connections": {
+          "East": 27045,
+          "South": 27015,
+          "West": 27008
+        }
+      },
+      {
+        "Id": 27017,
+        "Name": "A Lovely Trellis #27017",
+        "Connections": {
+          "North": 27018,
+          "East": 27005,
+          "West": 27033
+        }
+      },
+      {
+        "Id": 27018,
+        "Name": "A Garden Bench #27018",
+        "Connections": {
+          "North": 27019,
+          "East": 27006,
+          "South": 27017
+        }
+      },
+      {
+        "Id": 27019,
+        "Name": "A Garden Bench #27019",
+        "Connections": {
+          "North": 27020,
+          "East": 27007,
+          "South": 27018
+        }
+      },
+      {
+        "Id": 27020,
+        "Name": "A Lovely Trellis #27020",
+        "Connections": {
+          "East": 27008,
+          "South": 27019,
+          "West": 27057
+        }
+      },
+      {
+        "Id": 27021,
+        "Name": "A Leafy Bower #27021",
+        "Connections": {
+          "South": 27022,
+          "West": 27013
+        }
+      },
+      {
+        "Id": 27022,
+        "Name": "A Leafy Bower #27022",
+        "Connections": {
+          "North": 27021,
+          "East": 27023
+        },
+        "Contents": [
+          {
+            "Text": "A Gardeners Apprentice #27002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27023,
+        "Name": "A Leafy Bower #27023",
+        "Connections": {
+          "South": 27024,
+          "West": 27022
+        }
+      },
+      {
+        "Id": 27024,
+        "Name": "In devotion to the Green Man #27024",
+        "Connections": {
+          "North": 27023,
+          "East": 27031,
+          "South": 27025
+        },
+        "Contents": [
+          {
+            "Text": "The Green Man #27013",
+            "Color": "green"
+          },
+          {
+            "Text": "Devotee of the Shrine #27003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27025,
+        "Name": "Flowers in sight... #27025",
+        "Connections": {
+          "North": 27024,
+          "East": 27032,
+          "South": 27026
+        }
+      },
+      {
+        "Id": 27026,
+        "Name": "A Field of Lilies #27026",
+        "Connections": {
+          "North": 27025,
+          "East": 27027
+        }
+      },
+      {
+        "Id": 27027,
+        "Name": "A Lush Carpet of Lobelia #27027",
+        "Connections": {
+          "North": 27032,
+          "East": 27028,
+          "West": 27026
+        }
+      },
+      {
+        "Id": 27028,
+        "Name": "Pool of Algae #27028",
+        "Connections": {
+          "North": 27029,
+          "West": 27027
+        }
+      },
+      {
+        "Id": 27029,
+        "Name": "The Dame Violets #27029",
+        "Connections": {
+          "North": 27030,
+          "South": 27028,
+          "West": 27032
+        }
+      },
+      {
+        "Id": 27030,
+        "Name": "A Circle of Pinks #27030",
+        "Connections": {
+          "South": 27029,
+          "West": 27031
+        }
+      },
+      {
+        "Id": 27031,
+        "Name": "Flowers in sight... #27031",
+        "Connections": {
+          "East": 27030,
+          "South": 27032,
+          "West": 27024
+        },
+        "Contents": [
+          {
+            "Text": "A Master Gardener #27001",
+            "Color": "green"
+          },
+          {
+            "Text": "A Gardeners Apprentice #27002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27032,
+        "Name": "Center of the Greenery #27032",
+        "Connections": {
+          "North": 27031,
+          "East": 27029,
+          "South": 27027,
+          "West": 27025
+        }
+      },
+      {
+        "Id": 27033,
+        "Name": "A Leafy Bower #27033",
+        "Connections": {
+          "East": 27017,
+          "South": 27034
+        }
+      },
+      {
+        "Id": 27034,
+        "Name": "A Leafy Bower #27034",
+        "Connections": {
+          "North": 27033,
+          "West": 27035
+        }
+      },
+      {
+        "Id": 27035,
+        "Name": "A Leafy Bower #27035",
+        "Connections": {
+          "East": 27034,
+          "South": 27036
+        }
+      },
+      {
+        "Id": 27036,
+        "Name": "The Dark Queens Shrine #27036",
+        "Connections": {
+          "North": 27035,
+          "South": 27037,
+          "West": 27043
+        },
+        "Contents": [
+          {
+            "Text": "Devotee of the Shrine #27003",
+            "Color": "green"
+          },
+          {
+            "Text": "Nicnivin #27011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27037,
+        "Name": "Flowers in sight... #27037",
+        "Connections": {
+          "North": 27036,
+          "South": 27038,
+          "West": 27044
+        }
+      },
+      {
+        "Id": 27038,
+        "Name": "A Field of Lilies #27038",
+        "Connections": {
+          "North": 27037,
+          "West": 27039
+        }
+      },
+      {
+        "Id": 27039,
+        "Name": "A Mighty Rhododendron #27039",
+        "Connections": {
+          "North": 27044,
+          "East": 27038,
+          "West": 27040
+        }
+      },
+      {
+        "Id": 27040,
+        "Name": "The Fideal Pond #27040",
+        "Connections": {
+          "North": 27041,
+          "East": 27039
+        },
+        "Contents": [
+          {
+            "Text": "The Fideal Faery #27014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27041,
+        "Name": "Clustered Violets #27041",
+        "Connections": {
+          "North": 27042,
+          "East": 27044,
+          "South": 27040
+        },
+        "Contents": [
+          {
+            "Text": "A Gardeners Apprentice #27002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27042,
+        "Name": "A Circle of Pinks #27042",
+        "Connections": {
+          "East": 27043,
+          "South": 27041
+        }
+      },
+      {
+        "Id": 27043,
+        "Name": "Flowers in sight... #27043",
+        "Connections": {
+          "East": 27036,
+          "South": 27044,
+          "West": 27042
+        }
+      },
+      {
+        "Id": 27044,
+        "Name": "Center of the Greenery #27044",
+        "Connections": {
+          "North": 27043,
+          "East": 27037,
+          "South": 27039,
+          "West": 27041
+        }
+      },
+      {
+        "Id": 27045,
+        "Name": "A Leafy Bower #27045",
+        "Connections": {
+          "North": 27046,
+          "West": 27016
+        }
+      },
+      {
+        "Id": 27046,
+        "Name": "A Leafy Bower #27046",
+        "Connections": {
+          "East": 27047,
+          "South": 27045
+        }
+      },
+      {
+        "Id": 27047,
+        "Name": "A Leafy Bower #27047",
+        "Connections": {
+          "North": 27048,
+          "West": 27046
+        }
+      },
+      {
+        "Id": 27048,
+        "Name": "Shrine of the Glanconer #27048",
+        "Connections": {
+          "North": 27049,
+          "East": 27055,
+          "South": 27047
+        },
+        "Contents": [
+          {
+            "Text": "Devotee of the Shrine #27003",
+            "Color": "green"
+          },
+          {
+            "Text": "Shade of the Glanconer #27010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27049,
+        "Name": "Flowers in sight... #27049",
+        "Connections": {
+          "North": 27050,
+          "East": 27056,
+          "South": 27048
+        }
+      },
+      {
+        "Id": 27050,
+        "Name": "A Field of Lilies #27050",
+        "Connections": {
+          "East": 27051,
+          "South": 27049
+        }
+      },
+      {
+        "Id": 27051,
+        "Name": "The Oleander Bush #27051",
+        "Connections": {
+          "East": 27052,
+          "South": 27056,
+          "West": 27050
+        },
+        "Contents": [
+          {
+            "Text": "Youth in Love #27006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27052,
+        "Name": "Forgotten Shrine #27052",
+        "Connections": {
+          "South": 27053,
+          "West": 27051
+        }
+      },
+      {
+        "Id": 27053,
+        "Name": "Clustered Violets #27053",
+        "Connections": {
+          "North": 27052,
+          "South": 27054,
+          "West": 27056
+        },
+        "Contents": [
+          {
+            "Text": "Flower lover #27004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27054,
+        "Name": "A Circle of Pinks #27054",
+        "Connections": {
+          "North": 27053,
+          "West": 27055
+        }
+      },
+      {
+        "Id": 27055,
+        "Name": "Flowers in sight... #27055",
+        "Connections": {
+          "North": 27056,
+          "East": 27054,
+          "West": 27048
+        }
+      },
+      {
+        "Id": 27056,
+        "Name": "Center of the Greenery #27056",
+        "Connections": {
+          "North": 27051,
+          "East": 27053,
+          "South": 27055,
+          "West": 27049
+        }
+      },
+      {
+        "Id": 27057,
+        "Name": "A Leafy Bower #27057",
+        "Connections": {
+          "North": 27058,
+          "East": 27020
+        }
+      },
+      {
+        "Id": 27058,
+        "Name": "A Leafy Bower #27058",
+        "Connections": {
+          "South": 27057,
+          "West": 27059
+        }
+      },
+      {
+        "Id": 27059,
+        "Name": "A Leafy Bower #27059",
+        "Connections": {
+          "North": 27060,
+          "East": 27058
+        }
+      },
+      {
+        "Id": 27060,
+        "Name": "In Devotion to The Green Lady #27060",
+        "Connections": {
+          "North": 27061,
+          "South": 27059,
+          "West": 27067
+        },
+        "Contents": [
+          {
+            "Text": "Devotee of the Shrine #27003",
+            "Color": "green"
+          },
+          {
+            "Text": "The Green Lady #27012",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27061,
+        "Name": "Flowers in sight... #27061",
+        "Connections": {
+          "North": 27062,
+          "South": 27060,
+          "West": 27068
+        },
+        "Contents": [
+          {
+            "Text": "A Gardeners Apprentice #27002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27062,
+        "Name": "A Field of Lilies #27062",
+        "Connections": {
+          "South": 27061,
+          "West": 27063
+        },
+        "Contents": [
+          {
+            "Text": "A Master Gardener #27001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27063,
+        "Name": "A Lush Carpet of Lobelia #27063",
+        "Connections": {
+          "East": 27062,
+          "South": 27068,
+          "West": 27064
+        }
+      },
+      {
+        "Id": 27064,
+        "Name": "Sylph in the Mist #27064",
+        "Connections": {
+          "East": 27063,
+          "South": 27065
+        },
+        "Contents": [
+          {
+            "Text": "A lithe sylph #27015",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 27065,
+        "Name": "The Dame Violets #27065",
+        "Connections": {
+          "North": 27064,
+          "East": 27068,
+          "South": 27066
+        }
+      },
+      {
+        "Id": 27066,
+        "Name": "A Circle of Pinks #27066",
+        "Connections": {
+          "North": 27065,
+          "East": 27067
+        }
+      },
+      {
+        "Id": 27067,
+        "Name": "Flowers in sight... #27067",
+        "Connections": {
+          "North": 27068,
+          "East": 27060,
+          "West": 27066
+        }
+      },
+      {
+        "Id": 27068,
+        "Name": "Center of the Greenery #27068",
+        "Connections": {
+          "North": 27063,
+          "East": 27061,
+          "South": 27067,
+          "West": 27065
+        }
+      },
+      {
+        "Id": 21062,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21062",
+        "Color": "blue",
+        "Connections": {
+          "North": 27001,
+          "East": 21063,
+          "South": 21082,
+          "West": 21061
+        }
+      }
+    ]
+  }
+}

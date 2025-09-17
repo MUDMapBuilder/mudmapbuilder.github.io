@@ -1,0 +1,642 @@
+{
+  "Area": {
+    "Name": "The Bayou Teche",
+    "MinimumLevel": "5",
+    "MaximumLevel": "15",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 511,
+        "Name": "Edge of the Swamp #511",
+        "Connections": {
+          "North": 561,
+          "South": 512
+        }
+      },
+      {
+        "Id": 512,
+        "Name": "Bayou LaFourche #512",
+        "Connections": {
+          "North": 511,
+          "South": 513
+        }
+      },
+      {
+        "Id": 513,
+        "Name": "Bayou LaFourche #513",
+        "Connections": {
+          "North": 512,
+          "South": 514
+        }
+      },
+      {
+        "Id": 514,
+        "Name": "Bayou LaFourche #514",
+        "Connections": {
+          "North": 513,
+          "South": 515
+        },
+        "Contents": [
+          {
+            "Text": "A nutria rat #514",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 515,
+        "Name": "Bayou LaFourche #515",
+        "Connections": {
+          "North": 514,
+          "South": 516
+        }
+      },
+      {
+        "Id": 516,
+        "Name": "Bayou LaFourche #516",
+        "Connections": {
+          "North": 515,
+          "South": 517
+        }
+      },
+      {
+        "Id": 517,
+        "Name": "Bayou LaFourche #517",
+        "Connections": {
+          "North": 516,
+          "East": 530,
+          "South": 518
+        },
+        "Contents": [
+          {
+            "Text": "A cottonmouth #515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 518,
+        "Name": "Bayou LaFourche #518",
+        "Connections": {
+          "North": 517,
+          "South": 519
+        }
+      },
+      {
+        "Id": 519,
+        "Name": "Bayou LaFourche #519",
+        "Connections": {
+          "North": 518,
+          "South": 520
+        }
+      },
+      {
+        "Id": 520,
+        "Name": "Bayou Crossing #520",
+        "Connections": {
+          "North": 519,
+          "East": 524,
+          "South": 521,
+          "West": 527
+        }
+      },
+      {
+        "Id": 521,
+        "Name": "Bayou LaFourche #521",
+        "Connections": {
+          "North": 520,
+          "South": 522
+        },
+        "Contents": [
+          {
+            "Text": "A nutria rat #514",
+            "Color": "green"
+          },
+          {
+            "Text": "A cottonmouth #515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 522,
+        "Name": "Bayou LaFourche #522",
+        "Connections": {
+          "North": 521,
+          "South": 523
+        }
+      },
+      {
+        "Id": 523,
+        "Name": "End of Bayou LaFourche #523",
+        "Connections": {
+          "North": 522,
+          "West": 549
+        }
+      },
+      {
+        "Id": 524,
+        "Name": "Bayou Terrebonne #524",
+        "Connections": {
+          "East": 525,
+          "West": 520
+        }
+      },
+      {
+        "Id": 525,
+        "Name": "Bayou Terrebonne #525",
+        "Connections": {
+          "North": 530,
+          "East": 526,
+          "West": 524
+        },
+        "Contents": [
+          {
+            "Text": "A nutria rat #514",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 526,
+        "Name": "Bayou Terrebonne #526",
+        "Connections": {
+          "East": 529,
+          "West": 525
+        },
+        "Contents": [
+          {
+            "Text": "A cottonmouth #515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 527,
+        "Name": "Bayou Terrebonne #527",
+        "Connections": {
+          "East": 520,
+          "West": 528
+        },
+        "Contents": [
+          {
+            "Text": "A nutria rat #514",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 528,
+        "Name": "Bayou Terrebonne #528",
+        "Connections": {
+          "East": 527,
+          "West": 537
+        },
+        "Contents": [
+          {
+            "Text": "A cottonmouth #515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 529,
+        "Name": "Bayou Terrebonne #529",
+        "Connections": {
+          "East": 13155,
+          "West": 526
+        }
+      },
+      {
+        "Id": 530,
+        "Name": "The Swamp #530",
+        "Connections": {
+          "North": 531,
+          "East": 531,
+          "South": 531,
+          "West": 531
+        }
+      },
+      {
+        "Id": 531,
+        "Name": "The Swamp #531",
+        "Connections": {
+          "North": 532,
+          "East": 531,
+          "South": 532,
+          "West": 531
+        }
+      },
+      {
+        "Id": 532,
+        "Name": "The Swamp #532",
+        "Connections": {
+          "North": 531,
+          "East": 533,
+          "South": 531,
+          "West": 532
+        },
+        "Contents": [
+          {
+            "Text": "an alligator #516",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 533,
+        "Name": "The Swamp #533",
+        "Connections": {
+          "North": 531,
+          "East": 532,
+          "South": 534,
+          "West": 531
+        }
+      },
+      {
+        "Id": 534,
+        "Name": "The Swamp #534",
+        "Connections": {
+          "North": 531,
+          "East": 535,
+          "South": 531,
+          "West": 531
+        }
+      },
+      {
+        "Id": 535,
+        "Name": "The Swamp #535",
+        "Connections": {
+          "North": 531,
+          "East": 531,
+          "South": 533,
+          "West": 536
+        }
+      },
+      {
+        "Id": 536,
+        "Name": "On a Cypress Stump #536",
+        "Connections": {
+          "East": 535,
+          "South": 525,
+          "West": 517
+        },
+        "Contents": [
+          {
+            "Text": "Pideaux the elf #536",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 537,
+        "Name": "End of Bayou Terrebonne #537",
+        "Connections": {
+          "East": 528,
+          "South": 538
+        }
+      },
+      {
+        "Id": 538,
+        "Name": "On Dry Ground #538",
+        "Connections": {
+          "North": 537,
+          "South": 539
+        }
+      },
+      {
+        "Id": 539,
+        "Name": "Sandy Path #539",
+        "Connections": {
+          "North": 538,
+          "South": 540
+        }
+      },
+      {
+        "Id": 540,
+        "Name": "Sandy Path #540",
+        "Connections": {
+          "North": 539,
+          "East": 541
+        }
+      },
+      {
+        "Id": 541,
+        "Name": "Sandy Path #541",
+        "Connections": {
+          "South": 542,
+          "West": 540
+        }
+      },
+      {
+        "Id": 542,
+        "Name": "Edge of a Clearing #542",
+        "Connections": {
+          "North": 541,
+          "East": 543
+        }
+      },
+      {
+        "Id": 543,
+        "Name": "Teche Village #543",
+        "Connections": {
+          "East": 544,
+          "West": 542
+        },
+        "Contents": [
+          {
+            "Text": "A Teche man #554",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 544,
+        "Name": "Teche Village #544",
+        "Connections": {
+          "North": 545,
+          "South": 546,
+          "West": 543
+        }
+      },
+      {
+        "Id": 545,
+        "Name": "Teche Village #545",
+        "Connections": {
+          "North": 557,
+          "East": {
+            "RoomId": 559,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a storeroom key #555",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 544,
+          "West": 558
+        }
+      },
+      {
+        "Id": 546,
+        "Name": "Center of Teche Village #546",
+        "Connections": {
+          "North": 544,
+          "East": 548,
+          "South": 547,
+          "West": 550
+        },
+        "Contents": [
+          {
+            "Text": "Jacques #557",
+            "Color": "green"
+          },
+          {
+            "Text": "A Teche child #550",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 547,
+        "Name": "Teche Village #547",
+        "Connections": {
+          "North": 546,
+          "South": 554
+        },
+        "Contents": [
+          {
+            "Text": "A Teche man #554",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 548,
+        "Name": "Teche Village #548",
+        "Connections": {
+          "East": 549,
+          "West": 546
+        },
+        "Contents": [
+          {
+            "Text": "A Teche woman #558",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 549,
+        "Name": "On the Dock #549",
+        "Connections": {
+          "East": 523,
+          "West": 548
+        }
+      },
+      {
+        "Id": 550,
+        "Name": "Teche Village #550",
+        "Connections": {
+          "East": 546,
+          "West": 551
+        }
+      },
+      {
+        "Id": 551,
+        "Name": "A Small Trail #551",
+        "Connections": {
+          "East": 550,
+          "South": 552
+        },
+        "Contents": [
+          {
+            "Text": "A Teche child #550",
+            "Color": "green"
+          },
+          {
+            "Text": "A Teche woman #558",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 552,
+        "Name": "A Small Trail #552",
+        "Connections": {
+          "North": 551,
+          "West": 553
+        },
+        "Contents": [
+          {
+            "Text": "Jean #552",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 553,
+        "Name": "The Dog Pen #553",
+        "Connections": {
+          "East": 552
+        },
+        "Contents": [
+          {
+            "Text": "A meanol dog #553",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 554,
+        "Name": "The Village Building #554",
+        "Connections": {
+          "North": 547,
+          "East": 556,
+          "West": 555
+        }
+      },
+      {
+        "Id": 555,
+        "Name": "Kitchen #555",
+        "Connections": {
+          "East": 554
+        },
+        "Contents": [
+          {
+            "Text": "Pierre the cook #555",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 556,
+        "Name": "Dance Floor #556",
+        "Connections": {
+          "West": 554
+        },
+        "Contents": [
+          {
+            "Text": "A barefoot dancer #556",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 557,
+        "Name": "Village Abode #557",
+        "Connections": {
+          "South": 545
+        }
+      },
+      {
+        "Id": 558,
+        "Name": "A Family Abode #558",
+        "Connections": {
+          "East": 545
+        },
+        "Contents": [
+          {
+            "Text": "A Teche man #554",
+            "Color": "green"
+          },
+          {
+            "Text": "A Teche woman #558",
+            "Color": "green"
+          },
+          {
+            "Text": "A Teche child #550",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 559,
+        "Name": "The Village Store Room #559",
+        "Connections": {
+          "West": 545
+        }
+      },
+      {
+        "Id": 560,
+        "Name": "Hole #560",
+        "Connections": {}
+      },
+      {
+        "Id": 561,
+        "Name": "A Half Submerged Sandbar #561",
+        "Connections": {
+          "North": 22016,
+          "East": 562,
+          "South": 511,
+          "West": 22131
+        }
+      },
+      {
+        "Id": 562,
+        "Name": "A Half Submerged Sandbar #562",
+        "Connections": {
+          "North": 563,
+          "West": 561
+        }
+      },
+      {
+        "Id": 563,
+        "Name": "Edge of Sandbar #563",
+        "Connections": {
+          "North": 22018,
+          "South": 562,
+          "West": 22016
+        }
+      },
+      {
+        "Id": 13155,
+        "FrameColor": "blue",
+        "Name": "To The Forest Fierense #13155",
+        "Color": "blue",
+        "Connections": {
+          "North": 13145,
+          "East": 13156,
+          "West": 529
+        }
+      },
+      {
+        "Id": 22016,
+        "FrameColor": "blue",
+        "Name": "To Sea of Fate #22016",
+        "Color": "blue",
+        "Connections": {
+          "North": 22023,
+          "East": 563,
+          "South": 561,
+          "West": 22125
+        }
+      },
+      {
+        "Id": 22131,
+        "FrameColor": "blue",
+        "Name": "To Sea of Fate #22131",
+        "Color": "blue",
+        "Connections": {
+          "North": 22125,
+          "East": 561,
+          "South": 32397,
+          "West": 22130
+        }
+      },
+      {
+        "Id": 22018,
+        "FrameColor": "blue",
+        "Name": "To Sea of Fate #22018",
+        "Color": "blue",
+        "Connections": {
+          "North": 22114,
+          "South": 563,
+          "West": 22023
+        }
+      }
+    ]
+  }
+}

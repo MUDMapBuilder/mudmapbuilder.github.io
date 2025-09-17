@@ -1,0 +1,7049 @@
+{
+  "Area": {
+    "Name": "Thesden",
+    "MinimumLevel": "1",
+    "MaximumLevel": "100",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 4096,
+        "Name": "Elm Square #4096",
+        "Connections": {
+          "North": 4097,
+          "East": 4095,
+          "South": 4102,
+          "West": 4125
+        },
+        "Contents": [
+          {
+            "Text": "a thief #4080",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          },
+          {
+            "Text": "a poor merchant #4067",
+            "Color": "green"
+          },
+          {
+            "Text": "a small rat #4056",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4097,
+        "Name": "Crowland Street #4097",
+        "Connections": {
+          "North": 4098,
+          "East": {
+            "RoomId": 26294,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Irkallias room #25704",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 4096
+        },
+        "Contents": [
+          {
+            "Text": "the alley cat #4034",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4098,
+        "Name": "Crowland Street #4098",
+        "Connections": {
+          "North": 4099,
+          "South": 4097
+        },
+        "Contents": [
+          {
+            "Text": "a stray dog #4058",
+            "Color": "green"
+          },
+          {
+            "Text": "an old nobleman #4063",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4099,
+        "Name": "Crowland Street #4099",
+        "Connections": {
+          "East": 4449,
+          "South": 4098,
+          "Down": 4100
+        },
+        "Contents": [
+          {
+            "Text": "The captain #4085",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4100,
+        "Name": "Severn River #4100",
+        "Connections": {
+          "East": 4015,
+          "West": 26177,
+          "Up": 4099,
+          "Down": 4101
+        }
+      },
+      {
+        "Id": 4101,
+        "Name": "In the River #4101",
+        "Connections": {
+          "East": 4016,
+          "Up": 4100
+        }
+      },
+      {
+        "Id": 4102,
+        "Name": "Crowland Street #4102",
+        "Connections": {
+          "North": 4096,
+          "South": 4103
+        }
+      },
+      {
+        "Id": 4103,
+        "Name": "Crowland Street #4103",
+        "Connections": {
+          "North": 4102,
+          "East": 4166,
+          "South": 4104
+        },
+        "Contents": [
+          {
+            "Text": "A wealthy merchant #4079",
+            "Color": "green"
+          },
+          {
+            "Text": "a bodyguard #4084",
+            "Color": "green"
+          },
+          {
+            "Text": "a sailor #4073",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4104,
+        "Name": "Crowland Street #4104",
+        "Connections": {
+          "North": 4103,
+          "South": 4105
+        },
+        "Contents": [
+          {
+            "Text": "a sailor #4068",
+            "Color": "green"
+          },
+          {
+            "Text": "a foreign merchant #4083",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4105,
+        "Name": "Crowland Street #4105",
+        "Connections": {
+          "North": 4104,
+          "South": 4106
+        },
+        "Contents": [
+          {
+            "Text": "a young bard #4074",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4106,
+        "Name": "Dock Street and Crowland Street #4106",
+        "Connections": {
+          "North": 4105,
+          "East": 4107,
+          "West": 4110
+        },
+        "Contents": [
+          {
+            "Text": "A wealthy merchant #4079",
+            "Color": "green"
+          },
+          {
+            "Text": "a bodyguard #4084",
+            "Color": "green"
+          },
+          {
+            "Text": "a sailor #4068",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4107,
+        "Name": "Dock Street #4107",
+        "Connections": {
+          "East": 4108,
+          "South": 4147,
+          "West": 4106
+        },
+        "Contents": [
+          {
+            "Text": "a poor merchant #4067",
+            "Color": "green"
+          },
+          {
+            "Text": "a sailor #4073",
+            "Color": "green"
+          },
+          {
+            "Text": "A veteran guard #4130",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4108,
+        "Name": "Dock Street #4108",
+        "Connections": {
+          "East": 4109,
+          "West": 4107
+        },
+        "Contents": [
+          {
+            "Text": "the alley cat #4034",
+            "Color": "green"
+          },
+          {
+            "Text": "a foreign merchant #4083",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4109,
+        "Name": "Dock Street #4109",
+        "Connections": {
+          "South": 4219,
+          "West": 4108
+        },
+        "Contents": [
+          {
+            "Text": "a sailor #4068",
+            "Color": "green"
+          },
+          {
+            "Text": "a small rat #4056",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4110,
+        "Name": "Dock Street #4110",
+        "Connections": {
+          "North": 4174,
+          "East": 4106,
+          "South": 4163,
+          "West": 4111,
+          "Down": {
+            "RoomId": 25143,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Paarshads room #25621",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a sailor #4068",
+            "Color": "green"
+          },
+          {
+            "Text": "The captain #4085",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4111,
+        "Name": "Dock Street #4111",
+        "Connections": {
+          "North": 4218,
+          "East": 4110,
+          "West": 4112
+        },
+        "Contents": [
+          {
+            "Text": "a sailor #4073",
+            "Color": "green"
+          },
+          {
+            "Text": "a stray dog #4058",
+            "Color": "green"
+          },
+          {
+            "Text": "a foreign merchant #4083",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4112,
+        "Name": "Dock Street and Falstaff Street #4112",
+        "Connections": {
+          "North": 4113,
+          "East": 4111,
+          "South": 4245,
+          "West": 25069
+        },
+        "Contents": [
+          {
+            "Text": "a sailor #4073",
+            "Color": "green"
+          },
+          {
+            "Text": "a young boy #4059",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4113,
+        "Name": "Falstaff Street #4113",
+        "Connections": {
+          "North": 4114,
+          "South": 4112
+        },
+        "Contents": [
+          {
+            "Text": "a beggar #4064",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4114,
+        "Name": "Falstaff Street #4114",
+        "Connections": {
+          "North": 4115,
+          "South": 4113
+        },
+        "Contents": [
+          {
+            "Text": "a young boy #4059",
+            "Color": "green"
+          },
+          {
+            "Text": "a girl #4060",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4115,
+        "Name": "Falstaff Street #4115",
+        "Connections": {
+          "North": 4116,
+          "South": 4114
+        },
+        "Contents": [
+          {
+            "Text": "a young thug #4070",
+            "Color": "green"
+          },
+          {
+            "Text": "an old nobleman #4063",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4116,
+        "Name": "Falstaff Street #4116",
+        "Connections": {
+          "North": 4117,
+          "East": 4419,
+          "South": 4115
+        },
+        "Contents": [
+          {
+            "Text": "an old woman #4062",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4117,
+        "Name": "West Gate #4117",
+        "Connections": {
+          "North": 4118,
+          "East": 4124,
+          "South": 4116,
+          "West": 13104
+        },
+        "Contents": [
+          {
+            "Text": "a stray dog #4058",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4125",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4125",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4118,
+        "Name": "Falstaff Street #4118",
+        "Connections": {
+          "North": 4119,
+          "South": 4117
+        },
+        "Contents": [
+          {
+            "Text": "a young thug #4070",
+            "Color": "green"
+          },
+          {
+            "Text": "an adolescent boy #4069",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4119,
+        "Name": "Falstaff Street #4119",
+        "Connections": {
+          "North": 4120,
+          "South": 4118
+        },
+        "Contents": [
+          {
+            "Text": "a beggar #4064",
+            "Color": "green"
+          },
+          {
+            "Text": "a girl #4060",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4120,
+        "Name": "South Falstaff Square #4120",
+        "Connections": {
+          "North": 4121,
+          "East": 4123,
+          "South": 4119
+        },
+        "Contents": [
+          {
+            "Text": "the alley cat #4034",
+            "Color": "green"
+          },
+          {
+            "Text": "a young thug #4070",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4121,
+        "Name": "North Falstaff Square #4121",
+        "Connections": {
+          "North": 25201,
+          "East": 4122,
+          "South": 4120
+        },
+        "Contents": [
+          {
+            "Text": "a thief #4080",
+            "Color": "green"
+          },
+          {
+            "Text": "a stray dog #4058",
+            "Color": "green"
+          },
+          {
+            "Text": "an elder thief #4091",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4122,
+        "Name": "North Falstaff Square #4122",
+        "Connections": {
+          "East": 4175,
+          "South": 4123,
+          "West": 4121
+        },
+        "Contents": [
+          {
+            "Text": "a young thug #4070",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4123,
+        "Name": "South Falstaff Square #4123",
+        "Connections": {
+          "North": 4122,
+          "West": 4120
+        },
+        "Contents": [
+          {
+            "Text": "a small rat #4056",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4124,
+        "Name": "West Cumberland Avenue #4124",
+        "Connections": {
+          "East": 4125,
+          "West": 4117
+        },
+        "Contents": [
+          {
+            "Text": "a young farmer #4066",
+            "Color": "green"
+          },
+          {
+            "Text": "a pilgrim #4087",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4125,
+        "Name": "West Cumberland Avenue #4125",
+        "Connections": {
+          "East": 4096,
+          "West": 4124
+        },
+        "Contents": [
+          {
+            "Text": "a young thug #4070",
+            "Color": "green"
+          },
+          {
+            "Text": "an apprentice smith #4076",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4126,
+        "Name": "Hangmans Tavern #4126",
+        "Connections": {
+          "North": 4043
+        },
+        "Contents": [
+          {
+            "Text": "Daran #4008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4127,
+        "Name": "Cumberland Clothier #4127",
+        "Connections": {
+          "North": 4046
+        },
+        "Contents": [
+          {
+            "Text": "Samuel the clothier #4036",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4128,
+        "Name": "Wolsey Furnishings #4128",
+        "Connections": {
+          "South": 4049
+        },
+        "Contents": [
+          {
+            "Text": "Aaron Wolsey #4007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4129,
+        "Name": "Crystal Slipper Jeweler #4129",
+        "Connections": {
+          "West": 4051
+        },
+        "Contents": [
+          {
+            "Text": "Amedeo the jeweller #4033",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4130,
+        "Name": "Thesden Imported Spices and Teas #4130",
+        "Connections": {
+          "West": 4053
+        },
+        "Contents": [
+          {
+            "Text": "Sardin the herbalist #4053",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4131,
+        "Name": "Satin Purse Merchants Guild #4131",
+        "Connections": {
+          "North": 4053,
+          "East": {
+            "RoomId": 4453,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4132,
+        "Name": "Thesden Council Chambers #4132",
+        "Connections": {}
+      },
+      {
+        "Id": 4133,
+        "Name": "Iths Silver and Goldsmithing #4133",
+        "Connections": {
+          "East": 4055
+        },
+        "Contents": [
+          {
+            "Text": "Ith #4021",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4134,
+        "Name": "Thesden Town Hall #4134",
+        "Connections": {
+          "North": 4055,
+          "East": 4178,
+          "West": 4401,
+          "Up": 4177,
+          "Down": 4471
+        },
+        "Contents": [
+          {
+            "Text": "Your first love #4602",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4135,
+        "Name": "The Leech and Root Apothecary #4135",
+        "Connections": {
+          "East": 4058
+        },
+        "Contents": [
+          {
+            "Text": "A tall monk #4188",
+            "Color": "green"
+          },
+          {
+            "Text": "Zannah the healer #4009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4136,
+        "Name": "The Crows Wing Inn #4136",
+        "Connections": {
+          "South": 4059,
+          "Up": 4138
+        },
+        "Contents": [
+          {
+            "Text": "The Innkeeper #4010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4137,
+        "Name": "Order of the Crescent Moon #4137",
+        "Connections": {
+          "East": 4059,
+          "Up": 4186
+        }
+      },
+      {
+        "Id": 4138,
+        "Name": "Landing in The Crows Wing #4138",
+        "Connections": {
+          "East": {
+            "RoomId": 4140,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the East Bedroom single occupancy #4018",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 4141,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the West Bedroom double occupancy #4019",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 4136
+        }
+      },
+      {
+        "Id": 4139,
+        "Name": "Landing in the Whetstone Inn #4139",
+        "Connections": {
+          "East": 4210,
+          "West": {
+            "RoomId": 4201,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the West Bedroom double occupancy #4253",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 4155
+        }
+      },
+      {
+        "Id": 4140,
+        "Name": "East Room #4140",
+        "Connections": {
+          "West": {
+            "RoomId": 4138,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the East Bedroom single occupancy #4018",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4141,
+        "Name": "West Room #4141",
+        "Connections": {
+          "East": {
+            "RoomId": 4138,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the West Bedroom double occupancy #4019",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4142,
+        "Name": "Wayland Blacksmith #4142",
+        "Connections": {
+          "North": 4077
+        },
+        "Contents": [
+          {
+            "Text": "John the blacksmith #4054",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4143,
+        "Name": "Thesden Wilderness Supply #4143",
+        "Connections": {
+          "South": 4078
+        },
+        "Contents": [
+          {
+            "Text": "Thyrn the wildernessguide #4046",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4144,
+        "Name": "The Black Orchid Flowershop #4144",
+        "Connections": {
+          "East": 4072,
+          "South": 2984
+        },
+        "Contents": [
+          {
+            "Text": "The florist #4016",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4145,
+        "Name": "Fresh Produce Stand #4145",
+        "Connections": {
+          "South": 4073
+        },
+        "Contents": [
+          {
+            "Text": "The grocer #4015",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4146,
+        "Name": "Estbury Meats and Poultry #4146",
+        "Connections": {
+          "North": 4433,
+          "West": 4069
+        },
+        "Contents": [
+          {
+            "Text": "The butcher #4014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4147,
+        "Name": "The Docks #4147",
+        "Connections": {
+          "North": 4107,
+          "South": 4221,
+          "West": 32215
+        }
+      },
+      {
+        "Id": 4148,
+        "Name": "Simons Candle and Lantern #4148",
+        "Connections": {
+          "East": 4067
+        },
+        "Contents": [
+          {
+            "Text": "Simon the candlemaker #4012",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4149,
+        "Name": "Entrance to the Cathedral #4149",
+        "Connections": {
+          "North": 4308,
+          "East": 4403,
+          "South": 4199,
+          "West": 4065
+        },
+        "Contents": [
+          {
+            "Text": "An acolyte of the order of Xork #4235",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4150,
+        "Name": "Cathedral Glassworks #4150",
+        "Connections": {
+          "South": 4064
+        },
+        "Contents": [
+          {
+            "Text": "Brielle the glassblower #4047",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4151,
+        "Name": "Pine Street Tanner #4151",
+        "Connections": {
+          "North": 4062
+        },
+        "Contents": [
+          {
+            "Text": "The tanner #4018",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4152,
+        "Name": "Goldmunds Antiques #4152",
+        "Connections": {
+          "North": 4061
+        },
+        "Contents": [
+          {
+            "Text": "Lyra #4020",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4153,
+        "Name": "Narcissus Book Shop #4153",
+        "Connections": {
+          "South": 4061
+        },
+        "Contents": [
+          {
+            "Text": "Narcissus #4019",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4154,
+        "Name": "Order of the Argent Lance #4154",
+        "Connections": {
+          "East": 4198,
+          "South": 4195,
+          "West": 4080
+        }
+      },
+      {
+        "Id": 4155,
+        "Name": "Whetstone Inn #4155",
+        "Connections": {
+          "North": 4080,
+          "Up": 4139
+        },
+        "Contents": [
+          {
+            "Text": "Aphrun the innkeep #4150",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4156,
+        "Name": "The Dreadful Buzzard Tavern #4156",
+        "Connections": {
+          "East": 4074
+        },
+        "Contents": [
+          {
+            "Text": "Pollard the barkeep #4049",
+            "Color": "green"
+          },
+          {
+            "Text": "Cyril the ratcollector #4236",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4157,
+        "Name": "Mincer Rays Weaponry #4157",
+        "Connections": {
+          "East": 4079
+        },
+        "Contents": [
+          {
+            "Text": "Mincer Ray #4013",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4158,
+        "Name": "Covent Armory #4158",
+        "Connections": {
+          "South": 4081
+        },
+        "Contents": [
+          {
+            "Text": "Hugard the armorer #4052",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4159,
+        "Name": "College of Music #4159",
+        "Connections": {
+          "North": 4085,
+          "West": 4209
+        },
+        "Contents": [
+          {
+            "Text": "Baxan the wandering minstrel #4399",
+            "Color": "green"
+          },
+          {
+            "Text": "The famous bard Xorke #4234",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4160,
+        "Name": "Perthshire Ceramics #4160",
+        "Connections": {
+          "South": 4084
+        },
+        "Contents": [
+          {
+            "Text": "Clara the potter #4051",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4161,
+        "Name": "Thesden Savings Bank #4161",
+        "Connections": {
+          "East": 4092
+        },
+        "Contents": [
+          {
+            "Text": "Serra the teller #4055",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4162,
+        "Name": "The Entrance to Ashton Gardens #4162",
+        "Connections": {
+          "North": 4167,
+          "East": 4087,
+          "South": 4168,
+          "West": 1505
+        },
+        "Contents": [
+          {
+            "Text": "A teenaged girl #4202",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4163,
+        "Name": "The Docks #4163",
+        "Connections": {
+          "North": 4110,
+          "East": 32215,
+          "South": 4222,
+          "West": 32213
+        }
+      },
+      {
+        "Id": 4164,
+        "Name": "A Secluded Courtyard #4164",
+        "Connections": {
+          "North": 4199
+        },
+        "Contents": [
+          {
+            "Text": "A straw golem #4133",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4165,
+        "Name": " #4165",
+        "Connections": {
+          "East": 4407
+        }
+      },
+      {
+        "Id": 4166,
+        "Name": "Midnights Smoke Shop #4166",
+        "Connections": {
+          "West": 4103,
+          "Down": 6170
+        },
+        "Contents": [
+          {
+            "Text": "The drifter #4420",
+            "Color": "green"
+          },
+          {
+            "Text": "Midnight #4121",
+            "Color": "green"
+          },
+          {
+            "Text": "Roscoe #4422",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4167,
+        "Name": "Ashton Gardens #4167",
+        "Connections": {
+          "South": 4162,
+          "West": 4171
+        },
+        "Contents": [
+          {
+            "Text": "Hanlen #4405",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4168,
+        "Name": "Ashton Gardens #4168",
+        "Connections": {
+          "North": 4162,
+          "West": 4169
+        },
+        "Contents": [
+          {
+            "Text": "a duck #4400",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4169,
+        "Name": "Ashton Gardens #4169",
+        "Connections": {
+          "East": 4168,
+          "West": 4170
+        },
+        "Contents": [
+          {
+            "Text": "a chipmunk #4401",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4170,
+        "Name": "Ashton Gardens #4170",
+        "Connections": {
+          "North": 4173,
+          "East": 4169
+        },
+        "Contents": [
+          {
+            "Text": "Lady Avenlea #4402",
+            "Color": "green"
+          },
+          {
+            "Text": "a dove #4403",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4171,
+        "Name": "Ashton Gardens #4171",
+        "Connections": {
+          "East": 4167,
+          "West": 4172
+        },
+        "Contents": [
+          {
+            "Text": "Old Man Torun #4404",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4172,
+        "Name": "Ashton Gardens #4172",
+        "Connections": {
+          "East": 4171,
+          "South": 4173
+        }
+      },
+      {
+        "Id": 4173,
+        "Name": "Ashton Gardens #4173",
+        "Connections": {
+          "North": 4172,
+          "East": 1500,
+          "South": 4170
+        }
+      },
+      {
+        "Id": 4174,
+        "Name": "The Rusty Nail Tavern #4174",
+        "Connections": {
+          "South": 4110
+        },
+        "Contents": [
+          {
+            "Text": "a sailor #4068",
+            "Color": "green"
+          },
+          {
+            "Text": "Laisa the Barkeep #4126",
+            "Color": "green"
+          },
+          {
+            "Text": "A travelling warrior #4237",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4175,
+        "Name": "The Spiders Ring Tavern #4175",
+        "Connections": {
+          "East": 4448,
+          "South": {
+            "RoomId": 4176,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a tarnished brass key #4176",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 4122
+        },
+        "Contents": [
+          {
+            "Text": "Fyrin the barkeep #4113",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4176,
+        "Name": "The Thieves Guild #4176",
+        "Connections": {
+          "North": {
+            "RoomId": 4175,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 4211,
+          "West": 4123
+        }
+      },
+      {
+        "Id": 4177,
+        "Name": "Landing #4177",
+        "Connections": {
+          "East": 4181,
+          "South": 4428,
+          "Down": 4134
+        }
+      },
+      {
+        "Id": 4178,
+        "Name": "Donation Room #4178",
+        "Connections": {
+          "West": 4134
+        }
+      },
+      {
+        "Id": 4179,
+        "Name": "A Practice Room #4179",
+        "Connections": {
+          "North": 4448,
+          "West": 4211
+        },
+        "Contents": [
+          {
+            "Text": "A straw and wood mannequin #4131",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4180,
+        "Name": "The Chamber of Musical Combat #4180",
+        "Connections": {
+          "North": 4209
+        },
+        "Contents": [
+          {
+            "Text": "A straw and wood mannequin #4131",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4181,
+        "Name": "Mayors Office #4181",
+        "Connections": {
+          "West": 4177
+        }
+      },
+      {
+        "Id": 4182,
+        "Name": "Thesden Newbie Shop #4182",
+        "Connections": {}
+      },
+      {
+        "Id": 4183,
+        "Name": "Grey Gelding Stable #4183",
+        "Connections": {
+          "North": 4072,
+          "West": 4185
+        },
+        "Contents": [
+          {
+            "Text": "Evrett the Stablemaster #4045",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4184,
+        "Name": "Stable Storage #4184",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "a small pony #4024",
+            "Color": "green"
+          },
+          {
+            "Text": "a mule #4037",
+            "Color": "green"
+          },
+          {
+            "Text": "an old grey horse #4038",
+            "Color": "green"
+          },
+          {
+            "Text": "a chestnut quarterhorse #4039",
+            "Color": "green"
+          },
+          {
+            "Text": "a golden coated horse #4040",
+            "Color": "green"
+          },
+          {
+            "Text": "a draft work horse #4041",
+            "Color": "green"
+          },
+          {
+            "Text": "a clydesdale draft horse #4042",
+            "Color": "green"
+          },
+          {
+            "Text": "a black percheron warhorse #4043",
+            "Color": "green"
+          },
+          {
+            "Text": "a white noble stallion #4044",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4185,
+        "Name": "The Grey Gelding Riding Shop #4185",
+        "Connections": {
+          "East": 4183
+        },
+        "Contents": [
+          {
+            "Text": "Evyn the stable boy #4048",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4186,
+        "Name": "The Spiral Stair #4186",
+        "Connections": {
+          "North": 4187,
+          "West": 4188,
+          "Up": 4189,
+          "Down": 4137
+        }
+      },
+      {
+        "Id": 4187,
+        "Name": "The Chambers of the Teacher #4187",
+        "Connections": {
+          "South": 4186
+        },
+        "Contents": [
+          {
+            "Text": "Zeryn #4096",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4188,
+        "Name": "The Practice Room #4188",
+        "Connections": {
+          "East": 4186
+        },
+        "Contents": [
+          {
+            "Text": "A worn out metallic golem #4095",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4189,
+        "Name": "The Spiral Stair #4189",
+        "Connections": {
+          "North": 4190,
+          "West": 4193,
+          "Up": 4192,
+          "Down": 4186
+        }
+      },
+      {
+        "Id": 4190,
+        "Name": "The Meditation Chamber #4190",
+        "Connections": {
+          "South": 4189
+        }
+      },
+      {
+        "Id": 4191,
+        "Name": "Crescent Magical Supplies #4191",
+        "Connections": {}
+      },
+      {
+        "Id": 4192,
+        "Name": "The Chambers of the Master #4192",
+        "Connections": {
+          "Down": 4189
+        },
+        "Contents": [
+          {
+            "Text": "Ylris the master #4097",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4193,
+        "Name": "Crescent Magical Supplies #4193",
+        "Connections": {
+          "East": 4189
+        },
+        "Contents": [
+          {
+            "Text": "jyorn the keeper #4098",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4194,
+        "Name": "familiar storage #4194",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "a black raven #4099",
+            "Color": "green"
+          },
+          {
+            "Text": "a sleek black cat #4100",
+            "Color": "green"
+          },
+          {
+            "Text": "a fire drake #4101",
+            "Color": "green"
+          },
+          {
+            "Text": "a frost drake #4102",
+            "Color": "green"
+          },
+          {
+            "Text": "a hunched homonculus #4103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4195,
+        "Name": "Training Yard #4195",
+        "Connections": {
+          "North": 4154,
+          "East": 4196
+        },
+        "Contents": [
+          {
+            "Text": "A worn out practice dummy #4231",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4196,
+        "Name": "Training Yard #4196",
+        "Connections": {
+          "West": 4195
+        },
+        "Contents": [
+          {
+            "Text": "Sir Vedros #4110",
+            "Color": "green"
+          },
+          {
+            "Text": "A worn out practice dummy #4231",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4197,
+        "Name": "A Practice Chamber #4197",
+        "Connections": {
+          "East": 4207
+        },
+        "Contents": [
+          {
+            "Text": "A worn out practice dummy #4231",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4198,
+        "Name": "Meeting Hall #4198",
+        "Connections": {
+          "West": 4154
+        }
+      },
+      {
+        "Id": 4199,
+        "Name": "The Acolytes Chambers #4199",
+        "Connections": {
+          "North": 4149,
+          "South": 4164
+        },
+        "Contents": [
+          {
+            "Text": "Isaac #4104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4200,
+        "Name": "The Altar #4200",
+        "Connections": {
+          "East": 4202,
+          "West": 4404,
+          "Down": 4203
+        },
+        "Contents": [
+          {
+            "Text": "The Preacher #4107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4201,
+        "Name": "The West Room #4201",
+        "Connections": {
+          "East": {
+            "RoomId": 4139,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the West Bedroom double occupancy #4253",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4202,
+        "Name": "The High Priests Chambers #4202",
+        "Connections": {
+          "West": 4200
+        },
+        "Contents": [
+          {
+            "Text": "The high priest #4105",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4203,
+        "Name": "Sacrifice Room #4203",
+        "Connections": {
+          "East": 4329,
+          "West": 4467
+        },
+        "Contents": [
+          {
+            "Text": "a damned soul #4106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4204,
+        "Name": "Dirt Road Outside the Gates #4204",
+        "Connections": {}
+      },
+      {
+        "Id": 4205,
+        "Name": "A Forest Clearing #4205",
+        "Connections": {
+          "South": 13104
+        }
+      },
+      {
+        "Id": 4206,
+        "Name": "A Narrow Tunnel #4206",
+        "Connections": {
+          "West": 4207
+        },
+        "Contents": [
+          {
+            "Text": "a brown bear #4111",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4207,
+        "Name": "The Rangers Hall #4207",
+        "Connections": {
+          "North": 4208,
+          "East": 4206,
+          "West": 4197,
+          "Down": 4413
+        }
+      },
+      {
+        "Id": 4208,
+        "Name": "The Teachers Chamber #4208",
+        "Connections": {
+          "South": 4207
+        },
+        "Contents": [
+          {
+            "Text": "Vanya the ranger #4108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4209,
+        "Name": "The Classroom #4209",
+        "Connections": {
+          "East": 4159,
+          "South": 4180
+        },
+        "Contents": [
+          {
+            "Text": "Aldera #4114",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4210,
+        "Name": "The East Room #4210",
+        "Connections": {
+          "West": 4139
+        }
+      },
+      {
+        "Id": 4211,
+        "Name": "The Back Room #4211",
+        "Connections": {
+          "North": 4176,
+          "East": 4179
+        },
+        "Contents": [
+          {
+            "Text": "Ivan #4112",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4212,
+        "Name": "A Humble Abode (Reserved by Iverath) #4212",
+        "Connections": {
+          "South": 4062
+        }
+      },
+      {
+        "Id": 4213,
+        "Name": "A Merchants Home #4213",
+        "Connections": {
+          "North": 4063
+        }
+      },
+      {
+        "Id": 4214,
+        "Name": "Goldmunds Room #4214",
+        "Connections": {
+          "Up": 4056
+        }
+      },
+      {
+        "Id": 4215,
+        "Name": "A Humble Abode #4215",
+        "Connections": {
+          "West": 4066
+        },
+        "Contents": [
+          {
+            "Text": "Dexton #4398",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4216,
+        "Name": "Hidden Chamber #4216",
+        "Connections": {
+          "Up": 4041
+        },
+        "Contents": [
+          {
+            "Text": "The drowned captain #4179",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4217,
+        "Name": "Grand Archway #4217",
+        "Connections": {
+          "East": 23000,
+          "South": 4227,
+          "West": 4093
+        },
+        "Contents": [
+          {
+            "Text": "The great Sidhe mage Xorkb #4233",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4218,
+        "Name": "Asracs Ships #4218",
+        "Connections": {
+          "South": 4111
+        },
+        "Contents": [
+          {
+            "Text": "Asrac the shipwright #4123",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4219,
+        "Name": "The Docks #4219",
+        "Connections": {
+          "North": 4109,
+          "East": 32219,
+          "South": 4220
+        },
+        "Contents": [
+          {
+            "Text": "a team of gnomish engineers #4603",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4220,
+        "Name": "The Docks #4220",
+        "Connections": {
+          "North": 4219,
+          "East": 32319,
+          "South": 4225,
+          "West": 4226
+        }
+      },
+      {
+        "Id": 4221,
+        "Name": "The Docks #4221",
+        "Connections": {
+          "North": 4147,
+          "East": 4226,
+          "South": 4224,
+          "West": 32315
+        }
+      },
+      {
+        "Id": 4222,
+        "Name": "The Docks #4222",
+        "Connections": {
+          "North": 4163,
+          "East": 32315,
+          "South": 4223,
+          "West": 32313
+        }
+      },
+      {
+        "Id": 4223,
+        "Name": "The Docks #4223",
+        "Connections": {
+          "North": 4222,
+          "East": 32415,
+          "South": 32514,
+          "West": 32413
+        },
+        "Contents": [
+          {
+            "Text": "Pescado #4600",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4224,
+        "Name": "The Docks #4224",
+        "Connections": {
+          "North": 4221,
+          "East": 32417,
+          "West": 32415
+        }
+      },
+      {
+        "Id": 4225,
+        "Name": "The Docks #4225",
+        "Connections": {
+          "North": 4220,
+          "East": 32419,
+          "South": 32518,
+          "West": 32417
+        }
+      },
+      {
+        "Id": 4226,
+        "Name": "The Docks #4226",
+        "Connections": {
+          "East": 4220,
+          "South": 32417,
+          "West": 4221
+        }
+      },
+      {
+        "Id": 4227,
+        "Name": "Hidden Alcove #4227",
+        "Connections": {
+          "North": 4217
+        },
+        "Contents": [
+          {
+            "Text": "a thief #4127",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4228,
+        "Name": "The deck of the pinnace Ebbtide #4228",
+        "Connections": {
+          "Down": 4267
+        }
+      },
+      {
+        "Id": 4229,
+        "Name": "The deck of the sloop Shifter #4229",
+        "Connections": {
+          "Down": 4270
+        }
+      },
+      {
+        "Id": 4230,
+        "Name": "The deck of the barque Dolphin #4230",
+        "Connections": {
+          "Down": 4279
+        }
+      },
+      {
+        "Id": 4231,
+        "Name": "The Helm of the merchantman The Gold Serpent #4231",
+        "Connections": {
+          "North": 4287,
+          "Down": 4288
+        }
+      },
+      {
+        "Id": 4232,
+        "Name": "The Helm of the Frigate Justice #4232",
+        "Connections": {
+          "North": 4309,
+          "South": 4310,
+          "Down": 4311
+        }
+      },
+      {
+        "Id": 4233,
+        "Name": "The Deck of the Galleon Tempest #4233",
+        "Connections": {
+          "North": 4359,
+          "South": 4360,
+          "Down": 4361
+        }
+      },
+      {
+        "Id": 4234,
+        "Name": "The Deck of the Galleon Zephyr #4234",
+        "Connections": {
+          "North": 4370,
+          "South": 4369,
+          "Down": 4371
+        }
+      },
+      {
+        "Id": 4235,
+        "Name": "The Deck of the Galleon Hurricane #4235",
+        "Connections": {
+          "North": 4379,
+          "South": 4380,
+          "Down": 4381
+        }
+      },
+      {
+        "Id": 4236,
+        "Name": "The Deck of the Frigate Gauntlet #4236",
+        "Connections": {
+          "North": 4320,
+          "South": 4319,
+          "Down": 4321
+        }
+      },
+      {
+        "Id": 4237,
+        "Name": "The Deck the Frigate Valor #4237",
+        "Connections": {
+          "North": 4389,
+          "South": 4390,
+          "Down": 4391
+        }
+      },
+      {
+        "Id": 4238,
+        "Name": "The Deck of the Merchantman The Silver Dragon #4238",
+        "Connections": {
+          "North": 4301,
+          "Down": 4302
+        }
+      },
+      {
+        "Id": 4239,
+        "Name": "The Deck of the Merchantman The Red Crest #4239",
+        "Connections": {
+          "North": 4294,
+          "Down": 4295
+        }
+      },
+      {
+        "Id": 4240,
+        "Name": "The Deck of the Barque Manta #4240",
+        "Connections": {
+          "Down": 4283
+        }
+      },
+      {
+        "Id": 4241,
+        "Name": "The Deck of the Sloop Vandal #4241",
+        "Connections": {
+          "Down": 4273
+        }
+      },
+      {
+        "Id": 4242,
+        "Name": "The Deck of the Sloop Griffyn #4242",
+        "Connections": {
+          "Down": 4276
+        }
+      },
+      {
+        "Id": 4243,
+        "Name": "The Deck of the Pinnace Sundown #4243",
+        "Connections": {
+          "Down": 4268
+        }
+      },
+      {
+        "Id": 4244,
+        "Name": "The Deck of the Pinnace Sabre #4244",
+        "Connections": {
+          "Down": 4269
+        }
+      },
+      {
+        "Id": 4245,
+        "Name": "The Docks #4245",
+        "Connections": {
+          "North": 4112,
+          "East": 32213,
+          "South": 4246,
+          "West": 32211
+        }
+      },
+      {
+        "Id": 4246,
+        "Name": "The Docks #4246",
+        "Connections": {
+          "North": 4245,
+          "East": 32313,
+          "South": 4247,
+          "West": 32311
+        }
+      },
+      {
+        "Id": 4247,
+        "Name": "The Docks #4247",
+        "Connections": {
+          "North": 4246,
+          "East": 32413,
+          "South": 32512,
+          "West": 32411
+        }
+      },
+      {
+        "Id": 4248,
+        "Name": "Cell Hallway #4248",
+        "Connections": {
+          "North": 4249,
+          "South": 4251,
+          "Up": 4023
+        }
+      },
+      {
+        "Id": 4249,
+        "Name": "Cell Hallway #4249",
+        "Connections": {
+          "North": 4250,
+          "East": {
+            "RoomId": 4259,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "DEFAULT JAIL KEY DONT TOUCH #4634",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 4248,
+          "West": {
+            "RoomId": 4260,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "DEFAULT JAIL KEY DONT TOUCH #4634",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4250,
+        "Name": "Cell Hallway #4250",
+        "Connections": {
+          "North": 4254,
+          "East": {
+            "RoomId": 4257,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "DEFAULT JAIL KEY DONT TOUCH #4634",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 4249,
+          "West": {
+            "RoomId": 4258,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "DEFAULT JAIL KEY DONT TOUCH #4634",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4251,
+        "Name": "Cell Hallway #4251",
+        "Connections": {
+          "North": 4248,
+          "East": {
+            "RoomId": 4261,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "DEFAULT JAIL KEY DONT TOUCH #4634",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 4252,
+          "West": {
+            "RoomId": 4262,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "DEFAULT JAIL KEY DONT TOUCH #4634",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4252,
+        "Name": "Cell Hallway #4252",
+        "Connections": {
+          "North": 4251,
+          "East": {
+            "RoomId": 4263,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "DEFAULT JAIL KEY DONT TOUCH #4634",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 4253,
+          "West": {
+            "RoomId": 4264,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "DEFAULT JAIL KEY DONT TOUCH #4634",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4253,
+        "Name": "End of Cell Hallway #4253",
+        "Connections": {
+          "North": 4252,
+          "East": {
+            "RoomId": 4265,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "DEFAULT JAIL KEY DONT TOUCH #4634",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 4266,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "DEFAULT JAIL KEY DONT TOUCH #4634",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4254,
+        "Name": "End of Cell Hallway #4254",
+        "Connections": {
+          "North": {
+            "RoomId": 4500,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 4255,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "DEFAULT JAIL KEY DONT TOUCH #4634",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 4250,
+          "West": {
+            "RoomId": 4256,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "DEFAULT JAIL KEY DONT TOUCH #4634",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4255,
+        "Name": "Kraft and Eddards Memorial Jail Cell #4255",
+        "Connections": {
+          "West": {
+            "RoomId": 4254,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4256,
+        "Name": "A cramped cell #4256",
+        "Connections": {
+          "East": {
+            "RoomId": 4254,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4257,
+        "Name": "Cell #4257",
+        "Connections": {
+          "West": {
+            "RoomId": 4250,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4258,
+        "Name": "Cell #4258",
+        "Connections": {
+          "East": {
+            "RoomId": 4250,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4259,
+        "Name": "Cell #4259",
+        "Connections": {
+          "West": {
+            "RoomId": 4249,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4260,
+        "Name": "Cell #4260",
+        "Connections": {
+          "East": {
+            "RoomId": 4249,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4261,
+        "Name": "Cell #4261",
+        "Connections": {
+          "West": {
+            "RoomId": 4251,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4262,
+        "Name": "Cell #4262",
+        "Connections": {
+          "East": {
+            "RoomId": 4251,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4263,
+        "Name": "Cell #4263",
+        "Connections": {
+          "West": {
+            "RoomId": 4252,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4264,
+        "Name": "Cell #4264",
+        "Connections": {
+          "East": {
+            "RoomId": 4252,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4265,
+        "Name": "Cell #4265",
+        "Connections": {
+          "West": {
+            "RoomId": 4253,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4266,
+        "Name": "Cell #4266",
+        "Connections": {
+          "East": {
+            "RoomId": 4253,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4267,
+        "Name": "Small Hold #4267",
+        "Connections": {
+          "Up": 4228
+        }
+      },
+      {
+        "Id": 4268,
+        "Name": "Small Hold #4268",
+        "Connections": {
+          "Up": 4243
+        }
+      },
+      {
+        "Id": 4269,
+        "Name": "Small Hold #4269",
+        "Connections": {
+          "Up": 4244
+        }
+      },
+      {
+        "Id": 4270,
+        "Name": "Narrow Hall #4270",
+        "Connections": {
+          "North": 4272,
+          "South": 4271,
+          "Up": 4229
+        }
+      },
+      {
+        "Id": 4271,
+        "Name": "Small Hold #4271",
+        "Connections": {
+          "North": 4270
+        }
+      },
+      {
+        "Id": 4272,
+        "Name": "Officers Quarters #4272",
+        "Connections": {
+          "South": 4270
+        }
+      },
+      {
+        "Id": 4273,
+        "Name": "Narrow Hall #4273",
+        "Connections": {
+          "North": 4275,
+          "South": 4274,
+          "Up": 4241
+        }
+      },
+      {
+        "Id": 4274,
+        "Name": "Small Hold #4274",
+        "Connections": {
+          "North": 4273
+        }
+      },
+      {
+        "Id": 4275,
+        "Name": "Officers Quarters #4275",
+        "Connections": {
+          "South": 4273
+        }
+      },
+      {
+        "Id": 4276,
+        "Name": "Narrow Hall #4276",
+        "Connections": {
+          "North": 4277,
+          "South": 4278,
+          "Up": 4242
+        }
+      },
+      {
+        "Id": 4277,
+        "Name": "Officers Quarters #4277",
+        "Connections": {
+          "South": 4276
+        }
+      },
+      {
+        "Id": 4278,
+        "Name": "Small Hold #4278",
+        "Connections": {
+          "North": 4276
+        }
+      },
+      {
+        "Id": 4279,
+        "Name": "Narrow Hall #4279",
+        "Connections": {
+          "North": 4280,
+          "South": 4281,
+          "Up": 4230,
+          "Down": 4282
+        }
+      },
+      {
+        "Id": 4280,
+        "Name": "Officers Quarters #4280",
+        "Connections": {
+          "South": 4279
+        }
+      },
+      {
+        "Id": 4281,
+        "Name": "Cargo Hold #4281",
+        "Connections": {
+          "North": 4279
+        }
+      },
+      {
+        "Id": 4282,
+        "Name": "Small Hold #4282",
+        "Connections": {
+          "Up": 4279
+        }
+      },
+      {
+        "Id": 4283,
+        "Name": "Narrow Hall #4283",
+        "Connections": {
+          "North": 4285,
+          "South": 4286,
+          "Up": 4240,
+          "Down": 4284
+        }
+      },
+      {
+        "Id": 4284,
+        "Name": "Small Hold #4284",
+        "Connections": {
+          "Up": 4283
+        }
+      },
+      {
+        "Id": 4285,
+        "Name": "Officers Quarters #4285",
+        "Connections": {
+          "South": 4283
+        }
+      },
+      {
+        "Id": 4286,
+        "Name": "Cargo Hold #4286",
+        "Connections": {
+          "North": 4283
+        }
+      },
+      {
+        "Id": 4287,
+        "Name": "The Fore Deck #4287",
+        "Connections": {
+          "South": 4231
+        }
+      },
+      {
+        "Id": 4288,
+        "Name": "Hall #4288",
+        "Connections": {
+          "North": 4292,
+          "East": 4289,
+          "South": 4291,
+          "West": 4290,
+          "Up": 4231,
+          "Down": 4293
+        }
+      },
+      {
+        "Id": 4289,
+        "Name": "Small Hold #4289",
+        "Connections": {
+          "West": 4288
+        }
+      },
+      {
+        "Id": 4290,
+        "Name": "Small Hold #4290",
+        "Connections": {
+          "East": 4288
+        }
+      },
+      {
+        "Id": 4291,
+        "Name": "Officers Quarters #4291",
+        "Connections": {
+          "North": 4288
+        }
+      },
+      {
+        "Id": 4292,
+        "Name": "Captains Quarters #4292",
+        "Connections": {
+          "South": 4288
+        }
+      },
+      {
+        "Id": 4293,
+        "Name": "Cargo Hold #4293",
+        "Connections": {
+          "Up": 4288
+        }
+      },
+      {
+        "Id": 4294,
+        "Name": "The Fore Deck #4294",
+        "Connections": {
+          "South": 4239
+        }
+      },
+      {
+        "Id": 4295,
+        "Name": "Hall #4295",
+        "Connections": {
+          "North": 4299,
+          "East": 4298,
+          "South": 4296,
+          "West": 4297,
+          "Up": 4239,
+          "Down": 4300
+        }
+      },
+      {
+        "Id": 4296,
+        "Name": "Officers Quarters #4296",
+        "Connections": {
+          "North": 4295
+        }
+      },
+      {
+        "Id": 4297,
+        "Name": "Small Hold #4297",
+        "Connections": {
+          "East": 4295
+        }
+      },
+      {
+        "Id": 4298,
+        "Name": "Small Hold #4298",
+        "Connections": {
+          "West": 4295
+        }
+      },
+      {
+        "Id": 4299,
+        "Name": "Captains Quarters #4299",
+        "Connections": {
+          "South": 4295
+        }
+      },
+      {
+        "Id": 4300,
+        "Name": "Cargo Hold #4300",
+        "Connections": {
+          "Up": 4295
+        }
+      },
+      {
+        "Id": 4301,
+        "Name": "The Fore Deck #4301",
+        "Connections": {
+          "South": 4238
+        }
+      },
+      {
+        "Id": 4302,
+        "Name": "Hall #4302",
+        "Connections": {
+          "North": 4303,
+          "East": 4306,
+          "South": 4304,
+          "West": 4305,
+          "Up": 4238,
+          "Down": 4307
+        }
+      },
+      {
+        "Id": 4303,
+        "Name": "Captains Quarters #4303",
+        "Connections": {
+          "South": 4302
+        }
+      },
+      {
+        "Id": 4304,
+        "Name": "Officers Quarters #4304",
+        "Connections": {
+          "North": 4302
+        }
+      },
+      {
+        "Id": 4305,
+        "Name": "Small Hold #4305",
+        "Connections": {
+          "East": 4302
+        }
+      },
+      {
+        "Id": 4306,
+        "Name": "Small Hold #4306",
+        "Connections": {
+          "West": 4302
+        }
+      },
+      {
+        "Id": 4307,
+        "Name": "Cargo Hold #4307",
+        "Connections": {
+          "Up": 4302
+        }
+      },
+      {
+        "Id": 4308,
+        "Name": "Training Yard of the Knights Templar #4308",
+        "Connections": {
+          "East": 4402,
+          "South": 4149
+        },
+        "Contents": [
+          {
+            "Text": "A worn out practice dummy #4231",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4309,
+        "Name": "The Fore Deck #4309",
+        "Connections": {
+          "South": 4232
+        }
+      },
+      {
+        "Id": 4310,
+        "Name": "Aft Deck #4310",
+        "Connections": {
+          "North": 4232
+        }
+      },
+      {
+        "Id": 4311,
+        "Name": "Hall #4311",
+        "Connections": {
+          "North": 4315,
+          "East": 4313,
+          "South": 4312,
+          "West": 4314,
+          "Up": 4232
+        }
+      },
+      {
+        "Id": 4312,
+        "Name": "Hall to Officers Quarters #4312",
+        "Connections": {
+          "North": 4311,
+          "East": 4317,
+          "South": 4318,
+          "West": 4316
+        }
+      },
+      {
+        "Id": 4313,
+        "Name": "Cargo Hold #4313",
+        "Connections": {
+          "West": 4311
+        }
+      },
+      {
+        "Id": 4314,
+        "Name": "Cargo Hold #4314",
+        "Connections": {
+          "East": 4311
+        }
+      },
+      {
+        "Id": 4315,
+        "Name": "Crews Quarters #4315",
+        "Connections": {
+          "South": 4311
+        }
+      },
+      {
+        "Id": 4316,
+        "Name": "Officers Quarters #4316",
+        "Connections": {
+          "East": 4312
+        }
+      },
+      {
+        "Id": 4317,
+        "Name": "Officers Quarters #4317",
+        "Connections": {
+          "West": 4312
+        }
+      },
+      {
+        "Id": 4318,
+        "Name": "Captains Quarters #4318",
+        "Connections": {
+          "North": 4312
+        }
+      },
+      {
+        "Id": 4319,
+        "Name": "Aft Deck #4319",
+        "Connections": {
+          "North": 4236
+        }
+      },
+      {
+        "Id": 4320,
+        "Name": "The Fore Deck #4320",
+        "Connections": {
+          "South": 4236
+        }
+      },
+      {
+        "Id": 4321,
+        "Name": "Hall #4321",
+        "Connections": {
+          "North": 4325,
+          "East": 4324,
+          "South": 4322,
+          "West": 4323,
+          "Up": 4236
+        }
+      },
+      {
+        "Id": 4322,
+        "Name": "Hall to Officers Quarters #4322",
+        "Connections": {
+          "North": 4321,
+          "East": 4327,
+          "South": 4328,
+          "West": 4326
+        }
+      },
+      {
+        "Id": 4323,
+        "Name": "Cargo Hold #4323",
+        "Connections": {
+          "East": 4321
+        }
+      },
+      {
+        "Id": 4324,
+        "Name": "Cargo Hold #4324",
+        "Connections": {
+          "West": 4321
+        }
+      },
+      {
+        "Id": 4325,
+        "Name": "Crews Quarters #4325",
+        "Connections": {
+          "South": 4321
+        }
+      },
+      {
+        "Id": 4326,
+        "Name": "Officers Quarters #4326",
+        "Connections": {
+          "East": 4322
+        }
+      },
+      {
+        "Id": 4327,
+        "Name": "Officers Quarters #4327",
+        "Connections": {
+          "West": 4322
+        }
+      },
+      {
+        "Id": 4328,
+        "Name": "Captains Quarters #4328",
+        "Connections": {
+          "North": 4322
+        }
+      },
+      {
+        "Id": 4329,
+        "Name": "Dark Tunnel #4329",
+        "Connections": {
+          "East": 21132,
+          "West": 4203
+        }
+      },
+      {
+        "Id": 4330,
+        "Name": "The admittance booth #4330",
+        "Connections": {
+          "East": 4334,
+          "West": 4074
+        },
+        "Contents": [
+          {
+            "Text": "The ticketseller #4203",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4331,
+        "Name": "A canopy of fronds #4331",
+        "Connections": {
+          "East": 4333,
+          "South": 4332
+        },
+        "Contents": [
+          {
+            "Text": "a tiny hummingbird #4204",
+            "Color": "green"
+          },
+          {
+            "Text": "a grimy earthworm #4205",
+            "Color": "green"
+          },
+          {
+            "Text": "a snowcapped izida bird #4206",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4332,
+        "Name": "A canopy of fronds #4332",
+        "Connections": {
+          "North": 4331,
+          "East": 4335
+        },
+        "Contents": [
+          {
+            "Text": "a tiny hummingbird #4204",
+            "Color": "green"
+          },
+          {
+            "Text": "a grimy earthworm #4205",
+            "Color": "green"
+          },
+          {
+            "Text": "a snowcapped izida bird #4206",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4333,
+        "Name": "A canopy of fronds #4333",
+        "Connections": {
+          "East": 4336,
+          "South": 4335,
+          "West": 4331
+        },
+        "Contents": [
+          {
+            "Text": "a tiny hummingbird #4204",
+            "Color": "green"
+          },
+          {
+            "Text": "a grimy earthworm #4205",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4334,
+        "Name": "A tiled promenade #4334",
+        "Connections": {
+          "East": 4338
+        },
+        "Contents": [
+          {
+            "Text": "A zoo patron #4214",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4335,
+        "Name": "A canopy of fronds #4335",
+        "Connections": {
+          "North": 4333,
+          "East": 4339,
+          "West": 4332
+        },
+        "Contents": [
+          {
+            "Text": "a tiny hummingbird #4204",
+            "Color": "green"
+          },
+          {
+            "Text": "a grimy earthworm #4205",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4336,
+        "Name": "A tiled promenade #4336",
+        "Connections": {
+          "North": 4337,
+          "East": 4344,
+          "South": 4338,
+          "West": 4333
+        }
+      },
+      {
+        "Id": 4337,
+        "Name": "A humid trail around a murky pit #4337",
+        "Connections": {
+          "East": 4345,
+          "South": 4336,
+          "Down": 4346
+        },
+        "Contents": [
+          {
+            "Text": "An animal feeder #4207",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4338,
+        "Name": "Center of the exhibition #4338",
+        "Connections": {
+          "North": 4336,
+          "East": 4343,
+          "South": 4339
+        },
+        "Contents": [
+          {
+            "Text": "A zoo patron #4214",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4339,
+        "Name": "A tiled promenade #4339",
+        "Connections": {
+          "North": 4338,
+          "East": 4342,
+          "South": 4340,
+          "West": 4335
+        },
+        "Contents": [
+          {
+            "Text": "A zoo patron #4214",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4340,
+        "Name": "A poolside ledge #4340",
+        "Connections": {
+          "North": 4339,
+          "East": 4341,
+          "South": 4350
+        },
+        "Contents": [
+          {
+            "Text": "A watergull #4213",
+            "Color": "green"
+          },
+          {
+            "Text": "A young girl #4225",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4341,
+        "Name": "A poolside ledge #4341",
+        "Connections": {
+          "North": 4342,
+          "South": 4351,
+          "West": 4340
+        },
+        "Contents": [
+          {
+            "Text": "A watergull #4213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4342,
+        "Name": "A gravelly patch of soil #4342",
+        "Connections": {
+          "North": 4343,
+          "South": 4341,
+          "West": 4339
+        },
+        "Contents": [
+          {
+            "Text": "A mud salamander #4215",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4343,
+        "Name": "Standing before the colorful tents #4343",
+        "Connections": {
+          "North": 4344,
+          "East": 4349,
+          "South": 4342,
+          "West": 4338
+        }
+      },
+      {
+        "Id": 4344,
+        "Name": "Standing before the colorful tents #4344",
+        "Connections": {
+          "North": 4345,
+          "East": 4348,
+          "South": 4343,
+          "West": 4336
+        }
+      },
+      {
+        "Id": 4345,
+        "Name": "A humid trail around a murky pit #4345",
+        "Connections": {
+          "South": 4344,
+          "West": 4337,
+          "Down": 4347
+        },
+        "Contents": [
+          {
+            "Text": "An animal feeder #4207",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4346,
+        "Name": "In the pit #4346",
+        "Connections": {
+          "East": 4347,
+          "Up": 4337
+        },
+        "Contents": [
+          {
+            "Text": "an alligator #4208",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4347,
+        "Name": "In the pit #4347",
+        "Connections": {
+          "West": 4346,
+          "Up": 4345
+        },
+        "Contents": [
+          {
+            "Text": "an alligator #4208",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4348,
+        "Name": "The feeders bin #4348",
+        "Connections": {
+          "South": 4349,
+          "West": 4344
+        },
+        "Contents": [
+          {
+            "Text": "An animal feeder #4207",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4349,
+        "Name": "The breeders trough #4349",
+        "Connections": {
+          "North": 4348,
+          "West": 4343
+        },
+        "Contents": [
+          {
+            "Text": "a cute baby seal #4209",
+            "Color": "green"
+          },
+          {
+            "Text": "A breeder #4210",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4350,
+        "Name": "A crystalline pool #4350",
+        "Connections": {
+          "North": 4340,
+          "East": 4351
+        },
+        "Contents": [
+          {
+            "Text": "a redtailed Raiuk fish #4211",
+            "Color": "green"
+          },
+          {
+            "Text": "an albino ray #4212",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4351,
+        "Name": "A crystalline pool #4351",
+        "Connections": {
+          "North": 4341,
+          "West": 4350
+        },
+        "Contents": [
+          {
+            "Text": "an albino ray #4212",
+            "Color": "green"
+          },
+          {
+            "Text": "a redtailed Raiuk fish #4211",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4352,
+        "Name": "Inside the simian cage #4352",
+        "Connections": {
+          "Up": 4357
+        },
+        "Contents": [
+          {
+            "Text": "A wily chimpanzee #4216",
+            "Color": "green"
+          },
+          {
+            "Text": "A smiling baboon #4218",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4353,
+        "Name": "Inside the feline cage #4353",
+        "Connections": {
+          "West": 4356
+        },
+        "Contents": [
+          {
+            "Text": "A yellow cougar #4220",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4354,
+        "Name": "Inside the reptile cage #4354",
+        "Connections": {
+          "Down": 4355
+        },
+        "Contents": [
+          {
+            "Text": "a tree snake #4222",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4355,
+        "Name": "Inside the bog #4355",
+        "Connections": {
+          "East": 4358,
+          "Up": 4354
+        },
+        "Contents": [
+          {
+            "Text": "a bog snake #4223",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4356,
+        "Name": "Inside the feline cage #4356",
+        "Connections": {
+          "East": 4353
+        },
+        "Contents": [
+          {
+            "Text": "An Ividian tiger #4219",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4357,
+        "Name": "On a tree inside the simian cage #4357",
+        "Connections": {
+          "Down": 4352
+        },
+        "Contents": [
+          {
+            "Text": "A wily chimpanzee #4216",
+            "Color": "green"
+          },
+          {
+            "Text": "A large gorilla #4217",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4358,
+        "Name": "Inside the bog #4358",
+        "Connections": {
+          "West": 4355
+        },
+        "Contents": [
+          {
+            "Text": "a crocodile #4221",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4359,
+        "Name": "The Fore Deck #4359",
+        "Connections": {
+          "South": 4233
+        }
+      },
+      {
+        "Id": 4360,
+        "Name": "Aft Deck #4360",
+        "Connections": {
+          "North": 4233
+        }
+      },
+      {
+        "Id": 4361,
+        "Name": "Hall #4361",
+        "Connections": {
+          "North": 4367,
+          "East": 4366,
+          "South": 4362,
+          "West": 4368,
+          "Up": 4233
+        }
+      },
+      {
+        "Id": 4362,
+        "Name": "Hall to Officers Quarters #4362",
+        "Connections": {
+          "North": 4361,
+          "East": 4364,
+          "South": 4363,
+          "West": 4365
+        }
+      },
+      {
+        "Id": 4363,
+        "Name": "Captains Quarters #4363",
+        "Connections": {
+          "North": 4362
+        }
+      },
+      {
+        "Id": 4364,
+        "Name": "Officers Quarters #4364",
+        "Connections": {
+          "West": 4362
+        }
+      },
+      {
+        "Id": 4365,
+        "Name": "Officers Quarters #4365",
+        "Connections": {
+          "East": 4362
+        }
+      },
+      {
+        "Id": 4366,
+        "Name": "Cargo Hold #4366",
+        "Connections": {
+          "West": 4361
+        }
+      },
+      {
+        "Id": 4367,
+        "Name": "Crew Quarters #4367",
+        "Connections": {
+          "South": 4361
+        }
+      },
+      {
+        "Id": 4368,
+        "Name": "Cargo Hold #4368",
+        "Connections": {
+          "East": 4361
+        }
+      },
+      {
+        "Id": 4369,
+        "Name": "Aft Deck #4369",
+        "Connections": {
+          "North": 4234
+        }
+      },
+      {
+        "Id": 4370,
+        "Name": "The Fore Deck #4370",
+        "Connections": {
+          "South": 4234
+        }
+      },
+      {
+        "Id": 4371,
+        "Name": "Hall #4371",
+        "Connections": {
+          "North": 4372,
+          "East": 4373,
+          "South": 4375,
+          "West": 4374,
+          "Up": 4234
+        }
+      },
+      {
+        "Id": 4372,
+        "Name": "Crew Quarters #4372",
+        "Connections": {
+          "South": 4371
+        }
+      },
+      {
+        "Id": 4373,
+        "Name": "Cargo Hold #4373",
+        "Connections": {
+          "West": 4371
+        }
+      },
+      {
+        "Id": 4374,
+        "Name": "Cargo Hold #4374",
+        "Connections": {
+          "East": 4371
+        }
+      },
+      {
+        "Id": 4375,
+        "Name": "Hall to Officers Quarters #4375",
+        "Connections": {
+          "North": 4371,
+          "East": 4377,
+          "South": 4378,
+          "West": 4376
+        }
+      },
+      {
+        "Id": 4376,
+        "Name": "Officers Quarters #4376",
+        "Connections": {
+          "East": 4375
+        }
+      },
+      {
+        "Id": 4377,
+        "Name": "Officers Quarters #4377",
+        "Connections": {
+          "West": 4375
+        }
+      },
+      {
+        "Id": 4378,
+        "Name": "Captains Quarters #4378",
+        "Connections": {
+          "North": 4375
+        }
+      },
+      {
+        "Id": 4379,
+        "Name": "The Fore Deck #4379",
+        "Connections": {
+          "South": 4235
+        }
+      },
+      {
+        "Id": 4380,
+        "Name": "Aft Deck #4380",
+        "Connections": {
+          "North": 4235
+        }
+      },
+      {
+        "Id": 4381,
+        "Name": "Hall #4381",
+        "Connections": {
+          "North": 4384,
+          "East": 4385,
+          "South": 4382,
+          "West": 4383,
+          "Up": 4235
+        }
+      },
+      {
+        "Id": 4382,
+        "Name": "Hall to Officers Quarters #4382",
+        "Connections": {
+          "North": 4381,
+          "East": 4388,
+          "South": 4387,
+          "West": 4386
+        }
+      },
+      {
+        "Id": 4383,
+        "Name": "Cargo Hold #4383",
+        "Connections": {
+          "East": 4381
+        }
+      },
+      {
+        "Id": 4384,
+        "Name": "Crew Quarters #4384",
+        "Connections": {
+          "South": 4381
+        }
+      },
+      {
+        "Id": 4385,
+        "Name": "Cargo Hold #4385",
+        "Connections": {
+          "West": 4381
+        }
+      },
+      {
+        "Id": 4386,
+        "Name": "Officers Quarters #4386",
+        "Connections": {
+          "East": 4382
+        }
+      },
+      {
+        "Id": 4387,
+        "Name": "Captains Quarters #4387",
+        "Connections": {
+          "North": 4382
+        }
+      },
+      {
+        "Id": 4388,
+        "Name": "Officers Quarters #4388",
+        "Connections": {
+          "West": 4382
+        }
+      },
+      {
+        "Id": 4389,
+        "Name": "The Fore Deck #4389",
+        "Connections": {
+          "South": 4237
+        }
+      },
+      {
+        "Id": 4390,
+        "Name": "Aft Deck #4390",
+        "Connections": {
+          "North": 4237
+        }
+      },
+      {
+        "Id": 4391,
+        "Name": "Hall #4391",
+        "Connections": {
+          "North": 4396,
+          "East": 4398,
+          "South": 4392,
+          "West": 4397,
+          "Up": 4237
+        }
+      },
+      {
+        "Id": 4392,
+        "Name": "Hall to Officers Quarters #4392",
+        "Connections": {
+          "North": 4391,
+          "East": 4395,
+          "South": 4393,
+          "West": 4394
+        }
+      },
+      {
+        "Id": 4393,
+        "Name": "Captains Quarters #4393",
+        "Connections": {
+          "North": 4392
+        }
+      },
+      {
+        "Id": 4394,
+        "Name": "Officers Quarters #4394",
+        "Connections": {
+          "East": 4392
+        }
+      },
+      {
+        "Id": 4395,
+        "Name": "Officers Quarters #4395",
+        "Connections": {
+          "West": 4392
+        }
+      },
+      {
+        "Id": 4396,
+        "Name": "Crew Quarters #4396",
+        "Connections": {
+          "South": 4391
+        }
+      },
+      {
+        "Id": 4397,
+        "Name": "Cargo Hold #4397",
+        "Connections": {
+          "East": 4391
+        }
+      },
+      {
+        "Id": 4398,
+        "Name": "Cargo Hold #4398",
+        "Connections": {
+          "West": 4391
+        }
+      },
+      {
+        "Id": 4399,
+        "Name": "Upon the steel platform #4399",
+        "Connections": {}
+      },
+      {
+        "Id": 4400,
+        "Name": "In the underground cage #4400",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "a pit lizard #4224",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 4401,
+        "Name": "Murk Memorial Library #4401",
+        "Connections": {
+          "North": 4700,
+          "East": 4134
+        }
+      },
+      {
+        "Id": 4402,
+        "Name": "Office of the Knights Templar #4402",
+        "Connections": {
+          "West": 4308
+        },
+        "Contents": [
+          {
+            "Text": "Lord Godfrey #4230",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4403,
+        "Name": "Inside the Cathedral #4403",
+        "Connections": {
+          "East": 4406,
+          "West": 4149
+        },
+        "Contents": [
+          {
+            "Text": "A templar knight #4406",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4404,
+        "Name": "Before the Dais #4404",
+        "Connections": {
+          "East": 4200,
+          "West": 4405
+        }
+      },
+      {
+        "Id": 4405,
+        "Name": "Inside the Cathedral #4405",
+        "Connections": {
+          "East": 4406,
+          "West": 4149
+        },
+        "Contents": [
+          {
+            "Text": "A templar knight #4406",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4406,
+        "Name": "Before the Dais #4406",
+        "Connections": {
+          "East": 4200,
+          "West": 4405
+        }
+      },
+      {
+        "Id": 4407,
+        "Name": " #4407",
+        "Connections": {
+          "West": 4165
+        }
+      },
+      {
+        "Id": 4408,
+        "Name": "The Broom Closet of Alliant #4408",
+        "Connections": {
+          "North": 25071
+        },
+        "Contents": [
+          {
+            "Text": "Barney #4418",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4409,
+        "Name": "The Pit of Brotherhood #4409",
+        "Connections": {
+          "Up": 25060
+        },
+        "Contents": [
+          {
+            "Text": "Stimpy #4417",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4410,
+        "Name": "Rabbit Room #4410",
+        "Connections": {
+          "Down": 26393
+        },
+        "Contents": [
+          {
+            "Text": "George the rabbit #4700",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4411,
+        "Name": "owwwww A Shrine to the Mighty God NeShajh wwwwwo #4411",
+        "Connections": {
+          "Down": 25030
+        },
+        "Contents": [
+          {
+            "Text": "HinGrak the Ancient Sage #4411",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4412,
+        "Name": "Jhereg Baubles #4412",
+        "Connections": {
+          "Down": 25166
+        },
+        "Contents": [
+          {
+            "Text": "A sidhe thief #4414",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4413,
+        "Name": "The Able Ranger #4413",
+        "Connections": {
+          "Up": 4207
+        },
+        "Contents": [
+          {
+            "Text": "Dervin the ranger #4243",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4414,
+        "Name": "An ancient storeroom below the Northern Gates #4414",
+        "Connections": {
+          "Up": 26448
+        },
+        "Contents": [
+          {
+            "Text": "Mild the Ranger #4427",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4415,
+        "Name": "Twilights Clan EQ Depot #4415",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "Gobbler the Artificer #4416",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4416,
+        "Name": "@ Greenwood Clan Equipment Depot @ #4416",
+        "Connections": {
+          "East": 25485
+        },
+        "Contents": [
+          {
+            "Text": "Zachari the ancient Syvin #4412",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4417,
+        "Name": "Twilights Clan Equipment Store #4417",
+        "Connections": {
+          "Up": 25043
+        },
+        "Contents": [
+          {
+            "Text": "A Keeper of the Stars #4430",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4418,
+        "Name": "GOLEM ALTAR #4418",
+        "Connections": {
+          "South": 4470
+        }
+      },
+      {
+        "Id": 4419,
+        "Name": "The West Taien Portal #4419",
+        "Connections": {
+          "West": 4116
+        }
+      },
+      {
+        "Id": 4420,
+        "Name": "The East Taien Portal #4420",
+        "Connections": {
+          "West": 4075
+        }
+      },
+      {
+        "Id": 4421,
+        "Name": "Vlades Clan Store #4421",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "Krystal the keeper of supplies #4601",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4422,
+        "Name": "Clan Morningstars Hole #4422",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "Some guy named Schmo #4413",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4423,
+        "Name": "Clan Parlous Hole #4423",
+        "Connections": {
+          "West": 26085
+        },
+        "Contents": [
+          {
+            "Text": "Clive slave of Parlous #4415",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4424,
+        "Name": "Merchants treasure chamber #4424",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "A pirate man #4419",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4425,
+        "Name": "The Entrance Hall of the Crystal Castle #4425",
+        "Connections": {
+          "North": 4126,
+          "South": 4427,
+          "West": 4426
+        },
+        "Contents": [
+          {
+            "Text": "Meany the midget #4057",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4426,
+        "Name": "The Broom Closet of Magical Wonders #4426",
+        "Connections": {
+          "East": 4425
+        },
+        "Contents": [
+          {
+            "Text": "A pink elephant #4026",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4427,
+        "Name": "At the Bottom of the Golden Stairs #4427",
+        "Connections": {
+          "North": 4425,
+          "Up": 4472
+        }
+      },
+      {
+        "Id": 4428,
+        "Name": "A dusty back room above the town hall #4428",
+        "Connections": {
+          "North": 4177
+        }
+      },
+      {
+        "Id": 4429,
+        "Name": "Tools of Destruction #4429",
+        "Connections": {
+          "West": 25009
+        },
+        "Contents": [
+          {
+            "Text": "Skullmaster #4424",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4430,
+        "Name": "Advocation Clan Store #4430",
+        "Connections": {
+          "North": 26798
+        }
+      },
+      {
+        "Id": 4431,
+        "Name": "The Second Floor of the Pub #4431",
+        "Connections": {
+          "North": 4432,
+          "South": 4434
+        }
+      },
+      {
+        "Id": 4432,
+        "Name": "Walking a Beam Far Above an Alley #4432",
+        "Connections": {
+          "East": 4446,
+          "South": 4431,
+          "West": 4440
+        }
+      },
+      {
+        "Id": 4433,
+        "Name": "The Meat Locker #4433",
+        "Connections": {
+          "South": 4146
+        }
+      },
+      {
+        "Id": 4434,
+        "Name": "Walking a Rope High Above Cumberland Avenue #4434",
+        "Connections": {
+          "North": 4431,
+          "South": 4435
+        }
+      },
+      {
+        "Id": 4435,
+        "Name": "Sneaking Across the Rooftops of Thesden #4435",
+        "Connections": {
+          "North": 4434,
+          "East": {
+            "RoomId": 4461,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 4436
+        },
+        "Contents": [
+          {
+            "Text": "A grey and white pigeon #4183",
+            "Color": "green"
+          },
+          {
+            "Text": "A grey and white pigeon #4184",
+            "Color": "green"
+          },
+          {
+            "Text": "A grey and white pigeon #4185",
+            "Color": "green"
+          },
+          {
+            "Text": "A grey and white pigeon #4186",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4436,
+        "Name": "Above the Arena #4436",
+        "Connections": {
+          "North": 4435,
+          "West": 4437
+        }
+      },
+      {
+        "Id": 4437,
+        "Name": "Overlooking Devon Square #4437",
+        "Connections": {
+          "East": 4436
+        }
+      },
+      {
+        "Id": 4438,
+        "Name": "Balancing on a Ledge #4438",
+        "Connections": {
+          "West": 4439
+        },
+        "Contents": [
+          {
+            "Text": "A pipesmoking girl #4135",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4439,
+        "Name": "Under the Floor #4439",
+        "Connections": {
+          "East": 4438
+        }
+      },
+      {
+        "Id": 4440,
+        "Name": "On the Roof of the Bakery #4440",
+        "Connections": {
+          "North": 4441,
+          "East": 4432
+        }
+      },
+      {
+        "Id": 4441,
+        "Name": "On the Roof Across from the Apothecary #4441",
+        "Connections": {
+          "South": 4440
+        }
+      },
+      {
+        "Id": 4442,
+        "Name": "Inside the Sawboness Shack #4442",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "Dr. Giggles the sawbones #4136",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4443,
+        "Name": "Sneaking Along the Eastern Wall #4443",
+        "Connections": {
+          "North": 4444
+        }
+      },
+      {
+        "Id": 4444,
+        "Name": "Sneaking Along the Eastern Wall #4444",
+        "Connections": {
+          "South": 4443,
+          "West": 4445
+        },
+        "Contents": [
+          {
+            "Text": "Peewee #4129",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4445,
+        "Name": "Walking a Plank #4445",
+        "Connections": {
+          "East": 4444,
+          "West": 4446
+        }
+      },
+      {
+        "Id": 4446,
+        "Name": "By the Trapdoor Above the Candle Shop #4446",
+        "Connections": {
+          "North": 4455,
+          "East": 4445,
+          "West": 4432,
+          "Down": 4148
+        }
+      },
+      {
+        "Id": 4447,
+        "Name": "The Mouth of an Alley #4447",
+        "Connections": {
+          "East": 4000,
+          "West": 4449
+        }
+      },
+      {
+        "Id": 4448,
+        "Name": "The Back Room #4448",
+        "Connections": {
+          "South": 4179,
+          "West": 4175,
+          "Down": 4452
+        }
+      },
+      {
+        "Id": 4449,
+        "Name": "In a Shady Alley #4449",
+        "Connections": {
+          "North": 25401,
+          "East": 4447,
+          "West": 4099,
+          "Down": 4450
+        },
+        "Contents": [
+          {
+            "Text": "A bum #4141",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4450,
+        "Name": "Shop of Previously Owned Items #4450",
+        "Connections": {
+          "West": {
+            "RoomId": 4451,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a sharpened brass key #4340",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Up": 4449
+        },
+        "Contents": [
+          {
+            "Text": "Spink #4025",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4451,
+        "Name": "A Long Underground Passage #4451",
+        "Connections": {
+          "East": {
+            "RoomId": 4450,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a sharpened brass key #4340",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 4452
+        }
+      },
+      {
+        "Id": 4452,
+        "Name": "In Front of the Stairs #4452",
+        "Connections": {
+          "East": 4451
+        }
+      },
+      {
+        "Id": 4453,
+        "Name": "Back Room of the Merchants Guild #4453",
+        "Connections": {
+          "West": {
+            "RoomId": 4131,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel prison key #4256",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4454,
+        "Name": "ELEVATOR HOLDING ROOM #4454",
+        "Connections": {}
+      },
+      {
+        "Id": 4455,
+        "Name": "Crawling Along a Ledge #4455",
+        "Connections": {
+          "North": 4457,
+          "South": 4446
+        },
+        "Contents": [
+          {
+            "Text": "Thorasan #4429",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4456,
+        "Name": "Inside a Secret Chamber #4456",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "The traitorous courier #4117",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4457,
+        "Name": "Looking Down on Cathedral Square #4457",
+        "Connections": {
+          "South": 4455,
+          "West": 4458
+        }
+      },
+      {
+        "Id": 4458,
+        "Name": "Overlooking Pine Street #4458",
+        "Connections": {
+          "East": 4457
+        }
+      },
+      {
+        "Id": 4459,
+        "Name": "The Office of Pook #4459",
+        "Connections": {
+          "West": {
+            "RoomId": 4460,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Ransak #4119",
+            "Color": "green"
+          },
+          {
+            "Text": "Pook #4118",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4460,
+        "Name": "On the top of the Stairs #4460",
+        "Connections": {
+          "East": {
+            "RoomId": 4459,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 4462
+        }
+      },
+      {
+        "Id": 4461,
+        "Name": "The Noble Womans Bedroom #4461",
+        "Connections": {
+          "West": {
+            "RoomId": 4435,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A drunk noble woman #4137",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4462,
+        "Name": "Entrance to the Mansion of Pook #4462",
+        "Connections": {
+          "Up": 4460
+        }
+      },
+      {
+        "Id": 4463,
+        "Name": " #4463",
+        "Connections": {}
+      },
+      {
+        "Id": 4464,
+        "Name": "Underground passage #4464",
+        "Connections": {
+          "North": 5062,
+          "East": 4465,
+          "Up": 4213
+        }
+      },
+      {
+        "Id": 4465,
+        "Name": "Underground passage #4465",
+        "Connections": {
+          "East": 4466,
+          "West": 4464
+        }
+      },
+      {
+        "Id": 4466,
+        "Name": "Underground passage #4466",
+        "Connections": {
+          "East": 4467,
+          "West": 4465
+        },
+        "Contents": [
+          {
+            "Text": "A worn out practice dummy #4231",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4467,
+        "Name": "Unholy Altar #4467",
+        "Connections": {
+          "East": 4203,
+          "West": 4466
+        },
+        "Contents": [
+          {
+            "Text": "Azaran #4238",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4468,
+        "Name": "On a Cloud #4468",
+        "Connections": {
+          "Down": 4056
+        }
+      },
+      {
+        "Id": 4469,
+        "Name": "INSIDE THE BUNNYS BELLY #4469",
+        "Connections": {}
+      },
+      {
+        "Id": 4470,
+        "Name": "The Tinkerers Shop #4470",
+        "Connections": {
+          "South": 4046
+        },
+        "Contents": [
+          {
+            "Text": "Tim the Tinkerer #4240",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4471,
+        "Name": "Thesdens Newbie Map Basement #4471",
+        "Connections": {
+          "Up": 4134
+        }
+      },
+      {
+        "Id": 4472,
+        "Name": "Climbing the Golden Stairs #4472",
+        "Connections": {
+          "Down": 4427
+        },
+        "Contents": [
+          {
+            "Text": "A purple camel #4027",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4473,
+        "Name": "A muddy beach #4473",
+        "Connections": {
+          "East": 4002,
+          "West": 4011
+        }
+      },
+      {
+        "Id": 4474,
+        "Name": "Hero Mount Emporium #4474",
+        "Connections": {}
+      },
+      {
+        "Id": 4475,
+        "Name": " #4475",
+        "Connections": {
+          "West": {
+            "RoomId": 4092,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the hero emporium #1720",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4500,
+        "Name": "The Reaver Pen #4500",
+        "Connections": {
+          "South": {
+            "RoomId": 4254,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 4675,
+        "Name": " #4675",
+        "Connections": {}
+      },
+      {
+        "Id": 4700,
+        "Name": "Books on Races #4700",
+        "Connections": {
+          "South": 4401
+        }
+      },
+      {
+        "Id": 4000,
+        "Name": "The North Gate #4000",
+        "Connections": {
+          "North": 13257,
+          "South": 4001,
+          "West": 4447
+        },
+        "Contents": [
+          {
+            "Text": "an old woman #4062",
+            "Color": "green"
+          },
+          {
+            "Text": "a stray dog #4058",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4125",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4001,
+        "Name": "Old Cobble Road #4001",
+        "Connections": {
+          "North": 4000,
+          "South": 4002
+        },
+        "Contents": [
+          {
+            "Text": "a young boy #4059",
+            "Color": "green"
+          },
+          {
+            "Text": "an elder thief #4091",
+            "Color": "green"
+          },
+          {
+            "Text": "A veteran guard #4130",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4002,
+        "Name": "Old Cobble Road #4002",
+        "Connections": {
+          "North": 4001,
+          "South": 4003,
+          "West": 4473
+        },
+        "Contents": [
+          {
+            "Text": "a mage #4093",
+            "Color": "green"
+          },
+          {
+            "Text": "the alley cat #4034",
+            "Color": "green"
+          },
+          {
+            "Text": "a girl #4060",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4003,
+        "Name": "Old Cobble Road #4003",
+        "Connections": {
+          "North": 4002,
+          "East": 642,
+          "South": 4004
+        }
+      },
+      {
+        "Id": 4004,
+        "Name": "North Gallows Square #4004",
+        "Connections": {
+          "North": 4003,
+          "East": 4005,
+          "South": 4007,
+          "West": 4008,
+          "Down": 5086
+        },
+        "Contents": [
+          {
+            "Text": "a knight #4092",
+            "Color": "green"
+          },
+          {
+            "Text": "A medium warhorse #4120",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4005,
+        "Name": "North Gallows Square #4005",
+        "Connections": {
+          "North": 665,
+          "East": 4043,
+          "South": 4006,
+          "West": 4004
+        },
+        "Contents": [
+          {
+            "Text": "a young boy #4059",
+            "Color": "green"
+          },
+          {
+            "Text": "a foreign merchant #4083",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          },
+          {
+            "Text": "a beggar #4064",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4006,
+        "Name": "South Gallows Square #4006",
+        "Connections": {
+          "North": 4005,
+          "South": 4026,
+          "West": 4007
+        },
+        "Contents": [
+          {
+            "Text": "a farmer #4072",
+            "Color": "green"
+          },
+          {
+            "Text": "a thief #4080",
+            "Color": "green"
+          },
+          {
+            "Text": "an old nobleman #4063",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4007,
+        "Name": "South Gallows Square #4007",
+        "Connections": {
+          "North": 4004,
+          "East": 4006,
+          "South": 4023
+        },
+        "Contents": [
+          {
+            "Text": "the executioner #4094",
+            "Color": "green"
+          },
+          {
+            "Text": "a spectator #4071",
+            "Color": "green"
+          },
+          {
+            "Text": "the condemned man #4081",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4008,
+        "Name": "The Bridge #4008",
+        "Connections": {
+          "East": 4004,
+          "West": 4094,
+          "Down": 4009
+        },
+        "Contents": [
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          },
+          {
+            "Text": "a poor merchant #4067",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4009,
+        "Name": "Under the Bridge #4009",
+        "Connections": {
+          "North": 4010,
+          "South": 4027,
+          "Up": 4008,
+          "Down": 4022
+        }
+      },
+      {
+        "Id": 4010,
+        "Name": "The River #4010",
+        "Connections": {
+          "North": 4011,
+          "South": 4009,
+          "Down": 4021
+        }
+      },
+      {
+        "Id": 4011,
+        "Name": "The River #4011",
+        "Connections": {
+          "North": 4012,
+          "East": 4473,
+          "South": 4010,
+          "Down": 4020
+        }
+      },
+      {
+        "Id": 4012,
+        "Name": "The River #4012",
+        "Connections": {
+          "South": 4011,
+          "West": 4013,
+          "Down": 4019
+        }
+      },
+      {
+        "Id": 4013,
+        "Name": "The River #4013",
+        "Connections": {
+          "North": 4014,
+          "East": 4012,
+          "Down": 4018
+        }
+      },
+      {
+        "Id": 4014,
+        "Name": "The River #4014",
+        "Connections": {
+          "South": 4013,
+          "West": 4015,
+          "Down": 4017
+        }
+      },
+      {
+        "Id": 4015,
+        "Name": "The River #4015",
+        "Connections": {
+          "East": 4014,
+          "West": 4100,
+          "Down": 4016
+        }
+      },
+      {
+        "Id": 4016,
+        "Name": "In the River #4016",
+        "Connections": {
+          "East": 4017,
+          "West": 4101,
+          "Up": 4015
+        }
+      },
+      {
+        "Id": 4017,
+        "Name": "In the River #4017",
+        "Connections": {
+          "East": {
+            "RoomId": 25184,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Palladors room #25063",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 4018,
+          "West": 4016,
+          "Up": 4014
+        }
+      },
+      {
+        "Id": 4018,
+        "Name": "In the River #4018",
+        "Connections": {
+          "North": 4017,
+          "East": 4019,
+          "Up": 4013
+        }
+      },
+      {
+        "Id": 4019,
+        "Name": "In the River #4019",
+        "Connections": {
+          "South": 4020,
+          "West": 4018,
+          "Up": 4012
+        }
+      },
+      {
+        "Id": 4020,
+        "Name": "In the River #4020",
+        "Connections": {
+          "North": 4019,
+          "South": 4021,
+          "Up": 4011
+        }
+      },
+      {
+        "Id": 4021,
+        "Name": "In the River #4021",
+        "Connections": {
+          "North": 4020,
+          "South": 4022,
+          "Up": 4010
+        }
+      },
+      {
+        "Id": 4022,
+        "Name": "In the River #4022",
+        "Connections": {
+          "North": 4021,
+          "East": 5086,
+          "South": 4042,
+          "Up": 4009
+        }
+      },
+      {
+        "Id": 4023,
+        "Name": "Guard Room #4023",
+        "Connections": {
+          "North": 4007,
+          "East": 4026,
+          "South": {
+            "RoomId": 4025,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "DEFAULT JAIL KEY DONT TOUCH #4634",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 4024,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "DEFAULT JAIL KEY DONT TOUCH #4634",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 4248
+        },
+        "Contents": [
+          {
+            "Text": "The warden #4086",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4024,
+        "Name": "Small Cell #4024",
+        "Connections": {
+          "East": {
+            "RoomId": 4023,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel prison key #4256",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4025,
+        "Name": "Large Cell #4025",
+        "Connections": {
+          "North": {
+            "RoomId": 4023,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a steel prison key #4256",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4026,
+        "Name": "Guard Headquarters #4026",
+        "Connections": {
+          "North": 4006,
+          "West": 4023
+        }
+      },
+      {
+        "Id": 4027,
+        "Name": "The River #4027",
+        "Connections": {
+          "North": 4009,
+          "South": 4028,
+          "Down": 4042
+        }
+      },
+      {
+        "Id": 4028,
+        "Name": "The River #4028",
+        "Connections": {
+          "North": 4027,
+          "South": 4029,
+          "Down": 4041
+        }
+      },
+      {
+        "Id": 4029,
+        "Name": "The River #4029",
+        "Connections": {
+          "North": 4028,
+          "South": 4030,
+          "Down": 4040
+        }
+      },
+      {
+        "Id": 4030,
+        "Name": "The River #4030",
+        "Connections": {
+          "North": 4029,
+          "East": 4031,
+          "Down": 4039
+        }
+      },
+      {
+        "Id": 4031,
+        "Name": "The River #4031",
+        "Connections": {
+          "South": 4032,
+          "West": 4030,
+          "Down": 4038
+        }
+      },
+      {
+        "Id": 4032,
+        "Name": "The River #4032",
+        "Connections": {
+          "North": 4031,
+          "South": 4033,
+          "Down": 4037
+        }
+      },
+      {
+        "Id": 4033,
+        "Name": "The River #4033",
+        "Connections": {
+          "North": 4032,
+          "South": 32219,
+          "Down": 4036
+        }
+      },
+      {
+        "Id": 4034,
+        "Name": "Swans Feather Music #4034",
+        "Connections": {
+          "East": 4049
+        },
+        "Contents": [
+          {
+            "Text": "Evyln Swan #4180",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4035,
+        "Name": "Old Stoneoven Bakery #4035",
+        "Connections": {
+          "South": 4051
+        },
+        "Contents": [
+          {
+            "Text": "the baker #4022",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4036,
+        "Name": "In the River #4036",
+        "Connections": {
+          "North": 4037,
+          "Up": 4033
+        }
+      },
+      {
+        "Id": 4037,
+        "Name": "In the River #4037",
+        "Connections": {
+          "North": 4038,
+          "South": 4036,
+          "Up": 4032
+        }
+      },
+      {
+        "Id": 4038,
+        "Name": "In the River #4038",
+        "Connections": {
+          "South": 4037,
+          "West": 4039,
+          "Up": 4031
+        }
+      },
+      {
+        "Id": 4039,
+        "Name": "In the River #4039",
+        "Connections": {
+          "North": 4040,
+          "East": 4038,
+          "Up": 4030
+        }
+      },
+      {
+        "Id": 4040,
+        "Name": "In the River #4040",
+        "Connections": {
+          "North": 4041,
+          "South": 4039,
+          "Up": 4029
+        },
+        "Contents": [
+          {
+            "Text": "A tiny minnow #4115",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4041,
+        "Name": "In the River #4041",
+        "Connections": {
+          "North": 4042,
+          "South": 4040,
+          "Up": 4028,
+          "Down": 4216
+        }
+      },
+      {
+        "Id": 4042,
+        "Name": "In the River #4042",
+        "Connections": {
+          "North": 4022,
+          "South": 4041,
+          "Up": 4027
+        }
+      },
+      {
+        "Id": 4043,
+        "Name": "Cumberland Avenue #4043",
+        "Connections": {
+          "North": 4044,
+          "East": 4046,
+          "South": 4126,
+          "West": 4005
+        },
+        "Contents": [
+          {
+            "Text": "A wealthy merchant #4079",
+            "Color": "green"
+          },
+          {
+            "Text": "a bodyguard #4084",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4044,
+        "Name": "Exotic Pets #4044",
+        "Connections": {
+          "South": 4043
+        }
+      },
+      {
+        "Id": 4045,
+        "Name": "Pet Storage #4045",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "a grey hamster #4006",
+            "Color": "green"
+          },
+          {
+            "Text": "a fluffy white cat #4002",
+            "Color": "green"
+          },
+          {
+            "Text": "a copperhead snake #4003",
+            "Color": "green"
+          },
+          {
+            "Text": "a loyal guard dog #4004",
+            "Color": "green"
+          },
+          {
+            "Text": "a blackwinged falcon #4005",
+            "Color": "green"
+          },
+          {
+            "Text": "a black panther cub #4599",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4046,
+        "Name": "Cumberland Avenue #4046",
+        "Connections": {
+          "North": 4470,
+          "East": 4047,
+          "South": 4127,
+          "West": 4043
+        },
+        "Contents": [
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          },
+          {
+            "Text": "a noble woman #4077",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4047,
+        "Name": "Cumberland Avenue #4047",
+        "Connections": {
+          "North": 25008,
+          "East": 4048,
+          "South": 25092,
+          "West": 4046
+        },
+        "Contents": [
+          {
+            "Text": "a poor merchant #4067",
+            "Color": "green"
+          },
+          {
+            "Text": "a girl #4060",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4048,
+        "Name": "West Devon Square #4048",
+        "Connections": {
+          "North": 4049,
+          "East": 4056,
+          "South": 4055,
+          "West": 4047
+        },
+        "Contents": [
+          {
+            "Text": "a young noble #4075",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4049,
+        "Name": "Northwest Devon Square #4049",
+        "Connections": {
+          "North": 4128,
+          "East": 4050,
+          "South": 4048,
+          "West": 4034
+        },
+        "Contents": [
+          {
+            "Text": "a noble man #4078",
+            "Color": "green"
+          },
+          {
+            "Text": "a dwarven bodyguard #4089",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4050,
+        "Name": "North Devon Square #4050",
+        "Connections": {
+          "North": 4057,
+          "East": 4051,
+          "South": 4056,
+          "West": 4049
+        },
+        "Contents": [
+          {
+            "Text": "a knight #4092",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4051,
+        "Name": "Northeast Devon Square #4051",
+        "Connections": {
+          "North": 4035,
+          "East": 4129,
+          "South": 4052,
+          "West": 4050
+        },
+        "Contents": [
+          {
+            "Text": "Birger the Bounty Hunter #4428",
+            "Color": "green"
+          },
+          {
+            "Text": "a noble woman #4077",
+            "Color": "green"
+          },
+          {
+            "Text": "a poor merchant #4067",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4052,
+        "Name": "East Devon Square #4052",
+        "Connections": {
+          "North": 4051,
+          "East": 4076,
+          "South": 4053,
+          "West": 4056
+        },
+        "Contents": [
+          {
+            "Text": "a foreign merchant #4083",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4053,
+        "Name": "Southeast Devon Square #4053",
+        "Connections": {
+          "North": 4052,
+          "East": 4130,
+          "South": 4131,
+          "West": 4054
+        },
+        "Contents": [
+          {
+            "Text": "the alley cat #4034",
+            "Color": "green"
+          },
+          {
+            "Text": "a noble man #4078",
+            "Color": "green"
+          },
+          {
+            "Text": "a dwarven bodyguard #4089",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4054,
+        "Name": "South Devon Square #4054",
+        "Connections": {
+          "North": 4056,
+          "East": 4053,
+          "South": 4093,
+          "West": 4055
+        },
+        "Contents": [
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          },
+          {
+            "Text": "a poor merchant #4067",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4055,
+        "Name": "Southwest Devon Square #4055",
+        "Connections": {
+          "North": 4048,
+          "East": 4054,
+          "South": 4134,
+          "West": 4133
+        },
+        "Contents": [
+          {
+            "Text": "a bodyguard #4084",
+            "Color": "green"
+          },
+          {
+            "Text": "a farmer #4072",
+            "Color": "green"
+          },
+          {
+            "Text": "A wealthy merchant #4079",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4056,
+        "Name": "Devon Square Center #4056",
+        "Connections": {
+          "North": 4050,
+          "East": 4052,
+          "South": 4054,
+          "West": 4048,
+          "Down": 5049
+        },
+        "Contents": [
+          {
+            "Text": "A wealthy merchant #4079",
+            "Color": "green"
+          },
+          {
+            "Text": "a bodyguard #4084",
+            "Color": "green"
+          },
+          {
+            "Text": "a priest #4088",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4057,
+        "Name": "Seahan Way #4057",
+        "Connections": {
+          "North": 4058,
+          "East": 26912,
+          "South": 4050
+        },
+        "Contents": [
+          {
+            "Text": "a young bard #4074",
+            "Color": "green"
+          },
+          {
+            "Text": "a mage #4093",
+            "Color": "green"
+          },
+          {
+            "Text": "a poor merchant #4067",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4058,
+        "Name": "Seahan Way #4058",
+        "Connections": {
+          "North": 4059,
+          "South": 4057,
+          "West": 4135
+        },
+        "Contents": [
+          {
+            "Text": "an apprentice smith #4076",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          },
+          {
+            "Text": "a beggar #4064",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4059,
+        "Name": "Raven Square #4059",
+        "Connections": {
+          "North": 4136,
+          "East": 4060,
+          "South": 4058,
+          "West": 4137,
+          "Down": 5058
+        },
+        "Contents": [
+          {
+            "Text": "a mage #4093",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4060,
+        "Name": "Pine Street #4060",
+        "Connections": {
+          "East": 4061,
+          "West": 4059
+        },
+        "Contents": [
+          {
+            "Text": "a young apprentice #4065",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4061,
+        "Name": "Pine Street #4061",
+        "Connections": {
+          "North": 4153,
+          "East": 4062,
+          "South": 4152,
+          "West": 4060
+        },
+        "Contents": [
+          {
+            "Text": "a priest #4088",
+            "Color": "green"
+          },
+          {
+            "Text": "an adolescent boy #4069",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4062,
+        "Name": "Pine Street #4062",
+        "Connections": {
+          "North": 4212,
+          "East": 4063,
+          "South": 4151,
+          "West": 4061
+        },
+        "Contents": [
+          {
+            "Text": "a young noble #4075",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          },
+          {
+            "Text": "a young apprentice #4065",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4063,
+        "Name": "Pine Street #4063",
+        "Connections": {
+          "East": 4064,
+          "South": 4213,
+          "West": 4062
+        }
+      },
+      {
+        "Id": 4064,
+        "Name": "Pine Street #4064",
+        "Connections": {
+          "North": 4150,
+          "East": 4065,
+          "South": 27212,
+          "West": 4063
+        },
+        "Contents": [
+          {
+            "Text": "a priest #4088",
+            "Color": "green"
+          },
+          {
+            "Text": "an apprentice smith #4076",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4065,
+        "Name": "Cathedral Square #4065",
+        "Connections": {
+          "East": 4149,
+          "South": 4066,
+          "West": 4064,
+          "Down": 5064
+        },
+        "Contents": [
+          {
+            "Text": "a priest #4088",
+            "Color": "green"
+          },
+          {
+            "Text": "an old nobleman #4063",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4066,
+        "Name": "Welford Road #4066",
+        "Connections": {
+          "North": 4065,
+          "East": 4215,
+          "South": 4067
+        }
+      },
+      {
+        "Id": 4067,
+        "Name": "Welford Road #4067",
+        "Connections": {
+          "North": 4066,
+          "South": 4068,
+          "West": 4148
+        },
+        "Contents": [
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          },
+          {
+            "Text": "a squire #4082",
+            "Color": "green"
+          },
+          {
+            "Text": "a priest #4088",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4068,
+        "Name": "Welford Road #4068",
+        "Connections": {
+          "North": 4067,
+          "South": 4069
+        },
+        "Contents": [
+          {
+            "Text": "an apprentice smith #4076",
+            "Color": "green"
+          },
+          {
+            "Text": "a young farmer #4066",
+            "Color": "green"
+          },
+          {
+            "Text": "a young apprentice #4065",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4069,
+        "Name": "North Farmers Square #4069",
+        "Connections": {
+          "North": 4068,
+          "East": 4146,
+          "South": 4070,
+          "West": 4073,
+          "Down": 5043
+        },
+        "Contents": [
+          {
+            "Text": "a farmer #4072",
+            "Color": "green"
+          },
+          {
+            "Text": "an adolescent boy #4069",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4070,
+        "Name": "South Farmers Square #4070",
+        "Connections": {
+          "North": 4069,
+          "East": 4071,
+          "South": 4075,
+          "West": 4072
+        },
+        "Contents": [
+          {
+            "Text": "a young farmer #4066",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4071,
+        "Name": "East Gate #4071",
+        "Connections": {
+          "East": 21232,
+          "West": 4070
+        },
+        "Contents": [
+          {
+            "Text": "a guard #4125",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4125",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4072,
+        "Name": "South Farmers Square #4072",
+        "Connections": {
+          "North": 4073,
+          "East": 4070,
+          "South": 4183,
+          "West": 4144
+        }
+      },
+      {
+        "Id": 4073,
+        "Name": "North Farmers Square #4073",
+        "Connections": {
+          "North": 4145,
+          "East": 4069,
+          "South": 4072,
+          "West": 4078
+        },
+        "Contents": [
+          {
+            "Text": "an old woman #4062",
+            "Color": "green"
+          },
+          {
+            "Text": "a poor merchant #4067",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4074,
+        "Name": "Welford Road #4074",
+        "Connections": {
+          "North": 4075,
+          "East": 4330,
+          "South": 4079,
+          "West": 4156
+        },
+        "Contents": [
+          {
+            "Text": "a young farmer #4066",
+            "Color": "green"
+          },
+          {
+            "Text": "an apprentice smith #4076",
+            "Color": "green"
+          },
+          {
+            "Text": "a knight #4092",
+            "Color": "green"
+          },
+          {
+            "Text": "A medium warhorse #4120",
+            "Color": "green"
+          },
+          {
+            "Text": "an adolescent boy #4069",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4075,
+        "Name": "Welford Road #4075",
+        "Connections": {
+          "North": 4070,
+          "East": 4420,
+          "South": 4074
+        },
+        "Contents": [
+          {
+            "Text": "a squire #4082",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4076,
+        "Name": "East Cumberland Avenue #4076",
+        "Connections": {
+          "North": 25203,
+          "East": 4077,
+          "West": 4052
+        },
+        "Contents": [
+          {
+            "Text": "a bodyguard #4084",
+            "Color": "green"
+          },
+          {
+            "Text": "A wealthy merchant #4079",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4077,
+        "Name": "East Cumberland Avenue #4077",
+        "Connections": {
+          "East": 4078,
+          "South": 4142,
+          "West": 4076
+        },
+        "Contents": [
+          {
+            "Text": "a young farmer #4066",
+            "Color": "green"
+          },
+          {
+            "Text": "an old woman #4062",
+            "Color": "green"
+          },
+          {
+            "Text": "a thief #4080",
+            "Color": "green"
+          },
+          {
+            "Text": "a squire #4082",
+            "Color": "green"
+          },
+          {
+            "Text": "a farmer #4072",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4078,
+        "Name": "East Cumberland Avenue #4078",
+        "Connections": {
+          "North": 4143,
+          "East": 4073,
+          "West": 4077
+        }
+      },
+      {
+        "Id": 4079,
+        "Name": "Welford Road #4079",
+        "Connections": {
+          "North": 4074,
+          "South": 4080,
+          "West": 4157
+        },
+        "Contents": [
+          {
+            "Text": "a noble man #4078",
+            "Color": "green"
+          },
+          {
+            "Text": "a dwarven bodyguard #4089",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          },
+          {
+            "Text": "a farmer #4072",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4080,
+        "Name": "Grisedale Square #4080",
+        "Connections": {
+          "North": 4079,
+          "East": 4154,
+          "South": 4155,
+          "West": 4081,
+          "Down": 5038
+        },
+        "Contents": [
+          {
+            "Text": "a young noble #4075",
+            "Color": "green"
+          },
+          {
+            "Text": "a squire #4082",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4081,
+        "Name": "Langhan Street #4081",
+        "Connections": {
+          "North": 4158,
+          "East": 4080,
+          "West": 4082
+        },
+        "Contents": [
+          {
+            "Text": "a knight #4092",
+            "Color": "green"
+          },
+          {
+            "Text": "A medium warhorse #4120",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4082,
+        "Name": "Langhan Street #4082",
+        "Connections": {
+          "East": 4081,
+          "West": 4083
+        },
+        "Contents": [
+          {
+            "Text": "a noble woman #4077",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          },
+          {
+            "Text": "a squire #4082",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4083,
+        "Name": "Langhan Street #4083",
+        "Connections": {
+          "North": 25015,
+          "East": 4082,
+          "South": 25025,
+          "West": 4084
+        },
+        "Contents": [
+          {
+            "Text": "a young noble #4075",
+            "Color": "green"
+          },
+          {
+            "Text": "an elder thief #4091",
+            "Color": "green"
+          },
+          {
+            "Text": "a young bard #4074",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4084,
+        "Name": "Langhan Street #4084",
+        "Connections": {
+          "North": 4160,
+          "East": 4083,
+          "South": 25017,
+          "West": 4085
+        },
+        "Contents": [
+          {
+            "Text": "a bodyguard #4084",
+            "Color": "green"
+          },
+          {
+            "Text": "A wealthy merchant #4079",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4085,
+        "Name": "Langhan Street #4085",
+        "Connections": {
+          "East": 4084,
+          "South": 4159,
+          "West": 4086
+        },
+        "Contents": [
+          {
+            "Text": "a noble woman #4077",
+            "Color": "green"
+          },
+          {
+            "Text": "A young girl #4201",
+            "Color": "green"
+          },
+          {
+            "Text": "A vicar #4181",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4086,
+        "Name": "North Dorset Square #4086",
+        "Connections": {
+          "North": 4091,
+          "East": 4085,
+          "South": 4089,
+          "West": 4087,
+          "Down": 5028
+        },
+        "Contents": [
+          {
+            "Text": "A wealthy merchant #4079",
+            "Color": "green"
+          },
+          {
+            "Text": "a bodyguard #4084",
+            "Color": "green"
+          },
+          {
+            "Text": "a young bard #4074",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4087,
+        "Name": "North Dorset Square #4087",
+        "Connections": {
+          "East": 4086,
+          "South": 4088,
+          "West": 4162
+        },
+        "Contents": [
+          {
+            "Text": "a noble woman #4077",
+            "Color": "green"
+          },
+          {
+            "Text": "Lord Istian #4122",
+            "Color": "green"
+          },
+          {
+            "Text": "A veteran guard #4130",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4088,
+        "Name": "South Dorset Square #4088",
+        "Connections": {
+          "North": 4087,
+          "East": 4089
+        }
+      },
+      {
+        "Id": 4089,
+        "Name": "South Dorset Square #4089",
+        "Connections": {
+          "North": 4086,
+          "South": 4090,
+          "West": 4088
+        },
+        "Contents": [
+          {
+            "Text": "a young noble #4075",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4090,
+        "Name": "Castle Gates #4090",
+        "Connections": {
+          "North": 4089,
+          "South": 100
+        },
+        "Contents": [
+          {
+            "Text": "a guard #4125",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4125",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4091,
+        "Name": "Seahan Way #4091",
+        "Connections": {
+          "North": 4092,
+          "South": 4086
+        },
+        "Contents": [
+          {
+            "Text": "a girl #4060",
+            "Color": "green"
+          },
+          {
+            "Text": "a young noble #4075",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4092,
+        "Name": "Seahan Way #4092",
+        "Connections": {
+          "North": 4093,
+          "East": {
+            "RoomId": 4475,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the hero emporium #1720",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 4091,
+          "West": 4161
+        },
+        "Contents": [
+          {
+            "Text": "a noble man #4078",
+            "Color": "green"
+          },
+          {
+            "Text": "a dwarven bodyguard #4089",
+            "Color": "green"
+          },
+          {
+            "Text": "a guard #4090",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4093,
+        "Name": "Seahan Way #4093",
+        "Connections": {
+          "North": 4054,
+          "East": 4217,
+          "South": 4092,
+          "West": 26924
+        },
+        "Contents": [
+          {
+            "Text": "a young apprentice #4065",
+            "Color": "green"
+          },
+          {
+            "Text": "A young girl #4201",
+            "Color": "green"
+          },
+          {
+            "Text": "a noble woman #4077",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4094,
+        "Name": "West Cumberland Avenue #4094",
+        "Connections": {
+          "East": 4008,
+          "West": 4095
+        },
+        "Contents": [
+          {
+            "Text": "A wealthy merchant #4079",
+            "Color": "green"
+          },
+          {
+            "Text": "a bodyguard #4084",
+            "Color": "green"
+          },
+          {
+            "Text": "a beggar #4064",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4095,
+        "Name": "West Cumberland Avenue #4095",
+        "Connections": {
+          "East": 4094,
+          "West": 4096
+        },
+        "Contents": [
+          {
+            "Text": "a young boy #4059",
+            "Color": "green"
+          },
+          {
+            "Text": "a girl #4060",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 26294,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26294",
+        "Color": "blue",
+        "Connections": {
+          "East": {
+            "RoomId": 26328,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Irkallias room #25554",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 4097,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Irkallias room #25704",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 26177,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26177",
+        "Color": "blue",
+        "Connections": {
+          "East": 4100,
+          "Down": 26182
+        }
+      },
+      {
+        "Id": 25143,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25143",
+        "Color": "blue",
+        "Connections": {
+          "North": 25166,
+          "East": 25167,
+          "West": 25192,
+          "Up": {
+            "RoomId": 4110,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Paarshads room #25621",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 25399
+        }
+      },
+      {
+        "Id": 25069,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25069",
+        "Color": "blue",
+        "Connections": {
+          "East": 4112,
+          "South": 32211,
+          "West": 25063
+        }
+      },
+      {
+        "Id": 13104,
+        "FrameColor": "blue",
+        "Name": "To The Forest Fierense #13104",
+        "Color": "blue",
+        "Connections": {
+          "North": 4205,
+          "East": 4117,
+          "South": 13114,
+          "West": 13103
+        }
+      },
+      {
+        "Id": 25201,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25201",
+        "Color": "blue",
+        "Connections": {
+          "North": 25021,
+          "South": 4121
+        }
+      },
+      {
+        "Id": 2984,
+        "FrameColor": "blue",
+        "Name": "To Guttersnipes Fort #2984",
+        "Color": "blue",
+        "Connections": {
+          "North": 4144
+        }
+      },
+      {
+        "Id": 32215,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32215",
+        "Color": "blue",
+        "Connections": {
+          "East": 4147,
+          "South": 32315,
+          "West": 4163
+        }
+      },
+      {
+        "Id": 1505,
+        "FrameColor": "blue",
+        "Name": "To Giant Oak Tree #1505",
+        "Color": "blue",
+        "Connections": {
+          "East": 4162,
+          "West": 1506
+        }
+      },
+      {
+        "Id": 32213,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32213",
+        "Color": "blue",
+        "Connections": {
+          "East": 4163,
+          "South": 32313,
+          "West": 4245
+        }
+      },
+      {
+        "Id": 6170,
+        "FrameColor": "blue",
+        "Name": "To Lunar Plains #6170",
+        "Color": "blue",
+        "Connections": {
+          "Up": 4166
+        }
+      },
+      {
+        "Id": 1500,
+        "FrameColor": "blue",
+        "Name": "To Giant Oak Tree #1500",
+        "Color": "blue",
+        "Connections": {
+          "East": 1501,
+          "West": 4173
+        }
+      },
+      {
+        "Id": 23000,
+        "FrameColor": "blue",
+        "Name": "To Arena of Legends #23000",
+        "Color": "blue",
+        "Connections": {
+          "West": 4217,
+          "Up": 23025
+        }
+      },
+      {
+        "Id": 32219,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32219",
+        "Color": "blue",
+        "Connections": {
+          "North": 4033,
+          "East": 32220,
+          "South": 32319,
+          "West": 4219
+        }
+      },
+      {
+        "Id": 32319,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32319",
+        "Color": "blue",
+        "Connections": {
+          "North": 32219,
+          "East": 32320,
+          "South": 32419,
+          "West": 4220
+        }
+      },
+      {
+        "Id": 32315,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32315",
+        "Color": "blue",
+        "Connections": {
+          "North": 32215,
+          "East": 4221,
+          "South": 32415,
+          "West": 4222
+        }
+      },
+      {
+        "Id": 32313,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32313",
+        "Color": "blue",
+        "Connections": {
+          "North": 32213,
+          "East": 4222,
+          "South": 32413,
+          "West": 4246
+        }
+      },
+      {
+        "Id": 32415,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32415",
+        "Color": "blue",
+        "Connections": {
+          "North": 32315,
+          "East": 4224,
+          "South": 32515,
+          "West": 4223
+        }
+      },
+      {
+        "Id": 32514,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32514",
+        "Color": "blue",
+        "Connections": {
+          "North": 4223,
+          "East": 32515,
+          "South": 32614,
+          "West": 32513
+        }
+      },
+      {
+        "Id": 32413,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32413",
+        "Color": "blue",
+        "Connections": {
+          "North": 32313,
+          "East": 4223,
+          "South": 32513,
+          "West": 4247
+        }
+      },
+      {
+        "Id": 32417,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32417",
+        "Color": "blue",
+        "Connections": {
+          "North": 4226,
+          "East": 4225,
+          "South": 32517,
+          "West": 4224
+        }
+      },
+      {
+        "Id": 32419,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32419",
+        "Color": "blue",
+        "Connections": {
+          "North": 32319,
+          "East": 32420,
+          "South": 32519,
+          "West": 4225
+        }
+      },
+      {
+        "Id": 32518,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32518",
+        "Color": "blue",
+        "Connections": {
+          "North": 4225,
+          "East": 32519,
+          "South": 32618,
+          "West": 32517
+        }
+      },
+      {
+        "Id": 32211,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32211",
+        "Color": "blue",
+        "Connections": {
+          "North": 25069,
+          "East": 4245,
+          "South": 32311
+        }
+      },
+      {
+        "Id": 32311,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32311",
+        "Color": "blue",
+        "Connections": {
+          "North": 32211,
+          "East": 4246,
+          "South": 32411,
+          "West": 32310
+        }
+      },
+      {
+        "Id": 32512,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32512",
+        "Color": "blue",
+        "Connections": {
+          "North": 4247,
+          "East": 32513,
+          "South": 32612,
+          "West": 32511
+        }
+      },
+      {
+        "Id": 32411,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32411",
+        "Color": "blue",
+        "Connections": {
+          "North": 32311,
+          "East": 4247,
+          "South": 32511,
+          "West": 32410
+        }
+      },
+      {
+        "Id": 21132,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21132",
+        "Color": "blue",
+        "Connections": {
+          "North": 21053,
+          "East": 21133,
+          "South": 21152
+        }
+      },
+      {
+        "Id": 25071,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25071",
+        "Color": "blue",
+        "Connections": {
+          "North": 25005,
+          "East": 26523,
+          "South": 4408,
+          "West": 25052,
+          "Down": 26594
+        }
+      },
+      {
+        "Id": 25060,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25060",
+        "Color": "blue",
+        "Connections": {
+          "North": 26212,
+          "East": 25554,
+          "South": 25016,
+          "Up": 25074,
+          "Down": 4409
+        }
+      },
+      {
+        "Id": 26393,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26393",
+        "Color": "blue",
+        "Connections": {
+          "East": 26391,
+          "Up": 4410
+        }
+      },
+      {
+        "Id": 25030,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25030",
+        "Color": "blue",
+        "Connections": {
+          "North": {
+            "RoomId": 25363,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Morghiels room #25122",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 25018,
+          "Up": 4411
+        }
+      },
+      {
+        "Id": 25166,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25166",
+        "Color": "blue",
+        "Connections": {
+          "North": 25956,
+          "East": 25369,
+          "South": 25143,
+          "Up": 4412,
+          "Down": 25400
+        }
+      },
+      {
+        "Id": 26448,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26448",
+        "Color": "blue",
+        "Connections": {
+          "West": 26447,
+          "Down": 4414
+        }
+      },
+      {
+        "Id": 25485,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25485",
+        "Color": "blue",
+        "Connections": {
+          "East": 25084,
+          "West": 4416
+        }
+      },
+      {
+        "Id": 25043,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25043",
+        "Color": "blue",
+        "Connections": {
+          "Up": 25025,
+          "Down": 4417
+        }
+      },
+      {
+        "Id": 26085,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26085",
+        "Color": "blue",
+        "Connections": {
+          "East": 4423,
+          "Up": 25021
+        }
+      },
+      {
+        "Id": 25009,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25009",
+        "Color": "blue",
+        "Connections": {
+          "North": 25939,
+          "East": 4429,
+          "South": 26229,
+          "West": {
+            "RoomId": 26234,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Tripps room #25707",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Up": 25008,
+          "Down": {
+            "RoomId": 26907,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Tripps room #25714",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 26798,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26798",
+        "Color": "blue",
+        "Connections": {
+          "South": 4430,
+          "West": 26797
+        }
+      },
+      {
+        "Id": 25401,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25401",
+        "Color": "blue",
+        "Connections": {
+          "North": 25525,
+          "South": 4449,
+          "Down": 26377
+        }
+      },
+      {
+        "Id": 5062,
+        "FrameColor": "blue",
+        "Name": "To Thesdens Eastern Sewers #5062",
+        "Color": "blue",
+        "Connections": {
+          "North": {
+            "RoomId": 26617,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Azraels room #25700",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 5063,
+          "South": 4464,
+          "West": 5061,
+          "Down": 26851
+        }
+      },
+      {
+        "Id": 13257,
+        "FrameColor": "blue",
+        "Name": "To The Forest Fierense #13257",
+        "Color": "blue",
+        "Connections": {
+          "North": 13249,
+          "East": 13258,
+          "South": 4000,
+          "West": 13256
+        }
+      },
+      {
+        "Id": 642,
+        "FrameColor": "blue",
+        "Name": "To Crimson Courts #642",
+        "Color": "blue",
+        "Connections": {
+          "East": 617,
+          "West": 4003
+        }
+      },
+      {
+        "Id": 5086,
+        "FrameColor": "blue",
+        "Name": "To Thesdens Eastern Sewers #5086",
+        "Color": "blue",
+        "Connections": {
+          "East": 5085,
+          "West": 4022,
+          "Up": 4004
+        }
+      },
+      {
+        "Id": 665,
+        "FrameColor": "blue",
+        "Name": "To Crimson Courts #665",
+        "Color": "blue",
+        "Connections": {
+          "North": 643,
+          "South": 4005
+        }
+      },
+      {
+        "Id": 25184,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25184",
+        "Color": "blue",
+        "Connections": {
+          "West": {
+            "RoomId": 4017,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Palladors room #25063",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 25008,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25008",
+        "Color": "blue",
+        "Connections": {
+          "South": 4047,
+          "Up": 26233,
+          "Down": 25009
+        }
+      },
+      {
+        "Id": 25092,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25092",
+        "Color": "blue",
+        "Connections": {
+          "North": 4047,
+          "South": 26876
+        }
+      },
+      {
+        "Id": 5049,
+        "FrameColor": "blue",
+        "Name": "To Thesdens Eastern Sewers #5049",
+        "Color": "blue",
+        "Connections": {
+          "North": 5055,
+          "East": 5048,
+          "South": 5050,
+          "West": 5081,
+          "Up": 4056
+        }
+      },
+      {
+        "Id": 26912,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26912",
+        "Color": "blue",
+        "Connections": {
+          "North": 26922,
+          "East": 26914,
+          "West": 4057,
+          "Up": {
+            "RoomId": 26913,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Camilles room #25718",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 5058,
+        "FrameColor": "blue",
+        "Name": "To Thesdens Eastern Sewers #5058",
+        "Color": "blue",
+        "Connections": {
+          "East": 5059,
+          "South": 5057,
+          "Up": 4059
+        }
+      },
+      {
+        "Id": 27212,
+        "FrameColor": "blue",
+        "Name": "To Playing Field #27212",
+        "Color": "blue",
+        "Connections": {
+          "North": 4064
+        }
+      },
+      {
+        "Id": 5064,
+        "FrameColor": "blue",
+        "Name": "To Thesdens Eastern Sewers #5064",
+        "Color": "blue",
+        "Connections": {
+          "North": 5089,
+          "East": 5068,
+          "South": 5065,
+          "West": 5063,
+          "Up": 4065
+        }
+      },
+      {
+        "Id": 5043,
+        "FrameColor": "blue",
+        "Name": "To Thesdens Eastern Sewers #5043",
+        "Color": "blue",
+        "Connections": {
+          "North": 5067,
+          "East": 5090,
+          "South": 5042,
+          "West": 5044,
+          "Up": 4069
+        }
+      },
+      {
+        "Id": 21232,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21232",
+        "Color": "blue",
+        "Connections": {
+          "North": 21212,
+          "East": 21233,
+          "South": 21252,
+          "West": 4071,
+          "Down": 26338
+        }
+      },
+      {
+        "Id": 25203,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25203",
+        "Color": "blue",
+        "Connections": {
+          "North": 25466,
+          "East": {
+            "RoomId": 25877,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Steeltoes room #25297",
+                "Color": "cornflowerblue"
+              },
+              {
+                "Text": "key to Steeltoes room #25297",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 4076,
+          "Down": 25622
+        }
+      },
+      {
+        "Id": 5038,
+        "FrameColor": "blue",
+        "Name": "To Thesdens Eastern Sewers #5038",
+        "Color": "blue",
+        "Connections": {
+          "North": 5039,
+          "West": 5037,
+          "Up": 4080
+        }
+      },
+      {
+        "Id": 25015,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25015",
+        "Color": "blue",
+        "Connections": {
+          "North": 25004,
+          "South": 4083
+        }
+      },
+      {
+        "Id": 25025,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25025",
+        "Color": "blue",
+        "Connections": {
+          "North": 4083,
+          "East": 25047,
+          "South": 25049,
+          "West": 25112,
+          "Up": 25026,
+          "Down": 25043
+        }
+      },
+      {
+        "Id": 25017,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #25017",
+        "Color": "blue",
+        "Connections": {
+          "North": 4084,
+          "East": 25005,
+          "South": 25052,
+          "West": 25105,
+          "Up": 25023,
+          "Down": 25107
+        }
+      },
+      {
+        "Id": 5028,
+        "FrameColor": "blue",
+        "Name": "To Thesdens Eastern Sewers #5028",
+        "Color": "blue",
+        "Connections": {
+          "North": 5053,
+          "East": 5033,
+          "South": 5029,
+          "West": 5027,
+          "Up": 4086
+        }
+      },
+      {
+        "Id": 100,
+        "FrameColor": "blue",
+        "Name": "To Castle Dunluce #100",
+        "Color": "blue",
+        "Connections": {
+          "North": 4090,
+          "East": 327,
+          "South": {
+            "RoomId": 101,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the castle gate key #107",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 324
+        }
+      },
+      {
+        "Id": 26924,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26924",
+        "Color": "blue",
+        "Connections": {
+          "East": 4093
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1092 @@
+{
+  "Area": {
+    "Name": "Cove",
+    "MinimumLevel": "1",
+    "MaximumLevel": "50",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 700,
+        "Name": "A forested inlet #700",
+        "Connections": {
+          "East": 701
+        },
+        "Contents": [
+          {
+            "Text": "A silverback fish #701",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 701,
+        "Name": "A calm inlet #701",
+        "Connections": {
+          "North": 702,
+          "West": 700
+        }
+      },
+      {
+        "Id": 702,
+        "Name": "A calm inlet #702",
+        "Connections": {
+          "East": 704,
+          "South": 701
+        },
+        "Contents": [
+          {
+            "Text": "A rainbow trout #700",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 703,
+        "Name": "Inside a prismatic sphere #703",
+        "Connections": {
+          "North": {
+            "RoomId": 760,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key of the spectrum #770",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A beam of violet light #733",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 704,
+        "Name": "A calm inlet #704",
+        "Connections": {
+          "South": 705,
+          "West": 702
+        }
+      },
+      {
+        "Id": 705,
+        "Name": "A calm inlet #705",
+        "Connections": {
+          "North": 704,
+          "South": 706
+        }
+      },
+      {
+        "Id": 706,
+        "Name": "The topaz docks of Cove #706",
+        "Connections": {
+          "North": 705,
+          "East": 707
+        }
+      },
+      {
+        "Id": 707,
+        "Name": "Tranquility #707",
+        "Connections": {
+          "North": 723,
+          "East": 708,
+          "West": 706
+        },
+        "Contents": [
+          {
+            "Text": "A robed villager #703",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 708,
+        "Name": "Tranquility #708",
+        "Connections": {
+          "North": 715,
+          "East": 709,
+          "South": 742,
+          "West": 707
+        },
+        "Contents": [
+          {
+            "Text": "A meditative man #710",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 709,
+        "Name": "Tranquility #709",
+        "Connections": {
+          "North": 729,
+          "East": 710,
+          "South": 717,
+          "West": 708
+        },
+        "Contents": [
+          {
+            "Text": "A robed villager #703",
+            "Color": "green"
+          },
+          {
+            "Text": "A three striped tern #735",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 710,
+        "Name": "Tranquility #710",
+        "Connections": {
+          "North": {
+            "RoomId": 716,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a crystal spinaret #730",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 711,
+          "South": 719,
+          "West": 709
+        },
+        "Contents": [
+          {
+            "Text": "A meditative man #710",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 711,
+        "Name": "Tranquility #711",
+        "Connections": {
+          "East": 712,
+          "South": 718,
+          "West": 710
+        }
+      },
+      {
+        "Id": 712,
+        "Name": "The end of Tranquility #712",
+        "Connections": {
+          "North": 713,
+          "South": 753,
+          "West": 711
+        }
+      },
+      {
+        "Id": 713,
+        "Name": "A slim garden path #713",
+        "Connections": {
+          "North": 714,
+          "South": 712
+        }
+      },
+      {
+        "Id": 714,
+        "Name": "The Prophecy #714",
+        "Connections": {
+          "South": 713
+        },
+        "Contents": [
+          {
+            "Text": "The seeress #705",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 715,
+        "Name": "A terraced home #715",
+        "Connections": {
+          "South": 708
+        }
+      },
+      {
+        "Id": 716,
+        "Name": "Crystals #716",
+        "Connections": {
+          "South": {
+            "RoomId": 710,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a crystal spinaret #730",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Patric #716",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 717,
+        "Name": "A small hut #717",
+        "Connections": {
+          "North": 709,
+          "East": 719
+        }
+      },
+      {
+        "Id": 718,
+        "Name": "A small hut #718",
+        "Connections": {
+          "North": 711,
+          "West": 719
+        },
+        "Contents": [
+          {
+            "Text": "A sick child #707",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 719,
+        "Name": "Humility #719",
+        "Connections": {
+          "North": 710,
+          "East": 718,
+          "South": 720,
+          "West": 717
+        },
+        "Contents": [
+          {
+            "Text": "A meditative man #710",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 720,
+        "Name": "Humility #720",
+        "Connections": {
+          "North": 719,
+          "East": {
+            "RoomId": 721,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a petrified root sword #729",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 722
+        }
+      },
+      {
+        "Id": 721,
+        "Name": "Shadras Alchemy #721",
+        "Connections": {
+          "West": {
+            "RoomId": 720,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a petrified root sword #729",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Shadra #715",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 722,
+        "Name": "A leaf roof home #722",
+        "Connections": {
+          "North": 720
+        },
+        "Contents": [
+          {
+            "Text": "A penitent man #713",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 723,
+        "Name": "The Pithy Shipwright #723",
+        "Connections": {
+          "South": 707
+        },
+        "Contents": [
+          {
+            "Text": "Argent #721",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 724,
+        "Name": "A battered and rocky gully #724",
+        "Connections": {}
+      },
+      {
+        "Id": 725,
+        "Name": "In a prismatic sphere #725",
+        "Connections": {
+          "East": {
+            "RoomId": 758,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key of the spectrum #766",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 749,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key of the spectrum #765",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A beam of orange light #728",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 726,
+        "Name": "Deceit #726",
+        "Connections": {
+          "South": {
+            "RoomId": 728,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A glittering blue dragon #722",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 727,
+        "Name": "Honesty #727",
+        "Connections": {
+          "North": {
+            "RoomId": 726,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": {
+            "RoomId": 766,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 728,
+          "West": {
+            "RoomId": 765,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 728,
+        "Name": "Honesty #728",
+        "Connections": {
+          "North": 727,
+          "South": 729
+        },
+        "Contents": [
+          {
+            "Text": "The Seeker #712",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 729,
+        "Name": "Honesty #729",
+        "Connections": {
+          "North": 728,
+          "South": 709
+        }
+      },
+      {
+        "Id": 730,
+        "Name": "The forest #730",
+        "Connections": {
+          "North": 731,
+          "East": 732,
+          "West": 755
+        },
+        "Contents": [
+          {
+            "Text": "A quiet soul #740",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 731,
+        "Name": "A forest ravine #731",
+        "Connections": {
+          "North": 735,
+          "South": 730
+        },
+        "Contents": [
+          {
+            "Text": "An antlered deer #726",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 732,
+        "Name": "A forest ravine #732",
+        "Connections": {
+          "North": 733,
+          "West": 730
+        },
+        "Contents": [
+          {
+            "Text": "A fawn #724",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 733,
+        "Name": "A forest ravine #733",
+        "Connections": {
+          "North": 734,
+          "East": 778,
+          "South": 732
+        },
+        "Contents": [
+          {
+            "Text": "A spotted jin bird #736",
+            "Color": "green"
+          },
+          {
+            "Text": "A quiet soul #740",
+            "Color": "green"
+          },
+          {
+            "Text": "A doe #725",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 734,
+        "Name": "A forest ravine #734",
+        "Connections": {
+          "South": 733,
+          "West": 735
+        },
+        "Contents": [
+          {
+            "Text": "A fawn #724",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 735,
+        "Name": "A forest ravine #735",
+        "Connections": {
+          "North": 736,
+          "East": 734,
+          "South": 731
+        },
+        "Contents": [
+          {
+            "Text": "A doe #725",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 736,
+        "Name": "A forest ravine #736",
+        "Connections": {
+          "East": 737,
+          "South": 735
+        },
+        "Contents": [
+          {
+            "Text": "A spotted jin bird #736",
+            "Color": "green"
+          },
+          {
+            "Text": "An antlered deer #726",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 737,
+        "Name": "At the foot of a mountain trail #737",
+        "Connections": {
+          "West": 736,
+          "Up": 738
+        }
+      },
+      {
+        "Id": 738,
+        "Name": "A mountain trail #738",
+        "Connections": {
+          "East": 739,
+          "Down": 737
+        }
+      },
+      {
+        "Id": 739,
+        "Name": "A mountain trail #739",
+        "Connections": {
+          "West": 738,
+          "Up": 740
+        }
+      },
+      {
+        "Id": 740,
+        "Name": "A mountain trail #740",
+        "Connections": {
+          "North": 741,
+          "Down": 739
+        }
+      },
+      {
+        "Id": 741,
+        "Name": "A quiet mountain lake #741",
+        "Connections": {
+          "South": 740
+        },
+        "Contents": [
+          {
+            "Text": "A Lady of the Wild #718",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 742,
+        "Name": "Spirituality #742",
+        "Connections": {
+          "North": 708,
+          "South": 743
+        }
+      },
+      {
+        "Id": 743,
+        "Name": "Spirituality #743",
+        "Connections": {
+          "North": 742,
+          "South": 744,
+          "West": 745
+        }
+      },
+      {
+        "Id": 744,
+        "Name": "The Chapel #744",
+        "Connections": {
+          "North": 743,
+          "Up": 748
+        }
+      },
+      {
+        "Id": 745,
+        "Name": "An inlaid path #745",
+        "Connections": {
+          "East": 743,
+          "West": 746
+        }
+      },
+      {
+        "Id": 746,
+        "Name": "An inlaid path #746",
+        "Connections": {
+          "East": 745,
+          "South": 747
+        }
+      },
+      {
+        "Id": 747,
+        "Name": "The chapel well #747",
+        "Connections": {
+          "North": 746
+        }
+      },
+      {
+        "Id": 748,
+        "Name": "Resting chambers #748",
+        "Connections": {
+          "Down": 744
+        }
+      },
+      {
+        "Id": 749,
+        "Name": "In a prismatic sphere #749",
+        "Connections": {
+          "North": 725
+        },
+        "Contents": [
+          {
+            "Text": "A beam of red light #727",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 750,
+        "Name": "In a forest tree #750",
+        "Connections": {}
+      },
+      {
+        "Id": 751,
+        "Name": "A dimly lit room #751",
+        "Connections": {
+          "East": 754
+        },
+        "Contents": [
+          {
+            "Text": "Atsu #719",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 752,
+        "Name": "Inside a quiet mountain lake #752",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "A chill fish #739",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 753,
+        "Name": "Harmony #753",
+        "Connections": {
+          "North": 712,
+          "South": 754
+        },
+        "Contents": [
+          {
+            "Text": "A three striped tern #735",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 754,
+        "Name": "Harmony #754",
+        "Connections": {
+          "North": 753,
+          "East": 755,
+          "West": 751
+        }
+      },
+      {
+        "Id": 755,
+        "Name": "Harmony #755",
+        "Connections": {
+          "East": 730,
+          "West": 754
+        }
+      },
+      {
+        "Id": 756,
+        "Name": "Inside a prismatic sphere #756",
+        "Connections": {
+          "East": {
+            "RoomId": 757,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key of the spectrum #768",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 760,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key of the spectrum #769",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A beam of green light #731",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 757,
+        "Name": "Inside a prismatic sphere #757",
+        "Connections": {
+          "South": {
+            "RoomId": 758,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key of the spectrum #767",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 756,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key of the spectrum #768",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A beam of blue light #730",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 758,
+        "Name": "Inside a prismatic sphere #758",
+        "Connections": {
+          "North": {
+            "RoomId": 757,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key of the spectrum #767",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 725,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key of the spectrum #766",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A beam of yellow light #729",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 759,
+        "Name": "In the chapel rafters #759",
+        "Connections": {}
+      },
+      {
+        "Id": 760,
+        "Name": "Inside a prismatic sphere #760",
+        "Connections": {
+          "East": {
+            "RoomId": 756,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key of the spectrum #769",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": {
+            "RoomId": 703,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key of the spectrum #770",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A beam of indigo light #732",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 761,
+        "Name": "The Chapel #761",
+        "Connections": {
+          "North": 743,
+          "Up": 748
+        }
+      },
+      {
+        "Id": 762,
+        "Name": "In the chapel rafters #762",
+        "Connections": {}
+      },
+      {
+        "Id": 763,
+        "Name": "The chapel steeple #763",
+        "Connections": {}
+      },
+      {
+        "Id": 764,
+        "Name": "Up in an aspen #764",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "Wild novena bird #714",
+            "Color": "red"
+          },
+          {
+            "Text": "A mockingbird #717",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 765,
+        "Name": "Trickery #765",
+        "Connections": {
+          "East": {
+            "RoomId": 728,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A glittering bronze dragon #723",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 766,
+        "Name": "Truth #766",
+        "Connections": {
+          "West": 727
+        },
+        "Contents": [
+          {
+            "Text": "A Wise One #720",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 767,
+        "Name": "Paradiso #767",
+        "Connections": {
+          "North": 768,
+          "East": 770,
+          "South": 771,
+          "West": 769
+        },
+        "Contents": [
+          {
+            "Text": "The fruitseller #734",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 768,
+        "Name": "Elysia #768",
+        "Connections": {
+          "East": 775,
+          "South": 767,
+          "West": 774
+        }
+      },
+      {
+        "Id": 769,
+        "Name": "Elysia #769",
+        "Connections": {
+          "North": 774,
+          "East": 767,
+          "South": 776
+        }
+      },
+      {
+        "Id": 770,
+        "Name": "Elysia #770",
+        "Connections": {
+          "North": 775,
+          "South": 772,
+          "West": 767
+        }
+      },
+      {
+        "Id": 771,
+        "Name": "Elysia #771",
+        "Connections": {
+          "North": 767,
+          "East": 772,
+          "West": 776
+        }
+      },
+      {
+        "Id": 772,
+        "Name": "Elysia #772",
+        "Connections": {
+          "North": 770,
+          "West": 771
+        }
+      },
+      {
+        "Id": 773,
+        "Name": "A Hermits Shed #773",
+        "Connections": {
+          "South": 777
+        },
+        "Contents": [
+          {
+            "Text": "The Hermit of Cove #738",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 774,
+        "Name": "Elysia #774",
+        "Connections": {
+          "East": 768,
+          "South": 769
+        }
+      },
+      {
+        "Id": 775,
+        "Name": "Elysia #775",
+        "Connections": {
+          "South": 770,
+          "West": 768
+        }
+      },
+      {
+        "Id": 776,
+        "Name": "Elysia #776",
+        "Connections": {
+          "North": 769,
+          "East": 771
+        }
+      },
+      {
+        "Id": 777,
+        "Name": "Up in a tree #777",
+        "Connections": {
+          "North": 773
+        },
+        "Contents": [
+          {
+            "Text": "A tinseled mothbird #737",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 778,
+        "Name": "A Commencement #778",
+        "Connections": {
+          "East": 779,
+          "West": 733
+        }
+      },
+      {
+        "Id": 779,
+        "Name": "Path of Enlightenment #779",
+        "Connections": {
+          "North": 780,
+          "West": 778
+        }
+      },
+      {
+        "Id": 780,
+        "Name": "Path of Enlightenment #780",
+        "Connections": {
+          "South": 779
+        }
+      }
+    ]
+  }
+}

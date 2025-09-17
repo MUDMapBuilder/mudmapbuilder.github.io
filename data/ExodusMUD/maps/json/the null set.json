@@ -1,0 +1,139 @@
+{
+  "Area": {
+    "Name": "the null set",
+    "MinimumLevel": "100",
+    "MaximumLevel": "100",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 1,
+        "Name": "The Void #1",
+        "Connections": {}
+      },
+      {
+        "Id": 2,
+        "Name": "Limbo #2",
+        "Connections": {}
+      },
+      {
+        "Id": 3,
+        "Name": "Stable Limbo #3",
+        "Connections": {}
+      },
+      {
+        "Id": 4,
+        "Name": "Elevator Limbo #4",
+        "Connections": {}
+      },
+      {
+        "Id": 5,
+        "Name": "Death Vision Limbo #5",
+        "Connections": {}
+      },
+      {
+        "Id": 6,
+        "Name": "Room of Reincarnation #6",
+        "Connections": {}
+      },
+      {
+        "Id": 7,
+        "Name": "IVERATHS DO NOT TOUCH #7",
+        "Connections": {}
+      },
+      {
+        "Id": 8,
+        "Name": "Switched Players Holding Area #8",
+        "Connections": {}
+      },
+      {
+        "Id": 9,
+        "Name": "Hero Mount Holding Pen #9",
+        "Connections": {
+          "Up": 10
+        },
+        "Contents": [
+          {
+            "Text": "Grothtuk the Warlords giant winged Hardragn #29",
+            "Color": "green"
+          },
+          {
+            "Text": "Sydonai the Blood Demons Nightmare steed #33",
+            "Color": "green"
+          },
+          {
+            "Text": "Zeromus the Unholy Shepherds bloodstarved Manticore #34",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10,
+        "Name": "Duiwels Gnome Prison #10",
+        "Connections": {
+          "Down": 9
+        }
+      },
+      {
+        "Id": 11,
+        "Name": "Duiwels Cardboard Box #11",
+        "Connections": {}
+      },
+      {
+        "Id": 13,
+        "Name": "Tower of Thorn #13",
+        "Connections": {
+          "Up": 26827
+        }
+      },
+      {
+        "Id": 22,
+        "Name": "A distant memory #22",
+        "Connections": {
+          "East": 23
+        }
+      },
+      {
+        "Id": 23,
+        "Name": "Resurrection #23",
+        "Connections": {
+          "East": 24,
+          "West": 22
+        }
+      },
+      {
+        "Id": 24,
+        "Name": "Remembrance #24",
+        "Connections": {
+          "East": 25,
+          "West": 23
+        }
+      },
+      {
+        "Id": 25,
+        "Name": "Cailets Room #25",
+        "Connections": {
+          "West": 24
+        }
+      },
+      {
+        "Id": 26,
+        "Name": "end game #26",
+        "Connections": {}
+      },
+      {
+        "Id": 84,
+        "Name": "The Platform #84",
+        "Connections": {}
+      },
+      {
+        "Id": 26827,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26827",
+        "Color": "blue",
+        "Connections": {
+          "Down": 13
+        }
+      }
+    ]
+  }
+}

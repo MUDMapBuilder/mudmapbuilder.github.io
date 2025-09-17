@@ -1,0 +1,633 @@
+{
+  "Area": {
+    "Name": "Unicorn Point",
+    "MinimumLevel": "35",
+    "MaximumLevel": "50",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 10352,
+        "Name": "The Gateway #10352",
+        "Connections": {
+          "North": 10355,
+          "East": 10353
+        }
+      },
+      {
+        "Id": 10353,
+        "Name": "The Struggle #10353",
+        "Connections": {
+          "North": 10356,
+          "East": 10360,
+          "West": 10352
+        }
+      },
+      {
+        "Id": 10354,
+        "Name": "The Struggle #10354",
+        "Connections": {}
+      },
+      {
+        "Id": 10355,
+        "Name": "A Dirt Road #10355",
+        "Connections": {
+          "North": 10378,
+          "East": 10356,
+          "South": 10352
+        }
+      },
+      {
+        "Id": 10356,
+        "Name": "The Forest #10356",
+        "Connections": {
+          "South": 10353,
+          "West": 10355
+        },
+        "Contents": [
+          {
+            "Text": "An adventurer #10359",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10357,
+        "Name": "The Forest #10357",
+        "Connections": {
+          "North": 10359,
+          "West": 10358
+        }
+      },
+      {
+        "Id": 10358,
+        "Name": "The Forest #10358",
+        "Connections": {
+          "East": 10357,
+          "South": 10363
+        }
+      },
+      {
+        "Id": 10359,
+        "Name": "The Forest #10359",
+        "Connections": {
+          "South": 10357
+        }
+      },
+      {
+        "Id": 10360,
+        "Name": "The Forest #10360",
+        "Connections": {
+          "East": 10361,
+          "South": 10395,
+          "West": 10353,
+          "Up": 10373
+        }
+      },
+      {
+        "Id": 10361,
+        "Name": "The Forest #10361",
+        "Connections": {
+          "North": 10363,
+          "South": 10362,
+          "West": 10360
+        }
+      },
+      {
+        "Id": 10362,
+        "Name": "The Forest #10362",
+        "Connections": {
+          "North": 10361,
+          "East": 10364
+        }
+      },
+      {
+        "Id": 10363,
+        "Name": "The Forest #10363",
+        "Connections": {
+          "North": 10358,
+          "South": 10361,
+          "West": 10377
+        },
+        "Contents": [
+          {
+            "Text": "An adventurer #10359",
+            "Color": "green"
+          },
+          {
+            "Text": "A nasty troll #10357",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10364,
+        "Name": "A Clearing #10364",
+        "Connections": {
+          "North": 10371,
+          "East": 10365,
+          "South": 10401,
+          "West": 10362
+        },
+        "Contents": [
+          {
+            "Text": "A horse #10358",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10365,
+        "Name": "The Plains #10365",
+        "Connections": {
+          "North": 10367,
+          "East": 10402,
+          "South": 10366,
+          "West": 10364
+        }
+      },
+      {
+        "Id": 10366,
+        "Name": "A Hobbit Home #10366",
+        "Connections": {
+          "North": 10365
+        },
+        "Contents": [
+          {
+            "Text": "Squints the hobbit #10352",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10367,
+        "Name": "The Plains #10367",
+        "Connections": {
+          "North": 10368,
+          "South": 10365,
+          "West": 10371
+        },
+        "Contents": [
+          {
+            "Text": "A horse #10358",
+            "Color": "green"
+          },
+          {
+            "Text": "A horse #10358",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10368,
+        "Name": "Beneath the Canopy of an Oak Tree #10368",
+        "Connections": {
+          "North": 10374,
+          "South": 10367
+        },
+        "Contents": [
+          {
+            "Text": "the massive Oak Tree #10353",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10369,
+        "Name": "The Plains #10369",
+        "Connections": {
+          "North": 10402
+        }
+      },
+      {
+        "Id": 10371,
+        "Name": "The Plains #10371",
+        "Connections": {
+          "North": 10372,
+          "East": 10367,
+          "South": 10364
+        },
+        "Contents": [
+          {
+            "Text": "A horse #10358",
+            "Color": "green"
+          },
+          {
+            "Text": "A horse #10358",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10372,
+        "Name": "In the Shade of a Pond #10372",
+        "Connections": {
+          "South": 10371
+        },
+        "Contents": [
+          {
+            "Text": "A dancing sprite #10356",
+            "Color": "green"
+          },
+          {
+            "Text": "A dancing sprite #10356",
+            "Color": "green"
+          },
+          {
+            "Text": "A dancing sprite #10356",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10373,
+        "Name": "Climbing a Mountain Trail #10373",
+        "Connections": {
+          "North": 10386,
+          "East": 10385,
+          "Down": 10360
+        }
+      },
+      {
+        "Id": 10374,
+        "Name": "Waterfall #10374",
+        "Connections": {
+          "North": 10375,
+          "South": 10368
+        }
+      },
+      {
+        "Id": 10375,
+        "Name": "The Fabled Unicorn #10375",
+        "Connections": {
+          "South": 10374
+        },
+        "Contents": [
+          {
+            "Text": "The unicorn #10355",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10377,
+        "Name": "A Repulsive Camp #10377",
+        "Connections": {
+          "North": 10392,
+          "East": 10363
+        },
+        "Contents": [
+          {
+            "Text": "A nasty troll #10357",
+            "Color": "green"
+          },
+          {
+            "Text": "A nasty troll #10357",
+            "Color": "green"
+          },
+          {
+            "Text": "A nasty troll #10357",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10378,
+        "Name": "Along the Dirt Road #10378",
+        "Connections": {
+          "North": 10380,
+          "East": 10379,
+          "South": 10355,
+          "West": 10381
+        }
+      },
+      {
+        "Id": 10379,
+        "Name": "A Dirt Road #10379",
+        "Connections": {
+          "North": 10382,
+          "West": 10378
+        },
+        "Contents": [
+          {
+            "Text": "A bandit #10361",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10380,
+        "Name": "A Dirt Road #10380",
+        "Connections": {
+          "North": 10384,
+          "South": 10378,
+          "West": 10393
+        },
+        "Contents": [
+          {
+            "Text": "A bandit #10361",
+            "Color": "green"
+          },
+          {
+            "Text": "A bandit #10361",
+            "Color": "green"
+          },
+          {
+            "Text": "A bandit #10361",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10381,
+        "Name": "Stuck in a Sandtrap #10381",
+        "Connections": {}
+      },
+      {
+        "Id": 10382,
+        "Name": "Solace from the Sandstorm #10382",
+        "Connections": {
+          "East": 10383,
+          "South": 10379
+        },
+        "Contents": [
+          {
+            "Text": "A bitter ruffian #10363",
+            "Color": "red"
+          },
+          {
+            "Text": "A bitter ruffian #10363",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 10383,
+        "Name": "A Refreshing Water Hole #10383",
+        "Connections": {
+          "West": 10382
+        },
+        "Contents": [
+          {
+            "Text": "A water sprite #10365",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10384,
+        "Name": "An Endless Road #10384",
+        "Connections": {
+          "South": 10380
+        }
+      },
+      {
+        "Id": 10385,
+        "Name": "Climbing a Mountain Trail #10385",
+        "Connections": {
+          "North": 10387,
+          "West": 10373
+        }
+      },
+      {
+        "Id": 10386,
+        "Name": "A Dank Cave #10386",
+        "Connections": {
+          "South": 10373
+        },
+        "Contents": [
+          {
+            "Text": "Swifthand #10364",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10387,
+        "Name": "Climbing a Mountain Trail #10387",
+        "Connections": {
+          "South": 10385,
+          "Up": 10389
+        }
+      },
+      {
+        "Id": 10389,
+        "Name": "A Plateau #10389",
+        "Connections": {
+          "West": 10390,
+          "Up": 10391,
+          "Down": 10387
+        }
+      },
+      {
+        "Id": 10390,
+        "Name": "A Plateau #10390",
+        "Connections": {
+          "North": 10405,
+          "East": 10389,
+          "South": 10403
+        },
+        "Contents": [
+          {
+            "Text": "The baby gryphon #10362",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10391,
+        "Name": "A Gryphons Nest #10391",
+        "Connections": {
+          "Down": 10389
+        },
+        "Contents": [
+          {
+            "Text": "The baby gryphon #10362",
+            "Color": "green"
+          },
+          {
+            "Text": "The skandranon #10360",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10392,
+        "Name": "Inside a Tent #10392",
+        "Connections": {
+          "South": 10377
+        }
+      },
+      {
+        "Id": 10393,
+        "Name": "A Dirt Road #10393",
+        "Connections": {
+          "North": 10394,
+          "East": 10380
+        },
+        "Contents": [
+          {
+            "Text": "A bandit #10361",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10394,
+        "Name": "A Dirt Road #10394",
+        "Connections": {
+          "South": 10393
+        },
+        "Contents": [
+          {
+            "Text": "A bandit #10361",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10395,
+        "Name": "The Forest #10395",
+        "Connections": {
+          "North": 10360,
+          "East": 10396
+        }
+      },
+      {
+        "Id": 10396,
+        "Name": "The Forest #10396",
+        "Connections": {
+          "East": 10397,
+          "South": 10398,
+          "West": 10395
+        }
+      },
+      {
+        "Id": 10397,
+        "Name": "The Forest #10397",
+        "Connections": {
+          "South": 10399,
+          "West": 10396
+        }
+      },
+      {
+        "Id": 10398,
+        "Name": "The Forest #10398",
+        "Connections": {
+          "North": 10396,
+          "West": 10400
+        }
+      },
+      {
+        "Id": 10399,
+        "Name": "The Forest #10399",
+        "Connections": {
+          "North": 10397
+        },
+        "Contents": [
+          {
+            "Text": "An adventurer #10359",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10400,
+        "Name": "The Forest #10400",
+        "Connections": {
+          "East": 10398
+        },
+        "Contents": [
+          {
+            "Text": "An adventurer #10359",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10401,
+        "Name": "The Plains #10401",
+        "Connections": {
+          "North": 10364
+        },
+        "Contents": [
+          {
+            "Text": "A horse #10358",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10402,
+        "Name": "The Plains #10402",
+        "Connections": {
+          "South": 10369,
+          "West": 10365
+        }
+      },
+      {
+        "Id": 10403,
+        "Name": "A Plateau #10403",
+        "Connections": {
+          "North": 10390,
+          "West": 10404
+        }
+      },
+      {
+        "Id": 10404,
+        "Name": "A Plateau #10404",
+        "Connections": {
+          "East": 10403
+        },
+        "Contents": [
+          {
+            "Text": "The baby gryphon #10362",
+            "Color": "green"
+          },
+          {
+            "Text": "The baby gryphon #10362",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10405,
+        "Name": "A Plateau #10405",
+        "Connections": {
+          "North": 10406,
+          "South": 10390
+        },
+        "Contents": [
+          {
+            "Text": "The baby gryphon #10362",
+            "Color": "green"
+          },
+          {
+            "Text": "The baby gryphon #10362",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 10406,
+        "Name": "A Plateau #10406",
+        "Connections": {
+          "South": 10405,
+          "West": 10407
+        }
+      },
+      {
+        "Id": 10407,
+        "Name": "A Plateau #10407",
+        "Connections": {
+          "East": 10406
+        },
+        "Contents": [
+          {
+            "Text": "The baby gryphon #10362",
+            "Color": "green"
+          }
+        ]
+      }
+    ]
+  }
+}

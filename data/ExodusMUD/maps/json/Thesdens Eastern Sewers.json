@@ -1,0 +1,932 @@
+{
+  "Area": {
+    "Name": "Thesdens Eastern Sewers",
+    "MinimumLevel": "20",
+    "MaximumLevel": "30",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 5023,
+        "Name": "An Old Dark Tunnel #5023",
+        "Connections": {
+          "East": 5024
+        }
+      },
+      {
+        "Id": 5024,
+        "Name": "A Darkened Tunnel #5024",
+        "Connections": {
+          "East": 5025,
+          "West": 5023
+        }
+      },
+      {
+        "Id": 5025,
+        "Name": "A Pitch Black Tunnel #5025",
+        "Connections": {
+          "East": 5026,
+          "West": 5024
+        }
+      },
+      {
+        "Id": 5026,
+        "Name": "A Pitch Black Tunnel #5026",
+        "Connections": {
+          "East": 5027,
+          "West": 5025
+        }
+      },
+      {
+        "Id": 5027,
+        "Name": "A Widening Tunnel #5027",
+        "Connections": {
+          "East": 5028,
+          "West": 5026
+        }
+      },
+      {
+        "Id": 5028,
+        "Name": "A Strange Circular Room #5028",
+        "Connections": {
+          "North": 5053,
+          "East": 5033,
+          "South": 5029,
+          "West": 5027,
+          "Up": 4086
+        }
+      },
+      {
+        "Id": 5029,
+        "Name": "The Smaller South Branch #5029",
+        "Connections": {
+          "North": 5028,
+          "South": 5030
+        }
+      },
+      {
+        "Id": 5030,
+        "Name": "The Smaller South Branch #5030",
+        "Connections": {
+          "North": 5029,
+          "South": 5031
+        }
+      },
+      {
+        "Id": 5031,
+        "Name": "The Smaller South Branch #5031",
+        "Connections": {
+          "North": 5030,
+          "South": 5032
+        }
+      },
+      {
+        "Id": 5032,
+        "Name": "An Unusually Clean Cesspool #5032",
+        "Connections": {
+          "North": 5031
+        },
+        "Contents": [
+          {
+            "Text": "the Queens servant #5025",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5033,
+        "Name": "The Langhan Tunnel #5033",
+        "Connections": {
+          "East": 5034,
+          "West": 5028
+        }
+      },
+      {
+        "Id": 5034,
+        "Name": "The Langhan Tunnel #5034",
+        "Connections": {
+          "East": 5035,
+          "West": 5033
+        },
+        "Contents": [
+          {
+            "Text": "a large white bat #5024",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5035,
+        "Name": "The Langhan Tunnel #5035",
+        "Connections": {
+          "East": 5036,
+          "South": 22877,
+          "West": 5034
+        }
+      },
+      {
+        "Id": 5036,
+        "Name": "The Langhan Tunnel #5036",
+        "Connections": {
+          "East": 5037,
+          "West": 5035
+        }
+      },
+      {
+        "Id": 5037,
+        "Name": "The Langhan Tunnel #5037",
+        "Connections": {
+          "East": 5038,
+          "West": 5036
+        }
+      },
+      {
+        "Id": 5038,
+        "Name": "The Grisendale Cesspool #5038",
+        "Connections": {
+          "North": 5039,
+          "West": 5037,
+          "Up": 4080
+        },
+        "Contents": [
+          {
+            "Text": "A large black snake #5032",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5039,
+        "Name": "The Welford Tunnel #5039",
+        "Connections": {
+          "North": 5040,
+          "South": 5038
+        }
+      },
+      {
+        "Id": 5040,
+        "Name": "The Welford Tunnel #5040",
+        "Connections": {
+          "North": 5041,
+          "South": 5039
+        }
+      },
+      {
+        "Id": 5041,
+        "Name": "The Welford Tunnel #5041",
+        "Connections": {
+          "North": 5042,
+          "South": 5040
+        },
+        "Contents": [
+          {
+            "Text": "a large black rat #5023",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5042,
+        "Name": "The Welford Tunnel #5042",
+        "Connections": {
+          "North": 5043,
+          "South": 5041
+        }
+      },
+      {
+        "Id": 5043,
+        "Name": "The Farmers Cesspool #5043",
+        "Connections": {
+          "North": 5067,
+          "East": 5090,
+          "South": 5042,
+          "West": 5044,
+          "Up": 4069
+        },
+        "Contents": [
+          {
+            "Text": "a huge black widow #5026",
+            "Color": "green"
+          },
+          {
+            "Text": "A brown spider #5029",
+            "Color": "red"
+          },
+          {
+            "Text": "the necromancer #5037",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5044,
+        "Name": "The Cumberland Tunnel #5044",
+        "Connections": {
+          "East": 5043,
+          "West": 5045
+        }
+      },
+      {
+        "Id": 5045,
+        "Name": "The Cumberland Tunnel #5045",
+        "Connections": {
+          "East": 5044,
+          "West": 5046
+        }
+      },
+      {
+        "Id": 5046,
+        "Name": "The Cumberland Tunnel #5046",
+        "Connections": {
+          "East": 5045,
+          "West": 5047
+        }
+      },
+      {
+        "Id": 5047,
+        "Name": "The Cumberland Tunnel #5047",
+        "Connections": {
+          "East": 5046,
+          "West": 5048
+        }
+      },
+      {
+        "Id": 5048,
+        "Name": "The Cumberland Tunnel #5048",
+        "Connections": {
+          "East": 5047,
+          "West": 5049
+        },
+        "Contents": [
+          {
+            "Text": "a large black rat #5023",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5049,
+        "Name": "The Devon Cesspool #5049",
+        "Connections": {
+          "North": 5055,
+          "East": 5048,
+          "South": 5050,
+          "West": 5081,
+          "Up": 4056
+        }
+      },
+      {
+        "Id": 5050,
+        "Name": "The Seahan Tunnel #5050",
+        "Connections": {
+          "North": 5049,
+          "South": 5051
+        }
+      },
+      {
+        "Id": 5051,
+        "Name": "The Seahan Tunnel #5051",
+        "Connections": {
+          "North": 5050,
+          "South": 5052
+        }
+      },
+      {
+        "Id": 5052,
+        "Name": "The Seahan Tunnel #5052",
+        "Connections": {
+          "North": 5051,
+          "South": 5053,
+          "West": 5054
+        }
+      },
+      {
+        "Id": 5053,
+        "Name": "The Seahan Tunnel #5053",
+        "Connections": {
+          "North": 5052,
+          "South": 5028
+        }
+      },
+      {
+        "Id": 5054,
+        "Name": "A Freshly Dug Tunnel #5054",
+        "Connections": {
+          "East": 5052
+        },
+        "Contents": [
+          {
+            "Text": "a burglar #5027",
+            "Color": "red"
+          },
+          {
+            "Text": "the Master thief #5028",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 5055,
+        "Name": "The Seahan Tunnel #5055",
+        "Connections": {
+          "North": 5056,
+          "South": 5049
+        }
+      },
+      {
+        "Id": 5056,
+        "Name": "The Seahan Tunnel #5056",
+        "Connections": {
+          "North": 5057,
+          "South": 5055
+        },
+        "Contents": [
+          {
+            "Text": "a large black rat #5023",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5057,
+        "Name": "The Seahan Tunnel #5057",
+        "Connections": {
+          "North": 5058,
+          "South": 5056,
+          "West": {
+            "RoomId": 26343,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Rahus room #25709",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 5058,
+        "Name": "The Raven Cesspool #5058",
+        "Connections": {
+          "East": 5059,
+          "South": 5057,
+          "Up": 4059
+        }
+      },
+      {
+        "Id": 5059,
+        "Name": "The Pine Tunnel #5059",
+        "Connections": {
+          "East": 5060,
+          "West": 5058
+        }
+      },
+      {
+        "Id": 5060,
+        "Name": "The Pine Tunnel #5060",
+        "Connections": {
+          "East": 5061,
+          "West": 5059
+        },
+        "Contents": [
+          {
+            "Text": "a large black rat #5023",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5061,
+        "Name": "The Pine Tunnel #5061",
+        "Connections": {
+          "East": 5062,
+          "West": 5060
+        }
+      },
+      {
+        "Id": 5062,
+        "Name": "The Pine Tunnel #5062",
+        "Connections": {
+          "North": {
+            "RoomId": 26617,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Azraels room #25700",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 5063,
+          "South": 4464,
+          "West": 5061,
+          "Down": 26851
+        },
+        "Contents": [
+          {
+            "Text": "a large black rat #5023",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5063,
+        "Name": "The Pine Tunnel #5063",
+        "Connections": {
+          "East": 5064,
+          "West": 5062
+        }
+      },
+      {
+        "Id": 5064,
+        "Name": "The Cathedral Cesspool #5064",
+        "Connections": {
+          "North": 5089,
+          "East": 5068,
+          "South": 5065,
+          "West": 5063,
+          "Up": 4065
+        }
+      },
+      {
+        "Id": 5065,
+        "Name": "The Welford Tunnel #5065",
+        "Connections": {
+          "North": 5064,
+          "South": 5066
+        }
+      },
+      {
+        "Id": 5066,
+        "Name": "The Welford Tunnel #5066",
+        "Connections": {
+          "North": 5065,
+          "South": 5067
+        },
+        "Contents": [
+          {
+            "Text": "a large black rat #5023",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5067,
+        "Name": "The Welford Tunnel #5067",
+        "Connections": {
+          "North": 5066,
+          "South": 5043
+        }
+      },
+      {
+        "Id": 5068,
+        "Name": "A Narrow Crawlspace #5068",
+        "Connections": {
+          "East": 5069,
+          "West": 5064
+        }
+      },
+      {
+        "Id": 5069,
+        "Name": "An Amazingly Lavish Room #5069",
+        "Connections": {
+          "North": 5072,
+          "East": {
+            "RoomId": 5074,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an ancient key #5036",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 5070,
+          "West": 5068
+        },
+        "Contents": [
+          {
+            "Text": "An eccentric hermit #5030",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5070,
+        "Name": "A Delicate Sitting Room #5070",
+        "Connections": {
+          "North": 5069,
+          "East": 5071
+        },
+        "Contents": [
+          {
+            "Text": "A butler #5031",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5071,
+        "Name": "A Crystal Fountain #5071",
+        "Connections": {
+          "West": 5070
+        }
+      },
+      {
+        "Id": 5072,
+        "Name": "The Great Dining Room #5072",
+        "Connections": {
+          "East": 5073,
+          "South": 5069
+        }
+      },
+      {
+        "Id": 5073,
+        "Name": "A Grand Kitchen #5073",
+        "Connections": {
+          "West": 5072
+        },
+        "Contents": [
+          {
+            "Text": "A pastry chef #5034",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5074,
+        "Name": "The Top of a Spiral Staircase #5074",
+        "Connections": {
+          "West": {
+            "RoomId": 5069,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "an ancient key #5036",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 5075
+        }
+      },
+      {
+        "Id": 5075,
+        "Name": "A Grand Spiral Staircase #5075",
+        "Connections": {
+          "Up": 5074,
+          "Down": 5076
+        }
+      },
+      {
+        "Id": 5076,
+        "Name": "A Grand Spiral Staircase #5076",
+        "Connections": {
+          "East": 5087,
+          "Up": 5075,
+          "Down": 5077
+        }
+      },
+      {
+        "Id": 5077,
+        "Name": "the Staircase Spire #5077",
+        "Connections": {
+          "East": 5088,
+          "Up": 5076,
+          "Down": 5078
+        }
+      },
+      {
+        "Id": 5078,
+        "Name": "the Staricase Spire #5078",
+        "Connections": {
+          "Up": 5077,
+          "Down": 5079
+        }
+      },
+      {
+        "Id": 5079,
+        "Name": "the Bottom of the Spire #5079",
+        "Connections": {
+          "South": 5080,
+          "Up": 5078
+        }
+      },
+      {
+        "Id": 5080,
+        "Name": "The Crystal Spire #5080",
+        "Connections": {
+          "North": 5079,
+          "South": 1280
+        }
+      },
+      {
+        "Id": 5081,
+        "Name": "The Cumberland Tunnel #5081",
+        "Connections": {
+          "East": 5049,
+          "West": 5082
+        }
+      },
+      {
+        "Id": 5082,
+        "Name": "The Cumberland Tunnel #5082",
+        "Connections": {
+          "East": 5081,
+          "West": 5083
+        }
+      },
+      {
+        "Id": 5083,
+        "Name": "The Cumberland Tunnel #5083",
+        "Connections": {
+          "East": 5082,
+          "West": 5084
+        }
+      },
+      {
+        "Id": 5084,
+        "Name": "The Cumberland Tunnel #5084",
+        "Connections": {
+          "East": 5083,
+          "West": 5085
+        }
+      },
+      {
+        "Id": 5085,
+        "Name": "The Cumberland Tunnel #5085",
+        "Connections": {
+          "East": 5084,
+          "West": 5086
+        }
+      },
+      {
+        "Id": 5086,
+        "Name": "The Cumberland Tunnel #5086",
+        "Connections": {
+          "East": 5085,
+          "West": 4022,
+          "Up": 4004
+        }
+      },
+      {
+        "Id": 5087,
+        "Name": "A Small Alcove #5087",
+        "Connections": {
+          "West": 5076
+        }
+      },
+      {
+        "Id": 5088,
+        "Name": "A Small Alcove #5088",
+        "Connections": {
+          "West": 5077
+        }
+      },
+      {
+        "Id": 5089,
+        "Name": "A Dark Hole in the Tunnel Wall #5089",
+        "Connections": {
+          "South": 5064,
+          "Down": 5092
+        },
+        "Contents": [
+          {
+            "Text": "Hrass #5035",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5090,
+        "Name": "Ancient Catacombs #5090",
+        "Connections": {
+          "South": 5091,
+          "West": 5043
+        }
+      },
+      {
+        "Id": 5091,
+        "Name": "Unholy Mausoleum #5091",
+        "Connections": {
+          "North": 5090
+        },
+        "Contents": [
+          {
+            "Text": "Carchathoth #5036",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5092,
+        "Name": "A Spacious Cavern #5092",
+        "Connections": {
+          "Up": 5089
+        }
+      },
+      {
+        "Id": 5093,
+        "Name": " #5093",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "(no short description) #5038",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 4086,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4086",
+        "Color": "blue",
+        "Connections": {
+          "North": 4091,
+          "East": 4085,
+          "South": 4089,
+          "West": 4087,
+          "Down": 5028
+        }
+      },
+      {
+        "Id": 22877,
+        "FrameColor": "blue",
+        "Name": "To Catacombs #22877",
+        "Color": "blue",
+        "Connections": {
+          "North": 5035,
+          "Down": 22809
+        }
+      },
+      {
+        "Id": 4080,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4080",
+        "Color": "blue",
+        "Connections": {
+          "North": 4079,
+          "East": 4154,
+          "South": 4155,
+          "West": 4081,
+          "Down": 5038
+        }
+      },
+      {
+        "Id": 4069,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4069",
+        "Color": "blue",
+        "Connections": {
+          "North": 4068,
+          "East": 4146,
+          "South": 4070,
+          "West": 4073,
+          "Down": 5043
+        }
+      },
+      {
+        "Id": 4056,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4056",
+        "Color": "blue",
+        "Connections": {
+          "North": 4050,
+          "East": 4052,
+          "South": 4054,
+          "West": 4048,
+          "Down": 5049
+        }
+      },
+      {
+        "Id": 26343,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26343",
+        "Color": "blue",
+        "Connections": {
+          "South": 26336
+        }
+      },
+      {
+        "Id": 4059,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4059",
+        "Color": "blue",
+        "Connections": {
+          "North": 4136,
+          "East": 4060,
+          "South": 4058,
+          "West": 4137,
+          "Down": 5058
+        }
+      },
+      {
+        "Id": 26617,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26617",
+        "Color": "blue",
+        "Connections": {
+          "North": 26618,
+          "South": {
+            "RoomId": 5062,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Azraels room #25700",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4464,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4464",
+        "Color": "blue",
+        "Connections": {
+          "North": 5062,
+          "East": 4465,
+          "Up": 4213
+        }
+      },
+      {
+        "Id": 26851,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26851",
+        "Color": "blue",
+        "Connections": {
+          "Up": 5062,
+          "Down": {
+            "RoomId": 26584,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Aliass room #25722",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 4065,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4065",
+        "Color": "blue",
+        "Connections": {
+          "East": 4149,
+          "South": 4066,
+          "West": 4064,
+          "Down": 5064
+        }
+      },
+      {
+        "Id": 1280,
+        "FrameColor": "blue",
+        "Name": "To Counterclockwise #1280",
+        "Color": "blue",
+        "Connections": {
+          "North": 5080
+        }
+      },
+      {
+        "Id": 4022,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4022",
+        "Color": "blue",
+        "Connections": {
+          "North": 4021,
+          "East": 5086,
+          "South": 4042,
+          "Up": 4009
+        }
+      },
+      {
+        "Id": 4004,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4004",
+        "Color": "blue",
+        "Connections": {
+          "North": 4003,
+          "East": 4005,
+          "South": 4007,
+          "West": 4008,
+          "Down": 5086
+        }
+      }
+    ]
+  }
+}

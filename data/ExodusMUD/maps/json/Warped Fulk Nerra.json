@@ -1,0 +1,813 @@
+{
+  "Area": {
+    "Name": "Warped Fulk Nerra",
+    "MinimumLevel": "90",
+    "MaximumLevel": "90",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 11005,
+        "Name": "Village Center #11005",
+        "Connections": {
+          "North": 11035,
+          "East": 11007,
+          "South": 11029,
+          "West": 11013
+        }
+      },
+      {
+        "Id": 11006,
+        "Name": "Troupe masters wagon #11006",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "Stregos #11006",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11007,
+        "Name": "Winding village street #11007",
+        "Connections": {
+          "North": 11008,
+          "East": 11010,
+          "South": 11009,
+          "West": 11005
+        },
+        "Contents": [
+          {
+            "Text": "a warped jester #11013",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11008,
+        "Name": "Small cottage #11008",
+        "Connections": {
+          "South": 11007
+        }
+      },
+      {
+        "Id": 11009,
+        "Name": "A cramped cottage #11009",
+        "Connections": {
+          "North": 11007
+        }
+      },
+      {
+        "Id": 11010,
+        "Name": "Winding village street #11010",
+        "Connections": {
+          "North": 11011,
+          "South": 11012,
+          "West": 11007
+        },
+        "Contents": [
+          {
+            "Text": "A crazed woodsman #11014",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11011,
+        "Name": "A cramped cottage #11011",
+        "Connections": {
+          "South": 11010
+        },
+        "Contents": [
+          {
+            "Text": "A hungry serf #11011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11012,
+        "Name": "Small cottage #11012",
+        "Connections": {
+          "North": 11010
+        }
+      },
+      {
+        "Id": 11013,
+        "Name": "Winding village street #11013",
+        "Connections": {
+          "North": 11014,
+          "East": 11005,
+          "South": 11015,
+          "West": 11016
+        },
+        "Contents": [
+          {
+            "Text": "a warped acrobat #11009",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11014,
+        "Name": "A cramped cottage #11014",
+        "Connections": {
+          "South": 11013
+        },
+        "Contents": [
+          {
+            "Text": "A hungry serf #11011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11015,
+        "Name": "Small cottage #11015",
+        "Connections": {
+          "North": 11013
+        }
+      },
+      {
+        "Id": 11016,
+        "Name": "Winding village street #11016",
+        "Connections": {
+          "North": 11017,
+          "East": 11013,
+          "South": 11018,
+          "West": 11019
+        },
+        "Contents": [
+          {
+            "Text": "a warped juggler #11012",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11017,
+        "Name": "Small cottage #11017",
+        "Connections": {
+          "South": 11016
+        }
+      },
+      {
+        "Id": 11018,
+        "Name": "A cramped cottage #11018",
+        "Connections": {
+          "North": 11016
+        }
+      },
+      {
+        "Id": 11019,
+        "Name": "A barn #11019",
+        "Connections": {
+          "East": 11016,
+          "Down": {
+            "RoomId": 11020,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key marked 2 #11040",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The deformed farmer #11007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11020,
+        "Name": "Entrance to secret area #11020",
+        "Connections": {
+          "North": 11021,
+          "Up": {
+            "RoomId": 11019,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key marked 2 #11040",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 11021,
+        "Name": "Dark passage #11021",
+        "Connections": {
+          "North": 11024,
+          "East": 11023,
+          "South": 11020,
+          "West": 11022
+        },
+        "Contents": [
+          {
+            "Text": "A cackling fistfighter #11008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11022,
+        "Name": "A storage room #11022",
+        "Connections": {
+          "East": 11021
+        },
+        "Contents": [
+          {
+            "Text": "A cackling fistfighter #11008",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11023,
+        "Name": "A storage room #11023",
+        "Connections": {
+          "West": 11021
+        }
+      },
+      {
+        "Id": 11024,
+        "Name": "Dark passage #11024",
+        "Connections": {
+          "North": 11027,
+          "East": 11026,
+          "South": 11021,
+          "West": 11025
+        }
+      },
+      {
+        "Id": 11025,
+        "Name": "Training room #11025",
+        "Connections": {
+          "North": 11028,
+          "East": 11024
+        }
+      },
+      {
+        "Id": 11026,
+        "Name": "A storage room #11026",
+        "Connections": {
+          "West": 11024
+        }
+      },
+      {
+        "Id": 11027,
+        "Name": "Ladder #11027",
+        "Connections": {
+          "South": 11024,
+          "Up": 11060
+        }
+      },
+      {
+        "Id": 11028,
+        "Name": "Leaders planning room #11028",
+        "Connections": {
+          "South": 11025
+        },
+        "Contents": [
+          {
+            "Text": "Simon DemonSnort #11010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11029,
+        "Name": "Village street #11029",
+        "Connections": {
+          "North": 11005,
+          "East": 11031,
+          "South": 11032,
+          "West": 11030
+        },
+        "Contents": [
+          {
+            "Text": "A serf #11015",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11030,
+        "Name": "A serfs cottage #11030",
+        "Connections": {
+          "East": 11029
+        }
+      },
+      {
+        "Id": 11031,
+        "Name": "A cramped cottage #11031",
+        "Connections": {
+          "West": 11029
+        },
+        "Contents": [
+          {
+            "Text": "A hungry serf #11011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11032,
+        "Name": "Bend in the road #11032",
+        "Connections": {
+          "North": 11029,
+          "East": 11033
+        }
+      },
+      {
+        "Id": 11033,
+        "Name": "A Country Lane #11033",
+        "Connections": {
+          "East": 11034,
+          "South": 21099,
+          "West": 11032
+        }
+      },
+      {
+        "Id": 11034,
+        "Name": "A Country Lane #11034",
+        "Connections": {
+          "West": 11033
+        }
+      },
+      {
+        "Id": 11035,
+        "Name": "Winding village street #11035",
+        "Connections": {
+          "North": 11038,
+          "East": 11037,
+          "South": 11005,
+          "West": 11036
+        },
+        "Contents": [
+          {
+            "Text": "the twoheaded man #11016",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11036,
+        "Name": "A cramped cottage #11036",
+        "Connections": {
+          "East": 11035
+        },
+        "Contents": [
+          {
+            "Text": "Knopf the trickster #11017",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11037,
+        "Name": "Small cottage #11037",
+        "Connections": {
+          "West": 11035
+        }
+      },
+      {
+        "Id": 11038,
+        "Name": "Crooked road to the manor #11038",
+        "Connections": {
+          "North": 11039,
+          "South": 11035
+        }
+      },
+      {
+        "Id": 11039,
+        "Name": "Crooked road to the manor #11039",
+        "Connections": {
+          "South": 11038,
+          "West": 11040
+        }
+      },
+      {
+        "Id": 11040,
+        "Name": "Before the warped manor #11040",
+        "Connections": {
+          "North": 11042,
+          "East": 11039,
+          "South": 11043,
+          "West": {
+            "RoomId": 11041,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the mansion key #11043",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 11041,
+        "Name": "Foyer #11041",
+        "Connections": {
+          "North": 11050,
+          "East": {
+            "RoomId": 11040,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the mansion key #11043",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 11044
+        },
+        "Contents": [
+          {
+            "Text": "The crawling butler #11022",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11042,
+        "Name": "Path to the carriage house #11042",
+        "Connections": {
+          "South": 11040,
+          "West": 11061
+        }
+      },
+      {
+        "Id": 11043,
+        "Name": "A gazebo #11043",
+        "Connections": {
+          "North": 11040
+        }
+      },
+      {
+        "Id": 11044,
+        "Name": "Grand staircase #11044",
+        "Connections": {
+          "East": 11041,
+          "Up": 11045
+        }
+      },
+      {
+        "Id": 11045,
+        "Name": "Second floor hallway #11045",
+        "Connections": {
+          "North": 11047,
+          "South": 11046,
+          "Down": 11044
+        }
+      },
+      {
+        "Id": 11046,
+        "Name": "Outer room #11046",
+        "Connections": {
+          "North": 11045,
+          "West": 11048
+        },
+        "Contents": [
+          {
+            "Text": "The chambermaid #11018",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11047,
+        "Name": "Outer room #11047",
+        "Connections": {
+          "South": 11045,
+          "West": {
+            "RoomId": 11049,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key marked 3 #11041",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Sleeves #11020",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11048,
+        "Name": "The Ladys Bedroom #11048",
+        "Connections": {
+          "East": 11046
+        },
+        "Contents": [
+          {
+            "Text": "Lady Gooma #11019",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11049,
+        "Name": "The Lords bedroom #11049",
+        "Connections": {
+          "East": {
+            "RoomId": 11047,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key marked 3 #11041",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Lord Wrath #11021",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11050,
+        "Name": "Smoking room #11050",
+        "Connections": {
+          "South": 11041,
+          "West": 11051
+        },
+        "Contents": [
+          {
+            "Text": "a secretary #11023",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11051,
+        "Name": "Game room #11051",
+        "Connections": {
+          "East": 11050,
+          "West": 11052
+        },
+        "Contents": [
+          {
+            "Text": "Captain Grugel #11024",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11052,
+        "Name": "Sitting room #11052",
+        "Connections": {
+          "East": 11051,
+          "South": 11053
+        },
+        "Contents": [
+          {
+            "Text": "A maid #11036",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11053,
+        "Name": "Dining room #11053",
+        "Connections": {
+          "North": 11052,
+          "South": 11054,
+          "West": 11058
+        }
+      },
+      {
+        "Id": 11054,
+        "Name": "The Kitchen #11054",
+        "Connections": {
+          "North": 11053,
+          "East": 11056,
+          "Down": 11055
+        },
+        "Contents": [
+          {
+            "Text": "Rulga the cook #11025",
+            "Color": "green"
+          },
+          {
+            "Text": "A hungry scullery girl #11026",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11055,
+        "Name": "Wine Cellar #11055",
+        "Connections": {
+          "South": {
+            "RoomId": 11057,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key marked 1 #11008",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Up": 11054
+        }
+      },
+      {
+        "Id": 11056,
+        "Name": "Butlers pantry #11056",
+        "Connections": {
+          "West": 11054
+        }
+      },
+      {
+        "Id": 11057,
+        "Name": "Mad sisters cell #11057",
+        "Connections": {
+          "North": {
+            "RoomId": 11055,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key marked 1 #11008",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Mad Inga #11027",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11058,
+        "Name": "A beautiful terrace #11058",
+        "Connections": {
+          "East": 11053,
+          "West": 11059
+        }
+      },
+      {
+        "Id": 11059,
+        "Name": "A foul garden #11059",
+        "Connections": {
+          "North": 11060,
+          "East": 11058
+        },
+        "Contents": [
+          {
+            "Text": "The insane gardener #11028",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11060,
+        "Name": "The stable #11060",
+        "Connections": {
+          "North": 11062,
+          "East": 11061,
+          "South": 11059
+        },
+        "Contents": [
+          {
+            "Text": "An ugly little boy #11029",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11061,
+        "Name": "Carriage House #11061",
+        "Connections": {
+          "East": 11042,
+          "West": 11060
+        },
+        "Contents": [
+          {
+            "Text": "A giggling footman #11030",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11062,
+        "Name": "The stable #11062",
+        "Connections": {
+          "North": 11065,
+          "East": 11064,
+          "South": 11060,
+          "West": 11063
+        }
+      },
+      {
+        "Id": 11063,
+        "Name": "A Stall #11063",
+        "Connections": {
+          "East": 11062
+        },
+        "Contents": [
+          {
+            "Text": "a deformed foal #11031",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 11064,
+        "Name": "A Stall #11064",
+        "Connections": {
+          "West": 11062
+        },
+        "Contents": [
+          {
+            "Text": "a warped mare #11032",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11065,
+        "Name": "The stable #11065",
+        "Connections": {
+          "East": 11067,
+          "South": 11062,
+          "West": 11066
+        }
+      },
+      {
+        "Id": 11066,
+        "Name": "A quiet stall #11066",
+        "Connections": {
+          "East": 11065
+        },
+        "Contents": [
+          {
+            "Text": "Ghast #11033",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 11067,
+        "Name": "A reeking stall #11067",
+        "Connections": {
+          "West": 11065
+        },
+        "Contents": [
+          {
+            "Text": "A dying stallion #11034",
+            "Color": "green"
+          },
+          {
+            "Text": "A fascinated stableboy #11035",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21099,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21099",
+        "Color": "blue",
+        "Connections": {
+          "North": 20952,
+          "East": 21100,
+          "South": 21119,
+          "West": 21098
+        }
+      }
+    ]
+  }
+}

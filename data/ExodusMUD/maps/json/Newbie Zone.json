@@ -1,0 +1,158 @@
+{
+  "Area": {
+    "Name": "Newbie Zone",
+    "MinimumLevel": "1",
+    "MaximumLevel": "10",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 1178,
+        "Name": "Beginning the Journey #1178",
+        "Connections": {
+          "North": 1179
+        }
+      },
+      {
+        "Id": 1179,
+        "Name": "In the Tutorial #1179",
+        "Connections": {
+          "North": 1180,
+          "South": 1178
+        }
+      },
+      {
+        "Id": 1180,
+        "Name": "In the Tutorial #1180",
+        "Connections": {
+          "South": 1179,
+          "West": 1181
+        }
+      },
+      {
+        "Id": 1181,
+        "Name": "In the Tutorial #1181",
+        "Connections": {
+          "East": 1180,
+          "West": 1183,
+          "Down": 1182
+        }
+      },
+      {
+        "Id": 1182,
+        "Name": "The Blob #1182",
+        "Connections": {
+          "Up": 1181
+        },
+        "Contents": [
+          {
+            "Text": "the blob #1179",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1183,
+        "Name": "In the Tutorial #1183",
+        "Connections": {
+          "North": 1184,
+          "East": 1181
+        }
+      },
+      {
+        "Id": 1184,
+        "Name": "In the Tutorial #1184",
+        "Connections": {
+          "North": 1186,
+          "South": 1183
+        }
+      },
+      {
+        "Id": 1185,
+        "Name": "The Training Room #1185",
+        "Connections": {
+          "South": 6974,
+          "West": 1187
+        },
+        "Contents": [
+          {
+            "Text": "the Guildmaster of Training #1184",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1186,
+        "Name": "In the Tutorial #1186",
+        "Connections": {
+          "North": 6973,
+          "South": 1184
+        }
+      },
+      {
+        "Id": 1187,
+        "Name": " #1187",
+        "Connections": {
+          "North": 1188,
+          "East": 1185
+        }
+      },
+      {
+        "Id": 1188,
+        "Name": " #1188",
+        "Connections": {
+          "East": 1189,
+          "South": 1187
+        },
+        "Contents": [
+          {
+            "Text": "the Guildmaster of Leveling #1185",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1189,
+        "Name": " #1189",
+        "Connections": {
+          "North": 1191,
+          "West": 1188
+        },
+        "Contents": [
+          {
+            "Text": "the Guildmaster of Skills #1186",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1191,
+        "Name": " #1191",
+        "Connections": {
+          "South": 1189
+        }
+      },
+      {
+        "Id": 6974,
+        "FrameColor": "blue",
+        "Name": "To Newbie Arena #6974",
+        "Color": "blue",
+        "Connections": {
+          "North": 1185,
+          "South": 6973
+        }
+      },
+      {
+        "Id": 6973,
+        "FrameColor": "blue",
+        "Name": "To Newbie Arena #6973",
+        "Color": "blue",
+        "Connections": {
+          "North": 6974,
+          "East": 6975,
+          "South": 1186,
+          "West": 6981
+        }
+      }
+    ]
+  }
+}

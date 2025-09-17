@@ -1,0 +1,130 @@
+{
+  "Area": {
+    "Name": "Ocean Ferry",
+    "MinimumLevel": "1",
+    "MaximumLevel": "10",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 1051,
+        "Name": "Main deck of the ferry #1051",
+        "Connections": {
+          "North": 1053,
+          "South": 1054,
+          "Up": {
+            "RoomId": 1052,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 1055
+        },
+        "Contents": [
+          {
+            "Text": "Aquimos the Canthi Captain #1051",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1052,
+        "Name": "Behind the Wheel #1052",
+        "Connections": {
+          "Down": {
+            "RoomId": 1051,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 1053,
+        "Name": "Foredeck of the ferry #1053",
+        "Connections": {
+          "South": 1051
+        }
+      },
+      {
+        "Id": 1054,
+        "Name": "Aft deck of the ferry #1054",
+        "Connections": {
+          "North": 1051
+        }
+      },
+      {
+        "Id": 1055,
+        "Name": "Below deck within the ferry #1055",
+        "Connections": {
+          "North": 1056,
+          "Up": 1051
+        }
+      },
+      {
+        "Id": 1056,
+        "Name": "Ye Olde Gambling Roome #1056",
+        "Connections": {
+          "South": 1055
+        },
+        "Contents": [
+          {
+            "Text": "Stevis #1052",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1057,
+        "Name": "Iveraths temporary ferry that will actually take you to hell #1057",
+        "Connections": {}
+      },
+      {
+        "Id": 1058,
+        "Name": "And the ship sailed on #1058",
+        "Connections": {}
+      },
+      {
+        "Id": 1059,
+        "Name": "Down the well in the abbey #1059",
+        "Connections": {}
+      },
+      {
+        "Id": 1060,
+        "Name": "Descending...descending...uh oh #1060",
+        "Connections": {}
+      },
+      {
+        "Id": 1061,
+        "Name": "Into the underworld... WTF? #1061",
+        "Connections": {}
+      },
+      {
+        "Id": 1062,
+        "Name": "Dangit you are screwed now #1062",
+        "Connections": {}
+      },
+      {
+        "Id": 1063,
+        "Name": "Going back to Thesden #1063",
+        "Connections": {}
+      },
+      {
+        "Id": 1064,
+        "Name": "\u0022IT STOPPED MOVING HELP IMM\u0022 #1064",
+        "Connections": {}
+      },
+      {
+        "Id": 1065,
+        "Name": "You check out the hairy sailors #1065",
+        "Connections": {}
+      },
+      {
+        "Id": 1066,
+        "Name": "Hey Is that... #1066",
+        "Connections": {}
+      }
+    ]
+  }
+}

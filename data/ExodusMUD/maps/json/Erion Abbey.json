@@ -1,0 +1,1381 @@
+{
+  "Area": {
+    "Name": "Erion Abbey",
+    "MinimumLevel": "20",
+    "MaximumLevel": "60",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 7900,
+        "Name": "Inside a fresh grave #7900",
+        "Connections": {
+          "Up": 7980
+        }
+      },
+      {
+        "Id": 7901,
+        "Name": "The Main Gate of Erion Abbey #7901",
+        "Connections": {
+          "North": 7910,
+          "East": 7902,
+          "South": 21077,
+          "West": 7905,
+          "Up": 7904
+        },
+        "Contents": [
+          {
+            "Text": "A welcoming Monk #7901",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7902,
+        "Name": "The Almonry #7902",
+        "Connections": {
+          "East": 7903,
+          "West": 7901
+        },
+        "Contents": [
+          {
+            "Text": "The Almoner #7904",
+            "Color": "green"
+          },
+          {
+            "Text": "A poor farmer #7922",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7903,
+        "Name": "The Almonry Store Room #7903",
+        "Connections": {
+          "West": 7902
+        }
+      },
+      {
+        "Id": 7904,
+        "Name": "Watchtower above the Main Gate #7904",
+        "Connections": {
+          "North": {
+            "RoomId": 26822,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Aboliss room #25698",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 7901
+        }
+      },
+      {
+        "Id": 7905,
+        "Name": "Entrance to the Abbey Stables #7905",
+        "Connections": {
+          "East": 7901,
+          "West": 7906
+        },
+        "Contents": [
+          {
+            "Text": "The stable master #7902",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7906,
+        "Name": "The Abbey Stables #7906",
+        "Connections": {
+          "East": 7905,
+          "West": 7907,
+          "Up": 7908
+        },
+        "Contents": [
+          {
+            "Text": "A young stable hand #7903",
+            "Color": "green"
+          },
+          {
+            "Text": "A horse #7923",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7907,
+        "Name": "The Abbey Stables #7907",
+        "Connections": {
+          "East": 7906,
+          "Up": 7909
+        },
+        "Contents": [
+          {
+            "Text": "A horse #7923",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7908,
+        "Name": "The Stables Hayloft #7908",
+        "Connections": {
+          "West": 7909,
+          "Down": 7906
+        },
+        "Contents": [
+          {
+            "Text": "A young stable hand #7903",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7909,
+        "Name": "The Stables Hayloft #7909",
+        "Connections": {
+          "East": 7908,
+          "Down": 7907
+        },
+        "Contents": [
+          {
+            "Text": "A young stable hand #7903",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7910,
+        "Name": "Just inside the Main Gate #7910",
+        "Connections": {
+          "North": 7914,
+          "South": 7901,
+          "West": 7911,
+          "Down": 26911
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7905",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7918",
+            "Color": "green"
+          },
+          {
+            "Text": "A visitor to the Abbey #7917",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7911,
+        "Name": "The Southern Wall of the Great Court #7911",
+        "Connections": {
+          "North": 7939,
+          "East": 7910,
+          "West": 7912
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7920",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7921",
+            "Color": "green"
+          },
+          {
+            "Text": "A poor farmer #7922",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7912,
+        "Name": "The Southern Wall of the Great Court #7912",
+        "Connections": {
+          "North": 7938,
+          "East": 7911,
+          "West": 7913
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7905",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7918",
+            "Color": "green"
+          },
+          {
+            "Text": "A visitor to the Abbey #7917",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7913,
+        "Name": "Outside the BrewandBakehouse #7913",
+        "Connections": {
+          "North": 7937,
+          "East": 7912,
+          "South": 7917,
+          "West": 7931
+        }
+      },
+      {
+        "Id": 7914,
+        "Name": "A path between the Main Gate and the Abbey Church #7914",
+        "Connections": {
+          "North": 7915,
+          "South": 7910,
+          "West": 7939
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7920",
+            "Color": "green"
+          },
+          {
+            "Text": "A poor farmer #7922",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7921",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7915,
+        "Name": "A path between the Main Gate and the Abbey Church #7915",
+        "Connections": {
+          "North": 7916,
+          "South": 7914,
+          "West": 7928
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7905",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7918",
+            "Color": "green"
+          },
+          {
+            "Text": "A visitor to the Abbey #7917",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7916,
+        "Name": "A path between the Main Gate and the Abbey Church #7916",
+        "Connections": {
+          "North": 7973,
+          "South": 7915,
+          "West": 7943
+        },
+        "Contents": [
+          {
+            "Text": "The Abbot of Erion #7906",
+            "Color": "green"
+          },
+          {
+            "Text": "An Amazon warrior in disguise #7933",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7917,
+        "Name": "The BrewandBakehouses Central Room #7917",
+        "Connections": {
+          "North": 7913,
+          "East": 7919,
+          "South": 7918,
+          "West": 7922
+        }
+      },
+      {
+        "Id": 7918,
+        "Name": "The BrewandBakehouses Main Storeroom #7918",
+        "Connections": {
+          "North": 7917
+        }
+      },
+      {
+        "Id": 7919,
+        "Name": "The Abbey Bakery #7919",
+        "Connections": {
+          "East": 7920,
+          "South": 7921,
+          "West": 7917
+        },
+        "Contents": [
+          {
+            "Text": "The baker #7911",
+            "Color": "green"
+          },
+          {
+            "Text": "The baker #7924",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7920,
+        "Name": "A large Oven #7920",
+        "Connections": {
+          "West": 7919
+        }
+      },
+      {
+        "Id": 7921,
+        "Name": "The Granary #7921",
+        "Connections": {
+          "North": 7919
+        }
+      },
+      {
+        "Id": 7922,
+        "Name": "The Abbey Brewery #7922",
+        "Connections": {
+          "East": 7917,
+          "South": 7925,
+          "West": 7923
+        },
+        "Contents": [
+          {
+            "Text": "A wine maker #7909",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7923,
+        "Name": "The Base of a Huge Vat #7923",
+        "Connections": {
+          "East": 7922,
+          "South": 7926,
+          "Up": 7924
+        },
+        "Contents": [
+          {
+            "Text": "The head wine maker #7910",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7924,
+        "Name": "On Top of a Huge Vat #7924",
+        "Connections": {
+          "Down": 7923
+        },
+        "Contents": [
+          {
+            "Text": "A wine maker #7909",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7925,
+        "Name": "The Fermentation Room #7925",
+        "Connections": {
+          "North": 7922
+        }
+      },
+      {
+        "Id": 7926,
+        "Name": "The Cask Storeroom #7926",
+        "Connections": {
+          "North": 7923,
+          "West": 7927
+        },
+        "Contents": [
+          {
+            "Text": "A wine maker #7909",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7927,
+        "Name": "The Coopers Workshop #7927",
+        "Connections": {
+          "East": 7926
+        },
+        "Contents": [
+          {
+            "Text": "The cooper #7908",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7928,
+        "Name": "The Great Court #7928",
+        "Connections": {
+          "North": 7943,
+          "East": 7915,
+          "South": 7939,
+          "West": 7929
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7920",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7921",
+            "Color": "green"
+          },
+          {
+            "Text": "A poor farmer #7922",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7929,
+        "Name": "The Well #7929",
+        "Connections": {
+          "North": 7944,
+          "East": 7928,
+          "South": 7938,
+          "West": 7930,
+          "Down": 7965
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7905",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7918",
+            "Color": "green"
+          },
+          {
+            "Text": "A visitor to the Abbey #7917",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7931",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7930,
+        "Name": "The Great Court #7930",
+        "Connections": {
+          "North": 7945,
+          "East": 7929,
+          "South": 7937,
+          "West": 7940
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7920",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7921",
+            "Color": "green"
+          },
+          {
+            "Text": "A poor farmer #7922",
+            "Color": "green"
+          },
+          {
+            "Text": "A Brother of Erion #7932",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7931,
+        "Name": "The Southern Wall of the Great Court #7931",
+        "Connections": {
+          "North": 7936,
+          "East": 7913,
+          "West": 7932
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7920",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7921",
+            "Color": "green"
+          },
+          {
+            "Text": "A poor farmer #7922",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7932,
+        "Name": "Outside the Barn #7932",
+        "Connections": {
+          "North": 7935,
+          "East": 7931,
+          "South": 7960,
+          "West": 7933
+        }
+      },
+      {
+        "Id": 7933,
+        "Name": "The SouthWestern Wall of the Great Court #7933",
+        "Connections": {
+          "North": 7934,
+          "East": 7932
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7905",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7918",
+            "Color": "green"
+          },
+          {
+            "Text": "A visitor to the Abbey #7917",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7934,
+        "Name": "The Western Wall of the Great Court #7934",
+        "Connections": {
+          "North": 7942,
+          "East": 7935,
+          "South": 7933
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7920",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7921",
+            "Color": "green"
+          },
+          {
+            "Text": "A poor farmer #7922",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7935,
+        "Name": "The Great Court #7935",
+        "Connections": {
+          "North": 7941,
+          "East": 7936,
+          "South": 7932,
+          "West": 7934
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7905",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7918",
+            "Color": "green"
+          },
+          {
+            "Text": "A visitor to the Abbey #7917",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7936,
+        "Name": "The Vegetable Garden #7936",
+        "Connections": {
+          "North": 7940,
+          "East": 7937,
+          "South": 7931,
+          "West": 7935
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7920",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7921",
+            "Color": "green"
+          },
+          {
+            "Text": "A poor farmer #7922",
+            "Color": "green"
+          },
+          {
+            "Text": "a scarecrow #7919",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7937,
+        "Name": "The Vegetable Garden #7937",
+        "Connections": {
+          "North": 7930,
+          "East": 7938,
+          "South": 7913,
+          "West": 7936
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7905",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7918",
+            "Color": "green"
+          },
+          {
+            "Text": "A visitor to the Abbey #7917",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7938,
+        "Name": "The Great Court #7938",
+        "Connections": {
+          "North": 7929,
+          "East": 7939,
+          "South": 7912,
+          "West": 7937
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7920",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7921",
+            "Color": "green"
+          },
+          {
+            "Text": "A poor farmer #7922",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7939,
+        "Name": "The Great Court #7939",
+        "Connections": {
+          "North": 7928,
+          "East": 7914,
+          "South": 7911,
+          "West": 7938
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7905",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7918",
+            "Color": "green"
+          },
+          {
+            "Text": "A visitor to the Abbey #7917",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7940,
+        "Name": "The Vegetable Garden #7940",
+        "Connections": {
+          "North": 7946,
+          "East": 7930,
+          "South": 7936,
+          "West": 7941
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7905",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7918",
+            "Color": "green"
+          },
+          {
+            "Text": "A visitor to the Abbey #7917",
+            "Color": "green"
+          },
+          {
+            "Text": "a scarecrow #7919",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7941,
+        "Name": "A Coppice of Elms #7941",
+        "Connections": {
+          "North": 7947,
+          "East": 7940,
+          "South": 7935,
+          "West": 7942
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7920",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7921",
+            "Color": "green"
+          },
+          {
+            "Text": "A poor farmer #7922",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7942,
+        "Name": "The Western Wall of the Great Court #7942",
+        "Connections": {
+          "North": 7948,
+          "East": 7941,
+          "South": 7934
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7905",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7918",
+            "Color": "green"
+          },
+          {
+            "Text": "A visitor to the Abbey #7917",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7943,
+        "Name": "The Northern Wall of the Great Court #7943",
+        "Connections": {
+          "East": 7916,
+          "South": 7928,
+          "West": 7944
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7905",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7918",
+            "Color": "green"
+          },
+          {
+            "Text": "A visitor to the Abbey #7917",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7944,
+        "Name": "The Northern Wall of the Great Court #7944",
+        "Connections": {
+          "East": 7943,
+          "South": 7929,
+          "West": 7945
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7920",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7921",
+            "Color": "green"
+          },
+          {
+            "Text": "A poor farmer #7922",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7945,
+        "Name": "Outside the Infirmary #7945",
+        "Connections": {
+          "North": 7950,
+          "East": 7944,
+          "South": 7930,
+          "West": 7946
+        }
+      },
+      {
+        "Id": 7946,
+        "Name": "The Northern Wall of the Great Court #7946",
+        "Connections": {
+          "East": 7945,
+          "South": 7940,
+          "West": 7947
+        },
+        "Contents": [
+          {
+            "Text": "A visitor to the Abbey #7917",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7918",
+            "Color": "green"
+          },
+          {
+            "Text": "A visitor to the Abbey #7917",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7947,
+        "Name": "Entrance to the Abbey Cemetery #7947",
+        "Connections": {
+          "North": 7949,
+          "East": 7946,
+          "South": 7941,
+          "West": 7948
+        }
+      },
+      {
+        "Id": 7948,
+        "Name": "The NorthWestern Wall of the Great Court #7948",
+        "Connections": {
+          "East": 7947,
+          "South": 7942
+        },
+        "Contents": [
+          {
+            "Text": "A Brother of Erion #7920",
+            "Color": "green"
+          },
+          {
+            "Text": "A young novice #7921",
+            "Color": "green"
+          },
+          {
+            "Text": "A poor farmer #7922",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7949,
+        "Name": "The Abbey Cemetery #7949",
+        "Connections": {
+          "East": 7957,
+          "South": 7947
+        },
+        "Contents": [
+          {
+            "Text": "A mourning woman #7914",
+            "Color": "green"
+          },
+          {
+            "Text": "A mourning man #7925",
+            "Color": "green"
+          },
+          {
+            "Text": "Your father #7937",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7950,
+        "Name": "The Infirmary Reception #7950",
+        "Connections": {
+          "North": 7958,
+          "East": 7951,
+          "South": 7945,
+          "West": 7957
+        },
+        "Contents": [
+          {
+            "Text": "A nurse #7916",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7951,
+        "Name": "A long hallway #7951",
+        "Connections": {
+          "North": 7956,
+          "East": 7952,
+          "West": 7950
+        },
+        "Contents": [
+          {
+            "Text": "A nurse #7916",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7952,
+        "Name": "A long hallway #7952",
+        "Connections": {
+          "North": 7954,
+          "East": 7953,
+          "West": 7951
+        },
+        "Contents": [
+          {
+            "Text": "A nurse #7916",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7953,
+        "Name": "A long hallway #7953",
+        "Connections": {
+          "North": {
+            "RoomId": 7955,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 7952
+        },
+        "Contents": [
+          {
+            "Text": "A nurse #7916",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7954,
+        "Name": "An Infirmary Ward #7954",
+        "Connections": {
+          "South": 7952
+        },
+        "Contents": [
+          {
+            "Text": "A sickly Brother #7912",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7955,
+        "Name": "An Infirmary Ward #7955",
+        "Connections": {
+          "South": {
+            "RoomId": 7953,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "An infected sailor #7935",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7956,
+        "Name": "An Infirmary Ward #7956",
+        "Connections": {
+          "South": 7951
+        },
+        "Contents": [
+          {
+            "Text": "A sickly Brother #7912",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7957,
+        "Name": "The Morgue #7957",
+        "Connections": {
+          "East": 7950,
+          "West": 7949
+        },
+        "Contents": [
+          {
+            "Text": "The mortician #7913",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7958,
+        "Name": "A small operating theater #7958",
+        "Connections": {
+          "South": 7950,
+          "West": 7959
+        },
+        "Contents": [
+          {
+            "Text": "The surgeon #7915",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7959,
+        "Name": "The Infirmary Storeroom #7959",
+        "Connections": {
+          "East": 7958
+        },
+        "Contents": [
+          {
+            "Text": "A nurse #7916",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7960,
+        "Name": "The Barn Floor #7960",
+        "Connections": {
+          "North": 7932,
+          "South": 7961,
+          "West": 7963
+        }
+      },
+      {
+        "Id": 7961,
+        "Name": "The Barn Floor #7961",
+        "Connections": {
+          "North": 7960,
+          "West": 7962
+        }
+      },
+      {
+        "Id": 7962,
+        "Name": "The Barn Floor #7962",
+        "Connections": {
+          "North": 7963,
+          "East": 7961
+        }
+      },
+      {
+        "Id": 7963,
+        "Name": "The Barn Floor #7963",
+        "Connections": {
+          "East": 7960,
+          "South": 7962
+        },
+        "Contents": [
+          {
+            "Text": "A babbling young man #7907",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7964,
+        "Name": "The Room of Regeneration #7964",
+        "Connections": {}
+      },
+      {
+        "Id": 7965,
+        "Name": "The Bottom of the Well #7965",
+        "Connections": {
+          "North": 7966,
+          "Up": 7929
+        }
+      },
+      {
+        "Id": 7966,
+        "Name": "A small underwater passage #7966",
+        "Connections": {
+          "North": 7967,
+          "South": 7965
+        },
+        "Contents": [
+          {
+            "Text": "A pale white fish #7926",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7967,
+        "Name": "A small underwater passage #7967",
+        "Connections": {
+          "East": 7968,
+          "South": 7966
+        },
+        "Contents": [
+          {
+            "Text": "A pale white fish #7926",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7968,
+        "Name": "A small underwater passage #7968",
+        "Connections": {
+          "North": 7969,
+          "West": 7967
+        },
+        "Contents": [
+          {
+            "Text": "A pale white fish #7926",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7969,
+        "Name": "A small underwater passage #7969",
+        "Connections": {
+          "North": 7970,
+          "South": 7968
+        },
+        "Contents": [
+          {
+            "Text": "A pale white fish #7926",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7970,
+        "Name": "The Metal Grate #7970",
+        "Connections": {
+          "South": 7969,
+          "Up": {
+            "RoomId": 26172,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the elder circles #7957",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 490
+        },
+        "Contents": [
+          {
+            "Text": "A pale white fish #7926",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7971,
+        "Name": "Inside the Haystack #7971",
+        "Connections": {
+          "Down": {
+            "RoomId": 26099,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Kantraxs room #25706",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 7972,
+        "Name": "The Abbey Cemetery #7972",
+        "Connections": {
+          "East": 7957,
+          "South": 7947
+        },
+        "Contents": [
+          {
+            "Text": "A vengeful spirit #7934",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 7973,
+        "Name": "Steps of the Abbey Church #7973",
+        "Connections": {
+          "South": 7916,
+          "Up": 7974
+        }
+      },
+      {
+        "Id": 7974,
+        "Name": "Abbey Church #7974",
+        "Connections": {
+          "Down": 7973
+        },
+        "Contents": [
+          {
+            "Text": "the master monk of Erion #7936",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 7980,
+        "Name": "A Darker Part of the Graveyard #7980",
+        "Connections": {
+          "East": 7949,
+          "South": 7948,
+          "Down": 7900
+        },
+        "Contents": [
+          {
+            "Text": "The necromancer #7928",
+            "Color": "green"
+          },
+          {
+            "Text": "A rotting zombie #7927",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 21077,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21077",
+        "Color": "blue",
+        "Connections": {
+          "North": 7901,
+          "East": 25828,
+          "South": 21097,
+          "West": 21076,
+          "Down": {
+            "RoomId": 26856,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Irkallias room #25703",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 26822,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26822",
+        "Color": "blue",
+        "Connections": {
+          "East": 26824,
+          "South": {
+            "RoomId": 7904,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Aboliss room #25698",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 26911,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26911",
+        "Color": "blue",
+        "Connections": {
+          "Up": 7910,
+          "Down": 26926
+        }
+      },
+      {
+        "Id": 26172,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26172",
+        "Color": "blue",
+        "Connections": {
+          "West": 1288,
+          "Down": {
+            "RoomId": 7970,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the elder circles #7957",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 490,
+        "FrameColor": "blue",
+        "Name": "To The Hell of Auvyron #490",
+        "Color": "blue",
+        "Connections": {
+          "North": 432,
+          "East": 491,
+          "Up": 7970
+        }
+      },
+      {
+        "Id": 26099,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26099",
+        "Color": "blue",
+        "Connections": {
+          "Up": {
+            "RoomId": 7971,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "key to Kantraxs room #25706",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

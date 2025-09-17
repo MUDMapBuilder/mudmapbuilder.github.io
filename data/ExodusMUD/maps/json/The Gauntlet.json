@@ -1,0 +1,830 @@
+{
+  "Area": {
+    "Name": "The Gauntlet",
+    "MinimumLevel": "5",
+    "MaximumLevel": "25",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 800,
+        "Name": "A Platinum Arch #800",
+        "Connections": {
+          "North": 801,
+          "West": 13430
+        }
+      },
+      {
+        "Id": 801,
+        "Name": "The Bamboo Bridge #801",
+        "Connections": {
+          "North": 802,
+          "South": 800
+        }
+      },
+      {
+        "Id": 802,
+        "Name": "The Bamboo Bridge #802",
+        "Connections": {
+          "North": 803,
+          "South": 801
+        }
+      },
+      {
+        "Id": 803,
+        "Name": "Entrance to the Structure #803",
+        "Connections": {
+          "North": 804,
+          "South": 802
+        }
+      },
+      {
+        "Id": 804,
+        "Name": "The Loche #804",
+        "Connections": {
+          "South": 803,
+          "Down": 805
+        }
+      },
+      {
+        "Id": 805,
+        "Name": "A Low Stone Hallway #805",
+        "Connections": {
+          "North": 806
+        },
+        "Contents": [
+          {
+            "Text": "a wandering gremlin #816",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 806,
+        "Name": "A Low Stone Hallway #806",
+        "Connections": {
+          "North": 807
+        },
+        "Contents": [
+          {
+            "Text": "a wandering gremlin #816",
+            "Color": "green"
+          },
+          {
+            "Text": "a wandering gremlin #816",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 807,
+        "Name": "Sliding Towards the Pit #807",
+        "Connections": {
+          "Up": 808,
+          "Down": 809
+        },
+        "Contents": [
+          {
+            "Text": "a wandering gremlin #816",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 808,
+        "Name": "The Narrow Ledge #808",
+        "Connections": {
+          "North": 810,
+          "Down": 809
+        }
+      },
+      {
+        "Id": 809,
+        "Name": "The Pit #809",
+        "Connections": {
+          "North": 811,
+          "South": {
+            "RoomId": 812,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a slip of paper #808",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "a vicious bugbear #800",
+            "Color": "red"
+          },
+          {
+            "Text": "a vicious bugbear #800",
+            "Color": "red"
+          },
+          {
+            "Text": "a vicious bugbear #800",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 810,
+        "Name": "A Dank Hall #810",
+        "Connections": {
+          "North": 813
+        }
+      },
+      {
+        "Id": 811,
+        "Name": "An Enclosure #811",
+        "Connections": {
+          "South": 809
+        },
+        "Contents": [
+          {
+            "Text": "the bugbear chief #802",
+            "Color": "green"
+          },
+          {
+            "Text": "an elite bugbear leader #801",
+            "Color": "red"
+          },
+          {
+            "Text": "an elite bugbear leader #801",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 812,
+        "Name": "A Secret Passage #812",
+        "Connections": {
+          "North": {
+            "RoomId": 809,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Up": 810
+        }
+      },
+      {
+        "Id": 813,
+        "Name": "A Dank Hall #813",
+        "Connections": {
+          "North": 816,
+          "East": 814,
+          "West": 815
+        },
+        "Contents": [
+          {
+            "Text": "a slicer trap #804",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 814,
+        "Name": "An Offshoot #814",
+        "Connections": {
+          "West": 813
+        }
+      },
+      {
+        "Id": 815,
+        "Name": "An Offshoot #815",
+        "Connections": {
+          "East": 813
+        }
+      },
+      {
+        "Id": 816,
+        "Name": "A Dank Hall #816",
+        "Connections": {
+          "North": 819,
+          "East": 817,
+          "South": 813,
+          "West": 818
+        }
+      },
+      {
+        "Id": 817,
+        "Name": "An Offshoot #817",
+        "Connections": {
+          "West": 816
+        }
+      },
+      {
+        "Id": 818,
+        "Name": "An Offshoot #818",
+        "Connections": {
+          "East": 816
+        }
+      },
+      {
+        "Id": 819,
+        "Name": "A Dank Hall #819",
+        "Connections": {
+          "North": 822,
+          "East": 820,
+          "South": 816,
+          "West": 821
+        }
+      },
+      {
+        "Id": 820,
+        "Name": "An Offshoot #820",
+        "Connections": {
+          "West": 819
+        }
+      },
+      {
+        "Id": 821,
+        "Name": "An Offshoot #821",
+        "Connections": {
+          "East": 819
+        }
+      },
+      {
+        "Id": 822,
+        "Name": "A Circle Cove #822",
+        "Connections": {
+          "North": {
+            "RoomId": 823,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a green key #809",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 819
+        },
+        "Contents": [
+          {
+            "Text": "a phase guardian #803",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 823,
+        "Name": "The Lower Chambers  Arena #823",
+        "Connections": {
+          "North": 825,
+          "East": 824,
+          "South": {
+            "RoomId": 822,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a green key #809",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 829
+        },
+        "Contents": [
+          {
+            "Text": "a doppelganger #805",
+            "Color": "green"
+          },
+          {
+            "Text": "a doppelganger #805",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 824,
+        "Name": "The Lower Chambers  Arena #824",
+        "Connections": {
+          "North": 826,
+          "East": 829,
+          "West": 823
+        },
+        "Contents": [
+          {
+            "Text": "a doppelganger #805",
+            "Color": "green"
+          },
+          {
+            "Text": "a doppelganger #805",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 825,
+        "Name": "The Lower Chambers  Arena #825",
+        "Connections": {
+          "North": 827,
+          "East": 826,
+          "South": 823,
+          "West": 828
+        },
+        "Contents": [
+          {
+            "Text": "a doppelganger #805",
+            "Color": "green"
+          },
+          {
+            "Text": "a doppelganger #805",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 826,
+        "Name": "The Lower Chambers  Arena #826",
+        "Connections": {
+          "North": 828,
+          "East": 827,
+          "South": 824,
+          "West": 825
+        },
+        "Contents": [
+          {
+            "Text": "a doppelganger #805",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 827,
+        "Name": "The Lower Chambers  Arena #827",
+        "Connections": {
+          "North": 829,
+          "East": 828,
+          "South": 825,
+          "West": 826
+        },
+        "Contents": [
+          {
+            "Text": "a doppelganger #805",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 828,
+        "Name": "The Lower Chambers  Arena #828",
+        "Connections": {
+          "East": 825,
+          "South": 826,
+          "West": 827
+        },
+        "Contents": [
+          {
+            "Text": "a doppelganger #805",
+            "Color": "green"
+          },
+          {
+            "Text": "a doppelganger #805",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 829,
+        "Name": "The Lower Chambers  Arena #829",
+        "Connections": {
+          "North": {
+            "RoomId": 830,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a purple fringed card #812",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 823,
+          "South": 827,
+          "West": 824
+        },
+        "Contents": [
+          {
+            "Text": "a doppelganger pseudolord #806",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 830,
+        "Name": "A Wet Slope #830",
+        "Connections": {
+          "South": {
+            "RoomId": 829,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 831
+        }
+      },
+      {
+        "Id": 831,
+        "Name": "A Vertical Fall #831",
+        "Connections": {
+          "Down": 832
+        },
+        "Contents": [
+          {
+            "Text": "swinging mace trap #807",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 832,
+        "Name": "A Vertical Fall #832",
+        "Connections": {
+          "Down": 833
+        },
+        "Contents": [
+          {
+            "Text": "swinging mace trap #807",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 833,
+        "Name": "River Run #833",
+        "Connections": {
+          "North": 834
+        },
+        "Contents": [
+          {
+            "Text": "waterspear trap #808",
+            "Color": "red"
+          },
+          {
+            "Text": "an aquatic elf #809",
+            "Color": "green"
+          },
+          {
+            "Text": "an aquatic elf #809",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 834,
+        "Name": "River Run #834",
+        "Connections": {
+          "North": 835
+        },
+        "Contents": [
+          {
+            "Text": "waterspear trap #808",
+            "Color": "red"
+          },
+          {
+            "Text": "an aquatic elf #809",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 835,
+        "Name": "River Run #835",
+        "Connections": {
+          "North": 836
+        },
+        "Contents": [
+          {
+            "Text": "waterspear trap #808",
+            "Color": "red"
+          },
+          {
+            "Text": "an aquatic elf #809",
+            "Color": "green"
+          },
+          {
+            "Text": "an aquatic elf #809",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 836,
+        "Name": "Whirlpool #836",
+        "Connections": {
+          "North": {
+            "RoomId": 837,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a clear waterblue key #813",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 838
+        },
+        "Contents": [
+          {
+            "Text": "the elflord #810",
+            "Color": "green"
+          },
+          {
+            "Text": "an aquatic elf #809",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 837,
+        "Name": "Descending the Shaft #837",
+        "Connections": {
+          "South": {
+            "RoomId": 836,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "Down": 839
+        }
+      },
+      {
+        "Id": 838,
+        "Name": "A Hidden Passage #838",
+        "Connections": {
+          "North": 800,
+          "Up": 836
+        }
+      },
+      {
+        "Id": 839,
+        "Name": "Descending the Shaft #839",
+        "Connections": {
+          "Up": 837,
+          "Down": 840
+        }
+      },
+      {
+        "Id": 840,
+        "Name": "A Razed Circle #840",
+        "Connections": {
+          "North": 841,
+          "East": 845,
+          "South": 843,
+          "West": 847,
+          "Down": {
+            "RoomId": 849,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a grate key #817",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 841,
+        "Name": "One Hot Chamber #841",
+        "Connections": {
+          "North": 842,
+          "South": 840
+        }
+      },
+      {
+        "Id": 842,
+        "Name": "One Bright and Hot Chamber #842",
+        "Connections": {
+          "South": 841
+        },
+        "Contents": [
+          {
+            "Text": "The Sun Dragon #811",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 843,
+        "Name": "Darkness #843",
+        "Connections": {
+          "North": 840,
+          "South": 844
+        }
+      },
+      {
+        "Id": 844,
+        "Name": "Well of Darkness #844",
+        "Connections": {
+          "North": 843
+        },
+        "Contents": [
+          {
+            "Text": "The Shadow Dragon #812",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 845,
+        "Name": "A Bland Room #845",
+        "Connections": {
+          "East": 846,
+          "West": 840
+        }
+      },
+      {
+        "Id": 846,
+        "Name": "Foggy Gas #846",
+        "Connections": {
+          "West": 845
+        },
+        "Contents": [
+          {
+            "Text": "The Serpent Dragon #813",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 847,
+        "Name": "A Prickly Cold Cavern #847",
+        "Connections": {
+          "East": 840,
+          "West": 848
+        }
+      },
+      {
+        "Id": 848,
+        "Name": "A Small Alcove #848",
+        "Connections": {
+          "East": 847
+        },
+        "Contents": [
+          {
+            "Text": "The Blue Dragon #814",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 849,
+        "Name": "A Passage #849",
+        "Connections": {
+          "Up": {
+            "RoomId": 840,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a grate key #817",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": {
+            "RoomId": 850,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a grate key #818",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 850,
+        "Name": "A Passage #850",
+        "Connections": {
+          "Up": {
+            "RoomId": 849,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a grate key #818",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": {
+            "RoomId": 851,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a grate key #819",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 851,
+        "Name": "A Passage #851",
+        "Connections": {
+          "Up": {
+            "RoomId": 850,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a grate key #819",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 852
+        }
+      },
+      {
+        "Id": 852,
+        "Name": "Passage End #852",
+        "Connections": {
+          "North": 853,
+          "Up": 851
+        }
+      },
+      {
+        "Id": 853,
+        "Name": "A Vicious Trap #853",
+        "Connections": {
+          "South": 852,
+          "Up": 854
+        },
+        "Contents": [
+          {
+            "Text": "a wicked arrowandaxe trap #822",
+            "Color": "red"
+          },
+          {
+            "Text": "a wicked arrowandaxe trap #822",
+            "Color": "red"
+          },
+          {
+            "Text": "a wicked arrowandaxe trap #822",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 854,
+        "Name": "A Bright Room #854",
+        "Connections": {
+          "North": 800
+        },
+        "Contents": [
+          {
+            "Text": "Alamanion #815",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 875,
+        "Name": " #875",
+        "Connections": {}
+      },
+      {
+        "Id": 13430,
+        "FrameColor": "blue",
+        "Name": "To The Macocaap Outlands #13430",
+        "Color": "blue",
+        "Connections": {
+          "North": 13425,
+          "East": 800,
+          "South": 13435,
+          "West": 13429
+        }
+      }
+    ]
+  }
+}

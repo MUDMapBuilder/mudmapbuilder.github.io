@@ -1,0 +1,1520 @@
+{
+  "Area": {
+    "Name": "Merossa",
+    "MinimumLevel": "40",
+    "MaximumLevel": "91",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 14000,
+        "Name": "Jail Cell #14000",
+        "Connections": {
+          "Down": {
+            "RoomId": 14014,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a prison key #14015",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The prisoner #14008",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14001,
+        "Name": "Northwest Corner #14001",
+        "Connections": {
+          "East": 14002,
+          "South": 14010,
+          "Up": 14085
+        }
+      },
+      {
+        "Id": 14002,
+        "Name": "Citadel Street #14002",
+        "Connections": {
+          "East": 14003,
+          "South": 14011,
+          "West": 14001
+        }
+      },
+      {
+        "Id": 14003,
+        "Name": "Citadel Street #14003",
+        "Connections": {
+          "East": 14004,
+          "West": 14002
+        }
+      },
+      {
+        "Id": 14004,
+        "Name": "Northern Gate of Merossa #14004",
+        "Connections": {
+          "North": {
+            "RoomId": 14060,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "East": 14005,
+          "South": 14013,
+          "West": 14003
+        }
+      },
+      {
+        "Id": 14005,
+        "Name": "Citadel Street #14005",
+        "Connections": {
+          "East": 14006,
+          "South": 14008,
+          "West": 14004
+        }
+      },
+      {
+        "Id": 14006,
+        "Name": "Citadel Street #14006",
+        "Connections": {
+          "East": 14007,
+          "South": 14009,
+          "West": 14005
+        }
+      },
+      {
+        "Id": 14007,
+        "Name": "Northeast Corner #14007",
+        "Connections": {
+          "South": 14015,
+          "West": 14006,
+          "Up": 14091
+        }
+      },
+      {
+        "Id": 14008,
+        "Name": "Guard House #14008",
+        "Connections": {
+          "North": 14005,
+          "Up": 14050
+        },
+        "Contents": [
+          {
+            "Text": "Captain Tylor #14000",
+            "Color": "green"
+          },
+          {
+            "Text": "The town guard #14003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14009,
+        "Name": "Warrior Guildmasters Home #14009",
+        "Connections": {
+          "North": 14006
+        },
+        "Contents": [
+          {
+            "Text": "Vanden Darkblade #14007",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14010,
+        "Name": "Church Street #14010",
+        "Connections": {
+          "North": 14001,
+          "East": 14011,
+          "South": 14019
+        }
+      },
+      {
+        "Id": 14011,
+        "Name": "Church #14011",
+        "Connections": {
+          "North": 14002,
+          "East": 14012,
+          "South": 14020,
+          "West": 14010
+        },
+        "Contents": [
+          {
+            "Text": "The Priest #14004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14012,
+        "Name": "Chapel #14012",
+        "Connections": {
+          "West": 14011
+        },
+        "Contents": [
+          {
+            "Text": "A little girl #14013",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14013,
+        "Name": "Seaside Road #14013",
+        "Connections": {
+          "North": 14004,
+          "South": 14022
+        }
+      },
+      {
+        "Id": 14014,
+        "Name": "Town Jail #14014",
+        "Connections": {
+          "East": 14015,
+          "Up": {
+            "RoomId": 14000,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a prison key #14015",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 14015,
+        "Name": "Riverside Lane #14015",
+        "Connections": {
+          "North": 14007,
+          "South": 14025,
+          "West": 14014
+        }
+      },
+      {
+        "Id": 14016,
+        "Name": "Abandoned Butcher Shop #14016",
+        "Connections": {
+          "South": 14021
+        }
+      },
+      {
+        "Id": 14017,
+        "Name": "An abandoned shop #14017",
+        "Connections": {
+          "South": 14023
+        }
+      },
+      {
+        "Id": 14018,
+        "Name": "Boardedup Weapons Shop #14018",
+        "Connections": {
+          "South": 14024
+        }
+      },
+      {
+        "Id": 14019,
+        "Name": "Western Gate of Merossa #14019",
+        "Connections": {
+          "North": 14010,
+          "East": 14020,
+          "South": 14030,
+          "West": 14053
+        }
+      },
+      {
+        "Id": 14020,
+        "Name": "Main Street #14020",
+        "Connections": {
+          "North": 14011,
+          "East": 14021,
+          "West": 14019
+        },
+        "Contents": [
+          {
+            "Text": "The paladin #14001",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14021,
+        "Name": "Main Street #14021",
+        "Connections": {
+          "North": 14016,
+          "East": 14022,
+          "South": 14027,
+          "West": 14020
+        }
+      },
+      {
+        "Id": 14022,
+        "Name": "Town Square #14022",
+        "Connections": {
+          "North": 14013,
+          "East": 14023,
+          "South": 14031,
+          "West": 14021
+        },
+        "Contents": [
+          {
+            "Text": "A seagull #14015",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14023,
+        "Name": "Main Street #14023",
+        "Connections": {
+          "North": 14017,
+          "East": 14024,
+          "South": 14028,
+          "West": 14022
+        }
+      },
+      {
+        "Id": 14024,
+        "Name": "Main Street #14024",
+        "Connections": {
+          "North": 14018,
+          "East": 14025,
+          "South": 14029,
+          "West": 14023
+        }
+      },
+      {
+        "Id": 14025,
+        "Name": "Eastern Gate of Merossa #14025",
+        "Connections": {
+          "North": 14015,
+          "East": 14052,
+          "South": 14032,
+          "West": 14024
+        }
+      },
+      {
+        "Id": 14026,
+        "Name": "UNUSED #14026",
+        "Connections": {}
+      },
+      {
+        "Id": 14027,
+        "Name": "Ransacked Shop #14027",
+        "Connections": {
+          "North": 14021
+        },
+        "Contents": [
+          {
+            "Text": "A citizen #14005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14028,
+        "Name": "Boardedup Armory #14028",
+        "Connections": {
+          "North": 14023
+        },
+        "Contents": [
+          {
+            "Text": "Verris #14009",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14029,
+        "Name": "Merossa Town Hall #14029",
+        "Connections": {
+          "North": 14024
+        }
+      },
+      {
+        "Id": 14030,
+        "Name": "Church Street #14030",
+        "Connections": {
+          "North": 14019,
+          "South": 14036
+        }
+      },
+      {
+        "Id": 14031,
+        "Name": "Seaside Road #14031",
+        "Connections": {
+          "North": 14022,
+          "South": 14039
+        }
+      },
+      {
+        "Id": 14032,
+        "Name": "Riverside Lane #14032",
+        "Connections": {
+          "North": 14025,
+          "South": 14042
+        }
+      },
+      {
+        "Id": 14033,
+        "Name": "A small seaside cottage #14033",
+        "Connections": {
+          "South": 14037
+        }
+      },
+      {
+        "Id": 14034,
+        "Name": "Burning Tavern #14034",
+        "Connections": {
+          "South": 14038
+        }
+      },
+      {
+        "Id": 14035,
+        "Name": "Looted Store #14035",
+        "Connections": {
+          "South": 14040
+        }
+      },
+      {
+        "Id": 14036,
+        "Name": "Southwest Corner #14036",
+        "Connections": {
+          "North": 14030,
+          "East": 14037,
+          "South": 14043
+        }
+      },
+      {
+        "Id": 14037,
+        "Name": "Harbor Street #14037",
+        "Connections": {
+          "North": {
+            "RoomId": 14033,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a tiny key #14021",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 14038,
+          "South": 14044,
+          "West": 14036
+        }
+      },
+      {
+        "Id": 14038,
+        "Name": "Harbor Street #14038",
+        "Connections": {
+          "North": 14034,
+          "East": 14039,
+          "South": 14045,
+          "West": 14037
+        }
+      },
+      {
+        "Id": 14039,
+        "Name": "Ocean Square #14039",
+        "Connections": {
+          "North": 14031,
+          "East": 14040,
+          "South": 14046,
+          "West": 14038
+        }
+      },
+      {
+        "Id": 14040,
+        "Name": "Harbor Street #14040",
+        "Connections": {
+          "North": 14035,
+          "East": 14041,
+          "South": 14047,
+          "West": 14039
+        }
+      },
+      {
+        "Id": 14041,
+        "Name": "Harbor Street #14041",
+        "Connections": {
+          "East": 14042,
+          "South": 14048,
+          "West": 14040
+        }
+      },
+      {
+        "Id": 14042,
+        "Name": "Southeast Corner #14042",
+        "Connections": {
+          "North": 14032,
+          "South": 14049,
+          "West": 14041
+        }
+      },
+      {
+        "Id": 14043,
+        "Name": "Pier #14043",
+        "Connections": {
+          "North": 14036
+        }
+      },
+      {
+        "Id": 14044,
+        "Name": "Pier #14044",
+        "Connections": {
+          "North": 14037
+        }
+      },
+      {
+        "Id": 14045,
+        "Name": "Pier #14045",
+        "Connections": {
+          "North": 14038
+        }
+      },
+      {
+        "Id": 14046,
+        "Name": "Pier #14046",
+        "Connections": {
+          "North": 14039
+        },
+        "Contents": [
+          {
+            "Text": "A pirate raider #14002",
+            "Color": "green"
+          },
+          {
+            "Text": "A voodoo priest #14011",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14047,
+        "Name": "Pier #14047",
+        "Connections": {
+          "North": 14040
+        }
+      },
+      {
+        "Id": 14048,
+        "Name": "Pier #14048",
+        "Connections": {
+          "North": 14041
+        }
+      },
+      {
+        "Id": 14049,
+        "Name": "Pier #14049",
+        "Connections": {
+          "North": 14042
+        }
+      },
+      {
+        "Id": 14050,
+        "Name": "Armory #14050",
+        "Connections": {
+          "Down": 14008
+        },
+        "Contents": [
+          {
+            "Text": "The medic of the town guard #14010",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14052,
+        "Name": "Bridge #14052",
+        "Connections": {
+          "East": 14100,
+          "West": 14025
+        }
+      },
+      {
+        "Id": 14053,
+        "Name": "Outside the Western gate of Merossa #14053",
+        "Connections": {
+          "East": 14019,
+          "West": 14054
+        }
+      },
+      {
+        "Id": 14054,
+        "Name": "The Road to Merossa #14054",
+        "Connections": {
+          "East": 14053,
+          "West": 14055
+        }
+      },
+      {
+        "Id": 14055,
+        "Name": "A wellworn road #14055",
+        "Connections": {
+          "East": 14054,
+          "South": 14056
+        }
+      },
+      {
+        "Id": 14056,
+        "Name": "A wellworn road #14056",
+        "Connections": {
+          "North": 14055,
+          "South": 14057
+        }
+      },
+      {
+        "Id": 14057,
+        "Name": "Path around the Bay #14057",
+        "Connections": {
+          "North": 14056,
+          "West": 14058
+        }
+      },
+      {
+        "Id": 14058,
+        "Name": "Path around the Bay #14058",
+        "Connections": {
+          "East": 14057,
+          "West": 14059
+        }
+      },
+      {
+        "Id": 14059,
+        "Name": "Rounding the Bend #14059",
+        "Connections": {
+          "East": 14058,
+          "South": 14061
+        }
+      },
+      {
+        "Id": 14060,
+        "Name": "Wellbeaten path #14060",
+        "Connections": {
+          "South": {
+            "RoomId": 14004,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 14061,
+        "Name": "Path around the Bay #14061",
+        "Connections": {
+          "North": 14059,
+          "South": 14062
+        }
+      },
+      {
+        "Id": 14062,
+        "Name": "Path along the coast #14062",
+        "Connections": {
+          "North": 14061,
+          "East": 14063
+        }
+      },
+      {
+        "Id": 14063,
+        "Name": "Path along the coast #14063",
+        "Connections": {
+          "South": 21069,
+          "West": 14062
+        }
+      },
+      {
+        "Id": 14064,
+        "Name": "In the river #14064",
+        "Connections": {
+          "South": 14065
+        }
+      },
+      {
+        "Id": 14065,
+        "Name": "In the river #14065",
+        "Connections": {
+          "North": 14064,
+          "South": 14066
+        }
+      },
+      {
+        "Id": 14066,
+        "Name": "In the river #14066",
+        "Connections": {
+          "North": 14065
+        }
+      },
+      {
+        "Id": 14070,
+        "Name": "Deck of the Crimson #14070",
+        "Connections": {
+          "North": 14071,
+          "South": 14072,
+          "Down": 14077
+        },
+        "Contents": [
+          {
+            "Text": "A pirate raider #14002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14071,
+        "Name": "Foredeck of the Crimson #14071",
+        "Connections": {
+          "South": 14070
+        }
+      },
+      {
+        "Id": 14072,
+        "Name": "Aft deck of the Crimson #14072",
+        "Connections": {
+          "North": 14070
+        }
+      },
+      {
+        "Id": 14073,
+        "Name": "Cabin #14073",
+        "Connections": {
+          "East": 14074
+        }
+      },
+      {
+        "Id": 14074,
+        "Name": "Hallway #14074",
+        "Connections": {
+          "East": 14075,
+          "South": 14077,
+          "West": 14073
+        }
+      },
+      {
+        "Id": 14075,
+        "Name": "Cabin #14075",
+        "Connections": {
+          "West": 14074
+        }
+      },
+      {
+        "Id": 14076,
+        "Name": "Cabin #14076",
+        "Connections": {
+          "East": 14077
+        }
+      },
+      {
+        "Id": 14077,
+        "Name": "Hallway #14077",
+        "Connections": {
+          "North": 14074,
+          "East": 14078,
+          "South": 14079,
+          "West": 14076,
+          "Up": 14070,
+          "Down": 14080
+        },
+        "Contents": [
+          {
+            "Text": "A pirate raider #14002",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14078,
+        "Name": "Cabin #14078",
+        "Connections": {
+          "West": 14077
+        }
+      },
+      {
+        "Id": 14079,
+        "Name": "Captains Quarters #14079",
+        "Connections": {
+          "North": 14077
+        },
+        "Contents": [
+          {
+            "Text": "The pirate king #14006",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14080,
+        "Name": "Cargo Hold #14080",
+        "Connections": {
+          "Up": 14077
+        }
+      },
+      {
+        "Id": 14081,
+        "Name": "Southwest end of the town wall #14081",
+        "Connections": {
+          "North": 14082
+        },
+        "Contents": [
+          {
+            "Text": "The sentry guard #14014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14082,
+        "Name": "Town Wall #14082",
+        "Connections": {
+          "North": 14083,
+          "South": 14081
+        }
+      },
+      {
+        "Id": 14083,
+        "Name": "Above the Western Gate #14083",
+        "Connections": {
+          "North": 14084,
+          "South": 14082
+        }
+      },
+      {
+        "Id": 14084,
+        "Name": "Town Wall #14084",
+        "Connections": {
+          "North": 14085,
+          "South": 14083
+        },
+        "Contents": [
+          {
+            "Text": "The sentry guard #14014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14085,
+        "Name": "Northwest corner of the town wall #14085",
+        "Connections": {
+          "East": 14086,
+          "South": 14084,
+          "Down": 14001
+        }
+      },
+      {
+        "Id": 14086,
+        "Name": "Town Wall #14086",
+        "Connections": {
+          "East": 14087,
+          "West": 14085
+        },
+        "Contents": [
+          {
+            "Text": "The sentry guard #14014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14087,
+        "Name": "Town Wall #14087",
+        "Connections": {
+          "East": 14088,
+          "West": 14086
+        }
+      },
+      {
+        "Id": 14088,
+        "Name": "Above the Northern Gate #14088",
+        "Connections": {
+          "East": 14089,
+          "West": 14087
+        }
+      },
+      {
+        "Id": 14089,
+        "Name": "Town Wall #14089",
+        "Connections": {
+          "East": 14090,
+          "West": 14088
+        }
+      },
+      {
+        "Id": 14090,
+        "Name": "Town Wall #14090",
+        "Connections": {
+          "East": 14091,
+          "West": 14089
+        },
+        "Contents": [
+          {
+            "Text": "The sentry guard #14014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14091,
+        "Name": "Northeast corner of the town wall #14091",
+        "Connections": {
+          "South": 14092,
+          "West": 14090,
+          "Down": 14007
+        }
+      },
+      {
+        "Id": 14092,
+        "Name": "Town Wall #14092",
+        "Connections": {
+          "North": 14091,
+          "South": 14093
+        },
+        "Contents": [
+          {
+            "Text": "The sentry guard #14014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14093,
+        "Name": "Above the Eastern Gate #14093",
+        "Connections": {
+          "North": 14092,
+          "South": 14094
+        }
+      },
+      {
+        "Id": 14094,
+        "Name": "Town Wall #14094",
+        "Connections": {
+          "North": 14093,
+          "South": 14095
+        }
+      },
+      {
+        "Id": 14095,
+        "Name": "Southeast end of the town wall #14095",
+        "Connections": {
+          "North": 14094
+        },
+        "Contents": [
+          {
+            "Text": "The sentry guard #14014",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14096,
+        "Name": "Shadowy Passage #14096",
+        "Connections": {
+          "East": 14030
+        }
+      },
+      {
+        "Id": 14097,
+        "Name": "Inside the Basket #14097",
+        "Connections": {}
+      },
+      {
+        "Id": 14098,
+        "Name": "On the roof of the guardhouse #14098",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "A scared kitten #14012",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14100,
+        "Name": "Jungle Path #14100",
+        "Connections": {
+          "East": 14101,
+          "West": 14052
+        }
+      },
+      {
+        "Id": 14101,
+        "Name": "Jungle Path #14101",
+        "Connections": {
+          "North": 14102,
+          "West": 14100
+        }
+      },
+      {
+        "Id": 14102,
+        "Name": "Jungle Path #14102",
+        "Connections": {
+          "North": 14103,
+          "South": 14101
+        }
+      },
+      {
+        "Id": 14103,
+        "Name": "Jungle Path #14103",
+        "Connections": {
+          "North": 14104,
+          "South": 14102
+        }
+      },
+      {
+        "Id": 14104,
+        "Name": "Clearing #14104",
+        "Connections": {
+          "East": 14105,
+          "South": 14103
+        }
+      },
+      {
+        "Id": 14105,
+        "Name": "Rocky Path #14105",
+        "Connections": {
+          "East": 14106,
+          "West": 14104
+        }
+      },
+      {
+        "Id": 14106,
+        "Name": "Rocky Path #14106",
+        "Connections": {
+          "East": 14107,
+          "West": 14105
+        }
+      },
+      {
+        "Id": 14107,
+        "Name": "Rocky Path #14107",
+        "Connections": {
+          "North": 14108,
+          "West": 14106
+        }
+      },
+      {
+        "Id": 14108,
+        "Name": "Mountain Trail #14108",
+        "Connections": {
+          "South": 14107,
+          "West": 14109
+        }
+      },
+      {
+        "Id": 14109,
+        "Name": "Mountain Trail #14109",
+        "Connections": {
+          "East": 14108,
+          "West": 14110
+        }
+      },
+      {
+        "Id": 14110,
+        "Name": "Mountain Trail #14110",
+        "Connections": {
+          "North": 14111,
+          "East": 14109
+        }
+      },
+      {
+        "Id": 14111,
+        "Name": "Mountain Trail #14111",
+        "Connections": {
+          "North": 14112,
+          "South": 14110
+        },
+        "Contents": [
+          {
+            "Text": "A marmot #14102",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14112,
+        "Name": "Mountain Trail #14112",
+        "Connections": {
+          "East": 14113,
+          "South": 14111
+        }
+      },
+      {
+        "Id": 14113,
+        "Name": "Mountain Trail #14113",
+        "Connections": {
+          "East": 14114,
+          "West": 14112
+        }
+      },
+      {
+        "Id": 14114,
+        "Name": "Mountain Trail #14114",
+        "Connections": {
+          "North": 14115,
+          "East": 14127,
+          "West": 14113
+        }
+      },
+      {
+        "Id": 14115,
+        "Name": "Mountain Trail #14115",
+        "Connections": {
+          "North": 14116,
+          "South": 14114
+        }
+      },
+      {
+        "Id": 14116,
+        "Name": "Mountain Trail #14116",
+        "Connections": {
+          "South": 14115,
+          "West": 14117
+        }
+      },
+      {
+        "Id": 14117,
+        "Name": "Mountain Trail #14117",
+        "Connections": {
+          "East": 14116,
+          "West": 14118
+        }
+      },
+      {
+        "Id": 14118,
+        "Name": "Mountain Trail #14118",
+        "Connections": {
+          "North": 14119,
+          "East": 14117
+        },
+        "Contents": [
+          {
+            "Text": "A mountain lion #14103",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14119,
+        "Name": "Mountain Trail #14119",
+        "Connections": {
+          "North": 14120,
+          "South": 14118
+        }
+      },
+      {
+        "Id": 14120,
+        "Name": "Plateau #14120",
+        "Connections": {
+          "South": 14119,
+          "West": 14121
+        },
+        "Contents": [
+          {
+            "Text": "A mountain goat #14108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14121,
+        "Name": "Along the crater #14121",
+        "Connections": {
+          "North": 14122,
+          "East": 14120
+        }
+      },
+      {
+        "Id": 14122,
+        "Name": "Along the crater #14122",
+        "Connections": {
+          "North": 14123,
+          "South": 14121
+        }
+      },
+      {
+        "Id": 14123,
+        "Name": "Along the crater #14123",
+        "Connections": {
+          "South": 14122,
+          "West": 14124
+        }
+      },
+      {
+        "Id": 14124,
+        "Name": "Lakeside along the crater #14124",
+        "Connections": {
+          "North": 14126,
+          "East": 14123,
+          "South": 14125,
+          "Down": 14156
+        }
+      },
+      {
+        "Id": 14125,
+        "Name": "Lakeside along the crater #14125",
+        "Connections": {
+          "North": 14124
+        },
+        "Contents": [
+          {
+            "Text": "A grizzly bear #14104",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14126,
+        "Name": "Lakeside along the crater #14126",
+        "Connections": {
+          "South": 14124,
+          "Down": 14157
+        }
+      },
+      {
+        "Id": 14127,
+        "Name": "Cave #14127",
+        "Connections": {
+          "East": 14128,
+          "West": 14114
+        }
+      },
+      {
+        "Id": 14128,
+        "Name": "Mountain Cave #14128",
+        "Connections": {
+          "South": 14129,
+          "West": 14127
+        }
+      },
+      {
+        "Id": 14129,
+        "Name": "Mountain Cave #14129",
+        "Connections": {
+          "North": 14128,
+          "East": 14137,
+          "South": 14130
+        }
+      },
+      {
+        "Id": 14130,
+        "Name": "Tiny Cave #14130",
+        "Connections": {
+          "North": 14129,
+          "South": 14131
+        }
+      },
+      {
+        "Id": 14131,
+        "Name": "Tiny Cave #14131",
+        "Connections": {
+          "North": 14130,
+          "East": 14132
+        }
+      },
+      {
+        "Id": 14132,
+        "Name": "Tiny Cave #14132",
+        "Connections": {
+          "North": 14133,
+          "West": 14131
+        },
+        "Contents": [
+          {
+            "Text": "A goblin warrior #14105",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14133,
+        "Name": "Tight Squeeze #14133",
+        "Connections": {
+          "East": 14134,
+          "South": 14132
+        }
+      },
+      {
+        "Id": 14134,
+        "Name": "Tight Squeeze #14134",
+        "Connections": {
+          "South": 14135,
+          "West": 14133
+        }
+      },
+      {
+        "Id": 14135,
+        "Name": "Widening Cavern #14135",
+        "Connections": {
+          "North": 14134,
+          "South": 14136
+        },
+        "Contents": [
+          {
+            "Text": "A goblin warrior #14105",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14136,
+        "Name": "Goblin Throne Room #14136",
+        "Connections": {
+          "North": 14135
+        },
+        "Contents": [
+          {
+            "Text": "Bonebreak #14106",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14137,
+        "Name": "Warm Cave #14137",
+        "Connections": {
+          "East": 14138,
+          "West": 14129
+        }
+      },
+      {
+        "Id": 14138,
+        "Name": "Warm Cave #14138",
+        "Connections": {
+          "North": 14139,
+          "West": 14137
+        }
+      },
+      {
+        "Id": 14139,
+        "Name": "Warm Cave #14139",
+        "Connections": {
+          "North": {
+            "RoomId": 14140,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "A metal key #14102",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 14138
+        }
+      },
+      {
+        "Id": 14140,
+        "Name": "Sulphur Cave #14140",
+        "Connections": {
+          "North": 14141,
+          "South": {
+            "RoomId": 14139,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "A metal key #14102",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 14141,
+        "Name": "Sulphur Cave #14141",
+        "Connections": {
+          "North": 14142,
+          "South": 14140
+        }
+      },
+      {
+        "Id": 14142,
+        "Name": "Sulphur Cave #14142",
+        "Connections": {
+          "North": 14143,
+          "South": 14141
+        }
+      },
+      {
+        "Id": 14143,
+        "Name": "Sulphur Cave #14143",
+        "Connections": {
+          "North": 14144,
+          "South": 14142
+        }
+      },
+      {
+        "Id": 14144,
+        "Name": "Sulphur Cave #14144",
+        "Connections": {
+          "South": 14143,
+          "West": 14145
+        }
+      },
+      {
+        "Id": 14145,
+        "Name": "Bridge over Lake of Fire #14145",
+        "Connections": {
+          "East": 14144,
+          "West": 14146
+        },
+        "Contents": [
+          {
+            "Text": "a fire elemental #14109",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14146,
+        "Name": "Dragons Lair #14146",
+        "Connections": {
+          "West": 14147
+        }
+      },
+      {
+        "Id": 14147,
+        "Name": "Dragons Lair #14147",
+        "Connections": {
+          "North": 14148,
+          "East": 14146,
+          "South": 14149,
+          "West": 14150
+        },
+        "Contents": [
+          {
+            "Text": "Dharkkum #14101",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 14148,
+        "Name": "Dragons Lair #14148",
+        "Connections": {
+          "South": 14147
+        }
+      },
+      {
+        "Id": 14149,
+        "Name": "Dragons Lair #14149",
+        "Connections": {
+          "North": 14147
+        }
+      },
+      {
+        "Id": 14150,
+        "Name": "Dragons Lair #14150",
+        "Connections": {
+          "East": 14147
+        }
+      },
+      {
+        "Id": 14151,
+        "Name": "Tiny Underwater Cave #14151",
+        "Connections": {
+          "West": 14152
+        }
+      },
+      {
+        "Id": 14152,
+        "Name": "Bottom of the Lake #14152",
+        "Connections": {
+          "Up": 14153
+        }
+      },
+      {
+        "Id": 14153,
+        "Name": "Under the Crater lake #14153",
+        "Connections": {
+          "Up": 14154,
+          "Down": 14152
+        }
+      },
+      {
+        "Id": 14154,
+        "Name": "Under the Crater lake #14154",
+        "Connections": {
+          "Up": 14155,
+          "Down": 14153
+        }
+      },
+      {
+        "Id": 14155,
+        "Name": "Surface of the Crater Lake #14155",
+        "Connections": {
+          "North": 14158,
+          "East": 14156,
+          "Down": 14154
+        }
+      },
+      {
+        "Id": 14156,
+        "Name": "Surface of the Crater Lake #14156",
+        "Connections": {
+          "North": 14157,
+          "West": 14155,
+          "Up": 14124
+        }
+      },
+      {
+        "Id": 14157,
+        "Name": "Surface of the Crater Lake #14157",
+        "Connections": {
+          "South": 14156,
+          "West": 14158,
+          "Up": 14126
+        }
+      },
+      {
+        "Id": 14158,
+        "Name": "Surface of the Crater Lake #14158",
+        "Connections": {
+          "East": 14157,
+          "South": 14155
+        }
+      },
+      {
+        "Id": 21069,
+        "FrameColor": "blue",
+        "Name": "To Eastern Prairie #21069",
+        "Color": "blue",
+        "Connections": {
+          "North": 14063,
+          "West": 21068,
+          "Down": {
+            "RoomId": 21435,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a foxtail signal #21096",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

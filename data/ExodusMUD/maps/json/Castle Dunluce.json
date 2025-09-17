@@ -1,0 +1,2379 @@
+{
+  "Area": {
+    "Name": "Castle Dunluce",
+    "MinimumLevel": "25",
+    "MaximumLevel": "65",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 100,
+        "Name": "Before Castle Dunluce #100",
+        "Connections": {
+          "North": 4090,
+          "East": 327,
+          "South": {
+            "RoomId": 101,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the castle gate key #107",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 324
+        },
+        "Contents": [
+          {
+            "Text": "the Castle Guardian #100",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 101,
+        "Name": "Inside Castle Dunluce #101",
+        "Connections": {
+          "North": {
+            "RoomId": 100,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the castle gate key #107",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 108
+        }
+      },
+      {
+        "Id": 103,
+        "Name": "A bend in the musty corridor #103",
+        "Connections": {
+          "East": 104,
+          "South": 109
+        }
+      },
+      {
+        "Id": 104,
+        "Name": "A bend in the musty corridor #104",
+        "Connections": {
+          "South": 110,
+          "West": 103
+        }
+      },
+      {
+        "Id": 105,
+        "Name": "Another turn in the corridor #105",
+        "Connections": {
+          "East": 106,
+          "South": 113
+        }
+      },
+      {
+        "Id": 106,
+        "Name": "A mahogany panel #106",
+        "Connections": {
+          "East": 107,
+          "West": 105
+        }
+      },
+      {
+        "Id": 107,
+        "Name": "The glass constellation #107",
+        "Connections": {}
+      },
+      {
+        "Id": 108,
+        "Name": "A musty corridor #108",
+        "Connections": {
+          "North": 101,
+          "South": 116
+        }
+      },
+      {
+        "Id": 109,
+        "Name": "A musty corridor #109",
+        "Connections": {
+          "North": 103,
+          "South": 117
+        },
+        "Contents": [
+          {
+            "Text": "a Green Lance guard #116",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 110,
+        "Name": "A bloody trail in the corridor #110",
+        "Connections": {
+          "North": 104,
+          "South": 118
+        },
+        "Contents": [
+          {
+            "Text": "An acolyte #162",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 111,
+        "Name": "The Warren of Nashbar #111",
+        "Connections": {
+          "East": 112
+        },
+        "Contents": [
+          {
+            "Text": "Lord Nashbar #117",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 112,
+        "Name": "A hallway #112",
+        "Connections": {
+          "East": 113,
+          "South": 122,
+          "West": 111
+        }
+      },
+      {
+        "Id": 113,
+        "Name": "A brightly lit intersection #113",
+        "Connections": {
+          "North": 105,
+          "East": 114,
+          "South": 123,
+          "West": 112
+        }
+      },
+      {
+        "Id": 114,
+        "Name": "A bright corridor #114",
+        "Connections": {
+          "East": 115,
+          "South": 124,
+          "West": 113
+        }
+      },
+      {
+        "Id": 115,
+        "Name": "A musty corridor #115",
+        "Connections": {
+          "East": 116,
+          "West": 114
+        }
+      },
+      {
+        "Id": 116,
+        "Name": "A 4Way Intersection #116",
+        "Connections": {
+          "North": 108,
+          "East": 117,
+          "South": 126,
+          "West": 115
+        }
+      },
+      {
+        "Id": 117,
+        "Name": "A turn in the musty corridor #117",
+        "Connections": {
+          "North": 109,
+          "West": 116
+        }
+      },
+      {
+        "Id": 118,
+        "Name": "A bloody trail in the corridor #118",
+        "Connections": {
+          "North": 110,
+          "South": 128
+        }
+      },
+      {
+        "Id": 119,
+        "Name": "Barracks of the Green Lance #119",
+        "Connections": {
+          "East": 120,
+          "South": 129
+        },
+        "Contents": [
+          {
+            "Text": "a Green Lance guard #116",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 120,
+        "Name": "Barracks of the Green Lance #120",
+        "Connections": {
+          "South": 130,
+          "West": 119
+        }
+      },
+      {
+        "Id": 121,
+        "Name": "The Parlor of Manlius #121",
+        "Connections": {
+          "East": 122
+        },
+        "Contents": [
+          {
+            "Text": "Lord Manlius #118",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 122,
+        "Name": "A hallway #122",
+        "Connections": {
+          "North": 112,
+          "South": 133,
+          "West": 121
+        }
+      },
+      {
+        "Id": 123,
+        "Name": "A bright corridor #123",
+        "Connections": {
+          "North": 113,
+          "South": 134
+        }
+      },
+      {
+        "Id": 124,
+        "Name": "Barracks of the Black Lance #124",
+        "Connections": {
+          "North": 114,
+          "East": 125,
+          "South": 135
+        }
+      },
+      {
+        "Id": 125,
+        "Name": "Barracks of the Black Lance #125",
+        "Connections": {
+          "South": 136,
+          "West": 124
+        }
+      },
+      {
+        "Id": 126,
+        "Name": "A musty corridor #126",
+        "Connections": {
+          "North": 116,
+          "South": 137
+        }
+      },
+      {
+        "Id": 127,
+        "Name": "A turn in the bloody trail #127",
+        "Connections": {
+          "East": 128,
+          "South": 138
+        }
+      },
+      {
+        "Id": 128,
+        "Name": "A turn in the bloody trail #128",
+        "Connections": {
+          "North": 118,
+          "West": 127
+        }
+      },
+      {
+        "Id": 129,
+        "Name": "Barracks of the Green Lance #129",
+        "Connections": {
+          "North": 119,
+          "East": 130,
+          "South": 152
+        }
+      },
+      {
+        "Id": 130,
+        "Name": "Barracks of the Green Lance #130",
+        "Connections": {
+          "North": 120,
+          "South": 141,
+          "West": 129
+        },
+        "Contents": [
+          {
+            "Text": "a Green Lance guard #116",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 131,
+        "Name": "A jagged stairwell #131",
+        "Connections": {
+          "South": 142,
+          "Up": 185
+        },
+        "Contents": [
+          {
+            "Text": "A hunchback #126",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 132,
+        "Name": "Quarters of Rowena #132",
+        "Connections": {
+          "East": 133
+        },
+        "Contents": [
+          {
+            "Text": "Lady Rowena #119",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 133,
+        "Name": "The end of a hallway #133",
+        "Connections": {
+          "North": 122,
+          "West": 132
+        }
+      },
+      {
+        "Id": 134,
+        "Name": "A musty corridor #134",
+        "Connections": {
+          "North": 123,
+          "East": 135,
+          "South": 145
+        }
+      },
+      {
+        "Id": 135,
+        "Name": "Barracks of the Black Lance #135",
+        "Connections": {
+          "North": 124,
+          "East": 136,
+          "South": 146,
+          "West": 134
+        },
+        "Contents": [
+          {
+            "Text": "a Black Lance guard #115",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 136,
+        "Name": "Barracks of the Black Lance #136",
+        "Connections": {
+          "North": 125,
+          "South": 147,
+          "West": 135
+        }
+      },
+      {
+        "Id": 137,
+        "Name": "A musty corridor #137",
+        "Connections": {
+          "North": 126,
+          "South": 148
+        }
+      },
+      {
+        "Id": 138,
+        "Name": "A turn in the bloody trail #138",
+        "Connections": {
+          "North": 127,
+          "East": 139
+        }
+      },
+      {
+        "Id": 139,
+        "Name": "Before a Liquid Door #139",
+        "Connections": {
+          "East": 140,
+          "West": 138
+        }
+      },
+      {
+        "Id": 140,
+        "Name": "Berserker Quarters #140",
+        "Connections": {
+          "West": 139
+        }
+      },
+      {
+        "Id": 141,
+        "Name": "Barracks of the Green Lance #141",
+        "Connections": {
+          "North": 130
+        },
+        "Contents": [
+          {
+            "Text": "a Green Lance guard #116",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 142,
+        "Name": "A musty corridor #142",
+        "Connections": {
+          "North": 131,
+          "South": 153
+        }
+      },
+      {
+        "Id": 143,
+        "Name": "At the end of the hallway #143",
+        "Connections": {
+          "East": 144,
+          "South": 154
+        }
+      },
+      {
+        "Id": 144,
+        "Name": "A musty corridor #144",
+        "Connections": {
+          "East": 145,
+          "West": 143
+        }
+      },
+      {
+        "Id": 145,
+        "Name": "A turn in the musty corridor #145",
+        "Connections": {
+          "North": 134,
+          "West": 144
+        }
+      },
+      {
+        "Id": 146,
+        "Name": "Barracks of the Black Lance #146",
+        "Connections": {
+          "North": 135,
+          "East": 147
+        }
+      },
+      {
+        "Id": 147,
+        "Name": "Barracks of the Black Lance #147",
+        "Connections": {
+          "North": 136,
+          "West": 146
+        },
+        "Contents": [
+          {
+            "Text": "a Black Lance guard #115",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 148,
+        "Name": "An intersection in Castle Dunluce #148",
+        "Connections": {
+          "North": 137,
+          "East": 149,
+          "South": 159
+        }
+      },
+      {
+        "Id": 149,
+        "Name": "A musty corridor #149",
+        "Connections": {
+          "East": 150,
+          "West": 148
+        }
+      },
+      {
+        "Id": 150,
+        "Name": "An intersection in Castle Dunluce #150",
+        "Connections": {
+          "East": 151,
+          "South": 161,
+          "West": 149
+        }
+      },
+      {
+        "Id": 151,
+        "Name": "A musty corridor #151",
+        "Connections": {
+          "East": 152,
+          "South": 162,
+          "West": 150
+        },
+        "Contents": [
+          {
+            "Text": "a Black Lance guard #133",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 152,
+        "Name": "A musty corridor #152",
+        "Connections": {
+          "North": 129,
+          "East": 153,
+          "South": 298,
+          "West": 151
+        }
+      },
+      {
+        "Id": 153,
+        "Name": "A turn in the musty corridor #153",
+        "Connections": {
+          "North": 142,
+          "West": 152
+        }
+      },
+      {
+        "Id": 154,
+        "Name": "The House of Xavier #154",
+        "Connections": {
+          "North": 143
+        },
+        "Contents": [
+          {
+            "Text": "Lord Xavier #120",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 155,
+        "Name": "The House of Kodiak #155",
+        "Connections": {
+          "East": 156
+        }
+      },
+      {
+        "Id": 156,
+        "Name": "A turn in the musty corridor #156",
+        "Connections": {
+          "East": 157,
+          "South": 164,
+          "West": 155
+        }
+      },
+      {
+        "Id": 157,
+        "Name": "An Intersection in Castle Dunluce #157",
+        "Connections": {
+          "East": 158,
+          "South": 165,
+          "West": 156
+        }
+      },
+      {
+        "Id": 158,
+        "Name": "A musty corridor #158",
+        "Connections": {
+          "East": 159,
+          "West": 157
+        },
+        "Contents": [
+          {
+            "Text": "A faceless servant #128",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 159,
+        "Name": "A turn in the corridor #159",
+        "Connections": {
+          "North": 148,
+          "West": 158
+        }
+      },
+      {
+        "Id": 160,
+        "Name": "Before a blue door #160",
+        "Connections": {
+          "East": 161,
+          "South": 168
+        },
+        "Contents": [
+          {
+            "Text": "Rourke #109",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 161,
+        "Name": "Before a red door #161",
+        "Connections": {
+          "North": 150,
+          "South": 169,
+          "West": 160
+        }
+      },
+      {
+        "Id": 162,
+        "Name": "A hallway fork #162",
+        "Connections": {
+          "North": 151,
+          "East": 163,
+          "South": 170
+        }
+      },
+      {
+        "Id": 163,
+        "Name": "A hallway fork #163",
+        "Connections": {
+          "South": 171,
+          "West": 162
+        }
+      },
+      {
+        "Id": 164,
+        "Name": "A musty corridor #164",
+        "Connections": {
+          "North": 156,
+          "South": 172
+        }
+      },
+      {
+        "Id": 165,
+        "Name": "A bend in the corridor #165",
+        "Connections": {
+          "North": 157,
+          "East": 166
+        }
+      },
+      {
+        "Id": 166,
+        "Name": "A short hallway #166",
+        "Connections": {
+          "East": 167,
+          "West": 165
+        }
+      },
+      {
+        "Id": 167,
+        "Name": "A winding staircase #167",
+        "Connections": {
+          "West": 166,
+          "Up": 209
+        }
+      },
+      {
+        "Id": 168,
+        "Name": "The House of Azure #168",
+        "Connections": {
+          "North": 160
+        }
+      },
+      {
+        "Id": 169,
+        "Name": "The House of Hemog #169",
+        "Connections": {
+          "North": 161
+        },
+        "Contents": [
+          {
+            "Text": "Lord Hemog #121",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 170,
+        "Name": "A residential alcove #170",
+        "Connections": {
+          "North": 162,
+          "South": 178
+        }
+      },
+      {
+        "Id": 171,
+        "Name": "A residential alcove #171",
+        "Connections": {
+          "North": 163,
+          "South": 179
+        }
+      },
+      {
+        "Id": 172,
+        "Name": "A turn in the musty corridor #172",
+        "Connections": {
+          "North": 164,
+          "East": 173
+        }
+      },
+      {
+        "Id": 173,
+        "Name": "A musty corridor #173",
+        "Connections": {
+          "East": 174,
+          "West": 172
+        }
+      },
+      {
+        "Id": 174,
+        "Name": "The corridor ends #174",
+        "Connections": {
+          "East": 175,
+          "West": 173
+        }
+      },
+      {
+        "Id": 175,
+        "Name": "The marble staircase #175",
+        "Connections": {
+          "East": 176,
+          "West": 174,
+          "Up": 217
+        }
+      },
+      {
+        "Id": 176,
+        "Name": "The Backroom #176",
+        "Connections": {
+          "West": 175
+        }
+      },
+      {
+        "Id": 177,
+        "Name": "A rope catwalk #177",
+        "Connections": {
+          "North": 180,
+          "South": 319
+        },
+        "Contents": [
+          {
+            "Text": "A half elven archer #156",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 178,
+        "Name": "The Cove of Naya #178",
+        "Connections": {
+          "North": 170
+        }
+      },
+      {
+        "Id": 179,
+        "Name": "The House of Reza #179",
+        "Connections": {
+          "North": 171
+        }
+      },
+      {
+        "Id": 180,
+        "Name": "The northern battlements #180",
+        "Connections": {
+          "East": 223,
+          "South": 177,
+          "West": 186
+        }
+      },
+      {
+        "Id": 181,
+        "Name": "A reinforced ladder #181",
+        "Connections": {
+          "East": 182,
+          "Up": 240
+        }
+      },
+      {
+        "Id": 182,
+        "Name": "A turn in the plaza #182",
+        "Connections": {
+          "East": 183,
+          "South": 188,
+          "West": 181
+        }
+      },
+      {
+        "Id": 183,
+        "Name": "The plaza hallway #183",
+        "Connections": {
+          "East": 184,
+          "West": 182
+        }
+      },
+      {
+        "Id": 184,
+        "Name": "The plaza begins #184",
+        "Connections": {
+          "East": 185,
+          "South": 190,
+          "West": 183
+        },
+        "Contents": [
+          {
+            "Text": "Lady Jikata #127",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 185,
+        "Name": "A stairway alcove #185",
+        "Connections": {
+          "West": 184,
+          "Down": 131
+        }
+      },
+      {
+        "Id": 186,
+        "Name": "The northern battlements #186",
+        "Connections": {
+          "East": 180,
+          "West": 320
+        }
+      },
+      {
+        "Id": 187,
+        "Name": "The House of Jholam #187",
+        "Connections": {
+          "East": 188
+        },
+        "Contents": [
+          {
+            "Text": "Lord Jholam #103",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 188,
+        "Name": "The plaza hallway #188",
+        "Connections": {
+          "North": 182,
+          "South": 195,
+          "West": 187
+        }
+      },
+      {
+        "Id": 189,
+        "Name": "The House of Helaine #189",
+        "Connections": {
+          "East": 190
+        },
+        "Contents": [
+          {
+            "Text": "Lady Helaine #113",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 190,
+        "Name": "The plaza hallway #190",
+        "Connections": {
+          "North": 184,
+          "East": 191,
+          "South": 197,
+          "West": 189
+        }
+      },
+      {
+        "Id": 191,
+        "Name": "The House of Garion #191",
+        "Connections": {
+          "West": 190
+        },
+        "Contents": [
+          {
+            "Text": "Lord Garion #112",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 192,
+        "Name": "A brightly lit pit #192",
+        "Connections": {
+          "South": 200
+        }
+      },
+      {
+        "Id": 193,
+        "Name": "Lore Quarters #193",
+        "Connections": {
+          "South": 201
+        }
+      },
+      {
+        "Id": 194,
+        "Name": "The House of Brealey #194",
+        "Connections": {
+          "East": 195
+        },
+        "Contents": [
+          {
+            "Text": "Lord Brealey #102",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 195,
+        "Name": "The plaza hallway #195",
+        "Connections": {
+          "North": 188,
+          "South": 203,
+          "West": 194
+        }
+      },
+      {
+        "Id": 196,
+        "Name": "The House of Dare #196",
+        "Connections": {
+          "East": 197
+        },
+        "Contents": [
+          {
+            "Text": "Lord Dare #111",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 197,
+        "Name": "The plaza hallway #197",
+        "Connections": {
+          "North": 190,
+          "East": 198,
+          "South": 205,
+          "West": 196
+        },
+        "Contents": [
+          {
+            "Text": "A faceless servant #128",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 198,
+        "Name": "The House of Ebou #198",
+        "Connections": {
+          "West": 197
+        },
+        "Contents": [
+          {
+            "Text": "Lady Ebou #110",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 199,
+        "Name": "Lore Quarters #199",
+        "Connections": {
+          "East": 200
+        }
+      },
+      {
+        "Id": 200,
+        "Name": "A misty hallway #200",
+        "Connections": {
+          "North": 192,
+          "East": 201,
+          "South": 208,
+          "West": 199
+        }
+      },
+      {
+        "Id": 201,
+        "Name": "A misty hallway #201",
+        "Connections": {
+          "North": 193,
+          "South": 209,
+          "West": 200
+        }
+      },
+      {
+        "Id": 202,
+        "Name": "The House of Logan #202",
+        "Connections": {
+          "East": 203
+        },
+        "Contents": [
+          {
+            "Text": "Lord Logan #104",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 203,
+        "Name": "The plaza hallway #203",
+        "Connections": {
+          "North": 195,
+          "South": 211,
+          "West": 202
+        }
+      },
+      {
+        "Id": 204,
+        "Name": "The House of Findal #204",
+        "Connections": {
+          "East": 205
+        },
+        "Contents": [
+          {
+            "Text": "Lord Findal #108",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 205,
+        "Name": "The plaza hallway #205",
+        "Connections": {
+          "North": 197,
+          "East": 206,
+          "South": 213,
+          "West": 204
+        }
+      },
+      {
+        "Id": 206,
+        "Name": "The House of Arin #206",
+        "Connections": {
+          "West": 205
+        },
+        "Contents": [
+          {
+            "Text": "Lord Arin #107",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 207,
+        "Name": "Lore Quarters #207",
+        "Connections": {
+          "East": 208
+        }
+      },
+      {
+        "Id": 208,
+        "Name": "A misty hallway #208",
+        "Connections": {
+          "North": 200,
+          "South": 216,
+          "West": 207
+        }
+      },
+      {
+        "Id": 209,
+        "Name": "A stairway alcove #209",
+        "Connections": {
+          "North": 201,
+          "Down": 167
+        },
+        "Contents": [
+          {
+            "Text": "An acolyte #162",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 210,
+        "Name": "The House of Naclario #210",
+        "Connections": {
+          "East": 211
+        },
+        "Contents": [
+          {
+            "Text": "Lord Naclario #105",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 211,
+        "Name": "A turn in the plaza #211",
+        "Connections": {
+          "North": 203,
+          "East": 212,
+          "West": 210
+        },
+        "Contents": [
+          {
+            "Text": "A faceless servant #128",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 212,
+        "Name": "The plaza hallway #212",
+        "Connections": {
+          "East": 213,
+          "West": 211
+        }
+      },
+      {
+        "Id": 213,
+        "Name": "A turn in the plaza #213",
+        "Connections": {
+          "North": 205,
+          "East": 214,
+          "West": 212
+        }
+      },
+      {
+        "Id": 214,
+        "Name": "The House of Ranfor #214",
+        "Connections": {
+          "West": 213
+        },
+        "Contents": [
+          {
+            "Text": "Lord Ranfor #106",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 215,
+        "Name": "A mist generator #215",
+        "Connections": {
+          "East": 216
+        }
+      },
+      {
+        "Id": 216,
+        "Name": "A misty hallway #216",
+        "Connections": {
+          "North": 208,
+          "West": 215
+        }
+      },
+      {
+        "Id": 217,
+        "Name": "A stairway culdesac #217",
+        "Connections": {
+          "South": 224,
+          "Down": 175
+        }
+      },
+      {
+        "Id": 218,
+        "Name": "A storeroom #218",
+        "Connections": {
+          "South": 225
+        }
+      },
+      {
+        "Id": 219,
+        "Name": "A janitors quarters #219",
+        "Connections": {
+          "South": 226
+        },
+        "Contents": [
+          {
+            "Text": "An apprentice avanso #124",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 220,
+        "Name": "A storeroom #220",
+        "Connections": {
+          "South": 227
+        }
+      },
+      {
+        "Id": 221,
+        "Name": "Before a golden door #221",
+        "Connections": {
+          "East": 222,
+          "South": 228
+        }
+      },
+      {
+        "Id": 222,
+        "Name": "The golden staircase #222",
+        "Connections": {
+          "West": 221,
+          "Up": 271
+        }
+      },
+      {
+        "Id": 223,
+        "Name": "The northern battlements #223",
+        "Connections": {
+          "East": 321,
+          "West": 180
+        }
+      },
+      {
+        "Id": 224,
+        "Name": "The Servants Quarters #224",
+        "Connections": {
+          "North": 217,
+          "East": 225,
+          "South": 231
+        },
+        "Contents": [
+          {
+            "Text": "A dwarven servant #123",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 225,
+        "Name": "The Servants Quarters #225",
+        "Connections": {
+          "North": 218,
+          "East": 226,
+          "South": 232,
+          "West": 224
+        }
+      },
+      {
+        "Id": 226,
+        "Name": "The Servants Quarters #226",
+        "Connections": {
+          "North": 219,
+          "East": 227,
+          "West": 225
+        }
+      },
+      {
+        "Id": 227,
+        "Name": "The Servants Quarters #227",
+        "Connections": {
+          "North": 220,
+          "South": 234,
+          "West": 226
+        },
+        "Contents": [
+          {
+            "Text": "A dwarven servant #123",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 228,
+        "Name": "A shimmering alcove #228",
+        "Connections": {
+          "North": 221,
+          "East": 229,
+          "South": 235
+        }
+      },
+      {
+        "Id": 229,
+        "Name": "A shimmering alcove #229",
+        "Connections": {
+          "West": 228
+        }
+      },
+      {
+        "Id": 230,
+        "Name": "Falling #230",
+        "Connections": {}
+      },
+      {
+        "Id": 231,
+        "Name": "The Chambers of Selanne #231",
+        "Connections": {
+          "North": 224
+        },
+        "Contents": [
+          {
+            "Text": "Selanne #122",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 232,
+        "Name": "The Chambers of Lana #232",
+        "Connections": {
+          "North": 225
+        }
+      },
+      {
+        "Id": 233,
+        "Name": "A rope catwalk #233",
+        "Connections": {
+          "North": 319,
+          "South": 279
+        }
+      },
+      {
+        "Id": 234,
+        "Name": "A connecting bridge #234",
+        "Connections": {
+          "North": 227,
+          "East": 235,
+          "South": 230,
+          "West": 230
+        }
+      },
+      {
+        "Id": 235,
+        "Name": "A connecting bridge #235",
+        "Connections": {
+          "North": 228,
+          "East": 230,
+          "South": 230,
+          "West": 234
+        }
+      },
+      {
+        "Id": 236,
+        "Name": "A rope catwalk #236",
+        "Connections": {
+          "East": 319,
+          "West": 253
+        }
+      },
+      {
+        "Id": 237,
+        "Name": "A rope catwalk #237",
+        "Connections": {
+          "East": 292,
+          "West": 319
+        }
+      },
+      {
+        "Id": 238,
+        "Name": "The Star Chamber #238",
+        "Connections": {
+          "South": 243
+        }
+      },
+      {
+        "Id": 239,
+        "Name": "The House of Reimon #239",
+        "Connections": {
+          "South": 244
+        },
+        "Contents": [
+          {
+            "Text": "Lord Reimon #157",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 240,
+        "Name": "A glass panelled room #240",
+        "Connections": {
+          "South": 245,
+          "Down": 181
+        }
+      },
+      {
+        "Id": 241,
+        "Name": "The House of Korin #241",
+        "Connections": {
+          "South": 246
+        }
+      },
+      {
+        "Id": 242,
+        "Name": "The House of Baron #242",
+        "Connections": {
+          "South": 247
+        }
+      },
+      {
+        "Id": 243,
+        "Name": "A light passageway #243",
+        "Connections": {
+          "North": 238,
+          "East": 244,
+          "South": 248
+        }
+      },
+      {
+        "Id": 244,
+        "Name": "A light passageway #244",
+        "Connections": {
+          "North": 239,
+          "East": 245,
+          "West": 243
+        },
+        "Contents": [
+          {
+            "Text": "A faceless servant #128",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 245,
+        "Name": "A light passageway #245",
+        "Connections": {
+          "North": 240,
+          "East": 246,
+          "West": 244
+        }
+      },
+      {
+        "Id": 246,
+        "Name": "A light passageway #246",
+        "Connections": {
+          "North": 241,
+          "East": 247,
+          "West": 245
+        }
+      },
+      {
+        "Id": 247,
+        "Name": "A light passageway #247",
+        "Connections": {
+          "North": 242,
+          "South": 252,
+          "West": 246
+        }
+      },
+      {
+        "Id": 248,
+        "Name": "Before a silver door #248",
+        "Connections": {
+          "North": 243,
+          "East": 249
+        }
+      },
+      {
+        "Id": 249,
+        "Name": "A Crystal Glade #249",
+        "Connections": {
+          "East": 250,
+          "South": 254,
+          "West": 248
+        }
+      },
+      {
+        "Id": 250,
+        "Name": "The Northern Glade #250",
+        "Connections": {
+          "East": 251,
+          "South": 255,
+          "West": 249
+        }
+      },
+      {
+        "Id": 251,
+        "Name": "A Crystal Glade #251",
+        "Connections": {
+          "East": 252,
+          "South": 256,
+          "West": 250
+        }
+      },
+      {
+        "Id": 252,
+        "Name": "Before a silver door #252",
+        "Connections": {
+          "North": 247,
+          "West": 251
+        }
+      },
+      {
+        "Id": 253,
+        "Name": "The western battlements #253",
+        "Connections": {
+          "North": 276,
+          "East": 236,
+          "South": 278
+        }
+      },
+      {
+        "Id": 254,
+        "Name": "The Western Glade #254",
+        "Connections": {
+          "North": 249,
+          "East": 255,
+          "South": 257
+        }
+      },
+      {
+        "Id": 255,
+        "Name": "Crystal Haven #255",
+        "Connections": {
+          "North": 250,
+          "East": 256,
+          "South": 258,
+          "West": 254,
+          "Up": 282
+        }
+      },
+      {
+        "Id": 256,
+        "Name": "The Eastern Glade #256",
+        "Connections": {
+          "North": 251,
+          "South": 259,
+          "West": 255
+        }
+      },
+      {
+        "Id": 257,
+        "Name": "A Crystal Glade #257",
+        "Connections": {
+          "North": 254,
+          "East": 258
+        }
+      },
+      {
+        "Id": 258,
+        "Name": "The Southern Glade #258",
+        "Connections": {
+          "North": 255,
+          "East": 259,
+          "South": 263,
+          "West": 257
+        }
+      },
+      {
+        "Id": 259,
+        "Name": "A Crystal Glade #259",
+        "Connections": {
+          "North": 256,
+          "West": 258
+        }
+      },
+      {
+        "Id": 260,
+        "Name": "A dank dim corridor #260",
+        "Connections": {
+          "East": 261,
+          "South": 265
+        }
+      },
+      {
+        "Id": 261,
+        "Name": "A dank dim corridor #261",
+        "Connections": {
+          "South": 266,
+          "West": 260
+        }
+      },
+      {
+        "Id": 262,
+        "Name": "The House of Arioch #262",
+        "Connections": {
+          "East": 263
+        }
+      },
+      {
+        "Id": 263,
+        "Name": "A secluded corridor #263",
+        "Connections": {
+          "North": 258,
+          "East": 264,
+          "South": 268,
+          "West": 262
+        },
+        "Contents": [
+          {
+            "Text": "A Yellow Lance guard #132",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 264,
+        "Name": "The House of Altara #264",
+        "Connections": {
+          "West": 263
+        },
+        "Contents": [
+          {
+            "Text": "Lady Altara #160",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 265,
+        "Name": "Before brass trimmed door #265",
+        "Connections": {
+          "North": 260,
+          "South": 270
+        }
+      },
+      {
+        "Id": 266,
+        "Name": "A darkened staircase #266",
+        "Connections": {
+          "North": 261,
+          "Up": 288
+        }
+      },
+      {
+        "Id": 267,
+        "Name": "The House of Surea #267",
+        "Connections": {
+          "East": 268
+        },
+        "Contents": [
+          {
+            "Text": "Lady Surea #159",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 268,
+        "Name": "A secluded corridor #268",
+        "Connections": {
+          "North": 263,
+          "East": 269,
+          "South": 272,
+          "West": 267
+        }
+      },
+      {
+        "Id": 269,
+        "Name": "The House of Daran #269",
+        "Connections": {
+          "West": 268
+        },
+        "Contents": [
+          {
+            "Text": "Lord Daran #158",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 270,
+        "Name": "A short dim corridor #270",
+        "Connections": {
+          "North": 265,
+          "East": 271
+        },
+        "Contents": [
+          {
+            "Text": "An apprentice avanso #124",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 271,
+        "Name": "The golden staircase #271",
+        "Connections": {
+          "West": 270,
+          "Down": 222
+        }
+      },
+      {
+        "Id": 272,
+        "Name": "The hall of mirrors #272",
+        "Connections": {
+          "East": 274,
+          "West": 273
+        }
+      },
+      {
+        "Id": 273,
+        "Name": "The hall of mirrors #273",
+        "Connections": {
+          "North": 273,
+          "East": 274,
+          "South": 268
+        }
+      },
+      {
+        "Id": 274,
+        "Name": "The hall of mirrors #274",
+        "Connections": {
+          "North": 273,
+          "East": 297,
+          "South": 273,
+          "West": 274
+        }
+      },
+      {
+        "Id": 275,
+        "Name": "The Chambers of Teodecki #275",
+        "Connections": {
+          "South": 277
+        },
+        "Contents": [
+          {
+            "Text": "Lord Teodecki #161",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 276,
+        "Name": "The western battlements #276",
+        "Connections": {
+          "North": 320,
+          "South": 253
+        }
+      },
+      {
+        "Id": 277,
+        "Name": "An antechamber #277",
+        "Connections": {
+          "North": 275,
+          "South": 280
+        }
+      },
+      {
+        "Id": 278,
+        "Name": "The western battlements #278",
+        "Connections": {
+          "North": 253,
+          "South": 306
+        },
+        "Contents": [
+          {
+            "Text": "A Blue Lance guard #125",
+            "Color": "green"
+          },
+          {
+            "Text": "A half elven archer #156",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 279,
+        "Name": "The southern battlements #279",
+        "Connections": {
+          "North": 233,
+          "East": 281,
+          "West": 290
+        }
+      },
+      {
+        "Id": 280,
+        "Name": "The foreroom #280",
+        "Connections": {
+          "North": 277,
+          "South": 282
+        }
+      },
+      {
+        "Id": 281,
+        "Name": "The southern battlements #281",
+        "Connections": {
+          "East": 303,
+          "West": 279
+        },
+        "Contents": [
+          {
+            "Text": "A half elven archer #156",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 282,
+        "Name": "A tiled walkway #282",
+        "Connections": {
+          "North": 280,
+          "South": 283,
+          "Down": 255
+        }
+      },
+      {
+        "Id": 283,
+        "Name": "A tiled walkway #283",
+        "Connections": {
+          "North": 282,
+          "East": 284,
+          "South": 286
+        },
+        "Contents": [
+          {
+            "Text": "A Yellow Lance guard #132",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 284,
+        "Name": "A cozy alcove #284",
+        "Connections": {
+          "East": 285,
+          "West": 283
+        },
+        "Contents": [
+          {
+            "Text": "The elven scholar Xorkc #130",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 285,
+        "Name": "A carpeted staircase #285",
+        "Connections": {
+          "West": 284,
+          "Up": 304
+        }
+      },
+      {
+        "Id": 286,
+        "Name": "A tiled walkway #286",
+        "Connections": {
+          "North": 283,
+          "South": 289
+        }
+      },
+      {
+        "Id": 287,
+        "Name": "A steel ladder #287",
+        "Connections": {
+          "East": 288,
+          "Up": 305
+        }
+      },
+      {
+        "Id": 288,
+        "Name": "A staircase landing #288",
+        "Connections": {
+          "West": 287,
+          "Down": 266
+        }
+      },
+      {
+        "Id": 289,
+        "Name": "A tiled walkway #289",
+        "Connections": {
+          "North": 286,
+          "South": 291
+        }
+      },
+      {
+        "Id": 290,
+        "Name": "The southern battlements #290",
+        "Connections": {
+          "East": 279,
+          "West": 306
+        }
+      },
+      {
+        "Id": 291,
+        "Name": "The foreroom #291",
+        "Connections": {
+          "North": 289,
+          "South": 294
+        }
+      },
+      {
+        "Id": 292,
+        "Name": "The eastern battlements #292",
+        "Connections": {
+          "North": 293,
+          "South": 295,
+          "West": 237
+        }
+      },
+      {
+        "Id": 293,
+        "Name": "The eastern battlements #293",
+        "Connections": {
+          "North": 321,
+          "South": 292
+        }
+      },
+      {
+        "Id": 294,
+        "Name": "An antechamber #294",
+        "Connections": {
+          "North": 291,
+          "South": 296
+        }
+      },
+      {
+        "Id": 295,
+        "Name": "The eastern battlements #295",
+        "Connections": {
+          "North": 292,
+          "South": 303
+        }
+      },
+      {
+        "Id": 296,
+        "Name": "The Chambers of Carlomin #296",
+        "Connections": {
+          "North": 294
+        },
+        "Contents": [
+          {
+            "Text": "Lord Carlomin #131",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 297,
+        "Name": "The Overlook #297",
+        "Connections": {
+          "North": 272
+        }
+      },
+      {
+        "Id": 298,
+        "Name": "A closet #298",
+        "Connections": {
+          "North": 152
+        },
+        "Contents": [
+          {
+            "Text": "A scullery maid #163",
+            "Color": "green"
+          },
+          {
+            "Text": "An enraged guard #170",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 299,
+        "Name": "Inside the azure pool #299",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "A water nymph #101",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 300,
+        "Name": "The Honor of Marchment #300",
+        "Connections": {
+          "South": 301
+        },
+        "Contents": [
+          {
+            "Text": "Lady Tuylien of Marchment #129",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 301,
+        "Name": "The Embassy of Marchment #301",
+        "Connections": {
+          "North": 300,
+          "South": 302
+        }
+      },
+      {
+        "Id": 302,
+        "Name": "A meeting room #302",
+        "Connections": {
+          "North": 301,
+          "South": 304
+        }
+      },
+      {
+        "Id": 303,
+        "Name": "The southeast turret #303",
+        "Connections": {
+          "North": 295,
+          "West": 281,
+          "Down": 328
+        }
+      },
+      {
+        "Id": 304,
+        "Name": "A waiting room #304",
+        "Connections": {
+          "North": 302,
+          "Down": 285
+        }
+      },
+      {
+        "Id": 305,
+        "Name": "A steel ladder #305",
+        "Connections": {
+          "Up": 307,
+          "Down": 287
+        }
+      },
+      {
+        "Id": 306,
+        "Name": "The southwest turret #306",
+        "Connections": {
+          "North": 278,
+          "East": 290,
+          "Down": 331
+        },
+        "Contents": [
+          {
+            "Text": "a Black Lance guard #133",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 307,
+        "Name": "The Rainbow Court #307",
+        "Connections": {
+          "South": 309,
+          "West": 317,
+          "Down": 305
+        },
+        "Contents": [
+          {
+            "Text": "The Defender of Absolution #154",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 308,
+        "Name": "The Red Court #308",
+        "Connections": {
+          "East": 309,
+          "South": 311
+        }
+      },
+      {
+        "Id": 309,
+        "Name": "The Rainbow Court #309",
+        "Connections": {
+          "North": 307,
+          "East": 310,
+          "South": 312,
+          "West": 308
+        }
+      },
+      {
+        "Id": 310,
+        "Name": "The Green Court #310",
+        "Connections": {
+          "South": 313,
+          "West": 309
+        }
+      },
+      {
+        "Id": 311,
+        "Name": "The Orange Court #311",
+        "Connections": {
+          "North": 308,
+          "East": 312,
+          "South": 314
+        }
+      },
+      {
+        "Id": 312,
+        "Name": "The Rainbow Court #312",
+        "Connections": {
+          "North": 309,
+          "East": 313,
+          "South": 315,
+          "West": 311
+        }
+      },
+      {
+        "Id": 313,
+        "Name": "The Blue Court #313",
+        "Connections": {
+          "North": 310,
+          "South": 316,
+          "West": 312
+        }
+      },
+      {
+        "Id": 314,
+        "Name": "The Yellow Court #314",
+        "Connections": {
+          "North": 311,
+          "East": 315
+        }
+      },
+      {
+        "Id": 315,
+        "Name": "The Rainbow Tribunal #315",
+        "Connections": {
+          "North": 312,
+          "East": 316,
+          "West": 314
+        }
+      },
+      {
+        "Id": 316,
+        "Name": "The Violet Court #316",
+        "Connections": {
+          "North": 313,
+          "West": 315
+        }
+      },
+      {
+        "Id": 317,
+        "Name": "The Prism #317",
+        "Connections": {
+          "East": 307,
+          "Up": 318
+        }
+      },
+      {
+        "Id": 318,
+        "Name": "The Crown of Thesden #318",
+        "Connections": {
+          "North": 319,
+          "Down": 317
+        },
+        "Contents": [
+          {
+            "Text": "King Athanmere #155",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 319,
+        "Name": "A cross walk platform #319",
+        "Connections": {
+          "North": 177,
+          "East": 237,
+          "South": 233,
+          "West": 236
+        },
+        "Contents": [
+          {
+            "Text": "a Black Lance guard #133",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 320,
+        "Name": "The northwest turret #320",
+        "Connections": {
+          "East": 186,
+          "South": 276,
+          "Down": 322
+        },
+        "Contents": [
+          {
+            "Text": "A half elven archer #156",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 321,
+        "Name": "The northeast turret #321",
+        "Connections": {
+          "South": 293,
+          "West": 223,
+          "Down": 325
+        }
+      },
+      {
+        "Id": 322,
+        "Name": "The northwest tower #322",
+        "Connections": {
+          "Up": 320,
+          "Down": 323
+        }
+      },
+      {
+        "Id": 323,
+        "Name": "The northwest tower #323",
+        "Connections": {
+          "Up": 322,
+          "Down": 324
+        },
+        "Contents": [
+          {
+            "Text": "A Blue Lance guard #125",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 324,
+        "Name": "The northwest tower #324",
+        "Connections": {
+          "East": 100,
+          "Up": 323
+        },
+        "Contents": [
+          {
+            "Text": "A Yellow Lance guard #132",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 325,
+        "Name": "The northeast tower #325",
+        "Connections": {
+          "Up": 321,
+          "Down": 326
+        },
+        "Contents": [
+          {
+            "Text": "A Blue Lance guard #125",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 326,
+        "Name": "The northeast tower #326",
+        "Connections": {
+          "Up": 325,
+          "Down": 327
+        }
+      },
+      {
+        "Id": 327,
+        "Name": "The northeast tower #327",
+        "Connections": {
+          "West": 100,
+          "Up": 326
+        },
+        "Contents": [
+          {
+            "Text": "a Black Lance guard #133",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 328,
+        "Name": "The southeast tower #328",
+        "Connections": {
+          "Up": 303,
+          "Down": 329
+        }
+      },
+      {
+        "Id": 329,
+        "Name": "The southeast tower #329",
+        "Connections": {
+          "Up": 328,
+          "Down": 330
+        },
+        "Contents": [
+          {
+            "Text": "a Black Lance guard #133",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 330,
+        "Name": "The southeast tower #330",
+        "Connections": {
+          "South": 334,
+          "Up": 329
+        }
+      },
+      {
+        "Id": 331,
+        "Name": "The southwest tower #331",
+        "Connections": {
+          "Up": 306,
+          "Down": 332
+        }
+      },
+      {
+        "Id": 332,
+        "Name": "The southwest tower #332",
+        "Connections": {
+          "Up": 331,
+          "Down": 333
+        }
+      },
+      {
+        "Id": 333,
+        "Name": "The southwest tower #333",
+        "Connections": {
+          "South": 334,
+          "Up": 332
+        },
+        "Contents": [
+          {
+            "Text": "A Yellow Lance guard #132",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 334,
+        "Name": "The rocky shoreline #334",
+        "Connections": {
+          "East": 32427,
+          "South": 32526,
+          "West": 32425
+        }
+      },
+      {
+        "Id": 4090,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4090",
+        "Color": "blue",
+        "Connections": {
+          "North": 4089,
+          "South": 100
+        }
+      },
+      {
+        "Id": 32427,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32427",
+        "Color": "blue",
+        "Connections": {
+          "South": 32527,
+          "West": 334
+        }
+      },
+      {
+        "Id": 32526,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32526",
+        "Color": "blue",
+        "Connections": {
+          "North": 334,
+          "East": 32527,
+          "South": 32626,
+          "West": 32525
+        }
+      },
+      {
+        "Id": 32425,
+        "FrameColor": "blue",
+        "Name": "To The Ocean #32425",
+        "Color": "blue",
+        "Connections": {
+          "East": 334,
+          "South": 32525,
+          "West": 32424
+        }
+      }
+    ]
+  }
+}

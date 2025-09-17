@@ -1,0 +1,462 @@
+{
+  "Area": {
+    "Name": "Arena of Legends",
+    "MinimumLevel": "100",
+    "MaximumLevel": "100",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 23000,
+        "Name": "The Hall of Legends #23000",
+        "Connections": {
+          "West": 4217,
+          "Up": 23025
+        },
+        "Contents": [
+          {
+            "Text": "arena manager #23000",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23001,
+        "Name": "Shadow of a Golden Age #23001",
+        "Connections": {
+          "East": 23003
+        }
+      },
+      {
+        "Id": 23002,
+        "Name": "The Hunt #23002",
+        "Connections": {
+          "West": 23004
+        }
+      },
+      {
+        "Id": 23003,
+        "Name": "The Hunt #23003",
+        "Connections": {
+          "North": 23005,
+          "West": 23001
+        }
+      },
+      {
+        "Id": 23004,
+        "Name": "Glory of a Golden Age #23004",
+        "Connections": {
+          "North": 23006,
+          "East": 23002,
+          "South": 23017
+        }
+      },
+      {
+        "Id": 23005,
+        "Name": "The Hunt #23005",
+        "Connections": {
+          "North": 23012,
+          "South": 23003
+        }
+      },
+      {
+        "Id": 23006,
+        "Name": "In the Heat of Darkness #23006",
+        "Connections": {
+          "North": 23013,
+          "South": 23004
+        }
+      },
+      {
+        "Id": 23007,
+        "Name": "The Hunt #23007",
+        "Connections": {
+          "East": 23010,
+          "West": 23013
+        }
+      },
+      {
+        "Id": 23008,
+        "Name": "The Hunt #23008",
+        "Connections": {
+          "East": 23012,
+          "West": 23009
+        }
+      },
+      {
+        "Id": 23009,
+        "Name": "A Passageway in the Arena of Legends #23009",
+        "Connections": {
+          "East": 23008,
+          "West": 23011
+        }
+      },
+      {
+        "Id": 23010,
+        "Name": "The Hunt #23010",
+        "Connections": {
+          "East": 23011,
+          "West": 23007
+        }
+      },
+      {
+        "Id": 23011,
+        "Name": "The Hunt #23011",
+        "Connections": {
+          "North": 23014,
+          "East": 23009,
+          "West": 23010
+        }
+      },
+      {
+        "Id": 23012,
+        "Name": "The Age of Truth #23012",
+        "Connections": {
+          "North": 23014,
+          "South": 23005,
+          "West": 23008
+        }
+      },
+      {
+        "Id": 23013,
+        "Name": "The Hunt #23013",
+        "Connections": {
+          "North": 23015,
+          "East": 23007,
+          "South": 23006
+        }
+      },
+      {
+        "Id": 23014,
+        "Name": "Infinite Madness #23014",
+        "Connections": {
+          "North": 23020,
+          "South": 23012
+        }
+      },
+      {
+        "Id": 23015,
+        "Name": "The Hunt #23015",
+        "Connections": {
+          "North": 23020,
+          "South": 23013
+        }
+      },
+      {
+        "Id": 23016,
+        "Name": "The Chase #23016",
+        "Connections": {
+          "North": 23014,
+          "West": 23018
+        }
+      },
+      {
+        "Id": 23017,
+        "Name": "The Hunt #23017",
+        "Connections": {
+          "East": 23019
+        }
+      },
+      {
+        "Id": 23018,
+        "Name": "The Hunt #23018",
+        "Connections": {
+          "East": 23016,
+          "West": 23020
+        }
+      },
+      {
+        "Id": 23019,
+        "Name": "The Chase #23019",
+        "Connections": {
+          "East": 23020,
+          "West": 23017
+        }
+      },
+      {
+        "Id": 23020,
+        "Name": "The Hunt #23020",
+        "Connections": {
+          "East": 23010,
+          "South": 23015
+        }
+      },
+      {
+        "Id": 23025,
+        "Name": "Spectators of the Hunt #23025",
+        "Connections": {
+          "Down": 23000
+        }
+      },
+      {
+        "Id": 23026,
+        "Name": "Hall of Gore #23026",
+        "Connections": {
+          "North": 23038,
+          "East": 23027,
+          "South": 23039
+        }
+      },
+      {
+        "Id": 23027,
+        "Name": "The Kitchen of Deadly Vegetables (and knives of course) #23027",
+        "Connections": {
+          "East": 23028,
+          "West": 23026
+        }
+      },
+      {
+        "Id": 23028,
+        "Name": "Epicentre of Carnage #23028",
+        "Connections": {
+          "North": 23035,
+          "East": 23029,
+          "South": 23043,
+          "West": 23027
+        }
+      },
+      {
+        "Id": 23029,
+        "Name": "The Sunny Sands #23029",
+        "Connections": {
+          "East": 23030,
+          "West": 23028
+        }
+      },
+      {
+        "Id": 23030,
+        "Name": "Whirlwind of Shards #23030",
+        "Connections": {
+          "North": 23031,
+          "South": 23046,
+          "West": 23029
+        }
+      },
+      {
+        "Id": 23031,
+        "Name": "Under a Bloodsplattered Oak #23031",
+        "Connections": {
+          "North": 23032,
+          "South": 23030
+        }
+      },
+      {
+        "Id": 23032,
+        "Name": "Fir is Murder #23032",
+        "Connections": {
+          "South": 23031,
+          "West": 23033
+        }
+      },
+      {
+        "Id": 23033,
+        "Name": "Bleeding Willows #23033",
+        "Connections": {
+          "East": 23032,
+          "West": 23034
+        },
+        "Contents": [
+          {
+            "Text": "a bloodsoaked squirrel #23003",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23034,
+        "Name": "In Front of the House of Slaughter #23034",
+        "Connections": {
+          "East": 23033,
+          "South": 23035,
+          "West": 23036
+        }
+      },
+      {
+        "Id": 23035,
+        "Name": "A Pyre of Fallen Timber #23035",
+        "Connections": {
+          "North": 23034,
+          "South": 23028
+        }
+      },
+      {
+        "Id": 23036,
+        "Name": "Entrance Hall to the House of Slaughter #23036",
+        "Connections": {
+          "North": 23054,
+          "East": 23034,
+          "West": 23037
+        }
+      },
+      {
+        "Id": 23037,
+        "Name": "The Piano Room #23037",
+        "Connections": {
+          "East": 23036,
+          "South": 23038
+        }
+      },
+      {
+        "Id": 23038,
+        "Name": "At the Foot of the Scarlet Stairs #23038",
+        "Connections": {
+          "North": 23037,
+          "South": 23026,
+          "Up": 23053
+        }
+      },
+      {
+        "Id": 23039,
+        "Name": "The Stony Path of Ambushes #23039",
+        "Connections": {
+          "North": 23026,
+          "South": 23040,
+          "West": 23052
+        }
+      },
+      {
+        "Id": 23040,
+        "Name": "Shattered Stones #23040",
+        "Connections": {
+          "North": 23039,
+          "East": 23041
+        }
+      },
+      {
+        "Id": 23041,
+        "Name": "The Granite Path #23041",
+        "Connections": {
+          "East": 23042,
+          "South": 23051,
+          "West": 23040
+        }
+      },
+      {
+        "Id": 23042,
+        "Name": "The Granite Path #23042",
+        "Connections": {
+          "North": 23043,
+          "East": 23044,
+          "West": 23041
+        }
+      },
+      {
+        "Id": 23043,
+        "Name": "The Southern Path #23043",
+        "Connections": {
+          "North": 23028,
+          "South": 23042
+        }
+      },
+      {
+        "Id": 23044,
+        "Name": "The Dusty Desert #23044",
+        "Connections": {
+          "East": 23045,
+          "South": 23050,
+          "West": 23042
+        }
+      },
+      {
+        "Id": 23045,
+        "Name": "Dunes of Death #23045",
+        "Connections": {
+          "North": 23046,
+          "West": 23044
+        }
+      },
+      {
+        "Id": 23046,
+        "Name": "Gory Sands #23046",
+        "Connections": {
+          "North": 23030,
+          "East": 23049,
+          "South": 23045
+        }
+      },
+      {
+        "Id": 23047,
+        "Name": "On the Roof of the Treehouse #23047",
+        "Connections": {
+          "Down": 23048
+        }
+      },
+      {
+        "Id": 23048,
+        "Name": "In the Treehouse #23048",
+        "Connections": {
+          "Up": 23047
+        }
+      },
+      {
+        "Id": 23049,
+        "Name": "The Easy East #23049",
+        "Connections": {
+          "West": 23046
+        }
+      },
+      {
+        "Id": 23050,
+        "Name": "The Sandy South #23050",
+        "Connections": {
+          "North": 23044
+        },
+        "Contents": [
+          {
+            "Text": "a yellow scorpion #23004",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23051,
+        "Name": "A Rocky Trail #23051",
+        "Connections": {
+          "North": 23041
+        }
+      },
+      {
+        "Id": 23052,
+        "Name": "A Dark Cave #23052",
+        "Connections": {
+          "East": 23039
+        },
+        "Contents": [
+          {
+            "Text": "a vampire bat #23005",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 23053,
+        "Name": "At the top of the Scarlet Stairs #23053",
+        "Connections": {
+          "Down": 23038
+        }
+      },
+      {
+        "Id": 23054,
+        "Name": "The Dark and Scary Closet #23054",
+        "Connections": {
+          "South": 23036
+        }
+      },
+      {
+        "Id": 23055,
+        "Name": "Super Duelers Waiting Room #23055",
+        "Connections": {}
+      },
+      {
+        "Id": 4217,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4217",
+        "Color": "blue",
+        "Connections": {
+          "East": 23000,
+          "South": 4227,
+          "West": 4093
+        }
+      }
+    ]
+  }
+}

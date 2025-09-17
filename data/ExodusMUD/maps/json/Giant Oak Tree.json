@@ -1,0 +1,1039 @@
+{
+  "Area": {
+    "Name": "Giant Oak Tree",
+    "MinimumLevel": "1",
+    "MaximumLevel": "25",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 1500,
+        "Name": "Base of a Large Oak Tree #1500",
+        "Connections": {
+          "East": 1501,
+          "West": 4173
+        },
+        "Contents": [
+          {
+            "Text": "a squirrel #1500",
+            "Color": "green"
+          },
+          {
+            "Text": "a squirrel #1500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1501,
+        "Name": "Bottom of a Large Oak Tree #1501",
+        "Connections": {
+          "West": 1500,
+          "Up": 1502
+        }
+      },
+      {
+        "Id": 1502,
+        "Name": "Climbing an Oak Tree #1502",
+        "Connections": {
+          "Up": 1503,
+          "Down": 1501
+        }
+      },
+      {
+        "Id": 1503,
+        "Name": "Climbing an Oak Tree #1503",
+        "Connections": {
+          "Up": 1504,
+          "Down": 1502
+        },
+        "Contents": [
+          {
+            "Text": "a squirrel #1500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1504,
+        "Name": "Under the Lowest Branches #1504",
+        "Connections": {
+          "Up": 1510,
+          "Down": 1503
+        }
+      },
+      {
+        "Id": 1505,
+        "Name": "The East Base of the Great Oak #1505",
+        "Connections": {
+          "East": 4162,
+          "West": 1506
+        },
+        "Contents": [
+          {
+            "Text": "a squirrel #1500",
+            "Color": "green"
+          },
+          {
+            "Text": "a squirrel #1500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1506,
+        "Name": "Bottom of a Large Oak Tree #1506",
+        "Connections": {
+          "East": 1505,
+          "Up": 1507
+        }
+      },
+      {
+        "Id": 1507,
+        "Name": "Climbing an Oak Tree #1507",
+        "Connections": {
+          "Up": 1508,
+          "Down": 1506
+        },
+        "Contents": [
+          {
+            "Text": "a squirrel #1500",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1508,
+        "Name": "Climbing an Oak Tree #1508",
+        "Connections": {
+          "Up": 1509,
+          "Down": 1507
+        }
+      },
+      {
+        "Id": 1509,
+        "Name": "Under the Lowest Branches #1509",
+        "Connections": {
+          "Up": 1516,
+          "Down": 1508
+        }
+      },
+      {
+        "Id": 1510,
+        "Name": "On the Lower Branches #1510",
+        "Connections": {
+          "North": 1511,
+          "South": 1522,
+          "West": 1525,
+          "Up": 1528,
+          "Down": 1504
+        },
+        "Contents": [
+          {
+            "Text": "a bridled titmouse #1503",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1511,
+        "Name": "On the Lower Branches #1511",
+        "Connections": {
+          "North": 1512,
+          "South": 1510
+        },
+        "Contents": [
+          {
+            "Text": "a blackcapped chickadee #1502",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1512,
+        "Name": "Out on a Limb #1512",
+        "Connections": {
+          "East": 1513,
+          "South": 1511
+        }
+      },
+      {
+        "Id": 1513,
+        "Name": "On the Lower Branches #1513",
+        "Connections": {
+          "North": 1514,
+          "South": 1515,
+          "West": 1512
+        }
+      },
+      {
+        "Id": 1514,
+        "Name": "Far out on a Limb #1514",
+        "Connections": {
+          "South": 1513
+        }
+      },
+      {
+        "Id": 1515,
+        "Name": "On the Lower Branches #1515",
+        "Connections": {
+          "North": 1513,
+          "East": 1518,
+          "South": 1516
+        }
+      },
+      {
+        "Id": 1516,
+        "Name": "On the Lower Branches #1516",
+        "Connections": {
+          "North": 1515,
+          "East": 1517,
+          "South": 1521,
+          "Up": 1530,
+          "Down": 1509
+        }
+      },
+      {
+        "Id": 1517,
+        "Name": "On the Lower Branches #1517",
+        "Connections": {
+          "North": 1518,
+          "East": 1519,
+          "West": 1516
+        },
+        "Contents": [
+          {
+            "Text": "the finch #1501",
+            "Color": "green"
+          },
+          {
+            "Text": "a tree swallow #1504",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1518,
+        "Name": "On the Lower Branches #1518",
+        "Connections": {
+          "South": 1517,
+          "West": 1515
+        }
+      },
+      {
+        "Id": 1519,
+        "Name": "On the Lower Branches #1519",
+        "Connections": {
+          "East": 1520,
+          "West": 1517
+        },
+        "Contents": [
+          {
+            "Text": "a bridled titmouse #1503",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1520,
+        "Name": "Far out on a Limb #1520",
+        "Connections": {
+          "West": 1519
+        },
+        "Contents": [
+          {
+            "Text": "a cat #1507",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1521,
+        "Name": "On the Lower Branches #1521",
+        "Connections": {
+          "North": 1516,
+          "West": 1522
+        },
+        "Contents": [
+          {
+            "Text": "a blackcapped chickadee #1502",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1522,
+        "Name": "On the Lower Branches #1522",
+        "Connections": {
+          "North": 1510,
+          "East": 1521,
+          "South": 1523
+        },
+        "Contents": [
+          {
+            "Text": "a tree swallow #1504",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1523,
+        "Name": "Out on a Limb #1523",
+        "Connections": {
+          "North": 1522,
+          "West": 1524
+        },
+        "Contents": [
+          {
+            "Text": "a ladybug #1505",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1524,
+        "Name": "Far Out on a Limb #1524",
+        "Connections": {
+          "East": 1523
+        }
+      },
+      {
+        "Id": 1525,
+        "Name": "On the Lower Branches #1525",
+        "Connections": {
+          "North": 1527,
+          "East": 1510,
+          "West": 1526
+        },
+        "Contents": [
+          {
+            "Text": "the finch #1501",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1526,
+        "Name": "Far Out on a Branch #1526",
+        "Connections": {
+          "East": 1525
+        },
+        "Contents": [
+          {
+            "Text": "a starling #1506",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1527,
+        "Name": "On the Lower Branches #1527",
+        "Connections": {
+          "South": 1525
+        },
+        "Contents": [
+          {
+            "Text": "a starling #1506",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1528,
+        "Name": "Climbing an Oak Tree #1528",
+        "Connections": {
+          "Up": 1529,
+          "Down": 1510
+        }
+      },
+      {
+        "Id": 1529,
+        "Name": "Climbing an Oak Tree #1529",
+        "Connections": {
+          "Up": 1534,
+          "Down": 1528
+        }
+      },
+      {
+        "Id": 1530,
+        "Name": "Climbing an Oak Tree #1530",
+        "Connections": {
+          "Up": 1531,
+          "Down": 1516
+        }
+      },
+      {
+        "Id": 1531,
+        "Name": "An Intersection of a Small Branch #1531",
+        "Connections": {
+          "South": 1532,
+          "Up": 1535,
+          "Down": 1530
+        }
+      },
+      {
+        "Id": 1532,
+        "Name": "On a Side Branch #1532",
+        "Connections": {
+          "North": 1531,
+          "East": 1533
+        }
+      },
+      {
+        "Id": 1533,
+        "Name": "On a Side Branch #1533",
+        "Connections": {
+          "West": 1532
+        }
+      },
+      {
+        "Id": 1534,
+        "Name": "A Hole in the Oak Tree #1534",
+        "Connections": {
+          "North": 1542,
+          "West": 1536,
+          "Up": 1552,
+          "Down": 1529
+        },
+        "Contents": [
+          {
+            "Text": "a purple martin #1508",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1535,
+        "Name": "A Fork Leading East #1535",
+        "Connections": {
+          "North": 1546,
+          "East": 1547,
+          "Up": 1553,
+          "Down": 1531
+        },
+        "Contents": [
+          {
+            "Text": "an indigo bunting #1512",
+            "Color": "green"
+          },
+          {
+            "Text": "a caterpillar #1515",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1536,
+        "Name": "On Some Branches #1536",
+        "Connections": {
+          "North": 1539,
+          "East": 1534,
+          "South": 1540,
+          "West": 1537
+        },
+        "Contents": [
+          {
+            "Text": "a grosbeak #1513",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1537,
+        "Name": "On Some Branches #1537",
+        "Connections": {
+          "East": 1536,
+          "West": 1538
+        }
+      },
+      {
+        "Id": 1538,
+        "Name": "On Some Branches #1538",
+        "Connections": {
+          "East": 1537
+        },
+        "Contents": [
+          {
+            "Text": "an indigo bunting #1512",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1539,
+        "Name": "On a Branch #1539",
+        "Connections": {
+          "East": 1542,
+          "South": 1536
+        },
+        "Contents": [
+          {
+            "Text": "the blue jay #1509",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1540,
+        "Name": "On Some Branches #1540",
+        "Connections": {
+          "North": 1536,
+          "South": 1541
+        }
+      },
+      {
+        "Id": 1541,
+        "Name": "On Some Branches #1541",
+        "Connections": {
+          "North": 1540
+        },
+        "Contents": [
+          {
+            "Text": "the blue jay #1509",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1542,
+        "Name": "On Some Branches #1542",
+        "Connections": {
+          "North": 1543,
+          "East": 1546,
+          "South": 1534,
+          "West": 1539
+        },
+        "Contents": [
+          {
+            "Text": "a blackbilled cuckoo #1511",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1543,
+        "Name": "Northern Tree Branch #1543",
+        "Connections": {
+          "North": 1544,
+          "South": 1542
+        },
+        "Contents": [
+          {
+            "Text": "the yellowbilled magpie #1510",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1544,
+        "Name": "On the Northern Branches #1544",
+        "Connections": {
+          "South": 1543
+        }
+      },
+      {
+        "Id": 1545,
+        "Name": " #1545",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "Bees #1525",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1546,
+        "Name": "On Some Branches #1546",
+        "Connections": {
+          "East": 1548,
+          "South": 1535,
+          "West": 1542
+        }
+      },
+      {
+        "Id": 1547,
+        "Name": "On Some Branches #1547",
+        "Connections": {
+          "North": 1548,
+          "East": 1549,
+          "South": 1550,
+          "West": 1535
+        },
+        "Contents": [
+          {
+            "Text": "the yellowbilled magpie #1510",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1548,
+        "Name": "On Some Branches #1548",
+        "Connections": {
+          "South": 1547,
+          "West": 1546
+        },
+        "Contents": [
+          {
+            "Text": "a chestnut collared longspur #1514",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1549,
+        "Name": "On Some Branches #1549",
+        "Connections": {
+          "West": 1547
+        },
+        "Contents": [
+          {
+            "Text": "a blackbilled cuckoo #1511",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1550,
+        "Name": "On Some Branches #1550",
+        "Connections": {
+          "North": 1547,
+          "West": 1551
+        }
+      },
+      {
+        "Id": 1551,
+        "Name": "On Some Branches #1551",
+        "Connections": {
+          "East": 1550
+        },
+        "Contents": [
+          {
+            "Text": "a chestnut collared longspur #1514",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1552,
+        "Name": "Half Way up the Oak Tree #1552",
+        "Connections": {
+          "Up": 1554,
+          "Down": 1534
+        }
+      },
+      {
+        "Id": 1553,
+        "Name": "Climbing an Oak Tree #1553",
+        "Connections": {
+          "Up": 1555,
+          "Down": 1535
+        }
+      },
+      {
+        "Id": 1554,
+        "Name": "High up in the Tree #1554",
+        "Connections": {
+          "North": 1556,
+          "South": 1560,
+          "Up": 1570,
+          "Down": 1552
+        },
+        "Contents": [
+          {
+            "Text": "a cardinal #1519",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1555,
+        "Name": "High up in the Tree #1555",
+        "Connections": {
+          "East": 1568,
+          "South": 1565,
+          "Up": 1571,
+          "Down": 1553
+        }
+      },
+      {
+        "Id": 1556,
+        "Name": "High Up in the Tree #1556",
+        "Connections": {
+          "North": 1557,
+          "South": 1554
+        },
+        "Contents": [
+          {
+            "Text": "an oriole #1517",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1557,
+        "Name": "High Up in the Tree #1557",
+        "Connections": {
+          "East": 1559,
+          "South": 1556
+        }
+      },
+      {
+        "Id": 1559,
+        "Name": "On a High Limb #1559",
+        "Connections": {
+          "West": 1557
+        },
+        "Contents": [
+          {
+            "Text": "the blackbird #1516",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1560,
+        "Name": "High up in the Tree #1560",
+        "Connections": {
+          "North": 1554,
+          "East": 1565,
+          "South": 1561
+        }
+      },
+      {
+        "Id": 1561,
+        "Name": "High up in the Tree #1561",
+        "Connections": {
+          "North": 1560,
+          "West": 1562
+        }
+      },
+      {
+        "Id": 1562,
+        "Name": "High up in the Tree #1562",
+        "Connections": {
+          "East": 1561,
+          "West": 1563
+        }
+      },
+      {
+        "Id": 1563,
+        "Name": "High up on a Limb #1563",
+        "Connections": {
+          "East": 1562
+        },
+        "Contents": [
+          {
+            "Text": "a barred owl #1518",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1565,
+        "Name": "High up in the Tree #1565",
+        "Connections": {
+          "North": 1555,
+          "East": 1566,
+          "West": 1560
+        }
+      },
+      {
+        "Id": 1566,
+        "Name": "High up in the Tree #1566",
+        "Connections": {
+          "North": 1568,
+          "South": 1567,
+          "West": 1565
+        },
+        "Contents": [
+          {
+            "Text": "a cardinal #1519",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1567,
+        "Name": "High up in the Tree #1567",
+        "Connections": {
+          "North": 1566
+        }
+      },
+      {
+        "Id": 1568,
+        "Name": "High up in the Tree #1568",
+        "Connections": {
+          "East": 1569,
+          "South": 1566,
+          "West": 1555
+        }
+      },
+      {
+        "Id": 1569,
+        "Name": "High up in the Tree #1569",
+        "Connections": {
+          "West": 1568
+        },
+        "Contents": [
+          {
+            "Text": "a tree frog #1520",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1570,
+        "Name": "Climbing an Oak Tree #1570",
+        "Connections": {
+          "Up": 1572,
+          "Down": 1554
+        }
+      },
+      {
+        "Id": 1571,
+        "Name": "Climbing an Oak Tree #1571",
+        "Connections": {
+          "Up": 1573,
+          "Down": 1555
+        }
+      },
+      {
+        "Id": 1572,
+        "Name": "On the Upper Branches #1572",
+        "Connections": {
+          "West": 1574,
+          "Up": 1582,
+          "Down": 1570
+        }
+      },
+      {
+        "Id": 1573,
+        "Name": "On the Upper Branches #1573",
+        "Connections": {
+          "North": 1577,
+          "East": 1579,
+          "Up": 1585,
+          "Down": 1571
+        }
+      },
+      {
+        "Id": 1574,
+        "Name": "In the Upper Branches #1574",
+        "Connections": {
+          "East": 1572,
+          "South": 1576,
+          "West": 1575
+        },
+        "Contents": [
+          {
+            "Text": "the raven #1522",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1575,
+        "Name": "In the Upper Branches #1575",
+        "Connections": {
+          "East": 1574
+        }
+      },
+      {
+        "Id": 1576,
+        "Name": "In the Upper Branches #1576",
+        "Connections": {
+          "North": 1574
+        }
+      },
+      {
+        "Id": 1577,
+        "Name": "In the Upper Branches #1577",
+        "Connections": {
+          "East": 1578,
+          "South": 1573
+        }
+      },
+      {
+        "Id": 1578,
+        "Name": "In the Upper Branches #1578",
+        "Connections": {
+          "West": 1577
+        },
+        "Contents": [
+          {
+            "Text": "the raven #1522",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1579,
+        "Name": "In the Upper Branches #1579",
+        "Connections": {
+          "East": 1580,
+          "South": 1581,
+          "West": 1573
+        },
+        "Contents": [
+          {
+            "Text": "the black vulture #1521",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 1580,
+        "Name": "In the Upper Branches #1580",
+        "Connections": {
+          "West": 1579
+        }
+      },
+      {
+        "Id": 1581,
+        "Name": "In the Upper Branches #1581",
+        "Connections": {
+          "North": 1579
+        }
+      },
+      {
+        "Id": 1582,
+        "Name": "Climbing an Oak Tree #1582",
+        "Connections": {
+          "Up": 1583,
+          "Down": 1572
+        }
+      },
+      {
+        "Id": 1583,
+        "Name": "Climbing an Oak Tree #1583",
+        "Connections": {
+          "Up": 1584,
+          "Down": 1582
+        }
+      },
+      {
+        "Id": 1584,
+        "Name": "Almost to the Top #1584",
+        "Connections": {
+          "Up": 1588,
+          "Down": 1583
+        }
+      },
+      {
+        "Id": 1585,
+        "Name": "Climbing an Oak Tree #1585",
+        "Connections": {
+          "Up": 1586,
+          "Down": 1573
+        }
+      },
+      {
+        "Id": 1586,
+        "Name": "Climbing an Oak Tree #1586",
+        "Connections": {
+          "Up": 1587,
+          "Down": 1585
+        }
+      },
+      {
+        "Id": 1587,
+        "Name": "Almost to the Top #1587",
+        "Connections": {
+          "Up": 1591,
+          "Down": 1586
+        }
+      },
+      {
+        "Id": 1588,
+        "Name": "Top of the Great Tree #1588",
+        "Connections": {
+          "North": 1589,
+          "South": 1590,
+          "Down": 1584
+        }
+      },
+      {
+        "Id": 1589,
+        "Name": "The Top Branches #1589",
+        "Connections": {
+          "South": 1588
+        }
+      },
+      {
+        "Id": 1590,
+        "Name": "The Top Branches #1590",
+        "Connections": {
+          "North": 1588
+        },
+        "Contents": [
+          {
+            "Text": "the griffin #1524",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1591,
+        "Name": "Top of the Great Tree #1591",
+        "Connections": {
+          "East": 1592,
+          "Down": 1587
+        }
+      },
+      {
+        "Id": 1592,
+        "Name": "A Swaying Branch #1592",
+        "Connections": {
+          "West": 1591
+        },
+        "Contents": [
+          {
+            "Text": "the falcon #1523",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 1593,
+        "Name": "SPLAT #1593",
+        "Connections": {
+          "North": 4169
+        }
+      },
+      {
+        "Id": 4173,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4173",
+        "Color": "blue",
+        "Connections": {
+          "North": 4172,
+          "East": 1500,
+          "South": 4170
+        }
+      },
+      {
+        "Id": 4162,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4162",
+        "Color": "blue",
+        "Connections": {
+          "North": 4167,
+          "East": 4087,
+          "South": 4168,
+          "West": 1505
+        }
+      },
+      {
+        "Id": 4169,
+        "FrameColor": "blue",
+        "Name": "To Thesden #4169",
+        "Color": "blue",
+        "Connections": {
+          "East": 4168,
+          "West": 4170
+        }
+      }
+    ]
+  }
+}

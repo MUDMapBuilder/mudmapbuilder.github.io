@@ -1,0 +1,3032 @@
+{
+  "Area": {
+    "Name": "Nreyth",
+    "MinimumLevel": "1",
+    "MaximumLevel": "91",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 14336,
+        "Name": "Sleeping Quarters #14336",
+        "Connections": {
+          "North": 14337,
+          "West": 14328
+        }
+      },
+      {
+        "Id": 14337,
+        "Name": "Sleeping Quarters #14337",
+        "Connections": {
+          "North": 14338,
+          "South": 14336,
+          "West": 14329
+        }
+      },
+      {
+        "Id": 14338,
+        "Name": "Barracks #14338",
+        "Connections": {
+          "East": 14239,
+          "South": 14337,
+          "West": 14346
+        }
+      },
+      {
+        "Id": 14339,
+        "Name": "Lowegk Path #14339",
+        "Connections": {
+          "North": 14399,
+          "East": 14340,
+          "West": 14335
+        }
+      },
+      {
+        "Id": 14340,
+        "Name": "Lowegk Path #14340",
+        "Connections": {
+          "North": 14398,
+          "East": 14228,
+          "West": 14339
+        }
+      },
+      {
+        "Id": 14341,
+        "Name": "Lowegk Path #14341",
+        "Connections": {
+          "East": 14342,
+          "West": 14228
+        }
+      },
+      {
+        "Id": 14342,
+        "Name": "Lowegk Path #14342",
+        "Connections": {
+          "East": 14343,
+          "West": 14341
+        }
+      },
+      {
+        "Id": 14343,
+        "Name": "Lowegk Path at Hrathn Street #14343",
+        "Connections": {
+          "North": 14285,
+          "East": 14344,
+          "South": 14317,
+          "West": 14342
+        }
+      },
+      {
+        "Id": 14344,
+        "Name": "Lowegk Path #14344",
+        "Connections": {
+          "East": 14345,
+          "West": 14343
+        }
+      },
+      {
+        "Id": 14345,
+        "Name": "Lowegk Path #14345",
+        "Connections": {
+          "East": 14301,
+          "West": 14344
+        },
+        "Contents": [
+          {
+            "Text": "An animal feeder #14293",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14346,
+        "Name": "Barracks Lounge #14346",
+        "Connections": {
+          "East": 14338
+        }
+      },
+      {
+        "Id": 14347,
+        "Name": "Jeghks Birds and Beasts #14347",
+        "Connections": {
+          "East": 14283
+        },
+        "Contents": [
+          {
+            "Text": "Jeghk #14231",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14348,
+        "Name": "Pet Storage Room #14348",
+        "Connections": {}
+      },
+      {
+        "Id": 14349,
+        "Name": "The Sleepy Bear Inn #14349",
+        "Connections": {
+          "North": {
+            "RoomId": 14353,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the Double Occupancy Room at the Sleepy Bear Inn #14226",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 14356,
+          "West": 14232
+        },
+        "Contents": [
+          {
+            "Text": "Vreuth the innkeeper #14228",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14350,
+        "Name": "Gurshars Bar #14350",
+        "Connections": {
+          "West": 14231
+        },
+        "Contents": [
+          {
+            "Text": "Gurshar the Barkeep #14238",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14351,
+        "Name": "Gruk Street #14351",
+        "Connections": {
+          "North": 14408,
+          "East": 26567,
+          "South": 14409,
+          "West": 14365
+        }
+      },
+      {
+        "Id": 14352,
+        "Name": "Wistargs Armoury #14352",
+        "Connections": {
+          "West": 14278
+        },
+        "Contents": [
+          {
+            "Text": "Wistarg the Weaponsmith #14234",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14353,
+        "Name": "Double Occupancy Room #14353",
+        "Connections": {
+          "South": {
+            "RoomId": 14349,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the Double Occupancy Room at the Sleepy Bear Inn #14226",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 14354,
+        "Name": "Talir Street #14354",
+        "Connections": {
+          "North": 14332,
+          "South": 14331
+        }
+      },
+      {
+        "Id": 14355,
+        "Name": "Gruk Street #14355",
+        "Connections": {
+          "North": 14405,
+          "South": 14335
+        }
+      },
+      {
+        "Id": 14356,
+        "Name": "Service Hallway #14356",
+        "Connections": {
+          "North": {
+            "RoomId": 14358,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the North Room at the Sleepy Bear Inn #14225",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": {
+            "RoomId": 14357,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the East Room at the Sleepy Bear Inn #14224",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 14349
+        },
+        "Contents": [
+          {
+            "Text": "A busy maid #14250",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14357,
+        "Name": "East Room #14357",
+        "Connections": {
+          "West": {
+            "RoomId": 14356,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the East Room at the Sleepy Bear Inn #14224",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 14358,
+        "Name": "North Room #14358",
+        "Connections": {
+          "South": {
+            "RoomId": 14356,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the North Room at the Sleepy Bear Inn #14225",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 14359,
+        "Name": "Winter Nights Inn #14359",
+        "Connections": {
+          "North": {
+            "RoomId": 14360,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the Double Occupancy Room of the Winter Nights Inn #14232",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 14297,
+          "South": 14361
+        },
+        "Contents": [
+          {
+            "Text": "Kathiz the innkeeper #14229",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14360,
+        "Name": "Double Occupancy Room #14360",
+        "Connections": {
+          "South": 14359
+        }
+      },
+      {
+        "Id": 14361,
+        "Name": "Dining Room #14361",
+        "Connections": {
+          "North": 14359,
+          "Up": 14362
+        },
+        "Contents": [
+          {
+            "Text": "Akrangn the cook #14245",
+            "Color": "green"
+          },
+          {
+            "Text": "A serving girl #14249",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14362,
+        "Name": "Second Floor Landing #14362",
+        "Connections": {
+          "North": {
+            "RoomId": 14363,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the North Room of the Winter Nights Inn #14233",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": {
+            "RoomId": 14364,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the West Room of the Winter Nights Inn #14234",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 14361
+        }
+      },
+      {
+        "Id": 14363,
+        "Name": "A Bedroom #14363",
+        "Connections": {
+          "South": 14362
+        }
+      },
+      {
+        "Id": 14364,
+        "Name": "A Bedroom #14364",
+        "Connections": {
+          "East": 14362
+        }
+      },
+      {
+        "Id": 14365,
+        "Name": "Nreyth Martial Academy #14365",
+        "Connections": {
+          "North": 14367,
+          "East": 14351,
+          "South": 14368
+        }
+      },
+      {
+        "Id": 14366,
+        "Name": "Second Floor Hallway #14366",
+        "Connections": {
+          "North": 14372,
+          "West": 14373,
+          "Down": 14368
+        }
+      },
+      {
+        "Id": 14367,
+        "Name": "A Long Corridor #14367",
+        "Connections": {
+          "South": 14365,
+          "West": 14369
+        }
+      },
+      {
+        "Id": 14368,
+        "Name": "Officers Hallway #14368",
+        "Connections": {
+          "North": 14365,
+          "West": 14371,
+          "Up": 14366
+        }
+      },
+      {
+        "Id": 14369,
+        "Name": "Training Field #14369",
+        "Connections": {
+          "East": 14367,
+          "South": 14370
+        },
+        "Contents": [
+          {
+            "Text": "An aged drillmaster #14239",
+            "Color": "green"
+          },
+          {
+            "Text": "A practicing trainee #14267",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14370,
+        "Name": "Training Field #14370",
+        "Connections": {
+          "North": 14369,
+          "South": 14371
+        },
+        "Contents": [
+          {
+            "Text": "A practicing trainee #14267",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14371,
+        "Name": "Cadet Sleeping Quarters #14371",
+        "Connections": {
+          "North": 14370,
+          "East": 14368
+        }
+      },
+      {
+        "Id": 14372,
+        "Name": "Office of the Marshal #14372",
+        "Connections": {
+          "South": 14366
+        }
+      },
+      {
+        "Id": 14373,
+        "Name": "The War Room #14373",
+        "Connections": {
+          "East": 14366
+        },
+        "Contents": [
+          {
+            "Text": "General Zukaghrn #14262",
+            "Color": "green"
+          },
+          {
+            "Text": "General Mushzyl #14263",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14374,
+        "Name": "The Temple of Neshajh #14374",
+        "Connections": {
+          "North": 14375,
+          "East": 14377,
+          "South": 14376,
+          "West": 14259
+        },
+        "Contents": [
+          {
+            "Text": "A young Nezhwe #14285",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14375,
+        "Name": "Prayer Room #14375",
+        "Connections": {
+          "South": 14374
+        },
+        "Contents": [
+          {
+            "Text": "Elder Priest Lrthon #14243",
+            "Color": "green"
+          },
+          {
+            "Text": "A clergy member #14287",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14376,
+        "Name": "Temple Hallway #14376",
+        "Connections": {
+          "North": 14374,
+          "East": 14379
+        },
+        "Contents": [
+          {
+            "Text": "A young Nezhwe #14285",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14377,
+        "Name": "Altar of Blood and Fire #14377",
+        "Connections": {
+          "North": 14391,
+          "East": 14387,
+          "West": 14374,
+          "Down": {
+            "RoomId": 14378,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a thin silver bracelet #14274",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        },
+        "Contents": [
+          {
+            "Text": "High Priest ilReshaz #14284",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14378,
+        "Name": "A Darkened Basement #14378",
+        "Connections": {
+          "Up": {
+            "RoomId": 14377,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a thin silver bracelet #14274",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 14379,
+        "Name": "Chamber of Acolytes #14379",
+        "Connections": {
+          "West": 14376
+        },
+        "Contents": [
+          {
+            "Text": "Hraork the acolyte teacher #14286",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14380,
+        "Name": "Southgate Stables #14380",
+        "Connections": {
+          "East": 14412,
+          "West": 14233
+        },
+        "Contents": [
+          {
+            "Text": "A vroath stablemaster #14299",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14381,
+        "Name": "South Stable Storage #14381",
+        "Connections": {}
+      },
+      {
+        "Id": 14382,
+        "Name": "Dualg Path #14382",
+        "Connections": {
+          "East": 14383,
+          "West": 14270
+        }
+      },
+      {
+        "Id": 14383,
+        "Name": "Dualg Path #14383",
+        "Connections": {
+          "East": 14384,
+          "West": 14382
+        }
+      },
+      {
+        "Id": 14384,
+        "Name": "Dualg Path at Gruk Street #14384",
+        "Connections": {
+          "North": 14241,
+          "East": 14385,
+          "South": 14278,
+          "West": 14383
+        }
+      },
+      {
+        "Id": 14385,
+        "Name": "Dualg Path #14385",
+        "Connections": {
+          "East": 14389,
+          "West": 14384
+        }
+      },
+      {
+        "Id": 14386,
+        "Name": "Temple Hallway #14386",
+        "Connections": {
+          "North": 14387
+        },
+        "Contents": [
+          {
+            "Text": "An elder Vroath priest #14288",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14387,
+        "Name": "The Temple of Neshajh #14387",
+        "Connections": {
+          "North": 14388,
+          "East": 14296,
+          "South": 14386,
+          "West": 14377
+        },
+        "Contents": [
+          {
+            "Text": "An elder Vroath priest #14288",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14388,
+        "Name": "Temple Hallway #14388",
+        "Connections": {
+          "South": 14387,
+          "West": 14391
+        },
+        "Contents": [
+          {
+            "Text": "An elder Vroath priest #14288",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14389,
+        "Name": "Dualg Path #14389",
+        "Connections": {
+          "East": 14242,
+          "West": 14385
+        }
+      },
+      {
+        "Id": 14390,
+        "Name": "Dualg Path #14390",
+        "Connections": {
+          "East": 14394,
+          "West": 14242
+        }
+      },
+      {
+        "Id": 14391,
+        "Name": "The High Priests Study #14391",
+        "Connections": {
+          "East": 14388,
+          "South": 14377
+        },
+        "Contents": [
+          {
+            "Text": "Szerla the Church Secretary #14244",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14392,
+        "Name": "School of the Bren Uthare #14392",
+        "Connections": {
+          "North": 14287,
+          "South": 14402,
+          "West": 14393,
+          "Up": 14406
+        },
+        "Contents": [
+          {
+            "Text": "An advanced apprentice of the Bren Uthare #14278",
+            "Color": "green"
+          },
+          {
+            "Text": "An eager apprentice mage #14276",
+            "Color": "green"
+          },
+          {
+            "Text": "A cautious apprentice mage #14277",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14393,
+        "Name": "First Floor Classroom #14393",
+        "Connections": {
+          "East": 14392
+        },
+        "Contents": [
+          {
+            "Text": "A Professor of the Bren Uthare #14280",
+            "Color": "green"
+          },
+          {
+            "Text": "An eager apprentice mage #14276",
+            "Color": "green"
+          },
+          {
+            "Text": "A cautious apprentice mage #14277",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14394,
+        "Name": "Dualg Path #14394",
+        "Connections": {
+          "East": 14395,
+          "West": 14390
+        }
+      },
+      {
+        "Id": 14395,
+        "Name": "Dualg Path at Hrathn Street #14395",
+        "Connections": {
+          "North": 14252,
+          "East": 14396,
+          "South": 14258,
+          "West": 14394
+        }
+      },
+      {
+        "Id": 14396,
+        "Name": "Dualg Path #14396",
+        "Connections": {
+          "East": 14397,
+          "West": 14395
+        },
+        "Contents": [
+          {
+            "Text": "A maintenance engineer #14292",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14397,
+        "Name": "Dualg Path #14397",
+        "Connections": {
+          "East": 14293,
+          "West": 14396
+        }
+      },
+      {
+        "Id": 14398,
+        "Name": "Krigahs Forge #14398",
+        "Connections": {
+          "South": 14340
+        },
+        "Contents": [
+          {
+            "Text": "Krigah the Armorer #14233",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14399,
+        "Name": "Benjevls Tailoring #14399",
+        "Connections": {
+          "South": 14339
+        },
+        "Contents": [
+          {
+            "Text": "Benjevl the tailor #14232",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14400,
+        "Name": "Hrusyls Market #14400",
+        "Connections": {
+          "West": 14404
+        },
+        "Contents": [
+          {
+            "Text": "Hrusyl #14230",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14401,
+        "Name": "Nreyth Travelers Supplies #14401",
+        "Connections": {
+          "East": 14260
+        },
+        "Contents": [
+          {
+            "Text": "Cedrigh #14235",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14402,
+        "Name": "First Floor Classroom #14402",
+        "Connections": {
+          "North": 14392,
+          "West": 14403
+        }
+      },
+      {
+        "Id": 14403,
+        "Name": "Magical Supplies #14403",
+        "Connections": {
+          "East": 14402
+        }
+      },
+      {
+        "Id": 14404,
+        "Name": "Gruk Street #14404",
+        "Connections": {
+          "North": 14261,
+          "East": 14400,
+          "South": 14405
+        }
+      },
+      {
+        "Id": 14405,
+        "Name": "Gruk Street #14405",
+        "Connections": {
+          "North": 14404,
+          "South": 14355
+        }
+      },
+      {
+        "Id": 14406,
+        "Name": "A Staircase #14406",
+        "Connections": {
+          "South": 14407,
+          "West": 14410,
+          "Up": 14304,
+          "Down": 14392
+        }
+      },
+      {
+        "Id": 14407,
+        "Name": "Second Floor Classroom #14407",
+        "Connections": {
+          "North": 14406
+        },
+        "Contents": [
+          {
+            "Text": "Ynkhlel Professor of Magic #14240",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14408,
+        "Name": "Gruk Street #14408",
+        "Connections": {
+          "North": 14335,
+          "South": 14351
+        }
+      },
+      {
+        "Id": 14409,
+        "Name": "Gruk Street #14409",
+        "Connections": {
+          "North": 14351,
+          "South": 14321
+        }
+      },
+      {
+        "Id": 14410,
+        "Name": "Second Floor Classroom #14410",
+        "Connections": {
+          "East": 14406,
+          "South": 14411
+        }
+      },
+      {
+        "Id": 14411,
+        "Name": "Resting Chamber #14411",
+        "Connections": {
+          "North": 14410
+        }
+      },
+      {
+        "Id": 14412,
+        "Name": "Southgate Stables #14412",
+        "Connections": {
+          "West": 14380
+        }
+      },
+      {
+        "Id": 14413,
+        "Name": "Bank of Nreyth #14413",
+        "Connections": {
+          "West": 14280
+        },
+        "Contents": [
+          {
+            "Text": "Ghrulak the banker #14246",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14414,
+        "Name": "The Mienkhrn Pen #14414",
+        "Connections": {
+          "North": 14415,
+          "East": 14294,
+          "South": 14416
+        }
+      },
+      {
+        "Id": 14415,
+        "Name": "The Mienkhrn Pen #14415",
+        "Connections": {
+          "South": 14414
+        }
+      },
+      {
+        "Id": 14416,
+        "Name": "The Mienkhrn Pen #14416",
+        "Connections": {
+          "North": 14414
+        }
+      },
+      {
+        "Id": 14417,
+        "Name": "Jeghks Birds and Beasts #14417",
+        "Connections": {
+          "North": 14226
+        }
+      },
+      {
+        "Id": 14425,
+        "Name": "Beneath the Streets of Nreyth #14425",
+        "Connections": {
+          "North": 14426,
+          "South": 14480,
+          "Up": 14256
+        }
+      },
+      {
+        "Id": 14426,
+        "Name": "Beneath the Streets of Nreyth #14426",
+        "Connections": {
+          "North": 14427,
+          "South": 14425
+        }
+      },
+      {
+        "Id": 14427,
+        "Name": "Beneath the Streets of Nreyth #14427",
+        "Connections": {
+          "North": 14428,
+          "South": 14426
+        }
+      },
+      {
+        "Id": 14428,
+        "Name": "Beneath the Streets of Nreyth #14428",
+        "Connections": {
+          "North": 14429,
+          "South": 14427
+        }
+      },
+      {
+        "Id": 14429,
+        "Name": "Beneath the Streets of Nreyth #14429",
+        "Connections": {
+          "North": 14430,
+          "South": 14428
+        }
+      },
+      {
+        "Id": 14430,
+        "Name": "Beneath the Streets of Nreyth #14430",
+        "Connections": {
+          "North": 14431,
+          "South": 14429
+        }
+      },
+      {
+        "Id": 14431,
+        "Name": "Beneath the Streets of Nreyth #14431",
+        "Connections": {
+          "North": 14432,
+          "South": 14430
+        }
+      },
+      {
+        "Id": 14432,
+        "Name": "Beneath the Streets of Nreyth #14432",
+        "Connections": {
+          "North": 14433,
+          "South": 14431
+        }
+      },
+      {
+        "Id": 14433,
+        "Name": "Beneath the Streets of Nreyth #14433",
+        "Connections": {
+          "South": 14432,
+          "West": 14434
+        }
+      },
+      {
+        "Id": 14434,
+        "Name": "Beneath the Streets of Nreyth #14434",
+        "Connections": {
+          "East": 14433,
+          "West": 14435
+        }
+      },
+      {
+        "Id": 14435,
+        "Name": "Beneath the Streets of Nreyth #14435",
+        "Connections": {
+          "East": 14434,
+          "West": 14436
+        }
+      },
+      {
+        "Id": 14436,
+        "Name": "Beneath the Streets of Nreyth #14436",
+        "Connections": {
+          "East": 14435,
+          "West": 14437
+        }
+      },
+      {
+        "Id": 14437,
+        "Name": "Beneath the Streets of Nreyth #14437",
+        "Connections": {
+          "East": 14436,
+          "West": 14438
+        }
+      },
+      {
+        "Id": 14438,
+        "Name": "Beneath the Streets of Nreyth #14438",
+        "Connections": {
+          "East": 14437,
+          "West": 14439
+        }
+      },
+      {
+        "Id": 14439,
+        "Name": "Beneath the Streets of Nreyth #14439",
+        "Connections": {
+          "East": 14438,
+          "West": 14440
+        }
+      },
+      {
+        "Id": 14440,
+        "Name": "Beneath the Streets of Nreyth #14440",
+        "Connections": {
+          "East": 14439,
+          "West": 14441
+        }
+      },
+      {
+        "Id": 14441,
+        "Name": "Beneath the Streets of Nreyth #14441",
+        "Connections": {
+          "East": 14440,
+          "South": 14481,
+          "West": 14442
+        }
+      },
+      {
+        "Id": 14442,
+        "Name": "Beneath the Streets of Nreyth #14442",
+        "Connections": {
+          "East": 14441,
+          "West": 14443
+        }
+      },
+      {
+        "Id": 14443,
+        "Name": "Beneath the Streets of Nreyth #14443",
+        "Connections": {
+          "East": 14442,
+          "West": 14444
+        }
+      },
+      {
+        "Id": 14444,
+        "Name": "Beneath the Streets of Nreyth #14444",
+        "Connections": {
+          "East": 14443,
+          "West": 14445
+        }
+      },
+      {
+        "Id": 14445,
+        "Name": "Beneath the Streets of Nreyth #14445",
+        "Connections": {
+          "East": 14444,
+          "South": 14446
+        }
+      },
+      {
+        "Id": 14446,
+        "Name": "Beneath the Streets of Nreyth #14446",
+        "Connections": {
+          "North": 14445,
+          "South": 14447
+        }
+      },
+      {
+        "Id": 14447,
+        "Name": "Beneath the Streets of Nreyth #14447",
+        "Connections": {
+          "North": 14446,
+          "South": 14448
+        }
+      },
+      {
+        "Id": 14448,
+        "Name": "Beneath the Streets of Nreyth #14448",
+        "Connections": {
+          "North": 14447,
+          "South": 14449
+        }
+      },
+      {
+        "Id": 14449,
+        "Name": "Beneath the Streets of Nreyth #14449",
+        "Connections": {
+          "North": 14448,
+          "South": 14450
+        }
+      },
+      {
+        "Id": 14450,
+        "Name": "Beneath the Streets of Nreyth #14450",
+        "Connections": {
+          "North": 14449,
+          "South": 14451
+        }
+      },
+      {
+        "Id": 14451,
+        "Name": "Beneath the Streets of Nreyth #14451",
+        "Connections": {
+          "North": 14450,
+          "South": 14452
+        }
+      },
+      {
+        "Id": 14452,
+        "Name": "Beneath the Streets of Nreyth #14452",
+        "Connections": {
+          "North": 14451,
+          "South": 14453
+        }
+      },
+      {
+        "Id": 14453,
+        "Name": "Beneath the Streets of Nreyth #14453",
+        "Connections": {
+          "North": 14452,
+          "South": 14454
+        }
+      },
+      {
+        "Id": 14454,
+        "Name": "Beneath the Streets of Nreyth #14454",
+        "Connections": {
+          "North": 14453,
+          "South": 14455
+        }
+      },
+      {
+        "Id": 14455,
+        "Name": "Beneath the Streets of Nreyth #14455",
+        "Connections": {
+          "North": 14454,
+          "South": 14456
+        }
+      },
+      {
+        "Id": 14456,
+        "Name": "Beneath the Streets of Nreyth #14456",
+        "Connections": {
+          "North": 14455,
+          "South": 14457
+        }
+      },
+      {
+        "Id": 14457,
+        "Name": "Beneath the Streets of Nreyth #14457",
+        "Connections": {
+          "North": 14456,
+          "South": 14458
+        }
+      },
+      {
+        "Id": 14458,
+        "Name": "Beneath the Streets of Nreyth #14458",
+        "Connections": {
+          "North": 14457,
+          "South": 14459
+        }
+      },
+      {
+        "Id": 14459,
+        "Name": "Beneath the Streets of Nreyth #14459",
+        "Connections": {
+          "North": 14458,
+          "South": 14460
+        }
+      },
+      {
+        "Id": 14460,
+        "Name": "Beneath the Streets of Nreyth #14460",
+        "Connections": {
+          "North": 14459,
+          "South": 14461
+        }
+      },
+      {
+        "Id": 14461,
+        "Name": "Beneath the Streets of Nreyth #14461",
+        "Connections": {
+          "North": 14460,
+          "East": 14462
+        }
+      },
+      {
+        "Id": 14462,
+        "Name": "Beneath the Streets of Nreyth #14462",
+        "Connections": {
+          "East": 14463,
+          "West": 14461
+        }
+      },
+      {
+        "Id": 14463,
+        "Name": "Beneath the Streets of Nreyth #14463",
+        "Connections": {
+          "East": 14464,
+          "West": 14462
+        }
+      },
+      {
+        "Id": 14464,
+        "Name": "Beneath the Streets of Nreyth #14464",
+        "Connections": {
+          "East": 14465,
+          "West": 14463
+        }
+      },
+      {
+        "Id": 14465,
+        "Name": "Beneath the Streets of Nreyth #14465",
+        "Connections": {
+          "East": 14466,
+          "West": 14464
+        }
+      },
+      {
+        "Id": 14466,
+        "Name": "Beneath the Streets of Nreyth #14466",
+        "Connections": {
+          "East": 14467,
+          "West": 14465
+        }
+      },
+      {
+        "Id": 14467,
+        "Name": "Beneath the Streets of Nreyth #14467",
+        "Connections": {
+          "East": 14468,
+          "West": 14466
+        }
+      },
+      {
+        "Id": 14468,
+        "Name": "Beneath the Streets of Nreyth #14468",
+        "Connections": {
+          "East": 14469,
+          "West": 14467
+        }
+      },
+      {
+        "Id": 14469,
+        "Name": "Beneath the Streets of Nreyth #14469",
+        "Connections": {
+          "East": 14470,
+          "West": 14468
+        }
+      },
+      {
+        "Id": 14470,
+        "Name": "Beneath the Streets of Nreyth #14470",
+        "Connections": {
+          "East": 14471,
+          "West": 14469
+        }
+      },
+      {
+        "Id": 14471,
+        "Name": "Beneath the Streets of Nreyth #14471",
+        "Connections": {
+          "East": 14472,
+          "West": 14470
+        }
+      },
+      {
+        "Id": 14472,
+        "Name": "Beneath the Streets of Nreyth #14472",
+        "Connections": {
+          "East": 14473,
+          "West": 14471
+        }
+      },
+      {
+        "Id": 14473,
+        "Name": "Beneath the Streets of Nreyth #14473",
+        "Connections": {
+          "North": 14474,
+          "West": 14472
+        }
+      },
+      {
+        "Id": 14474,
+        "Name": "Beneath the Streets of Nreyth #14474",
+        "Connections": {
+          "North": 14475,
+          "South": 14473
+        }
+      },
+      {
+        "Id": 14475,
+        "Name": "Beneath the Streets of Nreyth #14475",
+        "Connections": {
+          "North": 14476,
+          "South": 14474
+        }
+      },
+      {
+        "Id": 14476,
+        "Name": "Beneath the Streets of Nreyth #14476",
+        "Connections": {
+          "North": 14477,
+          "South": 14475
+        }
+      },
+      {
+        "Id": 14477,
+        "Name": "Beneath the Streets of Nreyth #14477",
+        "Connections": {
+          "North": 14478,
+          "South": 14476
+        }
+      },
+      {
+        "Id": 14478,
+        "Name": "Beneath the Streets of Nreyth #14478",
+        "Connections": {
+          "North": 14479,
+          "South": 14477,
+          "West": 14514
+        }
+      },
+      {
+        "Id": 14479,
+        "Name": "Beneath the Streets of Nreyth #14479",
+        "Connections": {
+          "North": 14480,
+          "South": 14478
+        }
+      },
+      {
+        "Id": 14480,
+        "Name": "Beneath the Streets of Nreyth #14480",
+        "Connections": {
+          "North": 14425,
+          "South": 14479
+        }
+      },
+      {
+        "Id": 14481,
+        "Name": "In a Tight Passage #14481",
+        "Connections": {
+          "North": 14441,
+          "South": 14482
+        }
+      },
+      {
+        "Id": 14482,
+        "Name": "In a Tight Passage #14482",
+        "Connections": {
+          "North": 14481,
+          "South": 14483
+        }
+      },
+      {
+        "Id": 14483,
+        "Name": "A Turn in the Passage #14483",
+        "Connections": {
+          "North": 14482,
+          "West": 14484
+        }
+      },
+      {
+        "Id": 14484,
+        "Name": "In a Tight Passage #14484",
+        "Connections": {
+          "East": 14483,
+          "West": 14485
+        }
+      },
+      {
+        "Id": 14485,
+        "Name": "In a Tight Passage #14485",
+        "Connections": {
+          "East": 14484,
+          "West": 14487
+        }
+      },
+      {
+        "Id": 14486,
+        "Name": "In a Tight Passage #14486",
+        "Connections": {
+          "North": 14487,
+          "South": 14488
+        }
+      },
+      {
+        "Id": 14487,
+        "Name": "A Turn in the Passage #14487",
+        "Connections": {
+          "East": 14485,
+          "South": 14486
+        }
+      },
+      {
+        "Id": 14488,
+        "Name": "In a Widening Passage #14488",
+        "Connections": {
+          "North": 14486,
+          "East": 14489
+        }
+      },
+      {
+        "Id": 14489,
+        "Name": "Before a Dark Wooden Door #14489",
+        "Connections": {
+          "East": {
+            "RoomId": 14490,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small red key #14325",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 14488
+        }
+      },
+      {
+        "Id": 14490,
+        "Name": "Entryway of the Red Shadow Guild #14490",
+        "Connections": {
+          "East": 14491,
+          "West": {
+            "RoomId": 14489,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a small red key #14325",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 14491,
+        "Name": "A Lighted Hallway #14491",
+        "Connections": {
+          "North": 14493,
+          "East": 14495,
+          "South": 14492,
+          "West": 14490
+        }
+      },
+      {
+        "Id": 14492,
+        "Name": "A Game Room #14492",
+        "Connections": {
+          "North": 14491
+        }
+      },
+      {
+        "Id": 14493,
+        "Name": "A Small Closet #14493",
+        "Connections": {
+          "South": 14491
+        }
+      },
+      {
+        "Id": 14495,
+        "Name": "A Lighted Hallway #14495",
+        "Connections": {
+          "East": 14496,
+          "West": 14491
+        }
+      },
+      {
+        "Id": 14496,
+        "Name": "A Meeting Room #14496",
+        "Connections": {
+          "East": 14497,
+          "South": 14498,
+          "West": 14495
+        }
+      },
+      {
+        "Id": 14497,
+        "Name": "A Map Room #14497",
+        "Connections": {
+          "West": 14496
+        }
+      },
+      {
+        "Id": 14498,
+        "Name": "A Darkened Hallway #14498",
+        "Connections": {
+          "North": 14496,
+          "South": 14499
+        }
+      },
+      {
+        "Id": 14499,
+        "Name": "An Intersection in a Darkened Hallway #14499",
+        "Connections": {
+          "North": 14498,
+          "East": 14501,
+          "South": 14500,
+          "West": 14502
+        }
+      },
+      {
+        "Id": 14500,
+        "Name": "A Darkened Hallway #14500",
+        "Connections": {
+          "North": 14499,
+          "South": 14503
+        }
+      },
+      {
+        "Id": 14501,
+        "Name": "A Large Bunkroom #14501",
+        "Connections": {
+          "West": 14499
+        }
+      },
+      {
+        "Id": 14502,
+        "Name": "A Large Bunkroom #14502",
+        "Connections": {
+          "East": 14499
+        }
+      },
+      {
+        "Id": 14503,
+        "Name": "A Darkened Hallway #14503",
+        "Connections": {
+          "North": 14500,
+          "East": 14506,
+          "South": 14504
+        }
+      },
+      {
+        "Id": 14504,
+        "Name": "Horaces Private Bedchamber #14504",
+        "Connections": {
+          "North": 14503,
+          "East": 14505
+        }
+      },
+      {
+        "Id": 14505,
+        "Name": "A Toilet Chamber #14505",
+        "Connections": {
+          "West": 14504
+        }
+      },
+      {
+        "Id": 14506,
+        "Name": "A Large Dining Hall #14506",
+        "Connections": {
+          "North": 14507,
+          "East": 14508,
+          "West": 14503
+        }
+      },
+      {
+        "Id": 14507,
+        "Name": "The Kitchen #14507",
+        "Connections": {
+          "South": 14506
+        }
+      },
+      {
+        "Id": 14508,
+        "Name": "A Torchlit Hallway #14508",
+        "Connections": {
+          "East": 14509,
+          "West": 14506
+        }
+      },
+      {
+        "Id": 14509,
+        "Name": "Before a Decorated Red Door #14509",
+        "Connections": {
+          "East": 14510,
+          "West": 14508
+        }
+      },
+      {
+        "Id": 14510,
+        "Name": "Drake Daelels Meeting Room #14510",
+        "Connections": {
+          "East": 14511,
+          "South": 14512,
+          "West": 14509
+        }
+      },
+      {
+        "Id": 14511,
+        "Name": "Drake Daelels Private Bedchamber #14511",
+        "Connections": {
+          "West": 14510
+        }
+      },
+      {
+        "Id": 14512,
+        "Name": "A Cramped Passage #14512",
+        "Connections": {
+          "North": 14510,
+          "South": 14513
+        }
+      },
+      {
+        "Id": 14513,
+        "Name": "A Cramped Passage #14513",
+        "Connections": {
+          "North": 14512,
+          "East": 14514
+        }
+      },
+      {
+        "Id": 14514,
+        "Name": "A Cramped Passage #14514",
+        "Connections": {
+          "East": 14478,
+          "West": 14513
+        }
+      },
+      {
+        "Id": 14818,
+        "Name": "Kymrans Test Room #14818",
+        "Connections": {}
+      },
+      {
+        "Id": 14218,
+        "Name": "Center of the Slave Market #14218",
+        "Connections": {
+          "North": 14219,
+          "East": 14222,
+          "South": 14220,
+          "West": 14221
+        },
+        "Contents": [
+          {
+            "Text": "the slave auctioneer #14218",
+            "Color": "green"
+          },
+          {
+            "Text": "an auctioned slave #14219",
+            "Color": "green"
+          },
+          {
+            "Text": "an emotionless slave #14220",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14219,
+        "Name": "At the Slave Market #14219",
+        "Connections": {
+          "North": 14231,
+          "East": 14224,
+          "South": 14218,
+          "West": 14223
+        },
+        "Contents": [
+          {
+            "Text": "a slave buyer #14222",
+            "Color": "green"
+          },
+          {
+            "Text": "A slave merchant #14225",
+            "Color": "green"
+          },
+          {
+            "Text": "an auctioned slave #14219",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14220,
+        "Name": "At the Slave Market #14220",
+        "Connections": {
+          "North": 14218,
+          "East": 14226,
+          "South": 14230,
+          "West": 14225
+        },
+        "Contents": [
+          {
+            "Text": "a slave buyer #14222",
+            "Color": "green"
+          },
+          {
+            "Text": "A slave merchant #14225",
+            "Color": "green"
+          },
+          {
+            "Text": "an auctioned slave #14219",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14221,
+        "Name": "At the Slave Market #14221",
+        "Connections": {
+          "North": 14223,
+          "East": 14218,
+          "South": 14225,
+          "West": 14257
+        },
+        "Contents": [
+          {
+            "Text": "a slave buyer #14222",
+            "Color": "green"
+          },
+          {
+            "Text": "A slave merchant #14225",
+            "Color": "green"
+          },
+          {
+            "Text": "an auctioned slave #14219",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14222,
+        "Name": "At the Slave Market #14222",
+        "Connections": {
+          "North": 14224,
+          "East": 14249,
+          "South": 14226,
+          "West": 14218
+        },
+        "Contents": [
+          {
+            "Text": "a slave buyer #14222",
+            "Color": "green"
+          },
+          {
+            "Text": "A slave merchant #14225",
+            "Color": "green"
+          },
+          {
+            "Text": "an auctioned slave #14219",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14223,
+        "Name": "Corner of the Slave Market #14223",
+        "Connections": {
+          "East": 14219,
+          "South": 14221
+        },
+        "Contents": [
+          {
+            "Text": "a miserable slave #14221",
+            "Color": "green"
+          },
+          {
+            "Text": "an emotionless slave #14220",
+            "Color": "green"
+          },
+          {
+            "Text": "A slave guard #14224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14224,
+        "Name": "Corner of the Slave Market #14224",
+        "Connections": {
+          "South": 14222,
+          "West": 14219
+        },
+        "Contents": [
+          {
+            "Text": "a miserable slave #14221",
+            "Color": "green"
+          },
+          {
+            "Text": "an emotionless slave #14220",
+            "Color": "green"
+          },
+          {
+            "Text": "A slave guard #14224",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14225,
+        "Name": "Slave Registration Office #14225",
+        "Connections": {
+          "North": 14221,
+          "East": 14220
+        },
+        "Contents": [
+          {
+            "Text": "The slave registration officer #14223",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14226,
+        "Name": "Corner of the Slave Market #14226",
+        "Connections": {
+          "North": 14222,
+          "South": 14417,
+          "West": 14220
+        },
+        "Contents": [
+          {
+            "Text": "A slave guard #14224",
+            "Color": "green"
+          },
+          {
+            "Text": "an emotionless slave #14220",
+            "Color": "green"
+          },
+          {
+            "Text": "a miserable slave #14221",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14227,
+        "Name": "Hadukk Road #14227",
+        "Connections": {
+          "North": 14230,
+          "South": 14228
+        }
+      },
+      {
+        "Id": 14228,
+        "Name": "Hadukk Road at Lowegk Path #14228",
+        "Connections": {
+          "North": 14227,
+          "East": 14341,
+          "South": 14229,
+          "West": 14340
+        }
+      },
+      {
+        "Id": 14229,
+        "Name": "Hadukk Road #14229",
+        "Connections": {
+          "North": 14228,
+          "South": 14232
+        }
+      },
+      {
+        "Id": 14230,
+        "Name": "Hadukk Road #14230",
+        "Connections": {
+          "North": 14220,
+          "South": 14227
+        }
+      },
+      {
+        "Id": 14231,
+        "Name": "Hadukk Road #14231",
+        "Connections": {
+          "North": 14238,
+          "East": 14350,
+          "South": 14219
+        },
+        "Contents": [
+          {
+            "Text": "A visiting dwarven merchant #14295",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14232,
+        "Name": "Hadukk Road #14232",
+        "Connections": {
+          "North": 14229,
+          "East": 14349,
+          "South": 14233
+        }
+      },
+      {
+        "Id": 14233,
+        "Name": "Hadukk Road #14233",
+        "Connections": {
+          "North": 14232,
+          "East": 14380,
+          "South": 14234
+        }
+      },
+      {
+        "Id": 14234,
+        "Name": "Inside the Southern Gate #14234",
+        "Connections": {
+          "North": 14233,
+          "East": 14315,
+          "South": 14235,
+          "West": 14316
+        }
+      },
+      {
+        "Id": 14235,
+        "Name": "Outside the Southern Gate #14235",
+        "Connections": {
+          "North": 14234,
+          "South": 14237,
+          "West": 14236
+        },
+        "Contents": [
+          {
+            "Text": "A gatekeeper #14226",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14236,
+        "Name": "Southern Guardhouse #14236",
+        "Connections": {
+          "East": 14235
+        }
+      },
+      {
+        "Id": 14237,
+        "Name": "A Rocky Trail #14237",
+        "Connections": {
+          "North": 14235,
+          "South": 7700
+        }
+      },
+      {
+        "Id": 14238,
+        "Name": "Hadukk Road #14238",
+        "Connections": {
+          "North": 14242,
+          "South": 14231
+        }
+      },
+      {
+        "Id": 14239,
+        "Name": "Gruk Street #14239",
+        "Connections": {
+          "North": 14276,
+          "East": {
+            "RoomId": 14314,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the storerooms #14223",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 14240,
+          "West": 14338
+        }
+      },
+      {
+        "Id": 14240,
+        "Name": "Gruk Street #14240",
+        "Connections": {
+          "North": 14239,
+          "South": 14241
+        }
+      },
+      {
+        "Id": 14241,
+        "Name": "Gruk Street #14241",
+        "Connections": {
+          "North": 14240,
+          "South": 14384
+        }
+      },
+      {
+        "Id": 14242,
+        "Name": "Hadukk Road at Dualg Path #14242",
+        "Connections": {
+          "North": 14243,
+          "East": 14390,
+          "South": 14238,
+          "West": 14389
+        }
+      },
+      {
+        "Id": 14243,
+        "Name": "Hadukk Road #14243",
+        "Connections": {
+          "North": 14297,
+          "South": 14242
+        }
+      },
+      {
+        "Id": 14244,
+        "Name": "Hadukk Road #14244",
+        "Connections": {
+          "North": 14245,
+          "South": 14297
+        }
+      },
+      {
+        "Id": 14245,
+        "Name": "Inside the Northern Gate #14245",
+        "Connections": {
+          "North": {
+            "RoomId": 14246,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to Nreyths northern gate #14221",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "East": 14282,
+          "South": 14244,
+          "West": 14281
+        }
+      },
+      {
+        "Id": 14246,
+        "Name": "Outide the Northern Gate #14246",
+        "Connections": {
+          "North": 14247,
+          "East": 14248,
+          "South": 14245
+        },
+        "Contents": [
+          {
+            "Text": "A gatekeeper #14226",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14247,
+        "Name": "A Steep Trail Through the Mountains #14247",
+        "Connections": {
+          "South": 14246
+        }
+      },
+      {
+        "Id": 14248,
+        "Name": "Northern Guardhouse #14248",
+        "Connections": {
+          "West": 14246
+        }
+      },
+      {
+        "Id": 14249,
+        "Name": "Bujaghn Way #14249",
+        "Connections": {
+          "East": 14253,
+          "West": 14222
+        },
+        "Contents": [
+          {
+            "Text": "A visiting dwarven merchant #14295",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14250,
+        "Name": "Hrathn Street #14250",
+        "Connections": {
+          "North": 14289,
+          "South": 14251
+        }
+      },
+      {
+        "Id": 14251,
+        "Name": "Hrathn Street #14251",
+        "Connections": {
+          "North": 14250,
+          "South": 14252
+        }
+      },
+      {
+        "Id": 14252,
+        "Name": "Hrathn Street #14252",
+        "Connections": {
+          "North": 14251,
+          "South": 14395
+        }
+      },
+      {
+        "Id": 14253,
+        "Name": "Bujaghn Way at Hrathn Street #14253",
+        "Connections": {
+          "North": 14260,
+          "East": 14254,
+          "South": 14283,
+          "West": 14249
+        },
+        "Contents": [
+          {
+            "Text": "An old holy Vroath #14289",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14254,
+        "Name": "Bujaghn Way #14254",
+        "Connections": {
+          "East": 14255,
+          "West": 14253
+        }
+      },
+      {
+        "Id": 14255,
+        "Name": "Bujaghn Way #14255",
+        "Connections": {
+          "East": 14256,
+          "West": 14254
+        }
+      },
+      {
+        "Id": 14256,
+        "Name": "Bujaghn Way at Teluk Street #14256",
+        "Connections": {
+          "North": 14298,
+          "South": 14299,
+          "West": 14255,
+          "Down": 14425
+        },
+        "Contents": [
+          {
+            "Text": "A clergy member #14287",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14257,
+        "Name": "Bujaghn Way #14257",
+        "Connections": {
+          "East": 14221,
+          "West": 14261
+        },
+        "Contents": [
+          {
+            "Text": "A housewife #14294",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14258,
+        "Name": "Hrathn Street #14258",
+        "Connections": {
+          "North": 14395,
+          "South": 14259
+        }
+      },
+      {
+        "Id": 14259,
+        "Name": "Hrathn Street #14259",
+        "Connections": {
+          "North": 14258,
+          "East": 14374,
+          "South": 14260
+        },
+        "Contents": [
+          {
+            "Text": "A clergy member #14287",
+            "Color": "green"
+          },
+          {
+            "Text": "A clergy member #14287",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14260,
+        "Name": "Hrathn Street #14260",
+        "Connections": {
+          "North": 14259,
+          "South": 14253,
+          "West": 14401
+        }
+      },
+      {
+        "Id": 14261,
+        "Name": "Bujaghn Way at Gruk Street #14261",
+        "Connections": {
+          "North": 14280,
+          "East": 14257,
+          "South": 14404,
+          "West": 14262
+        },
+        "Contents": [
+          {
+            "Text": "A Vroath noble #14296",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14262,
+        "Name": "Bujaghn Way #14262",
+        "Connections": {
+          "East": 14261,
+          "West": 14263
+        }
+      },
+      {
+        "Id": 14263,
+        "Name": "Bujaghn Way #14263",
+        "Connections": {
+          "East": 14262,
+          "West": 14264
+        }
+      },
+      {
+        "Id": 14264,
+        "Name": "Bujaghn Way at Talir Street #14264",
+        "Connections": {
+          "North": 14265,
+          "East": 14263,
+          "South": 14332
+        }
+      },
+      {
+        "Id": 14265,
+        "Name": "Talir Street #14265",
+        "Connections": {
+          "North": 14266,
+          "South": 14264
+        }
+      },
+      {
+        "Id": 14266,
+        "Name": "Talir Street #14266",
+        "Connections": {
+          "North": 14269,
+          "South": 14265
+        }
+      },
+      {
+        "Id": 14267,
+        "Name": "Talir Street #14267",
+        "Connections": {
+          "North": 14272,
+          "East": 14329,
+          "South": 14271
+        }
+      },
+      {
+        "Id": 14268,
+        "Name": "Teluk Street #14268",
+        "Connections": {
+          "North": 14292,
+          "South": 14291
+        }
+      },
+      {
+        "Id": 14269,
+        "Name": "Talir Street #14269",
+        "Connections": {
+          "North": 14270,
+          "South": 14266
+        }
+      },
+      {
+        "Id": 14270,
+        "Name": "Talir Street at Dualg Path #14270",
+        "Connections": {
+          "North": 14271,
+          "East": 14382,
+          "South": 14269
+        }
+      },
+      {
+        "Id": 14271,
+        "Name": "Talir Street #14271",
+        "Connections": {
+          "North": 14267,
+          "South": 14270
+        }
+      },
+      {
+        "Id": 14272,
+        "Name": "Talir Street #14272",
+        "Connections": {
+          "North": 14273,
+          "South": 14267
+        }
+      },
+      {
+        "Id": 14273,
+        "Name": "Talir Street at Northwall Path #14273",
+        "Connections": {
+          "East": 14274,
+          "South": 14272
+        }
+      },
+      {
+        "Id": 14274,
+        "Name": "Northwall Path #14274",
+        "Connections": {
+          "East": 14275,
+          "West": 14273
+        }
+      },
+      {
+        "Id": 14275,
+        "Name": "Northwall Path #14275",
+        "Connections": {
+          "East": 14276,
+          "West": 14274
+        },
+        "Contents": [
+          {
+            "Text": "A Vroath noble #14296",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14276,
+        "Name": "Northwall Path at Gruk Street #14276",
+        "Connections": {
+          "East": 14277,
+          "South": 14239,
+          "West": 14275
+        }
+      },
+      {
+        "Id": 14277,
+        "Name": "Northwall Path #14277",
+        "Connections": {
+          "East": 14281,
+          "West": 14276
+        },
+        "Contents": [
+          {
+            "Text": "The prophet #14297",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14278,
+        "Name": "Gruk Street #14278",
+        "Connections": {
+          "North": 14384,
+          "East": 14352,
+          "South": 14279
+        }
+      },
+      {
+        "Id": 14279,
+        "Name": "Gruk Street #14279",
+        "Connections": {
+          "North": 14278,
+          "South": 14280
+        }
+      },
+      {
+        "Id": 14280,
+        "Name": "Gruk Street #14280",
+        "Connections": {
+          "North": 14279,
+          "East": 14413,
+          "South": 14261
+        }
+      },
+      {
+        "Id": 14281,
+        "Name": "Northwall Path #14281",
+        "Connections": {
+          "East": 14245,
+          "West": 14277
+        }
+      },
+      {
+        "Id": 14282,
+        "Name": "Northwall Path #14282",
+        "Connections": {
+          "East": 14286,
+          "West": 14245
+        }
+      },
+      {
+        "Id": 14283,
+        "Name": "Hrathn Street #14283",
+        "Connections": {
+          "North": 14253,
+          "South": 14284,
+          "West": 14347
+        },
+        "Contents": [
+          {
+            "Text": "A young girl #14290",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14284,
+        "Name": "Hrathn Street #14284",
+        "Connections": {
+          "North": 14283,
+          "South": 14285
+        },
+        "Contents": [
+          {
+            "Text": "A sassy teenager #14291",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14285,
+        "Name": "Hrathn Street #14285",
+        "Connections": {
+          "North": 14284,
+          "South": 14343
+        }
+      },
+      {
+        "Id": 14286,
+        "Name": "Northwall Path #14286",
+        "Connections": {
+          "East": 14289,
+          "West": 14282
+        }
+      },
+      {
+        "Id": 14287,
+        "Name": "Northwall Path #14287",
+        "Connections": {
+          "East": 14290,
+          "South": 14392,
+          "West": 14288
+        }
+      },
+      {
+        "Id": 14288,
+        "Name": "Northwall Path #14288",
+        "Connections": {
+          "East": 14287,
+          "West": 14289
+        }
+      },
+      {
+        "Id": 14289,
+        "Name": "Northwall Path at Hrathn Street #14289",
+        "Connections": {
+          "East": 14288,
+          "South": 14250,
+          "West": 14286
+        }
+      },
+      {
+        "Id": 14290,
+        "Name": "Teluk Street at Northwall Path #14290",
+        "Connections": {
+          "South": 14292,
+          "West": 14287
+        },
+        "Contents": [
+          {
+            "Text": "A visiting dwarven merchant #14295",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14291,
+        "Name": "Teluk Street #14291",
+        "Connections": {
+          "North": 14268,
+          "South": 14293
+        }
+      },
+      {
+        "Id": 14292,
+        "Name": "Teluk Street #14292",
+        "Connections": {
+          "North": 14290,
+          "South": 14268
+        }
+      },
+      {
+        "Id": 14293,
+        "Name": "Teluk Street at Dualg Path #14293",
+        "Connections": {
+          "North": 14291,
+          "South": 14295,
+          "West": 14397
+        }
+      },
+      {
+        "Id": 14294,
+        "Name": "Teluk Street #14294",
+        "Connections": {
+          "North": 14299,
+          "South": 14300,
+          "West": 14414
+        }
+      },
+      {
+        "Id": 14295,
+        "Name": "Teluk Street #14295",
+        "Connections": {
+          "North": 14293,
+          "South": 14296
+        }
+      },
+      {
+        "Id": 14296,
+        "Name": "Teluk Street #14296",
+        "Connections": {
+          "North": 14295,
+          "South": 14298,
+          "West": 14387
+        },
+        "Contents": [
+          {
+            "Text": "An elder Vroath priest #14288",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14297,
+        "Name": "Hadukk Road #14297",
+        "Connections": {
+          "North": 14244,
+          "South": 14243,
+          "West": 14359
+        }
+      },
+      {
+        "Id": 14298,
+        "Name": "Teluk Street #14298",
+        "Connections": {
+          "North": 14296,
+          "South": 14256
+        }
+      },
+      {
+        "Id": 14299,
+        "Name": "Teluk Street #14299",
+        "Connections": {
+          "North": 14256,
+          "South": 14294
+        }
+      },
+      {
+        "Id": 14300,
+        "Name": "Teluk Street #14300",
+        "Connections": {
+          "North": 14294,
+          "South": 14301
+        }
+      },
+      {
+        "Id": 14301,
+        "Name": "Teluk Street at Lowegk Path #14301",
+        "Connections": {
+          "North": 14300,
+          "South": 14302,
+          "West": 14345
+        },
+        "Contents": [
+          {
+            "Text": "A housewife #14294",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14302,
+        "Name": "Teluk Street #14302",
+        "Connections": {
+          "North": 14301,
+          "South": 14303
+        }
+      },
+      {
+        "Id": 14303,
+        "Name": "Teluk Street #14303",
+        "Connections": {
+          "North": 14302,
+          "South": 14306
+        }
+      },
+      {
+        "Id": 14304,
+        "Name": "A Staircase #14304",
+        "Connections": {
+          "West": 14305,
+          "Down": 14406
+        }
+      },
+      {
+        "Id": 14305,
+        "Name": "The Headmasters Office #14305",
+        "Connections": {
+          "East": 14304
+        },
+        "Contents": [
+          {
+            "Text": "Grenyar the Master Mage #14283",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14306,
+        "Name": "Teluk Street #14306",
+        "Connections": {
+          "North": 14303,
+          "South": 14307
+        }
+      },
+      {
+        "Id": 14307,
+        "Name": "Teluk Street at Southwall Path #14307",
+        "Connections": {
+          "North": 14306,
+          "West": 14308
+        },
+        "Contents": [
+          {
+            "Text": "A maintenance engineer #14292",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14308,
+        "Name": "Southwall Path #14308",
+        "Connections": {
+          "East": 14307,
+          "West": 14309
+        },
+        "Contents": [
+          {
+            "Text": "A housewife #14294",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14309,
+        "Name": "Southwall Path #14309",
+        "Connections": {
+          "East": 14308,
+          "West": 14310
+        }
+      },
+      {
+        "Id": 14310,
+        "Name": "Southwall Path at Hrathn Street #14310",
+        "Connections": {
+          "North": 14319,
+          "East": 14309,
+          "West": 14311
+        }
+      },
+      {
+        "Id": 14311,
+        "Name": "Southwall Path #14311",
+        "Connections": {
+          "East": 14310,
+          "West": 14315
+        }
+      },
+      {
+        "Id": 14312,
+        "Name": "Weapons and Armor Storage #14312",
+        "Connections": {
+          "North": 14313
+        }
+      },
+      {
+        "Id": 14313,
+        "Name": "Equipment and Supplies Storage #14313",
+        "Connections": {
+          "North": 14314,
+          "South": 14312
+        }
+      },
+      {
+        "Id": 14314,
+        "Name": "Food Storage #14314",
+        "Connections": {
+          "South": 14313,
+          "West": {
+            "RoomId": 14239,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a key to the storerooms #14223",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 14315,
+        "Name": "Southwall Path #14315",
+        "Connections": {
+          "East": 14311,
+          "West": 14234
+        }
+      },
+      {
+        "Id": 14316,
+        "Name": "Southwall Path #14316",
+        "Connections": {
+          "East": 14234,
+          "West": 14320
+        }
+      },
+      {
+        "Id": 14317,
+        "Name": "Hrathn Street #14317",
+        "Connections": {
+          "North": 14343,
+          "South": 14318
+        }
+      },
+      {
+        "Id": 14318,
+        "Name": "Hrathn Street #14318",
+        "Connections": {
+          "North": 14317,
+          "South": 14319
+        }
+      },
+      {
+        "Id": 14319,
+        "Name": "Hrathn Street #14319",
+        "Connections": {
+          "North": 14318,
+          "South": 14310
+        },
+        "Contents": [
+          {
+            "Text": "A maintenance engineer #14292",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 14320,
+        "Name": "Southwall Path #14320",
+        "Connections": {
+          "East": 14316,
+          "West": 14321
+        }
+      },
+      {
+        "Id": 14321,
+        "Name": "Southwall Path at Gruk Street #14321",
+        "Connections": {
+          "North": 14409,
+          "East": 14320,
+          "West": 14322
+        }
+      },
+      {
+        "Id": 14322,
+        "Name": "Southwall Path #14322",
+        "Connections": {
+          "East": 14321,
+          "West": 14323
+        }
+      },
+      {
+        "Id": 14323,
+        "Name": "Southwall Path #14323",
+        "Connections": {
+          "East": 14322,
+          "West": 14324
+        }
+      },
+      {
+        "Id": 14324,
+        "Name": "Talir Street at Southwall Path #14324",
+        "Connections": {
+          "North": 14325,
+          "East": 14323
+        }
+      },
+      {
+        "Id": 14325,
+        "Name": "Talir Street #14325",
+        "Connections": {
+          "North": 14327,
+          "South": 14324
+        }
+      },
+      {
+        "Id": 14326,
+        "Name": "Talir Street #14326",
+        "Connections": {
+          "North": 14330,
+          "South": 14327
+        }
+      },
+      {
+        "Id": 14327,
+        "Name": "Talir Street #14327",
+        "Connections": {
+          "North": 14326,
+          "South": 14325
+        }
+      },
+      {
+        "Id": 14328,
+        "Name": "Barracks Kitchen #14328",
+        "Connections": {
+          "North": 14329,
+          "East": 14336
+        }
+      },
+      {
+        "Id": 14329,
+        "Name": "Sleeping Quarters #14329",
+        "Connections": {
+          "East": 14337,
+          "South": 14328,
+          "West": 14267
+        }
+      },
+      {
+        "Id": 14330,
+        "Name": "Talir Street at Lowegk Path #14330",
+        "Connections": {
+          "North": 14331,
+          "East": 14333,
+          "South": 14326
+        }
+      },
+      {
+        "Id": 14331,
+        "Name": "Talir Street #14331",
+        "Connections": {
+          "North": 14354,
+          "South": 14330
+        }
+      },
+      {
+        "Id": 14332,
+        "Name": "Talir Street #14332",
+        "Connections": {
+          "North": 14264,
+          "South": 14354
+        }
+      },
+      {
+        "Id": 14333,
+        "Name": "Lowegk Path #14333",
+        "Connections": {
+          "East": 14334,
+          "West": 14330
+        }
+      },
+      {
+        "Id": 14334,
+        "Name": "Lowegk Path #14334",
+        "Connections": {
+          "East": 14335,
+          "West": 14333
+        }
+      },
+      {
+        "Id": 14335,
+        "Name": "Lowegk Path at Gruk Street #14335",
+        "Connections": {
+          "North": 14355,
+          "East": 14339,
+          "South": 14408,
+          "West": 14334
+        },
+        "Contents": [
+          {
+            "Text": "A housewife #14294",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 26567,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26567",
+        "Color": "blue",
+        "Connections": {
+          "South": 26568,
+          "West": 14351
+        }
+      },
+      {
+        "Id": 7700,
+        "FrameColor": "blue",
+        "Name": "To Ryaiscars Rises #7700",
+        "Color": "blue",
+        "Connections": {
+          "North": 14237,
+          "East": 7701,
+          "South": 7714
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1559 @@
+{
+  "Area": {
+    "Name": "BarBaz",
+    "MinimumLevel": "20",
+    "MaximumLevel": "100",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 22623,
+        "Name": "Descending... #22623",
+        "Connections": {
+          "Up": 2695,
+          "Down": 22624
+        }
+      },
+      {
+        "Id": 22624,
+        "Name": "A Mine #22624",
+        "Connections": {
+          "North": 22625,
+          "West": 22626,
+          "Up": 22623
+        }
+      },
+      {
+        "Id": 22625,
+        "Name": "A Caved In Tunnel #22625",
+        "Connections": {
+          "South": 22624
+        },
+        "Contents": [
+          {
+            "Text": "A swarm of spiders #22655",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22626,
+        "Name": "A Mine #22626",
+        "Connections": {
+          "East": 22624,
+          "Down": 22731
+        }
+      },
+      {
+        "Id": 22627,
+        "Name": "Under the Gate #22627",
+        "Connections": {
+          "West": 22628
+        }
+      },
+      {
+        "Id": 22628,
+        "Name": "The Caverns of BarBaz #22628",
+        "Connections": {
+          "North": 22634,
+          "East": 22627,
+          "West": 22644
+        }
+      },
+      {
+        "Id": 22629,
+        "Name": "The Caverns of BarBaz #22629",
+        "Connections": {
+          "North": 22644,
+          "South": 22630,
+          "West": 22632
+        },
+        "Contents": [
+          {
+            "Text": "The skeleton of a dwarven miner #22623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22630,
+        "Name": "The South Wall of the Cavern #22630",
+        "Connections": {
+          "North": 22629,
+          "West": 22631
+        },
+        "Contents": [
+          {
+            "Text": "The skeleton of a dwarven miner #22623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22631,
+        "Name": "Beneath a Frostglittering Cliff #22631",
+        "Connections": {
+          "North": 22632,
+          "East": 22630,
+          "West": 22657
+        }
+      },
+      {
+        "Id": 22632,
+        "Name": "The Caverns of BarBaz #22632",
+        "Connections": {
+          "North": 22633,
+          "East": 22629,
+          "South": 22631,
+          "West": 22656
+        },
+        "Contents": [
+          {
+            "Text": "A lich miner #22625",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22633,
+        "Name": "The Caverns of BarBaz #22633",
+        "Connections": {
+          "East": 22644,
+          "South": 22632,
+          "West": 22655
+        },
+        "Contents": [
+          {
+            "Text": "The skeleton of a dwarven miner #22623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22634,
+        "Name": "The Caverns of BarBaz #22634",
+        "Connections": {
+          "South": 22628,
+          "West": 22645
+        },
+        "Contents": [
+          {
+            "Text": "The skeleton of a dwarven miner #22623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22635,
+        "Name": "The North Wall of the Cavern #22635",
+        "Connections": {
+          "East": 22643,
+          "South": 22636,
+          "West": 22647
+        },
+        "Contents": [
+          {
+            "Text": "The skeleton of a dwarven miner #22623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22636,
+        "Name": "The Caverns of BarBaz #22636",
+        "Connections": {
+          "North": 22635,
+          "East": 22646,
+          "West": 22648
+        },
+        "Contents": [
+          {
+            "Text": "The skeleton of a dwarven miner #22623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22637,
+        "Name": "High Up on a Cliff #22637",
+        "Connections": {
+          "East": 22638
+        }
+      },
+      {
+        "Id": 22638,
+        "Name": "A Mining Tunnel #22638",
+        "Connections": {
+          "East": 22639,
+          "South": 22660,
+          "West": 22637
+        }
+      },
+      {
+        "Id": 22639,
+        "Name": "A Mining Tunnel #22639",
+        "Connections": {
+          "East": 22640,
+          "West": 22638
+        },
+        "Contents": [
+          {
+            "Text": "The skeleton of a dwarven miner #22649",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22640,
+        "Name": "A Mining Tunnel #22640",
+        "Connections": {
+          "North": 22641,
+          "West": 22639
+        },
+        "Contents": [
+          {
+            "Text": "The skeleton of a dwarven miner #22649",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22641,
+        "Name": "Sliding Down a Slope of Ice #22641",
+        "Connections": {
+          "North": 22642,
+          "South": 22640
+        }
+      },
+      {
+        "Id": 22642,
+        "Name": "Sliding Down a Slope of Ice #22642",
+        "Connections": {
+          "North": 22624,
+          "South": 22641
+        }
+      },
+      {
+        "Id": 22643,
+        "Name": "By the Cairns #22643",
+        "Connections": {
+          "West": 22635
+        }
+      },
+      {
+        "Id": 22644,
+        "Name": "The Stuck Trolley #22644",
+        "Connections": {
+          "North": 22645,
+          "East": 22628,
+          "South": 22629,
+          "West": 22633
+        },
+        "Contents": [
+          {
+            "Text": "The splintered old bones of a skeleton #22627",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22645,
+        "Name": "The Caverns of BarBaz #22645",
+        "Connections": {
+          "North": 22646,
+          "East": 22634,
+          "South": 22644
+        }
+      },
+      {
+        "Id": 22646,
+        "Name": "A Corner of the Cavern #22646",
+        "Connections": {
+          "South": 22645,
+          "West": 22636
+        },
+        "Contents": [
+          {
+            "Text": "The skeleton of a dwarven miner #22623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22647,
+        "Name": "The North Wall of the Cavern #22647",
+        "Connections": {
+          "East": 22635,
+          "South": 22648,
+          "West": 22652
+        }
+      },
+      {
+        "Id": 22648,
+        "Name": "The Caverns of BarBaz #22648",
+        "Connections": {
+          "North": 22647,
+          "East": 22636,
+          "South": 22649,
+          "West": 22651
+        },
+        "Contents": [
+          {
+            "Text": "A lich miner #22625",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22649,
+        "Name": "The Caverns of BarBaz #22649",
+        "Connections": {
+          "North": 22648,
+          "South": 22655,
+          "West": 22650
+        }
+      },
+      {
+        "Id": 22650,
+        "Name": "The Moat #22650",
+        "Connections": {
+          "North": 22651,
+          "East": 22649
+        }
+      },
+      {
+        "Id": 22651,
+        "Name": "The Moat #22651",
+        "Connections": {
+          "North": 22652,
+          "East": 22648,
+          "South": 22650
+        },
+        "Contents": [
+          {
+            "Text": "The underwater miner #22638",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22652,
+        "Name": "The Moat #22652",
+        "Connections": {
+          "North": 22653,
+          "East": 22647,
+          "South": 22651
+        }
+      },
+      {
+        "Id": 22653,
+        "Name": "The Waterfall #22653",
+        "Connections": {
+          "South": 22652
+        }
+      },
+      {
+        "Id": 22654,
+        "Name": "The Maelstrom #22654",
+        "Connections": {
+          "East": 22668,
+          "Up": 22653
+        }
+      },
+      {
+        "Id": 22655,
+        "Name": "Before the Drawbridge #22655",
+        "Connections": {
+          "North": 22649,
+          "East": 22633,
+          "South": 22656,
+          "West": 22663
+        }
+      },
+      {
+        "Id": 22656,
+        "Name": "The Caverns of BarBaz #22656",
+        "Connections": {
+          "North": 22655,
+          "East": 22632,
+          "South": 22657,
+          "West": 22659
+        }
+      },
+      {
+        "Id": 22657,
+        "Name": "The South Wall of the Cavern #22657",
+        "Connections": {
+          "North": 22656,
+          "East": 22631,
+          "West": 22658
+        },
+        "Contents": [
+          {
+            "Text": "The skeleton of a dwarven miner #22623",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22658,
+        "Name": "The Moat #22658",
+        "Connections": {
+          "North": 22659,
+          "East": 22657
+        },
+        "Contents": [
+          {
+            "Text": "The underwater miner #22638",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22659,
+        "Name": "The Moat #22659",
+        "Connections": {
+          "East": 22656,
+          "South": 22658
+        },
+        "Contents": [
+          {
+            "Text": "The underwater miner #22638",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22660,
+        "Name": "Sliding Across an Icy Floor #22660",
+        "Connections": {
+          "North": 22638,
+          "South": 22662,
+          "West": 22661
+        },
+        "Contents": [
+          {
+            "Text": "King Athanmere #22656",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22661,
+        "Name": "A Tool Stash #22661",
+        "Connections": {
+          "East": 22660
+        },
+        "Contents": [
+          {
+            "Text": "an amazon explorer #22636",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22662,
+        "Name": "A Dead End #22662",
+        "Connections": {
+          "North": 22660
+        },
+        "Contents": [
+          {
+            "Text": "The skeleton of a dwarven miner #22649",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22663,
+        "Name": "On the Drawbridge #22663",
+        "Connections": {
+          "East": 22655,
+          "West": 22664
+        },
+        "Contents": [
+          {
+            "Text": "The gate guard #22626",
+            "Color": "red"
+          },
+          {
+            "Text": "The gate guard #22626",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22664,
+        "Name": "Just Inside the Gate #22664",
+        "Connections": {
+          "North": 22676,
+          "East": 22663,
+          "South": 22681,
+          "West": 22685
+        }
+      },
+      {
+        "Id": 22665,
+        "Name": "The Crypt #22665",
+        "Connections": {
+          "West": 22666,
+          "Up": 22643
+        }
+      },
+      {
+        "Id": 22666,
+        "Name": "The Crypt #22666",
+        "Connections": {
+          "East": 22665,
+          "West": {
+            "RoomId": 22667,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 22667,
+        "Name": "Traktals Tomb #22667",
+        "Connections": {
+          "East": {
+            "RoomId": 22666,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "Traktal #22628",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22668,
+        "Name": "The Maelstrom #22668",
+        "Connections": {
+          "West": 22654,
+          "Down": 22669
+        },
+        "Contents": [
+          {
+            "Text": "A skull fish #22630",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22669,
+        "Name": "The Maelstrom #22669",
+        "Connections": {
+          "North": 22670,
+          "Up": 22668
+        }
+      },
+      {
+        "Id": 22670,
+        "Name": "The Maelstrom #22670",
+        "Connections": {
+          "East": 22671,
+          "South": 22669,
+          "Down": 22672
+        }
+      },
+      {
+        "Id": 22671,
+        "Name": "In a Bubble of Air #22671",
+        "Connections": {
+          "West": 22670
+        },
+        "Contents": [
+          {
+            "Text": "The grinning dwarf #22629",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22672,
+        "Name": "The Maelstrom #22672",
+        "Connections": {
+          "West": 22673,
+          "Up": 22670
+        },
+        "Contents": [
+          {
+            "Text": "A skull fish #22630",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22673,
+        "Name": "The Maelstrom #22673",
+        "Connections": {
+          "East": 22672,
+          "Down": 22674
+        },
+        "Contents": [
+          {
+            "Text": "A skull fish #22630",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22674,
+        "Name": "The Maelstrom #22674",
+        "Connections": {
+          "South": 22675,
+          "Up": 22673
+        }
+      },
+      {
+        "Id": 22675,
+        "Name": "The Bottom of the Maelstrom #22675",
+        "Connections": {
+          "North": 22674
+        },
+        "Contents": [
+          {
+            "Text": "A worler #22631",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22676,
+        "Name": "The Courtyard #22676",
+        "Connections": {
+          "North": 22677,
+          "South": 22664,
+          "West": 22686
+        },
+        "Contents": [
+          {
+            "Text": "A lich warrior #22647",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22677,
+        "Name": "The Courtyard #22677",
+        "Connections": {
+          "North": 22678,
+          "South": 22676,
+          "West": 22687
+        },
+        "Contents": [
+          {
+            "Text": "A lich warrior #22646",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22678,
+        "Name": "Stairs to the Wall #22678",
+        "Connections": {
+          "South": 22677,
+          "West": 22679,
+          "Up": 22680
+        }
+      },
+      {
+        "Id": 22679,
+        "Name": "The Guard Room #22679",
+        "Connections": {
+          "East": 22678
+        },
+        "Contents": [
+          {
+            "Text": "A lich warrior #22646",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22680,
+        "Name": "Inside the Watchtower #22680",
+        "Connections": {
+          "South": 22699,
+          "Down": 22678
+        }
+      },
+      {
+        "Id": 22681,
+        "Name": "The Courtyard #22681",
+        "Connections": {
+          "North": 22664,
+          "South": 22682,
+          "West": 22684
+        },
+        "Contents": [
+          {
+            "Text": "A lich warrior #22647",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22682,
+        "Name": "Stairs to the Wall #22682",
+        "Connections": {
+          "North": 22681,
+          "Up": 22683
+        }
+      },
+      {
+        "Id": 22683,
+        "Name": "On the Wall #22683",
+        "Connections": {
+          "North": 22702,
+          "Down": 22682
+        }
+      },
+      {
+        "Id": 22684,
+        "Name": "In Front of the Smithy #22684",
+        "Connections": {
+          "North": 22685,
+          "East": 22681,
+          "West": 22689
+        }
+      },
+      {
+        "Id": 22685,
+        "Name": "The Courtyard #22685",
+        "Connections": {
+          "North": 22686,
+          "East": 22664,
+          "South": 22684,
+          "West": 22690
+        },
+        "Contents": [
+          {
+            "Text": "A lich warrior #22646",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22686,
+        "Name": "The Courtyard #22686",
+        "Connections": {
+          "North": 22687,
+          "East": 22676,
+          "South": 22685,
+          "West": 22691
+        },
+        "Contents": [
+          {
+            "Text": "A lich warrior #22647",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22687,
+        "Name": "The Courtyard #22687",
+        "Connections": {
+          "East": 22677,
+          "South": 22686,
+          "West": 22692
+        },
+        "Contents": [
+          {
+            "Text": "A lich warrior #22646",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22688,
+        "Name": "The Smithy #22688",
+        "Connections": {
+          "South": 22698
+        },
+        "Contents": [
+          {
+            "Text": "Tarn the undead blacksmith #22632",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22689,
+        "Name": "Outside of the Barracks #22689",
+        "Connections": {
+          "North": 22690,
+          "East": 22684,
+          "South": {
+            "RoomId": 22693,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A lich warrior #22646",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22690,
+        "Name": "The Courtyard #22690",
+        "Connections": {
+          "North": 22691,
+          "East": 22685,
+          "South": 22689
+        },
+        "Contents": [
+          {
+            "Text": "A lich warrior #22647",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22691,
+        "Name": "The Courtyard #22691",
+        "Connections": {
+          "North": 22692,
+          "East": 22686,
+          "South": 22690,
+          "West": 22697
+        }
+      },
+      {
+        "Id": 22692,
+        "Name": "The Courtyard #22692",
+        "Connections": {
+          "North": 22696,
+          "East": 22687,
+          "South": 22691
+        },
+        "Contents": [
+          {
+            "Text": "A lich warrior #22647",
+            "Color": "green"
+          },
+          {
+            "Text": "A lich warrior #22647",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22693,
+        "Name": "The Barracks #22693",
+        "Connections": {
+          "North": {
+            "RoomId": 22689,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "West": 22694
+        },
+        "Contents": [
+          {
+            "Text": "A skeletal soldier #22624",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22694,
+        "Name": "The Barracks #22694",
+        "Connections": {
+          "East": 22693,
+          "West": 22695
+        },
+        "Contents": [
+          {
+            "Text": "A skeletal soldier #22624",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22695,
+        "Name": "The Barracks #22695",
+        "Connections": {
+          "East": 22694
+        },
+        "Contents": [
+          {
+            "Text": "A skeletal soldier #22624",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22696,
+        "Name": "The Abandoned Well #22696",
+        "Connections": {
+          "South": 22692
+        }
+      },
+      {
+        "Id": 22697,
+        "Name": "Before the Castle Gates #22697",
+        "Connections": {
+          "East": 22691
+        }
+      },
+      {
+        "Id": 22698,
+        "Name": "The Back Room of the Smithy #22698",
+        "Connections": {
+          "North": 22688
+        },
+        "Contents": [
+          {
+            "Text": "the horrible furnace monster #22633",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22699,
+        "Name": "On the Wall #22699",
+        "Connections": {
+          "North": 22680,
+          "South": 22700
+        },
+        "Contents": [
+          {
+            "Text": "A defender of the wall #22648",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22700,
+        "Name": "On the Wall #22700",
+        "Connections": {
+          "North": 22699,
+          "South": 22701
+        },
+        "Contents": [
+          {
+            "Text": "A defender of the wall #22648",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22701,
+        "Name": "On the Wall #22701",
+        "Connections": {
+          "North": 22700,
+          "South": 22702
+        }
+      },
+      {
+        "Id": 22702,
+        "Name": "On the Wall #22702",
+        "Connections": {
+          "North": 22701,
+          "South": 22683
+        },
+        "Contents": [
+          {
+            "Text": "A defender of the wall #22648",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22703,
+        "Name": "The Castle Foyer #22703",
+        "Connections": {
+          "West": 22704
+        }
+      },
+      {
+        "Id": 22704,
+        "Name": "The Main Corridor #22704",
+        "Connections": {
+          "North": 22705,
+          "East": 22703,
+          "South": 22715,
+          "West": 22719
+        },
+        "Contents": [
+          {
+            "Text": "A lich guard #22634",
+            "Color": "red"
+          },
+          {
+            "Text": "A lich guard #22635",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22705,
+        "Name": "The North Corridor #22705",
+        "Connections": {
+          "North": 22707,
+          "East": 22706,
+          "South": 22704
+        },
+        "Contents": [
+          {
+            "Text": "A lich guard #22634",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22706,
+        "Name": "The Lords Chamber #22706",
+        "Connections": {
+          "West": 22705
+        },
+        "Contents": [
+          {
+            "Text": "A lich lord #22651",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22707,
+        "Name": "The North Corridor #22707",
+        "Connections": {
+          "North": 22708,
+          "South": 22705
+        },
+        "Contents": [
+          {
+            "Text": "A lich guard #22635",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22708,
+        "Name": "The North Corridor #22708",
+        "Connections": {
+          "East": {
+            "RoomId": 22709,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the key to the dungeon #22670",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 22707
+        },
+        "Contents": [
+          {
+            "Text": "A lich guard #22634",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22709,
+        "Name": "Above the Dungeon #22709",
+        "Connections": {
+          "West": {
+            "RoomId": 22708,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the key to the dungeon #22670",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 22710
+        }
+      },
+      {
+        "Id": 22710,
+        "Name": "The Dungeon #22710",
+        "Connections": {
+          "East": {
+            "RoomId": 22711,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": 22712,
+          "Up": 22709
+        },
+        "Contents": [
+          {
+            "Text": "A lich jailer #22641",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22711,
+        "Name": "A Cell #22711",
+        "Connections": {
+          "West": {
+            "RoomId": 22710,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A dwarven prisoner #22642",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22712,
+        "Name": "The Dungeon #22712",
+        "Connections": {
+          "North": 22710,
+          "East": {
+            "RoomId": 22713,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          },
+          "South": {
+            "RoomId": 22714,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 22713,
+        "Name": "A Cell #22713",
+        "Connections": {
+          "West": {
+            "RoomId": 22712,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A wellfed prisoner #22644",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22714,
+        "Name": "A Cell #22714",
+        "Connections": {
+          "North": {
+            "RoomId": 22712,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "A dwarf #22643",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22715,
+        "Name": "A Corridor #22715",
+        "Connections": {
+          "North": 22704,
+          "East": 22716,
+          "South": 22718
+        }
+      },
+      {
+        "Id": 22716,
+        "Name": "The Kitchens #22716",
+        "Connections": {
+          "South": 22717,
+          "West": 22715
+        },
+        "Contents": [
+          {
+            "Text": "The bigboned chef #22640",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22717,
+        "Name": "The Kitchens #22717",
+        "Connections": {
+          "North": 22716
+        }
+      },
+      {
+        "Id": 22718,
+        "Name": "A Storage Room #22718",
+        "Connections": {
+          "North": 22715
+        },
+        "Contents": [
+          {
+            "Text": "A lich guard #22634",
+            "Color": "red"
+          },
+          {
+            "Text": "A lich guard #22635",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22719,
+        "Name": "The Main Corridor #22719",
+        "Connections": {
+          "North": 22724,
+          "East": 22704,
+          "South": {
+            "RoomId": 22720,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a golden key #22676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "West": 22722
+        }
+      },
+      {
+        "Id": 22720,
+        "Name": "By the Stairs Leading Down Into the Treasury #22720",
+        "Connections": {
+          "North": {
+            "RoomId": 22719,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "a golden key #22676",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "Down": 22721
+        },
+        "Contents": [
+          {
+            "Text": "Brobdingnagian #22653",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22721,
+        "Name": "The Corridor Leading to the Strongroom #22721",
+        "Connections": {
+          "North": 22732,
+          "Up": 22720
+        }
+      },
+      {
+        "Id": 22722,
+        "Name": "Below the Throne #22722",
+        "Connections": {
+          "East": 22719,
+          "Up": 22723
+        },
+        "Contents": [
+          {
+            "Text": "The bodyguard #22650",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22723,
+        "Name": "The Tainted Throne #22723",
+        "Connections": {
+          "Down": 22722
+        },
+        "Contents": [
+          {
+            "Text": "The lich king #22639",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22724,
+        "Name": "In Front of the Ballroom Doors #22724",
+        "Connections": {
+          "North": 22725,
+          "South": 22719
+        },
+        "Contents": [
+          {
+            "Text": "A lich guard #22634",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22725,
+        "Name": "The Ballroom #22725",
+        "Connections": {
+          "North": 22727,
+          "South": 22724,
+          "West": 22726
+        }
+      },
+      {
+        "Id": 22726,
+        "Name": "The Ballroom #22726",
+        "Connections": {
+          "North": 22728,
+          "East": 22725
+        },
+        "Contents": [
+          {
+            "Text": "A lich guard #22634",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22727,
+        "Name": "The Ballroom #22727",
+        "Connections": {
+          "South": 22725,
+          "West": 22728
+        },
+        "Contents": [
+          {
+            "Text": "A lich guard #22635",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22728,
+        "Name": "The Ballroom #22728",
+        "Connections": {
+          "East": 22727,
+          "South": 22726,
+          "West": {
+            "RoomId": 22729,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The dancing legs #22654",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22729,
+        "Name": "A Locked Room #22729",
+        "Connections": {
+          "East": {
+            "RoomId": 22728,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 22730,
+        "Name": "An Escape Tunnel #22730",
+        "Connections": {
+          "Up": 22713
+        }
+      },
+      {
+        "Id": 22731,
+        "Name": "Sliding Down an Icy Slope #22731",
+        "Connections": {
+          "Up": 22626,
+          "Down": 22627
+        }
+      },
+      {
+        "Id": 22732,
+        "Name": "The Corridor Leading to the Strongroom #22732",
+        "Connections": {
+          "North": 22733,
+          "South": 22721
+        }
+      },
+      {
+        "Id": 22733,
+        "Name": "The Corridor Leading to the Strongroom #22733",
+        "Connections": {
+          "North": 22734,
+          "South": 22732
+        }
+      },
+      {
+        "Id": 22734,
+        "Name": "The Corridor Leading to the Strongroom #22734",
+        "Connections": {
+          "North": {
+            "RoomId": 22735,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the strongroom key #22675",
+                "Color": "cornflowerblue"
+              }
+            ]
+          },
+          "South": 22733
+        },
+        "Contents": [
+          {
+            "Text": "The guard of the treasury #22652",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 22735,
+        "Name": "The Strongroom of the Castle #22735",
+        "Connections": {
+          "South": {
+            "RoomId": 22734,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": [
+              {
+                "Text": "the strongroom key #22675",
+                "Color": "cornflowerblue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Id": 22736,
+        "Name": "High Up on a Ledge #22736",
+        "Connections": {
+          "Down": 22647
+        },
+        "Contents": [
+          {
+            "Text": "The singing bush #22657",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22737,
+        "Name": " #22737",
+        "Connections": {},
+        "Contents": [
+          {
+            "Text": "A catless tail #22658",
+            "Color": "green"
+          },
+          {
+            "Text": "The skeleton of a squirrel #22659",
+            "Color": "green"
+          },
+          {
+            "Text": "A serrated battle axe with legs #22660",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 22738,
+        "Name": "Inside a Pile of Snow #22738",
+        "Connections": {
+          "Up": 22629
+        }
+      },
+      {
+        "Id": 22739,
+        "Name": "The Stairs of the Watchtower #22739",
+        "Connections": {
+          "Up": {
+            "RoomId": 22740,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        }
+      },
+      {
+        "Id": 22740,
+        "Name": "The Watchtower #22740",
+        "Connections": {
+          "Down": {
+            "RoomId": 22739,
+            "Color": "cornflowerblue",
+            "IsDoor": true,
+            "DoorColor": "cornflowerblue",
+            "DoorSigns": []
+          }
+        },
+        "Contents": [
+          {
+            "Text": "The skeleton lookout #22661",
+            "Color": "red"
+          }
+        ]
+      },
+      {
+        "Id": 2695,
+        "FrameColor": "blue",
+        "Name": "To KayinnKarin Shale Peaks #2695",
+        "Color": "blue",
+        "Connections": {
+          "West": 2694,
+          "Down": 22623
+        }
+      }
+    ]
+  }
+}

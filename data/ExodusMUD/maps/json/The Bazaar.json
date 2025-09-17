@@ -1,0 +1,224 @@
+{
+  "Area": {
+    "Name": "The Bazaar",
+    "MinimumLevel": "1",
+    "MaximumLevel": "10",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 5752,
+        "Name": "Entrance to the Bazaar #5752",
+        "Connections": {
+          "East": 5753,
+          "West": 26876
+        }
+      },
+      {
+        "Id": 5753,
+        "Name": "Cobblestone Path #5753",
+        "Connections": {
+          "North": 5755,
+          "East": 5754,
+          "South": 5756,
+          "West": 5752
+        }
+      },
+      {
+        "Id": 5754,
+        "Name": "Cobblestone Path #5754",
+        "Connections": {
+          "North": 5757,
+          "East": 5759,
+          "South": 5758,
+          "West": 5753
+        }
+      },
+      {
+        "Id": 5755,
+        "Name": "A brightly colored shop tent #5755",
+        "Connections": {
+          "South": 5753
+        },
+        "Contents": [
+          {
+            "Text": "Irrian the cleric #5752",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5756,
+        "Name": "A brightly colored shop tent #5756",
+        "Connections": {
+          "North": 5753
+        }
+      },
+      {
+        "Id": 5757,
+        "Name": "A brightly colored shop tent #5757",
+        "Connections": {
+          "South": 5754
+        }
+      },
+      {
+        "Id": 5758,
+        "Name": "A brightly colored shop tent #5758",
+        "Connections": {
+          "North": 5754
+        }
+      },
+      {
+        "Id": 5759,
+        "Name": "Cobblestone Path #5759",
+        "Connections": {
+          "North": 5760,
+          "East": 5762,
+          "South": 5761,
+          "West": 5754
+        }
+      },
+      {
+        "Id": 5760,
+        "Name": "A brightly colored shop tent #5760",
+        "Connections": {
+          "South": 5759
+        }
+      },
+      {
+        "Id": 5761,
+        "Name": "A brightly colored shop tent #5761",
+        "Connections": {
+          "North": 5759
+        }
+      },
+      {
+        "Id": 5762,
+        "Name": "Cobblestone Path #5762",
+        "Connections": {
+          "North": 5763,
+          "East": 5765,
+          "South": 5764,
+          "West": 5759
+        }
+      },
+      {
+        "Id": 5763,
+        "Name": "A brightly colored shop tent #5763",
+        "Connections": {
+          "South": 5762
+        }
+      },
+      {
+        "Id": 5764,
+        "Name": "A brightly colored shop tent #5764",
+        "Connections": {
+          "North": 5762
+        }
+      },
+      {
+        "Id": 5765,
+        "Name": "Western Bazaar Square #5765",
+        "Connections": {
+          "North": 5766,
+          "East": 5770,
+          "South": 5767,
+          "West": 5762
+        }
+      },
+      {
+        "Id": 5766,
+        "Name": "The Battle Tent #5766",
+        "Connections": {
+          "East": 5772,
+          "South": 5765
+        }
+      },
+      {
+        "Id": 5767,
+        "Name": "The Game Tent #5767",
+        "Connections": {
+          "North": 5765,
+          "East": 5768
+        }
+      },
+      {
+        "Id": 5768,
+        "Name": "Southern Bazaar Square #5768",
+        "Connections": {
+          "North": 5770,
+          "East": 5774,
+          "West": 5767
+        }
+      },
+      {
+        "Id": 5769,
+        "Name": " #5769",
+        "Connections": {}
+      },
+      {
+        "Id": 5770,
+        "Name": "Center Square of the Bazaar #5770",
+        "Connections": {
+          "North": 5772,
+          "East": 5771,
+          "South": 5768,
+          "West": 5765
+        }
+      },
+      {
+        "Id": 5771,
+        "Name": "Eastern Bazaar Square #5771",
+        "Connections": {
+          "North": 5773,
+          "South": 5774,
+          "West": 5770
+        }
+      },
+      {
+        "Id": 5772,
+        "Name": "The Ticket Booth #5772",
+        "Connections": {
+          "East": 5773,
+          "South": 5770,
+          "West": 5766
+        }
+      },
+      {
+        "Id": 5773,
+        "Name": "The Lounge Tent #5773",
+        "Connections": {
+          "South": 5771,
+          "West": 5772
+        }
+      },
+      {
+        "Id": 5774,
+        "Name": "The Gambling Tent #5774",
+        "Connections": {
+          "North": 5771,
+          "South": 1056,
+          "West": 5768
+        }
+      },
+      {
+        "Id": 26876,
+        "FrameColor": "blue",
+        "Name": "To Exodus Homelands #26876",
+        "Color": "blue",
+        "Connections": {
+          "North": 25092,
+          "East": 5752
+        }
+      },
+      {
+        "Id": 1056,
+        "FrameColor": "blue",
+        "Name": "To Ocean Ferry #1056",
+        "Color": "blue",
+        "Connections": {
+          "South": 1055
+        }
+      }
+    ]
+  }
+}

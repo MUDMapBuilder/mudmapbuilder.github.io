@@ -1,0 +1,99 @@
+{
+  "Area": {
+    "Name": "Lightning Rod",
+    "MinimumLevel": "1",
+    "MaximumLevel": "10",
+    "BackgroundColor": "white",
+    "Rooms": [
+      {
+        "Id": 5201,
+        "Name": "Base of the Lightning Rod. #5201",
+        "Connections": {}
+      },
+      {
+        "Id": 5202,
+        "Name": "Base of the Lightning Rod #5202",
+        "Connections": {
+          "East": 5203
+        }
+      },
+      {
+        "Id": 5203,
+        "Name": "Base of the Lightning Rod #5203",
+        "Connections": {
+          "West": 5202,
+          "Up": 5204
+        }
+      },
+      {
+        "Id": 5204,
+        "Name": "Climbing the Lightning Rod #5204",
+        "Connections": {
+          "West": 5205,
+          "Down": 5203
+        }
+      },
+      {
+        "Id": 5205,
+        "Name": "Climbing the Lightning Rod #5205",
+        "Connections": {
+          "East": 5204,
+          "Up": 5206
+        }
+      },
+      {
+        "Id": 5206,
+        "Name": "Atop the Lightning Rod #5206",
+        "Connections": {
+          "Down": 5205
+        }
+      },
+      {
+        "Id": 5207,
+        "Name": "Within the Thunderclouds #5207",
+        "Connections": {}
+      },
+      {
+        "Id": 5214,
+        "Name": "Inside the dirt covered elevator #5214",
+        "Connections": {}
+      },
+      {
+        "Id": 5218,
+        "Name": "Entrence to Azladacks Prison #5218",
+        "Connections": {
+          "South": 5220
+        }
+      },
+      {
+        "Id": 5220,
+        "Name": "An underground tunnel #5220",
+        "Connections": {
+          "North": 5218,
+          "South": 5222
+        }
+      },
+      {
+        "Id": 5221,
+        "Name": "A Dark Alcove #5221",
+        "Connections": {
+          "West": 5222
+        },
+        "Contents": [
+          {
+            "Text": "Maywen #5213",
+            "Color": "green"
+          }
+        ]
+      },
+      {
+        "Id": 5222,
+        "Name": "An underground tunnel #5222",
+        "Connections": {
+          "North": 5220,
+          "East": 5221
+        }
+      }
+    ]
+  }
+}
