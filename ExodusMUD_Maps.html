@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ExodusMUD's Maps</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" />
+</head>
+<body>
+    <table id="table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Credits</th>
+                <th scope="col">Min Level</th>
+                <th scope="col">Max Level</th>
+                <th scope="col">Json</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+    <script>
+var data = [
+[["the null set", "data/ExodusMUD/maps/png/the null set.png"], "", "100", "100", "data/ExodusMUD/maps/json/the null set.json"],
+[["Thesden", "data/ExodusMUD/maps/png/Thesden.png"], "", "1", "100", "data/ExodusMUD/maps/json/Thesden.json"],
+[["Three Streams", "data/ExodusMUD/maps/png/Three Streams.png"], "", "1", "40", "data/ExodusMUD/maps/json/Three Streams.json"],
+[["Counterclockwise", "data/ExodusMUD/maps/png/Counterclockwise.png"], "", "92", "100", "data/ExodusMUD/maps/json/Counterclockwise.json"],
+[["Vice Island", "data/ExodusMUD/maps/png/Vice Island.png"], "", "25", "50", "data/ExodusMUD/maps/json/Vice Island.json"],
+[["Keep of Lesser Dragons", "data/ExodusMUD/maps/png/Keep of Lesser Dragons.png"], "", "30", "70", "data/ExodusMUD/maps/json/Keep of Lesser Dragons.json"],
+[["Drow City", "data/ExodusMUD/maps/png/Drow City.png"], "", "20", "40", "data/ExodusMUD/maps/json/Drow City.json"],
+[["Ancient Pyramid", "data/ExodusMUD/maps/png/Ancient Pyramid.png"], "", "25", "60", "data/ExodusMUD/maps/json/Ancient Pyramid.json"],
+[["Arena of Legends", "data/ExodusMUD/maps/png/Arena of Legends.png"], "", "100", "100", "data/ExodusMUD/maps/json/Arena of Legends.json"],
+[["Fulk Nerra", "data/ExodusMUD/maps/png/Fulk Nerra.png"], "", "10", "30", "data/ExodusMUD/maps/json/Fulk Nerra.json"],
+[["player", "data/ExodusMUD/maps/png/player.png"], "", "1", "10", "data/ExodusMUD/maps/json/player.json"],
+[["Sea of Fate", "data/ExodusMUD/maps/png/Sea of Fate.png"], "", "15", "50", "data/ExodusMUD/maps/json/Sea of Fate.json"],
+[["Giant Oak Tree", "data/ExodusMUD/maps/png/Giant Oak Tree.png"], "", "1", "25", "data/ExodusMUD/maps/json/Giant Oak Tree.json"],
+[["Castle Dunluce", "data/ExodusMUD/maps/png/Castle Dunluce.png"], "", "25", "65", "data/ExodusMUD/maps/json/Castle Dunluce.json"],
+[["Sarrendale Farm", "data/ExodusMUD/maps/png/Sarrendale Farm.png"], "", "5", "12", "data/ExodusMUD/maps/json/Sarrendale Farm.json"],
+[["Erion Abbey", "data/ExodusMUD/maps/png/Erion Abbey.png"], "", "20", "60", "data/ExodusMUD/maps/json/Erion Abbey.json"],
+[["Cove", "data/ExodusMUD/maps/png/Cove.png"], "", "1", "50", "data/ExodusMUD/maps/json/Cove.json"],
+[["The Bayou Teche", "data/ExodusMUD/maps/png/The Bayou Teche.png"], "", "5", "15", "data/ExodusMUD/maps/json/The Bayou Teche.json"],
+[["Burning Chambers", "data/ExodusMUD/maps/png/Burning Chambers.png"], "", "50", "60", "data/ExodusMUD/maps/json/Burning Chambers.json"],
+[["Silver Crescent Woods", "data/ExodusMUD/maps/png/Silver Crescent Woods.png"], "", "30", "60", "data/ExodusMUD/maps/json/Silver Crescent Woods.json"],
+[["Crimson Courts", "data/ExodusMUD/maps/png/Crimson Courts.png"], "", "1", "90", "data/ExodusMUD/maps/json/Crimson Courts.json"],
+[["Painted Dreams", "data/ExodusMUD/maps/png/Painted Dreams.png"], "", "35", "80", "data/ExodusMUD/maps/json/Painted Dreams.json"],
+[["The town of Ebon Downs", "data/ExodusMUD/maps/png/The town of Ebon Downs.png"], "", "20", "50", "data/ExodusMUD/maps/json/The town of Ebon Downs.json"],
+[["Unicorn Point", "data/ExodusMUD/maps/png/Unicorn Point.png"], "", "35", "50", "data/ExodusMUD/maps/json/Unicorn Point.json"],
+[["Eastern Prairie", "data/ExodusMUD/maps/png/Eastern Prairie.png"], "", "1", "20", "data/ExodusMUD/maps/json/Eastern Prairie.json"],
+[["The City of The Sun", "data/ExodusMUD/maps/png/The City of The Sun.png"], "", "50", "70", "data/ExodusMUD/maps/json/The City of The Sun.json"],
+[["Pirate Ship", "data/ExodusMUD/maps/png/Pirate Ship.png"], "", "40", "70", "data/ExodusMUD/maps/json/Pirate Ship.json"],
+[["Linden", "data/ExodusMUD/maps/png/Linden.png"], "", "1", "60", "data/ExodusMUD/maps/json/Linden.json"],
+[["The Gauntlet", "data/ExodusMUD/maps/png/The Gauntlet.png"], "", "5", "25", "data/ExodusMUD/maps/json/The Gauntlet.json"],
+[["Saiya", "data/ExodusMUD/maps/png/Saiya.png"], "", "25", "91", "data/ExodusMUD/maps/json/Saiya.json"],
+[["Argent Stronghold", "data/ExodusMUD/maps/png/Argent Stronghold.png"], "", "55", "91", "data/ExodusMUD/maps/json/Argent Stronghold.json"],
+[["The Wastelands", "data/ExodusMUD/maps/png/The Wastelands.png"], "", "15", "40", "data/ExodusMUD/maps/json/The Wastelands.json"],
+[["Nreyth", "data/ExodusMUD/maps/png/Nreyth.png"], "", "1", "91", "data/ExodusMUD/maps/json/Nreyth.json"],
+[["Abandoned Guild of Chaos", "data/ExodusMUD/maps/png/Abandoned Guild of Chaos.png"], "", "50", "60", "data/ExodusMUD/maps/json/Abandoned Guild of Chaos.json"],
+[["Shattered Domain of Eyunel", "data/ExodusMUD/maps/png/Shattered Domain of Eyunel.png"], "", "75", "91", "data/ExodusMUD/maps/json/Shattered Domain of Eyunel.json"],
+[["Freeport", "data/ExodusMUD/maps/png/Freeport.png"], "", "8", "53", "data/ExodusMUD/maps/json/Freeport.json"],
+[["Underwater Ruins", "data/ExodusMUD/maps/png/Underwater Ruins.png"], "", "75", "85", "data/ExodusMUD/maps/json/Underwater Ruins.json"],
+[["The Spellthrowers Destiny", "data/ExodusMUD/maps/png/The Spellthrowers Destiny.png"], "", "20", "50", "data/ExodusMUD/maps/json/The Spellthrowers Destiny.json"],
+[["Haven", "data/ExodusMUD/maps/png/Haven.png"], "", "1", "100", "data/ExodusMUD/maps/json/Haven.json"],
+[["KayinnKarin Shale Peaks", "data/ExodusMUD/maps/png/KayinnKarin Shale Peaks.png"], "", "50", "60", "data/ExodusMUD/maps/json/KayinnKarin Shale Peaks.json"],
+[["The Forest Fierense", "data/ExodusMUD/maps/png/The Forest Fierense.png"], "", "10", "50", "data/ExodusMUD/maps/json/The Forest Fierense.json"],
+[["The Macocaap Outlands", "data/ExodusMUD/maps/png/The Macocaap Outlands.png"], "", "10", "50", "data/ExodusMUD/maps/json/The Macocaap Outlands.json"],
+[["Harrissahne Drylands", "data/ExodusMUD/maps/png/Harrissahne Drylands.png"], "", "10", "40", "data/ExodusMUD/maps/json/Harrissahne Drylands.json"],
+[["o Au septieme ciel o", "data/ExodusMUD/maps/png/o Au septieme ciel o.png"], "", "60", "91", "data/ExodusMUD/maps/json/o Au septieme ciel o.json"],
+[["Ryaiscars Rises", "data/ExodusMUD/maps/png/Ryaiscars Rises.png"], "", "65", "75", "data/ExodusMUD/maps/json/Ryaiscars Rises.json"],
+[["The Desert of AthTanar", "data/ExodusMUD/maps/png/The Desert of AthTanar.png"], "", "10", "50", "data/ExodusMUD/maps/json/The Desert of AthTanar.json"],
+[["Palace of WeinCloudstan", "data/ExodusMUD/maps/png/Palace of WeinCloudstan.png"], "", "70", "91", "data/ExodusMUD/maps/json/Palace of WeinCloudstan.json"],
+[["WeinCloudstan City", "data/ExodusMUD/maps/png/WeinCloudstan City.png"], "", "55", "80", "data/ExodusMUD/maps/json/WeinCloudstan City.json"],
+[["Keep of the Krathen", "data/ExodusMUD/maps/png/Keep of the Krathen.png"], "", "55", "91", "data/ExodusMUD/maps/json/Keep of the Krathen.json"],
+[["The Jungle", "data/ExodusMUD/maps/png/The Jungle.png"], "", "10", "25", "data/ExodusMUD/maps/json/The Jungle.json"],
+[["The Flower Garden", "data/ExodusMUD/maps/png/The Flower Garden.png"], "", "35", "50", "data/ExodusMUD/maps/json/The Flower Garden.json"],
+[["The Hell of Auvyron", "data/ExodusMUD/maps/png/The Hell of Auvyron.png"], "", "80", "91", "data/ExodusMUD/maps/json/The Hell of Auvyron.json"],
+[["Playing Field", "data/ExodusMUD/maps/png/Playing Field.png"], "", "92", "100", "data/ExodusMUD/maps/json/Playing Field.json"],
+[["Merossa", "data/ExodusMUD/maps/png/Merossa.png"], "", "40", "91", "data/ExodusMUD/maps/json/Merossa.json"],
+[["Lunar Plains", "data/ExodusMUD/maps/png/Lunar Plains.png"], "", "30", "50", "data/ExodusMUD/maps/json/Lunar Plains.json"],
+[["Orchard", "data/ExodusMUD/maps/png/Orchard.png"], "", "1", "10", "data/ExodusMUD/maps/json/Orchard.json"],
+[["Thesdens Eastern Sewers", "data/ExodusMUD/maps/png/Thesdens Eastern Sewers.png"], "", "20", "30", "data/ExodusMUD/maps/json/Thesdens Eastern Sewers.json"],
+[["Isle of the Dead", "data/ExodusMUD/maps/png/Isle of the Dead.png"], "", "85", "90", "data/ExodusMUD/maps/json/Isle of the Dead.json"],
+[["Ocean Ferry", "data/ExodusMUD/maps/png/Ocean Ferry.png"], "", "1", "10", "data/ExodusMUD/maps/json/Ocean Ferry.json"],
+[["The Minefield", "data/ExodusMUD/maps/png/The Minefield.png"], "", "92", "100", "data/ExodusMUD/maps/json/The Minefield.json"],
+[["Stillwater", "data/ExodusMUD/maps/png/Stillwater.png"], "", "80", "91", "data/ExodusMUD/maps/json/Stillwater.json"],
+[["Taien", "data/ExodusMUD/maps/png/Taien.png"], "", "1", "1", "data/ExodusMUD/maps/json/Taien.json"],
+[["0oWarpedoLandso0", "data/ExodusMUD/maps/png/0oWarpedoLandso0.png"], "", "70", "90", "data/ExodusMUD/maps/json/0oWarpedoLandso0.json"],
+[["The Lost Continent", "data/ExodusMUD/maps/png/The Lost Continent.png"], "", "60", "70", "data/ExodusMUD/maps/json/The Lost Continent.json"],
+[["Warped Fulk Nerra", "data/ExodusMUD/maps/png/Warped Fulk Nerra.png"], "", "90", "90", "data/ExodusMUD/maps/json/Warped Fulk Nerra.json"],
+[["Guttersnipes Fort", "data/ExodusMUD/maps/png/Guttersnipes Fort.png"], "", "9", "45", "data/ExodusMUD/maps/json/Guttersnipes Fort.json"],
+[["Timberwood Village", "data/ExodusMUD/maps/png/Timberwood Village.png"], "", "1", "10", "data/ExodusMUD/maps/json/Timberwood Village.json"],
+[["Temple of the Phalanx", "data/ExodusMUD/maps/png/Temple of the Phalanx.png"], "", "90", "91", "data/ExodusMUD/maps/json/Temple of the Phalanx.json"],
+[["BarBaz", "data/ExodusMUD/maps/png/BarBaz.png"], "", "20", "100", "data/ExodusMUD/maps/json/BarBaz.json"],
+[["Catacombs", "data/ExodusMUD/maps/png/Catacombs.png"], "", "1", "10", "data/ExodusMUD/maps/json/Catacombs.json"],
+[["The Tower of Babel", "data/ExodusMUD/maps/png/The Tower of Babel.png"], "", "1", "10", "data/ExodusMUD/maps/json/The Tower of Babel.json"],
+[["Clockwise", "data/ExodusMUD/maps/png/Clockwise.png"], "", "1", "10", "data/ExodusMUD/maps/json/Clockwise.json"],
+[["Lightning Rod", "data/ExodusMUD/maps/png/Lightning Rod.png"], "", "1", "10", "data/ExodusMUD/maps/json/Lightning Rod.json"],
+[["Spiritual Plane", "data/ExodusMUD/maps/png/Spiritual Plane.png"], "", "1", "10", "data/ExodusMUD/maps/json/Spiritual Plane.json"],
+[["mmArachnoid Cavesmm", "data/ExodusMUD/maps/png/mmArachnoid Cavesmm.png"], "", "20", "35", "data/ExodusMUD/maps/json/mmArachnoid Cavesmm.json"],
+[["The Bazaar", "data/ExodusMUD/maps/png/The Bazaar.png"], "", "1", "10", "data/ExodusMUD/maps/json/The Bazaar.json"],
+[["Druids", "data/ExodusMUD/maps/png/Druids.png"], "", "1", "10", "data/ExodusMUD/maps/json/Druids.json"],
+[["Newbie Zone", "data/ExodusMUD/maps/png/Newbie Zone.png"], "", "1", "10", "data/ExodusMUD/maps/json/Newbie Zone.json"],
+[["Newbie Arena", "data/ExodusMUD/maps/png/Newbie Arena.png"], "", "1", "10", "data/ExodusMUD/maps/json/Newbie Arena.json"],
+];
+
+
+    $('#table').DataTable({
+		columnDefs: [
+			{
+				targets: 0,
+				render: function (data, type) {
+					return '<a href="' + data[1] + '">' + data[0] + '</a>';
+				}
+            },
+			{
+				targets: 4,
+				render: function (data, type) {
+					return '<a href="' + data + '">json</a>';
+				}
+            }
+		],
+        paging: false,
+        data: data
+    });
+    </script>
+</body>
+</html>
